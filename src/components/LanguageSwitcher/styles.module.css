@@ -1,0 +1,8 @@
+.langSwitcher {
+  position: relative;
+}
+
+.active {
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+}

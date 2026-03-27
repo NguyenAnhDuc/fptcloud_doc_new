@@ -1,5 +1,8 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -72,6 +75,26 @@ const config = {
         sidebarPath: './sidebars-ja.js',
       },
     ],
+    // Custom plugin: build URL mapping across languages for language switcher
+    './src/docusaurus/langMappingPlugin.js',
+    // Custom plugin: scope search to active language only
+    function customSearchScopePlugin() {
+      return {
+        name: 'custom-search-scope',
+        configureWebpack(_config, isServer) {
+          if (isServer) return {};
+          return {
+            resolve: {
+              alias: {
+                '@docusaurus/plugin-content-docs/client': require.resolve(
+                  './src/docusaurus/customDocsClient.js'
+                ),
+              },
+            },
+          };
+        },
+      };
+    },
   ],
 
   themeConfig:
@@ -89,29 +112,8 @@ const config = {
         },
         items: [
           {
-            type: 'dropdown',
-            label: 'Language',
+            type: 'custom-LanguageSwitcher',
             position: 'right',
-            items: [
-              {
-                type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
-                docsPluginId: 'en',
-                label: 'English',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
-                docsPluginId: 'vi',
-                label: 'Tiếng Việt',
-              },
-              {
-                type: 'docSidebar',
-                sidebarId: 'tutorialSidebar',
-                docsPluginId: 'ja',
-                label: '日本語',
-              },
-            ],
           },
         ],
       },
