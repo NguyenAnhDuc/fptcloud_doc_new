@@ -1,7 +1,7 @@
 ---
 id: "tags-instance"
 title: "Quản lý tag cho Instance"
-description: "**Bước 1** : Ở menu chọn **Instance Management** , chọn **Create instance** để khởi tạo một máy ảo"
+description: "Gắn và quản lý tag cho Instance — khi khởi tạo hoặc sau khi Instance đã được tạo."
 sidebar_label: "Quản lý tag cho Instance"
 sidebar_position: 7
 ---

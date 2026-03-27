@@ -1,7 +1,7 @@
 ---
 id: "edit-tag"
 title: "Chỉnh sửa tag"
-description: "Người dùng thao tác như sau:"
+description: "Chỉnh sửa Key, Value hoặc Color của tag — hoặc thay đổi resource scope cho level Project/VPC."
 sidebar_label: "Chỉnh sửa tag"
 sidebar_position: 4
 ---

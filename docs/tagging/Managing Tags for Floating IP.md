@@ -1,8 +1,8 @@
 ---
 id: "Managing Tags for Floating IP"
-title: "Managing Tags For Floating Ip"
-description: "**Step 1** : In the menu, select**Floating IP** , then click **Allocate floating IP**."
-sidebar_label: "Managing Tags For Floating..."
+title: "Manage tag for Floating IP"
+description: "Assign and manage tags for Floating IP — during allocation or after the IP has been created."
+sidebar_label: "Manage tag for Floating IP"
 sidebar_position: 11
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "tagging"
 title: "Tagging"
-description: "All documents"
+description: "Tags help you manage, classify, and filter cloud resources by purpose, owner, or environment."
 sidebar_label: "Tagging"
 sidebar_position: 1
 ---

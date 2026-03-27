@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Custom image"
-title: "Manage Tag To Custom Image"
-description: "**Step 1** : In the menu, select **Custom Image** , then click **Upload image**."
-sidebar_label: "Manage Tag To Custom..."
+title: "Manage tag to Custom Image"
+description: "Assign and manage tags for Custom Image — during upload or after the image has been created."
+sidebar_label: "Manage tag to Custom Image"
 sidebar_position: 10
 ---
 

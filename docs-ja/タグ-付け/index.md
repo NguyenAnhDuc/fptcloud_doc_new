@@ -1,7 +1,7 @@
 ---
 id: "タグ-付け"
 title: "タグ 付け"
-description: "全ての資料"
+description: "tagはクラウドリソースを目的・所有者・環境別に管理、分類、フィルタリングするのに役立ちます。"
 sidebar_label: "タグ 付け"
 sidebar_position: 1
 ---

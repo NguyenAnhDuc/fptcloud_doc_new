@@ -1,8 +1,8 @@
 ---
 id: "Manage tag for Security group"
-title: "Manage Tag For Security Group"
-description: "**Step 1** : In the menu, select **Security Group** , then click **Create security group**."
-sidebar_label: "Manage Tag For Security..."
+title: "Manage tag for Security Group"
+description: "Assign and manage tags for Security Group — during creation or after the Security Group has been provisioned."
+sidebar_label: "Manage tag for Security Group"
 sidebar_position: 13
 ---
 

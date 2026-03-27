@@ -1,7 +1,7 @@
 ---
 id: "create-tag-new"
 title: "Khởi tạo một tag mới"
-description: "Người dùng thao tác như sau:"
+description: "Khởi tạo tag mới để phân loại tài nguyên theo mục đích, môi trường hoặc chủ sở hữu."
 sidebar_label: "Khởi tạo một tag mới"
 sidebar_position: 3
 ---

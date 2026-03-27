@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Snapshot"
-title: "Manage Tag To Snapshot"
-description: "**Step 1** : In the menu, select **Instance Management** , click **Actions** , then choose **Create snapshot**."
-sidebar_label: "Manage Tag To Snapshot"
+title: "Manage tag to Snapshot"
+description: "Assign and manage tags for Snapshot — during creation from an Instance or Storage Disk."
+sidebar_label: "Manage tag to Snapshot"
 sidebar_position: 9
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "tags-floating-ip"
 title: "Quản lý tag cho Floating IP"
-description: "**Bước 1** : Ở menu chọn **Floating IP** > chọn **Allocate floating IP**"
+description: "Gắn và quản lý tag cho Floating IP — khi allocate hoặc sau khi địa chỉ IP đã được tạo."
 sidebar_label: "Quản lý tag cho Floating IP"
 sidebar_position: 11
 ---

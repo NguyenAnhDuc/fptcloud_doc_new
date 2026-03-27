@@ -1,7 +1,7 @@
 ---
 id: "delete-tag"
 title: "Xóa tag đã tạo"
-description: "**Lưu ý: Thao tác này sẽ đồng thời gỡ các tài nguyên khỏi các tag đã gắn với nó. Việc xóa tag này sẽ không tag khôi phục"
+description: "Xóa tag và gỡ toàn bộ tài nguyên liên kết. Thao tác không thể hoàn tác."
 sidebar_label: "Xóa tag đã tạo"
 sidebar_position: 5
 ---

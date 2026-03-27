@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Resource"
-title: "Tagging"
-description: "All documents"
-sidebar_label: "Tagging"
+title: "Manage tag to resource"
+description: "Assign and manage tags on resources: Instance, Storage Disk, Snapshot, Custom Image, Floating IP, Subnet, Security Group, Load Balancer."
+sidebar_label: "Manage tag to resource"
 sidebar_position: 6
 ---
 

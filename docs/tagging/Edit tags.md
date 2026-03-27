@@ -1,8 +1,8 @@
 ---
 id: "Edit tags"
-title: "Edit Tags"
-description: "The user does the following:"
-sidebar_label: "Edit Tags"
+title: "Edit tags"
+description: "Edit the Key, Value, or Color of a tag — or change the resource scope for Project/VPC level."
+sidebar_label: "Edit tags"
 sidebar_position: 4
 ---
 

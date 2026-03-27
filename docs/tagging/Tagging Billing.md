@@ -1,8 +1,8 @@
 ---
 id: "Tagging Billing"
-title: "Tagging"
-description: "All documents"
-sidebar_label: "Tagging"
+title: "Tagging Billing"
+description: "View cost analytics by tag in Cost Explorer to track billing by resource group."
+sidebar_label: "Tagging Billing"
 sidebar_position: 14
 ---
 

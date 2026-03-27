@@ -1,7 +1,7 @@
 ---
 id: "Delete Tag"
 title: "Delete Tag"
-description: "**Note: This will simultaneously remove the resource from the tags associated with it. Deleting this tag is irreversible"
+description: "Delete a tag and remove all associated resources. This action is irreversible."
 sidebar_label: "Delete Tag"
 sidebar_position: 5
 ---

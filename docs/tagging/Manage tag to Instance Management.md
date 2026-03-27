@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Instance Management"
-title: "Manage Tag To Instance Management"
-description: "**Step 1:** In the menu, select **Instance Management** , then click **Create instance** to create a new virtual machine"
-sidebar_label: "Manage Tag To Instance..."
+title: "Manage tag to Instance Management"
+description: "Assign and manage tags for virtual machines — during creation or after the Instance has been provisioned."
+sidebar_label: "Manage tag to Instance Management"
 sidebar_position: 7
 ---
 

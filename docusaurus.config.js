@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://fptcloud-docs.ducna.xyz',
   baseUrl: '/',
 
   onBrokenLinks: 'warn',

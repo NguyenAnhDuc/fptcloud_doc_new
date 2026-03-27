@@ -1,7 +1,7 @@
 ---
 id: "resource-1"
 title: "Quản lý tag cho tài nguyên"
-description: "Người dùng có thể gắn và gỡ tag đối với các tài nguyên sau:"
+description: "Gắn và quản lý tag trên các tài nguyên: Instance, Storage Disk, Snapshot, Custom Image, Floating IP, Subnet, Security Group, Load Balancer."
 sidebar_label: "Quản lý tag cho tài nguyên"
 sidebar_position: 6
 ---

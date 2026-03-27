@@ -1,7 +1,7 @@
 ---
 id: "tags-snapshot"
 title: "Quản lý tag cho Snapshot"
-description: "**Bước 1** : Ở menu chọn **Instance Management** , chọn **Actions** > chọn **Create snapshot**"
+description: "Gắn và quản lý tag cho Snapshot — khi tạo từ Instance hoặc từ Storage Disk."
 sidebar_label: "Quản lý tag cho Snapshot"
 sidebar_position: 9
 ---

@@ -1,7 +1,7 @@
 ---
 id: "tags-security-group"
 title: "Quản lý tag cho Security Group"
-description: "**Bước 1** : Ở menu chọn **Security group** > chọn **Create security group**"
+description: "Gắn và quản lý tag cho Security Group — khi tạo mới hoặc sau khi Security Group đã được khởi tạo."
 sidebar_label: "Quản lý tag cho Security Group"
 sidebar_position: 13
 ---

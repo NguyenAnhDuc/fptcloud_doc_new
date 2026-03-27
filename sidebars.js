@@ -28,6 +28,7 @@ module.exports = {
                 { type: 'doc', id: 'tagging/Managing Tags for Floating IP', label: 'Managing Tags for Floating IP' },
                 { type: 'doc', id: 'tagging/Manage tag to Subnet', label: 'Manage tag for Subnet' },
                 { type: 'doc', id: 'tagging/Manage tag for Security group', label: 'Manage tag for Security group' },
+                { type: 'doc', id: 'tagging/tagg-lb', label: 'Manage tag for Load Balancer' },
               ],
             },
             { type: 'doc', id: 'tagging/Tagging Billing', label: 'Tagging Billing' },

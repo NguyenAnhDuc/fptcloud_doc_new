@@ -1,7 +1,7 @@
 ---
 id: "tags-subnet"
 title: "Quản lý tag cho Subnet"
-description: "**Bước 1** : Ở menu chọn **Subnet** > chọn **Create subnet**"
+description: "Gắn và quản lý tag cho Subnet — khi tạo mới hoặc sau khi Subnet đã được khởi tạo."
 sidebar_label: "Quản lý tag cho Subnet"
 sidebar_position: 12
 ---

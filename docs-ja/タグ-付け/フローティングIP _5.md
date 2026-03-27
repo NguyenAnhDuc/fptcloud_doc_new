@@ -1,8 +1,8 @@
 ---
 id: "フローティングIP _5"
-title: "フローティングIp _5"
-description: "**ステップ1** :メニューで「フローティングIP」を選択し>「フローティングIPの割り当て」を選択します"
-sidebar_label: "フローティングIp _5"
+title: "Floating IPのタグ管理"
+description: "Floating IPにタグを付けて管理します — 割り当て時または作成後に設定できます。"
+sidebar_label: "Floating IPのタグ管理"
 sidebar_position: 11
 ---
 

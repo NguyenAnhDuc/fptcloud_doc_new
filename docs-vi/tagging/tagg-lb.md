@@ -1,7 +1,7 @@
 ---
 id: "tagg-lb"
 title: "Quản lý tag cho Load Balancer"
-description: "**Bước 1** : Ở menu chọn **Classic load balancer** > chọn **Create load balancer**"
+description: "Gắn và quản lý tag cho Load Balancer — khi tạo mới hoặc sau khi Load Balancer đã được khởi tạo."
 sidebar_label: "Quản lý tag cho Load Balancer"
 sidebar_position: 14
 ---

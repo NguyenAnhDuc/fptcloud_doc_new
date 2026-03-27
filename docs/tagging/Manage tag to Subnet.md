@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Subnet"
-title: "Manage Tag To Subnet"
-description: "**Step 1** : In the menu, select **Subnet** , then click **Create subnet**."
-sidebar_label: "Manage Tag To Subnet"
+title: "Manage tag to Subnet"
+description: "Assign and manage tags for Subnet — during creation or after the Subnet has been provisioned."
+sidebar_label: "Manage tag to Subnet"
 sidebar_position: 12
 ---
 

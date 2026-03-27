@@ -1,8 +1,8 @@
 ---
 id: "Manage tag to Storage disk"
-title: "Manage Tag To Storage Disk"
-description: "**Step 1** : On the **Storage Disk** screen, select a disk, click **Actions** , then choose **Manage tags**."
-sidebar_label: "Manage Tag To Storage..."
+title: "Manage tag to Storage Disk"
+description: "Assign and manage tags for Storage Disk — during creation or after the disk has been provisioned."
+sidebar_label: "Manage tag to Storage Disk"
 sidebar_position: 8
 ---
 

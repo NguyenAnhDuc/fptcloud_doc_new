@@ -1,7 +1,7 @@
 ---
 id: "tags-custom-image"
 title: "Quản lý tag cho Custom Image"
-description: "**Bước 1** : Ở menu chọn **Custom Image** > chọn **Upload image**"
+description: "Gắn và quản lý tag cho Custom Image — khi upload hoặc sau khi image đã được tạo."
 sidebar_label: "Quản lý tag cho Custom Image"
 sidebar_position: 10
 ---

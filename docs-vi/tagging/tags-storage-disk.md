@@ -1,7 +1,7 @@
 ---
 id: "tags-storage-disk"
 title: "Quản lý tag cho ổ đĩa"
-description: "Người dùng thực hiện"
+description: "Gắn và quản lý tag cho Storage Disk — khi tạo mới hoặc sau khi Storage Disk đã được khởi tạo."
 sidebar_label: "Quản lý tag cho ổ đĩa"
 sidebar_position: 8
 ---

@@ -1,7 +1,7 @@
 ---
 id: "tagging"
 title: "Tagging"
-description: "Tất cả tài liệu"
+description: "tag giúp bạn quản lý, phân loại và lọc tài nguyên cloud theo mục đích, chủ sở hữu hoặc môi trường."
 sidebar_label: "Tagging"
 sidebar_position: 1
 ---
