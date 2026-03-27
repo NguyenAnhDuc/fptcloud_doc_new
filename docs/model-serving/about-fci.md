@@ -1,0 +1,27 @@
+---
+id: "about-fci"
+title: "About Fci"
+description: "FPT Smart Cloud (FCI) – a member of the FPT Group, provides leading Artificial Intelligence (AI) and Cloud Computing sol"
+sidebar_label: "About Fci"
+sidebar_position: 2
+---
+
+# About Fci
+
+FPT Smart Cloud (FCI) – a member of the FPT Group, provides leading Artificial Intelligence (AI) and Cloud Computing solutions in Vietnam. FCI was established with the mission to offer a world-class AI & Cloud platform, creating a breakthrough in business operations. FPT Smart Cloud aims to become a leading provider of Cloud and AI services, leveraging a solid technology foundation, a diverse product ecosystem, and global connectivity. List of products and services in the FPT Smart Cloud ecosystem:
+  * Infrastructure-as-a-Service
+  * Platform-as-a-Service
+  * Software-as-a-Service
+  * Artificial Intelligence (AI) services
+
+[![](/img/migrated/1-084e1261.png)](/img/migrated/1-084e1261.png) With deep local understanding, a robust technology platform, and world-class experts, FPT Cloud offers businesses numerous practical benefits: Optimizing and modernizing business operations on world-class infrastructure. Rapid migration with pre-packaged cloud infrastructure solutions for SAP, VMware, Windows, Oracle, data centers, and other business operations. Ensuring the security and safety of organizational and enterprise data with optimized infrastructure designed to detect and eliminate advanced threats. Shaping future trends by providing multi-cloud, multi-platform environments and diverse applications, helping businesses stay ahead of trends, accelerate the completion of their service ecosystem, and ensure seamless operations and service delivery to end users. FPT Cloud is a next-generation cloud computing platform developed by FPT to become a powerful Public Cloud platform and is considered one of the leading providers in Vietnam. Always aligned with customer growth, FPT Cloud is seen as one of the tools that help businesses easily implement digital transformation through the following advantages: [![](/img/migrated/2-9ecc1b1e.png)](/img/migrated/2-9ecc1b1e.png)
+  * **The ability to meet the most demanding technological requirements of customers:** FPT Cloud is the ONLY cloud service provider (CSP) in Vietnam to achieve Principal Partner level with VMware and is VMware Cloud Verified. FPT Cloud is also the ONLY CSP in Vietnam to offer a full range of services from the IaaS layer (with services such as VM, Storage, Object Storage, Backup & DR, etc.), PaaS (with services like Container, Database, etc.), to SaaS (with AI, Chatbot, Voicebot services, etc.).
+  * **Unlimited resource scalability with high availability** : FPT Cloud has a certified and verified architecture by VMware, deployed across Multisite and Multi-Region in Hanoi and Ho Chi Minh City. The system's availability is always guaranteed, with service level commitments up to 99.99%.
+  * **Robust security capabilities with multiple layers of protection throughout the system:** FPT Cloud complies with ISO 27001, 27017, and PCI-DSS standards, integrating advanced security technologies from major vendors such as CheckPoint, Imperva, etc. FPT Cloud integrates AI and expert teams to periodically survey and continuously monitor the information security system, proactively alerting customers to potential security threats.
+  * **Easy management of the entire system on FPT Cloud with the Unified Service Portal:** FPT Cloud has made substantial investments in its management portal, providing customers with powerful tools to manage all resources. The FPT Cloud portal supports advanced features such as Multisite-MultiRegion, MFA authentication, SSO support, RBAC role-based access control, real-time resource monitoring, etc. The FPT Cloud portal also supports IaC (Infrastructure as Code), making it easy for customers to integrate with automation tools such as Terraform, Ansible, etc. 
+  * **Cost-effective usage based on a strong Public Cloud platform:** Transforming costs from CAPEX to OPEX helps customers optimize cash flow for business operations. Multiple billing options are available, such as Pay-as-you-go based on actual resource usage, or cost savings with the Flat-charge option.
+  * **A diverse and highly available ecosystem:** The powerful cloud computing ecosystem provides various utilities from the FPT Group ecosystem (FPT Software, FIS, FPT Telecom services, etc.), along with products and services from partners like VMware, Redhat, Veeam Backup & Replication, Security Checkpoint, enabling fast and efficient deployment. 
+  * **Reliable operation:** Operations are conducted in Uptime Tier III Data Centers with seamless connectivity and advanced architecture. Direct connections to public cloud systems from major providers (Microsoft, AWS, Google). Backup storage systems support the operation of over 10,000 virtual servers and are ready to scale when needed.
+  * **Local advantages:** Ensures compliance with Vietnam’s regulations and laws on data storage. Ready to meet enterprise business requirements with high-end architectural infrastructure and an internationally certified team of experts.
+
+[![Alt text](/img/migrated/3-62e65f1f.png)](/img/migrated/3-62e65f1f.png)
