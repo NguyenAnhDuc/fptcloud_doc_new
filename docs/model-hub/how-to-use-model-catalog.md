@@ -4,6 +4,7 @@ title: "How To Use Model Catalog"
 description: "Each model card includes:"
 sidebar_label: "How To Use Model..."
 sidebar_position: 28
+pagination_next: null
 ---
 
 # How To Use Model Catalog

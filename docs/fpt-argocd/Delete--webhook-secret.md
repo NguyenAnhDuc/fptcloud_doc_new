@@ -4,6 +4,7 @@ title: "Delete  Webhook Secret"
 description: "**Step 1:** Select **Action** > **Delete Webhook**"
 sidebar_label: "Delete Webhook Secret"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Delete  Webhook Secret

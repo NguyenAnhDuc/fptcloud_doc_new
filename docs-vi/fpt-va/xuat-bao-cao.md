@@ -4,6 +4,7 @@ title: "Xuất báo cáo"
 description: "Để xuất báo cáo kết quả quét, thực hiện như sau:"
 sidebar_label: "Xuất báo cáo"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Xuat Bao Cao

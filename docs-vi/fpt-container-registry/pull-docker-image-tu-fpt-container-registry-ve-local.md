@@ -4,6 +4,7 @@ title: "Pull docker image từ FPT Container Registry về local"
 description: "Để thực hiện Pull images docker về local thực hiện như sau:"
 sidebar_label: "Pull docker image từ FPT Container Registry về local"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Pull Docker Image Tu Fpt Container Registry Ve Local

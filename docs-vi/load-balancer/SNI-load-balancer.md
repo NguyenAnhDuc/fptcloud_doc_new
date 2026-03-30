@@ -4,6 +4,7 @@ title: "Cấu hình SNI trên Load balancer"
 description: "Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho phép một Listener phục vụ nhiều tên miền (hos"
 sidebar_label: "Cấu hình SNI trên Load balancer"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Sni Load Balancer

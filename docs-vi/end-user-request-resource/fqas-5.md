@@ -4,6 +4,7 @@ title: "Vì sao tôi không thể chọn submit để gửi ticket?"
 description: "Bạn hãy kiểm tra các thông tin sau:"
 sidebar_label: "Vì sao tôi không thể chọn submit để gửi ticket?"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Fqas 5

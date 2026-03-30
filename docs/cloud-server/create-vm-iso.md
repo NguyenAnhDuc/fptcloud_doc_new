@@ -4,6 +4,7 @@ title: "Notes for creating VM from ISO file"
 description: "Important notes when creating a virtual machine from an ISO file on FPT Cloud Server."
 sidebar_label: "Notes for creating VM from ISO file"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # Notes for creating VM from ISO file
@@ -29,6 +30,3 @@ The system uses the **Virtio** disk bus for the Root volume by default. If the I
 The SATA disk bus may reduce disk performance. Only use it when the ISO file is not compatible with Virtio.
 :::
 
-## Next steps
-
-- [Create a virtual machine](./quick-starts-tao-mot-may-ao.md)

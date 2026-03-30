@@ -4,6 +4,7 @@ title: "Hướng dẫn tạo Jenkins pipline CI/CD tích hợp các tính năng 
 description: "Trong hướng dẫn này sẽ hướng dẫn người dùng tạo một CI/CD flow cơ bản như sau: [![](/img/migrated/Picture127-aecf39ae.pn"
 sidebar_label: "Hướng dẫn tạo Jenkins pipline CI/CD tích hợp các tính năng trên Portal"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Huong Dan Tao Jenkins Pipeline Ci Cd Tich Hop Cac Tinh Nang Tren Portal

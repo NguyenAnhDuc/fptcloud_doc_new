@@ -4,6 +4,7 @@ title: "Quản lý Account"
 description: "**Bước 1:** Trên **Menu** chọn **Manage and Settings**(**Ctrl + 4**) > chọn **Permissions & Administrators** > chọn **Ne"
 sidebar_label: "Quản lý Account"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Quan Ly Account

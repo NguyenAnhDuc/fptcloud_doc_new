@@ -4,6 +4,7 @@ title: "Uninstall Applications"
 description: "The system allow uninstalling installed chart. To do so, follow these steps:"
 sidebar_label: "Uninstall Applications"
 sidebar_position: 15
+pagination_next: null
 ---
 
 # Uninstall Applications

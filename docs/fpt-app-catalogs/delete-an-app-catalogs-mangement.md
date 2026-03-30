@@ -4,6 +4,7 @@ title: "Delete An App Catalogs Mangement"
 description: "The system allows deleting an App Catalogs Management in case users stopped using the product. To do so, follow these st"
 sidebar_label: "Delete An App Catalogs..."
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Delete An App Catalogs Mangement

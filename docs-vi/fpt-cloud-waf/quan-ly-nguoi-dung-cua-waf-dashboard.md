@@ -4,6 +4,7 @@ title: "Quản lý người dùng của WAF Dashboard"
 description: "Quản lý các tài khoản được phép truy cập vào trang WAF Dashboard. Tại đây người quản trị có thể thêm, sửa, xóa, cập nhật"
 sidebar_label: "Quản lý người dùng của WAF Dashboard"
 sidebar_position: 23
+pagination_next: null
 ---
 
 # Quan Ly Nguoi Dung Cua Waf Dashboard

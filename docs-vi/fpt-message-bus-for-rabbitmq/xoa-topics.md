@@ -4,6 +4,7 @@ title: "Xoa Topics"
 description: "**Bước 1:** Ở menu **Application** > **Queues** > Chọn một queue bạn cần thao tác > **Remove**"
 sidebar_label: "Xoa Topics"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # Xoa Topics

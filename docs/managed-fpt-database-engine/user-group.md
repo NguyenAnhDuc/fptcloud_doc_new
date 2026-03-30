@@ -4,6 +4,7 @@ title: "User Group"
 description: "The **User Group Management** function helps organize multiple users under a shared access control configuration by assi"
 sidebar_label: "User Group"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # User Group

@@ -4,6 +4,7 @@ title: "Cấu hình VPN Site-to-Site với các thiết bị NAT IP"
 description: "**NAT IP (Network Address Translation) là gì?**"
 sidebar_label: "Cấu hình VPN Site-to-Site với các thiết bị NAT IP"
 sidebar_position: 24
+pagination_next: null
 ---
 
 # Connect Behind Nat

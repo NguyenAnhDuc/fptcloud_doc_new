@@ -4,6 +4,7 @@ title: "Lưu ý: Hệ thống sẽ reboot sau khi update."
 description: "**Lưu ý:** Hệ thống sẽ reboot sau khi update."
 sidebar_label: "Lưu ý: Hệ thống sẽ reboot sau khi update."
 sidebar_position: 7
+pagination_next: null
 ---
 
 # Update Hotfix

@@ -4,6 +4,7 @@ title: "Quản lý Members"
 description: "Ở phần **Organization** , nhấn vào**Member** để xem danh sách thành viên cùng các Action có thể tạo với member"
 sidebar_label: "Quản lý Members"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Quan Ly Mem Team

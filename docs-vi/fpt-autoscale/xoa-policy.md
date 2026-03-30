@@ -4,6 +4,7 @@ title: "Xóa Policy"
 description: "[![delete policy](/img/migrated/Screenshot-2024-10-02-071116-37f91343.png)](/img/migrated/Screenshot-2024-10-02-071116-3"
 sidebar_label: "Xóa Policy"
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Xoa Policy

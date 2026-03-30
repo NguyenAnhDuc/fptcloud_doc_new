@@ -4,6 +4,7 @@ title: "Managing GPU for Specific Service"
 description: "Add GPU, create new GPU Servers, and remove GPU for the Specific service type on FPT Cloud."
 sidebar_label: "Managing GPU for Specific Service"
 sidebar_position: 22
+pagination_next: null
 ---
 
 # Managing GPU for Specific Service

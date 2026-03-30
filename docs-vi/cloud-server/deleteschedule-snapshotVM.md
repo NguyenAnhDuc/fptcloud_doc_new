@@ -4,6 +4,7 @@ title: "Xóa lịch snapshot máy ảo"
 description: "Xóa lịch snapshot máy ảo khi không còn nhu cầu."
 sidebar_label: "Xóa lịch snapshot máy ảo"
 sidebar_position: 99
+pagination_next: null
 ---
 
 # Xóa lịch snapshot máy ảo

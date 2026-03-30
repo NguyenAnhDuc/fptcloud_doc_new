@@ -4,6 +4,7 @@ title: "Enable And Disable Account"
 description: "_Note: Currently, the portal only supports disabling accounts on ArgoCD. This function is similar to deleting accounts_"
 sidebar_label: "Enable And Disable Account"
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Enable And Disable Account

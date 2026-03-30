@@ -4,6 +4,7 @@ title: "Xóa Profile"
 description: "[![delete profile](/img/migrated/Screenshot-2024-10-01-171413-fec288a5.png)](/img/migrated/Screenshot-2024-10-01-171413-"
 sidebar_label: "Xóa Profile"
 sidebar_position: 5
+pagination_next: null
 ---
 
 # Xoa Profile

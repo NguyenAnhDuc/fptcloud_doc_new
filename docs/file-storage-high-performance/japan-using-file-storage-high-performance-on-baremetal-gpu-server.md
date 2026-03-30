@@ -4,6 +4,7 @@ title: "Create Mount Point"
 description: "The File Storage - High Performance service is now available for Baremetal infrastructure in the Japan region. To reques"
 sidebar_label: "Create Mount Point"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Create Mount Point

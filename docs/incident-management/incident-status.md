@@ -4,6 +4,7 @@ title: "Incident Status"
 description: "The **status of the incident** indicates whether it has been resolved or not. The incident status must immediately show "
 sidebar_label: "Incident Status"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Incident Status

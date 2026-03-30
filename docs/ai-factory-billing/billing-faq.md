@@ -4,6 +4,7 @@ title: "Billing Faq"
 description: "Take a look at which cards are accepted by each payment partner: **VNPay, PayPal, and Stripe**."
 sidebar_label: "Billing Faq"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Billing Faq

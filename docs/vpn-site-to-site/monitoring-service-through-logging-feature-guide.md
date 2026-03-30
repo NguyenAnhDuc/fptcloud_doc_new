@@ -4,6 +4,7 @@ title: "Monitoring Service Through Logging Feature Guide"
 description: "**Step 1:** On the display screen, select **Logging** from the horizontal menu bar."
 sidebar_label: "Monitoring Service Through Logging..."
 sidebar_position: 29
+pagination_next: null
 ---
 
 # Monitoring Service Through Logging Feature Guide

@@ -4,6 +4,7 @@ title: "Delete K8S Cluster"
 description: "For Kubernetes Clusters that are no longer needed, you can delete them following the instructions below:"
 sidebar_label: "Delete K8S Cluster"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Delete K8S Cluster

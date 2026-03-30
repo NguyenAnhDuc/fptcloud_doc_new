@@ -4,6 +4,7 @@ title: "Delete a virtual machine"
 description: "Detailed guide to delete a virtual machine from FPT Cloud Server."
 sidebar_label: "Delete a virtual machine"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Delete a virtual machine
@@ -32,7 +33,3 @@ Deleting a VM permanently removes all data and cannot be recovered.
 
    [![VM being deleted](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
 
-## Next steps
-
-- [Create a virtual machine](./quick-starts-tao-mot-may-ao.md)
-- [Manage virtual machines](./quan-ly-may-ao.md)

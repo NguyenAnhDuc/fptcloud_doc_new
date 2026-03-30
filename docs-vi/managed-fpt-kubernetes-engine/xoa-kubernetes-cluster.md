@@ -4,6 +4,7 @@ title: "Xoa Kubernetes Cluster"
 description: "Với các **Kubernetes Cluster** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:"
 sidebar_label: "Xoa Kubernetes Cluster"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Xoa Kubernetes Cluster

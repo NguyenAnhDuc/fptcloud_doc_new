@@ -4,6 +4,7 @@ title: "Incident Data Visualization"
 description: "**Incident Insights** enables the ability to visualize incident data, facilitating the exploration of metrics and trends"
 sidebar_label: "Incident Data Visualization"
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Incident Data Visualization

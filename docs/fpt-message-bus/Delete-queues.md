@@ -4,6 +4,7 @@ title: "Delete Queues"
 description: "**Step 1** : From the **Application** menu > **Queues** > Choose a desired queue > **Remove**"
 sidebar_label: "Delete Queues"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Delete Queues

@@ -4,6 +4,7 @@ title: "Thêm NFS Persistent Storage"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Thêm NFS Persistent Storage"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Them Nfs Persistent Storage

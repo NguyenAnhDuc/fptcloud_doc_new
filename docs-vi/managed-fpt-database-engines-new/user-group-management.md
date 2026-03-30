@@ -4,6 +4,7 @@ title: "Quản lý User Group"
 description: "Chức năng **Quản lý User Group** cho phép tập hợp nhiều người dùng vào một nhóm và gán cho nhóm đó role phù hợp. Tính nă"
 sidebar_label: "Quản lý User Group"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # User Group Management

@@ -4,6 +4,7 @@ title: "Viewing Logs"
 description: "From the menu, select Threat Event Log."
 sidebar_label: "Viewing Logs"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # Viewing Logs

@@ -4,6 +4,7 @@ title: "Đẩy dữ liệu backup lên S3"
 description: "Chức năng **Đẩy dữ liệu backup lên S3** cho phép người dùng đẩy các file sao lưu của cơ sở dữ liệu lên kho lưu trữ S3 tư"
 sidebar_label: "Đẩy dữ liệu backup lên S3"
 sidebar_position: 31
+pagination_next: null
 ---
 
 # Push S3

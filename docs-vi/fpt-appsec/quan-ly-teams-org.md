@@ -4,6 +4,7 @@ title: "Quản lý Teams"
 description: "Nhấn vào **Team** trong phần **Organization**"
 sidebar_label: "Quản lý Teams"
 sidebar_position: 13
+pagination_next: null
 ---
 
 # Quan Ly Teams Org

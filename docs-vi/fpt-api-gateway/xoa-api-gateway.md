@@ -4,6 +4,7 @@ title: "Xoa api Gateway"
 description: "Để xóa API Gateway, người dùng thực hiện các bước sau:"
 sidebar_label: "Xoa api Gateway"
 sidebar_position: 5
+pagination_next: null
 ---
 
 # Xoa Api Gateway

@@ -4,6 +4,7 @@ title: "Nâng cấp phiên bản cho cơ sở dữ liệu"
 description: "Tính năng **Nâng cấp phiên bản cho cơ sở dữ liệu** trong FPT Database Engine **hiện cho phép** người dùng **nâng cấp cơ "
 sidebar_label: "Nâng cấp phiên bản cho cơ sở dữ liệu"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Upgrade Version

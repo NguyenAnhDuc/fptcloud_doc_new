@@ -4,6 +4,7 @@ title: "Change Network Config"
 description: "Reconfigure the network config file after making changes to a NIC card."
 sidebar_label: "Change Network Config"
 sidebar_position: 65
+pagination_next: null
 ---
 
 # Change Network Config
@@ -43,7 +44,3 @@ Update the network configuration file when you:
 After updating the network configuration, verify connectivity by pinging the gateway or an external address.
 :::
 
-## Next steps
-
-- [NIC Overview](./overview-nic.md)
-- [Managing NIC](./NIC-overview-1.md)

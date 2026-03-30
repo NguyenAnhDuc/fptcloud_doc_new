@@ -4,6 +4,7 @@ title: "Billing"
 description: "Charges are based on the GPU’s active running hours. This means containers are billed as long as they are in the running"
 sidebar_label: "Billing"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Billing

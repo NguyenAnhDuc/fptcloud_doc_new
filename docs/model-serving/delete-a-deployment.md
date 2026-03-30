@@ -4,6 +4,7 @@ title: "Delete A Deployment"
 description: "Go to **AI Platform** -> **Model Serving** -> **Deployment** -> **Deployment Name** -> **Deployment to delete** -> **Act"
 sidebar_label: "Delete A Deployment"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Delete A Deployment

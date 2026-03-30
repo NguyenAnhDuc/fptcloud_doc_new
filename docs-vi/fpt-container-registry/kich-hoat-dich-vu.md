@@ -4,6 +4,7 @@ title: "Kích hoạt dịch vụ"
 description: "Để có thể thực hiện kích hoạt dịch vụ để sử dụng người dùng có thể thực hiện các bước như sau:"
 sidebar_label: "Kích hoạt dịch vụ"
 sidebar_position: 5
+pagination_next: null
 ---
 
 # Kich Hoat Dich Vu

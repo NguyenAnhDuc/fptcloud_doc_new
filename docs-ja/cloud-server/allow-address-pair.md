@@ -4,6 +4,7 @@ title: "Allow Address Pair"
 description: "HAや高度なネットワーク設定をサポートするために、NICにIP-MACペアを追加します。"
 sidebar_label: "Allow Address Pair"
 sidebar_position: 71
+pagination_next: null
 ---
 
 # Allow Address Pair
@@ -20,6 +21,3 @@ sidebar_position: 71
 2. 設定したいNICを選択し、**Allow Address Pair** をクリックします。
 3. IP/CIDRとMACアドレスを入力し、**Save** をクリックします。
 
-## 次のステップ
-
-- [Security Group管理](./quan-ly-security-group.md)

@@ -4,6 +4,7 @@ title: "Check Activity Logs"
 description: "All actions on IP access are recorded in the Activity logs, and you can check the information whenever needed."
 sidebar_label: "Check Activity Logs"
 sidebar_position: 27
+pagination_next: null
 ---
 
 # Check Activity Logs

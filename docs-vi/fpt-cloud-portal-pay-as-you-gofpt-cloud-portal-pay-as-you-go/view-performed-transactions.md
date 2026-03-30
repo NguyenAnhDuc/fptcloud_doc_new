@@ -4,6 +4,7 @@ title: "Xem transaction đã thực hiện"
 description: "Khách hàng có thể xem transaction đã thực hiện trên hệ thống gồm:"
 sidebar_label: "Xem transaction đã thực hiện"
 sidebar_position: 15
+pagination_next: null
 ---
 
 # View Performed Transactions

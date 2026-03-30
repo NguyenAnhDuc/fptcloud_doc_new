@@ -4,6 +4,7 @@ title: "Change The Incident Severity"
 description: "**Step 1** : Click on the title of the incident to view its detail"
 sidebar_label: "Change The Incident Severity"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Change The Incident Severity

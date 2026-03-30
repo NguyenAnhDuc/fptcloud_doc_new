@@ -4,6 +4,7 @@ title: "Quản lý Container Registry"
 description: "**_A. Thêm mới Container Registry_**"
 sidebar_label: "Quản lý Container Registry"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Quan Ly Container Registry

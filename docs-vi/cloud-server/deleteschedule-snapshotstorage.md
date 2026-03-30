@@ -4,6 +4,7 @@ title: "Xóa lịch snapshot ổ đĩa"
 description: "Xóa lịch snapshot ổ đĩa khi không còn nhu cầu."
 sidebar_label: "Xóa lịch snapshot ổ đĩa"
 sidebar_position: 104
+pagination_next: null
 ---
 
 # Xóa lịch snapshot ổ đĩa

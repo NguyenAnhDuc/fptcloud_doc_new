@@ -4,6 +4,7 @@ title: "Mục đích: Xem chi tiết model"
 description: "Mục đích: Xem chi tiết model"
 sidebar_label: "Mục đích: Xem chi tiết model"
 sidebar_position: 27
+pagination_next: null
 ---
 
 # Chi Tiet Model Catalog

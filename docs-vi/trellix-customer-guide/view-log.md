@@ -4,6 +4,7 @@ title: "Xem nhật ký (Log)"
 description: "**Bước 1** : Trên thanh menu chọn > Threat Event Log"
 sidebar_label: "Xem nhật ký (Log)"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # View Log

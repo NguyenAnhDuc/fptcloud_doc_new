@@ -4,6 +4,7 @@ title: "View Activity En"
 description: "Actions on the VPC are recorded in the Activity log. Users can review it as needed."
 sidebar_label: "View Activity En"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # View Activity En

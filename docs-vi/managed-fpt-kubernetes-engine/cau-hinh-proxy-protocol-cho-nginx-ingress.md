@@ -4,6 +4,7 @@ title: "Cấu hình proxy protocol cho nginx-ingress với Managed Kubernetes cl
 description: "Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public "
 sidebar_label: "Cấu hình proxy protocol cho nginx-ingress với Managed Kubernetes cluster"
 sidebar_position: 52
+pagination_next: null
 ---
 
 # Cau Hinh Proxy Protocol Cho Nginx Ingress

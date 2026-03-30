@@ -4,6 +4,7 @@ title: "Setting Budget Alert"
 description: "In step 2 when creating a budget alert, select the Attach option."
 sidebar_label: "Setting Budget Alert"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # Setting Budget Alert

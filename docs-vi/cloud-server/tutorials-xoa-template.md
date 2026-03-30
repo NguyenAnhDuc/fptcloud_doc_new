@@ -4,6 +4,7 @@ title: "Xóa template"
 description: "Xóa template khỏi trang Custom Images khi không còn nhu cầu sử dụng."
 sidebar_label: "Xóa template"
 sidebar_position: 53
+pagination_next: null
 ---
 
 # Xóa template
@@ -22,6 +23,3 @@ Template đã xóa không thể khôi phục.
 
 2. Xác nhận xóa trong hộp thoại.
 
-## Bước tiếp theo
-
-- [Quản lý Instance Template](./tutorials-quan-ly-instance-template.md)

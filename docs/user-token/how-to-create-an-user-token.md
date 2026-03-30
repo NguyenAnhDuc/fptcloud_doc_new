@@ -4,6 +4,7 @@ title: "How To Create An User Token"
 description: "* Access Token service at <https://ai.fptcloud.com/> and click button '**Create New Token** ' ![file](/img/migrated/imag"
 sidebar_label: "How To Create An..."
 sidebar_position: 4
+pagination_next: null
 ---
 
 # How To Create An User Token

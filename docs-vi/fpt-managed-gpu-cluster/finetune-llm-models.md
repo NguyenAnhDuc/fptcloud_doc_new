@@ -4,6 +4,7 @@ title: "Chuẩn bị môi trường"
 description: "Bài hướng dẫn này trình bày cách finetune một LLM model trên kubernetes sử dụng Unsloth và GPU"
 sidebar_label: "Chuẩn bị môi trường"
 sidebar_position: 24
+pagination_next: null
 ---
 
 # Finetune Llm Models

@@ -4,6 +4,7 @@ title: "Xóa Load Balancer"
 description: "Nếu không còn nhu cầu sử dụng, bạn có thể xóa **Load Balancer** khỏi **VPC** để tiết kiệm tài nguyên và tránh phát sinh "
 sidebar_label: "Xóa Load Balancer"
 sidebar_position: 32
+pagination_next: null
 ---
 
 # Xoa Load Balancer

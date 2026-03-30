@@ -4,6 +4,7 @@ title: "Hướng dẫn đọc biểu đồ Asset by team"
 description: "Biểu đồ phân tích số lượng asset (repositories, images) đang được các team quản lý trong hệ thống."
 sidebar_label: "Hướng dẫn đọc biểu đồ Asset by team"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Guide Asset By Team

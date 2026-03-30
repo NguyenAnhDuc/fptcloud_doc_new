@@ -4,6 +4,7 @@ title: "Delete OIDC đã cấu hình"
 description: "* **Bước 1** : Tại màn hình **Security & Access** > **OIDC Scope** , thực hiện Delete OIDC Scope như sau:"
 sidebar_label: "Delete OIDC đã cấu hình"
 sidebar_position: 37
+pagination_next: null
 ---
 
 # Delete Oidc Da Cau Hinh

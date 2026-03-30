@@ -4,6 +4,7 @@ title: "Quản lý GPU cho dịch vụ Specific"
 description: "Thêm GPU, tạo GPU Server mới và gỡ GPU cho loại dịch vụ Specific trên FPT Cloud."
 sidebar_label: "Quản lý GPU cho dịch vụ Specific"
 sidebar_position: 22
+pagination_next: null
 ---
 
 # Quản lý GPU cho dịch vụ Specific
@@ -52,6 +53,3 @@ Sau khi tạo, hệ thống thêm GPU vào máy ảo ngay lập tức. Bạn có
 1. Tại **Instance Management**, chọn **Actions** → **Remove GPU**.
 2. Xác nhận thông tin và nhấn **Update**.
 
-## Bước tiếp theo
-
-- [Quản lý GPU Server với HPC Portal](./quan-ly-gpu-voi-hpc-portal.md)

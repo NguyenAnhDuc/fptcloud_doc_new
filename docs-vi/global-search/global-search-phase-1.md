@@ -4,6 +4,7 @@ title: "Tìm kiếm toàn cục"
 description: "Tính năng Global Search trên FPT Cloud cho phép người dùng tìm kiếm nhanh các tài nguyên (resources) trong hệ thống trên"
 sidebar_label: "Tìm kiếm toàn cục"
 sidebar_position: 2
+pagination_next: null
 ---
 
 # Global Search Phase 1

@@ -4,6 +4,7 @@ title: "Demo"
 description: "To connect to Kafka, you can refer to the detailed steps in the **Document** section from the menu."
 sidebar_label: "Demo"
 sidebar_position: 20
+pagination_next: null
 ---
 
 # Demo

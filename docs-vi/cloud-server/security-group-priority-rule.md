@@ -4,6 +4,7 @@ title: "Quản lý Priority Rule"
 description: "Thiết lập thứ tự ưu tiên cho các rule trong Security Group."
 sidebar_label: "Quản lý Priority Rule"
 sidebar_position: 74
+pagination_next: null
 ---
 
 # Quản lý Priority Rule
@@ -25,6 +26,3 @@ Priority Rule cho phép thiết lập thứ tự ưu tiên cho các firewall rul
 2. Thiết lập giá trị **Priority** (số nhỏ hơn = ưu tiên cao hơn).
 3. Nhấn **Save**.
 
-## Bước tiếp theo
-
-- [Quản lý Security Group](./quan-ly-security-group.md)

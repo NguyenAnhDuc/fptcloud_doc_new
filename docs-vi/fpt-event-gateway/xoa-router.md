@@ -4,6 +4,7 @@ title: "Xoa Router"
 description: "Để xóa **Router** , người dùng thực hiện các bước sau:"
 sidebar_label: "Xoa Router"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Xoa Router

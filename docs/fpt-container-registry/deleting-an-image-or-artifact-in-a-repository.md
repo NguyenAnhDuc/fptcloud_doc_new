@@ -4,6 +4,7 @@ title: "Deleting An Image Or Artifact In A Repository"
 description: "If you want to delete an Image or Artifact that you pushed before to free up spaces or clean up unused projects, follow "
 sidebar_label: "Deleting An Image Or..."
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Deleting An Image Or Artifact In A Repository

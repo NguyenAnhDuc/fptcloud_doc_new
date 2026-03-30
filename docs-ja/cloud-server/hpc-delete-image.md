@@ -4,6 +4,7 @@ title: "Imageの削除"
 description: "不要になったイメージをHPC Portalのマシンリストから削除します。"
 sidebar_label: "Imageの削除"
 sidebar_position: 33
+pagination_next: null
 ---
 
 # Imageの削除
@@ -19,6 +20,3 @@ sidebar_position: 33
 1. 削除するイメージを選択し、**Action** → **Remove** をクリックします。
 2. 確認ダイアログで **Remove** をクリックして削除を完了します。
 
-## 次のステップ
-
-- [HPC PortalでのGPU Server管理](./quan-ly-gpu-voi-hpc-portal.md)

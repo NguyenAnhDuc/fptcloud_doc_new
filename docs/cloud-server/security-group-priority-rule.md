@@ -4,6 +4,7 @@ title: "Priority Rule Management"
 description: "Set the priority order for rules within a Security Group."
 sidebar_label: "Priority Rule Management"
 sidebar_position: 74
+pagination_next: null
 ---
 
 # Priority Rule Management
@@ -25,6 +26,3 @@ Priority Rules let you set the execution order for firewall rules — determinin
 2. Set the **Priority** value (lower number = higher priority).
 3. Click **Save**.
 
-## Next steps
-
-- [Security Group Management](./quan-ly-security-group.md)

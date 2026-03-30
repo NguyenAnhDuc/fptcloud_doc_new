@@ -4,6 +4,7 @@ title: "Create"
 description: "All documents"
 sidebar_label: "Create"
 sidebar_position: 2
+pagination_next: null
 ---
 
 # Create

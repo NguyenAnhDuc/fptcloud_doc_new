@@ -4,6 +4,7 @@ title: "Bật tính năng Cluster Autoscale"
 description: "Tính năng Cluster Autoscale của sản phẩm Managed FKE giúp tự động scale thêm các worker mới trong một worker pool nếu nh"
 sidebar_label: "Bật tính năng Cluster Autoscale"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Cluster Autoscale

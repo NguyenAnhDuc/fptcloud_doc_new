@@ -4,6 +4,7 @@ title: "Monitor WAF với Dashboard Overview"
 description: "**Home dashboard** là trang tổng quan cho phép người quản trị có một góc nhìn khái quát về hệ thống bằng cách theo dõi c"
 sidebar_label: "Monitor WAF với Dashboard Overview"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Monitor Waf Voi Dashboard Overview

@@ -4,6 +4,7 @@ title: "Tạo Role"
 description: "**Bước 1:** Trên **Access Detail** , chọn **Auth Method** cần thêm **Role**."
 sidebar_label: "Tạo Role"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Tutorials Tao Role

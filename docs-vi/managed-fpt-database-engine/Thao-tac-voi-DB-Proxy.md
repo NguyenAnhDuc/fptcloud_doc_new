@@ -4,6 +4,7 @@ title: "Thao tac voi db Proxy"
 description: "**Bước 1:** Xem danh sách DB Proxy"
 sidebar_label: "Thao tac voi db Proxy"
 sidebar_position: 22
+pagination_next: null
 ---
 
 # Thao Tac Voi Db Proxy

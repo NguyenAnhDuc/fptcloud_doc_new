@@ -4,6 +4,7 @@ title: "10. Quản trị User"
 description: "Cho phép user phân quyền được vào grafana dashboard với 1 trong các quyền: Admin, Editor, Viewer."
 sidebar_label: "10. Quản trị User"
 sidebar_position: 20
+pagination_next: null
 ---
 
 # Quan Tri User

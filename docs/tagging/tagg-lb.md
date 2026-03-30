@@ -4,6 +4,7 @@ title: "Manage tags for Load Balancer"
 description: "Assign and manage tags for Load Balancer — during creation or after the Load Balancer has been provisioned."
 sidebar_label: "Manage tags for Load Balancer"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # Manage tags for Load Balancer
@@ -38,6 +39,3 @@ Assigning tags to Load Balancers helps you categorize load balancers by project 
 When a Load Balancer is deleted, the system automatically removes all associated tags and updates the tag list on the Tagging screen.
 :::
 
-## Next steps
-
-- [Tagging billing](./Tagging%20Billing.md)

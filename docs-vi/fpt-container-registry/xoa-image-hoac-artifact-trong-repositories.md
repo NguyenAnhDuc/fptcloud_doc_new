@@ -4,6 +4,7 @@ title: "Xóa Image hoặc Artifact trong Repositories"
 description: "Trong trường hợp bạn muốn xóa Image hoặc Artifact đã push lên trước đó để tiết kiệm dung lượng hoặc loại bỏ các project "
 sidebar_label: "Xóa Image hoặc Artifact trong Repositories"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Xoa Image Hoac Artifact Trong Repositories

@@ -4,6 +4,7 @@ title: "Add Nfs Storage"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
 sidebar_label: "Add Nfs Storage"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Add Nfs Storage

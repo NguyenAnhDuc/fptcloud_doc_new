@@ -4,6 +4,7 @@ title: "Xoa app Catalog Management"
 description: "Hệ thống cho phép người dùng xoá Catalogs Management khi không muốn sử dụng. Có thể thực hiện như sau:"
 sidebar_label: "Xoa app Catalog Management"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Xoa App Catalog Management

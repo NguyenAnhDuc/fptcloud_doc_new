@@ -4,6 +4,7 @@ title: "Faq"
 description: "To help you save resources and avoid unexpected charges, AI Notebook automatically manages idle sessions. The following "
 sidebar_label: "Faq"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Faq

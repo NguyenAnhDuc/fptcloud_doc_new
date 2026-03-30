@@ -4,6 +4,7 @@ title: "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)
 description: "Dịch vụ File Storage - High Performance hiện đã sẵn sàng cho hạ tầng Baremetal tại khu vực Nhật Bản. Để yêu cầu sử dụng,"
 sidebar_label: "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Select option 2

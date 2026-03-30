@@ -4,6 +4,7 @@ title: "Allow Address Pair"
 description: "Add IP-MAC pairs to a NIC to support HA and advanced network configurations."
 sidebar_label: "Allow Address Pair"
 sidebar_position: 71
+pagination_next: null
 ---
 
 # Allow Address Pair
@@ -20,6 +21,3 @@ A single NIC can have multiple Address Pairs configured. A single Address Pair c
 2. Select the NIC you want to configure and click **Allow Address Pair**.
 3. Enter the IP/CIDR and MAC address, then click **Save**.
 
-## Next steps
-
-- [Security Group Management](./quan-ly-security-group.md)

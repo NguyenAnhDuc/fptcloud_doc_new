@@ -4,6 +4,7 @@ title: "3. Xem kết quả lịch sử quét"
 description: "Để xem lại kết quả quét cũ, truy cập target > Task và View Results"
 sidebar_label: "3. Xem kết quả lịch sử quét"
 sidebar_position: 15
+pagination_next: null
 ---
 
 # Xem Ket Qua Quet Cu

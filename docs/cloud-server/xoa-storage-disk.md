@@ -4,6 +4,7 @@ title: "Delete a Storage Disk"
 description: "Delete a Storage Disk from a VPC when it is no longer needed."
 sidebar_label: "Delete a Storage Disk"
 sidebar_position: 40
+pagination_next: null
 ---
 
 # Delete a Storage Disk

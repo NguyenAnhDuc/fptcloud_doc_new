@@ -4,6 +4,7 @@ title: "Tutorials Integrate Fpt Object Storage With S3 Client"
 description: "FPT Object Storage supports integration with S3-SDKs or S3-Clients following the AWS S3 standard. This lets you use fami"
 sidebar_label: "Tutorials Integrate Fpt Object..."
 sidebar_position: 11
+pagination_next: null
 ---
 
 # Tutorials Integrate Fpt Object Storage With S3 Client

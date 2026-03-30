@@ -4,6 +4,7 @@ title: "Câu hỏi thường gặp (FAQs)"
 description: "A: FCD là viết tắt của FPT Cloud Desktop, dịch vụ ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển."
 sidebar_label: "Câu hỏi thường gặp (FAQs)"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Faq

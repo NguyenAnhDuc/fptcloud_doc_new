@@ -4,6 +4,7 @@ title: "Xóa máy ảo (chi tiết)"
 description: "Hướng dẫn chi tiết xóa máy ảo khỏi hệ thống FPT Cloud Server."
 sidebar_label: "Xóa máy ảo"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Xóa máy ảo
@@ -32,7 +33,3 @@ Xóa máy ảo sẽ xóa toàn bộ dữ liệu và không thể phục hồi.
 
    [![Máy ảo đang được xóa](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
 
-## Bước tiếp theo
-
-- [Tạo một máy ảo](./quick-starts-tao-mot-may-ao.md)
-- [Quản lý máy ảo](./quan-ly-may-ao.md)

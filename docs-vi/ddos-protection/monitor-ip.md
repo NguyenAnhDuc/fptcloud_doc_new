@@ -4,6 +4,7 @@ title: "Monitor các IP đang được bảo vệ"
 description: "Người dùng có thể monitor hệ thống và sự bảo vệ thông qua dashboard do FPT Cloud Portal cung cấp."
 sidebar_label: "Monitor các IP đang được bảo vệ"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # Monitor Ip

@@ -4,6 +4,7 @@ title: "Hướng dẫn xóa schedule"
 description: "Tại màn hình Schedule Management, chọn chọn dấu ⋮ ở mỗi schedule > Delete để thực hiện xóa 1 schedule:"
 sidebar_label: "Hướng dẫn xóa schedule"
 sidebar_position: 32
+pagination_next: null
 ---
 
 # Schedule Delete

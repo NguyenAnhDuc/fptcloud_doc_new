@@ -4,6 +4,7 @@ title: "Frequently Asked Question"
 description: "VPN is a cost-effective, high-speed, and secure way to connect remote users to the office network. VPN connections are t"
 sidebar_label: "Frequently Asked Question"
 sidebar_position: 30
+pagination_next: null
 ---
 
 # Frequently Asked Question

@@ -4,6 +4,7 @@ title: "Upgrade K8S Version"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
 sidebar_label: "Upgrade K8S Version"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Upgrade K8S Version

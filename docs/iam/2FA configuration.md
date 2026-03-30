@@ -4,6 +4,7 @@ title: "2Fa Configuration"
 description: "**2FA (Two Factor Authentication)** is a more secure method of account authentication by adding another layer of securit"
 sidebar_label: "2Fa Configuration"
 sidebar_position: 22
+pagination_next: null
 ---
 
 # 2Fa Configuration

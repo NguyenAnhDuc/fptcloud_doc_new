@@ -4,6 +4,7 @@ title: "一般"
 description: "Metal Cloud とは、ユーザーが FPT から GPU コンポーネントを内蔵した物理サーバーをレンタルするクラウドサービスの一種であります。このサーバー* はユーザー専用であり、他のテナントと共有されません。"
 sidebar_label: "一般"
 sidebar_position: 13
+pagination_next: null
 ---
 
 # 一般

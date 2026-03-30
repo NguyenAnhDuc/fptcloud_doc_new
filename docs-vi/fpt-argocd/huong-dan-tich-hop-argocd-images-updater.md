@@ -4,6 +4,7 @@ title: "Hướng dẫn tích hợp Argo CD Images Updater"
 description: "Trong phần này sẽ hướng dẫn người dùng deploy ứng dụng trên ArgoCD sử dụng Images Updater. Để sử dụng tính năng Argo CD "
 sidebar_label: "Hướng dẫn tích hợp Argo CD Images Updater"
 sidebar_position: 52
+pagination_next: null
 ---
 
 # Huong Dan Tich Hop Argocd Images Updater

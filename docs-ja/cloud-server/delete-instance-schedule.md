@@ -4,6 +4,7 @@ title: "Instance Scheduleの削除"
 description: "インスタンスの自動起動・停止スケジュールを削除します。"
 sidebar_label: "Instance Scheduleの削除"
 sidebar_position: 94
+pagination_next: null
 ---
 
 # Instance Scheduleの削除
@@ -24,6 +25,3 @@ sidebar_position: 94
 
 アタッチされていたインスタンスは解放され、現在の状態を維持します。
 
-## 次のステップ
-
-- [新しいInstance Scheduleの作成](./create-new-instance.md)

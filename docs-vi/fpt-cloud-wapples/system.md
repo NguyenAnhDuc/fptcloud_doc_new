@@ -4,6 +4,7 @@ title: "System"
 description: "Console SSL Certificate [![file](/img/migrated/image-1714117222178-c3ef19f2.png)](/img/migrated/image-1714117222178-c3ef"
 sidebar_label: "System"
 sidebar_position: 43
+pagination_next: null
 ---
 
 # System

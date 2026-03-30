@@ -4,6 +4,7 @@ title: "Xóa role"
 description: "Với các **Custom Role** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:"
 sidebar_label: "Xóa role"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Xoa Role

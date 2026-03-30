@@ -4,6 +4,7 @@ title: "Thực hiện đặt lịch xóa Snapshot PVC trên Kubernetes"
 description: "FPTCloud cung cấp thêm cho khách hàng lựa chọn đặt lịch xóa các Snapshot PVC dựa trên tên PVC, namespace tương ứng, và k"
 sidebar_label: "Thực hiện đặt lịch xóa Snapshot PVC trên Kubernetes"
 sidebar_position: 49
+pagination_next: null
 ---
 
 # Thuc Hien Dat Lich Xoa Pvc Snapshot

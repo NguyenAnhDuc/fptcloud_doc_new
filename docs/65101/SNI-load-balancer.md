@@ -4,6 +4,7 @@ title: "Sni Load Balancer"
 description: "The **SNI (Server Name Indication)** configuration feature on the Load Balancer allows a single Listener to serve multip"
 sidebar_label: "Sni Load Balancer"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Sni Load Balancer

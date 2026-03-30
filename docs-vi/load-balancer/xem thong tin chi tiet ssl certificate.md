@@ -4,6 +4,7 @@ title: "Xem thông tin chi tiết SSL Certificate"
 description: "Bạn có thể xem lại toàn bộ **SSL Certificate** đã tạo trong VPC tại mục **Manage SSL Certificate for Load balancer**."
 sidebar_label: "Xem thông tin chi tiết SSL Certificate"
 sidebar_position: 35
+pagination_next: null
 ---
 
 # Xem Thong Tin Chi Tiet Ssl Certificate

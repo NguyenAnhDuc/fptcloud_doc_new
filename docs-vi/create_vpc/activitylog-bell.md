@@ -4,6 +4,7 @@ title: "Ghi nhận Activity log và Recent task status"
 description: "Các hành động trên VPC đều được ghi nhận vào Activity log. Người dùng có thể xem lại khi cần thiết."
 sidebar_label: "Ghi nhận Activity log và Recent task status"
 sidebar_position: 5
+pagination_next: null
 ---
 
 # Activitylog Bell

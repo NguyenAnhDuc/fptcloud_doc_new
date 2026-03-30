@@ -4,6 +4,7 @@ title: "Phân quyền sử dụng bucket cho các subuser"
 description: "Hiện tại FPT Object Storage đã hỗ trợ bạn tạo các SubUser, tuy nhiên role của SubUser sẽ hiệu lực với toàn bộ tài nguyên"
 sidebar_label: "Phân quyền sử dụng bucket cho các subuser"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Phan Quyen Su Dung Bucket Cho Cac Subuser

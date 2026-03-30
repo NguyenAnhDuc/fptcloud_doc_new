@@ -4,6 +4,7 @@ title: "Với các Cluster đã tắt trước đó, bạn có thể bật lại
 description: "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"
 sidebar_label: "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Start Kubernetes Cluster

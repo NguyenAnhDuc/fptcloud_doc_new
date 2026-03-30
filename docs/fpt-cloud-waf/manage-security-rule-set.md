@@ -4,6 +4,7 @@ title: "Manage Security Rule Set"
 description: "In addition to the default Rule Set provided by FPT Cloud WAF, users can create a custom Rule Set with custom Rules to s"
 sidebar_label: "Manage Security Rule Set"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Manage Security Rule Set

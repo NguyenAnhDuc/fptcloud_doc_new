@@ -4,6 +4,7 @@ title: "Delete Role"
 description: "For **Custom Roles** that are no longer needed, you can delete them by following these steps:"
 sidebar_label: "Delete Role"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Delete Role

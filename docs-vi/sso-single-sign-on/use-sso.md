@@ -4,6 +4,7 @@ title: "Sử dụng tính năng SSO"
 description: "Sau khi cấu hình SSO, người dùng có thể đăng nhập vào hệ thống theo 2 cách:"
 sidebar_label: "Sử dụng tính năng SSO"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # Use Sso

@@ -4,6 +4,7 @@ title: "Delete an Instance Schedule"
 description: "Delete an automatic instance start/stop schedule."
 sidebar_label: "Delete Instance Schedule"
 sidebar_position: 94
+pagination_next: null
 ---
 
 # Delete an Instance Schedule
@@ -24,6 +25,3 @@ Deleting a schedule cannot be undone. A schedule that is currently running canno
 
 Attached instances are released and retain their current state.
 
-## Next steps
-
-- [Create a New Instance Schedule](./create-new-instance.md)

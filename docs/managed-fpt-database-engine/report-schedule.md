@@ -4,6 +4,7 @@ title: "Report Schedule"
 description: "The **Report Schedules** function allows users to create, manage, and monitor schedules for automatically sending report"
 sidebar_label: "Report Schedule"
 sidebar_position: 43
+pagination_next: null
 ---
 
 # Report Schedule

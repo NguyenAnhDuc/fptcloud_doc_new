@@ -4,6 +4,7 @@ title: "Faq"
 description: "You can create an API Key under **My Account → My API Keys**."
 sidebar_label: "Faq"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Faq

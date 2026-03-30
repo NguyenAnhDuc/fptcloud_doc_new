@@ -4,6 +4,7 @@ title: "Câu hỏi thường gặp"
 description: "FortiGate hay Firewall Fortinet là các thiết bị bảo mật đa lớp thế hệ tiếp theo dưới dạng tường lửa của Fortinet. Fortig"
 sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: 11
+pagination_next: null
 ---
 
 # Faq

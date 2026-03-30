@@ -4,6 +4,7 @@ title: "Delete Topics"
 description: "In case you want to delete a topic that is no longer in use, you can follow these instructions:"
 sidebar_label: "Delete Topics"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Delete Topics

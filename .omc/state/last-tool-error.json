@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/root/.claude/projects/-root-codes-fptcloud-doc-new/c76acfb7-025c-4ce8-a2cb-eebcf5e28133/tool-results/by8ox9v90.txt\"}",
+  "error": "File content (35423 tokens) exceeds maximum allowed tokens (10000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
+  "timestamp": "2026-03-30T16:28:35.681Z",
+  "retry_count": 2
+}

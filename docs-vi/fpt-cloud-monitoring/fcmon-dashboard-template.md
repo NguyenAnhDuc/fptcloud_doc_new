@@ -4,6 +4,7 @@ title: "7.2.1. Cài đặt dashboard template"
 description: "Giúp bạn triển khai nhanh chóng thông qua các mẫu dashboard mà FPT Cloud Monitoring cung cấp, sẵn sàng ngay để sử dụng."
 sidebar_label: "7.2.1. Cài đặt dashboard template"
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Fcmon Dashboard Template

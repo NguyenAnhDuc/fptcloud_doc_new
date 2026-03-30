@@ -4,6 +4,7 @@ title: "Start K8S Cluster"
 description: "For previously stopped Clusters, you can turn them back on following the instructions below:"
 sidebar_label: "Start K8S Cluster"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Start K8S Cluster

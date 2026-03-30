@@ -4,6 +4,7 @@ title: "Hướng dẫn sử dụng cho API Consumer"
 description: "Để có thể bắt đầu sử dụng, client sẽ cần có các thông tin sau:"
 sidebar_label: "Hướng dẫn sử dụng cho API Consumer"
 sidebar_position: 11
+pagination_next: null
 ---
 
 # Huong Dan Su Dung Cho Api Consumer

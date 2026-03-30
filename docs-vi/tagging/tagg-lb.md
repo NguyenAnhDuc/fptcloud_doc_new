@@ -4,6 +4,7 @@ title: "Quản lý tag cho Load Balancer"
 description: "Gắn và quản lý tag cho Load Balancer — khi tạo mới hoặc sau khi Load Balancer đã được khởi tạo."
 sidebar_label: "Quản lý tag cho Load Balancer"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # Quản lý tag cho Load Balancer
@@ -38,6 +39,3 @@ Gắn tag cho Load Balancer giúp bạn phân loại bộ cân bằng tải theo
 Khi xóa Load Balancer, hệ thống tự động gỡ các tag liên kết và cập nhật danh sách tag trên màn hình Tagging.
 :::
 
-## Bước tiếp theo
-
-- [Thanh toán theo tag](./tagging-billing.md)

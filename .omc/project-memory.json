@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1774796600600,
+  "lastScanned": 1774888017151,
   "projectRoot": "/root/codes/fptcloud_doc_new",
   "techStack": {
     "languages": [
@@ -67,7 +67,7 @@
       "path": "blog",
       "purpose": null,
       "fileCount": 5,
-      "lastAccessed": 1774796600585,
+      "lastAccessed": 1774888017138,
       "keyFiles": [
         "2019-05-28-first-blog-post.md",
         "2019-05-29-long-blog-post.md",
@@ -80,7 +80,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 7,
-      "lastAccessed": 1774796600585,
+      "lastAccessed": 1774888017139,
       "keyFiles": [
         "404.html",
         "index.html",
@@ -93,7 +93,7 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 1,
-      "lastAccessed": 1774796600585,
+      "lastAccessed": 1774888017144,
       "keyFiles": [
         "index.md"
       ]
@@ -102,7 +102,7 @@
       "path": "docs-ja",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1774796600586,
+      "lastAccessed": 1774888017145,
       "keyFiles": [
         "index.md"
       ]
@@ -111,7 +111,7 @@
       "path": "docs-vi",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1774796600586,
+      "lastAccessed": 1774888017146,
       "keyFiles": [
         "index.md"
       ]
@@ -120,42 +120,42 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1774796600586,
+      "lastAccessed": 1774888017148,
       "keyFiles": []
     },
     "static": {
       "path": "static",
       "purpose": "Static files",
       "fileCount": 1,
-      "lastAccessed": 1774796600587,
+      "lastAccessed": 1774888017148,
       "keyFiles": []
     },
     "build/assets": {
       "path": "build/assets",
       "purpose": "Static assets",
       "fileCount": 0,
-      "lastAccessed": 1774796600592,
+      "lastAccessed": 1774888017149,
       "keyFiles": []
     },
     "build/docs": {
       "path": "build/docs",
       "purpose": "Documentation",
       "fileCount": 0,
-      "lastAccessed": 1774796600595,
+      "lastAccessed": 1774888017149,
       "keyFiles": []
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1774796600598,
+      "lastAccessed": 1774888017150,
       "keyFiles": []
     },
     "src/pages": {
       "path": "src/pages",
       "purpose": "Page components",
       "fileCount": 3,
-      "lastAccessed": 1774796600598,
+      "lastAccessed": 1774888017150,
       "keyFiles": [
         "index.js",
         "index.module.css",
@@ -165,21 +165,27 @@
   },
   "hotPaths": [
     {
-      "path": "sidebars.js",
-      "accessCount": 8,
-      "lastAccessed": 1774807188276,
-      "type": "file"
-    },
-    {
       "path": "",
-      "accessCount": 7,
-      "lastAccessed": 1774804316510,
+      "accessCount": 9,
+      "lastAccessed": 1774866650368,
       "type": "directory"
     },
     {
       "path": "sidebars-ja.js",
-      "accessCount": 7,
-      "lastAccessed": 1774806683453,
+      "accessCount": 9,
+      "lastAccessed": 1774866861795,
+      "type": "file"
+    },
+    {
+      "path": "sidebars.js",
+      "accessCount": 9,
+      "lastAccessed": 1774866875302,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Tagging Billing.md",
+      "accessCount": 5,
+      "lastAccessed": 1774867297641,
       "type": "file"
     },
     {
@@ -273,6 +279,18 @@
       "type": "file"
     },
     {
+      "path": "docs-vi/tagging/tagging-billing.md",
+      "accessCount": 3,
+      "lastAccessed": 1774867296905,
+      "type": "file"
+    },
+    {
+      "path": "fptcloud-docs-style-guide.md",
+      "accessCount": 3,
+      "lastAccessed": 1774888097194,
+      "type": "file"
+    },
+    {
       "path": "docs-vi/tagging/index.md",
       "accessCount": 2,
       "lastAccessed": 1774797469730,
@@ -357,12 +375,6 @@
       "type": "file"
     },
     {
-      "path": "docs-vi/tagging/tagging-billing.md",
-      "accessCount": 2,
-      "lastAccessed": 1774797568041,
-      "type": "file"
-    },
-    {
       "path": "docs/tagging/index.md",
       "accessCount": 2,
       "lastAccessed": 1774797586923,
@@ -441,21 +453,9 @@
       "type": "file"
     },
     {
-      "path": "docs/tagging/Tagging Billing.md",
-      "accessCount": 2,
-      "lastAccessed": 1774797724026,
-      "type": "file"
-    },
-    {
-      "path": "fptcloud-docs-style-guide.md",
-      "accessCount": 1,
-      "lastAccessed": 1774796902378,
-      "type": "file"
-    },
-    {
       "path": "docusaurus.config.js",
-      "accessCount": 1,
-      "lastAccessed": 1774796966952,
+      "accessCount": 2,
+      "lastAccessed": 1774866652771,
       "type": "file"
     },
     {

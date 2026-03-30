@@ -4,6 +4,7 @@ title: "Script tạo instance:"
 description: "* Script tạo instance:"
 sidebar_label: "Script tạo instance:"
 sidebar_position: 5
+pagination_next: null
 ---
 
 # Command Terraform

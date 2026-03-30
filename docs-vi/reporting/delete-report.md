@@ -4,6 +4,7 @@ title: "Xóa report"
 description: "Để xóa report, người dùng thực hiện như sau:"
 sidebar_label: "Xóa report"
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Delete Report

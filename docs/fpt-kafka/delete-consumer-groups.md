@@ -4,6 +4,7 @@ title: "Delete Consumer Groups"
 description: "To delete a consumer group, follow these steps:"
 sidebar_label: "Delete Consumer Groups"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # Delete Consumer Groups

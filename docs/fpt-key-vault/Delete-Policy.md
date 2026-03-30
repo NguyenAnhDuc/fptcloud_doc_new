@@ -4,6 +4,7 @@ title: "Delete Policy"
 description: "**Step 1** : Select the Key Vault to delete **Policy** on the Key Vault Management screen:"
 sidebar_label: "Delete Policy"
 sidebar_position: 13
+pagination_next: null
 ---
 
 # Delete Policy

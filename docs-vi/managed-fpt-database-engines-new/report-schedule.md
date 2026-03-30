@@ -4,6 +4,7 @@ title: "Lập lịch báo cáo tự động (Report Schedule)"
 description: "Chức năng **Lập lịch báo cáo tự động (Report Schedules)** cho phép người dùng tạo, quản lý và theo dõi lịch trình tự độn"
 sidebar_label: "Lập lịch báo cáo tự động (Report Schedule)"
 sidebar_position: 43
+pagination_next: null
 ---
 
 # Report Schedule

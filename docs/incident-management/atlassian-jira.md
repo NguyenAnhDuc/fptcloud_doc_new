@@ -4,6 +4,7 @@ title: "Atlassian Jira"
 description: "Integration with **Atlassian Jira** helps maintain accurate and reliable project status when dealing with system’s incid"
 sidebar_label: "Atlassian Jira"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # Atlassian Jira

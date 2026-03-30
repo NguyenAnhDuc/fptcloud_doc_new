@@ -4,6 +4,7 @@ title: "Quản lý kết quả Scan images"
 description: "FPT Cloud cho phép người dùng xem thông tin chi tiết các lỗi images sau khi đã scan như sau:"
 sidebar_label: "Quản lý kết quả Scan images"
 sidebar_position: 33
+pagination_next: null
 ---
 
 # Quan Ly Ket Qua Scan Images

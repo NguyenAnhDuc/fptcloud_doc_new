@@ -4,6 +4,7 @@ title: "Quản lý Consumers"
 description: "Sau khi nhà cung cấp public product lên site, phía client chưa thể sử dụng được các API đó, muốn sử dụng được, nhà cung "
 sidebar_label: "Quản lý Consumers"
 sidebar_position: 9
+pagination_next: null
 ---
 
 # Quan Ly Consumers

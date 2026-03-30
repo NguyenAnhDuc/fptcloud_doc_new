@@ -4,6 +4,7 @@ title: "Lưu ý khi tạo máy ảo từ file ISO"
 description: "Các lưu ý quan trọng khi tạo máy ảo từ file ISO trên FPT Cloud Server."
 sidebar_label: "Lưu ý khi tạo máy ảo từ file ISO"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # Lưu ý khi tạo máy ảo từ file ISO
@@ -29,6 +30,3 @@ Hệ thống mặc định sử dụng disk bus **Virtio** cho ổ Root. Nếu f
 Disk bus SATA có thể làm giảm hiệu suất ổ đĩa. Chỉ sử dụng khi file ISO không tương thích với Virtio.
 :::
 
-## Bước tiếp theo
-
-- [Tạo một máy ảo](./quick-starts-tao-mot-may-ao.md)

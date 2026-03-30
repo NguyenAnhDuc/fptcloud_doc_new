@@ -4,6 +4,7 @@ title: "Kích hoạt policy"
 description: "Để sử dụng tính năng Enable, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner"
 sidebar_label: "Kích hoạt policy"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Enable Policy

@@ -4,6 +4,7 @@ title: "Step 1: Configure VPN_AAS on Openstack"
 description: "In this example, we will create a VPN Site-to-Site connection with the parameters shown in the topology below."
 sidebar_label: "Step 1: Configure VPN_AAS..."
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Step 1: Configure VPN_AAS on Openstack

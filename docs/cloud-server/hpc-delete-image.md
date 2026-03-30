@@ -4,6 +4,7 @@ title: "Delete Image"
 description: "Delete an image from the machine list on HPC Portal when you no longer need it."
 sidebar_label: "Delete Image"
 sidebar_position: 33
+pagination_next: null
 ---
 
 # Delete Image

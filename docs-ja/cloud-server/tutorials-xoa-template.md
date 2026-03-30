@@ -4,6 +4,7 @@ title: "Templateを削除する"
 description: "不要になったTemplateをCustom Imagesページから削除します。"
 sidebar_label: "Templateを削除する"
 sidebar_position: 53
+pagination_next: null
 ---
 
 # Templateを削除する
@@ -22,6 +23,3 @@ Templateが不要になった場合は、削除してリソースを解放でき
 
 2. ダイアログボックスで削除を確認します。
 
-## 次のステップ
-
-- [Instance Templateの管理](./tutorials-quan-ly-instance-template.md)

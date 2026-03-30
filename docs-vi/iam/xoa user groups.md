@@ -4,6 +4,7 @@ title: "Xóa User Groups"
 description: "Với các User Groups không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:"
 sidebar_label: "Xóa User Groups"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Xoa User Groups

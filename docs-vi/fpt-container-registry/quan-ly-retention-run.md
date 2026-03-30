@@ -4,6 +4,7 @@ title: "Quản lý Retention Run"
 description: "Người dùng có thể quản lý danh sách các Retention Run đã chạy quy tắc. Ngoài ra người dùng có thể chạy thủ công các quy "
 sidebar_label: "Quản lý Retention Run"
 sidebar_position: 17
+pagination_next: null
 ---
 
 # Quan Ly Retention Run

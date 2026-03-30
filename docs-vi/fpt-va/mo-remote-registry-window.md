@@ -4,6 +4,7 @@ title: "8. Mở Remote Registry trên Windows để sử dụng SMB"
 description: "Để hệ thống FPT Cloud VA có thể sử dụng phương thức đăng nhập SMB, cần mở dịch vụ Remote Registry trên máy Window theo c"
 sidebar_label: "8. Mở Remote Registry trên Windows để sử dụng SMB"
 sidebar_position: 11
+pagination_next: null
 ---
 
 # Mo Remote Registry Window

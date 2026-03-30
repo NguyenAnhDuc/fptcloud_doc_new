@@ -4,6 +4,7 @@ title: "Completion History"
 description: "Select a session and open the **Completion History** tab to view all past completions for that session. [![file](/img/mi"
 sidebar_label: "Completion History"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # Completion History

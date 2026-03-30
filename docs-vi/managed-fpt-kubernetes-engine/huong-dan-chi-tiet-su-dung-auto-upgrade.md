@@ -4,6 +4,7 @@ title: "Hướng dẫn chi tiết sử dụng tính năng auto upgrade version"
 description: "* Với các Managed Kubernetes Cluster đang sử dụng version đã end of standard support quá một minor version so với versio"
 sidebar_label: "Hướng dẫn chi tiết sử dụng tính năng auto upgrade version"
 sidebar_position: 27
+pagination_next: null
 ---
 
 # Huong Dan Chi Tiet Su Dung Auto Upgrade

@@ -4,6 +4,7 @@ title: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluste
 description: "Tất cả tài liệu"
 sidebar_label: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
 sidebar_position: 6
+pagination_next: null
 ---
 
 # File Storage – High Performance

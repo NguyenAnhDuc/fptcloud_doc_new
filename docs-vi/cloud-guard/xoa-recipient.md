@@ -4,6 +4,7 @@ title: "Xóa Recipient"
 description: "**Bước 1** : Trên bảng quản trị **Recipient** **Management** , trong phần **Action** của Recipient cần xóa, chọn **"
 sidebar_label: "Xóa Recipient"
 sidebar_position: 18
+pagination_next: null
 ---
 
 # Xoa Recipient

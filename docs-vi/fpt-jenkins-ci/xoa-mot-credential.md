@@ -4,6 +4,7 @@ title: "Xóa một credential"
 description: "Để xoá một credential không sử dụng, người dùng thực hiện như sau:"
 sidebar_label: "Xóa một credential"
 sidebar_position: 13
+pagination_next: null
 ---
 
 # Xoa Mot Credential

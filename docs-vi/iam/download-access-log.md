@@ -4,6 +4,7 @@ title: "Tải danh sách lịch sử truy cập"
 description: "Người dùng có thể tải danh sách lịch sử truy cập trên ORG qua các bước."
 sidebar_label: "Tải danh sách lịch sử truy cập"
 sidebar_position: 28
+pagination_next: null
 ---
 
 # Download Access Log

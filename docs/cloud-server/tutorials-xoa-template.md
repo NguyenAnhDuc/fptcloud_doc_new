@@ -4,6 +4,7 @@ title: "Delete a template"
 description: "Delete a template from the Custom Images page when it is no longer needed."
 sidebar_label: "Delete a template"
 sidebar_position: 53
+pagination_next: null
 ---
 
 # Delete a template
@@ -22,6 +23,3 @@ Deleted templates cannot be recovered.
 
 2. Confirm the deletion in the dialog box.
 
-## Next steps
-
-- [Managing Instance Templates](./tutorials-quan-ly-instance-template.md)

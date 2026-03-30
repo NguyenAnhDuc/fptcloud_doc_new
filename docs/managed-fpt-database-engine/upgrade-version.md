@@ -4,6 +4,7 @@ title: "Upgrade Version"
 description: "The **Upgrade Database Engine Version** feature in FPT Database Engine **allows** users to **upgrade a MariaDB database "
 sidebar_label: "Upgrade Version"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Upgrade Version

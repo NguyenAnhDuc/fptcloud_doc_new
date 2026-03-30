@@ -4,6 +4,7 @@ title: "Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prometheus"
 description: "[![](/img/migrated/Picture3-2-a84e2a0e.png)](/img/migrated/Picture3-2-a84e2a0e.png)"
 sidebar_label: "Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prometheus"
 sidebar_position: 12
+pagination_next: null
 ---
 
 # Huong Dan Cau Hinh Auto Scale Su Dung Keda Va Prometheus

@@ -4,6 +4,7 @@ title: "Cấu hình 2FA"
 description: "**2FA (Two Factor Authentication)** là một phương thức xác thực tài khoản an toàn hơn bằng cách tạo thêm một lớp bảo mật"
 sidebar_label: "Cấu hình 2FA"
 sidebar_position: 22
+pagination_next: null
 ---
 
 # Cau Hinh 2Fa

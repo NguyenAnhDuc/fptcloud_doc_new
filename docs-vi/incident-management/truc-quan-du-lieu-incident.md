@@ -4,6 +4,7 @@ title: "Truc Quan du Lieu Incident"
 description: "**Incident Insights** cho phép bạn trực quan hóa dữ liệu incident, giúp bạn khám phá các số liệu và xu hướng hiệu xuất ứ"
 sidebar_label: "Truc Quan du Lieu Incident"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Truc Quan Du Lieu Incident

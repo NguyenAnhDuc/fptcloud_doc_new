@@ -4,6 +4,7 @@ title: "Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm Clic
 description: "**A:**"
 sidebar_label: "Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm ClickHouse?"
 sidebar_position: 47
+pagination_next: null
 ---
 
 # Clickhouse Use Ha

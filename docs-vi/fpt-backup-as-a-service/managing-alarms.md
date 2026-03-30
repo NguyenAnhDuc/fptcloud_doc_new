@@ -4,6 +4,7 @@ title: "Managing Alarms"
 description: "**Bước 1:** Login vào trang portal quản trị của dịch vụ Backup As a Service tại: <https://baas.fptcloud.com> [![file](/i"
 sidebar_label: "Managing Alarms"
 sidebar_position: 10
+pagination_next: null
 ---
 
 # Managing Alarms

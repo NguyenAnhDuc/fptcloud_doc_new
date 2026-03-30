@@ -4,6 +4,7 @@ title: "Xem đối soát theo tài nguyên sử dụng (Charges by resource)"
 description: "Người dùng có thể chọn loại tài nguyên (resource type) và xem chi tiết số lượng sử dụng - đơn giá - thành tiền với từng "
 sidebar_label: "Xem đối soát theo tài nguyên sử dụng (Charges by resource)"
 sidebar_position: 4
+pagination_next: null
 ---
 
 # View Bill Charges By Resource

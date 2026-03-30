@@ -4,6 +4,7 @@ title: "Delete User Group"
 description: "For **User Groups** that are no longer needed, you can delete them by following these steps:"
 sidebar_label: "Delete User Group"
 sidebar_position: 16
+pagination_next: null
 ---
 
 # Delete User Group

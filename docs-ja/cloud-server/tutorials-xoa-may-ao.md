@@ -4,6 +4,7 @@ title: "仮想マシンの削除（詳細）"
 description: "FPT Cloud Serverから仮想マシンを削除するための詳細手順。"
 sidebar_label: "仮想マシンの削除"
 sidebar_position: 19
+pagination_next: null
 ---
 
 # 仮想マシンの削除
@@ -32,7 +33,3 @@ sidebar_position: 19
 
    [![削除中の仮想マシン](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
 
-## 次のステップ
-
-- [仮想マシンの作成](./quick-starts-tao-mot-may-ao.md)
-- [仮想マシンの管理](./quan-ly-may-ao.md)

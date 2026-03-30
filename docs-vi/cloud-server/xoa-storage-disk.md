@@ -4,6 +4,7 @@ title: "Xóa Storage Disk"
 description: "Xóa Storage Disk khỏi VPC khi không còn nhu cầu sử dụng."
 sidebar_label: "Xóa Storage Disk"
 sidebar_position: 40
+pagination_next: null
 ---
 
 # Xóa Storage Disk
@@ -24,6 +25,3 @@ Chỉ xóa được Storage Disk không đang gắn vào máy ảo. Dữ liệu 
 
    [![Hộp thoại xác nhận xóa Storage Disk](/img/migrated/image-1712215582910-1868700d.png)](/img/migrated/image-1712215582910-1868700d.png)
 
-## Bước tiếp theo
-
-- [Tạo Storage Disk](./tao-storage-disk.md)

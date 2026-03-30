@@ -4,6 +4,7 @@ title: "Enable Disable Admin User"
 description: "Mặc định khi tạo ArgoCD instance user admin sẽ được enable để người dùng có thể login vào ArgoCD để sử dụng. Nếu muốn di"
 sidebar_label: "Enable Disable Admin User"
 sidebar_position: 32
+pagination_next: null
 ---
 
 # Enable Disable Admin User

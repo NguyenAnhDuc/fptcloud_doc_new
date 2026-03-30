@@ -4,6 +4,7 @@ title: "Delete Topics"
 description: "**Step 1** : From the **Application** menu > **Topics** > Choose a desired topic > **Remove**."
 sidebar_label: "Delete Topics"
 sidebar_position: 14
+pagination_next: null
 ---
 
 # Delete Topics

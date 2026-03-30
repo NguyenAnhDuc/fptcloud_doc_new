@@ -4,6 +4,7 @@ title: "Faqs"
 description: "Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). D-FKE provides support in both of these regi"
 sidebar_label: "Faqs"
 sidebar_position: 25
+pagination_next: null
 ---
 
 # Faqs

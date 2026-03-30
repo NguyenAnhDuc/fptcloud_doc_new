@@ -4,6 +4,7 @@ title: "Tinh Nang Khac"
 description: "* Ở màn hình Floating IP, hệ thống cho phép người dùng chọn Gateway khi Allocate IP, hover vào tooltip ở thông tin của G"
 sidebar_label: "Tinh Nang Khac"
 sidebar_position: 7
+pagination_next: null
 ---
 
 # Tinh Nang Khac

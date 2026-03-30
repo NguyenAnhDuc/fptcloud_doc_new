@@ -4,6 +4,7 @@ title: "Deploy App Catalogs To Cluster"
 description: "After searching for the desired chart, to deploy the app to the K8s cluster, follow these steps:"
 sidebar_label: "Deploy App Catalogs To..."
 sidebar_position: 8
+pagination_next: null
 ---
 
 # Deploy App Catalogs To Cluster

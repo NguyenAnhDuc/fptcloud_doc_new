@@ -4,6 +4,7 @@ title: "Xóa Instance Schedule"
 description: "Xóa lịch tự động tắt/bật máy ảo."
 sidebar_label: "Xóa Instance Schedule"
 sidebar_position: 94
+pagination_next: null
 ---
 
 # Xóa Instance Schedule
@@ -24,6 +25,3 @@ Xóa Schedule không thể khôi phục. Không thể xóa nếu lịch đang ch
 
 Máy ảo đang gắn sẽ được giải phóng và giữ nguyên trạng thái.
 
-## Bước tiếp theo
-
-- [Tạo Instance Schedule mới](./create-new-instance.md)

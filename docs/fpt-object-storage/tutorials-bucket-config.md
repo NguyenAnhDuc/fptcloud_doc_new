@@ -4,6 +4,7 @@ title: "Tutorials Bucket Config"
 description: "**Versioning** is a feature that allows you to store and manage multiple versions of an object on **FPT Object Storage**"
 sidebar_label: "Tutorials Bucket Config"
 sidebar_position: 7
+pagination_next: null
 ---
 
 # Tutorials Bucket Config
