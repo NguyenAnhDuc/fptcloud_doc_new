@@ -1,0 +1,469 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774796600600,
+  "projectRoot": "/root/codes/fptcloud_doc_new",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=20.0",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": "Node.js 20.0"
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "npm run start",
+    "scripts": {
+      "docusaurus": "docusaurus",
+      "start": "docusaurus start",
+      "build": "docusaurus build",
+      "swizzle": "docusaurus swizzle",
+      "deploy": "docusaurus deploy",
+      "clear": "docusaurus clear",
+      "serve": "docusaurus serve",
+      "write-translations": "docusaurus write-translations",
+      "write-heading-ids": "docusaurus write-heading-ids"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "src",
+      "static"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "blog": {
+      "path": "blog",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1774796600585,
+      "keyFiles": [
+        "2019-05-28-first-blog-post.md",
+        "2019-05-29-long-blog-post.md",
+        "2021-08-01-mdx-blog-post.mdx",
+        "authors.yml",
+        "tags.yml"
+      ]
+    },
+    "build": {
+      "path": "build",
+      "purpose": "Build output",
+      "fileCount": 7,
+      "lastAccessed": 1774796600585,
+      "keyFiles": [
+        "404.html",
+        "index.html",
+        "search-index-docs-en-current.json",
+        "search-index-docs-ja-current.json",
+        "search-index-docs-vi-current.json"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 1,
+      "lastAccessed": 1774796600585,
+      "keyFiles": [
+        "index.md"
+      ]
+    },
+    "docs-ja": {
+      "path": "docs-ja",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774796600586,
+      "keyFiles": [
+        "index.md"
+      ]
+    },
+    "docs-vi": {
+      "path": "docs-vi",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1774796600586,
+      "keyFiles": [
+        "index.md"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1774796600586,
+      "keyFiles": []
+    },
+    "static": {
+      "path": "static",
+      "purpose": "Static files",
+      "fileCount": 1,
+      "lastAccessed": 1774796600587,
+      "keyFiles": []
+    },
+    "build/assets": {
+      "path": "build/assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1774796600592,
+      "keyFiles": []
+    },
+    "build/docs": {
+      "path": "build/docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1774796600595,
+      "keyFiles": []
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 0,
+      "lastAccessed": 1774796600598,
+      "keyFiles": []
+    },
+    "src/pages": {
+      "path": "src/pages",
+      "purpose": "Page components",
+      "fileCount": 3,
+      "lastAccessed": 1774796600598,
+      "keyFiles": [
+        "index.js",
+        "index.module.css",
+        "markdown-page.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "sidebars.js",
+      "accessCount": 8,
+      "lastAccessed": 1774807188276,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 7,
+      "lastAccessed": 1774804316510,
+      "type": "directory"
+    },
+    {
+      "path": "sidebars-ja.js",
+      "accessCount": 7,
+      "lastAccessed": 1774806683453,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/index.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800874787,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/Initial-Setup.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800875044,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/quick-starts-tao-mot-may-ao.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800875677,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/create-vm-iso.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800879549,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/clone-instance.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800879973,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/quick-starts-tatbat-may-ao.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800880780,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/quick-starts-khoi-dong-lai-may-ao.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800881592,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/lock-unlock-instance-deletion.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800882011,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/quick-starts-xoa-may-ao.md",
+      "accessCount": 4,
+      "lastAccessed": 1774800882461,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/quan-ly-may-ao.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801111156,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/tutorials-khoi-tao-mot-may-ao-moi.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801112069,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/tutorials-ket-noi-vao-may-ao-windows.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801112690,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/tutorials-ket-noi-vao-may-ao-linux.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801113431,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/attach-a-network-card-to-the-virtual-machine.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801114041,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/cloud-server/remove-the-network-card-from-the-virtual-machine.md",
+      "accessCount": 4,
+      "lastAccessed": 1774801118167,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797469730,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/initial-setup.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797469888,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/create-tag-new.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797470095,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/edit-tag.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797470264,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/delete-tag.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797470443,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/resource-1.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797485452,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-instance.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797496959,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-storage-disk.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797502736,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-snapshot.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797513887,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-custom-image.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797522404,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-floating-ip.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797536130,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-subnet.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797545690,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tags-security-group.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797554401,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tagg-lb.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797562779,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/tagging/tagging-billing.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797568041,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797586923,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/initial-setup.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797591913,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Edit tags.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797601099,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Delete Tag.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797605982,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Resource.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797613304,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Instance Management.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797666145,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Storage disk.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797671027,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Snapshot.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797680664,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Custom image.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797686644,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Managing Tags for Floating IP.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797693816,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag to Subnet.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797707062,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Manage tag for Security group.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797713976,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/tagg-lb.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797720602,
+      "type": "file"
+    },
+    {
+      "path": "docs/tagging/Tagging Billing.md",
+      "accessCount": 2,
+      "lastAccessed": 1774797724026,
+      "type": "file"
+    },
+    {
+      "path": "fptcloud-docs-style-guide.md",
+      "accessCount": 1,
+      "lastAccessed": 1774796902378,
+      "type": "file"
+    },
+    {
+      "path": "docusaurus.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1774796966952,
+      "type": "file"
+    },
+    {
+      "path": "docs/cloud-server/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1774800884896,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

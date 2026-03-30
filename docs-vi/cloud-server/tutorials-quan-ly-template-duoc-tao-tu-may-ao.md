@@ -1,22 +1,27 @@
 ---
 id: "tutorials-quan-ly-template-duoc-tao-tu-may-ao"
-title: "Quản lý template được tạo từ máy ảo trên trang Custom Images"
-description: "Trên trang **Custom Images** , hệ thống hiển thị danh sách các template được tạo từ instance trên tab **General Image**"
-sidebar_label: "Quản lý template được tạo từ máy ảo trên trang Custom Images"
+title: "Quản lý template trên trang Custom Images"
+description: "Xem danh sách và theo dõi trạng thái template đã tạo từ máy ảo."
+sidebar_label: "Quản lý template trên Custom Images"
 sidebar_position: 51
 ---
 
-# Tutorials Quan Ly Template Duoc Tao Tu May Ao
+# Quản lý template trên trang Custom Images
 
-Trên trang **Custom Images** , hệ thống hiển thị danh sách các template được tạo từ instance trên tab **General Image**
-Thông tin template gồm:
-  * **Name** : Tên của template
-  * **Description** : Mô tả của template
-  * **Status** : Hiển thị trạng thái của template Pending/Success/Failed 
+Trang **Custom Images** hiển thị danh sách template đã tạo từ máy ảo trong tab **General Image**.
 
-[![file](/img/migrated/image-1715855590500-9c6d17bc.png)](/img/migrated/image-1715855590500-9c6d17bc.png)
-  * **Tiến trình** : Hiển thị thanh progress tiến trình khởi tạo của file template
+## Thông tin template
 
-[![file](/img/migrated/image-1715855691493-7d373533.png)](/img/migrated/image-1715855691493-7d373533.png)
-  * **Created at** : Khoản thời gian template được khởi tạo
-  * **Actions** : Gồm các hành động: Create instance, Delete
+- **Name**: Tên template.
+- **Description**: Mô tả template.
+- **Status**: Trạng thái — Pending / Success / Failed.
+
+[![Danh sách template trên Custom Images](/img/migrated/image-1715855590500-9c6d17bc.png)](/img/migrated/image-1715855590500-9c6d17bc.png)
+
+- **Tiến trình**: Thanh progress hiển thị tiến trình khởi tạo.
+
+[![Tiến trình khởi tạo template](/img/migrated/image-1715855691493-7d373533.png)](/img/migrated/image-1715855691493-7d373533.png)
+
+## Bước tiếp theo
+
+- [Tạo Instance từ template](./tutorials-tao-instance-tu-template.md)

@@ -1,17 +1,34 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
-description: "If this is your first time using it, first check and complete the following:"
-sidebar_label: "Initial Setup"
+title: "Initial setup"
+description: "Create an FPT Cloud account and log in to FPT Cloud Portal to start using Tagging."
+sidebar_label: "Initial setup"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Initial setup
 
-If this is your first time using it, first check and complete the following: 
-Create an FPT Cloud account and log in to FPT Portal 
-To start using FPT Cloud's Tagging service, you need to log in to FPT Portal. 
-Please access the <https://console.fptcloud.com> and log in with the FPT Cloud account/password that has been issued. Choose the right Tenant, Region 
-If you do not have an FPT Cloud account, please visit the homepage at <https://fptcloud.com/>. 
-Then select the Sign Up function and enter the information according to the system's instructions. You will be contacted by support shortly afterwards and confirm the information to create an account. 
-During the operation, if you encounter any errors, please contact our Support team immediately for assistance.
+Before using the Tagging feature, you need an FPT Cloud account and access to FPT Cloud Portal.
+
+## Prerequisites
+
+- ✅ Have an FPT Cloud account.
+- ✅ Have been granted access to the required Tenant, Region, and VPC.
+
+## Log in to FPT Cloud Portal
+
+1. Go to [https://console.fptcloud.com](https://console.fptcloud.com/).
+2. Log in with your FPT Cloud account credentials.
+3. Select the correct **Tenant**, **Region**, and **VPC** for your service.
+
+:::tip
+If you do not have an FPT Cloud account, visit [https://fptcloud.com](https://fptcloud.com/), select **Sign Up**, and enter the required information. The support team will contact you to confirm and create your account.
+:::
+
+:::note
+If you encounter any errors during the process, contact the Support team for assistance.
+:::
+
+## Next steps
+
+- [Create a new tag](./Initializing%20tags%20.md)

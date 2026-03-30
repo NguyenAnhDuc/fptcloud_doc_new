@@ -1,21 +1,37 @@
 ---
 id: "create-token"
-title: "Create Token"
-description: "**Bước 1** : Người dùng **Create token** tại page **Token**"
-sidebar_label: "Create Token"
+title: "Tạo Token"
+description: "Tạo Token mới để sử dụng Terraform và API trên FPT Cloud."
+sidebar_label: "Tạo Token"
 sidebar_position: 43
 ---
 
-# Create Token
+# Tạo Token
 
-**Bước 1** : Người dùng **Create token** tại page **Token**
-[![file](/img/migrated/image-1731024975251-9874a41d.png)](/img/migrated/image-1731024975251-9874a41d.png)
-**Bước** 2: Người dùng nhập các thông tin cần thiết
-  * **Tên token** : Giới hạn 50 kí tự, bao gồm chữ cái, số, “-” , “_” , “.” và khoảng trắng. Người dùng được phép đặt trùng tên token
-  * **Thời gian hết hạn** : Người dùng lựa chọn trong danh sách hệ thống cung cấp. 
+Tạo Token giúp bạn xác thực khi sử dụng Terraform hoặc API để quản lý tài nguyên trên FPT Cloud.
 
-[![file](/img/migrated/image-1731024985103-48bcc2ab.png)](/img/migrated/image-1731024985103-48bcc2ab.png)
-**Bước 3** : Người dùng bấm **Create**
-**Bước 4** : Hệ thống sẽ khởi tạo token. Người dùng vui lòng lưu trữ cẩn thận token. Sau khi bấm **Done** , hệ thống sẽ đóng khung hiển thị và người dùng không thể copy lại token được nữa. Lưu ý: hệ thống FPT Cloud Portal không lưu trữ token của khách hàng
-[![file](/img/migrated/image-1731024996987-252d326d.png)](/img/migrated/image-1731024996987-252d326d.png)
-[![file](/img/migrated/image-1731025005016-e209b46c.png)](/img/migrated/image-1731025005016-e209b46c.png)
+## Tạo Token
+
+1. Tại trang **Token**, nhấn **Create token**.
+
+   [![Trang Token với nút Create token](/img/migrated/image-1731024975251-9874a41d.png)](/img/migrated/image-1731024975251-9874a41d.png)
+
+2. Nhập thông tin:
+   - **Tên token**: Giới hạn 50 ký tự (chữ cái, số, `-`, `_`, `.` và khoảng trắng).
+   - **Thời gian hết hạn**: Chọn từ danh sách.
+
+   [![Hộp thoại Create token](/img/migrated/image-1731024985103-48bcc2ab.png)](/img/migrated/image-1731024985103-48bcc2ab.png)
+
+3. Nhấn **Create**.
+
+4. Hệ thống hiển thị Token. Sao chép và lưu trữ cẩn thận.
+
+   [![Token đã tạo thành công](/img/migrated/image-1731024996987-252d326d.png)](/img/migrated/image-1731024996987-252d326d.png)
+
+:::danger
+Token chỉ hiển thị một lần. Sau khi nhấn **Done**, bạn không thể xem lại Token. FPT Cloud Portal không lưu trữ Token của bạn.
+:::
+
+## Bước tiếp theo
+
+- [Revoke Token](./revoke-token.md)

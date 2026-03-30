@@ -6,21 +6,44 @@ sidebar_label: "Quản lý tag cho Security Group"
 sidebar_position: 13
 ---
 
-# Tags Security Group
+# Quản lý tag cho Security Group
 
-## **1. Gắn tag trong lúc tạo security group**
-**Bước 1** : Ở menu chọn **Security group** > chọn **Create security group**
-[![file](/img/migrated/image-1721034868364-9582cb2e.png)](/img/migrated/image-1721034868364-9582cb2e.png)
-**Bước 2** : Tại page **Create security group** người dùng có thể chọn tag ở trường **Add tag (optional)** để gắn tag vào security group.
-[![file](/img/migrated/image-1721034882491-a8d79b00.png)](/img/migrated/image-1721034882491-a8d79b00.png)
-**Bước 3** : Người dùng điền các thông tin khác và nhấn **Create security group** để tạo security group, tag được gắn vào security group sẽ hiển thị trên trường **Tags** tại màn hình **Security group**
-[![file](/img/migrated/image-1721034894848-efbc40e0.png)](/img/migrated/image-1721034894848-efbc40e0.png)
-## **2. Manage tag cho Security group**
-**Bước 1** : Ở menu chọn **Security group** người dùng chọn security group, chọn **Actions** > chọn **Manage tags**
-[![file](/img/migrated/image-1721034908522-a8960341.png)](/img/migrated/image-1721034908522-a8960341.png)
-**Bước 2** : Hộp thoại hiện ra, người dùng chọn tag để gắn vào security group.
-[![file](/img/migrated/image-1721034922176-ded21a16.png)](/img/migrated/image-1721034922176-ded21a16.png)
-**Bước 3** : Nếu người dùng muốn gỡ tag ra khỏi security group
-Chọn dấu “x” bên cạnh tên các tag muốn gỡ để thực hiện thao tác gỡ tag (người dùng cũng có thể click vào dấu “x” ở cuối listbox để gỡ cùng lúc toàn bộ tag khỏi security group), sau đó chọn **Save**.
-**Lưu ý rằng khi người dùng xóa security group, điều này sẽ dẫn đến việc hệ thống tự động gỡ bỏ các tag liên kết và cập nhật lại danh sách tag trên màn hình Tagging.**
-[![file](/img/migrated/image-1721034933906-b25bc9ee.png)](/img/migrated/image-1721034933906-b25bc9ee.png)
+Gắn tag cho Security Group giúp bạn phân loại các nhóm bảo mật theo dự án hoặc môi trường — thuận tiện cho việc quản lý chính sách truy cập.
+
+## Gắn tag khi tạo Security Group
+
+1. Chọn **Security group** từ menu, nhấn **Create security group**.
+
+   [![Màn hình Security group với nút Create security group](/img/migrated/image-1721034868364-9582cb2e.png)](/img/migrated/image-1721034868364-9582cb2e.png)
+
+2. Tại trang **Create security group**, chọn tag trong trường **Add tag (optional)**.
+
+   [![Trang Create security group với trường Add tag](/img/migrated/image-1721034882491-a8d79b00.png)](/img/migrated/image-1721034882491-a8d79b00.png)
+
+3. Điền các thông tin khác và nhấn **Create security group**.
+
+Tag được gắn hiển thị trên trường **Tags** tại màn hình **Security group**.
+
+[![Danh sách Security Group với tag đã gắn](/img/migrated/image-1721034894848-efbc40e0.png)](/img/migrated/image-1721034894848-efbc40e0.png)
+
+## Quản lý tag cho Security Group đã tạo
+
+1. Chọn **Security group** từ menu, chọn security group cần quản lý, nhấn **Actions** → **Manage tags**.
+
+   [![Menu Actions với tùy chọn Manage tags cho Security Group](/img/migrated/image-1721034908522-a8960341.png)](/img/migrated/image-1721034908522-a8960341.png)
+
+2. Hộp thoại hiển thị, chọn tag để gắn vào Security Group.
+
+   [![Hộp thoại Manage tags cho Security Group](/img/migrated/image-1721034922176-ded21a16.png)](/img/migrated/image-1721034922176-ded21a16.png)
+
+3. Để gỡ tag, nhấn dấu **x** bên cạnh tên tag. Nhấn dấu **x** ở cuối listbox để gỡ toàn bộ tag. Nhấn **Save** để lưu thay đổi.
+
+   [![Hộp thoại Manage tags với tùy chọn gỡ tag](/img/migrated/image-1721034933906-b25bc9ee.png)](/img/migrated/image-1721034933906-b25bc9ee.png)
+
+:::warning
+Khi xóa Security Group, hệ thống tự động gỡ các tag liên kết và cập nhật danh sách tag trên màn hình Tagging.
+:::
+
+## Bước tiếp theo
+
+- [Quản lý tag cho Load Balancer](./tagg-lb.md)

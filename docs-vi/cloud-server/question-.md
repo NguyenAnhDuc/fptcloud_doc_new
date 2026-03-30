@@ -1,14 +1,13 @@
 ---
 id: "question-"
-title: "Question "
-description: "* Nat instance được xây dựng trên hệ điều hành Ubuntu, được cài đặt thêm các rule hỗ trợ Nat, và được sử dụng như một in"
-sidebar_label: "Question"
+title: "NAT Instance có thể sử dụng như Instance thông thường không?"
+description: "Câu hỏi thường gặp về NAT Instance."
+sidebar_label: "FAQ: NAT Instance"
 sidebar_position: 107
 ---
 
-# Question 
+# NAT Instance có thể sử dụng như Instance thông thường không?
 
-* Nat instance được xây dựng trên hệ điều hành Ubuntu, được cài đặt thêm các rule hỗ trợ Nat, và được sử dụng như một instance thông thường của hệ thống.
+Có. NAT Instance được xây dựng trên Ubuntu, cài thêm các rule hỗ trợ NAT — và có thể sử dụng như một Instance thông thường.
 
-Một Nat instance có thể hỗ trợ Nat cho tối đa bao nhiêu isolated network
-  * Ngoài trừ primary NIC cần dùng cho routed network, Nat instance thể add thêm 9 NIC khác thuộc vào 9 dãy isolated network. Các instance trong mỗi network cần truy cập Internet chỉ cần chuyển default gateway về NIC của Nat instance.
+Ngoài primary NIC dùng cho routed network, NAT Instance có thể thêm tối đa 9 NIC thuộc 9 dãy isolated network. Các Instance trong mỗi network chỉ cần chuyển default gateway về NIC của NAT Instance để truy cập internet.

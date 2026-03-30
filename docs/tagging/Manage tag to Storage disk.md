@@ -1,19 +1,34 @@
 ---
-id: "Manage tag to Storage disk"
-title: "Manage tag to Storage Disk"
+id: "tags-storage-disk"
+slug: /tagging/tags-storage-disk
+title: "Manage tags for Storage Disk"
 description: "Assign and manage tags for Storage Disk — during creation or after the disk has been provisioned."
-sidebar_label: "Manage tag to Storage Disk"
+sidebar_label: "Manage tags for Storage Disk"
 sidebar_position: 8
 ---
 
-# Manage Tag To Storage Disk
+# Manage tags for Storage Disk
 
-## **1. Managing Tags for a Storage Disk**
-**Step 1** : On the **Storage Disk** screen, select a disk, click **Actions** , then choose **Manage tags**.
-[![file](/img/migrated/image-1721014373921-ea32f78f.png)](/img/migrated/image-1721014373921-ea32f78f.png)
-**Step 2** : A dialog box will appear, allowing users to select tags to assign to the storage disk.
-[![file](/img/migrated/image-1721014531446-5a901255.png)](/img/migrated/image-1721014531446-5a901255.png)
-**Step 3** : Removing Tags from a Storage Disk.
-To remove a tag, click the “x” next to the tag name. Users can also click the “x” at the end of the list box to remove all tags at once. Then, click **Save** to confirm the changes.
-**Note: When a storage disk is deleted, the system will automatically remove all associated tags and update the tag list on the Tagging screen.**
-[![file](/img/migrated/image-1721014918750-40fabdec.png)](/img/migrated/image-1721014918750-40fabdec.png)
+Assigning tags to Storage Disks helps you categorize disks by project or environment — making storage management and cost tracking easier.
+
+## Manage tags for a Storage Disk
+
+1. On the **Storage disk** screen, select a disk, then click **Actions** → **Manage tags**.
+
+   [![Actions menu with Manage tags option for Storage Disk](/img/migrated/image-1721014373921-ea32f78f.png)](/img/migrated/image-1721014373921-ea32f78f.png)
+
+2. A dialog appears. Select tags to assign to the Storage Disk.
+
+   [![Manage tags dialog for Storage Disk](/img/migrated/image-1721014531446-5a901255.png)](/img/migrated/image-1721014531446-5a901255.png)
+
+3. To remove a tag, click the **x** next to the tag name. Click the **x** at the end of the list box to remove all tags at once. Click **Save** to confirm.
+
+   [![Manage tags dialog with remove option](/img/migrated/image-1721014918750-40fabdec.png)](/img/migrated/image-1721014918750-40fabdec.png)
+
+:::warning
+When a Storage Disk is deleted, the system automatically removes all associated tags and updates the tag list on the Tagging screen.
+:::
+
+## Next steps
+
+- [Manage tags for Snapshot](./Manage%20tag%20to%20Snapshot.md)

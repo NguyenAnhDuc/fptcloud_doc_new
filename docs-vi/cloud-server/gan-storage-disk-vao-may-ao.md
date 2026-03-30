@@ -1,17 +1,30 @@
 ---
 id: "gan-storage-disk-vao-may-ao"
 title: "Gắn Storage Disk vào máy ảo"
-description: "Sau khi tạo xong, đối với những storage disk chưa có máy ảo người dùng có thể gắn **Storage Disk** vào một máy ảo để có "
+description: "Gắn Storage Disk vào máy ảo để mở rộng dung lượng lưu trữ."
 sidebar_label: "Gắn Storage Disk vào máy ảo"
 sidebar_position: 36
 ---
 
-# Gan Storage Disk Vao May Ao
+# Gắn Storage Disk vào máy ảo
 
-Sau khi tạo xong, đối với những storage disk chưa có máy ảo người dùng có thể gắn **Storage Disk** vào một máy ảo để có thể sử dụng. Storage Disk có thể gắn với tất cả các hệ điều hành đang hỗ trợ trên FPT Cloud. Thao tác này tương tự việc ười dùng gắn một ổ cứng rời vào máy vật lý.
-**Bước 1** : Chọn **Storage Disk** cần gắn vào máy ảo. Sau đó chọn **Actions** > **Attach**.
-[![file](/img/migrated/image-1712215517268-10c0d6df.png)](/img/migrated/image-1712215517268-10c0d6df.png)
-**Bước 2** : Chọn máy ảo cần gắn trong trong popup và chọn **Attach**.
-[![file](/img/migrated/image-1712215524338-f47bb248.png)](/img/migrated/image-1712215524338-f47bb248.png)
-  * Mỗi Storage Disk chỉ gắn được vào một máy ảo
-  * Sau khi gắn vào máy ảo, với các máy chạy hệ điều hành Window sẽ cần thêm một số bước cấu hình thì mới sử dụng được ổ đĩa tạo ra bởi Storage Disk.
+Sau khi tạo, bạn có thể gắn Storage Disk vào máy ảo để sử dụng — tương tự việc gắn ổ cứng rời vào máy vật lý.
+
+## Gắn Storage Disk
+
+1. Chọn Storage Disk cần gắn, nhấn **Actions** → **Attach**.
+
+   [![Menu Actions với tùy chọn Attach](/img/migrated/image-1712215517268-10c0d6df.png)](/img/migrated/image-1712215517268-10c0d6df.png)
+
+2. Chọn máy ảo cần gắn trong popup, nhấn **Attach**.
+
+   [![Hộp thoại chọn máy ảo để Attach](/img/migrated/image-1712215524338-f47bb248.png)](/img/migrated/image-1712215524338-f47bb248.png)
+
+:::note
+- Mỗi Storage Disk chỉ gắn được vào một máy ảo.
+- Với máy chạy Windows, cần thêm bước cấu hình ổ đĩa sau khi gắn.
+:::
+
+## Bước tiếp theo
+
+- [Cấu hình ổ đĩa cho máy ảo chạy Windows](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)

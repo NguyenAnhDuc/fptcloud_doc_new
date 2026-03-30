@@ -1,21 +1,38 @@
 ---
 id: "edit-storage-disk"
-title: "Chỉnh sửa thông tin storage disk"
-description: "Chỉnh sửa thông tin storage disk"
-sidebar_label: "Chỉnh sửa thông tin storage disk"
+title: "Chỉnh sửa Storage Disk"
+description: "Chỉnh sửa tên, loại storage hoặc tăng dung lượng Storage Disk."
+sidebar_label: "Chỉnh sửa Storage Disk"
 sidebar_position: 39
 ---
 
-# Edit Storage Disk
+# Chỉnh sửa Storage Disk
 
-Chỉnh sửa thông tin storage disk
-**Lưu ý: Chỉ được chỉnh sửa nếu storage disk đó không có gắn máy ảo**
-**Bước 1** : Chọn **Actions** ở cuối **Storage Disk** cần chỉnh sửa trên danh sách. Chọn **Edit**.
-[![file](/img/migrated/image-1712215559562-97286a15.png)](/img/migrated/image-1712215559562-97286a15.png)
-**Bước 2** : Hiển thị modal Edit, người dùng chỉnh sửa thông tin. Sau đó nhấn **Edit storage disk** để lưu thay đổi
-  * **Name** : tên của storage disk
-  * **Storage Policy** : Loại storage
-  * **Size** : Dung lượng storage
+Bạn có thể chỉnh sửa tên, loại storage hoặc tăng dung lượng Storage Disk khi cần thay đổi cấu hình lưu trữ.
 
-**Lưu ý: Size mới phải lớn hơn Size hiện tại (không thể giảm size của Storage Disk).**
-[![file](/img/migrated/image-1712215566139-704f934e.png)](/img/migrated/image-1712215566139-704f934e.png)
+:::note
+Chỉ chỉnh sửa được Storage Disk không đang gắn vào máy ảo nào.
+:::
+
+## Chỉnh sửa
+
+1. Tại danh sách Storage Disk, chọn **Actions** → **Edit**.
+
+   [![Menu Actions với tùy chọn Edit](/img/migrated/image-1712215559562-97286a15.png)](/img/migrated/image-1712215559562-97286a15.png)
+
+2. Chỉnh sửa thông tin:
+   - **Name**: Tên Storage Disk.
+   - **Storage Policy**: Loại storage.
+   - **Size**: Dung lượng storage.
+
+   Nhấn **Edit storage disk** để lưu.
+
+   [![Hộp thoại Edit Storage Disk](/img/migrated/image-1712215566139-704f934e.png)](/img/migrated/image-1712215566139-704f934e.png)
+
+:::warning
+Size mới phải lớn hơn size hiện tại — không thể giảm dung lượng Storage Disk.
+:::
+
+## Bước tiếp theo
+
+- [Xóa Storage Disk](./xoa-storage-disk.md)

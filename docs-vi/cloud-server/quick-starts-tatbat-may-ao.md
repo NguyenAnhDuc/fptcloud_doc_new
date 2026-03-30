@@ -1,17 +1,28 @@
 ---
 id: "quick-starts-tatbat-may-ao"
 title: "Tắt/Bật máy ảo"
-description: "Với các máy chủ đã tạo trên **FPT Cloud** , bạn có thể bật hoặc tắt tương tự khi sử dụng máy chủ vật lý."
+description: "Tắt hoặc bật máy ảo trên FPT Cloud Server từ bảng quản trị Instance Management."
 sidebar_label: "Tắt/Bật máy ảo"
 sidebar_position: 6
 ---
 
-# Quick Starts Tatbat May Ao
+# Tắt/Bật máy ảo
 
-Với các máy chủ đã tạo trên **FPT Cloud** , bạn có thể bật hoặc tắt tương tự khi sử dụng máy chủ vật lý. 
-**Lưu ý:** Do các tài nguyên đã được cấp phát cố định cho máy chủ của bạn nên khi máy chủ ở trạng thái **Tắt** , hệ thống vẫn sẽ phát sinh các chi phí tương tự khi đang ở trạng thái **Bật** , dù bạn có sử dụng hay không.
-Trên bảng quản trị **Instance Management** , trong phần **Action** , chọn menu **Power**. Tại đây, các thao tác có thể thực hiện được:
-  * Để tắt máy ảo, chọn **Power Off** (áp dụng khi máy ảo đang chạy).
-  * Để bật hoặc khởi động máy ảo, chọn **Power On** (áp dụng khi máy ảo đã tắt).
+Bạn có thể tắt hoặc bật máy ảo trực tiếp từ bảng quản trị FPT Cloud Portal — tương tự thao tác trên máy chủ vật lý.
 
-[![file](/img/migrated/image-1734594484839-8b3d4120.png)](/img/migrated/image-1734594484839-8b3d4120.png)
+:::warning
+Khi máy ảo ở trạng thái **Tắt**, hệ thống vẫn phát sinh chi phí vì tài nguyên đã được cấp phát cố định.
+:::
+
+## Tắt/Bật máy ảo
+
+1. Tại bảng quản trị **Instance Management**, chọn **Action** → **Power**.
+2. Chọn thao tác:
+   - **Power Off**: Tắt máy ảo (khi máy đang chạy).
+   - **Power On**: Bật máy ảo (khi máy đã tắt).
+
+[![Menu Power với tùy chọn Power Off và Power On](/img/migrated/image-1734594484839-8b3d4120.png)](/img/migrated/image-1734594484839-8b3d4120.png)
+
+## Bước tiếp theo
+
+- [Khởi động lại máy ảo](./quick-starts-khoi-dong-lai-may-ao.md)

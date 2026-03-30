@@ -1,16 +1,29 @@
 ---
 id: "tutorials-khoi-tao-template-tu-may-ao"
 title: "Khởi tạo template từ máy ảo"
-description: "**Bước 1** : Trên trang **Instance Management** , bấm vào **Actions** trên mỗi instance và chọn **Create Template**"
+description: "Tạo template từ máy ảo đã có để tái sử dụng cấu hình."
 sidebar_label: "Khởi tạo template từ máy ảo"
 sidebar_position: 50
 ---
 
-# Tutorials Khoi Tao Template Tu May Ao
+# Khởi tạo template từ máy ảo
 
-**Bước 1** : Trên trang **Instance Management** , bấm vào **Actions** trên mỗi instance và chọn **Create Template**
-[![file](/img/migrated/image-1715855344608-be2905c7.png)](/img/migrated/image-1715855344608-be2905c7.png)
-**Bước 2** : Điền đầy đủ thông tin template và bấm nút **Create template**
-**Bước 3** : Hệ thống chuyển đến trang **Custom images** , người dùng có thể xem trạng thái và tiến trình khởi tạo template
-[![file](/img/migrated/image-1715855896164-3bb4e6c2.png)](/img/migrated/image-1715855896164-3bb4e6c2.png)
-[![file](/img/migrated/image-1715855902172-92a593fa.png)](/img/migrated/image-1715855902172-92a593fa.png)
+Tạo template từ máy ảo đã cấu hình sẵn giúp bạn triển khai nhanh nhiều máy ảo cùng môi trường.
+
+## Tạo template
+
+1. Tại **Instance Management**, chọn **Actions** → **Create Template**.
+
+   [![Menu Actions với tùy chọn Create Template](/img/migrated/image-1715855344608-be2905c7.png)](/img/migrated/image-1715855344608-be2905c7.png)
+
+2. Điền thông tin template, nhấn **Create template**.
+
+3. Hệ thống chuyển đến trang **Custom Images** để theo dõi tiến trình.
+
+   [![Tiến trình tạo template](/img/migrated/image-1715855896164-3bb4e6c2.png)](/img/migrated/image-1715855896164-3bb4e6c2.png)
+
+   [![Template đã tạo](/img/migrated/image-1715855902172-92a593fa.png)](/img/migrated/image-1715855902172-92a593fa.png)
+
+## Bước tiếp theo
+
+- [Quản lý template trên Custom Images](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)

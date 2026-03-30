@@ -1,18 +1,35 @@
 ---
 id: "tutorials-tao-instance-tu-template"
-title: "Tạo instance từ template"
-description: "Để tạo template từ máy ảo người dùng thao tác như sau:"
-sidebar_label: "Tạo instance từ template"
+title: "Tạo Instance từ template"
+description: "Tạo máy ảo mới từ template đã có trên FPT Cloud."
+sidebar_label: "Tạo Instance từ template"
 sidebar_position: 52
 ---
 
-# Tutorials Tao Instance Tu Template
+# Tạo Instance từ template
 
-Để tạo template từ máy ảo người dùng thao tác như sau:
-**Bước 1** : Trên trang **Custom Images** , bấm vào **Actions** trên template theo nhu cầu và chọn **Create Instance**
-[![file](/img/migrated/image-1715856847338-4cbbe896.png)](/img/migrated/image-1715856847338-4cbbe896.png)
-**Lưu ý: chỉ có template có trạng thái “Success” mới được tạo instance**.
-**Bước 2** : Điền đầy đủ thông tin instance.
-[![file](/img/migrated/image-1744797552995-eb6de7b6.png)](/img/migrated/image-1744797552995-eb6de7b6.png)
-**Lưu ý, dung lượng storage của instance được khởi tạo phải lớn hơn dung lượng của image**
-**Bước 3** : Bấm nút **Create Instance** và theo dõi tiến trình khởi tạo máy ảo trên trang **Intances**
+Tạo máy ảo từ template giúp triển khai nhanh với cấu hình đã chuẩn bị sẵn.
+
+## Tạo Instance
+
+1. Tại trang **Custom Images**, chọn **Actions** → **Create Instance** trên template.
+
+   [![Menu Actions với tùy chọn Create Instance](/img/migrated/image-1715856847338-4cbbe896.png)](/img/migrated/image-1715856847338-4cbbe896.png)
+
+:::note
+Chỉ template có trạng thái **Success** mới được dùng để tạo Instance.
+:::
+
+2. Điền thông tin Instance.
+
+   [![Hộp thoại Create Instance từ template](/img/migrated/image-1744797552995-eb6de7b6.png)](/img/migrated/image-1744797552995-eb6de7b6.png)
+
+:::warning
+Dung lượng storage của Instance phải lớn hơn dung lượng image.
+:::
+
+3. Nhấn **Create Instance** và theo dõi tiến trình tại trang **Instances**.
+
+## Bước tiếp theo
+
+- [Xóa template](./tutorials-xoa-template.md)

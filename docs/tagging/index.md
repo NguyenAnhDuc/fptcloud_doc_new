@@ -1,174 +1,42 @@
 ---
 id: "tagging"
-title: "Tagging"
+slug: /tagging/
+title: "Tagging overview"
 description: "Tags help you manage, classify, and filter cloud resources by purpose, owner, or environment."
-sidebar_label: "Tagging"
+sidebar_label: "Tagging overview"
 sidebar_position: 1
 ---
 
-# Tagging
+# Tagging overview
 
-All documents
-FPT Security 
-  * [ IAM ](https://fptcloud.com/en/documents/iam-2/ "IAM")
-  * [ FPT Cloud WAF ](https://fptcloud.com/en/documents/fpt-cloud-waf-2/ "FPT Cloud WAF")
+Tags help you manage, identify, sort, search, and filter resources on FPT Cloud. You can create tags to categorize resources by purpose, owner, development environment, or other criteria — making operations and cost tracking more efficient.
 
-Support 
-  * [ Trellix Customer Guide ](https://fptcloud.com/en/documents/trellix-customer-guide-2/ "Trellix Customer Guide")
+## Tag components
 
-Billing 
-  * [ AI Factory Billing ](https://fptcloud.com/en/documents/ai-factory-billing/ "AI Factory Billing")
+Each tag consists of two parts:
 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/en/documents/cost-explorer-2/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/en/documents/budget-alert-2/ "Budget Alert")
+- **Key**: The display name of the tag key. Example: `Env`, `Project`.
+- **Value**: The specific value associated with that key. Example: `Production`, `FPT`. You can leave this field blank.
 
-AI Marketplace 
-  * [ AI Inference ](https://fptcloud.com/en/documents/ai_marketplace/ "AI Inference")
+## Initial setup
 
-AI Studio 
-  * [ User Token ](https://fptcloud.com/en/documents/user-token/ "User Token")
-  * [ Model Testing - Test Jobs ](https://fptcloud.com/en/documents/model-testing-test-jobs/ "Model Testing - Test Jobs")
-  * [ Model Testing - Interactive Sessions ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/ "Model Testing - Interactive Sessions")
-  * [ Model Serving ](https://fptcloud.com/en/documents/model-serving/ "Model Serving")
-  * [ Model Hub ](https://fptcloud.com/en/documents/model-hub-2/ "Model Hub")
-  * [ Model Fine-Tuning ](https://fptcloud.com/en/documents/model-fine-tuning/ "Model Fine-Tuning")
-  * [ Data Hub ](https://fptcloud.com/en/documents/data-hub/ "Data Hub")
-  * [ AI Notebook ](https://fptcloud.com/en/documents/ai-notebook/ "AI Notebook")
+- [Initial setup](./initial-setup.md)
 
-FPT AI Inference 
-AI Inference 
-AI Infrastructure 
-  * [ GPU Virtual Machine ](https://fptcloud.com/en/documents/gpu-virtual-machine-en/ "GPU Virtual Machine")
-  * [ GPU Container ](https://fptcloud.com/en/documents/gpu-container/ "GPU Container")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
+## Quick starts
 
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/en/documents/tagging-2/ "Tagging")
-  * [ FPT Cloud Portal ](https://fptcloud.com/en/documents/fpt-cloud-portal-2/ "FPT Cloud Portal")
+- [Create a new tag](./Initializing%20tags%20.md)
+- [Edit tags](./Edit%20tags.md)
+- [Delete a tag](./Delete%20Tag.md)
 
-FPT Monitoring 
-  * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/ "Incident Management")
+## Detailed tutorials
 
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/en/documents/fpt-key-vault-2/ "FPT Key Vault")
-  * [ FPT ArgoCD ](https://fptcloud.com/en/documents/fpt-argocd-2/ "FPT ArgoCD")
-
-FPT Integration 
-  * [ FPT Message Bus ](https://fptcloud.com/en/documents/fpt-message-bus/ "FPT Message Bus")
-  * [ FPT Kafka ](https://fptcloud.com/en/documents/fpt-kafka/ "FPT Kafka")
-  * [ FPT API Management ](https://fptcloud.com/en/documents/fpt-api-management-2/ "FPT API Management")
-
-FPT Database Engine 
-  * [ Managed – FPT Database Engine ](https://fptcloud.com/en/documents/managed-fpt-database-engine-2/ "Managed – FPT Database Engine")
-
-FPT Cloud Backup & DR 
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/en/documents/fpt-object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/en/documents/vpn-site-to-site/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/en/documents/65101/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/en/documents/create-vpc/ "Create VPC")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/en/documents/managed-fpt-kubernetes-engine-2/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Container Registry ](https://fptcloud.com/en/documents/fpt-container-registry/ "FPT Container Registry")
-  * [ FPT App Catalogs ](https://fptcloud.com/en/documents/fpt-app-catalogs/ "FPT App Catalogs")
-  * [ Dedicated – FPT Kubernetes Engine ](https://fptcloud.com/en/documents/dedicated-fpt-kubernetes-engine-2/ "Dedicated – FPT Kubernetes Engine")
-
-  * [ ![](/img/migrated/192281-ddb8545a.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/en/documents/tagging-2/?doc=initial-setup "Initial Setup")
-  * [ ![](/img/migrated/192281-ddb8545a.png) Quick Starts ](javascript: "Quick Starts")
-    * [ Initializing tags ](https://fptcloud.com/en/documents/tagging-2/?doc=Initializing%20tags%C2%A0 "Initializing tags ")
-    * [ Edit tags ](https://fptcloud.com/en/documents/tagging-2/?doc=Edit%20tags "Edit tags")
-    * [ Delete Tag ](https://fptcloud.com/en/documents/tagging-2/?doc=Delete%20Tag "Delete Tag")
-  * [ ![](/img/migrated/192281-ddb8545a.png) Detailed Tutorials ](javascript: "Detailed Tutorials")
-    * [ Manage tag to Resource ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Resource%20 "Manage tag to Resource ")
-      * [ Manage tag to Instance Management ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Instance%20Management "Manage tag to Instance Management")
-      * [ Manage tag to Storage disk ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Storage%20disk "Manage tag to Storage disk")
-      * [ Manage tag to Snapshot ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Snapshot "Manage tag to Snapshot")
-      * [ Managing Tags for a Custom Image ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Custom%20image "Managing Tags for a Custom Image")
-      * [ Managing Tags for Floating IP ](https://fptcloud.com/en/documents/tagging-2/?doc=Managing%20Tags%20for%20Floating%20IP "Managing Tags for Floating IP")
-      * [ Manage tag for Subnet ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Subnet "Manage tag for Subnet")
-      * [ Manage tag for Security group ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20for%20Security%20group "Manage tag for Security group")
-    * [ Tagging Billing ](https://fptcloud.com/en/documents/tagging-2/?doc=Tagging%20Billing "Tagging Billing")
-
-Tagging
-  1. [FPT Cloud Portal](https://fptcloud.com/en/documents/ "FPT Cloud Portal")
-  2. Tagging
-
-Tagging
-  * Tags assist users in managing, identifying, sorting, searching, and filtering resources. Users can create tags to categorize resources according to specific needs such as by purpose, by owner, by application development environment, or other criteria. 
-  * Each tag consists of 2 parts: 
-    * **Key** : The name displays the user's tag key. Examples: Env, Project, ... 
-    * **Value** : The specific value associated with that key. For example: Production or FPT. Users can leave this field blank.
-
-01Initial Setup 
-  * [ Initial Setup ](https://fptcloud.com/en/documents/tagging-2/?doc=initial-setup "Initial Setup")
-
-02Quick Starts 
-  * [ Initializing tags ](https://fptcloud.com/en/documents/tagging-2/?doc=Initializing%20tags%C2%A0 "Initializing tags ")
-  * [ Edit tags ](https://fptcloud.com/en/documents/tagging-2/?doc=Edit%20tags "Edit tags")
-  * [ Delete Tag ](https://fptcloud.com/en/documents/tagging-2/?doc=Delete%20Tag "Delete Tag")
-
-03Detailed Tutorials 
-  * [ Manage tag to Resource ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Resource%20 "Manage tag to Resource ")
-    * [ Manage tag to Instance Management ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Instance%20Management "Manage tag to Instance Management")
-    * [ Manage tag to Storage disk ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Storage%20disk "Manage tag to Storage disk")
-    * [ Manage tag to Snapshot ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Snapshot "Manage tag to Snapshot")
-    * [ Managing Tags for a Custom Image ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Custom%20image "Managing Tags for a Custom Image")
-    * [ Managing Tags for Floating IP ](https://fptcloud.com/en/documents/tagging-2/?doc=Managing%20Tags%20for%20Floating%20IP "Managing Tags for Floating IP")
-    * [ Manage tag for Subnet ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20to%20Subnet "Manage tag for Subnet")
-    * [ Manage tag for Security group ](https://fptcloud.com/en/documents/tagging-2/?doc=Manage%20tag%20for%20Security%20group "Manage tag for Security group")
-  * [ Tagging Billing ](https://fptcloud.com/en/documents/tagging-2/?doc=Tagging%20Billing "Tagging Billing")
-
-![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
-**Hotline:[1900 638 399](tel:1900%20638%20399)**
-Address:
-**Ha Noi:**[FPT Tower, No. 10 Pham Van Bach, Cau Giay Ward](https://maps.app.goo.gl/BtHa6J7ToZf7RZbF6)  
-**Ho Chi Minh:** PJICO building, 186 Dien Bien Phu, Xuan Hoa Ward   
-**Tokyo:** 33F, Sumitomo Fudosan Tokyo Mita Garden Tower, 3-5-19 Mita, Minato-ku  
-
-Email: support@fptcloud.com
-  * [ ](https://www.facebook.com/fptsmartcloud)
-  * [ ](https://www.linkedin.com/company/fpt-cloud/)
-  * [ ](https://www.youtube.com/channel/UCJM51jaizo0jSbv35HD2nYA)
-
-[ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
-About us 
-  * [ About us ](https://fptcloud.com/en/about-us/ "About us")
-  * [ Partners & customers ](https://fptcloud.com/en/partner/ "Partners & customers")
-  * [ News - Events ](https://fptcloud.com/en/news/ "News - Events")
-  * [ Recruitment ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Recruitment")
-  * [ Contact ](https://fptcloud.com/en/contact/ "Contact")
-
-Service 
-  * [ FPT Cloud Server ](https://fptcloud.com/en/product/cloud-server-en/ "FPT Cloud Server")
-  * [ FPT Backup Service ](https://fptcloud.com/en/product/backup-service-2/ "FPT Backup Service")
-  * [ FPT Disaster Recovery Services ](https://fptcloud.com/en/product/disaster-recovery-service-2/ "FPT Disaster Recovery Services")
-  * [ FPT Object storage ](https://fptcloud.com/en/product/object-storage-2/ "FPT Object storage")
-  * [ FPT Kubernetes Engine ](https://fptcloud.com/en/product/kubernetes-engine-2/ "FPT Kubernetes Engine")
-  * [ FPT Monitoring ](https://fptcloud.com/en/product/monitoring-2/ "FPT Monitoring")
-  * [ FPT Load Balancer ](https://fptcloud.com/en/product/load-balancer-2/ "FPT Load Balancer")
-  * [ FPT Next-Gen Firewall ](https://fptcloud.com/en/product/next-gen-firewall/ "FPT Next-Gen Firewall")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/en/product/cloud-desktop-2/ "FPT Cloud Desktop")
-
-Terms & Policy 
-  * [ Terms of Use ](https://fptcloud.com/en/privacy-policy/#policy-tab-2 "Terms of Use")
-  * [ Privacy Statement ](https://fptcloud.com/en/privacy-policy/ "Privacy Statement")
-  * [ Vulnerability Disclosure ](https://fptcloud.com/en/privacy-policy/#policy-tab-3 "Vulnerability Disclosure")
-  * [ Data Protection Policy ](https://fptcloud.com/en/privacy-policy/#policy-tab-5 "Data Protection Policy")
-  * [ Risk or Violation Report ](https://fptcloud.com/en/privacy-policy/#policy-tab-6 "Risk or Violation Report")
-
-Register for receive news 
-Send 
-
-  * [ Contact ](tel:1900%20638%20399)
-Email
-
-We care about your privacy
-This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our [Privacy Statement](https://fptcloud.com/en/privacy-policy/)
-[Only essential cookies](javascript:void\(0\);) [Cookie settings](javascript:void\(0\);) [I accept](javascript:void\(0\);)
-[ ](tel:1900638399 "Gọi 1900638399")
+- [Manage tags for resources](./Manage%20tag%20to%20Resource.md)
+  - [Manage tags for Instance](./Manage%20tag%20to%20Instance%20Management.md)
+  - [Manage tags for Storage Disk](./Manage%20tag%20to%20Storage%20disk.md)
+  - [Manage tags for Snapshot](./Manage%20tag%20to%20Snapshot.md)
+  - [Manage tags for Custom Image](./Manage%20tag%20to%20Custom%20image.md)
+  - [Manage tags for Floating IP](./Managing%20Tags%20for%20Floating%20IP.md)
+  - [Manage tags for Subnet](./Manage%20tag%20to%20Subnet.md)
+  - [Manage tags for Security Group](./Manage%20tag%20for%20Security%20group.md)
+  - [Manage tags for Load Balancer](./tagg-lb.md)
+- [Tagging billing](./Tagging%20Billing.md)

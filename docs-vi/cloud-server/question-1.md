@@ -1,11 +1,11 @@
 ---
 id: "question-1"
-title: "Tôi có thể hiệu chỉnh các address pair đã khởi tạo không?"
-description: "Hiện tại hệ thống chưa hỗ trợ tính năng hiệu chỉnh các address pair đã khởi tạo. Để có thể thay đổi cấu hình, khách hàng"
-sidebar_label: "Tôi có thể hiệu chỉnh các address pair đã khởi tạo không?"
+title: "Tôi có thể hiệu chỉnh các Address Pair đã khởi tạo không?"
+description: "Câu hỏi thường gặp về hiệu chỉnh Address Pair."
+sidebar_label: "FAQ: Hiệu chỉnh Address Pair"
 sidebar_position: 106
 ---
 
-# Question 1
+# Tôi có thể hiệu chỉnh các Address Pair đã khởi tạo không?
 
-Hiện tại hệ thống chưa hỗ trợ tính năng hiệu chỉnh các address pair đã khởi tạo. Để có thể thay đổi cấu hình, khách hàng vui lòng xóa các address pair đã khởi tạo và tạo address pair mới
+Hiện tại hệ thống chưa hỗ trợ hiệu chỉnh Address Pair đã tạo. Để thay đổi cấu hình, bạn cần xóa Address Pair hiện tại và tạo mới.

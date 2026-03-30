@@ -6,15 +6,28 @@ sidebar_label: "Quản lý tag cho ổ đĩa"
 sidebar_position: 8
 ---
 
-# Tags Storage Disk
+# Quản lý tag cho ổ đĩa
 
-## **1. Manage tag cho storage disk**
-Người dùng thực hiện
-**Bước 1** : Ở màn hình **Storage disk** , người dùng chọn disk, chọn **Actions** , sau đó chọn **Manage tags**
-[![file](/img/migrated/image-1721014373921-ea32f78f.png)](/img/migrated/image-1721014373921-ea32f78f.png)
-**Bước 2** : Hộp thoại hiện ra, người dùng chọn tag để gắn vào storage disk.
-[![file](/img/migrated/image-1721014531446-5a901255.png)](/img/migrated/image-1721014531446-5a901255.png)
-**Bước 3** : Nếu người dùng muốn gỡ tag ra khỏi storage disk.
-Chọn dấu “x” bên cạnh tên các tag muốn gỡ để thực hiện thao tác gỡ tag (người dùng cũng có thể click vào dấu “x” ở cuối listbox để gỡ cùng lúc toàn bộ tag khỏi storage disk), sau đó chọn **Save**.
-**Lưu ý rằng khi người dùng xóa storage disk, điều này sẽ dẫn đến việc hệ thống tự động gỡ bỏ các tag liên kết và cập nhật lại danh sách tag trên màn hình Tagging.**
-[![file](/img/migrated/image-1721014918750-40fabdec.png)](/img/migrated/image-1721014918750-40fabdec.png)
+Gắn tag cho Storage Disk giúp bạn phân loại ổ đĩa theo dự án hoặc môi trường — thuận tiện cho việc quản lý và theo dõi chi phí lưu trữ.
+
+## Quản lý tag cho Storage Disk
+
+1. Tại màn hình **Storage disk**, chọn disk, nhấn **Actions** → **Manage tags**.
+
+   [![Menu Actions với tùy chọn Manage tags cho Storage Disk](/img/migrated/image-1721014373921-ea32f78f.png)](/img/migrated/image-1721014373921-ea32f78f.png)
+
+2. Hộp thoại hiển thị, chọn tag để gắn vào Storage Disk.
+
+   [![Hộp thoại Manage tags cho Storage Disk](/img/migrated/image-1721014531446-5a901255.png)](/img/migrated/image-1721014531446-5a901255.png)
+
+3. Để gỡ tag, nhấn dấu **x** bên cạnh tên tag. Nhấn dấu **x** ở cuối listbox để gỡ toàn bộ tag. Nhấn **Save** để lưu thay đổi.
+
+   [![Hộp thoại Manage tags với tùy chọn gỡ tag](/img/migrated/image-1721014918750-40fabdec.png)](/img/migrated/image-1721014918750-40fabdec.png)
+
+:::warning
+Khi xóa Storage Disk, hệ thống tự động gỡ các tag liên kết và cập nhật danh sách tag trên màn hình Tagging.
+:::
+
+## Bước tiếp theo
+
+- [Quản lý tag cho Snapshot](./tags-snapshot.md)

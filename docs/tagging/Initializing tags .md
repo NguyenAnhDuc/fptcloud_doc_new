@@ -1,9 +1,10 @@
 ---
-id: "Initializing tags "
+id: "create-tag-new"
 title: "Initializing Tags "
 description: "The user does the following:"
 sidebar_label: "Initializing Tags"
 sidebar_position: 3
+slug: /tagging/create-tag-new
 ---
 
 # Initializing Tags 

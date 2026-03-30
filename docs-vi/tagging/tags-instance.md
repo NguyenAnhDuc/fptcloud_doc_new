@@ -6,21 +6,44 @@ sidebar_label: "Quản lý tag cho Instance"
 sidebar_position: 7
 ---
 
-# Tags Instance
+# Quản lý tag cho Instance
 
-## **1. Gắn tag vào máy ảo ngay khi người dùng khởi tạo máy ảo**
-**Bước 1** : Ở menu chọn **Instance Management** , chọn **Create instance** để khởi tạo một máy ảo
-[![file](/img/migrated/image-1713112548052-b3294042.png)](/img/migrated/image-1713112548052-b3294042.png)
-**Bước 2** : Tại hộp thoại **Create instance** người dùng có thể chọn tag ở trường **Add tag (optional)** để gắn tag vào máy ảo.
-[![file](/img/migrated/image-1713112563043-5f748c8d.png)](/img/migrated/image-1713112563043-5f748c8d.png)
-**Bước 3** : Người dùng điền các thông tin khác và nhấn **Create** để tạo máy ảo, tag được gắn vào máy ảo sẽ hiển thị trên trường **Tags** tại màn hình **Instance Management**
-[![file](/img/migrated/image-1713112579862-79f3ce78.png)](/img/migrated/image-1713112579862-79f3ce78.png)
-## **2. Manage tag cho máy ảo**
-**Bước 1** : Ở màn hình **Instance Management** , người dùng chọn máy ảo, chọn **Actions** , sau đó chọn **Manage tags**
-[![file](/img/migrated/image-1713112615854-06a308da.png)](/img/migrated/image-1713112615854-06a308da.png)
-**Bước 2** : Hộp thoại hiện ra, người dùng chọn tag để gắn vào máy ảo. 
-[![file](/img/migrated/image-1713112633880-63abac4e.png)](/img/migrated/image-1713112633880-63abac4e.png)
-**Bước 2** : Nếu người dùng muốn gỡ tag ra khỏi máy ảo. 
-Chọn dấu “x” bên cạnh tên các tag muốn gỡ để thực hiện thao tác gỡ tag (người dùng cũng có thể click vào dấu “x” ở cuối listbox để gỡ cùng lúc toàn bộ tag khỏi máy ảo), sau đó chọn **Save**.
-**Lưu ý rằng khi người dùng xóa máy ảo, điều này sẽ dẫn đến việc hệ thống tự động gỡ bỏ các tag liên kết và cập nhật lại danh sách tag trên màn hình Tagging.**
-[![file](/img/migrated/image-1713112743998-0feaeb65.png)](/img/migrated/image-1713112743998-0feaeb65.png)
+Gắn tag cho Instance giúp bạn phân loại máy ảo theo môi trường, dự án hoặc chủ sở hữu — thuận tiện cho việc tìm kiếm và theo dõi chi phí.
+
+## Gắn tag khi khởi tạo Instance
+
+1. Chọn **Instance Management** từ menu, nhấn **Create instance**.
+
+   [![Màn hình Instance Management với nút Create instance](/img/migrated/image-1713112548052-b3294042.png)](/img/migrated/image-1713112548052-b3294042.png)
+
+2. Tại hộp thoại **Create instance**, chọn tag trong trường **Add tag (optional)**.
+
+   [![Hộp thoại Create instance với trường Add tag](/img/migrated/image-1713112563043-5f748c8d.png)](/img/migrated/image-1713112563043-5f748c8d.png)
+
+3. Điền các thông tin khác và nhấn **Create**.
+
+Tag được gắn hiển thị trên trường **Tags** tại màn hình **Instance Management**.
+
+[![Danh sách Instance với tag đã gắn](/img/migrated/image-1713112579862-79f3ce78.png)](/img/migrated/image-1713112579862-79f3ce78.png)
+
+## Quản lý tag cho Instance đã tạo
+
+1. Tại màn hình **Instance Management**, chọn máy ảo, nhấn **Actions** → **Manage tags**.
+
+   [![Menu Actions với tùy chọn Manage tags](/img/migrated/image-1713112615854-06a308da.png)](/img/migrated/image-1713112615854-06a308da.png)
+
+2. Hộp thoại hiển thị, chọn tag để gắn vào máy ảo.
+
+   [![Hộp thoại Manage tags cho Instance](/img/migrated/image-1713112633880-63abac4e.png)](/img/migrated/image-1713112633880-63abac4e.png)
+
+3. Để gỡ tag, nhấn dấu **x** bên cạnh tên tag. Nhấn dấu **x** ở cuối listbox để gỡ toàn bộ tag. Nhấn **Save** để lưu thay đổi.
+
+   [![Hộp thoại Manage tags với tùy chọn gỡ tag](/img/migrated/image-1713112743998-0feaeb65.png)](/img/migrated/image-1713112743998-0feaeb65.png)
+
+:::warning
+Khi xóa máy ảo, hệ thống tự động gỡ các tag liên kết và cập nhật danh sách tag trên màn hình Tagging.
+:::
+
+## Bước tiếp theo
+
+- [Quản lý tag cho ổ đĩa](./tags-storage-disk.md)

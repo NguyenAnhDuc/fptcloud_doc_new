@@ -1,28 +1,50 @@
 ---
-id: "フローティングIP _5"
+id: "tags-floating-ip"
 title: "Floating IPのタグ管理"
-description: "Floating IPにタグを付けて管理します — 割り当て時または作成後に設定できます。"
+description: "Floating IPにtagを割り当てて管理します — 割り当て時または作成後に設定できます。"
 sidebar_label: "Floating IPのタグ管理"
 sidebar_position: 11
+slug: /タグ-付け/tags-floating-ip
 ---
 
-# フローティングIp _5
+# Floating IPのタグ管理
 
-## **1. フローティングIPを割り当てる際にタグを付ける**
-**ステップ1** :メニューで「フローティングIP」を選択し>「フローティングIPの割り当て」を選択します
-[![file](/img/migrated/image-1741234311894-eee360ac.png)](/img/migrated/image-1741234311894-eee360ac.png)
-**ステップ2** :[フローティングIPの割り当て]ダイアログボックスで、ユーザーは[タグの追加（オプション)]フィールドでタグを選択して、フローティングIPにタグを付けることができます。 
-**注: ユーザーが付けられるタグは最大 50 個までです**
-[![file](/img/migrated/image-1741234340655-0589e1ac.png)](/img/migrated/image-1741234340655-0589e1ac.png)
-**ステップ3** :IPアドレスを作成するためにユーザーは他の情報を入力し、[フローティングIPの割り当て]をクリックします。IPアドレスに付けられたタグがフローティングIP画面でタグ のフィールドに表示されます 
-[![file](/img/migrated/image-1741234679390-cdb48cf7.png)](/img/migrated/image-1741234679390-cdb48cf7.png)
-## **2. フローティングIPのタグ管理**
-**ステップ1** :メニューで「フローティングIP」を選択し>「アクション」を選択し>「タグの管理」を選択します
-[![file](/img/migrated/image-1741234446126-db1877f5.png)](/img/migrated/image-1741234446126-db1877f5.png)
-**ステップ2** : ダイアログボックスが表示され、ユーザーはフローティングIPに付けるタグを選択します 
-**注: 1つのフローティング IP に付けられるタグは最大 50 個までです**
-[![file](/img/migrated/image-1741234483604-b1dc2bdc.png)](/img/migrated/image-1741234483604-b1dc2bdc.png)
-**ステップ3** :ユーザーがフローティングIPからタグを削除する場合 
-タグ名の横にある「x」印を選択して、タグを外す操作を実行します（ユーザーはリストボックスの最後にある「x」をクリックすることで、すべてのタグをフローティングIPから一度に外すこともできます）。その後、保存を選択します。。 
-**ユーザーがフローティングIPを削除すると、関連するタグが自動的に削除され、タグ付け画面のタグリストが更新されることに注意してください。**
-[![file](/img/migrated/image-1741234483604-b1dc2bdc.png)](/img/migrated/image-1741234483604-b1dc2bdc.png)
+Floating IPにtagを割り当てると、IPアドレスをプロジェクトや環境別に分類でき、ネットワーク管理とコスト管理が容易になります。
+
+## Floating IP割り当て時のタグ割り当て
+
+1. メニューから **Floating IP** を選択し、**Allocate floating IP** をクリックします。
+
+   [![Allocate floating IPボタンのあるFloating IP画面](/img/migrated/image-1721033013519-4b52f8a3.png)](/img/migrated/image-1721033013519-4b52f8a3.png)
+
+2. **Allocate floating IP** ダイアログボックスで、**Add tag (optional)** フィールドからtagを選択します。
+
+   [![Add tagフィールドのあるAllocate floating IPダイアログ](/img/migrated/image-1721033024980-d3da2516.png)](/img/migrated/image-1721033024980-d3da2516.png)
+
+3. その他の情報を入力し、**Allocate floating IP** をクリックします。
+
+割り当てられたtagは **Floating IP** 画面の **Tags** フィールドに表示されます。
+
+[![tagが割り当てられたFloating IPリスト](/img/migrated/image-1721033045955-e90a291a.png)](/img/migrated/image-1721033045955-e90a291a.png)
+
+## 既存Floating IPのタグ管理
+
+1. メニューから **Floating IP** を選択し、**Actions** → **Manage tags** をクリックします。
+
+   [![Floating IPのManage tagsオプションのあるActionsメニュー](/img/migrated/image-1721033062003-848e2fa0.png)](/img/migrated/image-1721033062003-848e2fa0.png)
+
+2. ダイアログボックスが表示されます。Floating IPに割り当てるtagを選択します。
+
+   [![Floating IPのManage tagsダイアログ](/img/migrated/image-1721033073805-c26dcd82.png)](/img/migrated/image-1721033073805-c26dcd82.png)
+
+3. tagを削除するには、tag名の横にある **x** をクリックします。リストボックス末尾の **x** をクリックすると、すべてのtagを一度に削除できます。**Save** をクリックして確定します。
+
+   [![タグ削除オプションのあるManage tagsダイアログ](/img/migrated/image-1721033085127-782fa93d.png)](/img/migrated/image-1721033085127-782fa93d.png)
+
+:::warning
+Floating IPを削除すると、システムは関連するすべてのtagを自動的に削除し、Tagging画面のtagリストを更新します。
+:::
+
+## 次のステップ
+
+- [Subnetのタグ管理](./サブネット_6.md)

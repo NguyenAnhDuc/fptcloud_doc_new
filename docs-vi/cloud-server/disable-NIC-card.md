@@ -1,19 +1,8 @@
 ---
 id: "disable-NIC-card"
-title: "_Tính năng chỉ áp dụng cho khách hàng mua dich vụ loại Speicific_"
-description: "_Tính năng chỉ áp dụng cho khách hàng mua dich vụ loại Speicific_"
-sidebar_label: "_Tính năng chỉ áp dụng cho khách hàng mua dich vụ loại Speicific_"
+title: "Disable Network Interface Card"
+description: "Tắt card NIC để ngừng kết nối mạng qua card đó."
+sidebar_label: "Disable Network Interface Card"
 sidebar_position: 58
 ---
 
-# Disable Nic Card
-
-_Tính năng chỉ áp dụng cho khách hàng mua dich vụ loại Speicific_
-**Bước 1:** Disable Card.
-[![file](/img/migrated/image-1691381843537-90d61d72.png)](/img/migrated/image-1691381843537-90d61d72.png)
-**Bước 2:** Xác nhận Disable Card
-[![file](/img/migrated/image-1691381854527-265d8dd4.png)](/img/migrated/image-1691381854527-265d8dd4.png)
-**Bước 3:** Chờ hệ thống xử lý
-[![file](/img/migrated/image-1691381866783-e7158e52.png)](/img/migrated/image-1691381866783-e7158e52.png)
-**Bước 4:** Card chuyển sang trạng thái Inactive, và Instance không thể kết nối mạng qua card này.
-[![file](/img/migrated/image-1691381878032-5f233510.png)](/img/migrated/image-1691381878032-5f233510.png)

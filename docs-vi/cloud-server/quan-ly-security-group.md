@@ -1,88 +1,26 @@
 ---
 id: "quan-ly-security-group"
 title: "Quản lý Security Group"
-description: "**Security Group** hoạt động như một tường lửa mạng ảo, cho phép các kết nối đi vào (inbound) và ra khỏi (outbound) máy "
+description: "Tạo và quản lý Security Group để kiểm soát traffic ra/vào máy ảo."
 sidebar_label: "Quản lý Security Group"
 sidebar_position: 72
 ---
 
-# Quan Ly Security Group
+# Quản lý Security Group
 
-**Security Group** hoạt động như một tường lửa mạng ảo, cho phép các kết nối đi vào (inbound) và ra khỏi (outbound) máy ảo. Trong FPT Cloud, có hai loại tường lửa:
-  * Security Group: Tường lửa kiểm soát traffic ra vào Internet của máy ảo
-  * Distributed Firewall: _(Chỉ có trên dịch vụ Specific)_ Tường lửa kiểm soát traffic ra vào máy ảo trong mạng nội bộ.
+Security Group hoạt động như tường lửa mạng ảo, kiểm soát kết nối vào (inbound) và ra (outbound) máy ảo — bảo vệ khỏi DDoS và các mối đe dọa từ internet.
 
-Việc sử dụng các loại tường lửa này đảm bảo an toàn cho máy ảo bằng cách ngăn chặn các cuộc tấn công như DDoS và các mối đe dọa khác từ internet hoặc virus.
-Để quản lý các **Security group** , bạn vào trang**Security Groups** ở nhóm Service **Networking** Ở đây bạn có thể tạo mới, xem danh sách, sửa thông tin, xóa các **Security group** trong VPC.
-### **Tạo mới Security Group**
-Để tạo mới một Security Group bạn thao tác như sau:
-**Bước 1** : Ở menu chọn **Security group** > **Networking**. Chọn **Create security group**.
-[![file](/img/migrated/image-1723628212428-57d4a72f.png)](/img/migrated/image-1723628212428-57d4a72f.png)
-**Bước 2** : Nhập các thông tin hệ thống yêu cầu:
-**Đối với người dùng dịch vụ General:**
-  * **Name** : Tên security group, mặc định hệ thống sẽ tự khởi tạo một tên để khách hàng nhanh chóng sử dụng.
-  * **Subnet** : Chọn Subnet trong danh sách.
-  * **Applied CIDR / instances** : Chọn máy ảo hoặc dãy CIDR sẽ áp dụng. Bạn có thể bỏ qua trường này và thêm vào sau.
-  * **Configure security rule** : 
-    * Inbound rule: Kiểm soát traffic đi vào máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
-    * Outbound rule: Kiểm soát traffic ra khỏi máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
+FPT Cloud hỗ trợ hai loại:
+- **Security Group**: Kiểm soát traffic ra vào internet.
+- **Distributed Firewall** *(chỉ có trên Specific)*: Kiểm soát traffic trong mạng nội bộ.
 
-[![file](/img/migrated/image-1734591272906-dba79878.png)](/img/migrated/image-1734591272906-dba79878.png)
-__
-_Màn hình tạo Security group với người dùng dịch vụ General_
-**Đối với người dùng dịch vụ Specific:**
-  * **Name** : Tên security group, mặc định hệ thống sẽ tự khởi tạo một tên để khách hàng nhanh chóng sử dụng.
-  * **Type** :
-    * Security group: Kiểm soát traffic ra vào internet của máy ảo
-    * Distributed Firewall: Kiểm soát traffic ra vào mạng nội bộ của máy ảo
-  * **Subnet** : Chọn Subnet trong danh sách.
-  * **Applied CIDR / instances** : Chọn máy ảo hoặc dãy CIDR sẽ áp dụng. Bạn có thể bỏ qua trường này và thêm vào sau.
-  * **Configure security rule** : 
-    * Inbound rule: Kiểm soát traffic đi vào máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
-    * Outbound rule: Kiểm soát traffic ra khỏi máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
+## Tạo Security Group
 
-[![file](/img/migrated/image-1711095173572-26de46ab.png)](/img/migrated/image-1711095173572-26de46ab.png)
-__
-_Màn hình tạo Security group với người dùng dịch vụ Specific_
-**Bước 3** : Chọn **Create security group**. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
-Nếu thành công, **Security Group** vừa tạo sẽ được hiển thị ở bảng **Security Group**.
-[![file](/img/migrated/image-1744796990637-7d4413cd.png)](/img/migrated/image-1744796990637-7d4413cd.png)
-### **Quản lý Inbound rules và outbound rules trong Security Group**
-**Inbound rules** là các rule giúp quy định cổng (**Port**) nào sẽ được mở trên máy ảo và địa chỉ nào trên Internet sẽ được truy cập vào cổng đấy (**Source**). 
-**Outbound rules** là các rule giúp quy định cổng (**Port**) nào sẽ được mở trên máy ảo và địa chỉ nào trên Internet sẽ được truy cập ra từ cổng đấy (**Destination**). 
-Một **Security Group** có thể chứa nhiều I**nbound rules** và **Outbound rules** khác nhau. Để thêm rule, mở port cho Security Group bạn thao tác như sau:
-**Bước 1** : Trên bảng quản trị **Security group** , chọn **Security group** cần quản lý rule để vào trang **Security group detail**.
-Lưu ý: Không thể điều chỉnh Firewall type sau khi đã khởi tạo
-**Bước 2** : Chọn **Add New** trong phần **Inbound rules** (tương tự với **outbound rule**). 
-[![file](/img/migrated/image-1711095232784-5b330f35.png)](/img/migrated/image-1711095232784-5b330f35.png)
-**Bước 3** : Điền các thông tin cần thiết của Rule:
-  * **Port** : Chọn Port cần mở. Có thể chọn**All ports** để mở toàn bộ, **Customize ports** để mở một hoặc một dải **Port** tùy chọn. Ngoài ra hệ thống sẽ đề xuất Port của một số dịch vụ phổ biến như SSH, RDP, MySQL, HTTP, HTTPS,…
-  * **Sources (Destinations)** : Nhập các IP trên Internet có thể kết nối đến Port này vào trường Sources (Destinations). Chọn **All Ipv4** để đồng ý tất cả, **MyIP** để cho phép IP public hiện tại của máy, hoặc nhập trực tiếp IP để thêm các IP tùy chọn. Lưu ý: đối với các port nhạy cảm như 22 hay 3389, khi bạn allow All Ipv4, hệ thống sẽ hiển thị cảnh báo bạn về độ nguy hiểm cao “We recommend allowing SSH from trusted IPs only”
-  * **Description** : Chú thích về rule.
+1. Chọn **Security group** → **Networking**, nhấn **New Security Group**.
+2. Nhập thông tin: Name, Type, Subnet, Applied CIDR/instances, Configure security rule (Inbound/Outbound).
+3. Nhấn **Create security group**.
 
-Chọn **Add rule** để tiếp tục thêm rule mới hoặc chọn **Edit security group** để lưu. Hệ thống sẽ tiến hành lưu và thông báo kết quả.
-[![file](/img/migrated/image-1711095252959-ae6b5a5c.png)](/img/migrated/image-1711095252959-ae6b5a5c.png)
-### **Gắn máy ảo vào Security Group**
-**Bước 1** : Trên bảng quản trị **Security group** , chọn **Security group** cần gắn với máy ảo để vào trang **Security group detail**.
-[![file](/img/migrated/image-1744797043009-de0db53b.png)](/img/migrated/image-1744797043009-de0db53b.png)
-**Bước 2** : Trong phần **Apply to** chọn các máy ảo sẽ gắn vào **Security group** , bạn có thể nhập dãy CIDR để apply cho 1 dãy mạng. Chọn **Apply Instances**. Hệ thống sẽ tiến hành lưu và thông báo kết quả.
-[![file](/img/migrated/image-1711095283579-0ea1ea3e.png)](/img/migrated/image-1711095283579-0ea1ea3e.png)
-### **Gỡ máy ảo khỏi Security Group**
-**Bước 1** : Trên bảng quản trị **Security group** , chọn **Security group** cần gỡ khỏi máy ảo để vào trang **Security group detail**.
-[![file](/img/migrated/image-1744797064590-ce5b6486.png)](/img/migrated/image-1744797064590-ce5b6486.png)
-Ở phần **Apply to** đã hiển thị danh sách các máy ảo đang được gắn với **Security group** này.
-**Bước 2** : Bấm vào icon **X** ở máy ảo cần gỡ và chọn **Apply Instances**. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
-[![file](/img/migrated/image-1711095316491-3ea5e102.png)](/img/migrated/image-1711095316491-3ea5e102.png)
-### **Xóa Security Group khỏi VPC**
-Nếu không còn nhu cầu sử dụng **Security group** , bạn có thể xóa khỏi **VPC**. 
-**Lưu ý: Cần xóa hết tất cả các rules để thực hiện thao tác này.**
-[![file](/img/migrated/image-1744797089254-15afba1c.png)](/img/migrated/image-1744797089254-15afba1c.png)
-**Bước 1** : Trên bảng quản trị **Security group** , chọn **Security group** cần xóa để vào trang **Security group detail**.
-[![file](/img/migrated/image-1711095342894-0a9049e3.png)](/img/migrated/image-1711095342894-0a9049e3.png)
-**Bước 2** : Vào rule, chọn biểu tượng thùng rác, và xác nhận xóa
-[![file](/img/migrated/image-1711095354704-3514e4a4.png)](/img/migrated/image-1711095354704-3514e4a4.png)
-[![file](/img/migrated/image-1711095363496-9009fb4a.png)](/img/migrated/image-1711095363496-9009fb4a.png)
-**Bước 3** : Sau khi đó xóa hết các rule trong **Security group** , bạn ra bảng quản trị **Security Group**. Trên bảng quản trị **Security group** , trong phần **Action** của **Security group** cần xóa, chọn Delete.
-[![file](/img/migrated/image-1711095383121-65f7d14e.png)](/img/migrated/image-1711095383121-65f7d14e.png)
-**Bước 4** : Hệ thống sẽ hiển thị popup xác nhận thông tin. Để đồng ý xóa, chọn **Delete security group**.
-[![file](/img/migrated/image-1711095390156-de48a059.png)](/img/migrated/image-1711095390156-de48a059.png)
+## Hướng dẫn thêm
+
+- [Filter Security Group](./security-group-filter.md)
+- [Quản lý Priority Rule](./security-group-priority-rule.md)

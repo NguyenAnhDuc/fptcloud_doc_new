@@ -1,17 +1,25 @@
 ---
 id: "quick-starts-khoi-dong-lai-may-ao"
 title: "Khởi động lại máy ảo"
-description: "**Reboot** là hành động khởi động lại hệ thống nhằm cải thiện tình trạng hoạt động của máy chủ."
+description: "Khởi động lại (Reboot) máy ảo để cải thiện tình trạng hoạt động khi gặp lỗi."
 sidebar_label: "Khởi động lại máy ảo"
 sidebar_position: 7
 ---
 
-# Quick Starts Khoi Dong Lai May Ao
+# Khởi động lại máy ảo
 
-**Reboot** là hành động khởi động lại hệ thống nhằm cải thiện tình trạng hoạt động của máy chủ.
-Trong quá trình hoạt động, các chương trình trong máy ảo có thể xuất hiện một số lỗi vì lý do nào đó. Nếu các lỗi ấy xuất hiện quá nhiều sẽ khiến cho hệ thống hoạt động không đúng và xử lý chậm đi. Lúc này bạn cần phải khởi động lại máy để tái khởi động các chương trình giúp máy ảo hoạt động được tốt hơn.
-**FPT Cloud** hỗ trợ bạn reboot máy ảo ngay trên giao diện **FPT Portal** , để sử dụng chức năng này bạn thao tác như sau:
-**Bước 1** : Trên bảng quản trị **Instance Management** , chọn **Action** ở cuối máy chủ cần khởi động lại.
-[![Userguide FPT Cloud Server 2022 14](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)
-**Bước 2** : Chọn chức năng **Reboot** , lúc này hệ thống sẽ thực hiện việc khởi động lại và thông báo tình trạng xử lý.
-[![Userguide FPT Cloud Server 2022 15](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)
+Reboot giúp tái khởi động các chương trình trên máy ảo, cải thiện hiệu suất khi hệ thống hoạt động chậm hoặc gặp lỗi.
+
+## Khởi động lại máy ảo
+
+1. Tại bảng quản trị **Instance Management**, chọn **Action** ở máy chủ cần khởi động lại.
+
+   [![Menu Action của Instance](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)
+
+2. Chọn **Reboot**. Hệ thống thực hiện khởi động lại và thông báo tình trạng xử lý.
+
+   [![Tùy chọn Reboot trong menu Action](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)
+
+## Bước tiếp theo
+
+- [Khóa và mở khóa xóa máy ảo](./lock-unlock-instance-deletion.md)
