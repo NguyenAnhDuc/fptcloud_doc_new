@@ -5,51 +5,51 @@ sidebar_label: "vLLM và multi-host serving"
 sidebar_position: "23"
 ---
 
-# vLLM and multi-host serving
+# vLLM và multi-host serving
 
-Bài hướng dẫn this trình bày theh **triển khai and phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **nodes trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM** to phục vụ inference.  
-Mục tiêu là cung cấp nền tảng giúp you **hiểu and thực hành việc triển khai LLM for bài toán suy luận (inference)** in a **môi trường Kubernetes is quản lý**. 
-Trong hướng dẫn this, you will: 
-  * **Configure FKE** to **tải trọng số (weights)** of the version **Gemma 1B, 4B** from **Hugging Face**.
+Bài hướng dẫn này trình bày cách **triển khai và phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **nodes trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM** để phục vụ inference.  
+Mục tiêu là cung cấp nền tảng giúp bạn **hiểu và thực hành việc triển khai LLM cho bài toán suy luận (inference)** trong một **môi trường Kubernetes được quản lý**. 
+Trong hướng dẫn này, bạn sẽ: 
+  * **Cấu hình FKE** để **tải trọng số (weights)** của các phiên bản **Gemma 1B, 4B** từ **Hugging Face**.
   * Triển khai mô hình LLM lên trên nhiều Nodes
 
-Bài hướng dẫn this dành for the kỹ sư Machine Learning (ML), quản trị viên and người vận hành nền tảng, cũng như the chuyên gia về Data and AI, những người quan tâm to việc sử dụng khả năng điều phối container of Kubernetes to phục vụ the mô hình ngôn ngữ lớn (LLM). 
+Bài hướng dẫn này dành cho các kỹ sư Machine Learning (ML), quản trị viên và người vận hành nền tảng, cũng như các chuyên gia về Data và AI, những người quan tâm đến việc sử dụng khả năng điều phối container của Kubernetes để phục vụ các mô hình ngôn ngữ lớn (LLM). 
 ##  Background 
 ###  GPUs 
-Bộ xử lý đồ họa (GPU) for phép you tăng tốc the khối lượng công việc cụ thể như học máy and xử lý dữ liệu. FKE cung cấp the node is trang bị GPU mạnh mẽ this, for phép you cấu hình cluster to đạt hiệu năng tối ưu for the tác vụ học máy and xử lý dữ liệu. FKE cung cấp nhiều tùy chọn loại máy to cấu hình node, includes the loại máy sử dụng GPU NVIDIA H100, A30 and A100. 
+Bộ xử lý đồ họa (GPU) cho phép bạn tăng tốc các khối lượng công việc cụ thể như học máy và xử lý dữ liệu. FKE cung cấp các node được trang bị GPU mạnh mẽ này, cho phép bạn cấu hình cluster để đạt hiệu năng tối ưu cho các tác vụ học máy và xử lý dữ liệu. FKE cung cấp nhiều tùy chọn loại máy để cấu hình node, bao gồm các loại máy sử dụng GPU NVIDIA H100, A30 và A100. 
 ###  LeaderWorkerSet (LWS) 
-LeaderWorkerSet (LWS) là a opensource trên Kubernetes nhằm giải quyết the mô hình triển khai AI/ML trên nhiều node. Việc triển khai AI workload trên nhiều node sử dụng nhiều Pod, mỗi Pod can chạy trên the node khác nhau, xử lý khối lượng công việc suy phân tán. LWS for phép xem and quản lý nhiều Pod như a nhóm, from that đơn giản hóa việc vận hành and quản lý phục vụ mô hình phân tán. 
-###  vLLM and multi-host serving 
+LeaderWorkerSet (LWS) là một opensource trên Kubernetes nhằm giải quyết các mô hình triển khai AI/ML trên nhiều node. Việc triển khai AI workload trên nhiều node sử dụng nhiều Pod, mỗi Pod có thể chạy trên các node khác nhau, xử lý khối lượng công việc suy phân tán. LWS cho phép xem và quản lý nhiều Pod như một nhóm, từ đó đơn giản hóa việc vận hành và quản lý phục vụ mô hình phân tán. 
+###  vLLM và multi-host serving 
   
-Khi triển khai the mô hình LLM có cường độ tính toán cao, chúng tôi khuyến nghị sử dụng vLLM and chạy trên nhiều GPU. 
-vLLM là a framework mã nguồn mở phục vụ LLM is tối ưu hóa cao, giúp tăng thông lượng phục vụ trên GPU, with the feature as follows: 
-  * Triển khai transformer is tối ưu with PagedAttention
-  * Cơ chế batching liên tục (continuous batching) to cải thiện thông lượng phục vụ tổng thể
+Khi triển khai các mô hình LLM có cường độ tính toán cao, chúng tôi khuyến nghị sử dụng vLLM và chạy trên nhiều GPU. 
+vLLM là một framework mã nguồn mở phục vụ LLM được tối ưu hóa cao, giúp tăng thông lượng phục vụ trên GPU, với các tính năng như sau: 
+  * Triển khai transformer được tối ưu với PagedAttention
+  * Cơ chế batching liên tục (continuous batching) để cải thiện thông lượng phục vụ tổng thể
   * Phục vụ phân tán trên nhiều GPU
 
-Đối with the mô hình LLM có yêu cầu tính toán đặc biệt cao and cannot chứa in a node GPU duy nhất, you can sử dụng nhiều node GPU to phục vụ mô hình. vLLM hỗ trợ chạy trên nhiều GPU with hai chiến lược: 
-  * Tensor parallelism chia the phép nhân ma trận in tầng transformer trên nhiều GPU. Tuy nhiên, chiến lược this yêu cầu network tốc độ cao do cần giao tiếp thường xuyên giữa the GPU, vì vậy ít phù hợp hơn when chạy trên nhiều node.
-  * Pipeline parallelism chia mô hình theo fromng tầng, hay theo chiều dọc. Chiến lược this không yêu cầu giao tiếp liên tục giữa the GPU, do that phù hợp hơn when chạy mô hình trên nhiều node.
+Đối với các mô hình LLM có yêu cầu tính toán đặc biệt cao và không thể chứa trong một node GPU duy nhất, bạn có thể sử dụng nhiều node GPU để phục vụ mô hình. vLLM hỗ trợ chạy trên nhiều GPU với hai chiến lược: 
+  * Tensor parallelism chia các phép nhân ma trận trong tầng transformer trên nhiều GPU. Tuy nhiên, chiến lược này yêu cầu mạng tốc độ cao do cần giao tiếp thường xuyên giữa các GPU, vì vậy ít phù hợp hơn khi chạy trên nhiều node.
+  * Pipeline parallelism chia mô hình theo từng tầng, hay theo chiều dọc. Chiến lược này không yêu cầu giao tiếp liên tục giữa các GPU, do đó phù hợp hơn khi chạy mô hình trên nhiều node.
 
-Bạn can kết hợp cả hai chiến lược in phục vụ nhiều node. Ví dụ, when sử dụng hai node, mỗi node có tám GPU A30, you can áp dụng: 
-  * Pipeline parallelism hai chiều to phân mảnh mô hình trên hai node
-  * Tensor parallelism tám chiều to phân mảnh mô hình trên tám GPU in mỗi node
+Bạn có thể kết hợp cả hai chiến lược trong phục vụ nhiều node. Ví dụ, khi sử dụng hai node, mỗi node có tám GPU A30, bạn có thể áp dụng: 
+  * Pipeline parallelism hai chiều để phân mảnh mô hình trên hai node
+  * Tensor parallelism tám chiều để phân mảnh mô hình trên tám GPU trong mỗi node
 
 ##  Chuẩn bị môi trường 
 ###  Chuẩn bị cụm FKE GPU 
-Hãy đảm bảo rằng you có đủ: 
-  * Một cụm k8s with ít nhất 2 node GPU. 
-  * GPU operator is cài đặt. 
+Hãy đảm bảo rằng bạn có đủ: 
+  * Một cụm k8s với ít nhất 2 node GPU. 
+  * GPU operator được cài đặt. 
   * Driver, nvidia container toolkit. 
-  * Có quota storage to tạo Persistent Volume 
+  * Có quota storage để tạo Persistent Volume 
 
-Check node GPU trên k8s has been sẵn sàng sử dụng bằng lệnh: 
+Kiểm tra node GPU trên k8s đã sẵn sàng sử dụng bằng lệnh: 
 
 ```
 Copykubectl describe node 
 ```
 
-Node will sẵn sàng is sử dụng if tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity and allocatable 
+Node sẽ sẵn sàng được sử dụng nếu tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity và allocatable 
 
 ```
 CopyCapacity:
@@ -63,7 +63,7 @@ Allocatable:
 ```
 
 ###  Chuẩn bị token Huggingface (optional) 
-Lên trang chủ Huggingface, tạo token and tạo Secret trên k8s chứa token this: 
+Lên trang chủ Huggingface, tạo token và tạo Secret trên k8s chứa token này: 
 
 ```
 Copykubectl create secret generic hf-secret --from-literal=hf_api_token=${HF_TOKEN} --dry-run=client -o yaml | kubectl apply -f -
@@ -83,8 +83,8 @@ Copykubectl get pod -n lws-system
 ```
 
 ##  Deploy vLLM server phục vụ serving trên nhiều nodes 
-Trong phần this, you triển khai container vLLM to phục vụ mô hình Gemma mà you muốn sử dụng. Để triển khai mô hình, bài hướng dẫn this sử dụng Kubernetes Deployment. Deployment là a đối tượng API of Kubernetes for phép you chạy nhiều bản sao (replica) of Pod and the Pod this is phân bổ trên the node in a cluster. 
-LeaderWorkerSet is sử dụng here, việc sử dụng LeaderWorkerSet with vLLM không làm thay đổi cấu hình vLLM so with việc chỉ sử dụng vLLM triển khai model. 
+Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
+LeaderWorkerSet được sử dụng tại đây, việc sử dụng LeaderWorkerSet với vLLM không làm thay đổi cấu hình vLLM so với việc chỉ sử dụng vLLM triển khai model. 
 ###  Deploy vllm bằng LeaderWorkerSet 
 
 ```
@@ -171,15 +171,15 @@ spec:
 
 ```
 
-Trong that: 
-  * nvidia.com/gpu: "1" : container of you will sử dụng 2 GPU trên node. 
-  * --pipeline-parallel-size=2: sử dụng pipeline parallelism to chạy model trên 2 node 
+Trong đó: 
+  * nvidia.com/gpu: "1" : container của bạn sẽ sử dụng 2 GPU trên node. 
+  * --pipeline-parallel-size=2: sử dụng pipeline parallelism để chạy model trên 2 node 
   * MODEL_ID: tên model trên Huggingface 
-  * HUGGING_FACE_HUB_TOKEN: token Huggingface you has been tạo. 
-  * Volume dshm: volume shared memory, quan trọng with the case distributed inferencing/training. 
+  * HUGGING_FACE_HUB_TOKEN: token Huggingface bạn đã tạo. 
+  * Volume dshm: volume shared memory, quan trọng với các case distributed inferencing/training. 
 
 ###  Expose model 
-Để expose model, hãy tạo a service trên k8s, if type of service là LoadBalancer thay vì ClusterIP, model can is truy cập from internet: 
+Để expose model, hãy tạo một service trên k8s, nếu type của service là LoadBalancer thay vì ClusterIP, model có thể được truy cập từ internet: 
 
 ```
 CopyapiVersion: v1
@@ -199,9 +199,9 @@ spec:
 ```
 
 ###  Setup persistent storage (Optional) 
-Với cấu hình trên, model weight of model is lưu tại file system of container. Khi container restart, chúng ta cần tải lại bộ weight trên from đầu. 
-Để tránh tình trạng this, chúng ta can lưu sẵn model ando a volume, do that when container restart thì model vẫn còn and không must tải lại. 
-Create persistent volume claim: 
+Với cấu hình trên, model weight của model được lưu tại file system của container. Khi container restart, chúng ta cần tải lại bộ weight trên từ đầu. 
+Để tránh tình trạng này, chúng ta có thể lưu sẵn model vào một volume, do đó khi container restart thì model vẫn còn và không cần phải tải lại. 
+Tạo persistent volume claim: 
 
 ```
 CopyapiVersion: v1
@@ -236,19 +236,19 @@ Copy   spec:
 ```
 
 ##  Serve model 
-Tại phần this, chúng ta will thực hiện việc kiểm tra kết nối & gửi the request to model xử lý 
-###  Set up networking to truy cập model ngoài cụm 
-Nếu tại mục Expose model, you sử dụng service type loadbalancer, hãy sử dụng IP public of loadbalancer that. 
-Nếu you sử dụng service type CusterIP, hãy port forward service this: 
+Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+###  Set up networking để truy cập model ngoài cụm 
+Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
+Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 
 
 ```
 Copykubectl port-forward svc/vllm-leader 8080:8080
 ```
 
-###  Giao tiếp with model 
-Phần this trình bày theh you can thực hiện a **bài kiểm tra********cơ bản** to xác minh the **mô hình Gemma 3******. Đối with the mô hình khác, hãy thay gemma-3-1b-it bằng tên of mô hình corresponding. 
-Ví dụ this minh họa theh kiểm tra **mô hình Gemma 3 1B** with **đầu ando chỉ gồm văn bản**. 
-Trong a phiên terminal mới, sử dụng curl to chat with mô hình of you. 
+###  Giao tiếp với model 
+Phần này trình bày cách bạn có thể thực hiện một **bài kiểm tra********cơ bản** để xác minh các **mô hình Gemma 3******. Đối với các mô hình khác, hãy thay gemma-3-1b-it bằng tên của mô hình tương ứng. 
+Ví dụ này minh họa cách kiểm tra **mô hình Gemma 3 1B** với **đầu vào chỉ gồm văn bản**. 
+Trong một phiên terminal mới, sử dụng curl để chat với mô hình của bạn. 
 
 ```
 Copycurl http://127.0.0.1:8080/v1/chat/completions \

@@ -14,4 +14,3 @@ pagination_next: null
 :::warning
 Instance Groupを削除すると配置ポリシーが削除されます。グループに含まれていたInstanceは自動的には移動されず、現在の物理ホストに留まります。
 :::
-

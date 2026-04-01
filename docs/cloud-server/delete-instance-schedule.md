@@ -24,4 +24,3 @@ Deleting a schedule cannot be undone. A schedule that is currently running canno
    [![Confirm delete schedule](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)
 
 Attached instances are released and retain their current state.
-

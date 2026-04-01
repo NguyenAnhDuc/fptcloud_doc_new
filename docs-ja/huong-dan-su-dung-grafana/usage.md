@@ -9,11 +9,11 @@ sidebar_position: "20"
 
 Để kiểm tra lượng timeseries/logs/trace đã sử dụng, bạn thực hiện các bước sau:
 
-**ステップ 1:** Truy cập vào console portal, trên menu chọn dịch vụ Monitoring
+**Bước 1:** Truy cập vào console portal, trên menu chọn dịch vụ Monitoring
 
-**ステップ 2:** Vào trang chi tiết workspace đó, chọn tab Quota and Package
+**Bước 2:** Vào trang chi tiết workspace đó, chọn tab Quota and Package
 
-**ステップ 3:** Kiểm tra thông tin usage time series/log/trace
+**Bước 3:** Kiểm tra thông tin usage time series/log/trace
 
 _Giao diện hiển thị như sau_
 

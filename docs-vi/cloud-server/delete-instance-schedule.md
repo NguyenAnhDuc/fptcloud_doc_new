@@ -24,4 +24,3 @@ Xóa Schedule không thể khôi phục. Không thể xóa nếu lịch đang ch
    [![Xác nhận xóa Schedule](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)
 
 Máy ảo đang gắn sẽ được giải phóng và giữ nguyên trạng thái.
-

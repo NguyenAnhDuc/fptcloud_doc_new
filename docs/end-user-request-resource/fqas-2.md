@@ -5,8 +5,8 @@ sidebar_label: "Làm thế nào để biết FCI đã nhận được yêu cầu
 sidebar_position: "6"
 ---
 
-# Fqas 2
+# Làm thế nào để biết FCI đã nhận được yêu cầu của tôi?
 
-Sau when bấm Submit, yêu cầu of khách hàng will is gửi tới nhân viên kinh doanh of FCI, đồng thời FCI will gửi 1 email xác nhận tới email mà you has been đăng ký with user tạo yêu cầu. Khi you has been nhận is email xác nhận from FCI thì đồng nghĩa with việc ticket yêu cầu of you has been is tiếp nhận successfully and will is FCI phản hồi to tiến hành triển khai. 
-Email xác nhận will có thông tin tương tự as follows: 
+Sau khi bấm Submit, yêu cầu của khách hàng sẽ được gửi tới nhân viên kinh doanh của FCI, đồng thời FCI sẽ gửi 1 email xác nhận tới email mà bạn đã đăng ký với user tạo yêu cầu. Khi bạn đã nhận được email xác nhận từ FCI thì đồng nghĩa với việc ticket yêu cầu của bạn đã được tiếp nhận thành công và sẽ được FCI phản hồi để tiến hành triển khai. 
+Email xác nhận sẽ có thông tin tương tự như sau: 
 [![file](/img/migrated/image-1703744504977-d4074880.png)](/img/migrated/image-1703744504977-d4074880.png)

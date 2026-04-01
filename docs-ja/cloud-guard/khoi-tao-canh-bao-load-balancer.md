@@ -7,7 +7,7 @@ sidebar_position: "6"
 
 # Khởi tạo cảnh báo cho Load Balancer
 
-#### ステップ1: Ở menu chọn Security > Cloud Guard, mở tab Resource Alerts và chọn Create Alert.
+#### Bước 1: Ở menu chọn Security > Cloud Guard, mở tab Resource Alerts và chọn Create Alert.
 Để thực hiện tạo cảnh báo cho dịch vụ Load balancer đang sử dụng, chọn **Type** là **Load Balancer** [![file](/img/migrated/image-1722327850097-b58a81be.png)](/img/migrated/image-1722327850097-b58a81be.png) Chọn **Metric Type** , **Apply to** , **Severity** , cấu hình điều kiện cảnh báo tại **Configure Condition** và chọn người nhận cảnh báo tại **Notify to**
 FPT Cloud Guard hỗ trợ đặt cảnh báo cho những Load balancer metric như sau:  
 | STT  | Metric  | Đơn vị  | Mô tả  |  

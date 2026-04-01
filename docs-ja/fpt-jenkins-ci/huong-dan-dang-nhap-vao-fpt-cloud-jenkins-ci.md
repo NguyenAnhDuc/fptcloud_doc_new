@@ -12,4 +12,4 @@ sidebar_position: "22"
 Tại màn hình **Essential Properties** > Thực hiện copy url và truy cập vào ứng dụng:
   * Url: Thông tin Url tạo màn **Essential Properties**
   * User: username copy tại màn hình **Essential Properties**
-  * Password: password copy tại màn hình **Essential Properties** [![](/img/migrated/Picture101-956cda0d.png)](/img/migrated/Picture101-956cda0d.png) Giao diện sau khi đăng nhập thành công vào Jenkins instance: [![](/img/migrated/Picture102-8ac75f23.png)](/img/migrated/Picture102-8ac75f23.png) **注意:** Trong trường hợp người dùng đổi user/password admin bên dưới hệ thống Jenkins, password trên portal sẽ bị vô hiệu hoá không thể sử dụng để authen với hệ thống.
+  * Password: password copy tại màn hình **Essential Properties** [![](/img/migrated/Picture101-956cda0d.png)](/img/migrated/Picture101-956cda0d.png) Giao diện sau khi đăng nhập thành công vào Jenkins instance: [![](/img/migrated/Picture102-8ac75f23.png)](/img/migrated/Picture102-8ac75f23.png) **Lưu ý:** Trong trường hợp người dùng đổi user/password admin bên dưới hệ thống Jenkins, password trên portal sẽ bị vô hiệu hoá không thể sử dụng để authen với hệ thống.

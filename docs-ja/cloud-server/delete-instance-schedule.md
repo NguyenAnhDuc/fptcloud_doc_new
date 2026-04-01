@@ -24,4 +24,3 @@ pagination_next: null
    [![スケジュール削除の確認](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)
 
 アタッチされていたインスタンスは解放され、現在の状態を維持します。
-

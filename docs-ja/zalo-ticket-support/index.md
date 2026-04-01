@@ -1,86 +1,77 @@
 ---
 id: "zalo-ticket-support"
-title: "I. Giới thiệu"
-sidebar_label: "I. Giới thiệu"
+title: "Zalo チケットサポート"
+description: "Zalo OAまたはサポートポータルからFPT Cloudサポートチケットを作成するガイドです。"
+sidebar_label: "Zalo チケットサポート"
 sidebar_position: "1"
+pagination_next: null
 ---
 
-# Zalo ticket support
+# Zalo チケットサポート
 
-Zalo ticket support
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Zalo ticket support
+このガイドでは、Zalo OAチャンネルまたはサポートポータル（[https://support.fptcloud.com](https://support.fptcloud.com)）からFPT Cloudサポートチケットを作成する方法を説明します。
 
-Zalo ticket support
-## I. 紹介
-Tài liệu này hướng dẫn khởi tạo ticket support FPT Cloud cho khách hàng thông qua kênh Zalo OA hoặc trực tiếp trên portal: <https://support.fptcloud.com>
-## II. Khởi tạo ticket support FPT Cloud trên Zalo OA
-Follow tài khoản chính thức (OA) của FPT Cloud trên Zalo bằng cách sử dụng ứng dụng Zalo để Scan QR code sau đó chọn quan tâm. [![file](/img/migrated/image-1702289152401-f56c10ef.png)](/img/migrated/image-1702289152401-f56c10ef.png)
-Màn hình hiển thị sau khi theo dõi thành công: [![file](/img/migrated/image-1702289161858-116707b0.png)](/img/migrated/image-1702289161858-116707b0.png) [![file](/img/migrated/image-1702289176617-a62ef2dc.png)](/img/migrated/image-1702289176617-a62ef2dc.png)
-## III. Gửi yêu cầu hỗ trợ từ trang FPT Cloud Portal
-**ステップ 1:** Truy cập vào trang support của FPT Cloud
-**Cách 1:** Truy cập trực tiếp vào đường link: [https://support.fptcloud.com](https://support.fptcloud.com/)
-Đăng nhập với account đã đăng ký của bạn trên hệ thống của FPT Cloud. [![file](/img/migrated/image-1702289190502-0108bf6c.png)](/img/migrated/image-1702289190502-0108bf6c.png) **Submit a ticket** để khởi tạo yêu cầu support. [![file](/img/migrated/image-1702289199279-8b54294a.png)](/img/migrated/image-1702289199279-8b54294a.png) **Cách 2** : Thông qua tương tác với FPT Cloud Zalo OA: Khách hàng chỉ cần gõ /support vào trong nhóm hỗ trợ chính thức giữa khách hàng và FPT Cloud trên Zalo hoặc chat trực tiếp với FPT Cloud Official Account. Lúc này Zalo sẽ gửi về cho bạn một đường link dẫn tới trang support của FPT Cloud. [![file](/img/migrated/image-1702289383339-7cfae5fb.png)](/img/migrated/image-1702289383339-7cfae5fb.png) [![file](/img/migrated/image-1702289397554-222cc3fe.png)](/img/migrated/image-1702289397554-222cc3fe.png) Sau khi nhấp vào đường link, giao diện trang web FPT Cloud Support hiện lên, bạn cần đăng nhập vào hệ thống để khởi tạo ticket. [![file](/img/migrated/image-1702289421857-a00d06a2.png)](/img/migrated/image-1702289421857-a00d06a2.png) **ステップ 2:** Điền các thông tin cần thiết
-  * **Subject:** Tiêu đề của yêu cầu hỗ trợ
-  * **Organization name:** Tên tenant của bạn trên FPT Cloud
-  * **I need support for:** Lựa chọn dịch vụ muốn hỗ trợ
-  * **Lựa chọn mức độ ưu tiên của yêu cầu:** Có bốn mức độ ưu tiên của ticket:
-  * **Urgent:** Hệ thống hiện tại đang bị gián đoạn, không thể truy cập được hoặc mất kết nối với Internet
-  * **High:** Hệ thống bị chậm, chập chờn hoặc mức độ ảnh hưởng lớn đến dịch vụ của khách hàng
-  * **Medium:** Mức độ ảnh hưởng thấp, hệ thống vẫn có thể hoạt động bình thường
-  * **Low:** Hỏi đáp về dịch vụ hoặc các yêu cầu hướng dẫn sử dụng, hỗ trợ cơ bản
-  * **Description:** Mô tả chi tiết về vấn đề cần hỗ trợ của bạn [![file](/img/migrated/image-1702289433410-a3de407d.png)](/img/migrated/image-1702289433410-a3de407d.png) Sau khi nhập các thông tin và chọn **Submit.** Yêu cầu của bạn sẽ được ghi nhận trên hệ thống. Đồng thời hệ thống support của FPT Cloud sẽ gửi email xác nhận yêu cầu hỗ trợ đã được khởi tạo thành công. [![file](/img/migrated/image-1702289454316-840e1c55.png)](/img/migrated/image-1702289454316-840e1c55.png) **ステップ 3:** Bật tính năng nhận thông báo trạng thái ticket tự động qua Zalo
+## Zalo OA経由でサポートチケットを作成
 
-Trong email thông báo ticket được khởi tạo, nhấp chuột vào đường link phía cuối email, một mã QR code sẽ xuất hiện. Mở ứng dụng zalo và quét mã QR code để đăng nhập Zalo Web trên PC. Sau đó chọn **Cho phép** FPT Cloud truy xuất vào thông tin Tên và Ảnh đại diện của bạn. [![file](/img/migrated/image-1702289472711-917181f5.png)](/img/migrated/image-1702289472711-917181f5.png) Sau khi hoàn thành, bạn sẽ nhận được thông báo cập nhật trạng thái của ticket support tự động qua Zalo chat. [![file](/img/migrated/image-1702289485901-918b287b.png)](/img/migrated/image-1702289485901-918b287b.png)
-## IV. Kiểm tra trạng thái ticket
-  * Hệ thống sẽ cập nhật trạng thái của ticket tự động đến zalo của bạn trong trường hợp bạn đã hoàn thành các bước theo hướng dẫn ở trên.
-  * Khách hàng cũng có thể chủ động kiểm tra trạng thái xử lý của ticket trên Portal support của FPT Cloud bằng cách truy cập: [![file](/img/migrated/image-1702289499679-0d5d08c0.png)](/img/migrated/image-1702289499679-0d5d08c0.png) [![file](/img/migrated/image-1702289511451-c6d0396e.png)](/img/migrated/image-1702289511451-c6d0396e.png)
+Zaloアプリを使用してQRコードをスキャンし、FPT Cloudの公式アカウント（OA）を**フォロー**します。
 
-![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
-**Hotline:[1900 638 399](tel:1900%20638%20399)**
-Địa chỉ:
-**Hà Nội:**[FPT Tower, Số 10 Phạm Văn Bạch, Phường Cầu Giấy](https://maps.app.goo.gl/BtHa6J7ToZf7RZbF6)  
-**TP. Hồ Chí Minh:** Tòa nhà PJICO, 186 Điện Biên Phủ, Phường Xuân Hòa  
-**Tokyo:** 33F, Sumitomo Fudosan Tokyo Mita Garden Tower, 3-5-19 Mita, Minato-ku  
+[![Zalo OA QRコード](/img/migrated/image-1702289152401-f56c10ef.png)](/img/migrated/image-1702289152401-f56c10ef.png)
 
-Email: support@fptcloud.com
-  * [ ](https://www.facebook.com/fptsmartcloud)
-  * [ ](https://www.linkedin.com/company/fpt-cloud/)
-  * [ ](https://www.youtube.com/channel/UCJM51jaizo0jSbv35HD2nYA)
+フォロー成功後の画面：
 
-[ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
-Về chúng tôi 
-  * [ 紹介 chung ](https://fptcloud.com/gioi-thieu/ "紹介 chung")
-  * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
-  * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
-  * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")
-  * [ Liên hệ ](https://fptcloud.com/lien-he/ "Liên hệ")
+[![フォロー成功](/img/migrated/image-1702289161858-116707b0.png)](/img/migrated/image-1702289161858-116707b0.png) [![フォロー成功2](/img/migrated/image-1702289176617-a62ef2dc.png)](/img/migrated/image-1702289176617-a62ef2dc.png)
 
-Dịch vụ 
-  * [ FPT Cloud Server ](https://fptcloud.com/product/cloud-server/ "FPT Cloud Server")
-  * [ FPT Backup Service ](https://fptcloud.com/product/backup-service/ "FPT Backup Service")
-  * [ FPT Disaster Recovery Services ](https://fptcloud.com/product/disaster-recovery-service/ "FPT Disaster Recovery Services")
-  * [ FPT Object storage ](https://fptcloud.com/product/object-storage/ "FPT Object storage")
-  * [ FPT Kubernetes Engine ](https://fptcloud.com/product/kubernetes-engine/ "FPT Kubernetes Engine")
-  * [ FPT Monitoring ](https://fptcloud.com/product/monitoring/ "FPT Monitoring")
-  * [ FPT Load Balancer ](https://fptcloud.com/product/load-balancer/ "FPT Load Balancer")
-  * [ FPT Next-Gen Firewall ](https://fptcloud.com/product/fpt-next-gen-firewall/ "FPT Next-Gen Firewall")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/product/cloud-desktop/ "FPT Cloud Desktop")
+## FPT Cloud Portalからサポートリクエストを送信
 
-Điều khoản & Chính sách 
-  * [ Điều Khoản Sử dụng ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Điều Khoản Sử dụng")
-  * [ Chính sách Bảo vệ quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Chính sách Bảo vệ quyền riêng tư ")
-  * [ Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-3 "Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư")
-  * [ Chính sách Bảo vệ Dữ liệu Cá nhân ](https://fptcloud.com/chinh-sach/#policy-tab-5 "Chính sách Bảo vệ Dữ liệu Cá nhân")
-  * [ Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm ](https://fptcloud.com/chinh-sach/#policy-tab-6 "Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm")
+**ステップ1:** FPT Cloudサポートページにアクセスします。
 
-Đăng ký nhận tin 
-Gửi 
+**方法1:** [https://support.fptcloud.com](https://support.fptcloud.com/) に直接アクセスし、FPT Cloudアカウントでログインします。
 
-  * [ Liên hệ ](tel:1900%20638%20399)
-Email
+[![ログインページ](/img/migrated/image-1702289190502-0108bf6c.png)](/img/migrated/image-1702289190502-0108bf6c.png)
 
-Chúng tôi quan tâm đến sự riêng tư của bạn
-Trang web này sử dụng cookie để cải thiện trải nghiệm người dùng. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với tất cả cookie theo [Chính sách bảo mật](https://fptcloud.com/chinh-sach/#policy-tab-1) của chúng tôi
-[Chỉ những cookie cần thiết](javascript:void\(0\);) [Cài đặt](javascript:void\(0\);) [Tôi đồng ý](javascript:void\(0\);)
-[ ](tel:1900638399 "Gọi 1900638399")
+**Submit a ticket** を選択してサポートリクエストを作成します。
+
+[![チケット送信](/img/migrated/image-1702289199279-8b54294a.png)](/img/migrated/image-1702289199279-8b54294a.png)
+
+**方法2:** FPT Cloud Zalo OA経由 — 公式サポートグループチャットで `/support` と入力するか、FPT Cloud Official Accountに直接チャットします。サポートページへのリンクが送信されます。
+
+[![Zaloサポート](/img/migrated/image-1702289383339-7cfae5fb.png)](/img/migrated/image-1702289383339-7cfae5fb.png) [![サポートリンク](/img/migrated/image-1702289397554-222cc3fe.png)](/img/migrated/image-1702289397554-222cc3fe.png)
+
+リンクをクリック後、ログインしてチケットを作成します。
+
+[![サポートポータル](/img/migrated/image-1702289421857-a00d06a2.png)](/img/migrated/image-1702289421857-a00d06a2.png)
+
+**ステップ2:** 必要な情報を入力します。
+
+- **Subject:** サポートリクエストのタイトル。
+- **Organization name:** FPT Cloud上のテナント名。
+- **I need support for:** サポートが必要なサービスを選択。
+- **優先度:**
+  - **Urgent:** システムが中断、アクセス不能、またはインターネット接続が切断。
+  - **High:** システムが遅い、断続的、またはサービスに大きな影響。
+  - **Medium:** 影響が少なく、システムは正常に動作可能。
+  - **Low:** サービスに関する質問や基本的なサポートリクエスト。
+- **Description:** 問題の詳細を記述。
+
+[![チケットフォーム](/img/migrated/image-1702289433410-a3de407d.png)](/img/migrated/image-1702289433410-a3de407d.png)
+
+フォームに記入後、**Submit** をクリックします。確認メールが届きます。
+
+[![確認](/img/migrated/image-1702289454316-840e1c55.png)](/img/migrated/image-1702289454316-840e1c55.png)
+
+**ステップ3:** Zalo経由の自動チケットステータス通知を有効にします。
+
+確認メールの下部にあるリンクをクリックします。ZaloアプリでQRコードをスキャンし、**許可** を選択します。
+
+[![Zalo通知設定](/img/migrated/image-1702289472711-917181f5.png)](/img/migrated/image-1702289472711-917181f5.png)
+
+Zaloチャットで自動チケットステータス更新を受信できます。
+
+[![Zalo通知](/img/migrated/image-1702289485901-918b287b.png)](/img/migrated/image-1702289485901-918b287b.png)
+
+## チケットステータスの確認
+
+- 通知設定が完了していれば、Zaloに自動ステータス更新が送信されます。
+- [FPT Cloud Supportポータル](https://support.fptcloud.com)で直接チケットステータスを確認することもできます。
+
+[![チケットステータス](/img/migrated/image-1702289499679-0d5d08c0.png)](/img/migrated/image-1702289499679-0d5d08c0.png) [![チケット詳細](/img/migrated/image-1702289511451-c6d0396e.png)](/img/migrated/image-1702289511451-c6d0396e.png)

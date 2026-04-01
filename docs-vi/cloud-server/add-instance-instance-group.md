@@ -5,4 +5,3 @@ description: "Thêm máy ảo vào Instance Group để áp dụng chính sách 
 sidebar_label: "Gắn máy ảo vào Instance Group"
 sidebar_position: 80
 ---
-

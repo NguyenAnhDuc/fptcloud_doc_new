@@ -32,4 +32,3 @@ Xóa máy ảo sẽ xóa toàn bộ dữ liệu và không thể phục hồi.
 3. Hệ thống tiến hành xóa và thu hồi tài nguyên.
 
    [![Máy ảo đang được xóa](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
-

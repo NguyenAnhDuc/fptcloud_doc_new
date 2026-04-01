@@ -7,14 +7,14 @@ sidebar_position: "15"
 
 # Hướng dẫn tích hợp Database
 
-## ステップ 1: Truy cập chức năng
+## Bước 1: Truy cập chức năng
 
 - Sau khi active dịch vụ Monitoring và khởi tạo workspace thành công, trên Console portal, bạn vào detail một cụm Database và chọn Monitoring
 - Hệ thống hiển thị danh sách các metrics và logs theo loại database. Các metric hoặc log chưa được tích hợp với FPT Monitoring sẽ có Status = "Disabled".
 
 [![Alt text](/img/migrated/Screenshot_33-828878ed.png)](/img/migrated/Screenshot_33-828878ed.png)
 
-## ステップ 2: Tích hợp/huỷ tích hợp
+## Bước 2: Tích hợp/huỷ tích hợp
 
 ### Tích hợp (Integrate)
 
@@ -42,7 +42,7 @@ Tắt thu thập metrics/logs cho database cluster.
 
 <ảnh đang được update>
 
-## ステップ 3: Truy cập dashboard Grafana và xem thông tin monitoring
+## Bước 3: Truy cập dashboard Grafana và xem thông tin monitoring
 
 - Sau khi tích hợp giám sát thành công (Integrated Status = "Enabled"), click vào Dashboard URL để đi tới trang Grafana
 - Sau đó tích hợp các dashboard template tương ứng, tham khảo hướng dẫn tại mục [**3.1. Tích hợp Dashboard Template**](../huong-dan-su-dung-grafana/index.md)

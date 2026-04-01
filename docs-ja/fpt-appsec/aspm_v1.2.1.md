@@ -5,7 +5,7 @@ sidebar_label: "1. Mô tả"
 sidebar_position: "3"
 ---
 
-# Aspm_V1.2.1
+# 1. Mô tả
 
 Trong bối cảnh các tổ chức ngày càng chú trọng vào việc quản lý rủi ro bảo mật và tối ưu quy trình vận hành, khả năng theo dõi và kiểm soát vòng đời của issue trở thành nhu cầu quan trọng. FPT Smart Cloud giới thiệu bản nâng cấp mới của FSP (FPT Security Platform) AppSec Service với tính năng **Issue Life Cycle Management** , cho phép người dùng quản lý trạng thái issue toàn diện và minh bạch hơn. 
 **1. Mô tả**

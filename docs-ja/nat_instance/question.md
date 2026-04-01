@@ -5,7 +5,7 @@ sidebar_label: "Nat Instance có thể được sử dụng như 1 instance thô
 sidebar_position: "6"
 ---
 
-# Question
+# Nat Instance có thể được sử dụng như 1 instance thông thường không?
 
 Nat instance được xây dựng trên hệ điều hành Ubuntu, được cài đặt thêm các rule hỗ trợ nat, và được sử dụng như một instance thông thường của hệ thống.
 Một Nat instance có thể hỗ trợ Nat cho tối đa bao nhiêu isolated network

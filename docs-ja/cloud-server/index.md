@@ -8,58 +8,58 @@ sidebar_position: 1
 
 # FPT Cloud Serverの概要
 
-FPT Cloud Serverは、クラウドプラットフォーム上で仮想マシン（Instance）を作成・管理するサービスです。高性能・高セキュリティ・柔軟なリソース拡張に対応しており、Webアプリケーションのホスティング、ソフトウェア開発、大規模データ処理、機械学習など、さまざまな用途に適しています。
+FPT Cloud Server giúp bạn khởi tạo và quản lý máy ảo (Instance) trên nền tảng cloud — với hiệu năng cao, bảo mật và linh hoạt trong việc mở rộng tài nguyên. Dịch vụ phù hợp cho nhiều nhu cầu từ hosting ứng dụng, phát triển phần mềm đến xử lý dữ liệu lớn và machine learning.
 
-## 初期設定
+## Thiết lập ban đầu
 
-- [初期設定](./Initial-Setup.md)
+- [Thiết lập ban đầu](./Initial-Setup.md)
 
-## 仮想マシンの作成
+## Tạo máy ảo
 
-- [仮想マシンの作成](./quick-starts-tao-mot-may-ao.md)
-- [ISOファイルからのVM作成時の注意事項](./create-vm-iso.md)
+- [Tạo một máy ảo](./quick-starts-tao-mot-may-ao.md)
+- [Lưu ý khi tạo máy ảo từ file ISO](./create-vm-iso.md)
 
-## クイック操作
+## Thao tác nhanh
 
-- [仮想マシンのクローン](./clone-instance.md)
-- [仮想マシンの起動/停止](./quick-starts-tatbat-may-ao.md)
-- [仮想マシンの再起動](./quick-starts-khoi-dong-lai-may-ao.md)
-- [仮想マシンの削除ロックとロック解除](./lock-unlock-instance-deletion.md)
-- [仮想マシンの削除](./quick-starts-xoa-may-ao.md)
+- [Nhân bản máy ảo](./clone-instance.md)
+- [Tắt/Bật máy ảo](./quick-starts-tatbat-may-ao.md)
+- [Khởi động lại máy ảo](./quick-starts-khoi-dong-lai-may-ao.md)
+- [Khóa và mở khóa xóa máy ảo](./lock-unlock-instance-deletion.md)
+- [Xóa máy ảo](./quick-starts-xoa-may-ao.md)
 
-## 仮想マシンの管理
+## Quản lý máy ảo
 
-- [仮想マシンの管理](./quan-ly-may-ao.md)
-- [Windows仮想マシンへの接続](./tutorials-ket-noi-vao-may-ao-windows.md)
-- [Linux仮想マシンへの接続](./tutorials-ket-noi-vao-may-ao-linux.md)
-- [サーバー設定の変更](./tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md)
-- [Snapshotによるサーバーバックアップ](./tutorials-backup-may-chu-voi-snapshot.md)
+- [Quản lý máy ảo](./quan-ly-may-ao.md)
+- [Kết nối vào máy ảo Windows](./tutorials-ket-noi-vao-may-ao-windows.md)
+- [Kết nối vào máy ảo Linux](./tutorials-ket-noi-vao-may-ao-linux.md)
+- [Thay đổi cấu hình máy chủ](./tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md)
+- [Backup máy chủ với Snapshot](./tutorials-backup-may-chu-voi-snapshot.md)
 
 ## GPU
 
-- [Portal ConsoleでのGPU管理](./GPU.md)
-- [HPC PortalでのGPU Server管理](./quan-ly-gpu-voi-hpc-portal.md)
+- [Quản lý GPU với Portal Console](./GPU.md)
+- [Quản lý GPU Server với HPC Portal](./quan-ly-gpu-voi-hpc-portal.md)
 
 ## Block Storage
 
-- [Block Storageの概要](./block-storage.md)
-- [Storage Diskの作成](./tao-storage-disk.md)
-- [Storage Diskを仮想マシンにアタッチ](./gan-storage-disk-vao-may-ao.md)
+- [Tổng quan Block Storage](./block-storage.md)
+- [Tạo Storage Disk](./tao-storage-disk.md)
+- [Gắn Storage Disk vào máy ảo](./gan-storage-disk-vao-may-ao.md)
 
 ## Networking
 
-- [Networkingの概要](./network-all.md)
-- [Floating IPの管理](./quan-ly-floating-ip.md)
-- [Subnetの管理](./Quản%20lý%20Subnets.md)
-- [Security Groupの管理](./quan-ly-security-group.md)
+- [Tổng quan Networking](./network-all.md)
+- [Quản lý Floating IP](./quan-ly-floating-ip.md)
+- [Quản lý Subnets](./Quản%20lý%20Subnets.md)
+- [Quản lý Security Group](./quan-ly-security-group.md)
 
-## その他の管理
+## Quản lý khác
 
 - [Instance Template](./tutorials-quan-ly-instance-template.md)
-- [NIC（Network Interface Card）](./NIC-overview-1.md)
-- [Instance Group — AffinityとAnti-Affinity](./instance-group.md)
-- [Projectの管理](./project-structure.md)
+- [NIC (Network Interface Card)](./NIC-overview-1.md)
+- [Instance Group — Affinity và Anti-Affinity](./instance-group.md)
+- [Quản lý Project](./project-structure.md)
 - [Token](./token.md)
 - [SSH Key](./profile-ssh-key.md)
-- [IaC（Terraform）](./terraform.md)
+- [IaC (Terraform)](./terraform.md)
 - [NAT Instance](./nat-instance.md)

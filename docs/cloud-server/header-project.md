@@ -14,4 +14,3 @@ Customize the FPT Cloud Portal header to display the active Project — making i
 :::tip
 Displaying the Project name in the header helps prevent accidentally creating resources in the wrong Project.
 :::
-

@@ -25,4 +25,3 @@ Priority Rule cho phép thiết lập thứ tự ưu tiên cho các firewall rul
 1. Tại Security Group, chọn rule cần thay đổi.
 2. Thiết lập giá trị **Priority** (số nhỏ hơn = ưu tiên cao hơn).
 3. Nhấn **Save**.
-

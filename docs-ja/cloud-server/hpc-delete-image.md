@@ -19,4 +19,3 @@ pagination_next: null
 
 1. 削除するイメージを選択し、**Action** → **Remove** をクリックします。
 2. 確認ダイアログで **Remove** をクリックして削除を完了します。
-

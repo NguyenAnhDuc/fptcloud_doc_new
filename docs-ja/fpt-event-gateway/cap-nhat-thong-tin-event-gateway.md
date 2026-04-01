@@ -8,9 +8,9 @@ sidebar_position: "5"
 # Cap Nhat Thong tin Event Gateway
 
 Để cập nhật thông tin **Event Gateway** người dùng thực hiện các bước sau: 
-**ステップ1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**ステップ2:** **Event Gateway** mà bạn muốn cập nhật thông tin 
-**ステップ3:** Tại màn hình **Event Gateway** , nhấn vào biểu tượng Edit ở mục bạn muốn chỉnh sửa thông tin 
+**Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
+**Bước 2** : Chọn **Event Gateway** mà bạn muốn cập nhật thông tin 
+**Bước 3** : Tại màn hình **Event Gateway** , nhấn vào biểu tượng Edit ở mục bạn muốn chỉnh sửa thông tin 
   * **Update Basic Information**
 Hiển thị màn hình sửa thông tin Instance Information, cho phép sửa các thông tin sau: 
     * **Name** ( Required): Tên dịch vụ 

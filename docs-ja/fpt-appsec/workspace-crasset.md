@@ -9,20 +9,20 @@ sidebar_position: "26"
 
 ## Add Asset
 **Org Admin** và **Users của team** có quyền thêm mới asset
-**ステップ1:** Sau khi chọn Team, nhấn **Add Asset**
+**Bước 1** : Sau khi chọn Team, nhấn **Add Asset**
 [![anhfsec](/img/migrated/19-b5c086ac.png)](/img/migrated/19-b5c086ac.png)
-**ステップ2:** Chọn FPT Container Registry/Harbor
+**Bước 2** : Chọn FPT Container Registry/Harbor
 [![anhfsec](/img/migrated/20-565cbb9b.png)](/img/migrated/20-565cbb9b.png)
-_注意: Pop-up add asset chỉ hiện lên khi loại asset source (FPT Container Registry/Harbor) được tích hợp tại màn**Integration**. Trường hợp ấn vào 1 souce chưa được tích hợp, màn hình sẽ chuyển sang tab **Integration** của loại source đó _.
-**ステップ3:** **project** chứa image cần scan
+_Lưu ý: Pop-up add asset chỉ hiện lên khi loại asset source (FPT Container Registry/Harbor) được tích hợp tại màn**Integration**. Trường hợp ấn vào 1 souce chưa được tích hợp, màn hình sẽ chuyển sang tab **Integration** của loại source đó _.
+**Bước 3** : Chọn **project** chứa image cần scan
 [![anhfsec](/img/migrated/21-8f69016c.png)](/img/migrated/21-8f69016c.png)
 Lúc này, màn hình sẽ hiển thị **Image** và **Image Tags**
-**ステップ4:** Chọn Image bạn muốn và ấn **Add**
+**Bước 4** : Chọn Image bạn muốn và ấn **Add**
 [![anhfsec](/img/migrated/23-0c6ab90e.png)](/img/migrated/23-0c6ab90e.png)
 Sau khi add thành công, hệ thống sẽ tự động scan lần đầu, trả về kết quả ra màn Asset Management tab All Assets và xem lịch sử add asset trong tab History
 ## Xem thông tin tổng quan của Assets
-**ステップ1:** Tại màn hình Asset Management > All , chọn 1 asset bất kỳ bằng cách click vào textlink CR Asset Name
-**ステップ2:** Tại màn hình Asset Overview, người dùng có thể xem các thông tin tổng quan:
+**Bước 1** : Tại màn hình Asset Management > All , chọn 1 asset bất kỳ bằng cách click vào textlink CR Asset Name
+**Bước 2** : Tại màn hình Asset Overview, người dùng có thể xem các thông tin tổng quan:
   * Thông tin chung (General Information):
     * Asset Name, Asset Access (Public/Private), Status (Active/Inactive)
     * Owner: Người sở hữu asset (User name + email hoặc pipeline CICD)
@@ -63,8 +63,8 @@ Cho phép lọc theo: Severity, Status, Priority Score (0–10), Issue Type, "Fi
   * Mặc định: Sort theo Score giảm dần
 
 ### 3.4. Xem thông tin chi tiết của một issue
-**ステップ1:** Chọn Details tại một issue card bất kỳ (thuộc Image ) để mở popup Issue Detail.
-**ステップ2:** Tại màn hình Issue Detail, người dùng có thể xem thông tin chi tiết của issue:
+**Bước 1** : Chọn Details tại một issue card bất kỳ (thuộc Image ) để mở popup Issue Detail.
+**Bước 2** : Tại màn hình Issue Detail, người dùng có thể xem thông tin chi tiết của issue:
   * Thông tin chung (Issue Detail):
     * Severity: Mức độ nghiêm trọng của issue (Critical, High, Medium, Low).
     * Package Name: Tên package gây ra issue (đối với Vulnerability issue).

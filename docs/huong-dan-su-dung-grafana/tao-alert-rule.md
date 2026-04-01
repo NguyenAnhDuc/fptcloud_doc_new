@@ -5,56 +5,56 @@ sidebar_label: "Tạo Alert Rule"
 sidebar_position: "18"
 ---
 
-# Create Alert Rule
+# Tạo Alert Rule
 
-Dưới đây là hướng dẫn cơ bản to tạo alert rule. Ngoài ra, you can tham khảo hướng dẫn chi tiết tại link chính thức of Grafana **[TẠI ĐÂY](https://grafana.com/docs/grafana/latest/alerting/alerting-rules/create-grafana-managed-rule)**
+Dưới đây là hướng dẫn cơ bản để tạo alert rule. Ngoài ra, bạn có thể tham khảo hướng dẫn chi tiết tại link chính thức của Grafana **[TẠI ĐÂY](https://grafana.com/docs/grafana/latest/alerting/alerting-rules/create-grafana-managed-rule)**
 
-## Step 1: Truy cập Alerting
+## Bước 1: Truy cập Alerting
 
 - Vào Grafana
 - Menu trái → Alerting → Alert rules
 
 [![Alt text](/img/migrated/Screenshot_36-f903362f.png)](/img/migrated/Screenshot_36-f903362f.png)
 
-- Click New alert rule >> Enter alert rule name
+- Click New alert rule >> Nhập alert rule name
 
 [![Alt text](/img/migrated/Screenshot_37-9b5a342e.png)](/img/migrated/Screenshot_37-9b5a342e.png)
 
 [![Alt text](/img/migrated/Screenshot_38-4ebfed07.png)](/img/migrated/Screenshot_38-4ebfed07.png)
 
-Tên this:
-- Được displayed in danh sách alert rule
-- Đồng thời là giá trị of label alertname for mọi alert instance is tạo from rule this
+Tên này:
+- Được hiển thị trong danh sách alert rule
+- Đồng thời là giá trị của label alertname cho mọi alert instance được tạo từ rule này
 
-## Step 2: Định nghĩa query and điều kiện
+## Bước 2: Định nghĩa query và điều kiện
 
-Xác định query to lấy dữ liệu cần theo dõi and điều kiện phải thỏa mãn before alert rule is kích hoạt.
+Xác định query để lấy dữ liệu cần theo dõi và điều kiện phải thỏa mãn trước khi alert rule được kích hoạt.
 
 - Chọn Data source (ví dụ: Prometheus)
-- Enter query metric. Query this will là đầu ando for alert condition.
+- Nhập query metric. Query này sẽ là đầu vào cho alert condition.
 
-Example: `cpu_usage_percent > 80`
+Ví dụ: `cpu_usage_percent > 80`
 
 [![Alt text](/img/migrated/Screenshot_40-6a7312e7.png)](/img/migrated/Screenshot_40-6a7312e7.png)
 
-Sau that, định nghĩa Condition
+Sau đó, định nghĩa Condition
 
-## Step 3: Configure hành vi đánh giá alert (Alert evaluation behavior)
+## Bước 3: Cấu hình hành vi đánh giá alert (Alert evaluation behavior)
 
-Set up tần suất đánh giá alert and theh alert chuyển status.
+Thiết lập tần suất đánh giá alert và cách alert chuyển trạng thái.
 
-- Chọn folder or nhấn + New folder: Chọn a thư mục to lưu alert rule of you.
-- Chọn evaluation group or tạo mới: Các rule in cùng a group will is đánh giá đồng thời in cùng a khoảng thời gian.
+- Chọn folder hoặc nhấn + New folder: Chọn một thư mục để lưu alert rule của bạn.
+- Chọn evaluation group hoặc tạo mới: Các rule trong cùng một group sẽ được đánh giá đồng thời trong cùng một khoảng thời gian.
 
 Nếu tạo mới, chỉ định interval
 
-- Enter pending period: Là khoảng thời gian alert phải vi phạm điều kiện before firing
+- Nhập pending period: Là khoảng thời gian alert phải vi phạm điều kiện trước khi firing
 
 [![Alt text](/img/migrated/Screenshot_41-c8ff1356.png)](/img/migrated/Screenshot_41-c8ff1356.png)
 
-## Step 4: Add Annotations
+## Bước 4: Thêm Annotations
 
-Sử dụng annotations to bổ sung thông tin for alert message.
+Sử dụng annotations để bổ sung thông tin cho alert message.
 
 [![Alt text](/img/migrated/Screenshot_42-e2a05998.png)](/img/migrated/Screenshot_42-e2a05998.png)
 
@@ -62,24 +62,24 @@ Các annotation tuỳ chọn:
 - Summary: Tóm tắt ngắn gọn sự cố
 - Description: Mô tả alert rule
 - Runbook URL: Link runbook xử lý
-- Custom annotation: Information bổ sung
+- Custom annotation: Thông tin bổ sung
 - Link dashboard & panel: Liên kết tới dashboard/panel liên quan
 
-**Example:**
+**Ví dụ:**
 
 ```
 summary = High CPU usage
 description = CPU usage is above 80% for more than 5 minutes
 ```
 
-## Step 5: Labels and notifications
+## Bước 5: Labels and notifications
 
-## Step 6: Save Alert Rule
+## Bước 6: Lưu Alert Rule
 
 - Click Save ở góc phải màn hình
 
-Alert rule is tạo successfully.
+Alert rule được tạo thành công.
 
-Để kiểm tra alert after tạo:
+Để kiểm tra alert sau khi tạo:
 - Vào Alerting → Alert rules
-- View status: Normal / Pending / Firing
+- Xem trạng thái: Normal / Pending / Firing

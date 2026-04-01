@@ -8,9 +8,9 @@ sidebar_position: "3"
 # Tao Event Gateway
 
 Để tạo **Event Gateway** người dùng thực hiện các bước sau: 
-**ステップ1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**ステップ2:** **Create a Event Gateway** > hiển thị popup **Choose Event Gateway Mode** > chọn **REST Events to Kafka** > **Continue**
-**ステップ3:** Trong form tạo **Event Gateway,** nhập thông tin màn **Basic Information** : 
+**Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
+**Bước 2:** Nhấn **Create a Event Gateway** > hiển thị popup **Choose Event Gateway Mode** > chọn **REST Events to Kafka** > **Continue**
+**Bước 3:** Trong form tạo **Event Gateway,** nhập thông tin màn **Basic Information** : 
   * **Name** (required): Tên event gateway 
 
 Chú ý: Tên Event Gateway có thể chứa các kí tự chữ cái thường a-z hoặc chữ cái in hoa A-Z hoặc các kí tự số 0-9. Đặc biệt không dùng dấu cách có thể thay dấu cách bằng dấu “-” hoặc “_”. 
@@ -19,7 +19,7 @@ Chú ý: Tên Event Gateway có thể chứa các kí tự chữ cái thường 
   * **Type** ( required) : chọn type Public/Private 
 
 [![Hình ảnh](/img/migrated/imagef-d52b4a53.png)](/img/migrated/imagef-d52b4a53.png)
-**ステップ4:** **Next Step** để chuyển sang màn nhập thông tin **Details**
+**Bước 4:** Nhấn **Next Step** để chuyển sang màn nhập thông tin **Details**
 Nhập thông tin sau: 
   * **Launch Configuration**
     * **Subnet** (required): chọn Subnet 
@@ -78,14 +78,14 @@ Nhập và chọn các thông tin sau:
       * Bao gồm a-z, A-Z, 0-9, dấu gạch ngang (-), dấu chấm (.); tối đa 100 ký tự 
       * Tên domain không bắt đầu và kết thúc bằng dấu gạch nối (-) hoặc dấu chấm (.) 
       * Top level tối thiểu 2, tối đa 6 ký tự 
-      * 例: domain-name.com 
+      * Ví dụ: domain-name.com 
     * **CA bundle ( required):** Chuỗi chứng chỉ CA ở dịnh dạng PEM 
       * Bắt đầu bằng -----BEGIN CERTIFICATE----- và kết thúc đúng chuẩn PEM 
     * **Private key (required):** Private key ở định dạng PEM 
       * Bắt đầu bằng -----BEGIN PRIVATE KEY----- và kết thúc đúng chuẩn PEM 
 [![Hình ảnh](/img/migrated/image14-3754b0d7.png)](/img/migrated/image14-3754b0d7.png)
 
-**ステップ5:** **Next Step** để chuyển sang màn **Configure**
+**Bước 5:** Nhấn **Next Step** để chuyển sang màn **Configure**
 Nhập các thông tin sau: 
   * **JWT auth:** Bật/Tắt cơ chế xác thực JWT Token - Mặc định Tắt 
     * **Name (required):** Tên JWT auth 
@@ -104,7 +104,7 @@ Nhập các thông tin sau:
       * Tối đa 100 ký tự 
     * **Public key ( required):** Chuỗi public key ở dịnh dạng PEM 
       * Bắt đầu bằng -----BEGIN PUBLIC KEY----- và kết thúc đúng chuẩn PEM 
-**Add claim** để thêm claim key-value Và **Remove claim** để xoá claim key-value 
+Nhấn **Add claim** để thêm claim key-value Và **Remove claim** để xoá claim key-value 
 
 [![Hình ảnh](/img/migrated/image15-ea59e130.png)](/img/migrated/image15-ea59e130.png)
   * **Routers:**
@@ -135,11 +135,11 @@ Nhập các thông tin sau:
     * **Response topic ( required):** Tên topic kafka lấy dữ liệu trong mode Sync hoặc Async 
       * Bao gồm a-z, A-Z, 0-9, dấu gạch ngang (-), gạch dưới (_), dấu chấm (.)
       * Bắt đầu bằng chữ cái; Tối đa 249 ký tự 
-**Add router** để thêm template giao diện tương ứng với mỗi loại Mode của Router 
-**Remove router** để Xoá Router 
+Nhấn **Add router** để thêm template giao diện tương ứng với mỗi loại Mode của Router 
+Nhấn **Remove router** để Xoá Router 
 
 [![Hình ảnh](/img/migrated/image16-b9271d2a.png)](/img/migrated/image16-b9271d2a.png)
-**ステップ7:** **Next Step** để chuyển sang màn **Review and Create**
+**Bước 7:** Nhấn **Next Step** để chuyển sang màn **Review and Create**
 [![Hình ảnh](/img/migrated/image17-f42b2736.png)](/img/migrated/image17-f42b2736.png)
-**ステップ8:** Kiểm tra thông tin nhập sau đó nhấn **Create** để hoàn thành việc khởi tạo **Event Gateway**
+**Bước 8** : Kiểm tra thông tin nhập sau đó nhấn **Create** để hoàn thành việc khởi tạo **Event Gateway**
 **Event Gateway** hoàn thành khởi tạo khi **Status** của **Event Gateway** là **Healthy** (~15 phút)

@@ -5,7 +5,7 @@ sidebar_label: "Các phương thức quản trị mạng truy cập inbound và 
 sidebar_position: "42"
 ---
 
-# Network
+# Các phương thức quản trị mạng truy cập inbound và outbound của Wapple
 
 Các phương thức quản trị mạng truy cập inbound và outbound của Wapple
   * Management Route [![file](/img/migrated/image-1714117198891-6f8acc4a.png)](/img/migrated/image-1714117198891-6f8acc4a.png)

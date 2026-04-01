@@ -38,4 +38,3 @@ Assigning tags to Load Balancers helps you categorize load balancers by project 
 :::warning
 When a Load Balancer is deleted, the system automatically removes all associated tags and updates the tag list on the Tagging screen.
 :::
-

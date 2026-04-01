@@ -53,10 +53,6 @@ AI Marketplace
     * [ に関するよくある質問 ](https://fptcloud.com/ja/documents/gpu-virtual-machine/?doc=%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F "に関するよくある質問")
 
 GPU Virtual Machine
-  1. [FPTクラウドポータル](https://fptcloud.com/ja/documents-ja/ "FPTクラウドポータル")
-  2. GPU Virtual Machine
-
-GPU Virtual Machine
 01基本情報 
   * [ 概要 ](https://fptcloud.com/ja/documents/gpu-virtual-machine/?doc=%E6%A6%82%E8%A6%81 "概要")
   * [ 初期設定 ](https://fptcloud.com/ja/documents/gpu-virtual-machine/?doc=%E5%88%9D%E6%9C%9F-%E8%A8%AD%E5%AE%9A "初期設定")
@@ -79,53 +75,3 @@ GPU Virtual Machine
 
 07に関するよくある質問 
   * [ に関するよくある質問 ](https://fptcloud.com/ja/documents/gpu-virtual-machine/?doc=%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F "に関するよくある質問")
-
-![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
-**ホットライン:[0800 300 9739](tel:0800%20300%209739)**
-住所:
-**ハノイ:**[FPT Tower,10 Pham Van Bach通、Cau Giay坊](https://maps.app.goo.gl/BtHa6J7ToZf7RZbF6)  
-**ホーチミン市:** PJICOビル、186 Dien Bien Phu通、Xuan hoa坊  
-**東京:** 東京都港区三田 3-5-19 住友不動産東京三田ガーデンタワー33階  
-
-メール: support@fptcloud.jp
-ヘルプデスク:support@fptcloud.jp
-  * [ ](https://www.facebook.com/fptsmartcloud)
-  * [ ](https://www.linkedin.com/company/fpt-cloud/)
-  * [ ](https://www.youtube.com/channel/UCJM51jaizo0jSbv35HD2nYA)
-
-[ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
-会社概要 
-  * [ 特定商取引法に基づく表記 ](https://fptcloud.com/ja/about-us-ja/tokusho/ "特定商取引法に基づく表記")
-  * [ パートナー・お客様 ](https://fptcloud.com/ja/partner-ja/ "パートナー・お客様")
-  * [ ニュース＆イベント ](https://fptcloud.com/ja/documents/gpu-virtual-machine/ "ニュース＆イベント")
-  * [ 採用 ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "採用")
-  * [ お問い合わせ ](https://fptcloud.com/ja/contact-ja/ "お問い合わせ")
-
-サービス 
-  * [ FPTクラウドサーバー ](https://fptcloud.com/ja/product/fpt-cloud-server/ "FPTクラウドサーバー")
-  * [ FPTバックアップ ](https://fptcloud.com/ja/product/backup-service-ja/ "FPTバックアップ ")
-  * [ FPT災害復旧 ](https://fptcloud.com/ja/product/disaster-recovery-ja/ "FPT災害復旧 ")
-  * [ FPTオブジェクトストレージ ](https://fptcloud.com/ja/product/object-storage-ja/ "FPTオブジェクトストレージ")
-  * [ FPT Kubernetesエンジン ](https://fptcloud.com/ja/product/kubernetes-engine-ja/ "FPT Kubernetesエンジン")
-  * [ FPTクラウド監視 ](https://fptcloud.com/ja/product/monitoring-ja/ "FPTクラウド監視")
-  * [ FPTロードバランシング ](https://fptcloud.com/ja/product/load-balancing-ja/ "FPTロードバランシング")
-  * [ FPT次世代ファイアウォール ](https://fptcloud.com/ja/product/next-gen-firewall-ja/ "FPT次世代ファイアウォール")
-  * [ FPTクラウドデスクトップ ](https://fptcloud.com/ja/product/cloud-desktop-ja/ "FPTクラウドデスクトップ")
-
-利用規約・ポリシー 
-  * [ 利用規約 ](https://fptcloud.com/ja/privacy-policy-ja/#policy-tab-2 "利用規約")
-  * [ プライバシーステートメント ](https://fptcloud.com/ja/privacy-policy-ja/#policy-tab-0 "プライバシーステートメント")
-  * [ 脆弱性開示に関する方針 ](https://fptcloud.com/ja/privacy-policy-ja/#policy-tab-3 "脆弱性開示に関する方針")
-  * [ データ保護方針 ](https://fptcloud.com/ja/privacy-policy-ja/#policy-tab-5 "データ保護方針")
-  * [ リスクまたは違反の報告 ](https://fptcloud.com/ja/privacy-policy-ja/#policy-tab-6 "リスクまたは違反の報告")
-
-ニュース受信のお申し込み 
-送信 
-
-  * [ 連絡 ](tel:1900%20638%20399)
-メール
-
-私たちはあなたのプライバシーを大切にしています
-このウェブサイトは、ユーザーエクスペリエンスの向上のためにCookieを使用しています。当ウェブサイトをご利用いただくことで、お客様は[プライバシーステートメント](https://fptcloud.com/ja/privacy-policy-ja/)に従い、すべてのCookieの使用に同意するものとします。
-[必要なクッキーのみ設定](javascript:void\(0\);) [設定](javascript:void\(0\);) [同意する。](javascript:void\(0\);)
-[ ](tel:1900638399 "Gọi 1900638399")

@@ -5,11 +5,11 @@ sidebar_label: "Khởi tạo Profile"
 sidebar_position: "3"
 ---
 
-# Update apt database on first boot (run 'apt-get update').
+# Khởi tạo Profile
 
-##  **ステップ1:** Truy cập trang **Autoscaling > Autoscale Profile**. **Create profile**.
+##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Profile**. Chọn **Create profile**.
 [![create profile button](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)
-##  **ステップ2:** Cấu hình các thông số kỹ thuật.
+##  **Bước 2** : Cấu hình các thông số kỹ thuật.
 [![create profile page](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)
 **General Information**
 Nhập tên profile sao cho dễ quản lý nhất. Tên không vượt quá 80 kí tự, bao gồm các kí tự chữ cái latin, số, dấu gạch dưới, dấu gạch nối và dấu chấm.
@@ -30,7 +30,7 @@ Storage: Chọn loại ổ đĩa và dung lượng phù hợp với nhu câ
 Lựa chọn subnet và security group phù hợp trong VPC. Subnet và security group cần được khởi tạo sẵn, nếu chưa có hãy tạo mới:
 **Advanced setting**
 Nhập đoạn mã [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html "Cloud config examples") nếu có. Khi một node khởi động, cloud-init sẽ đọc các metadata được cung cấp từ cloud, và khởi tạo hệ thống dựa trên chúng. Cloud-init thường được dùng với mục đích setup network, storage, SSH public keys, và nhiều phần khác của hệ thống.
-例: Với đoạn script mẫu này, các node trong group sẽ cài đặt các gói cần thiết, sau đó clone một static website từ github và khởi động máy chủ nginx. Để xem kết quả, người dùng có thể thực hiện allocate Floating IP cho node và thực hiện truy cập vào website thông qua Floating IP đó.
+Ví dụ: Với đoạn script mẫu này, các node trong group sẽ cài đặt các gói cần thiết, sau đó clone một static website từ github và khởi động máy chủ nginx. Để xem kết quả, người dùng có thể thực hiện allocate Floating IP cho node và thực hiện truy cập vào website thông qua Floating IP đó.
 
 ```
 Copy
@@ -63,7 +63,7 @@ runcmd:
 ```
 
 **Lưu ý** : Tránh sử dụng các thông tin có yếu tố nhạy cảm trong script như: password, token, secret key, thông tin cá nhân, ...
-##  **ステップ3:** **Create profile** để xác nhận.
+##  **Bước 3** : Chọn **Create profile** để xác nhận.
 Sau khi tạo thành công, profile sẽ hiển thị trên danh sách các profiles hiện có.
 [![list profiles after create](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)
 Có thể xem lại thông tin chi tiết của profile bằng cách click vào tên profile tương ứng trên danh sách:

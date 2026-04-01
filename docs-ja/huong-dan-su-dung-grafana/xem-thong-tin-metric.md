@@ -11,11 +11,11 @@ Người dùng có thể theo dõi các chỉ số hiệu suất, tài nguyên v
 
 ## Các bước thực hiện
 
-**ステップ 1:** Trên menu, bạn chọn Explore
+**Bước 1:** Trên menu, bạn chọn Explore
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
-**ステップ 2:** Chọn datasource: mimir
+**Bước 2:** Chọn datasource: mimir
 
 - Chọn loại metric
 - Chọn label filters mong muốn
@@ -27,7 +27,7 @@ Người dùng có thể theo dõi các chỉ số hiệu suất, tài nguyên v
 
 [![Alt text](/img/migrated/Screenshot_25-639736f9.png)](/img/migrated/Screenshot_25-639736f9.png)
 
-**ステップ 3:** **Run query** và hệ thống sẽ trả ra kết quả tương ứng
+**Bước 3:** Nhấn **Run query** và hệ thống sẽ trả ra kết quả tương ứng
 
 *Ảnh minh họa*
 

@@ -24,4 +24,3 @@ Chỉ xóa được Storage Disk không đang gắn vào máy ảo. Dữ liệu 
 2. Xác nhận thông tin trong popup, nhấn **Delete storage disk**.
 
    [![Hộp thoại xác nhận xóa Storage Disk](/img/migrated/image-1712215582910-1868700d.png)](/img/migrated/image-1712215582910-1868700d.png)
-

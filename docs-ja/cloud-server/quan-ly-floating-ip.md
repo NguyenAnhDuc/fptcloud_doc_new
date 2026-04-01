@@ -8,36 +8,36 @@ sidebar_position: 69
 
 # Floating IP管理
 
-Floating IPはパブリックIPアドレスを保持し、インターネットからインスタンスへの受信トラフィックをルーティングします。インスタンスをインターネットからアクセス可能にするには、Floating IPをアタッチする必要があります。
+Floating IP lưu giữ IP Public và điều hướng truy cập từ internet vào máy ảo. Để máy ảo truy cập được từ ngoài internet, bạn cần gắn Floating IP cho nó.
 
-同じVPC内の別のインスタンスにFloating IPをリダイレクトすることができます。これにより、コストを削減しIPを最大限に活用できます。
+Bạn có thể chuyển hướng Floating IP sang máy ảo khác cùng VPC — giúp tiết kiệm chi phí và sử dụng IP tối đa.
 
-## 新しいパブリックIPの割り当て
+## Lấy IP Public mới
 
-アカウントに残余クォータがある場合、プールから追加のIPを割り当てることができます。
+Nếu tài khoản còn hạn mức, bạn có thể lấy thêm IP từ pool.
 
-1. **Networking** → **Floating IPs** に移動し、**Allocate floating IP** をクリックします。
-2. 必要な情報を入力し、**Allocate** をクリックします。
+1. Chọn **Networking** → **Floating IPs**, nhấn **Allocate floating IP**.
+2. Điền thông tin và nhấn **Allocate**.
 
-## インスタンスへのFloating IPのアタッチ
+## Gắn Floating IP vào máy ảo
 
-1. Floating IPリストで **Actions** → **Attach** をクリックします。
-2. アタッチするインスタンスを選択し、**Attach** をクリックします。
+1. Tại danh sách Floating IP, chọn **Actions** → **Attach**.
+2. Chọn máy ảo cần gắn, nhấn **Attach**.
 
-## インスタンスからのFloating IPのデタッチ
+## Gỡ Floating IP khỏi máy ảo
 
-1. Floating IPリストで **Actions** → **Detach** をクリックします。
-2. デタッチを確認します。
+1. Tại danh sách Floating IP, chọn **Actions** → **Detach**.
+2. Xác nhận gỡ.
 
-## Floating IPの削除
+## Xóa Floating IP
 
-1. Floating IPリストで **Actions** → **Delete** をクリックします。
-2. 削除を確認します。
+1. Tại danh sách Floating IP, chọn **Actions** → **Delete**.
+2. Xác nhận xóa.
 
 :::warning
-削除後、パブリックIPはプールに返却され、別のアカウントに割り当てられる場合があります。
+Sau khi xóa, IP Public sẽ được trả về pool và có thể được cấp cho tài khoản khác.
 :::
 
-## 次のステップ
+## Bước tiếp theo
 
-- [Subnet管理](./Quản%20lý%20Subnets.md)
+- [Quản lý Subnets](./Quản%20lý%20Subnets.md)

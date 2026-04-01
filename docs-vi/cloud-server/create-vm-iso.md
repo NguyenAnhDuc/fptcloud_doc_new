@@ -29,4 +29,3 @@ Hệ thống mặc định sử dụng disk bus **Virtio** cho ổ Root. Nếu f
 :::note
 Disk bus SATA có thể làm giảm hiệu suất ổ đĩa. Chỉ sử dụng khi file ISO không tương thích với Virtio.
 :::
-

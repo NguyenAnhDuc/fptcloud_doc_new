@@ -5,11 +5,11 @@ sidebar_label: "Hướng dẫn sử dụng Autoscaler với GPU"
 sidebar_position: "7"
 ---
 
-# Hướng dẫn sử dụng Autoscaler with GPU
+# Hướng dẫn sử dụng Autoscaler với GPU
 
 **· Autoscale mức container:**
-Horizontal Pod Autoscaler (viết tắt là HPA) tự động cập nhật tài nguyên workload resource (chẳng hạn như Deployment or StatefulSet), with mục đích tự động thay đổi quy mô workload resource to phù hợp with nhu cầu ứng dụng. Về cơ bản, when workload của ứng dụng trên Kubernetes tăng lên thì HPA sẽ triển khai nhiều Pod hơn để đáp ứng tài nguyên. Nếu tải giảm and số lượng Pod cao hơn mức tối thiểu has been cấu hình, thì HPA will giảm workload resource (Deployment, StatefulSet or tài nguyên tương tự khác), tức là giảm số lượng Pod lại. HPA for GPU sử dụng custom metrics của DCGM để theo dõi và tăng/giảm Pod theo workload của ứng dụng sử dụng GPU.
-  * Để cấu hình HPA for ứng dụng sử dụng GPU, tham khảo cấu hình sau:
+Horizontal Pod Autoscaler (viết tắt là HPA) tự động cập nhật tài nguyên workload resource (chẳng hạn như Deployment hoặc StatefulSet), với mục đích tự động thay đổi quy mô workload resource để phù hợp với nhu cầu ứng dụng. Về cơ bản, khi workload của ứng dụng trên Kubernetes tăng lên thì HPA sẽ triển khai nhiều Pod hơn để đáp ứng tài nguyên. Nếu tải giảm và số lượng Pod cao hơn mức tối thiểu đã cấu hình, thì HPA sẽ giảm workload resource (Deployment, StatefulSet hoặc tài nguyên tương tự khác), tức là giảm số lượng Pod lại. HPA cho GPU sử dụng custom metrics của DCGM để theo dõi và tăng/giảm Pod theo workload của ứng dụng sử dụng GPU.
+  * Để cấu hình HPA cho ứng dụng sử dụng GPU, tham khảo cấu hình sau:
 
 ```
 apiVersion: autoscaling/v2beta2 
@@ -56,7 +56,7 @@ Tham khảo thêm: tài liệu [Nvidia về DCGM metrics.](https://docs.nvidi
 
 [![](/img/migrated/73-9f2c36c7.png)](/img/migrated/73-9f2c36c7.png)
 **· Autoscale mức Node:**
-Giống như Cluster Autoscale thông thường, cụm Kubernetes will tự động tăng/giảm worker node in worker group dựa theo yêu cầu sử dụng GPU: tự động scale thêm the worker mới in a worker group if như ứng dụng chạy trên worker group that không is đáp ứng đủ tài nguyên (GPU) bởi the worker nodes of pool that. Khi that, những pod bị pending do node không đủ tài nguyên will is phục vụ bởi the worker nodes mới after scale lên. Tính năng Cluster Autoscale cũng tự động xóa the nodes không sử dụng đủ lượng utilization (mặc định là 50%) of node that.
-Thao tác cấu hình số lượng nodes worker group is định nghĩa trên FPTCloud Portal như hình sau: 
+Giống như Cluster Autoscale thông thường, cụm Kubernetes sẽ tự động tăng/giảm worker node trong worker group dựa theo yêu cầu sử dụng GPU: tự động scale thêm các worker mới trong một worker group nếu như ứng dụng chạy trên worker group đó không được đáp ứng đủ tài nguyên (GPU) bởi các worker nodes của pool đó. Khi đó, những pod bị pending do node không đủ tài nguyên sẽ được phục vụ bởi các worker nodes mới sau khi scale lên. Tính năng Cluster Autoscale cũng tự động xóa các nodes không sử dụng đủ lượng utilization (mặc định là 50%) của node đó.
+Thao tác cấu hình số lượng nodes worker group được định nghĩa trên FPTCloud Portal như hình sau: 
 **Tham khảo thêm** : [FPT Cloud Managed Kubernetes Autoscaler](./cluster-autoscale.md)
 [![](/img/migrated/Picture22-1-1be5f3e3.png)](/img/migrated/Picture22-1-1be5f3e3.png)

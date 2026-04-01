@@ -22,4 +22,3 @@ Templateが不要になった場合は、削除してリソースを解放でき
    [![Delete custom imageオプションのあるActionsメニュー](/img/migrated/image-1719539882859-4f7b095b.png)](/img/migrated/image-1719539882859-4f7b095b.png)
 
 2. ダイアログボックスで削除を確認します。
-

@@ -5,7 +5,7 @@ sidebar_label: "Vì sao tôi không xem được Bill?"
 sidebar_position: "7"
 ---
 
-# Question 1
+# Vì sao tôi không xem được Bill?
 
 Có 3 trường hợp dẫn tới việc bạn không xem được module Billing nói chung và tính năng Bills nói riêng, cụ thể: 
 **1. Trường hợp account của bạn là role Tenant Owner nhưng dữ liệu bill bị trống.**

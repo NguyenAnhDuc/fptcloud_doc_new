@@ -9,7 +9,7 @@ sidebar_position: "18"
 
 Dưới đây là hướng dẫn cơ bản để tạo alert rule. Ngoài ra, bạn có thể tham khảo hướng dẫn chi tiết tại link chính thức của Grafana **[TẠI ĐÂY](https://grafana.com/docs/grafana/latest/alerting/alerting-rules/create-grafana-managed-rule)**
 
-## ステップ 1: Truy cập Alerting
+## Bước 1: Truy cập Alerting
 
 - Vào Grafana
 - Menu trái → Alerting → Alert rules
@@ -26,20 +26,20 @@ Tên này:
 - Được hiển thị trong danh sách alert rule
 - Đồng thời là giá trị của label alertname cho mọi alert instance được tạo từ rule này
 
-## ステップ 2: Định nghĩa query và điều kiện
+## Bước 2: Định nghĩa query và điều kiện
 
 Xác định query để lấy dữ liệu cần theo dõi và điều kiện phải thỏa mãn trước khi alert rule được kích hoạt.
 
 - Chọn Data source (ví dụ: Prometheus)
 - Nhập query metric. Query này sẽ là đầu vào cho alert condition.
 
-例: `cpu_usage_percent > 80`
+Ví dụ: `cpu_usage_percent > 80`
 
 [![Alt text](/img/migrated/Screenshot_40-6a7312e7.png)](/img/migrated/Screenshot_40-6a7312e7.png)
 
 Sau đó, định nghĩa Condition
 
-## ステップ 3: Cấu hình hành vi đánh giá alert (Alert evaluation behavior)
+## Bước 3: Cấu hình hành vi đánh giá alert (Alert evaluation behavior)
 
 Thiết lập tần suất đánh giá alert và cách alert chuyển trạng thái.
 
@@ -52,7 +52,7 @@ Nếu tạo mới, chỉ định interval
 
 [![Alt text](/img/migrated/Screenshot_41-c8ff1356.png)](/img/migrated/Screenshot_41-c8ff1356.png)
 
-## ステップ 4: Thêm Annotations
+## Bước 4: Thêm Annotations
 
 Sử dụng annotations để bổ sung thông tin cho alert message.
 
@@ -65,16 +65,16 @@ Các annotation tuỳ chọn:
 - Custom annotation: Thông tin bổ sung
 - Link dashboard & panel: Liên kết tới dashboard/panel liên quan
 
-**例:**
+**Ví dụ:**
 
 ```
 summary = High CPU usage
 description = CPU usage is above 80% for more than 5 minutes
 ```
 
-## ステップ 5: Labels and notifications
+## Bước 5: Labels and notifications
 
-## ステップ 6: Lưu Alert Rule
+## Bước 6: Lưu Alert Rule
 
 - Click Save ở góc phải màn hình
 

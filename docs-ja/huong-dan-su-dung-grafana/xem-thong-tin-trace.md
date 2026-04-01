@@ -7,17 +7,17 @@ sidebar_position: "12"
 
 # Xem thông tin Trace
 
-**ステップ 1:** Trên menu, bạn chọn **Explore**
+**Bước 1:** Trên menu, bạn chọn **Explore**
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
-**ステップ 2:** Chọn datasource: **tempo**
+**Bước 2:** Chọn datasource: **tempo**
 
 Hệ thống mở tab **TraceQL** cho phép bạn nhập câu query
 
 [![Alt text](/img/migrated/Screenshot_29-a8f6ab7d.png)](/img/migrated/Screenshot_29-a8f6ab7d.png)
 
-**ステップ 3:** Nhấn _Run query_ để hiển thị kết quả
+**Bước 3:** Nhấn _Run query_ để hiển thị kết quả
 
 _Ảnh minh họa_
 

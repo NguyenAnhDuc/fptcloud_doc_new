@@ -52,4 +52,3 @@ Sau khi tạo, hệ thống thêm GPU vào máy ảo ngay lập tức. Bạn có
 
 1. Tại **Instance Management**, chọn **Actions** → **Remove GPU**.
 2. Xác nhận thông tin và nhấn **Update**.
-

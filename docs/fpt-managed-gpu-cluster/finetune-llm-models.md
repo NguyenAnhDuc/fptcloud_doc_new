@@ -7,28 +7,28 @@ sidebar_position: "24"
 
 # Chuẩn bị môi trường
 
-Bài hướng dẫn this trình bày theh finetune a LLM model trên kubernetes sử dụng Unsloth and GPU 
-Mục tiêu là cung cấp nền tảng giúp you **hiểu and thực hành việc triển khai finetune a mô hình LLM** in a **môi trường Kubernetes is quản lý**. 
-Trong hướng dẫn this, you will: 
+Bài hướng dẫn này trình bày cách finetune một LLM model trên kubernetes sử dụng Unsloth và GPU 
+Mục tiêu là cung cấp nền tảng giúp bạn **hiểu và thực hành việc triển khai finetune một mô hình LLM** trong một **môi trường Kubernetes được quản lý**. 
+Trong hướng dẫn này, bạn sẽ: 
   * Triển khai container trên Kubernetes.
-  * Sử dụng Unsloth to fine-tune a mô hình LLM.
+  * Sử dụng Unsloth để fine-tune một mô hình LLM.
 
-Bài hướng dẫn this dành for the kỹ sư Machine Learning (ML), quản trị viên and người vận hành nền tảng, cũng như the chuyên gia về Data and AI, những người quan tâm to việc sử dụng khả năng điều phối container of Kubernetes to phục vụ the mô hình ngôn ngữ lớn (LLM). 
+Bài hướng dẫn này dành cho các kỹ sư Machine Learning (ML), quản trị viên và người vận hành nền tảng, cũng như các chuyên gia về Data và AI, những người quan tâm đến việc sử dụng khả năng điều phối container của Kubernetes để phục vụ các mô hình ngôn ngữ lớn (LLM). 
 ##  Chuẩn bị môi trường 
 ###  Chuẩn bị cụm FKE GPU 
-Hãy đảm bảo rằng you có đủ: 
-  * Một cụm k8s with GPU. 
-  * GPU operator is cài đặt. 
+Hãy đảm bảo rằng bạn có đủ: 
+  * Một cụm k8s với GPU. 
+  * GPU operator được cài đặt. 
   * Driver, nvidia container toolkit. 
-  * Có quota storage to tạo Persistent Volume 
+  * Có quota storage để tạo Persistent Volume 
 
-Check node GPU trên k8s has been sẵn sàng sử dụng bằng lệnh: 
+Kiểm tra node GPU trên k8s đã sẵn sàng sử dụng bằng lệnh: 
 
 ```
 Copykubectl describe node 
 ```
 
-Node will sẵn sàng is sử dụng if tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity and allocatable 
+Node sẽ sẵn sàng được sử dụng nếu tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity và allocatable 
 
 ```
 CopyCapacity:
@@ -42,15 +42,15 @@ Allocatable:
 ```
 
 ###  Chuẩn bị token Huggingface (optional) 
-Lên trang chủ Huggingface, tạo token and tạo Secret trên k8s chứa token this: 
+Lên trang chủ Huggingface, tạo token và tạo Secret trên k8s chứa token này: 
 
 ```
 Copykubectl create secret generic hf-secret --from-literal=hf_api_token=${HF_TOKEN} --dry-run=client -o yaml | kubectl apply -f -
 ```
 
 ##  Deploy Unsloth 
-Trong phần this, you triển khai container Unsloth to huấn luyện (training) mô hình mà you muốn sử dụng. Để triển khai quá trình huấn luyện, bài hướng dẫn this sử dụng Kubernetes Deployment. Deployment là a đối tượng API of Kubernetes for phép you chạy a or nhiều Pod phục vụ for quá trình training, đồng thời Kubernetes will đảm bảo Pod is khởi động lại when xảy ra lỗi and is lập lịch trên the node GPU in cluster. 
-Mỗi Pod chạy container Unsloth, sử dụng tài nguyên GPU to thực hiện fine-tuning mô hình ngôn ngữ lớn. Việc sử dụng Deployment giúp you dễ dàng quản lý vòng đời of job training, cập nhật cấu hình (ví dụ: image, biến môi trường, số lượng GPU), and mở rộng quy mô when cần huấn luyện song song trên nhiều GPU or nhiều node. 
+Trong phần này, bạn triển khai container Unsloth để huấn luyện (training) mô hình mà bạn muốn sử dụng. Để triển khai quá trình huấn luyện, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy một hoặc nhiều Pod phục vụ cho quá trình training, đồng thời Kubernetes sẽ đảm bảo Pod được khởi động lại khi xảy ra lỗi và được lập lịch trên các node GPU trong cluster. 
+Mỗi Pod chạy container Unsloth, sử dụng tài nguyên GPU để thực hiện fine-tuning mô hình ngôn ngữ lớn. Việc sử dụng Deployment giúp bạn dễ dàng quản lý vòng đời của job training, cập nhật cấu hình (ví dụ: image, biến môi trường, số lượng GPU), và mở rộng quy mô khi cần huấn luyện song song trên nhiều GPU hoặc nhiều node. 
 ###  Deploy vllm bằng deployment 
 
 ```
@@ -86,12 +86,12 @@ spec:
 
 ```
 
-Trong that: 
-  * nvidia.com/gpu: "1" : container of you will sử dụng 1 GPU trên node. 
+Trong đó: 
+  * nvidia.com/gpu: "1" : container của bạn sẽ sử dụng 1 GPU trên node. 
   * JUPYTER_PASSWORD: password truy cập jupyter notebook. 
 
 ###  Expose container Unsloth 
-Để expose model, hãy tạo a service trên k8s, if type of service là LoadBalancer thay vì ClusterIP, model can is truy cập from internet: 
+Để expose model, hãy tạo một service trên k8s, nếu type của service là LoadBalancer thay vì ClusterIP, model có thể được truy cập từ internet: 
 
 ```
 CopyapiVersion: v1
@@ -115,9 +115,9 @@ spec:
 ```
 
 ###  Setup persistent storage (Optional) 
-Với cấu hình trên, model weight of model is lưu tại file system of container. Khi container restart, chúng ta cần tải lại bộ weight trên from đầu. 
-Để tránh tình trạng this, chúng ta can lưu sẵn model ando a volume, do that when container restart thì model vẫn còn and không must tải lại. 
-Create persistent volume claim: 
+Với cấu hình trên, model weight của model được lưu tại file system của container. Khi container restart, chúng ta cần tải lại bộ weight trên từ đầu. 
+Để tránh tình trạng này, chúng ta có thể lưu sẵn model vào một volume, do đó khi container restart thì model vẫn còn và không cần phải tải lại. 
+Tạo persistent volume claim: 
 
 ```
 CopyapiVersion: v1
@@ -160,24 +160,24 @@ spec:
 ```
 
 ##  Truy cập Unsloth service 
-Tại phần this, chúng ta will thực hiện việc kiểm tra kết nối & gửi the request to model xử lý 
-###  Set up networking to truy cập unsloth ngoài cụm 
-Nếu tại mục Expose model, you sử dụng service type loadbalancer, hãy sử dụng IP public of loadbalancer that. 
-Nếu you sử dụng service type CusterIP, hãy port forward service this: 
+Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+###  Set up networking để truy cập unsloth ngoài cụm 
+Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
+Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 
 
 ```
 Copykubectl port-forward service/unsloth-service 8888:8888
 ```
 
-Nếu you muốn dùng ssh thay vì jupyter notebook (tạo ssh key pair in container unsloth if you chưa có): 
+Nếu bạn muốn dùng ssh thay vì jupyter notebook (tạo ssh key pair trong container unsloth nếu bạn chưa có): 
 
 ```
 Copykubectl port-forward service/unsloth-service 2222:22
 ```
 
-Truy cập jupyternotebook tại [http://localhost:8888,](http://localhost:8888/) ando mục unsloth-notebooks to kiểm tra the notebook có sẵn of Unsloth. 
-###  Chạy the tác vụ training mẫu 
-Tìm kiếm Granite4.0_350M.ipynb, chạy notebook this 
+Truy cập jupyternotebook tại [http://localhost:8888,](http://localhost:8888/) vào mục unsloth-notebooks để kiểm tra các notebook có sẵn của Unsloth. 
+###  Chạy các tác vụ training mẫu 
+Tìm kiếm Granite4.0_350M.ipynb, chạy notebook này 
 Output: 
 
 ```

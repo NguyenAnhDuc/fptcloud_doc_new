@@ -5,4 +5,3 @@ description: "Khởi tạo một Instance Group mới với chính sách Affinit
 sidebar_label: "Tạo Instance Group mới"
 sidebar_position: 78
 ---
-

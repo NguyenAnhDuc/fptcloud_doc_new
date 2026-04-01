@@ -5,7 +5,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# 初期設定
+# Thiết lập ban đầu
 
 Nếu đây là lần đầu tiên bạn sử dụng FPT Cloud Server, trước tiên hãy kiểm tra và hoàn thành các công việc sau:
   * Liên hệ với đội ngũ Sale/Support của FPT Cloud để tạo và chạy tối thiểu 01 hợp đồng Commercial.

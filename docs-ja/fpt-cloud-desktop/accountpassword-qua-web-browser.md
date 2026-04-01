@@ -11,7 +11,7 @@ Dành cho người dùng muốn truy cập máy ảo nhanh, không cần cài đ
 **1.Truy cập vào Homepage dịch vụ với URL phù hợp**
 Các định dạng URL hợp lệ:
   * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
-  * URL đã chứa authentication code hợp lệ (định dạng code.domain). 例: pil783454741.pilotfcd.online
+  * URL đã chứa authentication code hợp lệ (định dạng code.domain). Ví dụ: pil783454741.pilotfcd.online
   * URL mặc định của dịch vụ
 
 **Thông tin URL này do quản trị viên khách hàng cung cấp**
@@ -31,7 +31,7 @@ Nếu người dùng truy cập từ URL mặc định của dịch vụ:
   * Nhập thông tin tài khoản tương ứng theo Server muốn đăng nhập
 
 [![file](/img/migrated/image-1767955827414-9e7265a7.png)](/img/migrated/image-1767955827414-9e7265a7.png)
-**注意:** Nếu có hiển thị mã QR Xác thực 2 lớp: Tải và cài đặt **ứng dụng xác thực Microsoft Authenticator** trên Điện thoại tại Apple Store hoặc CH Play/ Google Play
+**Lưu ý:** Nếu có hiển thị mã QR Xác thực 2 lớp: Tải và cài đặt **ứng dụng xác thực Microsoft Authenticator** trên Điện thoại tại Apple Store hoặc CH Play/ Google Play
 [![file](/img/migrated/image-1767955899835-0408f00d.png)](/img/migrated/image-1767955899835-0408f00d.png)
 Mở ứng dụng Authenticator và thực hiện quét (scan) QR Code
 [![file](/img/migrated/image-1767955938951-3aac0b75.png)](/img/migrated/image-1767955938951-3aac0b75.png)

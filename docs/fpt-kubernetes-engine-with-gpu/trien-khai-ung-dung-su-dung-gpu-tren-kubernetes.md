@@ -7,10 +7,10 @@ sidebar_position: "5"
 
 # Triển khai ứng dụng sử dụng GPU trên Kubernetes
 
-Kubernetes quản lý and sử dụng resources GPU tương tự như sử dụng resources CPU. Tùy ando cấu hình GPU lựa chọn for Worker Group to khai báo resources GPU for ứng dụng trên Kubernetes.
+Kubernetes quản lý và sử dụng resources GPU tương tự như sử dụng resources CPU. Tùy vào cấu hình GPU lựa chọn cho Worker Group để khai báo resources GPU cho ứng dụng trên Kubernetes.
 _Chú ý:_
   * Có thể chỉ định GPU limits mà không cần chỉ định requests do Kubernetes sử dụng limits làm giá trị yêu cầu mặc định.
-  * Có thể chỉ định cả GPU limits and requests nhưng hai giá trị this phải bằng nhau.
+  * Có thể chỉ định cả GPU limits và requests nhưng hai giá trị này phải bằng nhau.
   * Không thể chỉ định GPU requests mà không chỉ định limits.
   * Kiểm tra cấu hình GPU bằng lệnh sau:
 
@@ -18,11 +18,11 @@ _Chú ý:_
 Copykubectl get node  -o json | jq ‘.items[].metadata.labels‘ 
 ```
 
-_Ví dụ:_ hình dưới for thấy worker sử dụng card Nvidia A30, cấu hình strategy: all-balanced, trạng thái: success.
+_Ví dụ:_ hình dưới cho thấy worker sử dụng card Nvidia A30, cấu hình strategy: all-balanced, trạng thái: success.
 [![Alt text](/img/migrated/Picture32-1-30173fb0.png)](/img/migrated/Picture32-1-30173fb0.png)
 ### 💡 **Kiểm tra cấu hình GPU Instance trên worker chưa bằng lệnh sau (ssh vào worker, gõ lệnh):**
 #### 👉 **Ví dụ triển khai ứng dụng sử dụng GPU:**
-1️⃣ **Với sharing mode MIG and strategy: single, tài nguyên GPU được khai báo as follows:**
+1️⃣ **Với sharing mode MIG và strategy: single, tài nguyên GPU được khai báo như sau:**
 
 ```
 CopyCú pháp:  
@@ -94,7 +94,7 @@ spec:
             - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done 
 ```
 
-2️⃣ **Với sharing mode MIG and mixed, tài nguyên GPU được khai báo as follows:**
+2️⃣ **Với sharing mode MIG và mixed, tài nguyên GPU được khai báo như sau:**
 
 ```
 Copy#Cú pháp:  
@@ -166,7 +166,7 @@ spec:
             - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done 
 ```
 
-3️⃣ **Với none strategy, tài nguyên GPU được khai báo as follows:**
+3️⃣ **Với none strategy, tài nguyên GPU được khai báo như sau:**
 
 ```
 Copy#Cú pháp: 
@@ -234,7 +234,7 @@ spec:
             - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done 
 ```
 
-4️⃣ Với sharing mode MPS, tài nguyên GPU is khai báo as follows: 
+4️⃣ Với sharing mode MPS, tài nguyên GPU được khai báo như sau: 
 
 ```
 Copy#Cú pháp:  
@@ -246,4 +246,4 @@ nvidia.com/gpu: ~~
 nvidia.com/gpu: 1 ~~
 ```
 
-_Chú ý:_ số lượng tài nguyên nvidia.com/gpu a pod request tối đa chỉ bằng 1.
+_Chú ý:_ số lượng tài nguyên nvidia.com/gpu một pod request tối đa chỉ bằng 1.

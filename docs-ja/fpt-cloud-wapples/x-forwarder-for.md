@@ -5,7 +5,7 @@ sidebar_label: "Bao gồm các chức năng"
 sidebar_position: "19"
 ---
 
-# X Forwarder For
+# Bao gồm các chức năng
 
 Bao gồm các chức năng
   * Block X-Forwarded-For IP: thực hiện block các ip không có X-Forwarded-For header

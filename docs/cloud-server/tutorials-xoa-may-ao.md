@@ -32,4 +32,3 @@ Deleting a VM permanently removes all data and cannot be recovered.
 3. The system proceeds to delete and reclaim the VM resources.
 
    [![VM being deleted](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
-

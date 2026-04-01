@@ -5,9 +5,9 @@ sidebar_label: "Giới thiệu tính năng vGPU trong FPT Kubernetes engine"
 sidebar_position: "17"
 ---
 
-# 紹介 tính năng vGPU trong FPT Kubernetes engine
+# Giới thiệu tính năng vGPU trong FPT Kubernetes engine
 
-**紹介 tính năng vGPU trong FPT Kubernetes engine**
+**Giới thiệu tính năng vGPU trong FPT Kubernetes engine**
 ➤**FPT Managed GPU Cluster** dựa trên nền tảng mã nguồn mở K8s giúp tự động hoá triển khai, nhân rộng và quản lý các ứng dụng container. FPT Managed GPU Cluster tích hợp đầy đủ các thành phần: Container Orchestration, Storage, Networking, Security, PaaS cung cấp cho khách hàng môi trường tốt nhất để phát triển và triển khai ứng dụng trên Cloud. 
 ➤**FPT Managed GPU** Cluster cung cấp tính năng v cho nhiều container/tiến trình trên một Nvidia GPU . Bằng việc sử dụng tính năng này, bạn có thể tối ưu hóa chi phí sử dụng GPU.
 **Yêu cầu tiên quyết**
@@ -16,13 +16,13 @@ sidebar_position: "17"
 ✓ Worker group sử dụng Pre-installed driver hoặc đã được cài driver thủ công. 
 ✓ Worker group thuộc loại GPU worker group. 
 **Hướng dẫn cài đặt**
-**ステップ1:** Cài đặt vGPU scheduler tại phần cài đặt GPU software & chờ cho đến khi trạng thái ready. [![](/img/migrated/Picture1.1-a0959517.png)](/img/migrated/Picture1.1-a0959517.png)
-**ステップ2:** Tại tab worker group GPU, bạn có quyền lựa chọn enable thành phần elastic GPU scheduler trên từng worker group hoặc không. [![](/img/migrated/vgpu01-681f58cd.png)](/img/migrated/vgpu01-681f58cd.png)
-注意: 
+**Bước 1** : Cài đặt vGPU scheduler tại phần cài đặt GPU software & chờ cho đến khi trạng thái ready. [![](/img/migrated/Picture1.1-a0959517.png)](/img/migrated/Picture1.1-a0959517.png)
+**Bước 2** : Tại tab worker group GPU, bạn có quyền lựa chọn enable thành phần elastic GPU scheduler trên từng worker group hoặc không. [![](/img/migrated/vgpu01-681f58cd.png)](/img/migrated/vgpu01-681f58cd.png)
+Lưu ý: 
 Nếu bạn enable vGPU scheduler trên một worker group, tất cả các sharing mode khác như MIG, MPS, Time slicing cần được disable trên worker group đó.
 Trong trường hợp bạn không có nhu cầu sử dụng vGPU scheduer, hãy chọn GPU scheduler type None. Khi đó, bạn có thể sử dụng các giải pháp GPU sharing như MIG, MPS, Timeslicing như bình thường.
 Có tối đa 48 container được phép chia sẻ cùng một GPU, tuy nhiên bạn chỉ nên sử dụng <= 20 vGPU trên từng GPU để đảm bảo hiệu năng tổng thể.
-**ステップ3:** kiểm tra trạng thái vGPU scheduler trên các node chỉ định
+**Bước 3:** kiểm tra trạng thái vGPU scheduler trên các node chỉ định
 **Kiểm tra pod vgpu device plugin ở trạng thái ready**
 Command:
 
@@ -39,7 +39,7 @@ Copykubectl describe node  | grep Allocatable -A9
 
 [![](/img/migrated/vgpu03-e18784df.png)](/img/migrated/vgpu03-e18784df.png)
 VGPU trên node sẵn sàng để sử dụng khi tài nguyên nvidia.com/vgpu xuất hiện và có giá trị lớn hơn 1
-**ステップ3:** deploy workload mẫu trên kubernetes sử dụng vGPU
+**Bước 3** : deploy workload mẫu trên kubernetes sử dụng vGPU
 
 ```
 CopyapiVersion: apps/v1
@@ -72,7 +72,7 @@ spec:
       restartPolicy: Always
 ```
 
-注意: 
+Lưu ý: 
 nvidia.com/vgpu: 1 có nghĩa là bạn muốn sử dụng vGPU sharing trên chỉ một GPU vật lý, nếu bạn request nvidia.com/vgpu: 2, bạn cần có 2 GPU vật lý.
 **Kết quả** : [![](/img/migrated/Picture5.5-251fecdb.png)](/img/migrated/Picture5.5-251fecdb.png)
 Tại đây, container VLLM chỉ được phép sử dụng tối đa 40000 MiB DRAM của GPU

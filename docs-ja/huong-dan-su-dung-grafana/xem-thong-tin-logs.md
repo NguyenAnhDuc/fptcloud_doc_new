@@ -7,11 +7,11 @@ sidebar_position: "11"
 
 # Xem thông tin Logs
 
-**ステップ 1:** Trên menu, bạn chọn **Explore**
+**Bước 1:** Trên menu, bạn chọn **Explore**
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
-**ステップ 2:** Chọn datasource: **loki**
+**Bước 2:** Chọn datasource: **loki**
 
 - Chọn label filters mong muốn
 
@@ -23,7 +23,7 @@ sidebar_position: "11"
 
 [![Alt text](/img/migrated/Screenshot_25-639736f9.png)](/img/migrated/Screenshot_25-639736f9.png)
 
-**ステップ 3:** **Run query** và hệ thống sẽ trả ra log tương ứng
+**Bước 3:** Nhấn **Run query** và hệ thống sẽ trả ra log tương ứng
 
 *Ảnh minh họa*
 

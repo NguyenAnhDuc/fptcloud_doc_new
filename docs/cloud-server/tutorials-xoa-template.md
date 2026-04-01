@@ -22,4 +22,3 @@ Deleted templates cannot be recovered.
    [![Actions menu with Delete custom image option](/img/migrated/image-1719539882859-4f7b095b.png)](/img/migrated/image-1719539882859-4f7b095b.png)
 
 2. Confirm the deletion in the dialog box.
-

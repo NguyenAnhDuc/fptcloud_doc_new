@@ -8,11 +8,11 @@ sidebar_position: "11"
 # Chinh sua Label Taint cho Worker Group Managed gpu Cluster
 
 Label và Taint là hai cơ chế quan trọng giúp quản lý và phân phối workload hiệu quả trong hệ thống có nhiều Worker Group giúp dễ dàng nhóm các worker theo mục đích sử dụng, hiệu suất, hoặc khu vực địa lý. Managed GPU Cluster hỗ trợ người dùng thêm mới, sửa, xóa label/taint ngay trên Unify Portal.
-**ステップ1:** Ở menu chọn **AI Infratstucture** > **Managed GPU Cluster** hệ thống sẽ hiển thị trang Managed GPU Cluster Management. Chọn Cluster muốn chỉnh sửa Label/Taint.
+**Bước 1** : Ở menu chọn **AI Infratstucture** > **Managed GPU Cluster** hệ thống sẽ hiển thị trang Managed GPU Cluster Management. Chọn Cluster muốn chỉnh sửa Label/Taint.
 [![](/img/migrated/24-2bafdf17.png)](/img/migrated/24-2bafdf17.png)
-**ステップ2:** **Node Pools** > **Edit Workers**
+**Bước 2** : Chọn **Node Pools** > **Edit Workers**
 [![](/img/migrated/25-62db8512.png)](/img/migrated/25-62db8512.png)
-**ステップ3:** Nhập Labels và Taints muốn thêm vào Worker Group và click button **Save**.
+**Bước 3** : Nhập Labels và Taints muốn thêm vào Worker Group và click button **Save**.
 [![](/img/migrated/26-888e5fac.png)](/img/migrated/26-888e5fac.png)
 [![](/img/migrated/27-1e045ce9.png)](/img/migrated/27-1e045ce9.png)
 [![](/img/migrated/28-8da95fc4.png)](/img/migrated/28-8da95fc4.png)

@@ -25,4 +25,3 @@ Priority Rules let you set the execution order for firewall rules — determinin
 1. In the Security Group, select the rule you want to change.
 2. Set the **Priority** value (lower number = higher priority).
 3. Click **Save**.
-

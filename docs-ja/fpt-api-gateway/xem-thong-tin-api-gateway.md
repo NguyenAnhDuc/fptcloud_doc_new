@@ -8,8 +8,8 @@ sidebar_position: "4"
 # Xem Thong tin api Gateway
 
 Để xem thông tin **API Gateway** , người dùng thực hiện các bước sau: 
-**ステップ 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**
-**ステップ 2:** Tại danh sách **API Gateway** > chọn **API Gateway** cần xem thông tin 
+**Bước 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**
+**Bước 2:** Tại danh sách **API Gateway** > chọn **API Gateway** cần xem thông tin 
   * Tab **Overview**
 
 Hiển thị thông tin cơ bản của API Gateway: **Basic information** , **Launch Configuration** , **Etcd** , **LB size** , **Endpoint**

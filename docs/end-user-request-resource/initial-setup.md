@@ -5,10 +5,10 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# Initial setup
+# Thiết lập ban đầu
 
-Nếu đây là lần đầu tiên you sử dụng FPT Cloud Server, trước tiên hãy kiểm tra and hoàn thành the công việc sau:
-  * Liên hệ with đội ngũ Sale/Support of FPT Cloud to tạo and chạy tối thiểu 01 hợp đồng Commercial.
-  * Được cung cấp account truy cập ando FPT Portal with role là Owner of Tenant or Owner of VPC
+Nếu đây là lần đầu tiên bạn sử dụng FPT Cloud Server, trước tiên hãy kiểm tra và hoàn thành các công việc sau:
+  * Liên hệ với đội ngũ Sale/Support của FPT Cloud để tạo và chạy tối thiểu 01 hợp đồng Commercial.
+  * Được cung cấp tài khoản truy cập vào FPT Portal với vai trò là Owner của Tenant hoặc Owner của VPC
 
-Sau when thực hiện the thao tác trên, you has been sẵn sàng to tạo 1 yêu cầu cung cấp tài nguyên trên hệ thống FPT Cloud Server.
+Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để tạo 1 yêu cầu cung cấp tài nguyên trên hệ thống FPT Cloud Server.

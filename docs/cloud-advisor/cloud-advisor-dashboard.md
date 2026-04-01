@@ -9,41 +9,41 @@ sidebar_position: "3"
 
 [![](/img/migrated/Dashboard-CA-1024x756-9afa85a9.png)](/img/migrated/Dashboard-CA-1024x756-9afa85a9.png)
 
-Dashboard displayed:
+Dashboard hiển thị:
 
 - **Action recommended**: Số lượng vấn đề cần xử lý
 - **Investigation recommended**: Vấn đề cần kiểm tra thêm
-- **Rules with excluded items**: Các rule has been loại trừ cụ thể 1 số tài nguyên không cần kiểm tra
+- **Rules with excluded items**: Các rule đã loại trừ cụ thể 1 số tài nguyên không cần kiểm tra
 
 ## Phân loại theo nhóm
 
-Mỗi nhóm is phân loại theo:
+Mỗi nhóm được phân loại theo:
 
-- **Security**: mục tiêu giảm thiểu rủi ro security and tăng mức độ an toàn for hệ thống.
-- **Cost Optimization**: Tối ưu cost vận hành mà không ảnh hưởng to hiệu năng hệ thống.
-- **Fault Tolerance**: Tăng độ ổn định and đảm bảo tính sẵn sàng of hệ thống.
+- **Security**: mục tiêu giảm thiểu rủi ro bảo mật và tăng mức độ an toàn cho hệ thống.
+- **Cost Optimization**: Tối ưu chi phí vận hành mà không ảnh hưởng đến hiệu năng hệ thống.
+- **Fault Tolerance**: Tăng độ ổn định và đảm bảo tính sẵn sàng của hệ thống.
 
-## List vấn đề is phát hiện
+## Danh sách vấn đề được phát hiện
 
-Bên dưới là danh sách the vấn đề is phát hiện, ví dụ:
+Bên dưới là danh sách các vấn đề được phát hiện, ví dụ:
 
-**Security Groups – Specific Ports Unrestricted**: Phát hiện Security Group mở port ra Internet (0.0.0.0/0) → có nguy cơ security
+**Security Groups – Specific Ports Unrestricted**: Phát hiện Security Group mở port ra Internet (0.0.0.0/0) → có nguy cơ bảo mật
 
-### Information mỗi vấn đề
+### Thông tin mỗi vấn đề
 
-Mỗi vấn đề includes:
+Mỗi vấn đề bao gồm:
 
 - Tên vấn đề
-- Thời gian dữ liệu is cập nhật mới nhất
+- Thời gian dữ liệu được cập nhật mới nhất
 - Nút refresh
-- Nút download: hỗ trợ xuất file excel thông tin rule & the resource vi phạm to report nội bộ
+- Nút download: hỗ trợ xuất file excel thông tin rule & các resource vi phạm để báo cáo nội bộ
 - Mô tả vấn đề
-- Số lượng resource is vi phạm cần kiểm tra
+- Số lượng resource đang vi phạm cần kiểm tra
 
-### Thao tác user
+### Thao tác người dùng
 
-Người dùng can:
+Người dùng có thể:
 
-- Chọn fromng item
-- Exclude (loại trừ) in trường hợp cố ý cấu hình or phục vụ mục đích đặc biệt (test, staging) to Rule không alert lại
+- Chọn từng item
+- Exclude (loại trừ) trong trường hợp cố ý cấu hình hoặc phục vụ mục đích đặc biệt (test, staging) để Rule không cảnh báo lại
 - Refresh lại kết quả

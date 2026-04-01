@@ -5,7 +5,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# 初期設定
+# Thiết lập ban đầu
 
 Nếu đây là lần đầu tiên bạn sử dụng, trước tiên hãy kiểm tra và hoàn thành các công việc sau:
 **Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal**

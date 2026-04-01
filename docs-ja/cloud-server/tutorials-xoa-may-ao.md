@@ -32,4 +32,3 @@ pagination_next: null
 3. システムが削除を実行してリソースを回収します。
 
    [![削除中の仮想マシン](/img/migrated/image-1712200803567-91c8fdd5.png)](/img/migrated/image-1712200803567-91c8fdd5.png)
-

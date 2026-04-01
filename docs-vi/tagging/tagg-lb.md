@@ -38,4 +38,3 @@ Gắn tag cho Load Balancer giúp bạn phân loại bộ cân bằng tải theo
 :::warning
 Khi xóa Load Balancer, hệ thống tự động gỡ các tag liên kết và cập nhật danh sách tag trên màn hình Tagging.
 :::
-

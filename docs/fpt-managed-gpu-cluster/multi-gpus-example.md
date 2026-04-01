@@ -7,27 +7,27 @@ sidebar_position: "22"
 
 # Chuẩn bị môi trường
 
-Bài hướng dẫn this trình bày theh **triển khai and phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **GPU trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM**. 
-Trong hướng dẫn this, you will:
-  * **Configure FKE** to tải weights Gemma from Hugging Face
+Bài hướng dẫn này trình bày cách **triển khai và phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **GPU trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM**. 
+Trong hướng dẫn này, bạn sẽ:
+  * **Cấu hình FKE** để tải weights Gemma từ Hugging Face
   * Triển khai mô hình LLM trên nhiều GPU
 
-Bài hướng dẫn this dành for the kỹ sư Machine Learning (ML), quản trị viên and người vận hành nền tảng, cũng như the chuyên gia về Data and AI, những người quan tâm to việc sử dụng khả năng điều phối container of Kubernetes to phục vụ the mô hình ngôn ngữ lớn (LLM). 
+Bài hướng dẫn này dành cho các kỹ sư Machine Learning (ML), quản trị viên và người vận hành nền tảng, cũng như các chuyên gia về Data và AI, những người quan tâm đến việc sử dụng khả năng điều phối container của Kubernetes để phục vụ các mô hình ngôn ngữ lớn (LLM). 
 ## Chuẩn bị môi trường
 ### Chuẩn bị cụm FKE GPU
   * Một cụm Kubernetes có GPU
-  * GPU Operator has been cài đặt
-  * NVIDIA driver and container toolkit
+  * GPU Operator đã cài đặt
+  * NVIDIA driver và container toolkit
   * Có quota storage
 
-Check node GPU:
+Kiểm tra node GPU:
 
 ```
 Copykubectl describe node 
 
 ```
 
-Node sẵn sàng if có tài nguyên GPU:
+Node sẵn sàng nếu có tài nguyên GPU:
 
 ```
 CopyCapacity:
@@ -42,7 +42,7 @@ Allocatable:
 ```
 
 ### Chuẩn bị token Hugging Face (optional)
-Lên trang chủ Huggingface, tạo token and tạo Secret trên k8s chứa token this: 
+Lên trang chủ Huggingface, tạo token và tạo Secret trên k8s chứa token này: 
 
 ```
 Copykubectl create secret generic hf-secret \
@@ -52,7 +52,7 @@ Copykubectl create secret generic hf-secret \
 ```
 
 ## Deploy vLLM
-Trong phần this, you triển khai container vLLM to phục vụ mô hình Gemma mà you muốn sử dụng. Để triển khai mô hình, bài hướng dẫn this sử dụng Kubernetes Deployment. Deployment là a đối tượng API of Kubernetes for phép you chạy nhiều bản sao (replica) of Pod and the Pod this is phân bổ trên the node in a cluster. 
+Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
 ### Deploy vLLM bằng Deployment
 
 ```
@@ -108,15 +108,15 @@ spec:
 
 ```
 
-Trong that: 
-  * nvidia.com/gpu: "2" : container of you will sử dụng 2 GPU trên node. 
-  * --tensor-parallel-size=2: sử dụng tesor parallelism to chạy model trên 2 node 
+Trong đó: 
+  * nvidia.com/gpu: "2" : container của bạn sẽ sử dụng 2 GPU trên node. 
+  * --tensor-parallel-size=2: sử dụng tesor parallelism để chạy model trên 2 node 
   * MODEL_ID: tên model trên Huggingface 
-  * HUGGING_FACE_HUB_TOKEN: token Huggingface you has been tạo. 
-  * Volume dshm: volume shared memory, quan trọng with the case distributed inferencing/training. 
+  * HUGGING_FACE_HUB_TOKEN: token Huggingface bạn đã tạo. 
+  * Volume dshm: volume shared memory, quan trọng với các case distributed inferencing/training. 
 
 ### Expose model
-Để expose model, hãy tạo a service trên k8s, if type of service là LoadBalancer thay vì ClusterIP, model can is truy cập from internet: 
+Để expose model, hãy tạo một service trên k8s, nếu type của service là LoadBalancer thay vì ClusterIP, model có thể được truy cập từ internet: 
 
 ```
 CopyapiVersion: v1
@@ -135,9 +135,9 @@ spec:
 ```
 
 ### Setup persistent storage (optional)
-Với cấu hình trên, model weight of model is lưu tại file system of container. Khi container restart, chúng ta cần tải lại bộ weight trên from đầu. 
-Để tránh tình trạng this, chúng ta can lưu sẵn model ando a volume, do that when container restart thì model vẫn còn and không must tải lại. 
-Create persistent volume claim: 
+Với cấu hình trên, model weight của model được lưu tại file system của container. Khi container restart, chúng ta cần tải lại bộ weight trên từ đầu. 
+Để tránh tình trạng này, chúng ta có thể lưu sẵn model vào một volume, do đó khi container restart thì model vẫn còn và không cần phải tải lại. 
+Tạo persistent volume claim: 
 
 ```
 CopyapiVersion: v1
@@ -154,20 +154,20 @@ spec:
 ```
 
 ## Serve model
-Tại phần this, chúng ta will thực hiện việc kiểm tra kết nối & gửi the request to model xử lý 
-###  Set up networking to truy cập model ngoài cụm 
-Nếu tại mục Expose model, you sử dụng service type loadbalancer, hãy sử dụng IP public of loadbalancer that. 
-Nếu you sử dụng service type CusterIP, hãy port forward service this: 
+Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+###  Set up networking để truy cập model ngoài cụm 
+Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
+Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 
 
 ```
 Copykubectl port-forward service/llm-service 8000:8000
 
 ```
 
-### Giao tiếp with model
-Phần this trình bày theh you can thực hiện a **bài kiểm tra********cơ bản** to xác minh the **mô hình Gemma 3******. Đối with the mô hình khác, hãy thay gemma-3-1b-it bằng tên of mô hình corresponding. 
-Ví dụ this minh họa theh kiểm tra **mô hình Gemma 3 1B** with **đầu ando chỉ gồm văn bản**. 
-Trong a phiên terminal mới, sử dụng curl to chat with mô hình of you. 
+### Giao tiếp với model
+Phần này trình bày cách bạn có thể thực hiện một **bài kiểm tra********cơ bản** để xác minh các **mô hình Gemma 3******. Đối với các mô hình khác, hãy thay gemma-3-1b-it bằng tên của mô hình tương ứng. 
+Ví dụ này minh họa cách kiểm tra **mô hình Gemma 3 1B** với **đầu vào chỉ gồm văn bản**. 
+Trong một phiên terminal mới, sử dụng curl để chat với mô hình của bạn. 
 
 ```
 Copycurl http://127.0.0.1:8000/v1/chat/completions \

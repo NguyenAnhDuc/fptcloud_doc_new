@@ -29,4 +29,3 @@ The system uses the **Virtio** disk bus for the Root volume by default. If the I
 :::note
 The SATA disk bus may reduce disk performance. Only use it when the ISO file is not compatible with Virtio.
 :::
-

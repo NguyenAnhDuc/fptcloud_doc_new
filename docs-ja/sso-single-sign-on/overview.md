@@ -5,9 +5,9 @@ sidebar_label: "Tổng quan"
 sidebar_position: "2"
 ---
 
-# Overview
+# Tổng quan
 
-#### **1. 概要:**
+#### **1. Tổng quan:**
   * SSO (Single Sign – on) là một cơ chế xác thực cho phép người dùng truy cập một cách an toàn vào nhiều ứng dụng, dịch vụ chỉ với sử dụng duy nhất một ID. Với SSO, người dùng sẽ có thể truy cập rất nhiều ứng dụng đồng thời mà không cần phải đăng nhập mỗi lúc. SSO được xây dựng trên ý tưởng được gọi là “danh tính liên kết” (federated identity). Nó cho phép chia sẻ thông tin định danh xuyên suốt các hệ thống đáng tin cậy nhưng độc lập.
 
 #### **2. Ưu điểm**

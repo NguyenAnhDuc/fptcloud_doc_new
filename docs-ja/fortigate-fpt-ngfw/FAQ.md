@@ -5,7 +5,7 @@ sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: "11"
 ---
 
-# Faq
+# Câu hỏi thường gặp
 
 ## Fortigate là gì?
 FortiGate hay Firewall Fortinet là các thiết bị bảo mật đa lớp thế hệ tiếp theo dưới dạng tường lửa của Fortinet. Fortigate được tích hợp các tính năng hàng đầu để cung cấp một giải pháp toàn diện trong việc bảo mật thông tin cũng như là bảo vệ hệ thống mạng nội bộ tại các doanh nghiệp hay tổ chức với mọi quy mô.  

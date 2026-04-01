@@ -7,17 +7,17 @@ sidebar_position: "11"
 
 # Hướng dẫn cấu hình Auto Scale sử dụng GPU Custom Metric
 
-Kubernetes hỗ trợ tự động auto scale dựa trên the custom metrics như GPU metrics bằng theh kết hợp with Prometheus. Bài viết this giới thiệu theh to cấu hình Auto Scale for the ứng dụng sử dụng GPU chạy trên nền tảng FPT Kubernetes Engine.
+Kubernetes hỗ trợ tự động auto scale dựa trên các custom metrics như GPU metrics bằng cách kết hợp với Prometheus. Bài viết này giới thiệu cách để cấu hình Auto Scale cho các ứng dụng sử dụng GPU chạy trên nền tảng FPT Kubernetes Engine.
 [![](/img/migrated/Picture5-1-b79630d5.png)](/img/migrated/Picture5-1-b79630d5.png)
-## Requirements:
+## Yêu cầu:
   * Cụm Kubernetes có gắn GPU
-  * Ứng dụng sử dụng GPU is ở status running
+  * Ứng dụng sử dụng GPU đang ở trạng thái running
 
 ## Các bước cấu hình:
-### Step 1: Cài đặt the gói kube-prometheus-stack and prometheus-adapter
-  * Sử dụng service FPT App Catalog 
-    * Sử dụng service FPT App Catalog, tạo App Catalog sau that chọn mục Connect Cluster to connect to Cluster GPU.
-    * Tại Menu App Catalogs, chọn Repositories là **_fptcloud-catalogs_** , phần search bấm **_prometheus_** sau that chọn install gói **kube-prometheus-stack,** điền Release name and Namespace to triển khai gói.
+### Bước 1: Cài đặt các gói kube-prometheus-stack và prometheus-adapter
+  * Sử dụng dịch vụ FPT App Catalog 
+    * Sử dụng dịch vụ FPT App Catalog, tạo App Catalog sau đó chọn mục Connect Cluster để connect đến Cluster GPU.
+    * Tại Menu App Catalogs, chọn Repositories là **_fptcloud-catalogs_** , phần search bấm **_prometheus_** sau đó chọn install gói **kube-prometheus-stack,** điền Release name và Namespace để triển khai gói.
 
 [![](/img/migrated/anh2-8f185491.png)](/img/migrated/anh2-8f185491.png)
   * Sử dụng helm chart:
@@ -34,7 +34,7 @@ helm install --wait --generate-name \
     --set prometheus.url=http://${prometheus_service}.prometheus.svc.cluster.local
 ```
 
-  * Sau when deploy xong gói kube-prometheus-stack, ta tiếp tục deploy prometheus- adapter, tuy nhiên ta cần thay đổi values of gói to trỏ đúng prometheus service of kube-prometheus-stack. Ví dụ with namespace of kube-prometheus-stack ta đặt là prometheus thì values ta cần điền ando là:
+  * Sau khi deploy xong gói kube-prometheus-stack, ta tiếp tục deploy prometheus- adapter, tuy nhiên ta cần thay đổi values của gói để trỏ đúng prometheus service của kube-prometheus-stack. Ví dụ với namespace của kube-prometheus-stack ta đặt là prometheus thì values ta cần điền vào là:
 
 ```
 Copy<>.<>.svc.cluster.local
@@ -42,12 +42,12 @@ prometheus-kube-prometheus-prometheus.prometheus.svc.cluster.local
 ```
 
 [![](/img/migrated/anh3-5de9f5ca.png)](/img/migrated/anh3-5de9f5ca.png)
-  * Sau that ta kiểm tra status of hai gói trên
+  * Sau đó ta kiểm tra trạng thái của hai gói trên
 
 [![](/img/migrated/anh4-28b01e4f.png)](/img/migrated/anh4-28b01e4f.png)
-### Step 2: Configure Horizontal Pod Autoscaler for ứng dụng GPU
-Horizontal Pod Autoscaler (HPA) tự động scale the Pod to đáp ứng điều kiện is đưa ra in cấu hình. Ở phần trên when cấu hình xong prometheus-addapter will export ra the Custom Metric of DCGM to theo dõi workload of GPU.
-Ví dụ a file manifest HPA
+### Bước 2: Cấu hình Horizontal Pod Autoscaler cho ứng dụng GPU
+Horizontal Pod Autoscaler (HPA) tự động scale các Pod để đáp ứng điều kiện được đưa ra trong cấu hình. Ở phần trên khi cấu hình xong prometheus-addapter sẽ export ra các Custom Metric của DCGM để theo dõi workload của GPU.
+Ví dụ một file manifest HPA
 
 ```
 CopyapiVersion: autoscaling/v2
@@ -71,8 +71,8 @@ spec:
        averageValue: 0.8
 ```
 
-Tham khảo thêm tài liệu of NVIDA về the DCGM metric [link](https://docs.nvidia.com/datacenter/dcgm/1.6/dcgm-api/group__dcgmFieldIdentifiers.html)
-Sau that kiểm tra HPA vừa khởi tạo:
+Tham khảo thêm tài liệu của NVIDA về các DCGM metric [link](https://docs.nvidia.com/datacenter/dcgm/1.6/dcgm-api/group__dcgmFieldIdentifiers.html)
+Sau đó kiểm tra HPA vừa khởi tạo:
 
 ```
 Copykubectl get hpa -A

@@ -8,8 +8,8 @@ sidebar_position: "4"
 # Xem Thong tin Event Gateway
 
 Để xem thông tin **Event Gateway** , người dùng thực hiện các bước sau: 
-**ステップ1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**ステップ2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** cần xem thông tin 
+**Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
+**Bước 2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** cần xem thông tin 
   * Tab **Essential Information**
 Hiển thị thông tin cơ bản của Event Gateway: **Basic information, Launch Configuration,** **Kafka cluster, Endpoint**
 [![Hình ảnh](/img/migrated/image10-60575f21.png)](/img/migrated/image10-60575f21.png)

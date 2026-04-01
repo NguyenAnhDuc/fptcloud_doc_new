@@ -5,40 +5,40 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# Initial setup
+# Thiết lập ban đầu
 
-Nếu đây là lần đầu tiên you sử dụng MANAGED GPU CLUSTER, trước tiên hãy kiểm tra and hoàn thành the công việc sau: 
-### 1. Create account FPT Cloud and đăng nhập ando FPT Portal
-Để đăng ký account FPT Cloud, you hãy truy cập trang chủ [here](https://fptcloud.com/).
-Sau that chọn chức năng **Sign Up** and nhập the thông tin theo hướng dẫn of hệ thống. Bạn will is bộ phận hỗ trợ liên hệ ngay sau that and xác nhận the thông tin to tạo account.
-Để đăng nhập ando FPT Portal, you hãy truy cập ando [console.fptcloud.com](https://console.fptcloud.com/).
-Sau when đăng nhập bằng account and password has been is cấp, chọn đúng Tenant, Region, VPC.
-Nếu không chắc chắn về the thông tin trên or hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay for đội ngũ Support of chúng tôi to is hỗ trợ.
-**Save ý** : Tài khoản phải có xác thực 2 bước (MFA) to can sử dụng sản phẩm AI Factory
-### 2. Create Subnets for Bare Metal GPU Servers sử dụng in Managed GPU Cluster
-Để tạo a Managed GPU Cluster, trước tiên you cần có a dải subnet trên Bare Metal GPU Servers, những máy tính this will có nhiệm vụ như là the Worker node in K8s Cluster. Địa chỉ IPv4 for the Worker Bare Metal GPU will is cấp phát động from subnet this. 
-**Step 1:** Tìm to mục [AI Infrastructure] > chọn [Subnets] > chọn [Create Subnet] 
+Nếu đây là lần đầu tiên bạn sử dụng MANAGED GPU CLUSTER, trước tiên hãy kiểm tra và hoàn thành các công việc sau: 
+### 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+Để đăng ký tài khoản FPT Cloud, bạn hãy truy cập trang chủ [tại đây](https://fptcloud.com/).
+Sau đó chọn chức năng **Sign Up** và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
+Để đăng nhập vào FPT Portal, bạn hãy truy cập vào [console.fptcloud.com](https://console.fptcloud.com/).
+Sau khi đăng nhập bằng tài khoản và mật khẩu đã được cấp, chọn đúng Tenant, Region, VPC.
+Nếu không chắc chắn về các thông tin trên hoặc hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+**Lưu ý** : Tài khoản phải có xác thực 2 bước (MFA) để có thể sử dụng sản phẩm AI Factory
+### 2. Tạo Subnets cho Bare Metal GPU Servers sử dụng trong Managed GPU Cluster
+Để tạo một Managed GPU Cluster, trước tiên bạn cần có một dải subnet trên Bare Metal GPU Servers, những máy tính này sẽ có nhiệm vụ như là các Worker node trong K8s Cluster. Địa chỉ IPv4 cho các Worker Bare Metal GPU sẽ được cấp phát động từ subnet này. 
+**Bước 1:** Tìm đến mục [AI Infrastructure] > chọn [Subnets] > chọn [Create Subnet] 
 [![](/img/migrated/1-1-4f1767cc.png)](/img/migrated/1-1-4f1767cc.png)
-**Step 2** : Enter tên mong muốn đặt for subnet 
+**Bước 2** : Nhập tên mong muốn đặt cho subnet 
 [![](/img/migrated/2-1-e7e458f5.png)](/img/migrated/2-1-e7e458f5.png)
-**Step 3:** Enter tên for Network ACL ứng with subnet
-**Step 4** : Nhấn [Create Subnet] to hoàn tất quá trình tạo subnet for Bare Metal GPU 
-**Save ý** : Network ACL is tạo mặc định for subnet will chặn tất cả the lưu lượng ando (inbound) and for phép tất cả lưu lượng ra (outbound). Để sử dụng Load Balancer for Managed GPU Cluster, you cần mở the Rule phù hợp for dải subnet Load Balancer to for phép kết nối. 
-### 3. Create Subnets for Load Balancer
-Managed GPU Cluster Cluster chỉ hoạt động with Subnets has been bật tùy chọn Static Pool, vì vậy you cần tạo a Subnets with Static Pool theo hướng dẫn sau: 
-**Step 1:** Ở phần **Network** chọn tab **Subnets**
+**Bước 3:** Nhập tên cho Network ACL ứng với subnet
+**Bước 4** : Nhấn [Create Subnet] để hoàn tất quá trình tạo subnet cho Bare Metal GPU 
+**Lưu ý** : Network ACL được tạo mặc định cho subnet sẽ chặn tất cả các lưu lượng vào (inbound) và cho phép tất cả lưu lượng ra (outbound). Để sử dụng Load Balancer cho Managed GPU Cluster, bạn cần mở các Rule phù hợp cho dải subnet Load Balancer để cho phép kết nối. 
+### 3. Tạo Subnets cho Load Balancer
+Managed GPU Cluster Cluster chỉ hoạt động với Subnets đã bật tùy chọn Static Pool, vì vậy bạn cần tạo một Subnets với Static Pool theo hướng dẫn sau: 
+**Bước 1:** Ở phần **Network** chọn tab **Subnets**
 [![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.35.34-7d3142bd.png)](/img/migrated/Screenshot-2025-01-10-at-10.35.34-7d3142bd.png)
-**Step 2** : Select **Create Subnet** ở trang **Subnets Management**
-[![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png)](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png) **Step 3:** Nhập các thông tin sau:
-  * **Name:** Enter Tên gợi nhớ of Subnet
-  * **CIDR:** Enter **CIDR** hợp lệ
-  * Tích chọn ando tùy chọn **Advanced settings**
-  * **Static IP Pool:** Enter 1 dải IP hợp lệ is lấy from CIDR.
+**Bước 2** : Chọn **Create Subnet** ở trang **Subnets Management**
+[![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png)](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png) **Bước 3:** Nhập các thông tin sau:
+  * **Name:** Nhập Tên gợi nhớ của Subnet
+  * **CIDR:** Nhập **CIDR** hợp lệ
+  * Tích chọn vào tùy chọn **Advanced settings**
+  * **Static IP Pool:** Nhập 1 dải IP hợp lệ được lấy từ CIDR.
 
-Select **Save** to tạo Subnet mới. System will tiến hành xử lý and notification kết quả.
+Chọn **Save** để tạo Subnet mới. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
 [![Userguide K8s 3](/img/migrated/Initial-setup-3-9bccff9a.png)](/img/migrated/Initial-setup-3-9bccff9a.png)
-### 3. Requirements kích hoạt service Managed GPU Cluster and cấp quota tài nguyên
-Nếu đây là lần đầu tiên sử dụng FPT Cloud, a số service can chưa is mở for account of you. Hãy liên hệ with đội ngũ hỗ trợ of chúng tôi and cung cấp the thông tin về service, cấu hình mong muốn. Chúng tôi will cấp for you the tài nguyên cần thiết như RAM, CPU, Storage, Public IP… to can bắt đầu sử dụng service Managed GPU Cluster. 
-Liên hệ with đội ngũ hỗ trợ of chúng tôi qua: 
+### 3. Yêu cầu kích hoạt dịch vụ Managed GPU Cluster và cấp quota tài nguyên
+Nếu đây là lần đầu tiên sử dụng FPT Cloud, một số dịch vụ có thể chưa được mở cho tài khoản của bạn. Hãy liên hệ với đội ngũ hỗ trợ của chúng tôi và cung cấp các thông tin về dịch vụ, cấu hình mong muốn. Chúng tôi sẽ cấp cho bạn các tài nguyên cần thiết như RAM, CPU, Storage, Public IP… để có thể bắt đầu sử dụng dịch vụ Managed GPU Cluster. 
+Liên hệ với đội ngũ hỗ trợ của chúng tôi qua: 
 **Hotline** : 1900638399 
 **Email** : support@fptcloud.com

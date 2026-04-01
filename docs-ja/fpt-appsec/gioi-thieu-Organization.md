@@ -8,9 +8,9 @@ sidebar_position: "9"
 # Organization Management - Quản lý Organization
 
 Để bắt đầu sử dụng tính năng quản lý organization, bạn có thể thực hiện các thao tác sau:
-**ステップ1:** Trên Menu của **FPT Portal** chọn **Security Platform** , sau đó chọn **DevSec**
+**Bước 1** : Trên Menu của **FPT Portal** chọn **Security Platform** , sau đó chọn **DevSec**
 [![anhfsec](/img/migrated/o1-9874c5f2.png)](/img/migrated/o1-9874c5f2.png)
-**ステップ2:** Trên sub-tab sẽ hiện ra các phần **Workspace** , **Integration** , **Organization** và **Team** như ảnh dưới
+**Bước 2** : Trên sub-tab sẽ hiện ra các phần **Workspace** , **Integration** , **Organization** và **Team** như ảnh dưới
 Trong đó:
   * **Workspace** : Cung cấp hệ thống quản lý không gian làm việc tập trung, giúp bạn theo dõi toàn bộ vòng đời phát triển dự án và kiểm soát trạng thái bảo mật của từng dự án.
   * **Integration** : Giúp bạn có thể kết nối liền mạch với các hệ thống quản lý mã nguồn (SCM), đảm bảo tính liên tục và bảo mật trong quá trình phát triển phần mềm.

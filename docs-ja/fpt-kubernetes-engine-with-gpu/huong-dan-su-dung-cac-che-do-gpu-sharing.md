@@ -38,7 +38,7 @@ GPU k8s service của chúng tôi hỗ trợ các MIG profile như sau:
 | 4  | all-balanced  | mixed  | 2  
 1  | 1g.6gb  
 2g.12gb  |  
-_例:_ Nếu chọn cấu hình strategy single: all-1g.6gb, card GPU A30 trên worker được chia nhỏ thành 4 MIG-devices có tài nguyên GPU bằng ¼ GPU vật lý và 6GB GPU RAM.
+_Ví dụ:_ Nếu chọn cấu hình strategy single: all-1g.6gb, card GPU A30 trên worker được chia nhỏ thành 4 MIG-devices có tài nguyên GPU bằng ¼ GPU vật lý và 6GB GPU RAM.
 _Chú ý:_
 ✔ MIG config áp dụng cho tất cả các card gắn trên worker. 
 ✔ MIG strategy trên các worker group của cùng cluster phải cùng 1 loại (single/mixed/none). 

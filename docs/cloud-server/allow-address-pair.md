@@ -20,4 +20,3 @@ A single NIC can have multiple Address Pairs configured. A single Address Pair c
 1. On the **Instance Detail** page, open the **Network Interface** tab.
 2. Select the NIC you want to configure and click **Allow Address Pair**.
 3. Enter the IP/CIDR and MAC address, then click **Save**.
-

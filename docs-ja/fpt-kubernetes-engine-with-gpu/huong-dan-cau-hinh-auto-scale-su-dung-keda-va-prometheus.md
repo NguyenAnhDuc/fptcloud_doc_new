@@ -15,7 +15,7 @@ sidebar_position: "12"
 [Hướng dẫn cấu hình Auto Scale cho FPT Kubernetes Engine GPU sử dụng GPU Custom Metric](https://www.notion.so/H-ng-d-n-c-u-h-nh-Auto-Scale-cho-FPT-Kubernetes-Engine-GPU-s-d-ng-GPU-Custom-Metric-d7a7d2d5a4bc495d8468b7ae169fbf1e?pvs=21)
 
 ## Các bước cấu hình:
-### ステップ1: Cài đặt KEDA
+### Bước 1: Cài đặt KEDA
   * Cách 1: Sử dụng FPT App Catalog
 Chọn dịch vụ FPT Cloud App Catalog sau đó tìm kiếm KEDA trong Repository fptcloud-catalogs
   * Cách 2: Sử dụng helm chart
@@ -54,7 +54,7 @@ replicaset.apps/keda-operator-567cb596fd                     1         1        
 replicaset.apps/keda-operator-metrics-apiserver-6475bf5fff   1         1         1       3d2h
 ```
 
-ステップ2: Kiểm tra prometheus đã có các metric GPU hay chưa
+Bước 2: Kiểm tra prometheus đã có các metric GPU hay chưa
 
 ```
 Copykubectl get --raw /apis/custom.metrics.k8s.io/v1beta1 | jq -r . | grep DCGM
@@ -108,7 +108,7 @@ Copy"name": "namespaces/DCGM_FI_DEV_POWER_USAGE",
 "name": "jobs.batch/DCGM_FI_PROF_DRAM_ACTIVE",
 ```
 
-### ステップ3: Tạo ScaledObject để chỉ định autoscale cho Ứng dụng
+### Bước 3: Tạo ScaledObject để chỉ định autoscale cho Ứng dụng
   * Manifest
 
 ```

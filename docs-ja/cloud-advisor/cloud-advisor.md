@@ -5,7 +5,7 @@ sidebar_label: "Giới thiệu Cloud Advisor"
 sidebar_position: "2"
 ---
 
-# 紹介
+# Giới thiệu Cloud Advisor
 
 FPT Cloud Advisor là công cụ giúp khách hàng:
 

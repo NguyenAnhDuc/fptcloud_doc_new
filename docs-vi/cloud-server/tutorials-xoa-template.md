@@ -22,4 +22,3 @@ Template đã xóa không thể khôi phục.
    [![Menu Actions với tùy chọn Delete custom image](/img/migrated/image-1719539882859-4f7b095b.png)](/img/migrated/image-1719539882859-4f7b095b.png)
 
 2. Xác nhận xóa trong hộp thoại.
-

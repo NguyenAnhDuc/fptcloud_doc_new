@@ -20,4 +20,3 @@ pagination_next: null
 1. **Instance Detail** ページで **Network Interface** タブを開きます。
 2. 設定したいNICを選択し、**Allow Address Pair** をクリックします。
 3. IP/CIDRとMACアドレスを入力し、**Save** をクリックします。
-

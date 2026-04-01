@@ -43,4 +43,3 @@ Update the network configuration file when you:
 :::tip
 After updating the network configuration, verify connectivity by pinging the gateway or an external address.
 :::
-

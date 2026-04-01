@@ -5,4 +5,3 @@ description: "Đổi card NIC thường thành card Primary."
 sidebar_label: "Chuyển card thường thành card Primary"
 sidebar_position: 61
 ---
-

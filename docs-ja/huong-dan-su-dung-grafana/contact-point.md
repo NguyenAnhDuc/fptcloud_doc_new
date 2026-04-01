@@ -46,29 +46,29 @@ Chat ID là dãy số nằm sau ký tự #, ví dụ: -4266674385.
 
 Để tạo tích hợp Telegram trong Grafana Alerting, thực hiện các bước sau:
 
-**ステップ 1:** Truy cập Alerts → Alerting → Contact points.
+**Bước 1:** Truy cập Alerts → Alerting → Contact points.
 
 [![Alt text](/img/migrated/Screenshot_43-308c5dfa.png)](/img/migrated/Screenshot_43-308c5dfa.png)
 
-**ステップ 2:** Nhấn + Add contact point.
+**Bước 2:** Nhấn + Add contact point.
 
 [![Alt text](/img/migrated/Screenshot_44-c0aae8f0.png)](/img/migrated/Screenshot_44-c0aae8f0.png)
 
-**ステップ 3:** Nhập tên contact point.
+**Bước 3:** Nhập tên contact point.
 
-**ステップ 4:** Trong danh sách Integration, chọn Telegram.
+**Bước 4:** Trong danh sách Integration, chọn Telegram.
 
 - Tại trường BOT API Token, dán bot API token.
 - Tại trường Chat ID, dán chat ID.
 - Nhấn Test để kiểm tra tích hợp hoạt động đúng.
 
-**ステップ 5:** Nhấn Save contact point.
+**Bước 5:** Nhấn Save contact point.
 
 Lúc này, Contact point Telegram đã sẵn sàng để nhận thông báo alert.
 
 [![Alt text](/img/migrated/Screenshot_45-d7a0f258.png)](/img/migrated/Screenshot_45-d7a0f258.png)
 
-**ステップ 6:** Để gán contact point này cho alert, thực hiện các bước sau:
+**Bước 6:** Để gán contact point này cho alert, thực hiện các bước sau:
 
 - Trong Grafana, truy cập Alerting → Alert rules.
 - Chỉnh sửa alert rule hiện có hoặc tạo alert rule mới.

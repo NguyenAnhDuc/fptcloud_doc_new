@@ -5,32 +5,32 @@ sidebar_label: "Khởi tạo Profile"
 sidebar_position: "3"
 ---
 
-# Update apt database on first boot (run 'apt-get update').
+# Khởi tạo Profile
 
-##  **Step 1** : Truy cập trang **Autoscaling > Autoscale Profile**. Select **Create profile**.
+##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Profile**. Chọn **Create profile**.
 [![create profile button](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)
-##  **Step 2** : Configure the thông số kỹ thuật.
+##  **Bước 2** : Cấu hình các thông số kỹ thuật.
 [![create profile page](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)
 **General Information**
-Nhập tên profile sao for dễ quản lý nhất. Tên không vượt quá 80 kí tự, includes the kí tự chữ cái latin, số, dấu gạch dưới, dấu gạch nối and dấu chấm.
+Nhập tên profile sao cho dễ quản lý nhất. Tên không vượt quá 80 kí tự, bao gồm các kí tự chữ cái latin, số, dấu gạch dưới, dấu gạch nối và dấu chấm.
 **Image**
-Hiện tại, the OS Families is cung cấp sẵn includes: Ubuntu, Windows, CentOS, Debian. Mỗi nhóm OS will gồm nhiều bản phân phối khác nhau.
-Đặc biệt, nhóm Custom là nhóm thường is ưu tiên sử dụng, gồm the images has been is chính user tùy biến and cấu hình ứng dụng phù hợp with nhu cầu sử dụng. Images thuộc nhóm this can có is bằng theh:
+Hiện tại, các OS Families được cung cấp sẵn bao gồm: Ubuntu, Windows, CentOS, Debian. Mỗi nhóm OS sẽ gồm nhiều bản phân phối khác nhau.
+Đặc biệt, nhóm Custom là nhóm thường được ưu tiên sử dụng, gồm các images đã được chính người dùng tùy biến và cấu hình ứng dụng phù hợp với nhu cầu sử dụng. Images thuộc nhóm này có thể có được bằng cách:
 **Credentials**
-Các hình thức xác thực is hỗ trợ gồm:
+Các hình thức xác thực được hỗ trợ gồm:
   * Password.
-  * None: Nếu không có nhu cầu truy cập and xác thực can chọn _None_ to không áp dụng bất kỳ hình thức nào.
+  * None: Nếu không có nhu cầu truy cập và xác thực có thể chọn _None_ để không áp dụng bất kỳ hình thức nào.
 
-Nếu image is chọn thuộc nhóm Custom, điều this is ngầm hiểu rằng phương thức xác thực has been is cấu hình sẵn in image and không có thay đổi gì thêm.
+Nếu image được chọn thuộc nhóm Custom, điều này được ngầm hiểu rằng phương thức xác thực đã được cấu hình sẵn trong image và không có thay đổi gì thêm.
 **Resource**
-CPU & RAM: Lựa chọn thông số phù hợp with nhu cầu sử dụng dựa trên the mẫu has been is cung cấp.
-Storage: Chọn loại ổ đĩa and dung lượng phù hợp với nhu cầu. Mặc định sẽ là Premium-SSD and tối thiểu 40 GB. 
-**Save ý** : Dung lượng tối thiểu cụ thể will is đề xuất phù hợp with thông số of image is chọn, việc giảm dung lượng disk xuống dưới mức yêu cầu of image can dẫn to lỗi không mong muốn.
+CPU & RAM: Lựa chọn thông số phù hợp với nhu cầu sử dụng dựa trên các mẫu đã được cung cấp.
+Storage: Chọn loại ổ đĩa và dung lượng phù hợp với nhu cầu. Mặc định sẽ là Premium-SSD và tối thiểu 40 GB. 
+**Lưu ý** : Dung lượng tối thiểu cụ thể sẽ được đề xuất phù hợp với thông số của image được chọn, việc giảm dung lượng ổ đĩa xuống dưới mức yêu cầu của image có thể dẫn đến lỗi không mong muốn.
 **Network**
-Lựa chọn subnet and security group phù hợp in VPC. Subnet and security group cần is khởi tạo sẵn, if chưa có hãy tạo mới:
+Lựa chọn subnet và security group phù hợp trong VPC. Subnet và security group cần được khởi tạo sẵn, nếu chưa có hãy tạo mới:
 **Advanced setting**
-Enter đoạn mã [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html "Cloud config examples") if có. Khi a node khởi động, cloud-init will đọc the metadata is cung cấp from cloud, and khởi tạo hệ thống dựa trên chúng. Cloud-init thường is dùng with mục đích setup network, storage, SSH public keys, and nhiều phần khác of hệ thống.
-Example: Với đoạn script mẫu this, the node in group will cài đặt the gói cần thiết, sau that clone a static website from github and khởi động server nginx. Để xem kết quả, user can thực hiện allocate Floating IP for node and thực hiện truy cập ando website thông qua Floating IP that.
+Nhập đoạn mã [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html "Cloud config examples") nếu có. Khi một node khởi động, cloud-init sẽ đọc các metadata được cung cấp từ cloud, và khởi tạo hệ thống dựa trên chúng. Cloud-init thường được dùng với mục đích setup network, storage, SSH public keys, và nhiều phần khác của hệ thống.
+Ví dụ: Với đoạn script mẫu này, các node trong group sẽ cài đặt các gói cần thiết, sau đó clone một static website từ github và khởi động máy chủ nginx. Để xem kết quả, người dùng có thể thực hiện allocate Floating IP cho node và thực hiện truy cập vào website thông qua Floating IP đó.
 
 ```
 Copy
@@ -62,12 +62,12 @@ runcmd:
 - rm -r ./static-website-example
 ```
 
-**Save ý** : Tránh sử dụng the thông tin có yếu tố nhạy cảm in script như: password, token, secret key, thông tin cá nhân, ...
-##  **Step 3** : Select **Create profile** to xác nhận.
-Sau when tạo successfully, profile will displayed trên danh sách the profiles hiện có.
+**Lưu ý** : Tránh sử dụng các thông tin có yếu tố nhạy cảm trong script như: password, token, secret key, thông tin cá nhân, ...
+##  **Bước 3** : Chọn **Create profile** để xác nhận.
+Sau khi tạo thành công, profile sẽ hiển thị trên danh sách các profiles hiện có.
 [![list profiles after create](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)
-Có thể xem lại thông tin chi tiết of profile bằng theh click ando tên profile corresponding trên danh sách:
+Có thể xem lại thông tin chi tiết của profile bằng cách click vào tên profile tương ứng trên danh sách:
 [![click to view profile details](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)
 [![profile detail page](/img/migrated/screencapture-console-fptcloud-000823-IN-5d746d0a.png)](/img/migrated/screencapture-console-fptcloud-000823-IN-5d746d0a.png)
-## Save ý
-Hiện chưa hỗ trợ thay đổi the thông số kỹ thuật for profile, điều this nhằm đảm bảo tính nhất quán for việc tham chiếu cấu hình. Tuy nhiên, can thay đổi tên khác for profile.
+## Lưu ý
+Hiện chưa hỗ trợ thay đổi các thông số kỹ thuật cho profile, điều này nhằm đảm bảo tính nhất quán cho việc tham chiếu cấu hình. Tuy nhiên, có thể thay đổi tên khác cho profile.

@@ -7,11 +7,11 @@ sidebar_position: "4"
 
 # Network Interface
 
-**ステップ1:** Trên menu **Network Management** > chọn **Network Interfaces** > chọn **Add**.  
+**Bước 1:** Trên menu **Network Management** > chọn **Network Interfaces** > chọn **Add**.  
 [![Userguide Checkpoint FPT NGFW 2022 4](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-4-102-be6940bd.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-4-102-be6940bd.png)  
-**ステップ2:** Chọn loại Interface cần tạo.  
+**Bước 2:** Chọn loại Interface cần tạo.  
 [![Userguide Checkpoint FPT NGFW 2022 5](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-5-102-126ffaea.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-5-102-126ffaea.png)  
-**ステップ3:** Cấu hình Interface theo thông tin quy hoạch
+**Bước 3:** Cấu hình Interface theo thông tin quy hoạch
   * **Alias Interface:**[![Userguide Checkpoint FPT NGFW 2022 6](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-6-a8e211b4.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-6-a8e211b4.png)
   * **VLAN Interface:**[![Userguide Checkpoint FPT NGFW 2022 7](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-7-4c25fcc3.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-7-4c25fcc3.png)
   * **VXLAN Interface:**[![Userguide Checkpoint FPT NGFW 2022 8](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-8-ad10b6e7.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-8-ad10b6e7.png)
@@ -23,13 +23,13 @@ sidebar_position: "4"
   * **PPPoE Interface:**[![Userguide Checkpoint FPT NGFW 2022 14](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-14-dc0e51ef.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-14-dc0e51ef.png)
   * **GRE Interface:**[![Userguide Checkpoint FPT NGFW 2022 15](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-15-bc9a2658.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-15-bc9a2658.png)
 
-**ステップ1:** Trên menu **Network Management** > chọn **Network Interfaces.**
+**Bước 1:** Trên menu **Network Management** > chọn **Network Interfaces.**
 [![Userguide Checkpoint FPT NGFW 2022 16](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-16-10-4b291940.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-16-10-4b291940.png)
-**ステップ2:** Ở Interface muốn sửa > chọn **Edit**.
+**Bước 2:** Ở Interface muốn sửa > chọn **Edit**.
 [![Userguide Checkpoint FPT NGFW 2022 17](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-17-10-045e6418.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-17-10-045e6418.png)
-**ステップ3:** Nhập các thông tin mới > chọn **OK** để lưu.
+**Bước 3:** Nhập các thông tin mới > chọn **OK** để lưu.
 [![Userguide Checkpoint FPT NGFW 2022 18](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-18-ef3fe88e.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-18-ef3fe88e.png)
-**ステップ1:** Trên menu **Network Management** > chọn **Network Interfaces**.  
+**Bước 1:** Trên menu **Network Management** > chọn **Network Interfaces**.  
 [![Userguide Checkpoint FPT NGFW 2022 19](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-19-10-c658f9ed.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-19-10-c658f9ed.png)  
-**ステップ2:** Ở Interface muốn xóa > chọn **Delete** > chọn **OK** để xác nhận xóa Interface.  
+**Bước 2:** Ở Interface muốn xóa > chọn **Delete** > chọn **OK** để xác nhận xóa Interface.  
 [![Userguide Checkpoint FPT NGFW 2022 20](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-20-10-fd95d46b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-20-10-fd95d46b.png)

@@ -8,7 +8,7 @@ sidebar_position: "7"
 # Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng.
 
 * Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng. 
-  * Click biểu tượng phía góc trái fromng bảng to mở rộng (or thatng) bảng IP of fromng endpoint. 
-  * Click the biểu tượng cạnh endpoint to đi tới Grafana dashboard, or copy endpoint URL ando clipboard. 
-  * List IP/dải IP hỗ trợ phân trang, tìm kiếm theo IP/dải IP, and lọc theo status whitelist. 
-  * Click biểu tượng cạnh IP/dải IP to copy IP/dải IP ando clipboard.
+  * Click biểu tượng phía góc trái từng bảng để mở rộng (hoặc đóng) bảng IP của từng endpoint. 
+  * Click các biểu tượng cạnh endpoint để đi tới Grafana dashboard, hoặc copy endpoint URL vào clipboard. 
+  * Danh sách IP/dải IP hỗ trợ phân trang, tìm kiếm theo IP/dải IP, và lọc theo trạng thái whitelist. 
+  * Click biểu tượng cạnh IP/dải IP để copy IP/dải IP vào clipboard.
