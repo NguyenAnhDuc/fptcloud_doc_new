@@ -531,7 +531,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Cân bằng tải',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'load-balancer/Initial Setup', label: 'Thiết lập ban đầu' },
