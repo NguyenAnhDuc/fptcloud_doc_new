@@ -1,12 +1,12 @@
 ---
 id: "notes-when-using-dfke"
-title: "Notes When Using Dfke"
+title: "Notes when using DFKE"
 description: "To ensure availability, enable HA Master Nodes for critical systems. Non-HA can be used for Dev and Testing systems."
-sidebar_label: "Notes When Using Dfke"
+sidebar_label: "Notes when using DFKE"
 sidebar_position: 24
 ---
 
-# Notes When Using Dfke
+# Notes when using DFKE
 
 ### 1. Enable HA Master Nodes:
 To ensure availability, enable HA Master Nodes for critical systems. Non-HA can be used for Dev and Testing systems.

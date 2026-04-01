@@ -1,12 +1,12 @@
 ---
 id: "change-nfs-server-configuration"
-title: "Change Nfs Server Configuration"
+title: "Change NFS server configuration"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Change Nfs Server Configuration"
+sidebar_label: "Change NFS server configuration"
 sidebar_position: 14
 ---
 
-# Change Nfs Server Configuration
+# Change NFS server configuration
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/38-b0b893d9.png)](/img/migrated/38-b0b893d9.png)

@@ -6,7 +6,7 @@ sidebar_label: "Chi tiết quá trình manual scale in của hệ thống:"
 sidebar_position: 21
 ---
 
-# Best Practice Manual Scaling
+# Hướng dẫn manual scaling
 
 ✨ D-FKE hỗ trợ manual scale in/scale out worker nodes, cho phép người dùng tăng/giảm số lượng worker theo nhu cầu thủ công. 
 ✨ Hướng dẫn manual scale in/scale out trên portal console: tham khảo user guide [tại đây](../dedicated-fpt-kubernetes-engine/index.md)

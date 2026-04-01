@@ -7,7 +7,7 @@ sidebar_position: 30
 pagination_next: null
 ---
 
-# Dfke Faqs
+# Câu hỏi thường gặp (FAQs)
 
 **D-FKE hỗ trợ ở các regions nào?**
 Hiện tại FPTCloud đang hỗ trợ 02 Regions là HAN (Hanoi) và SGN (Saigon/HCM). D-FKE hỗ trợ tương ứng ở cả 02 Regions trên.

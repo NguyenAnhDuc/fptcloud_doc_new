@@ -1,12 +1,12 @@
 ---
 id: "increase-storage-size-of-nfs-server"
-title: "Increase Storage Size Of Nfs Server"
+title: "Increase NFS server storage size"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Increase Storage Size Of..."
+sidebar_label: "Increase NFS storage size"
 sidebar_position: 16
 ---
 
-# Increase Storage Size Of Nfs Server
+# Increase NFS server storage size
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/46-efd3104e.png)](/img/migrated/46-efd3104e.png)

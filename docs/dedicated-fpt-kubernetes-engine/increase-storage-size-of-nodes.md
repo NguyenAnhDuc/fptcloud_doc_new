@@ -1,12 +1,12 @@
 ---
 id: "increase-storage-size-of-nodes"
-title: "Increase Storage Size Of Nodes"
+title: "Increase nodes storage size"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Increase Storage Size Of..."
+sidebar_label: "Increase nodes storage size"
 sidebar_position: 15
 ---
 
-# Increase Storage Size Of Nodes
+# Increase nodes storage size
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/42-b4f01515.png)](/img/migrated/42-b4f01515.png)

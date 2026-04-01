@@ -1,12 +1,12 @@
 ---
 id: "stop-k8s-cluster"
-title: "Stop K8S Cluster"
+title: "Stop a Kubernetes cluster"
 description: "You can stop a running Cluster following the instructions below:"
-sidebar_label: "Stop K8S Cluster"
+sidebar_label: "Stop a cluster"
 sidebar_position: 9
 ---
 
-# Stop K8S Cluster
+# Stop a Kubernetes cluster
 
 You can stop a running Cluster following the instructions below:
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.

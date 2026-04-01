@@ -1,12 +1,12 @@
 ---
 id: "scale-worker-nodes"
-title: "Scale Worker Nodes"
+title: "Scale worker nodes"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Scale Worker Nodes"
+sidebar_label: "Scale worker nodes"
 sidebar_position: 12
 ---
 
-# Scale Worker Nodes
+# Scale worker nodes
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/30-c073da78.png)](/img/migrated/30-c073da78.png)

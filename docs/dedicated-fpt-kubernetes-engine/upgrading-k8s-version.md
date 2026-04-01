@@ -1,12 +1,12 @@
 ---
 id: "upgrading-k8s-version"
-title: "Upgrading K8S Version"
+title: "Upgrade Kubernetes version"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Upgrading K8S Version"
+sidebar_label: "Upgrade Kubernetes version"
 sidebar_position: 17
 ---
 
-# Upgrading K8S Version
+# Upgrade Kubernetes version
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/50-8aa6c97f.png)](/img/migrated/50-8aa6c97f.png)

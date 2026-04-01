@@ -1,12 +1,12 @@
 ---
 id: "advanced-firewall"
-title: "Advanced Firewall"
+title: "Advanced firewall"
 description: "The **Kubernetes integrated Firewall** product is different from FPT Cloud's basic Kubernetes product by placing an **Ad"
-sidebar_label: "Advanced Firewall"
+sidebar_label: "Advanced firewall"
 sidebar_position: 22
 ---
 
-# Advanced Firewall
+# Advanced firewall
 
 ### 1. Overview of Kubernetes integrated Firewall
 The **Kubernetes integrated Firewall** product is different from FPT Cloud's basic Kubernetes product by placing an **Advanced Firewall** located in front of Tenant's Gateway. **Advanced Firewall** is responsible for protecting and configuring security rules (Allow, Drop) and NAT rules (DNAT, SNAT) for the Kubernetes cluster.

@@ -1,12 +1,12 @@
 ---
 id: "persistent-storage"
-title: "Persistent Storage"
+title: "Persistent storage"
 description: "FKE provides 02 types of Persistent Storage:"
-sidebar_label: "Persistent Storage"
+sidebar_label: "Persistent storage"
 sidebar_position: 20
 ---
 
-# Persistent Storage
+# Persistent storage
 
 FKE provides 02 types of Persistent Storage:
 ### A. Block Persistent Storage

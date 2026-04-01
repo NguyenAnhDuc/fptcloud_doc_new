@@ -1,12 +1,12 @@
 ---
 id: "changing-cluster-configuration"
-title: "Dedicated – FPT Kubernetes Engine"
+title: "Change cluster configuration"
 description: "All documents"
-sidebar_label: "Dedicated – FPT Kubernetes..."
+sidebar_label: "Change cluster configuration"
 sidebar_position: 11
 ---
 
-# Dedicated – FPT Kubernetes Engine
+# Change cluster configuration
 
 All documents
 FPT Security 

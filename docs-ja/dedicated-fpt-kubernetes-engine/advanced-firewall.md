@@ -8,7 +8,7 @@ sidebar_position: 24
 
 # DFKE Advanced Firewall
 
-## 1. Firewall 統合 Kubernetes 製品の概要
+## Firewall 統合 Kubernetes 製品の概要
 
 Firewall 統合 Kubernetes 製品は FPT Cloud の基本 Kubernetes 製品と異なり、Tenant の Gateway の前段に Advanced Firewall を 1 台配置します。Advanced Firewall は Kubernetes cluster のセキュリティルール（Allow、Drop）および NAT ルール（DNAT、SNAT）の保護と設定を担います。
 
@@ -20,7 +20,7 @@ Firewall 統合 Kubernetes 製品は FPT Cloud の基本 Kubernetes 製品と異
 
 [![file](/img/migrated/image-1691469857854-05b04fb7.png)](/img/migrated/image-1691469857854-05b04fb7.png)
 
-## 2. Advanced Firewall における Kubernetes cluster の必要ルール
+## Advanced Firewall における Kubernetes cluster の必要ルール
 
 Kubernetes node へのトラフィックフロー:
 [![file](/img/migrated/image-1691469894054-7f2f9cab.png)](/img/migrated/image-1691469894054-7f2f9cab.png)
@@ -39,7 +39,7 @@ Advanced Firewall 上の Kubernetes cluster 向け NAT ルール計画表:
 
 Gateway にも Firewall ルールと NAT ルールが存在し、Gateway から Firewall へのトラフィック接続を確保します。これらのデフォルトルールは自動的に作成されます。必要に応じてアプリケーション用のルールを作成してください（オプション）。
 
-## 3. Firewall 統合 Kubernetes cluster の作成
+## Firewall 統合 Kubernetes cluster の作成
 
 **要件:**
 - CPU、RAM、Storage、Instance クォータが希望する Kubernetes cluster 構成に十分であること。

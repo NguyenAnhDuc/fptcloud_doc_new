@@ -6,7 +6,7 @@ sidebar_label: "Backup and Restore Cluster"
 sidebar_position: 25
 ---
 
-# Backup And Restore Cluster
+# Backup và restore cluster
 
 Để backup k8s cluster, thực hiện backup master nodes sử dụng dịch vụ **Backup & Recovery**.
 **Bước 1** : Ở menu chọn **Backup & Recovery**, hệ thống sẽ hiển thị trang **Backup & Recovery**.

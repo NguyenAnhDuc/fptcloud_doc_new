@@ -1,7 +1,7 @@
 ---
 id: "dedicated-fpt-kubernetes-engine"
 title: "Dedicated – FPT Kubernetes Engine"
-description: "All documents"
+description: "Dedicated FPT Kubernetes Engine (DFKE) provides a fully managed, dedicated Kubernetes environment on FPT Cloud."
 sidebar_label: "Dedicated – FPT Kubernetes..."
 sidebar_position: 1
 ---

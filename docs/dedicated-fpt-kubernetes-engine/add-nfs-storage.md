@@ -1,13 +1,13 @@
 ---
 id: "add-nfs-storage"
-title: "Add Nfs Storage"
+title: "Add NFS storage"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Add Nfs Storage"
+sidebar_label: "Add NFS storage"
 sidebar_position: 18
 pagination_next: null
 ---
 
-# Add Nfs Storage
+# Add NFS storage
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/54-847e7eb1.png)](/img/migrated/54-847e7eb1.png)

@@ -1,12 +1,12 @@
 ---
 id: "backup-restore-cluster"
-title: "Backup Restore Cluster"
+title: "Backup and restore cluster"
 description: "To backup the Kubernetes cluster, perform a backup of master nodes using the **Backup & Recovery** service."
-sidebar_label: "Backup Restore Cluster"
+sidebar_label: "Backup and restore cluster"
 sidebar_position: 23
 ---
 
-# Backup Restore Cluster
+# Backup and restore cluster
 
 To backup the Kubernetes cluster, perform a backup of master nodes using the **Backup & Recovery** service.
 **Step 1** : In the FPT Cloud Portal menu, select **Backup & Recovery**and the system will display the **Backup & Recovery** page.

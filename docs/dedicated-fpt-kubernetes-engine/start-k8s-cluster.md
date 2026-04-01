@@ -1,13 +1,13 @@
 ---
 id: "start-k8s-cluster"
-title: "Start K8S Cluster"
+title: "Start a Kubernetes cluster"
 description: "For previously stopped Clusters, you can turn them back on following the instructions below:"
-sidebar_label: "Start K8S Cluster"
+sidebar_label: "Start a cluster"
 sidebar_position: 10
 pagination_next: null
 ---
 
-# Start K8S Cluster
+# Start a Kubernetes cluster
 
 For previously stopped Clusters, you can turn them back on following the instructions below:
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.

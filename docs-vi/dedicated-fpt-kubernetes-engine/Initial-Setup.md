@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Nếu đây là lần đầu tiên bạn sử dụng FPT Kubernetes Engine, hãy kiểm tra và hoàn thành các bước sau trước khi bắt đầu.
 
-## 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
 
 1. Truy cập trang chủ tại https://fptcloud.com/ và chọn **Sign Up**.
 2. Nhập các thông tin theo hướng dẫn của hệ thống.
@@ -22,7 +22,7 @@ Nếu đây là lần đầu tiên bạn sử dụng FPT Kubernetes Engine, hãy
 Nếu không chắc chắn về các thông tin trên hoặc hệ thống phản hồi lỗi sau 3 lần thử, hãy liên hệ đội ngũ hỗ trợ để được tư vấn.
 :::
 
-## 2. Tạo subnet với Static Pool
+## Tạo subnet với Static Pool
 
 Kubernetes cluster chỉ hoạt động với subnet đã bật tùy chọn Static Pool. Thực hiện các bước sau để tạo subnet:
 
@@ -38,6 +38,6 @@ Kubernetes cluster chỉ hoạt động với subnet đã bật tùy chọn Stat
 4. Chọn **Save** để tạo subnet mới.
 [![Userguide K8s 3](/img/migrated/Userguide-K8s-3-c5aca27b.png)](/img/migrated/Userguide-K8s-3-c5aca27b.png)
 
-## 3. Yêu cầu kích hoạt dịch vụ FKE và cấp quota tài nguyên
+## Yêu cầu kích hoạt dịch vụ FKE và cấp quota tài nguyên
 
 Nếu đây là lần đầu sử dụng FPT Cloud, một số dịch vụ có thể chưa được mở cho tài khoản của bạn. Hãy liên hệ với đội ngũ hỗ trợ và cung cấp thông tin về cấu hình mong muốn. FPT Cloud sẽ cấp các tài nguyên cần thiết như RAM, CPU, Storage, Public IP để bạn sử dụng dịch vụ FKE.

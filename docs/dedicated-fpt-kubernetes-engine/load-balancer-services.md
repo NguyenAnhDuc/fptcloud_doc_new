@@ -1,12 +1,12 @@
 ---
 id: "load-balancer-services"
-title: "Load Balancer Services"
+title: "Load Balancer services"
 description: "D-FKE supports creating Load Balancer Service to help users expose their applications outside the cluster. The system su"
-sidebar_label: "Load Balancer Services"
+sidebar_label: "Load Balancer services"
 sidebar_position: 21
 ---
 
-# Load Balancer Services
+# Load Balancer services
 
 D-FKE supports creating Load Balancer Service to help users expose their applications outside the cluster. The system supports both public and private LB.
   * **Public LB** : By default, LB svc is created as public, meaning the service is assigned a Public IP so it can be accessed from the internet.

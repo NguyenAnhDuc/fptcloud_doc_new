@@ -1,12 +1,12 @@
 ---
 id: "change-nodes-configuration"
-title: "Change Nodes Configuration"
+title: "Change nodes configuration"
 description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
-sidebar_label: "Change Nodes Configuration"
+sidebar_label: "Change nodes configuration"
 sidebar_position: 13
 ---
 
-# Change Nodes Configuration
+# Change nodes configuration
 
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
 [![](/img/migrated/34-c0477746.png)](/img/migrated/34-c0477746.png)

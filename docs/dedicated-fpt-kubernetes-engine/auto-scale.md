@@ -1,12 +1,12 @@
 ---
 id: "auto-scale"
-title: "Auto Scale"
+title: "Auto scale"
 description: "The **Autoscale** feature is enabled by default when users create a Kubernetes Cluster with D-FKE."
-sidebar_label: "Auto Scale"
+sidebar_label: "Auto scale"
 sidebar_position: 19
 ---
 
-# Auto Scale
+# Auto scale
 
 The **Autoscale** feature is enabled by default when users create a Kubernetes Cluster with D-FKE.
 D-FKE's **Autoscale** feature is built based on Kubernetes' cluster-autoscaler tool. The system will automatically adjust the number of worker nodes in the cluster when the following conditions are met:

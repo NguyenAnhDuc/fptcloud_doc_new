@@ -6,7 +6,7 @@ sidebar_label: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes tr
 sidebar_position: 26
 ---
 
-# Best Practice Upgrade Fke Cluster Version
+# Hướng dẫn upgrade FKE cluster version
 
 Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console. 
 **A. Tính năng sản phẩm:**

@@ -1,12 +1,12 @@
 ---
 id: "get-cluster-access-information"
-title: "Get Cluster Access Information"
+title: "Get cluster access information"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page."
-sidebar_label: "Get Cluster Access Information"
+sidebar_label: "Get cluster access information"
 sidebar_position: 7
 ---
 
-# Get Cluster Access Information
+# Get cluster access information
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. 
 [![](/img/migrated/18-37f7fe3d.png)](/img/migrated/18-37f7fe3d.png)
