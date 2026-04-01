@@ -1,7 +1,7 @@
 ---
 id: "fpt-container-registry"
 title: "FPT Container Registry"
-description: ""
+description: "FPT Container Registry"
 sidebar_label: "FPT Container Registry"
 sidebar_position: 1
 ---

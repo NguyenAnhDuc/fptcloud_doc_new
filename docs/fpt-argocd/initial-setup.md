@@ -10,7 +10,7 @@ sidebar_position: 2
 
 If this is your first time using FPT ArgoCD, review and complete the following steps before getting started.
 
-## 1. Create an FPT Cloud account and log in to the Portal
+## Create an FPT Cloud account and log in to the Portal
 
 1. Go to [FPT Cloud Portal](https://console.fptcloud.com) and log in with your FPT Cloud account credentials.
 2. Select the correct **Tenant**, **Region**, and **VPC** for the service.

@@ -1,7 +1,7 @@
 ---
 id: "how-to-create-an-api-key"
 title: "Create an API key"
-description: ""
+description: "Create an API key"
 sidebar_label: "Create an API key"
 sidebar_position: 13
 ---

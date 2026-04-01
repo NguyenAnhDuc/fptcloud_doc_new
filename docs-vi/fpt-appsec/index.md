@@ -1,7 +1,7 @@
 ---
 id: "fpt-appsec"
 title: "Fpt Appsec"
-description: ""
+description: "Fpt Appsec"
 sidebar_label: "Fpt Appsec"
 sidebar_position: 1
 ---

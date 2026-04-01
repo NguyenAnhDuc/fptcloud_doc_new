@@ -8,12 +8,12 @@ sidebar_position: 5
 
 # Cấu hình kết nối máy chủ WAF
 
-## 1. Kết nối máy chủ WAF đến Web Server
+## Kết nối máy chủ WAF đến Web Server
 
 - Nếu Web Server cùng thuộc một VPC với máy chủ WAF trên FPT Cloud, hãy đảm bảo Web Server thuộc Subnet của máy chủ WAF.
 - Nếu Web Server nằm ngoài VPC của FPT Cloud, máy chủ WAF cần kết nối đến Web Server thông qua IP Public của Web Server đó.
 
-## 2. Thêm proxy host để chuyển tiếp request
+## Thêm proxy host để chuyển tiếp request
 
 1. Trong **WAF Dashboard**, chọn **Hosts** > **Proxy**, sau đó chọn **Create Proxy**.
 
@@ -37,7 +37,7 @@ sidebar_position: 5
 
    - **Security**: Chọn Default Rule (**CyWAF Rule**) để áp dụng tập luật tối ưu của FPT Cloud WAF.
 
-## 3. Thêm SSL certificate
+## Thêm SSL certificate
 
 1. Trong **WAF Dashboard**, chọn **SSL Certificates**, sau đó chọn **Create SSL Certificates**.
 
@@ -47,7 +47,7 @@ sidebar_position: 5
 
    [![Nhập thông tin SSL certificate](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)
 
-## 4. Theo dõi Dashboard Overview
+## Theo dõi Dashboard Overview
 
 Sau khi kết nối thành công domain/website với máy chủ WAF, quay lại trang **Overview** để theo dõi trạng thái máy chủ WAF.
 

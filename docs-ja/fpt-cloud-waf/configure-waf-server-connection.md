@@ -8,12 +8,12 @@ sidebar_position: 5
 
 # WAFサーバー接続の設定
 
-## 1. WAFサーバーをWebサーバーに接続する
+## WAFサーバーをWebサーバーに接続する
 
 - WebサーバーがFPT Cloud上のWAFサーバーと同じVPCにある場合は、WebサーバーがWAFサーバーのサブネットに属していることを確認します。
 - WebサーバーがFPT CloudのVPC外にある場合、WAFサーバーはWebサーバーのパブリックIPを通じて接続する必要があります。
 
-## 2. リクエストを転送するproxy hostを追加する
+## リクエストを転送するproxy hostを追加する
 
 1. **WAF Dashboard**で**Hosts** > **Proxy**を選択し、**Create Proxy**をクリックします。
 
@@ -37,7 +37,7 @@ sidebar_position: 5
 
    - **Security**: FPT Cloud WAFの最適化されたルールセットを適用するため、Default Rule（**CyWAF Rule**）を選択します。
 
-## 3. SSL certificateを追加する
+## SSL certificateを追加する
 
 1. **WAF Dashboard**で**SSL Certificates**を選択し、**Create SSL Certificates**をクリックします。
 
@@ -47,7 +47,7 @@ sidebar_position: 5
 
    [![SSL certificate詳細の入力](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)
 
-## 4. Dashboard Overviewで監視する
+## Dashboard Overviewで監視する
 
 ドメイン/WebサイトをWAFサーバーに正常に接続したら、**Overview**ページに移動してWAFサーバーのステータスを監視します。
 

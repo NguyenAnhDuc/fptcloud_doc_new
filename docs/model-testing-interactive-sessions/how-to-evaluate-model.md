@@ -1,7 +1,7 @@
 ---
 id: "how-to-evaluate-model"
 title: "Model Testing – Interactive Sessions"
-description: ""
+description: "Model Testing – Interactive Sessions"
 sidebar_label: "Model Testing – Interactive..."
 sidebar_position: 13
 ---

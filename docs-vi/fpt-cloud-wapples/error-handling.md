@@ -1,7 +1,7 @@
 ---
 id: "error-handling"
 title: "Error Handling"
-description: ""
+description: "Error Handling"
 sidebar_label: "Error Handling"
 sidebar_position: 26
 ---

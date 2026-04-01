@@ -1,7 +1,7 @@
 ---
 id: "Secret-management"
 title: "FPT Key Vault"
-description: ""
+description: "FPT Key Vault"
 sidebar_label: "FPT Key Vault"
 sidebar_position: 7
 ---

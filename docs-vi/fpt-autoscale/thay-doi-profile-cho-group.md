@@ -1,7 +1,7 @@
 ---
 id: "thay-doi-profile-cho-group"
 title: "Thay đổi Profile cho Group"
-description: ""
+description: "Thay đổi Profile cho Group"
 sidebar_label: "Thay đổi Profile cho Group"
 sidebar_position: 9
 ---

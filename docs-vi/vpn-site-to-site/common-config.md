@@ -1,7 +1,7 @@
 ---
 id: "common-config"
 title: "Cấu hình thiết bị VPN phổ biến"
-description: ""
+description: "Cấu hình thiết bị VPN phổ biến"
 sidebar_label: "Cấu hình thiết bị VPN phổ biến"
 sidebar_position: 14
 ---

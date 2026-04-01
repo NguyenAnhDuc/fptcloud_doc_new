@@ -1,7 +1,7 @@
 ---
 id: "snort"
 title: "Snort"
-description: ""
+description: "Snort"
 sidebar_label: "Snort"
 sidebar_position: 29
 pagination_next: null

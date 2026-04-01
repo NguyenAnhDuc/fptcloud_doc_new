@@ -1,7 +1,7 @@
 ---
 id: "fpt-kubernetes-engine-with-gpu"
 title: "Fpt Kubernetes Engine With Gpu"
-description: ""
+description: "Fpt Kubernetes Engine With Gpu"
 sidebar_label: "Fpt Kubernetes Engine With Gpu"
 sidebar_position: 1
 ---

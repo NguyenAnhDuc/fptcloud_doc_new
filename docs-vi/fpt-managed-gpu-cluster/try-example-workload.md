@@ -1,7 +1,7 @@
 ---
 id: "try-example-workload"
 title: "Try Example Workload"
-description: ""
+description: "Try Example Workload"
 sidebar_label: "Try Example Workload"
 sidebar_position: 20
 ---

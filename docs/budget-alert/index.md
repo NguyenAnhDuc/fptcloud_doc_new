@@ -1,7 +1,7 @@
 ---
 id: "budget-alert"
 title: "Budget Alert"
-description: ""
+description: "Budget Alert"
 sidebar_label: "Budget Alert"
 sidebar_position: 1
 ---

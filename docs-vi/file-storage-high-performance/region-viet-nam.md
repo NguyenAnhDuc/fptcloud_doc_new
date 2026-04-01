@@ -1,7 +1,7 @@
 ---
 id: "region-viet-nam"
 title: "Region Việt Nam"
-description: ""
+description: "Region Việt Nam"
 sidebar_label: "Region Việt Nam"
 sidebar_position: 3
 ---

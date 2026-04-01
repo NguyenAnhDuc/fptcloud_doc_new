@@ -1,7 +1,7 @@
 ---
 id: "cloud-guard"
 title: "FPT Cloud Guard hỗ trợ cảnh báo đa kênh"
-description: ""
+description: "FPT Cloud Guard hỗ trợ cảnh báo đa kênh"
 sidebar_label: "FPT Cloud Guard hỗ trợ cảnh báo đa kênh"
 sidebar_position: 1
 ---

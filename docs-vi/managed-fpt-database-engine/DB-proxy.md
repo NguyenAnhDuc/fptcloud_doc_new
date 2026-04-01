@@ -1,7 +1,7 @@
 ---
 id: "DB-proxy"
 title: "Db Proxy"
-description: ""
+description: "Db Proxy"
 sidebar_label: "Db Proxy"
 sidebar_position: 20
 ---

@@ -7,7 +7,7 @@ sidebar_position: "2"
 
 # Configure the OpenStack Provider
 
-## I. Initial setup & service authentication
+## Initial setup & service authentication
 
 ```
 terraform {
@@ -53,7 +53,7 @@ resource "openstack_compute_instance_v2" "test-server" {
 | ...  |   |   |  
   * Other optional configurations can be found at [Configuration Reference](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs#configuration-reference)
 
-## II. Core components
+## Core components
 ### A. Networking
 #### 1. [Router](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_router_v2)
 
@@ -302,7 +302,7 @@ resource "openstack_compute_volume_attach_v2" "attached" {
 | block_device  | Configuration of block devices.  | list  |   | No  |   |  
 | availability_zone  |  The availability zone in which to create the server.  | string  |   | No  |   |  
 | ...  |   |   |   |   |   |  
-## III. Example
+## Example
 This section focus on show up the actual use case of FPT Cloud Iac by using terraform to deploy new Web Application on FPT Cloud, the step described as the following:
   * Setting up terraform
   * Create new project directory include `main.tf` file with the following content:

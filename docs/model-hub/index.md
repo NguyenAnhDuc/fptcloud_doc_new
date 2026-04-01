@@ -1,7 +1,7 @@
 ---
 id: "model-hub"
 title: "Model Hub"
-description: ""
+description: "Model Hub"
 sidebar_label: "Model Hub"
 sidebar_position: 1
 ---

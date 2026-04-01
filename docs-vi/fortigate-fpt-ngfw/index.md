@@ -1,7 +1,7 @@
 ---
 id: "fortigate-fpt-ngfw"
 title: "Fortigate Fpt Ngfw"
-description: ""
+description: "Fortigate Fpt Ngfw"
 sidebar_label: "Fortigate Fpt Ngfw"
 sidebar_position: 1
 ---

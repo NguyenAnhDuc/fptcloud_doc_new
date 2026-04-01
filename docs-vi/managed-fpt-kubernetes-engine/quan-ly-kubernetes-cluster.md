@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-kubernetes-cluster"
 title: "Quản lý Kubernetes Cluster"
-description: ""
+description: "Quản lý Kubernetes Cluster"
 sidebar_label: "Quản lý Kubernetes Cluster"
 sidebar_position: 3
 ---

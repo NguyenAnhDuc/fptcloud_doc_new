@@ -1,7 +1,7 @@
 ---
 id: "notification-bell"
 title: "Notification Bell"
-description: ""
+description: "Notification Bell"
 sidebar_label: "Notification Bell"
 sidebar_position: 1
 ---

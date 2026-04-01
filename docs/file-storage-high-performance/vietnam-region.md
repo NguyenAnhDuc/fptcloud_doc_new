@@ -1,7 +1,7 @@
 ---
 id: "vietnam-region"
 title: "Vietnam region"
-description: ""
+description: "Vietnam region"
 sidebar_label: "Vietnam region"
 sidebar_position: 3
 ---

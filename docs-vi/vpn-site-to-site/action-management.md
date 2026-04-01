@@ -1,7 +1,7 @@
 ---
 id: "action-management"
 title: "Quản lý & thao tác VPN Connection"
-description: ""
+description: "Quản lý & thao tác VPN Connection"
 sidebar_label: "Quản lý & thao tác VPN Connection"
 sidebar_position: 25
 ---

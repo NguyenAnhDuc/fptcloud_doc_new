@@ -9,7 +9,7 @@ pagination_next: null
 
 # Frequently Asked Question
 
-## I. Initial Setup
+## Initial Setup
 ### Q: Why do businesses use a VPN?
 VPN is a cost-effective, high-speed, and secure way to connect remote users to the office network. VPN connections are typically established over the public Internet, making the service cheaper than a direct-connect connection while still ensuring a secure connection.
 ### Q: How do I know if the Site-to-Site VPN connection is successful?
@@ -25,12 +25,12 @@ Yes. The service supports popular devices such as Fortigate, Pfsense, Checkpoint
 For Fortigate: here
 For Pfsense: here
 For Checkpoint: here
-## II. Operations & Verification
+## Operations & Verification
 ### Q: Can I temporarily suspend the VPN connection when not in use and reactivate it when needed?
 Yes. You can set the connection status to Inactive to temporarily pause it.
 The instruction document is here: link
 ### Q: How can I monitor and view the logs of VPN activities?
-## III. Troubleshooting
+## Troubleshooting
 ### Q: VPN connection failed — what should I check first?
   * IP address, PSK key, and IPsec configuration
   * Firewall and routing setup

@@ -1,7 +1,7 @@
 ---
 id: "ai-factory-billing"
 title: "AI Factory Billing"
-description: ""
+description: "AI Factory Billing"
 sidebar_label: "AI Factory Billing"
 sidebar_position: 1
 ---

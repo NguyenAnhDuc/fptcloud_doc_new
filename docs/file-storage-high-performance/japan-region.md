@@ -1,7 +1,7 @@
 ---
 id: "japan-region"
 title: "Japan region"
-description: ""
+description: "Japan region"
 sidebar_label: "Japan region"
 sidebar_position: 7
 ---

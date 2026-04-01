@@ -1,7 +1,7 @@
 ---
 id: "managed-fpt-database-engine"
 title: "1. Giới thiệu về FPT Smart Cloud Database Engine:"
-description: ""
+description: "1. Giới thiệu về FPT Smart Cloud Database Engine:"
 sidebar_label: "1. Giới thiệu về FPT Smart Cloud Database Engine:"
 sidebar_position: 1
 ---

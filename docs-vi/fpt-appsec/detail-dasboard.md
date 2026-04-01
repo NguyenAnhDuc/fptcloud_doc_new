@@ -1,7 +1,7 @@
 ---
 id: "detail-dasboard"
 title: "Bảng điều khiển"
-description: ""
+description: "Bảng điều khiển"
 sidebar_label: "Bảng điều khiển"
 sidebar_position: 5
 ---

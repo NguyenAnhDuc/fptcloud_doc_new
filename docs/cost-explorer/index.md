@@ -1,7 +1,7 @@
 ---
 id: "cost-explorer"
 title: "Cost Explorer"
-description: ""
+description: "Cost Explorer"
 sidebar_label: "Cost Explorer"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
 title: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
-description: ""
+description: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
 sidebar_label: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
 sidebar_position: 6
 pagination_next: null

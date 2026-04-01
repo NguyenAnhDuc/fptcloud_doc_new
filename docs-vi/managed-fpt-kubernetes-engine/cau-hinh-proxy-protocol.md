@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-proxy-protocol"
 title: "Cấu hình proxy protocol"
-description: ""
+description: "Cấu hình proxy protocol"
 sidebar_label: "Cấu hình proxy protocol"
 sidebar_position: 50
 ---

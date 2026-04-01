@@ -1,7 +1,7 @@
 ---
 id: "Why-cant-I-watch-Cost-Explore"
 title: "Cost Explorer"
-description: ""
+description: "Cost Explorer"
 sidebar_label: "Cost Explorer"
 sidebar_position: 4
 ---

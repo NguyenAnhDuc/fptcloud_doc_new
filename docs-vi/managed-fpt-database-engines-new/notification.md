@@ -16,7 +16,7 @@ Hệ thống hiện hỗ trợ các loại thông báo sau:
   * Thông báo bảo trì – thông báo khi FPT có hoạt động bảo trì tác động lên dabatabase cluster. 
 
 Hướng dẫn này giúp bạn thiết lập và quản lý Notification để theo dõi các sự kiện quan trọng trong FPT Database Engine một cách hiệu quả trên FPT Cloud Portal.
-## 1. Cấu hình nhận thông báo từ FPT Database Engine
+## Cấu hình nhận thông báo từ FPT Database Engine
 ### Bước 1: Truy cập trang thiết lập notification
 Đăng nhập vào FPT Cloud Portal. Từ menu chính, chọn “**Database Platform** ” → “**All Database** ”. Trên trang Database list, chọn Cluster ID của cụm bạn muốn cấu hình thông báo > Chọn tab “**Notification** ” để mở màn hình quản lý cấu hình notification.
 [![](/img/migrated/notification-scaled-fbca99ff.png)](/img/migrated/notification-scaled-fbca99ff.png)
@@ -54,7 +54,7 @@ Tất cả các cảnh báo đã cấu hình sẽ xuất hiện trong **Notifica
   * Gán thông báo cho đội vận hành và DBA.
   * Kết hợp alert với monitoring dashboard để giám sát toàn diện.
 
-## 2. Cấu hình Telegram để nhận thông báo từ FPT Database Engine
+## Cấu hình Telegram để nhận thông báo từ FPT Database Engine
 Khi nhận thông báo từ FPT qua Telegram, cần thực hiện nhập ID của channel. Các bước dưới đây hướng dẫn các thao tác cần thực hiện để lấy được ID này.
 ### Bước 1: Tạo channel trên Telegram
 Đăng nhập Telegram, tạo một channel mới dạng Private (ví dụ: FDE Notify) để nhận thông báo từ FPT Database Engine

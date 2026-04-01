@@ -1,7 +1,7 @@
 ---
 id: "managing-k8s-cluster"
 title: "Managing Kubernetes clusters"
-description: ""
+description: "Managing Kubernetes clusters"
 sidebar_label: "Managing Kubernetes clusters"
 sidebar_position: 3
 ---

@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Nếu đây là lần đầu tiên bạn sử dụng FPT ArgoCD, hãy kiểm tra và hoàn thành các bước sau trước khi bắt đầu.
 
-## 1. Tạo tài khoản FPT Cloud và đăng nhập vào Portal
+## Tạo tài khoản FPT Cloud và đăng nhập vào Portal
 
 1. Truy cập [FPT Cloud Portal](https://console.fptcloud.com) và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp.
 2. Chọn đúng **Tenant**, **Region** và **VPC** cần sử dụng dịch vụ.

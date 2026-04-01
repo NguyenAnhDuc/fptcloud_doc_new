@@ -1,7 +1,7 @@
 ---
 id: "xem-ket-qua-quet"
 title: "Xem kết quả quét"
-description: ""
+description: "Xem kết quả quét"
 sidebar_label: "Xem kết quả quét"
 sidebar_position: 12
 ---

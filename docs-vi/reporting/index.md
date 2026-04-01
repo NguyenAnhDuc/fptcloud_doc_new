@@ -1,7 +1,7 @@
 ---
 id: "reporting"
 title: "Reporting"
-description: ""
+description: "Reporting"
 sidebar_label: "Reporting"
 sidebar_position: 1
 ---

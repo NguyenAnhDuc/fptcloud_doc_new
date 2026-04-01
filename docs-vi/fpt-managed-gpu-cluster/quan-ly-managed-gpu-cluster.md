@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-managed-gpu-cluster"
 title: "Quan Ly Managed Gpu Cluster"
-description: ""
+description: "Quan Ly Managed Gpu Cluster"
 sidebar_label: "Quan Ly Managed Gpu Cluster"
 sidebar_position: 3
 ---

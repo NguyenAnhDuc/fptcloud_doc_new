@@ -1,7 +1,7 @@
 ---
 id: "fpt-monitoring-ip-access-control"
 title: "Fpt Monitoring Ip Access Control"
-description: ""
+description: "Fpt Monitoring Ip Access Control"
 sidebar_label: "Fpt Monitoring Ip Access Control"
 sidebar_position: 1
 ---

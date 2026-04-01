@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Nếu đây là lần đầu tiên sử dụng **FPT API Management**, hãy kiểm tra và hoàn thành các bước sau trước khi bắt đầu.
 
-## 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
 
 Để bắt đầu sử dụng dịch vụ **FPT API Management**, bạn cần đăng nhập vào **FPT Portal**.
 

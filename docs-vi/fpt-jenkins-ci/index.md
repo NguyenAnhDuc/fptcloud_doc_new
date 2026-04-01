@@ -1,7 +1,7 @@
 ---
 id: "fpt-jenkins-ci"
 title: "Fpt Jenkins Ci"
-description: ""
+description: "Fpt Jenkins Ci"
 sidebar_label: "Fpt Jenkins Ci"
 sidebar_position: 1
 ---

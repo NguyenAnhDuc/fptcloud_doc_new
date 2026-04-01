@@ -1,7 +1,7 @@
 ---
 id: "managed-fpt-database-engines-new"
 title: "Giới thiệu về FPT Database Engine"
-description: ""
+description: "Giới thiệu về FPT Database Engine"
 sidebar_label: "Giới thiệu về FPT Database Engine"
 sidebar_position: 1
 ---

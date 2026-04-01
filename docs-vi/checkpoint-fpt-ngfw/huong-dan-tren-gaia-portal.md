@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-tren-gaia-portal"
 title: "Hướng dẫn trên Gaia Portal"
-description: ""
+description: "Hướng dẫn trên Gaia Portal"
 sidebar_label: "Hướng dẫn trên Gaia Portal"
 sidebar_position: 2
 ---

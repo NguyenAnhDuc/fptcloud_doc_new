@@ -1,7 +1,7 @@
 ---
 id: "manage-version-schedules"
 title: "Manage Version Schedules"
-description: ""
+description: "Manage Version Schedules"
 sidebar_label: "Manage Version Schedules"
 sidebar_position: 3
 ---

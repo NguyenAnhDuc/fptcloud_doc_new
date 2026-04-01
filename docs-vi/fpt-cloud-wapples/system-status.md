@@ -1,7 +1,7 @@
 ---
 id: "system-status"
 title: "System Status"
-description: ""
+description: "System Status"
 sidebar_label: "System Status"
 sidebar_position: 4
 ---

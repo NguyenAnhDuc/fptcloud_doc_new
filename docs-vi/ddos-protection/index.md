@@ -1,7 +1,7 @@
 ---
 id: "ddos-protection"
 title: "Bảo vệ DDoS"
-description: ""
+description: "Bảo vệ DDoS"
 sidebar_label: "Bảo vệ DDoS"
 sidebar_position: 1
 ---

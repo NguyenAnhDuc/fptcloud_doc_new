@@ -10,7 +10,7 @@ sidebar_position: 2
 
 FPT ArgoCDを初めて使用する場合は、開始前に以下の手順を確認して完了してください。
 
-## 1. FPT Cloudアカウントを作成してPortalにログインします
+## FPT Cloudアカウントを作成してPortalにログインします
 
 1. [FPT Cloud Portal](https://console.fptcloud.com)にアクセスし、FPT Cloudアカウントの認証情報でログインします。
 2. サービスに使用する正しい**Tenant**、**Region**、**VPC**を選択します。

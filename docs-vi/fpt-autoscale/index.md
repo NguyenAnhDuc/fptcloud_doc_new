@@ -1,7 +1,7 @@
 ---
 id: "fpt-autoscale"
 title: "Fpt Autoscale"
-description: ""
+description: "Fpt Autoscale"
 sidebar_label: "Fpt Autoscale"
 sidebar_position: 1
 ---

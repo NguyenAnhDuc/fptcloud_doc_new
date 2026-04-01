@@ -15,7 +15,7 @@ Trước khi sử dụng FPT Cloud Server, bạn cần hoàn thành các bước
 - ✅ Có tài khoản FPT Cloud.
 - ✅ Đã được cấp quyền truy cập Tenant, Region, VPC.
 
-## 1. Đăng nhập vào FPT Cloud Portal
+## Đăng nhập vào FPT Cloud Portal
 
 1. Truy cập [https://console.fptcloud.com](https://console.fptcloud.com/).
 2. Đăng nhập bằng tài khoản và mật khẩu FPT Cloud đã được cấp.
@@ -25,7 +25,7 @@ Trước khi sử dụng FPT Cloud Server, bạn cần hoàn thành các bước
 Nếu chưa có tài khoản FPT Cloud, truy cập [https://fptcloud.com](https://fptcloud.com/), chọn **Sign Up** và nhập thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận và tạo tài khoản.
 :::
 
-## 2. Tạo cặp SSH Key
+## Tạo cặp SSH Key
 
 FPT Cloud hỗ trợ hai phương thức bảo mật cho máy chủ Linux: **Password** và **SSH Key**. SSH Key được khuyến nghị vì bảo mật hơn so với Password.
 
@@ -47,7 +47,7 @@ FPT Cloud hỗ trợ hai phương thức bảo mật cho máy chủ Linux: **Pas
 File Private Key `.pem` chỉ được cung cấp một lần duy nhất. Lưu trữ ở nơi an toàn để tránh mất quyền truy cập vào máy chủ.
 :::
 
-## 3. Kiểm tra và tạo Subnet
+## Kiểm tra và tạo Subnet
 
 Để khởi tạo máy ảo, bạn cần có một Subnet đang hoạt động trong VPC — hệ thống sẽ lấy một Private IP từ Subnet này để gắn cho máy ảo.
 
@@ -73,7 +73,7 @@ Subnet mới hiển thị trong bảng **Subnets**.
 
 [![Danh sách Subnet sau khi tạo](/img/migrated/image-1744794442277-c162eaf9.png)](/img/migrated/image-1744794442277-c162eaf9.png)
 
-## 4. Tạo Security Group
+## Tạo Security Group
 
 Security Group hoạt động như tường lửa mạng ảo, kiểm soát traffic vào/ra cho máy ảo — giúp bảo vệ máy ảo khỏi các cuộc tấn công từ internet.
 

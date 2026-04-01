@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-tren-smartconsole"
 title: "Hướng dẫn trên SmartConsole"
-description: ""
+description: "Hướng dẫn trên SmartConsole"
 sidebar_label: "Hướng dẫn trên SmartConsole"
 sidebar_position: 8
 ---

@@ -1,7 +1,7 @@
 ---
 id: "accounts"
 title: "Accounts"
-description: ""
+description: "Accounts"
 sidebar_label: "Accounts"
 sidebar_position: 34
 ---

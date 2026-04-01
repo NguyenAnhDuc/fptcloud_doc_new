@@ -1,7 +1,7 @@
 ---
 id: "end-user-request-resource"
 title: "Yêu cầu tài nguyên"
-description: ""
+description: "Yêu cầu tài nguyên"
 sidebar_label: "Yêu cầu tài nguyên"
 sidebar_position: 1
 ---

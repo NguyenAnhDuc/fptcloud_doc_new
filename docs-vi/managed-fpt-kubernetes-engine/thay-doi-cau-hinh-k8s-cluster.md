@@ -1,7 +1,7 @@
 ---
 id: "thay-doi-cau-hinh-k8s-cluster"
 title: "Thay đổi cấu hình K8s Cluster"
-description: ""
+description: "Thay đổi cấu hình K8s Cluster"
 sidebar_label: "Thay đổi cấu hình K8s Cluster"
 sidebar_position: 10
 ---

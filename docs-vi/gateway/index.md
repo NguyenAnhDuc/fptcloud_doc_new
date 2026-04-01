@@ -1,7 +1,7 @@
 ---
 id: "gateway"
 title: "Gateway"
-description: ""
+description: "Gateway"
 sidebar_label: "Gateway"
 sidebar_position: 1
 ---

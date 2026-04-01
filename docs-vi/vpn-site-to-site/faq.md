@@ -9,7 +9,7 @@ pagination_next: null
 
 # Faq
 
-## I. Thiết lập ban đầu
+## Thiết lập ban đầu
 ### Q: **Tại sao doanh nghiệp sử dụng VPN?**
 VPN là cách thức tiết kiệm chi phí, tốc độ cao và bảo mật để kết nối người dùng từ xa với mạng văn phòng. Việc kết nối VPN thường được thực hiện trên mạng Internet công cộng nên dịch vụ này sẽ có mức chi phí rẻ hơn so với kết nối trực tiếp (direct-connect) nhưng vẫn đảm bảo an toàn khi kết nối.
 * * *
@@ -36,7 +36,7 @@ Bạn có thể tham khảo tài liệu cấu hình tại:
   * Đối với Pfsense: [tại đây](../vpn-site-to-site/index.md)
   * Đối với Checkpoint: [tại đây](../vpn-site-to-site/index.md)
 
-## II. Vận hành & Kiểm tra
+## Vận hành & Kiểm tra
 ### Q: **Có thể tạm ngưng kết nối VPN khi không sử dụng và bật lại khi cần không?**
 Có. Bạn có thể đặt trạng thái kết nối là _Inactive_ để tạm dừng.
 Tài liệu hướng dẫn tại đây: [link](https://www.google.com)
@@ -44,7 +44,7 @@ Tài liệu hướng dẫn tại đây: [link](https://www.google.com)
 ### Q: **Làm sao để giám sát và xem nhật ký (log) của các hoạt động VPN?**
 Bạn cần truy cập vào dịch vụ **Activity log** , lựa chọn type = “VPN” và nhập ngày muốn kiểm tra. Tài liệu hướng dẫn tại đây: [tại đây](../vpn-site-to-site/index.md)
 * * *
-## III. Xử lý sự cố
+## Xử lý sự cố
 ### Q: **Kết nối VPN không thành công, tôi cần kiểm tra những gì trước?**
   * Địa chỉ IP, khóa PSK, cấu hình IPsec 
   * Cấu hình firewall và định tuyến 

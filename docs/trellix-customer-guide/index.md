@@ -1,7 +1,7 @@
 ---
 id: "trellix-customer-guide"
 title: "Trellix Customer Guide"
-description: ""
+description: "Trellix Customer Guide"
 sidebar_label: "Trellix Customer Guide"
 sidebar_position: 1
 ---

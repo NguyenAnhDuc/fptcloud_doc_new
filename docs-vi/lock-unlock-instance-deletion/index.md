@@ -1,7 +1,7 @@
 ---
 id: "lock-unlock-instance-deletion"
 title: "Khóa & Mở khóa xóa máy ảo"
-description: ""
+description: "Khóa & Mở khóa xóa máy ảo"
 sidebar_label: "Khóa & Mở khóa xóa máy ảo"
 sidebar_position: 1
 ---

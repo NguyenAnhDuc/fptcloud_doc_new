@@ -1,7 +1,7 @@
 ---
 id: "region-nhat-ban"
 title: "Region Nhật Bản"
-description: ""
+description: "Region Nhật Bản"
 sidebar_label: "Region Nhật Bản"
 sidebar_position: 7
 ---

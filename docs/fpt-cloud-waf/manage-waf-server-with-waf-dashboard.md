@@ -1,7 +1,7 @@
 ---
 id: "manage-waf-server-with-waf-dashboard"
 title: "FPT Cloud WAF"
-description: ""
+description: "FPT Cloud WAF"
 sidebar_label: "FPT Cloud WAF"
 sidebar_position: 9
 ---

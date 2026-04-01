@@ -1,7 +1,7 @@
 ---
 id: "how-to-share-a-model"
 title: "Share a model"
-description: ""
+description: "Share a model"
 sidebar_label: "Share a model"
 sidebar_position: 25
 ---

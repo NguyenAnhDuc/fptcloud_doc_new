@@ -1,7 +1,7 @@
 ---
 id: "user-token"
 title: "User Token"
-description: ""
+description: "User Token"
 sidebar_label: "User Token"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "ssl-load-balancer"
 title: "Quản lý chứng chỉ SSL cho Load Balancer"
-description: ""
+description: "Quản lý chứng chỉ SSL cho Load Balancer"
 sidebar_label: "Quản lý chứng chỉ SSL cho Load Balancer"
 sidebar_position: 33
 ---

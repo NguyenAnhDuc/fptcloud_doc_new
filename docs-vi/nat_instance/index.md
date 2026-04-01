@@ -1,7 +1,7 @@
 ---
 id: "nat_instance"
 title: "Nat Instance"
-description: ""
+description: "Nat Instance"
 sidebar_label: "Nat Instance"
 sidebar_position: 1
 ---

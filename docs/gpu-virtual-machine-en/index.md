@@ -1,7 +1,7 @@
 ---
 id: "gpu-virtual-machine-en"
 title: "GPU Virtual Machine"
-description: ""
+description: "GPU Virtual Machine"
 sidebar_label: "GPU Virtual Machine"
 sidebar_position: 1
 ---

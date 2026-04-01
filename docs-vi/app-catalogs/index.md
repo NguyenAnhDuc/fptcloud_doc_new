@@ -1,7 +1,7 @@
 ---
 id: "app-catalogs"
 title: "App Catalogs"
-description: ""
+description: "App Catalogs"
 sidebar_label: "App Catalogs"
 sidebar_position: 1
 ---

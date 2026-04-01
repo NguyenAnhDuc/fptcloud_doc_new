@@ -1,7 +1,7 @@
 ---
 id: "VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(Virtual-private-gateways)-guide"
 title: "VPN Site-to-Site"
-description: ""
+description: "VPN Site-to-Site"
 sidebar_label: "VPN Site-to-Site"
 sidebar_position: 15
 ---

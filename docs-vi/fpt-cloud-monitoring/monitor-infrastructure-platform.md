@@ -1,7 +1,7 @@
 ---
 id: "monitor-infrastructure-platform"
 title: "Monitor Infrastructure Platform"
-description: ""
+description: "Monitor Infrastructure Platform"
 sidebar_label: "Monitor Infrastructure Platform"
 sidebar_position: 12
 ---

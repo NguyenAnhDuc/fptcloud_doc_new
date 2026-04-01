@@ -1,7 +1,7 @@
 ---
 id: "attach-policy-vao-group"
 title: "Attach Policy vào Group"
-description: ""
+description: "Attach Policy vào Group"
 sidebar_label: "Attach Policy vào Group"
 sidebar_position: 15
 ---

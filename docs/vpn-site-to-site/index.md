@@ -1,7 +1,7 @@
 ---
 id: "vpn-site-to-site"
 title: "VPN Site-to-Site"
-description: ""
+description: "VPN Site-to-Site"
 sidebar_label: "VPN Site-to-Site"
 sidebar_position: 1
 ---

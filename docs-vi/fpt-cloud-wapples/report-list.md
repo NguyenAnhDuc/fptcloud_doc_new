@@ -1,7 +1,7 @@
 ---
 id: "report-list"
 title: "Report List"
-description: ""
+description: "Report List"
 sidebar_label: "Report List"
 sidebar_position: 32
 ---

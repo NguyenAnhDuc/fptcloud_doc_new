@@ -1,7 +1,7 @@
 ---
 id: "fpt-api-gateway"
 title: "Fpt Api Gateway"
-description: ""
+description: "Fpt Api Gateway"
 sidebar_label: "Fpt Api Gateway"
 sidebar_position: 1
 ---

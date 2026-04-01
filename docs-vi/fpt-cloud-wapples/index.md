@@ -1,7 +1,7 @@
 ---
 id: "fpt-cloud-wapples"
 title: "Fpt Cloud Wapples"
-description: ""
+description: "Fpt Cloud Wapples"
 sidebar_label: "Fpt Cloud Wapples"
 sidebar_position: 1
 ---

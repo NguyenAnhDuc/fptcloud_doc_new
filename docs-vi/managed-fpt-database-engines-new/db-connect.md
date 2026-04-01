@@ -11,7 +11,7 @@ sidebar_position: 23
 Mục này hướng dẫn cách kết nối tới cơ sở dữ liệu được triển khai trên FPT Database Engine thông qua các phương thức kết nối được hỗ trợ và các khuyến nghị vận hành.
 Sau khi tạo cụm cơ sở dữ liệu thành công trên FPT Database Engine, người dùng có thể kết nối bằng các công cụ quản trị, driver ứng dụng, hoặc client tiêu chuẩn. Khả năng kết nối phụ thuộc vào cấu hình mạng, chính sách bảo mật, và thông tin xác thực database.
 Trước khi kết nối vào một cụm cơ sở dữ liệu, bạn cần cấu hình các thiết lập mạng và bảo mật để cho phép kết nối từ client. Điều này thường bao gồm việc tạo security group rules và gán floating IP (địa chỉ IP công cộng) nếu kết nối từ bên ngoài. Sau khi quyền truy cập mạng đã được cấp, bạn có thể sử dụng công cụ client để đăng nhập vào cơ sở dữ liệu.
-## 1. Tạo Security Group
+## Tạo Security Group
 Security Group là tập hợp các quy tắc tường lửa (firewall rules) dùng để kiểm soát lưu lượng mạng đến (inbound) và đi (outbound) từ cụm cơ sở dữ liệu. Mỗi rule xác định port, protocol, và địa chỉ IP/CIDR được phép kết nối tới cơ sở dữ liệu.
 Việc cấu hình Security Group đúng cách giúp bảo vệ kết nối cơ sở dữ liệu, giới hạn truy cập theo nguyên tắc least privilege và giảm thiểu nguy cơ truy cập trái phép từ bên ngoài.
 ⚠️
@@ -40,7 +40,7 @@ Khi cần thiết, bạn có thể thực hiện các thao tác sau với securi
   * **Thay đổi tên của security group** : Chức năng này cho phép sửa đổi tên của security group. Để thực hiện, trên trang **Security Group Management** , chọn **Rename** tương ứng với group cần chỉnh sửa. Thực hiện thay đổi và nhấn **Rename** để lưu lại.
   * **Xóa security group** : Chức năng này cho phép xoá bỏ security group không còn sử dụng, giúp hệ thống quản lý gọn gàng và chính xác hơn. Trên trang **Security Group Management** , chọn **Delete** tương ứng với security group cần xóa. Xác nhận thao tác trong hộp thoại cảnh báo để hoàn tất. **Cảnh báo:** Việc xoá một Security Group có thể làm gián đoạn kết nối mạng của các database đang được gán Security Group đó. Sau khi bị xoá, tất cả các security rules liên quan sẽ bị loại bỏ ngay lập tức, có thể khiến ứng dụng không thể truy cập cơ sở dữ liệu hoặc gây mất kết nối giữa các dịch vụ nội bộ. Hãy đảm bảo rằng Security Group không còn được gán cho bất kỳ tài nguyên nào trước khi thực hiện thao tác xoá.
 
-## 2. Gán Floating IP
+## Gán Floating IP
 Để cho phép truy cập cơ sở dữ liệu từ mạng ngoài (Internet) hoặc bên ngoài VPC, bạn cần tạo và gán Floating IP cho nó. Floating IP là một địa chỉ IPv4 công cộng tĩnh, có thể chuyển đổi giữa các tài nguyên mà không cần thay đổi cấu hình khác bên trong hệ thống mạng. Việc gán Floating IP yêu cầu bạn đảm bảo các security group / firewall rules cho phép traffic phù hợp (port, protocol) đến cơ sở dữ liệu.
 **Best Practice** : Chỉ gán Floating IP khi cần truy cập public. Nếu database chỉ phục vụ backend nội bộ trong VPC, cân nhắc sử dụng private static IP để tránh phơi bày dịch vụ ra public network.
 Các bước thực hiện cấp phát Floating IP như sau:
@@ -65,7 +65,7 @@ Khi Floating IP không còn nhu cầu sử dụng, bạn có thể giải phóng
   * Đảm bảo Security Group của instance cho phép lưu lượng truy cập trên các cổng cần thiết (ví dụ: SSH port 22, HTTP port 80, hoặc cổng database tương ứng).
   * Nếu Floating IP không hoạt động như mong đợi, hãy kiểm tra lại security group inbound rules để đảm bảo các cổng database cần thiết đã được mở.
 
-## 3. Kết nối vào cơ sở dữ liệu qua Client
+## Kết nối vào cơ sở dữ liệu qua Client
 Sau khi đã cấp quyền mạng (security group và floating IP), bạn có thể kết nối tới cơ sở dữ liệu bằng công cụ client yêu thích (ví dụ: pgAdmin cho PostgreSQL, MySQL Workbench cho MySQL…).
 ### Bước 1: Lấy thông tin kết nối
 Thông tin kết nối cơ sở dữ liệu được hiển thị trên màn hình **Database Overview** trong FPT Cloud Portal. Để truy cập màn hình này, mở **Database list** , sau đó chọn ID của cơ sở dữ liệu để xem trang chi tiết:

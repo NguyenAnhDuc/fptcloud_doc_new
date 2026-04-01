@@ -1,7 +1,7 @@
 ---
 id: "vllm-use-cases"
 title: "GPU Container"
-description: ""
+description: "GPU Container"
 sidebar_label: "GPU Container"
 sidebar_position: 18
 ---

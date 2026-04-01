@@ -1,7 +1,7 @@
 ---
 id: "fpt-event-gateway"
 title: "Fpt Event Gateway"
-description: ""
+description: "Fpt Event Gateway"
 sidebar_label: "Fpt Event Gateway"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "terraform"
 title: "Terraform"
-description: ""
+description: "Terraform"
 sidebar_label: "Terraform"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "allow-address-pair"
 title: "Allow Address Pair"
-description: ""
+description: "Allow Address Pair"
 sidebar_label: "Allow Address Pair"
 sidebar_position: 1
 ---

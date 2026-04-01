@@ -1,7 +1,7 @@
 ---
 id: "common-vpn-device-configuration"
 title: "VPN Site-to-Site"
-description: ""
+description: "VPN Site-to-Site"
 sidebar_label: "VPN Site-to-Site"
 sidebar_position: 12
 ---

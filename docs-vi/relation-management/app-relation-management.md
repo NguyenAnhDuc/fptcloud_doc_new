@@ -1,7 +1,7 @@
 ---
 id: "app-relation-management"
 title: "App Relation Management"
-description: ""
+description: "App Relation Management"
 sidebar_label: "App Relation Management"
 sidebar_position: 6
 ---

@@ -1,7 +1,7 @@
 ---
 id: "how-to-upload-download-files-by-sdk"
 title: "Upload and download files by SDK"
-description: ""
+description: "Upload and download files by SDK"
 sidebar_label: "Upload and download files by SDK"
 sidebar_position: 21
 ---

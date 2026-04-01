@@ -1,7 +1,7 @@
 ---
 id: "tinh-nang-tang-cuong-bao-mat-mfke"
 title: "Tính năng tăng cường bảo mật cho dịch vụ MFKE"
-description: ""
+description: "Tính năng tăng cường bảo mật cho dịch vụ MFKE"
 sidebar_label: "Tính năng tăng cường bảo mật cho dịch vụ MFKE"
 sidebar_position: 29
 ---

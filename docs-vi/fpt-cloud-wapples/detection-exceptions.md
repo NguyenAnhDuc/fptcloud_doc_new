@@ -1,7 +1,7 @@
 ---
 id: "detection-exceptions"
 title: "Detection Exceptions"
-description: ""
+description: "Detection Exceptions"
 sidebar_label: "Detection Exceptions"
 sidebar_position: 24
 ---

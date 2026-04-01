@@ -1,7 +1,7 @@
 ---
 id: "create-new-container"
 title: "GPU Container"
-description: ""
+description: "GPU Container"
 sidebar_label: "GPU Container"
 sidebar_position: 4
 ---

@@ -1,7 +1,7 @@
 ---
 id: "Manage-Queues"
 title: "FPT Message Bus"
-description: ""
+description: "FPT Message Bus"
 sidebar_label: "FPT Message Bus"
 sidebar_position: 4
 ---

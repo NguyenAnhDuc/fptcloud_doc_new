@@ -1,7 +1,7 @@
 ---
 id: "sso-single-sign-on"
 title: "Sso Single Sign On"
-description: ""
+description: "Sso Single Sign On"
 sidebar_label: "Sso Single Sign On"
 sidebar_position: 1
 ---

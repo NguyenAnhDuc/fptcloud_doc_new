@@ -1,7 +1,7 @@
 ---
 id: "fpt-managed-gpu-cluster"
 title: "Fpt Managed Gpu Cluster"
-description: ""
+description: "Fpt Managed Gpu Cluster"
 sidebar_label: "Fpt Managed Gpu Cluster"
 sidebar_position: 1
 ---

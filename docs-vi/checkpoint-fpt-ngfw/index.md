@@ -1,7 +1,7 @@
 ---
 id: "checkpoint-fpt-ngfw"
 title: "Checkpoint Fpt Ngfw"
-description: ""
+description: "Checkpoint Fpt Ngfw"
 sidebar_label: "Checkpoint Fpt Ngfw"
 sidebar_position: 1
 ---

@@ -10,7 +10,7 @@ sidebar_position: 3
 
 Sau khi đăng ký dịch vụ thành công, bạn có thể bắt đầu gửi và nhận message ngay trong vài bước. Hướng dẫn này giúp bạn làm quen với toàn bộ luồng hoạt động từ tạo queue đến gửi/nhận message qua topic.
 
-## 1. Tạo queue
+## Tạo queue
 
 Sau khi đăng ký dịch vụ thành công, các thao tác cấu hình RabbitMQ được thực hiện hoàn toàn trong RabbitMQ Application.
 
@@ -29,7 +29,7 @@ Sau khi đăng ký dịch vụ thành công, các thao tác cấu hình RabbitMQ
 
 3. Chọn **OK** để tạo queue.
 
-## 2. Gửi và nhận messages trong queue
+## Gửi và nhận messages trong queue
 
 1. Từ menu **Application**, chọn **Queues** > chọn queue > **Preview**.
 
@@ -45,7 +45,7 @@ Sau khi đăng ký dịch vụ thành công, các thao tác cấu hình RabbitMQ
 
 [![Tab Receive với nút Receive để nhận message từ queue](/img/migrated/quickstart_5-ec6f9c15.png)](/img/migrated/quickstart_5-ec6f9c15.png)
 
-## 3. Tạo topic
+## Tạo topic
 
 1. Từ menu **Application**, chọn **Topics** > **Create**.
 
@@ -57,7 +57,7 @@ Sau khi đăng ký dịch vụ thành công, các thao tác cấu hình RabbitMQ
 
 3. Chọn **OK** để tạo topic.
 
-## 4. Tạo subscription
+## Tạo subscription
 
 Để gửi và nhận message trong topic, bạn cần tạo subscription để đăng ký nhận thông báo từ topic đó.
 
@@ -76,7 +76,7 @@ Sau khi đăng ký dịch vụ thành công, các thao tác cấu hình RabbitMQ
 
 3. Chọn **OK** để tạo subscription.
 
-## 5. Gửi và nhận messages trong topic
+## Gửi và nhận messages trong topic
 
 Khi message được publish vào topic, tất cả subscription đã đăng ký đều có thể nhận message đó.
 

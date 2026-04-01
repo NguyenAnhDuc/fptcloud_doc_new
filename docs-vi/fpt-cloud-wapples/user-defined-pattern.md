@@ -1,7 +1,7 @@
 ---
 id: "user-defined-pattern"
 title: "User Defined Pattern"
-description: ""
+description: "User Defined Pattern"
 sidebar_label: "User Defined Pattern"
 sidebar_position: 25
 ---

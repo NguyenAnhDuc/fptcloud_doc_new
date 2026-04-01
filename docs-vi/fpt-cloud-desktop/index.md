@@ -1,7 +1,7 @@
 ---
 id: "fpt-cloud-desktop"
 title: "FPT Cloud Desktop là gì?"
-description: ""
+description: "FPT Cloud Desktop là gì?"
 sidebar_label: "FPT Cloud Desktop là gì?"
 sidebar_position: 1
 ---

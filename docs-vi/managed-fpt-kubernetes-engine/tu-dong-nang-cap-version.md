@@ -1,7 +1,7 @@
 ---
 id: "tu-dong-nang-cap-version"
 title: "Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version)"
-description: ""
+description: "Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version)"
 sidebar_label: "Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version)"
 sidebar_position: 25
 ---

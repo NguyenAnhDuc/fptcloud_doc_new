@@ -1,7 +1,7 @@
 ---
 id: "how-to-create-model-version"
 title: "Create a model version"
-description: ""
+description: "Create a model version"
 sidebar_label: "Create a model version"
 sidebar_position: 17
 ---

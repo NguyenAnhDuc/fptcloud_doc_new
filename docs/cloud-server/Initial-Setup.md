@@ -15,7 +15,7 @@ Before using FPT Cloud Server, complete the following setup steps to ensure your
 - ✅ You have an FPT Cloud account.
 - ✅ You have been granted access to a Tenant, Region, and VPC.
 
-## 1. Log in to FPT Cloud Portal
+## Log in to FPT Cloud Portal
 
 1. Go to [https://console.fptcloud.com](https://console.fptcloud.com/).
 2. Log in with your FPT Cloud account credentials.
@@ -25,7 +25,7 @@ Before using FPT Cloud Server, complete the following setup steps to ensure your
 If you do not have an FPT Cloud account, go to [https://fptcloud.com](https://fptcloud.com/), click **Sign Up**, and fill in your details as instructed. The support team will contact you to confirm and create your account.
 :::
 
-## 2. Create an SSH Key pair
+## Create an SSH Key pair
 
 FPT Cloud supports two authentication methods for Linux servers: **Password** and **SSH Key**. SSH Key is recommended because it is more secure than a password.
 
@@ -47,7 +47,7 @@ FPT Cloud supports two authentication methods for Linux servers: **Password** an
 The Private Key `.pem` file is provided only once. Store it in a safe location to avoid losing access to your server.
 :::
 
-## 3. Check and create a Subnet
+## Check and create a Subnet
 
 To create a virtual machine, you need an active Subnet in your VPC — the system assigns a Private IP from this Subnet to the virtual machine.
 
@@ -73,7 +73,7 @@ The new Subnet appears in the **Subnets** table.
 
 [![Subnet list after creation](/img/migrated/image-1744794442277-c162eaf9.png)](/img/migrated/image-1744794442277-c162eaf9.png)
 
-## 4. Create a Security Group
+## Create a Security Group
 
 A Security Group acts as a virtual network firewall, controlling inbound and outbound traffic for your virtual machine — protecting it from internet-based attacks.
 

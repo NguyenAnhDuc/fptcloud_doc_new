@@ -1,7 +1,7 @@
 ---
 id: "global-search"
 title: "Tìm kiếm toàn cục"
-description: ""
+description: "Tìm kiếm toàn cục"
 sidebar_label: "Tìm kiếm toàn cục"
 sidebar_position: 1
 ---

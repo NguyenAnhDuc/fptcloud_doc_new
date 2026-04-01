@@ -1,7 +1,7 @@
 ---
 id: "truc-quan-hoa-du-lieu"
 title: "7. Trực quan hóa dữ liệu"
-description: ""
+description: "7. Trực quan hóa dữ liệu"
 sidebar_label: "7. Trực quan hóa dữ liệu"
 sidebar_position: 15
 ---

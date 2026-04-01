@@ -1,7 +1,7 @@
 ---
 id: "data-hub"
 title: "Data Hub"
-description: ""
+description: "Data Hub"
 sidebar_label: "Data Hub"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "thay-doi-cau-hinh-k8s"
 title: "Thay Doi Cau Hinh K8S"
-description: ""
+description: "Thay Doi Cau Hinh K8S"
 sidebar_label: "Thay Doi Cau Hinh K8S"
 sidebar_position: 8
 ---

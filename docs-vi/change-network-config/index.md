@@ -1,7 +1,7 @@
 ---
 id: "change-network-config"
 title: "Change Network Config"
-description: ""
+description: "Change Network Config"
 sidebar_label: "Change Network Config"
 sidebar_position: 1
 ---

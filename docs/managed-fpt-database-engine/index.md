@@ -1,7 +1,7 @@
 ---
 id: "managed-fpt-database-engine"
 title: "Managed FPT Database Engine"
-description: ""
+description: "Managed FPT Database Engine"
 sidebar_label: "Managed FPT Database Engine"
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
 id: "fpt-cloud-waf"
 title: "FPT Cloud WAF"
-description: ""
+description: "FPT Cloud WAF"
 sidebar_label: "FPT Cloud WAF"
 sidebar_position: 1
 ---
