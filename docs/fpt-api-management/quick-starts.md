@@ -1,12 +1,12 @@
 ---
 id: "quick-starts"
-title: "Quick Starts"
-description: "_User Type: API Provider_"
-sidebar_label: "Quick Starts"
+title: "Quick starts"
+description: "End-to-end flow to register and configure API Management as an API Provider."
+sidebar_label: "Quick starts"
 sidebar_position: 3
 ---
 
-# Quick Starts
+# Quick starts
 
 ### 1. Registering for FPT API Management Service
 _User Type: API Provider_

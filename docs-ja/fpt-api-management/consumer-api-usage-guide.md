@@ -9,7 +9,7 @@ pagination_next: null
 
 # API Consumer 向け利用ガイド
 
-## 1. API Provider からの情報受け取り
+## API Provider からの情報受け取り
 
 利用を開始するには、クライアントは以下の情報が必要です。
 
@@ -24,7 +24,7 @@ pagination_next: null
     - **Add to:** Header
 - **認可されたサイト。**
 
-## 2. Postman の使用
+## Postman の使用
 
 必要な情報が揃ったら、クライアントは Postman を使って API Management から提供された API を呼び出せます。
 

@@ -1,7 +1,7 @@
 ---
 id: "fpt-api-management"
 title: "FPT API Management"
-description: "All documents"
+description: "FPT API Management provides a professional, centralized API management system for integration."
 sidebar_label: "FPT API Management"
 sidebar_position: 1
 ---

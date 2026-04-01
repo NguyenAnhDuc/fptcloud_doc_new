@@ -1,7 +1,7 @@
 ---
 id: "analytics"
 title: "Analytics"
-description: "_User Type: API Provider_"
+description: "View API usage statistics and logging on FPT API Management."
 sidebar_label: "Analytics"
 sidebar_position: 10
 ---

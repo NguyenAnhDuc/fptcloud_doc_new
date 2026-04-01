@@ -1,13 +1,13 @@
 ---
 id: "consumer-api-usage-guide"
-title: "Consumer Api Usage Guide"
-description: "To begin using the APIs, clients will need to acquire the following information:"
-sidebar_label: "Consumer Api Usage Guide"
+title: "API Consumer usage guide"
+description: "Guide for API Consumers to obtain credentials and call APIs using Postman."
+sidebar_label: "API Consumer usage guide"
 sidebar_position: 11
 pagination_next: null
 ---
 
-# Consumer Api Usage Guide
+# API Consumer usage guide
 
 ### 1. Receiving Information from API Provider
 To begin using the APIs, clients will need to acquire the following information:

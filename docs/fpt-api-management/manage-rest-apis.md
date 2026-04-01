@@ -1,12 +1,12 @@
 ---
 id: "manage-rest-apis"
-title: "Manage Rest Apis"
-description: "**Step 1** : In the **Application** menu, navigate to **API Manager** > **Rest APIs** > click **Create**."
-sidebar_label: "Manage Rest Apis"
+title: "Managing REST APIs"
+description: "Create, edit, and delete REST APIs on FPT API Management."
+sidebar_label: "Managing REST APIs"
 sidebar_position: 6
 ---
 
-# Manage Rest Apis
+# Managing REST APIs
 
 ### 1. Creating REST APIs
 **Step 1** : In the **Application** menu, navigate to **API Manager** > **Rest APIs** > click **Create**.

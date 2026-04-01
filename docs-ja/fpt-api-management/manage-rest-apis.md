@@ -8,7 +8,7 @@ sidebar_position: 6
 
 # REST API の管理
 
-## 1. REST API の作成
+## REST API の作成
 
 1. メニューの **Application** > **API Manager** > **Rest Apis** で **Create** を選択します。
 

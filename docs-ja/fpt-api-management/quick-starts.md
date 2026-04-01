@@ -12,7 +12,7 @@ sidebar_position: 3
 **対象ユーザー:** API Provider
 :::
 
-## 1. API Management サービスの登録
+## API Management サービスの登録
 
 **API Provider** アカウントを登録するにはサービスクォータの付与が必要です。ご利用をご希望の場合はお問い合わせください。
 
@@ -54,7 +54,7 @@ sidebar_position: 3
 
 [![Userguide FPT API Management 5](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)
 
-## 2. REST API の登録
+## REST API の登録
 
 サービス登録後、管理対象の API を **API Management** に登録して一元管理します。
 
@@ -83,7 +83,7 @@ sidebar_position: 3
 
 [![Userguide FPT API Management 8](/img/migrated/Userguide-FPT-API-Management-8-1024x538-c2bb67f9.png)](/img/migrated/Userguide-FPT-API-Management-8-1024x538-c2bb67f9.png)
 
-## 3. Product の作成
+## Product の作成
 
 **Product** は API を共通目的・共通クライアント等でグループ化するエンティティです。個々の API を設定するかわりに、1 つの Product を設定するだけで済みます。
 
@@ -102,7 +102,7 @@ sidebar_position: 3
 
 [![Userguide FPT API Management 11](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)
 
-## 4. Product への API の割り当て
+## Product への API の割り当て
 
 1. **Product Management** で API を割り当てる **Product** を選択し、**Register API** を選択します。
 
@@ -125,7 +125,7 @@ sidebar_position: 3
 - Product は、その Product 内の API グループをどの種類の Consumer に公開するかに影響します。
 :::
 
-## 5. 新しい Site の作成
+## 新しい Site の作成
 
 Site は Product と Portal をマッピングするエンティティです。
 
@@ -151,7 +151,7 @@ Site は Product と Portal をマッピングするエンティティです。
 
 [![Userguide FPT API Management 18](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)
 
-## 6. Product の Staging
+## Product の Staging
 
 Product と Site を作成した後、使用前に Product を対応する Site に stage する必要があります。
 
@@ -178,7 +178,7 @@ Product と Site を作成した後、使用前に Product を対応する Site 
 - Site はその Site に表示される Product（および Product 内の API）を決定します。
 :::
 
-## 7. Product の Publish
+## Product の Publish
 
 Staging 後も Product はプライベート状態のままです。Consumer が Product 内の API を使用できるようにするには Publish を実行する必要があります。
 
@@ -194,7 +194,7 @@ Staging 後も Product はプライベート状態のままです。Consumer が
 
 [![Userguide FPT API Management 25](/img/migrated/Userguide-FPT-API-Management-25-1024x556-cd93e7e6.png)](/img/migrated/Userguide-FPT-API-Management-25-1024x556-cd93e7e6.png)
 
-## 8. 新しい Consumer の作成
+## 新しい Consumer の作成
 
 **Consumer** は API を利用するエンドユーザーであり、付与された Product 内のすべての API を使用できます。
 
@@ -224,7 +224,7 @@ Staging 後も Product はプライベート状態のままです。Consumer が
 
 [![Userguide FPT API Management 28](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)
 
-## 9. Product のサブスクライブ
+## Product のサブスクライブ
 
 **Consumer** を作成した後、プロバイダーは Consumer が **Product** をサブスクライブするよう指定することで、Consumer がその Product 内の API を使用できるようになります。
 
@@ -250,7 +250,7 @@ Product が publish 状態でない場合、Consumer はサブスクライブ画
 
 以上の手順が完了すると、クライアントはプロバイダーが提供する API を利用できるようになります。
 
-## 10. API Provider からの情報受け取り
+## API Provider からの情報受け取り
 
 利用を開始するには、クライアントは以下の情報が必要です。
 
@@ -265,7 +265,7 @@ Product が publish 状態でない場合、Consumer はサブスクライブ画
     - **Add to:** Header
 - **認可されたサイト。**
 
-## 11. Postman の使用
+## Postman の使用
 
 必要な情報が揃ったら、クライアントは Postman を使って API Management から API を呼び出せます。
 

@@ -1,12 +1,12 @@
 ---
 id: "declaring-information"
-title: "FPT API Management"
-description: "All documents"
-sidebar_label: "FPT API Management"
+title: "Declaring information on ApiManager Application"
+description: "Configure settings on the ApiManager Application after registering the service."
+sidebar_label: "Declaring information on ApiManager"
 sidebar_position: 5
 ---
 
-# FPT API Management
+# Declaring information on ApiManager Application
 
 All documents
 FPT Security 

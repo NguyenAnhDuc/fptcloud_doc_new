@@ -8,7 +8,7 @@ sidebar_position: 7
 
 # Product の管理
 
-## 1. Product の作成
+## Product の作成
 
 1. メニューの **Application** > **API Manager** > **Products** で **Create** を選択します。
 
@@ -27,7 +27,7 @@ sidebar_position: 7
 
 **Create** ボタンが無効な場合は、API Management のサービスプランを確認してください。**Pilot** および **Normal** プランでは、最大 1 つの **Product** のみ作成できます。
 
-## 2. Product 情報の編集
+## Product 情報の編集
 
 1. **Product Management** で変更対象の **Product** を選択し、**Edit** を選択します。
 
@@ -39,7 +39,7 @@ sidebar_position: 7
 
 すべての項目を入力し、Product 作成時と同じバリデーションに従ってください。
 
-## 3. Product への API の割り当て
+## Product への API の割り当て
 
 1. **Product Management** で API を割り当てる **Product** を選択し、**Register API** を選択します。
 
@@ -63,7 +63,7 @@ sidebar_position: 7
 - Product は、その Product 内の API グループをどの種類の Consumer に公開するかに影響します。
 :::
 
-## 4. Product から API を外す
+## Product から API を外す
 
 1. **Product Management** で **Product** > **Register API** を選択します。
 
@@ -77,7 +77,7 @@ sidebar_position: 7
 
 [![Userguide FPT API Management 45](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)
 
-## 5. Product の削除
+## Product の削除
 
 **Product** を削除するには、対象の **Product** に **REST API** が割り当てられていないことを確認してください。「**Product から API を外す**」の手順に従って API を削除してください。
 

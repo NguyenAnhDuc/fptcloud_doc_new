@@ -1,12 +1,12 @@
 ---
 id: "registering-on-fpt-portal"
-title: "Registering On Fpt Portal"
-description: "_User Type: API Provider._"
-sidebar_label: "Registering On Fpt Portal"
+title: "Register API Management on FPT Portal"
+description: "Register an API Provider account and initialize the API Management service on FPT Portal."
+sidebar_label: "Register on FPT Portal"
 sidebar_position: 4
 ---
 
-# Registering On Fpt Portal
+# Register API Management on FPT Portal
 
 _User Type: API Provider._
 **Step 1** : To register a new API Provider account, from the FPT Cloud Portal menu, select **API Management** > **Create**.

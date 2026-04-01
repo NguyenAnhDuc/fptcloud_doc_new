@@ -1,14 +1,16 @@
 ---
 id: "quan-ly-rest-apis"
 title: "Quản lý REST APIs"
-description: "**Bước 1:** Ở menu **Application** > **API Manager** > **Rest Apis**. Chọn **Create**."
+description: "Hướng dẫn khai báo, chỉnh sửa và xóa REST APIs trên FPT API Management."
 sidebar_label: "Quản lý REST APIs"
 sidebar_position: 6
 ---
 
-# Quan Ly Rest Apis
+# Quản lý REST APIs
 
-## 1. Khai báo REST APIs
+REST APIs là thành phần cốt lõi của API Management — cho phép bạn đăng ký, quản lý và phân phối API tới các consumer.
+
+## Khai báo REST APIs
 **Bước 1:** Ở menu **Application** > **API Manager** > **Rest Apis**. Chọn **Create**.
 [![Userguide FPT API Management 6](/img/migrated/Userguide-FPT-API-Management-6-1024x538-b760ac40.png)](/img/migrated/Userguide-FPT-API-Management-6-1024x538-b760ac40.png)
 **Bước 2:** Nhập các thông tin cần thiết:
@@ -42,7 +44,7 @@ Format cần nhập phải chính xác như sau:
 Bước 3: Chọn button Parse > chọn button Import.
 Các API được khai báo thành công hiển thị trong bảng Import APIs.
 Nếu có lỗi xảy ra, thông báo lỗi sẽ hiển thị trong mục Import Error.
-## 2. Sửa REST APIs
+## Chỉnh sửa REST APIs
 Để thay đổi thông tin của một **REST APIs** , bạn thao tác như sau:
 **Bước 1:** Ở **Rest APIs Management** , chọn **Rest APIs** cần thay đổi thông tin > **Edit.**
 [![Userguide FPT API Management 38](/img/migrated/Userguide-FPT-API-Management-38-1024x538-b5f27198.png)](/img/migrated/Userguide-FPT-API-Management-38-1024x538-b5f27198.png)

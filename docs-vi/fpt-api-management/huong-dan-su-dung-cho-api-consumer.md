@@ -1,15 +1,15 @@
 ---
 id: "huong-dan-su-dung-cho-api-consumer"
 title: "Hướng dẫn sử dụng cho API Consumer"
-description: "Để có thể bắt đầu sử dụng, client sẽ cần có các thông tin sau:"
+description: "Hướng dẫn API Consumer nhận thông tin xác thực và sử dụng API thông qua Postman."
 sidebar_label: "Hướng dẫn sử dụng cho API Consumer"
 sidebar_position: 11
 pagination_next: null
 ---
 
-# Huong Dan Su Dung Cho Api Consumer
+# Hướng dẫn sử dụng cho API Consumer
 
-## 1. Nhận thông tin từ API Provider
+## Nhận thông tin từ API Provider
 Để có thể bắt đầu sử dụng, client sẽ cần có các thông tin sau:
   * **Endpoint của API** : Được cung cấp theo hướng dẫn [**Lấy thông tin Endpoint của Product.**](../fpt-api-management/index.md)
   * **Authorization:** Phương thức xác thực của **Consumer**. Hiện tại đang hỗ trợ **Basic** hoặc **API Key**.
@@ -26,7 +26,7 @@ Hoặc có thể lấy theo hướng dẫn [Lấy thông tin xác thực của C
     * **Add to:**
   * **Site được ủy quyền.**
 
-## 2. Sử dụng Postman
+## Sử dụng Postman
 Khi đã có đủ thông tin, client có thể sử dụng Postman để bắt đầu dùng API được cung cấp từ API Management.
 **Bước 1:** Nhập endpoint và chọn method gọi API.
 [![Userguide FPT API Management 33](/img/migrated/Userguide-FPT-API-Management-33-1024x640-6851d77f.png)](/img/migrated/Userguide-FPT-API-Management-33-1024x640-6851d77f.png)

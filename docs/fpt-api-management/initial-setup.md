@@ -1,12 +1,12 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
-description: "If this is the first time you use the **FPT API Management** service, first, double-check that you have completed the fo"
-sidebar_label: "Initial Setup"
+title: "Initial setup"
+description: "Steps to complete before using FPT API Management for the first time."
+sidebar_label: "Initial setup"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Initial setup
 
 If this is the first time you use the **FPT API Management** service, first, double-check that you have completed the following steps:
   * **Create a FPT Cloud account and log in to the FPT Cloud Portal.**

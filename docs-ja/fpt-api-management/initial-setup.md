@@ -10,7 +10,7 @@ sidebar_position: 2
 
 **FPT API Management** を初めてご利用の場合は、開始前に以下の手順を確認・完了してください。
 
-## 1. FPT Cloud アカウントの作成と FPT Portal へのログイン
+## FPT Cloud アカウントの作成と FPT Portal へのログイン
 
 **FPT API Management** をご利用いただくには、**FPT Portal** へのログインが必要です。
 

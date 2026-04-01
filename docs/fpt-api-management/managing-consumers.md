@@ -1,7 +1,7 @@
 ---
 id: "managing-consumers"
 title: "Managing Consumers"
-description: "After the provider publishes a product on a site, the client cannot immediately use those APIs. To enable client access,"
+description: "Create consumers, subscribe products, and manage API access credentials."
 sidebar_label: "Managing Consumers"
 sidebar_position: 9
 pagination_next: null

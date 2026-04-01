@@ -1,7 +1,7 @@
 ---
 id: "managing-sites"
 title: "Managing Sites"
-description: "A **Site** is an entity used to map products to a portal."
+description: "Create Sites to publish Products and manage API endpoints for consumers."
 sidebar_label: "Managing Sites"
 sidebar_position: 8
 ---

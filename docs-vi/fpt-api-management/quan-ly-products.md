@@ -1,14 +1,16 @@
 ---
 id: "quan-ly-products"
 title: "Quản lý Products"
-description: "**Bước 1:** Ở menu **Application** > **API Manager** > **Products** , chọn **Create.**"
+description: "Hướng dẫn khai báo, gắn API, chỉnh sửa và xóa Products trên FPT API Management."
 sidebar_label: "Quản lý Products"
 sidebar_position: 7
 ---
 
-# Quan Ly Products
+# Quản lý Products
 
-## 1. Khai báo Product
+Products giúp bạn nhóm các REST APIs lại với nhau để quản lý và phân phối tới consumer một cách có tổ chức.
+
+## Khai báo Product
 **Bước 1:** Ở menu **Application** > **API Manager** > **Products** , chọn **Create.**
 [![Userguide FPT API Management 9](/img/migrated/Userguide-FPT-API-Management-9-1024x538-a464f0e4.png)](/img/migrated/Userguide-FPT-API-Management-9-1024x538-a464f0e4.png)
 **Bước 2:** Nhập các thông tin theo yêu cầu:
@@ -20,14 +22,14 @@ sidebar_position: 7
 **Bước 3** : Chọn **OK** để tiến hành tạo **Product**.
 [![Userguide FPT API Management 11](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)
 Nếu nút **Creat** bị disable, hãy kiểm tra lại gói dịch vụ API Management của bạn. Với gói **Pilot** và **Normal** , chỉ có thể tạo tối đa 1 **Product** trên hệ thống.
-## 2. Sửa thông tin của Product
+## Chỉnh sửa thông tin Product
 Để thay đổi thông tin của một **Product** , bạn thao tác như sau:
 **Bước 1:** Ở **Product Management** , chọn **Product** cần thay đổi thông tin > Chọn **Edit**.
 [![Userguide FPT API Management 42](/img/migrated/Userguide-FPT-API-Management-42-1024x538-10a13d66.png)](/img/migrated/Userguide-FPT-API-Management-42-1024x538-10a13d66.png)
 **Bước 2** : Nhập các thông tin mới và chọn **OK**.
 [![Userguide FPT API Management 43](/img/migrated/Userguide-FPT-API-Management-43-1024x538-26ece1a3.png)](/img/migrated/Userguide-FPT-API-Management-43-1024x538-26ece1a3.png)
 Cần nhập đầy đủ các trường dữ liệu và tuân thủ các validation tương tự khi tạo Product.
-## 3. Gắn APIs vào Product
+## Gắn APIs vào Product
 Để gán API vào một **Product** , bạn thao tác như sau:
 **Bước 1:** Ở **Product Management** , chọn **Product** cần gán API. Chọn **Register API.**
 [![Userguide FPT API Management 12](/img/migrated/Userguide-FPT-API-Management-12-1024x538-a6a0d5d9.png)](/img/migrated/Userguide-FPT-API-Management-12-1024x538-a6a0d5d9.png)
@@ -42,7 +44,7 @@ Cần nhập đầy đủ các trường dữ liệu và tuân thủ các valida
   * 1 API cũng có thể xuất hiện cùng lúc trong nhiều product
   * Product sẽ ảnh hưởng tới việc group API trong product đó được publish ra tới loại consumer nào.
 
-## 4. Gỡ APIs khỏi Product
+## Gỡ APIs khỏi Product
 Để gỡ API vào **Product** , bạn thao tác như sau:
 **Bước 1:** Ở **Product Management** , chọn **Product** > **Register API.**
 [![Userguide FPT API Management 12](/img/migrated/Userguide-FPT-API-Management-12-1024x538-a6a0d5d9.png)](/img/migrated/Userguide-FPT-API-Management-12-1024x538-a6a0d5d9.png)
@@ -50,7 +52,7 @@ Cần nhập đầy đủ các trường dữ liệu và tuân thủ các valida
 [![Userguide FPT API Management 44](/img/migrated/Userguide-FPT-API-Management-44-1024x538-ce6ff282.png)](/img/migrated/Userguide-FPT-API-Management-44-1024x538-ce6ff282.png)
 **Bước 3** : Chọn **Yes** để xác nhận.
 [![Userguide FPT API Management 45](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)
-## 5. Xóa Product
+## Xóa Product
 Để xóa một **Product** đã khai báo trước đó khỏi hệ thống, bạn cần đảm bảo **Product** đấy đang không gắn **REST APIs** nào. Để gỡ **RestAPIs** khỏi **Product** , hãy thao tác theo hướng dẫn ở phần **Gỡ APIs khỏi Product.**
 Để xóa **Product** , bạn thao tác như sau:
 **Bước 1:** Ở **Product Management** , chọn **Product** cần xóa > **Remove product**.

@@ -1567,7 +1567,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT API Management',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-api-management/initial-setup', label: 'Thiết lập ban đầu' },

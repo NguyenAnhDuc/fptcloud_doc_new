@@ -1,7 +1,7 @@
 ---
 id: "managing-products"
 title: "Managing Products"
-description: "**Step 1** : In the **Application** menu, go to **API Manager** > **Products**. Click **Create**."
+description: "Create, assign APIs, edit, and delete Products on FPT API Management."
 sidebar_label: "Managing Products"
 sidebar_position: 7
 ---
