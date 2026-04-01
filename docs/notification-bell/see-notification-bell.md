@@ -7,13 +7,13 @@ sidebar_position: "4"
 
 # See Notification Bell
 
-Khi nhấp vào chuông thông báo sẽ cung cấp cho bạn một danh sách thả xuống hiển thị danh sách các hành động. Thông báo mới (Unread) sẽ được đánh dấu chấm tròn màu xanh, trong khi các thông báo đã xem thì sẽ không được đánh dấu.
+Khi nhấp ando chuông notification will cung cấp for you a danh sách thả xuống displayed danh sách the hành động. Thông báo mới (Unread) will is đánh dấu chấm tròn màu xanh, in when the notification has been xem thì will không is đánh dấu.
 [![file](/img/migrated/image-1710299730130-8b36f355.png)](/img/migrated/image-1710299730130-8b36f355.png)
-Thông báo sẽ chứa chi tiết hoạt động, thời gian thông báo và liên kết trực tiếp đến nội dung. Bạn cũng sẽ có một liên kết ở cuối modal, cung cấp quyền truy cập nhanh vào tất cả các thông báo của bạn
+Thông báo will chứa chi tiết hoạt động, thời gian notification and liên kết trực tiếp to nội dung. Bạn cũng will có a liên kết ở cuối modal, cung cấp permission truy cập nhanh ando tất cả the notification of you
 [![file](/img/migrated/image-1710299747410-1e381598.png)](/img/migrated/image-1710299747410-1e381598.png)
 [![file](/img/migrated/image-1710299754850-658fb832.png)](/img/migrated/image-1710299754850-658fb832.png)
-Sau khi bạn nhấn chuột qua thông báo, việc nhấp vào bất kì đâu bên trong thông báo sẽ đưa bạn đến trang thông tin chi tiết để bạn xem nội dung. 
+Sau when you nhấn chuột qua notification, việc nhấp ando bất kì đâu bên in notification will đưa you to trang thông tin chi tiết to you xem nội dung. 
 [![file](/img/migrated/image-1710299771152-56464fc7.png)](/img/migrated/image-1710299771152-56464fc7.png)
-**Một số điều bạn cần lưu ý:**
-  * Khi bạn nhấp vào chuông thông báo, nếu bạn nhấp vào **Mark all read** có nghĩa là tất cả những thông báo có trạng thái chưa đọc (Unread) sẽ chuyển sang trạng thái đã đọc
-  * Nếu bạn thực hiện nhiều hành động trên hệ thống cùng một lúc, thông báo sẽ xuất hiện lần lượt theo thứ tự các hành động bạn thực hiện.
+**Một số điều you cần lưu ý:**
+  * Khi you nhấp ando chuông notification, if you nhấp ando **Mark all read** có nghĩa là tất cả những notification có status chưa đọc (Unread) will chuyển sang status has been đọc
+  * Nếu you thực hiện nhiều hành động trên hệ thống cùng a lúc, notification will appears lần lượt theo thứ tự the hành động you thực hiện.

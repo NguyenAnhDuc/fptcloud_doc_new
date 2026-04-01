@@ -10,7 +10,6 @@ sidebar_position: 11
 
 Ngoài việc sử dụng trực tiếp trên FPT Portal, bạn có thể đăng nhập và sử dụng trên tất cả các S3-SDK hoặc S3-Client khác theo chuẩn AWS S3.
 Dưới đây là hướng dẫn sử dụng trên **S3 Browser** , một client cơ bản với GUI trực quan, dễ dàng tiếp cận nhất. FPT Cloud khuyến khích bạn nên sử dụng ứng dụng này vì nó là phần mềm miễn phí, phổ biến và hỗ trợ đầy đủ chức năng.
-Nếu bạn cần hướng dẫn tích hợp vào các SDK hoặc Client khác, hãy tham khảo phần [**Tích hợp FPT Object Storage với các S3-Client.**](https://fptcloud.com/documents/object-storage/?doc=tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client "Link title")
 Tải và cài đặt S3 Brower tại: <https://s3browser.com/download.aspx>
 Các thông tin cần để đăng nhập trên **S3 Browser** :  
 | Thông tin đăng nhập  | Ví dụ  |  

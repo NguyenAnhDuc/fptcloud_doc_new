@@ -7,4 +7,4 @@ sidebar_position: "2"
 
 # Initial setup
 
-Nếu đây là lần đầu tiên bạn sử dụng **Relation management** của **FPT Monitoring** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:
+Nếu đây là lần đầu tiên you sử dụng **Relation management** of **FPT Monitoring** , trước tiên hãy kiểm tra and hoàn thành the công việc sau:

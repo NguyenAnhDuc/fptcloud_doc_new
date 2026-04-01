@@ -6,6 +6,6 @@ sidebar_label: "Xuất báo cáo"
 sidebar_position: "16"
 ---
 
-# Xuất báo cáo
+# Xuất report
 
-Xuất báo cáo on FPT Cloud VA.
+Xuất report on FPT Cloud VA.

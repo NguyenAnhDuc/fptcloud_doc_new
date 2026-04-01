@@ -11,8 +11,6 @@ pagination_next: null
 
 MFKE サービスでは、ワーカープール内のワーカーのフレーバー設定を直接更新することはできません。代わりに、希望するフレーバー設定で新しいワーカープールを作成する必要があります。これは MFKE サービスの FAQs ドキュメントの項目 9 でも説明されています。
 
-[http://fptcloud.com/documents/managed-fpt-kubernetes-engine/?doc=mfke-faqs](http://fptcloud.com/documents/managed-fpt-kubernetes-engine/?doc=mfke-faqs)
-
 **MFKE サービスでワーカープールのフレーバーを変更する方法**
 
 **ステップ 1: 新しいワーカープールを作成します。**

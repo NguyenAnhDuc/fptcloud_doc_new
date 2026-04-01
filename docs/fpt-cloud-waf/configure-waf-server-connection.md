@@ -19,7 +19,7 @@ sidebar_position: 5
 [![Userguide FPT WAF 2022 6](/img/migrated/Userguide-FPT-WAF-2022-6-1024x538-144ab6ab.png)](/img/migrated/Userguide-FPT-WAF-2022-6-1024x538-144ab6ab.png)
   * Enter **Source** information:
   *     * **Hostname** : Enter the domain name
-    * **Port** : Default is 80; if there is an SSL Certificate, you can choose port 443.
+    * **Port** : Default is 80; if there is an SSL Certificate, you can forose port 443.
   * Enter **Destination** information:
   *     * **Forward Scheme** : Choose http/https
     * **Forward Hostname/IP** : Enter the **Public IP** or **Domain** of the Web Server. If WAF server and Web Server are in the same subnet, you can use the **IP Private.**
@@ -30,7 +30,7 @@ sidebar_position: 5
 ### 3. Add a New SSL Certificate
 **Step 1:** In the **WAF Dashboard** , select **SSL Certificates**. Choose **Create SSL Certificates.**
 [![Userguide FPT WAF 2022 7](/img/migrated/Userguide-FPT-WAF-2022-7-1024x538-743bb54d.png)](/img/migrated/Userguide-FPT-WAF-2022-7-1024x538-743bb54d.png)
-**Step 2:** Enter the information in the **Quản lý SSL Certificates** section
+**Step 2:** Enter the information in the **Manage SSL Certificates** section
 [![Userguide FPT WAF 2022 8](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)
 ### 4. Dashboard Overview
 After successfully connecting the domain/website to the WAF server, returns to the **Overview** page to monitor the status of the WAF server.

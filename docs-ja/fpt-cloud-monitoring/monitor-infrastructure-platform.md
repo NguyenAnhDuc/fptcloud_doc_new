@@ -7,25 +7,23 @@ sidebar_position: "12"
 
 # Monitor Infrastructure Platform
 
-**Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
-**Bước 2** : Trên menu của FPT Cloud Portal, click **Monitoring**. 
-**Bước 3** : Click chi tiết vào một Workspace, sau đó di chuyển tới **Add Data** tab.
-**Bước 4** : Trong tab **Infrastructure services** , hiển thị danh sách các dịch vụ infrastructure đang sẵn có, click vào một dịch vụ bạn muốn monitor.
+**ステップ1:** Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
+**ステップ2:** Trên menu của FPT Cloud Portal, click **Monitoring**. 
+**ステップ3:** Click chi tiết vào một Workspace, sau đó di chuyển tới **Add Data** tab.
+**ステップ4:** Trong tab **Infrastructure services** , hiển thị danh sách các dịch vụ infrastructure đang sẵn có, click vào một dịch vụ bạn muốn monitor.
 [![Alt text](/img/migrated/Picture8-2-102fff27.png)](/img/migrated/Picture8-2-102fff27.png)
 **Bước 5**. Click **Manual** và sau đó làm theo hướng dẫn.
 [![Alt text](/img/migrated/Picture9-2-575519ed.png)](/img/migrated/Picture9-2-575519ed.png)
 Ngoài ra, FPT Monitoring hỗ trợ **tích hợp tự động** **Kubernetes Dedicated** và **Kubernetes Managed**. 
 Việc tích hợp này giúp người dùng có thể cấu hình tích hợp theo dõi **metric và log** của từng cụm cluster dễ dàng và chuyên nghiệp. 
 Để sử dụng tính năng này, người dùng thao tác như sau: 
-**Bước 1** : Trong tab **Infrastructure service** , click **Kubernetes**
+**ステップ1:** Trong tab **Infrastructure service** , click **Kubernetes**
 [![Alt text](/img/migrated/Picture1-4-4251b3d0.png)](/img/migrated/Picture1-4-4251b3d0.png)
-**Bước 2** : Click **Auto**. Tại đây, hiển thị bảng danh sách các cụm cluster **Dedicated** và **Managed**. 
+**ステップ2:** Click **Auto**. Tại đây, hiển thị bảng danh sách các cụm cluster **Dedicated** và **Managed**. 
 [![Alt text](/img/migrated/Picture3-4-ab6aaf3f.png)](/img/migrated/Picture3-4-ab6aaf3f.png)
-**Lưu ý:**
+**注意:**
 Trong trường hợp người dùng chưa có cụm cluster nào hiển thị, người dùng vào phần **Kubernetes** trên menu, click **Create a Kubernetes Engine** để tạo. 
 Hướng dẫn chi tiết khởi tạo Kubernetes người dùng có thể tham khảo tại link sau: 
-<https://fptcloud.com/documents/managed-fpt-kubernetes-engine/>
-<https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/>
 Nếu tenant của bạn không có quyền tạo, hãy liên hệ với đội ngũ admin của chúng tôi để hỗ trợ. 
   * Để tích hợp **Dedicated kubernetes** , bạn thao tác như sau: 
 

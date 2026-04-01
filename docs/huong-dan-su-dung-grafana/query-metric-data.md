@@ -5,9 +5,9 @@ sidebar_label: "Hướng dẫn cách tự xây dựng truy vấn metric data tro
 sidebar_position: "13"
 ---
 
-# Hướng dẫn cách tự xây dựng truy vấn metric data trong Grafana.
+# Hướng dẫn theh tự xây dựng truy vấn metric data in Grafana.
 
-Phần này dành cho người dùng có nhu cầu tự xây dựng truy vấn.
+Phần this dành for user có nhu cầu tự xây dựng truy vấn.
 
 ## Các bước thực hiện
 
@@ -19,10 +19,10 @@ Phần này dành cho người dùng có nhu cầu tự xây dựng truy vấn.
 
 [![Alt text](/img/migrated/Screenshot_31-0fcd00d8.png)](/img/migrated/Screenshot_31-0fcd00d8.png)
 
-**Step 3:** Chọn chế độ code >> Nhập query
+**Step 3:** Chọn chế độ code >> Enter query
 
 **Step 4:** Nhấn button **Run query** ở góc phải màn hình.
 
-Màn hình trả ra kết quả minh họa như sau:
+Màn hình trả ra kết quả minh họa as follows:
 
 [![Alt text](/img/migrated/Screenshot_35-4151422d.png)](/img/migrated/Screenshot_35-4151422d.png)

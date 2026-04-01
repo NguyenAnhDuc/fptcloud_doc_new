@@ -5,28 +5,28 @@ sidebar_label: "Thêm mới một Agent"
 sidebar_position: "7"
 ---
 
-# Thêm mới một Agent
+# Add mới a Agent
 
 **Step 1.** Tại menu FPT Portal > **Jenkins CI** > **Detail Cluster** > **Agent Managements** :
 [![](/img/migrated/Picture9-18241027.png)](/img/migrated/Picture9-18241027.png)
-**Step 2.** Nhấn chọn **Add Agent** để nhập thông tin thêm mới một Agent:
+**Step 2.** Nhấn chọn **Add Agent** to nhập thông tin thêm mới a Agent:
 [![](/img/migrated/Picture10-003a6a70.png)](/img/migrated/Picture10-003a6a70.png)
-Trong đó:
-  * **Agent name** : Nhập tên Agent name
-  * **Resources** : Lựa chọn tài nguyên sử dụng cho Agent
-  * **Descriptions** : Nhập mô tả cho Agent nếu có
+Trong that:
+  * **Agent name** : Enter tên Agent name
+  * **Resources** : Lựa chọn tài nguyên sử dụng for Agent
+  * **Descriptions** : Enter mô tả for Agent if có
 
-**Step 3.** Nhấn chọn **Add** để thêm mới một Agent. Hệ thống sẽ tạo một Agent theo yêu cầu và hiển thị kết quả trên Portal
+**Step 3.** Nhấn chọn **Add** to thêm mới a Agent. System will tạo a Agent theo yêu cầu and displayed kết quả trên Portal
 [![](/img/migrated/Picture11-47d0c513.png)](/img/migrated/Picture11-47d0c513.png)
-Sau khi tạo xong trạng thái của Agent sẽ chuyển sang **Successed**.
+Sau when tạo xong status of Agent will chuyển sang **Successed**.
 [![](/img/migrated/Picture12-216368ab.png)](/img/migrated/Picture12-216368ab.png)
-**Step 4.** Kiểm tra Agent đã được tạo dưới Jenkins instance:
-Đăng nhập vào hệ thống Jenkins > **Manage Jenkins** > **Cloud** :
+**Step 4.** Check Agent has been is tạo dưới Jenkins instance:
+Log in ando hệ thống Jenkins > **Manage Jenkins** > **Cloud** :
 [![](/img/migrated/Picture13-e6968122.png)](/img/migrated/Picture13-e6968122.png)
-Kết quả Jenkins Agent được tạo dưới Jenkins:
+Kết quả Jenkins Agent is tạo dưới Jenkins:
 [![](/img/migrated/Picture14-c2b336f7.png)](/img/migrated/Picture14-c2b336f7.png)
-Người dùng có thể xem thông tin chi tiết cấu hình Agent:
+Người dùng can xem thông tin chi tiết cấu hình Agent:
 [![](/img/migrated/Picture15-1ba3bbd5.png)](/img/migrated/Picture15-1ba3bbd5.png)
 [![](/img/migrated/Picture16-c793efd3.png)](/img/migrated/Picture16-c793efd3.png)
-Note: Khi tạo agent, hệ thống sẽ tự động tạo labels cho agent và cấu hình ở lựa chọn “Only build jobs with label expressions matching this node”. Do đó trong jobs Jenkins người dùng cần lưu ý nhập đúng lables. 
-Ngoài ra, trong quá trình tạo agent, hệ thống sẽ tự động tạo một secret để kết nối đến cụm kubenetes manage agent, nếu người dùng xoá secret này hệ thống sẽ không thể kết nối đến agent: [![](/img/migrated/Picture17-def5a338.png)](/img/migrated/Picture17-def5a338.png)
+Note: Khi tạo agent, hệ thống will tự động tạo labels for agent and cấu hình ở lựa chọn “Only build jobs with label expressions matching this node”. Do that in jobs Jenkins user cần lưu ý nhập đúng lables. 
+Ngoài ra, in quá trình tạo agent, hệ thống will tự động tạo a secret to kết nối to cụm kubenetes manage agent, if user xoá secret this hệ thống will cannot kết nối to agent: [![](/img/migrated/Picture17-def5a338.png)](/img/migrated/Picture17-def5a338.png)

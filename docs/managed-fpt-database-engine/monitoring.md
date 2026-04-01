@@ -28,7 +28,7 @@ Log in to FPT Cloud Portal. From the main menu, select **Database Platform → A
   * **Disintegrate monitoring** : Disables metric/log collection for a database cluster. To disintegrate, on **Workspace List** , select “**Disintegrate** ” for the target workspace. Confirm the action in the warning dialog to complete. After successful disintegration, Intergrated Status changes to “**Disabled** ”, FPT Monitoring stops collecting the corresponding metrics.
 
 ### Step 3: View workspace information
-After monitoring integration is successful (Integrated Status = “**Enabled** ”), select the workspace name to open the workspace details page. On this page, you can access information: Monitoring dashboards, Contact points và Datasources.
+After monitoring integration is successful (Integrated Status = “**Enabled** ”), select the workspace name to open the workspace details page. On this page, you can access information: Monitoring dashboards, Contact points and Datasources.
 [![](/img/migrated/view-workspace-detail-4d7a2af8.png)](/img/migrated/view-workspace-detail-4d7a2af8.png)
 ### Step 4: View monitoring information
 You can view dashboards that display real-time and historical metrics on Grafana by selecting the Dashboard URL, which redirects you to the sign-in page.
@@ -41,7 +41,7 @@ Click “**Toggle Menu** ” > select “**Dashboards** ”. The Dashboards page
 Select a folder to view the corresponding metric:
 [![](/img/migrated/metric-dashboard1-81a75568.png)](/img/migrated/metric-dashboard1-81a75568.png)
 #### View Logs:
-Click “**Toggle Menu** ” > choose “**Explore** ”:
+Click “**Toggle Menu** ” > forose “**Explore** ”:
 [![](/img/migrated/dashboard-log1-1-64999825.png)](/img/migrated/dashboard-log1-1-64999825.png)
 Choose “**Loki** ”:
 [![](/img/migrated/dashboard-log2-8404b97b.png)](/img/migrated/dashboard-log2-8404b97b.png)

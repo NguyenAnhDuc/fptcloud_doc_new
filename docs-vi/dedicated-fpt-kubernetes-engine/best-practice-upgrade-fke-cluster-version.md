@@ -14,7 +14,6 @@ Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Conso
   * Upgrade master với zero downtime: hệ thống tự động upgrade master lên phiên bản kế tiếp VD: 1.21 à 1.22 không có downtime nếu cluster sử dụng mode HA ( 3 master). Với các cluster có 1 master, sẽ mất một vài phút downtime master, trong thời gian đó không thể tác động vào cluster (Kubernetes API) nhưng workload của ứng dụng vẫn hoạt động bình thường. 
   * Upgrade worker với zero downtime: hệ thống tự động Rolling update version từng worker node. Lần lượt các worker sẽ drain hết pod workload và cordon (disable schedule) pods gán vào node cho tới khi node nó update xong. 
 
-Hướng dẫn upgrade trên portal console: tham khảo user guide: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=nang-cap-k8s-version>
 **B. Chi tiết quá trình upgrade của hệ thống:**
 **1. Pre-upgrade**
   * Hệ thống setup môi trường để cluster upgrade 
@@ -40,7 +39,6 @@ Hướng dẫn upgrade trên portal console: tham khảo user guide: <https://fp
   * Nâng cấp version cluster theo từng phiên bản kế tiếp, ví dụ: 1.21 à 1.22 à 1.23 
   * Đảm bảo cluster luôn sử dụng phiên bản mới nhất (tham khảo bảng EOL version) 
   * Backup config của cluster trước khi upgrade: sử dụng các tool CD hoặc backup manifest/helm chart 
-  * Backup master của cluster trước khi upgrade: tham khảo hướng dẫn <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=backup-and-restore-cluster>
   * Triển khai cluster sử dụng HA master (03 master) để đảm bảo không downtime control plane. 
   * Triển khai cluster sử dụng HA worker từ 02 worker trở lên để đảm bảo không downtime workload ứng dụng. 
   * Triển khai các ứng dụng dưới dạng Workload Controller như Deployment, Replicaset, DaemonSet, .. có replica từ 2 trở lên và không nên triển khai các Pod đơn lẻ. 
@@ -48,7 +46,6 @@ Hướng dẫn upgrade trên portal console: tham khảo user guide: <https://fp
   * Triển khai Anti-Affinity rule cho các ứng dụng để đảm bảo ứng dụng chạy trên nhiều worker nodes 
   * Đảm bảo Firewall mở port để hệ thống của FPT kết nối đến cluster trong quá trình upgrade (FKE controller: từ 103.160.90.33 đến <> port tcp 6443, 32085, 2022 
 
-FPT Cloud Portal: từ 103.160.90.36, 103.160.90.37, 103.160.90.39 đến << IP Public Cluster>> port tcp 6443) tham khảo hướng dẫn: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=dfke-advanced-firewall>
   * Thiết kế sizing tài nguyên cho ứng dụng đảm bảo có đủ tài nguyên để để Rolling update worker node (có thể scale thêm 01 worker làm buffer trước khi upgrade version cluster). 
 
 **D. D-FKE EOL Chart**  

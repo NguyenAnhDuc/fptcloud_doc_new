@@ -7,109 +7,8 @@ sidebar_position: "1"
 
 # Fpt Managed Gpu Cluster
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
   * [ ![](/img/migrated/settings-d609e2cc.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=Initial-setup "Initial Setup")
   * [ ![](/img/migrated/icon-networking-ee126f1d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Quản lý Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=quan-ly-managed-gpu-cluster "Quản lý Managed GPU Cluster")
-      * [ Khởi tạo Managed GPU Cluster mới ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=khoi-tao-managed-gpu-cluster-moi "Khởi tạo Managed GPU Cluster mới")
-      * [ Xem danh sách Managed GPU Cluster đã tạo ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=xem-danh-sach-managed-gpu-cluster "Xem danh sách Managed GPU Cluster đã tạo")
-      * [ Lấy thông tin truy cập Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=lay-thong-tin-truy-cap-cluster "Lấy thông tin truy cập Cluster")
-      * [ Xóa Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=xoa-managed-gpu-cluster "Xóa Managed GPU Cluster")
-    * [ Thay đổi cấu hình K8S Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=thay-doi-cau-hinh-k8s "Thay đổi cấu hình K8S Cluster")
-      * [ Add thêm Worker Group ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=add-them-worker-group "Add thêm Worker Group")
-      * [ Tính năng Manual Scale ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=tinh-nang-manual-scale-managed-gpu-cluster "Tính năng Manual Scale")
-      * [ Chỉnh sửa label/taint cho Worker Group ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster "Chỉnh sửa label/taint cho Worker Group")
-      * [ Tính năng chuyển Worker Group base ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=tinh-nang-chuyen-worker-base-managed-gpu-cluster "Tính năng chuyển Worker Group base")
-    * [ Service Type Load-Balancer ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=service-load-balancer-managed-gpu-cluster "Service Type Load-Balancer")
-    * [ Triển khai mô hình DeepSeek-R1 sử dụng Ollama và Open WebUI ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=trien-khai-ung-dung-tren-worker-managed-gpu-cluster "Triển khai mô hình DeepSeek-R1 sử dụng Ollama và Open WebUI")
-    * [ Hướng dẫn tích hợp File Storage – High Performance ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=file-storage-high-performance "Hướng dẫn tích hợp File Storage – High Performance")
-    * [ Slurm on FPTCloud Managed GPU cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=slurm-on-fpt-cloud "Slurm on FPTCloud Managed GPU cluster")
-    * [ VGPU for container ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=vgpu-for-container "VGPU for container ")
-    * [ GPU time sharing ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=gpu-time-sharing "GPU time sharing")
-    * [ MPS GPU sharing ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=mps-gpu-sharing "MPS GPU sharing")
-    * [ Triển khai workload GPU mẫu lên Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=try-example-workload "Triển khai workload GPU mẫu lên Managed GPU Cluster")
-      * [ Serve Gemma open models trên một GPU với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=single-gpu-example "Serve Gemma open models trên một GPU với vLLM")
-      * [ Serve open models trên nhiều GPU với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=multi-gpus-example "Serve open models trên nhiều GPU với vLLM ")
-      * [ Serve open models trên nhiều node với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=multi-nodes-example "Serve open models trên nhiều node với vLLM")
-      * [ Finetune LLM models trên FKE GPU với Unsloth ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=finetune-llm-models "Finetune LLM models trên FKE GPU với Unsloth ")
-
 Managed GPU Cluster (Kubernetes)
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. Managed GPU Cluster (Kubernetes)
@@ -124,32 +23,7 @@ Những điều cần lưu ý trước khi sử dụng **Managed GPU Cluster**?
 
 ##  Trang chủ 
 01Initial Setup 
-  * [ Initial Setup ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=Initial-setup "Initial Setup")
-
 02Hướng dẫn chi tiết (Tutorials) 
-  * [ Quản lý Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=quan-ly-managed-gpu-cluster "Quản lý Managed GPU Cluster")
-    * [ Khởi tạo Managed GPU Cluster mới ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=khoi-tao-managed-gpu-cluster-moi "Khởi tạo Managed GPU Cluster mới")
-    * [ Xem danh sách Managed GPU Cluster đã tạo ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=xem-danh-sach-managed-gpu-cluster "Xem danh sách Managed GPU Cluster đã tạo")
-    * [ Lấy thông tin truy cập Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=lay-thong-tin-truy-cap-cluster "Lấy thông tin truy cập Cluster")
-    * [ Xóa Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=xoa-managed-gpu-cluster "Xóa Managed GPU Cluster")
-  * [ Thay đổi cấu hình K8S Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=thay-doi-cau-hinh-k8s "Thay đổi cấu hình K8S Cluster")
-    * [ Add thêm Worker Group ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=add-them-worker-group "Add thêm Worker Group")
-    * [ Tính năng Manual Scale ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=tinh-nang-manual-scale-managed-gpu-cluster "Tính năng Manual Scale")
-    * [ Chỉnh sửa label/taint cho Worker Group ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster "Chỉnh sửa label/taint cho Worker Group")
-    * [ Tính năng chuyển Worker Group base ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=tinh-nang-chuyen-worker-base-managed-gpu-cluster "Tính năng chuyển Worker Group base")
-  * [ Service Type Load-Balancer ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=service-load-balancer-managed-gpu-cluster "Service Type Load-Balancer")
-  * [ Triển khai mô hình DeepSeek-R1 sử dụng Ollama và Open WebUI ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=trien-khai-ung-dung-tren-worker-managed-gpu-cluster "Triển khai mô hình DeepSeek-R1 sử dụng Ollama và Open WebUI")
-  * [ Hướng dẫn tích hợp File Storage – High Performance ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=file-storage-high-performance "Hướng dẫn tích hợp File Storage – High Performance")
-  * [ Slurm on FPTCloud Managed GPU cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=slurm-on-fpt-cloud "Slurm on FPTCloud Managed GPU cluster")
-  * [ VGPU for container ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=vgpu-for-container "VGPU for container ")
-  * [ GPU time sharing ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=gpu-time-sharing "GPU time sharing")
-  * [ MPS GPU sharing ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=mps-gpu-sharing "MPS GPU sharing")
-  * [ Triển khai workload GPU mẫu lên Managed GPU Cluster ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=try-example-workload "Triển khai workload GPU mẫu lên Managed GPU Cluster")
-    * [ Serve Gemma open models trên một GPU với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=single-gpu-example "Serve Gemma open models trên một GPU với vLLM")
-    * [ Serve open models trên nhiều GPU với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=multi-gpus-example "Serve open models trên nhiều GPU với vLLM ")
-    * [ Serve open models trên nhiều node với vLLM ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=multi-nodes-example "Serve open models trên nhiều node với vLLM")
-    * [ Finetune LLM models trên FKE GPU với Unsloth ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/?doc=finetune-llm-models "Finetune LLM models trên FKE GPU với Unsloth ")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Địa chỉ:
@@ -164,7 +38,7 @@ Email: support@fptcloud.com
 
 [ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
 Về chúng tôi 
-  * [ Giới thiệu chung ](https://fptcloud.com/gioi-thieu/ "Giới thiệu chung")
+  * [ 紹介 chung ](https://fptcloud.com/gioi-thieu/ "紹介 chung")
   * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
   * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
   * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")

@@ -7,41 +7,41 @@ sidebar_position: "23"
 
 # Shared script for code & secret scans
 
-**Guideline: Tích hợp Scanning API của FSP Core Service vào CI/CD Pipelines**
-Hướng dẫn này sẽ hướng dẫn bạn cách tích hợp các endpoint quét dịch vụ lõi FSP vào quy trình CI/CD của mình, cho phép tự động quét mã nguồn, quét bí mật và quét bảo mật hình ảnh container trên mỗi lần thay đổi.
+**Guideline: Tích hợp Scanning API of FSP Core Service ando CI/CD Pipelines**
+Hướng dẫn this will hướng dẫn you theh tích hợp the endpoint quét service lõi FSP ando quy trình CI/CD of mình, for phép tự động quét mã nguồn, quét bí mật and quét security hình ảnh container trên mỗi lần thay đổi.
 [![CICD flow](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)
-### 1. Tổng quan
-Tự động hóa các bước quét bảo mật trong pipeline CI/CD giúp phát hiện lỗ hổng sớm. Hướng dẫn này bao gồm:
-  * Yêu cầu chuẩn bị
+### 1. Overview
+Tự động hóa the bước quét security in pipeline CI/CD giúp phát hiện lỗ hổng sớm. Hướng dẫn this includes:
+  * Requirements chuẩn bị
   * Cách thiết lập xác thực
-  * Các bước tích hợp pipeline cho scan code, scan secret, và scan image
-  * Cấu hình mẫu (GitLab CI, Jenkins)
+  * Các bước tích hợp pipeline for scan code, scan secret, and scan image
+  * Configure mẫu (GitLab CI, Jenkins)
 
-### 2. Yêu cầu chuẩn bị
-  * Tài khoản FSP Core Service đang hoạt động, với Orgid và access_key hợp lệ.
-  * Truy cập được các endpoint API (ví dụ: _/integration/scan-code, /integration/scan-secret, /integration/scan-image_ và các endpoint lấy kết quả tương ứng).
-  * Runner hoặc agent CI/CD có thể kết nối mạng tới API FSP Core Service.
-  * Môi trường shell Unix-like (bash, sh) để viết script gọi HTTP.
+### 2. Requirements chuẩn bị
+  * Tài khoản FSP Core Service is hoạt động, with Orgid and access_key hợp lệ.
+  * Truy cập is the endpoint API (ví dụ: _/integration/scan-code, /integration/scan-secret, /integration/scan-image_ and the endpoint lấy kết quả corresponding).
+  * Runner or agent CI/CD can kết nối network tới API FSP Core Service.
+  * Môi trường shell Unix-like (bash, sh) to viết script gọi HTTP.
 
 ### 3. Đặc tả API
 #### 3.1. Tích hợp scan code
 ##### 3.1.1. Scan toàn bộ mã nguồn
 `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code`
-_Khởi tạo quét mã nguồn cho một kho lưu trữ và commit cụ thể thuộc nhóm FSEC._
-**Yêu cầu**
+_Initialize quét mã nguồn for a kho lưu trữ and commit cụ thể thuộc nhóm FSEC._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, lấy access_key tại màn hình Integration detail[tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
+| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, lấy access_key tại màn hình Integration detail[here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Không  | SHA của commit trên nhánh cần quét  |  
+| commit  | string  | Không  | SHA of commit trên nhánh cần quét  |  
 **Ví dụ**
 
 ```
@@ -91,21 +91,21 @@ Copy{
 
 ##### 3.1.2. Scan theo commit
 `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code?scan-mode=commit`
-_Khởi tạo quét mã nguồn cho một kho lưu trữ và commit cụ thể thuộc nhóm FSEC._
-**Yêu cầu**
+_Initialize quét mã nguồn for a kho lưu trữ and commit cụ thể thuộc nhóm FSEC._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
+| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Có  | SHA của commit trên nhánh cần quét  |  
+| commit  | string  | Có  | SHA of commit trên nhánh cần quét  |  
 **Ví dụ**
 
 ```
@@ -156,21 +156,21 @@ Copy{
 
 #### 3.2. Tích hợp scan secret
 ##### 3.2.1. Scan toàn bộ mã nguồn
-`POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret` _Khởi tạo quét secret cho một kho lưu trữ và commit cụ thể thuộc nhóm FSEC._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret` _Initialize quét secret for a kho lưu trữ and commit cụ thể thuộc nhóm FSEC._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
+| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Không  | SHA của commit trên nhánh cần quét  |  
+| commit  | string  | Không  | SHA of commit trên nhánh cần quét  |  
 **Ví dụ**
 
 ```
@@ -219,21 +219,21 @@ Copy{
 ```
 
 ##### 3.2.2. Scan theo commit
-`POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret?scan-mode=commit` _Khởi tạo quét secret cho một kho lưu trữ và commit cụ thể thuộc nhóm FSEC._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret?scan-mode=commit` _Initialize quét secret for a kho lưu trữ and commit cụ thể thuộc nhóm FSEC._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
+| git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Có  | SHA của commit trên nhánh cần quét  |  
+| commit  | string  | Có  | SHA of commit trên nhánh cần quét  |  
 **Ví dụ**
 
 ```
@@ -283,19 +283,19 @@ Copy{
 ```
 
 #### 3.3. Tích hợp scan image
-`POST /api/v1/xplat/fsp-service/core-service/integration/scan-image` _Khởi tạo quét image cho một kho lưu trữ và commit cụ thể thuộc nhóm FSEC._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/scan-image` _Initialize quét image for a kho lưu trữ and commit cụ thể thuộc nhóm FSEC._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp cho registry image, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
-| image_url  | string  | Có  | Đường dẫn registry và tag của image (ví dụ: repo:tag)  |  
+| team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp for registry image, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
+| image_url  | string  | Có  | Đường dẫn registry and tag of image (ví dụ: repo:tag)  |  
 **Ví dụ**
 
 ```
@@ -343,18 +343,18 @@ Copy{
 ```
 
 #### 3.4. Tích hợp lấy kết quả scan code
-`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-code-result` _Lấy kết quả của một lần quét mã nguồn đã khởi tạo trước đó bằng request_code._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-code-result` _Lấy kết quả of a lần quét mã nguồn has been khởi tạo trước that bằng request_code._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-code  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| request_code  | string  | Có  | Mã yêu cầu trả về from /scan-code  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 **Ví dụ**
 
 ```
@@ -416,18 +416,18 @@ Copy{
 ```
 
 #### 3.5. Tích hợp lấy kết quả scan secret
-`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-secret-result` _Lấy kết quả của một lần quét secret đã khởi tạo trước đó bằng request_code._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-secret-result` _Lấy kết quả of a lần quét secret has been khởi tạo trước that bằng request_code._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-secret  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| request_code  | string  | Có  | Mã yêu cầu trả về from /scan-secret  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 **Ví dụ**
 
 ```
@@ -489,18 +489,18 @@ Copy{
 ```
 
 #### 3.6. Tích hợp lấy kết quả scan image
-`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-image-result` _Lấy kết quả của một lần quét image đã khởi tạo trước đó bằng request_code._
-**Yêu cầu**
+`POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-image-result` _Lấy kết quả of a lần quét image has been khởi tạo trước that bằng request_code._
+**Requirements**
 **_Headers_**  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| Orgid  | string  | Không  | ID tổ chức để xác thực  |  
+| Orgid  | string  | Không  | ID tổ chức to xác thực  |  
 **_Body_**
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-image  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| request_code  | string  | Có  | Mã yêu cầu trả về from /scan-image  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
 **Ví dụ**
 
 ```
@@ -563,23 +563,23 @@ Copy{
 
 ### 4. Pipeline flow
 #### 4.1. Giai đoạn scan code (sau bước checkout source)
-  * **Kích hoạt scan** : 
-  *     * Scan toàn bộ source code: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code` với thông tin chi tiết về repository.
-  *     * Scan thay đổi theo commit: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code?scan-mode=commit` với thông tin chi tiết về repository.
-  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-code-result` và lặp lại đến khi _scan_result_status = SUCCESS_.
-  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ hoặc các ngưỡng chất lượng (quality gate) riêng.
+  * **Activate scan** : 
+  *     * Scan toàn bộ source code: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code` with thông tin chi tiết về repository.
+  *     * Scan thay đổi theo commit: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code?scan-mode=commit` with thông tin chi tiết về repository.
+  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-code-result` and lặp lại to when _scan_result_status = SUCCESS_.
+  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ or the ngưỡng chất lượng (quality gate) riêng.
 
 #### 4.2. Giai đoạn scan secret (sau bước checkout source)
-  * **Kích hoạt scan** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret` với payload giống bước scan code.
-  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-secret-result` và lặp lại đến khi _scan_result_status = SUCCESS_.
-  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ hoặc các ngưỡng chất lượng (quality gate) riêng.
+  * **Activate scan** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-secret` with payload giống bước scan code.
+  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-secret-result` and lặp lại to when _scan_result_status = SUCCESS_.
+  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ or the ngưỡng chất lượng (quality gate) riêng.
 
 #### 4.3. Giai đoạn scan image (sau bước build)
-  * **Kích hoạt scan** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-image` với tag của image.
-  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-image-result` và lặp lại đến khi _scan_result_status = SUCCESS_.
-  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ hoặc các ngưỡng chất lượng (quality gate) riêng.
+  * **Activate scan** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-image` with tag of image.
+  * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-image-result` and lặp lại to when _scan_result_status = SUCCESS_.
+  * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ or the ngưỡng chất lượng (quality gate) riêng.
 
-### 5. Cấu hình mẫu
+### 5. Configure mẫu
 #### 5.1. GitLab CI
 
 ```

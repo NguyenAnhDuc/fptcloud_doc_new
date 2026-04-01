@@ -5,9 +5,9 @@ sidebar_label: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Bla
 sidebar_position: "10"
 ---
 
-# Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.
+# Áp dụng for the IP có status 'Whitelist Failed'/'Blacklist Failed'.
 
-**Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.**
+**Áp dụng for the IP có status 'Whitelist Failed'/'Blacklist Failed'.**
 [![Retry IP](/img/migrated/Screenshot_7-db22b40e.png)](/img/migrated/Screenshot_7-db22b40e.png)
-Chọn IP cần retry và click nút Retry.
-  * IP sẽ được whitelist/blacklist lại với trạng thái **'Whitelisting'/'Blacklisting'** , mọi thao tác trên bảng tương ứng sẽ bị vô hiệu hoá tạm thời cho đến khi hoàn tất.
+Chọn IP cần retry and click nút Retry.
+  * IP will is whitelist/blacklist lại with status **'Whitelisting'/'Blacklisting'** , mọi thao tác trên bảng corresponding will bị vô hiệu hoá tạm thời for to when hoàn tất.

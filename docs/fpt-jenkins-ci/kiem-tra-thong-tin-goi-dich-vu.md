@@ -5,14 +5,14 @@ sidebar_label: "Kiểm tra thông tin gói dịch vụ"
 sidebar_position: "3"
 ---
 
-# Kiểm tra thông tin gói dịch vụ
+# Check thông tin gói service
 
-FPT Cloud cung cấp các gói dịch vụ **Jenkins CI** cho người dùng tại phần **Quota Detail**. 
-Để kiểm tra các gói dịch vụ có thể sử dụng, người dùng có thể thực hiện như sau: 
-  * **Step 1** : Trên Menu của FPT Portal chọn **Jenkins CI** > Chọn **View Details** để kiểm tra gói kích hoạt dịch vụ **FPT Jenkins CI** : 
+FPT Cloud cung cấp the gói service **Jenkins CI** for user tại phần **Quota Detail**. 
+Để kiểm tra the gói service can sử dụng, user can thực hiện as follows: 
+  * **Step 1** : Trên Menu of FPT Portal chọn **Jenkins CI** > Select **View Details** to kiểm tra gói kích hoạt service **FPT Jenkins CI** : 
 
 [![](/img/migrated/Picture2-2-8836c9d9.png)](/img/migrated/Picture2-2-8836c9d9.png)
-  * **Step 2** : Trên Portal sẽ hiển thị thông tin các gói dịch vụ có thể sử dụng
+  * **Step 2** : Trên Portal will displayed thông tin the gói service can sử dụng
 
 [![](/img/migrated/Picture3-2-61deedb9.png)](/img/migrated/Picture3-2-61deedb9.png)
-Mặc định người dùng có thể kích hoạt dịch vụ với gói Basic. Trong trường hợp người dùng muốn sử dụng gói dịch vụ cao hơn vui lòng liên hệ Sales để được nâng gói dịch vụ.
+Mặc định user can kích hoạt service with gói Basic. Trong trường hợp user muốn sử dụng gói service cao hơn vui lòng liên hệ Sales to is nâng gói service.

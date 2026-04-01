@@ -7,27 +7,27 @@ sidebar_position: "13"
 
 # Service Load Balancer Managed Gpu Cluster
 
-Sản phẩm Managed GPU Cluster được phát triển từ Kubernetes Native và tích hợp thêm thêm các thành phần cloud provider vào Kubernetes trong đó có thành phần FPT Cloud Controller Manager. Thành phần này nhằm mục đích quản lý các worker nodes trong cluster và các service dạng Load Balancer. Người dùng có thể có nhiều cách để expose một ứng dụng của mình ra bên ngoài internet để khách hàng của người dùng đó có thể truy cập vào ứng dụng, dịch vụ. Các cách đó có thể bao gồm việc tạo ingress cho service, hoặc tạo service dạng node port và gắn floating cho worker node, hoặc có thể sử dụng service dạng Load Balancer. 
-FPTCloud hỗ trợ người dùng tạo service dạng load balancer với các option đi kèm annotation trong cấu hình của service:   
+Sản phẩm Managed GPU Cluster is phát triển from Kubernetes Native and tích hợp thêm thêm the thành phần cloud provider ando Kubernetes in that có thành phần FPT Cloud Controller Manager. Thành phần this nhằm mục đích quản lý the worker nodes in cluster and the service dạng Load Balancer. Người dùng can có nhiều theh to expose a ứng dụng of mình ra bên ngoài internet to khách hàng of user that can truy cập ando ứng dụng, service. Các theh that can includes việc tạo ingress for service, or tạo service dạng node port and gắn floating for worker node, or can sử dụng service dạng Load Balancer. 
+FPTCloud hỗ trợ user tạo service dạng load balancer with the option đi kèm annotation in cấu hình of service:   
 |   |   |   |   |  
 | --- | --- | --- | --- |  
 | **Key**  | **Value**  | **Default**  | **Mục đích**  |  
 | service.beta.kubernetes.io/fpt-load-balancer-internal  | "true"/"false"  | "false"  | Nếu không muốn expose service ra ngoài internet, cấu hình value là "true"  |  
-| loadbalancer.fptcloud.com/keep-floatingip   | "true"/"false"  | "false"  | Nếu muốn giữ floating IP của service LoadBalancer ở lại trong VPC sau khi xóa service đó, cấu hình value là "true"  |  
+| loadbalancer.fptcloud.com/keep-floatingip   | "true"/"false"  | "false"  | Nếu muốn giữ floating IP of service LoadBalancer ở lại in VPC after xóa service that, cấu hình value là "true"  |  
 | loadbalancer.fptcloud.com/proxy-protocol  | "true"/"false"  | "false"  | Nếu muốn LoadBalancer sử dụng protocol là PROXY, hãy cấu hình value là “true”.   
-Chú ý: Proxy protocol chỉ sử dụng với LoadBalancer layer4  |  
-| loadbalancer.fptcloud.com/enable-health-monitor  | "true"/"false"  | "true"  | Muốn disable health monitor cho LoadBalancer Pool, cấu hình value là “false”  |  
-| service.beta.kubernetes.io/fpt-load-balancer-type  | LBv1 bao gồm:  
+Chú ý: Proxy protocol chỉ sử dụng with LoadBalancer layer4  |  
+| loadbalancer.fptcloud.com/enable-health-monitor  | "true"/"false"  | "true"  | Muốn disable health monitor for LoadBalancer Pool, cấu hình value là “false”  |  
+| service.beta.kubernetes.io/fpt-load-balancer-type  | LBv1 includes:  
 basic/ advanced/ standard/ premium  
-LBv2 bao gồm:   
+LBv2 includes:   
 Basic-1/ Basic-2/ Standard/ Advanced/Premium  | Lbv1: "basic"   
-LBv2: "Basic-1"  | Cấu hình flavor của LoadBalancer để đáp ứng tải tương ứng của ứng dụng đằng sau backend của LoadBalancer pool  |  
-| loadbalancer.fptcloud.com/enable-ingress-hostname  | "true"/"false"  | "false"  | Muốn enable ingress hostname cho service type LoadBalancer, cấu hình value là "true"  |  
-| loadbalancer.fptcloud.com/load-balancer-version  | "v1"/"v2"  | "v1"  | Muốn sử dụng LBv2 cho service type LoadBalancer, cấu hình value là “v2”. Mặc định LBv1 sẽ được tạo ra nếu không cấu hình annotation này  |  
-| loadbalancer.fptcloud.com/x-forwarded-for  | "true"/"false"  | "false"  | Muốn forward header của request tới LoadBalancer pool backend khi sử dụng LoadBalancer layer7, cấu hình value là “true”.   
-Chú ý: Không thể sử dụng proxy protocol và x-forwarded-for cùng một lúc  |  
-Ngoài ra, Managed GPU Cluster hỗ trợ người dùng cấu hình: 
-#### 1. Tạo service type LoadBalancer chỉ định floatingIP gắn vào LoadBalancer:
+LBv2: "Basic-1"  | Configure flavor of LoadBalancer to đáp ứng tải corresponding of ứng dụng đằng sau backend of LoadBalancer pool  |  
+| loadbalancer.fptcloud.com/enable-ingress-hostname  | "true"/"false"  | "false"  | Muốn enable ingress hostname for service type LoadBalancer, cấu hình value là "true"  |  
+| loadbalancer.fptcloud.com/load-balancer-version  | "v1"/"v2"  | "v1"  | Muốn sử dụng LBv2 for service type LoadBalancer, cấu hình value là “v2”. Mặc định LBv1 will is tạo ra if không cấu hình annotation this  |  
+| loadbalancer.fptcloud.com/x-forwarded-for  | "true"/"false"  | "false"  | Muốn forward header of request tới LoadBalancer pool backend when sử dụng LoadBalancer layer7, cấu hình value là “true”.   
+Chú ý: Không thể sử dụng proxy protocol and x-forwarded-for cùng a lúc  |  
+Ngoài ra, Managed GPU Cluster hỗ trợ user cấu hình: 
+#### 1. Create service type LoadBalancer chỉ định floatingIP gắn ando LoadBalancer:
 
 ```
 Copykind: Service
@@ -47,8 +47,8 @@ spec:
       targetPort: web
 ```
 
-Note: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
-#### 2. Giới hạn quyền truy cập vào Load Balancer bằng cấu hình _“loadBalancerSourceRanges”_ trong phần _“spec”_ của cấu hình service:
+Note: IP public cần is allocate ando VPC and ở status Inactive. Người dùng ando mục **Networking - > Floating Ips** to kiểm tra. 
+#### 2. Giới hạn permission truy cập ando Load Balancer bằng cấu hình _“loadBalancerSourceRanges”_ in phần _“spec”_ of cấu hình service:
 
 ```
 Copykind: Service
@@ -70,4 +70,4 @@ spec:
       targetPort: web
 ```
 
-Note: Cấu hình “loadBalancerSourceRanges” chứa mảng các dải IP public được phép truy cập vào Load Balancer. Mặc định M-FKE tạo service type Load Balancer với cấu hình dải IP source là 0.0.0.0/0.
+Note: Configure “loadBalancerSourceRanges” chứa mảng the dải IP public is phép truy cập ando Load Balancer. Mặc định M-FKE tạo service type Load Balancer with cấu hình dải IP source là 0.0.0.0/0.

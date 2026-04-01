@@ -7,9 +7,9 @@ sidebar_position: "4"
 
 # Initial setup
 
-Nếu đây là lần đầu tiên bạn sử dụng FPT ASPM_v1.0, trước tiên hãy kiểm tra và hoàn thành các công việc sau:
-  * Tạo tài khoản **FPT Cloud** và đăng nhập vào FPT Portal
+Nếu đây là lần đầu tiên you sử dụng FPT ASPM_v1.0, trước tiên hãy kiểm tra and hoàn thành the công việc sau:
+  * Create account **FPT Cloud** and đăng nhập ando FPT Portal
 
-Để bắt đầu sử dụng FSP DevSec Service, bạn cần đăng nhập vào FPT Portal. Hãy truy cập vào <https://console.fptcloud.com> và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ. Nếu chưa có tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại <https://fptcloud.com/>.
-Sau đó chọn chức năng Sign Up và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
-Trong qua trình thao tác nếu gặp bất kỳ lỗi nào hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+Để bắt đầu sử dụng FSP DevSec Service, you cần đăng nhập ando FPT Portal. Hãy truy cập ando <https://console.fptcloud.com> and đăng nhập bằng account/password FPT Cloud has been is cấp. Chọn đúng Tenant, Region, VPC cần sử dụng service. Nếu chưa có account FPT Cloud, you hãy truy cập trang chủ tại <https://fptcloud.com/>.
+Sau that chọn chức năng Sign Up and nhập the thông tin theo hướng dẫn of hệ thống. Bạn will is bộ phận hỗ trợ liên hệ ngay sau that and xác nhận the thông tin to tạo account.
+Trong qua trình thao tác if gặp bất kỳ lỗi nào hãy liên hệ ngay for đội ngũ Support of chúng tôi to is hỗ trợ.

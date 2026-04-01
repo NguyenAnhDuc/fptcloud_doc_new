@@ -5,52 +5,52 @@ sidebar_label: "1. Giới thiệu"
 sidebar_position: "9"
 ---
 
-# 1. Giới thiệu
+# 1. Introduction
 
-## Giới thiệu
-Tính năng **Backup Volume** cho phép người dùng tạo bản sao lưu cho các volume trong VPC trên Unify Portal.
-Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi phục khi xảy ra sự cố.
+## Introduction
+Tính năng **Backup Volume** for phép user tạo bản backup for the volume in VPC trên Unify Portal.
+Backup đảm bảo dữ liệu luôn có bản dự phòng and can restore when xảy ra sự cố.
 ## Điều kiện
-  * Đã đăng nhập vào **Unify Portal**.
-  * Dịch vụ **Backup** cho VPC đang ở trạng thái **Enable**.
-  * Tài khoản có quyền `OspNativeBackup:Create`.
-  * Volume cần backup chưa thuộc job khác (volume chỉ có thể nằm trong một job tại một thời điểm).
+  * Đã đăng nhập ando **Unify Portal**.
+  * Dịch vụ **Backup** for VPC is ở status **Enable**.
+  * Tài khoản có permission `OspNativeBackup:Create`.
+  * Volume cần backup chưa thuộc job khác (volume chỉ can nằm in a job tại a thời điểm).
 
-## Tạo Backup Volume
+## Create Backup Volume
 ### Step 1: Mở giao diện Backup & Recovery
 Nhấn nút **Create Backup Job**.
-### Step 2: Nhập thông tin cơ bản
-Trên form **Create Backup Job** , điền các trường sau:
+### Step 2: Enter thông tin cơ bản
+Trên form **Create Backup Job** , điền the trường sau:
   1. **Job Name** (_bắt buộc_): 
-     * Tên job ( không được trùng trong VPC).
+     * Tên job ( không is trùng in VPC).
      * Tối đa 26 ký tự, chỉ chứa chữ, số, dấu .
   2. **Job Type** : chọn **Backup Volume**.
   3. **Description** (_tùy chọn_): mô tả ngắn về job.
-  4. **Target Selection** : chọn các volume cần backup (volume hợp lệ sẽ bắt đầu bằng prefix `pv-fke`).
+  4. **Target Selection** : chọn the volume cần backup (volume hợp lệ will bắt đầu bằng prefix `pv-fke`).
 
-### Step 3: Cấu hình Backup
-  * **Backup Option** (chọn một): 
+### Step 3: Configure Backup
+  * **Backup Option** (chọn a): 
     * **Daily full backup** : tạo bản full mỗi ngày.
-    * **Daily incremental + Weekly active full** : incremental hàng ngày, full theo ngày cố định trong tuần.
-    * **Daily incremental + Monthly active full** : incremental hàng ngày, full theo ngày cố định trong tháng.
-  * **Start Time** : thời gian chạy trong ngày (00:00–23:59).
-  * **Full Backup At** : (chỉ bật khi chọn Weekly/Monthly active full) → chọn ngày chạy full.
+    * **Daily incremental + Weekly active full** : incremental hàng ngày, full theo ngày cố định in tuần.
+    * **Daily incremental + Monthly active full** : incremental hàng ngày, full theo ngày cố định in tháng.
+  * **Start Time** : thời gian chạy in ngày (00:00–23:59).
+  * **Full Backup At** : (chỉ bật when chọn Weekly/Monthly active full) → chọn ngày chạy full.
   * **Latest Backup to Keep** : số bản backup giữ lại (1–1000).
-  * **Notification Email** : thêm email nhận thông báo trạng thái job (thành công/thất bại).
+  * **Notification Email** : thêm email nhận notification status job (successfully/failed).
 
-### Step 4: Tạo job
-  * Nhấn **Create**.
-  * Hệ thống hiển thị thông báo: 
+### Step 4: Create job
+  * Click **Create**.
+  * System displayed notification: 
     * Thành công: _The job [JobName] has been created successfully._
-    * Lỗi: hiển thị chi tiết (ví dụ: job name trùng, volume không hợp lệ, hệ thống bận...).
+    * Lỗi: displayed chi tiết (ví dụ: job name trùng, volume không hợp lệ, hệ thống bận...).
 
-## Quản lý Backup Job
-  * Vào **Backup Jobs** để theo dõi danh sách.
-  * Trạng thái job sẽ được cập nhật tự động.
+## Manage Backup Job
+  * Vào **Backup Jobs** to theo dõi danh sách.
+  * Trạng thái job will is cập nhật tự động.
   * Có thể chỉnh sửa cấu hình retention, email notification.
 
-## Lưu ý quan trọng
-  * Một volume chỉ có thể thuộc **một backup job**.
-  * Job name phải duy nhất trong VPC.
-  * Nên đặt lịch backup ngoài giờ cao điểm để tránh ảnh hưởng hiệu năng.
-  * Backup chỉ giữ lại số bản theo cấu hình retention, các bản cũ hơn sẽ tự xóa.
+## Save ý quan trọng
+  * Một volume chỉ can thuộc **a backup job**.
+  * Job name phải duy nhất in VPC.
+  * Nên đặt lịch backup ngoài giờ cao điểm to tránh ảnh hưởng hiệu năng.
+  * Backup chỉ giữ lại số bản theo cấu hình retention, the bản cũ hơn will tự xóa.

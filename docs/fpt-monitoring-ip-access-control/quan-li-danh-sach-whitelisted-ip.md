@@ -7,7 +7,7 @@ sidebar_position: "6"
 
 # Quan Li Danh Sach Whitelisted Ip
 
-Tính năng IP Access Control quản lí danh sách whitelisted IP theo các thành phần hệ thống FPT Cloud Monitoring của workspace, gồm: 
+Tính năng IP Access Control quản lí danh sách whitelisted IP theo the thành phần hệ thống FPT Cloud Monitoring of workspace, gồm: 
   * Grafana dashboard URL 
   * Metric datasource URL 
   * Log datasource URL 

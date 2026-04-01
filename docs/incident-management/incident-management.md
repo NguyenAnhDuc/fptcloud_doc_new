@@ -1,104 +1,18 @@
 ---
 id: "incident-management-overview"
 title: "Incident Management"
-description: "All documents"
+description: ""
 sidebar_label: "Incident Management"
 sidebar_position: 12
 ---
 
 # Incident Management
 
-All documents
-FPT Security 
-  * [ IAM ](https://fptcloud.com/en/documents/iam-2/ "IAM")
-  * [ FPT Cloud WAF ](https://fptcloud.com/en/documents/fpt-cloud-waf-2/ "FPT Cloud WAF")
-
-Support 
-  * [ Trellix Customer Guide ](https://fptcloud.com/en/documents/trellix-customer-guide-2/ "Trellix Customer Guide")
-
-Billing 
-  * [ AI Factory Billing ](https://fptcloud.com/en/documents/ai-factory-billing/ "AI Factory Billing")
-
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/en/documents/cost-explorer-2/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/en/documents/budget-alert-2/ "Budget Alert")
-
 AI Marketplace 
-  * [ AI Inference ](https://fptcloud.com/en/documents/ai_marketplace/ "AI Inference")
-
 AI Studio 
-  * [ User Token ](https://fptcloud.com/en/documents/user-token/ "User Token")
-  * [ Model Testing - Test Jobs ](https://fptcloud.com/en/documents/model-testing-test-jobs/ "Model Testing - Test Jobs")
-  * [ Model Testing - Interactive Sessions ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/ "Model Testing - Interactive Sessions")
-  * [ Model Serving ](https://fptcloud.com/en/documents/model-serving/ "Model Serving")
-  * [ Model Hub ](https://fptcloud.com/en/documents/model-hub-2/ "Model Hub")
-  * [ Model Fine-Tuning ](https://fptcloud.com/en/documents/model-fine-tuning/ "Model Fine-Tuning")
-  * [ Data Hub ](https://fptcloud.com/en/documents/data-hub/ "Data Hub")
-  * [ AI Notebook ](https://fptcloud.com/en/documents/ai-notebook/ "AI Notebook")
-
-FPT AI Inference 
-AI Inference 
-AI Infrastructure 
-  * [ GPU Virtual Machine ](https://fptcloud.com/en/documents/gpu-virtual-machine-en/ "GPU Virtual Machine")
-  * [ GPU Container ](https://fptcloud.com/en/documents/gpu-container/ "GPU Container")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/en/documents/tagging-2/ "Tagging")
-  * [ FPT Cloud Portal ](https://fptcloud.com/en/documents/fpt-cloud-portal-2/ "FPT Cloud Portal")
-
-FPT Monitoring 
-  * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/ "Incident Management")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/en/documents/fpt-key-vault-2/ "FPT Key Vault")
-  * [ FPT ArgoCD ](https://fptcloud.com/en/documents/fpt-argocd-2/ "FPT ArgoCD")
-
-FPT Integration 
-  * [ FPT Message Bus ](https://fptcloud.com/en/documents/fpt-message-bus/ "FPT Message Bus")
-  * [ FPT Kafka ](https://fptcloud.com/en/documents/fpt-kafka/ "FPT Kafka")
-  * [ FPT API Management ](https://fptcloud.com/en/documents/fpt-api-management-2/ "FPT API Management")
-
-FPT Database Engine 
-  * [ Managed – FPT Database Engine ](https://fptcloud.com/en/documents/managed-fpt-database-engine-2/ "Managed – FPT Database Engine")
-
-FPT Cloud Backup & DR 
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/en/documents/fpt-object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/en/documents/vpn-site-to-site/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/en/documents/65101/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/en/documents/create-vpc/ "Create VPC")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/en/documents/managed-fpt-kubernetes-engine-2/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Container Registry ](https://fptcloud.com/en/documents/fpt-container-registry/ "FPT Container Registry")
-  * [ FPT App Catalogs ](https://fptcloud.com/en/documents/fpt-app-catalogs/ "FPT App Catalogs")
-  * [ Dedicated – FPT Kubernetes Engine ](https://fptcloud.com/en/documents/dedicated-fpt-kubernetes-engine-2/ "Dedicated – FPT Kubernetes Engine")
-
   * [ ![](/img/migrated/setup-2f2dbed5.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/en/documents/incident-management-2/?doc=initial-setup "Initial Setup")
   * [ ![](/img/migrated/HD-nhanh-8b82a061.png) Tutorials ](javascript: "Tutorials")
-    * [ Configure Integrations ](https://fptcloud.com/en/documents/incident-management-2/?doc=configure-integrations "Configure Integrations")
-      * [ Incoming Webhook ](https://fptcloud.com/en/documents/incident-management-2/?doc=incoming-webhook "Incoming Webhook")
-      * [ Outgoing Webhook ](https://fptcloud.com/en/documents/incident-management-2/?doc=outgoing-webhook "Outgoing Webhook")
-      * [ Atlassian Jira ](https://fptcloud.com/en/documents/incident-management-2/?doc=atlassian-jira "Atlassian Jira")
-    * [ Configure Incident Settings ](https://fptcloud.com/en/documents/incident-management-2/?doc=configure-incident-settings "Configure Incident Settings")
-      * [ Incident Label ](https://fptcloud.com/en/documents/incident-management-2/?doc=incident-label "Incident Label")
-      * [ Incident Severity ](https://fptcloud.com/en/documents/incident-management-2/?doc=incident-severity "Incident Severity")
-      * [ Incident Status ](https://fptcloud.com/en/documents/incident-management-2/?doc=incident-status "Incident Status")
-    * [ Create an Incident ](https://fptcloud.com/en/documents/incident-management-2/?doc=create-incident "Create an Incident")
-    * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/?doc=incident-management "Incident Management")
-      * [ View Incident Detail ](https://fptcloud.com/en/documents/incident-management-2/?doc=view-incident-detail "View Incident Detail")
-      * [ Post Incident Activity ](https://fptcloud.com/en/documents/incident-management-2/?doc=post-incident-activity "Post Incident Activity")
-      * [ Change the Incident Status ](https://fptcloud.com/en/documents/incident-management-2/?doc=change-the-incident-status "Change the Incident Status")
-      * [ Change the Incident Severity ](https://fptcloud.com/en/documents/incident-management-2/?doc=change-the-incident-severity "Change the Incident Severity")
-    * [ Incident Data Visualization ](https://fptcloud.com/en/documents/incident-management-2/?doc=incident-data-visualization "Incident Data Visualization")
-
 Incident Management
-  1. [FPT Cloud Portal](https://fptcloud.com/en/documents/ "FPT Cloud Portal")
   2. Incident Management
 
 Incident Management
@@ -108,8 +22,6 @@ Incident Management
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fen%2Fdocuments%2Fincident-management-2%2F "Incident Management")
 
 * * *
-[ Previous Create an Incident ](https://fptcloud.com/en/documents/incident-management-2/?doc=create-incident "Create an Incident") [ Next View Incident Detail ](https://fptcloud.com/en/documents/incident-management-2/?doc=view-incident-detail "View Incident Detail")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Address:

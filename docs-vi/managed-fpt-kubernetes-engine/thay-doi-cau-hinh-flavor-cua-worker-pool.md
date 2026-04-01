@@ -10,7 +10,6 @@ pagination_next: null
 # Thay Doi Cau Hinh Flavor Cua Worker Pool
 
 Dịch vụ MFKE không cho phép update cấu hình flavor của worker trong worker pool một cách trực tiếp, thay vào đó người dùng cần tạo worker pool mới với cấu hình flavor mong muốn cho worker. Điều này đã được đề cập trong mục số 9 của tài liệu FAQs dịch vụ MFKE 
-[http://fptcloud.com/documents/managed-fpt-kubernetes-engine/?doc=mfke-faqs](http://fptcloud.com/documents/managed-fpt-kubernetes-engine/?doc=mfke-faqs)
 **Cách thay đổi flavor của worker pool trong dịch vụ MFKE**
 **Bước 1: Tạo worker pool mới**
   * Tạo một worker pool mới với cấu hình flavor mà bạn mong muốn.

@@ -66,8 +66,6 @@ Khi khởi tạo LB, hệ thống tự động gợi ý tạo kèm 2 cảnh báo
 
 Người dùng sẽ cần chọn người nhận cảnh báo (Recipient) hoặc tạo mới nếu chưa có (hỗ trợ các phương thức Email, Telegram, Slack, Teams) 
 Các cảnh báo được gợi ý tích hợp với dịch vụ Cloud Guard để tạo cảnh báo, như hình sau: [![file](/img/migrated/image-1767670460483-a8f82152.png)](/img/migrated/image-1767670460483-a8f82152.png)
-Người dùng có thể thêm bớt hoặc chỉnh sửa cảnh báo tùy vào nhu cầu sử dụng. Tài liệu chi tiết về cảnh báo Cloud Guard cho Load Balancer xem tại đây [Khởi tạo cảnh báo cho Load Balancer](https://fptcloud.com/documents/cloud-guard/?doc=khoi-tao-canh-bao-load-balancer "Khởi tạo cảnh báo cho Load Balancer")
-
 ```
 CopyLưu ý: Khởi tạo Load Balancer có thể mất 1 lúc, người dùng vui lòng chờ đến khi LB active rồi mới tiếp tục thao tác.
 ```

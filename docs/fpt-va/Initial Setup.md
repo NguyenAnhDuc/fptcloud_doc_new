@@ -6,6 +6,6 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# Initial setup
 
-Thiết lập ban đầu on FPT Cloud VA.
+Initial setup on FPT Cloud VA.

@@ -5,6 +5,6 @@ sidebar_label: "Quản lý Policy"
 sidebar_position: "13"
 ---
 
-# Quản lý Policy
+# Manage Policy
 
-Autoscale Policy là một nhóm các **quy tắc để kiểm tra** hoặc các **hành động cần thực thi** trước khi thực hiện một tác động lên Autoscale Group hoặc sau khi tác động hoàn tất.
+Autoscale Policy là a nhóm the **quy tắc to kiểm tra** or the **hành động cần thực thi** before thực hiện a tác động lên Autoscale Group or after tác động hoàn tất.

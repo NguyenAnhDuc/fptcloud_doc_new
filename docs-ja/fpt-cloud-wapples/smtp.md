@@ -7,137 +7,12 @@ sidebar_position: "36"
 
 # FPT Cloud WAPPLES
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
   * [ ![](/img/migrated/dashboard-12e0b64f.png) Dashboard ](javascript: "Dashboard")
-    * [ Overview ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=overview "Overview")
-    * [ Detection Status ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=detection-status "Detection Status")
-    * [ System Status ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=system-status "System Status")
-    * [ Service Status ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=service-status "Service Status")
-    * [ Load Balancing ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=load-balancing "Load Balancing")
   * [ ![](/img/migrated/DataAnalysis-4a97fa5c.png) Data Analysis ](javascript: "Data Analysis")
-    * [ Graphical Analysis ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=graphical-analysis "Graphical Analysis")
-    * [ Detection Log Analysis ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=detection-log-analysis "Detection Log Analysis")
   * [ ![](/img/migrated/ViewLogs-4cb463ec.png) View Logs ](javascript: "View Logs")
-    * [ Detection Logs ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=detection-logs "Detection Logs")
-    * [ Audit Logs ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=audit-logs "Audit Logs")
-    * [ Website Logs ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=website-logs "Website Logs")
-    * [ Export List ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=export-list "Export List")
   * [ ![](/img/migrated/SecuritySettings-b5e630c6.png) Security Settings ](javascript: "Security Settings")
-    * [ Network Settings ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "Network Settings")
-      * [ Proxy IP ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=proxy-ip "Proxy IP")
-      * [ Destination Server ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=detinations-sever "Destination Server")
-      * [ SSL Profile ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=ssl-profile "SSL Profile")
-      * [ Network Filters ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=network-filters "Network Filters")
-      * [ Network Filters Scheduling ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=network-filters-scheduling "Network Filters Scheduling")
-    * [ Policy Settings ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=policy-settings "Policy Settings")
-    * [ Additional Policy Settings ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "Additional Policy Settings")
-      * [ X-Forwarder-For ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=x-forwarder-for "X-Forwarder-For")
-      * [ Access Control ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=access-control "Access Control")
-      * [ Auto Blocking Filter ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=auto-blocking-filter "Auto Blocking Filter")
-      * [ Web Access Management ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=web-access-management "Web Access Management")
-      * [ URL Filter Settings ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=url-filter-settings "URL Filter Settings")
-    * [ Detection Exceptions ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=detection-exceptions "Detection Exceptions")
-    * [ Pattern Storage ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "Pattern Storage")
-      * [ User Defined Pattern ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=user-defined-pattern "User Defined Pattern")
-      * [ Error Handling ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=error-handling "Error Handling")
-      * [ Privacy Filtering ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=privacy-filtering "Privacy Filtering")
-      * [ Malicious IP ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=malicious-ip "Malicious IP")
-      * [ Snort ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=snort "Snort")
-    * [ Security Patch ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=security-patch "Security Patch")
   * [ ![](/img/migrated/Reports-a69d862a.png) Reports ](javascript: "Reports")
-    * [ Report Generation ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=report-generation "Report Generation")
-    * [ Report List ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=report-list "Report List")
-    * [ Report Scheduling ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=report-scheduling "Report Scheduling")
   * [ ![](/img/migrated/Configuration-6249b723.png) Configuration ](javascript: "Configuration")
-    * [ Operations ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "Operations")
-      * [ Accounts ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=accounts "Accounts")
-      * [ Audit Level ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=audit-level "Audit Level")
-      * [ SMTP ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "SMTP")
-      * [ Self-diagnostics ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=self-diagnostics "Self-diagnostics")
-    * [ Backup ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=smtp "Backup")
-      * [ Backup List ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=backup-list "Backup List")
-      * [ Automatic Backup ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=automatic-backup "Automatic Backup")
-      * [ Backup/Restore ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=backup-restore "Backup/Restore")
-    * [ Intergration ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=intergration "Intergration")
-    * [ Network ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=network "Network")
-    * [ System ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=system "System")
-
 SMTP
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. FPT Cloud WAPPLES
@@ -151,8 +26,6 @@ SMTP
 * * *
 Cấu hình máy chủ SMTP cho Wapples
 [![file](/img/migrated/image-1714117110347-b5e7a81c.png)](/img/migrated/image-1714117110347-b5e7a81c.png)
-[ Previous Audit Level ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=audit-level "Audit Level") [ Next Self-diagnostics ](https://fptcloud.com/documents/fpt-cloud-wapples/?doc=self-diagnostics "Self-diagnostics")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Địa chỉ:
@@ -167,7 +40,7 @@ Email: support@fptcloud.com
 
 [ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
 Về chúng tôi 
-  * [ Giới thiệu chung ](https://fptcloud.com/gioi-thieu/ "Giới thiệu chung")
+  * [ 紹介 chung ](https://fptcloud.com/gioi-thieu/ "紹介 chung")
   * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
   * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
   * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")

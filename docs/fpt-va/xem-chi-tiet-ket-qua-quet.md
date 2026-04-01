@@ -6,6 +6,6 @@ sidebar_label: "2. Xem chi tiết kết quả quét"
 sidebar_position: "14"
 ---
 
-# 2. Xem chi tiết kết quả quét
+# 2. View chi tiết kết quả quét
 
-2. Xem chi tiết kết quả quét on FPT Cloud VA.
+2. View chi tiết kết quả quét on FPT Cloud VA.

@@ -7,8 +7,8 @@ sidebar_position: "5"
 
 # Test Send Email
 
-Chức năng **Test send email** hỗ trợ người dùng kiểm tra nội dung báo cáo và báo cáo được gửi thành công tới người nhận hay không. 
-Để sử dụng chức năng này, bạn thực hiện theo hướng dẫn: 
+Chức năng **Test send email** hỗ trợ user kiểm tra nội dung report and report is gửi successfully tới người nhận hay không. 
+Để sử dụng chức năng this, you thực hiện theo hướng dẫn: 
 **Step 1** : Click **Home > Apps > Reporting > Create a new report **
 **Step 2** : Fill in đầy đủ thông tin tạo report: **Select Dashboard, Format Report, Schedule, Confirm**
 **Step 3** : Click nút **Send email test** tại màn **Confirm**. 

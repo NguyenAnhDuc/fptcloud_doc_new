@@ -12,6 +12,6 @@ sidebar_position: "4"
 [![](/img/migrated/Picture1-38ff2a6f.png)](/img/migrated/Picture1-38ff2a6f.png)
 **Bước 2.** Nhấn chọn **Create a Jenkins** > Nhập thông tin để khởi tạo một Jenkins CI instance:
 [![](/img/migrated/Picture2-1-9c7a0368.png)](/img/migrated/Picture2-1-9c7a0368.png)
-**Bước 3.** Chọn **Create** , hệ thống sẽ khởi tạo một cụm Jenkins Instance và thông báo tình trạng xử lý.
+**Bước 3.** **Create** , hệ thống sẽ khởi tạo một cụm Jenkins Instance và thông báo tình trạng xử lý.
 [![](/img/migrated/Picture3-1-47e2570d.png)](/img/migrated/Picture3-1-47e2570d.png)
 Sau khi tạo thành công một Jenkins instance, trạng thái của cụm sẽ chuyển sang **Successed** , khi đó người dùng có thể truy cập vào Jenkins instance thông qua url và account/password đã được khởi tạo. [![](/img/migrated/Picture4-48e1c05d.png)](/img/migrated/Picture4-48e1c05d.png)

@@ -8,108 +8,14 @@ sidebar_position: 4
 
 # GPU Container
 
-All documents
-FPT Security 
-  * [ IAM ](https://fptcloud.com/en/documents/iam-2/ "IAM")
-  * [ FPT Cloud WAF ](https://fptcloud.com/en/documents/fpt-cloud-waf-2/ "FPT Cloud WAF")
-
-Support 
-  * [ Trellix Customer Guide ](https://fptcloud.com/en/documents/trellix-customer-guide-2/ "Trellix Customer Guide")
-
-Billing 
-  * [ AI Factory Billing ](https://fptcloud.com/en/documents/ai-factory-billing/ "AI Factory Billing")
-
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/en/documents/cost-explorer-2/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/en/documents/budget-alert-2/ "Budget Alert")
-
 AI Marketplace 
-  * [ AI Inference ](https://fptcloud.com/en/documents/ai_marketplace/ "AI Inference")
-
 AI Studio 
-  * [ User Token ](https://fptcloud.com/en/documents/user-token/ "User Token")
-  * [ Model Testing - Test Jobs ](https://fptcloud.com/en/documents/model-testing-test-jobs/ "Model Testing - Test Jobs")
-  * [ Model Testing - Interactive Sessions ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/ "Model Testing - Interactive Sessions")
-  * [ Model Serving ](https://fptcloud.com/en/documents/model-serving/ "Model Serving")
-  * [ Model Hub ](https://fptcloud.com/en/documents/model-hub-2/ "Model Hub")
-  * [ Model Fine-Tuning ](https://fptcloud.com/en/documents/model-fine-tuning/ "Model Fine-Tuning")
-  * [ Data Hub ](https://fptcloud.com/en/documents/data-hub/ "Data Hub")
-  * [ AI Notebook ](https://fptcloud.com/en/documents/ai-notebook/ "AI Notebook")
-
-FPT AI Inference 
-AI Inference 
-AI Infrastructure 
-  * [ GPU Virtual Machine ](https://fptcloud.com/en/documents/gpu-virtual-machine-en/ "GPU Virtual Machine")
-  * [ GPU Container ](https://fptcloud.com/en/documents/gpu-container/ "GPU Container")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/en/documents/tagging-2/ "Tagging")
-  * [ FPT Cloud Portal ](https://fptcloud.com/en/documents/fpt-cloud-portal-2/ "FPT Cloud Portal")
-
-FPT Monitoring 
-  * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/ "Incident Management")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/en/documents/fpt-key-vault-2/ "FPT Key Vault")
-  * [ FPT ArgoCD ](https://fptcloud.com/en/documents/fpt-argocd-2/ "FPT ArgoCD")
-
-FPT Integration 
-  * [ FPT Message Bus ](https://fptcloud.com/en/documents/fpt-message-bus/ "FPT Message Bus")
-  * [ FPT Kafka ](https://fptcloud.com/en/documents/fpt-kafka/ "FPT Kafka")
-  * [ FPT API Management ](https://fptcloud.com/en/documents/fpt-api-management-2/ "FPT API Management")
-
-FPT Database Engine 
-  * [ Managed – FPT Database Engine ](https://fptcloud.com/en/documents/managed-fpt-database-engine-2/ "Managed – FPT Database Engine")
-
-FPT Cloud Backup & DR 
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/en/documents/fpt-object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/en/documents/vpn-site-to-site/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/en/documents/65101/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/en/documents/create-vpc/ "Create VPC")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/en/documents/managed-fpt-kubernetes-engine-2/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Container Registry ](https://fptcloud.com/en/documents/fpt-container-registry/ "FPT Container Registry")
-  * [ FPT App Catalogs ](https://fptcloud.com/en/documents/fpt-app-catalogs/ "FPT App Catalogs")
-  * [ Dedicated – FPT Kubernetes Engine ](https://fptcloud.com/en/documents/dedicated-fpt-kubernetes-engine-2/ "Dedicated – FPT Kubernetes Engine")
-
   * [ ![](/img/migrated/Getting-started-2-75ad1c66.png) Get Started ](javascript: "Get Started")
-    * [ Overview ](https://fptcloud.com/en/documents/gpu-container/?doc=about-gpu-container "Overview")
-    * [ Quick Start ](https://fptcloud.com/en/documents/gpu-container/?doc=quick-start "Quick Start")
   * [ ![](/img/migrated/stack-fill-ffee0930.png) Tutorials ](javascript: "Tutorials")
-    * [ How to create a container ](https://fptcloud.com/en/documents/gpu-container/?doc=create-new-container "How to create a container")
-      * [ Using GUI ](https://fptcloud.com/en/documents/gpu-container/?doc=create-via-gui "Using GUI")
-      * [ Importing YAML file ](https://fptcloud.com/en/documents/gpu-container/?doc=import-config "Importing YAML file")
-      * [ Export Container Configuration ](https://fptcloud.com/en/documents/gpu-container/?doc=export-config "Export Container Configuration")
-    * [ How to connect to a container ](https://fptcloud.com/en/documents/gpu-container/?doc=connect-container "How to connect to a container")
-    * [ How to manage container ](https://fptcloud.com/en/documents/gpu-container/?doc=manage-container "How to manage container")
-    * [ How to monitor container ](https://fptcloud.com/en/documents/gpu-container/?doc=logs-and-monitoring "How to monitor container")
-    * [ Templates ](https://fptcloud.com/en/documents/gpu-container/?doc=templates "Templates")
-    * [ Storage ](https://fptcloud.com/en/documents/gpu-container/?doc=storage "Storage")
   * [ ![](/img/migrated/wallet-3-line-1-0a110540.png) Billing  ](javascript: "Billing ")
-    * [ Overview ](https://fptcloud.com/en/documents/gpu-container/?doc=billing-overview "Overview")
-    * [ Payment Model ](https://fptcloud.com/en/documents/gpu-container/?doc=payment-model "Payment Model")
-    * [ Pricing ](https://fptcloud.com/en/documents/gpu-container/?doc=pricing "Pricing")
-    * [ Add Credits To Account ](https://fptcloud.com/en/documents/gpu-container/?doc=add-credit "Add Credits To Account ")
   * [ ![](/img/migrated/video-chat-line-1-4afe3940.png) Usecase ](javascript: "Usecase")
-    * [ Jupyter Notebook Use Cases ](https://fptcloud.com/en/documents/gpu-container/?doc=jupyter-notebook-tutorials "Jupyter Notebook Use Cases")
-    * [ vLLM Use Cases ](https://fptcloud.com/en/documents/gpu-container/?doc=vllm-use-cases "vLLM Use Cases")
-      * [ Deploy model by using vLLM ](https://fptcloud.com/en/documents/gpu-container/?doc=vllm-use-case "Deploy model by using vLLM")
-      * [ Deploy model GPT-OSS by using vLLM v0.10.0 ](https://fptcloud.com/en/documents/gpu-container/?doc=vllm-use-cases-gpt-oss "Deploy model GPT-OSS by using vLLM v0.10.0")
-    * [ Ollama Use Cases ](https://fptcloud.com/en/documents/gpu-container/?doc=ollama-use-cases "Ollama Use Cases")
-    * [ Code Server Use Cases ](https://fptcloud.com/en/documents/gpu-container/?doc=code-server-use-cases "Code Server Use Cases")
-    * [ Ubuntu Use Cases ](https://fptcloud.com/en/documents/gpu-container/?doc=ubuntu-use-cases "Ubuntu Use Cases")
   * [ ![](https://fptcloud.com/wp-content/uploads/2025/05/R.png) FAQ ](javascript: "FAQ")
-    * [ Container management ](https://fptcloud.com/en/documents/gpu-container/?doc=Action "Container management")
-    * [ Billing ](https://fptcloud.com/en/documents/gpu-container/?doc=billing "Billing")
-
 How to create a container
-  1. [FPT Cloud Portal](https://fptcloud.com/en/documents/ "FPT Cloud Portal")
   2. GPU Container
 
 How to create a container
@@ -119,8 +25,6 @@ How to create a container
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fen%2Fdocuments%2Fgpu-container%2F "GPU Container")
 
 * * *
-[ Next Using GUI ](https://fptcloud.com/en/documents/gpu-container/?doc=create-via-gui "Using GUI")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Address:

@@ -5,21 +5,21 @@ sidebar_label: "Hướng dẫn các vấn đề liên quan đến tối ưu hóa
 sidebar_position: "5"
 ---
 
-# Hướng dẫn các vấn đề liên quan đến tối ưu hóa chi phí trong Cloud Advisor.
+# Hướng dẫn the vấn đề liên quan to tối ưu hóa cost in Cloud Advisor.
 
-Show những vấn đề liên quan đến Cost Optimization
+Show những vấn đề liên quan to Cost Optimization
 
 ## Low utilization instances
 
-Mô tả: danh sách Instance có mức sử dụng thấp
+Description: danh sách Instance có mức sử dụng thấp
 
-Danh sách vi phạm hiển thị:
+List vi phạm displayed:
 
-| Thông tin | Mô tả |
+| Information | Mô tả |
 |-----------|-------|
 | Project | Project chứa instance |
-| Region | Region của instance |
-| VPC | VPC của instance |
+| Region | Region of instance |
+| VPC | VPC of instance |
 | Instance name | Tên instance |
 | Instance status | Trạng thái instance |
 | Stop duration | Thời gian dừng |
@@ -29,15 +29,15 @@ Danh sách vi phạm hiển thị:
 
 ## Underutilized Storage Disk
 
-Mô tả: danh sách Storage Disk có mức sử dụng thấp
+Description: danh sách Storage Disk có mức sử dụng thấp
 
-Danh sách vi phạm hiển thị:
+List vi phạm displayed:
 
-| Thông tin | Mô tả |
+| Information | Mô tả |
 |-----------|-------|
 | Project | Project chứa storage disk |
-| Region | Region của storage disk |
-| VPC | VPC của storage disk |
+| Region | Region of storage disk |
+| VPC | VPC of storage disk |
 | Storage disk name | Tên storage disk |
 | Storage disk type | Loại storage disk |
 | Storage policy | Chính sách storage |
@@ -48,15 +48,15 @@ Danh sách vi phạm hiển thị:
 
 ## Instances stopped
 
-Mô tả: Danh sách Instance đã tắt hơn 30 ngày
+Description: List Instance has been tắt hơn 30 ngày
 
-Danh sách vi phạm hiển thị:
+List vi phạm displayed:
 
-| Thông tin | Mô tả |
+| Information | Mô tả |
 |-----------|-------|
 | Project | Project chứa instance |
-| Region | Region của instance |
-| VPC | VPC của instance |
+| Region | Region of instance |
+| VPC | VPC of instance |
 | Instance name | Tên instance |
 | Instance status | Trạng thái instance |
 | Stop duration | Thời gian dừng |
@@ -65,14 +65,14 @@ Danh sách vi phạm hiển thị:
 
 ## Unassociated IP Addresses
 
-Mô tả: Danh sách IP không gắn vào Instance đang chạy nào
+Description: List IP không gắn ando Instance is chạy nào
 
-Danh sách vi phạm hiển thị:
+List vi phạm displayed:
 
-| Thông tin | Mô tả |
+| Information | Mô tả |
 |-----------|-------|
 | Project | Project chứa IP |
-| Region | Region của IP |
-| VPC | VPC của IP |
+| Region | Region of IP |
+| VPC | VPC of IP |
 | Public IP | Địa chỉ IP công cộng |
 | Estimated monthly savings | Ước tính tiết kiệm hàng tháng |

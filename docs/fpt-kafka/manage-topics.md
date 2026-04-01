@@ -1,7 +1,7 @@
 ---
 id: "manage-topics"
 title: "FPT Kafka"
-description: "All documents"
+description: ""
 sidebar_label: "FPT Kafka"
 sidebar_position: 4
 ---

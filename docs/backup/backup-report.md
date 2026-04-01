@@ -7,8 +7,8 @@ sidebar_position: "8"
 
 # Backup Report
 
-Chức năng report cho phép bạn thống kê hiện trạng sử dụng backup theo từng VM trên tất cả các VPC. Các thông tin có thể lấy bao gồm Backup size, Job Name, VM Name, VPC, Private IP, OS, Backup type, Last success at, Created at.
-Để Export Report, bạn thao tác như sau:
+Chức năng report for phép you thống kê hiện trạng sử dụng backup theo fromng VM trên tất cả the VPC. Các thông tin can lấy includes Backup size, Job Name, VM Name, VPC, Private IP, OS, Backup type, Last success at, Created at.
+Để Export Report, you thao tác as follows:
 **Step 1:** Ở menu chọn **Backup & Recovery** > **Backup & Recovery Management**. Mở tab **Report**.
-**Step 2:** Chọn **Get Report** > Chọn VPC và Backup type cần lấy > **Show results.**
-Bạn có thể Export Excel để tải về báo cáo ở định dạng excel.
+**Step 2:** Select **Get Report** > Chọn VPC and Backup type cần lấy > **Show results.**
+Bạn can Export Excel to tải về report ở định dạng excel.

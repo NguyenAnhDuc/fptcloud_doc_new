@@ -10,8 +10,6 @@ sidebar_position: 17
 
 **HSTS (HTTP Strict Transport Security)** là một chính sách bảo mật giúp ngăn chặn các cuộc tấn công “man-in-the-middle” bằng cách yêu cầu trình duyệt luôn sử dụng kết nối an toàn (HTTPS) khi giao tiếp với máy chủ. 
 Tính năng **“Enable HSTS to HTTPS Listener”** của **FPT Load Balancer** cho ép bạn tăng cường bảo mật cho ứng dụng của mình bằng cách yêu cầu trình duyệt chỉ giao tiếp qua HTTPS. 
-Người dùng tham khảo cách tạo **Listener** [tại đây.](https://fptcloud.com/documents/load-balancer/?doc=khoi-tao-listener "tại đây.")
-> _Note: Để sử dụng tính năng, tại mục Protocol, người dùng chọn giao thức TERMINATED_HTTPS và gắn SSL Certificate từ danh sách khả dụng cho Listener. Nếu chưa có SSL Certificate, người dùng tham khảo cách tạo[tại đây.](https://fptcloud.com/documents/load-balancer/?doc=import-ssl-certificate-cho-load-balancer "tại đây.")_
 Người dùng **Enable HSTS** để sử dụng tính năng: 
   * **HSTS max age:** Nhập số nguyên, giới hạn 256 ký tự, không nhập số âm. Mặc định là 31536000. 
 

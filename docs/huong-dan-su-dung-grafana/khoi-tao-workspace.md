@@ -5,15 +5,15 @@ sidebar_label: "Khởi tạo Workspace"
 sidebar_position: "3"
 ---
 
-# Khởi tạo Workspace
+# Initialize Workspace
 
-Để truy cập và sử dụng **Dashboard Grafana**, người dùng cần:
+Để truy cập and sử dụng **Dashboard Grafana**, user cần:
 
-1. Kích hoạt dịch vụ Monitoring
-2. Khởi tạo Workspace thành công
+1. Activate service Monitoring
+2. Initialize Workspace successfully
 
-**Trong trường hợp có nhu cầu sử dụng** hoặc gặp khó khăn trong quá trình khởi tạo, vui lòng liên hệ đội ngũ hỗ trợ để được hướng dẫn.
+**Trong trường hợp có nhu cầu sử dụng** or gặp khó khăn in quá trình khởi tạo, vui lòng liên hệ đội ngũ hỗ trợ to is hướng dẫn.
 
-*Ví dụ giao diện Workspace sau khi khởi tạo thành công*
+*Ví dụ giao diện Workspace after khởi tạo successfully*
 
 [![Alt text](/img/migrated/Screenshot-0-f07a36f8.png)](/img/migrated/Screenshot-0-f07a36f8.png)

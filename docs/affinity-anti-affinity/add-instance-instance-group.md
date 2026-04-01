@@ -5,11 +5,11 @@ sidebar_label: "Gắn máy ảo vào Instance Group"
 sidebar_position: "5"
 ---
 
-# Gắn máy ảo vào Instance Group
+# Gắn virtual machine ando Instance Group
 
-Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo theo chính sách mong muốn.
-Lưu ý là mỗi instance group chỉ có thể gắn với tối đa 10 instances.
-Để thực hiện điều này, bạn cần tiến hành các thao tác đơn giản sau:
-**Step 1** : Trên màn hình **Create instance** , trong phần **Instance Group** , chọn **Name** của instance group bạn muốn đặt máy ảo
+Khi you khởi chạy a virtual machine, you can truyền thông tin về nhóm server như a gợi ý to thực hiện việc đặt virtual machine theo chính sách mong muốn.
+Save ý là mỗi instance group chỉ can gắn with tối đa 10 instances.
+Để thực hiện điều this, you cần tiến hành the thao tác đơn giản sau:
+**Step 1** : Trên màn hình **Create instance** , in phần **Instance Group** , chọn **Name** of instance group you muốn đặt virtual machine
 ![file](/img/migrated/image-1705025405311-fa794fe3.png)
-**Step 2** : Select **Create instance**. Hệ thống sẽ tiến hành khởi tạo và thông báo kết quả. Nếu thành công, thông tin về instance group sẽ được hiển thị ở trang Instance Detail. ![file](/img/migrated/image-1705025498532-8edf7a7b.png)
+**Step 2** : Select **Create instance**. System will tiến hành khởi tạo and notification kết quả. Nếu successfully, thông tin về instance group will is displayed ở trang Instance Detail. ![file](/img/migrated/image-1705025498532-8edf7a7b.png)

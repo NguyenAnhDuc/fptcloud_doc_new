@@ -22,5 +22,3 @@ After successfully logging into console.fptcloud.com, the user goes to the **AI 
   3. **Initialize a Kubernetes (K8S) cluster for serving**
 
 To use Model Serving, a Kubernetes Cluster is required to provide processing power for AI Models.
-Users can initialize a Managed FPT Kubernetes Engine Cluster (for CPU-based serving) following the instructions here: [https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ ](https://console.fptcloud.com)
-Alternatively, users can initialize an FPT Kubernetes Engine Cluster with GPU (for GPU-based serving) following the instructions here: [https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ ](https://console.fptcloud.com)

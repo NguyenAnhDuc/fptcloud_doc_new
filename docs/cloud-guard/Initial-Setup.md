@@ -7,13 +7,13 @@ sidebar_position: "3"
 
 # Initial setup
 
-Nếu đây là lần đầu tiên bạn sử dụng **FPT Cloud Guard – Alert** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:
-  * [Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](../cloud-guard/index.md)
+Nếu đây là lần đầu tiên you sử dụng **FPT Cloud Guard – Alert** , trước tiên hãy kiểm tra and hoàn thành the công việc sau:
+  * [Create account FPT Cloud and đăng nhập ando FPT Portal](../cloud-guard/index.md)
 
-Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để khởi tạo **Alert** trên hệ thống FPT Cloud.
-### Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
-Để đăng ký tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại <https://fptcloud.com/>.
-Sau đó chọn chức năng **Sign Up** và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
-Để đăng nhập vào FPT Portal, bạn hãy truy cập vào <https://console.fptcloud.com/>.
-Sau khi đăng nhập bằng tài khoản và mật khẩu đã được cấp, chọn đúng Tenant, Region, VPC chứa tài nguyên cần theo dõi và bắt đầu sử dụng **Alert**.
-Nếu không chắc chắn về các thông tin trên hoặc hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+Sau when thực hiện the thao tác trên, you has been sẵn sàng to khởi tạo **Alert** trên hệ thống FPT Cloud.
+### Create account FPT Cloud and đăng nhập ando FPT Portal
+Để đăng ký account FPT Cloud, you hãy truy cập trang chủ tại <https://fptcloud.com/>.
+Sau that chọn chức năng **Sign Up** and nhập the thông tin theo hướng dẫn of hệ thống. Bạn will is bộ phận hỗ trợ liên hệ ngay sau that and xác nhận the thông tin to tạo account.
+Để đăng nhập ando FPT Portal, you hãy truy cập ando <https://console.fptcloud.com/>.
+Sau when đăng nhập bằng account and password has been is cấp, chọn đúng Tenant, Region, VPC chứa tài nguyên cần theo dõi and bắt đầu sử dụng **Alert**.
+Nếu không chắc chắn về the thông tin trên or hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay for đội ngũ Support of chúng tôi to is hỗ trợ.

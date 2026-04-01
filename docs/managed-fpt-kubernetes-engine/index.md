@@ -1,7 +1,7 @@
 ---
 id: "managed-fpt-kubernetes-engine"
 title: "Managed FPT Kubernetes Engine"
-description: "All documents"
+description: ""
 sidebar_label: "Managed FPT Kubernetes Engine"
 sidebar_position: 1
 ---

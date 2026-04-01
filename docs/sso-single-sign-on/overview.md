@@ -7,11 +7,11 @@ sidebar_position: "2"
 
 # Overview
 
-#### **1. Tổng quan:**
-  * SSO (Single Sign – on) là một cơ chế xác thực cho phép người dùng truy cập một cách an toàn vào nhiều ứng dụng, dịch vụ chỉ với sử dụng duy nhất một ID. Với SSO, người dùng sẽ có thể truy cập rất nhiều ứng dụng đồng thời mà không cần phải đăng nhập mỗi lúc. SSO được xây dựng trên ý tưởng được gọi là “danh tính liên kết” (federated identity). Nó cho phép chia sẻ thông tin định danh xuyên suốt các hệ thống đáng tin cậy nhưng độc lập.
+#### **1. Overview:**
+  * SSO (Single Sign – on) là a cơ chế xác thực for phép user truy cập a theh an toàn ando nhiều ứng dụng, service chỉ with sử dụng duy nhất a ID. Với SSO, user will can truy cập rất nhiều ứng dụng đồng thời mà không must đăng nhập mỗi lúc. SSO is xây dựng trên ý tưởng is gọi là “danh tính liên kết” (federated identity). Nó for phép chia sẻ thông tin định danh xuyên suốt the hệ thống đáng tin cậy nhưng độc lập.
 
 #### **2. Ưu điểm**
-Một vài lợi ích có thể kể đến của single sign-on:
-  * Giảm số lượng username và pasword mà người dùng cần phải ghi nhớ
-  * Giảm số lần phải nhập thông tin username và pasword
-  * Rủi ro về việc lộ thông tin người dùng cũng được tiết chế lại
+Một andi lợi ích can kể to of single sign-on:
+  * Giảm số lượng username and pasword mà user must ghi nhớ
+  * Giảm số lần phải nhập thông tin username and pasword
+  * Rủi ro về việc lộ thông tin user cũng is tiết chế lại

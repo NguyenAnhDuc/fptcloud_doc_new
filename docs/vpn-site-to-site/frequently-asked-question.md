@@ -30,7 +30,6 @@ For Checkpoint: here
 Yes. You can set the connection status to Inactive to temporarily pause it.
 The instruction document is here: link
 ### Q: How can I monitor and view the logs of VPN activities?
-You need to access VPN Site-to-Site portal, and then, select **Logging** tab. You can follow instruction document [here](http://https://fptcloud.com/en/documents/vpn-site-to-site/?doc=monitoring-service-through-logging-feature-guide "here").
 ## III. Troubleshooting
 ### Q: VPN connection failed — what should I check first?
   * IP address, PSK key, and IPsec configuration

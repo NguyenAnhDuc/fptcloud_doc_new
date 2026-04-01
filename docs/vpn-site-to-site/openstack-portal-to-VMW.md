@@ -12,7 +12,7 @@ pagination_next: null
 In this example, we will create a VPN Site-to-Site connection with the parameters shown in the topology below. 
 [![file](/img/migrated/image-1765791265680-2f6051f0.png)](/img/migrated/image-1765791265680-2f6051f0.png)
 Access and create a VPN Site-to-Site on <https://console.fptcloud.com>
--Tạo Customer Gateway 
+-Create Customer Gateway 
 +Remote IP public: is the floating IP of the VPN gateway VMW 
 +Remote private network: is the Lan Subnet sequence that needs to be peered by VMW [![file](/img/migrated/image-1765791539886-a1399dc6.png)](/img/migrated/image-1765791539886-a1399dc6.png)
   * Create a VPN Connection With the parameter **"Pre-shared key"** that needs to be saved to be filled in when initiating a VPN Connection on VMW. 

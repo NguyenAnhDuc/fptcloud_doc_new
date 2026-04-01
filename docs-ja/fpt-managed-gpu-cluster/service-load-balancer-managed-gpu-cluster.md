@@ -47,7 +47,7 @@ spec:
       targetPort: web
 ```
 
-Lưu ý: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
+注意: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
 #### 2. Giới hạn quyền truy cập vào Load Balancer bằng cấu hình _“loadBalancerSourceRanges”_ trong phần _“spec”_ của cấu hình service:
 
 ```
@@ -70,4 +70,4 @@ spec:
       targetPort: web
 ```
 
-Lưu ý: Cấu hình “loadBalancerSourceRanges” chứa mảng các dải IP public được phép truy cập vào Load Balancer. Mặc định M-FKE tạo service type Load Balancer với cấu hình dải IP source là 0.0.0.0/0.
+注意: Cấu hình “loadBalancerSourceRanges” chứa mảng các dải IP public được phép truy cập vào Load Balancer. Mặc định M-FKE tạo service type Load Balancer với cấu hình dải IP source là 0.0.0.0/0.

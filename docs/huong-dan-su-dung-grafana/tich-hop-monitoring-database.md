@@ -7,4 +7,4 @@ sidebar_position: "14"
 
 # Tích hợp Monitoring Database
 
-Monitoring trong FPT Database Engine được tích hợp với hệ thống FPT Monitoring để thu thập metrics và logs, đồng thời cung cấp dashboard và cảnh báo khi cần thiết. Hướng dẫn này mô tả cách truy cập, cấu hình và sử dụng Monitoring để theo dõi sức khỏe và hiệu suất của database clusters trên FPT Cloud Portal.
+Monitoring in FPT Database Engine is tích hợp with hệ thống FPT Monitoring to thu thập metrics and logs, đồng thời cung cấp dashboard and alert when cần thiết. Hướng dẫn this mô tả theh truy cập, cấu hình and sử dụng Monitoring to theo dõi sức khỏe and hiệu suất of database clusters trên FPT Cloud Portal.

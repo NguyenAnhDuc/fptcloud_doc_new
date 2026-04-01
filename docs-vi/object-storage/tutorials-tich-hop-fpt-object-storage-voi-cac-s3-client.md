@@ -9,7 +9,6 @@ sidebar_position: 12
 # Tutorials Tich Hop Fpt Object Storage Voi Cac S3 Client
 
 FPT Object Storage hỗ trợ tích hợp vào các S3-SDK hoặc S3-Client tuân theo chuẩn AWS S3. Điều này cho phép bạn sử dụng các công cụ và thư viện phổ biến để tương tác với dữ liệu trên bucket của mình.
-Trước khi tích hợp, bạn cần thu thập đủ thông tin xác thực như Endpoint và Access Key từ FPT Object Storage theo hướng dẫn tại phần **[Quản lý Access Key](https://fptcloud.com/documents/object-storage/?doc=tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal "Quản lý Access Key")**.
 ## S3CMD (Unix/Linux)
 **S3CMD:** Đây là một công cụ dòng lệnh cho Linux/Unix cho phép bạn quản lý dữ liệu trên FPT Object Storage hoặc AWS S3. Bạn có thể tải lên, tải xuống và quản lý các tệp và thư mục.
 ### A. Cài đặt:

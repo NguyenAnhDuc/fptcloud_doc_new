@@ -1,7 +1,7 @@
 ---
 id: "fpt-argocd"
 title: "FPT ArgoCD"
-description: "All documents"
+description: ""
 sidebar_label: "FPT ArgoCD"
 sidebar_position: 1
 ---

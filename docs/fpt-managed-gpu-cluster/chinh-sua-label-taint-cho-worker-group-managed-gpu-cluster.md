@@ -5,16 +5,16 @@ sidebar_label: "Chinh sua Label Taint cho Worker Group Managed gpu Cluster"
 sidebar_position: "11"
 ---
 
-# Chinh sua Label Taint cho Worker Group Managed gpu Cluster
+# Chinh sua Label Taint for Worker Group Managed gpu Cluster
 
-Label và Taint là hai cơ chế quan trọng giúp quản lý và phân phối workload hiệu quả trong hệ thống có nhiều Worker Group giúp dễ dàng nhóm các worker theo mục đích sử dụng, hiệu suất, hoặc khu vực địa lý. Managed GPU Cluster hỗ trợ người dùng thêm mới, sửa, xóa label/taint ngay trên Unify Portal.
-**Step 1** : Ở menu chọn **AI Infratstucture** > **Managed GPU Cluster** hệ thống sẽ hiển thị trang Managed GPU Cluster Management. Chọn Cluster muốn chỉnh sửa Label/Taint.
+Label and Taint là hai cơ chế quan trọng giúp quản lý and phân phối workload hiệu quả in hệ thống có nhiều Worker Group giúp dễ dàng nhóm the worker theo mục đích sử dụng, hiệu suất, or khu vực địa lý. Managed GPU Cluster hỗ trợ user thêm mới, sửa, xóa label/taint ngay trên Unify Portal.
+**Step 1** : Ở menu chọn **AI Infratstucture** > **Managed GPU Cluster** hệ thống will displayed trang Managed GPU Cluster Management. Chọn Cluster muốn chỉnh sửa Label/Taint.
 [![](/img/migrated/24-2bafdf17.png)](/img/migrated/24-2bafdf17.png)
-**Step 2** : Chọn **Node Pools** > **Edit Workers**
+**Step 2** : Select **Node Pools** > **Edit Workers**
 [![](/img/migrated/25-62db8512.png)](/img/migrated/25-62db8512.png)
-**Step 3** : Nhập Labels và Taints muốn thêm vào Worker Group và click button **Save**.
+**Step 3** : Enter Labels and Taints muốn thêm ando Worker Group and click button **Save**.
 [![](/img/migrated/26-888e5fac.png)](/img/migrated/26-888e5fac.png)
 [![](/img/migrated/27-1e045ce9.png)](/img/migrated/27-1e045ce9.png)
 [![](/img/migrated/28-8da95fc4.png)](/img/migrated/28-8da95fc4.png)
-**Lưu ý** : 
-Quá trình chỉnh sửa Labels và Taints sẽ thực hiện trong vòng vài phút, trạng thái của Cluster sẽ chuyển sang **Processing** , trong khi thực hiện người sử dụng không thể thao tác chỉnh sửa Cluster cho đến khi quá trình hoàn tất.
+**Save ý** : 
+Quá trình chỉnh sửa Labels and Taints will thực hiện in vòng andi phút, status of Cluster will chuyển sang **Processing** , in when thực hiện người sử dụng cannot thao tác chỉnh sửa Cluster for to when quá trình hoàn tất.

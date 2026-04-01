@@ -20,6 +20,5 @@ D-FKE mặc định giới hạn 100 Worker Nodes / Cluster. Bạn cần liên h
 **D-FKE có tương thích với các ứng dụng Kubernetes hiện có của tôi không?**
 D-FKE sử dụng native Kubernetes nên hoàn toàn tương thích với các nên tảng Kubernetes trên các Cloud khác như AWS, Azure, GCP, DO… cũng như cluster Kubernetes được bạn cài đặt trên hạ tầng của bạn. Điều này giúp bạn dễ dàng di chuyển ứng dụng giữa FPT Cloud và DC của bạn cũng như các Cloud khác.
 **Làm thế nào để tôi có thể public ứng dụng ra bên ngoài cluster?**
-Có nhiều cách để bạn có thể public ứng dụng ra ngoài cluster để khách hàng có thể sử dụng. Một trong những cách đơn giản là sử dụng Svc Type LoadBalancer theo hướng dẫn sau: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=service-type-load-balancer>
 **Làm thế nào để tôi có thể giám sát hiệu năng và cấu hình cảnh báo cho cluster?**
 FPTCloud cung cấp sản phẩm FMON giúp bạn giám sát hiệu năng và cấu hình cảnh báo cho Kubernetes cluster. Ngoài ra, FMON cung cấp logging & tracing dễ dàng tích hợp với FKE.

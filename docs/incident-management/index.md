@@ -1,7 +1,7 @@
 ---
 id: "incident-management"
 title: "Incident Management"
-description: "All documents"
+description: ""
 sidebar_label: "Incident Management"
 sidebar_position: 1
 ---

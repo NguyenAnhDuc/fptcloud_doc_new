@@ -7,28 +7,28 @@ sidebar_position: "4"
 
 # Cloud Advisor Security
 
-Show những vấn đề liên quan đến Security, bao gồm:
+Show những vấn đề liên quan to Security, includes:
 
 ## MFA on Tenant
 
-* Mô tả: Rule này kiểm tra Tenant Owner có bật MFA hay chưa
-* Danh sách vi phạm hiển thị:
+* Description: Rule this kiểm tra Tenant Owner có bật MFA hay chưa
+* List vi phạm displayed:
   * Tenant owner
   * Email
   * MFA Status: enable/disable
 
 ## MFA should be enabled for all IAM users
 
-* Mô tả: Rule này kiểm tra IAM users có bật MFA hay chưa
-* Danh sách vi phạm hiển thị:
+* Description: Rule this kiểm tra IAM users có bật MFA hay chưa
+* List vi phạm displayed:
   * IAM Users
   * Email
   * MFA Status: enable/disable
 
 ## Security Groups - Specific Ports Unrestricted
 
-* Mô tả: Rule này kiểm tra các Security Group cho phép truy cập không giới hạn (0.0.0.0/0) vào các port cụ thể.
-* Danh sách vi phạm hiển thị:
+* Description: Rule this kiểm tra the Security Group for phép truy cập không giới hạn (0.0.0.0/0) ando the port cụ thể.
+* List vi phạm displayed:
   * Project
   * Region
   * VPC
@@ -40,8 +40,8 @@ Show những vấn đề liên quan đến Security, bao gồm:
 
 ## Security Groups - Specific Ports Unrestricted to a resource
 
-* Mô tả: Rule này kiểm tra các Security Group cho phép truy cập không giới hạn (0.0.0.0/0) vào một tài nguyên.
-* Danh sách vi phạm hiển thị:
+* Description: Rule this kiểm tra the Security Group for phép truy cập không giới hạn (0.0.0.0/0) ando a tài nguyên.
+* List vi phạm displayed:
   * Project
   * Region
   * VPC

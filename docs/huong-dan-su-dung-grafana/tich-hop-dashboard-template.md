@@ -7,7 +7,7 @@ sidebar_position: "6"
 
 # Tích hợp Dashboard Template
 
-Người dùng cần tích hợp các Dashboard Template phù hợp với từng dịch vụ để theo dõi thông tin monitoring.
+Người dùng cần tích hợp the Dashboard Template phù hợp with fromng service to theo dõi thông tin monitoring.
 
 ## Các bước thực hiện
 
@@ -19,23 +19,23 @@ Người dùng cần tích hợp các Dashboard Template phù hợp với từng
 
 [![Alt text](/img/migrated/Screenshot_2-b3e58395.png)](/img/migrated/Screenshot_2-b3e58395.png)
 
-Màn hình sẽ hiển thị danh sách toàn bộ các dashboard template.
+Màn hình will displayed danh sách toàn bộ the dashboard template.
 
-*Giao diện hiển thị danh sách Template*
+*Interface displayed danh sách Template*
 
 [![Alt text](/img/migrated/Screenshot_3-0152f813.png)](/img/migrated/Screenshot_3-0152f813.png)
 
-**Step 3:** Select **Topic** tương ứng (ví dụ: Kubernetes)
+**Step 3:** Select **Topic** corresponding (ví dụ: Kubernetes)
 
-Hệ thống hiển thị danh sách các Dashboard phù hợp với topic đã chọn.
+System displayed danh sách the Dashboard phù hợp with topic has been chọn.
 
 [![Alt text](/img/migrated/Screenshot_4-9a1e9a31.png)](/img/migrated/Screenshot_4-9a1e9a31.png)
 
-**Step 4:** Click **Integrate** để tích hợp Dashboard
+**Step 4:** Click **Integrate** to tích hợp Dashboard
 
 [![Alt text](/img/migrated/Screenshot_18-f0ee84d1.png)](/img/migrated/Screenshot_18-f0ee84d1.png)
 
-- Tích hợp thành công, dashboard chuyển trạng thái thành **Integrated**
+- Tích hợp successfully, dashboard chuyển status thành **Integrated**
 
 [![Alt text](/img/migrated/Screenshot_19-0864e4df.png)](/img/migrated/Screenshot_19-0864e4df.png)
 
@@ -43,12 +43,12 @@ Hệ thống hiển thị danh sách các Dashboard phù hợp với topic đã 
 
 **Note:**
 
-Số lượng Dashboard được tích hợp phụ thuộc vào gói dịch vụ đang sử dụng.
+Số lượng Dashboard is tích hợp phụ thuộc ando gói service is sử dụng.
 
-Example: Workspace bạn đang sử dụng gói V3_P1 cho phép tích hợp tối đa 02 Dashboard. Khi vượt quá giới hạn, hệ thống sẽ hiển thị thông báo hết quota.
+Example: Workspace you is sử dụng gói V3_P1 for phép tích hợp tối đa 02 Dashboard. Khi vượt quá giới hạn, hệ thống will displayed notification hết quota.
 
-**Step 5:** Sau khi tích hợp thành công, refresh lại Grafana → mở menu → chọn **Dashboard**
+**Step 5:** Sau when tích hợp successfully, refresh lại Grafana → mở menu → chọn **Dashboard**
 
-Hệ thống hiển thị danh sách các Dashboard đã được tích hợp. Người dùng có thể mở và theo dõi các thông tin monitoring tương ứng.
+System displayed danh sách the Dashboard has been is tích hợp. Người dùng can mở and theo dõi the thông tin monitoring corresponding.
 
 [![Alt text](/img/migrated/Screenshot_6-624450fb.png)](/img/migrated/Screenshot_6-624450fb.png)

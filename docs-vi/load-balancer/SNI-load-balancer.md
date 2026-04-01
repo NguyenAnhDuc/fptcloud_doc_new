@@ -27,8 +27,6 @@ Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho
 **Bước 3** : Chọn tab **Listener** , sau đó chọn Listener đang sử dụng protocol TERMINATED_HTTPS, hoặc tạo mới Listener nếu chưa có
 **Bước 4** : Chọn các chứng chỉ SSL/TLS lên 2 trường: 
   * Default SSL/TLS certificate: Chọn chứng chỉ mặc định sử dụng cho Listener
-  * SNI SSL/TLS certificate: Chọn một hoặc nhiều chứng chỉ SNI Nếu chưa có sẵn chứng chỉ trên hệ thống, người dùng có thể tải lên theo hướng dẫn sau: <https://fptcloud.com/documents/load-balancer/?doc=import-ssl-certificate-cho-load-balancer>
-
 **Bước 5** : Nhấn “Update Listener” hoặc " Create Listener để lưu thay đổi.
 **Bước 6** : Trỏ các tên miền (hostname) về IP public của Load balancer và truy cập.
 Ngoài ra, người dùng có thể kết hợp sử dụng L7 policy để điều phối truy cập từng domain tới Pool mong muốn, cấu hình như sau:

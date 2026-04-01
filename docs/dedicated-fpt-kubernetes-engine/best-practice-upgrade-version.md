@@ -16,8 +16,6 @@ The D-FKE service supports upgrading the Kubernetes cluster version from the Por
 - **Zero-downtime master upgrade:** The system automatically upgrades the master to the next version (e.g. 1.21 → 1.22) with no downtime if the cluster uses HA mode (3 masters). For clusters with a single master, there will be a few minutes of master downtime during which the Kubernetes API is unavailable, but application workloads continue to run normally.
 - **Zero-downtime worker upgrade:** The system performs a rolling update of each worker node in sequence. Each worker is drained of pod workloads and cordoned (schedule disabled) until the node update completes.
 
-Portal Console upgrade instructions: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=nang-cap-k8s-version>
-
 ## B. Upgrade process detail
 
 **1. Pre-upgrade**
@@ -45,7 +43,6 @@ Portal Console upgrade instructions: <https://fptcloud.com/documents/dedicated-f
 - Upgrade cluster versions sequentially (e.g. 1.21 → 1.22 → 1.23).
 - Keep the cluster on the latest supported version (refer to the EOL version table).
 - Back up cluster configuration before upgrading: use CD tools or back up manifests/helm charts.
-- Back up cluster masters before upgrading: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=backup-and-restore-cluster>
 - Deploy clusters with HA masters (3 masters) to ensure zero control plane downtime.
 - Deploy clusters with 2 or more HA workers to ensure zero application workload downtime.
 - Deploy applications as Workload Controllers (Deployment, Replicaset, DaemonSet, etc.) with 2 or more replicas; avoid deploying single pods.

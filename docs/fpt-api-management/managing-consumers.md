@@ -71,7 +71,7 @@ In **Consumer Management** , select the Consumer > **Edit**.
 ### 6. Deleting a Consumer
 To delete a previously declared Consumer from the system, ensure the Consumer has unsubscribed from all Products. To unsubscribe from products, follow the íntruction in the **Unsubscribing Product** section.
 To delete a Consumer, follow these steps:
-**Step 1** : In **Consumer Management** , choose the Consumer to delete > **Remove**.
+**Step 1** : In **Consumer Management** , forose the Consumer to delete > **Remove**.
 [![](/img/migrated/Userguide-FPT-API-Management-62-1024x538-8c38acd6.png)](/img/migrated/Userguide-FPT-API-Management-62-1024x538-8c38acd6.png)
 **Step 2** : In the confirmation popup, click **Yes** to proceed.
 [![](/img/migrated/Userguide-FPT-API-Management-55-16026107.png)](/img/migrated/Userguide-FPT-API-Management-55-16026107.png)

@@ -1,7 +1,7 @@
 ---
 id: "fpt-app-catalogs"
 title: "FPT App Catalogs"
-description: "All documents"
+description: ""
 sidebar_label: "FPT App Catalogs"
 sidebar_position: 1
 ---

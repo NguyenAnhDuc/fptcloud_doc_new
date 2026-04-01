@@ -1,7 +1,7 @@
 ---
 id: "changing-clusters-configuration"
 title: "Change cluster configuration"
-description: "All documents"
+description: ""
 sidebar_label: "Change cluster configuration"
 sidebar_position: 9
 ---

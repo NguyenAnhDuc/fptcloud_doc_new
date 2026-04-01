@@ -1,115 +1,16 @@
 ---
 id: "DB-proxy"
 title: "Db Proxy"
-description: "Tất cả tài liệu"
+description: ""
 sidebar_label: "Db Proxy"
 sidebar_position: 20
 ---
 
 # Managed – FPT Database Engine
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Initial-setup "Initial Setup")
   * [ ![](/img/migrated/icon-database-service-a532361d.png) Pre- requirement ](javascript: "Pre- requirement")
-    * [ Tạo Security Groups ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=tao-security-groups "Tạo Security Groups")
-    * [ Tạo Floating IP ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=t%E1%BA%A1o-floating-IP "Tạo Floating IP")
-    * [ Tạo Subnets ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=t%E1%BA%A1o-subnets "Tạo Subnets")
-    * [ Phân quyền tính năng Database ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Phan-quyen-tinh-nang-Database "Phân quyền tính năng Database")
-      * [ Roles ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Roles "Roles")
   * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Provision Database Engine ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Provision-Database-Engine "Provision Database Engine ")
-      * [ Khởi tạo Database Engine ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Khoi-tao-Database-Engine "Khởi tạo Database Engine")
-      * [ Thao tác với Database Engine ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Thao-tac-voi-Database-Engine "Thao tác với Database Engine")
-    * [ Quản lý Backups ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Backups "Quản lý Backups")
-      * [ Tạo Backups service ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Tao-backups-service "Tạo Backups service")
-      * [ Cập nhật và xóa Backup job ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Cap-nhat-va-xoa-Backup-job "Cập nhật và xóa Backup job")
-      * [ Cập nhật và xóa Backup Service ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Cap-nhat-va-xoa-Backup-Service "Cập nhật và xóa Backup Service")
-    * [ Quản lý Restore ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Restore "Quản lý Restore")
-    * [ Quản lý Resource ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Resource "Quản lý Resource")
-    * [ Quản lý Configuration ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Configuration "Quản lý Configuration")
-    * [ Quản lý Process Monitoring ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Process-Monitoring "Quản lý Process Monitoring")
-    * [ Quản lý Event Logs ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Event-Logs "Quản lý Event Logs")
-    * [ DB Proxy ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=DB-proxy "DB Proxy")
-      * [ Khởi tạo DB Proxy ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Khoi-tao-DB-Proxy "Khởi tạo DB Proxy")
-      * [ Thao tác với DB Proxy ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Thao-tac-voi-DB-Proxy "Thao tác với DB Proxy")
-
 DB Proxy
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. Managed – FPT Database Engine
@@ -121,8 +22,6 @@ DB Proxy
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-database-engine%2F "Managed – FPT Database Engine")
 
 * * *
-[ Previous Quản lý Event Logs ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Quan-ly-Event-Logs "Quản lý Event Logs") [ Next Khởi tạo DB Proxy ](https://fptcloud.com/documents/managed-fpt-database-engine/?doc=Khoi-tao-DB-Proxy "Khởi tạo DB Proxy")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Địa chỉ:

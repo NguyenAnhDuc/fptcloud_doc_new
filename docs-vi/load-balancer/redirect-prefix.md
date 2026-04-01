@@ -9,7 +9,6 @@ sidebar_position: 16
 # Redirect Prefix
 
 **Redirect prefix** cho phép bạn thêm một chuỗi ký tự (tiền tố) vào đầu URL đích khi thực hiện chuyển hướng, giúp bạn quản lý và cấu trúc các URL chuyển hướng một cách hiệu quả hơn, đồng thời tạo điều kiện cho việc chuyển hướng người dùng đến các trang web hoặc nội dung cụ thể. 
-Cấu hình L7 policy cho **Listener** người dùng tham khảo [tại đây.](https://fptcloud.com/documents/load-balancer/?doc=chinh-sua-listener "tại đây.")
 **Bước 1:** Tại màn hình hiển thị danh sách Load Balancer, chọn **Load Balancer.**
 **Bước 2:** Tại màn hiển thị chi tiết **Load Balancer** , chọn tab **Listener** , tại đây người dùng chọn **Listener**. 
 **Bước 3:** Chọn tab **L7 Policy,** tại đây người dùng chọn **Add Policy.**

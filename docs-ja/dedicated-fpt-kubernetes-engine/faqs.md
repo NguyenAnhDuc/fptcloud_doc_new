@@ -31,8 +31,6 @@ D-FKE は Native Kubernetes を使用しているため、AWS、Azure、GCP、DO
 
 **アプリケーションを cluster の外部に公開するにはどうすればよいですか？**
 
-cluster 外にアプリケーションを公開する方法はいくつかあります。最も簡単な方法の 1 つは、Service Type LoadBalancer を使用することです。詳細はこちら: <https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/?doc=service-type-load-balancer>
-
 **cluster のパフォーマンスを監視してアラートを設定するにはどうすればよいですか？**
 
 FPT Cloud は FMON 製品を提供しており、Kubernetes cluster のパフォーマンス監視とアラート設定が可能です。また FMON は FKE と簡単に統合できるロギングとトレーシングも提供しています。

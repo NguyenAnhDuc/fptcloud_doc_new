@@ -1,102 +1,16 @@
 ---
 id: "nic"
 title: "Giới thiệu khái quát về sản phẩm:"
-description: "Tất cả tài liệu"
+description: ""
 sidebar_label: "Giới thiệu khái quát về sản phẩm:"
 sidebar_position: 1
 ---
 
 # Giới thiệu khái quát về sản phẩm:
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/documents/nic/?doc=initial-setup "Initial Setup")
   * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-    * [ Khởi tạo card Network Interface Card - Primary ](https://fptcloud.com/documents/nic/?doc=create-card-NIC-%20Primary "Khởi tạo card Network Interface Card - Primary")
-    * [ Disable Network Interface Card ](https://fptcloud.com/documents/nic/?doc=disable-NIC-card "Disable Network Interface Card")
-    * [ Enable Network Interface Card ](https://fptcloud.com/documents/nic/?doc=enable-NIC-card "Enable Network Interface Card")
   * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Thêm Network Interface Card mới ](https://fptcloud.com/documents/nic/?doc=add-card-NIC-%20new "Thêm Network Interface Card mới ")
-    * [ Chuyển card thường thành card Primary ](https://fptcloud.com/documents/nic/?doc=convert-card "Chuyển card thường thành card Primary")
-    * [ Edit IP Address ](https://fptcloud.com/documents/nic/?doc=edit-ip-address "Edit IP Address")
-    * [ Thay đổi địa chỉ MAC ](https://fptcloud.com/documents/nic/?doc=change-address-MAC "Thay đổi địa chỉ MAC")
-    * [ Xóa Network Interface Card ](https://fptcloud.com/documents/nic/?doc=delete-card-NIC "Xóa Network Interface Card")
   * [ ![](/img/migrated/Screenshot-2023-08-04-100018-b0820b1e.png) FAQs ](javascript: "FAQs")
     * [ ](../nic/index.md)
 
@@ -116,20 +30,8 @@ Network Interface Card (NIC)
   * Thực hiện kiểm tra thử nghiệm: Sau khi cấu hình card NIC, thực hiện kiểm tra thử nghiệm để đảm bảo card hoạt động đúng và không gây ra vấn đề trong máy ảo và mạng.
 
 01Initial Setup 
-  * [ Initial Setup ](https://fptcloud.com/documents/nic/?doc=initial-setup "Initial Setup")
-
 02Hướng dẫn nhanh (Quick Starts) 
-  * [ Khởi tạo card Network Interface Card - Primary ](https://fptcloud.com/documents/nic/?doc=create-card-NIC-%20Primary "Khởi tạo card Network Interface Card - Primary")
-  * [ Disable Network Interface Card ](https://fptcloud.com/documents/nic/?doc=disable-NIC-card "Disable Network Interface Card")
-  * [ Enable Network Interface Card ](https://fptcloud.com/documents/nic/?doc=enable-NIC-card "Enable Network Interface Card")
-
 03Hướng dẫn chi tiết (Tutorials) 
-  * [ Thêm Network Interface Card mới ](https://fptcloud.com/documents/nic/?doc=add-card-NIC-%20new "Thêm Network Interface Card mới ")
-  * [ Chuyển card thường thành card Primary ](https://fptcloud.com/documents/nic/?doc=convert-card "Chuyển card thường thành card Primary")
-  * [ Edit IP Address ](https://fptcloud.com/documents/nic/?doc=edit-ip-address "Edit IP Address")
-  * [ Thay đổi địa chỉ MAC ](https://fptcloud.com/documents/nic/?doc=change-address-MAC "Thay đổi địa chỉ MAC")
-  * [ Xóa Network Interface Card ](https://fptcloud.com/documents/nic/?doc=delete-card-NIC "Xóa Network Interface Card")
-
 04FAQs 
   * [ ](../nic/index.md)
 

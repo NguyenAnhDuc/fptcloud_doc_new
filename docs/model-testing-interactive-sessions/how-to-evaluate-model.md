@@ -8,98 +8,12 @@ sidebar_position: 13
 
 # Model Testing – Interactive Sessions
 
-All documents
-FPT Security 
-  * [ IAM ](https://fptcloud.com/en/documents/iam-2/ "IAM")
-  * [ FPT Cloud WAF ](https://fptcloud.com/en/documents/fpt-cloud-waf-2/ "FPT Cloud WAF")
-
-Support 
-  * [ Trellix Customer Guide ](https://fptcloud.com/en/documents/trellix-customer-guide-2/ "Trellix Customer Guide")
-
-Billing 
-  * [ AI Factory Billing ](https://fptcloud.com/en/documents/ai-factory-billing/ "AI Factory Billing")
-
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/en/documents/cost-explorer-2/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/en/documents/budget-alert-2/ "Budget Alert")
-
 AI Marketplace 
-  * [ AI Inference ](https://fptcloud.com/en/documents/ai_marketplace/ "AI Inference")
-
 AI Studio 
-  * [ User Token ](https://fptcloud.com/en/documents/user-token/ "User Token")
-  * [ Model Testing - Test Jobs ](https://fptcloud.com/en/documents/model-testing-test-jobs/ "Model Testing - Test Jobs")
-  * [ Model Testing - Interactive Sessions ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/ "Model Testing - Interactive Sessions")
-  * [ Model Serving ](https://fptcloud.com/en/documents/model-serving/ "Model Serving")
-  * [ Model Hub ](https://fptcloud.com/en/documents/model-hub-2/ "Model Hub")
-  * [ Model Fine-Tuning ](https://fptcloud.com/en/documents/model-fine-tuning/ "Model Fine-Tuning")
-  * [ Data Hub ](https://fptcloud.com/en/documents/data-hub/ "Data Hub")
-  * [ AI Notebook ](https://fptcloud.com/en/documents/ai-notebook/ "AI Notebook")
-
-FPT AI Inference 
-AI Inference 
-AI Infrastructure 
-  * [ GPU Virtual Machine ](https://fptcloud.com/en/documents/gpu-virtual-machine-en/ "GPU Virtual Machine")
-  * [ GPU Container ](https://fptcloud.com/en/documents/gpu-container/ "GPU Container")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/en/documents/tagging-2/ "Tagging")
-  * [ FPT Cloud Portal ](https://fptcloud.com/en/documents/fpt-cloud-portal-2/ "FPT Cloud Portal")
-
-FPT Monitoring 
-  * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/ "Incident Management")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/en/documents/fpt-key-vault-2/ "FPT Key Vault")
-  * [ FPT ArgoCD ](https://fptcloud.com/en/documents/fpt-argocd-2/ "FPT ArgoCD")
-
-FPT Integration 
-  * [ FPT Message Bus ](https://fptcloud.com/en/documents/fpt-message-bus/ "FPT Message Bus")
-  * [ FPT Kafka ](https://fptcloud.com/en/documents/fpt-kafka/ "FPT Kafka")
-  * [ FPT API Management ](https://fptcloud.com/en/documents/fpt-api-management-2/ "FPT API Management")
-
-FPT Database Engine 
-  * [ Managed – FPT Database Engine ](https://fptcloud.com/en/documents/managed-fpt-database-engine-2/ "Managed – FPT Database Engine")
-
-FPT Cloud Backup & DR 
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/en/documents/fpt-object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/en/documents/vpn-site-to-site/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/en/documents/65101/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/en/documents/create-vpc/ "Create VPC")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/en/documents/managed-fpt-kubernetes-engine-2/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Container Registry ](https://fptcloud.com/en/documents/fpt-container-registry/ "FPT Container Registry")
-  * [ FPT App Catalogs ](https://fptcloud.com/en/documents/fpt-app-catalogs/ "FPT App Catalogs")
-  * [ Dedicated – FPT Kubernetes Engine ](https://fptcloud.com/en/documents/dedicated-fpt-kubernetes-engine-2/ "Dedicated – FPT Kubernetes Engine")
-
   * [ ![](/img/migrated/Icon-Get-started-553f716d.png) GET STARTED ](javascript: "GET STARTED")
-    * [ Overview ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=overview "Overview")
-      * [ What is Model Testing - Interactive Sessions? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=what-is-model-testing-interactive-sessions "What is Model Testing - Interactive Sessions?")
-      * [ When to Use Model Testing - Interactive Sessions? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=when-to-use-model-testing-interactive-sessions "When to Use Model Testing - Interactive Sessions?")
-    * [ Quick Start ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=quick-start "Quick Start")
-      * [ Sign up for an Account ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=sign-up-for-an-account "Sign up for an Account")
-      * [ Step-by-Step ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=step-by-step "Step-by-Step")
   * [ ![](https://fptcloud.com/wp-content/uploads/2025/02/Icon-Tutorails-1.png) TUTORIALS ](javascript: "TUTORIALS")
-    * [ How to Create Session? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=how-to-create-session "How to Create Session?")
-    * [ How to Manage Session? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=how-to-manage-session "How to Manage Session?")
-      * [ Status Session ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=status-session "Status Session")
-      * [ Stop Session ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=stop-session "Stop Session")
-      * [ Delete Session ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=delete-session "Delete Session")
-    * [ How to Evaluate Model? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=how-to-evaluate-model "How to Evaluate Model?")
-      * [ Playground ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=playground "Playground")
-      * [ Completion History ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=completion-history "Completion History")
-    * [ How to Integrate Model? ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=how-to-integrate-model "How to Integrate Model?")
   * [ ![](https://fptcloud.com/wp-content/uploads/2025/02/Icon-FAQ.png) FAQ ](javascript: "FAQ")
-    * [ FAQ ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=faq "FAQ")
-
 How to Evaluate Model?
-  1. [FPT Cloud Portal](https://fptcloud.com/en/documents/ "FPT Cloud Portal")
   2. Model Testing – Interactive Sessions
 
 How to Evaluate Model?
@@ -112,8 +26,6 @@ How to Evaluate Model?
 It includes:
   * Playground
   * Completion History
-
-[ Previous Delete Session ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=delete-session "Delete Session") [ Next Playground ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/?doc=playground "Playground")
 
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**

@@ -7,44 +7,44 @@ sidebar_position: "19"
 
 # 1. Cách thiết lập Telegram bot
 
-Có nhiều contact point khác nhau như Slack, Discord, Webhook, Email, Teams, Telegram ... và mỗi contact point sẽ có cách cấu hình khác nhau.
+Có nhiều contact point khác nhau như Slack, Discord, Webhook, Email, Teams, Telegram ... and mỗi contact point will có theh cấu hình khác nhau.
 
-Dưới đây là hướng dẫn cụ thể cho cấu hình Telegram để gửi thông báo khi kích hoạt alert.
+Dưới đây là hướng dẫn cụ thể for cấu hình Telegram to gửi notification when kích hoạt alert.
 
-Các cách cấu hình cho các contact point khác, bạn tham khảo hướng dẫn chi tiết tại trang chủ Grafana **[TẠI ĐÂY](https://grafana.com/docs/grafana/latest/alerting/configure-notifications/manage-contact-points)**
+Các theh cấu hình for the contact point khác, you tham khảo hướng dẫn chi tiết tại trang chủ Grafana **[TẠI ĐÂY](https://grafana.com/docs/grafana/latest/alerting/configure-notifications/manage-contact-points)**
 
-Để tích hợp Grafana với Telegram, bạn cần có:
+Để tích hợp Grafana with Telegram, you cần có:
 
 - Telegram bot API token
-- Chat ID (ID của cuộc trò chuyện Telegram nơi bạn muốn nhận thông báo alert)
+- Chat ID (ID of cuộc trò chuyện Telegram nơi you muốn nhận notification alert)
 
-Để hoàn tất việc tích hợp, bạn cần sử dụng phiên bản Telegram trên trình duyệt (web).
+Để hoàn tất việc tích hợp, you cần sử dụng version Telegram trên trình duyệt (web).
 
 ## Cách thiết lập Telegram bot
 
-Thực hiện các bước sau để thiết lập bot:
+Thực hiện the bước sau to thiết lập bot:
 
-- Mở ứng dụng Telegram trên thiết bị của bạn.
+- Mở ứng dụng Telegram trên thiết bị of you.
 - Tìm bot có tên BotFather.
-- Gõ hoặc chọn lệnh /newbot.
-- Chọn tên cho bot (tên phải kết thúc bằng bot hoặc _bot, ví dụ: my_bot).
+- Gõ or chọn lệnh /newbot.
+- Chọn tên for bot (tên phải kết thúc bằng bot or _bot, ví dụ: my_bot).
 - Sao chép API token.
 
 ## Cách lấy Chat ID
 
-Thêm bot vào một group chat theo các bước dưới đây. Sau khi bot được thêm vào group, bạn có thể định tuyến thông báo alert đến group đó.
+Add bot ando a group chat theo the bước dưới đây. Sau when bot is thêm ando group, you can định tuyến notification alert to group that.
 
-- Trong Telegram, mở một group có sẵn hoặc tạo group mới.
-- Tìm và thêm bot vào group.
-- Sao chép chat ID từ URL trên thanh địa chỉ của trình duyệt.
+- Trong Telegram, mở a group có sẵn or tạo group mới.
+- Tìm and thêm bot ando group.
+- Sao chép chat ID from URL trên thanh địa chỉ of trình duyệt.
 
-URL sẽ có dạng: https://web.telegram.org/a/#-4266674385
+URL will có dạng: https://web.telegram.org/a/#-4266674385
 
 Chat ID là dãy số nằm sau ký tự #, ví dụ: -4266674385.
 
 ## Thực hiện cấu hình
 
-Để tạo tích hợp Telegram trong Grafana Alerting, thực hiện các bước sau:
+Để tạo tích hợp Telegram in Grafana Alerting, thực hiện the bước sau:
 
 **Step 1:** Truy cập Alerts → Alerting → Contact points.
 
@@ -54,25 +54,25 @@ Chat ID là dãy số nằm sau ký tự #, ví dụ: -4266674385.
 
 [![Alt text](/img/migrated/Screenshot_44-c0aae8f0.png)](/img/migrated/Screenshot_44-c0aae8f0.png)
 
-**Step 3:** Nhập tên contact point.
+**Step 3:** Enter tên contact point.
 
 **Step 4:** Trong danh sách Integration, chọn Telegram.
 
 - Tại trường BOT API Token, dán bot API token.
 - Tại trường Chat ID, dán chat ID.
-- Nhấn Test để kiểm tra tích hợp hoạt động đúng.
+- Nhấn Test to kiểm tra tích hợp hoạt động đúng.
 
 **Step 5:** Nhấn Save contact point.
 
-Lúc này, Contact point Telegram đã sẵn sàng để nhận thông báo alert.
+Lúc this, Contact point Telegram has been sẵn sàng to nhận notification alert.
 
 [![Alt text](/img/migrated/Screenshot_45-d7a0f258.png)](/img/migrated/Screenshot_45-d7a0f258.png)
 
-**Step 6:** Để gán contact point này cho alert, thực hiện các bước sau:
+**Step 6:** Để gán contact point this for alert, thực hiện the bước sau:
 
 - Trong Grafana, truy cập Alerting → Alert rules.
-- Chỉnh sửa alert rule hiện có hoặc tạo alert rule mới.
+- Chỉnh sửa alert rule hiện có or tạo alert rule mới.
 - Cuộn xuống phần Configure labels and notifications.
 - Tại mục Notifications, chọn Select contact point.
-- Chọn contact point Telegram đã tạo trước đó từ danh sách.
+- Chọn contact point Telegram has been tạo trước that from danh sách.
 - Nhấn Save rule and exit.

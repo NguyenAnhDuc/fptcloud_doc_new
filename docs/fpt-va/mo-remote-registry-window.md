@@ -6,6 +6,6 @@ sidebar_label: "8. Mở Remote Registry trên Windows để sử dụng SMB"
 sidebar_position: "11"
 ---
 
-# 8. Mở Remote Registry trên Windows để sử dụng SMB
+# 8. Mở Remote Registry trên Windows to sử dụng SMB
 
-8. Mở Remote Registry trên Windows để sử dụng SMB on FPT Cloud VA.
+8. Mở Remote Registry trên Windows to sử dụng SMB on FPT Cloud VA.

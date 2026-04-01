@@ -7,9 +7,9 @@ sidebar_position: "5"
 
 # Tải file đối soát chi tiết
 
-**Để tải đối soát chi tiết dạng file excel, người dùng thao tác như sau:**
-Sau khi chọn kỳ hóa đơn - contract và đối soát, người dùng chọn button Download.
+**Để tải đối soát chi tiết dạng file excel, user thao tác as follows:**
+Sau when chọn kỳ invoice - contract and đối soát, user chọn button Download.
 [![file](/img/migrated/image-1744088593606-63e60ab6.png)](/img/migrated/image-1744088593606-63e60ab6.png)
-Kết quả file đối soát sẽ được gửi về email của người dùng (email của user đăng nhập vào hệ thống và thực hiện hành động download) trong vòng 15-20 phút. 
+Kết quả file đối soát will is gửi về email of user (email of user đăng nhập ando hệ thống and thực hiện hành động download) in vòng 15-20 phút. 
 [![file](/img/migrated/image-1744088600025-5d3582dc.png)](/img/migrated/image-1744088600025-5d3582dc.png)
-Note: Hệ thống chỉ nhận hành động Download với tần suất 15 phút/lần. Người dùng vui lòng không thực hiện hành động download nhiều lần trong vòng 15 phút.
+Note: System chỉ nhận hành động Download with tần suất 15 phút/lần. Người dùng vui lòng không thực hiện hành động download nhiều lần in vòng 15 phút.

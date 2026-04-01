@@ -23,7 +23,7 @@ sidebar_position: "11"
 **To time:** Thời điểm trong ngày kết thúc chu kỳ và resize về thông số ban đầu.
 **Start date:** Ngày lịch bắt đầu có hiệu lực.
 **End date:** Ngày lịch hết hiệu lực.
-**Lưu ý:**
+**注意:**
   * Nếu Start Date là ngày hiện tại, From Time phải lớn hơn thời điểm hiện tại.
   * To Time phải lớn hơn From Time ít nhất 30 phút.
 

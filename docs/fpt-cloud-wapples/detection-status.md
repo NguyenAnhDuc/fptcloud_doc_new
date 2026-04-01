@@ -7,5 +7,5 @@ sidebar_position: "3"
 
 # Detection Status
 
-Liệt kê các cuộc tấn công nhắm đến các ip/website được add policy trên Wapple bị nhắm đến cho các cuộc tấn công
+Liệt kê the cuộc tấn công nhắm to the ip/website is add policy trên Wapple bị nhắm to for the cuộc tấn công
 [![file](/img/migrated/image-1714112366946-7ac5f8d7.png)](/img/migrated/image-1714112366946-7ac5f8d7.png)

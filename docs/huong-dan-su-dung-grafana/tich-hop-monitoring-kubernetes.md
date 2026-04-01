@@ -7,4 +7,4 @@ sidebar_position: "8"
 
 # Tích hợp Monitoring Kubernetes
 
-Monitoring trong K8S được tích hợp với hệ thống FPT Monitoring để thu thập metrics và logs, đồng thời cung cấp dashboard và cảnh báo khi cần thiết.
+Monitoring in K8S is tích hợp with hệ thống FPT Monitoring to thu thập metrics and logs, đồng thời cung cấp dashboard and alert when cần thiết.

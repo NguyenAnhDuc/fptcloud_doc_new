@@ -312,8 +312,6 @@ Copy// Để cài đặt Javascript SDK
 // 2. Giải nén thư mục dist/ của bản sdk
 // 3. Sử dụng file sdk cho trình duyệt băng cách nhúng vào file html sử dụng
 
-// 4. Cấu hình CORS cho bucket theo hướng dẫn : https://fptcloud.com/documents/object-storage/?doc=tutorials-bucket-config
-
 ```
 
 **Khởi tạo kết nối**

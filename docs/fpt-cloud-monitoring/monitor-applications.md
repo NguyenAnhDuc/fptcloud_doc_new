@@ -7,10 +7,10 @@ sidebar_position: "13"
 
 # Monitor Applications
 
-**Step 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
-**Step 2** : Trên menu của FPT Cloud Portal, click **Monitoring**. 
-**Step 3** : Click chi tiết vào một Workspace, sau đó di chuyển tới **Add Data** tab.
-**Step 4** : Trong **Applications** , hiển thị danh sách các ngôn ngữ lập trình đang sẵn sàng hỗ trợ, click vào một ngôn ngữ lập trình và làm theo hướng dẫn sau đó.
+**Step 1** : Log in ando FPT portal cloud **<https://console.fptcloud.com>**
+**Step 2** : Trên menu of FPT Cloud Portal, click **Monitoring**. 
+**Step 3** : Click chi tiết ando a Workspace, sau that di chuyển tới **Add Data** tab.
+**Step 4** : Trong **Applications** , displayed danh sách the ngôn ngữ lập trình is sẵn sàng hỗ trợ, click ando a ngôn ngữ lập trình and làm theo hướng dẫn sau that.
 [![Alt text](/img/migrated/Picture10-2-a149b3e0.png)](/img/migrated/Picture10-2-a149b3e0.png)
-Giả sử click vào Python, hiển thị màn hình hướng dẫn sau đó người dùng thực hiện theo các bước trong hướng dẫn:
+Giả sử click ando Python, displayed màn hình hướng dẫn sau that user thực hiện theo the bước in hướng dẫn:
 [![Alt text](/img/migrated/Picture11-2-56c38446.png)](/img/migrated/Picture11-2-56c38446.png)

@@ -5,16 +5,16 @@ sidebar_label: "Click nút 'Whitelist IP/Range' trên bảng tương ứng."
 sidebar_position: "8"
 ---
 
-# Click nút 'Whitelist IP/Range' trên bảng tương ứng.
+# Click nút 'Whitelist IP/Range' trên bảng corresponding.
 
-* Click nút 'Whitelist IP/Range' trên bảng tương ứng. 
-  * Nhập IP hoặc dải IP, ngăn cách bởi Enter. 
-  * Hệ thống kiểm tra format IP, loại trừ IP đã whitelist hoặc bị trùng.
+* Click nút 'Whitelist IP/Range' trên bảng corresponding. 
+  * Enter IP or dải IP, ngăn theh bởi Enter. 
+  * System kiểm tra format IP, loại trừ IP has been whitelist or bị trùng.
 
 [![Add whitelisted IP 1](/img/migrated/Screenshot_4-6b6299ec.png)](/img/migrated/Screenshot_4-6b6299ec.png)
-  * Click nút Save để xác nhận
+  * Click nút Save to xác nhận
 
 [![Add whitelisted IP 2](/img/migrated/Screenshot_5-e4ea3b18.png)](/img/migrated/Screenshot_5-e4ea3b18.png)
-Toàn bộ IP sẽ có trạng thái 'Whitelisting', mọi thao tác trên bảng tương ứng sẽ bị vô hiệu hoá tạm thời cho đến khi hoàn tất.
-  * Nếu IP/dải IP đã được **whitelist thành công** , sẽ chuyển trạng thái thành **‘Whitelisted’**. Mọi truy cập vào endpoint bằng địa chỉ IP/thuộc dải IP này được thực hiện bình thường. 
-  * Nếu IP/dải IP **whitelist không thành công** , sẽ chuyển trạng thái thành **‘Whitelist failed’**. Mọi truy cập vào endpoint bằng địa chỉ IP/thuộc dải IP này vẫn bị chặn. Người dùng cần thao tác retry để whitelist lại.
+Toàn bộ IP will có status 'Whitelisting', mọi thao tác trên bảng corresponding will bị vô hiệu hoá tạm thời for to when hoàn tất.
+  * Nếu IP/dải IP has been is **whitelist successfully** , will chuyển status thành **‘Whitelisted’**. Mọi truy cập ando endpoint bằng địa chỉ IP/thuộc dải IP this is thực hiện bình thường. 
+  * Nếu IP/dải IP **whitelist không successfully** , will chuyển status thành **‘Whitelist failed’**. Mọi truy cập ando endpoint bằng địa chỉ IP/thuộc dải IP this vẫn bị chặn. Người dùng cần thao tác retry to whitelist lại.

@@ -1,106 +1,14 @@
 ---
 id: "huong-dan-tren-gaia-portal"
 title: "Hướng dẫn trên Gaia Portal"
-description: "Tất cả tài liệu"
+description: ""
 sidebar_label: "Hướng dẫn trên Gaia Portal"
 sidebar_position: 2
 ---
 
 # CheckPoint – FPT NGFW
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
   * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Hướng dẫn trên Gaia Portal ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=huong-dan-tren-gaia-portal "Hướng dẫn trên Gaia Portal")
-      * [ Truy cập Gaia Portal ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=truy-cap-gaia-portal "Truy cập Gaia Portal")
-      * [ Network Interface ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=network-interface "Network Interface")
-      * [ Static route ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=static-route "Static route")
-      * [ Cấu hình DNS ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=cau-hinh-dns "Cấu hình DNS")
-      * [ Update Hotfix ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=update-hotfix "Update Hotfix")
-    * [ Hướng dẫn trên SmartConsole ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=huong-dan-tren-smartconsole "Hướng dẫn trên SmartConsole")
-      * [ Truy cập SmartConsole ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=truy-cap-smartconsole "Truy cập SmartConsole")
-      * [ Install Policy ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=install-policy "Install Policy")
-      * [ Tạo Object ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=tao-object "Tạo Object")
-      * [ Tạo rule Firewall ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=tao-rule-firewall "Tạo rule Firewall")
-      * [ Tạo rule NAT ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=tao-rule-nat "Tạo rule NAT")
-      * [ Điều tra Log ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=dieu-tra-log "Điều tra Log")
-      * [ Quản lý Blades ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=quan-ly-blades "Quản lý Blades")
-      * [ Quản lý Account ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=quan-ly-account "Quản lý Account")
   * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
   * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
 
@@ -115,8 +23,6 @@ Hướng dẫn trên Gaia Portal
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fcheckpoint-fpt-ngfw%2F "CheckPoint – FPT NGFW")
 
 * * *
-[ Next Truy cập Gaia Portal ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/?doc=truy-cap-gaia-portal "Truy cập Gaia Portal")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Địa chỉ:

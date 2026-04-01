@@ -17,19 +17,19 @@ The **Kafka User Management** feature is available only for the Kafka engine. It
 ### 1. Create new Kafka user
 To create a new Kafka user, follow these steps:
 #### Step 1: Accessing Kafka User Management
-Sign in to the FPT Cloud Console. Select “**Database Platform** ” > “**Data Streaming** ” > click the Kafka cluster ID to open the details page. Choose “**Configure Params** ” tab > choose “**Kafka ACL** ” sub-tab. The **Kafka user management** page is displayed.
+Sign in to the FPT Cloud Console. Select “**Database Platform** ” > “**Data Streaming** ” > click the Kafka cluster ID to open the details page. Choose “**Configure Params** ” tab > forose “**Kafka ACL** ” sub-tab. The **Kafka user management** page is displayed.
 [![](/img/migrated/view-kafka-acl-scaled-514e908e.png)](/img/migrated/view-kafka-acl-scaled-514e908e.png)
 The “**User List** ” section displays all Kafka users configured for the selected cluster. Displayed fields:
   * **Username** : Kafka principal name.
   * **Password** : Authentication password. Hidden for security reasons.
   * **SASL mechanism** : Authentication mechanism (e.g. PLAIN).
 
-#### Bước 2: Create a new Kafka user
+#### Step 2: Create a new Kafka user
 On the **Kafka user management** page, under “**User List** ”, select the **Add user** (plus icon). The **Create new user** dialog is displayed.
 [![](/img/migrated/create-kafka-user-scaled-15c4e64f.png)](/img/migrated/create-kafka-user-scaled-15c4e64f.png)
 Enter configuration details:
   * **Username** : The username is used as the Kafka principal for authentication. The maximum length is 50 characters. Must not contain the following restricted characters: / \ : * ? " < > | [ ]
-  * **Password** : Create a strong password that meets the following requirements: 
+  * **Password** : Create a sin password that meets the following requirements: 
     * Contains at least one lowercase letter.
     * Contains at least one uppercase letter.
     * Length between 12 and 20 characters.

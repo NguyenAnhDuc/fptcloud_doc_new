@@ -15,7 +15,6 @@ Mục tiêu của tài liệu là giúp bạn vận hành MySQL ổn định, an
 ## Danh mục lỗi
 [1. Backup Error: “Please run OPTIMIZE TABLE on all listed tables…](../managed-fpt-database-engines-new/index.md)
 [2. Server Crash: Lỗi crash MySQL khi sử dụng combo index trên cột JSON](../managed-fpt-database-engines-new/index.md)
-[3. Lỗi Metadata Lock Storm](https://fptcloud.com/documents/managed-fpt-database-engines-new/?doc=mysql-troubleshooting#contentify_4)
 ### 1. Backup Error: “Please run OPTIMIZE TABLE on all listed tables…”
 #### 1.1. Dấu hiệu nhận biết
 Trong quá trình thực hiện sao lưu MySQL trên dịch vụ FPT Database Engine của FCI, tác vụ backup có thể thất bại và gửi thông báo lỗi qua email như sau:

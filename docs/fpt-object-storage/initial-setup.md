@@ -15,7 +15,6 @@ To get started with FPT Object Storage, users need to complete the following tas
 ## Create an FPT Cloud Account and Log In
 To register for an FPT Cloud account, please visit the [FPT Cloud homepage](https://fptcloud.com/).
 Next, select the **Sign Up** option and enter the required information as the system guides. Our support team will contact you shortly to verify the information and create your account.
-To log in to the FPT Portal, please visit [here](https://fptcloud.com/en/documents/fpt-object-storage/insert_link_here).
 After logging in with your provided username and password, you will see your account information, including **Tenant** , **Region** , and **VPC**.
 [![User guide FPT Object Storage 78](/img/migrated/User-guide-FPT-Object-Storage-78-1024x68-96678665.png)](/img/migrated/User-guide-FPT-Object-Storage-78-1024x68-96678665.png)
 ## Request Object Storage Service Quota

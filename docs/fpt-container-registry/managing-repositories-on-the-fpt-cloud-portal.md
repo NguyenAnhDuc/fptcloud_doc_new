@@ -1,7 +1,7 @@
 ---
 id: "managing-repositories-on-the-fpt-cloud-portal"
 title: "FPT Container Registry"
-description: "All documents"
+description: ""
 sidebar_label: "FPT Container Registry"
 sidebar_position: 8
 ---

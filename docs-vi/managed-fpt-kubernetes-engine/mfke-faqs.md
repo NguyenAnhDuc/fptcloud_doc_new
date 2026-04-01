@@ -25,7 +25,6 @@ M-FKE mặc định giới hạn tối đa 100 Worker Nodes / Woker Group & 100 
 **5. M-FKE có tương thích với các ứng dụng Kubernetes hiện có của tôi không?**
 M-FKE sử dụng native Kubernetes nên hoàn toàn tương thích với các nên tảng Kubernetes trên các Cloud khác như AWS, Azure, GCP, DO… cũng như cluster Kubernetes được bạn cài đặt trên hạ tầng của bạn. Điều này giúp bạn dễ dàng di chuyển ứng dụng giữa FPT Cloud và DC của bạn cũng như các Cloud khác.
 **6. Làm thế nào để tôi có thể public ứng dụng ra bên ngoài cluster?**
-Có nhiều cách để bạn có thể public ứng dụng ra ngoài cluster để khách hàng có thể sử dụng. Một trong những cách đơn giản là sử dụng Svc Type LoadBalancer theo hướng dẫn sau: [https://fptcloud.com/documents/managed-fpt-kubernetes-engine/?doc=service-type-load-balancer](./service-type-load-balancer.md)
 **7. Làm thế nào để tôi có thể giám sát hiệu năng và cấu hình cảnh báo cho cluster?**
 FPTCloud cung cấp sản phẩm FMON giúp bạn giám sát hiệu năng và cấu hình cảnh báo cho Kubernetes cluster. Ngoài ra, FMON cung cấp logging & tracing dễ dàng tích hợp với FKE.
 **8. Worker group base là gì? Có xóa được worker group base không?** M-FKE cluster luôn luôn có một worker group base chứa các thành phần hệ thống nằm trong namespace kube-system như là coredns, cni-controller, metrics-server. Worker group base không được phép xóa khỏi cluster.

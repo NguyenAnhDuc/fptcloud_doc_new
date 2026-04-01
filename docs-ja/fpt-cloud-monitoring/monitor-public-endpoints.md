@@ -12,4 +12,3 @@ Hiện tại, chúng tôi đã phát triển và tích hợp tính năng monitor
 Trên FPT cloud portal, tính năng này không còn phát triển.
 Để có trải nghiệm tốt nhất, người dùng vui lòng sử dụng dịch vụ Endpoint Monitoring trên dashboard.
 Hãy liên hệ với chúng tôi để được trợ giúp.
-Tài liệu hướng dẫn sử dụng tham khảo **[TẠI ĐÂY](https://fptcloud.com/documents/endpoint-monitoring/)**

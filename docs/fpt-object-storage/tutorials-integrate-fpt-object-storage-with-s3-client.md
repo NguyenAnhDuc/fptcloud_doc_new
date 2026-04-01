@@ -10,7 +10,6 @@ pagination_next: null
 # Integrate with S3 client
 
 FPT Object Storage supports integration with S3-SDKs or S3-Clients following the AWS S3 standard. This lets you use familiar tools and libraries to interact with your bucket's data.
-Before integration, you need to gather the necessary authentication information, such as Endpoint and Access Key from FPT Object Storage, following the instructions in the **[Access Key Management](https://fptcloud.com/documents/object-storage/?doc=tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal "Access Key Management")** section.
 ## S3CMD (Unix/Linux)
 **S3CMD:** This is a command-line tool for Linux/Unix that allows you to manage data on FPT Object Storage or AWS S3. You can upload, download, and organize files and folders.
 ### A. Installation:

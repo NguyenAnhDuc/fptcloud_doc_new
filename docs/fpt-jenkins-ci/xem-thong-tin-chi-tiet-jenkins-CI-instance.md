@@ -5,15 +5,15 @@ sidebar_label: "Xem thông tin chi tiết Jenkins CI instance"
 sidebar_position: "5"
 ---
 
-# Xem thông tin chi tiết Jenkins CI instance
+# View thông tin chi tiết Jenkins CI instance
 
-Để làm việc với cụm Jenkins đã được khởi tạo, đầu tiên bạn vào xem thông tin chi tiết của cụm đã được khởi tạo.
-**Step 1** : Tại menu **FPT Portal** > **DevOps** > **Jenkins CI** > Click **Instance Name** để xem thông tin chi tiết của cụm:
+Để làm việc with cụm Jenkins has been is khởi tạo, đầu tiên you ando xem thông tin chi tiết of cụm has been is khởi tạo.
+**Step 1** : Tại menu **FPT Portal** > **DevOps** > **Jenkins CI** > Click **Instance Name** to xem thông tin chi tiết of cụm:
 [![](/img/migrated/Picture5-1-e44d4a18.png)](/img/migrated/Picture5-1-e44d4a18.png)
-Tại màn hình đầu tiên, bạn sẽ được cung cấp thông tin chi tiết để truy cập Jenkins CI instance bao gồm url, username/password đăng nhập: 
+Tại màn hình đầu tiên, you will is cung cấp thông tin chi tiết to truy cập Jenkins CI instance includes url, username/password đăng nhập: 
 [![](/img/migrated/Picture6-69dec98b.png)](/img/migrated/Picture6-69dec98b.png)
-**Step 2** : Đăng nhập vào **Jenkins Instance** :
-Tại màn hình **Essential Properties** > Thực hiện copy url và truy cập vào ứng dụng:
+**Step 2** : Log in ando **Jenkins Instance** :
+Tại màn hình **Essential Properties** > Thực hiện copy url and truy cập ando ứng dụng:
 [![](/img/migrated/Picture7-1-c8ec9386.png)](/img/migrated/Picture7-1-c8ec9386.png)
-Giao diện sau khi đăng nhập thành công vào Jenkins instance:
+Interface after đăng nhập successfully ando Jenkins instance:
 [![](/img/migrated/Picture8-1-a8748d52.png)](/img/migrated/Picture8-1-a8748d52.png)

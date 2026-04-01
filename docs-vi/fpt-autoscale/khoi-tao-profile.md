@@ -17,12 +17,8 @@ Nhập tên profile sao cho dễ quản lý nhất. Tên không vượt quá
 **Image**
 Hiện tại, các OS Families được cung cấp sẵn bao gồm: Ubuntu, Windows, CentOS, Debian. Mỗi nhóm OS sẽ gồm nhiều bản phân phối khác nhau.
 Đặc biệt, nhóm Custom là nhóm thường được ưu tiên sử dụng, gồm các images đã được chính người dùng tùy biến và cấu hình ứng dụng phù hợp với nhu cầu sử dụng. Images thuộc nhóm này có thể có được bằng cách:
-  * Tải tệp lên từ máy ([xem thêm](https://fptcloud.com/documents/cloud-server/?doc=tai-len-custom-image "Tải lên Custom Image"))
-  * Tạo Instance Template từ một server có sẵn ([xem thêm](https://fptcloud.com/documents/cloud-server/?doc=tutorials-quan-ly-instance-template "Quản lý Instance Template"))
-
 **Credentials**
 Các hình thức xác thực được hỗ trợ gồm:
-  * SSH: Yêu cầu tạo sẵn SSH key trong VPC ([xem thêm](https://fptcloud.com/documents/cloud-server/?doc=profile-ssh-key "Profile SSH Key")).
   * Password.
   * None: Nếu không có nhu cầu truy cập và xác thực có thể chọn _None_ để không áp dụng bất kỳ hình thức nào.
 
@@ -33,9 +29,6 @@ Storage: Chọn loại ổ đĩa và dung lượng phù hợp với nhu câ
 **Lưu ý** : Dung lượng tối thiểu cụ thể sẽ được đề xuất phù hợp với thông số của image được chọn, việc giảm dung lượng ổ đĩa xuống dưới mức yêu cầu của image có thể dẫn đến lỗi không mong muốn.
 **Network**
 Lựa chọn subnet và security group phù hợp trong VPC. Subnet và security group cần được khởi tạo sẵn, nếu chưa có hãy tạo mới:
-  * Subnet ([xem thêm](https://fptcloud.com/documents/cloud-server/?doc=Qu%E1%BA%A3n%20l%C3%BD%20Subnets "Quản lý Subnets"))
-  * Security group ([xem thêm](https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group "Quản lý Security Group"))
-
 **Advanced setting**
 Nhập đoạn mã [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html "Cloud config examples") nếu có. Khi một node khởi động, cloud-init sẽ đọc các metadata được cung cấp từ cloud, và khởi tạo hệ thống dựa trên chúng. Cloud-init thường được dùng với mục đích setup network, storage, SSH public keys, và nhiều phần khác của hệ thống.
 Ví dụ: Với đoạn script mẫu này, các node trong group sẽ cài đặt các gói cần thiết, sau đó clone một static website từ github và khởi động máy chủ nginx. Để xem kết quả, người dùng có thể thực hiện allocate Floating IP cho node và thực hiện truy cập vào website thông qua Floating IP đó.

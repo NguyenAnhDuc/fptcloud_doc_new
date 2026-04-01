@@ -15,7 +15,6 @@ sidebar_position: 4
 次のものが必要です。
   * **微調整するモデルの予想されるデータセット構造に厳密に従ってください** 。
 
-データサンプルの詳細については、こちらをご覧ください [https://fptcloud.com/en/documents/model-fine-tuning/?doc=select-data-formathttps://fptcloud.com/en/documents/model-fine-tuning/?doc=select-data-format](./select-data-format.md)
   * クリーンで多様、重複のないデータ。
   * 微調整の明確な目標(テクニカルサポート、カスタマーサービス、コンテンツライティングなど)。
 

@@ -7,5 +7,5 @@ sidebar_position: "2"
 
 # Overview
 
-Liệt kê các bảng thông số cơ bản của wapple như lưu lượng traffic qua và trạng thái thiết bị
+Liệt kê the bảng thông số cơ bản of wapple như lưu lượng traffic qua and status thiết bị
 [![file](/img/migrated/image-1714112361075-c5047d70.png)](/img/migrated/image-1714112361075-c5047d70.png)

@@ -1,7 +1,7 @@
 ---
 id: "monitor-infrastructure-platform"
 title: "Monitor Infrastructure Platform"
-description: "**Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**"
+description: ""
 sidebar_label: "Monitor Infrastructure Platform"
 sidebar_position: 12
 ---
@@ -25,8 +25,6 @@ Việc tích hợp này giúp người dùng có thể cấu hình tích hợp t
 **Lưu ý:**
 Trong trường hợp người dùng chưa có cụm cluster nào hiển thị, người dùng vào phần **Kubernetes** trên menu, click **Create a Kubernetes Engine** để tạo. 
 Hướng dẫn chi tiết khởi tạo Kubernetes người dùng có thể tham khảo tại link sau: 
-<https://fptcloud.com/documents/managed-fpt-kubernetes-engine/>
-<https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/>
 Nếu tenant của bạn không có quyền tạo, hãy liên hệ với đội ngũ admin của chúng tôi để hỗ trợ. 
   * Để tích hợp **Dedicated kubernetes** , bạn thao tác như sau: 
 

@@ -6,6 +6,6 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# 初期設定
 
-Thiết lập ban đầu FPT Cloud VAの機能。
+初期設定 FPT Cloud VAの機能。

@@ -1,7 +1,7 @@
 ---
 id: "Manage-topics"
 title: "FPT Message Bus"
-description: "All documents"
+description: ""
 sidebar_label: "FPT Message Bus"
 sidebar_position: 9
 ---

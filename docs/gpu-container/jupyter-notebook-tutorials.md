@@ -9,7 +9,6 @@ sidebar_position: 17
 # Jupyter Notebook Tutorials
 
 This guide walks you through running an object detection model using YOLOv8 on Jupyter Notebook, from setup to inference 
-  1. Create a new container using **Jupyter Notebook** [follow this guide here](https://fptcloud.com/en/documents/fpt-gpu-container/?doc=manage-containers#contentify_0). [![Alt text](/img/migrated/object-detect-28f574ef.png)](/img/migrated/object-detect-28f574ef.png)
   2. After creating container successfully, open the container via HTTPs 
   3. Now, pulling YOLOv8 model using terminal in the Jupyter Notebook container that we have just created
 

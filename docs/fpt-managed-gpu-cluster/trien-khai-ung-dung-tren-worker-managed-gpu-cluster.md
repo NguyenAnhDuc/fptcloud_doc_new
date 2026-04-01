@@ -7,25 +7,25 @@ sidebar_position: "14"
 
 # Trien Khai Ung Dung Tren Worker Managed Gpu Cluster
 
-Ollama là một công cụ mã nguồn mở cho phép chạy, quản lý và tùy chỉnh các mô hình ngôn ngữ lớn (LLMs) trên máy tính cá nhân hoặc server, hỗ trợ nhiều mô hình khác nhau như Llama, DeepSeek, Mistral,.... Open-WebUI là giao diện web mã nguồn mở được thiết kế đặc biệt để tương tác với Ollama, cung cấp trải nghiệm người dùng thân thiện và dễ dàng trong việc quản lý và sử dụng các mô hình LLM.
-Tài liệu này sẽ hướng dẫn các bước triển khai mô hình DeepSeek-R1 lên FPT Managed GPU Cluster sử dụng Ollama và Open-WebUI để người dùng có thể sử dụng một cách đơn giản và dễ dàng.
-**Step 1** : Clone mã nguồn và script đã có của Open-WebUI
+Ollama là a công cụ mã nguồn mở for phép chạy, quản lý and tùy chỉnh the mô hình ngôn ngữ lớn (LLMs) trên máy tính cá nhân or server, hỗ trợ nhiều mô hình khác nhau như Llama, DeepSeek, Mistral,.... Open-WebUI là giao diện web mã nguồn mở is thiết kế đặc biệt to tương tác with Ollama, cung cấp trải nghiệm user thân thiện and dễ dàng in việc quản lý and sử dụng the mô hình LLM.
+Tài liệu this will hướng dẫn the bước triển khai mô hình DeepSeek-R1 lên FPT Managed GPU Cluster sử dụng Ollama and Open-WebUI to user can sử dụng a theh đơn giản and dễ dàng.
+**Step 1** : Clone mã nguồn and script has been có of Open-WebUI
 
 ```
 Copy> git clone https://github.com/open-webui/open-webui
 > cd open-webui/kubernetes
 ```
 
-**Step 2** : Chạy các script để triển khai ollama và open-webui. Bên trong thư mục đã bao gồm tất cả các file cần thiết để triển khai như **namespace** , **ollama statefulSet** , **ollama service** , **open-webui deployment** và **open-webui service**.
+**Step 2** : Chạy the script to triển khai ollama and open-webui. Bên in thư mục has been includes tất cả the file cần thiết to triển khai như **namespace** , **ollama statefulSet** , **ollama service** , **open-webui deployment** and **open-webui service**.
 
 ```
 Copy> cd kubernetes
 > kubectl apply -f ./kubernetes/manifest
 ```
 
-**Step 3** : Truy cập vào open-webui trên trình duyệt tại port đã được forward, ví dụ: _<http://localhost:52433>_. Với lần đầu tiên cài đặt và sử dụng OpenWebUI, người dùng sẽ cần cấu hình các thông tin: tên, email, mật khẩu.
+**Step 3** : Truy cập ando open-webui trên trình duyệt tại port has been is forward, ví dụ: _<http://localhost:52433>_. Với lần đầu tiên cài đặt and sử dụng OpenWebUI, user will cần cấu hình the thông tin: tên, email, password.
 [![](/img/migrated/36-bb032555.png)](/img/migrated/36-bb032555.png)
-**Step 4** : Sau khi cài đặt xong, người dùng lựa chọn model để sử dụng. Ví dụ ở đây, ta sẽ cài đặt mô hình DeepSeek-R1, phiên bản **1.5b**.
+**Step 4** : Sau when cài đặt xong, user lựa chọn model to sử dụng. Ví dụ ở đây, ta will cài đặt mô hình DeepSeek-R1, version **1.5b**.
 [![](/img/migrated/37-51db1bb9.png)](/img/migrated/37-51db1bb9.png)
-**Step 5** : Sau khi mô hình đã được tải và chạy, người dùng có thể tương tác với mô hình rất đơn giản và trực quan thông qua giao diện.
+**Step 5** : Sau when mô hình has been is tải and chạy, user can tương tác with mô hình rất đơn giản and trực quan thông qua giao diện.
 [![](/img/migrated/38-b9243be2.png)](/img/migrated/38-b9243be2.png)

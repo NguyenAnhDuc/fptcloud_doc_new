@@ -5,12 +5,12 @@ sidebar_label: "Show những vấn đề liên quan đến Fault Tolerance"
 sidebar_position: "6"
 ---
 
-# Show những vấn đề liên quan đến Fault Tolerance
+# Show những vấn đề liên quan to Fault Tolerance
 
 ## Storage Disk Snapshot
 
-- **Mô tả:** Rule này kiểm tra các ổ đĩa chưa có snapshot
-- **Danh sách vi phạm hiển thị:**
+- **Description:** Rule this kiểm tra the disk chưa có snapshot
+- **List vi phạm displayed:**
   - Project
   - Region
   - VPC
@@ -24,8 +24,8 @@ sidebar_position: "6"
 
 ## Instance Snapshot
 
-- **Mô tả:** Rule này kiểm tra các Instance chưa có snapshot
-- **Danh sách vi phạm hiển thị:**
+- **Description:** Rule this kiểm tra the Instance chưa có snapshot
+- **List vi phạm displayed:**
   - Project
   - Region
   - VPC

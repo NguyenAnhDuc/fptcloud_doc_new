@@ -10,7 +10,7 @@ sidebar_position: "9"
 **1, Tạo relation** Màn relation cho phép người dùng thể hiện mối quan hệ giữa các component trong một tag.
 Bạn có thể kéo thả các component vào khu vực bảng để thiết lập mối quan hệ.
 Mỗi component tương ứng với một node.
-Ví dụ:
+例:
 [![Alt text](/img/migrated/Picture20-e7d6591d.png)](/img/migrated/Picture20-e7d6591d.png)
 **2, Update node**
 • Add value trong node

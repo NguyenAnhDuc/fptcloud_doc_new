@@ -7,7 +7,7 @@ sidebar_position: "6"
 
 # Hướng dẫn sử dụng GPU Telemetry
 
-FPT Cloud sử dụng Nvidia GPU Telemetry tích hợp với kube-prometheus-stack là bộ công cụ theo dõi và giám sát cho hệ thống sử dụng GPU trên Kubernetes. Bộ công cụ giám sát bao gồm collector, time-series database lưu trữ chỉ số (metrics) và visualization (giao diện trực quan hóa). Bộ công cụ sử dụng các ứng dụng mã nguồn mở phổ biến là Prometheus và Grafana. Prometheus cũng bao gồm Alertmanager để tạo và quản lý các cảnh báo. Prometheus được triển khai cùng với kube-state-metrics và node_exporter để hiển thị các chỉ số (metrics) mức cluster cho các đối tượng API Kubernetes và các chỉ số mức node, ví dụ như mức sử dụng GPU.
+FPT Cloud sử dụng Nvidia GPU Telemetry tích hợp với kube-prometheus-stack là bộ công cụ theo dõi và giám sát for hệ thống sử dụng GPU trên Kubernetes. Bộ công cụ giám sát bao gồm collector, time-series database lưu trữ chỉ số (metrics) và visualization (giao diện trực quan hóa). Bộ công cụ sử dụng các ứng dụng mã nguồn mở phổ biến là Prometheus và Grafana. Prometheus cũng includes Alertmanager to tạo and quản lý the alert. Prometheus is triển khai cùng with kube-state-metrics and node_exporter to displayed the chỉ số (metrics) mức cluster for the đối tượng API Kubernetes and the chỉ số mức node, ví dụ như mức sử dụng GPU.
   * Kiểm tra custom metrics của GPU sử dụng câu lệnh sau:
 
 ```
@@ -46,7 +46,7 @@ http://localhost:63080/
 Default user và mật khẩu để đăng nhập vào Grafana là:
 **User** : **admin**
 **Password: prom-operator**
-  * Import Grafana Dashboard cho GPU
+  * Import Grafana Dashboard for GPU
 
 Để import Dashboard, truy cập giao diện Grafana, mục Dashboards > Manage > Import. Nếu sử dụng Dashboard của FPT Cloud, nhập nội dung FPT Cloud GPU Dashboard json > Load.
 Dashboard GPU của Nvidia FPT Cloud:

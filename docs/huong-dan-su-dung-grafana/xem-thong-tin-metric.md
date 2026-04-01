@@ -5,13 +5,13 @@ sidebar_label: "Xem thông tin Metric"
 sidebar_position: "10"
 ---
 
-# Xem thông tin Metric
+# View thông tin Metric
 
-Người dùng có thể theo dõi các chỉ số hiệu suất, tài nguyên và trạng thái của Cluster trực tiếp trên Dashboard Grafana.
+Người dùng can theo dõi the chỉ số hiệu suất, tài nguyên and status of Cluster trực tiếp trên Dashboard Grafana.
 
 ## Các bước thực hiện
 
-**Step 1:** Trên menu, bạn chọn Explore
+**Step 1:** Trên menu, you chọn Explore
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
@@ -22,12 +22,12 @@ Người dùng có thể theo dõi các chỉ số hiệu suất, tài nguyên v
 
 [![Alt text](/img/migrated/Screenshot_23-b0dab0df.png)](/img/migrated/Screenshot_23-b0dab0df.png)
 
-- Bạn có thể thêm nhiều label bằng cách click icon [![Alt text](/img/migrated/Screenshot_24-7ed16aa5.png)](/img/migrated/Screenshot_24-7ed16aa5.png)
-- Hoặc xem metric trong một khoảng thời gian mong muốn, chọn filter thời gian
+- Bạn can thêm nhiều label bằng theh click icon [![Alt text](/img/migrated/Screenshot_24-7ed16aa5.png)](/img/migrated/Screenshot_24-7ed16aa5.png)
+- Hoặc xem metric in a khoảng thời gian mong muốn, chọn filter thời gian
 
 [![Alt text](/img/migrated/Screenshot_25-639736f9.png)](/img/migrated/Screenshot_25-639736f9.png)
 
-**Step 3:** Click **Run query** và hệ thống sẽ trả ra kết quả tương ứng
+**Step 3:** Click **Run query** and hệ thống will trả ra kết quả corresponding
 
 *Ảnh minh họa*
 

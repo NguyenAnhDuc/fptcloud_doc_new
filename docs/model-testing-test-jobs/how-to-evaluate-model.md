@@ -8,105 +8,9 @@ sidebar_position: 22
 
 # Model Testing – Test Jobs
 
-All documents
-FPT Security 
-  * [ IAM ](https://fptcloud.com/en/documents/iam-2/ "IAM")
-  * [ FPT Cloud WAF ](https://fptcloud.com/en/documents/fpt-cloud-waf-2/ "FPT Cloud WAF")
-
-Support 
-  * [ Trellix Customer Guide ](https://fptcloud.com/en/documents/trellix-customer-guide-2/ "Trellix Customer Guide")
-
-Billing 
-  * [ AI Factory Billing ](https://fptcloud.com/en/documents/ai-factory-billing/ "AI Factory Billing")
-
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/en/documents/cost-explorer-2/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/en/documents/budget-alert-2/ "Budget Alert")
-
 AI Marketplace 
-  * [ AI Inference ](https://fptcloud.com/en/documents/ai_marketplace/ "AI Inference")
-
 AI Studio 
-  * [ User Token ](https://fptcloud.com/en/documents/user-token/ "User Token")
-  * [ Model Testing - Test Jobs ](https://fptcloud.com/en/documents/model-testing-test-jobs/ "Model Testing - Test Jobs")
-  * [ Model Testing - Interactive Sessions ](https://fptcloud.com/en/documents/model-testing-interactive-sessions/ "Model Testing - Interactive Sessions")
-  * [ Model Serving ](https://fptcloud.com/en/documents/model-serving/ "Model Serving")
-  * [ Model Hub ](https://fptcloud.com/en/documents/model-hub-2/ "Model Hub")
-  * [ Model Fine-Tuning ](https://fptcloud.com/en/documents/model-fine-tuning/ "Model Fine-Tuning")
-  * [ Data Hub ](https://fptcloud.com/en/documents/data-hub/ "Data Hub")
-  * [ AI Notebook ](https://fptcloud.com/en/documents/ai-notebook/ "AI Notebook")
-
-FPT AI Inference 
-AI Inference 
-AI Infrastructure 
-  * [ GPU Virtual Machine ](https://fptcloud.com/en/documents/gpu-virtual-machine-en/ "GPU Virtual Machine")
-  * [ GPU Container ](https://fptcloud.com/en/documents/gpu-container/ "GPU Container")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/en/documents/tagging-2/ "Tagging")
-  * [ FPT Cloud Portal ](https://fptcloud.com/en/documents/fpt-cloud-portal-2/ "FPT Cloud Portal")
-
-FPT Monitoring 
-  * [ Incident Management ](https://fptcloud.com/en/documents/incident-management-2/ "Incident Management")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/en/documents/fpt-key-vault-2/ "FPT Key Vault")
-  * [ FPT ArgoCD ](https://fptcloud.com/en/documents/fpt-argocd-2/ "FPT ArgoCD")
-
-FPT Integration 
-  * [ FPT Message Bus ](https://fptcloud.com/en/documents/fpt-message-bus/ "FPT Message Bus")
-  * [ FPT Kafka ](https://fptcloud.com/en/documents/fpt-kafka/ "FPT Kafka")
-  * [ FPT API Management ](https://fptcloud.com/en/documents/fpt-api-management-2/ "FPT API Management")
-
-FPT Database Engine 
-  * [ Managed – FPT Database Engine ](https://fptcloud.com/en/documents/managed-fpt-database-engine-2/ "Managed – FPT Database Engine")
-
-FPT Cloud Backup & DR 
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/en/documents/fpt-object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/en/documents/file-storage-high-performance-2/ "File Storage - High Performance")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/en/documents/vpn-site-to-site/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/en/documents/65101/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/en/documents/create-vpc/ "Create VPC")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/en/documents/managed-fpt-kubernetes-engine-2/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Container Registry ](https://fptcloud.com/en/documents/fpt-container-registry/ "FPT Container Registry")
-  * [ FPT App Catalogs ](https://fptcloud.com/en/documents/fpt-app-catalogs/ "FPT App Catalogs")
-  * [ Dedicated – FPT Kubernetes Engine ](https://fptcloud.com/en/documents/dedicated-fpt-kubernetes-engine-2/ "Dedicated – FPT Kubernetes Engine")
-
-  * [ ![](https://fptcloud.com/wp-content/uploads/2025/02/Icon-Get-started.png) GET STARTED ](javascript: "GET STARTED")
-    * [ Overview ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=overview "Overview")
-      * [ What is Model Testing - Test Jobs? ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=what-is-model-testing-test-jobs "What is Model Testing - Test Jobs?")
-      * [ When to Use Model Testing - Test Jobs? ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=when-to-use-model-testing-test-jobs "When to Use Model Testing - Test Jobs?")
-    * [ Quick Start ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=quick-start "Quick Start")
-      * [ Sign up for an Account ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=sign-up-for-an-account "Sign up for an Account")
-      * [ Step-by-Step ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=step-by-step "Step-by-Step")
-  * [ ![](https://fptcloud.com/wp-content/uploads/2025/02/Icon-Tutorails-1.png) TUTORIALS ](javascript: "TUTORIALS")
-    * [ How to Create Job? ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=how-to-create-job "How to Create Job?")
-      * [ Select Model ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=select-model "Select Model")
-      * [ Select Test Suite ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=select-test-suite "Select Test Suite")
-      * [ (Standard) Select Data Format ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=standard-select-data-format "\(Standard\) Select Data Format")
-      * [ (Standard) Select Test Data ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=standard-select-test-data "\(Standard\) Select Test Data")
-      * [ (Standard) Test Criteria ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=standard-test-criteria "\(Standard\) Test Criteria")
-      * [ (Others) Tasks ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=others-tasks "\(Others\) Tasks")
-      * [ Set up Parameters ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=set-up-parameters "Set up Parameters")
-      * [ Finish ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=finish "Finish")
-    * [ How to Manage Job? ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=how-to-manage-job "How to Manage Job?")
-      * [ Run Job ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=run-job "Run Job")
-      * [ Cancel Job ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=cancel-job "Cancel Job")
-      * [ Delete Job ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=delete-job "Delete Job")
-      * [ Run History ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=run-history "Run History")
-    * [ How to Evaluate Model? ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=how-to-evaluate-model "How to Evaluate Model?")
-      * [ Run Details ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=run-details "Run Details")
-  * [ ![](https://fptcloud.com/wp-content/uploads/2025/02/Icon-FAQ.png) FAQ ](javascript: "FAQ")
-    * [ FAQ ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=faq "FAQ")
-
 How to Evaluate Model?
-  1. [FPT Cloud Portal](https://fptcloud.com/en/documents/ "FPT Cloud Portal")
   2. Model Testing – Test Jobs
 
 How to Evaluate Model?
@@ -118,8 +22,6 @@ How to Evaluate Model?
 * * *
 It includes:
   * Run Details
-
-[ Previous Run History ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=run-history "Run History") [ Next Run Details ](https://fptcloud.com/en/documents/model-testing-test-jobs/?doc=run-details "Run Details")
 
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**

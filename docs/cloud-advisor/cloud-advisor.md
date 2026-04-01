@@ -5,10 +5,10 @@ sidebar_label: "Giới thiệu Cloud Advisor"
 sidebar_position: "2"
 ---
 
-# Giới thiệu
+# Introduction
 
 FPT Cloud Advisor là công cụ giúp khách hàng:
 
-- Đánh giá mức độ an toàn, hiệu năng và tối ưu chi phí của tài nguyên cloud
+- Đánh giá mức độ an toàn, hiệu năng and tối ưu cost of tài nguyên cloud
 - Phát hiện rủi ro cấu hình sai
-- Đưa ra khuyến nghị (recommendations) để cải thiện hệ thống
+- Đưa ra khuyến nghị (recommendations) to cải thiện hệ thống

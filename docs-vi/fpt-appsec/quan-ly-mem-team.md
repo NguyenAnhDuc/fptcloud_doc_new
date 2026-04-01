@@ -33,7 +33,6 @@ Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa
 ## Disable Member
 Chỉ **Org Admin** và**Team Manager** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Disable** ở phần Action của Member
-![anhfsec](https://fptcloud.com/documents/fpt-appsec/<https:/fptcloud.com/wp-content/uploads/2025/05/Dm1-1.png>**Bước 2** : Điền **email** của member đó và sau đó nhấn **Confirm**[![anhfsec](https:/fptcloud.com/wp-content/uploads/2025/05/SaveDS.png)](https://fptcloud.com/wp-content/uploads/2025/05/SaveDS.png)
 ## Enable Member
 Chỉ**Org Admin** và**Team Manager** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Enable** ở phần Action của Member

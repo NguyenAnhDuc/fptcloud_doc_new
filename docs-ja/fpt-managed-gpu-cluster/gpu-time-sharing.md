@@ -5,9 +5,9 @@ sidebar_label: "Giới thiệu tính năng time sharing/time slicing trong FPT K
 sidebar_position: "18"
 ---
 
-# Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine
+# 紹介 tính năng time sharing/time slicing trong FPT Kubernetes engine
 
-**Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine**
+**紹介 tính năng time sharing/time slicing trong FPT Kubernetes engine**
 ➤**FPT Managed GPU Cluster** dựa trên nền tảng mã nguồn mở K8s giúp tự động hoá triển khai, nhân rộng và quản lý các ứng dụng container. FPT Managed GPU Cluster tích hợp đầy đủ các thành phần: Container Orchestration, Storage, Networking, Security, PaaS cung cấp cho khách hàng môi trường tốt nhất để phát triển và triển khai ứng dụng trên Cloud.
 ➤**FPT Managed GPU Cluster** cung cấp tính năng time-slicing/time-sharing cho nhiều container/tiến trình trên một Nvidia GPU . Bằng việc sử dụng time-sharing, bạn có thể tối ưu hóa chi phí sử dụng GPU.
 ➤Trước khi đi vào chi tiết, hãy chắc chắn rằng bạn biết cơ chế hoạt động của time-sharing, bao gồm hạn chế và usecase nào sẽ phù hợp cho tính năng này.
@@ -18,8 +18,8 @@ Worker group sử dụng Pre-installed driver hoặc đã được cài driver t
 Worker group thuộc loại GPU worker group. 
 Bạn có thể kích hoạt tính năng time-sharing trên mọi GPU mà chúng tôi cung cấp.
 **2.Hướng dẫn cài đặt**
-**Bước 1** : Cài đặt GPU operator tại phần cài đặt GPU software & chờ cho đến khi trạng thái GPU operator ở trạng thái ready. [![](/img/migrated/Picture1.3-7829b757.png)](/img/migrated/Picture1.3-7829b757.png)
-**Bước 3** : verify phần cài đặt time slicing
+**ステップ1:** Cài đặt GPU operator tại phần cài đặt GPU software & chờ cho đến khi trạng thái GPU operator ở trạng thái ready. [![](/img/migrated/Picture1.3-7829b757.png)](/img/migrated/Picture1.3-7829b757.png)
+**ステップ3:** verify phần cài đặt time slicing
 
 ```
 CopyKubectl describe nodes 
@@ -29,7 +29,7 @@ CopyKubectl describe nodes
 [![](/img/migrated/Picture1.3-7829b757.png)](/img/migrated/Picture1.3-7829b757.png)
 **Giải thích:**
 -Có tổng cộng 8 GPU trên node, mỗi GPU được cấu hình timeslicng với tối đa 10 container có thể kết nối đến, do vậy giá trị ở phần Allocatable của mục nvidia.com/gpu là 8 * 10 = 80.
-**Bước 4:** deploy workload mẫu trên kubernetes sử dụng tính năng timeslicing
+**ステップ4:** deploy workload mẫu trên kubernetes sử dụng tính năng timeslicing
 
 ```
 CopyapiVersion: apps/v1

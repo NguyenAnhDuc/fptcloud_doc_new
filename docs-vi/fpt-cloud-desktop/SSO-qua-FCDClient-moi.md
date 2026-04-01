@@ -10,8 +10,6 @@ sidebar_position: 5
 
 Dành cho trải nghiệm ổn định và đầy đủ tính năng nhất, cho phép thao tác trực tiếp trên ứng dụng.
   * Chỉ cần làm một lần đầu tiên, những lần tiếp theo có thể truy cập thẳng từ ứng dụng FCDClient
-  * Nếu đã cài đặt FCDClient mới từ trước đó, vui lòng bỏ qua bước này, chuyển sang [Bước 2: Truy cập máy ảo qua FCDClient mới](https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1 "Bước 2: Truy cập máy ảo qua FCDClient mới")
-
 **1.Truy cập vào Homepage dịch vụ với URL phù hợp**
 Các định dạng URL hợp lệ:
   * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
@@ -44,7 +42,6 @@ Sau khi việc tải xuống hoàn thành, tiến hành cài đặt ứng dụng
 # **Bước 2: Truy cập máy ảo qua FCDClient mới**
 **3. Mở và thao tác với ứng dụng FCDClient trên máy tính**
 Đăng nhập vào Authenticator (Server) phù hợp
-1.Người dùng mở ứng dụng FCDClient đã cài đặt xong tại [Bước 1: Cài đặt FCDClient mới](https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_0 "Bước 1: Cài đặt FCDClient mới")
   * **Nếu Client đã có sẵn thông tin Server** (do đã điền trước đó, hoặc tải xuống Client từ URL chứa authentication code hợp lệ): **Chọn Connect Server** và nhập thông tin tài khoản tương ứng tại mục 2 bên dưới [![file](/img/migrated/image-1767952725970-cec7271f.png)](/img/migrated/image-1767952725970-cec7271f.png)
   * **Nếu Client hiển thị giao diện chưa có thông tin Server** : Cần tự điền thông tin Server muốn đăng nhập Chọn **New Server** > Nhập thông tin URL hoặc Domain hợp lệ (thông tin do quản trị viên khách hàng quản lý) Ví dụ cách nhập hợp lệ: Người dùng nhập thẳng URL hợp lệ pil783454741.pilotfcd.online **hoặc** nhập Domain pilotfcd.online trước, sau đó nhập Authentication code pil78345474
 

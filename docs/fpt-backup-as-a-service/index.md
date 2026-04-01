@@ -7,123 +7,23 @@ sidebar_position: "1"
 
 # FPT Backup As a Service
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
-
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
-
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
-
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
-
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
-  * [ ![](/img/migrated/settings-cb85d22c.png) Tổng quan (Overview) ](javascript: "Tổng quan \(Overview\)")
-    * [ Chi tiết dịch vụ ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=Chi%20ti%E1%BA%BFt%20d%E1%BB%8Bch%20v%E1%BB%A5 "Chi tiết dịch vụ")
+  * [ ![](/img/migrated/settings-cb85d22c.png) Overview (Overview) ](javascript: "Overview \(Overview\)")
   * [ ![](/img/migrated/icon-networking-b1e86145.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Install Veeam Agent for Linux ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=install-veeam-agent-for-linux "Install Veeam Agent for Linux")
-    * [ Install Veeam Agent for Windows ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=install-veeam-agent-for-windows "Install Veeam Agent for Windows")
-    * [ Restore File and Folder for Linux ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-file-and-folder-for-linux "Restore File and Folder for Linux")
-    * [ Restore File and Folder For Windows ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-file-and-folder-for-windows "Restore File and Folder For Windows")
-    * [ Restore Window VM from Cloud Repository ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-window-vm-from-cloud-repository "Restore Window VM from Cloud Repository")
-    * [ Restore Linux VM from Cloud Repository ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-linux-vm-from-cloud-repository "Restore Linux VM from Cloud Repository")
-    * [ Create Veeam Recovery Media ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=create-veeam-recovery-media "Create Veeam Recovery Media")
-    * [ Managing Alarms ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=managing-alarms "Managing Alarms")
-
-FPT Backup As a Service
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. FPT Backup As a Service
 
-FPT Backup As a Service
-FPT Backup as a Service là dịch vụ giải pháp sao lưu mà FPT Cloud cung cấp dựa trên công nghệ đám mây, tự động hóa quy trình sao lưu, theo dõi thông tin giảm thiểu khả năng mất dữ liệu do thiên tai, con người và một số nguyên nhân gây lỗi nghiêm trọng khác. FPT Cloud Backup as a Service với các tùy chọn thể thực hiện sao lưu và khôi phục dữ liệu trực tuyến, cung cấp thiết bị, phần mềm cần thiết cho việc sao lưu các mục tiêu như hệ thống ảo hóa, đám mây cho đến các hệ thống on-premise. Đây là giải pháp giúp cho doanh nghiệp bảo vệ dữ liệu hiệu quả giúp giảm độ phức tạp, chi phí và thời gian vận hành.  
-FPT Cloud Backup as a Service hỗ trợ phát triển các kế hoạch, giải pháp sao lưu bao gồm lập lịch sao lưu, tần suất, chính sách lưu trữ đáp ứng nhu cầu kinh doanh của người dùng. FPT Cloud cung cấp dịch vụ hỗ trợ với các tùy chọn từ thử nghiệm việc khôi phục dữ liệu hệ thống đến việc thử nghiệm khắc phục thảm họa trên đa dạng môi trường và hệ thống mà người dùng đang sử dụng. Hệ thống luôn sẵng sàng đối với nhu cầu mở rộng dung lượng sao lưu một cách linh hoạt, với tốc độ băng thông cao giúp việc sao lưu và khôi phục trở nên nhanh chóng và hiệu quả.
-## Những điều cần lưu ý khi sử dụng Backup as a Service
-  * Sao lưu hệ thống server on-premise, các hệ thống ảo hóa, các hệ thống đám mây khác, quản trị viên sẽ sẽ được cung cấp và quản lý các hoạt động sao lưu.
-  * Đối với những hệ thống on-premise đã có một hệ thống bakup có thể sao luu một bản ngoại vi được lưu trữ tại trung tâm dữ liệu của FPT Cloud và được cung cấp, quản lý cơ sở hạ tầng sao lưu cũng như các hoạt động sao lưu
-  * Chuyển đổi hệ thống từ on-premise sang hệ thống đám mây, giúp quá trình chuyển đổi nhanh chóng đồng thời bảo vệ dữ liệu toàn diện giảm rủi ro khi chuyển đổi.
-  * Số lượng máy ảo, backup storage và hệ thống đang sử dụng, các tài khoản sẽ được FPT Cloud cung cấp một hạn mức sử dụng tài nguyên nhất định, người dùng nên xác định số lượng máy chủ và hệ thống máy chủ đang sử dụng sẽ bảo vệ để FPT Cloud có thể tư vấn và hỗ trợ tốt nhất, tối ưu nhất.
+FPT Backup as a Service là service giải pháp backup mà FPT Cloud cung cấp dựa trên công nghệ đám mây, tự động hóa quy trình backup, theo dõi thông tin giảm thiểu khả năng mất dữ liệu do thiên tai, con người and a số nguyên nhân gây lỗi nghiêm trọng khác. FPT Cloud Backup as a Service with the tùy chọn thể thực hiện backup and restore dữ liệu trực tuyến, cung cấp thiết bị, phần mềm cần thiết for việc backup the mục tiêu như hệ thống ảo hóa, đám mây for to the hệ thống on-premise. Đây là giải pháp giúp for doanh nghiệp bảo vệ dữ liệu hiệu quả giúp giảm độ phức tạp, cost and thời gian vận hành.  
+FPT Cloud Backup as a Service hỗ trợ phát triển the kế hoạch, giải pháp backup includes lập lịch backup, tần suất, chính sách lưu trữ đáp ứng nhu cầu kinh doanh of user. FPT Cloud cung cấp service hỗ trợ with the tùy chọn from thử nghiệm việc restore dữ liệu hệ thống to việc thử nghiệm khắc phục thảm họa trên đa dạng môi trường and hệ thống mà user is sử dụng. System luôn sẵng sàng đối with nhu cầu mở rộng dung lượng backup a theh linh hoạt, with tốc độ băng thông cao giúp việc backup and restore trở should nhanh chóng and hiệu quả.
+## Những điều cần lưu ý when sử dụng Backup as a Service
+  * Sao lưu hệ thống server on-premise, the hệ thống ảo hóa, the hệ thống đám mây khác, quản trị viên will will is cung cấp and quản lý the hoạt động backup.
+  * Đối with những hệ thống on-premise has been có a hệ thống bakup can sao luu a bản ngoại vi is lưu trữ tại trung tâm dữ liệu of FPT Cloud and is cung cấp, quản lý cơ sở hạ tầng backup cũng như the hoạt động backup
+  * Chuyển đổi hệ thống from on-premise sang hệ thống đám mây, giúp quá trình chuyển đổi nhanh chóng đồng thời bảo vệ dữ liệu toàn diện giảm rủi ro when chuyển đổi.
+  * Số lượng virtual machine, backup storage and hệ thống is sử dụng, the account will is FPT Cloud cung cấp a hạn mức sử dụng tài nguyên nhất định, user should xác định số lượng server and hệ thống server is sử dụng will bảo vệ to FPT Cloud can tư vấn and hỗ trợ tốt nhất, tối ưu nhất.
 
-Kịch bản sao lưu sẽ cần người dùng chủ động định nghĩa tùy vào nhu cầu thực tế. FPT Cloud đang hỗ trợ sao lưu theo ngày, tuần, tháng, …. Và cho phép người dùng linh hoạt chọn hoặc tùy biến theo nhu cầu sử dụng.
-##  Trang chủ 
-01Tổng quan (Overview) 
-  * [ Chi tiết dịch vụ ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=Chi%20ti%E1%BA%BFt%20d%E1%BB%8Bch%20v%E1%BB%A5 "Chi tiết dịch vụ")
-
+Kịch bản backup will cần user chủ động định nghĩa tùy ando nhu cầu thực tế. FPT Cloud is hỗ trợ backup theo ngày, tuần, tháng, …. Và for phép user linh hoạt chọn or tùy biến theo nhu cầu sử dụng.
+##  Home page 
+01Overview (Overview) 
 02Hướng dẫn chi tiết (Tutorials) 
-  * [ Install Veeam Agent for Linux ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=install-veeam-agent-for-linux "Install Veeam Agent for Linux")
-  * [ Install Veeam Agent for Windows ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=install-veeam-agent-for-windows "Install Veeam Agent for Windows")
-  * [ Restore File and Folder for Linux ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-file-and-folder-for-linux "Restore File and Folder for Linux")
-  * [ Restore File and Folder For Windows ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-file-and-folder-for-windows "Restore File and Folder For Windows")
-  * [ Restore Window VM from Cloud Repository ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-window-vm-from-cloud-repository "Restore Window VM from Cloud Repository")
-  * [ Restore Linux VM from Cloud Repository ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=restore-linux-vm-from-cloud-repository "Restore Linux VM from Cloud Repository")
-  * [ Create Veeam Recovery Media ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=create-veeam-recovery-media "Create Veeam Recovery Media")
-  * [ Managing Alarms ](https://fptcloud.com/documents/fpt-backup-as-a-service/?doc=managing-alarms "Managing Alarms")
-
 ![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
 **Hotline:[1900 638 399](tel:1900%20638%20399)**
 Địa chỉ:
@@ -138,7 +38,7 @@ Email: support@fptcloud.com
 
 [ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
 Về chúng tôi 
-  * [ Giới thiệu chung ](https://fptcloud.com/gioi-thieu/ "Giới thiệu chung")
+  * [ Introduction chung ](https://fptcloud.com/gioi-thieu/ "Introduction chung")
   * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
   * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
   * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")
@@ -157,18 +57,18 @@ Dịch vụ
 
 Điều khoản & Chính sách 
   * [ Điều Khoản Sử dụng ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Điều Khoản Sử dụng")
-  * [ Chính sách Bảo vệ quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Chính sách Bảo vệ quyền riêng tư ")
-  * [ Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-3 "Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư")
+  * [ Chính sách Bảo vệ permission riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Chính sách Bảo vệ permission riêng tư ")
+  * [ Báo cáo lỗ hổng security or permission riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-3 "Báo cáo lỗ hổng security or permission riêng tư")
   * [ Chính sách Bảo vệ Dữ liệu Cá nhân ](https://fptcloud.com/chinh-sach/#policy-tab-5 "Chính sách Bảo vệ Dữ liệu Cá nhân")
-  * [ Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm ](https://fptcloud.com/chinh-sach/#policy-tab-6 "Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm")
+  * [ Biểu mẫu Báo Cáo Rủi Ro or Vi Phạm ](https://fptcloud.com/chinh-sach/#policy-tab-6 "Biểu mẫu Báo Cáo Rủi Ro or Vi Phạm")
 
-Đăng ký nhận tin 
+Register nhận tin 
 Gửi 
 
   * [ Liên hệ ](tel:1900%20638%20399)
 Email
 
-Chúng tôi quan tâm đến sự riêng tư của bạn
-Trang web này sử dụng cookie để cải thiện trải nghiệm người dùng. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với tất cả cookie theo [Chính sách bảo mật](https://fptcloud.com/chinh-sach/#policy-tab-1) của chúng tôi
+Chúng tôi quan tâm to sự riêng tư of you
+Trang web this sử dụng cookie to cải thiện trải nghiệm user. Bằng theh sử dụng trang web of chúng tôi, you đồng ý with tất cả cookie theo [Chính sách security](https://fptcloud.com/chinh-sach/#policy-tab-1) of chúng tôi
 [Chỉ những cookie cần thiết](javascript:void\(0\);) [Cài đặt](javascript:void\(0\);) [Tôi đồng ý](javascript:void\(0\);)
 [ ](tel:1900638399 "Gọi 1900638399")

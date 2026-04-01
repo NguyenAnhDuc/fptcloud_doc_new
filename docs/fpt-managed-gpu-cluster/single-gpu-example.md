@@ -7,27 +7,27 @@ sidebar_position: "21"
 
 # Chuẩn bị môi trường
 
-Bài hướng dẫn này trình bày cách **triển khai và phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng **GPU trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM** để phục vụ inference.  
-Mục tiêu là cung cấp nền tảng giúp bạn **hiểu và thực hành việc triển khai LLM cho bài toán suy luận (inference)** trong một **môi trường Kubernetes được quản lý**. 
-Trong hướng dẫn này, bạn sẽ: 
-  * **Triển khai một container dựng sẵn** có chạy **vLLM** lên FKE.
-  * **Cấu hình FKE** để **tải trọng số (weights)** của các phiên bản **Gemma 1B, 4B** từ **Hugging Face**.
+Bài hướng dẫn this trình bày theh **triển khai and phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng **GPU trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM** to phục vụ inference.  
+Mục tiêu là cung cấp nền tảng giúp you **hiểu and thực hành việc triển khai LLM for bài toán suy luận (inference)** in a **môi trường Kubernetes is quản lý**. 
+Trong hướng dẫn this, you will: 
+  * **Triển khai a container dựng sẵn** có chạy **vLLM** lên FKE.
+  * **Configure FKE** to **tải trọng số (weights)** of the version **Gemma 1B, 4B** from **Hugging Face**.
 
 ## Chuẩn bị môi trường
 ###  Chuẩn bị cụm FKE GPU 
-Hãy đảm bảo rằng bạn có đủ: 
-  * Một cụm k8s với GPU. 
-  * GPU operator được cài đặt. 
+Hãy đảm bảo rằng you có đủ: 
+  * Một cụm k8s with GPU. 
+  * GPU operator is cài đặt. 
   * Driver, nvidia container toolkit. 
-  * Có quota storage để tạo Persistent Volume 
+  * Có quota storage to tạo Persistent Volume 
 
-Kiểm tra node GPU trên k8s đã sẵn sàng sử dụng bằng lệnh:
+Check node GPU trên k8s has been sẵn sàng sử dụng bằng lệnh:
 
 ```
 Copykubectl describe node 
 ```
 
-Node sẽ sẵn sàng được sử dụng nếu tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity và allocatable 
+Node will sẵn sàng is sử dụng if tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity and allocatable 
 
 ```
 CopyCapacity:
@@ -40,9 +40,9 @@ Allocatable:
   ...
 ```
 
-Node sẽ sẵn sàng được sử dụng nếu tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity và allocatable 
+Node will sẵn sàng is sử dụng if tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity and allocatable 
 ### Chuẩn bị token Huggingface (optional)
-Lên trang chủ Huggingface, tạo token và tạo Secret trên k8s chứa token này: 
+Lên trang chủ Huggingface, tạo token and tạo Secret trên k8s chứa token this: 
 
 ```
 Copykubectl create secret generic hf-secret \
@@ -51,7 +51,7 @@ Copykubectl create secret generic hf-secret \
 ```
 
 ## Deploy VLLM
-Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
+Trong phần this, you triển khai container vLLM to phục vụ mô hình Gemma mà you muốn sử dụng. Để triển khai mô hình, bài hướng dẫn this sử dụng Kubernetes Deployment. Deployment là a đối tượng API of Kubernetes for phép you chạy nhiều bản sao (replica) of Pod and the Pod this is phân bổ trên the node in a cluster. 
 ### Deploy vllm bằng deployment
 
 ```
@@ -108,14 +108,14 @@ spec:
           medium: Memory
 ```
 
-Trong đó: 
-  * nvidia.com/gpu: "1" : container của bạn sẽ sử dụng 1 GPU trên node. 
+Trong that: 
+  * nvidia.com/gpu: "1" : container of you will sử dụng 1 GPU trên node. 
   * MODEL_ID: tên model trên Huggingface 
-  * HUGGING_FACE_HUB_TOKEN: token Huggingface bạn đã tạo. 
-  * Volume dshm: volume shared memory, quan trọng với các case distributed inferencing/training, nên có 
+  * HUGGING_FACE_HUB_TOKEN: token Huggingface you has been tạo. 
+  * Volume dshm: volume shared memory, quan trọng with the case distributed inferencing/training, should có 
 
 ### Expose model
-Để expose model, hãy tạo một service trên k8s, nếu type của service là LoadBalancer thay vì ClusterIP, model có thể được truy cập từ internet: 
+Để expose model, hãy tạo a service trên k8s, if type of service là LoadBalancer thay vì ClusterIP, model can is truy cập from internet: 
 
 ```
 CopyapiVersion: v1
@@ -133,9 +133,9 @@ spec:
 ```
 
 ### Setup persistent storage (Optional)
-Với cấu hình trên, model weight của model được lưu tại file system của container. Khi container restart, chúng ta cần tải lại bộ weight trên từ đầu. 
-Để tránh tình trạng này, chúng ta có thể lưu sẵn model vào một volume, do đó khi container restart thì model vẫn còn và không cần phải tải lại. 
-Tạo persistent volume claim: 
+Với cấu hình trên, model weight of model is lưu tại file system of container. Khi container restart, chúng ta cần tải lại bộ weight trên from đầu. 
+Để tránh tình trạng this, chúng ta can lưu sẵn model ando a volume, do that when container restart thì model vẫn còn and không must tải lại. 
+Create persistent volume claim: 
 
 ```
 CopyapiVersion: v1
@@ -168,10 +168,10 @@ volumes:
 ```
 
 ##  Serve model 
-Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
-###  Set up networking để truy cập model ngoài cụm 
-Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
-Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 
+Tại phần this, chúng ta will thực hiện việc kiểm tra kết nối & gửi the request to model xử lý 
+###  Set up networking to truy cập model ngoài cụm 
+Nếu tại mục Expose model, you sử dụng service type loadbalancer, hãy sử dụng IP public of loadbalancer that. 
+Nếu you sử dụng service type CusterIP, hãy port forward service this: 
 
 ```
 Copykubectl port-forward service/llm-service 8000:8000

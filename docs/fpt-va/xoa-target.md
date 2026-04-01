@@ -6,6 +6,6 @@ sidebar_label: "5 Xóa Target"
 sidebar_position: "8"
 ---
 
-# 5 Xóa Target
+# 5 Delete Target
 
-5 Xóa Target on FPT Cloud VA.
+5 Delete Target on FPT Cloud VA.

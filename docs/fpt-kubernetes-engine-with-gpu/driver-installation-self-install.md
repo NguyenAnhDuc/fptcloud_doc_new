@@ -7,18 +7,18 @@ sidebar_position: "10"
 
 # Copyright 2023 FPT Cloud - PaaS
 
-Người dùng có thể tự cài đặt GPU Driver mong muốn trên cụm FPT Kubernetes Engine tích hợp GPU.
-Các bước thực hiện như sau:
-**Step 1: Khởi tạo GPU Cluster với Driver Installation là User-Install**
-  * _Tạo Cluster chọn Driver Installation là User-Install_
+Người dùng can tự cài đặt GPU Driver mong muốn trên cụm FPT Kubernetes Engine tích hợp GPU.
+Các bước thực hiện as follows:
+**Step 1: Initialize GPU Cluster with Driver Installation là User-Install**
+  * _Create Cluster chọn Driver Installation là User-Install_
 
-**Step 2: Khách hàng tự install các phần mềm để sử dụng được GPU (Driver, Toolkit, Device Plugin, …)**
-**Tham khảo các phiên bản GPU driver:**
+**Step 2: Khách hàng tự install the phần mềm to sử dụng is GPU (Driver, Toolkit, Device Plugin, …)**
+**Tham khảo the version GPU driver:**
   * **Release Notes** : <https://docs.nvidia.com/datacenter/tesla/index.html> <https://docs.nvidia.com/datacenter/tesla/drivers/releases.json>
   * **Document** : <https://docs.nvidia.com/datacenter/tesla/drivers/index.html>
   * **Bộ cài đặt** : <https://download.nvidia.com/XFree86/Linux-x86_64/>
 
-  * _Khách hàng có thể tham khảo DaemonSet cài đặt Driver dưới đây:_
+  * _Khách hàng can tham khảo DaemonSet cài đặt Driver dưới đây:_
 
 ```
 # worker.fptcloud/type=gpu
@@ -87,16 +87,16 @@ spec:
 ```
 
 Với tham số biến môi trường:
-  * **NVIDIA_DRIVER_VERSION** : Phiên bản của Driver
-  * **NVIDIA_TOOLKIT_INSTALL** : “true” hoặc “false”, mặc định là “true”. Tự động tự cài đặt toolkit hoặc không.
+  * **NVIDIA_DRIVER_VERSION** : Phiên bản of Driver
+  * **NVIDIA_TOOLKIT_INSTALL** : “true” or “false”, mặc định là “true”. Tự động tự cài đặt toolkit or không.
 
-  * _Để apply fptcloud daemonset vào cụm K8s dùng lệnh sau:_
+  * _Để apply fptcloud daemonset ando cụm K8s dùng lệnh sau:_
 
 ```
 Copykubectl apply -f https://raw.githubusercontent.com/fci-xplat/fke-config/main/fptcloud-gpu-driver-installer.yaml
 ```
 
-  * _Kiểm tra trạng thái Pod của DaemonSet_
+  * _Check status Pod of DaemonSet_
 
 ```
 Copykubectl get pod -n kube-system | grep "gpu-driver"
@@ -107,8 +107,8 @@ CopyNAME                                                 READY   STATUS    RESTA
 fptcloud-gpu-driver-installer-7tj55                  1/1     Running   0               2d17h
 ```
 
-DaemonSet fptcloud-gpu-driver-installer sẽ shedule pod ở tất cả các worker trong Worker Group (có label worker.fptcloud/type: gpu) để tiến hành cài đặt Driver/Toolkit.
-  * _Kiểm tra logs của pod fptcloud-gpu-driver-installer-7tj55 xem Installer đã cài đặt xong hay chưa_
+DaemonSet fptcloud-gpu-driver-installer will shedule pod ở tất cả the worker in Worker Group (có label worker.fptcloud/type: gpu) to tiến hành cài đặt Driver/Toolkit.
+  * _Check logs of pod fptcloud-gpu-driver-installer-7tj55 xem Installer has been cài đặt xong hay chưa_
 
 ```
 Copykubectl logs fptcloud-gpu-driver-installer-7tj55 -n kube-system
@@ -119,4 +119,4 @@ CopyVerifying Nvidia installation... DONE.
 Clean Nvidia installation... DONE.
 ```
 
-Nếu cài đặt thành công sẽ có logs như trên. Quá trình cài đặt thường diễn ra trong khoảng một vài phút.
+Nếu cài đặt successfully will có logs như trên. Quá trình cài đặt thường diễn ra in khoảng a andi phút.

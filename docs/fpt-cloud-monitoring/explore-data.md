@@ -7,6 +7,6 @@ sidebar_position: "19"
 
 # 9. Khám phá dữ liệu (Explore data)
 
-**Step 1** : Đăng nhập vào dashboard (xem mục 7.1. Truy cập vào dashboard)
+**Step 1** : Log in ando dashboard (xem mục 7.1. Truy cập ando dashboard)
 **Step 2** : Trên menu trái, click **Home** > **Explore**
 [![Alt text](/img/migrated/Picture18-2-308648c7.png)](/img/migrated/Picture18-2-308648c7.png)

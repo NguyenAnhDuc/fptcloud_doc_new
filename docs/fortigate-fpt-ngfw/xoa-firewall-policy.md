@@ -5,8 +5,8 @@ sidebar_label: "Xóa Firewall Policy"
 sidebar_position: "6"
 ---
 
-# Xóa Firewall Policy
+# Delete Firewall Policy
 
-Khi không còn nhu cầu sử dụng và muốn xóa Firewall Policy, bạn thao tác như sau:  
+Khi không còn nhu cầu sử dụng and muốn xóa Firewall Policy, you thao tác as follows:  
 Ở **Policy & Objects** > **Firewall Policy.** Chọn Policy cần xóa > **Delete**.
 [![Userguide Fortigate FPT NGFW 2022 12](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-12-102-427b1094.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-12-102-427b1094.png)

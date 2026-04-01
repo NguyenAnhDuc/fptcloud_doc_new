@@ -7,19 +7,19 @@ sidebar_position: "9"
 
 # Add Them Worker Group
 
-Managed GPU Cluster cho phép người dùng add thêm worker group vào cụm cluster theo nhu cầu sử dụng. Để add thêm worker khách hàng có thể thao tác trên portal như sau: 
-**Step 1** : Ở menu chọn **AI Infrastructure** > **Managed GPU Cluster** hệ thống sẽ hiển thị trang **Managed GPU Management**. Chọn Cluster muốn thêm Worker Group.
+Managed GPU Cluster for phép user add thêm worker group ando cụm cluster theo nhu cầu sử dụng. Để add thêm worker khách hàng can thao tác trên portal as follows: 
+**Step 1** : Ở menu chọn **AI Infrastructure** > **Managed GPU Cluster** hệ thống will displayed trang **Managed GPU Management**. Chọn Cluster muốn thêm Worker Group.
 [![](/img/migrated/17-502dd1f3.png)](/img/migrated/17-502dd1f3.png)
-**Step 2** : Chọn **Node Pools** > **Edit Workers**.
+**Step 2** : Select **Node Pools** > **Edit Workers**.
 [![](/img/migrated/18-13f798d7.png)](/img/migrated/18-13f798d7.png)
-**Step 3** : Chọn **Add Worker Group**.
+**Step 3** : Select **Add Worker Group**.
 [![](/img/migrated/19-437d9b85.png)](/img/migrated/19-437d9b85.png)
-**Step 4** : Nhập các trường thông tin theo yêu cầu và nhấn **Save**.
+**Step 4** : Enter the trường thông tin theo yêu cầu and nhấn **Save**.
 [![](/img/migrated/20-d9c3a1fa.png)](/img/migrated/20-d9c3a1fa.png)
-**• Group Name** : Đặt tên cho Worker Group để phân biệt các Worker Group với nhau 
+**• Group Name** : Đặt tên for Worker Group to phân biệt the Worker Group with nhau 
 **• Container Runtime** : Chọn container runtime, hiện tại, hệ thống mới chỉ hỗ trợ container runtime Containerd 
-**• Flavor** : Flavor resource của Worker GPU 
-**• Number of Server** : Số Metal Cloud Server được tạo ra để chạy Worker trong Cluster 
-**• Label** : Đánh Label cho Worker Group 
-**• Taint** : Đánh Taint cho Worker Group 
-**Lưu ý** : Quá trình thêm mới Cluster sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing**. Cluster vẫn hoạt động bình thường khi thực hiện thêm Worker Group mới.
+**• Flavor** : Flavor resource of Worker GPU 
+**• Number of Server** : Số Metal Cloud Server is tạo ra to chạy Worker in Cluster 
+**• Label** : Đánh Label for Worker Group 
+**• Taint** : Đánh Taint for Worker Group 
+**Save ý** : Quá trình thêm mới Cluster will thực hiện in vòng andi phút, Status of Cluster will chuyển sang **Processing**. Cluster vẫn hoạt động bình thường when thực hiện thêm Worker Group mới.

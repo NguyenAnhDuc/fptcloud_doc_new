@@ -10,7 +10,7 @@ sidebar_position: "23"
 **Guideline: Tích hợp Scanning API của FSP Core Service vào CI/CD Pipelines**
 Hướng dẫn này sẽ hướng dẫn bạn cách tích hợp các endpoint quét dịch vụ lõi FSP vào quy trình CI/CD của mình, cho phép tự động quét mã nguồn, quét bí mật và quét bảo mật hình ảnh container trên mỗi lần thay đổi.
 [![CICD flow](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)
-### 1. Tổng quan
+### 1. 概要
 Tự động hóa các bước quét bảo mật trong pipeline CI/CD giúp phát hiện lỗ hổng sớm. Hướng dẫn này bao gồm:
   * Yêu cầu chuẩn bị
   * Cách thiết lập xác thực

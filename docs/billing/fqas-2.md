@@ -7,5 +7,5 @@ sidebar_position: "8"
 
 # Fqas 2
 
-Hệ thống cập nhật đối soát với tần suất 1 giờ - 1 lần. Người dùng có thể xem thời điểm cập nhật dữ liệu cuối cùng tại phần thông tin Last Updated được hiển thị trong phần Information của Bill.
+System cập nhật đối soát with tần suất 1 giờ - 1 lần. Người dùng can xem thời điểm cập nhật dữ liệu cuối cùng tại phần thông tin Last Updated is displayed in phần Information of Bill.
 [![file](/img/migrated/image-1744089998414-ce3c34db.png)](/img/migrated/image-1744089998414-ce3c34db.png)

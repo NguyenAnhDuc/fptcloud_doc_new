@@ -14,5 +14,3 @@ An IAM User is a user invited to a Tenant, which could either be an existing cus
   * If a Tenant Owner wants to change the role or revoke access to a Tenant for any IAM User, they can modify the User Group as instructed here.
     * For example, User A is part of a User Group with the Reviewer role, which grants them access to Tenant B.
     * If you want to revoke User A's access to Tenant B, remove User A from the User Group. This will revoke any access to Tenant B. Similarly, to change their access to a different role, assign a new role to the User Group.
-
-**Note** : Changing the role for a User Group may affect other users in the same group. If you only want to change the role for a specific user, create a new User Group as instructed [Link](https://fptcloud.com/en/documents/iam-2/?doc=create-user-group) .

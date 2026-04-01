@@ -6,6 +6,6 @@ sidebar_label: "7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu qu
 sidebar_position: "10"
 ---
 
-# 7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu quét
+# 7 Hướng dẫn lấy Cookie trang web when tạo mục tiêu quét
 
-7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu quét on FPT Cloud VA.
+7 Hướng dẫn lấy Cookie trang web when tạo mục tiêu quét on FPT Cloud VA.

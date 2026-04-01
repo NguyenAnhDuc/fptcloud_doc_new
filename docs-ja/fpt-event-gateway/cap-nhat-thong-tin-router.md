@@ -8,10 +8,10 @@ sidebar_position: "18"
 # Cap Nhat Thong tin Router
 
 Để tạo mới Router, người dùng thực hiện các bước sau: 
-**Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Bước 2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Router**
+**ステップ1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
+**ステップ2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Router**
 **Bước** 3: Tại danh sách **Router** > chọn button **Edit**
-**Bước 4** : Thực hiện thay đổi các thông tin: 
+**ステップ4:** Thực hiện thay đổi các thông tin: 
   * **Name ( required):** Tên Router 
     * Bao gồm a-z, A-Z, -, _ và số, bắt đầu bằng chữ cái, tối đa 30 ký tự 
   * **Mode (required):** Loại Router 
@@ -37,6 +37,6 @@ sidebar_position: "18"
     * Bao gồm a-z, A-Z, 0-9, dấu gạch ngang (-), gạch dưới (_), dấu chấm (.)
     * Bắt đầu bằng chữ cái; Tối đa 249 ký tự 
 
-Nhấn **Add router** để thêm template giao diện tương ứng với mỗi loại Mode của Router 
-Nhấn **Remove router** để Xoá Router 
-**Bước 5** : Chọn **Save** để lưu cấu hình mới
+**Add router** để thêm template giao diện tương ứng với mỗi loại Mode của Router 
+**Remove router** để Xoá Router 
+**ステップ5:** **Save** để lưu cấu hình mới

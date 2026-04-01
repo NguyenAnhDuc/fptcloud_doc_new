@@ -10,7 +10,6 @@ sidebar_position: 10
 
 In addition to direct usage on FPT Portal, you can log in and use FPT Object Storage with any S3-SDK or S3-Client that follows AWS S3 standards.
 Here are instructions on how to use it with **S3 Browser** , a user-friendly client with a graphical user interface that provides easy access. FPT Cloud encourages you to use this application as it is free, widely used, and fully functional.
-If you need guidance on integrating it with other SDKs or Clients, please refer to the [**Integrating FPT Object Storage with S3-Clients**](https://fptcloud.com/documents/object-storage/?doc=tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client "Link title") section.
 Download and install S3 Browser from: <https://s3browser.com/download.aspx>
 Information required to log in to **S3 Browser** :  
 | Login Information  | Example  |  

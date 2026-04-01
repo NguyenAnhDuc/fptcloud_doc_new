@@ -5,9 +5,9 @@ sidebar_label: "1. Giới thiệu"
 sidebar_position: "9"
 ---
 
-# 1. Giới thiệu
+# 1. 紹介
 
-## Giới thiệu
+## 紹介
 Tính năng **Backup Volume** cho phép người dùng tạo bản sao lưu cho các volume trong VPC trên Unify Portal.
 Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi phục khi xảy ra sự cố.
 ## Điều kiện
@@ -17,9 +17,9 @@ Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi 
   * Volume cần backup chưa thuộc job khác (volume chỉ có thể nằm trong một job tại một thời điểm).
 
 ## Tạo Backup Volume
-### Bước 1: Mở giao diện Backup & Recovery
+### ステップ1: Mở giao diện Backup & Recovery
 Nhấn nút **Create Backup Job**.
-### Bước 2: Nhập thông tin cơ bản
+### ステップ2: Nhập thông tin cơ bản
 Trên form **Create Backup Job** , điền các trường sau:
   1. **Job Name** (_bắt buộc_): 
      * Tên job ( không được trùng trong VPC).
@@ -28,7 +28,7 @@ Trên form **Create Backup Job** , điền các trường sau:
   3. **Description** (_tùy chọn_): mô tả ngắn về job.
   4. **Target Selection** : chọn các volume cần backup (volume hợp lệ sẽ bắt đầu bằng prefix `pv-fke`).
 
-### Bước 3: Cấu hình Backup
+### ステップ3: Cấu hình Backup
   * **Backup Option** (chọn một): 
     * **Daily full backup** : tạo bản full mỗi ngày.
     * **Daily incremental + Weekly active full** : incremental hàng ngày, full theo ngày cố định trong tuần.
@@ -38,8 +38,8 @@ Trên form **Create Backup Job** , điền các trường sau:
   * **Latest Backup to Keep** : số bản backup giữ lại (1–1000).
   * **Notification Email** : thêm email nhận thông báo trạng thái job (thành công/thất bại).
 
-### Bước 4: Tạo job
-  * Nhấn **Create**.
+### ステップ4: Tạo job
+  * **Create**.
   * Hệ thống hiển thị thông báo: 
     * Thành công: _The job [JobName] has been created successfully._
     * Lỗi: hiển thị chi tiết (ví dụ: job name trùng, volume không hợp lệ, hệ thống bận...).

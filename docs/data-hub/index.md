@@ -1,7 +1,7 @@
 ---
 id: "data-hub"
 title: "Data Hub"
-description: "All documents"
+description: ""
 sidebar_label: "Data Hub"
 sidebar_position: 1
 ---

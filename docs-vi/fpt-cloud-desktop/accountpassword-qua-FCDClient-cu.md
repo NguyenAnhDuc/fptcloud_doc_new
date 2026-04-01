@@ -12,8 +12,6 @@ pagination_next: null
 Dành cho người dùng đang sử dụng FCDClient cũ đã cài đặt trước đó
 **Lưu ý:**
   * Việc truy cập bằng FCDClient cũ trên PC, laptop sẽ bị dừng hỗ trợ **sau ngày 31/03/2026.** Truy cập bằng các thiết bị khác vẫn sẽ được hỗ trợ cho đến khi cho thông báo mới. Người dùng chủ động cài đặt FCDClient mới để tránh bị gián đoạn công việc
-  * Thao tác truy cập qua luồng cũ tương tự như [Hướng dẫn truy cập qua Web Browser](https://fptcloud.com/documents/fpt-cloud-desktop/?doc=truy-cap-qua-web-browser "Hướng dẫn truy cập qua Web Browser"), chỉ khác là tại bước truy cập chọn máy ảo, người dùng chọn phương thức truy cập qua FCDClient
-
 **1.Truy cập vào Homepage dịch vụ với URL phù hợp**
 Các định dạng URL hợp lệ:
   * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
@@ -47,6 +45,4 @@ Mở ứng dụng Authenticator và thực hiện quét (scan) QR Code
 **3: Truy cập vào máy ảo**
 Tại màn hình danh sách các máy ảo, chọn truy cập vào máy ảo mong muốn. **Lưu ý:** tại bước này người dùng chọn option truy cập qua FCDClient. 
   * Nếu người dùng đang cài đặt FCDClient cũ: Hệ thống sẽ mở FCDClient cũ để truy cập máy ảo Người dùng nhập thông tin đăng nhập vào máy ảo nếu hệ thống yêu cầu => Truy cập máy ảo thành công
-  * Nếu người dùng đã cài đặt FCDClient mới: Hệ thống sẽ ưu tiên mở FCDClient, người dùng cần thực hiện lại các thao tác truy cập tương tự [Bước 2: Truy cập máy ảo qua FCDClient mới](https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1 "Bước 2: Truy cập máy ảo qua FCDClient mới")
-
 [![file](/img/migrated/image-1767954262885-f3b50a93.png)](/img/migrated/image-1767954262885-f3b50a93.png)

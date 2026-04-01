@@ -5,15 +5,15 @@ sidebar_label: "2. Xem danh sách Workspaces"
 sidebar_position: "4"
 ---
 
-# 2. Xem danh sách Workspaces
+# 2. View danh sách Workspaces
 
-**Step 1** : Đăng nhập vào FPT portal cloud [](https://console.fptcloud.com/)
-**Step 2** : Trên menu của FPT Cloud Console Portal, click Monitoring. Danh sách workspace hiển thị như hình bên dưới. 
+**Step 1** : Log in ando FPT portal cloud [](https://console.fptcloud.com/)
+**Step 2** : Trên menu of FPT Cloud Console Portal, click Monitoring. List workspace displayed như hình below. 
 [![](/img/migrated/Screenshot-2025-04-16-145353-2e29b6c0.png)](/img/migrated/Screenshot-2025-04-16-145353-2e29b6c0.png)
-Thông tin một Workspace gồm có:
-  * **Workspace name** : tên của Workspace. Tên này bạn không thể sửa đổi trong quá trình sử dụng.
-  * **Package Type** : gói dịch vụ của Workspace. Hiện FMON đang cung cấp 4 gói dịch vụ cho bạn chọn: TRIAL, BASE, PRO, ADVANCE.
-  * **Status** : trạng thái hoạt động của Workspace.
+Information a Workspace gồm có:
+  * **Workspace name** : tên of Workspace. Tên this you cannot sửa đổi in quá trình sử dụng.
+  * **Package Type** : gói service of Workspace. Hiện FMON is cung cấp 4 gói service for you chọn: TRIAL, BASE, PRO, ADVANCE.
+  * **Status** : status hoạt động of Workspace.
   * **Created At** : thời gian khởi tạo Workspace.
   * **Metric Usages** : số lượng dữ liệu metric dùng hiện tại. Đơn vị tính là metric records.
   * **Log Usages** : số lượng dữ liệu log dùng hiện tại. Đơn vị tính là GB.

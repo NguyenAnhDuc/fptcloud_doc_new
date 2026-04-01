@@ -1,7 +1,7 @@
 ---
 id: "manage-credentials"
 title: "FPT Kafka"
-description: "All documents"
+description: ""
 sidebar_label: "FPT Kafka"
 sidebar_position: 9
 ---

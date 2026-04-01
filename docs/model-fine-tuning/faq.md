@@ -26,7 +26,6 @@ It depends on:
 Typically, it ranges from a few hours to several days.
 ### 4. What do your need to prepare before fine-tuning a model?
 You'll need:
-  * Strictly follow the expected dataset structure for the model you're fine-tuning. More details about Data sample, visit here: <https://fptcloud.com/en/documents/model-fine-tuning/?doc=select-dataset-format>
   * Clean, diverse, and non-duplicated data.
   * A clear objective for fine-tuning (e.g., tech support, customer service, content writing, etc.). 
 

@@ -11,7 +11,7 @@ Dành cho người dùng muốn truy cập máy ảo nhanh, không cần cài đ
 **1.Truy cập vào Homepage dịch vụ với URL phù hợp**
 Các định dạng URL hợp lệ:
   * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
-  * URL đã chứa authentication code hợp lệ (định dạng code.domain). Ví dụ: pil783454741.pilotfcd.online
+  * URL đã chứa authentication code hợp lệ (định dạng code.domain). 例: pil783454741.pilotfcd.online
   * URL mặc định của dịch vụ
 
 **Thông tin URL này do quản trị viên khách hàng cung cấp**

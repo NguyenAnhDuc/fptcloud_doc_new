@@ -1,7 +1,7 @@
 ---
 id: "create-vpc"
 title: "Create VPC"
-description: "All documents"
+description: ""
 sidebar_label: "Create VPC"
 sidebar_position: 1
 ---

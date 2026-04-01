@@ -17,7 +17,7 @@ Từ phiên bản 2.451.0 do FPT Cloud cung cấp, để sử dụng kubenetes a
 ***Tạo item dạng folder: [![](/img/migrated/Picture106-2d903e4d.png)](/img/migrated/Picture106-2d903e4d.png)
 ***Cấu hình kubenetes agent được sử dụng trong folder: [![](/img/migrated/Picture107-13b71bc6.png)](/img/migrated/Picture107-13b71bc6.png)
 **Bước 2.** Tạo một job đơn giản chạy trên Jenkins:
-* **Trong folder vừa tạo > Chọn **New item/ Create a job:** [![](/img/migrated/Picture108-8729b0b8.png)](/img/migrated/Picture108-8729b0b8.png)
+* **Trong folder vừa tạo > **New item/ Create a job:** [![](/img/migrated/Picture108-8729b0b8.png)](/img/migrated/Picture108-8729b0b8.png)
 ***Tạo jobs loại Freestyle để cấu hình jobs: [![](/img/migrated/Picture110-c5cac842.png)](/img/migrated/Picture110-c5cac842.png)
 ***Nhập label agent chạy jobs: [![](/img/migrated/Picture111-e24ed221.png)](/img/migrated/Picture111-e24ed221.png)
 ***Cấu hình một execute shell để test jobs: [![](/img/migrated/Picture112-fd5e8c52.png)](/img/migrated/Picture112-fd5e8c52.png)

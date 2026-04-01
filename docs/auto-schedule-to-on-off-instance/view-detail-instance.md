@@ -5,11 +5,11 @@ sidebar_label: "Xem chi tiết một instance schedule"
 sidebar_position: "5"
 ---
 
-# Xem chi tiết một instance schedule
+# View chi tiết a instance schedule
 
-**Step 1** : Truy cập vào trang **Instance Schedule Detail** bằng cách chọn tên instance schedule trên bảng quản trị **Instance Schedule Management**
+**Step 1** : Truy cập ando trang **Instance Schedule Detail** bằng theh chọn tên instance schedule trên bảng quản trị **Instance Schedule Management**
 [![file](/img/migrated/image-1695609011987-33ef2b1d.png)](/img/migrated/image-1695609011987-33ef2b1d.png)
-**Step 2** : Xem và kiểm tra thông tin chi tiết cua instance schedule trong mục **Overview** bao gồm: Name, description, start và stop time, start và end date, frequency, tên các máy ảo gắn kèm
+**Step 2** : View and kiểm tra thông tin chi tiết cua instance schedule in mục **Overview** includes: Name, description, start and stop time, start and end date, frequency, tên the virtual machine gắn kèm
 [![file](/img/migrated/image-1695609025652-03872f17.png)](/img/migrated/image-1695609025652-03872f17.png)
-**Step 3** : Xem và kiểm tra thông tin chi tiết của instance schedule trong mục **Attached instances** gồm: Danh sách các máy ảo đính kèm và thông tin cụ thể của từng máy ảo như instance name, instance status, latest start time và status, latest stop time và status
+**Step 3** : View and kiểm tra thông tin chi tiết of instance schedule in mục **Attached instances** gồm: List the virtual machine đính kèm and thông tin cụ thể of fromng virtual machine như instance name, instance status, latest start time and status, latest stop time and status
 [![file](/img/migrated/image-1695609035976-7b5310a1.png)](/img/migrated/image-1695609035976-7b5310a1.png)

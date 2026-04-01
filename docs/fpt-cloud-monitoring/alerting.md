@@ -7,6 +7,6 @@ sidebar_position: "18"
 
 # Alerting
 
-**Step 1** : Đăng nhập vào dashboard (xem mục 7.1. Truy cập vào dashboard)
+**Step 1** : Log in ando dashboard (xem mục 7.1. Truy cập ando dashboard)
 **Step 2** : Trên menu trái, click **Home** > **Alerting**
 [![Alt text](/img/migrated/Picture16-2-9a67b595.png)](/img/migrated/Picture16-2-9a67b595.png)
