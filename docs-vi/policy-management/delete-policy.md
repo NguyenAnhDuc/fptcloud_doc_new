@@ -6,7 +6,7 @@ sidebar_label: "Xóa policy"
 sidebar_position: 8
 ---
 
-# Delete Policy
+# Xóa policy
 
 Để sử dụng tính năng delete policy, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
 **Bước 1** : Ở menu chọn **Policy Management** , sau đó chọn **Actions** > chọn **Delete policy**

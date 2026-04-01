@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn quản lý trạng thái issue tại màn Issue d
 sidebar_position: 28
 ---
 
-# Guide Change Status Issue Detail
+# Hướng dẫn quản lý trạng thái issue tại màn Issue detail
 
 Bước 1: Tại màn hình Issue list của 1 asset, ấn “Details” của 1 issue bất kỳ để vào trang xem chi tiết: 
 [![anhfsec](/img/migrated/i6-e0741810.png)](/img/migrated/i6-e0741810.png)

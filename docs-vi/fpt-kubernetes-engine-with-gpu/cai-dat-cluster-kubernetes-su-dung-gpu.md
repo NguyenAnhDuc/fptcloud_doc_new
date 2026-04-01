@@ -6,7 +6,7 @@ sidebar_label: "Cài đặt và khởi tạo Cluster Kubernetes sử dụng G
 sidebar_position: 3
 ---
 
-# Cai Dat Cluster Kubernetes Su Dung Gpu
+# Cài đặt và khởi tạo Cluster Kubernetes sử dụng GPU
 
 ⚠️ **Lưu ý:**
 FPT cloud hỗ trợ các card sau:

@@ -6,7 +6,7 @@ sidebar_label: "Tìm kiếm toàn cục"
 sidebar_position: 1
 ---
 
-# Global Search
+# Tìm kiếm toàn cục
 
 Tất cả tài liệu
 FPT Integration 

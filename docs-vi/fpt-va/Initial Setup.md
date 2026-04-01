@@ -6,7 +6,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
 ### 5.1 Đăng nhập vào FPT Portal.
 Để đăng nhập vào FPT Portal, hãy truy cập vào và đăng nhập bằng tài khoản và mật khẩu FPT Cloud đã được cấp, chọn đúng Tenant cần sử dụng dịch vụ VA.

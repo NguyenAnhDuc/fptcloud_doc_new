@@ -6,7 +6,7 @@ sidebar_label: "1. Quản lý danh sách Route"
 sidebar_position: 4
 ---
 
-# Quan Ly Route 1 Gateway
+# 1. Quản lý danh sách Route
 
 ## **1. Quản lý danh sách Route**
 [![file](/img/migrated/image-1754290897920-2416f962.png)](/img/migrated/image-1754290897920-2416f962.png)

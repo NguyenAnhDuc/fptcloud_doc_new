@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo một Activity Alert mới"
 sidebar_position: 8
 ---
 
-# Khoi Tao Mot Alert Moi Activity Alert
+# Khởi tạo một Activity Alert mới
 
 **Bước 1** : Ở menu chọn **Security** > **Cloud Guard** , mở tab **Activity** **Alerts** và chọn **Create Alert**. [![file](/img/migrated/image-1725532325024-78ca8f1c.png)](/img/migrated/image-1725532325024-78ca8f1c.png) Một hộp thoại mới sẽ hiện lên và hướng dẫn người dùng thực hiện các bước tiếp theo.
 **Bước 2** : Cấu hình cảnh báo theo nhu cầu bằng cách nhập thông tin vào trường dữ liệu tương ứng:  

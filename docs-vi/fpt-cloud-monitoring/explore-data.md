@@ -6,7 +6,7 @@ sidebar_label: "9. Khám phá dữ liệu (Explore data)"
 sidebar_position: 19
 ---
 
-# Explore Data
+# 9. Khám phá dữ liệu (Explore data)
 
 **Bước 1** : Đăng nhập vào dashboard (xem mục 7.1. Truy cập vào dashboard)
 **Bước 2** : Trên menu trái, click **Home** > **Explore**

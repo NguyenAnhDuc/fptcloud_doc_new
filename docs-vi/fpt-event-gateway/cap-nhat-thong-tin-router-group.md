@@ -6,7 +6,7 @@ sidebar_label: "Cap Nhat Thong tin Router Group"
 sidebar_position: 14
 ---
 
-# Cap Nhat Thong Tin Router Group
+# Cap Nhat Thong tin Router Group
 
 Để cập nhật thông tin Router group, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

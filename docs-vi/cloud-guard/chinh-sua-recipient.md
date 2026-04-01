@@ -6,7 +6,7 @@ sidebar_label: "Chỉnh sửa Recipient"
 sidebar_position: 17
 ---
 
-# Chinh Sua Recipient
+# Chỉnh sửa Recipient
 
 **Bước 1** : Ở menu chọn **Cloud Guard** > **Alert** , chọn tab **Recipients.**
 [![file](/img/migrated/image-1725532997863-419e42b8.png)](/img/migrated/image-1725532997863-419e42b8.png)

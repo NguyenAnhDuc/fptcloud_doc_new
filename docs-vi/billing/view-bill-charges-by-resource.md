@@ -7,7 +7,7 @@ sidebar_position: 4
 pagination_next: null
 ---
 
-# View Bill Charges By Resource
+# Xem đối soát theo tài nguyên sử dụng (Charges by resource)
 
 Người dùng có thể chọn loại tài nguyên (resource type) và xem chi tiết số lượng sử dụng - đơn giá - thành tiền với từng tài nguyên. Dữ liệu Charges by resource sẽ tương ứng với dữ liệu tại sheet “Details” trong file đối soát khi người dùng tải về.
 [![file](/img/migrated/image-1744088548570-8b7ba389.png)](/img/migrated/image-1744088548570-8b7ba389.png)

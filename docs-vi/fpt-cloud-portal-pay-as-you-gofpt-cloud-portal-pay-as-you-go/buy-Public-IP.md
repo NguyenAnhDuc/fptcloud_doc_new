@@ -6,7 +6,7 @@ sidebar_label: "Người dùng đã nạp tiền trên hệ thống có thể 
 sidebar_position: 11
 ---
 
-# Buy Public Ip
+# Người dùng đã nạp tiền trên hệ thống có thể mua thêm IP để sử dụng.
 
 Người dùng đã nạp tiền trên hệ thống có thể mua thêm IP để sử dụng.
   * B1. Vào trang Networking - Floating IPs [![file](/img/migrated/image-1694073889613-41f69bf5.png)](/img/migrated/image-1694073889613-41f69bf5.png)

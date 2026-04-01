@@ -6,7 +6,7 @@ sidebar_label: "Giám sát Group"
 sidebar_position: 8
 ---
 
-# Giam Sat Group
+# Giám sát Group
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần giám sát.
 [![open group details](/img/migrated/Screenshot-2024-10-02-042416-72202578.png)](/img/migrated/Screenshot-2024-10-02-042416-72202578.png)

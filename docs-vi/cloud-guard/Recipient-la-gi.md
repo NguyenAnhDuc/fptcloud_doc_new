@@ -6,7 +6,7 @@ sidebar_label: "Recipient là gì?"
 sidebar_position: 14
 ---
 
-# Recipient La Gi
+# Recipient là gì?
 
 **Recipient** là người nhận thông báo trên hệ thống FPT Alert. Tenant Owner có thể tạo và quản lý danh sách các Recipient đã được tạo trên hệ thống tại màn hình danh sách Recipient.
 Người dùng truy cập trang **Alert** , chọn tab **Recipients** để xem danh sách Recipient đã được tạo trên hệ thống trước đó.

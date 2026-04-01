@@ -6,7 +6,7 @@ sidebar_label: "User Management tab"
 sidebar_position: 9
 ---
 
-# User Management Tab
+# User Management tab
 
 Tính năng này giúp người dùng trên portal có thể quản trị tài khoản FMON Grafana Dashboard thuận tiện và nhất quán với tài khoản FPT ID. 
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**

@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Policy Management"
 sidebar_position: 6
 ---
 
-# Create Policy
+# Khởi tạo Policy Management
 
 **Để sử dụng tính năng này, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner**
 **Bước 1** : Ở menu chọn **Policy Management** > chọn **Create policy**

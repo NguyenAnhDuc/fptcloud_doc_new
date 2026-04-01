@@ -6,7 +6,7 @@ sidebar_label: "Cách 1: Xóa tại màn hình quản lý Allow address pair"
 sidebar_position: 5
 ---
 
-# Delete Address Pair
+# Cách 1: Xóa tại màn hình quản lý Allow address pair
 
 **Cách 1: Xóa tại màn hình quản lý Allow address pair**
 **Bước 1** : Chọn icon delete

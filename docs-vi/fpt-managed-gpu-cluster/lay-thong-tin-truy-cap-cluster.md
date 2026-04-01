@@ -6,7 +6,7 @@ sidebar_label: "Lấy thông tin truy cập Cluster"
 sidebar_position: 6
 ---
 
-# Lay Thong Tin Truy Cap Cluster
+# Lấy thông tin truy cập Cluster
 
 File Kube-config được sử dụng để lưu trữ thông tin kết nối đến cụm Kubernetes, giúp các công cụ như kubectl, kubelet, kubeadm xác định cách giao tiếp với Kubernetes API Server. File kubeconfig rất quan trọng trong việc quản lý quyền truy cập vào Kubernetes, do đó cần được bảo mật cẩn thận.
 Để download file Kube-config, khách hàng làm theo hướng dẫn sau:

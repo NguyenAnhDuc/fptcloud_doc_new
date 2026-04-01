@@ -6,7 +6,7 @@ sidebar_label: "Change Statis ip in Centos"
 sidebar_position: 5
 ---
 
-# Change Statis Ip In Centos
+# Change Statis ip in Centos
 
 **Bước 1:** Kiểm tra tình trạng hiện tại 
 Sau khi edit NIC, IP NIC là 132.0.0.70 

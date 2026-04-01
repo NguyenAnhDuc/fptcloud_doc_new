@@ -7,7 +7,7 @@ sidebar_position: 17
 pagination_next: null
 ---
 
-# Cau Hinh Telegram Bots
+# Cấu hình Telegram Bots
 
 FPT Cloud hỗ trợ người dùng cấu hình Telegram Bot trong hệ thống Jenkins phục vụ việc gửi thông báo tới người dùng thông qua giao diện Portal. Để thực hiện cấu hình, người dùng thực hiện như sau:
   * **Chỉnh sửa cấu hình Telegram Bots trong cấu hình mặc định của Jenkins**

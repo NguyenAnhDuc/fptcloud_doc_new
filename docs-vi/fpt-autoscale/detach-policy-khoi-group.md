@@ -6,7 +6,7 @@ sidebar_label: "Detach Policy khỏi Group"
 sidebar_position: 16
 ---
 
-# Detach Policy Khoi Group
+# Detach Policy khỏi Group
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần gỡ policy.
 [![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)

@@ -6,7 +6,7 @@ sidebar_label: "Disable nic Card"
 sidebar_position: 4
 ---
 
-# Disable Nic Card
+# Disable nic Card
 
 **Bước 1:** Disable Card.
 [![file](/img/migrated/image-1691381843537-90d61d72.png)](/img/migrated/image-1691381843537-90d61d72.png)

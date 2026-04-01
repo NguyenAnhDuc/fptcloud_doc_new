@@ -6,7 +6,7 @@ sidebar_label: "Kiểm tra trạng thái của Alert"
 sidebar_position: 10
 ---
 
-# Kiem Tra Trang Thai Cua Alert
+# Kiểm tra trạng thái của Alert
 
 Khi một Alert được tạo thành công, hệ thống sẽ liên tục đồng bộ thông tin lên FPT Portal, bạn có thể kiểm tra trạng thái hoạt động của các Alert theo hướng dẫn sau:
 Trên bảng quản trị **Alert** **Management** , tìm đến Alert cần theo dõi, trạng thái hoạt động của Alert sẽ nằm ở trường **State**.

@@ -6,7 +6,7 @@ sidebar_label: "Edit ip Address"
 sidebar_position: 8
 ---
 
-# Edit Ip Address
+# Edit ip Address
 
 **Bước 1** : Chọn Card NIC cần thay đổi địa chỉ IP. 
 **Lưu ý** : Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer,...Bạn cần cân nhắc trước khi sử dụng. Sau khi thay đổi, để Instance hoạt động bình thường, các bạn cần thay đổi thông tin về Network trong file config của hệ điều hành. Link hướng dẫn nhanh tại: [**How to change Config file**](../change-network-config/index.md).

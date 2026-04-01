@@ -7,6 +7,6 @@ sidebar_position: 23
 pagination_next: null
 ---
 
-# Url Filter Settings
+# URL Filter Settings
 
 Lọc các subdomain được phép truy cập từ phía người dùng đến với từng server [![file](/img/migrated/image-1714116712965-dd51aa00.png)](/img/migrated/image-1714116712965-dd51aa00.png)

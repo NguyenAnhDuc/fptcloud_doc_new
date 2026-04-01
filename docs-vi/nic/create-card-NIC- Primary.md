@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo card Network Interface Card - Primary"
 sidebar_position: 3
 ---
 
-# Create Card Nic  Primary
+# Khởi tạo card Network Interface Card - Primary
 
 Trong quá trình khởi tạo Instance, hệ thống sẽ tự khởi tạo card NIC (Primary) mặc định theo thông tin do bạn cung cấp.
 [![file](/img/migrated/image-1691381396202-7c332ae8.png)](/img/migrated/image-1691381396202-7c332ae8.png)

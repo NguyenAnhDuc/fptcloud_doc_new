@@ -6,7 +6,7 @@ sidebar_label: "Quản lý Roles"
 sidebar_position: 12
 ---
 
-# Quan Ly Role
+# Quản lý Roles
 
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào thẻ **Roles** ở **Orgaization** để xem danh sách vai trò của các thành viên

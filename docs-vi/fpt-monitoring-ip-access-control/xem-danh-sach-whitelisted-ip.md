@@ -6,7 +6,7 @@ sidebar_label: "Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP ri�
 sidebar_position: 7
 ---
 
-# Xem Danh Sach Whitelisted Ip
+# Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng.
 
 * Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng. 
   * Click biểu tượng phía góc trái từng bảng để mở rộng (hoặc đóng) bảng IP của từng endpoint. 

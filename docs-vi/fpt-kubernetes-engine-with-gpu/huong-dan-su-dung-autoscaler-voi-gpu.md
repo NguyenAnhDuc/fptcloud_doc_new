@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn sử dụng Autoscaler với GPU"
 sidebar_position: 7
 ---
 
-# Huong Dan Su Dung Autoscaler Voi Gpu
+# Hướng dẫn sử dụng Autoscaler với GPU
 
 **· Autoscale mức container:**
 Horizontal Pod Autoscaler (viết tắt là HPA) tự động cập nhật tài nguyên workload resource (chẳng hạn như Deployment hoặc StatefulSet), với mục đích tự động thay đổi quy mô workload resource để phù hợp với nhu cầu ứng dụng. Về cơ bản, khi workload của ứng dụng trên Kubernetes tăng lên thì HPA sẽ triển khai nhiều Pod hơn để đáp ứng tài nguyên. Nếu tải giảm và số lượng Pod cao hơn mức tối thiểu đã cấu hình, thì HPA sẽ giảm workload resource (Deployment, StatefulSet hoặc tài nguyên tương tự khác), tức là giảm số lượng Pod lại. HPA cho GPU sử dụng custom metrics của DCGM để theo dõi và tăng/giảm Pod theo workload của ứng dụng sử dụng GPU.

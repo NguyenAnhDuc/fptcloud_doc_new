@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi cấu hình máy ảo"
 sidebar_position: 10
 ---
 
-# Change Virtual Machine Configuration
+# Thay đổi cấu hình máy ảo
 
 Người dùng có thể thay đổi cấu hình máy ảo
   * B1. Vào trang Instance Management

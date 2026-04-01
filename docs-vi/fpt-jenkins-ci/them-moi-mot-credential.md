@@ -6,7 +6,7 @@ sidebar_label: "Thêm mới một Credential"
 sidebar_position: 11
 ---
 
-# Them Moi Mot Credential
+# Thêm mới một Credential
 
 Với mỗi loại credential, người dùng có thể thực hiện cấu hình như sau:
 **Bước 1.** Tại menu FPT Portal > **Jenkins CI** > **Detail Cluster** > **Credential Managements** : [![](/img/migrated/Picture28-f1ca981e.png)](/img/migrated/Picture28-f1ca981e.png)

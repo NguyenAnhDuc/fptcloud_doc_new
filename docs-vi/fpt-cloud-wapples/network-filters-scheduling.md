@@ -7,7 +7,7 @@ sidebar_position: 17
 pagination_next: null
 ---
 
-# Network Filters Scheduling
+# Sử dụng thiết lập thời gian thực hiện các security group trong network filter
 
 Sử dụng thiết lập thời gian thực hiện các security group trong network filter
 Các trường cần điền

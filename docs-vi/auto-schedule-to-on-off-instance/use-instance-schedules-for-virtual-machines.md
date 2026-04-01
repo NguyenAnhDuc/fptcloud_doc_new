@@ -6,7 +6,7 @@ sidebar_label: "Use Instance Schedules For Virtual Machines"
 sidebar_position: 7
 ---
 
-# Auto Schedule To On-Off Instance
+# Use Instance Schedules For Virtual Machines
 
 Tất cả tài liệu
 FPT Integration 

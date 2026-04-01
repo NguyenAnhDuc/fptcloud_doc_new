@@ -6,18 +6,18 @@ sidebar_label: "1. Giới thiệu"
 sidebar_position: 9
 ---
 
-# Backup Volume
+# 1. Giới thiệu
 
-## 1. Giới thiệu
+## Giới thiệu
 Tính năng **Backup Volume** cho phép người dùng tạo bản sao lưu cho các volume trong VPC trên Unify Portal.
 Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi phục khi xảy ra sự cố.
-## 2. Điều kiện
+## Điều kiện
   * Đã đăng nhập vào **Unify Portal**.
   * Dịch vụ **Backup** cho VPC đang ở trạng thái **Enable**.
   * Tài khoản có quyền `OspNativeBackup:Create`.
   * Volume cần backup chưa thuộc job khác (volume chỉ có thể nằm trong một job tại một thời điểm).
 
-## 3. Tạo Backup Volume
+## Tạo Backup Volume
 ### Bước 1: Mở giao diện Backup & Recovery
 Nhấn nút **Create Backup Job**.
 ### Bước 2: Nhập thông tin cơ bản
@@ -45,12 +45,12 @@ Trên form **Create Backup Job** , điền các trường sau:
     * Thành công: _The job [JobName] has been created successfully._
     * Lỗi: hiển thị chi tiết (ví dụ: job name trùng, volume không hợp lệ, hệ thống bận...).
 
-## 4. Quản lý Backup Job
+## Quản lý Backup Job
   * Vào **Backup Jobs** để theo dõi danh sách.
   * Trạng thái job sẽ được cập nhật tự động.
   * Có thể chỉnh sửa cấu hình retention, email notification.
 
-## 5. Lưu ý quan trọng
+## Lưu ý quan trọng
   * Một volume chỉ có thể thuộc **một backup job**.
   * Job name phải duy nhất trong VPC.
   * Nên đặt lịch backup ngoài giờ cao điểm để tránh ảnh hưởng hiệu năng.

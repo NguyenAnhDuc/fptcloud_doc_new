@@ -6,7 +6,7 @@ sidebar_label: "Team Management - Quản lý Team"
 sidebar_position: 14
 ---
 
-# Quan Ly Team
+# Team Management - Quản lý Team
 
 **Bước 1** : Nhấn vào phần **Sub-tab** của **DevSec** , chọn Team
 [![anhfsec](/img/migrated/t1-1-4b8a2d2f.png)](/img/migrated/t1-1-4b8a2d2f.png)

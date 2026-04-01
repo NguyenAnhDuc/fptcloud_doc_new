@@ -6,7 +6,7 @@ sidebar_label: "Tạo một yêu cầu cung cấp tài nguyên"
 sidebar_position: 3
 ---
 
-# Create Request Resource
+# Tạo một yêu cầu cung cấp tài nguyên
 
 **Bước 1** : Ở tab bar chọn **Tenant** cần cung cấp tài nguyên, ở thanh menu bar chọn **Request Resource** , chọn **Create reques** t.
 [![file](/img/migrated/image-1703744342441-a0f93b7b.png)](/img/migrated/image-1703744342441-a0f93b7b.png)

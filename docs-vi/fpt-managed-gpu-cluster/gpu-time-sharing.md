@@ -6,7 +6,7 @@ sidebar_label: "Giới thiệu tính năng time sharing/time slicing trong FPT K
 sidebar_position: 18
 ---
 
-# Gpu Time Sharing
+# Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine
 
 **Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine**
 ➤**FPT Managed GPU Cluster** dựa trên nền tảng mã nguồn mở K8s giúp tự động hoá triển khai, nhân rộng và quản lý các ứng dụng container. FPT Managed GPU Cluster tích hợp đầy đủ các thành phần: Container Orchestration, Storage, Networking, Security, PaaS cung cấp cho khách hàng môi trường tốt nhất để phát triển và triển khai ứng dụng trên Cloud.

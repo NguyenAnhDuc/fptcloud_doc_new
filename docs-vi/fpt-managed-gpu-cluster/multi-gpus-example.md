@@ -6,7 +6,7 @@ sidebar_label: "Chuẩn bị môi trường"
 sidebar_position: 22
 ---
 
-# Multi Gpus Example
+# Chuẩn bị môi trường
 
 Bài hướng dẫn này trình bày cách **triển khai và phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **GPU trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM**. 
 Trong hướng dẫn này, bạn sẽ:

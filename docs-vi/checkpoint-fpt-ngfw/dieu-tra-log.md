@@ -6,7 +6,7 @@ sidebar_label: "Điều tra Log"
 sidebar_position: 14
 ---
 
-# Dieu Tra Log
+# Điều tra Log
 
 **Bước 1:** Trên Menu chọn **Logs and Monitor**(Ctrl + 3) > ở giao diện **New Tab** > chọn **Audit Log View.**
 [![Userguide Checkpoint FPT NGFW 2022 76](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-76-10-7445b881.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-76-10-7445b881.png)

@@ -6,7 +6,7 @@ sidebar_label: "Mặc định khi IP Access Control tắt, mọi IP đều có t
 sidebar_position: 11
 ---
 
-# Quy Tac He Thong
+# Mặc định khi IP Access Control tắt, mọi IP đều có thể truy cập.
 
 * Mặc định khi IP Access Control tắt, mọi IP đều có thể truy cập. 
   * Khi bật IP Access Control, tất cả truy cập từ ngoài FPT Cloud bị từ chối cho tới khi có IP trong whitelist. 

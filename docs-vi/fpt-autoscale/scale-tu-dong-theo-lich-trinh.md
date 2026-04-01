@@ -6,7 +6,7 @@ sidebar_label: "Scale tự động theo lịch trình"
 sidebar_position: 11
 ---
 
-# Scale Tu Dong Theo Lich Trinh
+# Scale tự động theo lịch trình
 
 ## Tạo Autoscale Schedule
 ###  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần lập lịch.

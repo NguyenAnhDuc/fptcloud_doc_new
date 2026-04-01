@@ -6,7 +6,7 @@ sidebar_label: "Create Address Pair on Instance Management"
 sidebar_position: 4
 ---
 
-# Create Address Pair On Instance Management
+# Create Address Pair on Instance Management
 
 **Bước 1** : Vào Network Interface trong Instance Management
 [![file](/img/migrated/image-1708395287542-5f97bc70.png)](/img/migrated/image-1708395287542-5f97bc70.png)

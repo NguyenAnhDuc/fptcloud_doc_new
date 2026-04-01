@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cấu hình Nodes Build trên Jenkins"
 sidebar_position: 24
 ---
 
-# Huong Dan Cau Hinh Nodes Build Tren Jenkins
+# Hướng dẫn cấu hình Nodes Build trên Jenkins
 
 Hiện tại, trên FPT Cloud Portal chỉ cho phép người dùng tạo Jenkins Agent loại Cloud. Để có thể thêm mới một Agent do khách hàng quản lý,có thể thực hiện như sau:
   * **Thêm mới Agent loại Node**

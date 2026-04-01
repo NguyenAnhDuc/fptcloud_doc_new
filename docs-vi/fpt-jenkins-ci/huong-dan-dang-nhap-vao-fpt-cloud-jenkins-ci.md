@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn đăng nhập vào FPT Cloud Jenkins CI"
 sidebar_position: 22
 ---
 
-# Huong Dan Dang Nhap Vao Fpt Cloud Jenkins Ci
+# Hướng dẫn đăng nhập vào FPT Cloud Jenkins CI
 
 Để đang nhập vào hệ thống, người dùng có thể sử dụng user/password đã được tạo trên portal như sau:
 **Bước 1.** Tại menu **FPT Portal** > **DevOps** > **Jenkins CI** > Click **Instance Name** để xem thông tin chi tiết của cụm: [![](/img/migrated/Picture99-9e038c5d.png)](/img/migrated/Picture99-9e038c5d.png) Tại màn hình đầu tiên, bạn sẽ được cung cấp thông tin chi tiết để truy cập Jenkins CI instance bao gồm url, username/password đăng nhập: [![](/img/migrated/Picture100-5653186e.png)](/img/migrated/Picture100-5653186e.png) **Bước 2.** Đăng nhập vào Jenkins instance:

@@ -6,7 +6,7 @@ sidebar_label: "Try Example Workload"
 sidebar_position: 20
 ---
 
-# Managed GPU Cluster (Kubernetes)
+# Try Example Workload
 
 Tất cả tài liệu
 FPT Integration 

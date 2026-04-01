@@ -6,7 +6,7 @@ sidebar_label: "Tạo VM mới từ các Restore Point"
 sidebar_position: 5
 ---
 
-# Clone Vm Tu Cac Restore Point
+# Tạo VM mới từ các Restore Point
 
 FPT Backup hỗ trợ bạn không chỉ khôi phục lại VM từ Restore Point mà còn cho phép tạo một VM mới với dữ liệu được lấy từ Restore Point. VM được tạo sẽ có dữ liệu ổ đĩa giống hoàn toàn với VM gốc tại thời điểm tạo Restore Point, đồng thời cho phép tùy chỉnh cấu hình RAM, CPU và Network. Điều này giúp bạn dễ dàng tạo ra nhiều VM phụ từ một VM chính một cách nhanh chóng và đơn giản.
 ## **Hướng Dẫn Chi Tiết**

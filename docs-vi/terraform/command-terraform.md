@@ -7,7 +7,7 @@ sidebar_position: 5
 pagination_next: null
 ---
 
-# Command Terraform
+# Script tạo instance:
 
 ## **1. Instance**
   * Script tạo instance:

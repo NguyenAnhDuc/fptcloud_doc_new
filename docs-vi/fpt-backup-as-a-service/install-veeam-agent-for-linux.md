@@ -6,7 +6,7 @@ sidebar_label: "Install Veeam Agent for Linux"
 sidebar_position: 3
 ---
 
-# Install Veeam Agent For Linux
+# Install Veeam Agent for Linux
 
 **Bước 1** : Trên server cần backup, login vào trang portal với account của bạn:
 Backup as a Service : <https://baas.fptcloud.com>

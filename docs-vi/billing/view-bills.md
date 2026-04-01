@@ -6,7 +6,7 @@ sidebar_label: "Xem đối soát theo kỳ hóa đơn"
 sidebar_position: 2
 ---
 
-# View Bills
+# Xem đối soát theo kỳ hóa đơn
 
 **Để xem đối soát, người dùng cần đăng nhập vào hệ thống với role là Tenant owner hoặc role có quyền _view billing_.**
 _Lưu ý: Chi tiết hướng dẫn phân quyền xem billing tại[link](../billing/index.md)_

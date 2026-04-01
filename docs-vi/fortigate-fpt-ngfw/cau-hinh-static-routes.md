@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình Static Routes"
 sidebar_position: 4
 ---
 
-# Cau Hinh Static Routes
+# Cấu hình Static Routes
 
 **Bước 1:** **Network** > **Static Routes**. Ở phần cấu hình ban đầu trên CLI đã tạo sẵn static route cho WAN port có gateway 10.0.0.1.  
 [![Userguide Fortigate FPT NGFW 2022 5](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)  

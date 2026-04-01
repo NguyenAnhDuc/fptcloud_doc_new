@@ -6,7 +6,7 @@ sidebar_label: "Bật/Tắt Alert"
 sidebar_position: 11
 ---
 
-# Bat Tat Alert
+# Bật/Tắt Alert
 
 Tính năng Bật/Tắt trạng thái hoạt động của Alert cho phép người dùng điều chỉnh trạng thái hoạt động của Alert để tạm thời không sử dụng và nhận cảnh báo từ 1 Alert bất kỳ mà không cần phải xóa Alert đó đi.
 Trên bảng quản trị **Alert** **Management** , chọn Alert cần bật/tắt. Nhấn nút **switch** [![Userguide FPT Alert 2022 5](/img/migrated/Userguide-FPT-Alert-2022-5-b7cf3f24.png)](/img/migrated/Userguide-FPT-Alert-2022-5-b7cf3f24.png) để thay đổi trạng thái bật/tắt tùy theo nhu cầu người dùng.

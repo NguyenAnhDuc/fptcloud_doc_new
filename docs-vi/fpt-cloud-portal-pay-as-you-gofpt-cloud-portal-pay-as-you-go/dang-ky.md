@@ -6,7 +6,7 @@ sidebar_label: "Đăng ký tài khoản trên hệ thống."
 sidebar_position: 2
 ---
 
-# Dang Ky
+# Đăng ký tài khoản trên hệ thống.
 
 B1. Trên trang console.fptcloud.com
   * Người dùng đăng ký tài khoản FPT ID.

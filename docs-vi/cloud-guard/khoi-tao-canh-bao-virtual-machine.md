@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo cảnh báo cho Virtual Machine (VM)"
 sidebar_position: 4
 ---
 
-# Khoi Tao Canh Bao Virtual Machine
+# Khởi tạo cảnh báo cho Virtual Machine (VM)
 
 **Bước 1** : Ở menu chọn **Security** > **Cloud Guard** , mở tab **Resource** **Alerts** và chọn **Create Alert**.
 Một hộp thoại mới sẽ hiện lên và hướng dẫn người dùng các bước tiếp theo.

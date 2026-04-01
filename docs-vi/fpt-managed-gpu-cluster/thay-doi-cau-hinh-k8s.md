@@ -6,7 +6,7 @@ sidebar_label: "Thay Doi Cau Hinh K8S"
 sidebar_position: 8
 ---
 
-# Managed GPU Cluster (Kubernetes)
+# Thay Doi Cau Hinh K8S
 
 Tất cả tài liệu
 FPT Integration 

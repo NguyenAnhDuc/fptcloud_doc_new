@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình SonarQube servers"
 sidebar_position: 16
 ---
 
-# Cau Hinh Sonarqube Servers
+# Cấu hình SonarQube servers
 
 FPT Cloud hỗ trợ người dùng cấu hình SonarQube Server trong hệ thống Jenkins phục vụ việc tích hợp scan source code thông qua giao diện Portal. Để thực hiện cấu hình, người dùng thực hiện như sau:
   * **Thêm mới một SonarQube servers**

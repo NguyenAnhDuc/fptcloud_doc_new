@@ -7,7 +7,7 @@ sidebar_position: 25
 pagination_next: null
 ---
 
-# Huong Dan Tao Jenkins Pipeline Ci Cd Tich Hop Cac Tinh Nang Tren Portal
+# Hướng dẫn tạo Jenkins pipline CI/CD tích hợp các tính năng trên Portal
 
 Trong hướng dẫn này sẽ hướng dẫn người dùng tạo một CI/CD flow cơ bản như sau: [![](/img/migrated/Picture127-aecf39ae.png)](/img/migrated/Picture127-aecf39ae.png) Luồng triển khai CI/CD diễn ra các hoạt động như sau:
 **Bước 1.** Sự kiện kích hoạt luồng: developer có thể kích hoạt luồng triển khai CI/CD với sự kiện **Push commit/Merge request build**

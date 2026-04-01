@@ -6,7 +6,7 @@ sidebar_label: "1. Quản lý danh sách NAT Rule"
 sidebar_position: 5
 ---
 
-# Quan Ly Nat Tung Gateway
+# 1. Quản lý danh sách NAT Rule
 
 ## **1. Quản lý danh sách NAT Rule**
 [![file](/img/migrated/image-1754290989063-fe150ddd.png)](/img/migrated/image-1754290989063-fe150ddd.png)

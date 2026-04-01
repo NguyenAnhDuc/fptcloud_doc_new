@@ -6,7 +6,7 @@ sidebar_label: "Đối với card NIC ở trạng thái Inactive, chúng ta có 
 sidebar_position: 5
 ---
 
-# Enable Nic Card
+# Đối với card NIC ở trạng thái Inactive, chúng ta có thể enable để kết nối mạng.
 
 Đối với card NIC ở trạng thái Inactive, chúng ta có thể enable để kết nối mạng.
 **Bước 1:** Enable Card.

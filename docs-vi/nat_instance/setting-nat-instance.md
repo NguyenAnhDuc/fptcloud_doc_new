@@ -6,7 +6,7 @@ sidebar_label: "Setting nat Instance"
 sidebar_position: 5
 ---
 
-# Setting Nat Instance
+# Setting nat Instance
 
 **Bước 1** : Tạo Nat instance từ image do FCI cung cấp
 [![file](/img/migrated/image-1719483610635-8c2b0ddb.png)](/img/migrated/image-1719483610635-8c2b0ddb.png)

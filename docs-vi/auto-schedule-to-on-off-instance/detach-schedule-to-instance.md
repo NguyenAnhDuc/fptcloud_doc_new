@@ -6,7 +6,7 @@ sidebar_label: "Gỡ một hoặc nhiều máy ảo vào instance schedule"
 sidebar_position: 9
 ---
 
-# Detach Schedule To Instance
+# Gỡ một hoặc nhiều máy ảo vào instance schedule
 
 Bạn có thể gỡ các máy ảo ra khỏi schedule khi không còn nhu cầu sử dụng. Sau khi gỡ, máy ảo sẽ đứng yên ở trạng thái lúc gỡ đến khi nào bạn thao tác tay lại mới thay đổi. 
 **Bước 1** : Trên bảng quản trị **Instance Schedule Management,** trong phần **Action** , chọn **Apply instances**

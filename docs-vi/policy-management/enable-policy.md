@@ -7,7 +7,7 @@ sidebar_position: 10
 pagination_next: null
 ---
 
-# Enable Policy
+# Kích hoạt policy
 
 Để sử dụng tính năng Enable, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
 **Bước 1** : Ở menu chọn **Policy Management**. Người dùng chọn một Policy đang ở trạng thái **Inactive** , sau đó chọn **Actions** > chọn **Enable policy**

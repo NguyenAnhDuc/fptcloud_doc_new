@@ -6,7 +6,7 @@ sidebar_label: "Tạo mới Recipient"
 sidebar_position: 15
 ---
 
-# Tao Moi Recipient
+# Tạo mới Recipient
 
 **Bước 1** : Ở menu chọn **Cloud Guard** > **Alert** , mở tab **Recipients** và chọn **Create Recipient**.
 Một hộp thoại mới sẽ hiện lên và hướng dẫn người dùng các bước tiếp theo.

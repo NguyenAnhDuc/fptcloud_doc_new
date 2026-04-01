@@ -6,7 +6,7 @@ sidebar_label: "Mua máy ảo"
 sidebar_position: 9
 ---
 
-# Buy Virtual Machines
+# Mua máy ảo
 
 Trên trang Instance, người dùng có thể tạo máy ảo và trả tiền theo PAYG
 Người dùng phải có ít nhất̉ 50000 VND + số tiền của một giờ sử dụng dịch vụ để khởi tạo dịch vụ.

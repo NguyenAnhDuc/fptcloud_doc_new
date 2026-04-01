@@ -6,7 +6,7 @@ sidebar_label: "Cài đặt Team"
 sidebar_position: 15
 ---
 
-# Cai Dat Team
+# Cài đặt Team
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa
 **Bước 1** : Ở phần Team, nhấn chọn **Setting**

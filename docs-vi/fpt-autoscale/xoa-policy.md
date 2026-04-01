@@ -7,7 +7,7 @@ sidebar_position: 17
 pagination_next: null
 ---
 
-# Xoa Policy
+# Xóa Policy
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Policy**. Trên dòng tương ứng với policy cần xóa, chọn biểu tượng **delete**.
 [![delete policy](/img/migrated/Screenshot-2024-10-02-071116-37f91343.png)](/img/migrated/Screenshot-2024-10-02-071116-37f91343.png)

@@ -6,7 +6,7 @@ sidebar_label: "Xem Thong tin Event Gateway"
 sidebar_position: 4
 ---
 
-# Xem Thong Tin Event Gateway
+# Xem Thong tin Event Gateway
 
 Để xem thông tin **Event Gateway** , người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

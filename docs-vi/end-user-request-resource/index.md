@@ -6,7 +6,7 @@ sidebar_label: "Yêu cầu tài nguyên"
 sidebar_position: 1
 ---
 
-# Request Resource
+# Yêu cầu tài nguyên
 
 Tất cả tài liệu
 FPT Integration 

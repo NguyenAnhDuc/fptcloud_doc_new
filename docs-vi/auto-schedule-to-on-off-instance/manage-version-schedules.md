@@ -6,7 +6,7 @@ sidebar_label: "Manage Version Schedules"
 sidebar_position: 3
 ---
 
-# Auto Schedule To On-Off Instance
+# Manage Version Schedules
 
 Tất cả tài liệu
 FPT Integration 

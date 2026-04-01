@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn tạo jobs trên Jenkins chạy trên FPT Cloud A
 sidebar_position: 23
 ---
 
-# Huong Dan Tao Jobs Tren Jenkins Chay Tren Fpt Cloud Agent
+# Hướng dẫn tạo jobs trên Jenkins chạy trên FPT Cloud Agent
 
 Tuỳ từng phiên bản của hệ thống Jenkins sẽ có các cách cấu hình khác nhau để phù hợp cho mỗi phiên bản.
 Từ phiên bản 2.451.0 do FPT Cloud cung cấp, để sử dụng kubenetes agent cần phải tạo folder và cấu hình agent có thể sử dụng cho folder. Đối với việc quản lý các dự án được triển khai CI/CD trên Jenkins, người dùng nên tạo folder cho từng dự án và cấu hình các service trong folder dự án, hành động này sẽ giúp người dùng có thể phân quyền cho user vào từng project và dễ dàng quản lý các project.

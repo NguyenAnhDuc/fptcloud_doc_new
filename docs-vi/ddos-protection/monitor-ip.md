@@ -7,7 +7,7 @@ sidebar_position: 4
 pagination_next: null
 ---
 
-# Monitor Ip
+# Monitor các IP đang được bảo vệ
 
 Người dùng có thể monitor hệ thống và sự bảo vệ thông qua dashboard do FPT Cloud Portal cung cấp.
 **Bước 1** : Người dùng vào màn hình danh sách IP đang được bảo vệ và chọn IP cần kiểm tra

@@ -7,7 +7,7 @@ sidebar_position: 16
 pagination_next: null
 ---
 
-# Xuat Bao Cao
+# Xuất báo cáo
 
 Để xuất báo cáo kết quả quét, thực hiện như sau:
 **Bước 1** : Truy cập Target > Report > Create Report

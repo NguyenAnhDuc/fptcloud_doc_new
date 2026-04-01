@@ -6,9 +6,9 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Backup Initial Setup
+# Thiết lập ban đầu
 
-## 1. Điều kiện cần có
+## Điều kiện cần có
 Trước khi tạo các job sao lưu, bạn cần đảm bảo một vài điều kiện cơ bản:
   * **Tài khoản FPT Cloud** có quyền truy cập vào tenant chứa VM hoặc PVC (Kubernetes).
   * **Tài nguyên đang hoạt động ổn định** (VM/PVC không ở trạng thái lỗi hoặc đã xóa).
@@ -16,7 +16,7 @@ Trước khi tạo các job sao lưu, bạn cần đảm bảo một vài điề
   * Tài nguyên nằm trong **region** mà dịch vụ Backup Native hỗ trợ.
 
 Dịch vụ không yêu cầu cài đặt thêm công cụ hay agent - toàn bộ thao tác diễn ra trực tiếp trên Unify Portal.
-## 2. Bắt đầu sử dụng
+## Bắt đầu sử dụng
 ### 2.1 Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
 Để sử dụng dịch vụ **FPT Backup Native** , bạn cần đăng nhập vào dashboard quản trị của FPT Cloud tại console.fptcloud.com
 Sau khi đăng nhập bằng tài khoản và mật khẩu đã được cấp, chọn đúng Tenant, Region, VPC chứa VM hoặc PVC (Kubernetes) cần bảo vệ.

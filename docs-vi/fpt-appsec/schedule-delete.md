@@ -7,7 +7,7 @@ sidebar_position: 32
 pagination_next: null
 ---
 
-# Schedule Delete
+# Hướng dẫn xóa schedule
 
 Tại màn hình Schedule Management, chọn chọn dấu ⋮ ở mỗi schedule > Delete để thực hiện xóa 1 schedule: 
 [![Alt text](/img/migrated/Picture22-e6ff757e.png)](/img/migrated/Picture22-e6ff757e.png)

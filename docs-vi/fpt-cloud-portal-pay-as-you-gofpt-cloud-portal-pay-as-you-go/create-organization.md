@@ -6,7 +6,7 @@ sidebar_label: "B2. Tạo Organization"
 sidebar_position: 5
 ---
 
-# Create Organization
+# B2. Tạo Organization
 
 Sau khi xác thực số điện thoại qua OTP, hệ thống đi đên trang tạo Organization. 
 B1. Điền thông tin tổ chức/ cá nhân sử dụng dịch vụ

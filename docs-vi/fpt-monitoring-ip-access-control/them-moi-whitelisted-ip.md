@@ -6,7 +6,7 @@ sidebar_label: "Click nút 'Whitelist IP/Range' trên bảng tương ứng."
 sidebar_position: 8
 ---
 
-# Them Moi Whitelisted Ip
+# Click nút 'Whitelist IP/Range' trên bảng tương ứng.
 
 * Click nút 'Whitelist IP/Range' trên bảng tương ứng. 
   * Nhập IP hoặc dải IP, ngăn cách bởi Enter. 

@@ -7,7 +7,7 @@ sidebar_position: 11
 pagination_next: null
 ---
 
-# User Guide Tab
+# Cung cấp user guide hướng dẫn sử dụng, cấu hình, tích hợp các dịch vụ.
 
 Cung cấp user guide hướng dẫn sử dụng, cấu hình, tích hợp các dịch vụ.
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**

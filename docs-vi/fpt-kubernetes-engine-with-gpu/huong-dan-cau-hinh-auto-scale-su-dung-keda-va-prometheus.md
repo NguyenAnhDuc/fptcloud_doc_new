@@ -7,7 +7,7 @@ sidebar_position: 12
 pagination_next: null
 ---
 
-# Huong Dan Cau Hinh Auto Scale Su Dung Keda Va Prometheus
+# Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prometheus
 
 [![](/img/migrated/Picture3-2-a84e2a0e.png)](/img/migrated/Picture3-2-a84e2a0e.png)
 ## Yêu cầu

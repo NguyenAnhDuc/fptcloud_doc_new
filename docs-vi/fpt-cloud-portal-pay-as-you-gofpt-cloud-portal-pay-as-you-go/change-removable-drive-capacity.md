@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi dung lượng ổ đĩa rời"
 sidebar_position: 13
 ---
 
-# Change Removable Drive Capacity
+# Thay đổi dung lượng ổ đĩa rời
 
 * B1. Vào trang Compute Engine - Storage Disks
   * B2. Trên mỗi ổ đĩa, bấm vào action và chọn Edit [![file](/img/migrated/image-1694073979781-7ec29458.png)](/img/migrated/image-1694073979781-7ec29458.png)

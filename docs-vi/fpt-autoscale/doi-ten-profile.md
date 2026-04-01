@@ -6,7 +6,7 @@ sidebar_label: "Đổi tên Profile"
 sidebar_position: 4
 ---
 
-# Doi Ten Profile
+# Đổi tên Profile
 
 ##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Profile**. Click vào tên profile cần đổi tên.
 [![click to rename profile](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)

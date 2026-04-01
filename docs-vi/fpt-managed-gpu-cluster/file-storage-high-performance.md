@@ -6,7 +6,7 @@ sidebar_label: "Lưu ý điều kiện để sử dụng High Performance Storag
 sidebar_position: 15
 ---
 
-# File Storage High Performance
+# Lưu ý điều kiện để sử dụng High Performance Storage bao gồm :
 
 **Lưu ý điều kiện để sử dụng High Performance Storage bao gồm** : 
   1. Các điều kiện bắt buộc để khởi tạo Managed GPU cluster (Active service, quota metal cloud, ssh key, internal subnet LB, ...). Tham khảo trong tài liệu khởi tạo Managed GPU Cluster [tại đây](../fpt-managed-gpu-cluster/index.md).

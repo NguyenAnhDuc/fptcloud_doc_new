@@ -6,7 +6,7 @@ sidebar_label: "Chỉnh sửa thông tin tổ chức"
 sidebar_position: 10
 ---
 
-# Chinh Sua Thong Tin Org
+# Chỉnh sửa thông tin tổ chức
 
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào Sub-tab, sau đó nhấn chọn **Organization**

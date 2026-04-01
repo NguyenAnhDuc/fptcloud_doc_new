@@ -6,7 +6,7 @@ sidebar_label: "Hiển thị Logs Traffic"
 sidebar_position: 10
 ---
 
-# Hien Thi Logs Traffic
+# Hiển thị Logs Traffic
 
 Khi tạo các Firewall Policy các traffic kết nối sẽ hiển thị logs ở mục **Forward Traffic** sau khi đã chọn chế độ **Generate Logs When Session Starts**.
 [![Userguide Fortigate FPT NGFW 2022 35](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-35-102-0e039dba.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-35-102-0e039dba.png)

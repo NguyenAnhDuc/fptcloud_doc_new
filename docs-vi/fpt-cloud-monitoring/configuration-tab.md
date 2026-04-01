@@ -6,7 +6,7 @@ sidebar_label: "Configuration tab"
 sidebar_position: 7
 ---
 
-# Configuration Tab
+# Configuration tab
 
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
 **Bước 2** : Trên menu của FPT Cloud Portal, click **Monitoring** hiển thị danh sách workspace

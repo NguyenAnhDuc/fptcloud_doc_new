@@ -6,7 +6,7 @@ sidebar_label: "Chỉnh sửa policy"
 sidebar_position: 7
 ---
 
-# Edit Policy
+# Chỉnh sửa policy
 
 Để sử dụng tính năng Edit policy, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
 **Bước 1** : Ở menu chọn **Policy Management**. Tại policy cần edit, chọn **Actions** > **Edit policy**

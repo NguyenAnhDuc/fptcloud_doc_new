@@ -6,7 +6,7 @@ sidebar_label: "Quản lý member"
 sidebar_position: 11
 ---
 
-# Quan Ly Member
+# Quản lý member
 
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Ở phần **Organization** , nhấn vào **Member** để xem danh sách thành viên cùng các Action có thể tạo với member
@@ -17,7 +17,7 @@ Lúc này bạn có thể xem **Name** , **Email** , **Org Units** , **Role** , 
 [![anhfsec](/img/migrated/anhb21-3100c74f.png)](/img/migrated/anhb21-3100c74f.png)
 Ở phần này, bạn có thể xem các thông tin như **Org Units** , **Role** ,**Status** , **Added By** và **Added Date**
 [![anhfsec](/img/migrated/anhb22-c0e01d58.png)](/img/migrated/anhb22-c0e01d58.png)
-## 1. Thêm Member
+## Thêm Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Add Member**
 [![anhfsec](/img/migrated/nhanaddmem-0164d52e.png)](/img/migrated/nhanaddmem-0164d52e.png)
@@ -27,7 +27,7 @@ Lúc này bạn có thể xem **Name** , **Email** , **Org Units** , **Role** , 
 [![anhfsec](/img/migrated/memb2-b6e91c9d.png)](/img/migrated/memb2-b6e91c9d.png)
 **Bước 3** : Nhấn **Save**
 [![anhfsec](/img/migrated/memb3-c4aff71d.png)](/img/migrated/memb3-c4aff71d.png)
-## 2. Chỉnh sửa Member
+## Chỉnh sửa Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Edit** ở phần **Action** của **Member**
 [![anhfsec](/img/migrated/E1-935cb7e9.png)](/img/migrated/E1-935cb7e9.png)
@@ -35,19 +35,19 @@ Chỉ **Org Admin** có quyền chỉnh sửa
 [![anhfsec](/img/migrated/E2-new-c0d59994.png)](/img/migrated/E2-new-c0d59994.png)
 **Bước 3** : Nhấn **Save**
 [![anhfsec](/img/migrated/E3-4f0c6208.png)](/img/migrated/E3-4f0c6208.png)
-## 3. Xóa Member
+## Xóa Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Remove** ở phần Action của Member
 [![anhfsec](/img/migrated/X1-4479b566.png)](/img/migrated/X1-4479b566.png)
 **Bước 2** : Điền **remove** và sau đó nhấn **Confirm**
 [![anhfsec](/img/migrated/X2-e4c5fcb3.png)](/img/migrated/X2-e4c5fcb3.png)
-## 4. Disable Member
+## Disable Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần**Disable** ở phần Action của Member
 [![anhfsec](/img/migrated/D1-40787124.png)](/img/migrated/D1-40787124.png)
 **Bước 2** : Điền **disable** và sau đó nhấn**Confirm**
 [![anhfsec](/img/migrated/D2-d09cab02.png)](/img/migrated/D2-d09cab02.png)
-## 5. Enable Member
+## Enable Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Enable** ở phần Action của Member
 [![anhfsec](/img/migrated/En1-1-7958e94c.png)](/img/migrated/En1-1-7958e94c.png)

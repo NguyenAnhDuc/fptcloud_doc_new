@@ -6,7 +6,7 @@ sidebar_label: "7.1. Truy cập vào dashboard"
 sidebar_position: 16
 ---
 
-# Truy Cap Vao Dashboard
+# 7.1. Truy cập vào dashboard
 
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
 **Bước 2** : Trên menu của FPT Cloud Portal, click **Monitoring**. 

@@ -6,7 +6,7 @@ sidebar_label: "Change Static ip in Window Server"
 sidebar_position: 4
 ---
 
-# Change Static Ip In Window Server
+# Change Static ip in Window Server
 
 **Bước 1:** Kiểm tra tình trạng hiện tại 
 Sau khi edit NIC, IP NIC là 132.0.0.182 

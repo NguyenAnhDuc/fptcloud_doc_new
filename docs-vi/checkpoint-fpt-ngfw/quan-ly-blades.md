@@ -6,7 +6,7 @@ sidebar_label: "Quản lý Blades"
 sidebar_position: 15
 ---
 
-# Quan Ly Blades
+# Quản lý Blades
 
 **Bước 1:** Trên **Menu** chọn **Gateway and Servers**(**Ctrl + 1**) > chọn **Gateway** > chọn **Edit.**
 [![Userguide Checkpoint FPT NGFW 2022 81](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-81-10-63596ac8.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-81-10-63596ac8.png)

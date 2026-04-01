@@ -6,7 +6,7 @@ sidebar_label: "Các bước thực hiện như sau:"
 sidebar_position: 5
 ---
 
-# Truy Cap Dich Vu
+# Các bước thực hiện như sau:
 
 Các bước thực hiện như sau: 
 **Bước 1** : Đăng nhập vào **FPT portal cloud** qua đường dẫn **<https://console.fptcloud.com>**

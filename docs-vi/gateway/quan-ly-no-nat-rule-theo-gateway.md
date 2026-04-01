@@ -6,7 +6,7 @@ sidebar_label: "1. Quản lý danh sách NO NAT Rule"
 sidebar_position: 6
 ---
 
-# Quan Ly No Nat Rule Theo Gateway
+# 1. Quản lý danh sách NO NAT Rule
 
 ## **1. Quản lý danh sách NO NAT Rule**
 [![file](/img/migrated/image-1754291539835-89c7d41b.png)](/img/migrated/image-1754291539835-89c7d41b.png)

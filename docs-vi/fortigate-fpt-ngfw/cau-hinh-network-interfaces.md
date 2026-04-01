@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình Network Interfaces"
 sidebar_position: 3
 ---
 
-# Cau Hinh Network Interfaces
+# Cấu hình Network Interfaces
 
 **Bước 1:** Sau khi đã cấu hình Interface quản trị (Port 1) trên CLI và đã truy cập giao diện web thành công. Dưới đây là hướng dẫn cấu hình một Interface đóng vai trò LAN.  
 [![Userguide Fortigate FPT NGFW 2022 3](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-3-1024-f1152674.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-3-1024-f1152674.png)  

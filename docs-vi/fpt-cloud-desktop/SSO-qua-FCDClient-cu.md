@@ -7,7 +7,7 @@ sidebar_position: 7
 pagination_next: null
 ---
 
-# Sso Qua Fcdclient Cu
+# Truy cập qua FCDClient cũ (luồng cũ)
 
 Dành cho người dùng đang sử dụng FCDClient cũ đã cài đặt trước đó
 **Lưu ý:**

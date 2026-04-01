@@ -6,7 +6,7 @@ sidebar_label: "Sửa report"
 sidebar_position: 7
 ---
 
-# Edit Report
+# Sửa report
 
 **Bước 1** : Click **Home > Apps > Reporting**
 **Bước 2** : Click vào tên report để xem chi tiết. 

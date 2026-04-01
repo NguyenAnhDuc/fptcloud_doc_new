@@ -7,7 +7,7 @@ sidebar_position: 8
 pagination_next: null
 ---
 
-# Delete Report
+# Xóa report
 
 Để xóa report, người dùng thực hiện như sau:
 **Bước 1** : Click **Home > Apps > Reporting**

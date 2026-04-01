@@ -6,7 +6,7 @@ sidebar_label: "Tạo mới một FPT Jenkins CI"
 sidebar_position: 4
 ---
 
-# Tao Moi Fpt Jenkinsci
+# Tạo mới một FPT Jenkins CI
 
 Để tạo mới **Jenkins CI instance** , bạn có thể thực hiện các thao tác sau:
 **Bước 1.** Trên menu của **FPT Portal** > **DevOps** > **Jenkins CI** > Click **Create a Jenkins**

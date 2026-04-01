@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo DDoS Protection"
 sidebar_position: 3
 ---
 
-# Create Ddos
+# Khởi tạo DDoS Protection
 
 [![](/img/migrated/corero-not-active-1024x462-fa6af4dd.png)](/img/migrated/corero-not-active-1024x462-fa6af4dd.png)
 Nếu bạn chưa thể tự sử dụng DDoS Protection trên FPT Cloud Portal. Vui lòng liên hệ với chúng tôi qua:

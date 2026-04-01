@@ -6,7 +6,7 @@ sidebar_label: "Thêm Network Interface Card mới"
 sidebar_position: 6
 ---
 
-# Add Card Nic  New
+# Thêm Network Interface Card mới
 
 Unify Portal hỗ trợ tính năng thêm mới card NIC dễ dàng và linh hoạt, tùy thuộc vào nhu cầu của khách hàng. Thao tác thêm mới được thực hiện một cách đơn giản và tiện lợi.
 **Bước 1** : Chọn Add NIC.

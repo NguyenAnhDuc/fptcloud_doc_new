@@ -6,7 +6,7 @@ sidebar_label: "Xóa một Instance Group"
 sidebar_position: 4
 ---
 
-# Delete Instance Group
+# Xóa một Instance Group
 
 **Lưu ý** : Thao tác này sẽ đồng thời gỡ instance group khỏi các instances đã gắn với nó. Việc xóa instance group này sẽ không thể khôi phục lại được.
 **Bước 1** : Trên bảng quản trị **Instance Group Management** , trong phần **Action** , chọn **Delete** [![file](/img/migrated/image-1705025148984-2af9c584.png)](/img/migrated/image-1705025148984-2af9c584.png)

@@ -7,7 +7,7 @@ sidebar_position: 5
 pagination_next: null
 ---
 
-# Xoa Api Gateway
+# Xoa api Gateway
 
 Để xóa API Gateway, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**

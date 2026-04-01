@@ -6,7 +6,7 @@ sidebar_label: "Quản Lý System User – User Profile"
 sidebar_position: 8
 ---
 
-# Quan Ly System User User Profile
+# Quản Lý System User – User Profile
 
 **Bước 1:** **System** > **Admin Profiles.**
 [![Userguide Fortigate FPT NGFW 2022 31](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-31-102-7d09da26.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-31-102-7d09da26.png)

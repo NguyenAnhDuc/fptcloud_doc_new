@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo một Instance Group mới"
 sidebar_position: 3
 ---
 
-# Create Instance Group
+# Khởi tạo một Instance Group mới
 
 Bạn có thể khởi tạo một instance group mới với các thao tác đơn giản sau (lưu ý là instance group sau khi tạo ra thì ko thể chỉnh sửa lại được thông tin đã tạo, do đó nếu bạn muốn thay đổi thì hãy xóa nhóm hiện tại & tạo ra một nhóm mới).
 **Bước 1** : Ở menu chọn **Compute Engine** > **Instance Group** , chọn **Create instance Group**.

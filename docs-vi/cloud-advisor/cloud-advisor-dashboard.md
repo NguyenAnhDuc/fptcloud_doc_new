@@ -6,7 +6,7 @@ sidebar_label: "Phân loại theo nhóm"
 sidebar_position: 3
 ---
 
-# Cloud Advisor Dashboard
+# Phân loại theo nhóm
 
 [![](/img/migrated/Dashboard-CA-1024x756-9afa85a9.png)](/img/migrated/Dashboard-CA-1024x756-9afa85a9.png)
 

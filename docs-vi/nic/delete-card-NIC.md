@@ -6,7 +6,7 @@ sidebar_label: "Xóa Network Interface Card"
 sidebar_position: 10
 ---
 
-# Delete Card Nic
+# Xóa Network Interface Card
 
 **Bước 1** : Chọn Card NIC cần xóa. Đối với card Primary, chức năng này sẽ bị disable. Đối với card thông thường, Unify Portal hỗ trợ xóa khi không có nhu cầu sử dụng.
 [![file](/img/migrated/image-1691389181936-f9a3bcaf.png)](/img/migrated/image-1691389181936-f9a3bcaf.png)

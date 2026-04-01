@@ -6,7 +6,7 @@ sidebar_label: "Xóa Alert"
 sidebar_position: 13
 ---
 
-# Xoa Alert
+# Xóa Alert
 
 Lưu ý: Thao tác này sẽ xóa toàn bộ dữ liệu lịch sử của Alert và không thể phục hồi lại được.
 **Bước 1** : Trên bảng quản trị **Alert Management** , trong phần **Action** của Alert cần xóa, chọn **Delete**.

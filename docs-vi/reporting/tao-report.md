@@ -6,7 +6,7 @@ sidebar_label: "Tạo report"
 sidebar_position: 4
 ---
 
-# Tao Report
+# Tạo report
 
 Để tạo report, bạn thực hiện theo hướng dẫn sau: 
 **Bước 1** : Click **Home** > **Apps** > **Reporting** > **Create a new report**

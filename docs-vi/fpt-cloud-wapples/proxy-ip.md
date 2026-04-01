@@ -6,7 +6,7 @@ sidebar_label: "Proxy IP"
 sidebar_position: 13
 ---
 
-# Proxy Ip
+# Proxy IP
 
 Chức năng thực hiện thiết lập địa chỉ proxy IP nếu có sử dụng nhằm thiết lập các dịch vụ của ip private trong cloud [![file](/img/migrated/image-1714112480774-859e0576.png)](/img/migrated/image-1714112480774-859e0576.png)
   * Các chức năng có thể sử dụng bao gồm thêm, sửa, xoá Proxy IP

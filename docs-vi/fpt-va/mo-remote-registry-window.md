@@ -7,7 +7,7 @@ sidebar_position: 11
 pagination_next: null
 ---
 
-# Mo Remote Registry Window
+# 8. Mở Remote Registry trên Windows để sử dụng SMB
 
 Để hệ thống FPT Cloud VA có thể sử dụng phương thức đăng nhập SMB, cần mở dịch vụ Remote Registry trên máy Window theo các bước sau:
 Với các máy không join domain (VD: máy tính cá nhân) hoặc có join domain và sử dụng tài khoản Local Admin để quét, cần set registry như sau:

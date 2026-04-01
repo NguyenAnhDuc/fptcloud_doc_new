@@ -6,7 +6,7 @@ sidebar_label: "Kiểm tra thông tin backup và restore của VM."
 sidebar_position: 7
 ---
 
-# Kiem Tra Thong Tin Backup Va Restore Cua Vm
+# Kiểm tra thông tin backup và restore của VM.
 
 ## **Kiểm Tra Trạng Thái Backup và Restore của VM**
 Ngoài việc thống kê chung ở **Backup & Recovery Management**, **FPT Portal** còn hỗ trợ bạn xem trạng thái backup và restore của từng VM tại giao diện quản trị của VM đấy.

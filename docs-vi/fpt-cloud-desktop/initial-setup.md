@@ -6,7 +6,7 @@ sidebar_label: "Điều kiện yêu cầu"
 sidebar_position: 3
 ---
 
-# Initial Setup
+# Điều kiện yêu cầu
 
 Trước khi truy cập, người dùng cần đảm bảo:
 **Đăng nhập với tài khoản SSO (Azure):**

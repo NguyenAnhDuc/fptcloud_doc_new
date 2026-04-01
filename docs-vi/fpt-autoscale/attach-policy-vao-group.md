@@ -6,7 +6,7 @@ sidebar_label: "Attach Policy vào Group"
 sidebar_position: 15
 ---
 
-# Attach Policy Vao Group
+# Attach Policy vào Group
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần gắn policy.
 [![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)

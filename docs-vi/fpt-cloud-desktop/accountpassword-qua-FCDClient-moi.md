@@ -6,7 +6,7 @@ sidebar_label: "Truy cập qua FCDClient mới"
 sidebar_position: 9
 ---
 
-# Accountpassword Qua Fcdclient Moi
+# Truy cập qua FCDClient mới
 
 Dành cho trải nghiệm ổn định và đầy đủ tính năng nhất, cho phép thao tác trực tiếp trên ứng dụng.
 #### **Bước 1: Cài đặt FCDClient mới**

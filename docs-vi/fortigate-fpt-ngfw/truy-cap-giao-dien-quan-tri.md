@@ -6,7 +6,7 @@ sidebar_label: "Truy cập giao diện quản trị"
 sidebar_position: 2
 ---
 
-# Truy Cap Giao Dien Quan Tri
+# Truy cập giao diện quản trị
 
 **Bước 1:** Đăng nhập vào giao diện quản trị của Fortigate NGFW thông qua địa chỉ IP và user/password đã cấu hình.  
 [![Userguide Fortigate FPT NGFW 2022 1](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)  

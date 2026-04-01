@@ -7,7 +7,7 @@ sidebar_position: 17
 pagination_next: null
 ---
 
-# Fcmon Dashboard Template
+# 7.2.1. Cài đặt dashboard template
 
 Giúp bạn triển khai nhanh chóng thông qua các mẫu dashboard mà FPT Cloud Monitoring cung cấp, sẵn sàng ngay để sử dụng.
 **7.2.1. Cài đặt dashboard template**

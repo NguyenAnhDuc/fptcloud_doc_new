@@ -6,7 +6,7 @@ sidebar_label: "Cap Nhat Thong tin Security"
 sidebar_position: 9
 ---
 
-# Cap Nhat Thong Tin Security
+# Cap Nhat Thong tin Security
 
 Để cập nhật thông tin Security, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

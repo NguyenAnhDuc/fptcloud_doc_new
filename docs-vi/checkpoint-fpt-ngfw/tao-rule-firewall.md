@@ -6,7 +6,7 @@ sidebar_label: "Tạo rule Firewall"
 sidebar_position: 12
 ---
 
-# Tao Rule Firewall
+# Tạo rule Firewall
 
 **Bước 1:** Trên **Menu** chọn **Security Policies** (**Ctrl + 2**) > chọn **Access Control** > chọn **Policy.**
 [![Userguide Checkpoint FPT NGFW 2022 51](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-51-10-d67afe3a.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-51-10-d67afe3a.png)

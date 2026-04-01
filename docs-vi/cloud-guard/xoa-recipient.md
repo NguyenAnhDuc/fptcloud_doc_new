@@ -7,7 +7,7 @@ sidebar_position: 18
 pagination_next: null
 ---
 
-# Xoa Recipient
+# Xóa Recipient
 
 **Bước 1** : Trên bảng quản trị **Recipient** **Management** , trong phần **Action** của Recipient cần xóa, chọn **Delete**.
 [![file](/img/migrated/image-1725533165171-864680e6.png)](/img/migrated/image-1725533165171-864680e6.png)

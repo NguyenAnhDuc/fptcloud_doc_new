@@ -6,7 +6,7 @@ sidebar_label: "Chuyển card thường thành card Primary"
 sidebar_position: 7
 ---
 
-# Convert Card
+# Chuyển card thường thành card Primary
 
 **Bước 1** : Chọn card NIC cần chuyển sang Primary. Đối với card đã là Primary, chức năng này sẽ bị disable. Đối với card thông thường, Unify Portal hỗ trợ chuyển đổi dễ dàng và nhanh chóng.
 [![file](/img/migrated/image-1691382928697-43633c94.png)](/img/migrated/image-1691382928697-43633c94.png)

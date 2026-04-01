@@ -6,7 +6,7 @@ sidebar_label: "Organization Management - Quản lý Organization"
 sidebar_position: 9
 ---
 
-# Gioi Thieu Organization
+# Organization Management - Quản lý Organization
 
 Để bắt đầu sử dụng tính năng quản lý organization, bạn có thể thực hiện các thao tác sau:
 **Bước 1** : Trên Menu của **FPT Portal** chọn **Security Platform** , sau đó chọn **DevSec**

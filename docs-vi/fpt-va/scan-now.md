@@ -6,7 +6,7 @@ sidebar_label: "Scan now"
 sidebar_position: 7
 ---
 
-# Scan Now
+# Scan now
 
 Tính năng Scan Now cho phép bạn scan ngay lập tức và mà không phải chờ đến lịch định kỳ.
 **Bước 1** : Ở menu chọn **Security** > **Cloud VA** , ở **Action** của **Target** cần xóa chọn **Scan Now**.

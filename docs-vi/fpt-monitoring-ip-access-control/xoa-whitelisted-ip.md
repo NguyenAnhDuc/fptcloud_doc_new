@@ -6,7 +6,7 @@ sidebar_label: "thành công"
 sidebar_position: 9
 ---
 
-# Xoa Whitelisted Ip
+# thành công
 
 [![Xóa bỏ whitelisted IP](/img/migrated/Screenshot_6-57331a11.png)](/img/migrated/Screenshot_6-57331a11.png)
 Chọn 1 hoặc nhiều IP đã được whitelist, click nút Remove.

@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn chỉnh sửa schedule"
 sidebar_position: 31
 ---
 
-# Schedule Edit
+# Hướng dẫn chỉnh sửa schedule
 
 **Cách 1** : Tại màn hình Schedule Management, chọn dấu ⋮ ở mỗi schedule > Edit để chỉnh sửa schedule: 
 [![Alt text](/img/migrated/Picture19-c62f7e3c.png)](/img/migrated/Picture19-c62f7e3c.png)

@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi Worker Group sử dụng GPU"
 sidebar_position: 4
 ---
 
-# Thay Doi Worker Group Su Sung Gpu
+# Thay đổi Worker Group sử dụng GPU
 
 **Yêu cầu:**
   * Quota CPU, GPU, RAM, Storage, Instance: đáp ứng đủ cho cấu hình Worker Group thay đổi. 

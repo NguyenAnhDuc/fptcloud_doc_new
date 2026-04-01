@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo cảnh báo cho Object Storage"
 sidebar_position: 5
 ---
 
-# Khoi Tao Canh Bao Object Storage
+# Khởi tạo cảnh báo cho Object Storage
 
 #### Bước 1: Ở menu chọn Security > Cloud Guard, mở tab Resource Alerts và chọn Create Alert.
 Để thực hiện tạo cảnh báo cho dịch vụ Object Storage đang sử dụng, chọn **Type** là **Object Storage** [![file](/img/migrated/image-1696235964781-27725bb4.png)](/img/migrated/image-1696235964781-27725bb4.png) Chọn **Metric Type** , **Apply to** , **Severity** ,cấu hình điều kiện cảnh báo tại **Configure Condition** và chọn người nhận cảnh báo tại **Notify to**

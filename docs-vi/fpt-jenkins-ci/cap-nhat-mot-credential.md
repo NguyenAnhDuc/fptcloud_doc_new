@@ -6,7 +6,7 @@ sidebar_label: "Cập nhật một credential"
 sidebar_position: 12
 ---
 
-# Cap Nhat Mot Credential
+# Cập nhật một credential
 
 Để cập nhật thông tin một credential, người dùng có thể thực hiện như sau:
 **Bước 1.** Tại menu FPT Portal > **Jenkins CI** > Detail Cluster > **Credential Managements:**

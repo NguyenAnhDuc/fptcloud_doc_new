@@ -6,9 +6,9 @@ sidebar_label: "1. Tạo Robot Account - Harbor"
 sidebar_position: 22
 ---
 
-# Guide Harbor
+# 1. Tạo Robot Account - Harbor
 
-## 1. Tạo Robot Account - Harbor
+## Tạo Robot Account - Harbor
 **Bước 1** : Truy cập Harbor Server của bạn, chọn tab Administration > Robot Accounts
 **Bước 2** : Nhấn **New Robot Account** để tạo mới
 [![anhfsec](/img/migrated/hb1-1-312b6058.png)](/img/migrated/hb1-1-312b6058.png)
@@ -23,7 +23,7 @@ sidebar_position: 22
 [![anhfsec](/img/migrated/hb6-1-bf0aa7ff.png)](/img/migrated/hb6-1-bf0aa7ff.png)
 **Bước 7** : Sau khi Robot Account được tạo thành công, copy **Robot Account name** và **secret** dùng cho tích hợp tại màn hình của **FPT Portal**
 [![anhfsec](/img/migrated/hb7-13cec7b9.png)](/img/migrated/hb7-13cec7b9.png)
-## 2. Tích hợp Harbor
+## Tích hợp Harbor
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp Harbor
 _Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào **Harbor** để đến màn tích hợp:
@@ -34,7 +34,7 @@ _Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
 [![Alt text](/img/migrated/hb10-b1a89abe.png)](/img/migrated/hb10-b1a89abe.png)
 **Bước 4** : Sau khi hệ thống thông báo test kết nốt thành công, nhấn **Integrate**
 [![Alt text](/img/migrated/hb11-85d22a70.png)](/img/migrated/hb11-85d22a70.png)
-## 3. Xem chi tiết tích hợp Harbor
+## Xem chi tiết tích hợp Harbor
 Chỉ **Org Admin** và **Team Manager** có quyền xem chi tiết tích hợp
 Sau khi đã chọn org/team, nhấn vào **Configured Harbor** để xem chi tiết
 [![anhfsec](/img/migrated/hb11-85d22a70.png)](/img/migrated/hb11-85d22a70.png)
@@ -42,13 +42,13 @@ Sau khi đã chọn org/team, nhấn vào **Configured Harbor** để xem chi ti
 [![anhfsec](/img/migrated/hb13-b9f618ce.png)](/img/migrated/hb13-b9f618ce.png)
 Bạn có thể tiến hành **Reintegrate** hoặc **Disable** tích hợp Harbor
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/fcr1-2.png)
-## 3. Reintegrate Harbor
+## Reintegrate Harbor
 **Bước 1** : Để **reintegrate Harbor** , ấn vào màn hình chi tiết của tích hợp Harbor. Chọn biểu tượng **Edit** cạnh mục **Account Credentials**
 [![anhfsec](/img/migrated/hb14-f0016034.png)](/img/migrated/hb14-f0016034.png)
 **Bước 2** : Thực hiện các thao tác giống **Integrate Harbor**
-## 4. Vô hiệu hoá tích hợp FPT Container Registry
+## Vô hiệu hoá tích hợp FPT Container Registry
 Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
-## 6. Access Key cho CI/CD pipeline
+## Access Key cho CI/CD pipeline
 Ở phần detail, ngoài General Information, bạn sẽ được cung cấp **access key** để có thể tích hợp CI/CD Pipeline
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/hb15.png)
 Bạn có thể copy hoặc reset Access Key để phục vụ cho tích hợp vào CI/CD pipeline

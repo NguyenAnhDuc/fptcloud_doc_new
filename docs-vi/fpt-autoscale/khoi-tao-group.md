@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Group"
 sidebar_position: 7
 ---
 
-# Khoi Tao Group
+# Khởi tạo Group
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Chọn **Create group**.
 [![create group](/img/migrated/Screenshot-2024-10-02-014656-aeae77df.png)](/img/migrated/Screenshot-2024-10-02-014656-aeae77df.png)

@@ -7,7 +7,7 @@ sidebar_position: 16
 pagination_next: null
 ---
 
-# Quan Ly Account
+# Quản lý Account
 
 **Bước 1:** Trên **Menu** chọn **Manage and Settings**(**Ctrl + 4**) > chọn **Permissions & Administrators** > chọn **New.**
 [![Userguide Checkpoint FPT NGFW 2022 100](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-100-1-bf21de64.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-100-1-bf21de64.png)

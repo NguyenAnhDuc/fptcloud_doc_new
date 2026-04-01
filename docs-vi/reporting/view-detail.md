@@ -6,7 +6,7 @@ sidebar_label: "Xem chi tiết report"
 sidebar_position: 6
 ---
 
-# View Detail
+# Xem chi tiết report
 
 **Bước 1** : Click **Home > Apps > Reporting**
 [![Alt text](/img/migrated/Picture11-f73c4b93.png)](/img/migrated/Picture11-f73c4b93.png)

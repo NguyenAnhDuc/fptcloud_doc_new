@@ -6,7 +6,7 @@ sidebar_label: "Auto Schedule To On Off Instance"
 sidebar_position: 1
 ---
 
-# Auto Schedule To On-Off Instance
+# Auto Schedule To On Off Instance
 
 Tất cả tài liệu
 FPT Integration 

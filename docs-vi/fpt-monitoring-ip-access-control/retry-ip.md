@@ -6,7 +6,7 @@ sidebar_label: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Bla
 sidebar_position: 10
 ---
 
-# Retry Ip
+# Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.
 
 **Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.**
 [![Retry IP](/img/migrated/Screenshot_7-db22b40e.png)](/img/migrated/Screenshot_7-db22b40e.png)

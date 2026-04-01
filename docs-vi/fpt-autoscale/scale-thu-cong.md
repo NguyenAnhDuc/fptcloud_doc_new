@@ -6,7 +6,7 @@ sidebar_label: "Scale thủ công"
 sidebar_position: 10
 ---
 
-# Scale Thu Cong
+# Scale thủ công
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Trên dòng tương ứng với group cần điều chỉnh, click vào biểu tượng **Action menu**.
 [![open group action menu](/img/migrated/Screenshot-2024-10-02-023008-8d0f1521.png)](/img/migrated/Screenshot-2024-10-02-023008-8d0f1521.png)

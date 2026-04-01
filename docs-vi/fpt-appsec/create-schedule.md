@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn tạo schedule"
 sidebar_position: 29
 ---
 
-# Create Schedule
+# Hướng dẫn tạo schedule
 
 **Bước 1:** Mở màn hình tạo 
 Vào menu **Schedule** , hệ thống điều hướng sang màn hình **Schedule Management**. Nhấn **Create Schedule** : 

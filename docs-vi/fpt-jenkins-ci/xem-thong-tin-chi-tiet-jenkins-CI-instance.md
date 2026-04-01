@@ -6,7 +6,7 @@ sidebar_label: "Xem thông tin chi tiết Jenkins CI instance"
 sidebar_position: 5
 ---
 
-# Xem Thong Tin Chi Tiet Jenkins Ci Instance
+# Xem thông tin chi tiết Jenkins CI instance
 
 Để làm việc với cụm Jenkins đã được khởi tạo, đầu tiên bạn vào xem thông tin chi tiết của cụm đã được khởi tạo.
 **Bước 1** : Tại menu **FPT Portal** > **DevOps** > **Jenkins CI** > Click **Instance Name** để xem thông tin chi tiết của cụm:

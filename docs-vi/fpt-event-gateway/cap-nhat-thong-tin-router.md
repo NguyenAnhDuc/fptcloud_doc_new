@@ -6,7 +6,7 @@ sidebar_label: "Cap Nhat Thong tin Router"
 sidebar_position: 18
 ---
 
-# Cap Nhat Thong Tin Router
+# Cap Nhat Thong tin Router
 
 Để tạo mới Router, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

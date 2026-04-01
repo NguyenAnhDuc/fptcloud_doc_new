@@ -6,7 +6,7 @@ sidebar_label: "Giới thiệu khái quát về sản phẩm:"
 sidebar_position: 1
 ---
 
-# Network Interface Card (NIC)
+# Giới thiệu khái quát về sản phẩm:
 
 Tất cả tài liệu
 FPT Integration 

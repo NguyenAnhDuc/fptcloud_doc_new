@@ -6,7 +6,7 @@ sidebar_label: "Quản lý thông tin package và resource quota Khách hàng đ
 sidebar_position: 10
 ---
 
-# Quota And Package Tab
+# Quản lý thông tin package và resource quota Khách hàng đang sử dụng.
 
 Quản lý thông tin package và resource quota Khách hàng đang sử dụng.
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**

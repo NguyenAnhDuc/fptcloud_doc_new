@@ -7,7 +7,7 @@ sidebar_position: 11
 pagination_next: null
 ---
 
-# Accountpassword Qua Fcdclient Cu
+# Truy cập qua FCDClient cũ (luồng cũ)
 
 Dành cho người dùng đang sử dụng FCDClient cũ đã cài đặt trước đó
 **Lưu ý:**

@@ -1,0 +1,11 @@
+---
+id: "disable-policy"
+title: "Vô hiệu hóa policy"
+description: "Vô hiệu hóa policy ポリシー管理の機能。"
+sidebar_label: "Vô hiệu hóa policy"
+sidebar_position: "9"
+---
+
+# Vô hiệu hóa policy
+
+Vô hiệu hóa policy ポリシー管理の機能。

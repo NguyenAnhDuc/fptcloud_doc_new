@@ -6,7 +6,7 @@ sidebar_label: "1. Tạo một Target mới"
 sidebar_position: 4
 ---
 
-# Tao Target
+# 1. Tạo một Target mới
 
 **Target** – **Mục tiêu quét** : Là đối tượng được FPT VA rà quét lỗ hổng bảo mật, do người dùng tạo và cài đặt trên **FPT Portal**. **Target** có thể là 1 website, 1 IP public hay 1 dải IP mà người dùng đang quản lý.
 **Bước 1** : Ở menu chọn **Security** > **Cloud VA** , chọn **Create target**. [![file](/img/migrated/image-1690784417122-8b617f01.bin)](/img/migrated/image-1690784417122-8b617f01.bin)

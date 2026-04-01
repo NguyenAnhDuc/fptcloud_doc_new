@@ -6,7 +6,7 @@ sidebar_label: "Trang chủ của hệ thống Portal"
 sidebar_position: 6
 ---
 
-# Home Page Portal
+# Trang chủ của hệ thống Portal
 
 Trang chủ hệ thống Unify Portal gồm những thông tin:
 • Available Services: danh sách các dịch vụ đã hộ trợ hình thức thanh toán PAYG

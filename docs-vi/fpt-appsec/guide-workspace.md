@@ -6,7 +6,7 @@ sidebar_label: "Workspace Management - Quản lý Asset và Issue"
 sidebar_position: 24
 ---
 
-# Guide Workspace
+# Workspace Management - Quản lý Asset và Issue
 
 **Bước 1** : Nhấn vào **Workspace** ở trong Menu
 **Bước 2** : Chọn Team bạn muốn

@@ -6,7 +6,7 @@ sidebar_label: "Tạo Object"
 sidebar_position: 11
 ---
 
-# Tao Object
+# Tạo Object
 
 **Object** sẽ định nghĩa các máy chủ, dải mạng, port, … được sử dụng cho việc thiết lập rule.
 **Bước 1:** Trên **Object Pane** (**F11**) > chọn **New** > chọn **Network**.

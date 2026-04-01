@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn xem danh sách & chi tiết schedule"
 sidebar_position: 30
 ---
 
-# Schedule Detail
+# Hướng dẫn xem danh sách & chi tiết schedule
 
 **Bước 1:** Tại thanh menu bên trái, chọn Security Platform → DevSec → Schedule. Màn hình **Schedule Management** hiển thị danh sách các Schedule được sắp xếp mặc định theo ngày tạo từ mới nhất đến cũ nhất: 
 [![Alt text](/img/migrated/1-1-461969c3.png)](/img/migrated/1-1-461969c3.png)

@@ -6,7 +6,7 @@ sidebar_label: "Triển khai ứng dụng sử dụng GPU trên Kubernetes"
 sidebar_position: 5
 ---
 
-# Trien Khai Ung Dung Su Dung Gpu Tren Kubernetes
+# Triển khai ứng dụng sử dụng GPU trên Kubernetes
 
 Kubernetes quản lý và sử dụng resources GPU tương tự như sử dụng resources CPU. Tùy vào cấu hình GPU lựa chọn cho Worker Group để khai báo resources GPU cho ứng dụng trên Kubernetes.
 _Chú ý:_

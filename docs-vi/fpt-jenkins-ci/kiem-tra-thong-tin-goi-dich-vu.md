@@ -6,7 +6,7 @@ sidebar_label: "Kiểm tra thông tin gói dịch vụ"
 sidebar_position: 3
 ---
 
-# Kiem Tra Thong Tin Goi Dich Vu
+# Kiểm tra thông tin gói dịch vụ
 
 FPT Cloud cung cấp các gói dịch vụ **Jenkins CI** cho người dùng tại phần **Quota Detail**. 
 Để kiểm tra các gói dịch vụ có thể sử dụng, người dùng có thể thực hiện như sau: 

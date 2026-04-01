@@ -6,7 +6,7 @@ sidebar_label: "Tăng thêm Worker Group sử dụng GPU"
 sidebar_position: 9
 ---
 
-# Tang Them Worker Group Su Dung Gpu
+# Tăng thêm Worker Group sử dụng GPU
 
 **Yêu cầu:**
   * Quota CPU, GPU, RAM, Storage, Instance: đáp ứng đủ cho cấu hình Worker Group mới mong muốn. Nếu muốn sử dụng Autoscale, số lượng GPU phải đáp ứng đủ số Max node tăng thêm mong muốn.

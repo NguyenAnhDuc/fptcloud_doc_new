@@ -7,7 +7,7 @@ sidebar_position: 20
 pagination_next: null
 ---
 
-# Quan Tri User
+# 10. Quản trị User
 
 Cho phép user phân quyền được vào grafana dashboard với 1 trong các quyền: Admin, Editor, Viewer.
 **Bước 1** : Đăng nhập vào FPT portal cloud <https://console.fptcloud.com>

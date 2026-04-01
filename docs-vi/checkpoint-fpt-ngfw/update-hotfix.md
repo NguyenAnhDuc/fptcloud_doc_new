@@ -7,7 +7,7 @@ sidebar_position: 7
 pagination_next: null
 ---
 
-# Update Hotfix
+# Lưu ý: Hệ thống sẽ reboot sau khi update.
 
 **Lưu ý:** Hệ thống sẽ reboot sau khi update.
 **Bước 1:** Trên menu **Upgrades** (CPUSE) > chọn **Status and Actions** > chọn **Check For Updates**.

@@ -6,7 +6,7 @@ sidebar_label: "Xem Thong tin Router Group"
 sidebar_position: 13
 ---
 
-# Xem Thong Tin Router Group
+# Xem Thong tin Router Group
 
 Để xem thông tin Router group, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

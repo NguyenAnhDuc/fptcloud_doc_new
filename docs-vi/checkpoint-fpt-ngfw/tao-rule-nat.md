@@ -6,7 +6,7 @@ sidebar_label: "Tạo rule NAT"
 sidebar_position: 13
 ---
 
-# Tao Rule Nat
+# Tạo rule NAT
 
 **Bước 1:** Trên **Object Pane** (**F11**) > tìm Object cần SNAT > chuột phải chọn **Edit.**
 [![Userguide Checkpoint FPT NGFW 2022 60](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-60-90ecad9b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-60-90ecad9b.png)

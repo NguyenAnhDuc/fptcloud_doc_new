@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cấu hình Auto Scale sử dụng GPU Custom Met
 sidebar_position: 11
 ---
 
-# Huong Dan Cau Hinh Auto Scale Su Dung Gpu Custom Metric
+# Hướng dẫn cấu hình Auto Scale sử dụng GPU Custom Metric
 
 Kubernetes hỗ trợ tự động auto scale dựa trên các custom metrics như GPU metrics bằng cách kết hợp với Prometheus. Bài viết này giới thiệu cách để cấu hình Auto Scale cho các ứng dụng sử dụng GPU chạy trên nền tảng FPT Kubernetes Engine.
 [![](/img/migrated/Picture5-1-b79630d5.png)](/img/migrated/Picture5-1-b79630d5.png)

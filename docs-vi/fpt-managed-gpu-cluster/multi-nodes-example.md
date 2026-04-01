@@ -6,7 +6,7 @@ sidebar_label: "vLLM và multi-host serving"
 sidebar_position: 23
 ---
 
-# Multi Nodes Example
+# vLLM và multi-host serving
 
 Bài hướng dẫn này trình bày cách **triển khai và phục vụ (serve) mô hình ngôn ngữ lớn Gemma 3 (LLM)** bằng nhiều **nodes trên FPT Kubernetes Engine (FKE GPU)** , sử dụng **framework vLLM** để phục vụ inference.  
 Mục tiêu là cung cấp nền tảng giúp bạn **hiểu và thực hành việc triển khai LLM cho bài toán suy luận (inference)** trong một **môi trường Kubernetes được quản lý**. 

@@ -6,7 +6,7 @@ sidebar_label: "Tính năng chính"
 sidebar_position: 1
 ---
 
-# Cloud Advisor
+# Tính năng chính
 
 Cloud Advisor là dịch vụ của FPT Cloud cung cấp các khuyến nghị tối ưu hóa cho hạ tầng cloud của bạn, bao gồm các lĩnh vực:
 

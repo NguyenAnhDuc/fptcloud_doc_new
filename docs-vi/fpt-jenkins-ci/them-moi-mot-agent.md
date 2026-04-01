@@ -6,7 +6,7 @@ sidebar_label: "Thêm mới một Agent"
 sidebar_position: 7
 ---
 
-# Them Moi Mot Agent
+# Thêm mới một Agent
 
 **Bước 1.** Tại menu FPT Portal > **Jenkins CI** > **Detail Cluster** > **Agent Managements** :
 [![](/img/migrated/Picture9-18241027.png)](/img/migrated/Picture9-18241027.png)

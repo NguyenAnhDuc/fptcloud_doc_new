@@ -6,7 +6,7 @@ sidebar_label: "Tải file đối soát chi tiết"
 sidebar_position: 5
 ---
 
-# Download Bills
+# Tải file đối soát chi tiết
 
 **Để tải đối soát chi tiết dạng file excel, người dùng thao tác như sau:**
 Sau khi chọn kỳ hóa đơn - contract và đối soát, người dùng chọn button Download.

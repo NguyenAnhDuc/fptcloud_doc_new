@@ -6,7 +6,7 @@ sidebar_label: "5 Xóa Target"
 sidebar_position: 8
 ---
 
-# Xoa Target
+# 5 Xóa Target
 
 Lưu ý: Thao tác này sẽ xóa toàn bộ dữ liệu lịch sử scan của Target và không thể phục hồi lại được.
 **Bước 1** : Ở menu chọn **Security** > **Cloud VA** , ở **Action** của **Target** cần xóa chọn **Delete**.

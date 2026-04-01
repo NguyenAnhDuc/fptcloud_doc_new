@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo nhanh Policy Management"
 sidebar_position: 4
 ---
 
-# Create Overview Policy
+# Khởi tạo nhanh Policy Management
 
 Để sử dụng tính năng này, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
 **Bước 1** : Ở menu chọn **Policy Management** > chọn **Create policy**

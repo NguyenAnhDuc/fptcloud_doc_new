@@ -6,7 +6,7 @@ sidebar_label: "Vô hiệu hóa policy"
 sidebar_position: 9
 ---
 
-# Disable Policy
+# Vô hiệu hóa policy
 
 Để sử dụng tính năng Disable Policy, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
 **Bước 1** : Ở meu chọn **Policy Management**. Người dùng chọn một Policy đang ở trạng thái **Active** , sau đó chọn **Actions** > chọn **Disable policy**

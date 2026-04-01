@@ -6,7 +6,7 @@ sidebar_label: "Tinh Nang Manual Scale Managed gpu Cluster"
 sidebar_position: 10
 ---
 
-# Tinh Nang Manual Scale Managed Gpu Cluster
+# Tinh Nang Manual Scale Managed gpu Cluster
 
 Manual Scale cho phép người dùng chủ động điều chỉnh quy mô tài nguyên hệ thống theo nhu cầu. Người dùng có thể tăng hoặc giảm số lượng Metal Cloud Server ngày trên portal theo các bước như sau:
 **Bước 1** : Ở menu chọn **AI Infrastructure** > **Managed GPU Cluster** hệ thống sẽ hiển thị trang **Managed GPU Management**. Chọn Cluster muốn thêm Worker Group.

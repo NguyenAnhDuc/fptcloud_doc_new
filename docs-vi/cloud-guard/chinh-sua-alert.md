@@ -6,7 +6,7 @@ sidebar_label: "Chỉnh sửa Alert"
 sidebar_position: 12
 ---
 
-# Chinh Sua Alert
+# Chỉnh sửa Alert
 
 **Bước 1** : Ở menu chọn **Cloud Guard** , chọn tab **Resource alert**
 [![file](/img/migrated/image-1725532789529-6dfc0d32.png)](/img/migrated/image-1725532789529-6dfc0d32.png)

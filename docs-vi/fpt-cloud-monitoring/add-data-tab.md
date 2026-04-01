@@ -6,7 +6,7 @@ sidebar_label: "Add Data tab"
 sidebar_position: 8
 ---
 
-# Add Data Tab
+# Add Data tab
 
 Cung cấp đầy đủ hướng dẫn tích hợp dịch vụ (Infrastructure services), applications, monitor endpoints. 
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**

@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình DNS"
 sidebar_position: 6
 ---
 
-# Cau Hinh Dns
+# Cấu hình DNS
 
 **Bước 1:** Trên menu chọn **Network Management** > **Hosts and DNS.**
 [![Userguide Checkpoint FPT NGFW 2022 30](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-30-10-a3ec9773.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-30-10-a3ec9773.png)

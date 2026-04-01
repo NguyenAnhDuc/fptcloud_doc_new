@@ -6,7 +6,7 @@ sidebar_label: "Xem các yêu cầu đã tạo"
 sidebar_position: 4
 ---
 
-# View Request Resource
+# Xem các yêu cầu đã tạo
 
 Với các tài khoản được cấp quyền Tenant Owner, người dùng có thể xem được tất cả các yêu cầu do chính họ tạo, hoặc các yêu cầu do VPC Owner khác tạo. 
 Với các tài khoản được cấp quyền VPC Owner, người dùng chỉ có thể xem được yêu cầu do chính họ tạo ra mà không xem được các yêu cầu của VPC Owner hoặc Tenant Owner khác tạo.

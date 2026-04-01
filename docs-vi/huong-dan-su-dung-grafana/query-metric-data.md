@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cách tự xây dựng truy vấn metric data tro
 sidebar_position: 13
 ---
 
-# Query Metric Data
+# Hướng dẫn cách tự xây dựng truy vấn metric data trong Grafana.
 
 Phần này dành cho người dùng có nhu cầu tự xây dựng truy vấn.
 

@@ -6,7 +6,7 @@ sidebar_label: "Xóa Firewall Policy"
 sidebar_position: 6
 ---
 
-# Xoa Firewall Policy
+# Xóa Firewall Policy
 
 Khi không còn nhu cầu sử dụng và muốn xóa Firewall Policy, bạn thao tác như sau:  
 Ở **Policy & Objects** > **Firewall Policy.** Chọn Policy cần xóa > **Delete**.

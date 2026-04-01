@@ -6,7 +6,7 @@ sidebar_label: "Xem Thong tin api Gateway"
 sidebar_position: 4
 ---
 
-# Xem Thong Tin Api Gateway
+# Xem Thong tin api Gateway
 
 Để xem thông tin **API Gateway** , người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**

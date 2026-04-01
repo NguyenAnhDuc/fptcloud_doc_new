@@ -6,7 +6,7 @@ sidebar_label: "1, Tạo relation"
 sidebar_position: 9
 ---
 
-# Relation Management
+# 1, Tạo relation
 
 **1, Tạo relation** Màn relation cho phép người dùng thể hiện mối quan hệ giữa các component trong một tag.
 Bạn có thể kéo thả các component vào khu vực bảng để thiết lập mối quan hệ.

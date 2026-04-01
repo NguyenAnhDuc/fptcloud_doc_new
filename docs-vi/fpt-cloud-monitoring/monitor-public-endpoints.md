@@ -6,7 +6,7 @@ sidebar_label: "Chú ý:"
 sidebar_position: 14
 ---
 
-# Monitor Public Endpoints
+# Chú ý:
 
 **Chú ý:**
 Hiện tại, chúng tôi đã phát triển và tích hợp tính năng monitor public endpoint trên dashboard.

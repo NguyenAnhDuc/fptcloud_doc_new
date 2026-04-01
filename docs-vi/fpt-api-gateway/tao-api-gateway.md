@@ -6,7 +6,7 @@ sidebar_label: "Tao api Gateway"
 sidebar_position: 3
 ---
 
-# Tao Api Gateway
+# Tao api Gateway
 
 Để tạo **API Gateway** người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**

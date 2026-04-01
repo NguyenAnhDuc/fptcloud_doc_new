@@ -6,7 +6,7 @@ sidebar_label: "Tạo một instance schedule mới"
 sidebar_position: 4
 ---
 
-# Create New Instance
+# Tạo một instance schedule mới
 
 Để tạo mới một**Instance Schedule** bạn thao tác như sau
 **Bước 1** : Ở menu chọn **Compute Engine > Instance Schedule**, chọn **Create schedule**

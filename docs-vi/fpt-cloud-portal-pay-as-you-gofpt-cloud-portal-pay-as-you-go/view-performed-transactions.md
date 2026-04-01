@@ -7,7 +7,7 @@ sidebar_position: 15
 pagination_next: null
 ---
 
-# View Performed Transactions
+# Xem transaction đã thực hiện
 
 Khách hàng có thể xem transaction đã thực hiện trên hệ thống gồm:
   * Nạp tiền: qua VNPAY, gifcode

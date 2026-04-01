@@ -7,7 +7,7 @@ sidebar_position: 24
 pagination_next: null
 ---
 
-# Finetune Llm Models
+# Chuẩn bị môi trường
 
 Bài hướng dẫn này trình bày cách finetune một LLM model trên kubernetes sử dụng Unsloth và GPU 
 Mục tiêu là cung cấp nền tảng giúp bạn **hiểu và thực hành việc triển khai finetune một mô hình LLM** trong một **môi trường Kubernetes được quản lý**. 

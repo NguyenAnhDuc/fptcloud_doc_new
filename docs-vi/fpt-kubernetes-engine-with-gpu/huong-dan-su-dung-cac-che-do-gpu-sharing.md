@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn sử dụng các chế độ GPU sharing"
 sidebar_position: 8
 ---
 
-# Huong Dan Su Dung Cac Che Do Gpu Sharing
+# Hướng dẫn sử dụng các chế độ GPU sharing
 
 Các chế độ GPU sharing cho phép GPU vật lý được chia sẻ bởi nhiều container nhằm mục đích tối ưu hóa mức độ sử dụng GPU. Sau đây là các chiến lược GPU sharing được chúng tôi hỗ trợ:  
 |   | Multi-instance GPU  | GPU time-sharing  | NVIDIA MPS  |  

@@ -6,7 +6,7 @@ sidebar_label: "Áp dụng policy"
 sidebar_position: 5
 ---
 
-# Apply Policy
+# Áp dụng policy
 
 Kịch bản:
 _Chặn người dùng khởi tạo rule SSH với source IP bằng All IPv4 (Any)_

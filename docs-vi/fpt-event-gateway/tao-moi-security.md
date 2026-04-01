@@ -6,7 +6,7 @@ sidebar_label: "Tao moi Security"
 sidebar_position: 8
 ---
 
-# Tao Moi Security
+# Tao moi Security
 
 Để tạo mới Security, người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

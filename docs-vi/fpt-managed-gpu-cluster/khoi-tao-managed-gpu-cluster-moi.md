@@ -6,7 +6,7 @@ sidebar_label: "Lưu ý :"
 sidebar_position: 4
 ---
 
-# Khoi Tao Managed Gpu Cluster Moi
+# Lưu ý :
 
 **Lưu ý** : 
 Một số điều kiện bắt buộc để thực hiện thao tác này: 

@@ -6,7 +6,7 @@ sidebar_label: "Giới thiệu chi tiết"
 sidebar_position: 2
 ---
 
-# Overview Fcd
+# Giới thiệu chi tiết
 
 ## Lợi thế so với PC Truyền thống
   * Bảo mật dữ liệu: Lưu trữ mã hóa, quản lý tập trung và giới hạn truy cập

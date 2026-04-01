@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo cảnh báo cho VPN site-to-site"
 sidebar_position: 7
 ---
 
-# Khoi Tao Canh Bao Vpn
+# Khởi tạo cảnh báo cho VPN site-to-site
 
 #### Bước 1: Ở menu chọn Security > Cloud Guard, mở tab Resource Alerts và chọn Create Alert.
 Để thực hiện tạo cảnh báo cho dịch vụ VPN đang sử dụng, chọn **Type** là **VPN site-to-site** [![file](/img/migrated/image-1759485440087-d519bebe.png)](/img/migrated/image-1759485440087-d519bebe.png) Chọn **Metric Type** , **Apply to** , **Severity** , cấu hình điều kiện cảnh báo tại **Configure Condition** và chọn người nhận cảnh báo tại **Notify to**

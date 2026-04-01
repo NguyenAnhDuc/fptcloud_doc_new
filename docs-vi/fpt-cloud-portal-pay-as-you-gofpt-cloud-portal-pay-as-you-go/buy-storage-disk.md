@@ -6,7 +6,7 @@ sidebar_label: "Mua storage disk (ổ đĩa rời)"
 sidebar_position: 12
 ---
 
-# Buy Storage Disk
+# Mua storage disk (ổ đĩa rời)
 
 Khách hàng đã nạp tiền trên hệ thống có thể mua ổ đĩa rời.
   * B1. Vào trang Compute Engine - Storage Disks [![file](/img/migrated/image-1694073928674-97d41009.png)](/img/migrated/image-1694073928674-97d41009.png)

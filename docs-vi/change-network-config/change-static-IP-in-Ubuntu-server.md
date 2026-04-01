@@ -6,7 +6,7 @@ sidebar_label: "Change Static ip in Ubuntu Server"
 sidebar_position: 3
 ---
 
-# Change Static Ip In Ubuntu Server
+# Change Static ip in Ubuntu Server
 
 **Bước 1:** Kiểm tra tình trạng hiện tại 
   * Sau khi edit NIC, IP NIC là 132.0.0.190

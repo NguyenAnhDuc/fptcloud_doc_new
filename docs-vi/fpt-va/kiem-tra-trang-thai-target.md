@@ -6,7 +6,7 @@ sidebar_label: "2 Kiểm tra trạng thái scan của Target"
 sidebar_position: 5
 ---
 
-# Kiem Tra Trang Thai Target
+# 2 Kiểm tra trạng thái scan của Target
 
 Khi một Target được lên lịch scan thành công, hệ thống sẽ liên tục đồng bộ thông tin lên FPT Portal, bạn có thể kiểm tra trạng thái scan của các **Target** theo hướng dẫn sau:
 Trên bảng quản trị **Vulnerability Assessment** **Management** , tìm đến **Target** cần theo dõi, trạng thái scan lần gần nhất sẽ nằm ở trường **Scanning status** và **Last scanned**.

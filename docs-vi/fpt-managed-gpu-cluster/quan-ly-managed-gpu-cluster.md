@@ -6,7 +6,7 @@ sidebar_label: "Quan Ly Managed Gpu Cluster"
 sidebar_position: 3
 ---
 
-# Managed GPU Cluster (Kubernetes)
+# Quan Ly Managed Gpu Cluster
 
 Tất cả tài liệu
 FPT Integration 

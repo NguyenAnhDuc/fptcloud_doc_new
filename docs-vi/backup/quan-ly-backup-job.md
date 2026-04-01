@@ -6,7 +6,7 @@ sidebar_label: "Quản lý Backup job"
 sidebar_position: 3
 ---
 
-# Quan Ly Backup Job
+# Quản lý Backup job
 
 FPT Backup sử dụng khái niệm **Backup Job** để quản lý, theo dõi và điều phối các tác vụ sao lưu đối với tài nguyên cần bảo vệ (ví dụ: VM, volume).
 Khi bạn khởi tạo một Backup Job, bạn sẽ cấu hình:

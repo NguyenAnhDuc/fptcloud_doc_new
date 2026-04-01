@@ -7,7 +7,7 @@ sidebar_position: 12
 pagination_next: null
 ---
 
-# Xoa Group
+# Xóa Group
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Trên dòng tương ứng với group cần xóa, click vào biểu tượng **Action menu**.
 [![open group action menu](/img/migrated/Screenshot-2024-10-02-023008-8d0f1521.png)](/img/migrated/Screenshot-2024-10-02-023008-8d0f1521.png)

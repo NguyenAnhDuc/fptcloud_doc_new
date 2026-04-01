@@ -6,7 +6,7 @@ sidebar_label: "Gắn máy ảo vào Instance Group"
 sidebar_position: 5
 ---
 
-# Add Instance Instance Group
+# Gắn máy ảo vào Instance Group
 
 Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo theo chính sách mong muốn.
 Lưu ý là mỗi instance group chỉ có thể gắn với tối đa 10 instances.

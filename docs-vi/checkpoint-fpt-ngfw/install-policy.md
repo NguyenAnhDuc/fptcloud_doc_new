@@ -6,7 +6,7 @@ sidebar_label: "Lưu ý:"
 sidebar_position: 10
 ---
 
-# Install Policy
+# Lưu ý:
 
 **Lưu ý:** Bất kỳ thay đổi nào trên **SmartConsole** cần phải **Install Policy** mới được lưu và áp dụng.
 **Bước 1:** Chọn **Install policy** (**Ctrl + Shift + Enter**) > chọn **Publish & Install** > chọn **Install.**

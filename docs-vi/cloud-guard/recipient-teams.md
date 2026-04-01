@@ -6,7 +6,7 @@ sidebar_label: "Tạo mới người nhận qua MSTeams"
 sidebar_position: 16
 ---
 
-# Recipient Teams
+# Tạo mới người nhận qua MSTeams
 
 Tính năng thêm người nhận cảnh báo qua Microsoft Teams cho phép người dùng cấu hình channel/nhóm chat Teams để nhận thông báo từ hệ thống giám sát bảo mật FPT Cloud Guard. Việc tích hợp này giúp đội ngũ vận hành nhận cảnh báo kịp thời và phản ứng nhanh trước các sự kiện bảo mật.
 **Hướng dẫn cấu hình:** **Bước 1:** Lấy Webhook URL từ Microsoft Teams

@@ -7,7 +7,7 @@ sidebar_position: 2
 pagination_next: null
 ---
 
-# Global Search Phase 1
+# Tìm kiếm toàn cục
 
 Tính năng Global Search trên FPT Cloud cho phép người dùng tìm kiếm nhanh các tài nguyên (resources) trong hệ thống trên phạm vi của 1 Tenant, bao gồm các loại tài nguyên như **Instances, IP Addresses, Subnets, Security Groups, Database**... Tính năng này giúp tiết kiệm thời gian và tăng hiệu quả quản lý tài nguyên trên nền tảng FPT Cloud.
 **Bước 1.** Nhập từ khoá vào ô tìm kiếm ở phía trên cùng của giao diện FPT Cloud. 

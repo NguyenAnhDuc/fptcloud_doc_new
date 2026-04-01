@@ -6,7 +6,7 @@ sidebar_label: "Destination Server"
 sidebar_position: 14
 ---
 
-# Detinations Sever
+# Destination Server
 
 Chức năng thực hiện thiết lập web service từ các ip host nằm trong cloud [![file](/img/migrated/image-1714121626519-4364137e.png)](/img/migrated/image-1714121626519-4364137e.png)
   * Thêm/sửa/xóa Destination server [![file](/img/migrated/image-1714719775318-5890dbc9.png)](/img/migrated/image-1714719775318-5890dbc9.png)

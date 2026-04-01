@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo một Threat Alert mới"
 sidebar_position: 9
 ---
 
-# Khoi Tao Mot Alert Moi Threat Alert
+# Khởi tạo một Threat Alert mới
 
 **Bước 1** : Ở menu chọn **Security** > **Cloud Guard** , mở tab **Threat** **Alerts** và chọn **Create Alert**.
 [![file](/img/migrated/image-1725532528612-3fb1607b.png)](/img/migrated/image-1725532528612-3fb1607b.png)

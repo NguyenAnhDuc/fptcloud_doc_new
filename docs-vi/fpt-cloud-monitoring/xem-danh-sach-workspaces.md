@@ -6,7 +6,7 @@ sidebar_label: "2. Xem danh sách Workspaces"
 sidebar_position: 4
 ---
 
-# Xem Danh Sach Workspaces
+# 2. Xem danh sách Workspaces
 
 **Bước 1** : Đăng nhập vào FPT portal cloud [](https://console.fptcloud.com/)
 **Bước 2** : Trên menu của FPT Cloud Console Portal, click Monitoring. Danh sách workspace hiển thị như hình bên dưới. 

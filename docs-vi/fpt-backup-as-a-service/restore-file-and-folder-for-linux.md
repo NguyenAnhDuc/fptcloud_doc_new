@@ -6,7 +6,7 @@ sidebar_label: "Restore File and Folder for Linux"
 sidebar_position: 5
 ---
 
-# Restore File And Folder For Linux
+# Restore File and Folder for Linux
 
 **Bước 1:** Trên server linux gõ lệnh veeam để khởi mở giao diện quản trị backup.
 [![file](/img/migrated/image-1695293630461-653a169c.png)](/img/migrated/image-1695293630461-653a169c.png)

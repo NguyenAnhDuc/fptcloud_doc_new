@@ -6,7 +6,7 @@ sidebar_label: "Restore Window vm From Cloud Repository"
 sidebar_position: 7
 ---
 
-# Restore Window Vm From Cloud Repository
+# Restore Window vm From Cloud Repository
 
 **Bước 1:** Attach File ISO Veeam recovery media sau đó khởi đội VM từ File ISO (lưu ý VM cần có cùng số lượng disk và dung lượng disk). Giao diện console sau khi VM boot thành công.
 Chọn Bare Metal Recovery

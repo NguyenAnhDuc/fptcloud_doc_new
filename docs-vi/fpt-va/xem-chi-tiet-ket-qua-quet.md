@@ -6,7 +6,7 @@ sidebar_label: "2. Xem chi tiết kết quả quét"
 sidebar_position: 14
 ---
 
-# Xem Chi Tiet Ket Qua Quet
+# 2. Xem chi tiết kết quả quét
 
 Để xem chi tiết kết quả quét gần nhất, truy cập target
 Đối với mục tiêu quét là web application, nhấn vào tên target để xem kết quả quét tại 2 tab

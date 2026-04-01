@@ -6,7 +6,7 @@ sidebar_label: "Phân quyền xem billing"
 sidebar_position: 6
 ---
 
-# Billing Permission
+# Phân quyền xem billing
 
 Để xem được billing, người dùng cần có role Tenant owner (Super Admin) hoặc role có permission billing.
 Với những user không có role Tenant owner (Super Admin) cần xem billing, user Tenant owner (Super Admin) có thể phân quyền theo hướng dẫn dưới đây:

@@ -6,7 +6,7 @@ sidebar_label: "Xem chi tiết một instance schedule"
 sidebar_position: 5
 ---
 
-# View Detail Instance
+# Xem chi tiết một instance schedule
 
 **Bước 1** : Truy cập vào trang **Instance Schedule Detail** bằng cách chọn tên instance schedule trên bảng quản trị **Instance Schedule Management**
 [![file](/img/migrated/image-1695609011987-33ef2b1d.png)](/img/migrated/image-1695609011987-33ef2b1d.png)

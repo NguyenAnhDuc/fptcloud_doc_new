@@ -6,7 +6,7 @@ sidebar_label: "Xóa một instance schedule"
 sidebar_position: 6
 ---
 
-# Delete Instance Schedule
+# Xóa một instance schedule
 
 **Lưu ý** : Thao tác này sẽ không thực hiện được nếu lịch đã và đang chạy dở chưa xong. Việc xóa instance schedule này sẽ không thể khôi phục lại được. 
 **Bước 1** : Trên bảng quản trị **Instance Schedule Management,** trong phần **Action** , chọn **Delete**

@@ -6,7 +6,7 @@ sidebar_label: "6 Hướng dẫn lấy Header trang web khi tạo mục tiêu qu
 sidebar_position: 9
 ---
 
-# Lay Header
+# 6 Hướng dẫn lấy Header trang web khi tạo mục tiêu quét
 
 **Bước 1:** Mở trình duyệt, truy cập vào mục tiêu cần quét
 **Bước 2:** Click chuột phải > Inspect

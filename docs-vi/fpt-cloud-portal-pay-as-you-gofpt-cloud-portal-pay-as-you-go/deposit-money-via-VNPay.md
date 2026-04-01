@@ -6,7 +6,7 @@ sidebar_label: "Nạp tiền thông qua VNPAY"
 sidebar_position: 8
 ---
 
-# Deposit Money Via Vnpay
+# Nạp tiền thông qua VNPAY
 
 User có thể nạp tiền thông qua cổng thanh toán VNPAY
   * B1. Vào trang Billing, chọn menu Topup. [![file](/img/migrated/image-1694073789071-dcc595d7.png)](/img/migrated/image-1694073789071-dcc595d7.png)

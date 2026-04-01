@@ -6,7 +6,7 @@ sidebar_label: "Integration Management - Quản lý tích hợp"
 sidebar_position: 17
 ---
 
-# Guide Integration
+# Integration Management - Quản lý tích hợp
 
 Chỉ **Org Admin** hoặc **Team Manager** có quyền chỉnh sửa
 **Bước 1** : Đến tab DevSec trong menu Security Platform, chọn **Integration** để xem được danh sách **integration**. Tiến hành chọn Org hoặc Team của bạn:

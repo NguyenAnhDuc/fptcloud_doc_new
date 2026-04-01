@@ -6,7 +6,7 @@ sidebar_label: "Truy cập qua Web browser"
 sidebar_position: 6
 ---
 
-# Sso Qua Web Browser
+# Truy cập qua Web browser
 
 Dành cho người dùng muốn truy cập máy ảo nhanh, không cần cài đặt FCDClient.
 **1.Truy cập vào Homepage dịch vụ với URL phù hợp**

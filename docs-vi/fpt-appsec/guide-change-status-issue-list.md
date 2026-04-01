@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn thay đổi trạng thái issue tại màn Issue 
 sidebar_position: 27
 ---
 
-# Guide Change Status Issue List
+# Hướng dẫn thay đổi trạng thái issue tại màn Issue list
 
 Bước 1. Tại màn hình asset list, chọn 1 asset bất kỳ và vào tab Issue. Trạng thái của issue sẽ được hiển thị tại từng issue card: 
 [![anhfsec](/img/migrated/i1-c8b75478.png)](/img/migrated/i1-c8b75478.png)

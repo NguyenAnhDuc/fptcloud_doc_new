@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn các vấn đề liên quan đến tối ưu hóa
 sidebar_position: 5
 ---
 
-# Cloud Advisor Cost Optimization
+# Hướng dẫn các vấn đề liên quan đến tối ưu hóa chi phí trong Cloud Advisor.
 
 Show những vấn đề liên quan đến Cost Optimization
 

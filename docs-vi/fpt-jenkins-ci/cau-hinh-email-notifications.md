@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình Email Notifications"
 sidebar_position: 15
 ---
 
-# Cau Hinh Email Notifications
+# Cấu hình Email Notifications
 
 FPT Cloud hỗ trợ người dùng cấu hình email notifications tới hệ thống Jenkins thông qua giao diện Portal. Để thực hiện cấu hình, người dùng thực hiện như sau:
   * **Chỉnh sửa cấu hình email**

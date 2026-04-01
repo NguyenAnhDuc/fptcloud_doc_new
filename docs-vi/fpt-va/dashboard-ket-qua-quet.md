@@ -6,7 +6,7 @@ sidebar_label: "1. Truy cập Dashboard kết quả quét"
 sidebar_position: 13
 ---
 
-# Dashboard Ket Qua Quet
+# 1. Truy cập Dashboard kết quả quét
 
 **Để truy cập dashboard báo cáo của Target, bạn thao tác như sau:**
 **Bước 1** : Ở menu chọn **Security** > **Cloud VA**. Chọn Target, hệ thống sẽ hiển thị dashboard thống kê của Target qua các lần scan.

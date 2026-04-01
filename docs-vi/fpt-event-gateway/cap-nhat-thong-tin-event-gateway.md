@@ -6,7 +6,7 @@ sidebar_label: "Cap Nhat Thong tin Event Gateway"
 sidebar_position: 5
 ---
 
-# Cap Nhat Thong Tin Event Gateway
+# Cap Nhat Thong tin Event Gateway
 
 Để cập nhật thông tin **Event Gateway** người dùng thực hiện các bước sau: 
 **Bước 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**

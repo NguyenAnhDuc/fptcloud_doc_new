@@ -6,7 +6,7 @@ sidebar_label: "Truy cập Gaia Portal"
 sidebar_position: 3
 ---
 
-# Truy Cap Gaia Portal
+# Truy cập Gaia Portal
 
 Truy cập vào Gaia Portal trên browser qua https://
 [![Userguide Checkpoint FPT NGFW 2022 1](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-1-102-fd44a0b6.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-1-102-fd44a0b6.png)

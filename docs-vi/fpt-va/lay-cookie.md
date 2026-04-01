@@ -6,7 +6,7 @@ sidebar_label: "7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu qu
 sidebar_position: 10
 ---
 
-# Lay Cookie
+# 7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu quét
 
 **Bước 1:** Mở trình duyệt, truy cập vào mục tiêu cần quét
 **Bước 2:** Click chuột phải > Inspect

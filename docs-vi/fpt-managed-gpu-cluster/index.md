@@ -6,7 +6,7 @@ sidebar_label: "Fpt Managed Gpu Cluster"
 sidebar_position: 1
 ---
 
-# Managed GPU Cluster (Kubernetes)
+# Fpt Managed Gpu Cluster
 
 Tất cả tài liệu
 FPT Integration 

@@ -7,7 +7,7 @@ sidebar_position: 4
 pagination_next: null
 ---
 
-# Use Sso
+# Sử dụng tính năng SSO
 
 Sau khi cấu hình SSO, người dùng có thể đăng nhập vào hệ thống theo 2 cách:
 #### **Cách 1: Vào bằng đường dẫn**

@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Policy"
 sidebar_position: 14
 ---
 
-# Khoi Tao Policy
+# Khởi tạo Policy
 
 ##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Policy**. Chọn **Create policy**.
 [![create policy](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)

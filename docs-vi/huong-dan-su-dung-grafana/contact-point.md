@@ -6,7 +6,7 @@ sidebar_label: "1. Cách thiết lập Telegram bot"
 sidebar_position: 19
 ---
 
-# Contact Point
+# 1. Cách thiết lập Telegram bot
 
 Có nhiều contact point khác nhau như Slack, Discord, Webhook, Email, Teams, Telegram ... và mỗi contact point sẽ có cách cấu hình khác nhau.
 
@@ -21,7 +21,7 @@ Các cách cấu hình cho các contact point khác, bạn tham khảo hướng 
 
 Để hoàn tất việc tích hợp, bạn cần sử dụng phiên bản Telegram trên trình duyệt (web).
 
-## 1. Cách thiết lập Telegram bot
+## Cách thiết lập Telegram bot
 
 Thực hiện các bước sau để thiết lập bot:
 
@@ -31,7 +31,7 @@ Thực hiện các bước sau để thiết lập bot:
 - Chọn tên cho bot (tên phải kết thúc bằng bot hoặc _bot, ví dụ: my_bot).
 - Sao chép API token.
 
-## 2. Cách lấy Chat ID
+## Cách lấy Chat ID
 
 Thêm bot vào một group chat theo các bước dưới đây. Sau khi bot được thêm vào group, bạn có thể định tuyến thông báo alert đến group đó.
 
@@ -43,7 +43,7 @@ URL sẽ có dạng: https://web.telegram.org/a/#-4266674385
 
 Chat ID là dãy số nằm sau ký tự #, ví dụ: -4266674385.
 
-## 3. Thực hiện cấu hình
+## Thực hiện cấu hình
 
 Để tạo tích hợp Telegram trong Grafana Alerting, thực hiện các bước sau:
 

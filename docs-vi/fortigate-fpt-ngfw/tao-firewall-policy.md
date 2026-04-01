@@ -6,7 +6,7 @@ sidebar_label: "Tạo Firewall Policy"
 sidebar_position: 5
 ---
 
-# Tao Firewall Policy
+# Tạo Firewall Policy
 
 Tạo rule firewall cho phép một máy tính trong VLAN 10.2.0.0/24 (Port 3) kết nối ra internet.  
 **Bước 1:** Cấu hình **Firewall Address** (định nghĩa các IP Address sử dụng):  

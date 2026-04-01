@@ -6,11 +6,11 @@ sidebar_label: "Chỉ Org Admin và Team Manager có quyền chỉnh sửa tích
 sidebar_position: 20
 ---
 
-# Guide Gitlabserver
+# Chỉ Org Admin và Team Manager có quyền chỉnh sửa tích hợp GitLab Server
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp GitLab Server
 _Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
-## 1. Configure GitLab Server
+## Configure GitLab Server
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào GitLab Server để đến màn tích hợp:
 [![anhfsec](/img/migrated/labs1-34ab9227.png)](/img/migrated/labs1-34ab9227.png)
 **Bước 2** : Nhập URL của phiên bản GitLab Enterprise. Nút **Create a personal access token** sẽ được enable sau khi nhập URL.
@@ -28,11 +28,11 @@ Lúc này hệ thống sẽ kiểm tra các miền bắt buộc và valid **Pers
 Nếu thành công, màn hình sẽ hiển thị **Test connect successfully**
 **Bước 7** : Nhấn vào **Integrate**
 [![anhfsec](/img/migrated/labs6-cd567134.png)](/img/migrated/labs6-cd567134.png)
-## 2. Xem detail
+## Xem detail
 Tương tự hướng dẫn xem chi tiết [tích hợp GitHub](./guide-github.md)
-## 3. Reconfigure GitLab Cloud
+## Reconfigure GitLab Cloud
 Tương tự hướng dẫn reconfigure [tích hợp GitHub](./guide-github.md)
-## 4. Vô hiệu hoá tích hợp GitLab Cloud
+## Vô hiệu hoá tích hợp GitLab Cloud
 Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
-## 5. Access Key cho CI/CD pipeline
+## Access Key cho CI/CD pipeline
 Tương tự [tích hợp GitHub](./guide-github.md)

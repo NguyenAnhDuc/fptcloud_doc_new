@@ -7,7 +7,7 @@ sidebar_position: 5
 pagination_next: null
 ---
 
-# Xoa Profile
+# Xóa Profile
 
 ##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Profile**. Trên dòng tương ứng với profile cần xóa, chọn biểu tượng **Delete**.
 [![delete profile](/img/migrated/Screenshot-2024-10-01-171413-fec288a5.png)](/img/migrated/Screenshot-2024-10-01-171413-fec288a5.png)
