@@ -7,7 +7,7 @@ sidebar_position: 22
 pagination_next: null
 ---
 
-# Thao Tac Voi Db Proxy
+# Thao tác với DB Proxy
 
 **Bước 1:** Xem danh sách DB Proxy
   * Status = **Running** : DB Proxy đã tạo thành công

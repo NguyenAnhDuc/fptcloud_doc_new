@@ -1,12 +1,12 @@
 ---
 id: "db-engine-service"
-title: "Db Engine Service"
+title: "Database Engine service overview"
 description: "The **FPT Database Engine Service Management** functions group plays a critical role in controlling database service ava"
-sidebar_label: "Db Engine Service"
+sidebar_label: "Database Engine service overview"
 sidebar_position: 16
 ---
 
-# Db Engine Service
+# Database Engine service overview
 
 The **FPT Database Engine Service Management** functions group plays a critical role in controlling database service availability in the FPT cloud. It allows administrators to activate or deactivate the FPT Database Engine Service offering within a VPC scope. Operations in this group impact the overall availability of database service and should only be granted to high-privilege roles such as Tenant Admin or Cloud Platform Admin. Proper role assignment ensures security, stability, and compliance for the DBaaS system.
 **Required Permissions:**  

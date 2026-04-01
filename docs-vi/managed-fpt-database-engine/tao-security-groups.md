@@ -6,7 +6,7 @@ sidebar_label: "Tao Security Groups"
 sidebar_position: 3
 ---
 
-# Tao Security Groups
+# Tạo Security Groups
 
 **Bước 1:** Tại thanh **Menu** > chọn **Networking** > Chọn **Security Group**
 [![](/img/migrated/B1cua-6.1-a6dd8ad4.png)](/img/migrated/B1cua-6.1-a6dd8ad4.png)

@@ -8,7 +8,7 @@ sidebar_position: 7
 
 # ロールの管理
 
-## 1. ロールの作成
+## ロールの作成
 
 1. Portal の **IAM** タブ > **Roles** を選択し、**Create Role** をクリックします。
 [![](/img/migrated/Roles_b1-8117f050.jpg)](/img/migrated/Roles_b1-8117f050.jpg)

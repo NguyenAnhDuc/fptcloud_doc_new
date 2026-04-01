@@ -6,7 +6,7 @@ sidebar_label: "1 Tạo Restore Point"
 sidebar_position: 15
 ---
 
-# Quan Ly Restore
+# Quản lý Restore
 
 **1 Tạo Restore Point**
 Để có thể sử dụng được tính năng restore, quý khách cần có • Một Database Engine đã được tạo (provision) thành công • Ít nhất một job backup đã được tạo và chạy qua 1 mốc thời gian schedule

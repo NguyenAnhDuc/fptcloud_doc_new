@@ -6,7 +6,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
 Nếu đây là lần đầu tiên bạn sử dụng **FPT Smart Cloud Database Engine** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:[Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](../managed-fpt-database-engine/index.md)
 Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để khởi tạo **Database Engine** trên hệ thống FPT Cloud.

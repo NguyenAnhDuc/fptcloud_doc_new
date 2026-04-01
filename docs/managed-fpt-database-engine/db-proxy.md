@@ -1,12 +1,12 @@
 ---
 id: "db-proxy"
-title: "Db Proxy"
+title: "DB Proxy overview"
 description: "**Database Proxy** (DB Proxy) is an intermediary layer between applications and database servers. It manages and routes "
-sidebar_label: "Db Proxy"
+sidebar_label: "DB Proxy overview"
 sidebar_position: 35
 ---
 
-# Db Proxy
+# DB Proxy overview
 
 **Database Proxy** (DB Proxy) is an intermediary layer between applications and database servers. It manages and routes client connections, performs load balancing, and directs connections to the appropriate database nodes without requiring changes to application code or database configuration, thereby improving system high availability.
 Currently, FPT Database Engine **supports DB Proxy for** the following database engines: **MySQL, PostgreSQL, and MariaDB**. DB Proxy is **available only for databases deployed in High Availability (HA) mode**.

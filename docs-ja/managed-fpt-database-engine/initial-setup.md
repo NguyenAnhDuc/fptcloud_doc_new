@@ -10,7 +10,7 @@ sidebar_position: 2
 
 **FPT Smart Cloud Database Engine** を初めてご利用になる場合は、以下の手順を確認・完了してから開始してください。
 
-## 1. FPT Cloud アカウントの作成と FPT Portal へのログイン
+## FPT Cloud アカウントの作成と FPT Portal へのログイン
 
 **FPT Smart Cloud Database Engine** サービスの使用を開始するには、**FPT Portal** にログインする必要があります。
 

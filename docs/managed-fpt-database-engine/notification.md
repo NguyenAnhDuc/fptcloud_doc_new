@@ -16,7 +16,7 @@ Currently, the notification system supports the following alert categories:
   * Maintenance notification – notifications when FPT performs maintenance that affects the database cluster.
 
 This guide helps you set up and manage notifications to effectively track important events in FPT Database Engine on the FPT Cloud Portal.
-## 1. Configuring notifications from FPT Database Engine
+## Configuring notifications from FPT Database Engine
 ### Step 1: Access to Notification Setting page
 Sign in to FPT Cloud Portal. From the left navigation menu, select “**Database Platform** ” → choose your DB engine category (Relational, Non‑Relational, etc.). Select the target Cluster ID. Switch to the “**Notification** ” tab on the cluster details page.
 [![](/img/migrated/notification-scaled-fbca99ff.png)](/img/migrated/notification-scaled-fbca99ff.png)
@@ -54,7 +54,7 @@ All configured alerts appear in the **Notification List** on the **Notification*
   * Assign alerts to operational and DBA teams
   * Combine alerts with monitoring dashboards for full observability
 
-## 2. Configure Telegram to receive notifications from FPT Database Engine
+## Configure Telegram to receive notifications from FPT Database Engine
 When setting up notifications from FPT via Telegram, you need to enter the channel ID. The steps below guide you through the process of obtaining this ID.
 ### Step 1: Create a Telegram Channel
 Log in to Telegram. Create a new Private channel. Assign a channel name (for example: FDE Notify) to receive notifications from FPT Database Engine.

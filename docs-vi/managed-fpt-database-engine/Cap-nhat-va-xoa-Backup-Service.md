@@ -6,7 +6,7 @@ sidebar_label: "Trường hợp quý khách muốn cập nhật hoặc xóa Back
 sidebar_position: 14
 ---
 
-# Cap Nhat Va Xoa Backup Service
+# Cập nhật và xóa Backup Service
 
 Trường hợp quý khách muốn cập nhật hoặc xóa Backup service.
 **Lưu ý:** Delete backup service sẽ ngay tập tức ngừng 2 job backup đang có cho tới khi được enable trở lại.

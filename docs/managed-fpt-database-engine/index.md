@@ -1,12 +1,12 @@
 ---
 id: "managed-fpt-database-engine"
-title: "Managed – FPT Database Engine"
-description: "All documents"
-sidebar_label: "Managed – FPT Database..."
+title: "Managed FPT Database Engine"
+description: ""
+sidebar_label: "Managed FPT Database Engine"
 sidebar_position: 1
 ---
 
-# Managed – FPT Database Engine
+# Managed FPT Database Engine
 
 All documents
 FPT Security 

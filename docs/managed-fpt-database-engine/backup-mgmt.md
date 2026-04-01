@@ -1,12 +1,12 @@
 ---
 id: "backup-mgmt"
-title: "Backup Mgmt"
+title: "Backup management"
 description: "This section provides detailed steps for users to perform operations related to the Backup service, including activation"
-sidebar_label: "Backup Mgmt"
+sidebar_label: "Backup management"
 sidebar_position: 27
 ---
 
-# Backup Mgmt
+# Backup management
 
 This section provides detailed steps for users to perform operations related to the Backup service, including activation, adjustment, and deactivation.
 ### 1. Enable Backup Service

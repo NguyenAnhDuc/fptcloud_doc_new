@@ -1,17 +1,17 @@
 ---
 id: "db-connect"
-title: "Db Connect"
+title: "Connect to a database"
 description: "This guide explains how to connect to a database deployed on FPT Database Engine using supported connection methods and "
-sidebar_label: "Db Connect"
+sidebar_label: "Connect to a database"
 sidebar_position: 23
 ---
 
-# Db Connect
+# Connect to a database
 
 This guide explains how to connect to a database deployed on FPT Database Engine using supported connection methods and best practices.
 After provisioning a database on FPT Database Engine, users can connect to it using standard database clients, application drivers, or management tools. Connectivity depends on network configuration, access control, and database credentials.
 Before connecting to a database instance, you must configure appropriate network access and security policies to allow connections from your client. This usually involves creating security group rules and assigning a floating IP (public IP) if you need external access. Once network access is permitted, you can connect to your database using a database client tool.
-## 1. Create a Security Group
+## Create a Security Group
 A Security Group is a collection of firewall rules that control inbound and outbound network traffic to and from a database cluster. Each rule defines the allowed ports, protocols, and IP addresses or CIDR ranges.
 Properly configuring Security Groups helps secure database connectivity, enforce the least privilege access model and reduce the risk of unauthorized access.
 ⚠️
@@ -44,7 +44,7 @@ If needed, you can perform the following actions on the created security group:
   * **Rename security group** : This function allows you to modify the name of the security group. To use it, on the **Security Group Management** page, select **Rename** next to the security group you want to modify. Make the changes and click **Rename** to save.
   * **Delete security group** : This function allows you to remove unused security groups, keeping the management system clean and accurate. On the **Security Group Management** page, select **Delete** next to the group you want to remove. Confirm the action in the warning dialog to complete the deletion. **Warning** : Deleting a Security Group may disrupt network connectivity for database instances or database clusters associated with it. Once deleted, all related security rules are removed immediately, which may prevent applications from accessing the database or cause loss of connectivity between internal services. Ensure that the Security Group is not associated with any resources before proceeding with deletion.
 
-## 2. Assign a Floating IP
+## Assign a Floating IP
 To enable external (public) access to your database cluster or instance, you must create and assign a Floating IP to the database. A Floating IP is a static public IPv4 address that can be associated with your DBaaS resource without changing other network settings. Assigning it requires that your security group / firewall rules permit the appropriate traffic (ports, protocols) to your database.
 **Best Practice** : Assign a Floating IP only when public access is required. If the database serves internal traffic within a VPC, consider using private static IPs to avoid exposing the service externally.
 The steps to assign a Floating IP address are as follows:
@@ -69,7 +69,7 @@ When the Floating IP is no longer required, select **Release IP** for the corres
   * Ensure that the instance Security Group allows inbound traffic on the required ports (for example, SSH port 22, HTTP port 80, or the relevant database ports).
   * If the Floating IP does not function as expected, review the security group inbound rules to ensure the required database ports are open.
 
-## 3. Connect to the database using a client
+## Connect to the database using a client
 After network access is granted (via security group and floating IP), you can connect using your preferred database client (e.g., pgAdmin for PostgreSQL, MySQL Workbench for MySQL).
 ### Step 1: View connection information
 Database connection details are displayed on the **Database Overview** page in the FPT Cloud Portal. To access this page, open the **Database list** page, then select the database cluster ID to view the details page:

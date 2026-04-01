@@ -1613,7 +1613,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Managed - FPT Database Engines',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'managed-fpt-database-engines-new/fde-glossary', label: 'Glossary' },

@@ -1,13 +1,13 @@
 ---
 id: "Version-List"
-title: "Version List"
+title: "Version list"
 description: "FPT Database Engine offers multiple versions for each type of database engine. The detailed list is provided below:"
-sidebar_label: "Version List"
+sidebar_label: "Version list"
 sidebar_position: 5
 pagination_next: null
 ---
 
-# Version List
+# Version list
 
 FPT Database Engine offers multiple versions for each type of database engine. The detailed list is provided below:
 ### PostgreSQL  

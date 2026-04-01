@@ -1,12 +1,12 @@
 ---
 id: "backup-job-mgmt"
-title: "Backup Job Mgmt"
+title: "Backup job management"
 description: "This section provides detailed instructions for performing tasks related to backup job management, including creating Fu"
-sidebar_label: "Backup Job Mgmt"
+sidebar_label: "Backup job management"
 sidebar_position: 28
 ---
 
-# Backup Job Mgmt
+# Backup job management
 
 This section provides detailed instructions for performing tasks related to backup job management, including creating Full Backup jobs, creating Differential Backup jobs, running, updating, and deleting backup jobs.
 ### 1. Create Full Backup Job

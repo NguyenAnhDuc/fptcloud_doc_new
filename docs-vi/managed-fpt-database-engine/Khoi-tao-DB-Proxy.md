@@ -6,7 +6,7 @@ sidebar_label: "Khoi tao db Proxy"
 sidebar_position: 21
 ---
 
-# Khoi Tao Db Proxy
+# Khởi tạo DB Proxy
 
 **Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **DB Proxy**
 [![](/img/migrated/Db-pro-1-7e7b7ca8.png)](/img/migrated/Db-pro-1-7e7b7ca8.png)

@@ -1,12 +1,12 @@
 ---
 id: "Initial-setup"
-title: "Initial Setup"
+title: "Initial setup"
 description: "Before using the FPT Database Engine service on the FPT Console Portal, users need to ensure the following prerequisites"
-sidebar_label: "Initial Setup"
+sidebar_label: "Initial setup"
 sidebar_position: 9
 ---
 
-# Initial Setup
+# Initial setup
 
 Before using the FPT Database Engine service on the FPT Console Portal, users need to ensure the following prerequisites are met:
   * A signed service agreement and pre-provisioned resources: 

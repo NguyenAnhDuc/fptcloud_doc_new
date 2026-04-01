@@ -6,7 +6,7 @@ sidebar_label: "Thao tac voi Database Engine"
 sidebar_position: 10
 ---
 
-# Thao Tac Voi Database Engine
+# Thao tác với Database Engine
 
 **Bước 1:** Xem danh sách database cluster
 · Status = **Running** : Database Engine đã tạo thành công

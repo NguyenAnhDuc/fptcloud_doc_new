@@ -1,12 +1,12 @@
 ---
 id: "active-db-service"
-title: "Active Db Service"
+title: "Activate database service"
 description: "When FPT Database Engine service is not yet enabled, users cannot create or manage databases. Enabling the service initi"
-sidebar_label: "Active Db Service"
+sidebar_label: "Activate database service"
 sidebar_position: 17
 ---
 
-# Active Db Service
+# Activate database service
 
 When FPT Database Engine service is not yet enabled, users cannot create or manage databases. Enabling the service initializes the required backend components, making FPT Database Engine ready for use. This activation is required only once per VPC and can be performed by following the steps below.
 ### Step 1: Access the Database Management page

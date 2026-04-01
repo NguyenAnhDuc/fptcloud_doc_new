@@ -1,12 +1,12 @@
 ---
 id: "subnet"
-title: "Subnet"
+title: "Subnets"
 description: "A subnet is a logically defined range of IP addresses within a Virtual Private Cloud (VPC). In a cloud network, a subnet"
-sidebar_label: "Subnet"
+sidebar_label: "Subnets"
 sidebar_position: 15
 ---
 
-# Subnet
+# Subnets
 
 A subnet is a logically defined range of IP addresses within a Virtual Private Cloud (VPC). In a cloud network, a subnet segments IP address space and controls network traffic within the environment, and serve as the foundation for routing, security, and service provisioning.
 In DBaaS, subnets play a key role in:

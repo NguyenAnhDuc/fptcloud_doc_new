@@ -1,12 +1,12 @@
 ---
 id: "backup-restore"
-title: "Backup Restore"
+title: "Backup and restore"
 description: "The**Backup & Restore** feature on FPT Database Engine helps protect data against risks such as accidental deletion, dat"
-sidebar_label: "Backup Restore"
+sidebar_label: "Backup and restore"
 sidebar_position: 26
 ---
 
-# Backup Restore
+# Backup and restore
 
 The**Backup & Restore** feature on FPT Database Engine helps protect data against risks such as accidental deletion, data corruption, or system failures. The platform supports automatic backups, data restoration from backup files, and Point-in-Time Recovery for selected supported database engines.
 ### Backup

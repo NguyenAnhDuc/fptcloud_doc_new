@@ -8,7 +8,7 @@ sidebar_position: 1
 
 # Managed FPT Database Engine
 
-## 1. FPT Smart Cloud Database Engine の概要
+## FPT Smart Cloud Database Engine の概要
 
 **FPT Smart Cloud Database Engine** は企業のデータベースの展開と管理を支援する製品です。
 
@@ -23,7 +23,7 @@ sidebar_position: 1
 
 各データベースシステムには複数のバージョンが用意されており、同一データベースタイプのバージョン間の移行もサポートしています。
 
-## 2. 用語と定義
+## 用語と定義
 
 | 用語 | 定義 |
 | --- | --- |

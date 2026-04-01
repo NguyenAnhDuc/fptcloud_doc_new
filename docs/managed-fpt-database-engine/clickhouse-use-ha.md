@@ -1,13 +1,13 @@
 ---
 id: "clickhouse-use-ha"
-title: "Clickhouse Use Ha"
+title: "ClickHouse high availability"
 description: "**A:**"
-sidebar_label: "Clickhouse Use Ha"
+sidebar_label: "ClickHouse high availability"
 sidebar_position: 46
 pagination_next: null
 ---
 
-# Clickhouse Use Ha
+# ClickHouse high availability
 
 ### Q1. What happens when I enable High Availability (HA) for a ClickHouse cluster?
 **A:**

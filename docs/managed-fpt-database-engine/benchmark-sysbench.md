@@ -1,12 +1,12 @@
 ---
 id: "benchmark-sysbench"
-title: "Benchmark Sysbench"
+title: "Benchmark with Sysbench"
 description: "This section presents database performance benchmark results performed using the Sysbench tool, aiming to provide a refe"
-sidebar_label: "Benchmark Sysbench"
+sidebar_label: "Benchmark with Sysbench"
 sidebar_position: 44
 ---
 
-# Benchmark Sysbench
+# Benchmark with Sysbench
 
 This section presents database performance benchmark results performed using the Sysbench tool, aiming to provide a reference for the processing capabilities of database engines across different compute configurations (flavors).
 The results are provided for reference purposes only and do not represent guaranteed performance.

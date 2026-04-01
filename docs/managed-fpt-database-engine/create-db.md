@@ -1,12 +1,12 @@
 ---
 id: "create-db"
-title: "Create Db"
+title: "Create a database"
 description: "The **Database Provisioning** function enables rapid deployment of various database engines on the FPT Database Engine p"
-sidebar_label: "Create Db"
+sidebar_label: "Create a database"
 sidebar_position: 21
 ---
 
-# Create Db
+# Create a database
 
 The **Database Provisioning** function enables rapid deployment of various database engines on the FPT Database Engine platform without manual infrastructure setup. Provisioning a database cluster involves entering configuration details for the engine type, network, cluster identity, and optional services like backups and auto-scaling. This guide outlines the multi-step process.
 ### Step 1: Open the create database page
