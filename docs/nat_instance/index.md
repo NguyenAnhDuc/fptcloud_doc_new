@@ -14,7 +14,7 @@ sidebar_position: "1"
 
 NAT Instance
 ##  Introduction 
-Chức năng hỗ trợ the instance in network cô lập (isolated network) can truy cập hệ thống bên ngoài nternet như cài đặt phần mềm or truy cập về On-premise.
+Chức năng hỗ trợ the instance in network cô lập (isolated network) can truy cập system bên ngoài nternet như cài đặt phần mềm or truy cập về On-premise.
 01Overviews 
 02Initial Setup 
 03Quick start (Quick Starts) 

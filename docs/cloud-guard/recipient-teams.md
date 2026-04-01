@@ -7,7 +7,7 @@ sidebar_position: "16"
 
 # Tạo mới người nhận qua MSTeams
 
-Tính năng thêm người nhận alert qua Microsoft Teams for phép user cấu hình channel/nhóm chat Teams to nhận notification from hệ thống monitoring security FPT Cloud Guard. Việc tích hợp this giúp đội ngũ vận hành nhận alert kịp thời and phản ứng nhanh trước the sự kiện security.
+Tính năng thêm người nhận alert qua Microsoft Teams for phép user cấu hình channel/nhóm chat Teams to nhận notification from system monitoring security FPT Cloud Guard. Việc tích hợp this giúp đội ngũ vận hành nhận alert kịp thời and phản ứng nhanh trước the sự kiện security.
 **Hướng dẫn cấu hình:** **Step 1:** Lấy Webhook URL from Microsoft Teams
   * Truy cập Microsoft Teams → chọn Channel/Chat you muốn nhận alert.
   * Tạo workflow Post to a channel/chat when a webhook request is received

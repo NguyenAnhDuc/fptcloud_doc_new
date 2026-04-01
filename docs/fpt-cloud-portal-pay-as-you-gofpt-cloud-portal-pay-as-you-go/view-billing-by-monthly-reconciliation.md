@@ -9,6 +9,6 @@ sidebar_position: "14"
 
 Khách hàng can xem bill the service has been sử dụng in tháng.
   * B1. Vào trang Billing - Bills
-  * B2. Mặc định hệ thống displayed bill of tháng hiện tại, user can xem bills of the tháng trước. 
+  * B2. Mặc định system displayed bill of tháng hiện tại, user can xem bills of the tháng trước. 
     * Có thể xem số tiền has been sử dụng in tháng.
-    * Có thể xem danh sách service has been sử dụng gồm: Máy ảo, IP, Storage [![file](/img/migrated/image-1694074015091-9c5c4d29.png)](/img/migrated/image-1694074015091-9c5c4d29.png)
+    * Có thể xem list service has been sử dụng gồm: Máy ảo, IP, Storage [![file](/img/migrated/image-1694074015091-9c5c4d29.png)](/img/migrated/image-1694074015091-9c5c4d29.png)

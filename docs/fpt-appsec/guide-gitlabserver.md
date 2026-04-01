@@ -14,24 +14,24 @@ _View thêm về phân permission[here](./quan-ly-member.md)_
 [![anhfsec](/img/migrated/labs1-34ab9227.png)](/img/migrated/labs1-34ab9227.png)
 **Step 2** : Enter URL of version GitLab Enterprise. Nút **Create a personal access token** will is enable after nhập URL.
 [![anhfsec](/img/migrated/labs2-017fd4b0.png)](/img/migrated/labs2-017fd4b0.png)
-**Step 3** : Sau when thiết lập permission truy cập ando Private/public repository, nhấn ando **Create a personal access token** , sau that you will is chuyển to GitLab Login to tạo token
+**Step 3** : Sau when setup permission truy cập ando Private/public repository, nhấn ando **Create a personal access token** , sau that you will is chuyển to GitLab Login to tạo token
 [![anhfsec](/img/migrated/labs3-9887d816.png)](/img/migrated/labs3-9887d816.png)
-**Step 4** : Fill in thông tin như **Token name** and **Token Description** and tích ando **read_api**
+**Step 4** : Fill in information như **Token name** and **Token Description** and tích ando **read_api**
 [![anhfsec](/img/migrated/lab3-255803a1.png)](/img/migrated/lab3-255803a1.png)
 [![anhfsec](/img/migrated/lab4-d1e2310b.png)](/img/migrated/lab4-d1e2310b.png)
 **Step 5** : Copy **personal access token**
 [![anhfsec](/img/migrated/labs3-9887d816.png)](/img/migrated/labs3-9887d816.png)
 **Step 6** : Fill in **Personal Access Token** vừa tạo and nhấn **Test Connection**
 [![anhfsec](/img/migrated/labs4-281c798c.png)](/img/migrated/labs4-281c798c.png)
-Lúc this hệ thống will kiểm tra the miền bắt buộc and valid **Personal Access Token** , if a in hai failed, màn hình will displayed notification **Test connection Failed**(invalid PAT)
+Lúc this system will kiểm tra the miền bắt buộc and valid **Personal Access Token** , if a in hai failed, màn hình will displayed notification **Test connection Failed**(invalid PAT)
 Nếu successfully, màn hình will displayed **Test connect successfully**
 **Step 7** : Nhấn ando **Integrate**
 [![anhfsec](/img/migrated/labs6-cd567134.png)](/img/migrated/labs6-cd567134.png)
 ## View detail
-Tương tự hướng dẫn xem chi tiết [tích hợp GitHub](./guide-github.md)
+Tương tự guide xem details [tích hợp GitHub](./guide-github.md)
 ## Reconfigure GitLab Cloud
-Tương tự hướng dẫn reconfigure [tích hợp GitHub](./guide-github.md)
+Tương tự guide reconfigure [tích hợp GitHub](./guide-github.md)
 ## Vô hiệu hoá tích hợp GitLab Cloud
-Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
+Tương tự guide vô hiệu hóa [tích hợp GitHub](./guide-github.md)
 ## Access Key for CI/CD pipeline
 Tương tự [tích hợp GitHub](./guide-github.md)

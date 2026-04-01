@@ -5,7 +5,7 @@ sidebar_label: "Xem transaction đã thực hiện"
 sidebar_position: "15"
 ---
 
-# Xem transaction đã thực hiện
+# 表示 transaction đã thực hiện
 
 Khách hàng có thể xem transaction đã thực hiện trên hệ thống gồm:
   * Nạp tiền: qua VNPAY, gifcode

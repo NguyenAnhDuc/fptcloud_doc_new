@@ -5,7 +5,7 @@ sidebar_label: "Xem thông tin Trace"
 sidebar_position: "12"
 ---
 
-# View thông tin Trace
+# View information Trace
 
 **Step 1:** Trên menu, you chọn **Explore**
 
@@ -23,4 +23,4 @@ _Ảnh minh họa_
 
 [![Alt text](/img/migrated/Screenshot_30-e54fb90f.png)](/img/migrated/Screenshot_30-e54fb90f.png)
 
-Hướng dẫn chi tiết, vui lòng tham khảo tài liệu chính thức of Grafana [TẠI ĐÂY](https://grafana.com/docs/tempo/latest)
+Hướng dẫn details, vui lòng tham khảo document chính thức of Grafana [TẠI ĐÂY](https://grafana.com/docs/tempo/latest)

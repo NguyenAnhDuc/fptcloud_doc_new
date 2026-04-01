@@ -5,7 +5,7 @@ sidebar_label: "管理 cấu hình"
 sidebar_position: "14"
 ---
 
-# Quản lý cấu hình
+# 管理 cấu hình
 
   * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

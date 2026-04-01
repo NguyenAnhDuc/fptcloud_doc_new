@@ -7,45 +7,45 @@ sidebar_position: "15"
 
 # Hướng dẫn tích hợp Database
 
-## Bước 1: Truy cập chức năng
+## Step 1: Truy cập chức năng
 
-- Sau khi active dịch vụ Monitoring và khởi tạo workspace thành công, trên Console portal, bạn vào detail một cụm Database và chọn Monitoring
-- Hệ thống hiển thị danh sách các metrics và logs theo loại database. Các metric hoặc log chưa được tích hợp với FPT Monitoring sẽ có Status = "Disabled".
+- Sau when active service Monitoring and khởi tạo workspace successfully, trên Console portal, you ando detail a cụm Database and select Monitoring
+- Hệ thống displayed list the metrics and logs theo loại database. Các metric or log chưa is tích hợp with FPT Monitoring will có Status = "Disabled".
 
 [![Alt text](/img/migrated/Screenshot_33-828878ed.png)](/img/migrated/Screenshot_33-828878ed.png)
 
-## Bước 2: Tích hợp/huỷ tích hợp
+## Step 2: Tích hợp/huỷ tích hợp
 
 ### Tích hợp (Integrate)
 
-Bật thu thập metrics/logs cho cluster.
+Enable thu thập metrics/logs for cluster.
 
-- Tại màn hình Monitoring, chọn hành động "Integrate" ứng với workspace cần tích hợp
+- Tại màn hình Monitoring, chọn hành động "Integrate" ứng with workspace need to tích hợp
 
-<ảnh đang được update>
+<ảnh is is update>
 
-- Xác nhận thao tác trong hộp thoại cảnh báo để hoàn tất.
+- Confirm thao tác in hộp thoại alert to complete.
 
-<ảnh đang được update>
+<ảnh is is update>
 
-- Sau khi tích hợp thành công, Integrated Status sẽ chuyển sang **"Enabled"**, hệ thống FPT Monitoring bắt đầu thu thập các chỉ số tương ứng.
+- Sau when tích hợp successfully, Integrated Status will chuyển sang **"Enabled"**, system FPT Monitoring bắt đầu thu thập the chỉ số corresponding.
 
-<ảnh đang được update>
+<ảnh is is update>
 
 ### Huỷ tích hợp (Disintegrate)
 
-Tắt thu thập metrics/logs cho database cluster.
+Disable thu thập metrics/logs for database cluster.
 
-- Tại màn hình Monitoring, chọn hành động **"Disintegrate"** ứng với workspace cần huỷ giám sát.
-- Xác nhận thao tác trong hộp thoại cảnh báo để hoàn tất.
-- Sau khi huỷ tích hợp thành công, Integrated Status sẽ chuyển sang **"Disabled"**, hệ thống FPT Monitoring ngừng thu thập các chỉ số tương ứng.
+- Tại màn hình Monitoring, chọn hành động **"Disintegrate"** ứng with workspace need to huỷ monitoring.
+- Confirm thao tác in hộp thoại alert to complete.
+- Sau when huỷ tích hợp successfully, Integrated Status will chuyển sang **"Disabled"**, system FPT Monitoring ngừng thu thập the chỉ số corresponding.
 
-<ảnh đang được update>
+<ảnh is is update>
 
-## Bước 3: Truy cập dashboard Grafana và xem thông tin monitoring
+## Step 3: Truy cập dashboard Grafana and xem information monitoring
 
-- Sau khi tích hợp giám sát thành công (Integrated Status = "Enabled"), click vào Dashboard URL để đi tới trang Grafana
-- Sau đó tích hợp các dashboard template tương ứng, tham khảo hướng dẫn tại mục [**3.1. Tích hợp Dashboard Template**](../huong-dan-su-dung-grafana/index.md)
-- Mở dashboard đã tích hợp và xem thông tin monitor
+- Sau when tích hợp monitoring successfully (Integrated Status = "Enabled"), click ando Dashboard URL to đi tới trang Grafana
+- Sau that tích hợp the dashboard template corresponding, tham khảo guide tại mục [**3.1. Tích hợp Dashboard Template**](../huong-dan-su-dung-grafana/index.md)
+- Mở dashboard has been tích hợp and xem information monitor
 
 [![Alt text](/img/migrated/Screenshot_34-e8f6a87c.png)](/img/migrated/Screenshot_34-e8f6a87c.png)

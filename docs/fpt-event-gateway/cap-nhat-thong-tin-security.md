@@ -7,11 +7,11 @@ sidebar_position: "9"
 
 # Cap Nhat Thong tin Security
 
-Để cập nhật thông tin Security, user thực hiện the bước sau: 
+Để cập nhật information Security, user thực hiện the bước sau: 
 **Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Step 2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
-**Bước** 3: Tại danh sách **Security** > chọn **Security** cần cập nhật thông tin > chọn **Action** > chọn **Edit**
-**Step 4** : Tại popup **Update JWT Auth** , the thông tin is update: 
+**Step 2:** Tại list **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
+**Bước** 3: Tại list **Security** > chọn **Security** need to cập nhật information > chọn **Action** > chọn **Edit**
+**Step 4** : Tại popup **Update JWT Auth** , the information is update: 
   * **Claim key:** List claim key: 
     * Issuer 
     * Issued At 
@@ -27,5 +27,5 @@ sidebar_position: "9"
   * **Public key ( required):** Chuỗi public key ở dịnh dạng PEM 
     * Bắt đầu bằng -----BEGIN PUBLIC KEY----- and kết thúc đúng chuẩn PEM 
 
-**Step 5** : Select **Update** to cập nhật thông tin **JWT Auth**
+**Step 5** : Select **Update** to cập nhật information **JWT Auth**
 [![Hình ảnh](/img/migrated/image1e-b4866c34.png)](/img/migrated/image1e-b4866c34.png)

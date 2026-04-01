@@ -5,7 +5,7 @@ sidebar_label: "2. Xem danh sách Workspaces"
 sidebar_position: "4"
 ---
 
-# 2. View danh sách Workspaces
+# 2. View list Workspaces
 
 **Step 1** : Log in ando FPT portal cloud [](https://console.fptcloud.com/)
 **Step 2** : Trên menu of FPT Cloud Console Portal, click Monitoring. List workspace displayed như hình below. 

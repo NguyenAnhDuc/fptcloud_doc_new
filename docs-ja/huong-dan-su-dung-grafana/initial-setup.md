@@ -5,7 +5,7 @@ sidebar_label: "作成 ban đầu"
 sidebar_position: "2"
 ---
 
-# Khởi tạo ban đầu
+# 作成 ban đầu
 
 Để truy cập và sử dụng **Dashboard Grafana**, người dùng cần:
 

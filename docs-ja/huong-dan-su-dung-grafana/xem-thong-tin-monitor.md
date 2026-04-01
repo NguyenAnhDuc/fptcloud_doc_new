@@ -5,7 +5,7 @@ sidebar_label: "Xem thông tin Monitor"
 sidebar_position: "16"
 ---
 
-# Xem thông tin Monitor
+# 表示 thông tin Monitor
 
 Cách xem thông tin metric/log hay cách user tự query data tương tự như trong Monitor Kubernetes, vui lòng tham khảo hướng dẫn tại các mục:
 

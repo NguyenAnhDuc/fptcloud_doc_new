@@ -9,8 +9,8 @@ sidebar_position: "20"
 
 Cho phép user phân permission is ando grafana dashboard with 1 in the permission: Admin, Editor, Viewer.
 **Step 1** : Log in ando FPT portal cloud <https://console.fptcloud.com>
-**Step 2** : Trên menu of FPT Cloud Portal, click **Monitoring** displayed danh sách workspace
-**Step 3** : Click tên workspace to xem chi tiết, displayed màn hình thông tin chi tiết of workspace that.
+**Step 2** : Trên menu of FPT Cloud Portal, click **Monitoring** displayed list workspace
+**Step 3** : Click tên workspace to xem details, displayed màn hình information details of workspace that.
 **Step 4** : Click chọn tab **“User Management”**.
 **Step 5** : Click nút **Add user**
 [![Alt text](/img/migrated/Picture19-2-f56180f8.png)](/img/migrated/Picture19-2-f56180f8.png)

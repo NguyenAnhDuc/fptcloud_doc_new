@@ -8,12 +8,12 @@ sidebar_position: "23"
 # Shared script for code & secret scans
 
 **Guideline: Tích hợp Scanning API of FSP Core Service ando CI/CD Pipelines**
-Hướng dẫn this will hướng dẫn you theh tích hợp the endpoint quét service lõi FSP ando quy trình CI/CD of mình, for phép tự động quét mã nguồn, quét bí mật and quét security hình ảnh container trên mỗi lần thay đổi.
+Hướng dẫn this will guide you theh tích hợp the endpoint quét service lõi FSP ando quy trình CI/CD of mình, for phép tự động quét mã nguồn, quét bí mật and quét security hình ảnh container trên mỗi lần thay đổi.
 [![CICD flow](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)
 ### 1. Overview
 Tự động hóa the bước quét security in pipeline CI/CD giúp phát hiện lỗ hổng sớm. Hướng dẫn this includes:
   * Requirements chuẩn bị
-  * Cách thiết lập xác thực
+  * Cách setup xác thực
   * Các bước tích hợp pipeline for scan code, scan secret, and scan image
   * Configure mẫu (GitLab CI, Jenkins)
 
@@ -40,8 +40,8 @@ Content-Type: application/json
 | team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
 | access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, lấy access_key tại màn hình Integration detail[here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
-| branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Không  | SHA of commit trên nhánh cần quét  |  
+| branch  | string  | Có  | Tên nhánh need to quét  |  
+| commit  | string  | Không  | SHA of commit trên nhánh need to quét  |  
 **Ví dụ**
 
 ```
@@ -104,8 +104,8 @@ Content-Type: application/json
 | team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
 | access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
-| branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Có  | SHA of commit trên nhánh cần quét  |  
+| branch  | string  | Có  | Tên nhánh need to quét  |  
+| commit  | string  | Có  | SHA of commit trên nhánh need to quét  |  
 **Ví dụ**
 
 ```
@@ -169,8 +169,8 @@ Content-Type: application/json
 | team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
 | access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
-| branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Không  | SHA of commit trên nhánh cần quét  |  
+| branch  | string  | Có  | Tên nhánh need to quét  |  
+| commit  | string  | Không  | SHA of commit trên nhánh need to quét  |  
 **Ví dụ**
 
 ```
@@ -232,8 +232,8 @@ Content-Type: application/json
 | team_code  | string  | Có  | Mã of nhóm FSEC, theh lấy team_code [here](./cai-dat-team.md)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub or GitLab)  |  
 | access_key  | string  | Có  | Khóa truy cập do FSEC cấp to truy cập kho lưu trữ, theh lấy access_key of GitLab server [here](./guide-gitlabserver.md), tương tự with the loại tích hợp khác  |  
-| branch  | string  | Có  | Tên nhánh cần quét  |  
-| commit  | string  | Có  | SHA of commit trên nhánh cần quét  |  
+| branch  | string  | Có  | Tên nhánh need to quét  |  
+| commit  | string  | Có  | SHA of commit trên nhánh need to quét  |  
 **Ví dụ**
 
 ```
@@ -564,8 +564,8 @@ Copy{
 ### 4. Pipeline flow
 #### 4.1. Giai đoạn scan code (sau bước checkout source)
   * **Activate scan** : 
-  *     * Scan toàn bộ source code: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code` with thông tin chi tiết về repository.
-  *     * Scan thay đổi theo commit: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code?scan-mode=commit` with thông tin chi tiết về repository.
+  *     * Scan toàn bộ source code: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code` with information details về repository.
+  *     * Scan thay đổi theo commit: Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/scan-code?scan-mode=commit` with information details về repository.
   * **Lấy kết quả** : Gọi `POST /api/v1/xplat/fsp-service/core-service/integration/get-scan-code-result` and lặp lại to when _scan_result_status = SUCCESS_.
   * **Đánh giá pass/fail** : Dựa trên kết quả thuộc trường _scan_result_ or the ngưỡng chất lượng (quality gate) riêng.
 

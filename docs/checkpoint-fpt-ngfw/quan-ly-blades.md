@@ -16,7 +16,7 @@ sidebar_position: "15"
 [![Userguide Checkpoint FPT NGFW 2022 84](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-84-84d7216b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-84-84d7216b.png)
 List Blade has been is bật:
 [![Userguide Checkpoint FPT NGFW 2022 85](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-85-10-7c332082.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-85-10-7c332082.png)
-**Note:** Có những Blade cần cấu hình tích hợp thêm to sử dụng when bật, ví dụ Mobile Access.
+**Note:** Có những Blade need to cấu hình tích hợp thêm to sử dụng when bật, ví dụ Mobile Access.
 **Step 2:** Trên **Menu** chọn **Security Policies** (**Ctrl + 2**) > chọn **New Tab** > chọn **Manage policies and layers.**
 [![Userguide Checkpoint FPT NGFW 2022 88](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-88-10-5fb52a92.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-88-10-5fb52a92.png)
 **Step 3:** Select **Policy** is sử dụng > chọn **Edit** > ở layer **Access Control** > chọn **Edit Layer.**

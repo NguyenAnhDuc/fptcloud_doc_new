@@ -7,4 +7,4 @@ sidebar_position: "4"
 
 # Tao Work Space
 
-Để truy cập is ando service **Relation management** , you cần is cấp quota service. Hãy liên hệ with chúng tôi to is tạo workspace and active service if có nhu cầu sử dụng.
+Để truy cập is ando service **Relation management** , you need to is cấp quota service. Hãy liên hệ with chúng tôi to is tạo workspace and active service if có nhu cầu sử dụng.

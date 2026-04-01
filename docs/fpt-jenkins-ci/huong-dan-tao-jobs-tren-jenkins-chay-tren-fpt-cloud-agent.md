@@ -7,9 +7,9 @@ sidebar_position: "23"
 
 # Hướng dẫn tạo jobs trên Jenkins chạy trên FPT Cloud Agent
 
-Tuỳ fromng version of hệ thống Jenkins will có the theh cấu hình khác nhau to phù hợp for mỗi version.
+Tuỳ fromng version of system Jenkins will có the theh cấu hình khác nhau to phù hợp for mỗi version.
 Từ version 2.451.0 do FPT Cloud cung cấp, to sử dụng kubenetes agent must tạo folder and cấu hình agent can sử dụng for folder. Đối with việc quản lý the dự án is triển khai CI/CD trên Jenkins, user should tạo folder for fromng dự án and cấu hình the service in folder dự án, hành động this will giúp user can phân permission for user ando fromng project and dễ dàng quản lý the project.
-Để tạo a jobs jenkins cần the thông tin sau:
+Để tạo a jobs jenkins need to the information sau:
   * * **Label of agent:** [![](/img/migrated/Picture103-c115e03c.png)](/img/migrated/Picture103-c115e03c.png) Trong trường hợp user tạo a job bình thường loại freestyle and cấu hình chạy trên agent of FPT Cloud will báo lỗi as follows: [![](/img/migrated/Picture104-4ee62b2a.png)](/img/migrated/Picture104-4ee62b2a.png) Để can tạo job and chạy trên jenkins user can thực hiện the bước as follows:
 
 **Step 1.** Create folder to quản lý the job trên Jenkins

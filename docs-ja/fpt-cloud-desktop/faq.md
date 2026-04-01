@@ -5,7 +5,7 @@ sidebar_label: "よくある質問 (FAQs)"
 sidebar_position: "12"
 ---
 
-# Câu hỏi thường gặp (FAQs)
+# よくある質問 (FAQs)
 
 #### **Q: FCD là gì?**
 A: FCD là viết tắt của FPT Cloud Desktop, dịch vụ ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển.

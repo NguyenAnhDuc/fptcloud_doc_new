@@ -7,7 +7,7 @@ sidebar_position: "6"
 
 # Tích hợp Dashboard Template
 
-Người dùng cần tích hợp the Dashboard Template phù hợp with fromng service to theo dõi thông tin monitoring.
+Người dùng need to tích hợp the Dashboard Template phù hợp with fromng service to theo dõi information monitoring.
 
 ## Các bước thực hiện
 
@@ -19,15 +19,15 @@ Người dùng cần tích hợp the Dashboard Template phù hợp with fromng s
 
 [![Alt text](/img/migrated/Screenshot_2-b3e58395.png)](/img/migrated/Screenshot_2-b3e58395.png)
 
-Màn hình will displayed danh sách toàn bộ the dashboard template.
+Màn hình will displayed list toàn bộ the dashboard template.
 
-*Interface displayed danh sách Template*
+*Interface displayed list Template*
 
 [![Alt text](/img/migrated/Screenshot_3-0152f813.png)](/img/migrated/Screenshot_3-0152f813.png)
 
 **Step 3:** Select **Topic** corresponding (ví dụ: Kubernetes)
 
-System displayed danh sách the Dashboard phù hợp with topic has been chọn.
+System displayed list the Dashboard phù hợp with topic has been chọn.
 
 [![Alt text](/img/migrated/Screenshot_4-9a1e9a31.png)](/img/migrated/Screenshot_4-9a1e9a31.png)
 
@@ -45,10 +45,10 @@ System displayed danh sách the Dashboard phù hợp with topic has been chọn.
 
 Số lượng Dashboard is tích hợp phụ thuộc ando gói service is sử dụng.
 
-Example: Workspace you is sử dụng gói V3_P1 for phép tích hợp tối đa 02 Dashboard. Khi vượt quá giới hạn, hệ thống will displayed notification hết quota.
+Example: Workspace you is sử dụng gói V3_P1 for phép tích hợp tối đa 02 Dashboard. Khi vượt quá giới hạn, system will displayed notification hết quota.
 
 **Step 5:** Sau when tích hợp successfully, refresh lại Grafana → mở menu → chọn **Dashboard**
 
-System displayed danh sách the Dashboard has been is tích hợp. Người dùng can mở and theo dõi the thông tin monitoring corresponding.
+System displayed list the Dashboard has been is tích hợp. Người dùng can mở and theo dõi the information monitoring corresponding.
 
 [![Alt text](/img/migrated/Screenshot_6-624450fb.png)](/img/migrated/Screenshot_6-624450fb.png)

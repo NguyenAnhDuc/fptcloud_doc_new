@@ -5,12 +5,12 @@ sidebar_label: "作成 nhanh Policy Management"
 sidebar_position: "4"
 ---
 
-# Khởi tạo nhanh Policy Management
+# 作成 nhanh Policy Management
 
 Để sử dụng tính năng này, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner
-**Bước 1** : Ở menu chọn **Policy Management** > chọn **Create policy**
+**ステップ1:** Ở menu chọn **Policy Management** > chọn **Create policy**
 [![file](/img/migrated/image-1719821191945-baf3408d.png)](/img/migrated/image-1719821191945-baf3408d.png)
-**Bước 2** : Nhập các thông tin yêu cầu của hệ thống:
+**ステップ2:** Nhập các thông tin yêu cầu của hệ thống:
   * **Policy Name** : Nhập vào tên của policy
   * **Apply to** : Chọn User group được áp dụng policy
   * **Resource type** : Hiện tại hệ thống chỉ hỗ trợ các rule built-in thuộc Security group
@@ -59,5 +59,5 @@ sidebar_position: "4"
 | Assign tags to the new **storage** immediately after creation  | Specific rule  | Instance name include text  | Hệ thống tự động gắn tag cho storage ngay khi tạo nếu storage thỏa mãn điều kiện tên có chưa ký tự đã config.  |  
 | Assign tags to the new **floating IP** immediately after creation  | All Floating IP  | N/A  | Hệ thống tự động gắn tag cho toàn bộ Floating IP ngay khi tạo  |  
 | Assign tags to the new **floating IP** immediately after creation  | Specific rule  | Floating IP include/ in range  | Hệ thống tự động gắn tag cho Floating IP ngay khi tạo nếu instance thỏa mãn điều kiện Floating IP có chứa 1 phần/ nằm trong dãy IP đã config.  |  
-**Bước 3** : Chọn **Create policy**. Hệ thống sẽ tiến hành khởi tạo Policy mới sẽ được hiển thị ở trang **Policy Management**.
+**ステップ3:** **Create policy**. Hệ thống sẽ tiến hành khởi tạo Policy mới sẽ được hiển thị ở trang **Policy Management**.
 [![file](/img/migrated/image-1719821213488-f46245e0.png)](/img/migrated/image-1719821213488-f46245e0.png)

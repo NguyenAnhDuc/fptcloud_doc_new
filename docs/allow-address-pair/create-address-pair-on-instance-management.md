@@ -18,13 +18,13 @@ sidebar_position: "4"
   * Enter IP (or CIDR) to allow
 
 [![file](/img/migrated/image-1708395364577-06c64d2e.png)](/img/migrated/image-1708395364577-06c64d2e.png)
-**Step 5** : Configure allow MAC address pair (optional). Nếu không chọn, mặc định hệ thống will lấy địa chỉ MAC of chỉ Network interface card is is chọn
+**Step 5** : Configure allow MAC address pair (optional). Nếu không chọn, mặc định system will lấy địa chỉ MAC of chỉ Network interface card is is chọn
   * Bấm ando Advanced Setting
   * Enter địa chỉ MAC
 
 [![file](/img/migrated/image-1708395403972-a559d684.png)](/img/migrated/image-1708395403972-a559d684.png)
 **Step 6** : Bấm Create allow address pair
 [![file](/img/migrated/image-1708395440253-4bafad85.png)](/img/migrated/image-1708395440253-4bafad85.png)
-**Step 7** : Check thông tin. Information is cập nhật ở màn hình danh sách Allow address pair and thông tin in Network interface of Instance
+**Step 7** : Check information. Information is cập nhật ở màn hình list Allow address pair and information in Network interface of Instance
 [![file](/img/migrated/image-1708395474257-047d287b.png)](/img/migrated/image-1708395474257-047d287b.png)
 [![file](/img/migrated/image-1708395486779-7e386ff3.png)](/img/migrated/image-1708395486779-7e386ff3.png)

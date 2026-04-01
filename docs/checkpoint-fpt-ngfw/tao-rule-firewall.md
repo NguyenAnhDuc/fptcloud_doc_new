@@ -9,9 +9,9 @@ sidebar_position: "12"
 
 **Step 1:** Trên **Menu** chọn **Security Policies** (**Ctrl + 2**) > chọn **Access Control** > chọn **Policy.**
 [![Userguide Checkpoint FPT NGFW 2022 51](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-51-10-d67afe3a.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-51-10-d67afe3a.png)
-**Step 2:** Select **Add rule above/below** or chuột phải rule hiện tại chọn **New rule Above/Below** to thêm tạo rule mới above/dưới rule hiện tại.
+**Step 2:** Select **Add rule above/below** or chuột must rule hiện tại chọn **New rule Above/Below** to thêm tạo rule mới above/dưới rule hiện tại.
 [![Userguide Checkpoint FPT NGFW 2022 52](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-52-10-dc654ab1.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-52-10-dc654ab1.png)
-**Step 3:** Set up thông tin for rule mới
+**Step 3:** Set up information for rule mới
   * **Name** (Tên rule):[![Userguide Checkpoint FPT NGFW 2022 53](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-53-10-d3bd4303.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-53-10-d3bd4303.png)
   * **Source** (IP nguồn):[![Userguide Checkpoint FPT NGFW 2022 54](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-54-10-7de8a148.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-54-10-7de8a148.png)
   * **Destination** (IP đích):[![Userguide Checkpoint FPT NGFW 2022 55](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-55-10-59fca814.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-55-10-59fca814.png)

@@ -13,9 +13,9 @@ Người dùng can thực hiện filter issue theo status: Open , Ignored and th
 [![anhfsec](/img/migrated/i2-c41aa480.png)](/img/migrated/i2-c41aa480.png)
 Step 2. Để thay đổi status of issue, chọn “Note status” 
 [![anhfsec](/img/migrated/i3-21de070c.png)](/img/migrated/i3-21de070c.png)
-Step 3. Chọn status cần chuyển sang (hiện tại hỗ trợ 2 status: Open & Ignore): 
+Step 3. Chọn status need to chuyển sang (hiện tại hỗ trợ 2 status: Open & Ignore): 
 Đối with luồng chuyển from Ignored sang Open, user can thêm comment (không bắt buộc) rồi ấn “Save”. 
 [![anhfsec](/img/migrated/i4-454465e4.png)](/img/migrated/i4-454465e4.png)
-Đối with luồng chuyển from Open sang Ignored, user cần chọn lí do ignore and can comment rồi ấn “Save” 
+Đối with luồng chuyển from Open sang Ignored, user need to chọn lí do ignore and can comment rồi ấn “Save” 
 [![anhfsec](/img/migrated/i5-1284ea67.png)](/img/migrated/i5-1284ea67.png)
 Note: Trạng thái of issue will is thay đổi ando lần scan tiếp theo

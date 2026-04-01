@@ -7,7 +7,7 @@ sidebar_position: "4"
 
 # View đối soát theo tài nguyên sử dụng (Charges by resource)
 
-Người dùng can chọn loại tài nguyên (resource type) and xem chi tiết số lượng sử dụng - đơn giá - thành tiền with fromng tài nguyên. Dữ liệu Charges by resource will corresponding with dữ liệu tại sheet “Details” in file đối soát when user tải về.
+Người dùng can chọn loại tài nguyên (resource type) and xem details số lượng sử dụng - đơn giá - thành tiền with fromng tài nguyên. Dữ liệu Charges by resource will corresponding with dữ liệu tại sheet “Details” in file đối soát when user tải về.
 [![file](/img/migrated/image-1744088548570-8b7ba389.png)](/img/migrated/image-1744088548570-8b7ba389.png)
 [![file](/img/migrated/image-1744088556698-8e3a4ec2.png)](/img/migrated/image-1744088556698-8e3a4ec2.png)
   * Người dùng can sử dụng thanh tìm kiếm “search by name” to tìm and xem dữ liệu bill of tài nguyên có tên chứa ký tự thỏa mãn. Tổng tiền (total) is thay đổi bằng theh cộng tổng Amount of the tài nguyên thỏa mãn điều kiện tìm kiếm. 

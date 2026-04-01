@@ -7,7 +7,7 @@ sidebar_position: "9"
 
 # Thay đổi Profile cho Group
 
-##  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Trên dòng tương ứng với group cần thay đổi profile, click vào biểu tượng **Action menu**.
+##  **ステップ1:** Truy cập trang **Autoscaling > Autoscale Group**. Trên dòng tương ứng với group cần thay đổi profile, click vào biểu tượng **Action menu**.
 [![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)
 ##  **Bước 2:** Trong menu, chọn **Update profile**.
 [![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)

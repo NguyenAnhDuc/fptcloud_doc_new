@@ -5,7 +5,7 @@ sidebar_label: "よくある質問"
 sidebar_position: "21"
 ---
 
-# Câu hỏi thường gặp
+# よくある質問
 
 ### 1. Sau khi tích hợp dashboard template, nếu quay lại màn Dashboard nhưng chưa thấy hiển thị template đã tích hợp?
 

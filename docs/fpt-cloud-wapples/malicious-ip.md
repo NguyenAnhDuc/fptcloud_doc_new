@@ -20,5 +20,5 @@ Malicious IP
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-wapples%2F "FPT Cloud WAPPLES")
 
 * * *
-Bảng các ip được đánh giá là không an toàn
+Bảng the ip is đánh giá là không an toàn
 [![file](/img/migrated/image-1714116747548-2551c78a.png)](/img/migrated/image-1714116747548-2551c78a.png)

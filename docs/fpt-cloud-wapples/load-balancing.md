@@ -5,7 +5,7 @@ sidebar_label: "Thống kê trạng thái của LB đích tương ứng với t�
 sidebar_position: "6"
 ---
 
-# Thống kê status of LB đích corresponding with fromng proxy is thiết lập
+# Thống kê status of LB đích corresponding with fromng proxy is setup
 
-Thống kê status of LB đích corresponding with fromng proxy is thiết lập
+Thống kê status of LB đích corresponding with fromng proxy is setup
 [![file](/img/migrated/image-1714112388673-6880a328.png)](/img/migrated/image-1714112388673-6880a328.png)

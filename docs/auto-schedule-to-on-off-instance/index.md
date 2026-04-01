@@ -15,9 +15,9 @@ Auto Schedule To On-Off Instance
 
 Auto Schedule To On-Off Instance
 ##  Introduction 
-Để chạy xong hết hoàn toàn hành động tắt/ bật the virtual machine in 1 Lịch thì can cần tới 15 phút sau start time or stop time has been chọn. Theo that, if you cần toàn bộ the virtual machine of you phải is bật/ tắt không trễ hơn a thời điểm cụ thể, hãy đặt lịch sớm hơn 15 phút so with mức cần thiết and mỗi lịch theh nhau ít nhất 15 phút.
-Lịch after tạo ra thì ko thể chỉnh sửa lại is thông tin về thời gian, tần suất, chỉ can thay đổi thông tin virtual machine is gắn/ gỡ ando lịch. Do that, if you muốn thay đổi lịch thì hãy xóa lịch hiện tại and tạo ra a lịch mới. 
+Để chạy xong hết hoàn toàn hành động tắt/ bật the virtual machine in 1 Lịch thì can need to tới 15 phút sau start time or stop time has been chọn. Theo that, if you need to toàn bộ the virtual machine of you must is bật/ tắt không trễ hơn a thời điểm cụ thể, hãy đặt lịch sớm hơn 15 phút so with mức need to thiết and mỗi lịch theh nhau ít nhất 15 phút.
+Lịch after tạo ra thì ko thể chỉnh sửa lại is information về thời gian, tần suất, chỉ can thay đổi information virtual machine is gắn/ gỡ ando lịch. Do that, if you muốn thay đổi lịch thì hãy xóa lịch hiện tại and tạo ra a lịch mới. 
 System chỉ for phép you tạo lịch trước 1 giờ so with start time/ stop time mà you chọn.
-Trong khoảng thời gian 1 giờ duration thì hệ thống chỉ for phép you thao tác 1 action là tắt or bật thôi.
+Trong khoảng thời gian 1 giờ duration thì system chỉ for phép you thao tác 1 action là tắt or bật thôi.
 01Initial Setup 
 02Quick start (Quick Starts)

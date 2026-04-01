@@ -5,7 +5,7 @@ sidebar_label: "Xem lịch sử Backup & Recovery"
 sidebar_position: "6"
 ---
 
-# Xem lịch sử Backup & Recovery
+# 表示 lịch sử Backup & Recovery
 
 Hiện tại **FPT Portal** đang cho phép user xem lại toàn bộ lịch sử thao tác đối với dịch vụ **Backup & Recovery** như tạo/xóa **Backup Job** , restore/clone Restore Point.
 Để xem lại lịch sử **Backup & Recovery**, bạn hãy thao tác như sau:

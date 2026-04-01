@@ -9,7 +9,7 @@ sidebar_position: "4"
 
   * [ ![](/img/migrated/icon-overview-edd6032a.png) Overview ](javascript: "Overview")
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-efcbe2f9.webp) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+  * [ ![](/img/migrated/quick-starts-efcbe2f9.webp) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
   * [ ![](/img/migrated/faqs-7bb7c52f.webp) FAQ (FAQs) ](javascript: "FAQ \(FAQs\)")
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. FPT Cloud Desktop

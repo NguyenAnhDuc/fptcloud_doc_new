@@ -23,7 +23,7 @@ sidebar_position: "11"
 **To time:** Thời điểm trong ngày kết thúc chu kỳ và resize về thông số ban đầu.
 **Start date:** Ngày lịch bắt đầu có hiệu lực.
 **End date:** Ngày lịch hết hiệu lực.
-**Lưu ý:**
+**注意:**
   * Nếu Start Date là ngày hiện tại, From Time phải lớn hơn thời điểm hiện tại.
   * To Time phải lớn hơn From Time ít nhất 30 phút.
 
@@ -52,7 +52,7 @@ Hệ thống sẽ thực hiện kiểm tra lại thông tin và thực hi
 **First Execution** : Thời điểm lịch được thực thi lần đầu.
 **Next Execution** : Thời điểm lịch được thực thi lần tiếp theo.
 **Remaining Executions** : Số lần thực thi còn lại.
-## Xóa Autoscale Schedule
+## 削除 Autoscale Schedule
 ###  **Bước 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần xóa lịch.
 [![open group details](/img/migrated/Screenshot-2024-10-02-042416-72202578.png)](/img/migrated/Screenshot-2024-10-02-042416-72202578.png)
 ###  **Bước 2:** Chuyển đến tab **Schedule**. Trên dòng chứa lịch trình cần xóa, click biểu tượng **Action menu**.

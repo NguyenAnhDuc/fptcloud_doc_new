@@ -11,7 +11,7 @@ Show những vấn đề liên quan to Cost Optimization
 
 ## Low utilization instances
 
-Description: danh sách Instance có mức sử dụng thấp
+Description: list Instance có mức sử dụng thấp
 
 List vi phạm displayed:
 
@@ -29,7 +29,7 @@ List vi phạm displayed:
 
 ## Underutilized Storage Disk
 
-Description: danh sách Storage Disk có mức sử dụng thấp
+Description: list Storage Disk có mức sử dụng thấp
 
 List vi phạm displayed:
 

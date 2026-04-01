@@ -7,7 +7,7 @@ sidebar_position: "7"
 
 # Tích hợp Alert Rule Template
 
-**Step 1:** Tại giao diện Grafana, mở sidebar Menu
+**Step 1:** On the interface Grafana, mở sidebar Menu
 
 [![Alt text](/img/migrated/Picture3-a5fead32.png)](/img/migrated/Picture3-a5fead32.png)
 
@@ -15,7 +15,7 @@ sidebar_position: "7"
 
 [![Alt text](/img/migrated/Screenshot_7-4e0e3943.png)](/img/migrated/Screenshot_7-4e0e3943.png)
 
-**Step 3:** Tại giao diện Fmon – Templates, chọn tab **Alert rule template** and chọn **Topic** for service cần thêm Alert Rule
+**Step 3:** On the interface Fmon – Templates, chọn tab **Alert rule template** and chọn **Topic** for service need to thêm Alert Rule
 
 [![Alt text](/img/migrated/Screenshot_8-ca3c0b94.png)](/img/migrated/Screenshot_8-ca3c0b94.png)
 

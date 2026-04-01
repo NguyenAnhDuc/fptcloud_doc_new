@@ -14,7 +14,7 @@ Lock & Unlock Instance Deletion
   2. Lock & Unlock Instance Deletion
 
 Lock & Unlock Instance Deletion
-##  Giới thiệu 
+## 紹介 
 Bạn có thể khóa một máy ảo lại để ngăn chúng không bị xóa/ chấm dứt một cách vô tình. Điều này giúp tránh việc bạn vô tình xóa một máy chạy sản xuất thay vì máy thử nghiệm. Tính năng này giúp giảm rủi ro liên quan đến lỗi người dùng và bảo vệ dữ liệu của bạn trên các máy ảo.
 01Initial Setup 
 02Hướng dẫn nhanh (Quick Starts)

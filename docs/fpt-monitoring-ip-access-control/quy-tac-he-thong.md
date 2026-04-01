@@ -17,6 +17,6 @@ Các status whitelist of IP/dải IP and mô tả:
 | --- | --- |  
 | Whitelisting  | System is xử lý whitelist IP/dải IP.  |  
 | Whitelisted  | IP/dải IP has been is whitelist successfully, có permission truy cập.  |  
-| Whitelist Failed  | IP/dải IP whitelist failed, chưa có permission truy cập, cần Retry.  |  
+| Whitelist Failed  | IP/dải IP whitelist failed, chưa có permission truy cập, need to Retry.  |  
 | Blacklisting  | System is chặn permission truy cập.  |  
-| Blacklist Failed  | IP/dải IP blacklist failed, vẫn còn permission truy cập hệ thống, cần Retry.  |
+| Blacklist Failed  | IP/dải IP blacklist failed, vẫn còn permission truy cập system, need to Retry.  |

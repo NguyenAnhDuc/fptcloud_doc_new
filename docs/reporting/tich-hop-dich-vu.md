@@ -5,8 +5,8 @@ sidebar_label: "Tích hợp dịch vụ"
 sidebar_position: "3"
 ---
 
-# Tích hợp dịch vụ
+# Tích hợp service
 
-Để có thể sử dụng công cụ quản lý này, trước hết bạn cần liên hệ với đội ngũ support admin FPT Cloud Monitoring để **tích hợp** dịch vụ Reporting cho workspace của bạn.
-Sau đó bạn mới có thể sử dụng trực tiếp dịch vụ này trên trang Dashboard.
-Hãy liên hệ với chúng tôi khi có nhu cầu sử dụng.
+Để can sử dụng công cụ quản lý this, trước hết you need to liên hệ with đội ngũ support admin FPT Cloud Monitoring to **tích hợp** service Reporting for workspace of you.
+Sau that you mới can sử dụng trực tiếp service this trên trang Dashboard.
+Hãy liên hệ with chúng tôi when có nhu cầu sử dụng.

@@ -20,5 +20,5 @@ Error Handling
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-wapples%2F "FPT Cloud WAPPLES")
 
 * * *
-Hiển thị các Pattern đã đăng kí ở định dạng bảng
+Hiển thị the Pattern has been đăng kí ở định dạng bảng
 [![file](/img/migrated/image-1714116735072-9e70dbd6.png)](/img/migrated/image-1714116735072-9e70dbd6.png)

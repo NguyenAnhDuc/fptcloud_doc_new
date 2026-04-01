@@ -12,6 +12,6 @@ sidebar_position: "1"
 
 Bills
 ##  Introduction 
-Tính năng Bills for phép khách hàng xem cost sử dụng theo service or theo resource type. Với kỳ invoice hiện tại, dữ liệu is cập nhật real-time. Ngoài ra, khách hàng cũng can tra cứu lại đối soát of những kỳ invoice trước.
+Tính năng Bills for phép customer xem cost sử dụng theo service or theo resource type. Với kỳ invoice hiện tại, dữ liệu is cập nhật real-time. Ngoài ra, customer cũng can tra cứu lại đối soát of những kỳ invoice trước.
 01Quick start (Quick Starts) 
 02FAQs

@@ -5,10 +5,10 @@ sidebar_label: "Sử dụng thiết lập thời gian thực hiện các securit
 sidebar_position: "17"
 ---
 
-# Sử dụng thiết lập thời gian thực hiện the security group in network filter
+# Sử dụng setup thời gian thực hiện the security group in network filter
 
-Sử dụng thiết lập thời gian thực hiện the security group in network filter
-Các trường cần điền
+Sử dụng setup thời gian thực hiện the security group in network filter
+Các trường need to điền
   * **Schedule name**
   * **Schedule description**
   * **Day of Week** : Lựa chọn thời gian thực hiện. Có thể chọn fromng ngày or chọn nhanh the ngày in tuần or cuối tuần

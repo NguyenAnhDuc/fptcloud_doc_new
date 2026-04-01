@@ -5,12 +5,12 @@ sidebar_label: "Edit policy"
 sidebar_position: "7"
 ---
 
-# Chỉnh sửa policy
+# Edit policy
 
-Để sử dụng feature Edit policy, user cần đăng nhập ando hệ thống with phân permission Tenant owner
-**Step 1** : Ở menu chọn **Policy Management**. Tại policy cần edit, chọn **Actions** > **Edit policy**
+Để sử dụng feature Edit policy, user need to đăng nhập ando system with phân permission Tenant owner
+**Step 1** : Ở menu chọn **Policy Management**. Tại policy need to edit, chọn **Actions** > **Edit policy**
 [![file](/img/migrated/image-1719821730021-76297cd9.png)](/img/migrated/image-1719821730021-76297cd9.png)
-**Step 2** : Chỉnh sửa thông tin policy. Click **Edit policy** to lưu lại thông tin thay đổi.
+**Step 2** : Chỉnh sửa information policy. Click **Edit policy** to lưu lại information thay đổi.
   * **Policy name** : Thay đổi tên of policy
   * **Apply to** : Thay đổi user group khác
 

@@ -10,7 +10,7 @@ sidebar_position: 1
 
 FPT Cloud Server giúp bạn khởi tạo và quản lý máy ảo (Instance) trên nền tảng cloud — với hiệu năng cao, bảo mật và linh hoạt trong việc mở rộng tài nguyên. Dịch vụ phù hợp cho nhiều nhu cầu từ hosting ứng dụng, phát triển phần mềm đến xử lý dữ liệu lớn và machine learning.
 
-## Thiết lập ban đầu
+## 初期設定
 
 - [Thiết lập ban đầu](./Initial-Setup.md)
 
@@ -27,7 +27,7 @@ FPT Cloud Server giúp bạn khởi tạo và quản lý máy ảo (Instance) tr
 - [Khóa và mở khóa xóa máy ảo](./lock-unlock-instance-deletion.md)
 - [Xóa máy ảo](./quick-starts-xoa-may-ao.md)
 
-## Quản lý máy ảo
+## 管理 máy ảo
 
 - [Quản lý máy ảo](./quan-ly-may-ao.md)
 - [Kết nối vào máy ảo Windows](./tutorials-ket-noi-vao-may-ao-windows.md)
@@ -53,7 +53,7 @@ FPT Cloud Server giúp bạn khởi tạo và quản lý máy ảo (Instance) tr
 - [Quản lý Subnets](./Quản%20lý%20Subnets.md)
 - [Quản lý Security Group](./quan-ly-security-group.md)
 
-## Quản lý khác
+## 管理 khác
 
 - [Instance Template](./tutorials-quan-ly-instance-template.md)
 - [NIC (Network Interface Card)](./NIC-overview-1.md)

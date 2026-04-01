@@ -10,7 +10,7 @@ sidebar_position: "3"
 Để tạo **Event Gateway** user thực hiện the bước sau: 
 **Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
 **Step 2:** Click **Create a Event Gateway** > displayed popup **Choose Event Gateway Mode** > chọn **REST Events to Kafka** > **Continue**
-**Step 3:** Trong form tạo **Event Gateway,** nhập thông tin màn **Basic Information** : 
+**Step 3:** Trong form tạo **Event Gateway,** nhập information màn **Basic Information** : 
   * **Name** (required): Tên event gateway 
 
 Chú ý: Tên Event Gateway can chứa the kí tự chữ cái thường a-z or chữ cái in hoa A-Z or the kí tự số 0-9. Đặc biệt không dùng dấu theh can thay dấu theh bằng dấu “-” or “_”. 
@@ -19,8 +19,8 @@ Chú ý: Tên Event Gateway can chứa the kí tự chữ cái thường a-z or 
   * **Type** ( required) : chọn type Public/Private 
 
 [![Hình ảnh](/img/migrated/imagef-d52b4a53.png)](/img/migrated/imagef-d52b4a53.png)
-**Step 4:** Click **Next Step** to chuyển sang màn nhập thông tin **Details**
-Enter thông tin sau: 
+**Step 4:** Click **Next Step** to chuyển sang màn nhập information **Details**
+Enter information sau: 
   * **Launch Configuration**
     * **Subnet** (required): chọn Subnet 
     * **Storage policy** (required): chọn Storage Policy 
@@ -29,7 +29,7 @@ Enter thông tin sau:
 [![Hình ảnh](/img/migrated/image11-c4b59aa2.png)](/img/migrated/image11-c4b59aa2.png)
   * **Kafka Cluster Information:** Có hai lựa chọn: From FPT Database Engine, Manual configuration 
   * **Trường hợp chọn Manual configuration**
-Enter and chọn the thông tin sau: 
+Enter and chọn the information sau: 
     * **Bootstrap server endpoint:** nhập địa chỉ Bootstrap server endpoint 
     * **Security protocol** : chọn a in the giao thức security sau: 
       * **SASL_PLAINTEXT** : là cơ chế xác thực đơn giản thông qua Username and password 
@@ -51,7 +51,7 @@ Enter and chọn the thông tin sau:
 
 [![Hình ảnh](/img/migrated/image12-76852251.png)](/img/migrated/image12-76852251.png)
   * **Trường hợp chọn From FPT Database Engine**
-Enter and chọn the thông tin sau: 
+Enter and chọn the information sau: 
     * **Database Name (required):** chọn Database 
     * **Bootstrap server endpoint:** nhập địa chỉ Bootstrap server endpoint 
     * **Security protocol** : chọn a in the giao thức security sau: 
@@ -86,7 +86,7 @@ Enter and chọn the thông tin sau:
 [![Hình ảnh](/img/migrated/image14-3754b0d7.png)](/img/migrated/image14-3754b0d7.png)
 
 **Step 5:** Click **Next Step** to chuyển sang màn **Configure**
-Enter the thông tin sau: 
+Enter the information sau: 
   * **JWT auth:** Bật/Disable cơ chế xác thực JWT Token - Mặc định Disable 
     * **Name (required):** Tên JWT auth 
       * Bao gồm a-z, A-Z, -, _ and số; bắt đầu bằng chữ cái; tối đa 30 ký tự 
@@ -111,14 +111,14 @@ Click **Add claim** to thêm claim key-value Và **Remove claim** to xoá claim 
     * **Name ( required):** Tên Router 
       * Bao gồm a-z, A-Z, -, _ and số, bắt đầu bằng chữ cái, tối đa 30 ký tự 
     * **Mode (required):** Loại Router 
-      * Lựa chọn from danh sách: 
+      * Lựa chọn from list: 
       * Oneway 
       * Sync 
       * Async 
       * Interface displayed mặc định 3 template router corresponding with 3 mode 
     * **Authentication(required):** Router có/không sử dụng xác thực 
       * Mặc định None 
-      * Lựa chọn from danh sách: 
+      * Lựa chọn from list: 
       * None: không sử dụng xác thực 
       * : sử dụng xác thực with JWT auth (if bật cấu hình JWT auth) 
     * **Path ( required):** Đường dẫn gửi (POST) lấy (FETCH) dữ liệu 
@@ -135,11 +135,11 @@ Click **Add claim** to thêm claim key-value Và **Remove claim** to xoá claim 
     * **Response topic ( required):** Tên topic kafka lấy dữ liệu in mode Sync or Async 
       * Bao gồm a-z, A-Z, 0-9, dấu gạch ngang (-), gạch dưới (_), dấu chấm (.)
       * Bắt đầu bằng chữ cái; Tối đa 249 ký tự 
-Click **Add router** to thêm template giao diện corresponding with mỗi loại Mode of Router 
+Click **Add router** to thêm template interface corresponding with mỗi loại Mode of Router 
 Click **Remove router** to Xoá Router 
 
 [![Hình ảnh](/img/migrated/image16-b9271d2a.png)](/img/migrated/image16-b9271d2a.png)
 **Step 7:** Click **Next Step** to chuyển sang màn **Review and Create**
 [![Hình ảnh](/img/migrated/image17-f42b2736.png)](/img/migrated/image17-f42b2736.png)
-**Step 8** : Check thông tin nhập sau that nhấn **Create** to hoàn thành việc khởi tạo **Event Gateway**
+**Step 8** : Check information nhập sau that nhấn **Create** to hoàn thành việc khởi tạo **Event Gateway**
 **Event Gateway** hoàn thành khởi tạo when **Status** of **Event Gateway** là **Healthy** (~15 phút)

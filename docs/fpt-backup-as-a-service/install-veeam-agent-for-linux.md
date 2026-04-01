@@ -7,16 +7,16 @@ sidebar_position: "3"
 
 # Install Veeam Agent for Linux
 
-**Step 1** : Trên server cần backup, login ando trang portal with account of you:
+**Step 1** : Trên server need to backup, login ando trang portal with account of you:
 Backup as a Service : <https://baas.fptcloud.com>
 [![file](/img/migrated/image-1695290664395-24434403.png)](/img/migrated/image-1695290664395-24434403.png)
-Đây là giao diện quản trị of you after login successfully:
+Đây là interface quản trị of you after login successfully:
 [![file](/img/migrated/image-1695290688881-d34bc29d.png)](/img/migrated/image-1695290688881-d34bc29d.png)
 **Step 2** : Vào mục **Managed Computers** chọn **Download Agent** sau that chọn **Linux**.
 [![file](/img/migrated/image-1695290710281-8dee543b.png)](/img/migrated/image-1695290710281-8dee543b.png)
 Chỉnh thời gian Token hết hạn theo nhu cầu. Mặc định là 12 Tháng.
 [![file](/img/migrated/image-1695290727809-1b6f23f5.png)](/img/migrated/image-1695290727809-1b6f23f5.png)
-**Step 3** : Sau when download successfully file LinuxAgentPackages.sh you cần copy ando in server and tiến hành cài đặt.
+**Step 3** : Sau when download successfully file LinuxAgentPackages.sh you need to copy ando in server and tiến hành cài đặt.
 Chạy lệnh sau:
 
 ```

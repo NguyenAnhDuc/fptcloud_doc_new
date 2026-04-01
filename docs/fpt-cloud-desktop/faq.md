@@ -5,21 +5,21 @@ sidebar_label: "FAQ (FAQs)"
 sidebar_position: "12"
 ---
 
-# Câu hỏi thường gặp (FAQs)
+# FAQ (FAQs)
 
 #### **Q: FCD là gì?**
-A: FCD là viết tắt của FPT Cloud Desktop, dịch vụ ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển.
-#### **Q: Thiết bị kết nối phù hợp để sử dụng FCD?**
-A: Thiết bị kết nối đến máy tính ảo (Hay còn được gọi là Local Device) như:
-  * Máy tính bàn (PC), Máy tính xách tay (Laptop) hoặc Thin Client, MiniPC
-  * Điện thoại thông minh (Smartphone) để xác thực hai (02) lớp
+A: FCD là viết tắt of FPT Cloud Desktop, service ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển.
+#### **Q: Thiết bị kết nối phù hợp to sử dụng FCD?**
+A: Thiết bị kết nối đến máy tính ảo (Hay còn is gọi là Local Device) như:
+  * Máy tính bàn (PC), Máy tính xách tay (Laptop) or Thin Client, MiniPC
+  * Điện thoại thông minh (Smartphone) to xác thực hai (02) lớp
 
-Hai loại thiết bị trên có kết nối Internet/ mạng LAN
-#### **Q: Có thể nâng cấp cấu hình máy tính ảo FCD được không?**
-A: Có thể, tuỳ theo chính sách của từng công ty. Cấu hình có thể nâng cấp bao gồm: Thông số Core CPU, RAM (Memory) và Dung lượng Ổ đĩa (Disk)
-#### **Q: Có thể cài đặt các ứng dụng mới vào FCD được không?**
-A: Nếu bạn được Quản lý trong Tổ chức cấp quyền Quản trị viên của Máy tính ảo (Administrator), bạn có thể thực hiện việc cài đặt các ứng dụng ngoài danh sách mặc định khi được cấp phát. Nếu không quyền Quản trị viên của Máy tính ảo, bạn cần liên hệ cho IT Admin để được hỗ trợ
-#### **Q: Tệp dữ liệu của tôi ở đâu? Chúng được lưu trữ như thế nào và trong bao lâu?**
-A: Dữ liệu của bạn được lưu trữ bảo mật tại hệ thống của FPT Cloud Desktop. Bạn có thể truy cập các tệp này trên thư mục Desktop và Documents trong hệ điều hành bạn đã chọn. Tài khoản người dùng sẽ bị vô hiệu hóa và bị xóa sau theo quy định của Tổ chức khi có yêu cầu phê duyệt Thu hồi máy ảo đã cấp phát cho bạn.
-#### **Q: Một người dùng có thể đăng nhập từ nhiều thiết bị/địa điểm cùng một lúc không?**
-A: Một người dùng có thể đăng nhập từ nhiều thiết bị, nhưng chỉ một thiết bị có thể truy cập máy ảo vào một thời điểm.
+Hai loại thiết bị trên có kết nối Internet/ network LAN
+#### **Q: Có thể nâng cấp cấu hình máy tính ảo FCD is không?**
+A: Có thể, tuỳ theo chính sách of fromng công ty. Configure can nâng cấp including: Thông số Core CPU, RAM (Memory) and Dung lượng Ổ đĩa (Disk)
+#### **Q: Có thể cài đặt the ứng dụng mới ando FCD is không?**
+A: Nếu you is Manage in Tổ chức cấp permission Quản trị viên of Máy tính ảo (Administrator), you can thực hiện việc cài đặt the ứng dụng ngoài list mặc định when is cấp phát. Nếu không permission Quản trị viên of Máy tính ảo, you need to liên hệ for IT Admin to is hỗ trợ
+#### **Q: Tệp dữ liệu of tôi ở đâu? Chúng is lưu trữ như thế nào and in bao lâu?**
+A: Dữ liệu of you is lưu trữ security tại system of FPT Cloud Desktop. Bạn can truy cập the tệp this trên thư mục Desktop and Documents in hệ điều hành you has been chọn. Tài khoản user will bị vô hiệu hóa and bị xóa sau theo quy định of Tổ chức when có yêu cầu phê duyệt Thu hồi virtual machine has been cấp phát for you.
+#### **Q: Một user can đăng nhập from nhiều thiết bị/địa điểm cùng a lúc không?**
+A: Một user can đăng nhập from nhiều thiết bị, nhưng chỉ a thiết bị can truy cập virtual machine ando a thời điểm.

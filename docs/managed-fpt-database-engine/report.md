@@ -15,7 +15,7 @@ Báo cáo giúp user:
   * Phục vụ kiểm tra vận hành or lưu trữ nội bộ.
 
 Hiện tại, FPT Database Engine chỉ hỗ trợ a loại report duy nhất là report về hoạt động backup (backup) dữ liệu of cụm database.
-**Quyền cần thiết:**  
+**Quyền need to thiết:**  
 | Permission  | Action Type  | Description  |  
 | --- | --- | --- |  
 | manageDatabase:ReportConfig  | Edit  | Allows configuring and manageing the schedule for receiving database activity reports.  |

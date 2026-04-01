@@ -5,7 +5,7 @@ sidebar_label: "作成 Workspace"
 sidebar_position: "3"
 ---
 
-# Khởi tạo Workspace
+# 作成 Workspace
 
 Để truy cập và sử dụng **Dashboard Grafana**, người dùng cần:
 

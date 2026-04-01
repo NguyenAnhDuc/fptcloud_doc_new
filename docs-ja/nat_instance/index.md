@@ -13,7 +13,7 @@ sidebar_position: "1"
   * [ ![](/img/migrated/tai-xuong-1-1d131978.png) FQAs ](javascript: "FQAs")
 
 NAT Instance
-##  Giới thiệu 
+## 紹介 
 Chức năng hỗ trợ các instance trong mạng cô lập (isolated network) có thể truy cập hệ thống bên ngoài nternet như cài đặt phần mềm hoặc truy cập về On-premise.
 01Overviews 
 02Initial Setup 

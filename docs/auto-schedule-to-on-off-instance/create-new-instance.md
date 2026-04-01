@@ -10,7 +10,7 @@ sidebar_position: "4"
 Để tạo mới a**Instance Schedule** you thao tác as follows
 **Step 1** : Ở menu chọn **Compute Engine > Instance Schedule**, chọn **Create schedule**
 [![file](/img/migrated/image-1709893783815-21178c51.png)](/img/migrated/image-1709893783815-21178c51.png)
-**Step 2** : Enter the thông tin theo yêu cầu of hệ thống: 
+**Step 2** : Enter the information as required of system: 
   * **Name** : Tên instance schedule
   * **Description** : Mô tả về instance schedule
   * **Start time** : Thời gian bật virtual machine

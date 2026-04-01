@@ -5,7 +5,7 @@ sidebar_label: "Xem thông tin Logs"
 sidebar_position: "11"
 ---
 
-# View thông tin Logs
+# View information Logs
 
 **Step 1:** Trên menu, you chọn **Explore**
 
@@ -23,7 +23,7 @@ sidebar_position: "11"
 
 [![Alt text](/img/migrated/Screenshot_25-639736f9.png)](/img/migrated/Screenshot_25-639736f9.png)
 
-**Step 3:** Click **Run query** and hệ thống will trả ra log corresponding
+**Step 3:** Click **Run query** and system will trả ra log corresponding
 
 *Ảnh minh họa*
 

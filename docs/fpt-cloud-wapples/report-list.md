@@ -20,5 +20,5 @@ Report List
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-wapples%2F "FPT Cloud WAPPLES")
 
 * * *
-Liệt kê danh sách the report has been is tạo
+Liệt kê list the report has been is tạo
 [![file](/img/migrated/image-1714116946003-40cf4e64.png)](/img/migrated/image-1714116946003-40cf4e64.png)

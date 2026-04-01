@@ -5,7 +5,7 @@ sidebar_label: "Xem billing theo kỳ đối soát hàng tháng"
 sidebar_position: "14"
 ---
 
-# Xem billing theo kỳ đối soát hàng tháng
+# 表示 billing theo kỳ đối soát hàng tháng
 
 Khách hàng có thể xem bill các dịch vụ đã sử dụng trong tháng.
   * B1. Vào trang Billing - Bills

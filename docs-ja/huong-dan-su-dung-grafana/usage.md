@@ -5,15 +5,15 @@ sidebar_label: "Kiểm tra lượng sử dụng Grafana"
 sidebar_position: "20"
 ---
 
-# Kiểm tra lượng sử dụng Grafana
+# 確認 lượng sử dụng Grafana
 
 Để kiểm tra lượng timeseries/logs/trace đã sử dụng, bạn thực hiện các bước sau:
 
-**Bước 1:** Truy cập vào console portal, trên menu chọn dịch vụ Monitoring
+**ステップ1:** にアクセスします console portal, trên menu chọn dịch vụ Monitoring
 
-**Bước 2:** Vào trang chi tiết workspace đó, chọn tab Quota and Package
+**ステップ2:** Vào trang chi tiết workspace đó, chọn tab Quota and Package
 
-**Bước 3:** Kiểm tra thông tin usage time series/log/trace
+**ステップ3:** Kiểm tra thông tin usage time series/log/trace
 
 _Giao diện hiển thị như sau_
 

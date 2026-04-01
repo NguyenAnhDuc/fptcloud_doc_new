@@ -18,4 +18,4 @@ Bước 3. Chọn trạng thái cần chuyển sang (hiện tại hỗ trợ 2 t
 [![anhfsec](/img/migrated/i4-454465e4.png)](/img/migrated/i4-454465e4.png)
 Đối với luồng chuyển từ Open sang Ignored, người dùng cần chọn lí do ignore và có thể comment rồi ấn “Save” 
 [![anhfsec](/img/migrated/i5-1284ea67.png)](/img/migrated/i5-1284ea67.png)
-Lưu ý: Trạng thái của issue sẽ được thay đổi vào lần scan tiếp theo
+注意: Trạng thái của issue sẽ được thay đổi vào lần scan tiếp theo

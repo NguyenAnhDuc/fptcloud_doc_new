@@ -9,10 +9,10 @@ sidebar_position: "10"
 
 Người dùng có thể tự cài đặt GPU Driver mong muốn trên cụm FPT Kubernetes Engine tích hợp GPU.
 Các bước thực hiện như sau:
-**Bước 1: Khởi tạo GPU Cluster với Driver Installation là User-Install**
+**ステップ1: Khởi tạo GPU Cluster với Driver Installation là User-Install**
   * _Tạo Cluster chọn Driver Installation là User-Install_
 
-**Bước 2: Khách hàng tự install các phần mềm để sử dụng được GPU (Driver, Toolkit, Device Plugin, …)**
+**ステップ2: Khách hàng tự install các phần mềm để sử dụng được GPU (Driver, Toolkit, Device Plugin, …)**
 **Tham khảo các phiên bản GPU driver:**
   * **Release Notes** : <https://docs.nvidia.com/datacenter/tesla/index.html> <https://docs.nvidia.com/datacenter/tesla/drivers/releases.json>
   * **Document** : <https://docs.nvidia.com/datacenter/tesla/drivers/index.html>

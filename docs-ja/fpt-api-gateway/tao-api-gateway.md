@@ -8,9 +8,9 @@ sidebar_position: "3"
 # Tao api Gateway
 
 Để tạo **API Gateway** người dùng thực hiện các bước sau: 
-**Bước 1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**
-**Bước 2:** Nhấn **Create an API Gateway cluster** > hiển thị màn hình **Create API Gateway**
-**Bước 3:** Trong form tạo **API Gateway,** nhập thông tin màn **Basic Information** : 
+**ステップ1:** Tại thanh menu chọn **Integration** > chọn **API Gateway**
+**ステップ2:** **Create an API Gateway cluster** > hiển thị màn hình **Create API Gateway**
+**ステップ3:** Trong form tạo **API Gateway,** nhập thông tin màn **Basic Information** : 
   * **Name** (required): Tên api gateway 
 
 Chú ý: Tên API Gateway có thể chứa các kí tự chữ cái thường a-z hoặc các kí tự số 0-9. Đặc biệt không dùng dấu cách có thể thay dấu cách bằng dấu “-”. 
@@ -19,7 +19,7 @@ Chú ý: Tên API Gateway có thể chứa các kí tự chữ cái thường a-
   * **Access type** ( required) : chọn type Public/Private 
 [![Hỉnh ảnh](/img/migrated/SCR-20250924-nhqw-2c9ba0dd.png)](/img/migrated/SCR-20250924-nhqw-2c9ba0dd.png)
 
-**Bước 4:** Nhấn **Next Step** để chuyển sang màn nhập thông tin **Details**
+**ステップ4:** **Next Step** để chuyển sang màn nhập thông tin **Details**
 Nhập thông tin sau: 
   * **Launch Configuration**
     * **Subnet** (required): chọn Subnet 
@@ -71,14 +71,14 @@ Nhập thông tin sau:
       * Bao gồm a-z, A-Z, 0-9, dấu gạch ngang (-), dấu chấm (.); tối đa 100 ký tự 
       * Tên domain không bắt đầu và kết thúc bằng dấu gạch nối (-) hoặc dấu chấm (.) 
       * Top level tối thiểu 2, tối đa 6 ký tự 
-      * Ví dụ: domain-name.com 
+      * 例: domain-name.com 
     * **CA bundle ( required):** Chuỗi chứng chỉ CA ở dịnh dạng PEM 
       * Bắt đầu bằng -----BEGIN CERTIFICATE----- và kết thúc đúng chuẩn PEM 
     * **Private key (required):** Private key ở định dạng PEM 
       * Bắt đầu bằng -----BEGIN PRIVATE KEY----- và kết thúc đúng chuẩn PEM 
 [![Hình ảnh](/img/migrated/SCR-20250924-npeh-f148e5c5.png)](/img/migrated/SCR-20250924-npeh-f148e5c5.png)
 
-**Bước 5:** Nhấn **Next Step** để chuyển sang màn **Service Configuration**
+**ステップ5:** **Next Step** để chuyển sang màn **Service Configuration**
   * **Dashboard Configuration**
     * **Enable Dashboard** : Người dùng lựa chọn cài đặt Dashboard hay không. 
   * Default: **Unchecked**. 
@@ -88,7 +88,7 @@ Nhập thông tin sau:
       * Không được bắt đầu/kết thúc bằng dấu gạch ngang (-) hoặc dấu chấm (.) 
       * Độ dài tối đa: 100 ký tự 
       * Top level domain: tối thiểu 2, tối đa 6 ký tự 
-      * Ví dụ: dashboard-api.example.com 
+      * 例: dashboard-api.example.com 
     * **CA bundle (required)** : Chuỗi chứng chỉ CA ở định dạng PEM. 
       * Phải bắt đầu bằng: -----BEGIN CERTIFICATE----- 
       * Phải kết thúc đúng chuẩn PEM. 
@@ -97,7 +97,7 @@ Nhập thông tin sau:
       * Phải kết thúc đúng chuẩn PEM.
 [![Hình ảnh](/img/migrated/SCR-20250924-njbo-8895a431.png)](/img/migrated/SCR-20250924-njbo-8895a431.png)
 
-**Bước 6:** Nhấn **Next Step** để chuyển sang màn **Review and Create**
+**ステップ6:** **Next Step** để chuyển sang màn **Review and Create**
 [![Hình ảnh](/img/migrated/z7045251311917_2c4a0a33e279bb20581a482a6-ec3afc93.jpg)](/img/migrated/z7045251311917_2c4a0a33e279bb20581a482a6-ec3afc93.jpg)
-**Bước 7** : Kiểm tra thông tin nhập sau đó nhấn **Create** để hoàn thành việc khởi tạo **API Gateway**
+**ステップ7:** Kiểm tra thông tin nhập sau đó nhấn **Create** để hoàn thành việc khởi tạo **API Gateway**
 **API Gateway** hoàn thành khởi tạo khi **Status** của **API Gateway** là **Healthy** (~25 phút)

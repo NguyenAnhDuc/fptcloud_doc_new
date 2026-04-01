@@ -5,14 +5,14 @@ sidebar_label: "**Bước 1: Cài đặt FCDClient mới**"
 sidebar_position: "5"
 ---
 
-# **Bước 1: Cài đặt FCDClient mới**
+# **ステップ1: Cài đặt FCDClient mới**
 
 Dành cho trải nghiệm ổn định và đầy đủ tính năng nhất, cho phép thao tác trực tiếp trên ứng dụng.
   * Chỉ cần làm một lần đầu tiên, những lần tiếp theo có thể truy cập thẳng từ ứng dụng FCDClient
-**1.Truy cập vào Homepage dịch vụ với URL phù hợp**
+**1.にアクセスします Homepage dịch vụ với URL phù hợp**
 Các định dạng URL hợp lệ:
   * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
-  * URL đã chứa authentication code hợp lệ (định dạng code.domain). Ví dụ: pil783454741.pilotfcd.online
+  * URL đã chứa authentication code hợp lệ (định dạng code.domain). 例: pil783454741.pilotfcd.online
   * URL mặc định của dịch vụ
 
 **Thông tin URL này do quản trị viên khách hàng cung cấp**
@@ -22,7 +22,7 @@ Truy cập đường link dịch vụ bằng trình duyệt web, chọn **Access
 Hệ thống sẽ tự động tải xuống bản Client mới nhất tương thích với hệ điều hành Windows (người dùng có thể chủ động cài đặt) Trường hợp tải xuống hiện cảnh báo trên Browser như hình dưới: [![file](/img/migrated/image-1767859694792-be1aa0bc.png)](/img/migrated/image-1767859694792-be1aa0bc.png)
 Chọn dấu ba chấm > **Keep** > **Keep anyway**
 [![file](/img/migrated/image-1767859804851-972a2244.png)](/img/migrated/image-1767859804851-972a2244.png)
-Sau khi việc tải xuống hoàn thành, tiến hành cài đặt ứng dụng: Chọn **Open file** để cài đặt ứng dụng vào thiết bị.
+Sau khi việc tải xuống hoàn thành, tiến hành cài đặt ứng dụng: **Open file** để cài đặt ứng dụng vào thiết bị.
 [![file](/img/migrated/image-1767859882851-7f4cfd99.png)](/img/migrated/image-1767859882851-7f4cfd99.png)
 **Với Windows:** Tại Popup Windows protected your PC, chọn hyperlink "More info" và button "Run anyaway"
 **Với MacOS:**
@@ -38,16 +38,16 @@ Sau khi việc tải xuống hoàn thành, tiến hành cài đặt ứng dụng
 [![file](/img/migrated/image-1767860277298-7ec9d9f6.png)](/img/migrated/image-1767860277298-7ec9d9f6.png)
   * Nếu thiết bị hiện cảnh báo về ứng dụng FCDClient, truy cập Settings > Privacy & Security > Open Anyway với FCDClient
 
-# **Bước 2: Truy cập máy ảo qua FCDClient mới**
+# **ステップ2: Truy cập máy ảo qua FCDClient mới**
 **3. Mở và thao tác với ứng dụng FCDClient trên máy tính**
-Đăng nhập vào Authenticator (Server) phù hợp
+にログインします Authenticator (Server) phù hợp
   * **Nếu Client đã có sẵn thông tin Server** (do đã điền trước đó, hoặc tải xuống Client từ URL chứa authentication code hợp lệ): **Chọn Connect Server** và nhập thông tin tài khoản tương ứng tại mục 2 bên dưới [![file](/img/migrated/image-1767952725970-cec7271f.png)](/img/migrated/image-1767952725970-cec7271f.png)
-  * **Nếu Client hiển thị giao diện chưa có thông tin Server** : Cần tự điền thông tin Server muốn đăng nhập Chọn **New Server** > Nhập thông tin URL hoặc Domain hợp lệ (thông tin do quản trị viên khách hàng quản lý) Ví dụ cách nhập hợp lệ: Người dùng nhập thẳng URL hợp lệ pil783454741.pilotfcd.online **hoặc** nhập Domain pilotfcd.online trước, sau đó nhập Authentication code pil78345474
+  * **Nếu Client hiển thị giao diện chưa có thông tin Server** : Cần tự điền thông tin Server muốn đăng nhập **New Server** > Nhập thông tin URL hoặc Domain hợp lệ (thông tin do quản trị viên khách hàng quản lý) Ví dụ cách nhập hợp lệ: Người dùng nhập thẳng URL hợp lệ pil783454741.pilotfcd.online **hoặc** nhập Domain pilotfcd.online trước, sau đó nhập Authentication code pil78345474
 
 [![file](/img/migrated/image-1767860539108-fc0555bc.png)](/img/migrated/image-1767860539108-fc0555bc.png)
 2.Đăng nhập bằng tài khoản SSO (ví dụ Đăng nhập bằng tài khoản Microsoft), nhập OTP tương ứng theo SSO => Đăng nhập Authenticator (Server) thành công
 [![file](/img/migrated/image-1767952948838-89a8cf34.png)](/img/migrated/image-1767952948838-89a8cf34.png)
-**4: Truy cập vào máy ảo**
+**4: にアクセスします máy ảo**
 Tại màn hình danh sách các máy ảo, chọn truy cập vào máy ảo mong muốn
 [![file](/img/migrated/image-1767860779789-05426af5.png)](/img/migrated/image-1767860779789-05426af5.png)
 Nhập thông tin đăng nhập vào máy ảo nếu hệ thống yêu cầu => Truy cập máy ảo thành công

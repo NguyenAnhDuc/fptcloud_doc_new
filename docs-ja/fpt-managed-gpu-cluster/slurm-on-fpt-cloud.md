@@ -41,8 +41,8 @@ Tất cả những gì bạn cần làm là định nghĩa về cụm slurm mong
 Yêu cầu bắt buộc:
 - Cụm k8s có thể sử dụng tính năng dynamic provisioning volume & còn dư quota storage.
 - Ít nhất một storage class có thể cấp volume dạng Read Write Many.
-**Bước 1** : Cài đặt Slurm Operator, GPU Operator, Network Operator tại phần cài đặt GPU software & chờ cho đến khi trạng thái các phần này ở ready [![](/img/migrated/Picture3-2-863f4c91.png)](/img/migrated/Picture3-2-863f4c91.png)
-**Bước 2:** Tại cụm k8s, tạo sẵn các Persistent volume để chứa shared root space và dữ liệu của controller node.
+**ステップ1:** Cài đặt Slurm Operator, GPU Operator, Network Operator tại phần cài đặt GPU software & chờ cho đến khi trạng thái các phần này ở ready [![](/img/migrated/Picture3-2-863f4c91.png)](/img/migrated/Picture3-2-863f4c91.png)
+**ステップ2:** Tại cụm k8s, tạo sẵn các Persistent volume để chứa shared root space và dữ liệu của controller node.
 Chúng ta hãy chú ý về các volume trong mô hình triển khai Slurm on k8s:
 [![](/img/migrated/Picture4-1-f1c64bd5.png)](/img/migrated/Picture4-1-f1c64bd5.png)
 **Trong đó:**
@@ -82,11 +82,11 @@ spec:
       storage: 10Gi
 ```
 
-**Lưu ý:**
+**注意:**
 ➤ Các volume này đều là các volume bắt buộc phải có, chúng đều cần cung cấp cơ chế Read write many và tên của các PVC này phải giữ nguyên như trên.
 ➤ Nhằm thuận tiện để triển khai, chúng tôi đã sử dụng cơ chế dynamic provisioning volume trên sản phẩn FPTcloud managed k8s.
 ➤ Với môi trường production, chúng tôi khuyến nghị việc mount root volume từ một phân vùng tĩnh thuộc file server, để thuận tiện cho việc migrate & bảo trì cụm Slurm.
-**Bước 3** : download Slurm cluster CR helm chart + define cấu hình mong muốn
+**ステップ3:** download Slurm cluster CR helm chart + define cấu hình mong muốn
 
 ```
 Copyhelm repo add xplat-fke https://registry.fke.fptcloud.com/chartrepo/xplat-fke 
@@ -95,7 +95,7 @@ helm search repo slurm
 helm pull xplat-fke/helm-slurm-cluster --version 1.14.10 --untar=true
 ```
 
-Lưu ý: chỉnh version của slurm-cluster đúng với version của Slurm operator
+注意: chỉnh version của slurm-cluster đúng với version của Slurm operator
 Để tìm hiểu sâu hơn về các tham số của một cụm slurm, chúng tôi khuyến khích bạn đọc phần 3: mô tả các tham số cụm Slurm.
 
 ```
@@ -117,7 +117,7 @@ Sau khi chỉnh cấu hình cụm theo nhu cầu, chạy lệnh sau
 Copyhelm install fpt-hpc ./ -n fpt-hpc
 ```
 
-**Bước 4** : Chờ cho đến khi toàn bộ pod Slurm ở trạng thái running Quá trình này mất khoảng 20 phút ở lần đầu tiên cài slurm cluster trên cụm k8s, bao gồm 2 phase, phase 1 chạy job setup và phase 2 cài đặt các pod slurm components
+**ステップ4:** Chờ cho đến khi toàn bộ pod Slurm ở trạng thái running Quá trình này mất khoảng 20 phút ở lần đầu tiên cài slurm cluster trên cụm k8s, bao gồm 2 phase, phase 1 chạy job setup và phase 2 cài đặt các pod slurm components
 Sau khi toàn bộ các component ready, tìm IP public của login node bằng lệnh
 
 ```
@@ -146,7 +146,7 @@ salloc --nodes=1 --ntasks=1 --mem=4G --time=00:20:00 --gres=gpu:1
 
 **2.2 Chạy job mẫu trên cụm Slurm**
 Sau khi login thành công vào cụm Slurm, bạn có thể kiểm tra hoạt động của cụm slurm bằng việc train model mingpt theo hướng dẫn sau:
-**Bước 1** : clone pytorch/example repository
+**ステップ1:** clone pytorch/example repository
 
 ```
 Copymkdir /shared 
@@ -154,7 +154,7 @@ cd /shared
 git clone https://github.com/pytorch/examples
 ```
 
-**Bước 2** : chuyển hướng đến folder minGPT-ddp & cài đặt các gói cần thiết
+**ステップ2:** chuyển hướng đến folder minGPT-ddp & cài đặt các gói cần thiết
 
 ```
 Copycd examples/distributed/minGPT-ddp 
@@ -163,21 +163,21 @@ pip3 install numpy
 ```
 
 Nhờ cơ chế shared root, chúng ta chỉ cần chạy lệnh trên một lần, các package này sẽ tự sync trên toàn bộ các node worker khác.
-Lưu ý: trong môi trường production, chúng tôi khuyến nghị việc dùng conda evironment/ container để tạo môi trường train thay vì cài trực tiếp các package ở môi trường global như trên.
-**Bước 3** : edit file slurm script
+注意: trong môi trường production, chúng tôi khuyến nghị việc dùng conda evironment/ container để tạo môi trường train thay vì cài trực tiếp các package ở môi trường global như trên.
+**ステップ3:** edit file slurm script
 
 ```
 Copyvi mingpt/slurm/sbatch_run.sbatch
 ```
 
 chú ý: chỉnh path của file main.py trong file sbatch_run.sh về path của file main.py trong folder mingpt
-**Bước 4** : chạy mẫu slurm job
+**ステップ4:** chạy mẫu slurm job
 
 ```
 Copysbatch mingpt/slurm/sbatch_run.sh
 ```
 
-**Bước 5** : Kiểm tra
+**ステップ5:** Kiểm tra
 
 ```
 Copysqueue 
@@ -328,7 +328,7 @@ Copykubectl edit SlurmCluster  fpt-hpc -n fpt-hpc
 ```
 
 Tại phần cấu hình worker nodes, chuyển hướng tới mục “size" và edit số lượng worker node theo mong muốn
-Lưu ý: 
+注意: 
 -Khi scale up số lượng worker nodes, node mới sẽ được tự động thêm vào danh sách worker nodes tại slurm controller node và sẵn sàng để chạy job.
 -Khi scale down nodes, bạn cần xóa node thủ công tại slurm controller bằng lệnh:
 
@@ -341,7 +341,7 @@ Copyscontrol delete nodeName=node_name_to_delete
 Nhờ sự linh hoạt của k8s và network file storage, chúng ta có thể dễ dàng chuyển slurm cluster từ một cụm k8s này sang cụm k8s khác, việc phải làm là mounting & tạo lại jail-pvc trên cụm slurm k8s mới và thực hiện lại các bước tạo slurm k8s.
 **4.4 Mounting external volumes vào cụm slurm**
 Để mount một volume vào slurm cluster, bạn cần tạo volume đó trước, sau đó triển khai volume đó dưới dạng PV & PVC tại K8s. Ví dụ sau sử dụng dynamic provisioning để tạo PV/PVC này (trong môi trường production chúng tôi khuyến nghị sử dụng static provisioning volume để đảm bảo an toàn dữ liệu)
-**Bước 1** : tạo PVC
+**ステップ1:** tạo PVC
 
 ```
 CopyapiVersion: v1
@@ -357,7 +357,7 @@ spec:
         storage: 100Gi
 ```
 
-**Bước 2** : khai báo volume này tại slurm cluster
+**ステップ2:** khai báo volume này tại slurm cluster
 Edit trường volumeSource tại slurm cluster CR
 
 ```
@@ -380,7 +380,7 @@ CopyvolumeSources:
       readOnly: false
 ```
 
-**Bước 3** : mount các volume trên vào các node login và worker trong cụm slurm
+**ステップ3:** mount các volume trên vào các node login và worker trong cụm slurm
 Tại login node:
 
 ```
@@ -412,7 +412,7 @@ Copyvolumes:
           volumeSourceName: "mlperf-sd"
 ```
 
-Lưu ý: mount path cần giống nhau trên các worker node và login node
+注意: mount path cần giống nhau trên các worker node và login node
 **4.5 Sử dụng docker**
 Trong môi trường HPC, các container runtime như Apptainer, Enroot&Pyxis được ưu tiên sử dụng hơn Docker. Tuy nhiên, các container runtime này không thuận tiện để sử dụng với những công việc build, push image, thậm chí run (không recommend docker slurm) với những user đã quen sử dụng docker.
 Để hỗ trợ những user này, chúng tôi đã cài đặt docker tại shared root volume của cụm slurm, như vậy mọi node trong cụm slurm đều có thể sử dụng docker. Tuy nhiên, việc này yêu cầu job sử dụng toàn bộ resources của node do các job khởi chạy bằng docker sẽ khôn thể bị giới hạn tài nguyên như apptainer.

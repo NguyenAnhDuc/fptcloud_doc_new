@@ -13,7 +13,7 @@ _Chặn user khởi tạo rule SSH with source IP bằng All IPv4 (Any)_
 [![file](/img/migrated/image-1719821228097-9fd79d5a.png)](/img/migrated/image-1719821228097-9fd79d5a.png)
 **Step 2** : Tại màn hình **Create security group** , chọn **Add rule**
 [![file](/img/migrated/image-1719821250324-ab40b63e.png)](/img/migrated/image-1719821250324-ab40b63e.png)
-**Step 3** : Fill in the thông tin corresponding of rule. 
+**Step 3** : Fill in the information corresponding of rule. 
   * **Type** : SSH
   * **Sources** : All IPv4
 

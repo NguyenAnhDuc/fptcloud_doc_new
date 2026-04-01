@@ -7,7 +7,7 @@ sidebar_position: "13"
 
 # Create rule NAT
 
-**Step 1:** Trên **Object Pane** (**F11**) > tìm Object cần SNAT > chuột phải chọn **Edit.**
+**Step 1:** Trên **Object Pane** (**F11**) > tìm Object need to SNAT > chuột must chọn **Edit.**
 [![Userguide Checkpoint FPT NGFW 2022 60](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-60-90ecad9b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-60-90ecad9b.png)
 **Step 2:** Trên Menu chọn **NAT** > tích **Add automatic address translation rules** > tích **Hide behind IP address** > điền IP muốn SNAT > chọn gateway to apply
 [![Userguide Checkpoint FPT NGFW 2022 61](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-61-4c558934.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-61-4c558934.png)
@@ -18,7 +18,7 @@ sidebar_position: "13"
 [![Userguide Checkpoint FPT NGFW 2022 63](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-63-10-ac53aa0f.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-63-10-ac53aa0f.png)
 **Step 2:** Select **Add rule above/ to top/ to bottom** to thêm rule ando vị trí phù hợp.
 [![Userguide Checkpoint FPT NGFW 2022 64](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-64-10-a10726e9.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-64-10-a10726e9.png)
-**Step 3:** Set up thông tin for rule mới:
+**Step 3:** Set up information for rule mới:
 [![Userguide Checkpoint FPT NGFW 2022 65](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-65-10-b8780102.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-65-10-b8780102.png)
   * **Name** (tên rule):[![Userguide Checkpoint FPT NGFW 2022 66](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-66-10-56f58df1.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-66-10-56f58df1.png)
   * **Original Source** (IP nguồn when chưa NAT):[![Userguide Checkpoint FPT NGFW 2022 67](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-67-10-85cf6d50.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-67-10-85cf6d50.png)

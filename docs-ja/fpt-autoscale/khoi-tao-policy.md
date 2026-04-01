@@ -5,11 +5,11 @@ sidebar_label: "作成 Policy"
 sidebar_position: "14"
 ---
 
-# Khởi tạo Policy
+# 作成 Policy
 
-##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Policy**. Chọn **Create policy**.
+##  **ステップ1:** Truy cập trang **Autoscaling > Autoscale Policy**. **Create policy**.
 [![create policy](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)
-##  **Bước 2** : Thực hiện cấu hình các thông số.
+##  **ステップ2:** Thực hiện cấu hình các thông số.
 **Type** : Chọn loại policy phù hợp.
 **Name** : Đặt tên policy sao cho dễ quản lý nhất. Tên phải có 6 đến 250 kí tự, chỉ bao gồm chữ cái latin, số và dấu gạch dưới.
 ### Deletion policy
@@ -53,7 +53,7 @@ Health policy sẽ kiểm soát cách kiểm tra và khôi phục các nodes tro
   * Reboot: Khởi động lại node.
 
 **Interval check (s)** : Khoảng thời gian (tính bằng giây) giữa các lần kiểm tra sức khỏe nodes.
-##  **Bước 3** : Chọn **Create policy** để xác nhận.
+##  **ステップ3:** **Create policy** để xác nhận.
 Sau khi tạo thành công, policy sẽ hiển thị trên danh sách các policies hiện có.
 [![list policy](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)
 Có thể xem lại thông tin chi tiết của policy bằng cách click vào tên policy tương ứng trên danh sách:

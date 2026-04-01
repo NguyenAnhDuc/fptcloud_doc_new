@@ -5,12 +5,12 @@ sidebar_label: "作成 Policy Management"
 sidebar_position: "6"
 ---
 
-# Khởi tạo Policy Management
+# 作成 Policy Management
 
 **Để sử dụng tính năng này, người dùng cần đăng nhập vào hệ thống với phân quyền Tenant owner**
-**Bước 1** : Ở menu chọn **Policy Management** > chọn **Create policy**
+**ステップ1:** Ở menu chọn **Policy Management** > chọn **Create policy**
 [![file](/img/migrated/image-1719821298105-3ceed670.png)](/img/migrated/image-1719821298105-3ceed670.png)
-**Bước 2** : Nhập các thông tin yêu cầu của hệ thống:
+**ステップ2:** Nhập các thông tin yêu cầu của hệ thống:
   * **Policy Name** : Nhập vào tên của Policy
   * **Apply to** : Chọn User group được áp dụng policy
   * **Resource type** : Hiện tại hệ thống chỉ hỗ trợ các rule built-in thuộc Security group
@@ -60,9 +60,9 @@ sidebar_position: "6"
 | Assign tags to the new **floating IP** immediately after creation  | All Floating IP  | N/A  | Hệ thống tự động gắn tag cho toàn bộ Floating IP ngay khi tạo  |  
 | Assign tags to the new **floating IP** immediately after creation  | Specific rule  | Floating IP include/ in range  | Hệ thống tự động gắn tag cho Floating IP ngay khi tạo nếu instance thỏa mãn điều kiện Floating IP có chứa 1 phần/ nằm trong dãy IP đã config.  |  
 [![file](/img/migrated/image-1719821677947-d9d4d2c9.png)](/img/migrated/image-1719821677947-d9d4d2c9.png)
-**Bước 3** : Chọn Create policy. Hệ thống sẽ tiến hành khởi tạo Policy mới sẽ được hiển thị ở trang Policy Management.
+**ステップ3:** Chọn Create policy. Hệ thống sẽ tiến hành khởi tạo Policy mới sẽ được hiển thị ở trang Policy Management.
 [![file](/img/migrated/image-1719821699202-a820ed2a.png)](/img/migrated/image-1719821699202-a820ed2a.png)
-**Lưu ý:**
+**注意:**
   * Người dùng chỉ áp dụng cho 1 policy duy nhất cho user group
   * Để các policy được chặt chẽ, khi khởi tạo các policy cần truy cập vào các port đặc biệt, FCI khuyến khích người dùng khởi tạo thêm các policy liên quan bao gồm:
     * Cấm khởi tạo rule cho phép toàn bộ traffic TCP từ ngoài Internet vào instance trong quá trình khởi tạo Security group

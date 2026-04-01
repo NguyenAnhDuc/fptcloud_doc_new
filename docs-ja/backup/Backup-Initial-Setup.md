@@ -5,7 +5,7 @@ sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# 初期設定
 
 ## Điều kiện cần có
 Trước khi tạo các job sao lưu, bạn cần đảm bảo một vài điều kiện cơ bản:

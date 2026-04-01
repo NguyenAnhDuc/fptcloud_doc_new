@@ -7,12 +7,12 @@ sidebar_position: "5"
 
 # Tích hợp Dashboard Template and Alert rule template
 
-Phần this hướng dẫn theh tích hợp Dashboard Template and Alert rule template ando Grafana workspace of you.
+Phần this guide theh tích hợp Dashboard Template and Alert rule template ando Grafana workspace of you.
 
 ## Tích hợp Dashboard Template
 
-View chi tiết tại: [Tích hợp Dashboard Template](../huong-dan-su-dung-grafana/index.md)
+View details tại: [Tích hợp Dashboard Template](../huong-dan-su-dung-grafana/index.md)
 
 ## Tích hợp Alert rule template
 
-View chi tiết tại: [Tích hợp Alert rule template](../huong-dan-su-dung-grafana/index.md)
+View details tại: [Tích hợp Alert rule template](../huong-dan-su-dung-grafana/index.md)

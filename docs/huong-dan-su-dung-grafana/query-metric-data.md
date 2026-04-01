@@ -21,7 +21,7 @@ Phần this dành for user có nhu cầu tự xây dựng truy vấn.
 
 **Step 3:** Chọn chế độ code >> Enter query
 
-**Step 4:** Nhấn button **Run query** ở góc phải màn hình.
+**Step 4:** Nhấn button **Run query** ở góc must màn hình.
 
 Màn hình trả ra kết quả minh họa as follows:
 

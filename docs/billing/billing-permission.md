@@ -7,8 +7,8 @@ sidebar_position: "6"
 
 # Phân permission xem billing
 
-Để xem is billing, user cần có role Tenant owner (Super Admin) or role có permission billing.
-Với những user không có role Tenant owner (Super Admin) cần xem billing, user Tenant owner (Super Admin) can phân permission theo hướng dẫn dưới đây:
+Để xem is billing, user need to có role Tenant owner (Super Admin) or role có permission billing.
+Với những user không có role Tenant owner (Super Admin) need to xem billing, user Tenant owner (Super Admin) can phân permission theo guide dưới đây:
 **Step 1:** User có permission Tenant Owner (Super Admin) đăng nhập ando Console.FPTcloud > chọn IAM > chọn Roles > chọn button Create Role.
 [![file](/img/migrated/image-1733807046462-52e42c98.png)](/img/migrated/image-1733807046462-52e42c98.png)
 **Step 2:** Tại màn hình Create Role, đặt tên for role tại field “Name” > Chọn filter to chọn permission for role this > Chọn type = billing > chọn permission for role this > chọn button Create.

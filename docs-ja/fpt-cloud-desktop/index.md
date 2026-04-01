@@ -14,7 +14,7 @@ sidebar_position: "1"
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. FPT Cloud Desktop
 
-##  Giới thiệu 
+## 紹介 
 ## FPT Cloud Desktop là gì?
   * Dịch vụ máy tính ảo hoá linh hoạt, bảo mật được triển khai trên nền tảng FPT Cloud do FPT Smart Cloud tự phát triển.
   * Người dùng có thể truy cập máy tính ảo từ đa dạng thiết bị và hệ điều hành khác nhau từ bất cứ đâu có internet.

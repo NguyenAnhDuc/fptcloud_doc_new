@@ -15,4 +15,4 @@ Vui lòng thử refresh lại trang.
 
 Trong trường hợp sau a thời gian sử dụng Monitoring mà metric/logs không còn displayed trên Grafana Dashboard, rất can workspace of you has been sử dụng hết quota time series/logs in gói FMON hiện tại.
 
-Để kiểm tra lượng time series/logs has been sử dụng, you tham khảo hướng dẫn tại mục **[7. Hướng dẫn kiểm tra status usage (timeseries, log, trace) trên trang console portal](../huong-dan-su-dung-grafana/index.md)**
+Để kiểm tra lượng time series/logs has been sử dụng, you tham khảo guide tại mục **[7. Hướng dẫn kiểm tra status usage (timeseries, log, trace) trên trang console portal](../huong-dan-su-dung-grafana/index.md)**

@@ -18,7 +18,7 @@ FPT Cloud cung cấp Kubernetes sử dụng GPU NVIDIA có the feature chính 
   * Tự động tăng/giảm Container/Node với Autoscaler when ứng dụng yêu cầu sử dụng tài nguyên GPU tăng lên/giảm đi.
   * Hỗ trợ GPU sharing với cơ chế Multi-Instance, giúp tối ưu hóa tài nguyên và chi phí sử dụng GPU.
 
-FPT Cloud sử dụng NVIDIA GPU Operator cung cấp công cụ tự động quản lý tất cả the thành phần phần mềm cần thiết to sử dụng GPU trên Kubernetes. GPU Operator for phép người dùng sử dụng tài nguyên GPU giống như sử dụng CPU in cụm Kubernetes.
+FPT Cloud sử dụng NVIDIA GPU Operator cung cấp công cụ tự động quản lý tất cả the thành phần phần mềm need to thiết to sử dụng GPU trên Kubernetes. GPU Operator for phép người dùng sử dụng tài nguyên GPU giống như sử dụng CPU in cụm Kubernetes.
 Các thành phần of Operator includes:
   * NVIDIA Drivers (CUDA, MIG,…)
   * NVIDIA Device Plugin
@@ -67,6 +67,6 @@ Trên region Hanoi 2 and Japan, FPT Cloud hiện tại is hỗ trợ Kubernetes 
 👉 Nếu chọn cấu hình strategy single: all-1g.6gb, card GPU A30 trên worker is chia nhỏ thành 4 mig-devices có tài nguyên gpu logic (bằng ¼ GPU vật lý) và 6GB GPU RAM.
 👉 Nếu chọn cấu hình strategy single: all-1g.10gb, card GPU H100 trên worker is chia nhỏ thành 7 mig-devices có tài nguyên gpu logic (bằng 1⁄7 GPU vật lý) và 10GB GPU RAM.
 **_Chú ý:_**
-MIG config áp dụng for tất cả các card gắn trên worker. MIG strategy trên the worker group of cùng cluster phải cùng 1 loại (single/mixed/none).
+MIG config áp dụng for tất cả các card gắn trên worker. MIG strategy trên the worker group of cùng cluster must cùng 1 loại (single/mixed/none).
 ##  Home page 
 01Hướng dẫn sử dụng

@@ -9,9 +9,9 @@ sidebar_position: "8"
 
 Để tạo mới Security, user thực hiện the bước sau: 
 **Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Step 2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
-**Bước** 3: Tại danh sách **Security** > chọn **Create >** displayed popup **New JWT Auth**
-**Step 4** : Tại popup **New JWT Auth** , nhập the thông tin: 
+**Step 2:** Tại list **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
+**Bước** 3: Tại list **Security** > chọn **Create >** displayed popup **New JWT Auth**
+**Step 4** : Tại popup **New JWT Auth** , nhập the information: 
   * **Name (required):** Tên JWT auth 
     * Bao gồm a-z, A-Z, -, _ and số; bắt đầu bằng chữ cái; tối đa 30 ký tự 
   * **Claim key:** List claim key: 

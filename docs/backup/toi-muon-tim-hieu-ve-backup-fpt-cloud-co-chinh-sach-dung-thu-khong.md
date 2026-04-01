@@ -7,4 +7,4 @@ sidebar_position: "13"
 
 # Tôi muốn tìm hiểu về Backup, FPT Cloud có chính sách dùng thử không?
 
-Có, tùy ando fromng service and fromng thời điểm khác nhau mà chúng tôi có những chương trình dùng thử corresponding. Đừng ngần ngại mà liên hệ with FPT Cloud to nhận thông tin về the chương trình mới nhất.
+Có, tùy ando fromng service and fromng thời điểm khác nhau mà chúng tôi có những chương trình dùng thử corresponding. Đừng ngần ngại mà liên hệ with FPT Cloud to nhận information về the chương trình mới nhất.

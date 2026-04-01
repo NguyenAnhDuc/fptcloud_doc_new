@@ -8,13 +8,13 @@ sidebar_position: "1"
 # Fpt Api Gateway
 
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn chi tiết (Tutorial)  ](javascript: "Hướng dẫn chi tiết \(Tutorial\) ")
+  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\) ")
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
   2. FPT API Gateway
 
-**API Gateway** là thành phần trung gian giúp quản lý, kiểm soát và định tuyến các yêu cầu (requests) giữa client và các dịch vụ backend. Nó hoạt động như một cổng truy cập tập trung cho toàn bộ API, đảm bảo việc giao tiếp an toàn, thống nhất và dễ dàng mở rộng. 
-**API Gateway** hỗ trợ các tính năng như xác thực, phân quyền, giới hạn tần suất (rate limiting), cân bằng tải, giám sát và quản lý vòng đời API. Với **APISIX Dashboard** , người dùng có thể cấu hình trực quan các route, service, upstream, plugin và chứng chỉ TLS, giúp đơn giản hóa việc quản trị và vận hành. 
-API Gateway phù hợp với các kiến trúc microservices và hệ thống phân tán, thường được sử dụng để tăng cường bảo mật, tính linh hoạt và khả năng quan sát trong việc quản lý API.
+**API Gateway** là thành phần trung gian giúp quản lý, kiểm soát and định tuyến the yêu cầu (requests) giữa client and the service backend. Nó hoạt động như a cổng truy cập tập trung for toàn bộ API, đảm bảo việc giao tiếp an toàn, thống nhất and dễ dàng mở rộng. 
+**API Gateway** hỗ trợ the feature như xác thực, phân permission, giới hạn tần suất (rate limiting), cân bằng tải, monitoring and quản lý vòng đời API. Với **APISIX Dashboard** , user can cấu hình trực quan the route, service, upstream, plugin and chứng chỉ TLS, giúp đơn giản hóa việc quản trị and vận hành. 
+API Gateway phù hợp with the kiến trúc microservices and system phân tán, thường is sử dụng to tăng cường security, tính linh hoạt and khả năng quan sát in việc quản lý API.
 ##  Trang chủ 
 01Initial Setup 
-02Hướng dẫn chi tiết (Tutorial)
+02Hướng dẫn details (Tutorial)

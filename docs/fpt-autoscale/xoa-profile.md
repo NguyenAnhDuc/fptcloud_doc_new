@@ -7,9 +7,9 @@ sidebar_position: "5"
 
 # Delete Profile
 
-##  **Step 1:** Truy cập trang **Autoscaling > Autoscale Profile**. Trên dòng corresponding with profile cần xóa, chọn biểu tượng **Delete**.
+##  **Step 1:** Access the page **Autoscaling > Autoscale Profile**. Trên dòng corresponding with profile need to xóa, chọn biểu tượng **Delete**.
 [![delete profile](/img/migrated/Screenshot-2024-10-01-171413-fec288a5.png)](/img/migrated/Screenshot-2024-10-01-171413-fec288a5.png)
-##  **Step 2:** Một hộp thoại will appears. Nếu tên profile cần xóa là chính xác, chọn **Delete profile** to xác nhận. Ngược lại, chọn **Cancel** to hủy thao tác.
+##  **Step 2:** Một hộp thoại will appears. Nếu tên profile need to xóa là chính xác, chọn **Delete profile** to xác nhận. Ngược lại, chọn **Cancel** to hủy thao tác.
 [![delete profile confirmation dialog](/img/migrated/Screenshot-2024-10-01-171633-abcf343f.png)](/img/migrated/Screenshot-2024-10-01-171633-abcf343f.png)
 ## Save ý
 Trong trường hợp nhận is notification sau:

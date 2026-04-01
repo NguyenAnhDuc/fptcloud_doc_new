@@ -5,15 +5,15 @@ sidebar_label: "User guide Grafana"
 sidebar_position: "1"
 ---
 
-# Hướng dẫn sử dụng Grafana
+# User guide Grafana
 
-## Nội dung hướng dẫn
+## Nội dung guide
 
 ### Initial Setup
 
 - [Initial Setup](../huong-dan-su-dung-grafana/index.md)
 
-### Hướng dẫn chi tiết (Tutorials)
+### Hướng dẫn details (Tutorials)
 
 - [1. Initialize workspace](../huong-dan-su-dung-grafana/index.md)
 - [2. Truy cập Grafana](../huong-dan-su-dung-grafana/index.md)

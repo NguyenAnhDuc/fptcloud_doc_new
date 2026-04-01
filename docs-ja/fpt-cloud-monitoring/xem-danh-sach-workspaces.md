@@ -7,8 +7,8 @@ sidebar_position: "4"
 
 # 2. Xem danh sách Workspaces
 
-**Bước 1** : Đăng nhập vào FPT portal cloud [](https://console.fptcloud.com/)
-**Bước 2** : Trên menu của FPT Cloud Console Portal, click Monitoring. Danh sách workspace hiển thị như hình bên dưới. 
+**ステップ1:** にログインします FPT portal cloud [](https://console.fptcloud.com/)
+**ステップ2:** Trên menu của FPT Cloud Console Portal, click Monitoring. Danh sách workspace hiển thị như hình bên dưới. 
 [![](/img/migrated/Screenshot-2025-04-16-145353-2e29b6c0.png)](/img/migrated/Screenshot-2025-04-16-145353-2e29b6c0.png)
 Thông tin một Workspace gồm có:
   * **Workspace name** : tên của Workspace. Tên này bạn không thể sửa đổi trong quá trình sử dụng.

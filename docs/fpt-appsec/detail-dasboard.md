@@ -9,7 +9,7 @@ sidebar_position: "5"
 
   * [ ![](/img/migrated/images-331b7b32.png) Release note ](javascript: "Release note")
   * [ ![](/img/migrated/settings-f58a338e.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-8abaee1e.png) Hướng dẫn chi tiết (Tutorial)  ](javascript: "Hướng dẫn chi tiết \(Tutorial\)  ")
+  * [ ![](/img/migrated/icon-networking-8abaee1e.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\)  ")
 
 Dashboard
   * 

@@ -7,7 +7,7 @@ sidebar_position: "28"
 
 # Hướng dẫn quản lý status issue tại màn Issue detail
 
-Step 1: Tại màn hình Issue list of 1 asset, ấn “Details” of 1 issue bất kỳ to ando trang xem chi tiết: 
+Step 1: Tại màn hình Issue list of 1 asset, ấn “Details” of 1 issue bất kỳ to ando trang xem details: 
 [![anhfsec](/img/migrated/i6-e0741810.png)](/img/migrated/i6-e0741810.png)
 Step 2: Tại màn hình issue detail, user can xem status hiện tại of issue sau lần scan gần nhất. Để thay đổi status issue, chọn “Note status”: 
 [![anhfsec](/img/migrated/i7-c61cdbb2.png)](/img/migrated/i7-c61cdbb2.png)

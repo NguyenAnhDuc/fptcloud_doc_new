@@ -5,7 +5,7 @@ sidebar_label: "紹介 khái quát về sản phẩm:"
 sidebar_position: "1"
 ---
 
-# Giới thiệu khái quát về sản phẩm:
+# 紹介 khái quát về sản phẩm:
 
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
@@ -18,8 +18,8 @@ Network Interface Card (NIC)
   2. Network Interface Card (NIC)
 
 Network Interface Card (NIC)
-##  Tổng quan 
-### Giới thiệu khái quát về sản phẩm:
+## 概要 
+### 紹介 khái quát về sản phẩm:
   * Card NIC (Network Interface Card) trên nền tảng Cloud là một thành phần quan trọng để kết nối giữa các máy ảo và tài nguyên trên Cloud. Card NIC cung cấp khả năng kết nối, truyền dữ liệu với hiệu suất cao và đáng tin cậy. Với sự linh hoạt và khả năng mở rộng, Card NIC đóng vai trò quan trọng trong việc xây dựng và quản lý hạ tầng mạng, đồng thời tạo ra môi trường mạng linh hoạt, mở rộng cho các ứng dụng và dịch vụ dựa trên Cloud.
 
 ### Những điều cần lưu ý trước khi bạn cấu hình card NIC:

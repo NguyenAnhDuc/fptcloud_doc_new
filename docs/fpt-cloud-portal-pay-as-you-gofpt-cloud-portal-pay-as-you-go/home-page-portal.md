@@ -7,8 +7,8 @@ sidebar_position: "6"
 
 # Trang chủ của hệ thống Portal
 
-Home page hệ thống Unify Portal gồm những thông tin:
-• Available Services: danh sách the service has been hộ trợ hình thức payment PAYG
+Home page system Unify Portal gồm những information:
+• Available Services: list the service has been hộ trợ hình thức payment PAYG
 • Upcoming Services: the service sắp hỗ trợ hình thức payment PAYG
-• Balance: account of khách hàng
+• Balance: account of customer
 [![file](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)

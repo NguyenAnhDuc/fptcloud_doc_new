@@ -5,7 +5,7 @@ sidebar_label: "Xem đối soát theo tên dịch vụ (Charges by service)"
 sidebar_position: "3"
 ---
 
-# Xem đối soát theo tên dịch vụ (Charges by service)
+# 表示 đối soát theo tên dịch vụ (Charges by service)
 
 Người dùng có thể xem số lượng sử dụng đã được tính tiền của từng dịch vụ, hình thức tính tiền, đơn giá và thành tiền của từng dịch vụ. Dữ liệu Charges by service sẽ tương ứng với dữ liệu tại sheet “Invoice” trong file đối soát khi người dùng tải về.
 [![file](/img/migrated/image-1744088527526-341fc3c4.png)](/img/migrated/image-1744088527526-341fc3c4.png)

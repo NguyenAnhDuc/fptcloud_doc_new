@@ -8,7 +8,7 @@ sidebar_position: "3"
 # Quan Ly Managed Gpu Cluster
 
   * [ ![](/img/migrated/settings-d609e2cc.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-ee126f1d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+  * [ ![](/img/migrated/icon-networking-ee126f1d.png) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
 
 Manage Managed GPU Cluster
   * 

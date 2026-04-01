@@ -5,7 +5,7 @@ sidebar_label: "設定 SSO"
 sidebar_position: "3"
 ---
 
-# Cấu hình SSO
+# 設定 SSO
 
 Hiện tại khách hàng chưa tự self-service trên hệ thống FPT Cloud. Để sử dụng dịch vụ SSO, nhờ khách hàng tạo ticket hoặc liên hệ bộ phận hỗ trợ và cung cấp thông tin sau:
   * Sub-domain để truy cập nhanh hệ thống. Sau cấu hình SSO, khách hàng sẽ truy cập và hệ thống FPT Cloud theo đường dẫn: 

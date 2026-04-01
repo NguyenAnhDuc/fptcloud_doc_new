@@ -12,9 +12,9 @@ sidebar_position: "1"
   * [ ![](/img/migrated/question-94737ec1.png) FAQs ](javascript: "FAQs")
 
 Allow Address Pair
-##  Giới thiệu 
-  * Theo mặc định, máy tính (hoặc máy ảo) sẽ cặp địa chỉ MAC và IP liên kết với nhau nhằm chống giả mạo thông tin. Điều này có nghĩa là với traffic đến 1 địa chỉ IP, traffic sẽ được gửi đến máy có địa chỉ MAC tương ứng. 
-  * Tính năng Allow IP address pair cho phép thêm cặp địa chỉ IP (hoặc CIDR) và địa chỉ MAC vào 1 interface (card NIC) của instance. Từ đó người quản trị có thể tận dụng tính năng cho nhiều mục đích, đặc biệt là cấu hình HA (High Availability)
+## Introduction 
+  * Theo mặc định, máy tính (or virtual machine) will cặp địa chỉ MAC and IP liên kết with nhau nhằm chống giả mạo information. Điều this có nghĩa là with traffic đến 1 địa chỉ IP, traffic will is gửi đến máy có địa chỉ MAC corresponding. 
+  * Tính năng Allow IP address pair for phép thêm cặp địa chỉ IP (or CIDR) and địa chỉ MAC ando 1 interface (card NIC) of instance. Từ that người quản trị can tận dụng feature for nhiều mục đích, đặc biệt là cấu hình HA (High Availability)
 
 01Initial Setup 
 02Hướng dẫn nhanh (Quick Starts) 

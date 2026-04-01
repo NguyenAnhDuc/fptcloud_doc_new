@@ -24,5 +24,5 @@ Configure **Interfaces** , **Action** , **Service** and the **Security Profiles*
   * **Service:** Select **ALL**.
   * **NAT:** **Use Outgoing Interface Address** – NAT sử dụng IP public has been NAT qua Port 2 (WAN).[![Userguide Fortigate FPT NGFW 2022 11](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-11-102-c05de940.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-11-102-c05de940.png)
 
-Add thêm the Security profile to bảo vệ hệ thống bởi the mối nguy hại from Internet.
+Add thêm the Security profile to bảo vệ system bởi the mối nguy hại from Internet.
   * **SSL Inspection:** Chuyển sang dạng deep-inspection. Requirements cài đặt certificate trên browser user. (Có thể download certificate bằng theh click ando **Deep-inspection** > **Edit** > **Download certificate**)

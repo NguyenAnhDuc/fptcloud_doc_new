@@ -7,7 +7,7 @@ sidebar_position: "3"
 
 # Configure Network Interfaces
 
-**Step 1:** Sau when has been cấu hình Interface quản trị (Port 1) trên CLI and has been truy cập giao diện web successfully. Dưới đây là hướng dẫn cấu hình a Interface thatng role LAN.  
+**Step 1:** Sau when has been cấu hình Interface quản trị (Port 1) trên CLI and has been truy cập interface web successfully. Dưới đây là guide cấu hình a Interface thatng role LAN.  
 [![Userguide Fortigate FPT NGFW 2022 3](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-3-1024-f1152674.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-3-1024-f1152674.png)  
 **Step 2:** Configure Interface thatng role WAN (Port 2).  
 [![Userguide Fortigate FPT NGFW 2022 4](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-4-1024-81285d65.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-4-1024-81285d65.png)  

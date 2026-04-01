@@ -7,9 +7,9 @@ sidebar_position: "3"
 
 # Hệ điều hành: Terraform hỗ trợ nhiều hệ điều hành như Linux, macOS, Windows.
 
-## **1. Requirements hệ thống**
+## **1. Requirements system**
   * Hệ điều hành: Terraform hỗ trợ nhiều hệ điều hành như Linux, macOS, Windows.
-  * Phiên bản: Phiên bản mới nhất of Terraform, đảm bảo tương thích with the nhà cung cấp service đám mây you is sử dụng.
+  * Phiên bản: Phiên bản mới nhất of Terraform, đảm bảo tương thích with the provider service đám mây you is sử dụng.
   * Quyền truy cập internet: Để tải về Terraform and the plugin.
 
 ## **2. Cài Đặt Terraform**
@@ -47,7 +47,7 @@ Copyterraform -v
 Vào **Sidebar** -> chọn mục **Token**
 [![file](/img/migrated/image-1723437528179-91f0c476.png)](/img/migrated/image-1723437528179-91f0c476.png)
 ## **5. Initialize FPT Cloud Provider**
-  * Check version and hướng dẫn cài đặt FPT Cloud Provider trên trang Terraform
+  * Check version and guide cài đặt FPT Cloud Provider trên trang Terraform
 
 [![file](/img/migrated/image-1723437534957-3c8ce6d5.png)](/img/migrated/image-1723437534957-3c8ce6d5.png)
   * Sử dụng lệnh “terraform init” to cài đặt FPT Cloud Provider:

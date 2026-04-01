@@ -5,7 +5,7 @@ sidebar_label: "Xem kết quả quét"
 sidebar_position: "12"
 ---
 
-# Xem kết quả quét
+# 表示 kết quả quét
 
   * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

@@ -9,9 +9,9 @@ sidebar_position: "4"
 
 **Step 1:** Trên menu **Network Management** > chọn **Network Interfaces** > chọn **Add**.  
 [![Userguide Checkpoint FPT NGFW 2022 4](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-4-102-be6940bd.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-4-102-be6940bd.png)  
-**Step 2:** Chọn loại Interface cần tạo.  
+**Step 2:** Chọn loại Interface need to tạo.  
 [![Userguide Checkpoint FPT NGFW 2022 5](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-5-102-126ffaea.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-5-102-126ffaea.png)  
-**Step 3:** Configure Interface theo thông tin quy hoạch
+**Step 3:** Configure Interface theo information quy hoạch
   * **Alias Interface:**[![Userguide Checkpoint FPT NGFW 2022 6](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-6-a8e211b4.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-6-a8e211b4.png)
   * **VLAN Interface:**[![Userguide Checkpoint FPT NGFW 2022 7](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-7-4c25fcc3.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-7-4c25fcc3.png)
   * **VXLAN Interface:**[![Userguide Checkpoint FPT NGFW 2022 8](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-8-ad10b6e7.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-8-ad10b6e7.png)
@@ -27,9 +27,9 @@ sidebar_position: "4"
 [![Userguide Checkpoint FPT NGFW 2022 16](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-16-10-4b291940.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-16-10-4b291940.png)
 **Step 2:** Ở Interface muốn sửa > chọn **Edit**.
 [![Userguide Checkpoint FPT NGFW 2022 17](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-17-10-045e6418.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-17-10-045e6418.png)
-**Step 3:** Enter the thông tin mới > chọn **OK** to lưu.
+**Step 3:** Enter the information mới > select **OK** to lưu.
 [![Userguide Checkpoint FPT NGFW 2022 18](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-18-ef3fe88e.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-18-ef3fe88e.png)
 **Step 1:** Trên menu **Network Management** > chọn **Network Interfaces**.  
 [![Userguide Checkpoint FPT NGFW 2022 19](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-19-10-c658f9ed.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-19-10-c658f9ed.png)  
-**Step 2:** Ở Interface muốn xóa > chọn **Delete** > chọn **OK** to xác nhận xóa Interface.  
+**Step 2:** Ở Interface muốn xóa > select **Delete** > select **OK** to xác nhận xóa Interface.  
 [![Userguide Checkpoint FPT NGFW 2022 20](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-20-10-fd95d46b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-20-10-fd95d46b.png)

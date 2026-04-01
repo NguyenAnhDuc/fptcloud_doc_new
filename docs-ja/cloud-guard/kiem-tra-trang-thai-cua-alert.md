@@ -5,7 +5,7 @@ sidebar_label: "Kiểm tra trạng thái của Alert"
 sidebar_position: "10"
 ---
 
-# Kiểm tra trạng thái của Alert
+# 確認 trạng thái của Alert
 
 Khi một Alert được tạo thành công, hệ thống sẽ liên tục đồng bộ thông tin lên FPT Portal, bạn có thể kiểm tra trạng thái hoạt động của các Alert theo hướng dẫn sau:
 Trên bảng quản trị **Alert** **Management** , tìm đến Alert cần theo dõi, trạng thái hoạt động của Alert sẽ nằm ở trường **State**.
@@ -14,4 +14,4 @@ Trong đó:
   * **OK:** Tài nguyên ứng với loại Alert đó đang hoạt động bình thường và không đạt ngưỡng cảnh báo.
   * **ALARM:** Một trong số những tài nguyên ứng với loại Alert đó đang đạt ngưỡng cảnh báo, đã gửi cảnh báo cho người nhận và tài nguyên đó vẫn chưa trở về trạng thái hoạt động bình thường.
 
-Lưu ý: Dữ liệu được đồng bộ với tần suất 5giây/lần
+注意: Dữ liệu được đồng bộ với tần suất 5giây/lần

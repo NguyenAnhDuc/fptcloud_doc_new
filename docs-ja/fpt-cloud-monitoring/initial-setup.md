@@ -5,7 +5,7 @@ sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# 初期設定
 
 1, Để bắt đầu sử dụng dịch vụ **FPT Cloud Monitoring** , bạn cần đăng nhập vào FPT Portal. 
 Hãy truy cập vào **<https://console.fptcloud.com>** và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ. 

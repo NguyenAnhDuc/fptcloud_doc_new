@@ -8,7 +8,7 @@ sidebar_position: "7"
 # FPT Event Gateway
 
   * [ ![](/img/migrated/settings-3-341b24da.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn chi tiết (Tutorial)  ](javascript: "Hướng dẫn chi tiết \(Tutorial\) ")
+  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\) ")
 
 Manage Security
   * 

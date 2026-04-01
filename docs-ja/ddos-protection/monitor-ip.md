@@ -8,7 +8,7 @@ sidebar_position: "4"
 # Monitor các IP đang được bảo vệ
 
 Người dùng có thể monitor hệ thống và sự bảo vệ thông qua dashboard do FPT Cloud Portal cung cấp.
-**Bước 1** : Người dùng vào màn hình danh sách IP đang được bảo vệ và chọn IP cần kiểm tra
+**ステップ1:** Người dùng vào màn hình danh sách IP đang được bảo vệ và chọn IP cần kiểm tra
 [![file](/img/migrated/image-1750405781163-2bd000bd.png)](/img/migrated/image-1750405781163-2bd000bd.png)
 **Bước 2a** : Với IP đang được bảo vệ và không có bị tấn công trong tháng, hệ thống sẽ hiện thị màn hình thông báo IP đang được bảo vệ an toàn và chưa ghi nhận sự tấn công.
 [![file](/img/migrated/image-1750405795153-92b66506.png)](/img/migrated/image-1750405795153-92b66506.png)

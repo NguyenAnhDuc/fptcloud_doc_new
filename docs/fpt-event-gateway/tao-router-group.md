@@ -9,9 +9,9 @@ sidebar_position: "12"
 
 Để tạo mới Router group, user thực hiện the bước sau: 
 **Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Step 2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Router group**
-**Bước** 3: Tại danh sách **Router group** > chọn **Create >** displayed màn hình **Create router group**
-**Step 4** : Enter the thông tin: 
+**Step 2:** Tại list **Event Gateway** > chọn **Event Gateway** > chọn **tab Router group**
+**Bước** 3: Tại list **Router group** > chọn **Create >** displayed màn hình **Create router group**
+**Step 4** : Enter the information: 
   * **Name (required):** Tên **Router group**
     * Bao gồm a-z, A-Z, -, _ and số; bắt đầu bằng chữ cái; tối đa 30 ký tự 
   * **Description** (optional): Mô tả 

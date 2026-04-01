@@ -8,13 +8,13 @@ sidebar_position: "11"
 # Manage member
 
 Chỉ **Org Admin** có permission chỉnh sửa
-**Step 1** : Ở phần **Organization** , nhấn ando **Member** to xem danh sách thành viên cùng the Action can tạo with member
+**Step 1** : Ở phần **Organization** , nhấn ando **Member** to xem list thành viên cùng the Action can tạo with member
 [![anhfsec](/img/migrated/om1-3fa2dd3a.png)](/img/migrated/om1-3fa2dd3a.png)
 Lúc this you can xem **Name** , **Email** , **Org Units** , **Role** , **Status** , **joined date** and can thao tác như **Add Member** , **Edit** , **Disable/Enable** and **Remove** with the thành viên.
 [![anhfsec](/img/migrated/anhb12-8de853b7.png)](/img/migrated/anhb12-8de853b7.png)
-**Step 2** : Nhấn ando hyperlink ở **Member Name** , to xem thông tin chi tiết of thành viên
+**Step 2** : Nhấn ando hyperlink ở **Member Name** , to xem information details of thành viên
 [![anhfsec](/img/migrated/anhb21-3100c74f.png)](/img/migrated/anhb21-3100c74f.png)
-Ở phần this, you can xem the thông tin như **Org Units** , **Role** ,**Status** , **Added By** and **Added Date**
+Ở phần this, you can xem the information như **Org Units** , **Role** ,**Status** , **Added By** and **Added Date**
 [![anhfsec](/img/migrated/anhb22-c0e01d58.png)](/img/migrated/anhb22-c0e01d58.png)
 ## Add Member
 Chỉ **Org Admin** có permission chỉnh sửa
@@ -22,11 +22,11 @@ Chỉ **Org Admin** có permission chỉnh sửa
 [![anhfsec](/img/migrated/nhanaddmem-0164d52e.png)](/img/migrated/nhanaddmem-0164d52e.png)
 Lúc this you can xem **Name** , **Email** , **Org Units** , **Role** , **Status** , **joined date** and can thao tác như **Add Member** , **Edit** , **Disable/Enable** and **Remove** with the thành viên.
 [![anhfsec](/img/migrated/memb12-54ddc0fb.png)](/img/migrated/memb12-54ddc0fb.png)
-**Step 2** : Chọn thông tin **Organization Unit** , **Member** and **Role**
+**Step 2** : Chọn information **Organization Unit** , **Member** and **Role**
 [![anhfsec](/img/migrated/memb2-b6e91c9d.png)](/img/migrated/memb2-b6e91c9d.png)
 **Step 3** : Click **Save**
 [![anhfsec](/img/migrated/memb3-c4aff71d.png)](/img/migrated/memb3-c4aff71d.png)
-## Chỉnh sửa Member
+## Edit Member
 Chỉ **Org Admin** có permission chỉnh sửa
 **Step 1** : Nhấn ando phần **Edit** ở phần **Action** of **Member**
 [![anhfsec](/img/migrated/E1-935cb7e9.png)](/img/migrated/E1-935cb7e9.png)

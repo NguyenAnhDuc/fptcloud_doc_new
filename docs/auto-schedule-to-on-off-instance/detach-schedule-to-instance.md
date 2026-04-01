@@ -5,9 +5,9 @@ sidebar_label: "Gỡ một hoặc nhiều máy ảo vào instance schedule"
 sidebar_position: "9"
 ---
 
-# Gỡ một hoặc nhiều máy ảo vào instance schedule
+# Remove a or nhiều virtual machine ando instance schedule
 
-Bạn có thể gỡ các máy ảo ra khỏi schedule khi không còn nhu cầu sử dụng. Sau khi gỡ, máy ảo sẽ đứng yên ở trạng thái lúc gỡ đến khi nào bạn thao tác tay lại mới thay đổi. 
-**Bước 1** : Trên bảng quản trị **Instance Schedule Management,** trong phần **Action** , chọn **Apply instances**
-**Bước 2** : Chọn dấu “x” bên cạnh tên các instances muốn gỡ để thực hiện thao tác gỡ máy ảo khỏi schedule (bạn cũng có thể click vào dấu “x” ở cuối listbox để gỡ cùng lúc toàn bộ máy ảo khỏi schedule), sau đó chọn **Apply instances**.
+Bạn can gỡ the virtual machine ra khỏi schedule when không còn nhu cầu sử dụng. Sau when gỡ, virtual machine will đứng yên ở status lúc gỡ đến when nào you thao tác tay lại mới thay đổi. 
+**Step 1:** Trên bảng quản trị **Instance Schedule Management,** in phần **Action** , chọn **Apply instances**
+**Step 2:** Chọn dấu “x” bên cạnh tên the instances muốn gỡ to thực hiện thao tác gỡ virtual machine khỏi schedule (you cũng can click ando dấu “x” ở cuối listbox to gỡ cùng lúc toàn bộ virtual machine khỏi schedule), sau that chọn **Apply instances**.
 [![file](/img/migrated/image-1695609097406-f1f13ac3.png)](/img/migrated/image-1695609097406-f1f13ac3.png)

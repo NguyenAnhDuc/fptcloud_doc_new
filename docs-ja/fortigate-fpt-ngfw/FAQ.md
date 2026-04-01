@@ -5,7 +5,7 @@ sidebar_label: "よくある質問"
 sidebar_position: "11"
 ---
 
-# Câu hỏi thường gặp
+# よくある質問
 
 ## Fortigate là gì?
 FortiGate hay Firewall Fortinet là các thiết bị bảo mật đa lớp thế hệ tiếp theo dưới dạng tường lửa của Fortinet. Fortigate được tích hợp các tính năng hàng đầu để cung cấp một giải pháp toàn diện trong việc bảo mật thông tin cũng như là bảo vệ hệ thống mạng nội bộ tại các doanh nghiệp hay tổ chức với mọi quy mô.  
@@ -18,7 +18,7 @@ Hãy cùng điểm qua những tính năng vượt trội của sản phẩm For
   * **Bảo mật cao cấp:** Các giải pháp bảo mật nâng cao giúp ngăn chặn truy cập trái phép, phân vùng truy cập và bộ lọc gói tin một cách rõ ràng.
   * **Quản lý mạng theo hướng tự động hoá:** Giữ quyền kiểm soát với khả năng hiển thị qua lưu lượng truy cập mạng, kiểm soát chính sách một cách chi tiết và trực quan, giúp mở rộng khả năng bảo mật và quản lý mạng.
 
-## Sao lưu và phục hồi cấu hình Firewall như thế nào?
+## バックアップ và phục hồi cấu hình Firewall như thế nào?
 **FortiGate** hỗ trợ việc sao lưu và phục hồi cấu hình 1 cách đơn giản và thuận tiện.  
 Login vào hệ thống, chọn **System configuration**.
 [![Userguide Fortigate FPT NGFW 2022 37](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)

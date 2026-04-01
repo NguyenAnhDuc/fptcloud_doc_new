@@ -7,7 +7,7 @@ sidebar_position: "9"
 
 # Hướng dẫn tích hợp K8s
 
-## Bước 1: Truy cập chức năng Monitoring
+## ステップ1: Truy cập chức năng Monitoring
 
 - Trên Console Portal, truy cập chi tiết một Cluster
 - Chọn tab Monitoring
@@ -16,7 +16,7 @@ Hệ thống hiển thị màn hình tích hợp Monitoring.
 
 [![Alt text](/img/migrated/Screenshot_20-99aa1fa8.png)](/img/migrated/Screenshot_20-99aa1fa8.png)
 
-## Bước 2: Tích hợp/huỷ tích hợp
+## ステップ2: Tích hợp/huỷ tích hợp
 
 ### 1. Tích hợp (Integrate)
 
@@ -44,7 +44,7 @@ Tắt thu thập metrics/logs cho database cluster.
 
 <ảnh minh họa đang cập nhật>
 
-## Bước 3: Truy cập dashboard Grafana và xem thông tin monitoring
+## ステップ3: Truy cập dashboard Grafana và xem thông tin monitoring
 
 - Sau khi tích hợp giám sát thành công (Integrated Status = "Enabled"), click vào Dashboard URL
 

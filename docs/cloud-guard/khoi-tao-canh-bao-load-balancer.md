@@ -21,10 +21,10 @@ FPT Cloud Guard hỗ trợ đặt cảnh báo for những Load balancer met
 | 7  | Active connection  | connection  | Số lượng connection is kết nối tới Load balancer, một connection có thể có nhiều request (ccu)  |  
 | 8  | Percentage of backend down  | % (percentage)  | Phần trăm số backend is down (unhealthy) của Load balancer  |  
 | 9  | Number of backends down  | number of backends  | Số lượng backend is down (unhealthy) của Load balancer  |  
-| 10  | Total packet In/Out per second  | packet/s  | Tổng lượng packet is Load balancer xử lý theo hướng In or Out. Chỉ số giúp user nắm bắt mức độ tải thực tế qua LB from that phát hiện thời điểm hệ thống tăng tải bất thường  |  
+| 10  | Total packet In/Out per second  | packet/s  | Tổng lượng packet is Load balancer xử lý theo hướng In or Out. Chỉ số giúp user nắm bắt mức độ tải thực tế qua LB from that phát hiện thời điểm system tăng tải bất thường  |  
 | 11  | Drop packet In/Out per second  | packet/s  | Tổng lượng packet qua Load balancer nhưng bị rớt mỗi giây. Chiều In/Out vượt ngưỡng will bắn alert. Chỉ số phản ánh tình trạng rớt gói dùng to phát hiện lỗi gián đoạn kết nối qua LB or quá tải LB  |  
-| 12  | Provisioning status Pending  | N/A  | Khi Load balancer có status provisioning (khởi tạo/cập nhật/thay đổi cấu hình) - Provisioning status là Pending, hệ thống will gửi alert. Giúp user nhanh chóng phát hiện status bất thường of LB to kịp thời xử lý  |  
-| 13  | Operating status Unhealthy  | N/A  | Khi Load balancer có status hoạt động - Operating status là Unhealthy, hệ thống will gửi alert. Giúp user nhanh chóng phát hiện status bất thường of LB to kịp thời xử lý.  |  
+| 12  | Provisioning status Pending  | N/A  | Khi Load balancer có status provisioning (khởi tạo/cập nhật/thay đổi cấu hình) - Provisioning status là Pending, system will gửi alert. Giúp user nhanh chóng phát hiện status bất thường of LB to kịp thời xử lý  |  
+| 13  | Operating status Unhealthy  | N/A  | Khi Load balancer có status hoạt động - Operating status là Unhealthy, system will gửi alert. Giúp user nhanh chóng phát hiện status bất thường of LB to kịp thời xử lý.  |  
 Cấu hình điều kiện cảnh báo (Configure condition) as follows:  
 | STT  | Trường  | Mô tả  |  
 | --- | --- | --- |  

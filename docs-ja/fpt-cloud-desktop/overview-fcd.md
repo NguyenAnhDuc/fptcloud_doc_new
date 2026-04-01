@@ -5,7 +5,7 @@ sidebar_label: "詳細紹介"
 sidebar_position: "2"
 ---
 
-# Giới thiệu chi tiết
+# 詳細紹介
 
 ## Lợi thế so với PC Truyền thống
   * Bảo mật dữ liệu: Lưu trữ mã hóa, quản lý tập trung và giới hạn truy cập
@@ -32,11 +32,11 @@ sidebar_position: "2"
 - Mỗi người dùng có thể được cấp phát/sử dụng nhiều máy ảo đồng thời với các thông số cấu hình và hệ điều hành khác nhau  |  
 | **Desktop Pool**  | Nhóm máy ảo  | Pool  | - Một nhóm gồm nhiều máy ảo có chung hạ tầng xử lý và lưu trữ Cloud  
 - Thông thường dùng để gom nhóm máy ảo theo Bộ phận, Chức năng, Khung giờ sử dụng, v.v.  |  
-| **Operating System**  | Hệ điều hành  | OS  | Ví dụ: Microsoft Windows, macOS  |  
+| **Operating System**  | Hệ điều hành  | OS  | 例: Microsoft Windows, macOS  |  
 | **End-User / User**  | Người dùng cuối  | N/A  | Người dùng cuối sử dụng máy ảo FCD  
 Người dùng có thể:  
-- Đăng nhập vào FCD User Portal  
-- Truy cập vào máy ảo được cấp phát  
+- にログインします FCD User Portal  
+- にアクセスします máy ảo được cấp phát  
 - Sử dụng máy ảo như máy tính vật lý thông thường  |  
 | **Supported Device**  | Thiết bị hỗ trợ  | N/A  | Thiết bị có thể sử dụng và truy cập vào máy ảo được cấp phát  |  
 | **Local Device**  | Thiết bị kết nối  | N/A  | Thiết bị được sử dụng để thực hiện kết nối vào máy ảo  |  

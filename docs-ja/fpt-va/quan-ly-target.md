@@ -5,7 +5,7 @@ sidebar_label: "管理 Target"
 sidebar_position: "3"
 ---
 
-# Quản lý Target
+# 管理 Target
 
   * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

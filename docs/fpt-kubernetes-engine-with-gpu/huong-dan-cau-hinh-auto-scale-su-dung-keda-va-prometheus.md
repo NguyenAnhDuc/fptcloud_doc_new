@@ -5,19 +5,19 @@ sidebar_label: "Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prome
 sidebar_position: "12"
 ---
 
-# Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prometheus
+# Hướng dẫn cấu hình Auto Scale sử dụng KEDA and Prometheus
 
 [![](/img/migrated/Picture3-2-a84e2a0e.png)](/img/migrated/Picture3-2-a84e2a0e.png)
 ## Yêu cầu
   * Cụm kubernetes có gắn GPU
-  * Ứng dụng GPU đang ở trạng thái running
-  * Đã cài đặt gói kube-prometheus-stack và prometheus-adapter ở dịch vụ FPT App Catalog như docs
-[Hướng dẫn cấu hình Auto Scale cho FPT Kubernetes Engine GPU sử dụng GPU Custom Metric](https://www.notion.so/H-ng-d-n-c-u-h-nh-Auto-Scale-cho-FPT-Kubernetes-Engine-GPU-s-d-ng-GPU-Custom-Metric-d7a7d2d5a4bc495d8468b7ae169fbf1e?pvs=21)
+  * Ứng dụng GPU is ở status running
+  * Đã cài đặt gói kube-prometheus-stack and prometheus-adapter ở service FPT App Catalog như docs
+[Hướng dẫn cấu hình Auto Scale for FPT Kubernetes Engine GPU sử dụng GPU Custom Metric](https://www.notion.so/H-ng-d-n-c-u-h-nh-Auto-Scale-for-FPT-Kubernetes-Engine-GPU-s-d-ng-GPU-Custom-Metric-d7a7d2d5a4bc495d8468b7ae169fbf1e?pvs=21)
 
 ## Các bước cấu hình:
-### Bước 1: Cài đặt KEDA
+### Step 1: Cài đặt KEDA
   * Cách 1: Sử dụng FPT App Catalog
-Chọn dịch vụ FPT Cloud App Catalog sau đó tìm kiếm KEDA trong Repository fptcloud-catalogs
+Chọn service FPT Cloud App Catalog sau that tìm kiếm KEDA in Repository fptcloud-catalogs
   * Cách 2: Sử dụng helm chart
 
 ```
@@ -26,7 +26,7 @@ helm repo update
 helm install keda kedacore/keda --namespace keda --create-namespace
 ```
 
-  * Kiểm tra xem các pod của KEDA đã hoạt động bình thường hay chưa
+  * Check xem the pod of KEDA has been hoạt động bình thường hay chưa
 
 ```
 Copykubectl -n keda get pod
@@ -54,7 +54,7 @@ replicaset.apps/keda-operator-567cb596fd                     1         1        
 replicaset.apps/keda-operator-metrics-apiserver-6475bf5fff   1         1         1       3d2h
 ```
 
-Bước 2: Kiểm tra prometheus đã có các metric GPU hay chưa
+Step 2: Check prometheus has been có the metric GPU hay chưa
 
 ```
 Copykubectl get --raw /apis/custom.metrics.k8s.io/v1beta1 | jq -r . | grep DCGM
@@ -108,7 +108,7 @@ Copy"name": "namespaces/DCGM_FI_DEV_POWER_USAGE",
 "name": "jobs.batch/DCGM_FI_PROF_DRAM_ACTIVE",
 ```
 
-### Bước 3: Tạo ScaledObject để chỉ định autoscale cho Ứng dụng
+### Step 3: Create ScaledObject to chỉ định autoscale for Ứng dụng
   * Manifest
 
 ```
@@ -129,9 +129,9 @@ spec:
 ```
 
   * _name_ : Tên Deployment GPU ở ví dụ là `gpu-test`
-  * _serverAddress:_ Endpoint của Prometheus server ở ví dụ là `http://prometheus-kube-prometheus-prometheus.prometheus.svc.cluster.local:9090`
-  * _query_ : Câu lệnh PromQL để tìm ra giá trị dựa vào đó tiến hành autoscale, ở trên ví dụ là tìm các giá trị trung bình của biến `DCGM_FI_PROF_GR_ENGINE_ACTIVE`
-  * _threshold_ : giá trị đạt ngưỡng để bắt đầu active autoscale, ở ví dụ là `0.8`
+  * _serverAddress:_ Endpoint of Prometheus server ở ví dụ là `http://prometheus-kube-prometheus-prometheus.prometheus.svc.cluster.local:9090`
+  * _query_ : Câu lệnh PromQL to tìm ra giá trị dựa ando that tiến hành autoscale, ở trên ví dụ là tìm the giá trị trung bình of biến `DCGM_FI_PROF_GR_ENGINE_ACTIVE`
+  * _threshold_ : giá trị đạt ngưỡng to bắt đầu active autoscale, ở ví dụ là `0.8`
 
-Như vậy như ví dụ trên, mỗi khi có giá trị trung bình của`DCGM_FI_PROF_GR_ENGINE_ACTIVE` lớn hơn `0.8` thì ScaledObject sẽ thực hiện scale các pod của Deployment name `gpu-test`.
-Sau khi tạo ScaledObject, deployment sẽ tự động scale về 0, như vậy là đã cấu hình thành công.
+Như vậy như ví dụ trên, mỗi when có giá trị trung bình of`DCGM_FI_PROF_GR_ENGINE_ACTIVE` lớn hơn `0.8` thì ScaledObject will thực hiện scale the pod of Deployment name `gpu-test`.
+Sau when tạo ScaledObject, deployment will tự động scale về 0, như vậy là has been cấu hình successfully.
