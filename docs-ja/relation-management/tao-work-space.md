@@ -1,11 +1,10 @@
 ---
 id: "tao-work-space"
 title: "Tao Work Space"
-description: "Tao Work Space 関係管理の機能。"
 sidebar_label: "Tao Work Space"
 sidebar_position: "4"
 ---
 
 # Tao Work Space
 
-Tao Work Space 関係管理の機能。
+Để truy cập được vào dịch vụ **Relation management** , bạn cần được cấp quota dịch vụ. Hãy liên hệ với chúng tôi để được tạo workspace và active dịch vụ nếu có nhu cầu sử dụng.

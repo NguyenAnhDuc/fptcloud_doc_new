@@ -1,11 +1,10 @@
 ---
 id: "fqas-4"
 title: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
-description: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu? on resource requests."
 sidebar_label: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
 sidebar_position: "8"
 ---
 
-# Vì sao tôi không tìm thấy phần Request Resource ở thành menu?
+# Fqas 4
 
-Vì sao tôi không tìm thấy phần Request Resource ở thành menu? on resource requests.
+Nếu bạn không có quyền VPC Owner hoặc Tenant Owner thì bạn không thể tạo yêu cầu cung cấp tài nguyên. Hãy liên hệ với đội ngũ hỗ trợ của FCI để được hỗ trợ cấp quyền.

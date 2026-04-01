@@ -1,11 +1,11 @@
 ---
 id: "service-status"
 title: "Service Status"
-description: "Service Status FPT Cloud WAPPLESの機能。"
 sidebar_label: "Service Status"
 sidebar_position: "5"
 ---
 
 # Service Status
 
-Service Status FPT Cloud WAPPLESの機能。
+Thống kê lưu lượng traffic đi qua wapple đến các ip/website được add policy và nằm sau Wapples
+![file](/img/migrated/image-1714112376191-644662e9.png)

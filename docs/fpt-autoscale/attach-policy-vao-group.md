@@ -1,11 +1,15 @@
 ---
 id: "attach-policy-vao-group"
 title: "Attach Policy vào Group"
-description: "Attach Policy vào Group on FPT Autoscale."
 sidebar_label: "Attach Policy vào Group"
 sidebar_position: "15"
 ---
 
 # Attach Policy vào Group
 
-Attach Policy vào Group on FPT Autoscale.
+##  **Step 1:** Truy cập trang **Autoscaling > Autoscale Group**. Click vào tên group cần gắn policy.
+[![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)
+##  **Step 2:** Chuyển sang tab **Policy** , chọn **Attach policy**.
+[![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)
+##  **Step 3:** Một hộp thoại sẽ xuất hiện, chọn policy cần attach và chọn **Attach**.
+[![](/img/migrated/placeholder.png)](/img/migrated/placeholder.png)

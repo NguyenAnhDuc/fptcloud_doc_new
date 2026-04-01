@@ -1,11 +1,10 @@
 ---
 id: "tich-hop-monitoring-database"
 title: "Tích hợp Monitoring Database"
-description: "Tích hợp Monitoring Database Grafana利用ガイドの機能。"
 sidebar_label: "Tích hợp Monitoring Database"
 sidebar_position: "14"
 ---
 
 # Tích hợp Monitoring Database
 
-Tích hợp Monitoring Database Grafana利用ガイドの機能。
+Monitoring trong FPT Database Engine được tích hợp với hệ thống FPT Monitoring để thu thập metrics và logs, đồng thời cung cấp dashboard và cảnh báo khi cần thiết. Hướng dẫn này mô tả cách truy cập, cấu hình và sử dụng Monitoring để theo dõi sức khỏe và hiệu suất của database clusters trên FPT Cloud Portal.

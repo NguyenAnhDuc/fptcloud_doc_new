@@ -1,11 +1,12 @@
 ---
 id: "view-performed-transactions"
 title: "Xem transaction đã thực hiện"
-description: "Xem transaction đã thực hiện on FPT Cloud Portal PAYG."
 sidebar_label: "Xem transaction đã thực hiện"
 sidebar_position: "15"
 ---
 
 # Xem transaction đã thực hiện
 
-Xem transaction đã thực hiện on FPT Cloud Portal PAYG.
+Khách hàng có thể xem transaction đã thực hiện trên hệ thống gồm:
+  * Nạp tiền: qua VNPAY, gifcode
+  * Thanh toán tiền vào cuối tháng [![file](/img/migrated/image-1694074021823-af272904.png)](/img/migrated/image-1694074021823-af272904.png)

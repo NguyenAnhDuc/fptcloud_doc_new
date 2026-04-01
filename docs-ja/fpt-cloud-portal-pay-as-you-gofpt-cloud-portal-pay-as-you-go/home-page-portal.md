@@ -1,11 +1,14 @@
 ---
 id: "home-page-portal"
 title: "Trang chủ của hệ thống Portal"
-description: "Trang chủ của hệ thống Portal FPT Cloud Portal PAYGの機能。"
 sidebar_label: "Trang chủ của hệ thống Portal"
 sidebar_position: "6"
 ---
 
 # Trang chủ của hệ thống Portal
 
-Trang chủ của hệ thống Portal FPT Cloud Portal PAYGの機能。
+Trang chủ hệ thống Unify Portal gồm những thông tin:
+• Available Services: danh sách các dịch vụ đã hộ trợ hình thức thanh toán PAYG
+• Upcoming Services: các dịch vụ sắp hỗ trợ hình thức thanh toán PAYG
+• Balance: tài khoản của khách hàng
+[![file](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)

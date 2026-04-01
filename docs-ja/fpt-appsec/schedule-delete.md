@@ -1,11 +1,13 @@
 ---
 id: "schedule-delete"
 title: "Hướng dẫn xóa schedule"
-description: "Hướng dẫn xóa schedule FPT AppSecの機能。"
 sidebar_label: "Hướng dẫn xóa schedule"
 sidebar_position: "32"
 ---
 
 # Hướng dẫn xóa schedule
 
-Hướng dẫn xóa schedule FPT AppSecの機能。
+Tại màn hình Schedule Management, chọn chọn dấu ⋮ ở mỗi schedule > Delete để thực hiện xóa 1 schedule: 
+[![Alt text](/img/migrated/Picture22-e6ff757e.png)](/img/migrated/Picture22-e6ff757e.png)
+Hệ thống hiển thị pop-up confirm, nhập _“delete”_ rồi ấn **Confirm** để xác nhận xóa schedule:
+[![Alt text](/img/migrated/Picture23-c5dd269b.png)](/img/migrated/Picture23-c5dd269b.png)

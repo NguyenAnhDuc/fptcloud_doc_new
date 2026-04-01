@@ -1,11 +1,10 @@
 ---
 id: "quan-ly-credential"
 title: "Quản lý Credential"
-description: "Quản lý Credential on FPT Jenkins CI."
 sidebar_label: "Quản lý Credential"
 sidebar_position: "10"
 ---
 
 # Quản lý Credential
 
-Quản lý Credential on FPT Jenkins CI.
+FPT Cloud hỗ trợ người dùng quản lý một số loại credential thông qua giao diện portal bao gồm các loại: Secret text, Username with password, GitLab API token, SSH Username with private key
