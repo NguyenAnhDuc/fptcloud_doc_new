@@ -402,7 +402,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Object Storage',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'object-storage/initial-setup', label: 'Thiết lập ban đầu' },

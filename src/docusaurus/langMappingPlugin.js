@@ -14,6 +14,7 @@ import matter from 'gray-matter';
 // For EN/VI↔JA: all differ.
 const SECTION_EQUIVALENTS = [
   // [en, vi, ja]
+  // --- Modules with different folder names across locales ---
   ['tagging',                         'tagging',                         'タグ-付け'],
   ['budget-alert',                     'budget-alert',                    '予算アラート'],
   ['cost-explorer',                    'cost-explorer',                   'コストエクスプローラー'],
@@ -24,15 +25,29 @@ const SECTION_EQUIVALENTS = [
   ['data-hub',                         null,                              'data-hub-ja'],
   ['model-fine-tuning',               null,                              'model-fine-tuning-ja'],
   ['gpu-virtual-machine-en',          null,                              'gpu-virtual-machine'],
-  ['managed-fpt-kubernetes-engine',    'managed-fpt-kubernetes-engine',  'managed-gpu-cluster-kubernetes-ja'],
   ['fpt-app-catalogs',                 'app-catalogs',                    null],
-  ['fpt-message-bus',                  'fpt-message-bus-for-rabbitmq',    null],
-  ['fpt-object-storage',               'object-storage',                  null],
-  ['user-token',                       'token',                           null],
+  ['fpt-message-bus',                  'fpt-message-bus-for-rabbitmq',    'fpt-message-bus'],
+  ['fpt-object-storage',               'object-storage',                  'fpt-object-storage'],
+  ['user-token',                       'token',                           'user-token'],
   [null,                               'policy-management',               'ポリシー管理'],
   [null,                               null,                              'metal-cloud-ja'],
   [null,                               null,                              'モデルテスト'],
-  [null,                               null,                              'gpu-virtual-machine'],
+
+  // --- Modules with SAME folder name across all 3 locales ---
+  ['cloud-server',                     'cloud-server',                    'cloud-server'],
+  ['managed-fpt-kubernetes-engine',    'managed-fpt-kubernetes-engine',   'managed-fpt-kubernetes-engine'],
+  ['dedicated-fpt-kubernetes-engine',  'dedicated-fpt-kubernetes-engine', 'dedicated-fpt-kubernetes-engine'],
+  ['managed-fpt-database-engine',      'managed-fpt-database-engine',     'managed-fpt-database-engine'],
+  ['fpt-api-management',               'fpt-api-management',              'fpt-api-management'],
+  ['iam',                              'iam',                             'iam'],
+  ['load-balancer',                    'load-balancer',                   'load-balancer'],
+  ['fpt-argocd',                       'fpt-argocd',                      'fpt-argocd'],
+  ['fpt-cloud-waf',                    'fpt-cloud-waf',                   'fpt-cloud-waf'],
+  ['fpt-container-registry',           'fpt-container-registry',          'fpt-container-registry'],
+  ['fpt-kafka',                        'fpt-kafka',                       'fpt-kafka'],
+  ['fpt-key-vault',                    'fpt-key-vault',                   'fpt-key-vault'],
+  ['incident-management',              'incident-management',             'incident-management'],
+  ['trellix-customer-guide',           'trellix-customer-guide',          'trellix-customer-guide'],
 ];
 
 const LANG_CONFIGS = [
