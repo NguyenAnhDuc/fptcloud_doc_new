@@ -1,12 +1,12 @@
 ---
 id: "access-clusters-detail-information"
-title: "Access Clusters Detail Information"
+title: "Access cluster detail information"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Access Clusters Detail Information"
+sidebar_label: "Access cluster detail information"
 sidebar_position: 6
 ---
 
-# Access Clusters Detail Information
+# Access cluster detail information
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose the **Managed** tab. Select the Cluster you want to view detailed information about.
 [![](/img/migrated/8-c8cfd8da.png)](/img/migrated/8-c8cfd8da.png)

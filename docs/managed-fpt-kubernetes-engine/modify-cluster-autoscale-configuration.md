@@ -1,13 +1,13 @@
 ---
 id: "modify-cluster-autoscale-configuration"
-title: "Modify Cluster Autoscale Configuration"
+title: "Modify cluster autoscale configuration"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Modify Cluster Autoscale Configuration"
+sidebar_label: "Modify cluster autoscale configuration"
 sidebar_position: 16
 pagination_next: null
 ---
 
-# Modify Cluster Autoscale Configuration
+# Modify cluster autoscale configuration
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to customize the Cluster Autoscale configuration.
 [![](/img/migrated/34-1-51e37dcc.png)](/img/migrated/34-1-51e37dcc.png)

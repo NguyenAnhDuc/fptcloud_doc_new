@@ -1,12 +1,12 @@
 ---
 id: "why-you-should-use-gpu-in-k8s"
-title: "Why You Should Use Gpu In K8S"
+title: "Why use GPU on Kubernetes"
 description: "Kubernetes currently supports GPUs, making it easy to configure and utilize GPU resources for accelerating workloads suc"
-sidebar_label: "Why You Should Use..."
+sidebar_label: "Why use GPU on Kubernetes"
 sidebar_position: 33
 ---
 
-# Why You Should Use Gpu In K8S
+# Why use GPU on Kubernetes
 
 Kubernetes currently supports GPUs, making it easy to configure and utilize GPU resources for accelerating workloads such as data science, machine learning, and especially deep learning. Kubernetes provides GPUs as a resource type, and device plug-ins enable Pods to access specialized hardware features like GPUs and schedule them as schedulable resources. GPU inherits all the advantages of K8s:
   * **Containerization** : Containers are lightweight, don't require a full operating system, and instead run with a shared OS kernel, making them smaller, faster, and more portable than traditional virtual machines.

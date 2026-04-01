@@ -1,12 +1,12 @@
 ---
 id: "gpu-sharing"
-title: "Gpu Sharing"
+title: "GPU sharing"
 description: "One of the significant advantages of using GPUs on K8s is the ability to share GPUs. Most workloads do not require the f"
-sidebar_label: "Gpu Sharing"
+sidebar_label: "GPU sharing"
 sidebar_position: 34
 ---
 
-# Gpu Sharing
+# GPU sharing
 
 One of the significant advantages of using GPUs on K8s is the ability to share GPUs. Most workloads do not require the full memory and computing resources of individual GPUs. Therefore, sharing GPUs among multiple processes is essential to increase GPU utilization and reduce infrastructure costs.
 GPU sharing currently has three mechanisms:

@@ -1,12 +1,12 @@
 ---
 id: "what-is-gpu"
-title: "What Is Gpu"
+title: "What is GPU"
 description: "**Graphics Processing Units** – GPUs are processors that utilize parallel processing and high memory bandwidth to perfor"
-sidebar_label: "What Is Gpu"
+sidebar_label: "What is GPU"
 sidebar_position: 31
 ---
 
-# What Is Gpu
+# What is GPU
 
 ## Definition
 **Graphics Processing Units** – GPUs are processors that utilize parallel processing and high memory bandwidth to perform specialized tasks such as accelerating graphics rendering, simultaneous calculations, and processing. GPUs have become essential for applications like electronic gaming, 3D image processing, video editing, cryptocurrency mining, and machine learning. GPUs are much faster and more efficient than CPUs in handling large-scale computational tasks.

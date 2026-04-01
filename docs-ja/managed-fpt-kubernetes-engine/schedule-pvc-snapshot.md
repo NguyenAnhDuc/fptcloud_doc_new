@@ -10,7 +10,7 @@ sidebar_position: 48
 
 Kubernetes 上の PV スナップショット機能に加えて、FPTCloud は Kubernetes の CronJob を通じて PVC スナップショットのスケジュールを設定するオプションを提供します。
 
-## 1. CronJob スナップショットスケジュールの設定
+## CronJob スナップショットスケジュールの設定
 
 **ステップ 1:** ServiceAccount と対応する ClusterRoleBinding を適用して、Kubernetes クラスター内の CronJob に権限を付与します。
 
@@ -75,7 +75,7 @@ spec:
           restartPolicy: OnFailure
 ```
 
-## 2. PVC スナップショットの CronJob スケジュールの削除
+## PVC スナップショットの CronJob スケジュールの削除
 
 PVC の自動スナップショットのスケジュールが不要になった場合は、作成した対応する CronJob を削除するだけです。
 

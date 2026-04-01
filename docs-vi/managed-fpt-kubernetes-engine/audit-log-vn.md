@@ -7,7 +7,7 @@ sidebar_position: 33
 pagination_next: null
 ---
 
-# Audit Log Vn
+# Audit Log
 
 Giới thiệu chung tính năng Audit Logs Security
 Audit Log nằm trong nhóm tính năng về Security được cung cấp self-service trên Unify portal thuộc sản phẩm MFKE hỗ trợ ghi lại toàn bộ hoạt động và yêu cầu API gửi đến kube-apiserver. Từ đó giúp truy xuất tác nhân nào, đã thực hiện hành động gì, vào thời điểm nào, các object bị tác động và kết quả của hành động đó. 

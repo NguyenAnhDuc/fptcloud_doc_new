@@ -1,12 +1,12 @@
 ---
 id: "gpu-fpt-cloud"
-title: "Managed – FPT Kubernetes Engine"
+title: "GPU on FPT Cloud"
 description: "All documents"
-sidebar_label: "Managed – FPT Kubernetes..."
+sidebar_label: "GPU on FPT Cloud"
 sidebar_position: 30
 ---
 
-# Managed – FPT Kubernetes Engine
+# GPU on FPT Cloud
 
 All documents
 FPT Security 

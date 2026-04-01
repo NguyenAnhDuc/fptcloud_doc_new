@@ -1,12 +1,12 @@
 ---
 id: "deploy-application-with-gpu-on-k8s"
-title: "Deploy Application With Gpu On K8S"
+title: "Deploy application with GPU on Kubernetes"
 description: "Kubernetes manages and utilizes GPU resources similar to how it manages CPU resources. Depending on the GPU specificatio"
-sidebar_label: "Deploy Application With Gpu..."
+sidebar_label: "Deploy application with GPU on Kubernetes"
 sidebar_position: 23
 ---
 
-# Deploy Application With Gpu On K8S
+# Deploy application with GPU on Kubernetes
 
 Kubernetes manages and utilizes GPU resources similar to how it manages CPU resources. Depending on the GPU specifications of the Worker Group, you need to configure GPU resources for applications running on Kubernetes accordingly.
 **Note:**

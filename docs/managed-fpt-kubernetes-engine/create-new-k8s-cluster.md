@@ -1,12 +1,12 @@
 ---
 id: "create-new-k8s-cluster"
-title: "Create New K8S Cluster"
+title: "Create a new Kubernetes cluster"
 description: "Note: Some mandatory conditions for performing this operation:"
-sidebar_label: "Create New K8S Cluster"
+sidebar_label: "Create a new Kubernetes cluster"
 sidebar_position: 4
 ---
 
-# Create New K8S Cluster
+# Create a new Kubernetes cluster
 
 Note: Some mandatory conditions for performing this operation:
   * **CPU, RAM, Storage** , and **Instance** quotas must be sufficient for the desired Cluster configuration.

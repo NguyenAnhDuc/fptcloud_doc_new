@@ -1,12 +1,12 @@
 ---
 id: "disable-cluster-autoscale"
-title: "Disable Cluster Autoscale"
+title: "Disable cluster autoscale"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Disable Cluster Autoscale"
+sidebar_label: "Disable cluster autoscale"
 sidebar_position: 15
 ---
 
-# Disable Cluster Autoscale
+# Disable cluster autoscale
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to disable Cluster Autoscale.
 [![](/img/migrated/30-1-afd6524b.png)](/img/migrated/30-1-afd6524b.png)

@@ -6,7 +6,7 @@ sidebar_label: "Các lưu ý khi sử dụng M-FKE"
 sidebar_position: 36
 ---
 
-# Cac Luu Y Khi Su Dung M Fke
+# Các lưu ý khi sử dụng MFKE
 
 ### 1. Sử dụng Namespaces
 Tạo namespace để phân chia ứng dụng hoặc môi trường để dễ dàng quản lý. Tránh sử dụng các namespace được hệ thống tạo sẵn để deploy ứng dụng.

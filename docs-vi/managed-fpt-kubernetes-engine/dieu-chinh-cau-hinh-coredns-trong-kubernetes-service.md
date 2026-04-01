@@ -6,7 +6,7 @@ sidebar_label: "Điều chỉnh cấu hình CoreDNS trong Kubernetes Service"
 sidebar_position: 44
 ---
 
-# Dieu Chinh Cau Hinh Coredns Trong Kubernetes Service
+# Điều chỉnh cấu hình CoreDNS trong Kubernetes
 
 FPT Managed Kubernetes Engine (M-FKE) sử dụng Coredns để quản lý và phân giải domain cho cluster. Thành phần Coredns được quản lý bởi FPT nên người dùng không thể thay đổi Corefile của Coredns. Bài hướng dẫn này chỉ ra cách mà người dùng có thể sử dụng configmap để điều chỉnh cấu hình CoreDNS mong muốn trong M-FKE.
 **Rewrite DNS:**

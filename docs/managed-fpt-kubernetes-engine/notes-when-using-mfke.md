@@ -1,12 +1,12 @@
 ---
 id: "notes-when-using-mfke"
-title: "Notes When Using Mfke"
+title: "Notes when using MFKE"
 description: "Create namespaces to divide applications or environments for easier management. Avoid using system-created namespaces fo"
-sidebar_label: "Notes When Using Mfke"
+sidebar_label: "Notes when using MFKE"
 sidebar_position: 27
 ---
 
-# Notes When Using Mfke
+# Notes when using MFKE
 
 ### 1. Use Namespaces:
 Create namespaces to divide applications or environments for easier management. Avoid using system-created namespaces for deploying applications.

@@ -6,7 +6,7 @@ sidebar_label: "Giới thiệu chung về quy trình quản lý version Kubernet
 sidebar_position: 26
 ---
 
-# Gioi Thieu Chung Ve Quy Trinh Quan Ly Version
+# Giới thiệu chung về quy trình quản lý version
 
 * FPTCloud release và update các kubernetes version theo tiêu chuẩn của cộng đồng Kubernetes Open Source Software (OSS). 
   * Định dạng phiên bản của kubernetes là x.y.z trong đó x là major version, major version được tăng từ (x.y) lên (x+1.y), y là minor version, các Deprecated APIs sẽ được xóa bỏ với minor version mới, minor version được tăng từ 1.y lên (1.y+1), ví dụ version 1.25 là minor release theo sau của 1.25. z là patch release, các bản vá, cập nhật với mục đích fix bug hay vá các lỗ hổng bảo mật của minor version sẽ được cập nhật qua patch release. 

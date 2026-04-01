@@ -1,12 +1,12 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
+title: "Initial setup"
 description: "If this is the first time you use the **FPT Kubernetes Engine** service, first, double-check that you have completed the"
-sidebar_label: "Initial Setup"
+sidebar_label: "Initial setup"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Initial setup
 
 If this is the first time you use the **FPT Kubernetes Engine** service, first, double-check that you have completed the following steps:
 ### 1. Create a FPT Cloud account and log in to the FPT Cloud Portal.

@@ -6,7 +6,7 @@ sidebar_label: "Tính năng GPU Sharing"
 sidebar_position: 42
 ---
 
-# Gpu Sharing
+# GPU Sharing
 
 Một trong những ưu điểm lớn nhất khi sử dụng GPU trên K8s là khả năng chia sẻ GPU. Hầu hết các khối lượng công việc không yêu cầu bộ nhớ đầy đủ và tài nguyên máy tính của từng GPU. Do đó, việc chia sẻ GPU giữa nhiều quy trình là điều cần thiết để tăng mức sử dụng GPU và giảm chi phí cơ sở hạ tầng. 
 GPU Sharing hiện đang có 3 cơ chế: 

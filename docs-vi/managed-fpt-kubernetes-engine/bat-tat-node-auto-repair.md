@@ -6,7 +6,7 @@ sidebar_label: "Bật/Tắt Node Auto-repair"
 sidebar_position: 15
 ---
 
-# Bat Tat Node Auto Repair
+# Bật/tắt Node Auto Repair
 
 _Bên cạnh tính năng Cluster Autoscale, FPTCloud cung cấp tính năng Node Auto-repair hỗ trợ người dùng tự động reboot worker nodes bị NotReady quá 3 phút. Tính năng này mang đến hiệu quả trong trường hợp các worker nodes bị quá tải hoặc gặp vấn đề liên quan đến container runtime, kubelet dẫn đến tình trạng node NotReady. Nếu sau quá trình auto repair mà node không thể trở lại trạng thái Ready thì sau 10 phút hệ thống sẽ thay thế node notReady đó bằng một node mới có cấu hình tương tự. Tính năng này mặc định enable cho worker group base (là worker group chứa các thành phần system của cluster). Người dùng có thể lựa chọn enable hoặc disable tính năng này cho các worker group khác trong cluster._
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn bật/tắt Node Auto-repair. 

@@ -1,12 +1,12 @@
 ---
 id: "setting-up-gpu-telemetry"
-title: "Setting Up Gpu Telemetry"
+title: "Setting up GPU telemetry"
 description: "FPT Cloud utilizes **NVIDIA GPU Telemetry** with **kube-prometheus-stack** as a monitoring toolkit for Kubernetes cluste"
-sidebar_label: "Setting Up Gpu Telemetry"
+sidebar_label: "Setting up GPU telemetry"
 sidebar_position: 24
 ---
 
-# Setting Up Gpu Telemetry
+# Setting up GPU telemetry
 
 FPT Cloud utilizes **NVIDIA GPU Telemetry** with **kube-prometheus-stack** as a monitoring toolkit for Kubernetes cluster with GPU. The toolkit consists of collectors, a Time-series Database to store metrics, and a visualizer to visualize data. The toolkit uses widely-known open-sourced tools such as Prometheus and Grafana. Prometheus also includes Alertmanager to create and manage alerts. Prometheus is deployed alongside **kube-state-metrics** and **node_exporter** to collect cluster-level metrics such as Kubernetes API resources and node-level metrics such as GPU utilization.
   * To view GPU’s custom metrics, run this command:

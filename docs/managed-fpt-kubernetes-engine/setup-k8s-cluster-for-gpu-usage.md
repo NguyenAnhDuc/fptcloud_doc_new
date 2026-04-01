@@ -1,12 +1,12 @@
 ---
 id: "setup-k8s-cluster-for-gpu-usage"
-title: "Setup K8S Cluster For Gpu Usage"
+title: "Set up Kubernetes cluster for GPU usage"
 description: "* **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the desired Kubernetes Cluster. If you plan to use auto-s"
-sidebar_label: "Setup K8S Cluster For..."
+sidebar_label: "Set up Kubernetes cluster for GPU usage"
 sidebar_position: 21
 ---
 
-# Setup K8S Cluster For Gpu Usage
+# Set up Kubernetes cluster for GPU usage
 
 #### Prerequisites:
   * **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the desired Kubernetes Cluster. If you plan to use auto-scale, you must have enough GPU quota for the **maximum amount of nodes** that you desire.

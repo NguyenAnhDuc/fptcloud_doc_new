@@ -1,13 +1,13 @@
 ---
 id: "gpu-fpt-cloud-k8s"
-title: "Gpu Fpt Cloud K8S"
+title: "GPU service on FPT Kubernetes Engine"
 description: "FPT Cloud provides Kubernetes with NVIDIA GPU support, featuring the following key functionalities:"
-sidebar_label: "Gpu Fpt Cloud K8S"
+sidebar_label: "GPU service on FPT Kubernetes Engine"
 sidebar_position: 35
 pagination_next: null
 ---
 
-# Gpu Fpt Cloud K8S
+# GPU service on FPT Kubernetes Engine
 
 FPT Cloud provides Kubernetes with NVIDIA GPU support, featuring the following key functionalities:
   * Flexible GPU configuration with the option to choose GPU types and GPU memory for each Worker Group.

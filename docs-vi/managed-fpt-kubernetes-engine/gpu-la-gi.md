@@ -6,7 +6,7 @@ sidebar_label: "GPU là gì?"
 sidebar_position: 39
 ---
 
-# Gpu La Gi
+# GPU là gì
 
 GPU là gì? 
 Graphics processing units – GPU, là bộ vi xử lý sử dụng khả năng xử lý song song và băng thông bộ nhớ cao để thực hiện các tác vụ chuyên biệt như tăng tốc tạo đồ họa, tính toán đồng thời. GPU trở nên thiết yếu đối với các ứng dụng như trò chơi điện tử, xử lý hình ảnh 3D, chỉnh sửa video, khai thác tiền điện tử và học máy. GPU nhanh hơn và hiệu quả hơn CPU nhiều trong việc xử lý các phép tính toán số lượng lớn. 

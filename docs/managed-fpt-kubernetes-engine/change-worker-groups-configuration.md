@@ -1,12 +1,12 @@
 ---
 id: "change-worker-groups-configuration"
-title: "Change Worker Groups Configuration"
+title: "Change worker groups configuration"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Change Worker Groups Configuration"
+sidebar_label: "Change worker groups configuration"
 sidebar_position: 11
 ---
 
-# Change Worker Groups Configuration
+# Change worker groups configuration
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to modify the Worker Group configuration.
 [![](/img/migrated/20-1-24780232.png)](/img/migrated/20-1-24780232.png)

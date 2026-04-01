@@ -1,12 +1,12 @@
 ---
 id: "microservices-architecture-on-fke"
-title: "Microservices Architecture On Fke"
+title: "Microservices architecture on FKE"
 description: "[![](/img/migrated/64-1-9863061f.png)](/img/migrated/64-1-9863061f.png)"
-sidebar_label: "Microservices Architecture On Fke"
+sidebar_label: "Microservices architecture on FKE"
 sidebar_position: 29
 ---
 
-# Microservices Architecture On Fke
+# Microservices architecture on FKE
 
 [![](/img/migrated/64-1-9863061f.png)](/img/migrated/64-1-9863061f.png)
 This is a reference system architecture model for deploying **Micro-services** applications on FPT Cloud with **FPT Kubernetes Engine**. This architecture model is based on basic design principles of components such as network, security, and high availability.
@@ -43,7 +43,7 @@ The network model is divided into separate subnets for each component to facilit
   * For production systems and heavy loads, separate worker group base and worker group used for the application. 
   * Configure autoscale with a minimum of 3 nodes for each worker group.
 
-## 3. Use Namespaces:
+## Use Namespaces:
   * Create a **namespace** to divide applications or environments for easy management. 
   * Avoid using namespaces created by the system for deploying applications.
 

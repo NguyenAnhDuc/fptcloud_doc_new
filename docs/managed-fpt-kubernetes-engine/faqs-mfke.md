@@ -1,12 +1,12 @@
 ---
 id: "faqs-mfke"
-title: "Faqs Mfke"
+title: "FAQs"
 description: "Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). M-FKE provides support in both of these regi"
-sidebar_label: "Faqs Mfke"
+sidebar_label: "FAQs"
 sidebar_position: 28
 ---
 
-# Faqs Mfke
+# FAQs
 
 ### Which regions does M-FKE support?
 Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). M-FKE provides support in both of these regions.

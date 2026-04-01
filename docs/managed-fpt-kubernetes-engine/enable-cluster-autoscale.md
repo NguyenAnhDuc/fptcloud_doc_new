@@ -1,12 +1,12 @@
 ---
 id: "enable-cluster-autoscale"
-title: "Enable Cluster Autoscale"
+title: "Enable cluster autoscale"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Enable Cluster Autoscale"
+sidebar_label: "Enable cluster autoscale"
 sidebar_position: 14
 ---
 
-# Enable Cluster Autoscale
+# Enable cluster autoscale
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to enable Cluster Autoscale.
 [![](/img/migrated/27-1-baec35bd.png)](/img/migrated/27-1-baec35bd.png)

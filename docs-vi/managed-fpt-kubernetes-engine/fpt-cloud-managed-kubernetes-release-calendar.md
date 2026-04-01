@@ -6,7 +6,7 @@ sidebar_label: "FPT cloud managed kubernetes release calendar"
 sidebar_position: 28
 ---
 
-# Fpt Cloud Managed Kubernetes Release Calendar
+# FPT Cloud Managed Kubernetes Release Calendar
 
 | Kubernetes version  | Upstream release  | FKE preview  | FKE GA  | FKE End of standard support  |  
 | --- | --- | --- | --- | --- |  

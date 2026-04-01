@@ -1,12 +1,12 @@
 ---
 id: "add-worker-group"
-title: "Add Worker Group"
+title: "Add a worker group"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Add Worker Group"
+sidebar_label: "Add a worker group"
 sidebar_position: 10
 ---
 
-# Add Worker Group
+# Add a worker group
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to add a Worker Group.
 [![](/img/migrated/15-3314db3f.png)](/img/migrated/15-3314db3f.png)

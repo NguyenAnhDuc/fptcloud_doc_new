@@ -1,12 +1,12 @@
 ---
 id: "load-balancer-services"
-title: "Load Balancer Services"
+title: "Load Balancer services"
 description: "The **M-FKE** product is built on Native Kubernetes and incorporates additional FPT Cloud's components into Kubernetes, "
-sidebar_label: "Load Balancer Services"
+sidebar_label: "Load Balancer services"
 sidebar_position: 18
 ---
 
-# Load Balancer Services
+# Load Balancer services
 
 The **M-FKE** product is built on Native Kubernetes and incorporates additional FPT Cloud's components into Kubernetes, including the **FPT Cloud Controller Manager**. This component aims to manage worker nodes in the cluster and Load Balancer Services. 
 Users are provided various methods to expose their applications to the internet to access the applications and services. These methods include creating an ingress for the service, then creating a NodePort Service and attaching a floating IP to the VM worker node, or using a Load Balancer Service.

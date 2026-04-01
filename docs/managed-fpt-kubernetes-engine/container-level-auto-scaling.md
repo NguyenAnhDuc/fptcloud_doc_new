@@ -1,12 +1,12 @@
 ---
 id: "container-level-auto-scaling"
-title: "Container Level Auto Scaling"
+title: "Container-level auto scaling"
 description: "**Horizontal Pod Autoscaler (HPA)** automatically adjusts the resource allocation for workload resources (such as Deploy"
-sidebar_label: "Container Level Auto Scaling"
+sidebar_label: "Container-level auto scaling"
 sidebar_position: 25
 ---
 
-# Container Level Auto Scaling
+# Container-level auto scaling
 
 **Horizontal Pod Autoscaler (HPA)** automatically adjusts the resource allocation for workload resources (such as Deployments or StatefulSets) to dynamically scale to the application's resource demands Basically, when the workload of an application running on Kubernetes increases, HPA will deploy more Pods to meet the resource requirements. When the workload decreases and the number of Pods is higher than the configured minimum, HPA will reduce the workload resources, meaning it decreases the number of Pods. HPA for GPU uses custom metrics from DCGM to monitor and scale Pods based on the application's GPU utilization.
 _Example deployment with GPU HPA:_

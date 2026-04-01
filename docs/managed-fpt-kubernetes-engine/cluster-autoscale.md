@@ -1,12 +1,12 @@
 ---
 id: "cluster-autoscale"
-title: "Cluster Autoscale"
+title: "Cluster autoscale"
 description: "The **Cluster Autoscale** feature of the Managed FKE product enables automatic scaling of additional workers within a wo"
-sidebar_label: "Cluster Autoscale"
+sidebar_label: "Cluster autoscale"
 sidebar_position: 13
 ---
 
-# Cluster Autoscale
+# Cluster autoscale
 
 The **Cluster Autoscale** feature of the Managed FKE product enables automatic scaling of additional workers within a worker pool if the application running on that pool is not receiving sufficient resources (CPU, Memory) from the existing worker nodes. 
 In such cases, pending pods due to insufficient node resources will be served by the newly scaled-up worker nodes. 

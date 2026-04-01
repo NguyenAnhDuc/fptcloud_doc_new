@@ -635,7 +635,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Managed - FPT Kubernetes Engine',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'managed-fpt-kubernetes-engine/Initial-setup', label: 'Thiết lập ban đầu' },

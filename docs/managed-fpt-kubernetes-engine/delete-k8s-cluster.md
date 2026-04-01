@@ -1,13 +1,13 @@
 ---
 id: "delete-k8s-cluster"
-title: "Delete K8S Cluster"
+title: "Delete a Kubernetes cluster"
 description: "For Kubernetes Clusters that are no longer needed, you can delete them following the instructions below:"
-sidebar_label: "Delete K8S Cluster"
+sidebar_label: "Delete a Kubernetes cluster"
 sidebar_position: 8
 pagination_next: null
 ---
 
-# Delete K8S Cluster
+# Delete a Kubernetes cluster
 
 For Kubernetes Clusters that are no longer needed, you can delete them following the instructions below:
 **Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.

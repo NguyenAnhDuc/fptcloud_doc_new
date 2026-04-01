@@ -6,7 +6,7 @@ sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: 37
 ---
 
-# Mfke Faqs
+# Câu hỏi thường gặp (FAQs)
 
 **1. M-FKE hỗ trợ ở các regions nào?**
 Hiện tại FPTCloud đang hỗ trợ 04 Regions bao gồm:

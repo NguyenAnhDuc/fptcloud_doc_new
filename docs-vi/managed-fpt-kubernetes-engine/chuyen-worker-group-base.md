@@ -6,7 +6,7 @@ sidebar_label: "Tính năng chuyển worker group base"
 sidebar_position: 16
 ---
 
-# Chuyen Worker Group Base
+# Chuyển Worker Group base
 
 Khi người dùng có mong muốn thay đổi worker group base, các thành phần của hệ thống (coredns, metrics servers, CNI controller, …) sẽ được triển khai lại trên các worker nodes thuộc worker group base mới. Tính năng này mang lại lợi ích trong trường hợp người dùng muốn tăng/giảm cấu hình flavor của các worker nodes trong worker group base, khi đó người dùng tạo worker group mới với cấu hình worker nodes mong muốn, chuyển worker group mới đó thành base và xóa worker group base cũ. 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn thay đổi cấu hình Worker Group. 

@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Backup & Restore"
 sidebar_position: 35
 ---
 
-# Backup Restore Vn
+# Backup và restore
 
 Tính năng Backup & Restore là một tính năng trong sản phẩm M-FKE với mục tiêu tạo ra các bản Snapshot cho PVC . 
 M-FKE release tính năng Backup & Restore version 1.0.0 bao gồm các tiện ích sau: 

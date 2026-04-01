@@ -1,12 +1,12 @@
 ---
 id: "why-you-should-use-gpu-in-cloud"
-title: "Why You Should Use Gpu In Cloud"
+title: "Why use GPU on cloud"
 description: "The majority of enterprises still utilize on-premise GPUs. The on-premise usage model has limitations, such as incurring"
-sidebar_label: "Why You Should Use..."
+sidebar_label: "Why use GPU on cloud"
 sidebar_position: 32
 ---
 
-# Why You Should Use Gpu In Cloud
+# Why use GPU on cloud
 
 The majority of enterprises still utilize on-premise GPUs. The on-premise usage model has limitations, such as incurring upfront costs and requiring human resources for deployment, management, maintenance, and upgrades.
 On the contrary, cloud platforms' GPU instances incur costs only for the actual service usage, eliminating the need for any additional technical operations, with reasonable service fees. FPT Cloud provides all the necessary services for GPU usage and takes overall responsibility for managing GPU infrastructure. Businesses only need to care about their core business, simplifying operations and enhancing productivity.

@@ -1,12 +1,12 @@
 ---
 id: "addding-gpu-worker-group"
-title: "Addding Gpu Worker Group"
+title: "Add a GPU worker group"
 description: "* **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the extra Worker Group specifications. If you plan to use"
-sidebar_label: "Addding Gpu Worker Group"
+sidebar_label: "Add a GPU worker group"
 sidebar_position: 22
 ---
 
-# Addding Gpu Worker Group
+# Add a GPU worker group
 
 #### Prerequisites:
   * **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the extra Worker Group specifications. If you plan to use auto-scale, you must have enough GPU quota for the **maximum amount of nodes** that you desire.

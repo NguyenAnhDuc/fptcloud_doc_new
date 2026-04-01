@@ -1,12 +1,12 @@
 ---
 id: "deploy-application-in-worker-pool"
-title: "Deploy Application In Worker Pool"
+title: "Deploy application in worker pool"
 description: "The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applicatio"
-sidebar_label: "Deploy Application In Worker..."
+sidebar_label: "Deploy application in worker pool"
 sidebar_position: 17
 ---
 
-# Deploy Application In Worker Pool
+# Deploy application in worker pool
 
 The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applications without worrying about resource scaling issues.
 ### The manifest file configuration for application deployment

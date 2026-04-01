@@ -6,7 +6,7 @@ sidebar_label: "Lấy thông tin truy cập Cluster"
 sidebar_position: 7
 ---
 
-# Lay Thong Tin Truy Cap Cluster
+# Lấy thông tin truy cập cluster
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn lấy thông tin truy cập Cluster.
 [![](/img/migrated/Picture13-81dbf0a6.png)](/img/migrated/Picture13-81dbf0a6.png)

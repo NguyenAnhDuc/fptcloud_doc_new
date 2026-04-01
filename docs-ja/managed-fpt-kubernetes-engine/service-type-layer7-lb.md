@@ -10,7 +10,7 @@ sidebar_position: 53
 
 FPT Cloud は、ユーザーが自ら提供する SSL 証明書を使用した Layer 7 Loadbalancer ソリューションを提供します。
 
-## 1. 証明書の作成
+## 証明書の作成
 
 **ステップ 1:** **Load Balancer タブ**にアクセスし、**Import SSL Certificate** をクリックして新しい証明書を作成します。
 
@@ -24,7 +24,7 @@ FPT Cloud は、ユーザーが自ら提供する SSL 証明書を使用した L
 
 [![](/img/migrated/3.-kiem-tra-lai-cert-a241b1e6.png)](/img/migrated/3.-kiem-tra-lai-cert-a241b1e6.png)
 
-## 2. HTTPS メソッドを使用した Loadbalancer Service の作成
+## HTTPS メソッドを使用した Loadbalancer Service の作成
 
 Service の初期設定で、上記で作成した SSL 証明書を使用するためのアノテーションを追加します。
 

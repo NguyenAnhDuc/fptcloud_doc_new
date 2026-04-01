@@ -1,13 +1,13 @@
 ---
 id: "upgrade-k8s-version"
-title: "Upgrade K8S Version"
+title: "Upgrade Kubernetes version"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose"
-sidebar_label: "Upgrade K8S Version"
+sidebar_label: "Upgrade Kubernetes version"
 sidebar_position: 12
 pagination_next: null
 ---
 
-# Upgrade K8S Version
+# Upgrade Kubernetes version
 
 **Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page. Choose a Cluster that you want to upgrade the K8s version.
 [![](/img/migrated/24-1-4f6944fa.png)](/img/migrated/24-1-4f6944fa.png)

@@ -1,12 +1,12 @@
 ---
 id: "how-to-use-gpu-in-kubernetes"
-title: "How To Use Gpu In Kubernetes"
+title: "How to use GPU in Kubernetes"
 description: "FPT Cloud provides **Kubernetes with NVIDIA GPUs** , offering the following key features:"
-sidebar_label: "How To Use Gpu..."
+sidebar_label: "How to use GPU in Kubernetes"
 sidebar_position: 20
 ---
 
-# How To Use Gpu In Kubernetes
+# How to use GPU in Kubernetes
 
 FPT Cloud provides **Kubernetes with NVIDIA GPUs** , offering the following key features:
   * **Flexible GPU configuration** with multiple GPU types, optional GPU memory, applied to each Worker Group.

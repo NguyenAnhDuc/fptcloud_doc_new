@@ -6,7 +6,7 @@ sidebar_label: "Tính năng đánh Tag cho Virtual Machine"
 sidebar_position: 34
 ---
 
-# Danh Tag Cho Vm
+# Đánh tag cho VM
 
 Tính năng **Tagging** cho phép người dùng gắn nhãn các máy ảo bằng những thẻ tùy chỉnh (tags) nhằm mục đích **phân loại, tìm kiếm và quản lý tài nguyên hiệu quả hơn**. 
 ✓ **Phân loại thông minh** : Dễ dàng tổ chức các máy ảo theo môi trường (Production, Staging, Development), dự án, phòng ban hoặc bất kỳ tiêu chí nào phù hợp với quy trình quản lý. 

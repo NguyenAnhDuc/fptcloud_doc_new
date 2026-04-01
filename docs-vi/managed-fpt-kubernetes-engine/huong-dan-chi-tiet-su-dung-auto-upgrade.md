@@ -7,7 +7,7 @@ sidebar_position: 27
 pagination_next: null
 ---
 
-# Huong Dan Chi Tiet Su Dung Auto Upgrade
+# Hướng dẫn chi tiết sử dụng Auto Upgrade
 
 * Với các Managed Kubernetes Cluster đang sử dụng version đã end of standard support quá một minor version so với version cũ nhất được support bởi FPT Cloud sẽ không thể sử dụng tính năng auto upgrade version, người dùng cần tự chủ động upgrade version cho các cluster này. 
   * Ví dụ cluster đang sử dụng version 1.24.14 mà FPT Cloud đang support version kubernetes từ 1.26 đến 1.29, cluster này sẽ không thể sử dụng tính năng này, nếu muốn sử dụng tính năng này cần tự chủ động upgrade cluster lên version 1.25. 

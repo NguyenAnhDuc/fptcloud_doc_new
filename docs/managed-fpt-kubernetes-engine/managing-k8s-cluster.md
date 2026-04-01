@@ -1,12 +1,12 @@
 ---
 id: "managing-k8s-cluster"
-title: "Managed – FPT Kubernetes Engine"
+title: "Managing Kubernetes clusters"
 description: "All documents"
-sidebar_label: "Managed – FPT Kubernetes..."
+sidebar_label: "Managing Kubernetes clusters"
 sidebar_position: 3
 ---
 
-# Managed – FPT Kubernetes Engine
+# Managing Kubernetes clusters
 
 All documents
 FPT Security 
