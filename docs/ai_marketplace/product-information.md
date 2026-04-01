@@ -1,12 +1,12 @@
 ---
 id: "product-information"
-title: "Product Information"
+title: "Product information"
 description: "On this tab, you can view input parameters, and sample input /output for each AI model and API Integration documentation"
-sidebar_label: "Product Information"
+sidebar_label: "Product information"
 sidebar_position: 5
 ---
 
-# Product Information
+# Product information
 
 ## 1.1 How to use an AI model and API Integration?
 On this tab, you can view input parameters, and sample input /output for each AI model and API Integration documentation. [![Alt text](/img/migrated/Thiet-ke-chua-co-ten-2-e1754983791648-e6aef34e.png)](/img/migrated/Thiet-ke-chua-co-ten-2-e1754983791648-e6aef34e.png)

@@ -1,12 +1,12 @@
 ---
 id: "api-integration"
-title: "Api Integration"
+title: "API integration"
 description: "Please find the guide for:"
-sidebar_label: "Api Integration"
+sidebar_label: "API integration"
 sidebar_position: 14
 ---
 
-# Api Integration
+# API integration
 
 Please find the guide for: 
   * [Large language model](https://github.com/fpt-corp/ai-marketplace/blob/main/API%20Integration%20-%20Large%20Language%20Model.md)

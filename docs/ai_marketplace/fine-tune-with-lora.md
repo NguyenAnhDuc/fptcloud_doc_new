@@ -1,12 +1,12 @@
 ---
 id: "fine-tune-with-lora"
-title: "Fine Tune With Lora"
+title: "Fine-tune with LoRA"
 description: "[![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Finetune.png)](https://fptcloud.com/wp-content/uploads/2025"
-sidebar_label: "Fine Tune With Lora"
+sidebar_label: "Fine-tune with LoRA"
 sidebar_position: 7
 ---
 
-# Fine Tune With Lora
+# Fine-tune with LoRA
 
 ### How to create a Fine-tuning job with LoRA?
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Finetune.png)](https://fptcloud.com/wp-content/uploads/2025/02/Finetune.png)

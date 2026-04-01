@@ -1,12 +1,12 @@
 ---
 id: "deprecated-models"
-title: "Deprecated Models"
+title: "Deprecated models"
 description: "| Model  | Off time  |"
-sidebar_label: "Deprecated Models"
+sidebar_label: "Deprecated models"
 sidebar_position: 15
 ---
 
-# Deprecated Models
+# Deprecated models
 
 | Model  | Off time  |  
 | --- | --- |  

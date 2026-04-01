@@ -1,7 +1,7 @@
 ---
 id: "gpu-container"
 title: "GPU Container"
-description: "All documents"
+description: ""
 sidebar_label: "GPU Container"
 sidebar_position: 1
 ---

@@ -1,11 +1,11 @@
 ---
 id: "ai_marketplace"
-title: "AI Inference"
-description: "All documents"
-sidebar_label: "AI Inference"
+title: "AI Marketplace"
+description: "AI Marketplace provides pre-built AI models and APIs for inference, fine-tuning, and deployment."
+sidebar_label: "AI Marketplace"
 sidebar_position: 1
 ---
 
-# AI Inference
+# AI Marketplace
 
 AI Marketplace provides pre-built AI models and APIs for inference, fine-tuning, and deployment.

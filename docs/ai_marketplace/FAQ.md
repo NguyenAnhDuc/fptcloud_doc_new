@@ -1,13 +1,13 @@
 ---
 id: "FAQ"
-title: "Faq"
+title: "FAQ"
 description: "You can create an API Key under **My Account → My API Keys**."
-sidebar_label: "Faq"
+sidebar_label: "FAQ"
 sidebar_position: 16
 pagination_next: null
 ---
 
-# Faq
+# FAQ
 
 ### 1. How can I create an API Key and use it with models?
 You can create an API Key under **My Account → My API Keys**.  

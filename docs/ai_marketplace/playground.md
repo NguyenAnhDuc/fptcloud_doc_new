@@ -18,7 +18,7 @@ The AI Marketplace Playground lets you test and interact with AI models without 
 
 [![Alt text](/img/migrated/playgr6-sample-code-01622553.png)](/img/migrated/playgr6-sample-code-01622553.png)
 * * *
-## 1. Large Language Model (LLM)
+## Large Language Model (LLM)
 **Description:**  
 A text-based assistant trained on a huge amount of information (books, websites, articles, conversations). It can understand your request and reply with natural, human-like text.
 [![Alt text](/img/migrated/playgr1-06ea6eb8.png)](/img/migrated/playgr1-06ea6eb8.png)
@@ -40,7 +40,7 @@ A text-based assistant trained on a huge amount of information (books, websites,
   * **Temperature** , **Max output tokens** , **Top P** , **Top K** , **Penalties** – fine-tune creativity, length, and randomness.
 
 * * *
-## 2. Text to Speech Model (TTS)
+## Text to Speech Model (TTS)
 [![Alt text](/img/migrated/playgr3-TTS-0593ab37.png)](/img/migrated/playgr3-TTS-0593ab37.png) **Description:**  
 Converts written text into spoken audio.
 **Steps:**
@@ -51,7 +51,7 @@ Converts written text into spoken audio.
   5. Click **Run** → The system will generate the audio file, which can be played or downloaded.
 
 * * *
-## 3. Speech to Text Model (STT)
+## Speech to Text Model (STT)
 [![Alt text](/img/migrated/playgr4-STT-26b13380.png)](/img/migrated/playgr4-STT-26b13380.png)
 **Description:**  
 Converts spoken audio into written text.
@@ -66,7 +66,7 @@ Converts spoken audio into written text.
   6. Click **Run** → The transcribed or translated text will appear in the Result section.
 
 * * *
-## 4. Vision Language Model (VLM)
+## Vision Language Model (VLM)
 [![Alt text](/img/migrated/playgr5-VLM-b29ce5ee.png)](/img/migrated/playgr5-VLM-b29ce5ee.png)
 **Description:**  
 An assistant that combines computer vision (understanding images) and natural language processing (understanding text) to make sense of the world in a more human-like way.
@@ -76,7 +76,7 @@ An assistant that combines computer vision (understanding images) and natural la
   3. Click **Run** → The model will respond based on the image content.
 
 * * *
-## 5. Embedding Model
+## Embedding Model
 [![Alt text](/img/migrated/playgr2-embedding-8e2eef2b.png)](/img/migrated/playgr2-embedding-8e2eef2b.png)
 **Description:**  
 Embedding models are transformer-based neural networks that transform chunks of documents (passages of text) into a numeric representation or vector.  
@@ -91,7 +91,7 @@ These vectors capture the semantic meaning of text and are used for tasks like s
 **Note:**  
 Guardrail feature is coming soon to enhance content safety.
 * * *
-## 6. How to use Extra Controls in the Playground?
+## How to use Extra Controls in the Playground?
   * **System prompt** : Guide the model’s behaviour and style.
   * **Enable streaming** : Show partial results as they are generated.
   * **Stop sequences** : Cut off the model’s response at specific words or phrases.

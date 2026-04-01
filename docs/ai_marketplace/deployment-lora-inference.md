@@ -1,12 +1,12 @@
 ---
 id: "deployment-lora-inference"
-title: "Deployment Lora Inference"
+title: "Deploy LoRA inference"
 description: "**User story:**"
-sidebar_label: "Deployment Lora Inference"
+sidebar_label: "Deploy LoRA inference"
 sidebar_position: 8
 ---
 
-# Deployment Lora Inference
+# Deploy LoRA inference
 
 ## How to deploy a fine-tuned LoRA model?
 **User story:**  

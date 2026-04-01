@@ -1,12 +1,12 @@
 ---
 id: "quick-start"
-title: "Quick Start"
+title: "Quick start"
 description: "Follow these steps to get started with **AI Marketplace** :"
-sidebar_label: "Quick Start"
+sidebar_label: "Quick start"
 sidebar_position: 3
 ---
 
-# Quick Start
+# Quick start
 
 ## **Step-by-step**
 Follow these steps to get started with **AI Marketplace** :

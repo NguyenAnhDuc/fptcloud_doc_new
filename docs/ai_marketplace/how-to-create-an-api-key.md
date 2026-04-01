@@ -1,12 +1,12 @@
 ---
 id: "how-to-create-an-api-key"
-title: "AI Inference"
+title: "Create an API key"
 description: "All documents"
-sidebar_label: "AI Inference"
+sidebar_label: "Create an API key"
 sidebar_position: 13
 ---
 
-# AI Inference
+# Create an API key
 
 All documents
 FPT Security 

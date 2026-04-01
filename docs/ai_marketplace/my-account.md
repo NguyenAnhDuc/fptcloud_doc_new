@@ -1,12 +1,12 @@
 ---
 id: "my-account"
-title: "1. How to manage your API Keys?"
+title: "My account"
 description: "To check your API keys, please follow the instruction below:"
-sidebar_label: "1. How to manage..."
+sidebar_label: "My account"
 sidebar_position: 9
 ---
 
-# 1. How to manage your API Keys?
+# My account
 
 ## 1.1 How to view your API Keys?
 To check your API keys, please follow the instruction below:

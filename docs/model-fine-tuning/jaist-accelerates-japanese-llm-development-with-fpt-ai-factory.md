@@ -1,7 +1,7 @@
 ---
 id: "jaist-accelerates-japanese-llm-development-with-fpt-ai-factory"
 title: "Model Fine-Tuning"
-description: "All documents"
+description: ""
 sidebar_label: "Model Fine-Tuning"
 sidebar_position: 29
 ---
