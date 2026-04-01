@@ -1,13 +1,13 @@
 ---
 id: "faq"
-title: "Faq"
-description: "To help you save resources and avoid unexpected charges, AI Notebook automatically manages idle sessions. The following "
-sidebar_label: "Faq"
+title: "FAQ"
+description: "Frequently asked questions about AI Notebooks on FPT AI Factory."
+sidebar_label: "FAQ"
 sidebar_position: 8
 pagination_next: null
 ---
 
-# Faq
+# FAQ
 
 ## What are the idle rules in AI Notebook?
 To help you save resources and avoid unexpected charges, AI Notebook automatically manages idle sessions. The following rules apply:

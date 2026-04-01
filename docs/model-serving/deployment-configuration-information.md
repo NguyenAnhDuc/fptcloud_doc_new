@@ -1,12 +1,12 @@
 ---
 id: "deployment-configuration-information"
-title: "Deployment Configuration Information"
+title: "Deployment configuration"
 description: "Go to AI Platform --> Model Serving --> Deployment --> Deployment Name --> Deployment Settings"
-sidebar_label: "Deployment Configuration Information"
+sidebar_label: "Deployment configuration"
 sidebar_position: 10
 ---
 
-# Deployment Configuration Information
+# Deployment configuration
 
 Go to AI Platform --> Model Serving --> Deployment --> Deployment Name --> Deployment Settings
 [![Alt text](/img/migrated/13-de89c5f6.png)](/img/migrated/13-de89c5f6.png)  

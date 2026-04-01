@@ -1,12 +1,12 @@
 ---
 id: "create-a-new-model-serving-deployment"
-title: "Create A New Model Serving Deployment"
+title: "Create a new deployment"
 description: "**Step 1** : Select **AI Platform** → **Model Serving** → **Deployment** → **New Deployment.**"
-sidebar_label: "Create A New Model..."
+sidebar_label: "Create a new deployment"
 sidebar_position: 6
 ---
 
-# Create A New Model Serving Deployment
+# Create a new deployment
 
 **Step 1** : Select **AI Platform** → **Model Serving** → **Deployment** → **New Deployment.**
 **Step 2** : Enter the Model Settings information, then click Next

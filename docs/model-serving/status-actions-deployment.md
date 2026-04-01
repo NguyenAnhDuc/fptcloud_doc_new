@@ -1,12 +1,12 @@
 ---
 id: "status-actions-deployment"
-title: "Status Actions Deployment"
+title: "Deployment status and actions"
 description: "Deployment Statuses:"
-sidebar_label: "Status Actions Deployment"
+sidebar_label: "Status and actions"
 sidebar_position: 8
 ---
 
-# Status Actions Deployment
+# Deployment status and actions
 
 Deployment Statuses:  
 | **Status**  | **Description**  |  

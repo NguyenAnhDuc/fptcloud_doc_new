@@ -1,12 +1,12 @@
 ---
 id: "shut-down-kernel"
-title: "Shut Down Kernel"
-description: "**Step 1:** Navigate to Running Kernels/Notebooks From the navigation bar, select the **Running Kernels/Notebooks** opti"
-sidebar_label: "Shut Down Kernel"
+title: "Shut down kernel"
+description: "Shut down running kernels to save resources."
+sidebar_label: "Shut down kernel"
 sidebar_position: 7
 ---
 
-# Shut Down Kernel
+# Shut down kernel
 
 **Step 1:** Navigate to Running Kernels/Notebooks From the navigation bar, select the **Running Kernels/Notebooks** option (second icon from the top). [![Alt text](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)
 ## Running GPU Kernel Table:  

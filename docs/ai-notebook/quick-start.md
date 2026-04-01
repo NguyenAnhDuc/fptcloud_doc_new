@@ -1,12 +1,12 @@
 ---
 id: "quick-start"
-title: "Quick Start"
-description: "1. Go to <https://ai.fptcloud.com/>, sign up using **FPT ID** or continue with **Google**."
-sidebar_label: "Quick Start"
+title: "Quick start"
+description: "Get started with AI Notebooks on FPT AI Factory."
+sidebar_label: "Quick start"
 sidebar_position: 3
 ---
 
-# Quick Start
+# Quick start
 
 ### Step 1: Create an account
   1. Go to <https://ai.fptcloud.com/>, sign up using **FPT ID** or continue with **Google**. 

@@ -1,12 +1,12 @@
 ---
 id: "create-notebook"
-title: "Create Notebook"
-description: "[![Alt text](/img/migrated/Screenshot-2025-09-24-at-15.45.42-9e710eed.png)](/img/migrated/Screenshot-2025-09-24-at-15.45"
-sidebar_label: "Create Notebook"
+title: "Create a notebook"
+description: "Create a new AI Notebook instance on FPT AI Factory."
+sidebar_label: "Create a notebook"
 sidebar_position: 5
 ---
 
-# Create Notebook
+# Create a notebook
 
 [![Alt text](/img/migrated/Screenshot-2025-09-24-at-15.45.42-9e710eed.png)](/img/migrated/Screenshot-2025-09-24-at-15.45.42-9e710eed.png)
 ## Create a Notebook Connected to CPU

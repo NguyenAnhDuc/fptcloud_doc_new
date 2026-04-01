@@ -1,12 +1,12 @@
 ---
 id: "connect-switch-kernel"
-title: "Connect Switch Kernel"
-description: "**Step 1:** Open the Kernel Configuration Menu"
-sidebar_label: "Connect Switch Kernel"
+title: "Connect and switch kernel"
+description: "Switch between different kernel environments in your AI Notebook."
+sidebar_label: "Connect and switch kernel"
 sidebar_position: 6
 ---
 
-# Connect Switch Kernel
+# Connect and switch kernel
 
 **Step 1:** Open the Kernel Configuration Menu  
 In the Notebook IDE, open the **kernel configuration menu** (top right).   

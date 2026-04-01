@@ -1,12 +1,12 @@
 ---
 id: "general-intro-model-serving"
-title: "General Intro Model Serving"
+title: "Overview"
 description: "**Purpose & Scope of the Document: **"
-sidebar_label: "General Intro Model Serving"
+sidebar_label: "Overview"
 sidebar_position: 3
 ---
 
-# General Intro Model Serving
+# Overview
 
 **Purpose & Scope of the Document: **
   * This document provides a guide for customers on using the **FPT Smart Cloud Model Serving** service, including login procedures, usage, and management via the **FPT Portal** interface.

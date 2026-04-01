@@ -1,7 +1,7 @@
 ---
 id: "model-serving"
 title: "Model Serving"
-description: "All documents"
+description: "Model Serving deploys trained AI models as scalable API endpoints on FPT AI Factory."
 sidebar_label: "Model Serving"
 sidebar_position: 1
 ---

@@ -1,12 +1,12 @@
 ---
 id: "traffic-setting-configuration-information"
-title: "Traffic Setting Configuration Information"
+title: "Traffic setting configuration"
 description: "[![Alt text](/img/migrated/14-28f62d74.png)](/img/migrated/14-28f62d74.png)"
-sidebar_label: "Traffic Setting Configuration Information"
+sidebar_label: "Traffic setting"
 sidebar_position: 11
 ---
 
-# Traffic Setting Configuration Information
+# Traffic setting configuration
 
 [![Alt text](/img/migrated/14-28f62d74.png)](/img/migrated/14-28f62d74.png)  
 | **Information**  | **Description**  | **Available Actions**  |  

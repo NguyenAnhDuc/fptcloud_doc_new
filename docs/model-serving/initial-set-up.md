@@ -1,12 +1,12 @@
 ---
 id: "initial-set-up"
-title: "Initial Set Up"
+title: "Initial setup"
 description: "**_If this is your first time using FPT Model Serving, first check and complete the following tasks:_**"
-sidebar_label: "Initial Set Up"
+sidebar_label: "Initial setup"
 sidebar_position: 5
 ---
 
-# Initial Set Up
+# Initial setup
 
 **_If this is your first time using FPT Model Serving, first check and complete the following tasks:_**
   1. **Create an FPT Cloud account and log in to FPT Portal**

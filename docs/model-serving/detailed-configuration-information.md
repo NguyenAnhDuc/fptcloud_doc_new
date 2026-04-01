@@ -1,12 +1,12 @@
 ---
 id: "detailed-configuration-information"
-title: "Detailed Configuration Information"
+title: "Detailed configuration"
 description: "**1. Model Configuration Information**"
-sidebar_label: "Detailed Configuration Information"
+sidebar_label: "Detailed configuration"
 sidebar_position: 9
 ---
 
-# Detailed Configuration Information
+# Detailed configuration
 
 **1. Model Configuration Information**
 Go to AI Platform → Model Serving → Deployment → Deployment Name → Model Settings

@@ -1,12 +1,12 @@
 ---
 id: "launch-ai-notebook"
-title: "Launch Ai Notebook"
-description: "**Step 1:** From the left menu, select **AI Notebook**. It takes about 1–2 minutes for the notebook to start."
-sidebar_label: "Launch Ai Notebook"
+title: "Launch AI Notebook"
+description: "Launch and access your AI Notebook from the FPT AI Factory console."
+sidebar_label: "Launch AI Notebook"
 sidebar_position: 4
 ---
 
-# Launch Ai Notebook
+# Launch AI Notebook
 
 **Step 1:** From the left menu, select **AI Notebook**. It takes about 1–2 minutes for the notebook to start.
 [![Alt text](/img/migrated/Screenshot-2025-09-23-at-00.09.41-63c1169b.png)](/img/migrated/Screenshot-2025-09-23-at-00.09.41-63c1169b.png)

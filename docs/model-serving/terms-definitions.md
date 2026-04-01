@@ -1,12 +1,12 @@
 ---
 id: "terms-definitions"
-title: "Terms Definitions"
+title: "Terms and definitions"
 description: "| **Terms**  | **Definitions**  |"
-sidebar_label: "Terms Definitions"
+sidebar_label: "Terms and definitions"
 sidebar_position: 4
 ---
 
-# Terms Definitions
+# Terms and definitions
 
 | **Terms**  | **Definitions**  |  
 | --- | --- |  

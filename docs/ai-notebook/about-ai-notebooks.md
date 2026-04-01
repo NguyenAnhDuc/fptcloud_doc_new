@@ -1,12 +1,12 @@
 ---
 id: "about-ai-notebooks"
-title: "About Ai Notebooks"
-description: "AI Notebooks is a Jupyter-based development environment running on FPT’s AI Factory infrastructure. With one click, you "
-sidebar_label: "About Ai Notebooks"
+title: "About AI Notebooks"
+description: "Overview of AI Notebooks — a Jupyter-based development environment on FPT AI Factory."
+sidebar_label: "About AI Notebooks"
 sidebar_position: 2
 ---
 
-# About Ai Notebooks
+# About AI Notebooks
 
 ## What is AI Notebooks?
 AI Notebooks is a Jupyter-based development environment running on FPT’s AI Factory infrastructure. With one click, you can launch a pre-configured notebook server with GPU/CPU resources and persistent storage. 
