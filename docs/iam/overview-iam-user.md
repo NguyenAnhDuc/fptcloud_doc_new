@@ -1,12 +1,12 @@
 ---
 id: "overview-iam-user"
-title: "Overview Iam User"
-description: "An IAM User is a user invited to a Tenant, which could either be an existing customer with an FPT Cloud/SSO account or a"
-sidebar_label: "Overview Iam User"
+title: "IAM User overview"
+description: "Overview of IAM Users — users invited to access a Tenant on FPT Cloud."
+sidebar_label: "IAM User overview"
 sidebar_position: 18
 ---
 
-# Overview Iam User
+# IAM User overview
 
 An IAM User is a user invited to a Tenant, which could either be an existing customer with an FPT Cloud/SSO account or a new one.
   * If the invited user already has an account, once they confirm, they can immediately access the VPC with the granted permissions. If they don't have an account, they will be guided to create a new FPT Cloud account.

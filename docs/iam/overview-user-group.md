@@ -1,12 +1,12 @@
 ---
 id: "overview-user-group"
-title: "Overview User Group"
+title: "User Group overview"
 description: "* A **User Group** is an entity that represents a group of users with the same role."
-sidebar_label: "Overview User Group"
+sidebar_label: "User Group overview"
 sidebar_position: 11
 ---
 
-# Overview User Group
+# User Group overview
 
 * A **User Group** is an entity that represents a group of users with the same role.
 

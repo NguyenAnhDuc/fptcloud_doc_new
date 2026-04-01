@@ -1,12 +1,12 @@
 ---
 id: "manage-user-groups"
-title: "IAM"
-description: "All documents"
-sidebar_label: "IAM"
+title: "User Group management"
+description: "Manage User Groups to organize IAM users and assign permissions efficiently."
+sidebar_label: "User Group management"
 sidebar_position: 10
 ---
 
-# IAM
+# User Group management
 
 All documents
 FPT Security 

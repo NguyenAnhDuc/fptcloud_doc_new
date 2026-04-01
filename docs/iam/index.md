@@ -1,7 +1,7 @@
 ---
 id: "iam"
 title: "IAM"
-description: "All documents"
+description: "IAM (Identity and Access Management) helps you manage user access, roles, and permissions on FPT Cloud."
 sidebar_label: "IAM"
 sidebar_position: 1
 ---

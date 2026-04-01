@@ -912,7 +912,7 @@ module.exports = {
         {
           type: 'category',
           label: 'IAM',
-          className: 'sidebar-pending',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'iam/Initial Setup', label: 'Thiết lập ban đầu' },

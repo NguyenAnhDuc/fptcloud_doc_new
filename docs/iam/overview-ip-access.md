@@ -1,12 +1,12 @@
 ---
 id: "overview-ip-access"
-title: "Overview Ip Access"
-description: "* The IP access feature controls system access (allows) users with configured IP addresses, other user accounts will not"
-sidebar_label: "Overview Ip Access"
+title: "IP Access overview"
+description: "Overview of IP Access feature to control system access by IP addresses."
+sidebar_label: "IP Access overview"
 sidebar_position: 24
 ---
 
-# Overview Ip Access
+# IP Access overview
 
 * The IP access feature controls system access (allows) users with configured IP addresses, other user accounts will not be able to access the system.
   * It is necessary to accurately determine the list of users corresponding to the accessed IPs. 

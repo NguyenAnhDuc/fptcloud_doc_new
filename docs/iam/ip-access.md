@@ -1,12 +1,12 @@
 ---
 id: "ip-access"
-title: "IAM"
-description: "All documents"
-sidebar_label: "IAM"
+title: "IP Access"
+description: "Control system access by allowing only users with configured IP addresses."
+sidebar_label: "IP Access"
 sidebar_position: 23
 ---
 
-# IAM
+# IP Access
 
 All documents
 FPT Security 

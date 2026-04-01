@@ -1,12 +1,12 @@
 ---
 id: "role-management"
-title: "IAM"
-description: "All documents"
-sidebar_label: "IAM"
+title: "Role management"
+description: "Manage roles and permissions to control user access in FPT Cloud."
+sidebar_label: "Role management"
 sidebar_position: 3
 ---
 
-# IAM
+# Role management
 
 All documents
 FPT Security 

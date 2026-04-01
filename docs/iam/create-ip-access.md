@@ -1,12 +1,12 @@
 ---
 id: "create-ip-access"
-title: "Create Ip Access"
-description: "**Step 1** : In the **IAM** selection menu, select the **IP access**. Here you can manage the list of accessed users."
-sidebar_label: "Create Ip Access"
+title: "Create an IP access record"
+description: "Create a new IP access rule to allow specific IP addresses in FPT IAM."
+sidebar_label: "Create IP access record"
 sidebar_position: 25
 ---
 
-# Create Ip Access
+# Create an IP access record
 
 **Step 1** : In the **IAM** selection menu, select the **IP access**. Here you can manage the list of accessed users.
 [![file](/img/migrated/image-1711511716480-fe4d7e22.png)](/img/migrated/image-1711511716480-fe4d7e22.png)
