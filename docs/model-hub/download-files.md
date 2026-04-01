@@ -1,12 +1,12 @@
 ---
 id: "download-files"
-title: "Download Files"
+title: "Download files"
 description: "Choose your model version*"
-sidebar_label: "Download Files"
+sidebar_label: "Download files"
 sidebar_position: 23
 ---
 
-# Download Files
+# Download files
 
 Choose your model version*
 **Step 1: Install the SDK CLI**

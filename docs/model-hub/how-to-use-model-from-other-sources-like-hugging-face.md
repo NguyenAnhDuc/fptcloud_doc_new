@@ -1,12 +1,12 @@
 ---
 id: "how-to-use-model-from-other-sources-like-hugging-face"
-title: "How To Use Model From Other Sources Like Hugging Face"
+title: "Use models from other sources"
 description: "If you already have a model you’ve used elsewhere, or you’ve found an open-source model on Hugging Face that’s not direc"
-sidebar_label: "How To Use Model..."
+sidebar_label: "Use models from other sources"
 sidebar_position: 27
 ---
 
-# How To Use Model From Other Sources Like Hugging Face
+# Use models from other sources
 
 If you already have a model you’ve used elsewhere, or you’ve found an open-source model on Hugging Face that’s not directly supported on AI Studio, you can still fine-tune it using AI Studio.
 Here’s a guide on how to bring your custom model into AI Studio for fine-tuning.

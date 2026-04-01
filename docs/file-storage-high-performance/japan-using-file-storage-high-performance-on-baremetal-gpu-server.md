@@ -1,20 +1,20 @@
 ---
 id: "japan-using-file-storage-high-performance-on-baremetal-gpu-server"
-title: "Create Mount Point"
+title: "Create mount point (Japan)"
 description: "The File Storage - High Performance service is now available for Baremetal infrastructure in the Japan region. To reques"
-sidebar_label: "Create Mount Point"
+sidebar_label: "Create mount point (Japan)"
 sidebar_position: 8
 pagination_next: null
 ---
 
-# Create Mount Point
+# Create mount point (Japan)
 
-## 1. Overview
+## Overview
 The File Storage - High Performance service is now available for Baremetal infrastructure in the Japan region. To request access, please contact Sales or Technical Support and provide the following information:
   * **Requested storage quota**
   * **Subnet to connect**
 
-## 2. User Guide
+## User Guide
 ### A. Using image provided by FPT AI FACTORY
 If you are using images provided by **FPT AI FACTORY** , the DDN client is already pre-installed. Please follow the steps below:
 **Step 1: Create mount directory**

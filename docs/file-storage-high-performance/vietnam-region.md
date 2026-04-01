@@ -1,12 +1,12 @@
 ---
 id: "vietnam-region"
-title: "File Storage – High Performance"
-description: "All documents"
-sidebar_label: "File Storage – High..."
+title: "Vietnam region"
+description: ""
+sidebar_label: "Vietnam region"
 sidebar_position: 3
 ---
 
-# File Storage – High Performance
+# Vietnam region
 
 All documents
 FPT Security 

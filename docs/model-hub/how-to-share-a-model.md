@@ -1,12 +1,12 @@
 ---
 id: "how-to-share-a-model"
-title: "Model Hub"
-description: "All documents"
-sidebar_label: "Model Hub"
+title: "Share a model"
+description: ""
+sidebar_label: "Share a model"
 sidebar_position: 25
 ---
 
-# Model Hub
+# Share a model
 
 All documents
 FPT Security 

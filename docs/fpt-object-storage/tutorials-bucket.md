@@ -1,12 +1,12 @@
 ---
 id: "tutorials-bucket"
-title: "Creating a Bucket"
+title: "Create a bucket"
 description: "**Bucket** is a term used to refer to a logical storage unit on FPT Object Storage. Each bucket is responsible for conta"
-sidebar_label: "Creating a Bucket"
+sidebar_label: "Create a bucket"
 sidebar_position: 4
 ---
 
-# Creating a Bucket
+# Create a bucket
 
 **Bucket** is a term used to refer to a logical storage unit on FPT Object Storage. Each bucket is responsible for containing files/folders uploaded by users. 
 To view the list of buckets, please access Object Storage Management at <https://console.fptcloud.com> and select the Buckets tab.

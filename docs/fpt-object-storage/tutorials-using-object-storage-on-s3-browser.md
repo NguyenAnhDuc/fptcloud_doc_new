@@ -1,12 +1,12 @@
 ---
 id: "tutorials-using-object-storage-on-s3-browser"
-title: "Using FPT Object Storage with S3 Browser"
+title: "Use Object Storage with S3 Browser"
 description: "In addition to direct usage on FPT Portal, you can log in and use FPT Object Storage with any S3-SDK or S3-Client that f"
-sidebar_label: "Using FPT Object Storage..."
+sidebar_label: "Use Object Storage with S3 Browser"
 sidebar_position: 10
 ---
 
-# Using FPT Object Storage with S3 Browser
+# Use Object Storage with S3 Browser
 
 In addition to direct usage on FPT Portal, you can log in and use FPT Object Storage with any S3-SDK or S3-Client that follows AWS S3 standards.
 Here are instructions on how to use it with **S3 Browser** , a user-friendly client with a graphical user interface that provides easy access. FPT Cloud encourages you to use this application as it is free, widely used, and fully functional.

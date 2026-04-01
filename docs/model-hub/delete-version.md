@@ -1,12 +1,12 @@
 ---
 id: "delete-version"
-title: "Delete Version"
+title: "Delete a version"
 description: "**Purpose** : Deleting a version removes the version information and associated files from the system."
-sidebar_label: "Delete Version"
+sidebar_label: "Delete a version"
 sidebar_position: 20
 ---
 
-# Delete Version
+# Delete a version
 
 **Purpose** : Deleting a version removes the version information and associated files from the system.
 To delete a version, follow these steps:

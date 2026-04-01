@@ -1,7 +1,7 @@
 ---
 id: "how-to-use-private-model"
 title: "Model Hub"
-description: "All documents"
+description: ""
 sidebar_label: "Model Hub"
 sidebar_position: 11
 ---

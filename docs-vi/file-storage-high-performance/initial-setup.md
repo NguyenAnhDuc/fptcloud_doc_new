@@ -6,7 +6,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
 Để sử dụng **File Storage - High Performance** , bạn cần liên hệ với bộ phận hỗ trợ. Sau khi cung cấp các thông tin cần thiết, tài khoản của bạn sẽ được enable dịch vụ, cấp quota và mở tính năng quản trị **File Storage Management** trên FPT Unify Portal.
 Các thông tin cần cung cấp bao gồm:  

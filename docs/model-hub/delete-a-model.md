@@ -1,12 +1,12 @@
 ---
 id: "delete-a-model"
-title: "Delete A Model"
+title: "Delete a model"
 description: "**Delete a model** allows user to delete from the list of created models"
-sidebar_label: "Delete A Model"
+sidebar_label: "Delete a model"
 sidebar_position: 16
 ---
 
-# Delete A Model
+# Delete a model
 
 **Delete a model** allows user to delete from the list of created models
 ### **Step 1: Locate Your Model**

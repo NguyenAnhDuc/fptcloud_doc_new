@@ -1,12 +1,12 @@
 ---
 id: "edit-a-model"
-title: "Edit A Model"
+title: "Edit a model"
 description: "**Edit Model** allows users to update the details of an existing private model, including its metadata, configuration, a"
-sidebar_label: "Edit A Model"
+sidebar_label: "Edit a model"
 sidebar_position: 15
 ---
 
-# Edit A Model
+# Edit a model
 
 **Edit Model** allows users to update the details of an existing private model, including its metadata, configuration, and access settings.
 ### **Step 1: Locate Your Model**

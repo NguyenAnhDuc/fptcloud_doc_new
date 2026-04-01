@@ -6,7 +6,7 @@ sidebar_label: "Quản lý MountPoint"
 sidebar_position: 4
 ---
 
-# Quan Ly Mountpoint
+# Quản lý Mount Point
 
 ## **1. Tổng quan Mount Point**
 ### **Mount Point là gì?**

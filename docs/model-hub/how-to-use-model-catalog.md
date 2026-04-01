@@ -1,13 +1,13 @@
 ---
 id: "how-to-use-model-catalog"
-title: "How To Use Model Catalog"
+title: "Use Model Catalog"
 description: "Each model card includes:"
-sidebar_label: "How To Use Model..."
+sidebar_label: "Use Model Catalog"
 sidebar_position: 28
 pagination_next: null
 ---
 
-# How To Use Model Catalog
+# Use Model Catalog
 
 Each model card includes:
   * **Model Name** (e.g., `Qwen/Qwen3-14B`, `meta-llama/Llama-3-70B`)

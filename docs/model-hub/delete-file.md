@@ -1,12 +1,12 @@
 ---
 id: "delete-file"
-title: "Delete File"
+title: "Delete a file"
 description: "**Purpose:** Delete the files associated with a version."
-sidebar_label: "Delete File"
+sidebar_label: "Delete a file"
 sidebar_position: 24
 ---
 
-# Delete File
+# Delete a file
 
 **Purpose:** Delete the files associated with a version.
 To delete files, follow these steps:

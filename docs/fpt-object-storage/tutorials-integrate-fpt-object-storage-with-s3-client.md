@@ -1,13 +1,13 @@
 ---
 id: "tutorials-integrate-fpt-object-storage-with-s3-client"
-title: "Tutorials Integrate Fpt Object Storage With S3 Client"
+title: "Integrate with S3 client"
 description: "FPT Object Storage supports integration with S3-SDKs or S3-Clients following the AWS S3 standard. This lets you use fami"
-sidebar_label: "Tutorials Integrate Fpt Object..."
+sidebar_label: "Integrate with S3 client"
 sidebar_position: 11
 pagination_next: null
 ---
 
-# Tutorials Integrate Fpt Object Storage With S3 Client
+# Integrate with S3 client
 
 FPT Object Storage supports integration with S3-SDKs or S3-Clients following the AWS S3 standard. This lets you use familiar tools and libraries to interact with your bucket's data.
 Before integration, you need to gather the necessary authentication information, such as Endpoint and Access Key from FPT Object Storage, following the instructions in the **[Access Key Management](https://fptcloud.com/documents/object-storage/?doc=tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal "Access Key Management")** section.

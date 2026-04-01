@@ -1,7 +1,7 @@
 ---
 id: "fpt-object-storage"
 title: "FPT Object Storage"
-description: "All documents"
+description: ""
 sidebar_label: "FPT Object Storage"
 sidebar_position: 1
 ---

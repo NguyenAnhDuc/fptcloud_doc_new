@@ -1,12 +1,12 @@
 ---
 id: "how-to-upload-download-files-by-sdk"
-title: "Model Hub"
-description: "All documents"
-sidebar_label: "Model Hub"
+title: "Upload and download files by SDK"
+description: ""
+sidebar_label: "Upload and download files by SDK"
 sidebar_position: 21
 ---
 
-# Model Hub
+# Upload and download files by SDK
 
 All documents
 FPT Security 

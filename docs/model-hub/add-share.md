@@ -1,12 +1,12 @@
 ---
 id: "add-share"
-title: "Add Share"
+title: "Add share"
 description: "**Purpose:** Update the permissions of a shared user."
-sidebar_label: "Add Share"
+sidebar_label: "Add share"
 sidebar_position: 26
 ---
 
-# Add Share
+# Add share
 
 **Purpose:** Update the permissions of a shared user.
 To update a user's permissions, follow these steps:

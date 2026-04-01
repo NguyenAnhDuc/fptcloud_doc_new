@@ -1,13 +1,13 @@
 ---
 id: "using-file-storage-high-performance-on-kubernetes-k8s-cluster"
-title: "File Storage – High Performance"
-description: "All documents"
-sidebar_label: "File Storage – High..."
+title: "Use on Kubernetes cluster"
+description: ""
+sidebar_label: "Use on Kubernetes cluster"
 sidebar_position: 6
 pagination_next: null
 ---
 
-# File Storage – High Performance
+# Use on Kubernetes cluster
 
 All documents
 FPT Security 

@@ -1,12 +1,12 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
+title: "Initial setup"
 description: "To get started with FPT Object Storage, users need to complete the following tasks:"
-sidebar_label: "Initial Setup"
+sidebar_label: "Initial setup"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Initial setup
 
 To get started with FPT Object Storage, users need to complete the following tasks:
   1. [Create an FPT Cloud account and log in.](../fpt-object-storage/index.md)

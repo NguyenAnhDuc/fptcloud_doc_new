@@ -1,12 +1,12 @@
 ---
 id: "how-does-it-work"
-title: "How Does It Work"
+title: "How does it work"
 description: "* Search the model (e.g., `'Llama-3.2-1B'` for NLP, `'Qwen2-VL-72B'` for vision)."
-sidebar_label: "How Does It Work"
+sidebar_label: "How does it work"
 sidebar_position: 4
 ---
 
-# How Does It Work
+# How does it work
 
 ### Step 1. Pick a Base Model from the Model Catalog
   * Search the model (e.g., `"Llama-3.2-1B"` for NLP, `"Qwen2-VL-72B"` for vision).

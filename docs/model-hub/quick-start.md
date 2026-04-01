@@ -1,7 +1,7 @@
 ---
 id: "quick-start"
 title: "Model Hub"
-description: "All documents"
+description: ""
 sidebar_label: "Model Hub"
 sidebar_position: 6
 ---

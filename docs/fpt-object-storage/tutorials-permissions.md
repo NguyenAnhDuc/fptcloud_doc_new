@@ -1,12 +1,12 @@
 ---
 id: "tutorials-permissions"
-title: "Edit Object Permissions (Object ACL)"
+title: "Edit object permissions (ACL)"
 description: "In **FPT Object Storage** , Object Permissions determine **who** is allowed to perform **actions** on **objects** within"
-sidebar_label: "Edit Object Permissions (Object..."
+sidebar_label: "Edit object permissions (ACL)"
 sidebar_position: 6
 ---
 
-# Edit Object Permissions (Object ACL)
+# Edit object permissions (ACL)
 
 In **FPT Object Storage** , Object Permissions determine **who** is allowed to perform **actions** on **objects** within a bucket.
 You can use the **Edit Object Permissions** feature to adjust permissions for individual objects. This feature is built on the ACL mechanism, and Object ACL has three basic permissions:

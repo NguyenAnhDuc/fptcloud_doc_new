@@ -1,12 +1,12 @@
 ---
 id: "tutorials-access-key-management"
-title: "Tutorials Access Key Management"
+title: "Access key management"
 description: "**Access Key and Private Key** are the primary authentication methods for the FPT Object Storage service. To use the buc"
-sidebar_label: "Tutorials Access Key Management"
+sidebar_label: "Access key management"
 sidebar_position: 8
 ---
 
-# Tutorials Access Key Management
+# Access key management
 
 **Access Key and Private Key** are the primary authentication methods for the FPT Object Storage service. To use the bucket through other forms such as SDK, API, and S3 Client, you need the following information:
   * Access Key

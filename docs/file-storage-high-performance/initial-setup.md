@@ -1,12 +1,12 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
+title: "Initial setup"
 description: "To use **File Storage - High Performance** , you need to contact the support team. After providing the required informat"
-sidebar_label: "Initial Setup"
+sidebar_label: "Initial setup"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Initial setup
 
 To use **File Storage - High Performance** , you need to contact the support team. After providing the required information, your account will be enabled for the service, a quota will be granted, and the **File Storage Management** feature will be activated on the FPT Unify Portal.
 The required information includes:  

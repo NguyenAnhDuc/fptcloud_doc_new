@@ -1,12 +1,12 @@
 ---
 id: "how-to-create-model-version"
-title: "Model Hub"
-description: "All documents"
-sidebar_label: "Model Hub"
+title: "Create a model version"
+description: ""
+sidebar_label: "Create a model version"
 sidebar_position: 17
 ---
 
-# Model Hub
+# Create a model version
 
 All documents
 FPT Security 

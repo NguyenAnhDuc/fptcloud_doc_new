@@ -1,12 +1,12 @@
 ---
 id: "create-version"
-title: "Create Version"
+title: "Create a version"
 description: "**Purpose** : Create a version to save the training information of a model into the system."
-sidebar_label: "Create Version"
+sidebar_label: "Create a version"
 sidebar_position: 18
 ---
 
-# Create Version
+# Create a version
 
 **Purpose** : Create a version to save the training information of a model into the system.
 To create a new version, follow these steps:

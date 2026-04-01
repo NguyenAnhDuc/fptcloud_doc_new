@@ -1,12 +1,12 @@
 ---
 id: "japan-region"
-title: "File Storage – High Performance"
-description: "All documents"
-sidebar_label: "File Storage – High..."
+title: "Japan region"
+description: ""
+sidebar_label: "Japan region"
 sidebar_position: 7
 ---
 
-# File Storage – High Performance
+# Japan region
 
 All documents
 FPT Security 

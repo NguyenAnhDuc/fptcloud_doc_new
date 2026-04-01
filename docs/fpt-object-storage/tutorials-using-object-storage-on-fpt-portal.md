@@ -1,12 +1,12 @@
 ---
 id: "tutorials-using-object-storage-on-fpt-portal"
-title: "FPT Object Storage"
-description: "All documents"
-sidebar_label: "FPT Object Storage"
+title: "Use Object Storage on FPT Portal"
+description: ""
+sidebar_label: "Use Object Storage on FPT Portal"
 sidebar_position: 3
 ---
 
-# FPT Object Storage
+# Use Object Storage on FPT Portal
 
 All documents
 FPT Security 

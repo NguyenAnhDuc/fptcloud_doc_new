@@ -1,12 +1,12 @@
 ---
 id: "Edit-version"
-title: "Edit Version"
+title: "Edit a version"
 description: "**Purpose** : Allows users to edit an existing version."
-sidebar_label: "Edit Version"
+sidebar_label: "Edit a version"
 sidebar_position: 19
 ---
 
-# Edit Version
+# Edit a version
 
 **Purpose** : Allows users to edit an existing version.
 To update a version, follow these steps:

@@ -1,12 +1,12 @@
 ---
 id: "create-a-model"
-title: "Create A Model"
+title: "Create a model"
 description: "**Create Model** allows users to build a private AI model by customizing its basic settings, metadata, and access contro"
-sidebar_label: "Create A Model"
+sidebar_label: "Create a model"
 sidebar_position: 12
 ---
 
-# Create A Model
+# Create a model
 
 **Create Model** allows users to build a private AI model by customizing its basic settings, metadata, and access controls. On the Model Hub service screen, click the Create button to go to the creation page. [![file](/img/migrated/image-1757057515124-cb536ba9.png)](/img/migrated/image-1757057515124-cb536ba9.png)
 ### **Step 1: Fill in Basic Information**

@@ -1,12 +1,12 @@
 ---
 id: "tutorials-subuser-management"
-title: "Tutorials Subuser Management"
+title: "Subuser management"
 description: "**SubUser** in FPT Object Storage is a sub-user created with limited access rights. An admin can assign roles to SubUser"
-sidebar_label: "Tutorials Subuser Management"
+sidebar_label: "Subuser management"
 sidebar_position: 9
 ---
 
-# Tutorials Subuser Management
+# Subuser management
 
 **SubUser** in FPT Object Storage is a sub-user created with limited access rights. An admin can assign roles to SubUsers such as **Full, Read-Write, Read Only** , or **None** depending on the usage needs.
 FPT Object Storage supports five basic roles:

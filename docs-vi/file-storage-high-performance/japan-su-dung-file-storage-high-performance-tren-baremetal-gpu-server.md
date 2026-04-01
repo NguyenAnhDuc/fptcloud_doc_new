@@ -9,12 +9,12 @@ pagination_next: null
 
 # Select option 2
 
-## 1. Tổng quan
+## Tổng quan
 Dịch vụ File Storage - High Performance hiện đã sẵn sàng cho hạ tầng Baremetal tại khu vực Nhật Bản. Để yêu cầu sử dụng, vui lòng liên hệ sale hoặc hỗ trợ kỹ thuật và cung cấp các thông tin sau:
   * **Dung lượng yêu cầu (quota)**
   * **Subnet cần kết nối**
 
-## 2. Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 ### A. Sử dụng image từ FPT AI FACTORY
 Nếu bạn đang dùng các image được cung cấp bởi FPT AI FACTORY thì DDN client đã được cài đặt sẵn, các bạn thực hiện theo hướng dẫn sau:
 **Bước 1: Tạo thư mục mount**
