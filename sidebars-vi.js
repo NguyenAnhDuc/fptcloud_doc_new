@@ -5,11 +5,13 @@ module.exports = {
     {
       type: 'category',
       label: 'FPT Cloud Server',
+          className: 'sidebar-migrated',
       collapsed: true,
       items: [
         {
           type: 'category',
           label: 'Tagging',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'tagging/initial-setup', label: 'Thiết lập ban đầu' },
@@ -38,6 +40,7 @@ module.exports = {
         {
           type: 'category',
           label: 'SSO - Single sign-on',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'sso-single-sign-on/overview', label: 'Tổng quan' },
@@ -48,6 +51,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Policy Management',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'policy-management/overview-policy', label: 'Giới thiệu' },
@@ -64,6 +68,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Tìm kiếm toàn cục',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'global-search/global-search-phase-1', label: 'Tìm kiếm toàn cục' },
@@ -72,6 +77,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud Portal – Pay As You Go',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/dang-ky', label: 'Đăng ký tài khoản trên hệ thống.' },
@@ -93,6 +99,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud Desktop',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-cloud-desktop/overview-fcd', label: 'Giới thiệu chi tiết' },
@@ -124,6 +131,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Autoscale',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             {
@@ -168,6 +176,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Cloud Server',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'cloud-server/Initial-Setup', label: 'Thiết lập ban đầu' },
@@ -248,6 +257,7 @@ module.exports = {
             {
               type: 'category',
               label: 'Token',
+          className: 'sidebar-migrated',
               collapsed: true,
               items: [
                 { type: 'doc', id: 'cloud-server/token', label: 'Token' },
@@ -392,6 +402,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Object Storage',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'object-storage/initial-setup', label: 'Thiết lập ban đầu' },
@@ -424,6 +435,7 @@ module.exports = {
         {
           type: 'category',
           label: 'File Storage - Hiệu năng cao',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'file-storage-high-performance/initial-setup', label: 'Thiết lập ban đầu' },
@@ -459,6 +471,7 @@ module.exports = {
         {
           type: 'category',
           label: 'VPN Site-to-Site',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'vpn-site-to-site/overviews-vpn', label: 'Giới thiệu chi tiết' },
@@ -518,6 +531,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Cân bằng tải',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'load-balancer/Initial Setup', label: 'Thiết lập ban đầu' },
@@ -601,6 +615,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Tạo VPC',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'create_vpc/initial-setup', label: 'Thiết lập ban đầu' },
@@ -614,11 +629,13 @@ module.exports = {
     {
       type: 'category',
       label: 'FPT Container',
+          className: 'sidebar-migrated',
       collapsed: true,
       items: [
         {
           type: 'category',
           label: 'Managed - FPT Kubernetes Engine',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'managed-fpt-kubernetes-engine/Initial-setup', label: 'Thiết lập ban đầu' },
@@ -728,6 +745,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Kubernetes Engine with GPU',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-kubernetes-engine-with-gpu/tong-quan-dich-vu-GPU', label: 'Tổng quan dịch vụ GPU trên Kubernetes FPT Cloud' },
@@ -746,12 +764,14 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Container Registry',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-container-registry/Initial Setup', label: 'Thiết lập ban đầu' },
             {
               type: 'category',
               label: 'Kích hoạt dịch vụ FPT Container Registry',
+          className: 'sidebar-migrated',
               collapsed: true,
               items: [
                 { type: 'doc', id: 'fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry', label: 'Kích hoạt dịch vụ FPT Container Registry' },
@@ -834,6 +854,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Dedicated - FPT Kubernetes Engine',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'dedicated-fpt-kubernetes-engine/Initial-Setup', label: 'Thiết lập ban đầu' },
@@ -891,6 +912,7 @@ module.exports = {
         {
           type: 'category',
           label: 'IAM',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'iam/Initial Setup', label: 'Thiết lập ban đầu' },
@@ -953,6 +975,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud WAPPLES',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-cloud-wapples/overview', label: 'Tổng quan' },
@@ -1030,6 +1053,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud WAF',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-cloud-waf/Initial Setup', label: 'Thiết lập ban đầu' },
@@ -1073,6 +1097,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud VA',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-va/Initial Setup', label: 'Thiết lập ban đầu' },
@@ -1109,6 +1134,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Fortigate - FPT NGFW',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fortigate-fpt-ngfw/truy-cap-giao-dien-quan-tri', label: 'Truy cập giao diện quản trị' },
@@ -1126,6 +1152,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Bảo vệ DDoS',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'ddos-protection/initial-setup', label: 'Thiết lập ban đầu' },
@@ -1136,6 +1163,7 @@ module.exports = {
         {
           type: 'category',
           label: 'CheckPoint - FPT NGFW',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             {
@@ -1179,6 +1207,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Reporting',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'reporting/initial-setup', label: 'Thiết lập ban đầu' },
@@ -1193,6 +1222,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud Monitoring',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-cloud-monitoring/initial-setup', label: 'Thiết lập ban đầu' },
@@ -1233,6 +1263,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Cloud Guard',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'cloud-guard/Overview', label: 'Cloud Guard' },
@@ -1264,6 +1295,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Cloud Advisor',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'cloud-advisor' }],
         },
@@ -1276,6 +1308,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Hướng dẫn sử dụng Grafana',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'huong-dan-su-dung-grafana' }],
         },
@@ -1289,6 +1322,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Backup As a Service',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-backup-as-a-service/Chi tiết dịch vụ', label: 'Chi tiết dịch vụ' },
@@ -1305,6 +1339,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Sao lưu',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'backup/Backup-Initial-Setup', label: 'Thiết lập ban đầu' },
@@ -1331,6 +1366,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Key Vault',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-key-vault/Initial Setup', label: 'Thiết lập ban đầu' },
@@ -1356,6 +1392,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Jenkins CI',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-jenkins-ci/Initial-setup', label: 'Thiết lập ban đầu' },
@@ -1415,6 +1452,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT ArgoCD',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-argocd/Initial-setup', label: 'Thiết lập ban đầu' },
@@ -1529,6 +1567,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT API Management',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-api-management/initial-setup', label: 'Thiết lập ban đầu' },
@@ -1553,12 +1592,14 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT API Gateway',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'fpt-api-gateway' }],
         },
         {
           type: 'category',
           label: 'FPT Event Gateway',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'fpt-event-gateway' }],
         },
@@ -1572,6 +1613,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Managed - FPT Database Engines',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'managed-fpt-database-engines-new/fde-glossary', label: 'Glossary' },
@@ -1667,6 +1709,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Managed FPT Database Engine',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'managed-fpt-database-engine' }],
         },
@@ -1680,12 +1723,14 @@ module.exports = {
         {
           type: 'category',
           label: 'Zalo ticket support',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'zalo-ticket-support' }],
         },
         {
           type: 'category',
           label: 'Trellix Customer Guide',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'trellix-customer-guide/truy-cap-giao-dien-quan-tri', label: 'Truy cập giao diện quản trị' },
@@ -1698,6 +1743,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Yêu cầu tài nguyên',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'end-user-request-resource/initial-setup', label: 'Thiết lập ban đầu' },
@@ -1713,6 +1759,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Quản lý sự cố',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'incident-management' }],
         },
@@ -1721,11 +1768,13 @@ module.exports = {
     {
       type: 'category',
       label: 'Thanh toán',
-      collapsed: true,
+      className: 'sidebar-pending',
+          collapsed: true,
       items: [
         {
           type: 'category',
           label: 'Phân tích chi phí',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'cost-explorer/cost-explorer-dimension-service', label: 'Cost explorer theo dịch vụ' },
@@ -1737,6 +1786,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Cảnh báo ngân sách',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [
             { type: 'doc', id: 'budget-alert/Khởi tạo Bugdet Alert', label: 'Khởi tạo Bugdet Alert' },
@@ -1750,6 +1800,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Hóa đơn',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             {
@@ -1779,6 +1830,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT AppSec',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [
             { type: 'doc', id: 'fpt-appsec/aspm_v1.3.0', label: '2025-11-07' },
@@ -1859,12 +1911,14 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Kafka',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'fpt-kafka' }],
         },
         {
           type: 'category',
           label: 'FPT Message Bus for RabbitMQ',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'fpt-message-bus-for-rabbitmq' }],
         },
@@ -1878,6 +1932,7 @@ module.exports = {
         {
           type: 'category',
           label: 'FPT Managed GPU Cluster',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'fpt-managed-gpu-cluster' }],
         },
@@ -1891,12 +1946,14 @@ module.exports = {
         {
           type: 'category',
           label: 'Model Hub',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'model-hub' }],
         },
         {
           type: 'category',
           label: 'Token',
+          className: 'sidebar-migrated',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'token' }],
         },
@@ -1910,12 +1967,14 @@ module.exports = {
         {
           type: 'category',
           label: 'Terraform',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'terraform' }],
         },
         {
           type: 'category',
           label: 'IaC (Old)',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'iac-old' }],
         },
@@ -1929,12 +1988,14 @@ module.exports = {
         {
           type: 'category',
           label: 'App Catalogs',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'app-catalogs' }],
         },
         {
           type: 'category',
           label: 'Gateway',
+          className: 'sidebar-pending',
           collapsed: true,
           items: [{ type: 'autogenerated', dirName: 'gateway' }],
         },

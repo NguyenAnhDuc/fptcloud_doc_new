@@ -28,3 +28,25 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ===== Migration Status Indicators on Sidebar ===== */
+
+/* Migrated: green left border */
+li.sidebar-migrated {
+  border-left: 3px solid #2e8555;
+  margin-left: 0;
+}
+
+/* Pending: orange left border */
+li.sidebar-pending {
+  border-left: 3px solid #e3a008;
+  margin-left: 0;
+}
+
+/* Dark mode */
+[data-theme='dark'] li.sidebar-migrated {
+  border-left-color: #3cad6e;
+}
+[data-theme='dark'] li.sidebar-pending {
+  border-left-color: #f59e0b;
+}
