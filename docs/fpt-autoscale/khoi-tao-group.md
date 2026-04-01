@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-group"
-title: "Khởi tạo Group"
-sidebar_label: "Khởi tạo Group"
+title: "Create Group"
+sidebar_label: "Create Group"
 sidebar_position: "7"
 ---
 

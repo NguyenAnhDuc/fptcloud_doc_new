@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-network-interfaces"
-title: "Cấu hình Network Interfaces"
-sidebar_label: "Cấu hình Network Interfaces"
+title: "設定 Network Interfaces"
+sidebar_label: "設定 Network Interfaces"
 sidebar_position: "3"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "xoa-profile"
-title: "Xóa Profile"
-sidebar_label: "Xóa Profile"
+title: "Delete Profile"
+sidebar_label: "Delete Profile"
 sidebar_position: "5"
 ---
 

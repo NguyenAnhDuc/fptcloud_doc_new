@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-role"
-title: "Quản lý Roles"
-sidebar_label: "Quản lý Roles"
+title: "Management Roles"
+sidebar_label: "Management Roles"
 sidebar_position: "12"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "gpu-time-sharing"
-title: "Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine"
-sidebar_label: "Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine"
+title: "紹介 tính năng time sharing/time slicing trong FPT Kubernetes engine"
+sidebar_label: "紹介 tính năng time sharing/time slicing trong FPT Kubernetes engine"
 sidebar_position: "18"
 ---
 

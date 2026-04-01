@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-su-dung-cac-che-do-gpu-sharing"
-title: "Hướng dẫn sử dụng các chế độ GPU sharing"
-sidebar_label: "Hướng dẫn sử dụng các chế độ GPU sharing"
+title: "利用ガイド các chế độ GPU sharing"
+sidebar_label: "利用ガイド các chế độ GPU sharing"
 sidebar_position: "8"
 ---
 

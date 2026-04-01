@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-fpt-cloud-agent"
-title: "Quản lý FPT Cloud Agent"
-sidebar_label: "Quản lý FPT Cloud Agent"
+title: "Management FPT Cloud Agent"
+sidebar_label: "Management FPT Cloud Agent"
 sidebar_position: "6"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "delete-card-NIC"
-title: "Xóa Network Interface Card"
-sidebar_label: "Xóa Network Interface Card"
+title: "削除 Network Interface Card"
+sidebar_label: "削除 Network Interface Card"
 sidebar_position: "10"
 ---
 

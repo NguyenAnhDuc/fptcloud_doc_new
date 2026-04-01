@@ -1,7 +1,7 @@
 ---
 id: "chinh-sua-alert"
-title: "Chỉnh sửa Alert"
-sidebar_label: "Chỉnh sửa Alert"
+title: "編集 Alert"
+sidebar_label: "編集 Alert"
 sidebar_position: "12"
 ---
 

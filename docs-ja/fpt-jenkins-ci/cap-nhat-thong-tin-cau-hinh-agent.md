@@ -1,7 +1,7 @@
 ---
 id: "cap-nhat-thong-tin-cau-hinh-agent"
-title: "Cập nhật thông tin cấu hình Agent"
-sidebar_label: "Cập nhật thông tin cấu hình Agent"
+title: "更新 thông tin cấu hình Agent"
+sidebar_label: "更新 thông tin cấu hình Agent"
 sidebar_position: "8"
 ---
 

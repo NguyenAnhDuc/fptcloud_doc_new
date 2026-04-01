@@ -1,7 +1,7 @@
 ---
 id: "cap-nhat-mot-credential"
-title: "Cập nhật một credential"
-sidebar_label: "Cập nhật một credential"
+title: "更新 một credential"
+sidebar_label: "更新 một credential"
 sidebar_position: "12"
 ---
 

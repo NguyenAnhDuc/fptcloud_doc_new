@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-su-dung-grafana"
-title: "Hướng dẫn sử dụng Grafana"
-sidebar_label: "Hướng dẫn sử dụng Grafana"
+title: "利用ガイド Grafana"
+sidebar_label: "利用ガイド Grafana"
 sidebar_position: "1"
 ---
 

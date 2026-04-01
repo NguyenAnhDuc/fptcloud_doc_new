@@ -1,7 +1,7 @@
 ---
 id: "xoa-group"
-title: "Xóa Group"
-sidebar_label: "Xóa Group"
+title: "Delete Group"
+sidebar_label: "Delete Group"
 sidebar_position: "12"
 ---
 

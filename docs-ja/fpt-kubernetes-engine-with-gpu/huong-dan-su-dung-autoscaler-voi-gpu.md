@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-su-dung-autoscaler-voi-gpu"
-title: "Hướng dẫn sử dụng Autoscaler với GPU"
-sidebar_label: "Hướng dẫn sử dụng Autoscaler với GPU"
+title: "利用ガイド Autoscaler với GPU"
+sidebar_label: "利用ガイド Autoscaler với GPU"
 sidebar_position: "7"
 ---
 

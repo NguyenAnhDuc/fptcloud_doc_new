@@ -1,7 +1,7 @@
 ---
 id: "delete-policy"
-title: "Xóa policy"
-sidebar_label: "Xóa policy"
+title: "Delete policy"
+sidebar_label: "Delete policy"
 sidebar_position: "8"
 ---
 

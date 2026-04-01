@@ -1,16 +1,13 @@
 ---
 id: "global-search"
-title: "Tìm kiếm toàn cục"
-sidebar_label: "Tìm kiếm toàn cục"
+title: "Global Search"
+description: "Search all resources across FPT Cloud quickly from a single interface."
+sidebar_label: "Global Search"
 sidebar_position: "1"
 ---
 
-# Tìm kiếm toàn cục
+# Global Search
 
-  * [ ![](/img/migrated/icon-networking-b1e86145.png) Hướng dẫn chi tiết ](javascript: "Hướng dẫn chi tiết")
+The Global Search feature on FPT Cloud allows you to quickly search all resources in the system, including **Instances, IP Addresses, Subnets, Security Groups, and Databases**.
 
-Global Search
-##  Overview 
-Tính năng Global Search trên FPT Cloud for phép user tìm kiếm nhanh the tài nguyên (resources) in hệ thống, includes the loại tài nguyên như **Instances, IP Addresses, Subnets, Security Groups, Database**. 
-Tính năng this giúp tiết kiệm thời gian and tăng hiệu quả quản lý tài nguyên trên nền tảng FPT Cloud.
-01Hướng dẫn chi tiết
+This feature helps save time and increases efficiency when managing resources on the FPT Cloud platform.

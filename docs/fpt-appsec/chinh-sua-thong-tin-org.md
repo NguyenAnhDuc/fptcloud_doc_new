@@ -1,7 +1,7 @@
 ---
 id: "chinh-sua-thong-tin-org"
-title: "Chỉnh sửa thông tin tổ chức"
-sidebar_label: "Chỉnh sửa thông tin tổ chức"
+title: "Edit thông tin tổ chức"
+sidebar_label: "Edit thông tin tổ chức"
 sidebar_position: "10"
 ---
 

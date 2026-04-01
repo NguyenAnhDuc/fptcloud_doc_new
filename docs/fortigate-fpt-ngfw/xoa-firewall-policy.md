@@ -1,7 +1,7 @@
 ---
 id: "xoa-firewall-policy"
-title: "Xóa Firewall Policy"
-sidebar_label: "Xóa Firewall Policy"
+title: "Delete Firewall Policy"
+sidebar_label: "Delete Firewall Policy"
 sidebar_position: "6"
 ---
 

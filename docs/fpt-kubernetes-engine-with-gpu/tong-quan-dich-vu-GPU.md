@@ -1,7 +1,7 @@
 ---
 id: "tong-quan-dich-vu-GPU"
-title: "Tổng quan dịch vụ GPU trên Kubernetes FPT Cloud"
-sidebar_label: "Tổng quan dịch vụ GPU trên Kubernetes FPT Cloud"
+title: "Overview dịch vụ GPU trên Kubernetes FPT Cloud"
+sidebar_label: "Overview dịch vụ GPU trên Kubernetes FPT Cloud"
 sidebar_position: "2"
 ---
 

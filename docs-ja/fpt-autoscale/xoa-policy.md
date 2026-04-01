@@ -1,7 +1,7 @@
 ---
 id: "xoa-policy"
-title: "Xóa Policy"
-sidebar_label: "Xóa Policy"
+title: "削除 Policy"
+sidebar_label: "削除 Policy"
 sidebar_position: "17"
 ---
 

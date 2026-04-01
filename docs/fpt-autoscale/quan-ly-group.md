@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-group"
-title: "Quản lý Group"
-sidebar_label: "Quản lý Group"
+title: "Management Group"
+sidebar_label: "Management Group"
 sidebar_position: "6"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "create-policy"
-title: "Khởi tạo Policy Management"
-sidebar_label: "Khởi tạo Policy Management"
+title: "作成 Policy Management"
+sidebar_label: "作成 Policy Management"
 sidebar_position: "6"
 ---
 

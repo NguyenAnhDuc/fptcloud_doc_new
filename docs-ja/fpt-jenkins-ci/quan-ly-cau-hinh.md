@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-cau-hinh"
-title: "Quản lý cấu hình"
-sidebar_label: "Quản lý cấu hình"
+title: "管理 cấu hình"
+sidebar_label: "管理 cấu hình"
 sidebar_position: "14"
 ---
 

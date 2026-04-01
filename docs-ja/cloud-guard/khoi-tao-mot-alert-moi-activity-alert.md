@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-mot-alert-moi-activity-alert"
-title: "Khởi tạo một Activity Alert mới"
-sidebar_label: "Khởi tạo một Activity Alert mới"
+title: "作成 một Activity Alert mới"
+sidebar_label: "作成 một Activity Alert mới"
 sidebar_position: "8"
 ---
 

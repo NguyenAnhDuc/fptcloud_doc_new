@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-sonarqube-servers"
-title: "Cấu hình SonarQube servers"
-sidebar_label: "Cấu hình SonarQube servers"
+title: "設定 SonarQube servers"
+sidebar_label: "設定 SonarQube servers"
 sidebar_position: "16"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "faq"
-title: "Câu hỏi thường gặp (FAQs)"
-sidebar_label: "Câu hỏi thường gặp (FAQs)"
+title: "FAQ (FAQs)"
+sidebar_label: "FAQ (FAQs)"
 sidebar_position: "12"
 ---
 

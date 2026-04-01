@@ -1,7 +1,7 @@
 ---
 id: "xoa-alert"
-title: "Xóa Alert"
-sidebar_label: "Xóa Alert"
+title: "削除 Alert"
+sidebar_label: "削除 Alert"
 sidebar_position: "13"
 ---
 

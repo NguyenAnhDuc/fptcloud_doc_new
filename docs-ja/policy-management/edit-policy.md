@@ -1,7 +1,7 @@
 ---
 id: "edit-policy"
-title: "Chỉnh sửa policy"
-sidebar_label: "Chỉnh sửa policy"
+title: "編集 policy"
+sidebar_label: "編集 policy"
 sidebar_position: "7"
 ---
 

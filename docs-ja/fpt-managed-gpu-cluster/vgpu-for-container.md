@@ -1,7 +1,7 @@
 ---
 id: "vgpu-for-container"
-title: "Giới thiệu tính năng vGPU trong FPT Kubernetes engine"
-sidebar_label: "Giới thiệu tính năng vGPU trong FPT Kubernetes engine"
+title: "紹介 tính năng vGPU trong FPT Kubernetes engine"
+sidebar_label: "紹介 tính năng vGPU trong FPT Kubernetes engine"
 sidebar_position: "17"
 ---
 

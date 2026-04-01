@@ -1,7 +1,7 @@
 ---
 id: "config-sso"
-title: "Cấu hình SSO"
-sidebar_label: "Cấu hình SSO"
+title: "Configuration SSO"
+sidebar_label: "Configuration SSO"
 sidebar_position: "3"
 ---
 

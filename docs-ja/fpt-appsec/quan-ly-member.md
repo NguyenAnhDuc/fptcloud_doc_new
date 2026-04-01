@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-member"
-title: "Quản lý member"
-sidebar_label: "Quản lý member"
+title: "管理 member"
+sidebar_label: "管理 member"
 sidebar_position: "11"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "cloud-advisor-introduction"
-title: "Giới thiệu Cloud Advisor"
-sidebar_label: "Giới thiệu Cloud Advisor"
+title: "Introduction Cloud Advisor"
+sidebar_label: "Introduction Cloud Advisor"
 sidebar_position: "2"
 ---
 

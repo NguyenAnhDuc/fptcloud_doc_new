@@ -1,7 +1,7 @@
 ---
 id: "create-instance-group"
-title: "Khởi tạo một Instance Group mới"
-sidebar_label: "Khởi tạo một Instance Group mới"
+title: "作成 một Instance Group mới"
+sidebar_label: "作成 một Instance Group mới"
 sidebar_position: "3"
 ---
 

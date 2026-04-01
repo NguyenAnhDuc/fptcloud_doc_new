@@ -1,7 +1,7 @@
 ---
 id: "create-card-NIC- Primary"
-title: "Khởi tạo card Network Interface Card - Primary"
-sidebar_label: "Khởi tạo card Network Interface Card - Primary"
+title: "作成 card Network Interface Card - Primary"
+sidebar_label: "作成 card Network Interface Card - Primary"
 sidebar_position: "3"
 ---
 

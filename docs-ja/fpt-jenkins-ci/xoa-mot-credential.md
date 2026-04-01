@@ -1,7 +1,7 @@
 ---
 id: "xoa-mot-credential"
-title: "Xóa một credential"
-sidebar_label: "Xóa một credential"
+title: "削除 một credential"
+sidebar_label: "削除 một credential"
 sidebar_position: "13"
 ---
 

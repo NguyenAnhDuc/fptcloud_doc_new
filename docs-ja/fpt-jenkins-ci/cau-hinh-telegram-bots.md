@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-telegram-bots"
-title: "Cấu hình Telegram Bots"
-sidebar_label: "Cấu hình Telegram Bots"
+title: "設定 Telegram Bots"
+sidebar_label: "設定 Telegram Bots"
 sidebar_position: "17"
 ---
 

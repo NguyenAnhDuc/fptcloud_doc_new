@@ -1,7 +1,7 @@
 ---
 id: "overview"
-title: "Tổng quan"
-sidebar_label: "Tổng quan"
+title: "概要"
+sidebar_label: "概要"
 sidebar_position: "2"
 ---
 

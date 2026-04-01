@@ -1,7 +1,7 @@
 ---
 id: "create-overview-policy"
-title: "Khởi tạo nhanh Policy Management"
-sidebar_label: "Khởi tạo nhanh Policy Management"
+title: "作成 nhanh Policy Management"
+sidebar_label: "作成 nhanh Policy Management"
 sidebar_position: "4"
 ---
 

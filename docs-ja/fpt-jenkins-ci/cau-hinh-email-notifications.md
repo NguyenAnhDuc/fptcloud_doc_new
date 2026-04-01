@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-email-notifications"
-title: "Cấu hình Email Notifications"
-sidebar_label: "Cấu hình Email Notifications"
+title: "設定 Email Notifications"
+sidebar_label: "設定 Email Notifications"
 sidebar_position: "15"
 ---
 

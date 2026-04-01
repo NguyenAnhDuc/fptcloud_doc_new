@@ -1,17 +1,11 @@
 ---
 id: "notification-bell"
-title: "Notification Bell"
-sidebar_label: "Notification Bell"
+title: "通知ベル"
+description: "FPT Cloud上のリソース変更やシステムイベントについてリアルタイム通知を受け取ります。"
+sidebar_label: "通知ベル"
 sidebar_position: "1"
 ---
 
-# Notification Bell
+# 通知ベル
 
-  * [ ![](/img/migrated/settings-131ed42a.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-1-2d28802b.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-
-Notification Bell
-##  Giới thiệu 
-Tính năng Notification Bell (biểu tượng chuông thông báo) cung cấp cho người dùng khi có sự kiện mới xảy ra. Người dùng có quyền truy cập nhanh vào các thông báo khi một hành động được thực hiện xong để xem nhanh các thông tin cũng như trạng thái của hành động đó.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+通知ベル機能により、FPT Cloud Portal上でリソースの変更やシステムイベントに関するリアルタイム通知を受け取ることができます。

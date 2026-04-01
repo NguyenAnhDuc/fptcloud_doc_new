@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-static-routes"
-title: "Cấu hình Static Routes"
-sidebar_label: "Cấu hình Static Routes"
+title: "設定 Static Routes"
+sidebar_label: "設定 Static Routes"
 sidebar_position: "4"
 ---
 

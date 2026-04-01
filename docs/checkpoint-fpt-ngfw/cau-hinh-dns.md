@@ -1,7 +1,7 @@
 ---
 id: "cau-hinh-dns"
-title: "Cấu hình DNS"
-sidebar_label: "Cấu hình DNS"
+title: "Configuration DNS"
+sidebar_label: "Configuration DNS"
 sidebar_position: "6"
 ---
 

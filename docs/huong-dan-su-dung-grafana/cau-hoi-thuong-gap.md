@@ -1,7 +1,7 @@
 ---
 id: "cau-hoi-thuong-gap"
-title: "Câu hỏi thường gặp"
-sidebar_label: "Câu hỏi thường gặp"
+title: "FAQ"
+sidebar_label: "FAQ"
 sidebar_position: "21"
 ---
 

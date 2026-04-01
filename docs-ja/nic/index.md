@@ -1,7 +1,7 @@
 ---
 id: "nic"
-title: "Giới thiệu khái quát về sản phẩm:"
-sidebar_label: "Giới thiệu khái quát về sản phẩm:"
+title: "紹介 khái quát về sản phẩm:"
+sidebar_label: "紹介 khái quát về sản phẩm:"
 sidebar_position: "1"
 ---
 

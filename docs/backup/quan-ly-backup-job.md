@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-backup-job"
-title: "Quản lý Backup job"
-sidebar_label: "Quản lý Backup job"
+title: "Management Backup job"
+sidebar_label: "Management Backup job"
 sidebar_position: "3"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "delete-report"
-title: "Xóa report"
-sidebar_label: "Xóa report"
+title: "削除 report"
+sidebar_label: "削除 report"
 sidebar_position: "8"
 ---
 

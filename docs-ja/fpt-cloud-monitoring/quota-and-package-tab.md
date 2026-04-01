@@ -1,7 +1,7 @@
 ---
 id: "quota-and-package-tab"
-title: "Quản lý thông tin package và resource quota Khách hàng đang sử dụng."
-sidebar_label: "Quản lý thông tin package và resource quota Khách hàng đang sử dụng."
+title: "管理 thông tin package và resource quota Khách hàng đang sử dụng."
+sidebar_label: "管理 thông tin package và resource quota Khách hàng đang sử dụng."
 sidebar_position: "10"
 ---
 

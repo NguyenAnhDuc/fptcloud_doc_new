@@ -1,7 +1,7 @@
 ---
 id: "xoa-agent-khi-khong-muon-su-dung"
-title: "Xóa Agent khi không muốn sử dụng"
-sidebar_label: "Xóa Agent khi không muốn sử dụng"
+title: "削除 Agent khi không muốn sử dụng"
+sidebar_label: "削除 Agent khi không muốn sử dụng"
 sidebar_position: "9"
 ---
 

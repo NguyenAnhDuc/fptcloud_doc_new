@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-policy"
-title: "Khởi tạo Policy"
-sidebar_label: "Khởi tạo Policy"
+title: "Create Policy"
+sidebar_label: "Create Policy"
 sidebar_position: "14"
 ---
 

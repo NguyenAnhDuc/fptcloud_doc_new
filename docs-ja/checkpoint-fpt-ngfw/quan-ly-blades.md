@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-blades"
-title: "Quản lý Blades"
-sidebar_label: "Quản lý Blades"
+title: "管理 Blades"
+sidebar_label: "管理 Blades"
 sidebar_position: "15"
 ---
 

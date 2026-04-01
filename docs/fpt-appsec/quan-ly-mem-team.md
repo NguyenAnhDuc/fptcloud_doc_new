@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-mem-team"
-title: "Quản lý Members"
-sidebar_label: "Quản lý Members"
+title: "Management Members"
+sidebar_label: "Management Members"
 sidebar_position: "16"
 ---
 

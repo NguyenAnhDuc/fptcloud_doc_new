@@ -1,7 +1,7 @@
 ---
 id: "huong-dan-su-dung-gpu-telemetry"
-title: "Hướng dẫn sử dụng GPU Telemetry"
-sidebar_label: "Hướng dẫn sử dụng GPU Telemetry"
+title: "利用ガイド GPU Telemetry"
+sidebar_label: "利用ガイド GPU Telemetry"
 sidebar_position: "6"
 ---
 

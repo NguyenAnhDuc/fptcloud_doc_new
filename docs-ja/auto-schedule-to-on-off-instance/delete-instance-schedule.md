@@ -1,7 +1,7 @@
 ---
 id: "delete-instance-schedule"
-title: "Xóa một instance schedule"
-sidebar_label: "Xóa một instance schedule"
+title: "削除 một instance schedule"
+sidebar_label: "削除 một instance schedule"
 sidebar_position: "6"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-policy"
-title: "Quản lý Policy"
-sidebar_label: "Quản lý Policy"
+title: "管理 Policy"
+sidebar_label: "管理 Policy"
 sidebar_position: "13"
 ---
 

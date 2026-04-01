@@ -1,18 +1,11 @@
 ---
 id: "sso-single-sign-on"
-title: "Sso Single Sign On"
-sidebar_label: "Sso Single Sign On"
+title: "SSO（シングルサインオン）"
+description: "FPT Cloud上の組織にSingle Sign-Onを設定します。"
+sidebar_label: "SSO"
 sidebar_position: "1"
 ---
 
-# Sso Single Sign On
+# SSO（シングルサインオン）
 
-  * [ ![](/img/migrated/overview-292f8f1a.png) Overviews ](javascript: "Overviews")
-  * [ ![](/img/migrated/quick-start-aa7e143d.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-SSO – Single sign-on
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. SSO – Single sign-on
-
-SSO – Single sign-on
-01Overviews 
-02Hướng dẫn nhanh (Quick Starts)
+SSOにより、組織のユーザーは企業のIDプロバイダーを使用してFPT Cloud Portalにログインでき、個別の認証情報が不要になります。

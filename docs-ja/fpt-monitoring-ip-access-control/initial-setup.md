@@ -1,7 +1,7 @@
 ---
 id: "initial-setup"
-title: "Thiết lập ban đầu"
-sidebar_label: "Thiết lập ban đầu"
+title: "初期設定"
+sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 

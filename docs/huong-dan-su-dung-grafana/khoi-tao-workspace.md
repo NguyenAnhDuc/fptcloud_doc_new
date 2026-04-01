@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-workspace"
-title: "Khởi tạo Workspace"
-sidebar_label: "Khởi tạo Workspace"
+title: "Create Workspace"
+sidebar_label: "Create Workspace"
 sidebar_position: "3"
 ---
 

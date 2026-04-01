@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-account"
-title: "Quản lý Account"
-sidebar_label: "Quản lý Account"
+title: "Management Account"
+sidebar_label: "Management Account"
 sidebar_position: "16"
 ---
 

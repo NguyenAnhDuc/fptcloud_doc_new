@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-target"
-title: "Quản lý Target"
-sidebar_label: "Quản lý Target"
+title: "管理 Target"
+sidebar_label: "管理 Target"
 sidebar_position: "3"
 ---
 

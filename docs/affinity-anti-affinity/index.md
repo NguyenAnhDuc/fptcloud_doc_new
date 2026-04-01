@@ -1,7 +1,7 @@
 ---
 id: "affinity-anti-affinity"
-title: "Quản lý Instance Group với chính sách Affinity & Anti-Affinity"
-sidebar_label: "Quản lý Instance Group với chính sách Affinity & Anti-Affinity"
+title: "Management Instance Group với chính sách Affinity & Anti-Affinity"
+sidebar_label: "Management Instance Group với chính sách Affinity & Anti-Affinity"
 sidebar_position: "1"
 ---
 

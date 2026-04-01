@@ -1,7 +1,7 @@
 ---
 id: "xoa-recipient"
-title: "Xóa Recipient"
-sidebar_label: "Xóa Recipient"
+title: "Delete Recipient"
+sidebar_label: "Delete Recipient"
 sidebar_position: "18"
 ---
 

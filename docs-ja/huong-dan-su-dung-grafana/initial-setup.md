@@ -1,7 +1,7 @@
 ---
 id: "initial-setup"
-title: "Khởi tạo ban đầu"
-sidebar_label: "Khởi tạo ban đầu"
+title: "作成 ban đầu"
+sidebar_label: "作成 ban đầu"
 sidebar_position: "2"
 ---
 

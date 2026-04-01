@@ -1,8 +1,8 @@
 ---
 id: "Initial Setup"
-title: "Thiết lập ban đầu"
+title: "Initial setup"
 description: "Thiết lập ban đầu on FPT Cloud VA."
-sidebar_label: "Thiết lập ban đầu"
+sidebar_label: "Initial setup"
 sidebar_position: "2"
 ---
 

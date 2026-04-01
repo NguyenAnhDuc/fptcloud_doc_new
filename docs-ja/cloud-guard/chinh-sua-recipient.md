@@ -1,7 +1,7 @@
 ---
 id: "chinh-sua-recipient"
-title: "Chỉnh sửa Recipient"
-sidebar_label: "Chỉnh sửa Recipient"
+title: "編集 Recipient"
+sidebar_label: "編集 Recipient"
 sidebar_position: "17"
 ---
 

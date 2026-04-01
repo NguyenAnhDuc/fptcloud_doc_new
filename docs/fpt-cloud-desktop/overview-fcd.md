@@ -1,7 +1,7 @@
 ---
 id: "overview-fcd"
-title: "Giới thiệu chi tiết"
-sidebar_label: "Giới thiệu chi tiết"
+title: "Detailed introduction"
+sidebar_label: "Detailed introduction"
 sidebar_position: "2"
 ---
 

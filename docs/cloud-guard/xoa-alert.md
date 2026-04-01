@@ -1,7 +1,7 @@
 ---
 id: "xoa-alert"
-title: "Xóa Alert"
-sidebar_label: "Xóa Alert"
+title: "Delete Alert"
+sidebar_label: "Delete Alert"
 sidebar_position: "13"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "overview-policy"
-title: "Giới thiệu"
-sidebar_label: "Giới thiệu"
+title: "紹介"
+sidebar_label: "紹介"
 sidebar_position: "2"
 ---
 

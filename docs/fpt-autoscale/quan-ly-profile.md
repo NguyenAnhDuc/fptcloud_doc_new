@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-profile"
-title: "Quản lý Profile"
-sidebar_label: "Quản lý Profile"
+title: "Management Profile"
+sidebar_label: "Management Profile"
 sidebar_position: "2"
 ---
 

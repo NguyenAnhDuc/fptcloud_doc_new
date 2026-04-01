@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-mot-alert-moi-threat-alert"
-title: "Khởi tạo một Threat Alert mới"
-sidebar_label: "Khởi tạo một Threat Alert mới"
+title: "Create một Threat Alert mới"
+sidebar_label: "Create một Threat Alert mới"
 sidebar_position: "9"
 ---
 

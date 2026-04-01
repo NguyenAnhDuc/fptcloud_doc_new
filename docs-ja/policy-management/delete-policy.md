@@ -1,7 +1,7 @@
 ---
 id: "delete-policy"
-title: "Xóa policy"
-sidebar_label: "Xóa policy"
+title: "削除 policy"
+sidebar_label: "削除 policy"
 sidebar_position: "8"
 ---
 

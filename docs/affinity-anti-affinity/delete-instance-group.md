@@ -1,7 +1,7 @@
 ---
 id: "delete-instance-group"
-title: "Xóa một Instance Group"
-sidebar_label: "Xóa một Instance Group"
+title: "Delete một Instance Group"
+sidebar_label: "Delete một Instance Group"
 sidebar_position: "4"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-credential"
-title: "Quản lý Credential"
-sidebar_label: "Quản lý Credential"
+title: "管理 Credential"
+sidebar_label: "管理 Credential"
 sidebar_position: "10"
 ---
 

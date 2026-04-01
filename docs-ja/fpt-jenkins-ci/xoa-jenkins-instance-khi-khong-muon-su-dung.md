@@ -1,7 +1,7 @@
 ---
 id: "xoa-jenkins-instance-khi-khong-muon-su-dung"
-title: "Xóa Jenkins instance khi không muốn sử dụng"
-sidebar_label: "Xóa Jenkins instance khi không muốn sử dụng"
+title: "削除 Jenkins instance khi không muốn sử dụng"
+sidebar_label: "削除 Jenkins instance khi không muốn sử dụng"
 sidebar_position: "20"
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-teams-org"
-title: "Quản lý Teams"
-sidebar_label: "Quản lý Teams"
+title: "Management Teams"
+sidebar_label: "Management Teams"
 sidebar_position: "13"
 ---
 

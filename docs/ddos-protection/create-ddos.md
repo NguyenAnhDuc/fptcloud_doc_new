@@ -1,7 +1,7 @@
 ---
 id: "create-ddos"
-title: "Khởi tạo DDoS Protection"
-sidebar_label: "Khởi tạo DDoS Protection"
+title: "Create DDoS Protection"
+sidebar_label: "Create DDoS Protection"
 sidebar_position: "3"
 ---
 
