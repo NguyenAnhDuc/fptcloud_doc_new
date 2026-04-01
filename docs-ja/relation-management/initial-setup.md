@@ -4,7 +4,8 @@ title: "初期設定"
 sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
-
 # 初期設定
 
-Nếu đây là lần đầu tiên bạn sử dụng **Relation management** của **FPT Monitoring** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

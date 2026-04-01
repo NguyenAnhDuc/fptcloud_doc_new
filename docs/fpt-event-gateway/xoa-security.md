@@ -4,13 +4,10 @@ title: "Xoa Security"
 sidebar_label: "Xoa Security"
 sidebar_position: "10"
 ---
-
 # Xoa Security
 
-Để xóa Security, user thực hiện the bước sau: 
-**Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Step 2:** Tại list **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
-**Bước** 3: Tại list **Security** > chọn **Security** need to xóa > chọn **Action** > select **Delete**
 [![Hình ảnh](/img/migrated/image1f-77b61a24.png)](/img/migrated/image1f-77b61a24.png)
-**Step 3** : Hiển thị hộp thoại **Delete Application** > select **Delete** to xóa hoàn thành việc xóa **Security**
-[![Hình ảnh](/img/migrated/image20-e743639c.png)](/img/migrated/image20-e743639c.png)
+
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

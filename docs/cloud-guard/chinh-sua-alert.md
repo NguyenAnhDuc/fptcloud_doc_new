@@ -4,12 +4,10 @@ title: "Edit Alert"
 sidebar_label: "Edit Alert"
 sidebar_position: "12"
 ---
-
 # Edit Alert
 
-**Step 1** : Ở menu chọn **Cloud Guard** , chọn tab **Resource alert**
 [![file](/img/migrated/image-1725532789529-6dfc0d32.png)](/img/migrated/image-1725532789529-6dfc0d32.png)
-**Step 2** : Chọn Alert need to chỉnh sửa. System will displayed màn hình Update.
-[![file](/img/migrated/image-1725532811064-3d095f59.png)](/img/migrated/image-1725532811064-3d095f59.png)
-**Step 3** : Enter information mới ando the trường corresponding and chọn **Update**.
-Note: FPT Cloud Guard chỉ hỗ trợ user chỉnh sửa một số trường information cần thiết
+
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

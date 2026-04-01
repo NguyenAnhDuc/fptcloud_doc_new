@@ -4,14 +4,10 @@ title: "Xem các yêu cầu đã tạo"
 sidebar_label: "Xem các yêu cầu đã tạo"
 sidebar_position: "4"
 ---
-
 # 表示 các yêu cầu đã tạo
 
-Với các tài khoản được cấp quyền Tenant Owner, người dùng có thể xem được tất cả các yêu cầu do chính họ tạo, hoặc các yêu cầu do VPC Owner khác tạo. 
-Với các tài khoản được cấp quyền VPC Owner, người dùng chỉ có thể xem được yêu cầu do chính họ tạo ra mà không xem được các yêu cầu của VPC Owner hoặc Tenant Owner khác tạo.
-**ステップ1:** Ở menu chọn **Request Resource** , màn hình hiển thị danh sách các ticket yêu cầu tài nguyên.
 [![file](/img/migrated/image-1703744448858-b0177c6f.png)](/img/migrated/image-1703744448858-b0177c6f.png)
-**ステップ2:** Chọn 1 ticket bằng cách bấm chọn 1 ID request. 
-[![file](/img/migrated/image-1703744468083-2c0e0014.png)](/img/migrated/image-1703744468083-2c0e0014.png)
-**ステップ3:** 画面が表示されます thông tin chi tiết của ticket yêu cầu. 
-[![file](/img/migrated/image-1703744483432-698ab803.png)](/img/migrated/image-1703744483432-698ab803.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

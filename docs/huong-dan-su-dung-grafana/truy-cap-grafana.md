@@ -4,22 +4,10 @@ title: "Truy cập Grafana"
 sidebar_label: "Truy cập Grafana"
 sidebar_position: "4"
 ---
-
 # Truy cập Grafana
-
-Sau when workspace is khởi tạo successfully, you hãy:
-
-1. Access the page console portal <https://console.fptcloud.com>
-2. Chọn Workspace need to sử dụng to xem information details
-3. Tại màn hình Configuration, system cung cấp Dashboard URL of Grafana
-4. Click ando Dashboard URL to truy cập Grafana
-
-System mặc định tự động đăng nhập bằng FPT ID. Trong trường hợp đăng nhập không successfully, vui lòng liên hệ đội ngũ hỗ trợ.
-
-_Màn hình details workspace_
 
 [![Alt text](/img/migrated/Screenshot_39-11926069.png)](/img/migrated/Screenshot_39-11926069.png)
 
-_Interface Grafana after đăng nhập successfully_
-
-[![Alt text](/img/migrated/Screenshot_1-3adc35f3.png)](/img/migrated/Screenshot_1-3adc35f3.png)
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

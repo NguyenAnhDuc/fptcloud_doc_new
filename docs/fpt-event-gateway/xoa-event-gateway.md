@@ -4,12 +4,10 @@ title: "Xoa Event Gateway"
 sidebar_label: "Xoa Event Gateway"
 sidebar_position: "6"
 ---
-
 # Xoa Event Gateway
 
-Để xóa Event Gateway, user thực hiện the bước sau: 
-**Step 1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**Step 2:** Tại list **Event Gateway** > chọn **Event Gateway** need to xóa > nhấn **Action** > select **Delete**
 [![Hình ảnh](/img/migrated/image1b-e0892577.png)](/img/migrated/image1b-e0892577.png)
-**Step 3** : Hiển thị hộp thoại **Delete Application** > nhập **delete** > nhấn **confirm** to xóa hoàn thành việc xóa **Event Gateway**
-[![Hình ảnh](/img/migrated/image1c-ca16f7c7.png)](/img/migrated/image1c-ca16f7c7.png)
+
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

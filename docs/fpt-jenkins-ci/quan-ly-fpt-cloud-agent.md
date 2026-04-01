@@ -4,7 +4,8 @@ title: "Management FPT Cloud Agent"
 sidebar_label: "Management FPT Cloud Agent"
 sidebar_position: "6"
 ---
-
 # Manage FPT Cloud Agent
 
-Chức năng this for phép user can tạo, sửa, xoá agent thông qua interface FPT Portal. Để sử dụng chức năng, user can thực hiện as follows:
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

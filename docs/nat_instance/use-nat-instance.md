@@ -4,9 +4,10 @@ title: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại Gen
 sidebar_label: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General"
 sidebar_position: "4"
 ---
-
 # Tính năng chỉ áp dụng for user mua dich vụ loại General
 
-Tính năng chỉ áp dụng for user mua dich vụ loại General 
-• Người dùng chọn mode isolated in quá trình khởi tạo subnet. System will displayed information guide theh cấu hình Nat instance giúp the instance thuộc isolated network can ra ngoài nternet
 [![file](/img/migrated/image-1719483578152-3556d024.png)](/img/migrated/image-1719483578152-3556d024.png)
+
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

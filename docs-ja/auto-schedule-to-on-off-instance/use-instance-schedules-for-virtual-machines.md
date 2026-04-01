@@ -4,15 +4,10 @@ title: "Use Instance Schedules For Virtual Machines"
 sidebar_label: "Use Instance Schedules For Virtual Machines"
 sidebar_position: "7"
 ---
-
 # Use Instance Schedules For Virtual Machines
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
+![](/img/migrated/initial-setup-714537aa.png)
 
-Sử dụng instance schedules cho các máy ảo
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-
-* * *
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

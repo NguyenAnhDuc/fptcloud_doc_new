@@ -5,7 +5,8 @@ description: "6 Hướng dẫn lấy Header trang web khi tạo mục tiêu qué
 sidebar_label: "6 Hướng dẫn lấy Header trang web khi tạo mục tiêu quét"
 sidebar_position: "9"
 ---
-
 # 6 Hướng dẫn lấy Header trang web when tạo mục tiêu quét
 
-6 Hướng dẫn lấy Header trang web when tạo mục tiêu quét on FPT Cloud VA.
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

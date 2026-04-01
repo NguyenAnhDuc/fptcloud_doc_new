@@ -4,7 +4,10 @@ title: "Chọn hình thức PAYG và xác thực số điện thoại"
 sidebar_label: "Chọn hình thức PAYG và xác thực số điện thoại"
 sidebar_position: "4"
 ---
-
 # Chọn hình thức PAYG và xác thực số điện thoại
 
-B1. Chọn PAYG trên trang giới thiệu dịch vụ [![file](/img/migrated/image-1694073695696-6b508c5d.png)](/img/migrated/image-1694073695696-6b508c5d.png) B2. Xác thực số điện thoại thông qua OTP [![file](/img/migrated/image-1694073708060-07f4fc9c.png)](/img/migrated/image-1694073708060-07f4fc9c.png)
+[![file](/img/migrated/image-1694073695696-6b508c5d.png)](/img/migrated/image-1694073695696-6b508c5d.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

@@ -4,10 +4,10 @@ title: "設定 Email Notifications"
 sidebar_label: "設定 Email Notifications"
 sidebar_position: "15"
 ---
-
 # 設定 Email Notifications
 
-FPT Cloud hỗ trợ người dùng cấu hình email notifications tới hệ thống Jenkins thông qua giao diện Portal. Để thực hiện cấu hình, người dùng thực hiện như sau:
-  * **Chỉnh sửa cấu hình email**
+[![](/img/migrated/Picture68-f44a375a.png)](/img/migrated/Picture68-f44a375a.png)
 
-**Bước 1.** Tại menu FPT Portal > **Jenkins CI** > Detail Cluster > **Configurations** > **Edit** email: [![](/img/migrated/Picture68-f44a375a.png)](/img/migrated/Picture68-f44a375a.png) **Bước 2.** Nhập các thông tin chỉnh sửa cấu hình email > Click **Update** [![](/img/migrated/Picture69-333db764.png)](/img/migrated/Picture69-333db764.png) **Bước 3.** Kết quả sau khi cập nhật thông tin cấu hình: [![](/img/migrated/Picture70-a6668456.png)](/img/migrated/Picture70-a6668456.png)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

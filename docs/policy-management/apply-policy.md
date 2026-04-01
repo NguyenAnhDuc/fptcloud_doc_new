@@ -4,19 +4,10 @@ title: "Áp dụng policy"
 sidebar_label: "Áp dụng policy"
 sidebar_position: "5"
 ---
-
 # Áp dụng policy
 
-Kịch bản:
-_Chặn user khởi tạo rule SSH with source IP bằng All IPv4 (Any)_
-**Step 1** : Ở menu chọn **Security Group** , sau that chọn **Create security group**
 [![file](/img/migrated/image-1719821228097-9fd79d5a.png)](/img/migrated/image-1719821228097-9fd79d5a.png)
-**Step 2** : Tại màn hình **Create security group** , chọn **Add rule**
-[![file](/img/migrated/image-1719821250324-ab40b63e.png)](/img/migrated/image-1719821250324-ab40b63e.png)
-**Step 3** : Fill in the information corresponding of rule. 
-  * **Type** : SSH
-  * **Sources** : All IPv4
 
-[![file](/img/migrated/image-1719821264190-f0a280a9.png)](/img/migrated/image-1719821264190-f0a280a9.png)
-**Step 4** : Nhấn Create security group. System will báo lỗi: hành động bị cấm bởi policy
-[![file](/img/migrated/image-1719821276342-01f0978c.png)](/img/migrated/image-1719821276342-01f0978c.png)
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

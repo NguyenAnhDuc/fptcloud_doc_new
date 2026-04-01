@@ -4,7 +4,8 @@ title: "Overview Nat Instance"
 sidebar_label: "Overview Nat Instance"
 sidebar_position: "2"
 ---
-
 # Overview Nat Instance
 
-Chức năng hỗ trợ the instance in network cô lập (isolated network) can truy cập system bên ngoài Internet như cài đặt phần mềm or truy cập về On-premise.
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

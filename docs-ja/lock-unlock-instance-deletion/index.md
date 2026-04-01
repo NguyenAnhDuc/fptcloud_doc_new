@@ -4,17 +4,10 @@ title: "Khóa & Mở khóa xóa máy ảo"
 sidebar_label: "Khóa & Mở khóa xóa máy ảo"
 sidebar_position: "1"
 ---
-
 # Khóa & Mở khóa xóa máy ảo
 
-  * [ ![](/img/migrated/settings-2-d6cac700.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-7937c00e.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-Lock & Unlock Instance Deletion
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Lock & Unlock Instance Deletion
+![](/img/migrated/settings-2-d6cac700.png)
 
-Lock & Unlock Instance Deletion
-## 紹介 
-Bạn có thể khóa một máy ảo lại để ngăn chúng không bị xóa/ chấm dứt một cách vô tình. Điều này giúp tránh việc bạn vô tình xóa một máy chạy sản xuất thay vì máy thử nghiệm. Tính năng này giúp giảm rủi ro liên quan đến lỗi người dùng và bảo vệ dữ liệu của bạn trên các máy ảo.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

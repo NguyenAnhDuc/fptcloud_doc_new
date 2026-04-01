@@ -4,7 +4,8 @@ title: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?
 sidebar_label: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
 sidebar_position: "8"
 ---
-
 # Vì sao tôi không tìm thấy phần Request Resource ở thành menu?
 
-Nếu bạn không có quyền VPC Owner hoặc Tenant Owner thì bạn không thể tạo yêu cầu cung cấp tài nguyên. Hãy liên hệ với đội ngũ hỗ trợ của FCI để được hỗ trợ cấp quyền.
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

@@ -4,23 +4,10 @@ title: "Xem thông tin Trace"
 sidebar_label: "Xem thông tin Trace"
 sidebar_position: "12"
 ---
-
 # View information Trace
-
-**Step 1:** Trên menu, you chọn **Explore**
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
-**Step 2:** Chọn datasource: **tempo**
-
-System mở tab **TraceQL** for phép you nhập câu query
-
-[![Alt text](/img/migrated/Screenshot_29-a8f6ab7d.png)](/img/migrated/Screenshot_29-a8f6ab7d.png)
-
-**Step 3:** Nhấn _Run query_ to displayed kết quả
-
-_Ảnh minh họa_
-
-[![Alt text](/img/migrated/Screenshot_30-e54fb90f.png)](/img/migrated/Screenshot_30-e54fb90f.png)
-
-Hướng dẫn details, vui lòng tham khảo document chính thức of Grafana [TẠI ĐÂY](https://grafana.com/docs/tempo/latest)
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

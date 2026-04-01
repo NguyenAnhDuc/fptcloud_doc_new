@@ -4,11 +4,8 @@ title: "Introduction Cloud Advisor"
 sidebar_label: "Introduction Cloud Advisor"
 sidebar_position: "2"
 ---
-
 # Introduction
 
-FPT Cloud Advisor là công cụ giúp customer:
-
-- Đánh giá mức độ an toàn, hiệu năng and tối ưu cost of tài nguyên cloud
-- Phát hiện rủi ro cấu hình sai
-- Đưa ra khuyến nghị (recommendations) to cải thiện system
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

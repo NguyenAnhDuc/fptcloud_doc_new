@@ -4,15 +4,10 @@ title: "Đối với card NIC ở trạng thái Inactive, chúng ta có thể en
 sidebar_label: "Đối với card NIC ở trạng thái Inactive, chúng ta có thể enable để kết nối mạng."
 sidebar_position: "5"
 ---
-
 # Đối với card NIC ở trạng thái Inactive, chúng ta có thể enable để kết nối mạng.
 
-Đối với card NIC ở trạng thái Inactive, chúng ta có thể enable để kết nối mạng.
-**ステップ1:** Enable Card.
 [![file](/img/migrated/image-1691382154697-155c022c.png)](/img/migrated/image-1691382154697-155c022c.png)
-**ステップ2:** Xác nhận Enable Card.
-[![file](/img/migrated/image-1691382171803-02c83019.png)](/img/migrated/image-1691382171803-02c83019.png)
-**ステップ3:** Chờ hệ thống xử lý.
-[![file](/img/migrated/image-1691382523333-cd5f8412.png)](/img/migrated/image-1691382523333-cd5f8412.png)
-**ステップ4:** Card chuyển sang trạng thái Active, và Instance có thể kết nối mạng qua card này.
-[![file](/img/migrated/image-1691382532014-ecb97957.png)](/img/migrated/image-1691382532014-ecb97957.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

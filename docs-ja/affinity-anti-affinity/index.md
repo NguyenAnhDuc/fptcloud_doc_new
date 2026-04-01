@@ -4,17 +4,10 @@ title: "管理 Instance Group với chính sách Affinity & Anti-Affinity"
 sidebar_label: "管理 Instance Group với chính sách Affinity & Anti-Affinity"
 sidebar_position: "1"
 ---
-
 # 管理 Instance Group với chính sách Affinity & Anti-Affinity
 
-  * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-Quản lý Instance Group với chính sách Affinity & Anti-Affinity
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Quản lý Instance Group với chính sách Affinity & Anti-Affinity
+![](/img/migrated/settings-d31fa71f.png)
 
-Quản lý Instance Group với chính sách Affinity & Anti-Affinity
-## 紹介 
-Affinity và anti-affinity là hai khái niệm quan trọng liên quan đến việc đặt các máy ảo trên các máy chủ. Để thực hiện điều này, bạn có thể tạo các nhóm máy chủ (instance groups) với chính sách affinity hoặc anti-affinity. Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo theo chính sách mong muốn.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

@@ -4,15 +4,10 @@ title: "Reporting"
 sidebar_label: "Reporting"
 sidebar_position: "1"
 ---
-
 # Reporting
 
-  * [ ![](/img/migrated/settings-3-361d08a2.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-7937c00e.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Reporting
+![](/img/migrated/settings-3-361d08a2.png)
 
-FPT Smart Cloud chính thức ra mắt dịch vụ Reporting. Dịch vụ này giúp người dùng tạo và gửi báo cáo một cách dễ dàng và chuyên nghiệp. Hệ thống hỗ trợ tính năng cài đặt lịch báo cáo theo ngày, tuần, tháng giúp người dùng tự động gửi báo cáo theo định kì thay vì phải gửi một cách thủ công.
-##  Trang chủ 
-01Initial Setup 
-02Hướng dẫn chi tiết (Tutorials)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

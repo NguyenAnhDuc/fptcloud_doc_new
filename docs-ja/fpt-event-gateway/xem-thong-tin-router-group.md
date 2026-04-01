@@ -4,11 +4,10 @@ title: "Xem Thong tin Router Group"
 sidebar_label: "Xem Thong tin Router Group"
 sidebar_position: "13"
 ---
-
 # 表示 Thong tin Router Group
 
-Để xem thông tin Router group, người dùng thực hiện các bước sau: 
-**ステップ1:** Tại thanh menu chọn **Integration** > chọn **Event Gateway**
-**ステップ2:** Tại danh sách **Event Gateway** > chọn **Event Gateway** > chọn **tab Security**
-**Bước** 3: Tại danh sách **Router group** > chọn **Router group** cần xem thông tin chi tiết 
 [![Hình ảnh](/img/migrated/image22-6a81021b.png)](/img/migrated/image22-6a81021b.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

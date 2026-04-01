@@ -4,15 +4,10 @@ title: "管理 cấu hình"
 sidebar_label: "管理 cấu hình"
 sidebar_position: "14"
 ---
-
 # 管理 cấu hình
 
-  * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+![](/img/migrated/settings-3-e684e7b5.png)
 
-Quản lý cấu hình
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-jenkins-ci%2F "FPT Jenkins CI")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-jenkins-ci%2F "FPT Jenkins CI")
-
-* * *
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

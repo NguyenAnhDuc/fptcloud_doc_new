@@ -4,8 +4,10 @@ title: "更新 thông tin cấu hình Agent"
 sidebar_label: "更新 thông tin cấu hình Agent"
 sidebar_position: "8"
 ---
-
 # 更新 thông tin cấu hình Agent
 
-Để cập nhật thông tin cấu hình Agent người dùng thực hiện như sau:
-**Bước 1.** Tại menu FPT Portal > **Jenkins CI** > **Detail Cluster** > **Agent Managements** > Click **Actions** đối với agent muốn cập nhật: [![](/img/migrated/Picture19-519a8553.png)](/img/migrated/Picture19-519a8553.png) **Bước 2.** **Edit** để thực hiện chỉnh sửa cấu hình cho Agent: [![](/img/migrated/Picture20-4d54db71.png)](/img/migrated/Picture20-4d54db71.png) **Bước 3.** Thực hiện chỉnh sửa thông tin cấu hình: Lựa chọn tài nguyên muốn update [![](/img/migrated/Picture21-e8aaf98b.png)](/img/migrated/Picture21-e8aaf98b.png) **Bước 4.** **Update** để thực hiện cập nhật thông tin cấu hình. [![](/img/migrated/Picture22-ec7e1242.png)](/img/migrated/Picture22-ec7e1242.png) **Lưu ý** : Chỉ được Update lên tài nguyên cao hơn
+[![](/img/migrated/Picture19-519a8553.png)](/img/migrated/Picture19-519a8553.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

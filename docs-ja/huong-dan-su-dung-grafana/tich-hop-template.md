@@ -4,15 +4,8 @@ title: "Tích hợp Dashboard Template và Alert rule template"
 sidebar_label: "Tích hợp Dashboard Template và Alert rule template"
 sidebar_position: "5"
 ---
-
 # Tích hợp Dashboard Template và Alert rule template
 
-Phần này hướng dẫn cách tích hợp Dashboard Template và Alert rule template vào Grafana workspace của bạn.
-
-## Tích hợp Dashboard Template
-
-Xem chi tiết tại: [Tích hợp Dashboard Template](../huong-dan-su-dung-grafana/index.md)
-
-## Tích hợp Alert rule template
-
-Xem chi tiết tại: [Tích hợp Alert rule template](../huong-dan-su-dung-grafana/index.md)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

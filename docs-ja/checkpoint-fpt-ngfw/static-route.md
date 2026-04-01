@@ -4,23 +4,10 @@ title: "Static Route"
 sidebar_label: "Static Route"
 sidebar_position: "5"
 ---
-
 # Static Route
 
-**ステップ1:** Trên menu **Network Management** > chọn **IPv4 Static Routes** > **Add**.  
-[![Userguide Checkpoint FPT NGFW 2022 21](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-21-10-3fdc31da.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-21-10-3fdc31da.png)  
-**ステップ2:** Điền thông tin **Destination** và **Subnet mask** của dải mạng cần route tới.  
-[![Userguide Checkpoint FPT NGFW 2022 22](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-22-72d2141f.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-22-72d2141f.png)  
-**ステップ3:** **Add Gateway** để điền thông tin next-hop address.
-[![Userguide Checkpoint FPT NGFW 2022 23](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-23-2b3e7d55.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-23-2b3e7d55.png)
-Có thể chọn route tới **IP Address** hoặc route ra **Interface**
-[![Userguide Checkpoint FPT NGFW 2022 24](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-24-9ff6d0df.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-24-9ff6d0df.png)
-**ステップ1:** Trên menu **Network Management** > chọn **IPv4 Static Routes** > chọn route cần sửa > **Edit.**
-[![Userguide Checkpoint FPT NGFW 2022 26](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-26-10-51cbfb6b.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-26-10-51cbfb6b.png)
-**ステップ2:** Nhập các thông số mới cho Gateway.
-[![Userguide Checkpoint FPT NGFW 2022 27](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-27-e489c334.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-27-e489c334.png)
-**注意:** Destination subnet không thể sửa được, nếu cần thì có thể xóa và tạo mới lại route.
-**ステップ1:** Trên menu **Network Management** > chọn **IPv4 Static Routes.**
-[![Userguide Checkpoint FPT NGFW 2022 28](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-28-10-50601952.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-28-10-50601952.png)
-**ステップ2:** Chọn route cần xóa > chọn **Delete** > chọn **OK** để xác nhận xóa Route.
-[![Userguide Checkpoint FPT NGFW 2022 29](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-29-10-605dc014.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-29-10-605dc014.png)
+[![Userguide Checkpoint FPT NGFW 2022 21](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-21-10-3fdc31da.png)](/img/migrated/Userguide-Checkpoint-FPT-NGFW-2022-21-10-3fdc31da.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

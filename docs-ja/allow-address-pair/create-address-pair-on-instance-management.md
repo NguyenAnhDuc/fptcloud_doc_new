@@ -4,27 +4,10 @@ title: "Create Address Pair on Instance Management"
 sidebar_label: "Create Address Pair on Instance Management"
 sidebar_position: "4"
 ---
-
 # Create Address Pair on Instance Management
 
-**ステップ1:** Vào Network Interface trong Instance Management
 [![file](/img/migrated/image-1708395287542-5f97bc70.png)](/img/migrated/image-1708395287542-5f97bc70.png)
-**ステップ2:** Chọn nút ba chấm (action):
-[![file](/img/migrated/image-1708395308051-7e4aea2c.png)](/img/migrated/image-1708395308051-7e4aea2c.png)
-**ステップ3:** Chọn Create allow address pair
-[![file](/img/migrated/image-1708395330849-4dc00d57.png)](/img/migrated/image-1708395330849-4dc00d57.png)
-**ステップ4:** Cấu hình allow IP address pair
-  * Hệ thống mặc định chọn Network interface card hiện tại
-  * Nhập IP (hoặc CIDR) để allow
 
-[![file](/img/migrated/image-1708395364577-06c64d2e.png)](/img/migrated/image-1708395364577-06c64d2e.png)
-**ステップ5:** Cấu hình allow MAC address pair (optional). Nếu không chọn, mặc định hệ thống sẽ lấy địa chỉ MAC của chỉ Network interface card đang được chọn
-  * Bấm vào Advanced Setting
-  * Nhập địa chỉ MAC
-
-[![file](/img/migrated/image-1708395403972-a559d684.png)](/img/migrated/image-1708395403972-a559d684.png)
-**ステップ6:** Bấm Create allow address pair
-[![file](/img/migrated/image-1708395440253-4bafad85.png)](/img/migrated/image-1708395440253-4bafad85.png)
-**ステップ7:** Kiểm tra thông tin. Thông tin được cập nhật ở màn hình danh sách Allow address pair và thông tin trong Network interface của Instance
-[![file](/img/migrated/image-1708395474257-047d287b.png)](/img/migrated/image-1708395474257-047d287b.png)
-[![file](/img/migrated/image-1708395486779-7e386ff3.png)](/img/migrated/image-1708395486779-7e386ff3.png)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

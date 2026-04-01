@@ -4,18 +4,10 @@ title: "Cách 1: Xóa tại màn hình quản lý Allow address pair"
 sidebar_label: "Cách 1: Xóa tại màn hình quản lý Allow address pair"
 sidebar_position: "5"
 ---
-
 # Cách 1: Delete tại màn hình quản lý Allow address pair
 
-**Cách 1: Delete tại màn hình quản lý Allow address pair**
-**Step 1** : Chọn icon delete
 [![file](/img/migrated/image-1708395674995-65847886.png)](/img/migrated/image-1708395674995-65847886.png)
-**Step 2** : Confirm delete
-[![file](/img/migrated/image-1708395828130-9894ec41.png)](/img/migrated/image-1708395828130-9894ec41.png)
-**Cách 2: Delete in Instance Management**
-**Step 1** : Vào Network Interface in Instance Management.
-[![file](/img/migrated/image-1708395867460-1d20cf7a.png)](/img/migrated/image-1708395867460-1d20cf7a.png)
-**Step 2** : Bấm ando icon X
-[![file](/img/migrated/image-1708395893416-0efccabb.png)](/img/migrated/image-1708395893416-0efccabb.png)
-**Step 3** : Confirm Delete
-[![file](/img/migrated/image-1708395920272-52eddcc4.png)](/img/migrated/image-1708395920272-52eddcc4.png)
+
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

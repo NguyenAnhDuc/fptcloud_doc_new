@@ -4,10 +4,10 @@ title: "Truy cập giao diện quản trị"
 sidebar_label: "Truy cập giao diện quản trị"
 sidebar_position: "2"
 ---
-
 # Truy cập giao diện quản trị
 
-**ステップ1:** にログインします giao diện quản trị của Fortigate NGFW thông qua địa chỉ IP và user/password đã cấu hình.  
-[![Userguide Fortigate FPT NGFW 2022 1](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)  
-**ステップ2:** ログイン成功後 màn hình Dashboard hiển thị các thông số của hệ thống bao gồm: **Serial Number** , **Licenses** , **CPU** , **Memory** …  
-[![Userguide Fortigate FPT NGFW 2022 2](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-2-1024-898484e4.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-2-1024-898484e4.png)
+[![Userguide Fortigate FPT NGFW 2022 1](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

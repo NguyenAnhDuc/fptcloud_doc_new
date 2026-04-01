@@ -5,7 +5,8 @@ description: "7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu qué
 sidebar_label: "7 Hướng dẫn lấy Cookie trang web khi tạo mục tiêu quét"
 sidebar_position: "10"
 ---
-
 # 7 Hướng dẫn lấy Cookie trang web when tạo mục tiêu quét
 
-7 Hướng dẫn lấy Cookie trang web when tạo mục tiêu quét on FPT Cloud VA.
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

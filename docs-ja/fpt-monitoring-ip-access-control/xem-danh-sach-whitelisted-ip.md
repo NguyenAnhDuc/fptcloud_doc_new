@@ -4,11 +4,8 @@ title: "Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng."
 sidebar_label: "Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng."
 sidebar_position: "7"
 ---
-
 # Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng.
 
-* Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng. 
-  * Click biểu tượng phía góc trái từng bảng để mở rộng (hoặc đóng) bảng IP của từng endpoint. 
-  * Click các biểu tượng cạnh endpoint để đi tới Grafana dashboard, hoặc copy endpoint URL vào clipboard. 
-  * Danh sách IP/dải IP hỗ trợ phân trang, tìm kiếm theo IP/dải IP, và lọc theo trạng thái whitelist. 
-  * Click biểu tượng cạnh IP/dải IP để copy IP/dải IP vào clipboard.
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

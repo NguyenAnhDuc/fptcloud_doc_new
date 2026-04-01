@@ -4,19 +4,8 @@ title: "Kiểm tra thông tin backup và restore của VM."
 sidebar_label: "Kiểm tra thông tin backup và restore của VM."
 sidebar_position: "7"
 ---
-
 # 確認 thông tin backup và restore của VM.
 
-## **Kiểm Tra Trạng Thái Backup và Restore của VM**
-Ngoài việc thống kê chung ở **Backup & Recovery Management**, **FPT Portal** còn hỗ trợ bạn xem trạng thái backup và restore của từng VM tại giao diện quản trị của VM đấy.
-### **ステップ1: Truy cập giao diện quản trị VM**
-  1. Ở menu chọn **Compute Engine** > **Instance Management**.
-  2. Chọn VM cần kiểm tra thông tin.
-
-### **ステップ2: Kiểm tra tab Backups**
-  1. Nếu VM đã được bảo vệ bởi một **Backup Job** , sẽ có thêm tùy chọn **Backups**.
-  2. Chọn tab **Backups** để xem trạng thái của **Backup Job** và danh sách các Restore Point.
-
-### **注意:**
-  * Tab Backups chỉ hiển thị khi VM đang được bảo vệ bởi một Backup Job.
-  * Nếu bạn xóa Backup Job, danh sách Restore Point và các thông tin khác cũng sẽ bị xóa khỏi hệ thống.
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

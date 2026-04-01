@@ -4,12 +4,10 @@ title: "Gateway"
 sidebar_label: "Gateway"
 sidebar_position: "1"
 ---
-
 # Gateway
 
-  * [ ![](/img/migrated/settings-d609e2cc.png) Hướng dẫn truy cập ](javascript: "Hướng dẫn truy cập")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
+![](/img/migrated/settings-d609e2cc.png)
 
-Gateway
-01Hướng dẫn truy cập 
-02Hướng dẫn nhanh (Quick Starts)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

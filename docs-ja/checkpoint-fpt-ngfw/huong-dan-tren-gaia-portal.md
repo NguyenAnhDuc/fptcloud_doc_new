@@ -4,16 +4,10 @@ title: "Hướng dẫn trên Gaia Portal"
 sidebar_label: "Hướng dẫn trên Gaia Portal"
 sidebar_position: "2"
 ---
-
 # Hướng dẫn trên Gaia Portal
 
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
+![](/img/migrated/icon-networking-f57b0b33.png)
 
-Hướng dẫn trên Gaia Portal
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fcheckpoint-fpt-ngfw%2F "CheckPoint – FPT NGFW")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fcheckpoint-fpt-ngfw%2F "CheckPoint – FPT NGFW")
-
-* * *
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

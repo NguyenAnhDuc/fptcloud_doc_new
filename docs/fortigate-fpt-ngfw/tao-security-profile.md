@@ -4,48 +4,10 @@ title: "Tạo Security Profile"
 sidebar_label: "Tạo Security Profile"
 sidebar_position: "7"
 ---
-
 # Create Security Profile
 
-## AntiVirus
-**Step 1:** **Security Profiles** > **AntiVirus.**
-![Userguide Fortigate FPT NGFW 2022 13](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-13-102-881981db.png)  
-**Step 2:** Create mới a Profile or can dùng Profile có sẵn of **Fortigate**.  
-![Userguide Fortigate FPT NGFW 2022 14](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-14-102-d5b64418.png)  
-Tùy chọn the **Giao Thức Inspected** , **Feature** and **Action**.
-## Web Filter
-**Step 1:** **Security Profiles** > **Web Filter**.
-![Userguide Fortigate FPT NGFW 2022 15](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-15-102-5d2b8463.png)
-**Step 2:** Create mới a Profile or can dùng Profile có sẵn of **Fortigate.**
-![Userguide Fortigate FPT NGFW 2022 16](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-16-102-7d7928a3.png)  
-**Step 3:**
-Enable **URL Filter** > **Create New.**
-  * Create profile chỉ for phép truy cập to trang web cụ thể, ví dụ fptsmartcloud.com.
+![Userguide Fortigate FPT NGFW 2022 13](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-13-102-881981db.png)
 
-  * ![Userguide Fortigate FPT NGFW 2022 17](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-17-102-064d7203.png)**Create profile chặn tất cả the truy cập còn lại:** Sử dụng dạng Regex: [^.] to chặn the trang còn lại.
-
-![Userguide Fortigate FPT NGFW 2022 18](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-18-102-0730e9d9.png)
-![Userguide Fortigate FPT NGFW 2022 19](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-19-17350cd9.png)
-## Application Control
-**Step 1:** **Security Profiles** > **Application Control.**
-![Userguide Fortigate FPT NGFW 2022 20](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-20-102-4e4f0eba.png)
-**Step 2:** Create mới a Profile or can dùng Profile có sẵn of Fortigate to chặn truy cập the trang network xã hội.
-![Userguide Fortigate FPT NGFW 2022 21](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-21-102-f6520a67.png)
-![Userguide Fortigate FPT NGFW 2022 22](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-22-102-568d50f4.png)
-**Step 3:** Sử dụng the signature có sẵn or tạo mới **Create New** > **Custom Application Signature**.
-![Userguide Fortigate FPT NGFW 2022 23](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-23-102-8c16436a.png)
-## Intrusion Prevention – IPS
-**Step 1:** **Security Profiles** > **Intrusion Prevention**.
-![Userguide Fortigate FPT NGFW 2022 24](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-24-102-a9517010.png)
-**Step 2:** Create mới a Profile or can dùng Profile có sẵn of Fortigate to chặn truy cập to the C&C server (Botnet).
-![Userguide Fortigate FPT NGFW 2022 25](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-25-102-d20e176d.png)
-![Userguide Fortigate FPT NGFW 2022 26](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-26-102-c379afe0.png)
-**Step 3:** Sử dụng the IPS signature có sẵn or tạo mới **IPS Signature and Filter** > **Create New.**
-![Userguide Fortigate FPT NGFW 2022 27](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-27-102-ccc83cc5.png)
-## WebApplication FireWall – WAF
-**Step 1:** **Security Profiles** > **Web Application FireWall**  
-![Userguide Fortigate FPT NGFW 2022 28](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-28-102-3da9bc27.png)  
-**Step 2:** Create mới a Profile or can dùng Profile có sẵn of Fortigate to chặn the cuộc tấn công to webserver (Sql Injection, Cross Site Scripting)
-![Userguide Fortigate FPT NGFW 2022 29](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-29-102-2ec3dddd.png)
-**Step 3:** Enable the signatures **Edit** > **Sql Injection** (Extended), **Cross Site** (Extended)  
-![Userguide Fortigate FPT NGFW 2022 30](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-30-102-dd9edd12.png)
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

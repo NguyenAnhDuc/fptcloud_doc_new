@@ -4,7 +4,8 @@ title: "1. Kích hoạch dịch vụ FPT Cloud Monitoring"
 sidebar_label: "1. Kích hoạch dịch vụ FPT Cloud Monitoring"
 sidebar_position: "3"
 ---
-
 # 1. Kích hoạch service FPT Cloud Monitoring
 
-Để đăng ký mới **FPT Cloud Monitoring** , you need to is cấp quota service. Hãy liên hệ with chúng tôi if có nhu cầu sử dụng.
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::

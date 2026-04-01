@@ -4,13 +4,10 @@ title: "Relation Management"
 sidebar_label: "Relation Management"
 sidebar_position: "1"
 ---
-
 # Relation Management
 
-  * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+![](/img/migrated/settings-3-e684e7b5.png)
 
-Relation management
-##  Trang chủ 
-01Initial Setup 
-02Hướng dẫn chi tiết (Tutorials)
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

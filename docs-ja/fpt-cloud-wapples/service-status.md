@@ -4,8 +4,10 @@ title: "Service Status"
 sidebar_label: "Service Status"
 sidebar_position: "5"
 ---
-
 # Service Status
 
-Thống kê lưu lượng traffic đi qua wapple đến các ip/website được add policy và nằm sau Wapples
 ![file](/img/migrated/image-1714112376191-644662e9.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

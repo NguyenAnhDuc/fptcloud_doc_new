@@ -4,11 +4,8 @@ title: "Quan Li Danh Sach Whitelisted Ip"
 sidebar_label: "Quan Li Danh Sach Whitelisted Ip"
 sidebar_position: "6"
 ---
-
 # Quan Li Danh Sach Whitelisted Ip
 
-Tính năng IP Access Control quản lí danh sách whitelisted IP theo các thành phần hệ thống FPT Cloud Monitoring của workspace, gồm: 
-  * Grafana dashboard URL 
-  * Metric datasource URL 
-  * Log datasource URL 
-  * Trace datasource URL
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

@@ -4,18 +4,10 @@ title: "Cách 1: Xóa tại màn hình quản lý Allow address pair"
 sidebar_label: "Cách 1: Xóa tại màn hình quản lý Allow address pair"
 sidebar_position: "5"
 ---
-
 # Cách 1: Xóa tại màn hình quản lý Allow address pair
 
-**Cách 1: Xóa tại màn hình quản lý Allow address pair**
-**ステップ1:** Chọn icon delete
 [![file](/img/migrated/image-1708395674995-65847886.png)](/img/migrated/image-1708395674995-65847886.png)
-**ステップ2:** Xác nhận delete
-[![file](/img/migrated/image-1708395828130-9894ec41.png)](/img/migrated/image-1708395828130-9894ec41.png)
-**Cách 2: Xóa trong Instance Management**
-**ステップ1:** Vào Network Interface trong Instance Management.
-[![file](/img/migrated/image-1708395867460-1d20cf7a.png)](/img/migrated/image-1708395867460-1d20cf7a.png)
-**ステップ2:** Bấm vào icon X
-[![file](/img/migrated/image-1708395893416-0efccabb.png)](/img/migrated/image-1708395893416-0efccabb.png)
-**ステップ3:** Xác nhận Delete
-[![file](/img/migrated/image-1708395920272-52eddcc4.png)](/img/migrated/image-1708395920272-52eddcc4.png)
+
+:::note
+このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+:::

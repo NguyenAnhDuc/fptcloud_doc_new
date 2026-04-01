@@ -4,16 +4,10 @@ title: "Management Target"
 sidebar_label: "Management Target"
 sidebar_position: "3"
 ---
-
 # FPT Cloud VA
 
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
+![](/img/migrated/settings-800de3d1.png)
 
-Manage Target
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
-
-* * *
+:::note
+This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+:::
