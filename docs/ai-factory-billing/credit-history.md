@@ -1,12 +1,12 @@
 ---
 id: "credit-history"
-title: "Credit History"
+title: "Credit history"
 description: "The **Credit History** tab lets you track all **balance changes** , including **top-ups, voucher credits, and service us"
-sidebar_label: "Credit History"
+sidebar_label: "Credit history"
 sidebar_position: 6
 ---
 
-# Credit History
+# Credit history
 
 The **Credit History** tab lets you track all **balance changes** , including **top-ups, voucher credits, and service usage.** [![Alt text](/img/migrated/image2025-6-30_14-3-28-f7bf8b4c.png)](/img/migrated/image2025-6-30_14-3-28-f7bf8b4c.png) [![Alt text](/img/migrated/image2025-6-30_14-4-25-da425d96.png)](/img/migrated/image2025-6-30_14-4-25-da425d96.png)
 ## Table Fields Explanation  

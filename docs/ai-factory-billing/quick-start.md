@@ -1,12 +1,12 @@
 ---
 id: "quick-start"
-title: "Quick Start"
+title: "Quick start"
 description: "Sign up for an account at:"
-sidebar_label: "Quick Start"
+sidebar_label: "Quick start"
 sidebar_position: 3
 ---
 
-# Quick Start
+# Quick start
 
 ## Log In console
 Sign up for an account at:

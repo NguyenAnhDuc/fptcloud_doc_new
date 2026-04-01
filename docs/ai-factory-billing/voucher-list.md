@@ -1,12 +1,12 @@
 ---
 id: "voucher-list"
-title: "Voucher List"
+title: "Voucher list"
 description: "This tab displays all successfully applied vouchers. Here, you can **track** **each voucher's details,** including remai"
-sidebar_label: "Voucher List"
+sidebar_label: "Voucher list"
 sidebar_position: 7
 ---
 
-# Voucher List
+# Voucher list
 
 This tab displays all successfully applied vouchers. Here, you can **track** **each voucher's details,** including remaining credit, amount, validity period, applicable products, and status—helping you manage your usage plan effectively. [![Alt text](/img/migrated/image2025-6-30_13-58-14-129e2e07.png)](/img/migrated/image2025-6-30_13-58-14-129e2e07.png)
 ## Table Fields Explanation  

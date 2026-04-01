@@ -1,12 +1,12 @@
 ---
 id: "gpu-container-billing"
-title: "Gpu Container Billing"
+title: "GPU Container billing"
 description: "| **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |"
-sidebar_label: "Gpu Container Billing"
+sidebar_label: "GPU Container billing"
 sidebar_position: 10
 ---
 
-# Gpu Container Billing
+# GPU Container billing
 
 | **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |  
 | --- | --- | --- |  

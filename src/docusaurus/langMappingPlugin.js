@@ -48,6 +48,10 @@ const SECTION_EQUIVALENTS = [
   ['fpt-key-vault',                    'fpt-key-vault',                   'fpt-key-vault'],
   ['incident-management',              'incident-management',             'incident-management'],
   ['trellix-customer-guide',           'trellix-customer-guide',          'trellix-customer-guide'],
+  ['model-serving',                    'model-serving',                   'model-serving'],
+  ['ai-factory-billing',               'ai-factory-billing',              'ai-factory-billing'],
+  ['ai-notebook',                      'ai-notebook',                     'ai-notebook-jp'],
+  ['data-hub',                         'data-hub',                        'data-hub-ja'],
 ];
 
 const LANG_CONFIGS = [

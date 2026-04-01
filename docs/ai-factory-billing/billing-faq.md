@@ -1,13 +1,13 @@
 ---
 id: "billing-faq"
-title: "Billing Faq"
+title: "Billing FAQ"
 description: "Take a look at which cards are accepted by each payment partner: **VNPay, PayPal, and Stripe**."
-sidebar_label: "Billing Faq"
+sidebar_label: "Billing FAQ"
 sidebar_position: 18
 pagination_next: null
 ---
 
-# Billing Faq
+# Billing FAQ
 
 ### Why did my card get declined?
 Take a look at which cards are accepted by each payment partner: **VNPay, PayPal, and Stripe**. 

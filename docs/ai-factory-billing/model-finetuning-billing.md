@@ -1,12 +1,12 @@
 ---
 id: "model-finetuning-billing"
-title: "Model Finetuning Billing"
+title: "Model Fine-Tuning billing"
 description: "| **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |"
-sidebar_label: "Model Finetuning Billing"
+sidebar_label: "Model Fine-Tuning billing"
 sidebar_position: 12
 ---
 
-# Model Finetuning Billing
+# Model Fine-Tuning billing
 
 | **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |  
 | --- | --- | --- |  

@@ -1,12 +1,12 @@
 ---
 id: "payment-methods"
-title: "Payment Methods"
+title: "Payment methods"
 description: "FPT AI Factory uses **PCI-certified partners** for all payment processing."
-sidebar_label: "Payment Methods"
+sidebar_label: "Payment methods"
 sidebar_position: 8
 ---
 
-# Payment Methods
+# Payment methods
 
 FPT AI Factory uses **PCI-certified partners** for all payment processing.  
 | **Payment Method**  | **Region**  | **Supported Currency**  |  

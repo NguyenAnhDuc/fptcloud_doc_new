@@ -1,12 +1,12 @@
 ---
 id: "low-balance-threshold-alert"
-title: "Low Balance Threshold Alert"
+title: "Low balance threshold alert"
 description: "Running out of credits may disrupt your applications on **FPT AI Factory**. To avoid this, you can enable **Low Balance "
-sidebar_label: "Low Balance Threshold Alert"
+sidebar_label: "Low balance alert"
 sidebar_position: 5
 ---
 
-# Low Balance Threshold Alert
+# Low balance threshold alert
 
 Running out of credits may disrupt your applications on **FPT AI Factory**. To avoid this, you can enable **Low Balance Alerts**. These alerts notify you by email when your balance drops below a threshold you define.  
 By default, this feature is **disabled**.

@@ -1,12 +1,12 @@
 ---
 id: "billing-plan"
-title: "Billing Plan"
+title: "Billing plan"
 description: "A **Billing Plan** defines **how your subscription or service usage is priced, billed, and renewed**. It specifies the e"
-sidebar_label: "Billing Plan"
+sidebar_label: "Billing plan"
 sidebar_position: 17
 ---
 
-# Billing Plan
+# Billing plan
 
 ## **What is Billing Plans?**
 A **Billing Plan** defines **how your subscription or service usage is priced, billed, and renewed**. It specifies the exact products or services you are entitled to use, your payment schedule, and how your balance is managed throughout the billing cycle..

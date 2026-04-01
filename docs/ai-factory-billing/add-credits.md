@@ -1,12 +1,12 @@
 ---
 id: "add-credits"
-title: "Add Credits"
+title: "Add credits"
 description: "To start using the AI Factory services with the PAYG billing plan, you need to buy credits first."
-sidebar_label: "Add Credits"
+sidebar_label: "Add credits"
 sidebar_position: 14
 ---
 
-# Add Credits
+# Add credits
 
 To start using the AI Factory services with the PAYG billing plan, you need to buy credits first.
 Follow the instructions below:

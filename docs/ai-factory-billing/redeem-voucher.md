@@ -1,12 +1,12 @@
 ---
 id: "redeem-voucher"
-title: "Redeem Voucher"
+title: "Redeem voucher"
 description: "To start using AI Factory services, you may use **Top-up Credits** or **Voucher Credits**."
-sidebar_label: "Redeem Voucher"
+sidebar_label: "Redeem voucher"
 sidebar_position: 15
 ---
 
-# Redeem Voucher
+# Redeem voucher
 
 To start using AI Factory services, you may use **Top-up Credits** or **Voucher Credits**.
 If you have received a **voucher code** —for example, as part of a promotional offer—you can apply it to redeem credits!

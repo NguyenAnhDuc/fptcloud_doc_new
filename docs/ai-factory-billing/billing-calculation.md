@@ -1,12 +1,12 @@
 ---
 id: "billing-calculation"
-title: "Billing Calculation"
+title: "Billing calculation"
 description: "We now support using credits for these services:"
-sidebar_label: "Billing Calculation"
+sidebar_label: "Billing calculation"
 sidebar_position: 9
 ---
 
-# Billing Calculation
+# Billing calculation
 
 We now support using credits for these services: 
   1. GPU Container

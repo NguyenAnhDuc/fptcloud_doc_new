@@ -1,12 +1,12 @@
 ---
 id: "model-hub-billing"
-title: "Model Hub Billing"
+title: "Model Hub billing"
 description: "Based on usage volume and usage duration of a pipeline."
-sidebar_label: "Model Hub Billing"
+sidebar_label: "Model Hub billing"
 sidebar_position: 11
 ---
 
-# Model Hub Billing
+# Model Hub billing
 
 Based on usage volume and usage duration of a pipeline. 
   * Each hour is split into 12 blocks — **1 block = 5 minutes**. 

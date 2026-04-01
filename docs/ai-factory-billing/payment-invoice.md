@@ -1,12 +1,12 @@
 ---
 id: "payment-invoice"
-title: "Payment Invoice"
+title: "Payment invoice"
 description: "> **Note:** _Only apply for the Vietnam region._"
-sidebar_label: "Payment Invoice"
+sidebar_label: "Payment invoice"
 sidebar_position: 16
 ---
 
-# Payment Invoice
+# Payment invoice
 
 > **Note:** _Only apply for the Vietnam region._
 * * *

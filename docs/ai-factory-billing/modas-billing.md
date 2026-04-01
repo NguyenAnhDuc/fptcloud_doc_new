@@ -1,12 +1,12 @@
 ---
 id: "modas-billing"
-title: "Modas Billing"
+title: "MoDaS billing"
 description: "| **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |"
-sidebar_label: "Modas Billing"
+sidebar_label: "MoDaS billing"
 sidebar_position: 13
 ---
 
-# Modas Billing
+# MoDaS billing
 
 | **Billing Logic**  | **Minimum billable usage**  | **Time to charge**  |  
 | --- | --- | --- |  
