@@ -1,13 +1,14 @@
 ---
 id: "xem chi tiet user group"
 title: "Xem chi tiết User Group"
-description: "**Bước 1** : Ở menu chọn **IAM** > **User Groups** , hệ thống sẽ hiển thị trang **User Groups Management.**"
+description: "Hướng dẫn xem thông tin chi tiết của một User Group trong FPT IAM."
 sidebar_label: "Xem chi tiết User Group"
 sidebar_position: 14
 ---
 
-# Xem Chi Tiet User Group
+# Xem chi tiết User Group
 
-**Bước 1** : Ở menu chọn **IAM** > **User Groups** , hệ thống sẽ hiển thị trang **User Groups Management.**
-**Bước 2** : Chọn **User Group** cần xem thông tin trên danh sách. Hệ thống sẽ hiển thị trang **User Groups Detail**.
-[![file](/img/migrated/image-1734344596704-321ecd6d.png)](/img/migrated/image-1734344596704-321ecd6d.png)
+1. Chọn **IAM** > **User Groups**. Hệ thống hiển thị trang **User Groups Management**.
+2. Chọn User Group cần xem thông tin trên danh sách. Hệ thống hiển thị trang **User Groups Detail**.
+
+[![](/img/migrated/image-1734344596704-321ecd6d.png)](/img/migrated/image-1734344596704-321ecd6d.png)

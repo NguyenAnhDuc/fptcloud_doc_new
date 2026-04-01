@@ -1,12 +1,15 @@
 ---
 id: "cau-hinh-webhook"
 title: "Cấu hình webhook"
-description: "ArgoCD sẽ tự động kiểm tra các thay đổi của các manifest trên Git Repository ba phút một lần. ArgoCD hỗ trợ Git webhook "
+description: "Giới thiệu về tính năng Git webhook trong ArgoCD để phát hiện thay đổi repository"
 sidebar_label: "Cấu hình webhook"
 sidebar_position: 13
 ---
 
-# Cau Hinh Webhook
+# Cấu hình webhook
 
-ArgoCD sẽ tự động kiểm tra các thay đổi của các manifest trên Git Repository ba phút một lần. ArgoCD hỗ trợ Git webhook notifications từ Github, GitLab, Bitbucket, Bitbucket Server and Gogs để mỗi lần Git Repository có thay đổi ArgoCD sẽ tự động phát hiện và đồng bộ các thay đổi này. 
-**Lưu ý: Mỗi một loại webhook chỉ được tạo 1 lần và có thể update cho các lần sau. ArgoCD không hỗ trợ cấu hình nhiều secret cho mỗi loại webhook**
+ArgoCD tự động kiểm tra thay đổi trong Git repository mỗi 3 phút. Ngoài ra, ArgoCD hỗ trợ Git webhook notifications từ GitHub, GitLab, Bitbucket, Bitbucket Server và Gogs để phát hiện và đồng bộ thay đổi ngay lập tức khi có commit mới.
+
+:::note
+Mỗi loại webhook chỉ được tạo một lần và có thể cập nhật cho các lần sau. ArgoCD không hỗ trợ cấu hình nhiều secret cho mỗi loại webhook.
+:::

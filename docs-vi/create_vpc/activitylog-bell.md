@@ -1,19 +1,18 @@
 ---
 id: "activitylog-bell"
-title: "Ghi nhận Activity log và Recent task status"
-description: "Các hành động trên VPC đều được ghi nhận vào Activity log. Người dùng có thể xem lại khi cần thiết."
-sidebar_label: "Ghi nhận Activity log và Recent task status"
+title: "Xem Activity log và trạng thái tác vụ"
+description: "Hướng dẫn xem Activity log và trạng thái tác vụ gần đây trên VPC."
+sidebar_label: "Xem Activity log và trạng thái tác vụ"
 sidebar_position: 5
 pagination_next: null
 ---
 
-# Activitylog Bell
+# Xem Activity log và trạng thái tác vụ
 
-Các hành động trên VPC đều được ghi nhận vào Activity log. Người dùng có thể xem lại khi cần thiết.
-[![file](/img/migrated/image-1714811329766-37208c03.png)](/img/migrated/image-1714811329766-37208c03.png)
-__
-_VPC Activity log ghi nhận các hành động trên VPC_
-Ngoài ra, các hành động trên VPC đều được ghi nhận vào Bell - Recent task. Người dùng có thể biết trạng thái các tác vụ đang thực hiện
-[![file](/img/migrated/image-1714811345638-2e8d0492.png)](/img/migrated/image-1714811345638-2e8d0492.png)
-__
-_Belll recent task ghi nhận các tác vụ đang thực hiện trên VPC_
+Các hành động trên VPC đều được ghi nhận vào Activity log, giúp bạn theo dõi và xem lại khi cần thiết.
+
+![VPC Activity log ghi nhận các hành động trên VPC](/img/migrated/image-1714811329766-37208c03.png)
+
+Ngoài ra, các hành động trên VPC cũng được ghi nhận vào **Bell - Recent task**. Bạn có thể biết trạng thái các tác vụ đang thực hiện.
+
+![Bell Recent task ghi nhận tác vụ đang thực hiện trên VPC](/img/migrated/image-1714811345638-2e8d0492.png)

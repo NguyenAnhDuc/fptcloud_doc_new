@@ -1,35 +1,45 @@
 ---
 id: "add-cluster-toi-argocd"
-title: "Add cluster tới ArgoCD instance đã được khởi tạo"
-description: "Để có thể deploy một ứng dụng qua ArgoCD cluster đã được khởi tạo, cần Add một cluster K8s nơi mà ứng dụng được deploy. "
-sidebar_label: "Add cluster tới ArgoCD instance đã được khởi tạo"
+title: "Kết nối cluster Kubernetes tới ArgoCD"
+description: "Hướng dẫn thêm cluster Kubernetes vào ArgoCD instance để deploy ứng dụng"
+sidebar_label: "Kết nối cluster Kubernetes"
 sidebar_position: 6
 ---
 
-# Add Cluster Toi Argocd
+# Kết nối cluster Kubernetes tới ArgoCD
 
-Để có thể deploy một ứng dụng qua ArgoCD cluster đã được khởi tạo, cần Add một cluster K8s nơi mà ứng dụng được deploy. FPT Cloud hỗ trợ người dùng thêm mới một cluster qua giao diện thay vì thêm mới qua ArgoCD CLI
-**Bước 1** : Tại menu **Cluster Managements** > Chọn **Connect a Cluster**
+Để deploy ứng dụng qua ArgoCD, cần kết nối cluster Kubernetes nơi ứng dụng sẽ chạy. FPT Cloud hỗ trợ thêm cluster qua giao diện Portal thay vì dùng ArgoCD CLI.
+
+1. Tại menu **Cluster Managements**, chọn **Connect a Cluster**.
+
 [![](/img/migrated/Picture62-af17013a.png)](/img/migrated/Picture62-af17013a.png)
-**Bước 2** : Nhập các thông tin để connect tới cụm k8s cluster. Các thông tin này sẽ được người dùng lấy từ thông tin trong file kubeconfig. 
-**_Lưu ý: Thông tin dùng để connect k8s cluster bắt buộc phải có quyền admin._**
-**Cluster Name (required)** : Đặt tên cho cluster name ( có thể đặt tên theo môi trường sử dụng ví dụ: dev env , prod env ,staging env , qa env,…) 
-**Server (required)** : Thông tin được lấy từ file kubeconfig, url api server k8s. 
-**_Ví dụ:<https://api.xxxxx.fke.fptcloud.com:6443>_**
-**CA Data (required)** : Thông tin của trường **certificate-authority-data** trong file kubeconfig 
-**Bearer Token (required)** : Thông tin trường **token** trong file kubeconfig
+
+2. Nhập các thông tin kết nối tới cluster Kubernetes. Thông tin này lấy từ file kubeconfig.
+
+:::note
+Thông tin dùng để kết nối cluster Kubernetes bắt buộc phải có quyền admin.
+:::
+
+   - **Cluster Name** (bắt buộc): Tên cluster, ví dụ: `dev-env`, `prod-env`, `staging-env`
+   - **Server** (bắt buộc): URL API server, lấy từ file kubeconfig. Ví dụ: `https://api.xxxxx.fke.fptcloud.com:6443`
+   - **CA Data** (bắt buộc): Giá trị trường `certificate-authority-data` trong file kubeconfig
+   - **Bearer Token** (bắt buộc): Giá trị trường `token` trong file kubeconfig
+
 [![](/img/migrated/Picture63-5914837a.png)](/img/migrated/Picture63-5914837a.png)
-**Bước 3** : Nhấn nút **Connector** để hoàn thành. 
-**Bước 4** : Kiểm tra thông tin k8s cluster đã được connect 
-  * Thông tin cụm K8s được quản lý qua giao diện Portal: 
+
+3. Nhấn **Connector** để hoàn thành kết nối.
+
+4. Kiểm tra thông tin cluster đã được kết nối:
+   - Thông tin trên Portal:
 
 [![](/img/migrated/Picture64-4e9e2808.png)](/img/migrated/Picture64-4e9e2808.png)
-  * Kiểm tra thông tin cụm k8s trên giao diện **ArgoCD instance** : Vào **ArgoCD** > **Settings** > **Clusters** : 
+
+   - Kiểm tra trên ArgoCD instance: vào **Settings** > **Clusters**:
 
 [![](/img/migrated/Picture65-44537eba.png)](/img/migrated/Picture65-44537eba.png)
-  * Kiểm tra thông tin cụm k8s trên giao diện **ArgoCD instance** : Vào **ArgoCD** > **Settings** > **Clusters** : 
 
 [![](/img/migrated/Picture66-40c67a44.png)](/img/migrated/Picture66-40c67a44.png)
-  * Thông tin cụm cluster đã được cấu hình xuống ArgoCD instance: 
+
+   - Thông tin cluster đã được cấu hình xuống ArgoCD instance:
 
 [![](/img/migrated/Picture67-00694a7c.png)](/img/migrated/Picture67-00694a7c.png)

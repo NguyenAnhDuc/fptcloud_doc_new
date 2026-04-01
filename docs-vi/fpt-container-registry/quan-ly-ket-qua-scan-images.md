@@ -1,20 +1,28 @@
 ---
 id: "quan-ly-ket-qua-scan-images"
-title: "Quản lý kết quả Scan images"
-description: "FPT Cloud cho phép người dùng xem thông tin chi tiết các lỗi images sau khi đã scan như sau:"
-sidebar_label: "Quản lý kết quả Scan images"
+title: "Quản lý kết quả scan image"
+description: "Xem chi tiết lỗ hổng bảo mật được phát hiện sau khi scan image."
+sidebar_label: "Quản lý kết quả scan"
 sidebar_position: 33
 pagination_next: null
 ---
 
-# Quan Ly Ket Qua Scan Images
+# Quản lý kết quả scan image
 
-FPT Cloud cho phép người dùng xem thông tin chi tiết các lỗi images sau khi đã scan như sau: 
-**Bước 1** : Tại menu **FPT Portal** > Chọn **Container Registry** > **Repository** > **Detail Repository**
-![](/img/migrated/Picture98-49e7fa22.png)
-**Bước 2** : Click vào tables Vulnerabilities để xem số lượng các lỗi đã quét 
-![](/img/migrated/Picture99-b3e32c1f.png)
-**Bước 3** : Click vào **Detail Artifact** để xem chi tiết lỗ hổng 
-![](/img/migrated/Picture100-766da985.png)
-**Bước 4** : Chi tiết danh sách các lỗ hổng được scan qua FPT Container Registry 
-![](/img/migrated/Picture101-55d53435.png)
+Sau khi scan hoàn tất, FPT Container Registry cung cấp báo cáo chi tiết về các lỗ hổng bảo mật được phát hiện, giúp bạn đánh giá mức độ rủi ro và đưa ra biện pháp xử lý phù hợp.
+
+1. Trên menu **FPT Portal**, chọn **Container Registry** > **Repository** > **Detail Repository**.
+
+   ![Chi tiết repository để xem kết quả scan](/img/migrated/Picture98-49e7fa22.png)
+
+2. Click vào bảng **Vulnerabilities** để xem tổng số lỗ hổng đã phát hiện.
+
+   ![Bảng Vulnerabilities](/img/migrated/Picture99-b3e32c1f.png)
+
+3. Click vào **Detail Artifact** để xem chi tiết từng lỗ hổng.
+
+   ![Chi tiết artifact với danh sách lỗ hổng](/img/migrated/Picture100-766da985.png)
+
+4. Xem danh sách đầy đủ các lỗ hổng được phát hiện qua FPT Container Registry.
+
+   ![Danh sách chi tiết lỗ hổng bảo mật](/img/migrated/Picture101-55d53435.png)

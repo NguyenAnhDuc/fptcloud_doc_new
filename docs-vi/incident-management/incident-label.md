@@ -1,36 +1,51 @@
 ---
 id: "incident-label"
-title: "A. Tạo label"
-description: "Chú thích sự cố bằng nhãn (label) giúp bạn lọc và hiểu rõ hơn về xu hướng sự cố theo thời gian. Sử dụng nhãn để nhóm các"
-sidebar_label: "A. Tạo label"
+title: "Incident label"
+description: "Hướng dẫn tạo, sửa và xóa label cho incident"
+sidebar_label: "Incident label"
 sidebar_position: 12
 ---
 
-# Incident Label
+# Incident label
 
-Chú thích sự cố bằng nhãn (label) giúp bạn lọc và hiểu rõ hơn về xu hướng sự cố theo thời gian. Sử dụng nhãn để nhóm các sự cố và gắn thẻ, ví dụ như nhóm nào có liên quan, dịch vụ nào bị ảnh hưởng và liệu khách hàng có bị ảnh hưởng hay không.
-**A. Tạo label**
-**Bước 1** : Bên menu bên trái, click **Apps** , sau đó chọn **Incident**
-**Bước 2** : Click **Settings**
-**Bước 3** : Ở tab **Labels** , click **Create Label**
-[![](/img/migrated/Screenshot_5-81e86153.png)](/img/migrated/Screenshot_5-81e86153.png)
-**Bước 4** : Cung cấp thông tin **Name** , **Description** cho label 
-**Bước 5** : (Option) lựa chọn màu color cho label 
-**Bước 6** : Click **Add Label** để tạo
-[![](/img/migrated/Screenshot_6-441947ed.png)](/img/migrated/Screenshot_6-441947ed.png)
-Lặp lại bước 2-4 nếu bạn cần tạo thêm label mới. 
-**B. Sửa label**
-**Bước 1** : Bên menu bên trái, click **Apps** , sau đó chọn **Incident**
-**Bước 2** : Click **Settings**
-**Bước 3** : Ở tab **Labels** , chọn một label đã được tạo, click **pencil icon**
-[![](/img/migrated/Screenshot_7-351b6d16.png)](/img/migrated/Screenshot_7-351b6d16.png)
-**Bước 4** : Cung cấp thông tin **Name** , **Description** cho label 
-**Bước 5** : (Option) lựa chọn màu color cho label 
-**Bước 6** : Click **Edit Label** để cập nhật
-[![](/img/migrated/Screenshot_8-2f86e3dd.png)](/img/migrated/Screenshot_8-2f86e3dd.png)
-**C. Xóa label**
-**Bước 1** : Bên menu bên trái, click **Apps** , sau đó chọn **Incident**
-**Bước 2** : Click **Settings**
-**Bước 3** : Ở tab **Labels** , chọn một label đã được tạo, click **Recycle Bin**
-[![](/img/migrated/Screenshot_9-9db19efd.png)](/img/migrated/Screenshot_9-9db19efd.png)
-**Bước 4** : Popup thông báo xác nhận xóa, click **Delete**
+Gắn nhãn (label) cho incident giúp lọc và phân tích xu hướng sự cố theo thời gian. Dùng label để nhóm các sự cố và đánh dấu thông tin như nhóm liên quan, dịch vụ bị ảnh hưởng hoặc mức độ tác động đến khách hàng.
+
+## Tạo label
+
+1. Trong menu trái, nhấn **Apps** > **Incident**.
+2. Nhấn **Settings**.
+3. Trong tab **Labels**, nhấn **Create Label**.
+
+   [![Danh sách label](/img/migrated/Screenshot_5-81e86153.png)](/img/migrated/Screenshot_5-81e86153.png)
+
+4. Nhập **Name** và **Description** cho label.
+5. (Tùy chọn) Chọn màu cho label.
+6. Nhấn **Add Label** để tạo.
+
+   [![Form tạo label](/img/migrated/Screenshot_6-441947ed.png)](/img/migrated/Screenshot_6-441947ed.png)
+
+Lặp lại các bước trên nếu cần tạo thêm label.
+
+## Sửa label
+
+1. Trong menu trái, nhấn **Apps** > **Incident**.
+2. Nhấn **Settings**.
+3. Trong tab **Labels**, chọn label cần sửa và nhấn biểu tượng **bút chì**.
+
+   [![Chọn label để sửa](/img/migrated/Screenshot_7-351b6d16.png)](/img/migrated/Screenshot_7-351b6d16.png)
+
+4. Cập nhật **Name** và **Description**.
+5. (Tùy chọn) Thay đổi màu.
+6. Nhấn **Edit Label** để lưu.
+
+   [![Form sửa label](/img/migrated/Screenshot_8-2f86e3dd.png)](/img/migrated/Screenshot_8-2f86e3dd.png)
+
+## Xóa label
+
+1. Trong menu trái, nhấn **Apps** > **Incident**.
+2. Nhấn **Settings**.
+3. Trong tab **Labels**, chọn label cần xóa và nhấn biểu tượng **Recycle Bin**.
+
+   [![Chọn label để xóa](/img/migrated/Screenshot_9-9db19efd.png)](/img/migrated/Screenshot_9-9db19efd.png)
+
+4. Trong hộp thoại xác nhận, nhấn **Delete**.

@@ -1,28 +1,34 @@
 ---
 id: "them-moi-may-chu-waf"
 title: "Thêm mới máy chủ WAF"
-description: "**Bước 1:** Ở menu chọn **Security > Cloud WAF**, chọn **Create WAF.**"
+description: "Hướng dẫn nhanh tạo máy chủ WAF trên FPT Cloud Portal."
 sidebar_label: "Thêm mới máy chủ WAF"
 sidebar_position: 3
 ---
 
-# Them Moi May Chu Waf
+# Thêm mới máy chủ WAF
 
-**Bước 1:** Ở menu chọn **Security > Cloud WAF**, chọn **Create WAF.**
-[![Userguide FPT WAF 2022 1](/img/migrated/Userguide-FPT-WAF-2022-1-1024x538-66a0aec1.png)](/img/migrated/Userguide-FPT-WAF-2022-1-1024x538-66a0aec1.png)
-**Bước 2:** Nhập thông tin **WAF** và chọn size phù hợp. 
-[![Userguide FPT WAF 2022 2](/img/migrated/Userguide-FPT-WAF-2022-2-1024x538-6f8b611d.png)](/img/migrated/Userguide-FPT-WAF-2022-2-1024x538-6f8b611d.png)  
-| **Field**  | **Description**  | **Value**  |  
-| --- | --- | --- |  
-| **Name**  | Nhập tên máy chủ WAF  | Chỉ nhận chữ, số và dấu cách  |  
-| **Description**  | Nhập mô tả chi tiết của WAF  | ​  |  
-| **Default configured rules**  | Danh sách các tập luật (rule) có sẵn của máy chủ WAF khi tạo  | ​  |  
-| **Size**  | Chọn size của máy chủ WAF dựa theo nhu cầu của người dùng  | 3 size WAF với cấu hình khác nhau: Small, Medium, Large  |  
-Bạn có thể tham khảo cấu hình cụ thể của từng size theo bảng sau:  
-|   |   |   |   |  
-| --- | --- | --- | --- |  
-| **Size**  | **Cấu hình cơ bản**  | **Network bandwidth**  | **Số request/giây có thể xử lý**  |  
-| **Small**  | 2vCPU – 4GB Ram – 150GB bộ nhớ  | 100 Mbps  | 50  |  
-| **Medium**  | 4vCPU – 8GB RAM – 300 GB bộ nhớ  | 200 Mbps  | 150  |  
-| **Large**  | 8vCPU – 16GB RAM – 500GB bộ nhớ  | 500Mbps  | 500  |  
-**Bước 3:** Chọn **Create WAF** để thực hiện tạo máy chủ WAF theo thông tin và cấu hình đã chọn, tiến độ xử lý sẽ được update ở trường Status trên **Cloud Web Application Firewall Management.**
+1. Trên menu, chọn **Security > Cloud WAF**, sau đó chọn **Create WAF**.
+
+   [![Tạo WAF — bước 1](/img/migrated/Userguide-FPT-WAF-2022-1-1024x538-66a0aec1.png)](/img/migrated/Userguide-FPT-WAF-2022-1-1024x538-66a0aec1.png)
+
+2. Nhập thông tin WAF và chọn size phù hợp.
+
+   [![Tạo WAF — bước 2](/img/migrated/Userguide-FPT-WAF-2022-2-1024x538-6f8b611d.png)](/img/migrated/Userguide-FPT-WAF-2022-2-1024x538-6f8b611d.png)
+
+   | Field | Mô tả | Giá trị |
+   |---|---|---|
+   | **Name** | Tên máy chủ WAF | Chỉ nhận chữ, số và dấu cách |
+   | **Description** | Mô tả chi tiết của WAF | |
+   | **Default configured rules** | Tập luật có sẵn khi tạo | |
+   | **Size** | Kích thước máy chủ WAF | Small, Medium hoặc Large |
+
+   Cấu hình cụ thể theo từng size:
+
+   | Size | Cấu hình cơ bản | Network bandwidth | Số request/giây |
+   |---|---|---|---|
+   | **Small** | 2 vCPU – 4 GB RAM – 150 GB | 100 Mbps | 50 |
+   | **Medium** | 4 vCPU – 8 GB RAM – 300 GB | 200 Mbps | 150 |
+   | **Large** | 8 vCPU – 16 GB RAM – 500 GB | 500 Mbps | 500 |
+
+3. Chọn **Create WAF** để tạo máy chủ. Tiến độ xử lý được cập nhật ở trường **Status** trên màn hình **Cloud Web Application Firewall Management**.

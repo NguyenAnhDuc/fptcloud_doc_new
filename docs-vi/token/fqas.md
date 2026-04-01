@@ -1,15 +1,18 @@
 ---
 id: "fqas"
-title: "1. Tại sao một số token tôi không thể revoke được?"
-description: "**1. Tại sao một số token tôi không thể revoke được?**"
-sidebar_label: "1. Tại sao một số token tôi không thể revoke được?"
+title: "Câu hỏi thường gặp"
+description: "Câu hỏi thường gặp về tính năng Token trên FPT Cloud Portal"
+sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: 5
 pagination_next: null
 ---
 
-# Fqas
+# Câu hỏi thường gặp
 
-**1. Tại sao một số token tôi không thể revoke được?**
-Đáp: Một số token cũ được khởi tạo trước bản nâng cấp của FPT Cloud Portal sẽ không thể revoke. Đối với token đó, hệ thống sẽ thông báo bằng tooltip với nội dung: “Tokens created earlier cannot be revoked”
-**2. Token chuyển trạng thái “Expired” khi nào?**
-Đáp: Khi token vượt qua thời gian “Expiration” tính từ lúc khởi tạo. Hệ thống sẽ tự động chuyển token sang trạng thái “Expired” và người dùng sẽ không thể truy cập bằng token
+**1. Tại sao một số token không thể thu hồi được?**
+
+Một số token cũ được tạo trước phiên bản nâng cấp của FPT Cloud Portal không hỗ trợ tính năng thu hồi. Đối với các token này, hệ thống hiển thị tooltip: "Tokens created earlier cannot be revoked".
+
+**2. Token chuyển trạng thái "Expired" khi nào?**
+
+Token chuyển sang trạng thái "Expired" khi vượt quá thời gian hết hạn tính từ thời điểm khởi tạo. Hệ thống tự động thực hiện việc này và token không thể dùng để truy cập API sau đó.

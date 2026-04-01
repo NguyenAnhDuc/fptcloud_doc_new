@@ -1,54 +1,67 @@
 ---
 id: "them-moi-tag-retention-rule"
-title: "Thêm mới Tag Retention Rule"
-description: "Để thêm mới một Tag Retention Rule, người dùng có thể thực hiện như sau:"
-sidebar_label: "Thêm mới Tag Retention Rule"
+title: "Thêm mới tag retention rule"
+description: "Tạo quy tắc giữ lại tag để tự động quản lý image trong repository."
+sidebar_label: "Thêm mới tag retention rule"
 sidebar_position: 14
 ---
 
-# Them Moi Tag Retention Rule
+# Thêm mới tag retention rule
 
-Để thêm mới một Tag Retention Rule, người dùng có thể thực hiện như sau: 
-**Bước 1** : Trên Menu **FPT Portal** chọn **Container Registry**. Chọn tab **Policy**
-[![](/img/migrated/Picture27-62a35e57.png)](/img/migrated/Picture27-62a35e57.png)
-**Bước 2** : Chọn **ADD RULES** và nhập thông tin để tạo một tag retention rule: 
-[![](/img/migrated/Picture28-1-01eeb19b.png)](/img/migrated/Picture28-1-01eeb19b.png)
-**Bước 3** : Trong menu drop-down Repositories, lựa chọn **matching** hoặc **excluding**. 
-[![](/img/migrated/Picture29-1-2c469e51.png)](/img/migrated/Picture29-1-2c469e51.png)
-**Bước 4** : Trong text-box Repositories, cấu hình thông tin để xác định các repository được áp dụng các quy tắc: 
-Người dùng có thể xác định các repository được áp dụng các quy tắc bằng cách nhập thông tin sau: 
-  * Một repository name, ví dụ: **my_repo_1**
-  * Danh sách repository được phân tách bằng dấu phẩy, ví dụ: **my_repo_1, my_repo_2, your_repo_3**
-  * Một phần repository name với ký tự đại diện
+Tag retention rule cho phép bạn định nghĩa tiêu chí để tự động giữ lại hoặc xóa tag trong repository, giúp kiểm soát dung lượng lưu trữ mà không cần thao tác thủ công.
 
-Ví dụ: 
-[![](/img/migrated/Screenshot_6-4a6d1e32.png)](/img/migrated/Screenshot_6-4a6d1e32.png)
-  * ** để áp dụng cho tất cả các repository trong FPT Container Registry mà người dùng quản lý 
+1. Trên menu **FPT Portal**, chọn **Container Registry** > tab **Policy**.
 
-Nếu lựa chọn **matching** , quy tắc sẽ được áp dụng cho tất cả các repository mà bạn xác định. Ngược lại nếu lựa chọn **excluding** , quy tắc sẽ được áp dụng cho tất cả các repository trong dự án ngoại trừ những repository mà bạn xác định. 
-**Bước 5** : Trong drop-down menu **By image count or number of days** , xác định số lượng tag cần giữ lại hoặc khoảng thời gian để giữ lại tag 
-[![](/img/migrated/Picture30-1-78d8e53a.png)](/img/migrated/Picture30-1-78d8e53a.png)  
-| Lựa chọn  | Mô tả  |  
-| --- | --- |  
-| retain the most recently pushed # images  | Nhập số lượng tối đa image cần giữ lại, giữ lại những tag được push gần đây nhất, không phân biệt độ tuổi tối đa cho một image  |  
-| retain the most recently pulled # images  | Nhập số lượng tối đa image cần giữ lại, chỉ giữ lại những images được pull gần đây, không phân biệt độ tuổi tối đa cho một image  |  
-| retain the images pushed within the last # days  | Nhập số ngày giữ lại image, chỉ giữ lại những image đã được push trong khoảng thời gian này, không phân biệt lượng tối đa image được lưu  |  
-| retain the images pulled within the last # days  | Nhập số ngày giữ lại image, chỉ giữ lại những image đã được pull trong khoảng thời gian này, không phân biệt số lượng image được lưu  |  
-| retain always  | Luôn giữ lại những hình ảnh đã được xác định theo quy tắc này  |  
-**Bước 6** : Trong drop-down menu Tag, lựa chọn **matching/excluding**
-[![](/img/migrated/Picture31-1-82b19f69.png)](/img/migrated/Picture31-1-82b19f69.png)
-**Bước 7** : Trong text-box Tag, xác định các tag được áp dụng quy tắc 
-Người dùng có thể xác định các tag áp dụng rule bằng cách nhập các thông tin sau: 
-  * Nhập một tag name, ví dụ: **my_tag_1**
-  * Danh sách các tag phân tách nhau bởi dấu phẩy, ví dụ: **my_tag_1, my_tag_2, your_tag_3**
+   [![Tab Policy trên Container Registry](/img/migrated/Picture27-62a35e57.png)](/img/migrated/Picture27-62a35e57.png)
 
-Một phần tag name với ký tự đại diện Ví dụ: [![](/img/migrated/Screenshot_7-6f3add0a.png)](/img/migrated/Screenshot_7-6f3add0a.png)
-** để áp dụng quy tắc cho tất cả các tag trong FPT Container Registry mà người dùng quản lý 
-Nếu lựa chọn **matching** , quy tắc sẽ được áp dụng cho tất cả các tag mà bạn xác định. Ngược lại nếu lựa chọn **excluding** , quy tắc sẽ được áp dụng cho tất cả các tag trong repository ngoại trừ những tag mà bạn xác định 
-**Bước 8** : Click **Add** để lưu lại quy tắc 
-[![](/img/migrated/Picture32-1-7c5cce38.png)](/img/migrated/Picture32-1-7c5cce38.png)
-**Bước 9** : Kết quả Tag Retention Rule được tạo: 
-[![](/img/migrated/Picture33-1-37c6a3a0.png)](/img/migrated/Picture33-1-37c6a3a0.png)
-Ví dụ retention rule: 
-**For the repositories matching **** **** , **retain the most recently pushed 20 artifacts with tags matching **** **** **with untagged:**
-Đối với các repositories, giữ lại 20 artifacts được push gần nhất với tất cả các tag
+2. Chọn **ADD RULES** và nhập thông tin để tạo tag retention rule.
+
+   [![Form tạo tag retention rule](/img/migrated/Picture28-1-01eeb19b.png)](/img/migrated/Picture28-1-01eeb19b.png)
+
+3. Trong menu **Repositories**, chọn **matching** hoặc **excluding**.
+
+   [![Tùy chọn matching/excluding cho repository](/img/migrated/Picture29-1-2c469e51.png)](/img/migrated/Picture29-1-2c469e51.png)
+
+4. Trong ô **Repositories**, nhập thông tin để xác định repository áp dụng quy tắc:
+   - Tên một repository, ví dụ: `my_repo_1`
+   - Danh sách repository cách nhau bằng dấu phẩy, ví dụ: `my_repo_1, my_repo_2`
+   - Tên repository với ký tự đại diện
+
+   [![Ví dụ cấu hình repository](/img/migrated/Screenshot_6-4a6d1e32.png)](/img/migrated/Screenshot_6-4a6d1e32.png)
+
+   Dùng `**` để áp dụng cho tất cả repository. Nếu chọn **matching**, quy tắc áp dụng cho các repository bạn xác định. Nếu chọn **excluding**, quy tắc áp dụng cho tất cả ngoại trừ các repository bạn xác định.
+
+5. Trong menu **By image count or number of days**, xác định số lượng tag cần giữ lại hoặc khoảng thời gian giữ lại.
+
+   [![Tùy chọn số lượng hoặc thời gian giữ lại](/img/migrated/Picture30-1-78d8e53a.png)](/img/migrated/Picture30-1-78d8e53a.png)
+
+   | Tùy chọn | Mô tả |
+   |---|---|
+   | retain the most recently pushed # images | Giữ lại số lượng image được push gần nhất |
+   | retain the most recently pulled # images | Giữ lại số lượng image được pull gần nhất |
+   | retain the images pushed within the last # days | Giữ lại image được push trong số ngày chỉ định |
+   | retain the images pulled within the last # days | Giữ lại image được pull trong số ngày chỉ định |
+   | retain always | Luôn giữ lại image theo quy tắc này |
+
+6. Trong menu **Tag**, chọn **matching** hoặc **excluding**.
+
+   [![Tùy chọn matching/excluding cho tag](/img/migrated/Picture31-1-82b19f69.png)](/img/migrated/Picture31-1-82b19f69.png)
+
+7. Trong ô **Tag**, nhập thông tin để xác định tag áp dụng quy tắc:
+   - Tên một tag, ví dụ: `my_tag_1`
+   - Danh sách tag cách nhau bằng dấu phẩy
+   - Tên tag với ký tự đại diện
+
+   [![Ví dụ cấu hình tag](/img/migrated/Screenshot_7-6f3add0a.png)](/img/migrated/Screenshot_7-6f3add0a.png)
+
+   Dùng `**` để áp dụng cho tất cả tag.
+
+8. Click **Add** để lưu quy tắc.
+
+   [![Nút Add để lưu retention rule](/img/migrated/Picture32-1-7c5cce38.png)](/img/migrated/Picture32-1-7c5cce38.png)
+
+9. Kiểm tra tag retention rule vừa tạo.
+
+   [![Kết quả tạo tag retention rule](/img/migrated/Picture33-1-37c6a3a0.png)](/img/migrated/Picture33-1-37c6a3a0.png)
+
+   Ví dụ: quy tắc giữ lại 20 artifact được push gần nhất với tất cả tag trong tất cả repository.

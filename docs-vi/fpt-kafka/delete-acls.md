@@ -1,13 +1,18 @@
 ---
 id: "delete-acls"
-title: "Delete Acls"
-description: "To delete ACLs, follow these instructions:"
-sidebar_label: "Delete Acls"
+title: "Xóa ACL"
+description: "Hướng dẫn xóa ACL trong FPT Kafka."
+sidebar_label: "Xóa ACL"
 sidebar_position: 15
 ---
 
-# Delete Acls
+# Xóa ACL
 
-To delete ACLs, follow these instructions:
-**Step 1** : Select the ACL to delete > Click **Remove**.
-**Step 2** : A confirmation dialog appears, click Yes to proceed with the deletion.
+Xóa ACL thu hồi quyền truy cập của credential đối với topic hoặc consumer group tương ứng. Thao tác này có hiệu lực ngay lập tức.
+
+:::danger
+Xóa ACL sẽ ngay lập tức chặn các kết nối đang dùng quyền này. Kiểm tra kỹ trước khi xóa để tránh gián đoạn hệ thống.
+:::
+
+1. Chọn ACL cần xóa, sau đó nhấn **Remove**.
+2. Trong hộp thoại xác nhận, nhấn **Yes** để tiến hành xóa.

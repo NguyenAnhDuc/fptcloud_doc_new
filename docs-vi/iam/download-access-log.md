@@ -1,22 +1,22 @@
 ---
 id: "download-access-log"
 title: "Tải danh sách lịch sử truy cập"
-description: "Người dùng có thể tải danh sách lịch sử truy cập trên ORG qua các bước."
+description: "Hướng dẫn tải danh sách lịch sử truy cập trên ORG trong FPT IAM."
 sidebar_label: "Tải danh sách lịch sử truy cập"
 sidebar_position: 28
-pagination_next: null
 ---
 
-# Download Access Log
+# Tải danh sách lịch sử truy cập
 
-Người dùng có thể tải danh sách lịch sử truy cập trên ORG qua các bước.
-  * **Bước 1:** Trên trang IP access, bấm "Export access log". 
-  * Chọn ngày cần tải. Người dùng có thể chọn nhiều nhất 7 ngày. [![](/img/migrated/Screenshot_18-1024x483-dcc07689.png)](/img/migrated/Screenshot_18-1024x483-dcc07689.png)
+Người dùng có thể tải danh sách lịch sử truy cập trên ORG theo các bước sau.
 
-**Bước 2:** Kiểm tra email và xem thông tin
-  * Hệ thống sẽ gửi tập tin danh sách lịch sử truy cập ORG thông qua email của người dùng đang đăng nhập. Thông tin gồm có:
-  *     * User: Hiển thị mail của user truy cập vào URL
-  *     * URL: Hiển thị URL mà user đã truy cập
-  *     * IP: Hiển thị IP user đã truy cập 
-  *     * Response HTTP Code: trạng thái phản hồi khi user truy cập vào URL
-  *     * Date&Time: thời điểm truy cập
+1. Trên trang **IP access**, chọn **Export access log**, sau đó chọn ngày cần tải (tối đa 7 ngày).
+
+[![](/img/migrated/Screenshot_18-1024x483-dcc07689.png)](/img/migrated/Screenshot_18-1024x483-dcc07689.png)
+
+2. Kiểm tra email để xem file lịch sử truy cập. Hệ thống gửi file qua email của người dùng đang đăng nhập với các thông tin:
+   - **User**: Email của user truy cập vào URL.
+   - **URL**: URL mà user đã truy cập.
+   - **IP**: Địa chỉ IP user đã truy cập.
+   - **Response HTTP Code**: Trạng thái phản hồi khi user truy cập vào URL.
+   - **Date & Time**: Thời điểm truy cập.

@@ -1,71 +1,97 @@
 ---
 id: "quick-starts"
 title: "Bắt đầu nhanh"
-description: "To create a new **Kafka** account, you need to be allocated with service quota. Contact us for more detail."
+description: "Hướng dẫn nhanh để tạo workspace Kafka và các tài nguyên cơ bản."
 sidebar_label: "Bắt đầu nhanh"
 sidebar_position: 3
 ---
 
-# Quick Starts
+# Bắt đầu nhanh
 
-### 1. Logging in to the FPT Kafka Service
-To create a new **Kafka** account, you need to be allocated with service quota. Contact us for more detail.
-**Step 1** : From the FPT Cloud Portal menu, select **Integrations** > **Kafka Service**.
-[![](/img/migrated/Picture1_HDNhanh_DN-ed49b5d0.png)](/img/migrated/Picture1_HDNhanh_DN-ed49b5d0.png)
-**Step 2** : Click **Create** > Enter the **workspace name**.
-[![](/img/migrated/Pic2-93777c70.png)](/img/migrated/Pic2-93777c70.png)
-**Step 3** : Click **Create**. The system will initialize the service and provide processing status notifications.
-After successfully creating the account, users will be automatically redirected to the **Kafka Service** administration page.
-Alternatively, you can access the **Kafka Service** administration page by navigate to the **Kafka Service** page and click **Start** on the instance you would like to access.
-### 2. Create Topics
-To create a topic, follow these steps:
-**Step 1** : From the menu, navigate to **Application** > **Topic**. click **Create**.
-**Step 2** : Enter the necessary information:
-  * **Name** (required): The name of the topic
-  * **Partitions** (required): The number of partitions for the topic
-  * **Replication Factor** (required):
-  * **Cleanup Policy** (required):
-  * **Advanced Configuration** (optional)
+Hướng dẫn này giúp bạn nhanh chóng khởi tạo dịch vụ Kafka, tạo topic, credential, ACL và consumer group để bắt đầu gửi và nhận message. Bạn cần được phân bổ quota dịch vụ trước khi thực hiện — liên hệ đội ngũ hỗ trợ nếu chưa có quota.
 
-[![](/img/migrated/Pic2_Taotopic-67891311.png)](/img/migrated/Pic2_Taotopic-67891311.png)
-**Step 3** : Click **OK** to proceed with creating the topic.
-**Note** : The topic name must follow the format **_[prefix].[topic name]_**
-### 3. Create Credentials
-Users can create **Credentials** (username/password pair) for Kafka Service’s connection configuration using the _SASL/SCRAM-SHA-256_ authentication method.
-**Step 1** : From the menu, navigate to **Application** > **Credentials**. Click **Create**
-**Step 2** : Enter the necessary information"
-  * **Username** (required)
-  * **Password** (required) 
+## 1. Đăng nhập dịch vụ FPT Kafka
 
-[![](/img/migrated/Pic1_Taocre-e9963007.png)](/img/migrated/Pic1_Taocre-e9963007.png)
-**Note** : Initially, the system will auto-generate a password. You can reset the password if needed.
-**Step 3** : Click **OK** to create the credential.
-**Note** : The topic name must follow the format **_[prefix].[credential name]_**
-### 4. Create ACLs
-**ACLs** help users assign permissions, limiting the operations of principals on each topic or group. The permissions include Write, Read, from different IP addresses.
-To create ACLs, follow these instructions:
-**Step 1** : From the menu, navigate to **Application** > **ACLs**. Click Create
-**Step 2** : Enter the necessary information:
-  * **Credential** (required): Select a previously created credential
-  * **Resource Type** (required): Topic or Group.
-If you choose **Topic** , it means you are assigning permissions for the user to use the topic, similarly if you choose **Group**.
-  * **Pattern Type** (required): Literal or Prefixed.
-If **Literal** is selected, it means you have read/write permissions for only one topic that you declare in the “Topic” field. If **Prefixed** is chosen, you will have read/write permissions for all topics with the prefix displayed in the “Resource name” field.
-  * **Host** (optional): If you want to block access from different IPs, you can enter a value in this field.
-  * **Operation** (required): Assign read or write permissions for topic/group
-  * **Permission** (required): Allow or Deny.
+1. Từ menu FPT Cloud Portal, chọn **Integrations** > **Kafka Service**.
 
-[![](/img/migrated/Pic1_ACL-194aa4c5.png)](/img/migrated/Pic1_ACL-194aa4c5.png)
-**Step 3** : Click **OK** to complete.
-### 5. Create Consumer Groups
-A consumer group is a group of consumers. A consumer can be any application that has the function of subscribing to a topic and consuming messages.
-To create a consumer group, do the following:
-**Step 1** : From the menu, navigate to **Application** > **Consumer Groups**. Click Create.
-**Step 2** : Enter the necessary information:
-  * **Group Name** (required): The name of the group you want to create
-  * **Offset strategy** (required)
-  * **Topic** (required)
+   [![Màn hình chọn Kafka Service từ menu Integrations](/img/migrated/Picture1_HDNhanh_DN-ed49b5d0.png)](/img/migrated/Picture1_HDNhanh_DN-ed49b5d0.png)
 
-**Note** : A consumer group can subscribe to multiple topics.
-[![](/img/migrated/Pic1_TaoGr-d95bddc4.png)](/img/migrated/Pic1_TaoGr-d95bddc4.png)
-**Step 3** : Click **OK** to successfully create the group.
+2. Nhấn **Create**, nhập **workspace name**.
+
+   [![Màn hình nhập tên workspace Kafka](/img/migrated/Pic2-93777c70.png)](/img/migrated/Pic2-93777c70.png)
+
+3. Nhấn **Create**. Hệ thống khởi tạo dịch vụ và hiển thị trạng thái xử lý.
+
+Sau khi tạo thành công, bạn được chuyển tự động đến trang quản trị **Kafka Service**. Bạn cũng có thể truy cập lại bằng cách vào trang **Kafka Service** và nhấn **Start** trên instance muốn dùng.
+
+## 2. Tạo topic
+
+Topic là đơn vị lưu trữ message trong Kafka. Mỗi topic được chia thành nhiều partition để tăng khả năng xử lý song song.
+
+1. Từ menu, chọn **Application** > **Topic**, sau đó nhấn **Create**.
+2. Điền các thông tin:
+   - **Name** (bắt buộc): Tên topic theo định dạng `[prefix].[topic name]`
+   - **Partitions** (bắt buộc): Số partition
+   - **Replication Factor** (bắt buộc)
+   - **Cleanup Policy** (bắt buộc)
+   - **Advanced Configuration** (tùy chọn)
+
+   [![Màn hình tạo topic mới với các trường thông tin](/img/migrated/Pic2_Taotopic-67891311.png)](/img/migrated/Pic2_Taotopic-67891311.png)
+
+3. Nhấn **OK** để hoàn tất.
+
+:::note
+Tên topic phải theo định dạng **`[prefix].[topic name]`**.
+:::
+
+## 3. Tạo credential
+
+Credential là cặp username/password dùng để xác thực kết nối Kafka theo phương thức SASL/SCRAM-SHA-256.
+
+1. Từ menu, chọn **Application** > **Credentials**, sau đó nhấn **Create**.
+2. Điền các thông tin:
+   - **Username** (bắt buộc)
+   - **Password** (bắt buộc)
+
+   [![Màn hình tạo credential mới](/img/migrated/Pic1_Taocre-e9963007.png)](/img/migrated/Pic1_Taocre-e9963007.png)
+
+3. Nhấn **OK** để tạo credential.
+
+:::note
+Hệ thống tự động tạo mật khẩu ban đầu. Bạn có thể đặt lại mật khẩu nếu cần. Tên credential phải theo định dạng **`[prefix].[credential name]`**.
+:::
+
+## 4. Tạo ACL
+
+ACL kiểm soát quyền truy cập của từng credential vào topic hoặc consumer group, giúp bảo mật dữ liệu trong hệ thống Kafka.
+
+1. Từ menu, chọn **Application** > **ACLs**, sau đó nhấn **Create**.
+2. Điền các thông tin:
+   - **Credential** (bắt buộc): Chọn credential đã tạo
+   - **Resource Type** (bắt buộc): Topic hoặc Group
+   - **Pattern Type** (bắt buộc): Literal (một topic cụ thể) hoặc Prefixed (tất cả topic có prefix)
+   - **Host** (tùy chọn): Giới hạn truy cập theo địa chỉ IP
+   - **Operation** (bắt buộc): Read hoặc Write
+   - **Permission** (bắt buộc): Allow hoặc Deny
+
+   [![Màn hình tạo ACL với các tùy chọn phân quyền](/img/migrated/Pic1_ACL-194aa4c5.png)](/img/migrated/Pic1_ACL-194aa4c5.png)
+
+3. Nhấn **OK** để hoàn tất.
+
+## 5. Tạo consumer group
+
+Consumer group tập hợp nhiều consumer cùng đọc message từ một hoặc nhiều topic, cho phép xử lý song song và cân bằng tải.
+
+1. Từ menu, chọn **Application** > **Consumer Groups**, sau đó nhấn **Create**.
+2. Điền các thông tin:
+   - **Group Name** (bắt buộc): Tên consumer group
+   - **Offset strategy** (bắt buộc)
+   - **Topic** (bắt buộc)
+
+   :::note
+   Một consumer group có thể subscribe nhiều topic.
+   :::
+
+   [![Màn hình tạo consumer group mới](/img/migrated/Pic1_TaoGr-d95bddc4.png)](/img/migrated/Pic1_TaoGr-d95bddc4.png)
+
+3. Nhấn **OK** để hoàn tất.

@@ -1,27 +1,31 @@
 ---
 id: "them-moi-stream-host"
-title: "Thêm mới Stream Host"
-description: "Streams là tính năng mới của Nginx. Streams được dùng để phân luồng chuyển tiếp lưu lượng (traffic) TCP/UDP trực tiếp đế"
-sidebar_label: "Thêm mới Stream Host"
+title: "Thêm mới stream host"
+description: "Hướng dẫn tạo stream host để chuyển tiếp lưu lượng TCP/UDP qua WAF Dashboard."
+sidebar_label: "Thêm mới stream host"
 sidebar_position: 18
 ---
 
-# Them Moi Stream Host
+# Thêm mới stream host
 
-Streams là tính năng mới của Nginx. Streams được dùng để phân luồng chuyển tiếp lưu lượng (traffic) TCP/UDP trực tiếp đến một máy tính khác trong mạng.
-Để cấu hình/thêm mới một Streams thực hiện theo các bước sau đây:
-**Bước 1:** Chọn **Hosts** > **Streams** tại menu để mở màn hình quản lý Stream Host
-[![Userguide FPT WAF 2022 29](/img/migrated/Userguide-FPT-WAF-2022-29-1024x503-9a982ba9.png)](/img/migrated/Userguide-FPT-WAF-2022-29-1024x503-9a982ba9.png)
-**Bước 2:** Nhấn **Create Stream** để mở màn hình thêm mới một Stream Host và nhập thông tin như sau:
-  * **Incoming Port**
-  * **Forward Host**
-  * **Forward Port**
+**Stream host** là tính năng của Nginx dùng để chuyển tiếp lưu lượng (traffic) TCP/UDP trực tiếp đến một máy tính khác trong mạng.
 
-Một số tính năng mở rộng: tùy thuộc vào nhu cầu sử dụng mà quản trị viên chọn các tính năng mở rộng như:
-  * **TCP Forwarding**
-  * **UDP Forwarding**
+1. Chọn **Hosts** > **Streams** từ menu để mở màn hình quản lý stream host.
 
-[![Userguide FPT WAF 2022 30](/img/migrated/Userguide-FPT-WAF-2022-30-1024x502-e7c3ef10.png)](/img/migrated/Userguide-FPT-WAF-2022-30-1024x502-e7c3ef10.png)
-**Bước 3:** Nhấn **Create Stream** để thêm mới Stream Host vừa nhập thông tin hoặc **Create & Add Another** để thêm mới và mở một màn hình thêm mới stream khác
-Màn hình xem chi tiết Stream Host:
-[![Userguide FPT WAF 2022 31](/img/migrated/Userguide-FPT-WAF-2022-31-1024x504-c73172be.png)](/img/migrated/Userguide-FPT-WAF-2022-31-1024x504-c73172be.png)
+   [![Màn hình quản lý stream host](/img/migrated/Userguide-FPT-WAF-2022-29-1024x503-9a982ba9.png)](/img/migrated/Userguide-FPT-WAF-2022-29-1024x503-9a982ba9.png)
+
+2. Chọn **Create Stream** để mở màn hình thêm mới và nhập thông tin:
+
+   - **Incoming Port**
+   - **Forward Host**
+   - **Forward Port**
+
+   Tính năng mở rộng tùy theo nhu cầu:
+   - **TCP Forwarding**
+   - **UDP Forwarding**
+
+   [![Nhập thông tin stream host](/img/migrated/Userguide-FPT-WAF-2022-30-1024x502-e7c3ef10.png)](/img/migrated/Userguide-FPT-WAF-2022-30-1024x502-e7c3ef10.png)
+
+3. Chọn **Create Stream** để tạo, hoặc **Create & Add Another** để tạo và tiếp tục thêm stream host khác.
+
+   [![Chi tiết stream host sau khi tạo](/img/migrated/Userguide-FPT-WAF-2022-31-1024x504-c73172be.png)](/img/migrated/Userguide-FPT-WAF-2022-31-1024x504-c73172be.png)

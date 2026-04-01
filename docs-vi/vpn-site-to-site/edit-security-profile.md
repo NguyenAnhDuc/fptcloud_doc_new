@@ -1,15 +1,19 @@
 ---
 id: "edit-security-profile"
-title: "Edit Security Profile: Thay đổi cấu hình bảo mật kết nối."
-description: "Edit Security Profile: Thay đổi cấu hình bảo mật kết nối."
-sidebar_label: "Edit Security Profile: Thay đổi cấu hình bảo mật kết nối."
+title: "Chỉnh sửa Security Profile"
+description: "Hướng dẫn thay đổi cấu hình bảo mật kết nối VPN."
+sidebar_label: "Chỉnh sửa Security Profile"
 sidebar_position: 9
 ---
 
-# Edit Security Profile
+# Chỉnh sửa Security Profile
 
-Edit Security Profile: Thay đổi cấu hình bảo mật kết nối. 
-**Bước 1:** Chọn Edit Security Profile. 
-[![Config edit security profile](/img/migrated/Config-edit-security-profile-1024x354-60d3d6e6.png)](/img/migrated/Config-edit-security-profile-1024x354-60d3d6e6.png)
-**Bước 2** : Cấu hình thông số và lưu lại.
-[![Config update security profile](/img/migrated/Config-update-security-profile-1024x986-026fe5d7.png)](/img/migrated/Config-update-security-profile-1024x986-026fe5d7.png)
+Khi cần thay đổi cấu hình bảo mật của kết nối VPN, bạn có thể chỉnh sửa Security Profile.
+
+1. Chọn kết nối VPN, nhấn **Actions** → **Edit Security Profile**.
+
+   ![Menu Edit Security Profile](/img/migrated/Config-edit-security-profile-1024x354-60d3d6e6.png)
+
+2. Cấu hình thông số bảo mật mới và nhấn **Save**.
+
+   ![Form chỉnh sửa Security Profile](/img/migrated/Config-update-security-profile-1024x986-026fe5d7.png)

@@ -1,14 +1,17 @@
 ---
 id: "VPN-S2S-check-activity-logs"
-title: "Kiểm tra hoạt động VPN-Activity"
-description: "Các hành động trên VPN thành công đều được ghi nhận tại Activity Log."
-sidebar_label: "Kiểm tra hoạt động VPN-Activity"
+title: "Xem Activity log VPN"
+description: "Hướng dẫn kiểm tra lịch sử hoạt động VPN qua Activity Log."
+sidebar_label: "Xem Activity log VPN"
 sidebar_position: 12
 ---
 
-# Vpn S2S Check Activity Logs
+# Xem Activity log VPN
 
-Các hành động trên VPN thành công đều được ghi nhận tại Activity Log. 
-**Bước 1** : Truy cập Activity Log ở menu trái. 
-**Bước 2** : Kiểm tra hoạt động VPN. 
-[![Activity log](/img/migrated/Activity-log-1024x475-84cbd02a.png)](/img/migrated/Activity-log-1024x475-84cbd02a.png)
+Các hành động trên VPN thành công đều được ghi nhận tại Activity Log, giúp bạn theo dõi và kiểm tra khi cần.
+
+1. Truy cập **Activity Log** ở menu trái.
+
+2. Kiểm tra hoạt động VPN.
+
+   ![Activity Log VPN](/img/migrated/Activity-log-1024x475-84cbd02a.png)

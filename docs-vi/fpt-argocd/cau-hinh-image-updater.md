@@ -1,12 +1,17 @@
 ---
 id: "cau-hinh-image-updater"
 title: "Cấu hình Image Updater"
-description: "Argo CD Images Updater là một công cụ tự động cập nhật container images của cụm k8s do ArgoCD quản lý."
+description: "Giới thiệu về ArgoCD Image Updater và các thao tác cấu hình hỗ trợ"
 sidebar_label: "Cấu hình Image Updater"
 sidebar_position: 7
 ---
 
-# Cau Hinh Image Updater
+# Cấu hình Image Updater
 
-Argo CD Images Updater là một công cụ tự động cập nhật container images của cụm k8s do ArgoCD quản lý. 
-FPT Argo CD cho phép người dùng thực hiện một số thao tác cấu hình bao gồm: enable/disable service; cấu hình secret trong secret **argocd-image-updater-secret** , tạo secret authen container registry; cấu hình container registry trong configmap **argocd-image-updater-config** của argocd images updater.
+ArgoCD Image Updater là công cụ tự động cập nhật container image cho các ứng dụng Kubernetes được quản lý bởi ArgoCD.
+
+FPT ArgoCD cho phép thực hiện các thao tác cấu hình sau:
+- Enable/disable service
+- Quản lý secret trong `argocd-image-updater-secret`
+- Tạo secret xác thực container registry
+- Cấu hình container registry trong configmap `argocd-image-updater-config`

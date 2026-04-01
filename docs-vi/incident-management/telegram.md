@@ -1,34 +1,45 @@
 ---
 id: "telegram"
-title: "tự động"
-description: "Tích hợp Telegram giúp bạn dễ dàng nhận tin nhắn **tự động** trên ứng dụng Telegram khi có bất cứ sự cố nào được khai bá"
-sidebar_label: "tự động"
+title: "Telegram"
+description: "Hướng dẫn tích hợp Telegram để nhận thông báo incident tự động"
+sidebar_label: "Telegram"
 sidebar_position: 9
 ---
 
 # Telegram
 
-Tích hợp Telegram giúp bạn dễ dàng nhận tin nhắn **tự động** trên ứng dụng Telegram khi có bất cứ sự cố nào được khai báo. 
-**Bước 1:** Trên menu của Incident Management, click **Integration** =>Vào phần **Telegram** , click **Integration**
-[![Alt text](/img/migrated/Screenshot_5-1-3ee11c8f.png)](/img/migrated/Screenshot_5-1-3ee11c8f.png)
-**Bước 2:** Click **Show details** > Click “**Run when an event fires** ” 
-**Bước 3:** Điền **Name** , **Chat ID** , **Bot API Token**
-[![Alt text](/img/migrated/Screenshot_6-1-d525e397.png)](/img/migrated/Screenshot_6-1-d525e397.png)
-Trong đó: 
-  * **Name** : là tên người dùng tự đặt 
-  * **Chat ID** : là ID của group telegram sẽ nhận thông báo khi có incident được khai báo 
-  * **Bot API Token** : người dùng làm theo hướng dẫn sau để lấy token: 
-    * Trong telegram, người dùng search từ khóa “BotFather” > Nhấn Start > Click /newbot để tạo bot mới 
-    * Sau đó hệ thống sẽ sinh ra token, người dùng sẽ dùng token này để paste vào trong trường Bot API Token. 
+Tích hợp **Telegram** giúp nhận tin nhắn tự động trên ứng dụng Telegram khi có sự cố được khai báo.
 
-**Bước 4:** Click **Add event action** để hoàn tất. 
-Bạn cũng có thể tạo nhiều trigger bằng cách tiếp tục click “**Run when an event fires** ” để tạo 1 trigger mới. 
-Sau khi liên kết, hệ thống sẽ tự động gửi tin nhắn qua công cụ Telegram mỗi khi có sự cố được khai báo kèm theo link tương ứng. 
-Ví dụ như sau: 
-[![Alt text](/img/migrated/Screenshot_7-1-163bac3e.png)](/img/migrated/Screenshot_7-1-163bac3e.png)
-**Xóa trigger**
-Người dùng có thể xóa trigger khi không có nhu cầu sử dụng. 
-**Bước 1:** Click **Integration** > **Show details**
-**Bước 2:** Click vào icon **Trash** của trigger bạn muốn xóa 
-[![Alt text](/img/migrated/Screenshot_8-1-c75df4c5.png)](/img/migrated/Screenshot_8-1-c75df4c5.png)
-**Bước 3:** Xuất hiện hộp thoại xác nhận, chọn **Yes** để xóa.
+## Thiết lập
+
+1. Trong menu Incident Management, nhấn **Integration**, tìm phần **Telegram** và nhấn **Integration**.
+
+   [![Chọn Integration cho Telegram](/img/migrated/Screenshot_5-1-3ee11c8f.png)](/img/migrated/Screenshot_5-1-3ee11c8f.png)
+
+2. Nhấn **Show details**, sau đó nhấn **Run when an event fires**.
+3. Nhập **Name**, **Chat ID** và **Bot API Token**:
+
+   [![Nhập thông tin trigger Telegram](/img/migrated/Screenshot_6-1-d525e397.png)](/img/migrated/Screenshot_6-1-d525e397.png)
+
+   - **Name**: tên tự đặt
+   - **Chat ID**: ID của group Telegram nhận thông báo
+   - **Bot API Token**: để lấy token, trong Telegram tìm kiếm **BotFather** > nhấn **Start** > nhấn **/newbot** để tạo bot mới; hệ thống sẽ sinh ra token để dùng
+
+4. Nhấn **Add event action** để hoàn tất.
+
+:::note
+Bạn có thể tạo nhiều trigger bằng cách tiếp tục nhấn **Run when an event fires**.
+:::
+
+Sau khi thiết lập, mỗi khi có sự cố mới, hệ thống sẽ tự động gửi tin nhắn qua Telegram kèm theo link incident.
+
+[![Ví dụ thông báo trên Telegram](/img/migrated/Screenshot_7-1-163bac3e.png)](/img/migrated/Screenshot_7-1-163bac3e.png)
+
+## Xóa trigger
+
+1. Nhấn **Integration** > **Show details**.
+2. Nhấn biểu tượng **Trash** của trigger cần xóa.
+
+   [![Xóa trigger Telegram](/img/migrated/Screenshot_8-1-c75df4c5.png)](/img/migrated/Screenshot_8-1-c75df4c5.png)
+
+3. Trong hộp thoại xác nhận, nhấn **Yes** để xóa.

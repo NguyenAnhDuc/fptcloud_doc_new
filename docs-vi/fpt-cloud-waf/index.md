@@ -1,206 +1,25 @@
 ---
 id: "fpt-cloud-waf"
-title: "Fpt Cloud Waf"
-description: "Tất cả tài liệu"
-sidebar_label: "Fpt Cloud Waf"
+title: "FPT Cloud WAF"
+description: "FPT Cloud Web Application Firewall giúp bảo vệ ứng dụng web trước các loại tấn công phổ biến."
+sidebar_label: "FPT Cloud WAF"
 sidebar_position: 1
 ---
 
 # FPT Cloud WAF
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
+FPT Cloud Web Application Firewall (FPT Cloud WAF) là dịch vụ tường lửa giúp bảo vệ các ứng dụng web trước các loại tấn công phổ biến như DOS, Local and Remote File Inclusion, SQL Injection, Cross Site Scripting, và các tấn công qua lỗ hổng NodeJS, Java, PHP.
 
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
+## Tính năng nổi bật
 
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
+- Khởi tạo nhanh chóng với 3 loại cấu hình: Small, Medium và Large.
+- Bảo vệ ứng dụng web trước top 10 mối đe dọa theo tiêu chuẩn OWASP.
+- Tự động giám sát, phân tích và ngăn chặn truy cập từ botnet.
+- Hỗ trợ đăng ký và tự động gia hạn SSL certificate.
+- Liên tục cập nhật các bản vá security ảo để ngăn chặn tấn công zero-day.
 
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
+## Cấu trúc tài liệu
 
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
-
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=Initial%20Setup "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-    * [ Thêm mới máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=them-moi-may-chu-waf "Thêm mới máy chủ WAF")
-    * [ Đăng nhập WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=dang-nhap-waf-dashboard "Đăng nhập WAF Dashboard")
-    * [ Cấu hình kết nối máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=cau-hinh-ket-noi-may-chu-waf "Cấu hình kết nối máy chủ WAF")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Thêm mới máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tutorials-them-moi-may-chu-waf "Thêm mới máy chủ WAF")
-    * [ Chỉnh sửa máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=chinh-sua-may-chu-waf "Chỉnh sửa máy chủ WAF")
-    * [ Xóa máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xoa-may-chu-waf "Xóa máy chủ WAF")
-    * [ Quản trị máy chủ WAF với WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/ "Quản trị máy chủ WAF với WAF Dashboard")
-      * [ Đăng nhập WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tutorials-dang-nhap-waf-dashboard "Đăng nhập WAF Dashboard")
-      * [ Monitor WAF với Dashboard Overview ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=monitor-waf-voi-dashboard-overview "Monitor WAF với Dashboard Overview")
-    * [ Quản lý Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-proxy-host "Quản lý Proxy Host")
-      * [ Tạo mới Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tao-moi-proxy-host "Tạo mới Proxy Host")
-      * [ Xem thông tin chi tiết Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xem-thong-tin-chi-tiet-proxy-host "Xem thông tin chi tiết Proxy Host")
-      * [ Cập nhật thông tin cho Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=cap-nhat-thong-tin-cho-proxy-host "Cập nhật thông tin cho Proxy Host")
-      * [ Bật/Tắt Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=battat-proxy-host "Bật/Tắt Proxy Host")
-      * [ Xóa Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xoa-proxy-host "Xóa Proxy Host")
-    * [ Quản lý Redirection Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-redirection-host "Quản lý Redirection Host")
-    * [ Thêm mới Stream Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=them-moi-stream-host "Thêm mới Stream Host")
-    * [ Quản lý 404 Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-404-host "Quản lý 404 Host")
-    * [ Quản lý Access List ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-access-list "Quản lý Access List")
-    * [ Quản lý SSL Certificates ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-ssl-certificates "Quản lý SSL Certificates")
-    * [ Quản lý Security Rule Sets ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-security-rule-sets "Quản lý Security Rule Sets")
-    * [ Quản lý người dùng của WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-nguoi-dung-cua-waf-dashboard "Quản lý người dùng của WAF Dashboard")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
-
-FPT Cloud WAF
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Cloud WAF
-
-FPT Cloud WAF
-FPT Cloud Web Application Firewall (FPT Cloud WAF) là dịch vụ tường lửa giúp bảo vệ các ứng dụng web trước các loại tấn công phổ biến hiện nay như DOS, Local and Remote File Inclusion, SQL Injection, Cross Site Scripting, tấn công qua lỗ hổng NodeJS, Jave, PHP,...
-##  Trang chủ 
-01Initial Setup 
-  * [ Initial Setup ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=Initial%20Setup "Initial Setup")
-
-02Hướng dẫn nhanh (Quick Starts) 
-  * [ Thêm mới máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=them-moi-may-chu-waf "Thêm mới máy chủ WAF")
-  * [ Đăng nhập WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=dang-nhap-waf-dashboard "Đăng nhập WAF Dashboard")
-  * [ Cấu hình kết nối máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=cau-hinh-ket-noi-may-chu-waf "Cấu hình kết nối máy chủ WAF")
-
-03Hướng dẫn chi tiết (Tutorials) 
-  * [ Thêm mới máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tutorials-them-moi-may-chu-waf "Thêm mới máy chủ WAF")
-  * [ Chỉnh sửa máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=chinh-sua-may-chu-waf "Chỉnh sửa máy chủ WAF")
-  * [ Xóa máy chủ WAF ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xoa-may-chu-waf "Xóa máy chủ WAF")
-  * [ Quản trị máy chủ WAF với WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/ "Quản trị máy chủ WAF với WAF Dashboard")
-    * [ Đăng nhập WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tutorials-dang-nhap-waf-dashboard "Đăng nhập WAF Dashboard")
-    * [ Monitor WAF với Dashboard Overview ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=monitor-waf-voi-dashboard-overview "Monitor WAF với Dashboard Overview")
-  * [ Quản lý Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-proxy-host "Quản lý Proxy Host")
-    * [ Tạo mới Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=tao-moi-proxy-host "Tạo mới Proxy Host")
-    * [ Xem thông tin chi tiết Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xem-thong-tin-chi-tiet-proxy-host "Xem thông tin chi tiết Proxy Host")
-    * [ Cập nhật thông tin cho Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=cap-nhat-thong-tin-cho-proxy-host "Cập nhật thông tin cho Proxy Host")
-    * [ Bật/Tắt Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=battat-proxy-host "Bật/Tắt Proxy Host")
-    * [ Xóa Proxy Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=xoa-proxy-host "Xóa Proxy Host")
-  * [ Quản lý Redirection Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-redirection-host "Quản lý Redirection Host")
-  * [ Thêm mới Stream Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=them-moi-stream-host "Thêm mới Stream Host")
-  * [ Quản lý 404 Host ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-404-host "Quản lý 404 Host")
-  * [ Quản lý Access List ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-access-list "Quản lý Access List")
-  * [ Quản lý SSL Certificates ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-ssl-certificates "Quản lý SSL Certificates")
-  * [ Quản lý Security Rule Sets ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-security-rule-sets "Quản lý Security Rule Sets")
-  * [ Quản lý người dùng của WAF Dashboard ](https://fptcloud.com/documents/fpt-cloud-waf/?doc=quan-ly-nguoi-dung-cua-waf-dashboard "Quản lý người dùng của WAF Dashboard")
-
-04Các câu hỏi thường gặp (FAQs) 
-05Một số gợi ý mẫu (Samples) 
-## Release note
-### Ra mắt dịch vụ tường lửa FPT Cloud WAF ưu việt với khả năng bảo mật ứng dụng cùng website
-FPT Cloud chính thức ra mắt dịch vụ FPT Cloud WAF trên giao diện FPT Cloud Portal. Với FPT Cloud WAF, người dùng có thể dễ dàng khởi tạo máy chủ WAF có khả năng xử lý linh hoạt phù hợp với nhu cầu và chủ động cấu hình kết nối với ứng dụng web của mình. Với bộ giải pháp được hợp tác phát triển cùng CyRadar, FPT Cloud WAF sẽ giúp bảo vệ ứng dụng web trước các loại tấn công phổ biến hiện nay như DOS, SQL Injection, Cross Site Scripting,… và đặc biệt là cập nhật thường xuyên các bản vá ảo cho các lỗ hổng bảo mật mới chưa được công bố (zero-day). Hình 1: Khởi tạo nhanh chóng máy chủ WAF trên giao diện FPT Cloud Portal Hình 2: Giao diện quản trị máy chủ WAF riêng biệt Các tính năng của FPT Cloud WAF Khởi tạo nhanh chóng và đơn giản với 3 loại cấu hình chính Small, Medium và Large.Bảo vệ ứng dụng web trước top 10 mối đe dọa theo tiêu chuẩn OWASPTự động giám sát, phân tích và ngăn chặn truy cập/tấn công từ botnet phổ biến.Các tính năng đa dạng và liên tục cập nhật như cho phép tinh chỉnh tập luật trong quá trình người dùng vận hành, tích hợp hệ thống giám sát tập trung, hỗ trợ đăng ký và tự động gia hạn SSL Certificate,…Liên tục cập nhật các bản vá security ảo để ngăn chặn các tấn công khai thác lỗ hổng zero-day mới công bố Tại sao bạn nên sử dụng? Loại trừ các nguy cơ gây rò rỉ hoặc bị đánh cắp dữ liệu từ các cuộc tấn công phổ biến hiện nay quy mô từ lớn đến nhỏ.Giao diện tinh giản giúp thao tác cấu hình, quản trị máy chủ WAF nhanh chóng và dễ dàng.Cam kết tính sẵn sàng cao, uptime 24/7 cho máy chủ WAF.Hỗ trợ dịch vụ vận hành nâng cao bởi các chuyên gia ATBMTT từ FPT Smart Cloud và CyRadar từ khâu giám sát, phân tích tấn công đến xử lý và tối ưu tập luật để bảo vệ ứng dụng web của người dùng một cách tốt nhất.
-
-![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
-**Hotline:[1900 638 399](tel:1900%20638%20399)**
-Địa chỉ:
-**Hà Nội:**[FPT Tower, Số 10 Phạm Văn Bạch, Phường Cầu Giấy](https://maps.app.goo.gl/BtHa6J7ToZf7RZbF6)  
-**TP. Hồ Chí Minh:** Tòa nhà PJICO, 186 Điện Biên Phủ, Phường Xuân Hòa  
-**Tokyo:** 33F, Sumitomo Fudosan Tokyo Mita Garden Tower, 3-5-19 Mita, Minato-ku  
-
-Email: support@fptcloud.com
-  * [ ](https://www.facebook.com/fptsmartcloud)
-  * [ ](https://www.linkedin.com/company/fpt-cloud/)
-  * [ ](https://www.youtube.com/channel/UCJM51jaizo0jSbv35HD2nYA)
-
-[ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
-Về chúng tôi 
-  * [ Giới thiệu chung ](https://fptcloud.com/gioi-thieu/ "Giới thiệu chung")
-  * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
-  * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
-  * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")
-  * [ Liên hệ ](https://fptcloud.com/lien-he/ "Liên hệ")
-
-Dịch vụ 
-  * [ FPT Cloud Server ](https://fptcloud.com/product/cloud-server/ "FPT Cloud Server")
-  * [ FPT Backup Service ](https://fptcloud.com/product/backup-service/ "FPT Backup Service")
-  * [ FPT Disaster Recovery Services ](https://fptcloud.com/product/disaster-recovery-service/ "FPT Disaster Recovery Services")
-  * [ FPT Object storage ](https://fptcloud.com/product/object-storage/ "FPT Object storage")
-  * [ FPT Kubernetes Engine ](https://fptcloud.com/product/kubernetes-engine/ "FPT Kubernetes Engine")
-  * [ FPT Monitoring ](https://fptcloud.com/product/monitoring/ "FPT Monitoring")
-  * [ FPT Load Balancer ](https://fptcloud.com/product/load-balancer/ "FPT Load Balancer")
-  * [ FPT Next-Gen Firewall ](https://fptcloud.com/product/fpt-next-gen-firewall/ "FPT Next-Gen Firewall")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/product/cloud-desktop/ "FPT Cloud Desktop")
-
-Điều khoản & Chính sách 
-  * [ Điều Khoản Sử dụng ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Điều Khoản Sử dụng")
-  * [ Chính sách Bảo vệ quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Chính sách Bảo vệ quyền riêng tư ")
-  * [ Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-3 "Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư")
-  * [ Chính sách Bảo vệ Dữ liệu Cá nhân ](https://fptcloud.com/chinh-sach/#policy-tab-5 "Chính sách Bảo vệ Dữ liệu Cá nhân")
-  * [ Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm ](https://fptcloud.com/chinh-sach/#policy-tab-6 "Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm")
-
-Đăng ký nhận tin 
-Gửi 
-
-  * [ Liên hệ ](tel:1900%20638%20399)
-Email
-
-Chúng tôi quan tâm đến sự riêng tư của bạn
-Trang web này sử dụng cookie để cải thiện trải nghiệm người dùng. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với tất cả cookie theo [Chính sách bảo mật](https://fptcloud.com/chinh-sach/#policy-tab-1) của chúng tôi
-[Chỉ những cookie cần thiết](javascript:void\(0\);) [Cài đặt](javascript:void\(0\);) [Tôi đồng ý](javascript:void\(0\);)
-[ ](tel:1900638399 "Gọi 1900638399")
+- **Thiết lập ban đầu** — Tạo tài khoản và đăng nhập FPT Portal lần đầu.
+- **Hướng dẫn nhanh** — Thêm mới máy chủ WAF, đăng nhập dashboard, cấu hình kết nối.
+- **Hướng dẫn chi tiết** — Quản lý toàn bộ tính năng WAF Dashboard.

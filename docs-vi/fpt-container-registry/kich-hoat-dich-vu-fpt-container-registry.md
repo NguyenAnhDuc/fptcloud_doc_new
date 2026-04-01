@@ -1,11 +1,13 @@
 ---
 id: "kich-hoat-dich-vu-fpt-container-registry"
 title: "Kích hoạt dịch vụ FPT Container Registry"
-description: "Nếu bạn là owner của tenant hoặc là admin của VPC và user được cấp quyền ContainerRegistry:Active trong role IAM (thường"
-sidebar_label: "Kích hoạt dịch vụ FPT Container Registry"
+description: "Điều kiện và quyền cần có để kích hoạt FPT Container Registry trên FPT Portal."
+sidebar_label: "Kích hoạt dịch vụ Container Registry"
 sidebar_position: 3
 ---
 
-# Kich Hoat Dich Vu Fpt Container Registry
+# Kích hoạt dịch vụ FPT Container Registry
 
-Nếu bạn là owner của tenant hoặc là admin của VPC và user được cấp quyền ContainerRegistry:Active trong role IAM (thường user thuộc role SuperAdmin sẽ có quyền IAM để kích hoạt dịch vụ) thì có thể kích hoạt dịch vụ ngay trên giao diện FPT Portal.
+Để sử dụng FPT Container Registry, bạn cần kích hoạt dịch vụ trên FPT Portal. Quá trình kích hoạt yêu cầu quyền phù hợp để đảm bảo bảo mật cho tài nguyên của tổ chức.
+
+Để kích hoạt dịch vụ, bạn cần là **Tenant Owner** hoặc là VPC Admin được cấp quyền `ContainerRegistry:Active` trong IAM role (thường thuộc role **SuperAdmin**). Khi có đủ quyền, bạn có thể kích hoạt trực tiếp trên giao diện FPT Portal.

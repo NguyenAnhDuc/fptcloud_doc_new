@@ -1,18 +1,23 @@
 ---
 id: "edit-VPN-S2S-information"
-title: "Edit VPN Information: thay đổi thông tin VPN sau khi đã khởi tạo."
-description: "Edit VPN Information: thay đổi thông tin VPN sau khi đã khởi tạo."
-sidebar_label: "Edit VPN Information: thay đổi thông tin VPN sau khi đã khởi tạo."
+title: "Chỉnh sửa thông tin VPN"
+description: "Hướng dẫn thay đổi thông tin VPN Site-to-Site sau khi đã khởi tạo."
+sidebar_label: "Chỉnh sửa thông tin VPN"
 sidebar_position: 8
 ---
 
-# Edit Vpn S2S Information
+# Chỉnh sửa thông tin VPN
 
-Edit VPN Information: thay đổi thông tin VPN sau khi đã khởi tạo.
-**Bước 1** : Chọn Edit VPN Information.
-[![Config edit vpn](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)
-**Bước 2** : Thay đổi thông tin VPN. Lưu ý, các thông tin VPN đã khởi tạo sẽ được load lên. 
-[![Config update](/img/migrated/Config-update-1024x986-03db1582.png)](/img/migrated/Config-update-1024x986-03db1582.png)
-**Bước 3** : Xác nhận Update. 
-VPN sẽ chuyển sang trạng thái Updating > Active.
-[![Config active](/img/migrated/Config-active-1024x238-e65f8da4.png)](/img/migrated/Config-active-1024x238-e65f8da4.png)
+Khi cần thay đổi cấu hình VPN sau khi đã khởi tạo, bạn có thể chỉnh sửa thông tin kết nối.
+
+1. Chọn kết nối VPN, nhấn **Actions** → **Edit VPN Information**.
+
+   ![Menu Edit VPN Information](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)
+
+2. Thay đổi thông tin VPN. Các thông tin đã khởi tạo sẽ được load sẵn.
+
+   ![Form chỉnh sửa VPN](/img/migrated/Config-update-1024x986-03db1582.png)
+
+3. Nhấn **Update** để xác nhận. VPN chuyển sang trạng thái **Updating** → **Active**.
+
+   ![VPN cập nhật thành công](/img/migrated/Config-active-1024x238-e65f8da4.png)

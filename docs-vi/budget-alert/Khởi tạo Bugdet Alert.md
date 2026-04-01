@@ -1,42 +1,67 @@
 ---
 id: "Khởi tạo Bugdet Alert"
-title: "Khởi Tạo Bugdet Alert"
-description: "**Bước 1:** Tại menu, chọn Billing > Chọn Budget Alert. Hệ thống hiển thị danh sách budget alert list đã tạo."
-sidebar_label: "Khởi Tạo Bugdet Alert"
+title: "Khởi tạo Budget Alert"
+description: "Hướng dẫn tạo Budget Alert để cảnh báo ngân sách chủ động trên FPT Cloud Portal."
+sidebar_label: "Khởi tạo Budget Alert"
 sidebar_position: 2
 ---
 
-# Khởi Tạo Bugdet Alert
+# Khởi tạo Budget Alert
 
-**Bước 1:** Tại menu, chọn Billing > Chọn Budget Alert. Hệ thống hiển thị danh sách budget alert list đã tạo.
-[![file](/img/migrated/image-1722238229739-f6ec0b8c.png)](/img/migrated/image-1722238229739-f6ec0b8c.png)
-**Bước 2:** Chọn button Create Budget Alert, hệ thống chuyển tới màn hình điền thông tin để tạo budget alert. 
-[![file](/img/migrated/image-1722238258978-89fcec91.png)](/img/migrated/image-1722238258978-89fcec91.png)
-**Bước 3:** Chọn button Create Budget Alert, hệ thống chuyển tới màn hình điền thông tin Basics Information.
-  * Budget Name (bắt buộc): Người dùng nhập vào tên của budget alert, tối đa 50 kí tự, bao gồm ký tự in hoa, số, dấu gạch ngang và dấu gạch dưới.
-  * Budget period (bắt buộc): 
-    * Chọn Monthly nếu muốn tính tiền và cảnh báo theo tháng (bắt đầu từ 00:00 ngày 1 hàng tháng và kết thúc vào 23:59 ngày cuối cùng của tháng)
-    * Chọn Daily nếu muốn tính tiền và cảnh báo theo hàng ngày (bắt đầu từ 00:00 hàng ngày và kết thúc vào 23:59 hàng ngày)
-  * Budget amount (bắt buộc): Tổng số tiền budget cho 1 ngày hoặc 1 tháng (đơn vị tiền tệ mặc định là Việt Nam đồng)
-  * Budget scrope (bắt buộc): 
-    * Chọn “All services” nếu muốn tính ngưỡng cảnh báo ngân sách theo chi phí thực tế của tất cả các dịch vụ, tài nguyên trong tenant ORG hiện tại. 
-    * Chọn “Filter specific resources” nếu muốn tính ngưỡng cảnh báo ngân sách của 1 vài dịch vụ theo VPC hoặc theo tag.
-    * Lưu ý: Có thể chọn 1 hoặc nhiều VPC/Tag. Chi phí thực tế sẽ được tính từ usage của dịch vụ/tài nguyên nằm đồng thời trong tất cả VPC và Tag được chọn. Các dịch vụ/tài nguyên chỉ nằm ở 1 VPC hoặc 1 Tag mà không nằm trong những VPC hoặc Tag khác thì sẽ không được tính tiền.
+Budget Alert giúp bạn nhận cảnh báo khi chi phí cloud đạt ngưỡng ngân sách đã thiết lập — giảm rủi ro vượt ngân sách và chủ động kiểm soát chi phí.
 
-[![file](/img/migrated/image-1722238275706-df16f772.png)](/img/migrated/image-1722238275706-df16f772.png)
-**Bước 4:** Chọn button Next, hệ thống chuyển tới màn hình điền thông tin Alert thresholds & Create.
-  * Threshold number (bắt buộc): Người dùng nhập số ngưỡng cảnh báo.
-  * Threshold unit (bắt buộc): Người dùng chọn đơn vị của ngưỡng cảnh báo
-    * Nếu chọn “Percent (%)”, hệ thống sẽ cảnh báo khi số tiền thực tế lớn hơn hoặc bằng x% so với ngân sách (budget amount) - trong đó x = threshold number. 
-    * Nếu chọn “Vietnam dong (đ)”, hệ thống sẽ cảnh báo khi số tiền thực tế lớn hơn hoặc bằng so với số tiền ở ngưỡng cảnh báo (threshold number). 
-  * Severity (bắt buộc): Người dùng chọn mức độ cảnh báo là Warning hoặc Critical.
-  * Notification title (bắt buộc): Người dùng nhập title của email cảnh báo; tối đa 255 kí tự, bao gồm ký tự in hoa, số, dấu gạch ngang và dấu gạch dưới (không bao gồm dấu ngặc đơn, dấu ngoặc kép , dấu gạch chéo ngược và dấu gạch chéo xuôi).
-  * Description (bắt buộc): Người dùng nhập nội dung của email cảnh báo; tối đa 500 kí tự, bao gồm ký tự in hoa, số, dấu gạch ngang và dấu gạch dưới (không bao gồm dấu ngặc đơn, dấu ngoặc kép , dấu gạch chéo ngược và dấu gạch chéo xuôi).
-  * Email recipients (bắt buộc): Người dùng nhập email nhận cảnh báo (có thể nhập nhiều email)
-  * Add Alert Threshold (không bắt buộc): Người dùng có thể tạo nhiều cảnh báo (alert threshold) trên ngân sách (budget) của 1 nhóm tài nguyên. 
-  * Lưu ý: Mỗi alert threshold sẽ được gửi cảnh báo 3 lần.
+## Điều kiện tiên quyết
 
-[![file](/img/migrated/image-1722238293122-55c558a2.png)](/img/migrated/image-1722238293122-55c558a2.png)
-[![file](/img/migrated/image-1722238298494-77e57e31.png)](/img/migrated/image-1722238298494-77e57e31.png)
-**Bước 5:** Chọn button Create để lưu thông tin Budget Alert vừa tạo hoặc chọn button Previous để quay lại màn hình trước (Basic informtaion).
-[![file](/img/migrated/image-1722238751599-265e93b0.png)](/img/migrated/image-1722238751599-265e93b0.png)
+- Có tài khoản FPT Cloud với quyền truy cập **Billing**.
+- Đã đăng nhập vào FPT Cloud Portal.
+
+## Tạo Budget Alert
+
+1. Chọn **Billing** → **Budget Alert**. Hệ thống hiển thị danh sách Budget Alert đã tạo.
+
+   ![Danh sách Budget Alert](/img/migrated/image-1722238229739-f6ec0b8c.png)
+
+2. Nhấn **Create Budget Alert**. Hệ thống chuyển tới màn hình điền thông tin.
+
+   ![Nút Create Budget Alert](/img/migrated/image-1722238258978-89fcec91.png)
+
+3. Điền thông tin **Basic Information**:
+   - **Budget Name** (bắt buộc): tên Budget Alert, tối đa 50 ký tự, bao gồm chữ hoa, số, dấu gạch ngang và dấu gạch dưới.
+   - **Budget period** (bắt buộc):
+     - Chọn **Monthly** để tính tiền và cảnh báo theo tháng (từ 00:00 ngày 1 đến 23:59 ngày cuối tháng).
+     - Chọn **Daily** để tính tiền và cảnh báo theo ngày (từ 00:00 đến 23:59 mỗi ngày).
+   - **Budget amount** (bắt buộc): tổng ngân sách cho 1 ngày hoặc 1 tháng (đơn vị mặc định là VND).
+   - **Budget scope** (bắt buộc):
+     - Chọn **All services** để tính ngưỡng cảnh báo theo chi phí thực tế của tất cả dịch vụ và tài nguyên trong tenant hiện tại.
+     - Chọn **Filter specific resources** để tính ngưỡng cảnh báo theo VPC hoặc tag cụ thể.
+
+   :::note
+   Bạn có thể chọn nhiều VPC/tag. Chi phí thực tế được tính từ usage của dịch vụ nằm đồng thời trong tất cả VPC và tag được chọn. Dịch vụ chỉ thuộc một VPC hoặc tag mà không thuộc các VPC/tag khác sẽ không được tính.
+   :::
+
+   ![Form Basic Information](/img/migrated/image-1722238275706-df16f772.png)
+
+4. Nhấn **Next**. Hệ thống chuyển tới màn hình **Alert thresholds & Create**:
+   - **Threshold number** (bắt buộc): nhập số ngưỡng cảnh báo.
+   - **Threshold unit** (bắt buộc):
+     - Chọn **Percent (%)** — hệ thống cảnh báo khi chi phí thực tế >= x% so với Budget amount (x = threshold number).
+     - Chọn **Vietnam dong (đ)** — hệ thống cảnh báo khi chi phí thực tế >= số tiền tại threshold number.
+   - **Severity** (bắt buộc): chọn mức độ cảnh báo **Warning** hoặc **Critical**.
+   - **Notification title** (bắt buộc): tiêu đề email cảnh báo, tối đa 255 ký tự (không bao gồm dấu ngoặc đơn, ngoặc kép, gạch chéo).
+   - **Description** (bắt buộc): nội dung email cảnh báo, tối đa 500 ký tự.
+   - **Email recipients** (bắt buộc): nhập email nhận cảnh báo (có thể nhập nhiều email).
+   - **Add Alert Threshold** (không bắt buộc): tạo thêm nhiều ngưỡng cảnh báo cho cùng một Budget.
+
+   :::note
+   Mỗi alert threshold sẽ được gửi cảnh báo tối đa 3 lần.
+   :::
+
+   ![Form Alert thresholds](/img/migrated/image-1722238293122-55c558a2.png)
+
+   ![Ví dụ cấu hình Alert threshold](/img/migrated/image-1722238298494-77e57e31.png)
+
+5. Nhấn **Create** để lưu Budget Alert, hoặc nhấn **Previous** để quay lại màn hình Basic Information.
+
+   ![Xác nhận tạo Budget Alert](/img/migrated/image-1722238751599-265e93b0.png)
+
+Budget Alert mới hiển thị trong danh sách.

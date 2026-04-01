@@ -1,15 +1,19 @@
 ---
 id: "edit-webhook-secret"
-title: "Edit Webhook Secret"
-description: "**Bước 1** : Thực hiện **Edit** lại webhook secret:"
-sidebar_label: "Edit Webhook Secret"
+title: "Cập nhật webhook secret"
+description: "Hướng dẫn chỉnh sửa webhook secret đã được tạo"
+sidebar_label: "Cập nhật webhook secret"
 sidebar_position: 15
 ---
 
-# Edit Webhook Secret
+# Cập nhật webhook secret
 
-**Bước 1** : Thực hiện **Edit** lại webhook secret: 
+1. Chọn **Edit** tại webhook secret cần cập nhật.
+
 [![](/img/migrated/Picture71-6e63dca3.png)](/img/migrated/Picture71-6e63dca3.png)
-**Bước 2** : Nhập thông tin **Secret** cần update: 
+
+2. Nhập thông tin **Secret** mới.
+
 [![](/img/migrated/Picture72-46fc8500.png)](/img/migrated/Picture72-46fc8500.png)
-**Bước 3** : Click **Update** để hoàn thành
+
+3. Nhấn **Update** để hoàn thành.

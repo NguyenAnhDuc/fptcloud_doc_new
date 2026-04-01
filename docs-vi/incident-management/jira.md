@@ -1,40 +1,57 @@
 ---
 id: "jira"
-title: "Jira"
-description: "**C. Atlassian Jira**"
-sidebar_label: "Jira"
+title: "Atlassian Jira"
+description: "Hướng dẫn tích hợp Atlassian Jira với Incident Management"
+sidebar_label: "Atlassian Jira"
 sidebar_position: 7
 ---
 
-# Jira
+# Atlassian Jira
 
-**C. Atlassian Jira**
-Tích hợp Atlassian Jira giúp bạn duy trì trạng thái dự án Jira chính xác và tin cậy trong quá trình ứng phó sự cố. Liên kết tài khoản Jira của bạn sẽ tự động tạo **bug issue** khi một incident được khai báo. 
-Cài đặt Jira
-[![](/img/migrated/Picture12-e85cc061.png)](/img/migrated/Picture12-e85cc061.png)
-  * **Atlassian Server URL** : URL truy cập vào hệ thống Atlassian Jira 
-  * **User email** : Email của tài khoản đã đăng ký với Atlassian Jira 
-  * **Access Token** : Access Token của tài khoản trên
+Tích hợp **Atlassian Jira** giúp duy trì trạng thái dự án chính xác trong quá trình ứng phó sự cố. Khi một incident được khai báo, hệ thống sẽ tự động tạo **bug issue** trên Jira kèm theo link incident tương ứng.
 
-**Note** : Xem hướng dẫn tạo/lấy Access Token **[tại đây](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)**
-Sau khi điền đầy đủ thông tin, click **“Integration”** để tích hợp jira vào hệ thống incident. 
-Sau khi cài đặt Jira thành công, xem chi tiết thông tin Jira webhook, click **Show details**
-**Kích hoạt sự kiện (trigger event)**
-Click **“Run when an event fires”** để tạo 1 trigger
-[![](/img/migrated/Picture15-0aab59a9.png)](/img/migrated/Picture15-0aab59a9.png)
-  * **Jira Project** : Chọn dự án jira mong muốn khởi tạo issue 
-  * **Issue Type** : Loại issue khi khởi tạo 
-  * **Incident active stattus** : Trạng thái khởi tạo của issue khi incident có trạng thái active 
-  * **Incident resolved stattus** : Trạng thái khởi tạo của issue khi incident có trạng thái resolved 
+## Cài đặt Jira
 
-**Run this action when:**
-  * **Incident is declared** : incident được khai báo
+[![Form cài đặt Jira](/img/migrated/Picture12-e85cc061.png)](/img/migrated/Picture12-e85cc061.png)
 
-Sau khi điền đầy đủ thông tin, click **“Add event action”** để tạo trigger 
-Bạn cũng có thể tạo nhiều trigger bằng cách tiếp tục click **“Run when an event fires”** để tạo 1 trigger mới. 
-Liên kết tài khoản Jira của bạn sẽ **tự động** tạo **bug issue** khi một incident được khai báo kèm theo link incident tương ứng. 
-Ví dụ như sau: 
-[![Alt text](/img/migrated/Screenshot_11-1-3905656c.png)](/img/migrated/Screenshot_11-1-3905656c.png)
-**Xóa trigger**
-Click icon **Trash** để xóa trigger
-[![](/img/migrated/Picture17-d289c674.png)](/img/migrated/Picture17-d289c674.png)
+Nhập các thông tin:
+
+- **Atlassian Server URL**: URL truy cập hệ thống Atlassian Jira
+- **User email**: email tài khoản đăng ký với Atlassian Jira
+- **Access Token**: access token của tài khoản
+
+:::note
+Xem hướng dẫn tạo hoặc lấy Access Token [tại đây](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/).
+:::
+
+Sau khi điền đầy đủ thông tin, nhấn **Integration** để tích hợp Jira vào hệ thống.
+
+## Tạo trigger
+
+Sau khi cài đặt Jira thành công, nhấn **Show details** rồi nhấn **Run when an event fires**.
+
+[![Form tạo trigger Jira](/img/migrated/Picture15-0aab59a9.png)](/img/migrated/Picture15-0aab59a9.png)
+
+Nhập các thông tin:
+
+- **Jira Project**: dự án Jira để khởi tạo issue
+- **Issue Type**: loại issue khi khởi tạo
+- **Incident active status**: trạng thái issue khi incident ở trạng thái active
+- **Incident resolved status**: trạng thái issue khi incident ở trạng thái resolved
+- **Run this action when**: chọn **Incident is declared**
+
+Nhấn **Add event action** để hoàn tất.
+
+:::note
+Bạn có thể tạo nhiều trigger bằng cách tiếp tục nhấn **Run when an event fires**.
+:::
+
+Ví dụ bug issue được tạo tự động trên Jira:
+
+[![Ví dụ bug issue tự động tạo trên Jira](/img/migrated/Screenshot_11-1-3905656c.png)](/img/migrated/Screenshot_11-1-3905656c.png)
+
+## Xóa trigger
+
+Nhấn biểu tượng **Trash** để xóa trigger.
+
+[![Xóa trigger Jira](/img/migrated/Picture17-d289c674.png)](/img/migrated/Picture17-d289c674.png)

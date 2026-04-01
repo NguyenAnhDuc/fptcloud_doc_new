@@ -1,24 +1,32 @@
 ---
 id: "xem-thong-tin-chi-tiet-argocd"
-title: "Xem thông tin chi tiết và đăng nhập ArgoCD instance"
-description: "Để làm việc với cụm **ArgoCD** đã được khởi tạo, đầu tiên bạn vào xem thông tin chi tiết của cụm đã được khởi tạo."
-sidebar_label: "Xem thông tin chi tiết và đăng nhập ArgoCD instance"
+title: "Xem thông tin chi tiết và đăng nhập ArgoCD"
+description: "Hướng dẫn xem thông tin chi tiết và đăng nhập vào ArgoCD instance đã khởi tạo"
+sidebar_label: "Xem thông tin và đăng nhập"
 sidebar_position: 5
 ---
 
-# Xem Thong Tin Chi Tiet Argocd
+# Xem thông tin chi tiết và đăng nhập ArgoCD
 
-Để làm việc với cụm **ArgoCD** đã được khởi tạo, đầu tiên bạn vào xem thông tin chi tiết của cụm đã được khởi tạo.
-**Bước 1** : Xem thông tin chi tiết của cụm, Click vào **Instance Name** để xem thông tin chi tiết.
+## Xem thông tin chi tiết
+
+1. Nhấn vào **Instance Name** để xem thông tin chi tiết của instance.
+
 [![](/img/migrated/Picture58-fd48905e.png)](/img/migrated/Picture58-fd48905e.png)
-Tại màn hình đâu tiên, bạn sẽ được cung cấp thông tin chi tiết để truy cập **ArgoCD cluster** bao gồm url, username/password đăng nhập: 
+
+Màn hình hiển thị thông tin chi tiết để truy cập ArgoCD cluster bao gồm URL, username và password đăng nhập.
+
 [![](/img/migrated/Picture59-1438cb52.png)](/img/migrated/Picture59-1438cb52.png)
-**Bước 2** : Đăng nhập vào **ArgoCD cluster** :
-Tại màn hình Essential Properties à Thực hiện copy url và truy cập vào ứng dụng: 
-  * Url: Thông tin Url tạo màn **Essential Properties**
-  * User: username copy tại màn hình **Essential Properties**
-  * Password: password copy tại màn hình **Essential Properties**
+
+## Đăng nhập vào ArgoCD cluster
+
+2. Tại màn hình **Essential Properties**, sao chép URL và truy cập ứng dụng:
+   - **URL**: lấy từ màn hình **Essential Properties**
+   - **Username**: lấy từ màn hình **Essential Properties**
+   - **Password**: lấy từ màn hình **Essential Properties**
 
 [![](/img/migrated/Picture60-3afa2ba7.png)](/img/migrated/Picture60-3afa2ba7.png)
-Giao diện sau khi đăng nhập thành công vào ArgoCD cluster: 
+
+Giao diện sau khi đăng nhập thành công:
+
 [![](/img/migrated/Picture61-b318fa11.png)](/img/migrated/Picture61-b318fa11.png)

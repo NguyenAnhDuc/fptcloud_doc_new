@@ -1,25 +1,29 @@
 ---
 id: "tao-moi-account-tren-portal"
-title: "Tạo mới account trên portal"
-description: "**Bước 1** : Tại màn hình **Security & Access** > **Local Account** , thực hiện **Add Account** như sau:"
-sidebar_label: "Tạo mới account trên portal"
+title: "Tạo mới tài khoản trên Portal"
+description: "Hướng dẫn tạo tài khoản người dùng mới trong ArgoCD qua FPT Cloud Portal"
+sidebar_label: "Tạo mới tài khoản"
 sidebar_position: 24
 ---
 
-# Tao Moi Account Tren Portal
+# Tạo mới tài khoản trên Portal
 
-**Bước 1** : Tại màn hình **Security & Access** > **Local Account** , thực hiện **Add Account** như sau:
+1. Tại màn hình **Security & Access** > **Local Account**, nhấn **Add Account**.
+
 [![](/img/migrated/Picture81-3e8fefb9.png)](/img/migrated/Picture81-3e8fefb9.png)
-**Bước 2** : Nhập các thông tin cần thiết để tạo một account mới bao gồm: 
-✓ Username (require): Nhập username cần tạo 
-Lưu ý: Username là duy nhất không được tạo trùng username 
-✓ Password (require): Nhập password cho account 
-✓ Capability: Chọn ít nhất một trong 2 giá trị apiKey hoặc login 
-✓ Status: Chọn enable/disable 
+
+2. Nhập thông tin tài khoản mới:
+   - **Username** (bắt buộc): tên đăng nhập — phải là duy nhất trong hệ thống
+   - **Password** (bắt buộc): mật khẩu cho tài khoản
+   - **Capability**: chọn ít nhất một trong hai giá trị `apiKey` hoặc `login`
+   - **Status**: chọn `enable` hoặc `disable`
+
 [![](/img/migrated/Picture82-56c3dcc0.png)](/img/migrated/Picture82-56c3dcc0.png)
-  * **Bước 3** : Click button **Add** để thực hiện tạo mới account
+
+3. Nhấn **Add** để tạo tài khoản.
 
 [![](/img/migrated/Picture83-c343b464.png)](/img/migrated/Picture83-c343b464.png)
-  * **Bước 4** : Kiểm tra kết quả account đã được tạo mới trên ArgoCD
+
+4. Kiểm tra tài khoản đã được tạo trên ArgoCD.
 
 [![](/img/migrated/Picture84-3375cc1d.png)](/img/migrated/Picture84-3375cc1d.png)

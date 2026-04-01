@@ -1,19 +1,25 @@
 ---
 id: "tao-moi-fpt-argocd"
-title: "Tạo mới một  FPT ArgoCD"
-description: "Để tạo mới **ArgoCD instance** , bạn có thể thực hiện các thao tác sau:"
-sidebar_label: "Tạo mới một  FPT ArgoCD"
+title: "Tạo mới FPT ArgoCD instance"
+description: "Hướng dẫn tạo mới một ArgoCD instance trên FPT Cloud Portal"
+sidebar_label: "Tạo mới FPT ArgoCD instance"
 sidebar_position: 4
 ---
 
-# Tao Moi Fpt Argocd
+# Tạo mới FPT ArgoCD instance
 
-Để tạo mới **ArgoCD instance** , bạn có thể thực hiện các thao tác sau: 
-**Bước 1** : Trên menu của **FPT Portal** chọn **Argo CD**
+1. Trên menu FPT Portal, chọn **Argo CD**.
+
 [![](/img/migrated/Picture1-1-5dc58dbd.png)](/img/migrated/Picture1-1-5dc58dbd.png)
-**Bước 2** : Nhấn chọn **Create Instance** > Nhập thông tin để khởi tạo một **ArgoCD instance**
+
+2. Nhấn **Create Instance** và nhập thông tin để khởi tạo ArgoCD instance.
+
 [![](/img/migrated/Picture119-2-400611b8.png)](/img/migrated/Picture119-2-400611b8.png)
-**Bước 3** : Chọn **Create Instance** , hệ thống sẽ khởi tạo một cụm **ArgoCD** Instance và thông báo tình trạng xử lý.
+
+3. Nhấn **Create Instance**. Hệ thống sẽ khởi tạo ArgoCD instance và hiển thị trạng thái xử lý.
+
 [![](/img/migrated/Picture3-1-f4accb41.png)](/img/migrated/Picture3-1-f4accb41.png)
-Sau khi tạo thành công một **ArgoCD instance** , trạng thái của cụm sẽ chuyển sang **Successed** , khi đó người dùng có thể truy cập vào ArgoCD cluster thông qua url và account/password đã được khởi tạo.
+
+Sau khi tạo thành công, trạng thái của instance sẽ chuyển sang **Succeeded**. Người dùng có thể truy cập ArgoCD cluster thông qua URL và account/password đã được khởi tạo.
+
 [![](/img/migrated/Picture4-1-b767bf84.png)](/img/migrated/Picture4-1-b767bf84.png)

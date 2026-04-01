@@ -1,14 +1,23 @@
 ---
 id: "xoa-queues"
-title: "Xoa Queues"
-description: "**Bước 1** : Ở menu **Application** > **Queues** > Chọn một queue bạn cần thao tác > **Remove**"
-sidebar_label: "Xoa Queues"
+title: "Xóa queue"
+description: "Hướng dẫn xóa queue trong FPT Message Bus for RabbitMQ."
+sidebar_label: "Xóa queue"
 sidebar_position: 8
 ---
 
-# Xoa Queues
+# Xóa queue
 
-**Bước 1** : Ở menu **Application** > **Queues** > Chọn một queue bạn cần thao tác > **Remove**
-[![](/img/migrated/delete1-aa8577cc.png)](/img/migrated/delete1-aa8577cc.png)
-**Bước 2** : Xuất hiện hộp thoại **Confirmation** , nhấn **Yes** để xóa queue hoặc **Cancel** để hủy thao tác. 
-[![](/img/migrated/delete2-3d5e084f.png)](/img/migrated/delete2-3d5e084f.png)
+Xóa queue sẽ loại bỏ vĩnh viễn hàng đợi và toàn bộ message chưa được xử lý. Hãy đảm bảo không còn ứng dụng nào đang sử dụng queue trước khi thực hiện.
+
+:::danger
+Thao tác xóa queue không thể hoàn tác. Tất cả message trong queue sẽ bị mất vĩnh viễn.
+:::
+
+1. Từ menu **Application**, chọn **Queues** > chọn queue cần xóa > **Remove**.
+
+   [![Màn hình danh sách queues, chọn queue và nhấn Remove](/img/migrated/delete1-aa8577cc.png)](/img/migrated/delete1-aa8577cc.png)
+
+2. Hộp thoại **Confirmation** xuất hiện. Chọn **Yes** để xác nhận xóa, hoặc **Cancel** để hủy thao tác.
+
+   [![Hộp thoại xác nhận xóa queue với nút Yes và Cancel](/img/migrated/delete2-3d5e084f.png)](/img/migrated/delete2-3d5e084f.png)

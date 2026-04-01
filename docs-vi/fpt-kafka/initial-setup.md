@@ -1,19 +1,27 @@
 ---
 id: "initial-setup"
 title: "Thiết lập ban đầu"
-description: "If this is the first time you use the **FPT CMS** service, first, double-check that you have completed the following ste"
+description: "Các bước cần hoàn thành trước khi sử dụng dịch vụ FPT Kafka."
 sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
-If this is the first time you use the **FPT CMS** service, first, double-check that you have completed the following steps:
-  * **Create a FPT Cloud account and log in to the FPT Cloud Portal.**
+Trước khi sử dụng dịch vụ Kafka trên FPT Cloud, bạn cần hoàn thành bước đăng ký và đăng nhập tài khoản để có quyền truy cập vào portal quản lý.
 
-After that is finished, you can proceed to use the **Kafka** service on FPT Cloud.
-To register for an FPT Cloud account, navigate to the [FPT Cloud Portal](https://console.fptcloud.com).
-Then, click on the **Sign Up** button at the bottom of the page and follow the instructions to create an account. Customer support will contact you shortly to verify your information to create your account.
-To log in to the FPT Cloud Portal, navigate to the [FPT Cloud Portal](https://console.fptcloud.com).
-Then, enter your email and password and click on the **Sign In** button. After that, choose the correct Tenant, Region, and VPC.
-If you encounter any errors during the process, please do not hesitate to contact our Support department for immediate assistance.
+## Đăng ký tài khoản FPT Cloud
+
+1. Truy cập [FPT Cloud Portal](https://console.fptcloud.com).
+2. Nhấn **Sign Up** ở cuối trang và làm theo hướng dẫn để tạo tài khoản.
+3. Đội ngũ hỗ trợ sẽ liên hệ để xác minh thông tin và kích hoạt tài khoản.
+
+## Đăng nhập vào FPT Cloud Portal
+
+1. Truy cập [FPT Cloud Portal](https://console.fptcloud.com).
+2. Nhập email và mật khẩu, sau đó nhấn **Sign In**.
+3. Chọn đúng Tenant, Region và VPC.
+
+:::note
+Nếu gặp lỗi trong quá trình đăng nhập, hãy liên hệ bộ phận hỗ trợ để được hỗ trợ kịp thời.
+:::

@@ -1,11 +1,11 @@
 ---
 id: "scan-image"
-title: "Scan Image"
-description: "FPT Cloud hỗ trợ người dùng tích hợp việc scan các lỗ hổng của images được build thông qua portal chỉ với một vài thao t"
-sidebar_label: "Scan Image"
+title: "Scan image"
+description: "Quét lỗ hổng bảo mật trong container image qua FPT Portal."
+sidebar_label: "Scan image"
 sidebar_position: 30
 ---
 
-# Scan Image
+# Scan image
 
-FPT Cloud hỗ trợ người dùng tích hợp việc scan các lỗ hổng của images được build thông qua portal chỉ với một vài thao tác đơn giản.
+FPT Container Registry tích hợp tính năng quét lỗ hổng bảo mật (vulnerability scan) cho container image trực tiếp trên Portal. Việc quét định kỳ giúp bạn phát hiện sớm các lỗ hổng và đảm bảo image được triển khai an toàn.

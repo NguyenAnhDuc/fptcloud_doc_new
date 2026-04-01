@@ -1,18 +1,25 @@
 ---
 id: "upgrade-version"
-title: "Nâng cấp phiên bản cho cơ sở dữ liệu"
-description: "FPT Cloud hỗ trợ người dùng upgrade phiên bản Argocd lên phiên bản mới hơn trong số các phiên bản FPT Cloud support. Hiệ"
-sidebar_label: "Nâng cấp phiên bản cho cơ sở dữ liệu"
+title: "Nâng cấp phiên bản ArgoCD"
+description: "Hướng dẫn nâng cấp ArgoCD lên phiên bản mới hơn trên FPT Cloud Portal"
+sidebar_label: "Nâng cấp phiên bản ArgoCD"
 sidebar_position: 22
 ---
 
-# Upgrade Version
+# Nâng cấp phiên bản ArgoCD
 
-FPT Cloud hỗ trợ người dùng upgrade phiên bản Argocd lên phiên bản mới hơn trong số các phiên bản FPT Cloud support. Hiện tại trên Portal đang support một số phiên bản bao gồm: v2.8.1, v2.8.2, v2.8.3. 
-  * Lưu ý: Việc Upgrade có thể gây downtime dịch vụ đối với ArgoCD khách hàng đang sử dụng. Vì vậy khách hàng nên cân nhắc việc upgrade và thời gian upgrade ArgoCD cluster
+FPT Cloud hỗ trợ nâng cấp phiên bản ArgoCD lên phiên bản mới hơn trong danh sách phiên bản được hỗ trợ. Hiện tại Portal hỗ trợ các phiên bản: v2.8.1, v2.8.2, v2.8.3.
 
-**Bước 1** : Vào menu **Essential Properties** > **Instance Information**
+:::warning
+Việc nâng cấp có thể gây downtime dịch vụ ArgoCD đang sử dụng. Cân nhắc thời điểm nâng cấp phù hợp trước khi thực hiện.
+:::
+
+1. Vào menu **Essential Properties** > **Instance Information**.
+
 [![](/img/migrated/Picture79-fddde53e.png)](/img/migrated/Picture79-fddde53e.png)
-**Bước 2** : Thực hiện chọn version muốn upgrade:
+
+2. Chọn phiên bản muốn nâng cấp.
+
 [![](/img/migrated/Picture80-1a5785f9.png)](/img/migrated/Picture80-1a5785f9.png)
-**Bước 3** : Nhấn **Update** để thực hiện Upgrade version
+
+3. Nhấn **Update** để thực hiện nâng cấp.

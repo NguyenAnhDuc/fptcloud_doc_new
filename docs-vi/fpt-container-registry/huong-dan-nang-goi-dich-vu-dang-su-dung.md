@@ -1,20 +1,28 @@
 ---
 id: "huong-dan-nang-goi-dich-vu-dang-su-dung"
-title: "Hướng dẫn nâng gói dịch vụ đang sử dụng"
-description: "FPT Cloud hỗ trợ người dùng nâng gói dịch vụ từ gói thấp hơn lên gói cao hơn thực hiện như sau:"
-sidebar_label: "Hướng dẫn nâng gói dịch vụ đang sử dụng"
+title: "Nâng gói dịch vụ"
+description: "Nâng cấp gói FPT Container Registry lên mức cao hơn."
+sidebar_label: "Nâng gói dịch vụ"
 sidebar_position: 29
 pagination_next: null
 ---
 
-# Huong Dan Nang Goi Dich Vu Dang Su Dung
+# Nâng gói dịch vụ
 
-FPT Cloud hỗ trợ người dùng nâng gói dịch vụ từ gói thấp hơn lên gói cao hơn thực hiện như sau: 
-**Bước 1** : Tại menu **FPT Portal** > Chọn **Container Registry** > **Configuration** > **Click Update Type** để thực hiện nâng gói 
-[![](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
-**Bước 2** : Lựa chọn gói dịch vụ muốn nâng 
-[![](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
-**Bước 3** : Click **Update** để thực hiện nâng gói 
-[![](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
-**Bước 4** : Kết quả sau khi nâng gói dịch vụ: 
-[![](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)
+Khi nhu cầu lưu trữ hoặc số lần pull tăng vượt giới hạn của gói hiện tại, bạn có thể nâng cấp lên gói cao hơn trực tiếp trên Portal. Chỉ có thể nâng gói, không thể hạ gói.
+
+1. Trên menu **FPT Portal**, chọn **Container Registry** > **Configuration** > **Update Type**.
+
+   [![Nút Update Type trong Configuration](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
+
+2. Chọn gói dịch vụ muốn nâng cấp.
+
+   [![Danh sách gói dịch vụ để nâng cấp](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
+
+3. Chọn **Update** để xác nhận nâng gói.
+
+   [![Xác nhận nâng gói](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
+
+4. Kiểm tra thông tin gói dịch vụ sau khi nâng cấp.
+
+   [![Thông tin gói sau khi nâng cấp](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)

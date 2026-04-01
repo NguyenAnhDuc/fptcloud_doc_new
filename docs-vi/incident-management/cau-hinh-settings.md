@@ -1,14 +1,15 @@
 ---
 id: "cau-hinh-settings"
-title: "Cau Hinh Settings"
-description: "FMON incident có một số cài đặt tùy chỉnh cho phép bạn định nghĩa các thuộc tính của sự cố để phù hợp với nhu cầu ứng ph"
-sidebar_label: "Cau Hinh Settings"
+title: "Cấu hình settings"
+description: "Hướng dẫn cấu hình các thuộc tính của incident"
+sidebar_label: "Cấu hình settings"
 sidebar_position: 11
 ---
 
-# Cau Hinh Settings
+# Cấu hình settings
 
-FMON incident có một số cài đặt tùy chỉnh cho phép bạn định nghĩa các thuộc tính của sự cố để phù hợp với nhu cầu ứng phó của bạn và quy trình làm việc nhóm. Bạn có thể cấu hình cài đặt: 
-  * Quản lý nhãn (label) 
-  * Quản lý mức độ nghiêm trọng (serverity) 
-  * Quản lý trạng thái (status)
+FMON Incident Management cung cấp các cài đặt tùy chỉnh giúp bạn định nghĩa các thuộc tính của sự cố phù hợp với quy trình làm việc của nhóm. Bạn có thể cấu hình:
+
+- Quản lý nhãn (label)
+- Quản lý mức độ nghiêm trọng (severity)
+- Quản lý trạng thái (status)

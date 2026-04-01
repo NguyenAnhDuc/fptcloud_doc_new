@@ -1,12 +1,15 @@
 ---
 id: "download-config-VPN-S2S"
-title: "Download Config Vpn S2S"
-description: "Bấm vào đây, hệ thống sẽ download nhanh thông tin cấu hình của VPN để hỗ trợ cài đặt dưới Local dễ dàng hơn."
-sidebar_label: "Download Config Vpn S2S"
+title: "Tải cấu hình VPN"
+description: "Hướng dẫn tải file cấu hình VPN Site-to-Site để cài đặt phía local."
+sidebar_label: "Tải cấu hình VPN"
 sidebar_position: 10
 ---
 
-# Download Config Vpn S2S
+# Tải cấu hình VPN
 
-Bấm vào đây, hệ thống sẽ download nhanh thông tin cấu hình của VPN để hỗ trợ cài đặt dưới Local dễ dàng hơn.
-[![Download Config](/img/migrated/Download-Config-1024x354-c0e38786.png)](/img/migrated/Download-Config-1024x354-c0e38786.png)
+Tải file cấu hình VPN giúp bạn nhanh chóng cài đặt kết nối phía local.
+
+Chọn kết nối VPN, nhấn **Actions** → **Download Config**. Hệ thống tải file cấu hình VPN về máy.
+
+![Tải cấu hình VPN](/img/migrated/Download-Config-1024x354-c0e38786.png)

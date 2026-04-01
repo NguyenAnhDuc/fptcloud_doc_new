@@ -1,20 +1,25 @@
 ---
 id: "invite iam user moi"
-title: "Invite IAM user mới"
-description: "**Bước 1** : Ở menu chọn **IAM** > **User** , chọn **Invite users**."
-sidebar_label: "Invite IAM user mới"
+title: "Invite IAM user mới"
+description: "Hướng dẫn mời IAM user mới vào tenant trong FPT IAM."
+sidebar_label: "Invite IAM user mới"
 sidebar_position: 19
 ---
 
-# Invite Iam User Moi
+# Invite IAM user mới
 
-**Bước 1** : Ở menu chọn **IAM** > **User** , chọn **Invite users**.
-[![file](/img/migrated/Screenshot-2024-12-21-225822-39855176.png)](/img/migrated/Screenshot-2024-12-21-225822-39855176.png)
-**Bước 2** : Trên giao diện hộp thoại **Invite User** , nhập các thông tin theo yêu cầu:
-  * **Users** : Nhập thông tin email chính xác để mời. Địa chỉ email này sẽ được hệ thống gửi email xác thực và dùng để truy cập vào Cloud Portal.
-  * **User group** : Chọn User group sẽ gán cho User (trường bắt buộc)
+1. Chọn **IAM** > **Users**, sau đó chọn **Invite users**.
 
-[![file](/img/migrated/image-1734344703145-b92230b6.png)](/img/migrated/image-1734344703145-b92230b6.png)
-**Bước 3** : Chọn **Invite** , hệ thống sẽ tiến hành kiểm tra tài khoản và tiến hành quá trình invite user mới vào VPC và thông báo kết quả.
-[![file](/img/migrated/image-1734344718091-7b7d1882.png)](/img/migrated/image-1734344718091-7b7d1882.png)
-Sau khi Invite thành công, User mới sẽ được hiển thị ở trang User Management gồm các thông tin Name, Email, User Groups.
+[![](/img/migrated/Screenshot-2024-12-21-225822-39855176.png)](/img/migrated/Screenshot-2024-12-21-225822-39855176.png)
+
+2. Trên hộp thoại **Invite User**, nhập các thông tin theo yêu cầu:
+   - **Users**: Nhập địa chỉ email chính xác để mời. Hệ thống sẽ gửi email xác thực đến địa chỉ này.
+   - **User group**: Chọn User Group sẽ gán cho user (bắt buộc).
+
+[![](/img/migrated/image-1734344703145-b92230b6.png)](/img/migrated/image-1734344703145-b92230b6.png)
+
+3. Chọn **Invite**. Hệ thống kiểm tra tài khoản và tiến hành invite user mới vào VPC, sau đó thông báo kết quả.
+
+[![](/img/migrated/image-1734344718091-7b7d1882.png)](/img/migrated/image-1734344718091-7b7d1882.png)
+
+Sau khi invite thành công, user mới sẽ được hiển thị trên trang User Management với các thông tin **Name**, **Email**, **User Groups**.

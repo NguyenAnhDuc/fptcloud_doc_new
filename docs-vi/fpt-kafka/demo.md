@@ -1,7 +1,7 @@
 ---
 id: "demo"
 title: "Demo"
-description: "To connect to Kafka, you can refer to the detailed steps in the **Document** section from the menu."
+description: "Ví dụ thực tế gửi và nhận message qua FPT Kafka bằng Python."
 sidebar_label: "Demo"
 sidebar_position: 20
 pagination_next: null
@@ -9,41 +9,57 @@ pagination_next: null
 
 # Demo
 
-To connect to Kafka, you can refer to the detailed steps in the **Document** section from the menu.
-### Part 1: Producer sends message to topic
-**Step 1** : Create a `producer.py` file
-[![](/img/migrated/demo1-ab8e9665.png)](/img/migrated/demo1-ab8e9665.png)
-**Step 2** : In the file `producer.py`, fill in some informations like:
-[![](/img/migrated/demo2-1b34840f.png)](/img/migrated/demo2-1b34840f.png)
-  * **sasl_plain_username** and **sasl_plain_password** are the username and password of the credentials you have created.
-  * **topic** is the name of the topic you have created and previously set permissions for (allow, write topic).
-  * **bootstrap.servers** : This is the information of the cluster that the admin has assigned to the user.
+Ví dụ này minh họa cách kết nối đến FPT Kafka bằng Python để gửi message từ producer và đọc message bằng consumer. Bạn cần đã tạo topic, credential và ACL phù hợp trước khi thực hiện. Tham khảo thêm tài liệu trong mục **Document** trên menu.
 
-**Step 3** : After setting up the necessary information, open the terminal and run this command:
+## Phần 1: Producer gửi message vào topic
 
-```
-Copypython .\producer.py
-```
+1. Tạo file `producer.py`.
 
-The result should be as follows:
-[![](/img/migrated/demo3-f019af0a.png)](/img/migrated/demo3-f019af0a.png)
-If the output is correct, it means the producer has successfully sent messages to the partitions of the topic.
-### Part 2: Consumer reads the sent message
-**Step 1** : First, create a `consumer.py` file
-[![](/img/migrated/demo4-bd2ed2a2.png)](/img/migrated/demo4-bd2ed2a2.png)
-[![](/img/migrated/demo5-7e413856.png)](/img/migrated/demo5-7e413856.png)
-**Step 2** : In this `consumer.py` file, fill in some informations like:
-[![](/img/migrated/demo6-6962ee80.png)](/img/migrated/demo6-6962ee80.png)
-  * **group_name** is the name of the group you have created and previously set permissions for (allow, read topic).
-  * **sasl_plain_username** and **sasl_plain_password** are the username and password of the credentials you have created.
-  * **topic** is the name of the topic you have created and previously set permissions for (allow, write topic; allow, read topic).
-  * **bootstrap.servers** : This is the information of the cluster that the admin has assigned to the user.
+   [![Màn hình tạo file producer.py](/img/migrated/demo1-ab8e9665.png)](/img/migrated/demo1-ab8e9665.png)
 
-**Step 3** : After setting up the necessary information, open the terminal and run this command:
+2. Trong file `producer.py`, điền các thông tin sau:
 
-```
-Copypython .\consumer.py
-```
+   [![Nội dung file producer.py với các tham số kết nối Kafka](/img/migrated/demo2-1b34840f.png)](/img/migrated/demo2-1b34840f.png)
 
-The result should be as follows:
-[![](/img/migrated/demo7-d43e6100.png)](/img/migrated/demo7-d43e6100.png)
+   - **sasl_plain_username** và **sasl_plain_password**: Username và password của credential đã tạo
+   - **topic**: Tên topic đã tạo và đã cấp quyền Write
+   - **bootstrap.servers**: Thông tin cluster do admin cấp
+
+3. Mở terminal và chạy lệnh:
+
+   ```bash
+   python .\producer.py
+   ```
+
+   Kết quả mong đợi:
+
+   [![Kết quả terminal sau khi producer gửi message thành công](/img/migrated/demo3-f019af0a.png)](/img/migrated/demo3-f019af0a.png)
+
+   Nếu output đúng, producer đã gửi message thành công vào các partition của topic.
+
+## Phần 2: Consumer đọc message
+
+1. Tạo file `consumer.py`.
+
+   [![Màn hình tạo file consumer.py](/img/migrated/demo4-bd2ed2a2.png)](/img/migrated/demo4-bd2ed2a2.png)
+
+   [![Cấu trúc file consumer.py](/img/migrated/demo5-7e413856.png)](/img/migrated/demo5-7e413856.png)
+
+2. Trong file `consumer.py`, điền các thông tin sau:
+
+   [![Nội dung file consumer.py với các tham số kết nối và consumer group](/img/migrated/demo6-6962ee80.png)](/img/migrated/demo6-6962ee80.png)
+
+   - **group_name**: Tên consumer group đã tạo và đã cấp quyền Read topic
+   - **sasl_plain_username** và **sasl_plain_password**: Username và password của credential đã tạo
+   - **topic**: Tên topic đã cấp quyền Write và Read
+   - **bootstrap.servers**: Thông tin cluster do admin cấp
+
+3. Mở terminal và chạy lệnh:
+
+   ```bash
+   python .\consumer.py
+   ```
+
+   Kết quả mong đợi:
+
+   [![Kết quả terminal sau khi consumer đọc message từ topic thành công](/img/migrated/demo7-d43e6100.png)](/img/migrated/demo7-d43e6100.png)

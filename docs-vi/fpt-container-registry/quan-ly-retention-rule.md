@@ -1,11 +1,13 @@
 ---
 id: "quan-ly-retention-rule"
-title: "Quản lý Retention Rule"
-description: "Một Repository có thể nhanh chóng lưu trữ một số lượng lớn các images với các tag khác nhau, trong số đó có nhiều tag im"
-sidebar_label: "Quản lý Retention Rule"
+title: "Quản lý retention rule"
+description: "Thiết lập quy tắc giữ lại image để tự động dọn dẹp tag không còn cần thiết."
+sidebar_label: "Quản lý retention rule"
 sidebar_position: 13
 ---
 
-# Quan Ly Retention Rule
+# Quản lý retention rule
 
-Một Repository có thể nhanh chóng lưu trữ một số lượng lớn các images với các tag khác nhau, trong số đó có nhiều tag images không được sử dụng trong thời gian nhất định và được thay thế bới một tag images khác. Những tag dư thừa này có thể tiêu tốn một dung lượng lớn để lưu trữ. Để tiết kiệm không gian lưu trữ, FPT Cloud hỗ trợ người dùng chức năng quản lý Retention Rule để xác định các quy tắc đối với các repository được lưu trữ, các quy tắc này sẽ xác định images/tag nào cần giữ lại hoặc thời gian giữ lại một số tag nhất định.
+Một repository có thể tích lũy nhiều image với các tag khác nhau theo thời gian, trong đó nhiều tag đã lỗi thời và không còn được sử dụng. Các tag dư thừa này tiêu tốn dung lượng lưu trữ đáng kể.
+
+FPT Cloud cung cấp chức năng **Retention Rule** để xác định quy tắc tự động giữ lại hoặc xóa image/tag theo tiêu chí bạn định nghĩa, giúp tối ưu hóa việc sử dụng dung lượng lưu trữ.

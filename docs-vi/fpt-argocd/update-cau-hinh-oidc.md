@@ -1,19 +1,21 @@
 ---
 id: "update-cau-hinh-oidc"
-title: "Update cấu hình OIDC"
-description: "* **Bước 1** : Tại màn hình **Security & Access** > **OIDC Scope** , thực hiện Edit OIDC Config như sau:"
-sidebar_label: "Update cấu hình OIDC"
+title: "Cập nhật cấu hình OIDC"
+description: "Hướng dẫn chỉnh sửa cấu hình OIDC đã tạo trong ArgoCD"
+sidebar_label: "Cập nhật cấu hình OIDC"
 sidebar_position: 36
 ---
 
-# Update Cau Hinh Oidc
+# Cập nhật cấu hình OIDC
 
-* **Bước 1** : Tại màn hình **Security & Access** > **OIDC Scope** , thực hiện Edit OIDC Config như sau:
+1. Tại màn hình **Security & Access** > **OIDC Scope**, nhấn **Edit** tại OIDC config muốn cập nhật.
 
 [![](/img/migrated/Picture27-4-addb0284.png)](/img/migrated/Picture27-4-addb0284.png)
-  * **Bước 2** : Thực hiện Update thông tin OIDC muốn thay đổi, người dùng có thể thực hiện thay đổi các thông tin sau bao gồm: **Name/Issuer/ClientID/Client Secret**
+
+2. Cập nhật thông tin OIDC muốn thay đổi: **Name**, **Issuer**, **ClientID** hoặc **Client Secret**.
 
 [![](/img/migrated/Picture28-3-059103fa.png)](/img/migrated/Picture28-3-059103fa.png)
-  * **Bước 3** : Kết quả sau khi update cấu hình OIDC: 
+
+3. Kết quả sau khi cập nhật:
 
 [![](/img/migrated/Picture29-3-9072ba92.png)](/img/migrated/Picture29-3-9072ba92.png)

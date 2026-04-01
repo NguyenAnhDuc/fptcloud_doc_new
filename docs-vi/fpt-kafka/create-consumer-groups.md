@@ -1,21 +1,25 @@
 ---
 id: "create-consumer-groups"
-title: "Create Consumer Groups"
-description: "A consumer group is a group of consumers. A consumer can be any application that has the function of subscribing to a to"
-sidebar_label: "Create Consumer Groups"
+title: "Tạo consumer group"
+description: "Hướng dẫn tạo consumer group trong FPT Kafka."
+sidebar_label: "Tạo consumer group"
 sidebar_position: 17
 ---
 
-# Create Consumer Groups
+# Tạo consumer group
 
-A consumer group is a group of consumers. A consumer can be any application that has the function of subscribing to a topic and consuming messages.
-To create a consumer group, do the following:
-**Step 1** : From the menu, navigate to **Application** > **Consumer Groups**. Click Create.
-**Step 2** : Enter the necessary information:
-  * **Group Name** (required): The name of the group you want to create
-  * **Offset strategy** (required)
-  * **Topic** (required)
+Consumer group là tập hợp các consumer cùng subscribe và xử lý message từ một hoặc nhiều topic. Việc nhóm consumer giúp phân tải và đảm bảo mỗi message chỉ được xử lý một lần trong nhóm.
 
-**Note** : A consumer group can subscribe to multiple topics.
-[![](/img/migrated/Pic1_TaoGr-d95bddc4.png)](/img/migrated/Pic1_TaoGr-d95bddc4.png)
-**Step 3** : Click **OK** to successfully create the group.
+1. Từ menu, chọn **Application** > **Consumer Groups**, sau đó nhấn **Create**.
+2. Điền các thông tin:
+   - **Group Name** (bắt buộc): Tên consumer group
+   - **Offset strategy** (bắt buộc)
+   - **Topic** (bắt buộc)
+
+   :::note
+   Một consumer group có thể subscribe nhiều topic.
+   :::
+
+   [![Màn hình tạo consumer group mới với các trường Group Name và Topic](/img/migrated/Pic1_TaoGr-d95bddc4.png)](/img/migrated/Pic1_TaoGr-d95bddc4.png)
+
+3. Nhấn **OK** để tạo consumer group.

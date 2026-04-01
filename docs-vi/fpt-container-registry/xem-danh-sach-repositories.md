@@ -1,12 +1,15 @@
 ---
 id: "xem-danh-sach-repositories"
-title: "Xem danh sách Repositories"
-description: "Trên menu **FPT Portal** chọn **Container Registry** , nếu bạn đã kích hoạt Container Registry trước đó. Ở tab Repositor"
-sidebar_label: "Xem danh sách Repositories"
+title: "Xem danh sách repositories"
+description: "Xem danh sách repository đã push lên FPT Container Registry."
+sidebar_label: "Xem danh sách repositories"
 sidebar_position: 11
 ---
 
-# Xem Danh Sach Repositories
+# Xem danh sách repositories
 
-Trên menu **FPT Portal** chọn **Container Registry** , nếu bạn đã kích hoạt Container Registry trước đó. Ở tab Repositories sẽ hiển thị list Repositories đã push lên.
-[![](/img/migrated/Picture18-1-4289185b.png)](/img/migrated/Picture18-1-4289185b.png)
+Sau khi push image lên registry, tất cả repository sẽ được hiển thị trên Portal để bạn dễ dàng theo dõi và quản lý.
+
+Trên menu **FPT Portal**, chọn **Container Registry**. Tab **Repositories** hiển thị danh sách tất cả repository đã push lên.
+
+[![Danh sách repositories trên FPT Portal](/img/migrated/Picture18-1-4289185b.png)](/img/migrated/Picture18-1-4289185b.png)

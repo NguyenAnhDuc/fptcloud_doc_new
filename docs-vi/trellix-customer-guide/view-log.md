@@ -1,25 +1,46 @@
 ---
 id: "view-log"
-title: "Xem nhật ký (Log)"
-description: "**Bước 1** : Trên thanh menu chọn > Threat Event Log"
-sidebar_label: "Xem nhật ký (Log)"
+title: "Xem nhật ký (log)"
+description: "Xem các security events và threat logs từ tất cả máy chủ hoặc từng máy chủ cụ thể trong hệ thống Trellix."
+sidebar_label: "Xem nhật ký (log)"
 sidebar_position: 6
 pagination_next: null
 ---
 
-# View Log
+# Xem nhật ký (log)
 
-**Bước 1** : Trên thanh menu chọn > Threat Event Log
-[![file](/img/migrated/image-1765765683274-68178a40.png)](/img/migrated/image-1765765683274-68178a40.png)
-Ở đây sẽ hiển thị các security events của toàn bộ máy chủ đã cài đặt agent, bao gồm các hành vi nhiễm mã độc, exploit…
-[![file](/img/migrated/image-1765765697231-084be1af.png)](/img/migrated/image-1765765697231-084be1af.png)
-Hoăc với từng máy chủ trong System Tree> Group > System double click vào từng máy chủ.
-[![file](/img/migrated/image-1765765708664-117612a4.png)](/img/migrated/image-1765765708664-117612a4.png)
-**Bước 2** : Chọn tab Threat events để xem event của từng máy chủ.
-[![file](/img/migrated/image-1765765721659-77184455.png)](/img/migrated/image-1765765721659-77184455.png)
-Đồng thời trên từng máy chủ, user click chuột phải vào icon Trellix chọn Trellix ENS
-[![file](/img/migrated/image-1765765732756-8f460d01.png)](/img/migrated/image-1765765732756-8f460d01.png)
-**Bước 3** : Ở mục Event Log sẽ hiển thị các Threat Events tương tự
-[![file](/img/migrated/image-1765765789911-5df77202.png)](/img/migrated/image-1765765789911-5df77202.png)
-View Log Folder: Thư mục chứa các files log của Enpoint Security bao gồm các tác vụ scanning đã được lên lịch,…
-[![file](/img/migrated/image-1765765814382-c01507d6.png)](/img/migrated/image-1765765814382-c01507d6.png)
+Nhật ký bảo mật ghi lại toàn bộ các sự kiện phát hiện mã độc, exploit và hoạt động đáng ngờ trên các máy chủ được bảo vệ. Xem log thường xuyên giúp phát hiện sớm các mối đe dọa và phản ứng kịp thời.
+
+## Xem log toàn hệ thống
+
+1. Trong giao diện quản trị, chọn **Threat Event Log** từ thanh menu.
+
+   [![Trang Threat Event Log trong giao diện Trellix](/img/migrated/image-1765765683274-68178a40.png)](/img/migrated/image-1765765683274-68178a40.png)
+
+   Trang này hiển thị tất cả security events của các máy chủ đã cài đặt agent, bao gồm hành vi nhiễm mã độc, exploit và các hoạt động đáng ngờ khác.
+
+   [![Danh sách security events trong Threat Event Log](/img/migrated/image-1765765697231-084be1af.png)](/img/migrated/image-1765765697231-084be1af.png)
+
+## Xem log theo từng máy chủ
+
+1. Trong **System Tree** > **Group** > **System**, double-click vào máy chủ cần xem.
+
+   [![Giao diện System Tree để chọn máy chủ cụ thể](/img/migrated/image-1765765708664-117612a4.png)](/img/migrated/image-1765765708664-117612a4.png)
+
+2. Chọn tab **Threat Events** để xem các event của máy chủ đó.
+
+   [![Tab Threat Events hiển thị log của từng máy chủ](/img/migrated/image-1765765721659-77184455.png)](/img/migrated/image-1765765721659-77184455.png)
+
+## Xem log trực tiếp trên máy chủ
+
+1. Trên máy chủ, click chuột phải vào icon Trellix trên task bar, chọn **Trellix ENS**.
+
+   [![Menu chuột phải Trellix ENS trên task bar](/img/migrated/image-1765765732756-8f460d01.png)](/img/migrated/image-1765765732756-8f460d01.png)
+
+2. Trong mục **Event Log**, các Threat Events tương tự sẽ được hiển thị.
+
+   [![Giao diện Event Log trong Trellix ENS trên máy chủ](/img/migrated/image-1765765789911-5df77202.png)](/img/migrated/image-1765765789911-5df77202.png)
+
+3. Mục **View Log Folder** chứa các file log của Endpoint Security, bao gồm lịch sử các tác vụ scanning đã được lên lịch.
+
+   [![Thư mục chứa file log Endpoint Security](/img/migrated/image-1765765814382-c01507d6.png)](/img/migrated/image-1765765814382-c01507d6.png)

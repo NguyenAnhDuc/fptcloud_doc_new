@@ -1,204 +1,40 @@
 ---
 id: "fpt-key-vault"
-title: "Ra mắt dịch vụ lưu trữ và quản lý thông tin bí mật (FPT Key Vault)"
-description: "Tất cả tài liệu"
-sidebar_label: "Ra mắt dịch vụ lưu trữ và quản lý thông tin bí mật (FPT Key Vault)"
+title: "FPT Key Vault"
+description: "Tài liệu hướng dẫn sử dụng dịch vụ FPT Key Vault"
+sidebar_label: "FPT Key Vault"
 sidebar_position: 1
 ---
 
 # FPT Key Vault
 
-Tất cả tài liệu
-FPT Integration 
-  * [ FPT API Management ](https://fptcloud.com/documents/fpt-api-management/ "FPT API Management")
+FPT Key Vault là dịch vụ lưu trữ và quản lý Secret an toàn trên nền tảng FPT Cloud. Dịch vụ hỗ trợ nhiều loại Secret như Key/Value, SSH key, certificate và tích hợp dễ dàng với ứng dụng, container, VM thông qua SDK và CLI.
 
-FPT Data Platform 
-  * [ FPT Data Platform ](https://fptcloud.com/documents/fpt-data-platform/ "FPT Data Platform")
+## Tài liệu FPT Key Vault
 
-FPT Security Platform 
-  * [ FPT AppSec ](https://fptcloud.com/documents/fpt-appsec/ "FPT AppSec")
+Cung cấp hướng dẫn chi tiết về các thao tác khởi tạo, sử dụng và quản lý FPT Key Vault thông qua giao diện FPT Portal.
 
-AI Infrastructure 
-  * [ Managed GPU Cluster (Kubernetes) ](https://fptcloud.com/documents/fpt-managed-gpu-cluster/ "Managed GPU Cluster \(Kubernetes\)")
+## Tính năng
 
-FPT AI Factory 
-Billing 
-  * [ Cost Explorer ](https://fptcloud.com/documents/cost-explorer/ "Cost Explorer")
-  * [ Budget Alert ](https://fptcloud.com/documents/budget-alert/ "Budget Alert")
-  * [ Bills ](https://fptcloud.com/documents/billing/ "Bills")
+- Tạo và quản lý Vault Instance trên giao diện Portal
+- Xem danh sách và chi tiết các Vault, Secret Engine, Secret
+- Quản lý Policy kiểm soát quyền truy cập Secret
+- Quản lý Auth Method và Role để xác thực ứng dụng
+- Tích hợp với ứng dụng và hệ thống hiện có
 
-Support 
-  * [ Zalo ticket support ](https://fptcloud.com/documents/zalo-ticket-support/ "Zalo ticket support")
-  * [ Trellix Customer Guide ](https://fptcloud.com/documents/trellix-customer-guide/ "Trellix Customer Guide")
-  * [ Request Resource ](https://fptcloud.com/documents/end-user-request-resource/ "Request Resource")
-
-Multi Cloud 
-FPT Database Engine 
-  * [ Managed - FPT Database Engines ](https://fptcloud.com/documents/managed-fpt-database-engines-new/ "Managed - FPT Database Engines")
-
-FPT Cloud Server 
-  * [ Tagging ](https://fptcloud.com/documents/tagging/ "Tagging")
-  * [ SSO - Single sign-on ](https://fptcloud.com/documents/sso-single-sign-on/ "SSO - Single sign-on")
-  * [ Policy Management ](https://fptcloud.com/documents/policy-management/ "Policy Management")
-  * [ Global Search ](https://fptcloud.com/documents/global-search/ "Global Search")
-  * [ FPT Cloud Portal – Pay As You Go ](https://fptcloud.com/documents/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ "FPT Cloud Portal – Pay As You Go")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/documents/fpt-cloud-desktop/ "FPT Cloud Desktop")
-  * [ FPT Autoscale ](https://fptcloud.com/documents/fpt-autoscale/ "FPT Autoscale")
-  * [ Cloud Server ](https://fptcloud.com/documents/cloud-server/ "Cloud Server")
-
-FPT DevSecOps Services 
-  * [ FPT Key Vault ](https://fptcloud.com/documents/fpt-key-vault/ "FPT Key Vault")
-  * [ FPT Jenkins CI ](https://fptcloud.com/documents/fpt-jenkins-ci/ "FPT Jenkins CI")
-  * [ FPT ArgoCD ](https://fptcloud.com/documents/fpt-argocd-3/ "FPT ArgoCD")
-
-FPT Next-Gen Firewall 
-FPT Cloud Backup & DR 
-  * [ FPT Backup As a Service ](https://fptcloud.com/documents/fpt-backup-as-a-service/ "FPT Backup As a Service")
-  * [ Backup ](https://fptcloud.com/documents/backup/ "Backup")
-
-FPT Monitoring 
-  * [ FPT Reporting ](https://fptcloud.com/documents/reporting/ "FPT Reporting")
-  * [ FPT Cloud Monitoring ](https://fptcloud.com/documents/fpt-cloud-monitoring/ "FPT Cloud Monitoring")
-  * [ FPT Cloud Guard ](https://fptcloud.com/documents/cloud-guard/ "FPT Cloud Guard")
-
-FPT Security 
-  * [ IAM ](https://fptcloud.com/documents/iam/ "IAM")
-  * [ FPT Cloud WAPPLES ](https://fptcloud.com/documents/fpt-cloud-wapples/ "FPT Cloud WAPPLES")
-  * [ FPT Cloud WAF ](https://fptcloud.com/documents/fpt-cloud-waf/ "FPT Cloud WAF")
-  * [ FPT Cloud VA ](https://fptcloud.com/documents/fpt-va/ "FPT Cloud VA")
-  * [ Fortigate - FPT NGFW ](https://fptcloud.com/documents/fortigate-fpt-ngfw/ "Fortigate - FPT NGFW")
-  * [ DdoS Protection ](https://fptcloud.com/documents/ddos-protection/ "DdoS Protection")
-  * [ CheckPoint - FPT NGFW ](https://fptcloud.com/documents/checkpoint-fpt-ngfw/ "CheckPoint - FPT NGFW")
-
-FPT Container 
-  * [ Managed - FPT Kubernetes Engine ](https://fptcloud.com/documents/managed-fpt-kubernetes-engine/ "Managed - FPT Kubernetes Engine")
-  * [ FPT Kubernetes Engine with GPU ](https://fptcloud.com/documents/fpt-kubernetes-engine-with-gpu/ "FPT Kubernetes Engine with GPU")
-  * [ FPT Container Registry ](https://fptcloud.com/documents/fpt-container-registry-2/ "FPT Container Registry")
-  * [ Dedicated - FPT Kubernetes Engine ](https://fptcloud.com/documents/dedicated-fpt-kubernetes-engine/ "Dedicated - FPT Kubernetes Engine")
-
-FPT Network 
-  * [ VPN Site-to-Site ](https://fptcloud.com/documents/vpn-site-to-site-0/ "VPN Site-to-Site")
-  * [ Load Balancer ](https://fptcloud.com/documents/load-balancer/ "Load Balancer")
-  * [ Create VPC ](https://fptcloud.com/documents/create_vpc/ "Create VPC")
-
-FPT Storage 
-  * [ FPT Object Storage ](https://fptcloud.com/documents/object-storage/ "FPT Object Storage")
-  * [ File Storage - High Performance ](https://fptcloud.com/documents/file-storage-high-performance/ "File Storage - High Performance")
-
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-    * [ Initial Setup ](https://fptcloud.com/documents/fpt-key-vault/?doc=Initial%20Setup "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-    * [ Khởi tạo Vault Instance ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-khoi-tao-vault-instance "Khởi tạo Vault Instance")
-    * [ Quản lý Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Secret Engine")
-      * [ Tạo Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-secret-engine "Tạo Secret Engine")
-      * [ Xóa Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-secret-engine "Xóa Secret Engine")
-    * [ Quản lý Secret ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Secret")
-      * [ Tạo Secret trên Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-secret-tren-secret-engine "Tạo Secret trên Secret Engine")
-      * [ Xem và cập nhật giá trị Secret ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xem-va-cap-nhat-gia-tri-secret "Xem và cập nhật giá trị Secret")
-      * [ Xóa Secret ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-secret "Xóa Secret")
-    * [ Quản lý Policy ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Policy")
-      * [ Tạo Policy ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-policy "Tạo Policy")
-      * [ Xóa Policy ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-policy "Xóa Policy")
-    * [ Quản lý Auth Method ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Auth Method")
-      * [ Tạo Auth Method ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-auth-method "Tạo Auth Method")
-      * [ Tạo Role ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-role "Tạo Role")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
-
-FPT Key Vault
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Key Vault
-
-FPT Key Vault
-FPT Key Vault là dịch vụ cho phép tạo và quản lý các thông tin bí mật dưới dạng key/value, ssh key, certificate…
-##  FPT Key Vault Documentation 
-Cung cấp thông tin và các hướng dẫn chi tiết về dịch vụ FPT Key Vault của FPT Smart Cloud. Bao gồm các thao tác đăng nhập, sử dụng và quản lý thông qua giao diện FPT Portal.
-01Initial Setup 
-  * [ Initial Setup ](https://fptcloud.com/documents/fpt-key-vault/?doc=Initial%20Setup "Initial Setup")
-
-02Hướng dẫn chi tiết (Tutorials) 
-  * [ Khởi tạo Vault Instance ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-khoi-tao-vault-instance "Khởi tạo Vault Instance")
-  * [ Quản lý Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Secret Engine")
-    * [ Tạo Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-secret-engine "Tạo Secret Engine")
-    * [ Xóa Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-secret-engine "Xóa Secret Engine")
-  * [ Quản lý Secret ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Secret")
-    * [ Tạo Secret trên Secret Engine ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-secret-tren-secret-engine "Tạo Secret trên Secret Engine")
-    * [ Xem và cập nhật giá trị Secret ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xem-va-cap-nhat-gia-tri-secret "Xem và cập nhật giá trị Secret")
-    * [ Xóa Secret ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-secret "Xóa Secret")
-  * [ Quản lý Policy ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Policy")
-    * [ Tạo Policy ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-policy "Tạo Policy")
-    * [ Xóa Policy ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-xoa-policy "Xóa Policy")
-  * [ Quản lý Auth Method ](https://fptcloud.com/documents/fpt-key-vault/ "Quản lý Auth Method")
-    * [ Tạo Auth Method ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-auth-method "Tạo Auth Method")
-    * [ Tạo Role ](https://fptcloud.com/documents/fpt-key-vault/?doc=tutorials-tao-role "Tạo Role")
-
-03Các câu hỏi thường gặp (FAQs) 
-04Một số gợi ý mẫu (Samples) 
 ## Release note
-### Ra mắt dịch vụ lưu trữ và quản lý thông tin bí mật (FPT Key Vault)
-FPT Cloud chính thức ra mắt dịch vụ Key Vault trên giao diện Portal. Với dịch vụ Key Vault khách hàng sẽ có công cụ lưu trữ các thông tin bí mật, quản lý và xóa những secret key không sử dụng trên giao diện của Portal FPT Key Vault là một dịch vụ đám mây để lưu trữ và truy cập các secret một cách an toàn. Secret là bất kỳ thứ gì bạn muốn kiểm soát chặt chẽ quyền truy cập, chẳng hạn như API key, password, certificates hoặc cryptographic keys. FPT Key Vault dễ dàng tích hợp vào ứng dụng, container, VM thông qua SDK và CLI Các tính năng của dịch vụ Key Vault. 
-  * Quản trị viên có thể tạo và sử dụng dịch vụ trên giao diện Portal
-  * Quản trị viên có thể xem danh sách, chi tiết các cụm Vault và secret key được tạo ra
-  * Dễ dàng tích hợp với các ứng dụng và hệ thống hiện có.
 
-**Tại sao bạn nên sử dụng?**
-  * Cung cấp công cụ lưu trữ và quản lý các thông tin bảo mật
-  * Dễ dàng tạo và sử dụng dịch vụ 
+### Ra mắt dịch vụ FPT Key Vault
+
+FPT Cloud chính thức ra mắt dịch vụ Key Vault trên giao diện Portal. Khách hàng có thể lưu trữ, quản lý và xóa Secret một cách an toàn. FPT Key Vault dễ dàng tích hợp vào ứng dụng, container, VM thông qua SDK và CLI.
 
 ### FPT Key Vault version 1.1
+
 **Tính năng mới:**
-  * Chọn gói khi khởi tạo Vault
-  * Nâng/hạ cấp gói để phù hợp với nhu cầu sử dụng
-  * Giám sát lượng request sử dụng của hệ thống
-  * Hỗ trợ tính năng HA khi khởi tạo Vault
-  * Backup Vault hằng ngày lên S3
-  * Hỗ trợ tạo Vault trên region HAN 
 
-![FPT Cloud](/img/migrated/footer-logo-f6780be4.png)
-**Hotline:[1900 638 399](tel:1900%20638%20399)**
-Địa chỉ:
-**Hà Nội:**[FPT Tower, Số 10 Phạm Văn Bạch, Phường Cầu Giấy](https://maps.app.goo.gl/BtHa6J7ToZf7RZbF6)  
-**TP. Hồ Chí Minh:** Tòa nhà PJICO, 186 Điện Biên Phủ, Phường Xuân Hòa  
-**Tokyo:** 33F, Sumitomo Fudosan Tokyo Mita Garden Tower, 3-5-19 Mita, Minato-ku  
-
-Email: support@fptcloud.com
-  * [ ](https://www.facebook.com/fptsmartcloud)
-  * [ ](https://www.linkedin.com/company/fpt-cloud/)
-  * [ ](https://www.youtube.com/channel/UCJM51jaizo0jSbv35HD2nYA)
-
-[ ![DMCA compliant image](/img/migrated/_dmca_premi_badge_4-f0377188.png) ](https://www.dmca.com/compliance/fptcloud.com "DMCA Compliance information for fptcloud.com")
-Về chúng tôi 
-  * [ Giới thiệu chung ](https://fptcloud.com/gioi-thieu/ "Giới thiệu chung")
-  * [ Đối tác & Khách hàng ](https://fptcloud.com/doi-tac/ "Đối tác & Khách hàng")
-  * [ Tin tức - Sự kiện ](https://fptcloud.com/blog/ "Tin tức - Sự kiện")
-  * [ Tuyển dụng ](https://fptsmartcloud.com/co-hoi-nghe-nghiep/ "Tuyển dụng")
-  * [ Liên hệ ](https://fptcloud.com/lien-he/ "Liên hệ")
-
-Dịch vụ 
-  * [ FPT Cloud Server ](https://fptcloud.com/product/cloud-server/ "FPT Cloud Server")
-  * [ FPT Backup Service ](https://fptcloud.com/product/backup-service/ "FPT Backup Service")
-  * [ FPT Disaster Recovery Services ](https://fptcloud.com/product/disaster-recovery-service/ "FPT Disaster Recovery Services")
-  * [ FPT Object storage ](https://fptcloud.com/product/object-storage/ "FPT Object storage")
-  * [ FPT Kubernetes Engine ](https://fptcloud.com/product/kubernetes-engine/ "FPT Kubernetes Engine")
-  * [ FPT Monitoring ](https://fptcloud.com/product/monitoring/ "FPT Monitoring")
-  * [ FPT Load Balancer ](https://fptcloud.com/product/load-balancer/ "FPT Load Balancer")
-  * [ FPT Next-Gen Firewall ](https://fptcloud.com/product/fpt-next-gen-firewall/ "FPT Next-Gen Firewall")
-  * [ FPT Cloud Desktop ](https://fptcloud.com/product/cloud-desktop/ "FPT Cloud Desktop")
-
-Điều khoản & Chính sách 
-  * [ Điều Khoản Sử dụng ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Điều Khoản Sử dụng")
-  * [ Chính sách Bảo vệ quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-1 "Chính sách Bảo vệ quyền riêng tư ")
-  * [ Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư ](https://fptcloud.com/chinh-sach/#policy-tab-3 "Báo cáo lỗ hổng bảo mật hoặc quyền riêng tư")
-  * [ Chính sách Bảo vệ Dữ liệu Cá nhân ](https://fptcloud.com/chinh-sach/#policy-tab-5 "Chính sách Bảo vệ Dữ liệu Cá nhân")
-  * [ Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm ](https://fptcloud.com/chinh-sach/#policy-tab-6 "Biểu mẫu Báo Cáo Rủi Ro hoặc Vi Phạm")
-
-Đăng ký nhận tin 
-Gửi 
-
-  * [ Liên hệ ](tel:1900%20638%20399)
-Email
-
-Chúng tôi quan tâm đến sự riêng tư của bạn
-Trang web này sử dụng cookie để cải thiện trải nghiệm người dùng. Bằng cách sử dụng trang web của chúng tôi, bạn đồng ý với tất cả cookie theo [Chính sách bảo mật](https://fptcloud.com/chinh-sach/#policy-tab-1) của chúng tôi
-[Chỉ những cookie cần thiết](javascript:void\(0\);) [Cài đặt](javascript:void\(0\);) [Tôi đồng ý](javascript:void\(0\);)
-[ ](tel:1900638399 "Gọi 1900638399")
+- Chọn gói khi khởi tạo Vault
+- Nâng/hạ cấp gói để phù hợp với nhu cầu sử dụng
+- Giám sát lượng request sử dụng của hệ thống
+- Hỗ trợ tính năng HA khi khởi tạo Vault
+- Backup Vault hằng ngày lên S3
+- Hỗ trợ tạo Vault trên region HAN

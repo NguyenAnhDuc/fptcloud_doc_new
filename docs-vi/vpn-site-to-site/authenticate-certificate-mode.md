@@ -1,11 +1,13 @@
 ---
 id: "authenticate-certificate-mode"
-title: "Authenticate Certificate Mode"
-description: "Hiện tại Unify Portal chưa hỗ trợ chế độ này. Để được hỗ trợ thêm, các bạn vui lòng liên hệ Customer Success để được tư "
-sidebar_label: "Authenticate Certificate Mode"
+title: "Xác thực bằng Certificate"
+description: "Thông tin về chế độ xác thực Certificate cho VPN Site-to-Site."
+sidebar_label: "Xác thực bằng Certificate"
 sidebar_position: 13
 ---
 
-# Authenticate Certificate Mode
+# Xác thực bằng Certificate
 
-Hiện tại Unify Portal chưa hỗ trợ chế độ này. Để được hỗ trợ thêm, các bạn vui lòng liên hệ Customer Success để được tư vấn.
+:::note
+Hiện tại FPT Cloud Portal chưa hỗ trợ chế độ xác thực Certificate. Liên hệ Customer Success để được tư vấn và hỗ trợ.
+:::

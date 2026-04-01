@@ -1,13 +1,14 @@
 ---
 id: "thay-doi-trang-thai-incident"
-title: "Thay doi Trang Thai Incident"
-description: "**Bước 1** : Click vào tiêu đề của một incident để xem chi tiết."
-sidebar_label: "Thay doi Trang Thai Incident"
+title: "Thay đổi trạng thái incident"
+description: "Hướng dẫn thay đổi trạng thái của incident"
+sidebar_label: "Thay đổi trạng thái incident"
 sidebar_position: 22
 ---
 
-# Thay Doi Trang Thai Incident
+# Thay đổi trạng thái incident
 
-**Bước 1** : Click vào tiêu đề của một incident để xem chi tiết. 
-**Bước 2** : Ở phía bên phải, thay đổi trạng thái của incident theo mong muốn. 
-[![](/img/migrated/Screenshot_21-d97e072d.png)](/img/migrated/Screenshot_21-d97e072d.png)
+1. Nhấn vào tiêu đề incident để xem chi tiết.
+2. Ở phía bên phải, thay đổi trạng thái incident theo mong muốn.
+
+[![Thay đổi trạng thái incident từ panel bên phải](/img/migrated/Screenshot_21-d97e072d.png)](/img/migrated/Screenshot_21-d97e072d.png)

@@ -1,38 +1,51 @@
 ---
 id: "mange-admin-account"
-title: "Mange Admin Account"
-description: "Mặc định khi tạo ArgoCD instance user admin sẽ được enable để người dùng có thể login vào ArgoCD để sử dụng. Nếu muốn di"
-sidebar_label: "Mange Admin Account"
+title: "Quản lý tài khoản admin"
+description: "Hướng dẫn enable và disable tài khoản admin trong ArgoCD instance"
+sidebar_label: "Quản lý tài khoản admin"
 sidebar_position: 28
 ---
 
-# Mange Admin Account
+# Quản lý tài khoản admin
 
-Mặc định khi tạo ArgoCD instance user admin sẽ được enable để người dùng có thể login vào ArgoCD để sử dụng. Nếu muốn disable/enable admin user người dùng có thể thực hiện như sau: 
-**_A. Disable admin user_**
-  * **Bước 1** : Tại màn **Essential Properties** > Click **Disable Admin Account** : 
+Mặc định, tài khoản admin được bật khi tạo ArgoCD instance. Người dùng có thể enable/disable tài khoản admin như sau.
+
+## A. Disable tài khoản admin
+
+1. Tại màn hình **Essential Properties**, nhấn **Disable Admin Account**.
 
 [![](/img/migrated/Picture1-5-71caab00.png)](/img/migrated/Picture1-5-71caab00.png)
-  * **Bước 2** : Sau khi Click Disable Admin Account thực hiện **Confirm** để hoàn tất hành động: 
+
+2. Nhấn **Confirm** để xác nhận.
 
 [![](/img/migrated/Picture2-5-41f37b40.png)](/img/migrated/Picture2-5-41f37b40.png)
-  * **Bước 3** : Kết quả sau khi disable Admin Account:
+
+3. Kết quả sau khi disable:
 
 [![](/img/migrated/Picture3-6-fa289198.png)](/img/migrated/Picture3-6-fa289198.png)
-Sau khi disable Admin Account người dùng có thể truy cập vào ArgoCD thông qua Local Account hoặc thông qua OIDC Scope. Trong trường hợp chưa có Local Account/ OIDC config màn hình đăng nhập sẽ như sau:
+
+Sau khi disable, người dùng có thể truy cập ArgoCD qua Local Account hoặc OIDC. Nếu chưa có cấu hình nào, màn hình đăng nhập sẽ như sau:
+
 [![](/img/migrated/Picture4-6-602fd335.png)](/img/migrated/Picture4-6-602fd335.png)
-Trong trường hợp có Local Account/ Cấu hình OIDC Scope, có thể login vào ArgoCD thông qua username/password như bình thường:
+
+Nếu đã có Local Account hoặc OIDC Scope, vẫn có thể đăng nhập bình thường:
+
 [![](/img/migrated/Picture5-6-9efcfab4.png)](/img/migrated/Picture5-6-9efcfab4.png)
-**_B. Enable admin user_**
-Người dùng có thể enable lại user admin như sau:
-  * **Bước 1** : Tại màn **Essential Properties** > Click **Enable Admin Account** :
+
+## B. Enable tài khoản admin
+
+1. Tại màn hình **Essential Properties**, nhấn **Enable Admin Account**.
 
 [![](/img/migrated/Picture6-6-f3355acc.png)](/img/migrated/Picture6-6-f3355acc.png)
-  * **Bước 2** : Sau khi Click Enable Admin Account thực hiện **Confirm** để hoàn tất hành động:
+
+2. Nhấn **Confirm** để xác nhận.
 
 [![](/img/migrated/Picture7-6-6c7b65b6.png)](/img/migrated/Picture7-6-6c7b65b6.png)
-  * **Bước 3** : Kết quả sau khi Enable Admin Account:
+
+3. Kết quả sau khi enable:
 
 [![](/img/migrated/Picture8-6-a1c6eba8.png)](/img/migrated/Picture8-6-a1c6eba8.png)
-Sau khi enable admin account có thể đang nhập vào ArgoCD thông qua account admin: 
+
+Sau khi enable, có thể đăng nhập ArgoCD bằng tài khoản admin:
+
 [![](/img/migrated/Picture9-6-ab4e8650.png)](/img/migrated/Picture9-6-ab4e8650.png)

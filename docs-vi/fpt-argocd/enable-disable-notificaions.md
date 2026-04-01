@@ -1,14 +1,17 @@
 ---
 id: "enable-disable-notificaions"
-title: "Enable Disable Notificaions"
-description: "**Bước 1** : Tại màn hình **Notifications** > **Enable Notifications** :"
-sidebar_label: "Enable Disable Notificaions"
+title: "Enable/disable notifications"
+description: "Hướng dẫn bật hoặc tắt tính năng notifications trong ArgoCD"
+sidebar_label: "Enable/disable notifications"
 sidebar_position: 40
 ---
 
-# Enable Disable Notificaions
+# Enable/disable notifications
 
-**Bước 1** : Tại màn hình **Notifications** > **Enable Notifications** :
+1. Tại màn hình **Notifications**, nhấn **Enable Notifications**.
+
 [![](/img/migrated/Picture36-3-e6e46cf4.png)](/img/migrated/Picture36-3-e6e46cf4.png)
-**Bước 2** : Sau khi enable thành công, FPT Cloud sẽ cho phép người dùng cấu hình thông báo tới một số hệ thống bên ngoài như **Telegram/Slack/Email**
+
+2. Sau khi enable thành công, FPT Cloud cho phép cấu hình thông báo tới **Telegram**, **Slack** và **Email**.
+
 [![](/img/migrated/Picture37-3-6222ecd1.png)](/img/migrated/Picture37-3-6222ecd1.png)

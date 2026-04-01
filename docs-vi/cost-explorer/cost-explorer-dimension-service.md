@@ -1,26 +1,33 @@
 ---
 id: "cost-explorer-dimension-service"
-title: "Cost explorer theo dịch vụ"
-description: "**Tại menu tab bar, chọn Billing > chọn Cost Explorer. Hệ thống hiển thị chi phí theo các dịch vụ sử dụng thuộc tất cả P"
-sidebar_label: "Cost explorer theo dịch vụ"
+title: "Xem chi phí theo dịch vụ"
+description: "Hướng dẫn xem Dashboard chi phí và tùy chỉnh bộ lọc theo dịch vụ trên Cost Explorer."
+sidebar_label: "Xem chi phí theo dịch vụ"
 sidebar_position: 2
 ---
 
-# Cost Explorer Dimension Service
+# Xem chi phí theo dịch vụ
 
-**Tại menu tab bar, chọn Billing > chọn Cost Explorer. Hệ thống hiển thị chi phí theo các dịch vụ sử dụng thuộc tất cả Project trong Tenant.**
-Kéo thanh scroll hoặc lăn chuột để zoom in/zoom out vào 1 điểm trên biểu đồ để xem ở dữ liệu ở từng thời điểm
-[![file](/img/migrated/image-1745469271136-91cd6135.png)](/img/migrated/image-1745469271136-91cd6135.png)
-**Chọn button Customize Filter > xuất hiện pop-up cho phép chọn điều kiện để lọc giá trị theo mục đích. Các điều kiện lọc bao gồm:**
-  * Start date – End date: Khoảng thời gian tính tiền.
-  * Period type: Xem biểu đồ biến động chi phí được chia nhỏ theo ngày (daily) hoặc theo tháng (monthly). 
-  * Service: Tên dịch vụ. Người dùng có thể chọn nhiều service. Nếu không có service cụ thể nào được chọn, hệ thống mặc định show dữ liệu của tất cả các dịch vụ và thỏa mãn các điều kiện khác trong bộ filter.
-  * Project: Có thể chọn nhiều Project. Nếu filter Project trống, hệ thống mặc định không lọc dữ liệu bằng Project, tức là dữ liệu kết quả chỉ thỏa mãn các điều kiện khác của filter và không bị ảnh hưởng bởi project
-  * VPC: 
-    * Có thể chọn nhiều VPC. Nếu filter VPC trống, hệ thống mặc định lọc dữ liệu bằng VPC, tức là dữ liệu kết quả chỉ thỏa mãn các điều kiện khác của bộ lọc và không bị ảnh hưởng bởi VPC. 
-    * Nếu ở điều kiện Project, người dùng chọn một vài Project cụ thể, thì VPC được chọn chỉ bao gồm các VPC thuộc Project đã chọn bên trên. 
-  * Tag: 
-    * Các tag được quản lý trên Portal. Người dùng có thể chọn nhiều tag.
-    * Nếu filter tagging trống, hệ thống mặc định không lọc dữ liệu bằng tagging, tức là dữ liệu chỉ thỏa mãn các điều kiện khác của bộ lọc và không bị ảnh hưởng bởi tagging. 
+Cost Explorer cho phép bạn xem biểu đồ chi phí theo từng dịch vụ, giúp nhanh chóng xác định dịch vụ nào đang tiêu tốn nhiều nhất để tối ưu ngân sách.
 
-[![file](/img/migrated/image-1745469282868-f7d5649a.png)](/img/migrated/image-1745469282868-f7d5649a.png)
+## Xem Dashboard chi phí
+
+1. Chọn **Billing** → **Cost Explorer**. Hệ thống hiển thị chi phí theo các dịch vụ sử dụng thuộc tất cả Project trong tenant.
+
+2. Kéo thanh scroll hoặc lăn chuột để zoom in/zoom out biểu đồ, xem dữ liệu tại từng thời điểm.
+
+   ![Dashboard Cost Explorer theo dịch vụ](/img/migrated/image-1745469271136-91cd6135.png)
+
+## Tùy chỉnh bộ lọc (Customize Filter)
+
+1. Nhấn **Customize Filter**. Hệ thống hiển thị pop-up cho phép chọn điều kiện lọc.
+
+2. Các điều kiện lọc bao gồm:
+   - **Start date – End date**: khoảng thời gian tính tiền.
+   - **Period type**: xem biểu đồ biến động chi phí theo ngày (Daily) hoặc theo tháng (Monthly).
+   - **Service**: tên dịch vụ. Bạn có thể chọn nhiều service. Nếu không chọn service cụ thể, hệ thống hiển thị dữ liệu của tất cả dịch vụ.
+   - **Project**: có thể chọn nhiều Project. Nếu để trống, dữ liệu không bị lọc theo Project.
+   - **VPC**: có thể chọn nhiều VPC. Nếu đã chọn Project cụ thể, VPC chỉ hiển thị các VPC thuộc Project đã chọn.
+   - **Tag**: các tag được quản lý trên Portal. Bạn có thể chọn nhiều tag.
+
+   ![Customize Filter dialog](/img/migrated/image-1745469282868-f7d5649a.png)

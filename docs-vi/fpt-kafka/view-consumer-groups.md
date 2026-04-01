@@ -1,13 +1,17 @@
 ---
 id: "view-consumer-groups"
-title: "View Consumer Groups"
-description: "**Step 1** : Select the consumer group to view details > Click **View**."
-sidebar_label: "View Consumer Groups"
+title: "Xem consumer group"
+description: "Hướng dẫn xem thông tin chi tiết consumer group trong FPT Kafka."
+sidebar_label: "Xem consumer group"
 sidebar_position: 18
 ---
 
-# View Consumer Groups
+# Xem consumer group
 
-**Step 1** : Select the consumer group to view details > Click **View**.
-You can view detailed information of the consumer group such as the name, status, number of members in the consumer group, etc.
-[![](/img/migrated/Pic1_viewconsumer-da0c5124.png)](/img/migrated/Pic1_viewconsumer-da0c5124.png)
+Xem chi tiết consumer group giúp bạn kiểm tra trạng thái hoạt động, số lượng member và các topic đang được subscribe trong nhóm.
+
+1. Chọn consumer group muốn xem, sau đó nhấn **View**.
+
+   [![Màn hình danh sách consumer group với nút View và thông tin trạng thái](/img/migrated/Pic1_viewconsumer-da0c5124.png)](/img/migrated/Pic1_viewconsumer-da0c5124.png)
+
+Thông tin hiển thị bao gồm tên nhóm, trạng thái, số lượng member trong consumer group, v.v.

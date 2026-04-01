@@ -1,11 +1,13 @@
 ---
 id: "quan-ly-account-tren-argocd"
-title: "Quản lý account trên argocd"
-description: "Ngoài account admin, FPT Cloud hỗ trợ người dùng tạo vào quản lý account trong hệ thống. Sau khi tạo account trên portal"
-sidebar_label: "Quản lý account trên argocd"
+title: "Quản lý tài khoản trên ArgoCD"
+description: "Tổng quan về quản lý tài khoản người dùng trong ArgoCD instance"
+sidebar_label: "Quản lý tài khoản ArgoCD"
 sidebar_position: 23
 ---
 
-# Quan Ly Account Tren Argocd
+# Quản lý tài khoản trên ArgoCD
 
-Ngoài account admin, FPT Cloud hỗ trợ người dùng tạo vào quản lý account trong hệ thống. Sau khi tạo account trên portal mặc định user sẽ chỉ có quyền default là readonly (có thể view toàn bộ thông tin của ArgoCD sau khi login). Nếu muốn thêm quyền cho account đã tạo, cần thực hiện cấu hình rbac policy cho user. Tham khảo mục 5.6 trong document.
+Ngoài tài khoản admin, FPT Cloud hỗ trợ tạo và quản lý tài khoản người dùng trong hệ thống. Sau khi tạo, tài khoản mặc định có quyền `readonly` — có thể xem toàn bộ thông tin ArgoCD sau khi đăng nhập.
+
+Để cấp thêm quyền cho tài khoản, cần cấu hình RBAC policy. Tham khảo phần **Cấu hình RBAC policy**.

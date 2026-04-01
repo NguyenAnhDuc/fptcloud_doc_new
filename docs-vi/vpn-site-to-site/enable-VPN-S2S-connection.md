@@ -1,18 +1,25 @@
 ---
 id: "enable-VPN-S2S-connection"
-title: "Enable: Cho phép VPN hoạt động (nếu VPN đang Inactive)."
-description: "Enable: Cho phép VPN hoạt động (nếu VPN đang Inactive)."
-sidebar_label: "Enable: Cho phép VPN hoạt động (nếu VPN đang Inactive)."
+title: "Kích hoạt VPN Site-to-Site"
+description: "Hướng dẫn kích hoạt lại kết nối VPN Site-to-Site đang Inactive."
+sidebar_label: "Kích hoạt VPN"
 sidebar_position: 7
 ---
 
-# Enable Vpn S2S Connection
+# Kích hoạt VPN Site-to-Site
 
-Enable: Cho phép VPN hoạt động (nếu VPN đang Inactive).
-**Bước 1** : Chọn kết nối VPN cần Enable. 
-[![Config choose more action 1](/img/migrated/Config-choose-more-action-1-1024x238-029a47ac.png)](/img/migrated/Config-choose-more-action-1-1024x238-029a47ac.png)
-[![Config enable](/img/migrated/Config-enable-1024x354-dcdc1728.png)](/img/migrated/Config-enable-1024x354-dcdc1728.png)
-**Bước 2:** Xác nhận việc Enable. 
-[![Config confỉrm enable](/img/migrated/Config-confi%CC%89rm-enable-1024x445-7170eebb.png)](/img/migrated/Config-confi%CC%89rm-enable-1024x445-7170eebb.png)
-**Bước 3** : VPN sẽ chuyển sang trạng thái **Activating** > **Active**. 
-[![Config active](/img/migrated/Config-active-1024x238-e65f8da4.png)](/img/migrated/Config-active-1024x238-e65f8da4.png)
+Khi VPN đang ở trạng thái Inactive, bạn có thể kích hoạt lại để cho phép kết nối hoạt động.
+
+1. Chọn kết nối VPN cần Enable, nhấn **Actions**.
+
+   ![Chọn VPN cần Enable](/img/migrated/Config-choose-more-action-1-1024x238-029a47ac.png)
+
+   ![Menu Actions với tùy chọn Enable](/img/migrated/Config-enable-1024x354-dcdc1728.png)
+
+2. Xác nhận việc Enable.
+
+   ![Hộp thoại xác nhận Enable VPN](/img/migrated/Config-confi%CC%89rm-enable-1024x445-7170eebb.png)
+
+3. VPN chuyển sang trạng thái **Activating** → **Active**.
+
+   ![VPN ở trạng thái Active](/img/migrated/Config-active-1024x238-e65f8da4.png)

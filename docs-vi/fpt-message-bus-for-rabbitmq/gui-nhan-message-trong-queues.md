@@ -1,22 +1,35 @@
 ---
 id: "gui-nhan-message-trong-queues"
-title: "Gui Nhan Message Trong Queues"
-description: "**Bước 1** : Ở menu **Application** > **Queues** > Chọn một queue bạn cần thao tác > **Preview**"
-sidebar_label: "Gui Nhan Message Trong Queues"
+title: "Gửi và nhận messages trong queue"
+description: "Hướng dẫn gửi và nhận messages trong queue của FPT Message Bus for RabbitMQ."
+sidebar_label: "Gửi và nhận messages trong queue"
 sidebar_position: 7
 ---
 
-# Gui Nhan Message Trong Queues
+# Gửi và nhận messages trong queue
 
-**Bước 1** : Ở menu **Application** > **Queues** > Chọn một queue bạn cần thao tác > **Preview**
-[![](/img/migrated/View-1-1-73852024.png)](/img/migrated/View-1-1-73852024.png)
-**Bước** **2** : Bạn nhập message cần publish vào ô **Payload** trong tab **Send**
-[![](/img/migrated/View-2-2-349ef695.png)](/img/migrated/View-2-2-349ef695.png)
-Bạn có thể chọn 1 trong 2 kiểu dữ liệu text là **String** và **Base64**
-  * **String** : bao gồm 1 chuỗi các kí tự (không nhập số)
-  * **Base64** : mã hóa chuỗi ký tự bằng cách dùng thay thế các ký tự trong bảng mã ASCII 8 bit thông dụng thành bảng mã 6 bit.
+Tính năng Preview cho phép bạn kiểm tra luồng message trực tiếp từ giao diện — hữu ích để debug và xác minh hoạt động của queue trước khi tích hợp ứng dụng.
 
-**Bước 3** : Chọn nút **Send** để gửi 
-Lúc này bạn đã publish messages thành công vào hàng đợi. Để có thể nhận messages, bạn thực hiện như sau: 
-**Bước 1** : Bạn vào tab **Receive** > Sau đó chọn nút **Receive**. 
-[![](/img/migrated/Recei-1-cf01752c.png)](/img/migrated/Recei-1-cf01752c.png)
+## Gửi message
+
+1. Từ menu **Application**, chọn **Queues** > chọn queue cần thao tác > **Preview**.
+
+   [![Màn hình danh sách queues, chọn queue và nhấn Preview](/img/migrated/View-1-1-73852024.png)](/img/migrated/View-1-1-73852024.png)
+
+2. Trong tab **Send**, nhập nội dung message vào ô **Payload**.
+
+   [![Tab Send với ô Payload để nhập nội dung message](/img/migrated/View-2-2-349ef695.png)](/img/migrated/View-2-2-349ef695.png)
+
+   Chọn một trong hai kiểu dữ liệu:
+   - **String**: Chuỗi ký tự thông thường.
+   - **Base64**: Chuỗi ký tự được mã hóa theo bảng mã 6-bit thay thế ASCII 8-bit.
+
+3. Chọn **Send** để publish message vào queue.
+
+## Nhận message
+
+1. Chuyển sang tab **Receive**.
+
+   [![Tab Receive với nút Receive để nhận message](/img/migrated/Recei-1-cf01752c.png)](/img/migrated/Recei-1-cf01752c.png)
+
+2. Chọn nút **Receive** để lấy message từ queue.
