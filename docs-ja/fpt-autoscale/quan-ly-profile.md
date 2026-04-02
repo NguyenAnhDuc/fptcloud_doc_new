@@ -1,11 +1,11 @@
 ---
 id: "quan-ly-profile"
-title: "管理 Profile"
-sidebar_label: "管理 Profile"
-sidebar_position: "2"
+title: "Profileの管理"
+description: "Autoscale ProfileはAutoscale Groupが管理するInstance Nodeを作成するための技術仕様を保存するオブジェクトです。"
+sidebar_label: "Profileの管理"
+sidebar_position: 2
 ---
-# 管理 Profile
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# Profileの管理
+
+Autoscale Profileは、Autoscale Groupが管理するInstance Nodeを作成するための技術仕様を保存するオブジェクトです。

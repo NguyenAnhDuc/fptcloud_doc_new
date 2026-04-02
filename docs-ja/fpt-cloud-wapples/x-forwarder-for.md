@@ -1,13 +1,15 @@
 ---
 id: "x-forwarder-for"
-title: "Bao gồm các chức năng"
-sidebar_label: "Bao gồm các chức năng"
-sidebar_position: "19"
+title: "X-Forwarded-For"
+sidebar_label: "X-Forwarded-For"
+sidebar_position: 19
 ---
-# Bao gồm các chức năng
+
+# X Forwarded For
+
+以下の機能が含まれています。
+
+- **Block X-Forwarded-For IP**: X-Forwarded-For ヘッダーを持たないIPをブロックします。
+- **Detect by X-Forwarded-For IP**: X-Forwarded-For ヘッダーを持たないIPを検出し、ログに記録します。
 
 [![file](/img/migrated/image-1714116672471-1770a269.png)](/img/migrated/image-1714116672471-1770a269.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::

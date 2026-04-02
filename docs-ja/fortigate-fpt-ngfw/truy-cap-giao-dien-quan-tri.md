@@ -1,13 +1,14 @@
 ---
 id: "truy-cap-giao-dien-quan-tri"
-title: "Truy cập giao diện quản trị"
-sidebar_label: "Truy cập giao diện quản trị"
-sidebar_position: "2"
+title: "管理インターフェースへのアクセス"
+description: "設定済みの IP アドレスとユーザー名/パスワードを使用して Fortigate NGFW の管理インターフェースにログインします。"
+sidebar_label: "管理インターフェースへのアクセス"
+sidebar_position: 2
 ---
-# Truy cập giao diện quản trị
 
-[![Userguide Fortigate FPT NGFW 2022 1](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)
+# 管理インターフェースへのアクセス
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**ステップ 1：** 設定済みの IP アドレスとユーザー名/パスワードを使用して、Fortigate NGFW の管理インターフェースにログインします。  
+[![Userguide Fortigate FPT NGFW 2022 1](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-1-1024-b1cda52c.png)  
+**ステップ 2：** ログイン成功後、Dashboard 画面にシステムの各種情報（**Serial Number**、**Licenses**、**CPU**、**Memory** など）が表示されます。  
+[![Userguide Fortigate FPT NGFW 2022 2](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-2-1024-898484e4.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-2-1024-898484e4.png)

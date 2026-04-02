@@ -26,7 +26,7 @@ Bạn cấu hình Backup Job theo nhu cầu với các trường sau:
 | --- | --- |  
 | **Name**  | Tên của Backup Job. Nên đặt dễ hiểu, gắn với hệ thống hoặc môi trường (ví dụ: `prod-web-01-daily`).  |  
 | **Description**  | Mô tả ngắn gọn mục đích hoặc phạm vi bảo vệ.  |  
-| **Notification to**  | Chọn người nhận thông báo qua Email. Bạn có thể tạo mới contact bằng cách bấm vào link _“Create your email contact here”_ trên FPT Portal.  |  
+| **Notification to**  | Chọn người nhận thông báo qua Email. Bạn có thể tạo mới contact bằng cách bấm vào link _"Create your email contact here"_ trên FPT Portal.  |  
 | **Target selection**  | Chọn các VM hoặc volume trong VPC sẽ áp dụng Backup Job. Một Backup Job có thể gắn với **nhiều target** , nhưng **một target chỉ được gắn với một Backup Job**.  |  
 | **Latest backup to keep**  | Số lượng **restore point tối đa** sẽ giữ lại, mặc định là **7**. Khi vượt quá số này, hệ thống sẽ tự động xóa các bản cũ nhất.  |  
 | **Retention information**  | Chọn kịch bản backup nhanh. Hệ thống sẽ gợi ý một số option thông dụng:  |  

@@ -33,7 +33,7 @@ Chọn loại parameter bạn muốn cập nhật:
 #### Bước 3: Điều chỉnh giá trị cho tham số
 Nhấn biểu tượng **Edit parameter** (biểu tượng bút chì) tương ứng với tham số cần chỉnh sửa, hộp thoại **Update Configure Params** hiển thị đầy đủ thông tin của tham số được chọn và cho phép người dùng cập nhật giá trị trong phạm vi cho phép.
 [![](/img/migrated/update-param-scaled-7b919278.png)](/img/migrated/update-param-scaled-7b919278.png)
-Kiểm tra thông tin parameter (kiểu dữ liệu, giá trị tối thiểu và tối đa), sau đó cập nhật giá trị trong trường “**Value** ” trong phạm vi cho phép và nhấn “**Update** ” để áp dụng thay đổi.
+Kiểm tra thông tin parameter (kiểu dữ liệu, giá trị tối thiểu và tối đa), sau đó cập nhật giá trị trong trường "**Value** " trong phạm vi cho phép và nhấn "**Update** " để áp dụng thay đổi.
 ### Best Practices:
   * Điều chỉnh tham số theo từng bước nhỏ và theo dõi hiệu năng.
   * Ưu tiên tham số dynamic để tránh downtime.

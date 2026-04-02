@@ -1,11 +1,36 @@
 ---
 id: "clone-vm-tu-cac-restore-point"
-title: "Tạo VM mới từ các Restore Point"
-sidebar_label: "Tạo VM mới từ các Restore Point"
+title: "リストアポイントから新しいVMを作成する"
+description: "FPT BackupでリストアポイントのデータをもとにVMを新規作成する方法。"
+sidebar_label: "リストアポイントから新しいVMを作成する"
 sidebar_position: "5"
 ---
-# Tạo VM mới từ các Restore Point
+# リストアポイントから新しいVMを作成する
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT BackupはリストアポイントからのVM復元だけでなく、リストアポイントからデータを取得して新しいVMを作成することもサポートしています。作成された新しいVMは、リストアポイント作成時の元のVMと同一のディスクデータを持ち、RAM、CPU、Networkの設定をカスタマイズできます。これにより、1つのメインVMから複数のサブVMを素早く簡単に作成できます。
+
+## 詳細手順
+
+### ステップ1：Backup & Recovery Managementを開く
+  1. **FPT Backup**管理インターフェースにアクセスします。
+  2. メニューから**Backup & Recovery** > **Backup & Recovery Management**を選択します。
+  3. **Restore**タブを開いて、現在保護されているVMのリストと正常に作成されたリストアポイントの数を確認します。
+
+### ステップ2：クローンするVMを選択する
+  1. 表示されたリストからクローンするVMを特定します。
+  2. そのVMの**Action**列で**Restore Keep**をクリックします。
+
+### ステップ3：リストアポイントから新しいVMを作成する
+  1. **New instance from restore point**という名前のポップアップが表示されます。
+  2. 以下の手順を実行します：
+     * 使用する**リストアポイント**を選択します。
+     * **New instance Name**フィールドに新しいVMの名前を入力します。
+     * **Restore New Instance**をクリックして新しいVMを作成します。
+
+### ステップ4：クローンの確認と実行
+  1. 情報を確認するよう求める確認ダイアログが表示されます。
+  2. **Restore Instance**を選択して確認し、VMの作成プロセスを開始します。
+
+## 重要な注意事項
+  * **新しいVMの設定：** 作成後、必要に応じて新しいVMのRAM、CPU、Networkをカスタマイズできます。
+  * **完了時間：** リストアポイントからのVM作成プロセスは、データ量によって数分から数時間かかる場合があります。

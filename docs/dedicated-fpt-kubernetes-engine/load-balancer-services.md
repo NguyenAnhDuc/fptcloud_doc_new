@@ -46,7 +46,7 @@ CopyapiVersion: v1
 kind: Service
 metadata:  
   annotations:
-    service.beta.kubernetes.io/fpt-load-balancer-internal: “true”
+    service.beta.kubernetes.io/fpt-load-balancer-internal: "true"
   name: web  
   namespace: default
 spec:  
@@ -79,8 +79,8 @@ Copykubectl edit cm fptcloud-ccm-configmap -n kube-system
 ```
 Copyloadbalancer:
       oneArm:
-        startIP: “169.254.64.1”
-        endIP: “169.254.127.254” 
+        startIP: "169.254.64.1"
+        endIP: "169.254.127.254" 
 ```
 
 Enter the IP range you want the system to automatically allocate to the LB's Virtual IP:

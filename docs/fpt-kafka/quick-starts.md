@@ -50,7 +50,7 @@ To create ACLs, follow these instructions:
   * **Resource Type** (required): Topic or Group.
 If you choose **Topic** , it means you are assigning permissions for the user to use the topic, similarly if you choose **Group**.
   * **Pattern Type** (required): Literal or Prefixed.
-If **Literal** is selected, it means you have read/write permissions for only one topic that you declare in the “Topic” field. If **Prefixed** is chosen, you will have read/write permissions for all topics with the prefix displayed in the “Resource name” field.
+If **Literal** is selected, it means you have read/write permissions for only one topic that you declare in the "Topic" field. If **Prefixed** is chosen, you will have read/write permissions for all topics with the prefix displayed in the "Resource name" field.
   * **Host** (optional): If you want to block access from different IPs, you can enter a value in this field.
   * **Operation** (required): Assign read or write permissions for topic/group
   * **Permission** (required): Allow or Deny.

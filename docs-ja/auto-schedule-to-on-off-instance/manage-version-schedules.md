@@ -1,18 +1,18 @@
 ---
 id: "manage-version-schedules"
-title: "Manage Version Schedules"
-sidebar_label: "Manage Version Schedules"
-sidebar_position: "3"
+title: "Instance scheduleの管理"
+description: "FPT CloudにおけるInstance scheduleの一覧管理方法です。"
+sidebar_label: "Instance scheduleの管理"
+sidebar_position: 3
 ---
 
-# Manage Version Schedules
+# Instance scheduleの管理
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
+**Instance Schedule Management** ページには、作成済みのすべてのinstance scheduleが一覧表示されます。名前、時刻、頻度、紐付けられた仮想マシンの情報を確認できます。
 
-Quản lý instance schedules
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
+このページから以下の操作が行えます。
 
-* * *
+- 新しいinstance scheduleを作成する。
+- Instance scheduleの詳細を確認する。
+- スケジュールへの仮想マシンの紐付けまたは解除を行う。
+- Instance scheduleを削除する。

@@ -1,13 +1,11 @@
 ---
 id: "reporting"
 title: "Reporting"
+description: "FPT Cloud Reporting helps users create and send reports easily and professionally, with support for scheduled reports on a daily, weekly, or monthly basis."
 sidebar_label: "Reporting"
-sidebar_position: "1"
+sidebar_position: 1
 ---
-# FPT Reporting
 
-![](/img/migrated/settings-3-361d08a2.png)
+# Reporting
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+FPT Smart Cloud's Reporting service helps you create and send reports easily and professionally. The system supports scheduling reports on a daily, weekly, or monthly basis, allowing you to send reports automatically rather than manually.

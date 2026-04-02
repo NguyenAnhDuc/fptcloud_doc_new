@@ -1,8 +1,8 @@
 ---
 id: "Policy-management"
-title: "FPT Key Vault"
-description: "FPT Key Vault"
-sidebar_label: "FPT Key Vault"
+title: "Policy management"
+description: "Manage policies to control access to secrets in FPT Key Vault."
+sidebar_label: "Policy management"
 sidebar_position: 11
 ---
 

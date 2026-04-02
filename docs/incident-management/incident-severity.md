@@ -13,8 +13,8 @@ The impact levels of an incident can affect your incident response process, such
 Below is a list of recommended impact levels that are given in the FMON incident system:  
 | **Severity**  | **Description**  |  
 | --- | --- |  
-| Critical  | High impact level, immediate attention is needed. For example: “Customer-facing” services disripted for all customers; Security or privacy breach; Loss of customer data.  |  
-| Major  | Significant impact level. For example: “Customer-facing” services disrupted for a small group of customers; Core system functionality affected.  |  
+| Critical  | High impact level, immediate attention is needed. For example: "Customer-facing" services disripted for all customers; Security or privacy breach; Loss of customer data.  |  
+| Major  | Significant impact level. For example: "Customer-facing" services disrupted for a small group of customers; Core system functionality affected.  |  
 | Minor  | Low impact level. For example: A minor inconvenience for customers, but there is an alternative solution available.  |  
 | Pending  | Severity level needs to be determined and identified as soon as possible.  |  
 ### A. Update the incident severity

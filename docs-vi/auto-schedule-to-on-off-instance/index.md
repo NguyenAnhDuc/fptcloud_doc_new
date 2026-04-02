@@ -1,24 +1,18 @@
 ---
 id: "auto-schedule-to-on-off-instance"
-title: "Auto Schedule To On Off Instance"
-description: "Auto Schedule To On Off Instance"
-sidebar_label: "Auto Schedule To On Off Instance"
+title: "Auto schedule bật/tắt instance"
+description: "Tổng quan về tính năng lên lịch tự động bật/tắt máy ảo trên FPT Cloud."
+sidebar_label: "Auto schedule bật/tắt instance"
 sidebar_position: 1
 ---
 
-# Auto Schedule To On Off Instance
+# Auto schedule bật/tắt instance
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-Auto Schedule To On-Off Instance
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Auto Schedule To On-Off Instance
+Tính năng Instance Schedule cho phép bạn lên lịch tự động bật hoặc tắt các máy ảo theo thời gian và tần suất định sẵn, giúp tối ưu chi phí và vận hành hệ thống hiệu quả.
 
-Auto Schedule To On-Off Instance
-##  Giới thiệu 
-Để chạy xong hết hoàn toàn hành động tắt/ bật các máy ảo trong 1 Lịch thì có thể cần tới 15 phút sau start time hoặc stop time đã chọn. Theo đó, nếu bạn cần toàn bộ các máy ảo của bạn phải được bật/ tắt không trễ hơn một thời điểm cụ thể, hãy đặt lịch sớm hơn 15 phút so với mức cần thiết và mỗi lịch cách nhau ít nhất 15 phút.
-Lịch sau khi tạo ra thì ko thể chỉnh sửa lại được thông tin về thời gian, tần suất, chỉ có thể thay đổi thông tin máy ảo được gắn/ gỡ vào lịch. Do đó, nếu bạn muốn thay đổi lịch thì hãy xóa lịch hiện tại và tạo ra một lịch mới. 
-Hệ thống chỉ cho phép bạn tạo lịch trước 1 giờ so với start time/ stop time mà bạn chọn.
-Trong khoảng thời gian 1 giờ duration thì hệ thống chỉ cho phép bạn thao tác 1 action là tắt hoặc bật thôi.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+:::note
+- Để hoàn thành toàn bộ hành động bật/tắt các máy ảo trong một lịch, hệ thống có thể cần đến 15 phút sau start time hoặc stop time đã chọn. Nếu bạn cần toàn bộ máy ảo được bật/tắt không trễ hơn một thời điểm cụ thể, hãy đặt lịch sớm hơn 15 phút và để mỗi lịch cách nhau ít nhất 15 phút.
+- Lịch sau khi tạo không thể chỉnh sửa thông tin về thời gian và tần suất. Bạn chỉ có thể thay đổi danh sách máy ảo gắn vào lịch. Nếu muốn thay đổi lịch, hãy xóa lịch hiện tại và tạo lịch mới.
+- Hệ thống chỉ cho phép bạn tạo lịch trước ít nhất 1 giờ so với start time/stop time đã chọn.
+- Trong khoảng thời gian 1 giờ, hệ thống chỉ cho phép thực hiện 1 hành động: hoặc là bật, hoặc là tắt.
+:::

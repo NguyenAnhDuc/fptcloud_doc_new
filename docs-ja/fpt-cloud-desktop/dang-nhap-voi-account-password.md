@@ -1,13 +1,15 @@
 ---
 id: "dang-nhap-voi-account-password"
-title: "Đăng nhập với Account/Password"
-sidebar_label: "Đăng nhập với Account/Password"
-sidebar_position: "8"
+title: "Account/Passwordでログイン"
+description: "アカウントとパスワードを使用してFPT Cloud Desktopにログインするガイド"
+sidebar_label: "Account/Passwordでログイン"
+sidebar_position: 8
 ---
-# Đăng nhập với Account/Password
 
-![](/img/migrated/icon-overview-edd6032a.png)
+# Account/Passwordでログイン
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud Desktopはユーザー名とパスワードによるログインをサポートしています。ご利用環境に合わせてアクセス方法を選択してください。
+
+- [新しいFCDClient経由でアクセス](./accountpassword-qua-FCDClient-moi.md)（推奨）
+- [Webブラウザ経由でアクセス](./accountpassword-qua-web-browser.md)
+- [旧FCDClient経由でアクセス](./accountpassword-qua-FCDClient-cu.md)

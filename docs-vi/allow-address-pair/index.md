@@ -1,22 +1,15 @@
 ---
 id: "allow-address-pair"
 title: "Allow Address Pair"
-description: "Allow Address Pair"
+description: "Allow Address Pair là tính năng cho phép thêm cặp địa chỉ IP và MAC vào interface của instance, hỗ trợ cấu hình High Availability."
 sidebar_label: "Allow Address Pair"
 sidebar_position: 1
 ---
 
 # Allow Address Pair
 
-  * [ ![](/img/migrated/settings-131ed42a.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-1-2d28802b.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-  * [ ![](/img/migrated/question-94737ec1.png) FAQs ](javascript: "FAQs")
+## Giới thiệu
 
-Allow Address Pair
-##  Giới thiệu 
-  * Theo mặc định, máy tính (hoặc máy ảo) sẽ cặp địa chỉ MAC và IP liên kết với nhau nhằm chống giả mạo thông tin. Điều này có nghĩa là với traffic đến 1 địa chỉ IP, traffic sẽ được gửi đến máy có địa chỉ MAC tương ứng. 
-  * Tính năng Allow IP address pair cho phép thêm cặp địa chỉ IP (hoặc CIDR) và địa chỉ MAC vào 1 interface (card NIC) của instance. Từ đó người quản trị có thể tận dụng tính năng cho nhiều mục đích, đặc biệt là cấu hình HA (High Availability)
+Theo mặc định, máy tính (hoặc máy ảo) sẽ liên kết cặp địa chỉ MAC và IP với nhau nhằm chống giả mạo thông tin. Điều này có nghĩa là traffic đến một địa chỉ IP sẽ được gửi đến máy có địa chỉ MAC tương ứng.
 
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts) 
-03FAQs
+Tính năng Allow Address Pair cho phép bạn thêm cặp địa chỉ IP (hoặc CIDR) và địa chỉ MAC vào một interface (card NIC) của instance. Người quản trị có thể tận dụng tính năng này cho nhiều mục đích, đặc biệt là cấu hình HA (High Availability).

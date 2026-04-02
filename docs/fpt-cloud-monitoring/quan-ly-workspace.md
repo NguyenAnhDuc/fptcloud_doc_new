@@ -1,21 +1,19 @@
 ---
 id: "quan-ly-workspace"
-title: "3. Quản lý một Workspace"
-sidebar_label: "3. Quản lý một Workspace"
-sidebar_position: "5"
+title: "Manage a workspace"
+sidebar_label: "Manage a workspace"
+sidebar_position: 5
 ---
 
-# FPT Cloud Monitoring
+# Manage a workspace
 
-  * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn details ](javascript: "Hướng dẫn details")
-3. Manage a Workspace
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Cloud Monitoring
+Each workspace in FPT Cloud Monitoring contains its own configuration, data sources, dashboards, and user management. Use the tabs within a workspace to manage all aspects of your monitoring setup.
 
-3. Manage a Workspace
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-monitoring%2F "FPT Cloud Monitoring")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-monitoring%2F "FPT Cloud Monitoring")
+See the following sections for details:
 
-* * *
+- [View workspace details](xem-chi-tiet-workspace.md)
+- [Configuration tab](configuration-tab.md)
+- [Add Data tab](add-data-tab.md)
+- [User Management tab](user-management-tab.md)
+- [Quota and Package tab](quota-and-package-tab.md)
+- [User Guide tab](user-guide-tab.md)

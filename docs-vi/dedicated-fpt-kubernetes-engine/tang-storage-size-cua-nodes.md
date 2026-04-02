@@ -6,7 +6,7 @@ sidebar_label: "Tăng Storage size của các Nodes"
 sidebar_position: 15
 ---
 
-# Tang Storage Size Cua Nodes
+# Tăng storage size của nodes
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)

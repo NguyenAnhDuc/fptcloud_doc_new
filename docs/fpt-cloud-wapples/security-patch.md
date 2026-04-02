@@ -1,13 +1,15 @@
 ---
 id: "security-patch"
 title: "Security Patch"
+description: "Update files for detecting special security vulnerabilities to identify attack types that cannot be detected by standard means"
 sidebar_label: "Security Patch"
-sidebar_position: "30"
+sidebar_position: 30
 ---
+
 # Security Patch
 
-[![file](/img/migrated/image-1714116914388-d2c10a19.png)](/img/migrated/image-1714116914388-d2c10a19.png)
+Update files for detecting special security vulnerabilities to identify attack types that cannot be detected by standard means.
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+- **Geo IP** [![file](/img/migrated/image-1714116914388-d2c10a19.png)](/img/migrated/image-1714116914388-d2c10a19.png)
+- **Tor Browser** [![file](/img/migrated/image-1714116925304-e7133c0d.png)](/img/migrated/image-1714116925304-e7133c0d.png)
+- **Threat Protection Profile** [![file](/img/migrated/image-1714116932454-33512895.png)](/img/migrated/image-1714116932454-33512895.png)

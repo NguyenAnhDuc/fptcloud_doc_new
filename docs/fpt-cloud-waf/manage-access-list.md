@@ -1,40 +1,68 @@
 ---
 id: "manage-access-list"
-title: "Manage Access List"
-description: "**Access Lists** provide Whitelist/Blacklist functionality for specific workstation IP addresses along with HTTP Basic A"
-sidebar_label: "Manage Access List"
+title: "Manage access list"
+description: "Guide to creating and managing access lists with whitelist/blacklist and HTTP Basic Auth for proxy hosts."
+sidebar_label: "Manage access list"
 sidebar_position: 16
 ---
 
-# Manage Access List
+# Manage access list
 
-**Access Lists** provide Whitelist/Blacklist functionality for specific workstation IP addresses along with HTTP Basic Authentication for Proxy Hosts.
-Administrators can configure multiple rules, assign user/password for an access list, and then apply it to Proxy Hosts. This is useful for forwarded web services without built-in authentication mechanisms or when administrators want to protect against access from unidentified workstations.
-To configure/add a new Access List, follow these steps:
-**Step 1:** Select **Accest List** in the menu to open the Access List management screen.
-[![Userguide FPT WAF 2022 34](/img/migrated/Userguide-FPT-WAF-2022-34-1024x499-a6882854.png)](/img/migrated/Userguide-FPT-WAF-2022-34-1024x499-a6882854.png)
-**Step 2:** Choose **Create Access List** to open the screen for adding a new Access List and enter the information as follows:
-  * **Name:**
-  * **Satisfy Any**
-  * **Pass Auth to Host**
+An **access list** provides whitelist/blacklist functionality for specific IP addresses, combined with HTTP Basic Authentication for proxy hosts. Administrators can configure multiple rules, assign credentials to an access list, and apply it to proxy hosts.
 
-**Step 3:** Click**Create Access List** to add the newly entered list and open the detailed view screen.
-### Advanced Configuration for Access List:
-**Step 1** : Click **Create Basic Auth** to configure new HTTP Nginx basic authentication.
-**Username** : Enter the authentication username. **Password** : Enter the authentication password. Choose **Create Basic Auth** or **Create & Add Another** to add another authentication if needed.
-**[![Userguide FPT WAF 2022 35](/img/migrated/Userguide-FPT-WAF-2022-35-1024x517-4d36978c.png)](/img/migrated/Userguide-FPT-WAF-2022-35-1024x517-4d36978c.png)**
-**Step 2.** Choose **Create Whitelist/Blacklist** to add new IP addresses or subnets to allow/deny access.
-  * **Check the box to allow or deny for the corresponding IP or subnet.**
-    * **Allow:** Allows access for the specified IP or subnet.
-    * **Deny:** Denies access for the specified IP or subnet.
-  * **IP / Subnet: Enter the IP address or subnet.**
+This feature is useful for web services forwarded without built-in authentication, or when you need to block access from unknown IP addresses.
 
-Click **Create Whitelist/Blacklist** to add the configured IP addresses for allow/deny.
-Note: Allow/deny configurations will be applied in the order they are defined.
-[![Userguide FPT WAF 2022 36](/img/migrated/Userguide-FPT-WAF-2022-36-1024x519-0778cdff.png)](/img/migrated/Userguide-FPT-WAF-2022-36-1024x519-0778cdff.png)
-**Step 3.** Click **Create Proxy** to add a new proxy host applied to the Access List just created. Refer to the method of adding a new Proxy Host on the Proxy Host Management page.
-[![Userguide FPT WAF 2022 37](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)
-**Other functions:**
-**Edit:** Edit Access List information.
-**View:** View detailed information about the Access List.
-**Delete:** Remove the Access List.
+## Create an access list
+
+1. Select **Access List** from the menu to open the management screen.
+
+   [![Access list management screen](/img/migrated/Userguide-FPT-WAF-2022-34-1024x499-a6882854.png)](/img/migrated/Userguide-FPT-WAF-2022-34-1024x499-a6882854.png)
+
+2. Click **Create Access List** to open the creation screen and enter:
+
+   - **Name**: Access list name.
+   - **Satisfy Any**
+   - **Pass Auth to Host**
+
+3. Click **Create Access List** to create it and open the detail screen.
+
+## Advanced configuration
+
+### Add HTTP Basic Auth credentials
+
+1. Click **Create Basic Auth** to add authentication credentials:
+
+   - **Username**: Authentication username.
+   - **Password**: Authentication password.
+
+   Click **Create Basic Auth** or **Create & Add Another** to add multiple accounts.
+
+   [![Configure Basic Auth](/img/migrated/Userguide-FPT-WAF-2022-35-1024x517-4d36978c.png)](/img/migrated/Userguide-FPT-WAF-2022-35-1024x517-4d36978c.png)
+
+### Add whitelist/blacklist IP rules
+
+2. Click **Create Whitelist/Blacklist** to add IP addresses or subnets:
+
+   - **Allow**: IP or subnet allowed to access.
+   - **Deny**: IP or subnet denied access.
+   - **IP / Subnet**: Enter the IP address or subnet.
+
+   :::note
+   Allow/deny rules are applied in the order they are defined.
+   :::
+
+   [![Configure whitelist/blacklist](/img/migrated/Userguide-FPT-WAF-2022-36-1024x519-0778cdff.png)](/img/migrated/Userguide-FPT-WAF-2022-36-1024x519-0778cdff.png)
+
+### Assign a proxy host to the access list
+
+3. Click **Create Proxy** to add a proxy host that uses this access list. See [Create a proxy host](create-proxy-host.md).
+
+   [![Assign proxy host to access list](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)
+
+## Other operations
+
+| Operation | Description |
+|---|---|
+| **Edit** | Edit access list details |
+| **View** | View access list details |
+| **Delete** | Delete the access list |

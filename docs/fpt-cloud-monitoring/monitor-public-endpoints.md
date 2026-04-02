@@ -1,11 +1,14 @@
 ---
 id: "monitor-public-endpoints"
-title: "Chú ý:"
-sidebar_label: "Chú ý:"
-sidebar_position: "14"
+title: "Monitor public endpoints"
+sidebar_label: "Monitor public endpoints"
+sidebar_position: 14
 ---
-# Chú ý:
+
+# Monitor public endpoints
 
 :::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+The public endpoint monitoring feature has been moved to the Grafana dashboard. This feature is no longer being developed in the FPT Cloud Portal.
+
+For the best experience, please use the **Endpoint Monitoring** service directly in the dashboard. Contact us for assistance.
 :::

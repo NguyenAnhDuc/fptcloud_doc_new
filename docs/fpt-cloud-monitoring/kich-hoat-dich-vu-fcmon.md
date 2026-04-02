@@ -1,11 +1,10 @@
 ---
 id: "kich-hoat-dich-vu-fcmon"
-title: "1. Kích hoạch dịch vụ FPT Cloud Monitoring"
-sidebar_label: "1. Kích hoạch dịch vụ FPT Cloud Monitoring"
-sidebar_position: "3"
+title: "Activate FPT Cloud Monitoring"
+sidebar_label: "Activate FPT Cloud Monitoring"
+sidebar_position: 3
 ---
-# 1. Kích hoạch service FPT Cloud Monitoring
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Activate FPT Cloud Monitoring
+
+To register for **FPT Cloud Monitoring**, you need to be granted a service quota. Contact us if you would like to use the service.

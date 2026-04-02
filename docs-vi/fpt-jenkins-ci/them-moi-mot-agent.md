@@ -29,5 +29,5 @@ Kết quả Jenkins Agent được tạo dưới Jenkins:
 Người dùng có thể xem thông tin chi tiết cấu hình Agent:
 [![](/img/migrated/Picture15-1ba3bbd5.png)](/img/migrated/Picture15-1ba3bbd5.png)
 [![](/img/migrated/Picture16-c793efd3.png)](/img/migrated/Picture16-c793efd3.png)
-Lưu ý: Khi tạo agent, hệ thống sẽ tự động tạo labels cho agent và cấu hình ở lựa chọn “Only build jobs with label expressions matching this node”. Do đó trong jobs Jenkins người dùng cần lưu ý nhập đúng lables. 
+Lưu ý: Khi tạo agent, hệ thống sẽ tự động tạo labels cho agent và cấu hình ở lựa chọn "Only build jobs with label expressions matching this node". Do đó trong jobs Jenkins người dùng cần lưu ý nhập đúng lables. 
 Ngoài ra, trong quá trình tạo agent, hệ thống sẽ tự động tạo một secret để kết nối đến cụm kubenetes manage agent, nếu người dùng xoá secret này hệ thống sẽ không thể kết nối đến agent: [![](/img/migrated/Picture17-def5a338.png)](/img/migrated/Picture17-def5a338.png)

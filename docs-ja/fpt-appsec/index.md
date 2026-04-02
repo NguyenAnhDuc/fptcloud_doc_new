@@ -1,13 +1,20 @@
 ---
 id: "fpt-appsec"
 title: "Fpt Appsec"
+description: "Fpt Appsec"
 sidebar_label: "Fpt Appsec"
-sidebar_position: "1"
+sidebar_position: 1
 ---
-# Fpt Appsec
 
-![](/img/migrated/images-331b7b32.png)
+# FPT AppSec
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+  * [ ![](/img/migrated/images-331b7b32.png) リリースノート ](javascript: "リリースノート")
+  * [ ![](/img/migrated/settings-f58a338e.png) 初期設定 ](javascript: "初期設定")
+  * [ ![](/img/migrated/icon-networking-8abaee1e.png) 詳細ガイド（チュートリアル）  ](javascript: "詳細ガイド（チュートリアル）")
+  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
+  2. FPT AppSec
+
+## ホーム
+01リリースノート
+02初期設定
+03詳細ガイド（チュートリアル）

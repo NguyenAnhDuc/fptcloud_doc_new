@@ -1,11 +1,17 @@
 ---
 id: "xoa-target"
-title: "5 Xóa Target"
-description: "5 Xóa Target on FPT Cloud VA."
-sidebar_label: "5 Xóa Target"
-sidebar_position: "8"
+title: "Delete a target"
+description: "Guide to deleting a scan target in FPT Cloud VA."
+sidebar_label: "Delete a target"
+sidebar_position: 8
 ---
 
-# 5 Delete Target
+# Delete a target
 
-5 Delete Target on FPT Cloud VA.
+:::danger
+This action permanently deletes all scan history data for the target and cannot be undone.
+:::
+
+1. From the menu, select **Security > Cloud VA**. In the **Action** column of the target you want to delete, click **Delete**.
+
+2. A confirmation dialog appears showing the target name. Click **Delete** to confirm.

@@ -1,11 +1,11 @@
 ---
 id: "fqas-1"
-title: "Tôi có thể tạo nhiều yêu cầu cùng 1 lúc được không?"
-sidebar_label: "Tôi có thể tạo nhiều yêu cầu cùng 1 lúc được không?"
-sidebar_position: "5"
+title: "同時に複数のリクエストを作成できますか？"
+description: "お客様は同時に複数のリクエストを作成できます。リクエストはFCIに送信され、作成時刻の優先順に処理されます。"
+sidebar_label: "同時に複数のリクエストを作成できますか？"
+sidebar_position: 5
 ---
-# Tôi có thể tạo nhiều yêu cầu cùng 1 lúc được không?
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# 同時に複数のリクエストを作成できますか？
+
+お客様は同時に複数のリクエストを作成できます。リクエストはFCIに送信され、作成時刻の優先順に順次処理されます。

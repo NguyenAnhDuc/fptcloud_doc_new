@@ -1,13 +1,31 @@
 ---
 id: "xem-thong-tin-logs"
-title: "Xem thông tin Logs"
-sidebar_label: "Xem thông tin Logs"
-sidebar_position: "11"
+title: "Logs 情報の確認"
+description: "Loki data source を使用して Grafana で logs 情報を確認するガイド。"
+sidebar_label: "Logs 情報の確認"
+sidebar_position: 11
 ---
-# 表示 thông tin Logs
+
+# Logs 情報の確認
+
+**ステップ 1:** メニューで **Explore** を選択します。
 
 [![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**ステップ 2:** data source として **loki** を選択します。
+
+- 希望する label filter を選択します。
+
+[![Alt text](/img/migrated/Screenshot_27-3b3a74e9.png)](/img/migrated/Screenshot_27-3b3a74e9.png)
+
+- アイコン [![Alt text](/img/migrated/Screenshot_24-7ed16aa5.png)](/img/migrated/Screenshot_24-7ed16aa5.png) をクリックすることで、複数の label を追加できます。
+
+- または、特定の時間範囲の log を確認するには、時間フィルターを選択します。
+
+[![Alt text](/img/migrated/Screenshot_25-639736f9.png)](/img/migrated/Screenshot_25-639736f9.png)
+
+**ステップ 3:** **Run query** をクリックすると、対応する log が表示されます。
+
+*イメージ図*
+
+[![Alt text](/img/migrated/Screenshot_28-4d1b494f.png)](/img/migrated/Screenshot_28-4d1b494f.png)

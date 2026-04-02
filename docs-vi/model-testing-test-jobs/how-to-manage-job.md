@@ -1,11 +1,27 @@
 ---
 id: "how-to-manage-job"
-title: "How To Manage Job"
-description: "How To Manage Job trên Model Testing."
-sidebar_label: "How To Manage Job"
-sidebar_position: "17"
+title: "Cách Quản lý Job"
+description: "Bao gồm:"
+sidebar_label: "Cách Quản lý Job"
+sidebar_position: 17
 ---
 
-# How To Manage Job
+# Cách Quản lý Job
 
-How To Manage Job trên Model Testing.
+Bao gồm:
+
+- Run Job
+
+Run Job
+
+- Cancel Job
+
+Cancel Job
+
+- Delete Job
+
+Delete Job
+
+- Run History
+
+Run History

@@ -1,13 +1,13 @@
 ---
 id: "cloud-advisor-fault-tolerance"
-title: "Show những vấn đề liên quan đến Fault Tolerance"
+title: "Các vấn đề fault tolerance"
 description: "Hướng dẫn kiểm tra các vấn đề về khả năng chịu lỗi bao gồm Storage Disk Snapshot và Instance Snapshot trong Cloud Advisor."
-sidebar_label: "Fault Tolerance"
+sidebar_label: "Fault tolerance"
 sidebar_position: 6
 pagination_next: null
 ---
 
-# Show những vấn đề liên quan đến Fault Tolerance
+# Các vấn đề fault tolerance
 
 ## Storage Disk Snapshot
 

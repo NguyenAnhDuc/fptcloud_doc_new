@@ -1,8 +1,8 @@
 ---
 id: "manage-topics"
-title: "FPT Kafka"
-description: "FPT Kafka"
-sidebar_label: "FPT Kafka"
+title: "Manage Topics"
+description: "Create, view, edit, and delete Kafka Topics on FPT Kafka."
+sidebar_label: "Manage Topics"
 sidebar_position: 4
 ---
 

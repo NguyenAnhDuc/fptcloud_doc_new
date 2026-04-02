@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Benchmark Managed Kubernetes Cluster"
 sidebar_position: 30
 ---
 
-# Tinh Nang Benchmark Cluster
+# Tính năng Benchmark cluster
 
 **1. Giới thiệu chung tính năng Benchmark Security**
 Để đảm bảo bảo về an toàn bảo mật thông tin cho FPT Cloud Managed Kubernetes cluster, FPT Cloud cung cấp tính năng cho phép người quản trị thực hiện benchmark các cấu hình, thiết lập của kubelet trong worker node theo tiêu chuẩn chung do Center for Internet Security – CIS đề xuất. 

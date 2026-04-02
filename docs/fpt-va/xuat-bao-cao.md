@@ -1,11 +1,16 @@
 ---
 id: "xuat-bao-cao"
-title: "Xuất báo cáo"
-description: "Xuất báo cáo on FPT Cloud VA."
-sidebar_label: "Xuất báo cáo"
-sidebar_position: "16"
+title: "Export report"
+description: "Guide to exporting a vulnerability assessment report from FPT Cloud VA."
+sidebar_label: "Export report"
+sidebar_position: 16
+pagination_next: null
 ---
 
-# Xuất report
+# Export report
 
-Xuất report on FPT Cloud VA.
+To export a scan results report:
+
+1. Navigate to the target, then select **Report > Create Report**.
+2. Select the report type and output language, then click **Create**.
+3. Wait for the system to generate the report, then download it to your device.

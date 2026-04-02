@@ -33,7 +33,7 @@ Select the parameter type you want to update:
 #### Step 3: Update parameter
 Click the **Edit** (pencil icon) on the parameter you want to modify. The **Update Configure Params** dialog displays detailed metadata of the selected parameter and allows users to update its value within defined constraints.
 [![](/img/migrated/update-param-scaled-7b919278.png)](/img/migrated/update-param-scaled-7b919278.png)
-Review the parameter details (data type, minimum and maximum values), then update the value in the “**Value** ” field within the allowed range and select “**Update** ” to apply the change.
+Review the parameter details (data type, minimum and maximum values), then update the value in the "**Value** " field within the allowed range and select "**Update** " to apply the change.
 ### Best Practices:
   * Adjust parameters gradually and monitor performance impact.
   * Prefer dynamic parameters to minimize downtime.

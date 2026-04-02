@@ -1,13 +1,13 @@
 ---
 id: "lock-unlock-instance-deletion"
-title: "Khóa & Mở khóa xóa máy ảo"
-sidebar_label: "Khóa & Mở khóa xóa máy ảo"
-sidebar_position: "1"
+title: "インスタンス削除のロック & ロック解除"
+description: "削除ロック機能を使用して、重要な仮想マシンを誤削除から保護します。"
+sidebar_label: "インスタンス削除のロック & ロック解除"
+sidebar_position: 1
 ---
-# Khóa & Mở khóa xóa máy ảo
 
-![](/img/migrated/settings-2-d6cac700.png)
+# インスタンス削除のロック & ロック解除
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+削除ロック機能を使用すると、重要な仮想マシンを誤削除から保護できます。操作ミスによるデータ損失のリスクを低減できます。
+
+任意の仮想マシンをロックすることで、意図しない削除や終了を防ぐことができます。本番環境のマシンをテスト用マシンと誤って削除してしまうリスクを回避できます。

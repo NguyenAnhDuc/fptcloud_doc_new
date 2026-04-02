@@ -1,7 +1,7 @@
 ---
 id: "view-consumer-groups"
 title: "consumer groupの表示"
-description: "FPT KafkaでconsumerGroupの詳細をViewする方法。"
+description: "FPT Kafkaでconsumer groupの詳細情報を表示する方法。"
 sidebar_label: "consumer groupの表示"
 sidebar_position: 18
 ---

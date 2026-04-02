@@ -1,11 +1,23 @@
 ---
 id: "tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal"
-title: "Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal"
-sidebar_label: "Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal"
-sidebar_position: "3"
+title: "アカウントの作成と FPT Portal へのログイン"
+sidebar_label: "アカウント作成とログイン"
+sidebar_position: 3
 ---
-# Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+# FPT Cloud アカウントの作成と FPT Portal へのログイン
+
+**FPT Monitoring** を使用するには、**FPT Portal** にログインしてください。
+
+1. **[https://console.fptcloud.com](https://console.fptcloud.com)** にアクセスし、FPT Cloud のユーザー名とパスワードでログインします。
+2. サービスで使用する正しい **Tenant**、**Region**、**VPC** を選択します。
+
+FPT Cloud アカウントをまだお持ちでない場合:
+
+1. **[https://fptcloud.com](https://fptcloud.com/)** にアクセスします。
+2. **Sign Up** を選択し、画面の指示に従って必要な情報を入力します。
+3. サポートチームが折り返し連絡し、アカウントの詳細を確認します。
+
+:::tip
+操作中にエラーが発生した場合は、サポートチームに直ちにお問い合わせください。
 :::

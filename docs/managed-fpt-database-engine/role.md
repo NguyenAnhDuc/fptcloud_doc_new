@@ -33,7 +33,7 @@ After selecting a service type, the system automatically displays all available 
   * **Action** : Defines the actions that the role is allowed to perform on resources. Click **See more** to view and select the actions assigned to the role. Any action that is not selected will not be granted and will be blocked by the system.
   * **Resource** : Specifies the resources that the role is authorized to access. Click **See more** to view and select resources assigned to the role. Resources not selected will not be granted access and will be blocked by the system. There are two options: 
     * **All** : Grants access to all resources. Selecting this option grants the role default access to all resources.
-    * **Specific** : Grants access only to specific resources selected from the list. **Note** : When using this option, if you want to **restrict viewing admin passwords** (Service Type “FDE” and action “FDE:hide_admin_password”), you must select the specific databases to restrict in **Select resource** field. Only the selected databases will block password viewing; unselected databases will allow password access.
+    * **Specific** : Grants access only to specific resources selected from the list. **Note** : When using this option, if you want to **restrict viewing admin passwords** (Service Type "FDE" and action "FDE:hide_admin_password"), you must select the specific databases to restrict in **Select resource** field. Only the selected databases will block password viewing; unselected databases will allow password access.
 
 [![](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)
 After entering all required information, select **Create role** to complete the role creation process.

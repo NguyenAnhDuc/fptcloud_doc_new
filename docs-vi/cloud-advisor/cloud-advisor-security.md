@@ -1,14 +1,14 @@
 ---
 id: "cloud-advisor-security"
-title: "Cloud Advisor Security"
-description: "Hướng dẫn các vấn đề liên quan đến Security trong Cloud Advisor bao gồm MFA và Security Groups."
-sidebar_label: "Cloud Advisor Security"
+title: "Các vấn đề bảo mật"
+description: "Hướng dẫn các vấn đề liên quan đến bảo mật trong Cloud Advisor bao gồm MFA và Security Groups."
+sidebar_label: "Các vấn đề bảo mật"
 sidebar_position: 4
 ---
 
-# Cloud Advisor Security
+# Các vấn đề bảo mật
 
-Show những vấn đề liên quan đến Security, bao gồm:
+Cloud Advisor phát hiện các vấn đề bảo mật sau đây:
 
 ## MFA on Tenant
 

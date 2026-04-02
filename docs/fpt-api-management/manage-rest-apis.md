@@ -34,11 +34,11 @@ The required format for the input are:
 ```
 Copy[
     {
-        “name“: “”,
-        “title“: “”,
-        “base_path“: “”,
-        “target_endpoint“: ““,
-        “security_method“: “”
+        "name": "",
+        "title": "",
+        "base_path": "",
+        "target_endpoint": "",
+        "security_method": ""
     }
 ]
 ```

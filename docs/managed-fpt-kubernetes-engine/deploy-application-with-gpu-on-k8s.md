@@ -70,7 +70,7 @@ spec:
             limits:
               nvidia.com/gpu: 1
           image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: [“/bin/sh”, “-c”]
+          command: ["/bin/sh", "-c"]
           args:
             – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```
@@ -115,7 +115,7 @@ spec:
             limits:
               nvidia.com/mig-1g.6gb: 1
           image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: [“/bin/sh”, “-c”]
+          command: ["/bin/sh", "-c"]
           args:
             – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```
@@ -154,7 +154,7 @@ spec:
             limits:
               nvidia.com/gpu: 1
           image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: [“/bin/sh”, “-c”]
+          command: ["/bin/sh", "-c"]
           args:
             – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```

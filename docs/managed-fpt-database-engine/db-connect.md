@@ -62,7 +62,7 @@ Allocation configurations:
   * **Instance port (Optional)** : Specify the private port on the instance to map incoming traffic. Leave blank to use the default configuration.
   * **Add tag (Optional)** : Assign tags (key-value pairs) to classify and manage the Floating IP for operations and auditing.
 
-After completing the configuration, click **Allocate floating IP** to start the allocation process. The new Floating IP appears in the list with **“Active”** status and is associated with the selected database instance or cluster. You can use this Floating IP to connect to the database externally, provided that the configured security rules and firewall policies allow the traffic.
+After completing the configuration, click **Allocate floating IP** to start the allocation process. The new Floating IP appears in the list with **"Active"** status and is associated with the selected database instance or cluster. You can use this Floating IP to connect to the database externally, provided that the configured security rules and firewall policies allow the traffic.
 **Release Floating IP** :
 When the Floating IP is no longer required, select **Release IP** for the corresponding address and confirm the action in the warning dialog.
 **Notes & Troubleshooting**:

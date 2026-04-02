@@ -1,17 +1,10 @@
 ---
 id: "fpt-jenkins-ci"
-title: "Fpt Jenkins Ci"
-sidebar_label: "Fpt Jenkins Ci"
-sidebar_position: "1"
+title: "FPT Jenkins CI"
+sidebar_label: "Overview"
+sidebar_position: 1
 ---
 
 # FPT Jenkins CI
 
-  * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Jenkins CI
-
-##  Home page 
-01Initial Setup 
-02Hướng dẫn details (Tutorials)
+FPT Jenkins CI is a continuous integration service provided by FPT Cloud, allowing you to create and manage Jenkins CI instances, configure agents, credentials, and CI/CD pipelines through the FPT Portal.

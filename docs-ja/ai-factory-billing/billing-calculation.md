@@ -1,11 +1,15 @@
 ---
 id: "billing-calculation"
 title: "課金計算"
-description: "FPT AI Factoryでのサービス利用料金の計算方法。"
+description: "現在、以下のサービスでクレジットの使用をサポートしています。"
 sidebar_label: "課金計算"
-sidebar_position: "5"
+sidebar_position: 9
 ---
 
 # 課金計算
 
-FPT AI Factoryでのサービス利用料金の計算方法。
+現在、以下のサービスでクレジットの使用をサポートしています。
+  1. GPU Container
+  2. Model Hub（AI Studio）
+  3. Model Fine-tuning（AI Studio）
+  4. AI Inference - MODAS

@@ -1,13 +1,17 @@
 ---
 id: "use-nat-instance"
-title: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General"
-sidebar_label: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General"
-sidebar_position: "4"
+title: "Available for General service plan users only"
+description: "Guide to using NAT Instance for users on the General service plan on FPT Cloud."
+sidebar_label: "Available for General service plan users only"
+sidebar_position: 4
 ---
-# Tính năng chỉ áp dụng for user mua dich vụ loại General
 
-[![file](/img/migrated/image-1719483578152-3556d024.png)](/img/migrated/image-1719483578152-3556d024.png)
+# Available for General service plan users only
 
 :::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+This feature is only available for users who have purchased the **General** service plan.
 :::
+
+When you select **isolated** mode during Subnet creation, the system displays instructions for configuring a NAT Instance so that instances in the isolated network can access the Internet.
+
+[![NAT Instance configuration guide when creating an isolated subnet](/img/migrated/image-1719483578152-3556d024.png)](/img/migrated/image-1719483578152-3556d024.png)

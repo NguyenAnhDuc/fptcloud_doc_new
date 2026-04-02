@@ -1,8 +1,8 @@
 ---
 id: "Secret-management"
-title: "FPT Key Vault"
-description: "FPT Key Vault"
-sidebar_label: "FPT Key Vault"
+title: "Secret management"
+description: "Create, view, update, and delete secrets stored in FPT Key Vault."
+sidebar_label: "Secret management"
 sidebar_position: 7
 ---
 

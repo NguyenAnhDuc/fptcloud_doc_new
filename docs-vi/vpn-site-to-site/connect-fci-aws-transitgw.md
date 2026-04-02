@@ -34,7 +34,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 **Phần 1: General information**
 [![](/img/migrated/photo_4_2025-07-09_17-36-42-7456c972.jpg)](/img/migrated/photo_4_2025-07-09_17-36-42-7456c972.jpg)
 **Phần 2: Remote VPN information** [![](/img/migrated/photo_5_2025-07-09_17-36-42-e0dc4e56.jpg)](/img/migrated/photo_5_2025-07-09_17-36-42-e0dc4e56.jpg)
-Khi quý khách hàng lựa chọn Providers “AWS ”,hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
+Khi quý khách hàng lựa chọn Providers "AWS ",hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
 **Đối với IKE:**
   * Encryption algorithm: aes-256
   * Authorization algorithm: sha256

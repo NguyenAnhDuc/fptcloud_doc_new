@@ -1,14 +1,15 @@
 ---
 id: "datasource-relation-management"
 title: "Datasource Relation Management"
+description: "Datasource Relation Management"
 sidebar_label: "Datasource Relation Management"
-sidebar_position: "10"
+sidebar_position: 10
 ---
 
-# Relation management
+# Relation Management
 
   * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
+  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Detailed Guide (Tutorials) ](javascript: "Detailed Guide \(Tutorials\)")
 
 Datasource relation management
   * 

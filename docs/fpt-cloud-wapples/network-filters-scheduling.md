@@ -1,13 +1,25 @@
 ---
 id: "network-filters-scheduling"
-title: "Sử dụng thiết lập thời gian thực hiện các security group trong network filter"
-sidebar_label: "Sử dụng thiết lập thời gian thực hiện các security group trong network filter"
-sidebar_position: "17"
+title: "Network Filters Scheduling"
+description: "Schedule when security groups in the network filter are active"
+sidebar_label: "Network Filters Scheduling"
+sidebar_position: 17
+pagination_next: null
 ---
-# Sử dụng setup thời gian thực hiện the security group in network filter
 
-[![file](/img/migrated/image-1714115260868-de7cc26d.png)](/img/migrated/image-1714115260868-de7cc26d.png)
+# Network Filters Scheduling
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+Use this feature to schedule the time periods during which security groups in the network filter are active.
+
+**Required fields:**
+
+- **Schedule name**
+- **Schedule description**
+- **Day of Week**: Select the days the schedule applies. You can choose individual days or quickly select weekdays or weekends
+- **Start Time and End Time**: The start and end times during which the Security Group should be active on the selected days
+
+[![file](/img/migrated/image-1714115260868-de7cc26d.png)](/img/migrated/image-1714115260868-de7cc26d.png) [![file](/img/migrated/image-1714115269843-844c70ba.png)](/img/migrated/image-1714115269843-844c70ba.png)
+
+**Display fields:**
+
+[![file](/img/migrated/image-1714115307432-f6a295dc.png)](/img/migrated/image-1714115307432-f6a295dc.png)

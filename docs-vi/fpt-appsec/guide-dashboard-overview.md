@@ -14,7 +14,7 @@ _Note_ :
   * _Ấn ‘Refresh’ để làm mới dữ liệu_
 
 [![anhfsec](/img/migrated/nhan-refet-85599f8b.png)](/img/migrated/nhan-refet-85599f8b.png)
-Trường hợp không có dữ liệu, mặc định hiển thị dấu “-”.
+Trường hợp không có dữ liệu, mặc định hiển thị dấu "-".
 ## Total Teams (Tổng số lượng team)
 Mô tả: Tổng số team trực thuộc tổ chức hiện tại. 
 [![anhfsec](/img/migrated/total-team-b5b57fe3.png)](/img/migrated/total-team-b5b57fe3.png)

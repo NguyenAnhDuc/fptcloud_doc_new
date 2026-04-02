@@ -1,18 +1,17 @@
 ---
 id: "use-instance-schedules-for-virtual-machines"
-title: "Use Instance Schedules For Virtual Machines"
-sidebar_label: "Use Instance Schedules For Virtual Machines"
-sidebar_position: "7"
+title: "Use instance schedules for virtual machines"
+description: "How to use instance schedules to automatically turn virtual machines on or off on FPT Cloud."
+sidebar_label: "Use instance schedules for virtual machines"
+sidebar_position: 7
 ---
 
-# Use Instance Schedules For Virtual Machines
+# Use instance schedules for virtual machines
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Quick start (Quick Starts) ](javascript: "Quick start \(Quick Starts\)")
+Instance schedules let you automate the process of turning virtual machines on and off at a defined time and frequency. To use this feature, follow the steps in order:
 
-Sử dụng instance schedules for the virtual machine
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
+1. [Create a new instance schedule](./create-new-instance.md) with the appropriate time and frequency settings.
+2. [Attach virtual machines](./attach-schedule-to-instance.md) to the schedule you created.
+3. Monitor execution status on the [instance schedule details](./view-detail-instance.md) page.
 
-* * *
+When you no longer need a schedule, you can [detach virtual machines](./detach-schedule-to-instance.md) from it or [delete the schedule](./delete-instance-schedule.md) entirely.

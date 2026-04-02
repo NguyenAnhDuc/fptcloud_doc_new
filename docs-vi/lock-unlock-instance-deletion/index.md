@@ -1,21 +1,13 @@
 ---
 id: "lock-unlock-instance-deletion"
-title: "Khóa & Mở khóa xóa máy ảo"
-description: "Khóa & Mở khóa xóa máy ảo"
-sidebar_label: "Khóa & Mở khóa xóa máy ảo"
+title: "Khóa & mở khóa xóa máy ảo"
+description: "Bảo vệ máy ảo quan trọng khỏi bị xóa nhầm bằng tính năng khóa xóa."
+sidebar_label: "Khóa & mở khóa xóa máy ảo"
 sidebar_position: 1
 ---
 
-# Lock & Unlock Instance Deletion
+# Khóa & mở khóa xóa máy ảo
 
-  * [ ![](/img/migrated/settings-2-d6cac700.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-7937c00e.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-Lock & Unlock Instance Deletion
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Lock & Unlock Instance Deletion
+Tính năng khóa xóa giúp bạn bảo vệ máy ảo quan trọng khỏi bị xóa nhầm — giảm rủi ro mất dữ liệu do lỗi thao tác.
 
-Lock & Unlock Instance Deletion
-##  Giới thiệu 
-Bạn có thể khóa một máy ảo lại để ngăn chúng không bị xóa/ chấm dứt một cách vô tình. Điều này giúp tránh việc bạn vô tình xóa một máy chạy sản xuất thay vì máy thử nghiệm. Tính năng này giúp giảm rủi ro liên quan đến lỗi người dùng và bảo vệ dữ liệu của bạn trên các máy ảo.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+Bạn có thể khóa bất kỳ máy ảo nào để ngăn chúng bị xóa hoặc chấm dứt một cách vô tình. Điều này giúp tránh việc bạn vô tình xóa máy chạy sản xuất thay vì máy thử nghiệm.

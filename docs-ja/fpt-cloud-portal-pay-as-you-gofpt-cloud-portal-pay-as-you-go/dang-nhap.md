@@ -1,13 +1,14 @@
 ---
 id: "dang-nhap"
-title: "Đăng nhập"
-sidebar_label: "Đăng nhập"
-sidebar_position: "3"
+title: "ログイン"
+description: "FPT Cloud Portalへのログイン方法。"
+sidebar_label: "ログイン"
+sidebar_position: 3
 ---
-# Đăng nhập
 
-[![file](/img/migrated/image-1694073672537-4f0750c7.png)](/img/migrated/image-1694073672537-4f0750c7.png)
+# ログイン
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+1. [console.fptcloud.com](https://console.fptcloud.com/) にアクセスします。
+2. 登録済みのFPT IDアカウントでログインします。
+
+[![FPT Cloud Portalログインページ](/img/migrated/image-1694073672537-4f0750c7.png)](/img/migrated/image-1694073672537-4f0750c7.png)

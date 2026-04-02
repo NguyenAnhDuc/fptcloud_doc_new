@@ -12,10 +12,10 @@ The MySQL Troubleshooting page provides quick guidance to help you identify and 
 Each topic includes clear descriptions of symptoms, root causes, and recommended resolutions, enabling you to perform initial troubleshooting or work effectively with the technical support team.
 The goal of this document is to help you operate MySQL in a stable, secure, and efficient manner while minimizing service disruption during incidents.
 ### Error categories:
-[1. Backup Error: “Please run OPTIMIZE TABLE on all listed tables…”](../managed-fpt-database-engine/index.md)
+[1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…"](../managed-fpt-database-engine/index.md)
 [2. Server Crash: MySQL crash when using composite indexes on JSON columns](../managed-fpt-database-engine/index.md)
 [3. Metadata Lock Storm](../managed-fpt-database-engine/index.md)
-### 1. Backup Error: “Please run OPTIMIZE TABLE on all listed tables…”
+### 1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…"
 #### 1.1. Symptoms
 During MySQL backup operations on the FPT Database Engine, the backup task may fail and send an error notification via email similar to the message above:
 `     cluster_id : abcxyz11  

@@ -12,7 +12,7 @@ Quản lý thông tin package và resource quota Khách hàng đang sử dụng.
 **Bước 1** : Đăng nhập vào FPT portal cloud **<https://console.fptcloud.com>**
 **Bước 2** : Trên menu của FPT Cloud Portal, click **Monitoring** hiển thị danh sách workspace
 **Bước 3** : Click tên workspace để xem chi tiết, hiển thị màn hình thông tin chi tiết của workspace đó.
-**Bước 4** : Click chọn tab **“Quota and Package”**.
+**Bước 4** : Click chọn tab **"Quota and Package"**.
 Với các package Custom, Trail, Base
 [![Alt text](/img/migrated/Picture6-2-f935d13c.png)](/img/migrated/Picture6-2-f935d13c.png)
 Với các package mới 

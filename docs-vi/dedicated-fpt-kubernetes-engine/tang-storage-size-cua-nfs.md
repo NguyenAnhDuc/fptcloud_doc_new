@@ -6,7 +6,7 @@ sidebar_label: "Tăng Storage size của NFS Server"
 sidebar_position: 16
 ---
 
-# Tang Storage Size Cua Nfs
+# Tăng storage size của NFS
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)

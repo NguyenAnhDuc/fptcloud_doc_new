@@ -1,13 +1,17 @@
 ---
 id: "schedule-delete"
-title: "Hướng dẫn xóa schedule"
-sidebar_label: "Hướng dẫn xóa schedule"
-sidebar_position: "32"
+title: "Delete a schedule"
+description: "How to delete a scan schedule in FPT AppSec"
+sidebar_label: "Delete a schedule"
+sidebar_position: 32
 ---
-# Hướng dẫn xóa schedule
+
+# Delete a schedule
+
+In the Schedule Management screen, click the **⋮** icon on a schedule, then select **Delete**.
 
 [![Alt text](/img/migrated/Picture22-e6ff757e.png)](/img/migrated/Picture22-e6ff757e.png)
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+A confirmation popup appears. Type _"delete"_ and click **Confirm** to confirm deletion.
+
+[![Alt text](/img/migrated/Picture23-c5dd269b.png)](/img/migrated/Picture23-c5dd269b.png)

@@ -1,13 +1,15 @@
 ---
 id: "truc-quan-hoa-du-lieu"
-title: "7. Trực quan hóa dữ liệu"
-sidebar_label: "7. Trực quan hóa dữ liệu"
-sidebar_position: "15"
+title: "データの可視化"
+sidebar_label: "データの可視化"
+sidebar_position: 15
 ---
-# 7. Trực quan hóa dữ liệu
 
-![](/img/migrated/settings-d31fa71f.png)
+# データの可視化
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud Monitoring は Grafana ダッシュボードを通じてデータを可視化します。ダッシュボードへのアクセス、テンプレートのインストール、メトリクス・ログ・トレースの視覚的な探索が可能です。
+
+詳細については以下のセクションを参照してください:
+
+- [ダッシュボードにアクセスする](truy-cap-vao-dashboard.md)
+- [ダッシュボードテンプレートをインストールする](fcmon-dashboard-template.md)

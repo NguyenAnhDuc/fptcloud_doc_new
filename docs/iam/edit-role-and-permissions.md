@@ -1,24 +1,29 @@
 ---
 id: "edit-role-and-permissions"
-title: "Edit Role And Permissions"
-description: "You can modify the information and permissions of Custom Roles as follows:"
-sidebar_label: "Edit Role And Permissions"
+title: "Edit role and permissions"
+description: "Modify the information and permissions of a Custom Role in FPT IAM."
+sidebar_label: "Edit role and permissions"
 sidebar_position: 8
 ---
 
-# Edit Role And Permissions
+# Edit role and permissions
 
-You can modify the information and permissions of Custom Roles as follows:
-**Step 1** : From the menu, select **IAM** > **Roles**. The system will display the **Role Management** page.
-[![file](/img/migrated/image-1734344271940-4a804c14.png)](/img/migrated/image-1734344271940-4a804c14.png)
-**Step 2** : Select **Action** at the end of the **Custom Role** you want to update from the list.
-  * Choose **Edit Basic Information** or **Edit Permissions**.
+You can modify the information and permissions of Custom Roles as follows.
 
-**Step 3** : Modify the Role information.
-  * **Step 3.1** Edit **Basic Information.**
+1. From the menu, select **IAM** > **Roles**.
 
-[![file](/img/migrated/image-1734344299974-74ad3c1a.png)](/img/migrated/image-1734344299974-74ad3c1a.png)
-  * **Step 3.2** Edit **Permissions**.
+   [![](/img/migrated/image-1734344271940-4a804c14.png)](/img/migrated/image-1734344271940-4a804c14.png)
 
-[![file](/img/migrated/image-1734344312048-ce9f5aea.png)](/img/migrated/image-1734344312048-ce9f5aea.png)
-**Note** : When a role is modified, it will affect the access permissions of all users in the user groups that have that role assigned.
+2. Select **Action** at the end of the Custom Role you want to update, then choose **Edit Basic Information** or **Edit Permissions**.
+
+   - **Edit Basic Information**: Update the role name and description.
+
+   [![](/img/migrated/image-1734344299974-74ad3c1a.png)](/img/migrated/image-1734344299974-74ad3c1a.png)
+
+   - **Edit Permissions**: Update the permissions assigned to the role.
+
+   [![](/img/migrated/image-1734344312048-ce9f5aea.png)](/img/migrated/image-1734344312048-ce9f5aea.png)
+
+:::warning
+When a role is modified, it affects the access permissions of all users in every User Group that has that role assigned.
+:::

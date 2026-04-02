@@ -1,13 +1,16 @@
 ---
 id: "schedule-edit"
-title: "Hướng dẫn chỉnh sửa schedule"
-sidebar_label: "Hướng dẫn chỉnh sửa schedule"
-sidebar_position: "31"
+title: "スケジュール編集ガイド"
+description: "**方法1** : Schedule Management画面で、各スケジュールの⋮マークを選択 > Editでスケジュールを編集します。"
+sidebar_label: "スケジュール編集ガイド"
+sidebar_position: 31
 ---
-# Hướng dẫn chỉnh sửa schedule
 
+# スケジュール編集ガイド
+
+**方法1** : Schedule Management画面で、各スケジュールの⋮マークを選択 > Editでスケジュールを編集します。
 [![Alt text](/img/migrated/Picture19-c62f7e3c.png)](/img/migrated/Picture19-c62f7e3c.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+システムが編集画面に遷移し、ユーザーは希望どおりにスケジュールを編集できます。
+[![Alt text](/img/migrated/Picture20-11454da7.png)](/img/migrated/Picture20-11454da7.png)
+**方法2** : **Schedule Detail** 画面で、画面右端の **Edit** ボタンをクリックします。
+[![Alt text](/img/migrated/Picture21-18abe5d7.png)](/img/migrated/Picture21-18abe5d7.png)

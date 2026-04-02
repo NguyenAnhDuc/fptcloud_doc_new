@@ -1,22 +1,14 @@
 ---
 id: "cau-hinh-proxy-protocol"
 title: "Cấu hình proxy protocol"
-description: "Cấu hình proxy protocol"
+description: "Các tuỳ chọn cấu hình Proxy Protocol trong Managed Kubernetes cluster."
 sidebar_label: "Cấu hình proxy protocol"
 sidebar_position: 50
 ---
 
-# Managed – FPT Kubernetes Engine
+# Cấu hình proxy protocol
 
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/Group-749ce1fb.png) Các lưu ý khi sử dụng M-FKE ](javascript: "Các lưu ý khi sử dụng M-FKE")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
+Tài liệu hướng dẫn cấu hình Proxy Protocol trong Managed Kubernetes cluster.
 
-Cấu hình proxy protocol
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-kubernetes-engine%2F "Managed – FPT Kubernetes Engine")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-kubernetes-engine%2F "Managed – FPT Kubernetes Engine")
-
-* * *
+- [Cấu hình Proxy Protocol cho nginx-ingress](./cau-hinh-proxy-protocol-cho-nginx-ingress.md)
+- [Cấu hình Proxy Protocol cho istio-ingress](./cau-hinh-proxy-protocol-cho-istio-ingress.md)

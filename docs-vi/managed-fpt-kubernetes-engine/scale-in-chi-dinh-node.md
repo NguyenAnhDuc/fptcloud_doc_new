@@ -6,7 +6,7 @@ sidebar_label: "Tính năng scale in chỉ định node trong cluster"
 sidebar_position: 20
 ---
 
-# Scale In Chi Dinh Node
+# Scale in chỉ định node
 
 **I. Giới thiệu chung**
 Tài liệu này hướng dẫn quy trình cấu hình để chỉ định thứ tự ưu tiên của node khi manual scale in cluster. Các node trong cluster sẽ có thứ tự ưu tiên về độ quan trọng tăng dần từ 1 đến 3. Mặc định tất cả các node trong cluster có độ ưu tiên bằng nhau và bằng 3.

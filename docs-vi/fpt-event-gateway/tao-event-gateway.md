@@ -14,7 +14,7 @@ sidebar_position: 3
 **Bước 3:** Trong form tạo **Event Gateway,** nhập thông tin màn **Basic Information** : 
   * **Name** (required): Tên event gateway 
 
-Chú ý: Tên Event Gateway có thể chứa các kí tự chữ cái thường a-z hoặc chữ cái in hoa A-Z hoặc các kí tự số 0-9. Đặc biệt không dùng dấu cách có thể thay dấu cách bằng dấu “-” hoặc “_”. 
+Chú ý: Tên Event Gateway có thể chứa các kí tự chữ cái thường a-z hoặc chữ cái in hoa A-Z hoặc các kí tự số 0-9. Đặc biệt không dùng dấu cách có thể thay dấu cách bằng dấu "-" hoặc "_". 
   * **Description** (optional): Mô tả 
   * **Version** (required): chọn version 
   * **Type** ( required) : chọn type Public/Private 

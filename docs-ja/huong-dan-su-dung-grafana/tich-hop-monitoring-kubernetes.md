@@ -1,11 +1,11 @@
 ---
 id: "tich-hop-monitoring-kubernetes"
-title: "Tích hợp Monitoring Kubernetes"
-sidebar_label: "Tích hợp Monitoring Kubernetes"
-sidebar_position: "8"
+title: "Monitoring Kubernetes の統合"
+description: "FPT Monitoring システムと Kubernetes の Monitoring を統合して metrics、logs を収集し、アラート dashboard を設定するガイド。"
+sidebar_label: "Monitoring K8S"
+sidebar_position: 8
 ---
-# Tích hợp Monitoring Kubernetes
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# Monitoring Kubernetes の統合
+
+Kubernetes（K8S）の Monitoring は、FPT Monitoring システムと統合されており、metrics および logs の収集を行うとともに、必要に応じて dashboard とアラートを提供します。

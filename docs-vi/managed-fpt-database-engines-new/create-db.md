@@ -23,14 +23,14 @@ Mô tả các trường trên màn hình:
 | --- |  
 | Trường  | Mô tả  |  
 | Engine Type  | Chọn loại cơ sở dữ liệu. Tùy thuộc vào menu đã chọn, hệ thống sẽ hiển thị các tùy chọn tương ứng: 
-* Với Relational Databases sẽ hiển thị các giá trị: “PostgreSQL”, “MySQL”, “MariaDB”, “SQL Server”
-* Với NoSQL sẽ hiển thị các giá trị: “MongoDB”, “Cassandra”, “Redis”
-* Với Search Engine sẽ hiển thị các giá trị: “OpenSearch”
-* Với Data Streaming sẽ hiển thị các giá trị: “Kafka”
-* Với Time Series Database sẽ hiển thị các giá trị: “TimescaleDB”
-* Với OLAP sẽ hiển thị các giá trị: “Clickhouse”
+* Với Relational Databases sẽ hiển thị các giá trị: "PostgreSQL", "MySQL", "MariaDB", "SQL Server"
+* Với NoSQL sẽ hiển thị các giá trị: "MongoDB", "Cassandra", "Redis"
+* Với Search Engine sẽ hiển thị các giá trị: "OpenSearch"
+* Với Data Streaming sẽ hiển thị các giá trị: "Kafka"
+* Với Time Series Database sẽ hiển thị các giá trị: "TimescaleDB"
+* Với OLAP sẽ hiển thị các giá trị: "Clickhouse"
  |  
-| Edition  | Chọn loại edition, bao gồm các giá trị: “Enterprise”, “Standard”, “Web”.   
+| Edition  | Chọn loại edition, bao gồm các giá trị: "Enterprise", "Standard", "Web".   
 Trường này chỉ hiển thị đối với Engine Type là "SQL Server".  |  
 | Engine Version  | Chọn phiên bản engine được hệ thống hỗ trợ theo Chính sách phiên bản Database Engine.  |  
  |  
@@ -107,20 +107,20 @@ Mô tả các trường trên màn hình:
 | Storage Threshold (%)  | Ngưỡng sử dụng storage để kích hoạt auto scaling.  |  
 | Storage Scale (%)  | Tỷ lệ mở rộng dung lượng storage mỗi lần scale.  |  
   * **Maintenance Window** : Khai báo khung thời gian mà hệ thống được phép thực hiện bảo trì:
-    * **Day of Week** : Ngày trong tuần thực hiện bảo trì, cho phép lựa chọn từ “Monday” đến “Sunday”.
+    * **Day of Week** : Ngày trong tuần thực hiện bảo trì, cho phép lựa chọn từ "Monday" đến "Sunday".
     * **Start Time** : Thời điểm bắt đầu được phép thực hiện bảo trì trong ngày đã chọn. Thời lượng bảo trì: 1 giờ, tính từ thời điểm Start Time đã cấu hình.
   * **Notification Recipients List** : Nhập danh sách email để nhận thông báo khi có sự kiện backup hoặc scaling được thực hiện. Bạn có thể thêm nhiều email bằng cách nhấn icon "+" để nhập email mới vào danh sách.
 
 Sau khi nhập đầy đủ thông tin, nhấn **Next Step** để chuyển sang bước kiểm tra các thông tin đã nhập và xác nhận việc khởi tạo cơ sở dữ liệu.
 ### Bước 4: Kiểm tra thông tin & xác nhận khởi tạo
 Người dùng cần kiểm tra toàn bộ thông tin đã cấu hình cho cơ sở dữ liệu trước khi xác nhận khởi tạo:
-  * Nếu cần chỉnh sửa, nhấn “Back” để quay lại bước trước và cập nhật thông tin.
-  * Nếu thông tin đã chính xác, nhấn “Create” để xác nhận khởi tạo cơ sở dữ liệu.
+  * Nếu cần chỉnh sửa, nhấn "Back" để quay lại bước trước và cập nhật thông tin.
+  * Nếu thông tin đã chính xác, nhấn "Create" để xác nhận khởi tạo cơ sở dữ liệu.
 
 Sau khi xác nhận:
   * Hệ thống sẽ kiểm tra tài nguyên, hiển thị thông báo khởi tạo và bắt đầu quá trình triển khai cơ sở dữ liệu mới dựa trên cấu hình đã nhập.
-  * Người dùng sẽ được chuyển về màn hình danh sách, trong đó cơ sở dữ liệu vừa tạo sẽ hiển thị ở trạng thái **“Processing”** ở đầu danh sách.
+  * Người dùng sẽ được chuyển về màn hình danh sách, trong đó cơ sở dữ liệu vừa tạo sẽ hiển thị ở trạng thái **"Processing"** ở đầu danh sách.
 
-Quá trình khởi tạo thường kéo dài 5–7 phút. Khi hoàn tất, cơ sở dữ liệu sẽ chuyển sang trạng thái **“Running”** và sẵn sàng để sử dụng. **Lưu ý** : Nếu quá trình khởi tạo thất bại, vui lòng xóa database bị lỗi và thực hiện khởi tạo lại.
+Quá trình khởi tạo thường kéo dài 5–7 phút. Khi hoàn tất, cơ sở dữ liệu sẽ chuyển sang trạng thái **"Running"** và sẵn sàng để sử dụng. **Lưu ý** : Nếu quá trình khởi tạo thất bại, vui lòng xóa database bị lỗi và thực hiện khởi tạo lại.
 Để kết nối tới cơ sở dữ liệu vừa tạo, xem hướng dẫn tại mục [Kết nối cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md).
-Để vận hành cơ sở dữ liệu, xem hướng dẫn tại mục “7.2.4. Vận hành cơ sở dữ liệu”.
+Để vận hành cơ sở dữ liệu, xem hướng dẫn tại mục "7.2.4. Vận hành cơ sở dữ liệu".

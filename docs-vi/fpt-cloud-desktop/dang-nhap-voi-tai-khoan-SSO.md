@@ -1,22 +1,15 @@
 ---
 id: "dang-nhap-voi-tai-khoan-SSO"
-title: "Dang Nhap Voi Tai Khoan Sso"
-description: "Dang Nhap Voi Tai Khoan Sso"
-sidebar_label: "Dang Nhap Voi Tai Khoan Sso"
+title: "Đăng nhập với tài khoản SSO"
+description: "Hướng dẫn đăng nhập FPT Cloud Desktop bằng tài khoản SSO (Azure AD)"
+sidebar_label: "Đăng nhập với tài khoản SSO"
 sidebar_position: 4
 ---
 
-# FPT Cloud Desktop
+# Đăng nhập với tài khoản SSO
 
-  * [ ![](/img/migrated/icon-overview-edd6032a.png) Overview ](javascript: "Overview")
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-efcbe2f9.webp) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/faqs-7bb7c52f.webp) Câu hỏi thường gặp (FAQs) ](javascript: "Câu hỏi thường gặp \(FAQs\)")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Cloud Desktop
+FPT Cloud Desktop hỗ trợ đăng nhập bằng tài khoản SSO (ví dụ: Azure AD / tài khoản Microsoft). Chọn phương thức truy cập phù hợp với thiết lập của bạn:
 
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-desktop%2F "FPT Cloud Desktop")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-desktop%2F "FPT Cloud Desktop")
-
-* * *
+- [Truy cập qua FCDClient mới](./SSO-qua-FCDClient-moi.md) (khuyên dùng)
+- [Truy cập qua Web browser](./SSO-qua-web-browser.md)
+- [Truy cập qua FCDClient cũ](./SSO-qua-FCDClient-cu.md)

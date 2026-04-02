@@ -1,17 +1,14 @@
 ---
 id: "delete-a-deployment"
 title: "Xóa deployment"
-description: "Xóa một deployment không còn sử dụng."
+description: "Hướng dẫn xóa một deployment trên Model Serving."
 sidebar_label: "Xóa deployment"
 sidebar_position: "12"
+pagination_next: null
 ---
 
 # Xóa deployment
 
-1. Trong danh sách deployment, chọn deployment cần xóa.
-2. Nhấn **Delete**.
-3. Xác nhận xóa trong popup.
+Truy cập **AI Platform** -> **Model Serving** -> **Deployment** -> **Tên Deployment** -> **Deployment cần xóa** -> **Action Delete**
 
-:::warning
-Xóa deployment sẽ dừng tất cả API endpoint liên quan. Hành động không thể hoàn tác.
-:::
+[![Alt text](/img/migrated/15-44893605.png)](/img/migrated/15-44893605.png)

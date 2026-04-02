@@ -1,13 +1,32 @@
 ---
 id: "affinity-anti-affinity"
-title: "Management Instance Group với chính sách Affinity & Anti-Affinity"
-sidebar_label: "Management Instance Group với chính sách Affinity & Anti-Affinity"
-sidebar_position: "1"
+title: "Affinity & Anti-Affinity Overview"
+description: "Manage Instance Groups with Affinity & Anti-Affinity policies on FPT Cloud."
+sidebar_label: "Overview"
+sidebar_position: 1
 ---
-# Manage Instance Group with chính sách Affinity & Anti-Affinity
 
-![](/img/migrated/settings-d31fa71f.png)
+# Affinity & Anti-Affinity Overview
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+Affinity and Anti-Affinity help you control how virtual machines are placed on physical hosts — especially when you need to ensure performance or high availability.
+
+You can create Instance Groups with Soft Affinity or Soft Anti-Affinity policies. When launching a virtual machine, the system uses the Instance Group policy to determine VM placement.
+
+## Supported Policies
+
+| Policy | Description |
+|---|---|
+| **Soft Affinity** | Prefers placing VMs in the same Instance Group on the same physical host. |
+| **Soft Anti-Affinity** | Prefers placing VMs in the same Instance Group on different physical hosts. |
+
+## Limits
+
+- Maximum 10 Instance Groups per tenant.
+- Each Instance Group holds up to 10 Instances.
+
+## Guides
+
+- [Initial Setup](./initial-setup.md)
+- [Create an Instance Group](./create-instance-group.md)
+- [Add Instance to Instance Group](./add-instance-instance-group.md)
+- [Delete an Instance Group](./delete-instance-group.md)

@@ -7,7 +7,7 @@ sidebar_position: 10
 pagination_next: null
 ---
 
-# Start Kubernetes Cluster
+# Khởi động lại Kubernetes cluster
 
 Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.

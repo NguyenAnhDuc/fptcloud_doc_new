@@ -1,12 +1,12 @@
 ---
 id: "Create-Secret-in-Secret-Engine"
-title: "Create Secret In Secret Engine"
-description: "**Step 1** : Select the Secret Engine to create **Secrets** on the Secret Engine Management screen:"
-sidebar_label: "Create Secret In Secret..."
+title: "Create a secret in a secret engine"
+description: "How to create a new secret inside a secret engine on FPT Key Vault."
+sidebar_label: "Create a secret"
 sidebar_position: 8
 ---
 
-# Create Secret In Secret Engine
+# Create a secret in a secret engine
 
 **Step 1** : Select the Secret Engine to create **Secrets** on the Secret Engine Management screen:
 [![](/img/migrated/k10-7b6554af.png)](/img/migrated/k10-7b6554af.png)

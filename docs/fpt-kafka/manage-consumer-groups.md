@@ -1,8 +1,8 @@
 ---
 id: "manage-consumer-groups"
-title: "FPT Kafka"
-description: "FPT Kafka"
-sidebar_label: "FPT Kafka"
+title: "Manage Consumer Groups"
+description: "Create, view, and delete Consumer Groups on FPT Kafka."
+sidebar_label: "Manage Consumer Groups"
 sidebar_position: 16
 ---
 

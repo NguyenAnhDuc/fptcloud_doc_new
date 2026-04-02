@@ -1,21 +1,29 @@
 ---
 id: "customer-filter"
-title: "Customer Filter"
-description: "**Step 1** : In the tab bar menu, select Billing > select Cost Explorer > select the Customize Filter button."
-sidebar_label: "Customer Filter"
+title: "View costs by resource type"
+description: "Guide to viewing costs by resource type in Cost Explorer."
+sidebar_label: "View costs by resource type"
 sidebar_position: 3
 ---
 
-# Customer Filter
+# View costs by resource type
 
-**Step 1** : In the tab bar menu, select Billing > select Cost Explorer > select the Customize Filter button.
-[![file](/img/migrated/image-1717143330354-d82c697f.png)](/img/migrated/image-1717143330354-d82c697f.png)
-**Step 2:** On the Customize Filter dialog box, select a value in 1 or more of the conditions you want to filter.
-Filtration conditions include:
-  * Duration
-  * Period type: View a chart of daily or monthly cost movements.
-  * Service: The services used in the ORG
-  * VPCs: VPCs in the current ORG
-  * Tags: Tags are managed on the Portal and assigned to resources.
+This feature lets you analyze costs by resource type — Instance, Storage, GPU, Load Balancer, S3, Container Registry, and more — to identify which resource types consume the most budget.
 
-[![file](/img/migrated/image-1717143346436-8498f6fe.png)](/img/migrated/image-1717143346436-8498f6fe.png)
+1. On the Cost Explorer screen, click **Customize Filter** → set **Dimension** to **Resource type**.
+
+   ![Select Dimension Resource Type](/img/migrated/image-1745469288949-fad47461.png)
+
+2. The system displays a chart and a details table:
+   - **Chart**: shows usage trends and cost over time for each resource type.
+   - **Details table**: shows total costs per resource type by day or month.
+
+   ![Cost chart by Resource Type](/img/migrated/image-1745469295081-e86d95b6.png)
+
+   ![Cost details table by Resource Type](/img/migrated/image-1745469318411-ecddb2f4.png)
+
+3. You can customize other filter conditions the same way as when viewing costs by service.
+
+   ![Customize Filter for Resource Type](/img/migrated/image-1745469337552-65e1e153.png)
+
+   ![Resource Type filter results](/img/migrated/image-1745469359152-9dc70c29.png)

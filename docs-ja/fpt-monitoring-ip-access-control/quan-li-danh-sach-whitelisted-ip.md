@@ -1,11 +1,17 @@
 ---
 id: "quan-li-danh-sach-whitelisted-ip"
-title: "Quan Li Danh Sach Whitelisted Ip"
-sidebar_label: "Quan Li Danh Sach Whitelisted Ip"
-sidebar_position: "6"
+title: "ホワイトリスト IP 一覧を管理する"
+sidebar_label: "ホワイトリストの管理"
+sidebar_position: 6
 ---
-# Quan Li Danh Sach Whitelisted Ip
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# ホワイトリスト IP 一覧を管理する
+
+IP Access Control 機能は、ワークスペースの FPT Cloud Monitoring システムコンポーネントごとにホワイトリスト IP を管理します:
+
+- Grafana dashboard URL
+- Metric datasource URL
+- Log datasource URL
+- Trace datasource URL
+
+各コンポーネントは独立した IP ホワイトリストテーブルを持ちます。

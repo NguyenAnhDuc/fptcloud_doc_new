@@ -1,11 +1,10 @@
 ---
 id: "demo"
-title: "Demo"
-sidebar_label: "Demo"
-sidebar_position: "21"
+title: "デモ"
+sidebar_label: "デモ"
+sidebar_position: 21
 ---
-# Demo
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# デモ
+
+Jenkins インスタンスへの接続手順については、Portal メニューの詳細ドキュメントをご参照ください。

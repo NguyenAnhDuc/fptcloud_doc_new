@@ -1,13 +1,21 @@
 ---
 id: "quan-ly-team"
-title: "Team Management - Quản lý Team"
-sidebar_label: "Team Management - Quản lý Team"
-sidebar_position: "14"
+title: "Team management"
+description: "How to use the Team Management section in FPT AppSec"
+sidebar_label: "Team management"
+sidebar_position: 14
 ---
-# Team Management - Manage Team
+
+# Team management
+
+**Step 1:** Click **Team** in the **DevSec** sub-tab.
 
 [![anhfsec](/img/migrated/t1-1-4b8a2d2f.png)](/img/migrated/t1-1-4b8a2d2f.png)
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+**Step 2:** Click **Select a team** and choose the team you want to work with.
+
+[![anhfsec](/img/migrated/t2-1-bc89aac6.png)](/img/migrated/t2-1-bc89aac6.png)
+
+The Team section has two main features: **Members** for managing team members, and **Settings** for general team configuration.
+
+[![anhfsec](/img/migrated/t3-1-024267fd.png)](/img/migrated/t3-1-024267fd.png)

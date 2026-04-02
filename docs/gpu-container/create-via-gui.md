@@ -10,14 +10,14 @@ sidebar_position: 5
 
 [!(/img/migrated/information-fill-1-30ad0c7d.png)](/img/migrated/information-fill-1-30ad0c7d.png)
 **Notice:** Each tenant can only have a maximum of 10 containers. If you have reached this limit, please delete unused container to create a new one.
-### 1. Select GPU Container in the Side menu and click button “Create New Container”
+### 1. Select GPU Container in the Side menu and click button "Create New Container"
 ### 2. Give your container a name using Container Name field.
 ### 3. Select a GPU Instance (we currently support NVIDIA GPU H100 and H200)
 ### 4. Template:
 Users can either choose to use built-in templates or use their own images. We highly recommend that our customers use built-in templates for faster deployment. 
-#### a. Built-in templates: Click “Change Template” and choose the template.
+#### a. Built-in templates: Click "Change Template" and choose the template.
 [![Alt text](/img/migrated/Screenshot-2025-06-19-144905-bbf38c4a.png)](/img/migrated/Screenshot-2025-06-19-144905-bbf38c4a.png)
-#### b. Custom template: Bring your own template by using the feature “Custom Template”.
+#### b. Custom template: Bring your own template by using the feature "Custom Template".
 [![Alt text](/img/migrated/Screenshot-2025-06-19-145912-f00bf337.png)](/img/migrated/Screenshot-2025-06-19-145912-f00bf337.png)
 ### 5. Access Container.
 #### a. Ports
@@ -53,6 +53,6 @@ This section includes:
 a. **Persistent Disk** : specify the amount of storage that users need to store training weights, models, etc. Read more about Storage [here](../gpu-container/index.md)
 b. **Environment Variables** : key-value pairs injected into the container at runtime.
 c. **Startup Command** : command and arguments to run at the start of container. 
-### 7. Click **“Create New Container”** to create and start your container.
+### 7. Click **"Create New Container"** to create and start your container.
 ### 8. Add credit
 In case your balance is not enough to create a new container (lower cost of using the container for 1 hour), please follow these instructions to add credit to your account: [Add Credits](./add-credit.md)

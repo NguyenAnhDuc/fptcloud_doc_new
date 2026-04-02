@@ -1,13 +1,17 @@
 ---
 id: "home-page-portal"
-title: "Trang chủ của hệ thống Portal"
-sidebar_label: "Trang chủ của hệ thống Portal"
-sidebar_position: "6"
+title: "Portalのホームページ"
+description: "FPT Cloud Portalのホームページに表示される情報の概要。"
+sidebar_label: "Portalのホームページ"
+sidebar_position: 6
 ---
-# Trang chủ của hệ thống Portal
 
-[![file](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)
+# Portalのホームページ
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud Portalのホームページには以下の情報が表示されます：
+
+- **Available Services**：現在PAYG課金をサポートしているサービスの一覧。
+- **Upcoming Services**：近日中にPAYG課金をサポートする予定のサービス。
+- **Balance**：現在のアカウント残高。
+
+[![FPT Cloud Portalのホームページ](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)

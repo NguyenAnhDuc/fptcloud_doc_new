@@ -1,13 +1,15 @@
 ---
 id: "fqas-2"
-title: "Làm thế nào để biết FCI đã nhận được yêu cầu của tôi?"
-sidebar_label: "Làm thế nào để biết FCI đã nhận được yêu cầu của tôi?"
-sidebar_position: "6"
+title: "FCIが私のリクエストを受信したことをどうやって確認できますか？"
+description: "Submitをクリックすると、リクエストがFCIの営業担当者に送信され、FCIはリクエストを作成したユーザーの登録メールアドレスに確認メールを送信します。"
+sidebar_label: "FCIが私のリクエストを受信したことをどうやって確認できますか？"
+sidebar_position: 6
 ---
-# Làm thế nào để biết FCI đã nhận được yêu cầu của tôi?
+
+# FCIが私のリクエストを受信したことをどうやって確認できますか？
+
+Submitをクリックすると、リクエストがFCIの営業担当者に送信されます。同時に、FCIはリクエストを作成したユーザーの登録メールアドレスに確認メールを送信します。FCIからの確認メールを受信した時点で、リクエストチケットが正常に受け付けられたことを意味し、FCIが実装に向けて対応を進めます。
+
+確認メールには以下のような情報が含まれます：
 
 [![file](/img/migrated/image-1703744504977-d4074880.png)](/img/migrated/image-1703744504977-d4074880.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::

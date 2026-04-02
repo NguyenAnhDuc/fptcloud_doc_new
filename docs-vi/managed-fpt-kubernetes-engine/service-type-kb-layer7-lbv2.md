@@ -6,7 +6,7 @@ sidebar_label: "Sử dụng service type Loadbalancer Layer 7 (LBv2)"
 sidebar_position: 53
 ---
 
-# Service Type Kb Layer7 Lbv2
+# Service type Layer 7 Load Balancer
 
 FPT Cloud cung cấp cho khách hàng giải pháp sử dụng Loadbalancer Layer 7 với việc sử dụng Cert SSL của khách hàng tự cung cấp. 
 **1. Khởi tạo Cert**
@@ -23,7 +23,7 @@ Trong cấu hình Service khởi tạo, thêm một annotation để sử dụng
 Copy
 loadbalancer.fptcloud.com/load-balancer-version: v2 
 
-loadbalancer.fptcloud.com/default-tls-secret-ref-name: “name_of_ssl_cert” #tên của cert cần phải giống với tên được khởi tạo trên portal 
+loadbalancer.fptcloud.com/default-tls-secret-ref-name: "name_of_ssl_cert" #tên của cert cần phải giống với tên được khởi tạo trên portal 
 
 ```
 

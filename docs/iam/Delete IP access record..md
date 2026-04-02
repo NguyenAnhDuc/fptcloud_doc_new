@@ -10,5 +10,5 @@ sidebar_position: 26
 
 **Step 1:** Click on the record and select action.
 [![file](/img/migrated/image-1711511766855-5fa1b9c4.png)](/img/migrated/image-1711511766855-5fa1b9c4.png)
-**Step 2:** You confirm this deletion action by entering the word “delete" in the box and selecting “Delete IP access"
+**Step 2:** You confirm this deletion action by entering the word "delete" in the box and selecting "Delete IP access"
 [![file](/img/migrated/image-1711511780469-0177ce56.png)](/img/migrated/image-1711511780469-0177ce56.png)

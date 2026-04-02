@@ -1,11 +1,11 @@
 ---
 id: "quan-ly-policy"
 title: "Quản lý Policy"
-description: "Autoscale Policy là một nhóm các **quy tắc để kiểm tra** hoặc các **hành động cần thực thi** trước khi thực hiện một tác"
+description: "Autoscale Policy là tập hợp các quy tắc kiểm tra hoặc hành động cần thực thi trước và sau khi tác động lên Autoscale Group."
 sidebar_label: "Quản lý Policy"
 sidebar_position: 13
 ---
 
 # Quản lý Policy
 
-Autoscale Policy là một nhóm các **quy tắc để kiểm tra** hoặc các **hành động cần thực thi** trước khi thực hiện một tác động lên Autoscale Group hoặc sau khi tác động hoàn tất.
+Autoscale Policy là tập hợp các **quy tắc để kiểm tra** hoặc các **hành động cần thực thi** trước khi thực hiện một tác động lên Autoscale Group hoặc sau khi tác động hoàn tất.

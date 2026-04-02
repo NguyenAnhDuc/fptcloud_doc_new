@@ -1,11 +1,12 @@
 ---
 id: "xem-ket-qua-quet-cu"
-title: "3. Xem kết quả lịch sử quét"
-description: "3. Xem kết quả lịch sử quét on FPT Cloud VA."
-sidebar_label: "3. Xem kết quả lịch sử quét"
-sidebar_position: "15"
+title: "View scan history"
+description: "Guide to viewing previous scan results for a target in FPT Cloud VA."
+sidebar_label: "View scan history"
+sidebar_position: 15
+pagination_next: null
 ---
 
-# 3. View kết quả lịch sử quét
+# View scan history
 
-3. View kết quả lịch sử quét on FPT Cloud VA.
+To view previous scan results, navigate to the target, select the **Task** tab, and click **View Results** for the scan you want to review.

@@ -23,7 +23,7 @@ sidebar_position: 20
 ▪ Quantity: Nhập số lượng worker nodes muốn thêm/bớt.
   * **Scale Out** :
 ▪ Quantity: Nhập số lượng worker nodes muốn thêm/bớt. 
-Sau khi nhập xong, số lượng worker nodes sau khi thực hiện scale sẽ hiển thị tại dòng **“Quantity worker after scale-up/scale-down equals”**
+Sau khi nhập xong, số lượng worker nodes sau khi thực hiện scale sẽ hiển thị tại dòng **"Quantity worker after scale-up/scale-down equals"**
 
 **Bước 4** : Kiểm tra lại thông tin, chọn Scale Cluster để thực hiện scale Worker. [![](/img/migrated/anh3-e979a990.png)](/img/migrated/anh3-e979a990.png)
 [![](/img/migrated/anh44-88f304e7.png)](/img/migrated/anh44-88f304e7.png)

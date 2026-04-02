@@ -1,11 +1,17 @@
 ---
 id: "question-1"
-title: "Vì sao tôi không xem được Bill?"
-sidebar_label: "Vì sao tôi không xem được Bill?"
-sidebar_position: "7"
+title: "作成済みのAddress Pairを編集できないのはなぜですか？"
+description: "現在、システムは作成済みのAddress Pairの編集機能をサポートしていません。設定を変更するには、既存のAddress Pairを削除し、新たに作成し直してください。"
+sidebar_label: "作成済みのAddress Pairを編集できないのはなぜですか？"
+sidebar_position: 7
 ---
-# Vì sao tôi không xem được Bill?
+
+# よくある質問
+
+## 作成済みのAddress Pairを編集できないのはなぜですか？
+
+現在、システムは作成済みのAddress Pairの編集（変更）機能をサポートしていません。設定を変更する場合は、既存のAddress Pairを削除した上で、新たにAddress Pairを作成し直してください。
 
 :::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+今後のアップデートにより、編集機能が追加される可能性があります。最新情報はFPT Cloudの公式ドキュメントをご確認ください。
 :::

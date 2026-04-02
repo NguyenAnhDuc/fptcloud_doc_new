@@ -1,11 +1,10 @@
 ---
 id: "quan-ly-credential"
-title: "管理 Credential"
-sidebar_label: "管理 Credential"
-sidebar_position: "10"
+title: "クレデンシャルの管理"
+sidebar_label: "クレデンシャルの管理"
+sidebar_position: 10
 ---
-# 管理 Credential
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# クレデンシャルの管理
+
+FPT Cloud では、Portal インターフェースを通じて以下の種類のクレデンシャルを管理できます：Secret text、Username with password、GitLab API token、SSH Username with private key。

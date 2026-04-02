@@ -12,4 +12,4 @@ sidebar_position: 12
   1. Open the **Session list**
   2. Find the Session you want to delete and click 3-dot icon in the **Actions** column
   3. Click **Delete** action
-  4. A confirmation dialog appears. Confirm by entering the “delete” in the text field and click **Confirm**
+  4. A confirmation dialog appears. Confirm by entering the "delete" in the text field and click **Confirm**

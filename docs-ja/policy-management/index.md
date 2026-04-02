@@ -1,13 +1,11 @@
 ---
 id: "policy-management"
-title: "Policy Management"
-sidebar_label: "Policy Management"
-sidebar_position: "1"
+title: "ポリシー管理"
+description: "FPT Cloudはポリシー管理機能を導入しており、組織の標準が効果的に施行されるようにします。"
+sidebar_label: "ポリシー管理"
+sidebar_position: 1
 ---
-# Policy Management
 
-![](/img/migrated/tai-xuong-2-a0b1673b.png)
+# ポリシー管理
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloudは**ポリシー管理**機能を導入しており、組織の標準が効果的に施行されるようにします。この機能は、リソースとアクションをその特性に基づいて、事前に定義されたビジネスルールに照らして評価します。ユーザーはポリシーを無効にしてバイパスできますが、システムの安全性を確保するために、後でポリシーを再度有効にすることを強くお勧めします。

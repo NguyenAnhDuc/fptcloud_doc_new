@@ -32,7 +32,7 @@ The configuration steps are similar to those used when creating a Full Backup Jo
 ### 3. Run Backup Job
 Normally, after successful configuration, the backup job will automatically run periodically according to the set schedule and generate restore points for database recovery (refer to the Restore function). If you need to create a snapshot for the database, manually run the backup job as follows:
 On the Backup service management page, click the **Run Now** button (arrow icon) corresponding to the backup job that you need to run to start the database backup.
-The system displays a confirmation dialog. Enter “**run** ” for final confirmation and click **Confirm**. Upon completion, a backup corresponding to a restore point will be generated in the Restore screen. Backup job success or failure information will also be updated in the **Backup Request** table on the Backup service management page.
+The system displays a confirmation dialog. Enter "**run** " for final confirmation and click **Confirm**. Upon completion, a backup corresponding to a restore point will be generated in the Restore screen. Backup job success or failure information will also be updated in the **Backup Request** table on the Backup service management page.
 **Note** : For the Kafka engine, performing a backup may cause temporary service interruptions. It is recommended to run backups during low-traffic periods to minimize impact on the service.
 ### 4. Update Backup Job
 To adjust configured settings for a backup job, in the Backup tab, click the **Update Backup Job** button (pencil icon corresponding to the job that you need to update) to open the job configuration update popup.

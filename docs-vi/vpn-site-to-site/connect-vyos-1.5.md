@@ -39,7 +39,7 @@ Lưu ý: Thông số Pre-shared-key cần lưu lại để kết nối với Vyo
 [![](/img/migrated/photo_2_2025-07-09_17-35-17-4270f2cf.jpg)](/img/migrated/photo_2_2025-07-09_17-35-17-4270f2cf.jpg)
 **Phần 2: Remote VPN information**
 [![](/img/migrated/photo_3_2025-07-09_17-35-17-5faf2dd4.jpg)](/img/migrated/photo_3_2025-07-09_17-35-17-5faf2dd4.jpg)
-Quý khách hàng lựa chọn Providers = “others" sau đó làm theo các bước sau:
+Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bước sau:
   * Bước 1: Điền providers name = "Vyos" 
   * Bước 2: Điền thông tin cho IKE và IPSec cụ thể như sau:
 

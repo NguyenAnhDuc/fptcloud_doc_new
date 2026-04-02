@@ -33,7 +33,7 @@ Each database engine version follows a lifecycle consisting of the following sta
 On Console Portal, Beta versions are displayed with the "Beta" tag.  |  
 | **2. General Availability (GA)**  | The version is stable, production-ready, and officially supported with SLA.  |  
 | **3. Deprecated (Dep.)**  | The version is no longer recommended for new deployments and is preparing to reach End of Support (EoS) soon. It still works for existing systems. This stage signals that support will end.   
-On Console Portal, deprecated versions are displayed with the “Deprecated” or “Dep.” tag.  |  
+On Console Portal, deprecated versions are displayed with the "Deprecated" or "Dep." tag.  |  
 | **4. End of Support (EoS)**  | The version is no longer supported.   
 On Console Portal, Beta versions are displayed with the "EoS" tag.  |  
 **Note** : Users are advised to proactively upgrade before the current version reaches the Deprecated or EoS stage to ensure the system's security and stability.

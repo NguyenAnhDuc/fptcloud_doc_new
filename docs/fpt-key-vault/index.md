@@ -1,7 +1,7 @@
 ---
 id: "fpt-key-vault"
 title: "FPT Key Vault"
-description: "FPT Key Vault"
+description: "FPT Key Vault provides a secure, centralized secret management service on FPT Cloud."
 sidebar_label: "FPT Key Vault"
 sidebar_position: 1
 ---

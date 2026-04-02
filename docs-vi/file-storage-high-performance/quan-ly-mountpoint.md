@@ -59,7 +59,7 @@ Trong hệ thống FPT File Storage – High Performance, Mount Point là một 
   2. Điền thông tin: 
      * **Region** : Chọn khu vực sử dụng.
      * **VPC / Subnet** : Chọn subnet chứa server GPU.
-     * **Tên Mount Point** : 3–63 ký tự, chữ/số/“_”, không bắt đầu/kết thúc bằng dấu đặc biệt.
+     * **Tên Mount Point** : 3–63 ký tự, chữ/số/"_", không bắt đầu/kết thúc bằng dấu đặc biệt.
      * **Protocol** : NFSv3 hoặc NFSv4. 
        * Nếu NFSv3: Có thể thêm NFS Alias.
        * Nếu NFSv4: Đảm bảo **tất cả thư mục cha trong path cũng dùng NFSv4**.

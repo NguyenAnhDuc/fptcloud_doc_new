@@ -13,7 +13,7 @@ pagination_next: null
 FortiGate hay Firewall Fortinet là các thiết bị bảo mật đa lớp thế hệ tiếp theo dưới dạng tường lửa của Fortinet. Fortigate được tích hợp các tính năng hàng đầu để cung cấp một giải pháp toàn diện trong việc bảo mật thông tin cũng như là bảo vệ hệ thống mạng nội bộ tại các doanh nghiệp hay tổ chức với mọi quy mô.  
 Firewall Fortinet mang đến cho người dùng khả năng bảo mật với tốc độ cao, ngăn ngừa virus và chặn đứng các mối đe doạ đến trung tâm dữ liệu và hệ thống mạng của bạn. Fortigate cũng được hỗ trợ tính năng năng lọc web, liên tục kiểm tra các gói tin được trao đổi giữa các thiết bị trong hệ thống mạng, hỗ trợ khả năng hiển thị giúp người quản trị dễ dàng giám sát, phát hiện và giải quyết kịp thời những xâm nhập trái phép.
 ## Vì sao nên sử dụng FortiGate?
-Hãy cùng điểm qua những tính năng vượt trội của sản phẩm Fortigate so với các thiết bị tường lửa thông thường, để từ đó tìm được câu trả lời cho câu hỏi “Vì sao nên sử dụng Fortigate?”.
+Hãy cùng điểm qua những tính năng vượt trội của sản phẩm Fortigate so với các thiết bị tường lửa thông thường, để từ đó tìm được câu trả lời cho câu hỏi "Vì sao nên sử dụng Fortigate?".
   * **Khả năng hiển thị và bảo vệ toàn diện:** FortiGate được tích hợp các tính năng như ngăn chặn Ransomware, Command & Control, công nghệ SSL (bao gồm TLS1.3) cho phép thiết lập mã hoá an toàn, cùng khả năng tự động bảo vệ trước các mối đe dọa
   * **Hỗ trợ FortiGuard:** Fortigate được hỗ trợ FortiGuard với khả năng hợp nhất và chạy đồng thời các dịch vụ IPS, lọc web & video, bảo mật DNS để giảm chi phí và quản lý mọi rủi ro.
   * **Tích hợp Proxy:** FortiGate cung cấp trải nghiệm người dùng liền mạch và bảo mật an toàn cho thiết bị của nhân viên với tính năng Zero Trust Network Acess (ZTNA).

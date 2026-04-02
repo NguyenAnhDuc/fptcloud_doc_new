@@ -1,13 +1,19 @@
 ---
 id: "attach-schedule-to-instance"
-title: "Gắn một hoặc nhiều máy ảo vào instance schedule"
-sidebar_label: "Gắn một hoặc nhiều máy ảo vào instance schedule"
-sidebar_position: "8"
+title: "Instance scheduleへの仮想マシンの紐付け"
+description: "FPT CloudのInstance scheduleに仮想マシンを紐付ける方法です。"
+sidebar_label: "Instance scheduleへの仮想マシンの紐付け"
+sidebar_position: 8
 ---
-# Gắn một hoặc nhiều máy ảo vào instance schedule
 
-[![file](/img/migrated/image-1695609073911-03ac0ac2.png)](/img/migrated/image-1695609073911-03ac0ac2.png)
+# Instance scheduleへの仮想マシンの紐付け
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+Instance scheduleを作成したら、自動起動/停止を有効にするために仮想マシンをスケジュールに紐付けます。
+
+**ステップ1:** **Instance Schedule Management** ページの **Action** 列で **Apply instances** をクリックします。
+
+[![一覧のApply instancesボタン](/img/migrated/image-1695609073911-03ac0ac2.png)](/img/migrated/image-1695609073911-03ac0ac2.png)
+
+**ステップ2:** 紐付けたいinstanceを選択し、**Apply instances** をクリックします。
+
+[![Instance選択画面](/img/migrated/image-1695609084366-c567a73d.png)](/img/migrated/image-1695609084366-c567a73d.png)

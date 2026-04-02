@@ -1,13 +1,15 @@
 ---
 id: "gateway"
 title: "Gateway"
+description: "Overview of the Gateway service on FPT Cloud"
 sidebar_label: "Gateway"
-sidebar_position: "1"
+sidebar_position: 1
 ---
+
 # Gateway
 
-![](/img/migrated/settings-d609e2cc.png)
+Gateway is a key networking component that lets you manage inbound and outbound traffic for your VPC. The system supports two types of Gateway: **Basic** (automatic configuration) and **Custom** (user-defined configuration).
 
 :::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+This feature is only available to Tenants with a special configuration. Please contact the support team to have it enabled.
 :::

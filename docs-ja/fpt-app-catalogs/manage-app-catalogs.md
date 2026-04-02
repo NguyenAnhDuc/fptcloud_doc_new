@@ -1,11 +1,11 @@
 ---
 id: "manage-app-catalogs"
-title: "Manage App Catalogs"
-description: "Manage App Catalogs — FPT App Catalogs上の機能。"
-sidebar_label: "Manage App Catalogs"
-sidebar_position: "6"
+title: "App Catalogs の管理"
+description: "リポジトリ別に App Catalog を管理し、チャートを検索してクラスターにデプロイします。"
+sidebar_label: "App Catalogs の管理"
+sidebar_position: 6
 ---
 
-# Manage App Catalogs
+# App Catalogs の管理
 
-Manage App Catalogs — FPT App Catalogs上の機能。
+App Catalogs はリポジトリ別に App Catalog を管理できます。FPT Cloud は bitnami、grafana のチャートリポジトリおよび FPT Cloud が管理するチャートのデプロイをサポートしています。チャートを検索して、App Catalog に追加済みのクラスターにデプロイできます。

@@ -34,7 +34,7 @@ Trên Gateway vẫn có rule Firewall và rule Nat ở để đảm bảo traffi
 – Thông tin IP của Firewall: Cần thông tin 01 IP Public và 01 Private của Firewall. 
 – Thông tin IP của Gateway: 01 IP private này được sử dụng để cấu hình route từ Firewall đến Gateway. 
 **Các bước khởi tạo như sau:**
-Bước 1: Từ FPT Cloud portal, chọn Kubernetes. Chọn tab “Dedicated”. Chọn Create. Nhập vào các thông tin mong muốn của cụm K8s. 
+Bước 1: Từ FPT Cloud portal, chọn Kubernetes. Chọn tab "Dedicated". Chọn Create. Nhập vào các thông tin mong muốn của cụm K8s. 
 Bước 2: Cấu hình Firewall, tick vào mục Enable Firewall. 
 [![file](/img/migrated/image-1691469995783-e893b090.png)](/img/migrated/image-1691469995783-e893b090.png)
 Bước 3: Nhập vào Thông tin của Firewall, bao gồm: IP Gateway, IP Public và Private của Checkpoint.

@@ -1,17 +1,12 @@
 ---
 id: "fpt-monitoring-ip-access-control"
-title: "Fpt Monitoring Ip Access Control"
-sidebar_label: "Fpt Monitoring Ip Access Control"
-sidebar_position: "1"
+title: "FPT Monitoring – IP Access Control"
+sidebar_label: "FPT Monitoring – IP Access Control"
+sidebar_position: 1
 ---
 
 # FPT Monitoring – IP Access Control
 
-  * [ ![](/img/migrated/settings-db5eccfa.webp) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-efcbe2f9.webp) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Monitoring – IP Access Control
+IP Access Control is a security feature of FPT Cloud Monitoring that lets you set up and manage a list of external IP addresses allowed to access each FPT Cloud Monitoring endpoint in your workspace.
 
-##  Home page 
-01Initial Setup 
-02Hướng dẫn details (Tutorials)
+This feature actively blocks access from outside FPT Cloud that is not on the whitelist, helping you strengthen access security, prevent unauthorized access, and meet security compliance requirements.

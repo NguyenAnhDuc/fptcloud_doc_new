@@ -2305,22 +2305,22 @@ module.exports = {
         items: [
           {
             type: 'doc',
-            id: 'create_vpc/initial-setup',
+            id: 'create-vpc/initial-setup',
             label: 'Thiết lập ban đầu'
           },
           {
             type: 'doc',
-            id: 'create_vpc/create-vpc',
+            id: 'create-vpc/create-vpc',
             label: 'Khởi tạo VPC'
           },
           {
             type: 'doc',
-            id: 'create_vpc/rename-vpc',
+            id: 'create-vpc/rename-vpc',
             label: 'Rename VPC'
           },
           {
             type: 'doc',
-            id: 'create_vpc/activitylog-bell',
+            id: 'create-vpc/activitylog-bell',
             label: 'Ghi nhận Activity log và Recent task status'
           }
         ]
@@ -2340,7 +2340,7 @@ module.exports = {
         items: [
           {
             type: 'doc',
-            id: 'object-storage/initial-setup',
+            id: 'fpt-object-storage/initial-setup',
             label: 'Thiết lập ban đầu'
           },
           {
@@ -2350,89 +2350,89 @@ module.exports = {
             items: [
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-su-dung-object-storage-tren-fpt-portal',
+                id: 'fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal',
                 label: 'Sử dụng Object Storage trên FPT Portal'
               },
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-bucket',
+                id: 'fpt-object-storage/tutorials-bucket',
                 label: 'Bucket'
               },
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-object',
+                id: 'fpt-object-storage/tutorials-object',
                 label: 'Object'
               },
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-permissions',
+                id: 'fpt-object-storage/tutorials-permissions',
                 label: 'Permissions'
               },
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-bucket-config',
+                id: 'fpt-object-storage/tutorials-bucket-config',
                 label: 'Bucket Config'
               },
               {
                 type: 'doc',
-                id: 'object-storage/tutorials-encryption',
+                id: 'fpt-object-storage/tutorials-encryption',
                 label: 'Encryption'
               }
             ]
           },
           {
             type: 'doc',
-            id: 'object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal',
+            id: 'fpt-object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal',
             label: 'Quản lý Access Key'
           },
           {
             type: 'doc',
-            id: 'object-storage/tutorials-quan-ly-subuser',
+            id: 'fpt-object-storage/tutorials-quan-ly-subuser',
             label: 'Quản lý SubUser'
           },
           {
             type: 'doc',
-            id: 'object-storage/tutorials-su-dung-object-storage-tren-s3-client',
+            id: 'fpt-object-storage/tutorials-su-dung-object-storage-tren-s3-client',
             label: 'Sử dụng Object Storage trên S3 Browser'
           },
           {
             type: 'doc',
-            id: 'object-storage/tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client',
+            id: 'fpt-object-storage/tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client',
             label: 'Tích hợp FPT Object Storage với các S3-Client'
           },
           {
             type: 'doc',
-            id: 'object-storage/SDK-API-Reference',
+            id: 'fpt-object-storage/SDK-API-Reference',
             label: 'SDK API Reference'
           },
           {
             type: 'doc',
-            id: 'object-storage/migrate-bucket-data',
+            id: 'fpt-object-storage/migrate-bucket-data',
             label: 'Migrate bucket data'
           },
           {
             type: 'doc',
-            id: 'object-storage/su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application',
+            id: 'fpt-object-storage/su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application',
             label: 'Sử dụng FPT Object Storage làm media server'
           },
           {
             type: 'doc',
-            id: 'object-storage/xay-dung-mot-website-tinh-bang-fpt-object-storage',
+            id: 'fpt-object-storage/xay-dung-mot-website-tinh-bang-fpt-object-storage',
             label: 'Xây dựng một website tĩnh bằng FPT Object Storage'
           },
           {
             type: 'doc',
-            id: 'object-storage/mount-bucket-thanh-o-dia-tren-may-local',
+            id: 'fpt-object-storage/mount-bucket-thanh-o-dia-tren-may-local',
             label: 'Mount bucket thành ổ đĩa trên máy local'
           },
           {
             type: 'doc',
-            id: 'object-storage/clone-du-lieu-giua-hai-bucket-khac-nhau',
+            id: 'fpt-object-storage/clone-du-lieu-giua-hai-bucket-khac-nhau',
             label: 'Clone dữ liệu giữa hai bucket khác nhau'
           },
           {
             type: 'doc',
-            id: 'object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser',
+            id: 'fpt-object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser',
             label: 'Phân quyền sử dụng bucket cho các subuser'
           }
         ]
@@ -2787,10 +2787,30 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'managed-fpt-database-engine'
-          }
+          
+            { type: 'doc', id: 'managed-fpt-database-engine/managed-fpt-database-engine', label: 'Managed FPT Database Engine' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'managed-fpt-database-engine/tao-security-groups', label: 'Tao Security Groups' },
+            { type: 'doc', id: 'managed-fpt-database-engine/tạo-floating-IP', label: 'Tạo Floating Ip' },
+            { type: 'doc', id: 'managed-fpt-database-engine/tạo-subnets', label: 'Tạo Subnets' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Phan-quyen-tinh-nang-Database', label: 'Phân quyền tính năng database' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Roles', label: '1. Tạo Roles' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Provision-Database-Engine', label: 'Provision Database Engine' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Khoi-tao-Database-Engine', label: 'Khoi tao Database Engine' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Thao-tac-voi-Database-Engine', label: 'Thao tac voi Database Engine' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Backups', label: 'Quản lý backup' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Tao-backups-service', label: 'Tao Backups Service' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Cap-nhat-va-xoa-Backup-job', label: 'Cap Nhat va xoa Backup job' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Cap-nhat-va-xoa-Backup-Service', label: 'Trường hợp quý khách muốn cập nhật hoặc xóa Backup service.' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Restore', label: '1 Tạo Restore Point' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Resource', label: 'Quan ly Resource' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Configuration', label: 'Quan ly Configuration' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Process-Monitoring', label: 'Quan ly Process Monitoring' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Quan-ly-Event-Logs', label: 'Quan ly Event Logs' },
+            { type: 'doc', id: 'managed-fpt-database-engine/DB-proxy', label: 'DB Proxy' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Khoi-tao-DB-Proxy', label: 'Khoi tao db Proxy' },
+            { type: 'doc', id: 'managed-fpt-database-engine/Thao-tac-voi-DB-Proxy', label: 'Thao tac voi db Proxy' }
+          
         ]
       }
     ]
@@ -2871,10 +2891,13 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-api-gateway'
-          }
+          
+            { type: 'doc', id: 'fpt-api-gateway/fpt-api-gateway', label: 'FPT API Gateway' },
+            { type: 'doc', id: 'fpt-api-gateway/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-api-gateway/tao-api-gateway', label: 'Tạo API Gateway' },
+            { type: 'doc', id: 'fpt-api-gateway/xem-thong-tin-api-gateway', label: 'Xem thông tin API Gateway' },
+            { type: 'doc', id: 'fpt-api-gateway/xoa-api-gateway', label: 'Xóa API Gateway' }
+          
         ]
       },
       {
@@ -2883,10 +2906,27 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-event-gateway'
-          }
+          
+            { type: 'doc', id: 'fpt-event-gateway/fpt-event-gateway', label: 'Fpt Event Gateway' },
+            { type: 'doc', id: 'fpt-event-gateway/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-event-gateway/tao-event-gateway', label: 'Tao Event Gateway' },
+            { type: 'doc', id: 'fpt-event-gateway/xem-thong-tin-event-gateway', label: 'Xem Thong tin Event Gateway' },
+            { type: 'doc', id: 'fpt-event-gateway/cap-nhat-thong-tin-event-gateway', label: 'Cap Nhat Thong tin Event Gateway' },
+            { type: 'doc', id: 'fpt-event-gateway/xoa-event-gateway', label: 'Xoa Event Gateway' },
+            { type: 'doc', id: 'fpt-event-gateway/quan-ly-security', label: 'Quan Ly Security' },
+            { type: 'doc', id: 'fpt-event-gateway/tao-moi-security', label: 'Tao moi Security' },
+            { type: 'doc', id: 'fpt-event-gateway/cap-nhat-thong-tin-security', label: 'Cap Nhat Thong tin Security' },
+            { type: 'doc', id: 'fpt-event-gateway/xoa-security', label: 'Xoa Security' },
+            { type: 'doc', id: 'fpt-event-gateway/quan-ly-router-group', label: 'Quan Ly Router Group' },
+            { type: 'doc', id: 'fpt-event-gateway/tao-router-group', label: 'Tao Router Group' },
+            { type: 'doc', id: 'fpt-event-gateway/xem-thong-tin-router-group', label: 'Xem Thong tin Router Group' },
+            { type: 'doc', id: 'fpt-event-gateway/cap-nhat-thong-tin-router-group', label: 'Cap Nhat Thong tin Router Group' },
+            { type: 'doc', id: 'fpt-event-gateway/xoa-router-group', label: 'Xoa Router Group' },
+            { type: 'doc', id: 'fpt-event-gateway/quan-ly-router', label: 'Quan Ly Router' },
+            { type: 'doc', id: 'fpt-event-gateway/tao-router', label: 'Tao Router' },
+            { type: 'doc', id: 'fpt-event-gateway/cap-nhat-thong-tin-router', label: 'Cap Nhat Thong tin Router' },
+            { type: 'doc', id: 'fpt-event-gateway/xoa-router', label: 'Xoa Router' }
+          
         ]
       }
     ]
@@ -3707,10 +3747,14 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'cloud-advisor'
-          }
+          
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor', label: 'Cloud Advisor' },
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor-introduction', label: 'Giới thiệu' },
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor-dashboard', label: 'Phân loại theo nhóm' },
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor-security', label: 'Các vấn đề bảo mật' },
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor-cost-optimization', label: 'Các vấn đề tối ưu hóa chi phí' },
+            { type: 'doc', id: 'cloud-advisor/cloud-advisor-fault-tolerance', label: 'Fault tolerance' }
+          
         ]
       },
       {
@@ -3718,10 +3762,20 @@ module.exports = {
         label: 'IP Access Control',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-monitoring-ip-access-control'
-          }
+          
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/fpt-monitoring-ip-access-control', label: 'FPT Monitoring – IP Access Control' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal', label: 'Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/gioi-thieu-chung', label: 'Gioi Thieu Chung' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/truy-cap-tinh-nang', label: 'Truy Cap Tinh Nang' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/quan-li-danh-sach-whitelisted-ip', label: 'Quan Li Danh Sach...' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/xem-danh-sach-whitelisted-ip', label: 'Mỗi endpoint (Dashboard, Metric, Log, Trace) có bảng IP riêng.' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/them-moi-whitelisted-ip', label: 'Click nút \'Whitelist IP/Range\' trên bảng tương ứng.' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/xoa-whitelisted-ip', label: 'thành công' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/retry-ip', label: 'Áp dụng cho các IP có trạng thái \'Whitelist Failed\'/\'Blacklist Failed\'.' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/quy-tac-he-thong', label: 'Mặc định khi IP Access Control tắt, mọi IP đều có thể truy cập.' },
+            { type: 'doc', id: 'fpt-monitoring-ip-access-control/lien-he-ho-tro', label: 'Lien He Ho Tro' }
+          
         ]
       },
       {
@@ -3730,10 +3784,29 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'huong-dan-su-dung-grafana'
-          }
+          
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/huong-dan-su-dung-grafana', label: 'Tổng quan' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/initial-setup', label: 'Khởi tạo ban đầu' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/khoi-tao-workspace', label: 'Khởi tạo Workspace' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/truy-cap-grafana', label: 'Truy cập Grafana' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tich-hop-template', label: 'Tích hợp Template' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tich-hop-dashboard-template', label: 'Tích hợp Dashboard' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tich-hop-alert-rule-template', label: 'Tích hợp Alert Rule' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tich-hop-monitoring-kubernetes', label: 'Monitoring K8S' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/huong-dan-tich-hop-k8s', label: 'Tích hợp K8s' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/xem-thong-tin-metric', label: 'Xem thông tin Metric' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/xem-thong-tin-logs', label: 'Xem thông tin Logs' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/xem-thong-tin-trace', label: 'Xem thông tin Trace' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/query-metric-data', label: 'Hướng dẫn cách tự xây dựng truy vấn metric data trong Grafana.' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tich-hop-monitoring-database', label: 'Monitoring Database' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/huong-dan-tich-hop-database', label: 'Tích hợp Database' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/xem-thong-tin-monitor', label: 'Xem thông tin Monitor' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/alerting', label: '8. Quản trị Cảnh báo (Alerting)' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/tao-alert-rule', label: 'Tạo Alert Rule' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/contact-point', label: '1. Cách thiết lập Telegram bot' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/usage', label: 'Kiểm tra sử dụng' },
+            { type: 'doc', id: 'huong-dan-su-dung-grafana/cau-hoi-thuong-gap', label: 'Câu hỏi thường gặp' }
+          
         ]
       }
     ]
@@ -4709,10 +4782,9 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'zalo-ticket-support'
-          }
+          
+            { type: 'doc', id: 'zalo-ticket-support/zalo-ticket-support', label: 'Zalo ticket support' }
+          
         ]
       },
       {
@@ -4802,10 +4874,33 @@ module.exports = {
         className: 'sidebar-migrated',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'incident-management'
-          }
+          
+            { type: 'doc', id: 'incident-management/incident-management', label: 'Quản lý sự cố' },
+            { type: 'doc', id: 'incident-management/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'incident-management/cau-hinh-integrations', label: 'Cấu hình integrations' },
+            { type: 'doc', id: 'incident-management/incoming-webhook', label: 'Incoming webhook' },
+            { type: 'doc', id: 'incident-management/grafana-webhook', label: 'Grafana webhook' },
+            { type: 'doc', id: 'incident-management/outgoing-webhook', label: 'Outgoing webhook' },
+            { type: 'doc', id: 'incident-management/jira', label: 'Atlassian Jira' },
+            { type: 'doc', id: 'incident-management/slack', label: 'Slack' },
+            { type: 'doc', id: 'incident-management/telegram', label: 'Telegram' },
+            { type: 'doc', id: 'incident-management/microsoft-teams', label: 'Microsoft Teams' },
+            { type: 'doc', id: 'incident-management/cau-hinh-settings', label: 'Cấu hình settings' },
+            { type: 'doc', id: 'incident-management/incident-label', label: 'Incident label' },
+            { type: 'doc', id: 'incident-management/incident-severity', label: 'Incident severity' },
+            { type: 'doc', id: 'incident-management/incident-status', label: 'Incident status' },
+            { type: 'doc', id: 'incident-management/tao-incident', label: 'Tạo incident' },
+            { type: 'doc', id: 'incident-management/declare-incident', label: 'Khai báo incident trực tiếp' },
+            { type: 'doc', id: 'incident-management/create-by-incoming-webhook', label: 'Tạo qua incoming webhook' },
+            { type: 'doc', id: 'incident-management/quan-tri-incident', label: 'Quản trị incident' },
+            { type: 'doc', id: 'incident-management/filter-incidents', label: 'Tìm kiếm và lọc incidents' },
+            { type: 'doc', id: 'incident-management/xem-chi-tiet-incident', label: 'Xem chi tiết incident' },
+            { type: 'doc', id: 'incident-management/post-incident-activity', label: 'Ghi lại hoạt động xử lý' },
+            { type: 'doc', id: 'incident-management/thay-doi-trang-thai-incident', label: 'Thay đổi trạng thái incident' },
+            { type: 'doc', id: 'incident-management/thay-doi-muc-do-anh-huong-incident', label: 'Thay đổi mức độ ảnh hưởng' },
+            { type: 'doc', id: 'incident-management/copy-activities-as-markdown', label: 'Xuất activity log dạng markdown' },
+            { type: 'doc', id: 'incident-management/truc-quan-du-lieu-incident', label: 'Trực quan dữ liệu incident' }
+          
         ]
       }
     ]
@@ -4821,22 +4916,50 @@ module.exports = {
         className: 'sidebar-migrated',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'model-hub'
-          }
+          
+            { type: 'doc', id: 'model-hub/model-hub', label: 'Model Hub' },
+            { type: 'doc', id: 'model-hub/danh-sach-model-catalog', label: 'Danh Sach Model Catalog' },
+            { type: 'doc', id: 'model-hub/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'model-hub/dang-nhap', label: 'Đăng nhập' },
+            { type: 'doc', id: 'model-hub/danh-sach-model', label: 'Danh Sach Model' },
+            { type: 'doc', id: 'model-hub/chi-tiet-model', label: 'Mục đích: Xem chi tiết model' },
+            { type: 'doc', id: 'model-hub/tao-model', label: 'Mục đích: Thêm mới model vào hệ thống' },
+            { type: 'doc', id: 'model-hub/sua-model', label: 'Mục đích: chỉnh sửa lại các thông tin của Model đã tạo' },
+            { type: 'doc', id: 'model-hub/xoa-model', label: 'Mục đích: xóa 1 model khỏi danh sách các model đã tạo' },
+            { type: 'doc', id: 'model-hub/tao-verison', label: 'Tao Verison' },
+            { type: 'doc', id: 'model-hub/update-version', label: 'Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo' },
+            { type: 'doc', id: 'model-hub/delete-version', label: 'Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống' },
+            { type: 'doc', id: 'model-hub/upload-file', label: 'Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng' },
+            { type: 'doc', id: 'model-hub/download-file', label: 'Download File' },
+            { type: 'doc', id: 'model-hub/delete-file', label: 'Mục đích: Xoá các tệp tương ứng với version' },
+            { type: 'doc', id: 'model-hub/add-share', label: 'Mục đích: Chia sẻ model cho User khác không cùng Tenant' },
+            { type: 'doc', id: 'model-hub/share-detail-invited', label: 'Các bước thực hiện:' },
+            { type: 'doc', id: 'model-hub/share-detail-joined', label: 'Các bước thực hiện:' },
+            { type: 'doc', id: 'model-hub/update-share', label: 'Mục đích: Cập nhật quyền của người dùng đã được chia sẻ' },
+            { type: 'doc', id: 'model-hub/delete-share', label: 'Delete Share' },
+            { type: 'doc', id: 'model-hub/clone-model', label: 'Mục đích: Nhân bản 1 model giống với model đã có.' },
+            { type: 'doc', id: 'model-hub/base-model', label: 'Base Model' },
+            { type: 'doc', id: 'model-hub/create-organization', label: 'Create Organization' },
+            { type: 'doc', id: 'model-hub/view-update-organization', label: 'Mục đích: view detail organization' },
+            { type: 'doc', id: 'model-hub/model-deployment', label: 'Mục đích: Kích hoạt, bỏ kích hoạt chức năng deployment của model' },
+            { type: 'doc', id: 'model-hub/model-catalog', label: 'Model Catalog' },
+            { type: 'doc', id: 'model-hub/chi-tiet-model-catalog', label: 'Mục đích: Xem chi tiết model' }
+          
         ]
       },
       {
         type: 'category',
-        label: 'Token',
+        label: 'User Token',
         className: 'sidebar-migrated',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'token'
-          }
+          
+            { type: 'doc', id: 'user-token/token', label: 'Token' },
+            { type: 'doc', id: 'user-token/overview', label: 'Tổng quan' },
+            { type: 'doc', id: 'user-token/create-token', label: 'Tạo token mới' },
+            { type: 'doc', id: 'user-token/revoke-token', label: 'Thu hồi token' },
+            { type: 'doc', id: 'user-token/fqas', label: 'Câu hỏi thường gặp' }
+          
         ]
       }
     ]
@@ -5185,10 +5308,28 @@ module.exports = {
         className: 'sidebar-migrated',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-kafka'
-          }
+          
+            { type: 'doc', id: 'fpt-kafka/fpt-kafka', label: 'FPT Kafka' },
+            { type: 'doc', id: 'fpt-kafka/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-kafka/quick-starts', label: 'Bắt đầu nhanh' },
+            { type: 'doc', id: 'fpt-kafka/manage-topics', label: 'Quản lý topic' },
+            { type: 'doc', id: 'fpt-kafka/create-topics', label: 'Tạo topic' },
+            { type: 'doc', id: 'fpt-kafka/view-topics', label: 'Xem topic' },
+            { type: 'doc', id: 'fpt-kafka/edit-topics', label: 'Chỉnh sửa topic' },
+            { type: 'doc', id: 'fpt-kafka/delete-topics', label: 'Xóa topic' },
+            { type: 'doc', id: 'fpt-kafka/manage-credentials', label: 'Quản lý credential' },
+            { type: 'doc', id: 'fpt-kafka/create-credentials', label: 'Tạo credential' },
+            { type: 'doc', id: 'fpt-kafka/edit-credentials', label: 'Chỉnh sửa credential' },
+            { type: 'doc', id: 'fpt-kafka/delete-credentials', label: 'Xóa credential' },
+            { type: 'doc', id: 'fpt-kafka/manage-acls', label: 'Quản lý ACL' },
+            { type: 'doc', id: 'fpt-kafka/create-acls', label: 'Tạo ACL' },
+            { type: 'doc', id: 'fpt-kafka/delete-acls', label: 'Xóa ACL' },
+            { type: 'doc', id: 'fpt-kafka/manage-consumer-groups', label: 'Quản lý consumer group' },
+            { type: 'doc', id: 'fpt-kafka/create-consumer-groups', label: 'Tạo consumer group' },
+            { type: 'doc', id: 'fpt-kafka/view-consumer-groups', label: 'Xem consumer group' },
+            { type: 'doc', id: 'fpt-kafka/delete-consumer-groups', label: 'Xóa consumer group' },
+            { type: 'doc', id: 'fpt-kafka/demo', label: 'Demo' }
+          
         ]
       },
       {
@@ -5197,10 +5338,22 @@ module.exports = {
         className: 'sidebar-migrated',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-message-bus-for-rabbitmq'
-          }
+          
+            { type: 'doc', id: 'fpt-message-bus/fpt-message-bus-for-rabbitmq', label: 'FPT Message Bus for RabbitMQ' },
+            { type: 'doc', id: 'fpt-message-bus/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-message-bus/huong-dan-nhanh-quick-starts', label: 'Hướng dẫn nhanh' },
+            { type: 'doc', id: 'fpt-message-bus/quan-ly-queues', label: 'Quản lý queues' },
+            { type: 'doc', id: 'fpt-message-bus/tao-queues', label: 'Tạo queue' },
+            { type: 'doc', id: 'fpt-message-bus/xem-queues', label: 'Xem queue' },
+            { type: 'doc', id: 'fpt-message-bus/gui-nhan-message-trong-queues', label: 'Gửi và nhận messages trong queue' },
+            { type: 'doc', id: 'fpt-message-bus/xoa-queues', label: 'Xóa queue' },
+            { type: 'doc', id: 'fpt-message-bus/quan-ly-topics', label: 'Quản lý topics' },
+            { type: 'doc', id: 'fpt-message-bus/tao-topics', label: 'Tạo topic' },
+            { type: 'doc', id: 'fpt-message-bus/tao-subscriptions', label: 'Tạo subscription' },
+            { type: 'doc', id: 'fpt-message-bus/sua-topic', label: 'Sửa topic' },
+            { type: 'doc', id: 'fpt-message-bus/gui-nhan-messages-trong-topics', label: 'Gửi và nhận messages trong topic' },
+            { type: 'doc', id: 'fpt-message-bus/xoa-topics', label: 'Xóa topic' }
+          
         ]
       }
     ]
@@ -5216,10 +5369,32 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'fpt-managed-gpu-cluster'
-          }
+          
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/fpt-managed-gpu-cluster', label: 'Fpt Managed Gpu Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/Initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster', label: 'Quan Ly Managed Gpu Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi', label: 'Lưu ý :' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/xem-danh-sach-managed-gpu-cluster', label: 'Xem Danh Sach Managed...' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/lay-thong-tin-truy-cap-cluster', label: 'Lấy thông tin truy cập Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/xoa-managed-gpu-cluster', label: 'Xoa Managed gpu Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/thay-doi-cau-hinh-k8s', label: 'Thay Doi Cau Hinh K8S' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/add-them-worker-group', label: 'Add Them Worker Group' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/tinh-nang-manual-scale-managed-gpu-cluster', label: 'Tinh Nang Manual Scale Managed gpu Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster', label: 'Chinh sua Label Taint cho Worker Group Managed gpu Cluster' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/tinh-nang-chuyen-worker-base-managed-gpu-cluster', label: 'Tinh Nang Chuyen Worker...' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/service-load-balancer-managed-gpu-cluster', label: 'Service Load Balancer Managed...' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/trien-khai-ung-dung-tren-worker-managed-gpu-cluster', label: 'Trien Khai Ung Dung...' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/file-storage-high-performance', label: 'Lưu ý điều kiện để sử dụng High Performance Storage bao gồm :' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/slurm-on-fpt-cloud', label: 'Slurm On Fpt Cloud' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/vgpu-for-container', label: 'Giới thiệu tính năng vGPU trong FPT Kubernetes engine' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/gpu-time-sharing', label: 'Giới thiệu tính năng time sharing/time slicing trong FPT Kubernetes engine' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/mps-gpu-sharing', label: 'Mps Gpu Sharing' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/try-example-workload', label: 'Try Example Workload' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/single-gpu-example', label: 'Chuẩn bị môi trường' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/multi-gpus-example', label: 'Chuẩn bị môi trường' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/multi-nodes-example', label: 'vLLM và multi-host serving' },
+            { type: 'doc', id: 'fpt-managed-gpu-cluster/finetune-llm-models', label: 'Chuẩn bị môi trường' }
+          
         ]
       }
     ]
@@ -5235,10 +5410,13 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'terraform'
-          }
+          
+            { type: 'doc', id: 'terraform/terraform', label: 'Terraform' },
+            { type: 'doc', id: 'terraform/overview-terraform', label: 'Tổng quan Terraform' },
+            { type: 'doc', id: 'terraform/set-up', label: 'Hướng dẫn cài đặt' },
+            { type: 'doc', id: 'terraform/document-terraform', label: 'Tài liệu Terraform' },
+            { type: 'doc', id: 'terraform/command-terraform', label: 'Script tài nguyên Terraform' }
+          
         ]
       },
       {
@@ -5247,10 +5425,10 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'iac-old'
-          }
+          
+            { type: 'doc', id: 'iac-old/iac-old', label: 'IaC (Infrastructure as Code)' },
+            { type: 'doc', id: 'iac-old/overview', label: 'Configure the OpenStack Provider' }
+          
         ]
       }
     ]
@@ -5266,10 +5444,24 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'app-catalogs'
-          }
+          
+            { type: 'doc', id: 'fpt-app-catalogs/app-catalogs', label: 'FPT App Catalogs' },
+            { type: 'doc', id: 'fpt-app-catalogs/initial-setup', label: 'Thiết lập ban đầu' },
+            { type: 'doc', id: 'fpt-app-catalogs/tao-moi-app-catalogs', label: 'Tạo mới App Catalog' },
+            { type: 'doc', id: 'fpt-app-catalogs/xem-thong-tin-chi-tiet-app-catalog', label: 'Xem thông tin chi tiết App Catalog' },
+            { type: 'doc', id: 'fpt-app-catalogs/ket-noi-cluster-toi-app-catalog-management', label: 'Kết nối cluster tới App Catalog Management' },
+            { type: 'doc', id: 'fpt-app-catalogs/quan-ly-app-catalogs', label: 'Quản lý App Catalogs' },
+            { type: 'doc', id: 'fpt-app-catalogs/search-app-catalogs-trong-repository', label: 'Tìm kiếm App Catalog trong repository' },
+            { type: 'doc', id: 'fpt-app-catalogs/deploy-app-catalogs-toi-cluster', label: 'Deploy App Catalog tới cluster' },
+            { type: 'doc', id: 'fpt-app-catalogs/quan-ly-applications-da-duoc-deploy', label: 'Quản lý applications đã được deploy' },
+            { type: 'doc', id: 'fpt-app-catalogs/filter-apps-da-duoc-deploy-theo-cluster', label: 'Filter apps đã deploy theo cluster' },
+            { type: 'doc', id: 'fpt-app-catalogs/xem-chi-tiet-app-da-deploy', label: 'Xem chi tiết app đã deploy' },
+            { type: 'doc', id: 'fpt-app-catalogs/thay-doi-cau-hinh-cua-applications', label: 'Thay đổi cấu hình của applications' },
+            { type: 'doc', id: 'fpt-app-catalogs/rollback-app-ve-cau-hinh-cu', label: 'Rollback app về cấu hình cũ' },
+            { type: 'doc', id: 'fpt-app-catalogs/upgrade-applications-toi-version-moi-nhat', label: 'Upgrade applications tới version mới nhất' },
+            { type: 'doc', id: 'fpt-app-catalogs/uninstall-applications-neu-muon-xoa-bo', label: 'Uninstall applications' },
+            { type: 'doc', id: 'fpt-app-catalogs/xoa-app-catalog-management', label: 'Xóa App Catalog Management' }
+          
         ]
       },
       {
@@ -5278,10 +5470,15 @@ module.exports = {
         className: 'sidebar-pending',
         collapsed: true,
         items: [
-          {
-            type: 'autogenerated',
-            dirName: 'gateway'
-          }
+          
+            { type: 'doc', id: 'gateway/gateway', label: 'Gateway' },
+            { type: 'doc', id: 'gateway/huong-dan', label: 'Hướng dẫn truy cập' },
+            { type: 'doc', id: 'gateway/quan-ly-danh-sach-gateway', label: 'Quản lý danh sách Gateway' },
+            { type: 'doc', id: 'gateway/quan-ly-route-1-gateway', label: 'Quản lý Route' },
+            { type: 'doc', id: 'gateway/quan-ly-nat-tung-gateway', label: 'Quản lý NAT Rule' },
+            { type: 'doc', id: 'gateway/quan-ly-no-nat-rule-theo-gateway', label: 'Quản lý NO NAT Rule' },
+            { type: 'doc', id: 'gateway/tinh-nang-khac', label: 'Tính năng khác' }
+          
         ]
       }
     ]

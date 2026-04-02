@@ -6,7 +6,7 @@ sidebar_label: "Truy cập thông tin chi tiết của Cluster"
 sidebar_position: 6
 ---
 
-# Truy Cap Thong Tin Chi Tiet Cua Cluster
+# Truy cập thông tin chi tiết của cluster
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn Tab **Managed**. Chọn **Cluster** muốn xem thông tin chi tiết.
 [![](/img/migrated/Picture10-9e9b162d.png)](/img/migrated/Picture10-9e9b162d.png)

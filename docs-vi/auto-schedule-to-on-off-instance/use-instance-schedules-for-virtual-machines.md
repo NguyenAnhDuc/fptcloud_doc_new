@@ -1,19 +1,17 @@
 ---
 id: "use-instance-schedules-for-virtual-machines"
-title: "Use Instance Schedules For Virtual Machines"
-description: "Use Instance Schedules For Virtual Machines"
-sidebar_label: "Use Instance Schedules For Virtual Machines"
+title: "Sử dụng instance schedule cho máy ảo"
+description: "Hướng dẫn sử dụng instance schedule để tự động bật/tắt máy ảo trên FPT Cloud."
+sidebar_label: "Sử dụng instance schedule cho máy ảo"
 sidebar_position: 7
 ---
 
-# Use Instance Schedules For Virtual Machines
+# Sử dụng instance schedule cho máy ảo
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
+Instance schedule cho phép bạn tự động hóa việc bật và tắt các máy ảo theo lịch định sẵn. Để sử dụng tính năng này, bạn cần thực hiện theo trình tự:
 
-Sử dụng instance schedules cho các máy ảo
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
+1. [Tạo một instance schedule mới](./create-new-instance.md) với thông tin thời gian và tần suất phù hợp.
+2. [Gắn các máy ảo](./attach-schedule-to-instance.md) vào schedule vừa tạo.
+3. Theo dõi trạng thái thực thi trong trang [chi tiết instance schedule](./view-detail-instance.md).
 
-* * *
+Khi không còn nhu cầu sử dụng, bạn có thể [gỡ máy ảo](./detach-schedule-to-instance.md) ra khỏi schedule hoặc [xóa schedule](./delete-instance-schedule.md).

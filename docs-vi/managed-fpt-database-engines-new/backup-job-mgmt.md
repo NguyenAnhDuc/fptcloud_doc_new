@@ -32,7 +32,7 @@ Các bước cấu hình tương tự như khi tạo Full Backup Job.
 ### 3. Chạy Job Backup
 Thông thường, sau khi được thiết lập thành công, job backup sẽ tự động chạy định kỳ theo lịch đã cài đặt và tạo ra các bản sao lưu (restore points) để phục vụ cho việc khôi phục cơ sở dữ liệu (tham khảo chức năng Restore). Nếu người dùng cần tạo bản snapshot cơ sở dữ liệu, có thể thực hiện chạy job backup theo các bước sau:
 Trên màn hình quản lý dịch vụ Backup, nhấp vào nút **Run Now** (biểu tượng mũi tên) tương ứng với job backup cần chạy để bắt đầu thực hiện sao lưu cơ sở dữ liệu.
-Hệ thống xuất hiện hộp thoại xác nhận chạy job. Nhập “**run** ” để xác nhận một lần nữa và bấm **Confirm**. Sau khi thực hiện xong sẽ sinh ra một bản backup tương ứng với một restore point trong màn Restore. Thông tin backup job chạy thành công hay lỗi cũng sẽ được cập nhật tại bảng **Backup Request** trên màn hình quản lý dịch vụ Backup
+Hệ thống xuất hiện hộp thoại xác nhận chạy job. Nhập "**run** " để xác nhận một lần nữa và bấm **Confirm**. Sau khi thực hiện xong sẽ sinh ra một bản backup tương ứng với một restore point trong màn Restore. Thông tin backup job chạy thành công hay lỗi cũng sẽ được cập nhật tại bảng **Backup Request** trên màn hình quản lý dịch vụ Backup
 **Lưu ý** : Đối với engine Kafka, thao tác backup có thể gây gián đoạn tạm thời. Bạn nên chạy backup vào khung thời gian ít tải để hạn chế ảnh hưởng đến dịch vụ.
 ### 4. Cập nhật Job Backup
 Khi cần điều chỉnh các cấu hình đã thiết lập cho backup job, tại màn hình quản lý dịch vụ Backup, nhấp vào nút **Update Backup Job** (biểu tượng bút chì tương ứng với job cần cập nhật) để mở popup cập nhật cấu hình job. 

@@ -39,7 +39,7 @@ Sau đó sử dụng chức năng Edit as yaml để cấu hình annotations: [!
 |   |   |  
 | --- | --- |  
 | argocd-image-updater.argoproj.io/demo-images-updater.allow-tags: regexp:^dev-[0-9a-f]{8}$   | Chỉ định những tag name được cho phép để update tới repository.   
-VD ở đây chỉ cho phép cập nhật với các tag với biểu thức chính quy khớp với “dev-“ và chuỗi thập lục phân có 8 chữ số.   
+VD ở đây chỉ cho phép cập nhật với các tag với biểu thức chính quy khớp với "dev-" và chuỗi thập lục phân có 8 chữ số.   
 VD: dev- a5fb3d31  |  
 | argocd-image-updater.argoproj.io/****.pull-secret: pullsecret:argocd-ebwa49tw/habor-secret  | pullSecret để argocd images updater kiểm tra các tag images trên registry. Được cấu hình theo mẫu:   
 Ví dụ: : demo-images-updater   

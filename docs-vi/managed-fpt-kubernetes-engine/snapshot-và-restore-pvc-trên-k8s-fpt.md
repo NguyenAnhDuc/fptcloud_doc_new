@@ -1,22 +1,19 @@
 ---
 id: "snapshot-và-restore-pvc-trên-k8s-fpt"
 title: "Snapshot và restore persistent volume trong Kubernetes"
-description: "Snapshot và restore persistent volume trong Kubernetes"
-sidebar_label: "Snapshot và restore persistent volume trong Kubernetes"
+description: "Tổng quan về tính năng snapshot và restore PVC trong FPT Cloud Managed Kubernetes."
+sidebar_label: "Snapshot và restore PVC"
 sidebar_position: 45
 ---
 
-# Managed – FPT Kubernetes Engine
+# Snapshot và restore persistent volume trong Kubernetes
 
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/Group-749ce1fb.png) Các lưu ý khi sử dụng M-FKE ](javascript: "Các lưu ý khi sử dụng M-FKE")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/suggestion-74a9dc8f.png) Một số gợi ý mẫu (Samples) ](javascript: "Một số gợi ý mẫu \(Samples\)")
+FPT Cloud Managed Kubernetes Engine (M-FKE) hỗ trợ tạo snapshot và restore Persistent Volume Claim (PVC).
 
-Snapshot và restore persistent volume trong Kubernetes
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-kubernetes-engine%2F "Managed – FPT Kubernetes Engine")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-kubernetes-engine%2F "Managed – FPT Kubernetes Engine")
+Xem các tài liệu liên quan:
 
-* * *
+- **[Tính năng snapshot Persistent Volume](./snapshot-persistent-volume.md)**: Hướng dẫn tạo snapshot PV trên Kubernetes, bao gồm cấu hình VolumeSnapshotClass và VolumeSnapshot.
+- **[Tính năng restore volume từ snapshot](./restore-persistent-volume-tren-k8s.md)**: Hướng dẫn restore dữ liệu PV từ snapshot đã tạo.
+- **[Đặt lịch snapshot PVC](./thuc-hien-dat-lich-snapshot-pvc.md)**: Hướng dẫn tự động tạo snapshot PVC định kỳ bằng CronJob.
+- **[Đặt lịch xoá PVC snapshot](./thuc-hien-dat-lich-xoa-pvc-snapshot.md)**: Hướng dẫn tự động xoá các snapshot PVC cũ bằng CronJob.
+- **[Tính năng Backup & Restore](./backup-restore-vn.md)**: Hướng dẫn quản lý backup và restore PVC qua giao diện FPT Cloud Portal.

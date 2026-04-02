@@ -1,8 +1,8 @@
 ---
 id: "Manage-topics"
-title: "FPT Message Bus"
-description: "FPT Message Bus"
-sidebar_label: "FPT Message Bus"
+title: "Manage Topics"
+description: "Create, edit, and delete Topics on FPT Message Bus (RabbitMQ)."
+sidebar_label: "Manage Topics"
 sidebar_position: 9
 ---
 

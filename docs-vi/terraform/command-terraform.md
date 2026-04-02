@@ -1,51 +1,66 @@
 ---
 id: "command-terraform"
-title: "Script tạo instance:"
-description: "* Script tạo instance:"
-sidebar_label: "Script tạo instance:"
+title: "Script tài nguyên Terraform"
+description: "Ví dụ script Terraform để tạo và hủy các tài nguyên FPT Cloud bao gồm instance, floating IP, security group và storage disk."
+sidebar_label: "Script tài nguyên Terraform"
 sidebar_position: 5
 pagination_next: null
 ---
 
-# Script tạo instance:
+# Script tài nguyên Terraform
 
-## **1. Instance**
-  * Script tạo instance:
+## 1. Instance
 
-[![file](/img/migrated/image-1723437678446-b7530cf5.png)](/img/migrated/image-1723437678446-b7530cf5.png)
-  * Kết quả sau khi chạy script tạo instance thành công:
+- Script tạo instance:
 
-[![file](/img/migrated/image-1723437688217-2eb8bf11.png)](/img/migrated/image-1723437688217-2eb8bf11.png)
-  * Hủy instance đã tạo:
+  [![Script tạo instance](/img/migrated/image-1723437678446-b7530cf5.png)](/img/migrated/image-1723437678446-b7530cf5.png)
 
-[![file](/img/migrated/image-1723437700286-b35fddad.png)](/img/migrated/image-1723437700286-b35fddad.png)
-## **2. Floating IP**
-  * Script tạo floating IP:
+- Kết quả sau khi chạy script tạo instance thành công:
 
-[![file](/img/migrated/image-1723437714387-6c0be5da.png)](/img/migrated/image-1723437714387-6c0be5da.png)
-  * Kết quả sau khi chạy script tạo floating IP thành công:
+  [![Instance được tạo thành công](/img/migrated/image-1723437688217-2eb8bf11.png)](/img/migrated/image-1723437688217-2eb8bf11.png)
 
-[![file](/img/migrated/image-1723437730547-f78e85ae.png)](/img/migrated/image-1723437730547-f78e85ae.png)
-  * Hủy floating IP đã tạo:
+- Hủy instance đã tạo:
 
-[![file](/img/migrated/image-1723437746142-363beff3.png)](/img/migrated/image-1723437746142-363beff3.png)
-## **3. Security group**
-  * Script tạo security group:
+  [![Lệnh hủy instance](/img/migrated/image-1723437700286-b35fddad.png)](/img/migrated/image-1723437700286-b35fddad.png)
 
-[![file](/img/migrated/image-1723437759616-a8b23b4a.png)](/img/migrated/image-1723437759616-a8b23b4a.png)
-  * Kết quả sau khi chạy script tạo security group thành công:
+## 2. Floating IP
 
-[![file](/img/migrated/image-1723437770927-7e2c545b.png)](/img/migrated/image-1723437770927-7e2c545b.png)
-  * Hủy security group đã tạo:
+- Script tạo floating IP:
 
-[![file](/img/migrated/image-1723437790818-b15cbbf6.png)](/img/migrated/image-1723437790818-b15cbbf6.png)
-## **4. Storage disk**
-  * Script tạo storage:
+  [![Script tạo floating IP](/img/migrated/image-1723437714387-6c0be5da.png)](/img/migrated/image-1723437714387-6c0be5da.png)
 
-[![file](/img/migrated/image-1723437806000-91108bc0.png)](/img/migrated/image-1723437806000-91108bc0.png)
-  * Kết quả sau khi chạy script tạo storage thành công:
+- Kết quả sau khi chạy script tạo floating IP thành công:
 
-[![file](/img/migrated/image-1723437818502-769b79b9.png)](/img/migrated/image-1723437818502-769b79b9.png)
-  * Hủy storage đã tạo:
+  [![Floating IP được tạo thành công](/img/migrated/image-1723437730547-f78e85ae.png)](/img/migrated/image-1723437730547-f78e85ae.png)
 
-[![file](/img/migrated/image-1723437832407-dc6858ee.png)](/img/migrated/image-1723437832407-dc6858ee.png)
+- Hủy floating IP đã tạo:
+
+  [![Lệnh hủy floating IP](/img/migrated/image-1723437746142-363beff3.png)](/img/migrated/image-1723437746142-363beff3.png)
+
+## 3. Security group
+
+- Script tạo security group:
+
+  [![Script tạo security group](/img/migrated/image-1723437759616-a8b23b4a.png)](/img/migrated/image-1723437759616-a8b23b4a.png)
+
+- Kết quả sau khi chạy script tạo security group thành công:
+
+  [![Security group được tạo thành công](/img/migrated/image-1723437770927-7e2c545b.png)](/img/migrated/image-1723437770927-7e2c545b.png)
+
+- Hủy security group đã tạo:
+
+  [![Lệnh hủy security group](/img/migrated/image-1723437790818-b15cbbf6.png)](/img/migrated/image-1723437790818-b15cbbf6.png)
+
+## 4. Storage disk
+
+- Script tạo storage disk:
+
+  [![Script tạo storage disk](/img/migrated/image-1723437806000-91108bc0.png)](/img/migrated/image-1723437806000-91108bc0.png)
+
+- Kết quả sau khi chạy script tạo storage disk thành công:
+
+  [![Storage disk được tạo thành công](/img/migrated/image-1723437818502-769b79b9.png)](/img/migrated/image-1723437818502-769b79b9.png)
+
+- Hủy storage disk đã tạo:
+
+  [![Lệnh hủy storage disk](/img/migrated/image-1723437832407-dc6858ee.png)](/img/migrated/image-1723437832407-dc6858ee.png)

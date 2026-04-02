@@ -1,8 +1,8 @@
 ---
 id: "manage-credentials"
-title: "FPT Kafka"
-description: "FPT Kafka"
-sidebar_label: "FPT Kafka"
+title: "Manage Credentials"
+description: "Create, edit, and delete Credentials on FPT Kafka."
+sidebar_label: "Manage Credentials"
 sidebar_position: 9
 ---
 

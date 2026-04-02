@@ -1,12 +1,14 @@
 ---
 id: "report"
 title: "Report"
-description: "Tính năng **Reporting** cho phép người dùng trích xuất dữ liệu thống kê về các hoạt động của cụm cơ sở dữ liệu theo khoả"
+description: "The Reporting feature allows users to extract statistical data about database cluster backup activities over a selected time period."
 sidebar_label: "Report"
 sidebar_position: 41
 ---
+
 # Report
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+The **Reporting** feature allows users to extract statistical data about database cluster backup activities over a selected time period.
+
+- [Report Export](./report-export.md): Manually export a CSV backup report for a selected date range.
+- [Report Schedule](./report-schedule.md): Set up automated schedules to send periodic backup reports by email.

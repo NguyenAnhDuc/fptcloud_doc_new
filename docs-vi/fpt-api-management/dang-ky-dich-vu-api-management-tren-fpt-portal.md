@@ -14,19 +14,19 @@ sidebar_position: 4
 
 1. Trên menu của **FPT Portal**, chọn **Api Management** > **Create**.
 
-[![Userguide FPT API Management 1](/img/migrated/Userguide-FPT-API-Management-1-1024x538-e900f9a0.png)](/img/migrated/Userguide-FPT-API-Management-1-1024x538-e900f9a0.png)
+[![Hình ảnh](/img/migrated/Userguide-FPT-API-Management-1-1024x538-e900f9a0.png)](/img/migrated/Userguide-FPT-API-Management-1-1024x538-e900f9a0.png)
 
 2. Nhập thông tin **Username**, chọn **Plan** và **Pricing**.
 
-[![Alt text](/img/migrated/Tao-WS-a7ec19be.png)](/img/migrated/Tao-WS-a7ec19be.png)
+[![Hình ảnh](/img/migrated/Tao-WS-a7ec19be.png)](/img/migrated/Tao-WS-a7ec19be.png)
 
 Tham khảo cấu hình từng plan theo bảng sau:
 
 | **Plan** | **Mô tả** | **Số lượng site** | **Số lượng API** | **Số lượng Product** |
 | --- | --- | --- | --- | --- |
-| **Pilot** | User dùng site và product mặc định, không có chức năng tạo thêm site và product. | 1 | 2 | 1 |
-| **Normal** | User dùng site và product mặc định, không có chức năng tạo thêm site. | 1 | Không giới hạn | 1 |
-| **Enterprise** | User có thể tự tạo site và product. | Không giới hạn | Không giới hạn | Không giới hạn |
+| **Pilot** | Dùng site và product mặc định, không thể tạo thêm site và product. | 1 | 2 | 1 |
+| **Normal** | Dùng site và product mặc định, không thể tạo thêm site. | 1 | Không giới hạn | 1 |
+| **Enterprise** | Có thể tự tạo site và product. | Không giới hạn | Không giới hạn | Không giới hạn |
 
 | **Chức năng** | **Standard** | **Advanced** | **Premium** |
 | --- | --- | --- | --- |
@@ -41,12 +41,12 @@ Tham khảo cấu hình từng plan theo bảng sau:
 
 3. Chọn **Create**. Hệ thống sẽ khởi tạo dịch vụ và thông báo tình trạng xử lý.
 
-[![Userguide FPT API Management 3](/img/migrated/Userguide-FPT-API-Management-3-1024x258-824a2884.png)](/img/migrated/Userguide-FPT-API-Management-3-1024x258-824a2884.png)
+[![Hình ảnh](/img/migrated/Userguide-FPT-API-Management-3-1024x258-824a2884.png)](/img/migrated/Userguide-FPT-API-Management-3-1024x258-824a2884.png)
 
-Sau khi khởi tạo thành công, người dùng được tự động chuyển hướng sang trang quản trị **ApiManager Application** tại `console.apim.fptcloud.com/api-manager`.
+Sau khi khởi tạo thành công, bạn được tự động chuyển hướng sang trang quản trị **ApiManager Application** tại `console.apim.fptcloud.com/api-manager`.
 
-[![Userguide FPT API Management 4](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)
+[![Hình ảnh](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)
 
 Hoặc truy cập **FPT Portal** và chọn **Start** trên **API Management** để vào trang quản trị.
 
-[![Userguide FPT API Management 5](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)
+[![Hình ảnh](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)

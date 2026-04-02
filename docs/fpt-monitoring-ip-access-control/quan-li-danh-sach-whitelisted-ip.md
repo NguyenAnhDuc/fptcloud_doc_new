@@ -1,14 +1,17 @@
 ---
 id: "quan-li-danh-sach-whitelisted-ip"
-title: "Quan Li Danh Sach Whitelisted Ip"
-sidebar_label: "Quan Li Danh Sach Whitelisted Ip"
-sidebar_position: "6"
+title: "Manage the whitelisted IP list"
+sidebar_label: "Manage the whitelist"
+sidebar_position: 6
 ---
 
-# Quan Li Danh Sach Whitelisted Ip
+# Manage the whitelisted IP list
 
-Tính năng IP Access Control quản lí list whitelisted IP theo the thành phần system FPT Cloud Monitoring of workspace, gồm: 
-  * Grafana dashboard URL 
-  * Metric datasource URL 
-  * Log datasource URL 
-  * Trace datasource URL
+The IP Access Control feature manages whitelisted IPs by FPT Cloud Monitoring system component for each workspace, covering:
+
+- Grafana dashboard URL
+- Metric datasource URL
+- Log datasource URL
+- Trace datasource URL
+
+Each component has its own independent IP whitelist table.

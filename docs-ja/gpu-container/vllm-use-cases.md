@@ -1,11 +1,15 @@
 ---
 id: "vllm-use-cases"
 title: "GPU Container"
-description: "GPU Container — GPU Container上の機能。"
+description: "GPU Container"
 sidebar_label: "GPU Container"
-sidebar_position: "18"
+sidebar_position: 18
 ---
 
 # GPU Container
 
-GPU Container — GPU Container上の機能。
+FPT AI FactoryのGPU ContainerでvLLMを使用するユースケースガイドです。
+
+vLLMの詳細なユースケースガイド：
+- [vLLM 基本ユースケース](./vllm-use-case.md)
+- [vLLM と GPT-OSS](./vllm-use-cases-gpt-oss.md)

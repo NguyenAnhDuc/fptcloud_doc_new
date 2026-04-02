@@ -1,13 +1,11 @@
 ---
 id: "fpt-autoscale"
-title: "Fpt Autoscale"
-sidebar_label: "Fpt Autoscale"
-sidebar_position: "1"
+title: "FPT Autoscale"
+description: "FPT Autoscale is a service that allows you to create and manage multiple Virtual Instances simultaneously, with automatic scaling based on demand."
+sidebar_label: "FPT Autoscale"
+sidebar_position: 1
 ---
-# Fpt Autoscale
 
-![](/img/migrated/icon-networking-b1e86145.png)
+# FPT Autoscale
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+FPT Autoscale is a service that allows you to create and manage multiple Virtual Instances simultaneously. The service supports automatic adjustment of the number of Virtual Instances based on demand, improving application stability, minimizing unnecessary costs, and saving operational time.

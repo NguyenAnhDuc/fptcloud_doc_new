@@ -42,7 +42,7 @@ Có. Bạn có thể đặt trạng thái kết nối là _Inactive_ để tạm
 Tài liệu hướng dẫn tại đây: [link](https://www.google.com)
 * * *
 ### Q: **Làm sao để giám sát và xem nhật ký (log) của các hoạt động VPN?**
-Bạn cần truy cập vào dịch vụ **Activity log** , lựa chọn type = “VPN” và nhập ngày muốn kiểm tra. Tài liệu hướng dẫn tại đây: [tại đây](../vpn-site-to-site/index.md)
+Bạn cần truy cập vào dịch vụ **Activity log** , lựa chọn type = "VPN" và nhập ngày muốn kiểm tra. Tài liệu hướng dẫn tại đây: [tại đây](../vpn-site-to-site/index.md)
 * * *
 ## Xử lý sự cố
 ### Q: **Kết nối VPN không thành công, tôi cần kiểm tra những gì trước?**

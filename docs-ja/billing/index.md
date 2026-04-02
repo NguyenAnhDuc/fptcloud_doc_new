@@ -1,13 +1,13 @@
 ---
 id: "billing"
-title: "Hóa đơn"
-sidebar_label: "Hóa đơn"
-sidebar_position: "1"
+title: "請求書"
+description: "FPT Cloudのサービス利用コストを請求期間ごとに確認・管理します。"
+sidebar_label: "請求書"
+sidebar_position: 1
 ---
-# Hóa đơn
 
-![](/img/migrated/icon-networking-1-2d28802b.png)
+# 請求書
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+## 概要
+
+Bills機能では、サービス別またはリソースタイプ別の利用コストを確認できます。現在の請求期間のデータはリアルタイムで更新されます。また、過去の請求期間の照合データも参照できます。

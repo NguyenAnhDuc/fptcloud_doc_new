@@ -1,13 +1,26 @@
 ---
 id: "nang-cap-goi-dich-vu"
-title: "Nâng cấp gói dịch vụ"
-sidebar_label: "Nâng cấp gói dịch vụ"
-sidebar_position: "19"
+title: "Upgrade service package"
+sidebar_label: "Upgrade service package"
+sidebar_position: 19
 ---
-# Upgrade gói service
+
+# Upgrade service package
+
+When the number of Jenkins jobs exceeds your current resource allocation, you can upgrade to a higher resource package provided by FPT Cloud.
+
+**Step 1:** Go to **Essential Properties** > **Instance Information**.
 
 [![](/img/migrated/Picture93-650c22b2.png)](/img/migrated/Picture93-650c22b2.png)
 
+**Step 2:** Select the resource package to upgrade to.
+
+[![](/img/migrated/Picture94-74bdab8d.png)](/img/migrated/Picture94-74bdab8d.png)
+
 :::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
+You can only upgrade to a higher resource package. Downgrading is not supported.
 :::
+
+**Step 3:** Result after upgrading the resource package.
+
+[![](/img/migrated/Picture95-a73deeab.png)](/img/migrated/Picture95-a73deeab.png)

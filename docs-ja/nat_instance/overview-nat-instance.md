@@ -1,11 +1,11 @@
 ---
 id: "overview-nat-instance"
-title: "Overview Nat Instance"
-sidebar_label: "Overview Nat Instance"
-sidebar_position: "2"
+title: "NAT Instanceの概要"
+description: "isolated networkのインスタンスがインターネットにアクセスできるようにするNAT Instance機能の概要です。"
+sidebar_label: "NAT Instanceの概要"
+sidebar_position: 2
 ---
-# Overview Nat Instance
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# NAT Instanceの概要
+
+NAT Instance機能は、isolated network内のインスタンスがインターネット上の外部システム（ソフトウェアのインストールやOn-premise環境への接続など）にアクセスできるようにします。

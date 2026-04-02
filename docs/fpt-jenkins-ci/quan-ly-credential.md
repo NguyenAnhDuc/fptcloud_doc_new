@@ -1,10 +1,10 @@
 ---
 id: "quan-ly-credential"
-title: "Management Credential"
-sidebar_label: "Management Credential"
-sidebar_position: "10"
+title: "Manage credentials"
+sidebar_label: "Manage credentials"
+sidebar_position: 10
 ---
 
-# Manage Credential
+# Manage credentials
 
-FPT Cloud hỗ trợ user quản lý a số loại credential thông qua interface portal includes the loại: Secret text, Username with password, GitLab API token, SSH Username with private key
+FPT Cloud allows you to manage several types of credentials through the Portal interface, including: Secret text, Username with password, GitLab API token, and SSH Username with private key.

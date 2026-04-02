@@ -1,11 +1,11 @@
 ---
 id: "fqas-4"
-title: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
-sidebar_label: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
-sidebar_position: "8"
+title: "Why can't I find the Request Resource section in the menu?"
+description: "If you do not have VPC Owner or Tenant Owner permissions, you cannot create a resource request. Please contact FCI's support team to be granted the appropriate permissions."
+sidebar_label: "Why can't I find the Request Resource section in the menu?"
+sidebar_position: 8
 ---
-# Vì sao tôi không tìm thấy phần Request Resource ở thành menu?
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Why can't I find the Request Resource section in the menu?
+
+If you do not have VPC Owner or Tenant Owner permissions, you cannot create a resource request. Please contact FCI's support team to be granted the appropriate permissions.

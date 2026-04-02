@@ -6,7 +6,7 @@ sidebar_label: "Thêm Worker Group"
 sidebar_position: 12
 ---
 
-# Them Worker Group
+# Thêm worker group
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn thêm Worker Group.
 [![](/img/migrated/Picture21-59a1a031.png)](/img/migrated/Picture21-59a1a031.png)

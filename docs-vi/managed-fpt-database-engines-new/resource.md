@@ -27,7 +27,7 @@ Nhập thông tin cần điều chỉnh:
   * Để tăng dung lượng ổ đĩa dữ liệu, nhập giá trị mới vào trường **Data disk size (GB)**.
 
 Nhấn **Update** để áp dụng thay đổi.
-Sau khi xác nhận, trạng thái của cụm cơ sở dữ liệu sẽ chuyển sang “**Resizing** ”, và sau đó trở lại “**Running** ” khi quá trình hoàn tất.
+Sau khi xác nhận, trạng thái của cụm cơ sở dữ liệu sẽ chuyển sang "**Resizing** ", và sau đó trở lại "**Running** " khi quá trình hoàn tất.
 Thời gian cập nhật tài nguyên có thể kéo dài từ 5 – 10 phút. Trong thời gian này, vui lòng không thực hiện thêm thao tác nào khác trên database cluster.
 ⚠️
 **Lưu ý quan trọng:**

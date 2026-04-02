@@ -1,11 +1,18 @@
 ---
 id: "tich-hop-template"
-title: "Tích hợp Dashboard Template và Alert rule template"
-sidebar_label: "Tích hợp Dashboard Template và Alert rule template"
-sidebar_position: "5"
+title: "Integrate dashboard and alert rule templates"
+sidebar_label: "Integrate templates"
+sidebar_position: 5
 ---
-# Tích hợp Dashboard Template and Alert rule template
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Integrate dashboard and alert rule templates
+
+This section explains how to integrate dashboard templates and alert rule templates into your Grafana workspace.
+
+## Integrate dashboard template
+
+See details at: [Integrate dashboard template](./tich-hop-dashboard-template.md)
+
+## Integrate alert rule template
+
+See details at: [Integrate alert rule template](./tich-hop-alert-rule-template.md)

@@ -1,13 +1,26 @@
 ---
 id: "query-metric-data"
-title: "Hướng dẫn cách tự xây dựng truy vấn metric data trong Grafana."
-sidebar_label: "Hướng dẫn cách tự xây dựng truy vấn metric data trong Grafana."
-sidebar_position: "13"
+title: "Build custom metric queries"
+sidebar_label: "Build custom metric queries"
+sidebar_position: 13
 ---
-# Hướng dẫn theh tự xây dựng truy vấn metric data in Grafana.
 
-[![Alt text](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
+# Build custom metric queries
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+This section is for users who want to write their own queries in Grafana.
+
+**Step 1:** On the Grafana menu, select **Explore**.
+
+[![](/img/migrated/Screenshot_22-f2b7b75d.png)](/img/migrated/Screenshot_22-f2b7b75d.png)
+
+**Step 2:** Select a datasource, for example: **loki**.
+
+[![](/img/migrated/Screenshot_31-0fcd00d8.png)](/img/migrated/Screenshot_31-0fcd00d8.png)
+
+**Step 3:** Switch to **code** mode and enter your query.
+
+**Step 4:** Click **Run query** in the top right corner.
+
+The system returns results as shown below:
+
+[![](/img/migrated/Screenshot_35-4151422d.png)](/img/migrated/Screenshot_35-4151422d.png)

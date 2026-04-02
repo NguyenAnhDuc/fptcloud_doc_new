@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Đặt lịch Hibernate & Wake-up"
 sidebar_position: 24
 ---
 
-# Tinh Nang Dat Lich Hibernate Wake Up
+# Tính năng đặt lịch Hibernate & Wake-up
 
 Tiếp nối với tính năng Hibernate & Wake-up trực tiếp trên Portal, FPT Cloud cung cấp dịch vụ Đặt lịch Hibernate & Wake-up, giúp người dùng có thể Hibernate & Wake-up cụm một cách tự động.
 FPTCloud cho phép người dùng có thể cài đặt, chỉnh sửa xoá một hoặc nhiều lịch cùng lúc tuỳ theo nhu cầu.

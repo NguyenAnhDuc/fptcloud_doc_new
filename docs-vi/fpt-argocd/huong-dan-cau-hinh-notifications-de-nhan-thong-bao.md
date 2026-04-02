@@ -15,7 +15,7 @@ Gõ **/help** để xem các options được sử dụng
 [![](/img/migrated/Picture94-1-1e58a9d9.png)](/img/migrated/Picture94-1-1e58a9d9.png)
 Gõ **/newbot** để tạo bot mới:
 [![](/img/migrated/Picture95-1-ca767ba6.png)](/img/migrated/Picture95-1-ca767ba6.png)
-Nhập tên bot _Lưu ý tên bot phải kết thúc bằng “bot”_
+Nhập tên bot _Lưu ý tên bot phải kết thúc bằng "bot"_
 [![](/img/migrated/Picture96-1-bd26e3a2.png)](/img/migrated/Picture96-1-bd26e3a2.png)
 Token access được sử dụng để cấu hình token Telegram trên Portal. Tương tự mục 5.12.2 (mục a)
 **Bước 2** : Cấu hình Token trên FPT Cloud để gửi thông báo tới telegram theo mục 5.12.2.1

@@ -1,11 +1,11 @@
 ---
 id: "tao-work-space"
-title: "Tao Work Space"
-sidebar_label: "Tao Work Space"
-sidebar_position: "4"
+title: "ワークスペースの作成"
+description: "Relation management サービスにアクセスするには、サービスクォータの付与が必要です。"
+sidebar_label: "ワークスペースの作成"
+sidebar_position: 4
 ---
-# Tao Work Space
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# ワークスペースの作成
+
+**Relation management** サービスにアクセスするには、サービスクォータの付与が必要です。ご利用を希望される場合は、ワークスペースの作成およびサービスの有効化のため、お問い合わせください。

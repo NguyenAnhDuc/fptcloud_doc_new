@@ -1,12 +1,22 @@
 ---
 id: "kiem-tra-trang-thai-target"
-title: "2 Kiểm tra trạng thái scan của Target"
-description: "2 Kiểm tra trạng thái scan của Target FPT Cloud VAの機能。"
-sidebar_label: "2 Kiểm tra trạng thái scan của Target"
-sidebar_position: "5"
+title: "ターゲットのスキャンステータスを確認する"
+description: "FPT Cloud VAでターゲットのスキャンステータスを確認するガイド。"
+sidebar_label: "ターゲットのスキャンステータスを確認する"
+sidebar_position: 5
 ---
-# 2 Kiểm tra trạng thái scan của Target
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# ターゲットのスキャンステータスを確認する
+
+ターゲットのスキャンが正常にスケジュールされると、システムは継続的にFPT Portalへ情報を同期します。以下の手順でターゲットのスキャンステータスを確認できます：
+
+**Vulnerability Assessment Management** ダッシュボードで、監視したいターゲットを見つけます。最新のスキャンステータスは **Scanning status** フィールドと **Last scanned** フィールドに表示されます。
+
+| ステータス | 説明 |
+|---|---|
+| **Scheduled** | スキャンはスケジュールされましたが、まだ開始されていません。 |
+| **Success** | スキャンが正常に完了しました。 |
+| **Pending** | 入力を読み込み、スキャンの準備をしています。 |
+| **Processing** | ターゲットの脆弱性をスキャンしています。 |
+| **Stopped** | ユーザーによってスキャンが停止されました。 |
+| **Error** | スキャン中に問題が発生し、システムによってスキャンが停止されました。 |

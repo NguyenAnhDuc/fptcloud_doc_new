@@ -89,7 +89,7 @@ spec:
 
 Với tham số biến môi trường:
   * **NVIDIA_DRIVER_VERSION** : Phiên bản của Driver
-  * **NVIDIA_TOOLKIT_INSTALL** : “true” hoặc “false”, mặc định là “true”. Tự động tự cài đặt toolkit hoặc không.
+  * **NVIDIA_TOOLKIT_INSTALL** : "true" hoặc "false", mặc định là "true". Tự động tự cài đặt toolkit hoặc không.
 
   * _Để apply fptcloud daemonset vào cụm K8s dùng lệnh sau:_
 

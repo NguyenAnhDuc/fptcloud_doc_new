@@ -1,22 +1,20 @@
 ---
 id: "quan-ly-workspace"
-title: "3. Quản lý một Workspace"
-description: "3. Quản lý một Workspace"
-sidebar_label: "3. Quản lý một Workspace"
+title: "Quản lý một Workspace"
+description: "Quản lý workspace trong FPT Cloud Monitoring"
+sidebar_label: "Quản lý một Workspace"
 sidebar_position: 5
 ---
 
-# FPT Cloud Monitoring
+# Quản lý một Workspace
 
-  * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn chi tiết ](javascript: "Hướng dẫn chi tiết")
-3. Quản lý một Workspace
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Cloud Monitoring
+Mỗi workspace trong FPT Cloud Monitoring chứa cấu hình, nguồn dữ liệu, dashboard và quản lý người dùng riêng. Sử dụng các tab trong workspace để quản lý toàn bộ thiết lập giám sát của bạn.
 
-3. Quản lý một Workspace
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-monitoring%2F "FPT Cloud Monitoring")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-monitoring%2F "FPT Cloud Monitoring")
+Xem chi tiết tại các mục sau:
 
-* * *
+- [Xem chi tiết một Workspace](xem-chi-tiet-workspace.md)
+- [Configuration tab](configuration-tab.md)
+- [Add Data tab](add-data-tab.md)
+- [User Management tab](user-management-tab.md)
+- [Quota and Package tab](quota-and-package-tab.md)
+- [User Guide tab](user-guide-tab.md)

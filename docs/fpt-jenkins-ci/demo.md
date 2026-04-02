@@ -2,9 +2,9 @@
 id: "demo"
 title: "Demo"
 sidebar_label: "Demo"
-sidebar_position: "21"
+sidebar_position: 21
 ---
 
 # Demo
 
-Các bước kết nối tới Jenkins instance, you can thao khảo details in phần Document tại menu.
+For steps to connect to a Jenkins instance, refer to the detailed documentation in the Portal menu.

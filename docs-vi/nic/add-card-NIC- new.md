@@ -1,21 +1,31 @@
 ---
 id: "add-card-NIC- new"
 title: "Thêm Network Interface Card mới"
-description: "Unify Portal hỗ trợ tính năng thêm mới card NIC dễ dàng và linh hoạt, tùy thuộc vào nhu cầu của khách hàng. Thao tác thê"
-sidebar_label: "Thêm Network Interface Card mới"
+description: "Hướng dẫn thêm card NIC mới cho Instance trên FPT Cloud."
+sidebar_label: "Thêm card NIC mới"
 sidebar_position: 6
 ---
 
 # Thêm Network Interface Card mới
 
-Unify Portal hỗ trợ tính năng thêm mới card NIC dễ dàng và linh hoạt, tùy thuộc vào nhu cầu của khách hàng. Thao tác thêm mới được thực hiện một cách đơn giản và tiện lợi.
-**Bước 1** : Chọn Add NIC.
-[![file](/img/migrated/image-1691382699972-7f2687d8.png)](/img/migrated/image-1691382699972-7f2687d8.png)
-**Bước 2** : Chọn Subnet theo nhu cầu.
-[![file](/img/migrated/image-1691382717830-0934edbe.png)](/img/migrated/image-1691382717830-0934edbe.png)
-[![file](/img/migrated/image-1691382726787-0afe397a.png)](/img/migrated/image-1691382726787-0afe397a.png)
-[![file](/img/migrated/image-1691382743112-1538d5f6.png)](/img/migrated/image-1691382743112-1538d5f6.png)
-**Bước 3:** Chờ hệ thống xử lý. Tại đây, hệ thống sẽ cấp ngẫu nhiên một địa chỉ IP trong Subnet trên.
-[![file](/img/migrated/image-1691382798352-22ba262c.png)](/img/migrated/image-1691382798352-22ba262c.png)
-**Bước 4:** Card chuyển sang trạng thái Active, và Instance có thể kết nối mạng qua card này.
-[![file](/img/migrated/image-1691382818519-8982a88f.png)](/img/migrated/image-1691382818519-8982a88f.png)
+FPT Cloud hỗ trợ thêm mới card NIC một cách dễ dàng và linh hoạt tùy theo nhu cầu.
+
+1. Chọn **Add NIC**.
+
+[![Nút Add NIC](/img/migrated/image-1691382699972-7f2687d8.png)](/img/migrated/image-1691382699972-7f2687d8.png)
+
+2. Chọn **Subnet** theo nhu cầu.
+
+[![Chọn Subnet](/img/migrated/image-1691382717830-0934edbe.png)](/img/migrated/image-1691382717830-0934edbe.png)
+
+[![Xác nhận Subnet](/img/migrated/image-1691382726787-0afe397a.png)](/img/migrated/image-1691382726787-0afe397a.png)
+
+[![Subnet đã chọn](/img/migrated/image-1691382743112-1538d5f6.png)](/img/migrated/image-1691382743112-1538d5f6.png)
+
+3. Chờ hệ thống xử lý. Hệ thống sẽ cấp ngẫu nhiên một địa chỉ IP trong Subnet đã chọn.
+
+[![Hệ thống đang xử lý](/img/migrated/image-1691382798352-22ba262c.png)](/img/migrated/image-1691382798352-22ba262c.png)
+
+4. Card chuyển sang trạng thái **Active** và Instance có thể kết nối mạng qua card này.
+
+[![Card NIC ở trạng thái Active](/img/migrated/image-1691382818519-8982a88f.png)](/img/migrated/image-1691382818519-8982a88f.png)

@@ -1,13 +1,25 @@
 ---
 id: "truy-cap-grafana"
-title: "Truy cập Grafana"
-sidebar_label: "Truy cập Grafana"
-sidebar_position: "4"
+title: "Access Grafana"
+sidebar_label: "Access Grafana"
+sidebar_position: 4
 ---
-# Truy cập Grafana
 
-[![Alt text](/img/migrated/Screenshot_39-11926069.png)](/img/migrated/Screenshot_39-11926069.png)
+# Access Grafana
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+After your workspace is created successfully:
+
+1. Go to the console portal at [https://console.fptcloud.com](https://console.fptcloud.com).
+2. Select the workspace you want to use to view its details.
+3. On the Configuration screen, the system provides the Grafana Dashboard URL.
+4. Click the Dashboard URL to open Grafana.
+
+The system automatically logs you in using your FPT ID. If login fails, please contact the support team.
+
+Workspace detail screen:
+
+[![](/img/migrated/Screenshot_39-11926069.png)](/img/migrated/Screenshot_39-11926069.png)
+
+Grafana interface after successful login:
+
+[![](/img/migrated/Screenshot_1-3adc35f3.png)](/img/migrated/Screenshot_1-3adc35f3.png)

@@ -17,15 +17,15 @@ The **Kafka User Management** feature is available only for the Kafka engine. It
 ### 1. Create new Kafka user
 To create a new Kafka user, follow these steps:
 #### Step 1: Accessing Kafka User Management
-Sign in to the FPT Cloud Console. Select “**Database Platform** ” > “**Data Streaming** ” > click the Kafka cluster ID to open the details page. Choose “**Configure Params** ” tab > forose “**Kafka ACL** ” sub-tab. The **Kafka user management** page is displayed.
+Sign in to the FPT Cloud Console. Select "**Database Platform** " > "**Data Streaming** " > click the Kafka cluster ID to open the details page. Choose "**Configure Params** " tab > forose "**Kafka ACL** " sub-tab. The **Kafka user management** page is displayed.
 [![](/img/migrated/view-kafka-acl-scaled-514e908e.png)](/img/migrated/view-kafka-acl-scaled-514e908e.png)
-The “**User List** ” section displays all Kafka users configured for the selected cluster. Displayed fields:
+The "**User List** " section displays all Kafka users configured for the selected cluster. Displayed fields:
   * **Username** : Kafka principal name.
   * **Password** : Authentication password. Hidden for security reasons.
   * **SASL mechanism** : Authentication mechanism (e.g. PLAIN).
 
 #### Step 2: Create a new Kafka user
-On the **Kafka user management** page, under “**User List** ”, select the **Add user** (plus icon). The **Create new user** dialog is displayed.
+On the **Kafka user management** page, under "**User List** ", select the **Add user** (plus icon). The **Create new user** dialog is displayed.
 [![](/img/migrated/create-kafka-user-scaled-15c4e64f.png)](/img/migrated/create-kafka-user-scaled-15c4e64f.png)
 Enter configuration details:
   * **Username** : The username is used as the Kafka principal for authentication. The maximum length is 50 characters. Must not contain the following restricted characters: / \ : * ? " < > | [ ]
@@ -36,9 +36,9 @@ Enter configuration details:
     * Contains at least one special character, excluding the following: $ \ \ / [ ] ' " : ; + - ^ < > ( ) |`
     * Contains at least one number.
     * No spaces allowed.
-  * **SASL mechanism** : Select a supported authentication mechanism. Available options: “ _PLAIN_ ”, “ _SCRAM-SHA256_ ”, “ _SCRAM-SHA512_ ”. **Warning** : Creating or updating **Kafka users** that use **SASL/PLAIN** will **trigger a Kafka cluster restart**. This may cause temporary service interruption for producers and consumers.
+  * **SASL mechanism** : Select a supported authentication mechanism. Available options: " _PLAIN_ ", " _SCRAM-SHA256_ ", " _SCRAM-SHA512_ ". **Warning** : Creating or updating **Kafka users** that use **SASL/PLAIN** will **trigger a Kafka cluster restart**. This may cause temporary service interruption for producers and consumers.
 
-After completing the configuration, select “**Create** ” to create the Kafka user. The newly created user appears in the User list and can be used for:
+After completing the configuration, select "**Create** " to create the Kafka user. The newly created user appears in the User list and can be used for:
   * Kafka client configuration.
   * Kafka Connect.
   * ACL policies (if supported).
@@ -64,17 +64,17 @@ ACLs help enforce:
 ACLs are applied at the cluster level and take effect immediately after being saved.
 **Note** : If a Kafka user is not assigned ACL permissions, the user will have no access to resources.
 To assign permissions to a Kafka user, follow these steps:
-On the **Kafka user management** page, under User list, select the “**Grant ACL** ” action for the user. The **Grant ACL** dialog is displayed.
+On the **Kafka user management** page, under User list, select the "**Grant ACL** " action for the user. The **Grant ACL** dialog is displayed.
 [![](/img/migrated/grant-acl-scaled-ee68daae.png)](/img/migrated/grant-acl-scaled-ee68daae.png)
 Enter configuration details:
   * **Username** : Displays the selected Kafka user. This field is read-only.
   * **Resource Type** : Choose the Kafka resource to grant permissions on: 
     * Topic – Grant access to Kafka topics.
     * Consumer group – Grant access to consumer groups.
-  * **Topic prefix / Group prefix** : Specify a prefix-based pattern. Grant permissions to all resources matching the prefix. Use “**All** ” to grant permissions to all topics or all consumer groups.
+  * **Topic prefix / Group prefix** : Specify a prefix-based pattern. Grant permissions to all resources matching the prefix. Use "**All** " to grant permissions to all topics or all consumer groups.
   * **Operations** : Select one or more allowed Kafka operations depending on the resource type.
 
-After completing the configuration, select “**Save** ” to apply the ACL to the Kafka user. The ACL takes effect immediately without requiring a Kafka cluster restart. A Kafka user can be assigned multiple ACLs.
+After completing the configuration, select "**Save** " to apply the ACL to the Kafka user. The ACL takes effect immediately without requiring a Kafka cluster restart. A Kafka user can be assigned multiple ACLs.
 #### Best Practices:
   * Grant permissions using prefix-based ACLs when possible. Prefix-based ACLs simplify permission management at scale.
   * Separate ACLs for producers and consumers.

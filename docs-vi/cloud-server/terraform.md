@@ -53,7 +53,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Kiểm tra phiên bản và hướng dẫn cài đặt FPT Cloud Provider trên trang Terraform
 
 [![file](/img/migrated/image-1723437534957-3c8ce6d5.png)](/img/migrated/image-1723437534957-3c8ce6d5.png)
-  * Sử dụng lệnh “terraform init” để cài đặt FPT Cloud Provider:
+  * Sử dụng lệnh "terraform init" để cài đặt FPT Cloud Provider:
 
 [![file](/img/migrated/image-1723437542169-e0e540d0.png)](/img/migrated/image-1723437542169-e0e540d0.png)
   * Script kết nối FPT Cloud:

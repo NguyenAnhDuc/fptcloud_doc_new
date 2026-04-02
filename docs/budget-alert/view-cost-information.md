@@ -1,24 +1,31 @@
 ---
 id: "view-cost-information"
-title: "View Cost Information"
-description: "**Step 1** : In the menu, select Billing > Select Budget Alert. The system displays the Budget Alert list you've created"
-sidebar_label: "View Cost Information"
+title: "View cost information and alert history"
+description: "Guide to viewing actual costs and alert history for a Budget Alert."
+sidebar_label: "View cost information and alert history"
 sidebar_position: 3
 ---
 
-# View Cost Information
+# View cost information and alert history
 
-**Step 1** : In the menu, select Billing > Select Budget Alert. The system displays the Budget Alert list you've created> Select Budget Alert Name.
-[![file](/img/migrated/image-1722249621354-9d427c95.png)](/img/migrated/image-1722249621354-9d427c95.png)
-**Step 2** : On the View budget details screen, select Additional budget parameters to review the budget and alert threshold information.
-[![file](/img/migrated/image-1722249628381-884401a2.png)](/img/migrated/image-1722249628381-884401a2.png)
-**Step 3** : In the Budget history section, users can scroll to zoom in/zoom out the comparison chart between Actual cost and Budget amount.
-  * If the Budget Period is Monthly, the chart will show the correlation between the Actual cost and the Budget amount for the last 6 months.
-  * If the Budget Period is Daily, the graph will show the correlation between the actual cost and the Budget amount for the last 30 days.
+Tracking actual costs against your budget and reviewing alert history helps you evaluate the effectiveness of your cloud cost controls.
 
-[![file](/img/migrated/image-1722249653673-f81c46ae.png)](/img/migrated/image-1722249653673-f81c46ae.png)
-**Step 4** : In the Alert history section, users can view the alert history of that Budget Alert.
-  * If the Budget Period is Monthly, the chart will show the correlation between the Actual cost and the Budget amount for the last 6 months.
-  * If the Budget Period is Daily, the graph will show the correlation between the actual cost and the Budget amount for the last 30 days.
+1. Select **Billing** → **Budget Alert**. The system displays the list of existing Budget Alerts. Select the name of the Budget Alert you want to view.
 
-[![file](/img/migrated/image-1722249921424-ecf944ca.png)](/img/migrated/image-1722249921424-ecf944ca.png)
+   ![Budget Alert list](/img/migrated/image-1722249621354-9d427c95.png)
+
+2. On the **View budget details** screen, select **Additional budget parameters** to review the budget and alert threshold settings.
+
+   ![View budget details screen](/img/migrated/image-1722249628381-884401a2.png)
+
+3. In the **Budget history** section, scroll to zoom in or zoom out the comparison chart between Actual cost and Budget amount.
+   - If Budget Period is **Monthly**, the chart shows the last 6 months.
+   - If Budget Period is **Daily**, the chart shows the last 30 days.
+
+   ![Budget history chart](/img/migrated/image-1722249653673-f81c46ae.png)
+
+4. In the **Alert history** section, view the alert send history for the Budget Alert.
+   - If Budget Period is **Monthly**, the history shows the last 6 months.
+   - If Budget Period is **Daily**, the history shows the last 30 days.
+
+   ![Alert history](/img/migrated/image-1722249921424-ecf944ca.png)

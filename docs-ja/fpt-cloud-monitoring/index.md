@@ -1,13 +1,10 @@
 ---
 id: "fpt-cloud-monitoring"
-title: "Fpt Cloud Monitoring"
-sidebar_label: "Fpt Cloud Monitoring"
-sidebar_position: "1"
+title: "FPT Cloud Monitoring"
+sidebar_label: "FPT Cloud Monitoring"
+sidebar_position: 1
 ---
-# Fpt Cloud Monitoring
 
-![](/img/migrated/settings-d31fa71f.png)
+# FPT Cloud Monitoring
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud Monitoring (FMON) は、FPT Cloud 上のインフラ、アプリケーション、パブリックエンドポイントのメトリクス、ログ、トレースを監視する包括的な可観測性プラットフォームです。Grafana をベースに構築されており、ダッシュボード、アラート、データ探索を 1 つのワークスペースで提供します。

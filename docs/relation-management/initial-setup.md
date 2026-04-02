@@ -1,11 +1,11 @@
 ---
 id: "initial-setup"
-title: "Initial setup"
-sidebar_label: "Initial setup"
-sidebar_position: "2"
+title: "Initial Setup"
+description: "If this is your first time using Relation Management in FPT Monitoring, please check and complete the following tasks first."
+sidebar_label: "Initial Setup"
+sidebar_position: 2
 ---
-# Initial setup
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Initial Setup
+
+If this is your first time using **Relation management** in **FPT Monitoring**, please check and complete the following tasks first:

@@ -1,13 +1,19 @@
 ---
 id: "quan-ly-workspace"
-title: "3. Quản lý một Workspace"
-sidebar_label: "3. Quản lý một Workspace"
-sidebar_position: "5"
+title: "ワークスペースを管理する"
+sidebar_label: "ワークスペースを管理する"
+sidebar_position: 5
 ---
-# 3. Quản lý một Workspace
 
-![](/img/migrated/settings-d31fa71f.png)
+# ワークスペースを管理する
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud Monitoring の各ワークスペースには、独自の設定、データソース、ダッシュボード、ユーザー管理が含まれています。ワークスペース内のタブを使用して、監視設定のすべての側面を管理できます。
+
+詳細については以下のセクションを参照してください:
+
+- [ワークスペース詳細を表示する](xem-chi-tiet-workspace.md)
+- [Configuration タブ](configuration-tab.md)
+- [Add Data タブ](add-data-tab.md)
+- [User Management タブ](user-management-tab.md)
+- [Quota and Package タブ](quota-and-package-tab.md)
+- [User Guide タブ](user-guide-tab.md)

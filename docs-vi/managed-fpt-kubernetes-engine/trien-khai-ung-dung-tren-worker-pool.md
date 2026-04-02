@@ -6,7 +6,7 @@ sidebar_label: "Triển khai ứng dụng trên worker pool"
 sidebar_position: 19
 ---
 
-# Trien Khai Ung Dung Tren Worker Pool
+# Triển khai ứng dụng trên worker pool
 
 Sản phẩm Managed FKE quản lý worker theo các worker pool, hỗ trợ cho khách hàng thuận tiện triển khai các ứng dụng trên đó và không cần quan tâm đến vấn đề scale tài nguyên.
 ## Cấu hình file manifest để triển khai ứng dụng

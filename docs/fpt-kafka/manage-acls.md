@@ -1,8 +1,8 @@
 ---
 id: "manage-acls"
-title: "FPT Kafka"
-description: "FPT Kafka"
-sidebar_label: "FPT Kafka"
+title: "Manage ACLs"
+description: "Create and delete Access Control Lists (ACLs) on FPT Kafka."
+sidebar_label: "Manage ACLs"
 sidebar_position: 13
 ---
 

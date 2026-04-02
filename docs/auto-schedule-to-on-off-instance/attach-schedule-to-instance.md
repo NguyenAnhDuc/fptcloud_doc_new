@@ -1,13 +1,19 @@
 ---
 id: "attach-schedule-to-instance"
-title: "Gắn một hoặc nhiều máy ảo vào instance schedule"
-sidebar_label: "Gắn một hoặc nhiều máy ảo vào instance schedule"
-sidebar_position: "8"
+title: "Attach virtual machines to an instance schedule"
+description: "How to attach one or more virtual machines to an instance schedule on FPT Cloud."
+sidebar_label: "Attach virtual machines to an instance schedule"
+sidebar_position: 8
 ---
-# Gắn a or nhiều virtual machine ando instance schedule
 
-[![file](/img/migrated/image-1695609073911-03ac0ac2.png)](/img/migrated/image-1695609073911-03ac0ac2.png)
+# Attach virtual machines to an instance schedule
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+After creating an instance schedule, attach virtual machines to it so they are turned on or off automatically.
+
+**Step 1:** On the **Instance Schedule Management** page, in the **Action** column, click **Apply instances**.
+
+[![Apply instances button in the schedule list](/img/migrated/image-1695609073911-03ac0ac2.png)](/img/migrated/image-1695609073911-03ac0ac2.png)
+
+**Step 2:** Select the instances you want to attach, then click **Apply instances**.
+
+[![Instance selection interface](/img/migrated/image-1695609084366-c567a73d.png)](/img/migrated/image-1695609084366-c567a73d.png)

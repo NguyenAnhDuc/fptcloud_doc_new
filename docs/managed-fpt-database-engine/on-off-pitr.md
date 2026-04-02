@@ -28,4 +28,4 @@ After activation, PITR does not take effect immediately. The system must first c
 ### 2. Disabling PITR
 To disable PITR, in the Backup service management screen, click the **Disable PITR** button (gear icon next to the PITR status). The system displays a confirmation dialog:
 [![](/img/migrated/DBaaS_BackupDB_pitr_disable_popup-385a70da.png)](/img/migrated/DBaaS_BackupDB_pitr_disable_popup-385a70da.png)
-Enter “**disable** ” and click **Confirm** to proceed. Once PITR is disabled, **you will no longer be able to restore the database to any point in the past.**
+Enter "**disable** " and click **Confirm** to proceed. Once PITR is disabled, **you will no longer be able to restore the database to any point in the past.**

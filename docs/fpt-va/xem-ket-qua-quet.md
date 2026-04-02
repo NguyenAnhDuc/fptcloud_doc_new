@@ -1,13 +1,15 @@
 ---
 id: "xem-ket-qua-quet"
-title: "Xem kết quả quét"
-sidebar_label: "Xem kết quả quét"
-sidebar_position: "12"
+title: "View scan results"
+description: "Overview of viewing scan results in FPT Cloud VA."
+sidebar_label: "View scan results"
+sidebar_position: 12
 ---
-# FPT Cloud VA
 
-![](/img/migrated/settings-800de3d1.png)
+# View scan results
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+After a target has been scanned at least once, you can view scan results through the following sections:
+
+- [Access the scan results dashboard](dashboard-ket-qua-quet.md)
+- [View detailed scan results](xem-chi-tiet-ket-qua-quet.md)
+- [View scan history](xem-ket-qua-quet-cu.md)

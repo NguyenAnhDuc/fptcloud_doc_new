@@ -1,19 +1,11 @@
 ---
 id: "sso-single-sign-on"
-title: "Sso Single Sign On"
-description: "Sso Single Sign On"
-sidebar_label: "Sso Single Sign On"
+title: "SSO (Single Sign-On)"
+description: "Cấu hình Single Sign-On cho tổ chức của bạn trên FPT Cloud."
+sidebar_label: "SSO"
 sidebar_position: 1
 ---
 
-# SSO – Single sign-on
+# SSO (Single Sign-On)
 
-  * [ ![](/img/migrated/overview-292f8f1a.png) Overviews ](javascript: "Overviews")
-  * [ ![](/img/migrated/quick-start-aa7e143d.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-SSO – Single sign-on
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. SSO – Single sign-on
-
-SSO – Single sign-on
-01Overviews 
-02Hướng dẫn nhanh (Quick Starts)
+SSO cho phép người dùng trong tổ chức của bạn đăng nhập vào FPT Cloud Portal bằng nhà cung cấp danh tính doanh nghiệp, giúp giảm nhu cầu sử dụng thông tin đăng nhập riêng biệt.

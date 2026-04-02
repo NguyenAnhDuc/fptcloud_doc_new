@@ -1,13 +1,20 @@
 ---
 id: "detail-dasboard"
-title: "Bảng điều khiển"
-sidebar_label: "Bảng điều khiển"
-sidebar_position: "5"
+title: "ダッシュボード"
+description: "ダッシュボード"
+sidebar_label: "ダッシュボード"
+sidebar_position: 5
 ---
-# Bảng điều khiển
 
-![](/img/migrated/images-331b7b32.png)
+# FPT AppSec
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+  * [ ![](/img/migrated/images-331b7b32.png) リリースノート ](javascript: "リリースノート")
+  * [ ![](/img/migrated/settings-f58a338e.png) 初期設定 ](javascript: "初期設定")
+  * [ ![](/img/migrated/icon-networking-8abaee1e.png) 詳細ガイド（チュートリアル）  ](javascript: "詳細ガイド（チュートリアル）")
+
+Dashboard
+  *
+  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-appsec%2F "FPT AppSec")
+  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-appsec%2F "FPT AppSec")
+
+* * *

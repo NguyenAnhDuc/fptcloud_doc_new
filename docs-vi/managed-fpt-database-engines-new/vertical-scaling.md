@@ -20,7 +20,7 @@ Chức năng **Vertical Scaling** cho phép tự động điều chỉnh tài ng
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
 Nhấn **Go to Notification** để chuyển đến tab **Notification** và thực hiện cấu hình theo hướng dẫn tại mục [Notification](../managed-fpt-database-engines-new/index.md).
 #### Bước 1: Truy cập chức năng Vertical Scaling
-Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn “**Database Platform** ” > “**All Databases** ”. Nhấn vào ID của database cluster cần quản lý > chuyển sang tab **Vertical Scaling** để truy cập trang quản lý cấu hình Vertical Scaling. Nếu dịch vụ chưa được kích hoạt, màn hình **Vertical Scaling** sẽ hiển thị trạng thái ban đầu (**Inactive**).
+Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn "**Database Platform** " > "**All Databases** ". Nhấn vào ID của database cluster cần quản lý > chuyển sang tab **Vertical Scaling** để truy cập trang quản lý cấu hình Vertical Scaling. Nếu dịch vụ chưa được kích hoạt, màn hình **Vertical Scaling** sẽ hiển thị trạng thái ban đầu (**Inactive**).
 [![](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)
 #### Bước 2: Kích hoạt dịch vụ
 Sau khi database cluster được tạo thành công, nếu Vertical Scaling chưa được kích hoạt, trạng thái dịch vụ sẽ là **Inactive**. Nhấn vào biểu tượng **Enable Vertical Scaling** (biểu tượng bánh răng) tại mục **Service Information** để mở hộp thoại xác nhận.

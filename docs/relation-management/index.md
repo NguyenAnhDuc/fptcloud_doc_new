@@ -1,16 +1,17 @@
 ---
 id: "relation-management"
 title: "Relation Management"
+description: "Relation Management"
 sidebar_label: "Relation Management"
-sidebar_position: "1"
+sidebar_position: 1
 ---
 
-# Relation management
+# Relation Management
 
   * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn details (Tutorials) ](javascript: "Hướng dẫn details \(Tutorials\)")
+  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Detailed Guide (Tutorials) ](javascript: "Detailed Guide \(Tutorials\)")
 
 Relation management
-##  Home page 
+##  Home Page 
 01Initial Setup 
-02Hướng dẫn details (Tutorials)
+02Detailed Guide (Tutorials)

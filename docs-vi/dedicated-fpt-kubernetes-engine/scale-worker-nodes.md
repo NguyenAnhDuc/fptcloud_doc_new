@@ -6,7 +6,7 @@ sidebar_label: "Scale Worker Nodes"
 sidebar_position: 12
 ---
 
-# Scale Worker Nodes
+# Scale worker nodes
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 ![](/img/migrated/Picture30-c657a04c.png)

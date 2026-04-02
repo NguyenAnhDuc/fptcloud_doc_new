@@ -77,7 +77,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 Với thông số **"Pre-shared key"** cần lưu lại để điền vào CheckPoint.
 **Phần 2: Remote VPN information**
 ![](/img/migrated/photo_3_2025-07-09_17-35-39-5b3401dd.jpg)
-Quý khách hàng lựa chọn Providers = “others" sau đó làm theo các bước sau:
+Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bước sau:
   * Bước 1: Điền providers name = "checkpoint" 
   * Bước 2: Điền thông tin cho IKE và IPSec cụ thể như sau:
 

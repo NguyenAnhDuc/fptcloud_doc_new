@@ -1,13 +1,17 @@
 ---
 id: "home-page-portal"
-title: "Trang chủ của hệ thống Portal"
-sidebar_label: "Trang chủ của hệ thống Portal"
-sidebar_position: "6"
+title: "Portal Home Page"
+description: "Overview of the information displayed on the FPT Cloud Portal home page."
+sidebar_label: "Portal Home Page"
+sidebar_position: 6
 ---
-# Trang chủ của hệ thống Portal
 
-[![file](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)
+# Portal Home Page
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+The FPT Cloud Portal home page displays the following information:
+
+- **Available Services**: the list of services that currently support PAYG billing.
+- **Upcoming Services**: services that will soon support PAYG billing.
+- **Balance**: your current account balance.
+
+[![FPT Cloud Portal home page](/img/migrated/Screenshot_15-2493e650.png)](/img/migrated/Screenshot_15-2493e650.png)

@@ -19,7 +19,7 @@ FPT cloud hỗ trợ các card sau:
 
 👉 **Các bước khởi tạo 1 cluster sử dụng GPU:**
 1️⃣ **GPU A30**
-**Bước 1** : Truy cập portal FPT Cloud [console.fptcloud.com](https://console.fptcloud.com/), chọn mục Kubernetes, ấn “Create a Kubernetes Engine”. 
+**Bước 1** : Truy cập portal FPT Cloud [console.fptcloud.com](https://console.fptcloud.com/), chọn mục Kubernetes, ấn "Create a Kubernetes Engine". 
 [![](/img/migrated/Picture1-5-1a7a3b43.png)](/img/migrated/Picture1-5-1a7a3b43.png)
 **Bước 2:** Nhập thông tin cơ bản của cụm cluster sau đó click button 
 1.1. **Basics Information:**
@@ -55,10 +55,10 @@ FPT cloud hỗ trợ các card sau:
 
 [![](/img/migrated/Picture3-4-b64ef83c.png)](/img/migrated/Picture3-4-b64ef83c.png)
 _Chú ý:_
-  1. Ở phần “GPU Driver Installation Type” có 2 options là **Pre-install** và **User-install**. 
+  1. Ở phần "GPU Driver Installation Type" có 2 options là **Pre-install** và **User-install**. 
   2. Driver là một chương trình để cho phép hệ điều hành giao tiếp với phần cứng, cụ thể ở đây là giữa hệ điều hành của worker (windows, ubuntu ...) với GPU, hệ điều hành không thể sử dụng GPU nếu không có driver. 
-  3. Đối với lựa chọn “Pre-install”, cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
-  4. Đối với lựa chọn “User-install”, khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
+  3. Đối với lựa chọn "Pre-install", cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
+  4. Đối với lựa chọn "User-install", khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
 
 **Bước 4** : Ấn Create và kiểm tra lại các thông tin khởi tạo. 
 **Bước 5** : Theo dõi trạng thái khởi tạo cụm Kubernetes. Sau khi trạng thái Successed (Running) thì tiến hành sử dụng, triển khai ứng dụng.
@@ -92,10 +92,10 @@ _Chú ý:_
 □ Chọn cấu hình GPU sharing
 □ Chọn cấu hình type GPU (CPU/RAM/GPU RAM) 
 _Chú ý:_
-  1. Ở phần “GPU Driver Installation Type” có 2 options là **Pre-install** và **User-install**. 
+  1. Ở phần "GPU Driver Installation Type" có 2 options là **Pre-install** và **User-install**. 
   2. Driver là một chương trình để cho phép hệ điều hành giao tiếp với phần cứng, cụ thể ở đây là giữa hệ điều hành của worker (windows, ubuntu ...) với GPU, hệ điều hành không thể sử dụng GPU nếu không có driver. 
-  3. Đối với lựa chọn “Pre-install”, cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
-  4. Đối với lựa chọn “User-install”, khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
+  3. Đối với lựa chọn "Pre-install", cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
+  4. Đối với lựa chọn "User-install", khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
 
 **Bước 4** : Ấn Create và kiểm tra lại các thông tin khởi tạo. 
 **Bước 5** : Theo dõi trạng thái khởi tạo cụm Kubernetes. Sau khi trạng thái Successed (Running) thì tiến hành sử dụng, triển khai ứng dụng.
@@ -133,10 +133,10 @@ _Chú ý:_
 □ Chọn cấu hình GPU sharing
 □ Chọn cấu hình type GPU (CPU/RAM/GPU RAM) 
 _Chú ý:_
-  1. Ở phần “GPU Driver Installation Type” có 2 options là **Pre-install** và **User-install**. 
+  1. Ở phần "GPU Driver Installation Type" có 2 options là **Pre-install** và **User-install**. 
   2. Driver là một chương trình để cho phép hệ điều hành giao tiếp với phần cứng, cụ thể ở đây là giữa hệ điều hành của worker (windows, ubuntu ...) với GPU, hệ điều hành không thể sử dụng GPU nếu không có driver. 
-  3. Đối với lựa chọn “Pre-install”, cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
-  4. Đối với lựa chọn “User-install”, khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
+  3. Đối với lựa chọn "Pre-install", cụm của khách hàng sẽ được thêm Nvidia GPU driver một cách tự động. 
+  4. Đối với lựa chọn "User-install", khách hàng có thể cài đặt thủ công GPU driver để lựa chọn phiên bản driver phù hợp. 
 
 **Bước 4** : Ấn Create và kiểm tra lại các thông tin khởi tạo. 
 **Bước 5** : Theo dõi trạng thái khởi tạo cụm Kubernetes. Sau khi trạng thái Successed (Running) thì tiến hành sử dụng, triển khai ứng dụng.

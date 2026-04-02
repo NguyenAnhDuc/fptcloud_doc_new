@@ -16,7 +16,7 @@ sidebar_position: 30
 | Schedule ID  | Mã định danh tự tăng do hệ thống sinh.  |  
 | Schedule Name  | Tên của Schedule. Click để xem chi tiết.  |  
 | Frequency  | Tần suất chạy (On-demand / Weekly / Monthly).  |  
-| Interval  | Thời điểm chạy job, định dạng “Ngày + Giờ”.  |  
+| Interval  | Thời điểm chạy job, định dạng "Ngày + Giờ".  |  
 | Last Launch  | Hiển thị thời gian và trạng thái chạy gần nhất (Running / Success Finished / Failed Error / None).  |  
 | Next Run  | Thời gian chạy tiếp theo hoặc để trống.  |  
 | Created By  | Người tạo Schedule.  |  

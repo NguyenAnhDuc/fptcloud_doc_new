@@ -1,11 +1,10 @@
 ---
 id: "ssl-profile"
-title: "Lưu trữ và hiển thị các cấu hình SSL, có thể thêm bằng cách chọn vào dấu"
-sidebar_label: "Lưu trữ và hiển thị các cấu hình SSL, có thể thêm bằng cách chọn vào dấu"
-sidebar_position: "15"
+title: "SSL プロファイルの保存と表示"
+sidebar_label: "SSL プロファイルの保存と表示"
+sidebar_position: 15
 ---
-# Lưu trữ và hiển thị các cấu hình SSL, có thể thêm bằng cách chọn vào dấu
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# SSL プロファイルの保存と表示
+
+SSL の設定を保存および表示します。プラスアイコンをクリックすることで新しい設定を追加できます。

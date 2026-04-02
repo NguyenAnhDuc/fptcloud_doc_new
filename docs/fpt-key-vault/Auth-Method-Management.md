@@ -1,8 +1,8 @@
 ---
 id: "Auth-Method-Management"
-title: "FPT Key Vault"
-description: "FPT Key Vault"
-sidebar_label: "FPT Key Vault"
+title: "Auth Method management"
+description: "Manage authentication methods for FPT Key Vault."
+sidebar_label: "Auth Method management"
 sidebar_position: 14
 ---
 

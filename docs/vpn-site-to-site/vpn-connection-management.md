@@ -1,8 +1,8 @@
 ---
 id: "vpn-connection-management"
-title: "VPN Site-to-Site"
-description: "VPN Site-to-Site"
-sidebar_label: "VPN Site-to-Site"
+title: "VPN connection management"
+description: "Overview of managing VPN connections — create, edit, enable/disable, and delete"
+sidebar_label: "VPN connection management"
 sidebar_position: 18
 ---
 

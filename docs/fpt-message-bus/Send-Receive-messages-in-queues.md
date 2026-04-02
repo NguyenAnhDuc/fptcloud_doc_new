@@ -1,12 +1,12 @@
 ---
 id: "Send-Receive-messages-in-queues"
-title: "Send Receive Messages In Queues"
-description: "**Step 1** : From the **Application** menu > **Queues** > Choose a desired queue > **Preview**."
-sidebar_label: "Send Receive Messages In..."
+title: "Send and receive messages in queues"
+description: "How to publish and receive messages in a queue on FPT Message Bus."
+sidebar_label: "Send and receive messages in queues"
 sidebar_position: 7
 ---
 
-# Send Receive Messages In Queues
+# Send and receive messages in queues
 
 **Step 1** : From the **Application** menu > **Queues** > Choose a desired queue > **Preview**.
 [![](/img/migrated/queue_send_1-1aa7e8a2.png)](/img/migrated/queue_send_1-1aa7e8a2.png)

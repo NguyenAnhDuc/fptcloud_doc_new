@@ -27,11 +27,11 @@ On the sign-up page, fill in the following details:
   * **Confirm Password** : Re-enter the password to confirm it.
 
 ### Step 3: Complete CAPTCHA Verification
-To confirm that you are not a robot, check the “I’m not a robot” box and complete the reCAPTCHA challenge (if prompted).
+To confirm that you are not a robot, check the "I’m not a robot" box and complete the reCAPTCHA challenge (if prompted).
 ### Step 4: Agree to Terms and Privacy Policy
 Read and accept the **Terms and Privacy Policy** by checking the box.
 ### Step 5: Registration Confirmation
-Once all fields are completed and verified, click the “Sign up” button to create your account.
+Once all fields are completed and verified, click the "Sign up" button to create your account.
 ### Step 6: Account Confirmation
 The FPT Cloud Support Team will contact you to verify your details and finalize the account creation process.
 Once your account is successfully created, you can log in to the FPT Console Portal and start using the services.

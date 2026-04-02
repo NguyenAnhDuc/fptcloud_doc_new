@@ -64,14 +64,14 @@ Fill in the rule information:
     * **My IP:** Allow only your current public IP. 
     * **Custom:** Enter one or more specific IP addresses. 
 
-⚠️ _For sensitive ports like 22 (SSH) or 3389 (RDP), the system will display a warning if you allow All IPv4:_ _“We recommend allowing SSH from trusted IPs only.”_
+⚠️ _For sensitive ports like 22 (SSH) or 3389 (RDP), the system will display a warning if you allow All IPv4:_ _"We recommend allowing SSH from trusted IPs only."_
   * **Description:** Optional notes for the rule. 
 
 Click **Add Rule** to continue adding more, or **Edit Security Group** to save your changes. 
 The system will process the configuration and display a result notification. 
 ⚠️ Recommendation
   * Add a new inbound rule for SSH access: **Type:** SSH; **Port Range:** 22; **Source:** All IPv4 
-  * To enhance security when enabling SSH access, please allow only trusted IP addresses and avoid using “All IPv4” (0.0.0.0/0). 
+  * To enhance security when enabling SSH access, please allow only trusted IP addresses and avoid using "All IPv4" (0.0.0.0/0). 
 
 ### Attach a GPU VM
 **Step 1:**

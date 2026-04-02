@@ -1,16 +1,22 @@
 ---
 id: "initial-setup"
 title: "Thiết lập ban đầu"
-description: "Nếu đây là lần đầu tiên bạn sử dụng, trước tiên hãy kiểm tra và hoàn thành các công việc sau:"
+description: "Các bước cần hoàn thành trước khi sử dụng tính năng NIC trên FPT Cloud."
 sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
 # Thiết lập ban đầu
 
-Nếu đây là lần đầu tiên bạn sử dụng, trước tiên hãy kiểm tra và hoàn thành các công việc sau:
-**Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal**
-Để bắt đầu sử dụng tính năng cho phép cấu hình NIC (Network Interface Card) của FPT Cloud, bạn cần đăng nhập vào FPT Portal.
-Hãy truy cập vào [**https://console.fptcloud.com**](https://console.fptcloud.com/) và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ.
-Sau đó chọn chức năng Sign Up và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
-Trong quá trình thao tác nếu gặp bất kỳ lỗi nào hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+Trước khi sử dụng tính năng cấu hình NIC (Network Interface Card) trên FPT Cloud, hãy hoàn thành các bước sau.
+
+## Tạo tài khoản FPT Cloud và đăng nhập
+
+1. Truy cập [https://console.fptcloud.com](https://console.fptcloud.com) và đăng nhập bằng tài khoản/mật khẩu FPT Cloud.
+2. Chọn đúng **Tenant**, **Region** và **VPC** cần sử dụng dịch vụ.
+
+Nếu chưa có tài khoản, hãy truy cập [https://fptcloud.com/](https://fptcloud.com/), chọn **Sign Up** và nhập thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận tạo tài khoản.
+
+:::tip
+Nếu gặp bất kỳ lỗi nào trong quá trình thao tác, hãy liên hệ đội ngũ hỗ trợ để được giúp đỡ.
+:::

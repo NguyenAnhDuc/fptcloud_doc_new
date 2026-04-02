@@ -1,20 +1,13 @@
 ---
 id: "document-terraform"
-title: "Document Terraform"
-sidebar_label: "Document Terraform"
-sidebar_position: "4"
+title: "Terraform documentation"
+description: "Reference links for the FPT Cloud Terraform provider documentation and source code."
+sidebar_label: "Terraform documentation"
+sidebar_position: 4
 ---
 
-# Document Terraform
+# Terraform documentation
 
-- Terraform Provider Docs:https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/
+- **Terraform provider docs**: [https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/](https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/)
 
-Terraform Provider Docs:
-
-- https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/
-
-- FPT Cloud Terraform Source:https://github.com/fpt-corp/terraform-provider-fptcloud
-
-FPT Cloud Terraform Source:
-
-- https://github.com/fpt-corp/terraform-provider-fptcloud
+- **FPT Cloud Terraform source**: [https://github.com/fpt-corp/terraform-provider-fptcloud](https://github.com/fpt-corp/terraform-provider-fptcloud)

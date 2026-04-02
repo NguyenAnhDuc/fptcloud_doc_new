@@ -1,11 +1,10 @@
 ---
 id: "toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong"
-title: "Tôi muốn tìm hiểu về Backup, FPT Cloud có chính sách dùng thử không?"
-sidebar_label: "Tôi muốn tìm hiểu về Backup, FPT Cloud có chính sách dùng thử không?"
+title: "バックアップについて学びたいのですが、FPT Cloudにはトライアルポリシーがありますか？"
+description: "バックアップサービスのFPT Cloudトライアルポリシーに関する情報。"
+sidebar_label: "バックアップのトライアルポリシーはありますか？"
 sidebar_position: "13"
 ---
-# Tôi muốn tìm hiểu về Backup, FPT Cloud có chính sách dùng thử không?
+# バックアップについて学びたいのですが、FPT Cloudにはトライアルポリシーがありますか？
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+はい、各サービスと時期によって対応するトライアルプログラムがあります。最新のプログラムについての情報を得るために、FPT Cloudにお気軽にお問い合わせください。

@@ -1,18 +1,11 @@
 ---
 id: "fpt-cloud-monitoring"
-title: "Fpt Cloud Monitoring"
-description: "Fpt Cloud Monitoring"
-sidebar_label: "Fpt Cloud Monitoring"
+title: "FPT Cloud Monitoring"
+description: "FPT Cloud Monitoring – nền tảng quan sát toàn diện cho hạ tầng và ứng dụng trên FPT Cloud"
+sidebar_label: "FPT Cloud Monitoring"
 sidebar_position: 1
 ---
 
 # FPT Cloud Monitoring
 
-  * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn chi tiết ](javascript: "Hướng dẫn chi tiết")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Cloud Monitoring
-
-##  Trang chủ 
-01Initial Setup 
-02Hướng dẫn chi tiết
+FPT Cloud Monitoring (FMON) là nền tảng quan sát toàn diện cho phép bạn theo dõi metric, log và trace của hạ tầng, ứng dụng và các public endpoint trên FPT Cloud. Được xây dựng trên Grafana, nền tảng cung cấp dashboard, cảnh báo và khám phá dữ liệu trong một workspace thống nhất.

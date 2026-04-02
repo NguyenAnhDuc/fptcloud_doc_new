@@ -1,13 +1,27 @@
 ---
 id: "see-notification-bell"
-title: "See Notification Bell"
-sidebar_label: "See Notification Bell"
-sidebar_position: "4"
+title: "通知を確認する"
+description: "FPT Cloud Portalの通知ベルで通知を確認・管理する方法です。"
+sidebar_label: "通知を確認する"
+sidebar_position: 4
 ---
-# See Notification Bell
 
-[![file](/img/migrated/image-1710299730130-8b36f355.png)](/img/migrated/image-1710299730130-8b36f355.png)
+# 通知を確認する
+
+通知ベルをクリックすると、最近のアクション一覧がドロップダウンで表示されます。未読通知（Unread）は青いドットで示され、既読通知にはマークがありません。
+
+[![通知ドロップダウンリスト](/img/migrated/image-1710299730130-8b36f355.png)](/img/migrated/image-1710299730130-8b36f355.png)
+
+各通知には、アクティビティの詳細、通知時刻、および関連コンテンツへの直接リンクが含まれています。ドロップダウンの下部にあるリンクから、すべての通知にすばやくアクセスできます。
+
+[![通知の詳細表示](/img/migrated/image-1710299747410-1e381598.png)](/img/migrated/image-1710299747410-1e381598.png)
+[![すべての通知を表示するリンク](/img/migrated/image-1710299754850-658fb832.png)](/img/migrated/image-1710299754850-658fb832.png)
+
+通知内の任意の場所をクリックすると、そのアクションの詳細情報ページに移動します。
+
+[![詳細情報ページ](/img/migrated/image-1710299771152-56464fc7.png)](/img/migrated/image-1710299771152-56464fc7.png)
 
 :::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+- **Mark all read**をクリックすると、すべての未読通知が既読状態に変わります。
+- 複数のアクションを同時に実行した場合、通知はアクションの実行順に順番に表示されます。
 :::

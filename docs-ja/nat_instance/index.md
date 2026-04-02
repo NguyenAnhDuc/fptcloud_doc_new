@@ -1,13 +1,13 @@
 ---
 id: "nat_instance"
-title: "Nat Instance"
-sidebar_label: "Nat Instance"
-sidebar_position: "1"
+title: "NAT Instance"
+description: "FPT CloudのNAT Instanceを使用して、isolated networkのインスタンスがインターネットにアクセスできるようにします。"
+sidebar_label: "NAT Instance"
+sidebar_position: 1
 ---
-# Nat Instance
 
-![](/img/migrated/tai-xuong-2-25c50a7f.png)
+# NAT Instance
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+## 概要
+
+NAT Instance機能は、isolated network内のインスタンスがインターネット上の外部システム（ソフトウェアのインストールやOn-premise環境への接続など）にアクセスできるようにします。

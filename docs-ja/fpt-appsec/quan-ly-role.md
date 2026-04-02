@@ -1,13 +1,19 @@
 ---
 id: "quan-ly-role"
-title: "管理 Roles"
-sidebar_label: "管理 Roles"
-sidebar_position: "12"
+title: "ロール管理"
+description: "**Org Admin** のみ編集権限を持ちます。"
+sidebar_label: "ロール管理"
+sidebar_position: 12
 ---
-# 管理 Roles
 
+# ロール管理
+
+**Org Admin** のみ編集権限を持ちます。
+**手順1** : **Organization** の **Roles** タブをクリックして、メンバーのロール一覧を確認します。
 [![anhfsec](/img/migrated/or1-56b5b42e.png)](/img/migrated/or1-56b5b42e.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+ここでは **Name**、**Type**、**Number of Members**、**Description**、**Role**、**Status**、**Created at** などの情報を確認でき、これらの項目を基に検索することもできます。
+[![anhfsec](/img/migrated/R1-0cd5642a.png)](/img/migrated/R1-0cd5642a.png)
+**手順2** : **Role name** のハイパーリンクをクリックすると、メンバーのロールと権限を確認できます。
+[![anhfsec](/img/migrated/R2-821fa827.png)](/img/migrated/R2-821fa827.png)
+以下にメンバーの **Name**、**Description**、**Created at**、**Status** および **Role** の **Permission** が表示されます。
+[![anhfsec](/img/migrated/R3-318bc0f9.png)](/img/migrated/R3-318bc0f9.png)

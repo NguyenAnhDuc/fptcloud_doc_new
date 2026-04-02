@@ -1,13 +1,12 @@
 ---
 id: "load-balancing"
-title: "Thống kê trạng thái của LB đích tương ứng với từng proxy được thiết lập"
-sidebar_label: "Thống kê trạng thái của LB đích tương ứng với từng proxy được thiết lập"
-sidebar_position: "6"
+title: "設定された各プロキシに対応する宛先ロードバランサーの状態統計"
+description: "設定された各プロキシに対応する宛先ロードバランサーの状態統計"
+sidebar_label: "設定された各プロキシに対応する宛先ロードバランサーの状態統計"
+sidebar_position: 6
 ---
-# Thống kê trạng thái của LB đích tương ứng với từng proxy được thiết lập
 
+# ロードバランシング
+
+設定された各 proxy に対応する宛先ロードバランサー（LB）の状態統計を表示します。
 [![file](/img/migrated/image-1714112388673-6880a328.png)](/img/migrated/image-1714112388673-6880a328.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::

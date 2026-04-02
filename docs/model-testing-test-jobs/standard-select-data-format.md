@@ -35,9 +35,9 @@ We currently support data formats for testing include:
 ```
 Copy[
    {
-      “instruction”: “string”,
-      “input”: “string”,
-      “output” “string”
+      "instruction": "string",
+      "input": "string",
+      "output" "string"
   }
 ]
 ```
@@ -72,10 +72,10 @@ Each data sample consists of a `conversations` array, where each turn in the cha
 ```
 Copy[
    {
-      “conversations”: [
+      "conversations": [
          {
-            “from”: “string”,
-            “value”: “string”
+            "from": "string",
+            "value": "string"
          }
       ]
    }
@@ -137,13 +137,13 @@ The structure includes:
 ```
 Copy[
    {
-      “message”: [
+      "message": [
          {
-            “role”: “string”, “content”: “<image>string”
+            "role": "string", "content": "<image>string"
          }
       ],
-      “images”: [
-         “images/0.jpg”
+      "images": [
+         "images/0.jpg"
       ]
    }
 ]

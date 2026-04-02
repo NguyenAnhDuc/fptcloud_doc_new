@@ -1,13 +1,10 @@
 ---
 id: "fpt-jenkins-ci"
-title: "Fpt Jenkins Ci"
-sidebar_label: "Fpt Jenkins Ci"
-sidebar_position: "1"
+title: "FPT Jenkins CI"
+sidebar_label: "FPT Jenkins CI"
+sidebar_position: 1
 ---
-# Fpt Jenkins Ci
 
-![](/img/migrated/settings-3-e684e7b5.png)
+# FPT Jenkins CI
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Jenkins CI は、FPT Cloud が提供する継続的インテグレーション（CI/CD）サービスです。Portal インターフェースを通じて Jenkins インスタンスの作成・管理・設定を行うことができます。

@@ -1,14 +1,15 @@
 ---
 id: "app-relation-management"
 title: "App Relation Management"
+description: "App Relation Management"
 sidebar_label: "App Relation Management"
-sidebar_position: "6"
+sidebar_position: 6
 ---
 
-# App Relation Management
+# Relation Management
 
-  * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+  * [ ![](/img/migrated/settings-3-e684e7b5.png) 初期設定 ](javascript: "初期設定")
+  * [ ![](/img/migrated/icon-networking-2-24c3615d.png) 詳細ガイド（チュートリアル） ](javascript: "詳細ガイド（チュートリアル）")
 
 App relation management
   * 

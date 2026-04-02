@@ -1,12 +1,12 @@
 ---
 id: "Send-Receive-messages-in-topics"
-title: "Send Receive Messages In Topics"
-description: "**Step 1** : From the **Application** menu > **Topics** > Choose a desired topic > **Preview**."
-sidebar_label: "Send Receive Messages In..."
+title: "Send and receive messages in topics"
+description: "How to publish and receive messages in a topic on FPT Message Bus."
+sidebar_label: "Send and receive messages in topics"
 sidebar_position: 13
 ---
 
-# Send Receive Messages In Topics
+# Send and receive messages in topics
 
 **Step 1** : From the **Application** menu > **Topics** > Choose a desired topic > **Preview**.
 [![](/img/migrated/topic_send_1-5f6f9078.png)](/img/migrated/topic_send_1-5f6f9078.png)

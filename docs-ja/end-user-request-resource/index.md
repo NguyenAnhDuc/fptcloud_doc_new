@@ -1,13 +1,31 @@
 ---
 id: "end-user-request-resource"
-title: "Yêu cầu tài nguyên"
-sidebar_label: "Yêu cầu tài nguyên"
-sidebar_position: "1"
+title: "リソースリクエスト"
+description: "リソースリクエスト"
+sidebar_label: "リソースリクエスト"
+sidebar_position: 1
 ---
-# Yêu cầu tài nguyên
 
-![](/img/migrated/settings-d31fa71f.png)
+# リソースリクエスト
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+  * [ ![](/img/migrated/settings-d31fa71f.png) 初期設定 ](javascript: "初期設定")
+  * [ ![](/img/migrated/icon-networking-2645685c.png) クイックスタート ](javascript: "クイックスタート")
+  * [ ![](/img/migrated/suggestion-b956384e.png) よくある質問（FAQ） ](javascript: "よくある質問（FAQ）")
+
+Resource Request
+## 概要
+
+**1. リソースリクエストについて**
+
+リソースリクエスト（Resource Request）機能グループは、ユーザーが営業担当者に連絡したり待ったりすることなく、追加リソースやトライアルリソースの提供を自主的にリクエストできる機能です。FPT Portalのインターフェースから、新規購入やサービスquotaの増加を素早くリクエストすることができます。
+
+この記事では、リソースリクエストの作成方法と、リクエストを作成・管理する前に考慮すべき事項についての情報を提供します。
+
+**2. リソースリクエストを作成する前の注意事項**
+
+  * VPC：VPC Owner権限を持つアカウントの場合、お客様はサービスに割り当てるVPCをNewまたはそのVPC自体のみ選択できます。Tenant Owner権限を持つアカウントの場合、お客様はそのTenant内のすべてのVPC、またはサービスに割り当てるNew VPCを選択できます。ただし、リクエスト作成時にVPCの選択は必須ではありません。
+  * Start date/End date：各サービスの開始日と終了日は異なる場合があります。開始日は現在の日付（リクエスト作成日）の翌日以降である必要があり、終了日は開始日より後でなければなりません。ただし、開始日・終了日の選択は必須ではありません。FCIがサービスの開始日と終了日を確認しますので、リクエストチケットにこの情報を含めなくても問題ありません。
+
+01 初期設定
+02 クイックスタート
+03 よくある質問（FAQ）

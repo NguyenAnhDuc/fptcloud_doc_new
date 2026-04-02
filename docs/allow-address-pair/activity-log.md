@@ -1,12 +1,15 @@
 ---
 id: "activity-log"
 title: "Activity Log"
+description: "All successful actions are recorded in the Activity Log."
 sidebar_label: "Activity Log"
-sidebar_position: "6"
+sidebar_position: 6
 ---
 
 # Activity Log
 
-Các hành động trên successfully đều is ghi nhận tại Activity Log
-[![file](/img/migrated/image-1708400884483-841ab562.png)](/img/migrated/image-1708400884483-841ab562.png)
-[![file](/img/migrated/image-1708400903813-04d2ba74.png)](/img/migrated/image-1708400903813-04d2ba74.png)
+All successful actions are recorded in the Activity Log.
+
+[![Activity Log list view](/img/migrated/image-1708400884483-841ab562.png)](/img/migrated/image-1708400884483-841ab562.png)
+
+[![Activity Log detail view](/img/migrated/image-1708400903813-04d2ba74.png)](/img/migrated/image-1708400903813-04d2ba74.png)

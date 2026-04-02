@@ -1,13 +1,14 @@
 ---
 id: "Recipient-la-gi"
-title: "Recipient là gì?"
-sidebar_label: "Recipient là gì?"
-sidebar_position: "14"
+title: "What is a recipient?"
+sidebar_label: "What is a recipient?"
+sidebar_position: 14
 ---
-# Recipient là gì?
+
+# What is a recipient?
+
+A **recipient** is a person or channel that receives alert notifications from the FPT Alert system. Tenant Owners can create and manage the list of recipients in the Recipients screen.
+
+To view the list of recipients, go to the **Alert** page and select the **Recipients** tab.
 
 [![file](/img/migrated/image-1725532997863-419e42b8.png)](/img/migrated/image-1725532997863-419e42b8.png)
-
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::

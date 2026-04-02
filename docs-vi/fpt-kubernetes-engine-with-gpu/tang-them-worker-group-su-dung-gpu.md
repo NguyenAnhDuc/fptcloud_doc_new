@@ -13,7 +13,7 @@ sidebar_position: 9
   * 01 Network subnet: Network sử dụng cho Kubernetes Nodes, subnet cần có Static IP Pool.
 
 Các bước thực hiện như sau: 
-**Bước 1** : Truy cập portal FPT Cloud console.fptcloud.com, chọn mục Kubernetes, bấm vào cluster cần thay đổi, mục Node Pools, bấm vào “Edit Workers”. 
+**Bước 1** : Truy cập portal FPT Cloud console.fptcloud.com, chọn mục Kubernetes, bấm vào cluster cần thay đổi, mục Node Pools, bấm vào "Edit Workers". 
 [![](/img/migrated/Picture4-3-aa3ce5ce.png)](/img/migrated/Picture4-3-aa3ce5ce.png)
 **Bước 2** : Bấm vào Add worker group để tạo thêm Worker Group 
 [![](/img/migrated/Picture5-2-3779376b.png)](/img/migrated/Picture5-2-3779376b.png)

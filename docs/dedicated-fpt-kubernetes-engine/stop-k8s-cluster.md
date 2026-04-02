@@ -1,16 +1,19 @@
 ---
 id: "stop-k8s-cluster"
 title: "Stop a Kubernetes cluster"
-description: "You can stop a running Cluster following the instructions below:"
+description: "Stop a running Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Stop a cluster"
 sidebar_position: 9
 ---
 
 # Stop a Kubernetes cluster
 
-You can stop a running Cluster following the instructions below:
-**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
+**Step 1:** In the FPT Cloud Portal menu, select **Kubernetes** to open the **Kubernetes Management** page.
+
 [![](/img/migrated/25-34dff701.png)](/img/migrated/25-34dff701.png)
-**Step 2** : Choose **Action** at the end of the Cluster you want to delete from the list. Click **Stop**.
+
+**Step 2:** Click **Action** for the cluster you want to stop, then click **Stop**.
+
 [![](/img/migrated/26-3cf93e73.png)](/img/migrated/26-3cf93e73.png)
-**Step 3** : Type **Stop** in the warning popup and click **Confirm**.
+
+**Step 3:** Type **Stop** in the confirmation popup and click **Confirm**.

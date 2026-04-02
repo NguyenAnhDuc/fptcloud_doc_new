@@ -20,7 +20,7 @@ You have two options to log in:
 Once you have successfully logged in, you will be directed to the FPT Console homepage, where you can manage DBaaS resources and other cloud services.
 ### Troubleshooting Login Issues:
 If you experience any login issues, try the following steps:
-  * Forgot password: If you forget your password, click the “Forgot password” link on the login page and follow the instructions to reset your password.
+  * Forgot password: If you forget your password, click the "Forgot password" link on the login page and follow the instructions to reset your password.
   * Account locked: If your account is locked, please contact FPT Cloud Support to unlock your account.
   * Incorrect login information: Double-check your username and password to ensure there are no typographical errors.
 

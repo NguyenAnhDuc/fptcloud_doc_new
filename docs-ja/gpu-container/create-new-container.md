@@ -1,11 +1,17 @@
 ---
 id: "create-new-container"
 title: "GPU Container"
-description: "GPU Container — GPU Container上の機能。"
+description: "GPU Container"
 sidebar_label: "GPU Container"
-sidebar_position: "4"
+sidebar_position: 4
 ---
 
 # GPU Container
 
-GPU Container — GPU Container上の機能。
+FPT CloudのAI FactoryプラットフォームでGPU Containerを作成するためのガイドです。
+
+## コンテナの作成方法
+
+新しいGPU Containerを作成するには、左側メニューの **GPU Container** にアクセスし、**Create New Container** ボタンをクリックします。
+
+詳細なガイドは[GUIでのContainer作成](./create-via-gui.md)をご参照ください。

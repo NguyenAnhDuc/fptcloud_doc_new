@@ -1,13 +1,15 @@
 ---
 id: "truc-quan-hoa-du-lieu"
-title: "7. Trực quan hóa dữ liệu"
-sidebar_label: "7. Trực quan hóa dữ liệu"
-sidebar_position: "15"
+title: "Data visualization"
+sidebar_label: "Data visualization"
+sidebar_position: 15
 ---
-# FPT Cloud Monitoring
 
-![](/img/migrated/settings-d31fa71f.png)
+# Data visualization
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+FPT Cloud Monitoring provides data visualization through Grafana dashboards. You can access the dashboard, install templates, and explore your metrics, logs, and traces visually.
+
+See the following sections for details:
+
+- [Access the dashboard](truy-cap-vao-dashboard.md)
+- [Install a dashboard template](fcmon-dashboard-template.md)

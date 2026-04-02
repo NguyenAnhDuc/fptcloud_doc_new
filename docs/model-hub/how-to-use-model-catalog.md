@@ -26,5 +26,5 @@ Customize the model using your own dataset to improve performance for your speci
 **Browsing and Searching Models**
   * Use the **search bar** at the top to quickly find a model by name.
   * Use the **filter tabs** (e.g., DeepSeek, GPT, Qwen, etc.) to view models from a specific family.
-  * At the bottom right, adjust the **“Models per page”** setting to display 8, 16,32, 64, or more models per page.
+  * At the bottom right, adjust the **"Models per page"** setting to display 8, 16,32, 64, or more models per page.
   * Navigate between pages using the pagination controls.

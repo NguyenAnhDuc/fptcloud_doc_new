@@ -1,11 +1,13 @@
 ---
 id: "update-target"
-title: "3 Chỉnh sửa cấu hình scan Target"
-description: "3 Chỉnh sửa cấu hình scan Target on FPT Cloud VA."
-sidebar_label: "3 Chỉnh sửa cấu hình scan Target"
-sidebar_position: "6"
+title: "Edit target scan configuration"
+description: "Guide to editing the scan configuration of an existing target in FPT Cloud VA."
+sidebar_label: "Edit target scan configuration"
+sidebar_position: 6
 ---
 
-# 3 Chỉnh sửa cấu hình scan Target
+# Edit target scan configuration
 
-3 Chỉnh sửa cấu hình scan Target on FPT Cloud VA.
+1. From the menu, select **Security > Cloud VA**. In the **Action** column of the target you want to edit, click **Update Configuration**.
+
+2. Enter the updated values in the corresponding fields and click **Update**.

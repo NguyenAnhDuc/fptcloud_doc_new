@@ -7,7 +7,7 @@ sidebar_position: 9
 pagination_next: null
 ---
 
-# Xoa Kubernetes Cluster
+# Xoá Kubernetes cluster
 
 Với các **Kubernetes Cluster** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.

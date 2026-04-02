@@ -19,7 +19,7 @@ Bấm **Go to Notification** để đến tab chức năng **Notification** , ng
 Trên thanh menu, chọn **Database Platform** > Chọn menu **All Database** hoặc chọn menu tương ứng với nhóm cơ sở dữ liệu phù hợp cluster cần kích hoạt dịch vụ backup > click vào Cluster ID > chọn tab **Backup** để vào màn hình quản lý dịch vụ backup.
 [![](/img/migrated/DBaaS_BackupDB_view_inactive-scaled-5a5defe2.png)](/img/migrated/DBaaS_BackupDB_view_inactive-scaled-5a5defe2.png)
 #### Bước 2: Kích hoạt dịch vụ Backup
-Sau khi cụm cơ sở dữ liệu được tạo thành công và dịch vụ Backup chưa được kích hoạt, trạng thái của dịch vụ sẽ mặc định là **Inactive**. Người dùng có thể nhấp vào biểu tượng “**Enable Backup** ” (hình răng cưa) để mở hộp thoại và tiến hành kích hoạt dịch vụ. Tùy theo loại database engine và VPC là VMWare hay Open Stack mà một số trường thông tin có thể hiển thị khác nhau.
+Sau khi cụm cơ sở dữ liệu được tạo thành công và dịch vụ Backup chưa được kích hoạt, trạng thái của dịch vụ sẽ mặc định là **Inactive**. Người dùng có thể nhấp vào biểu tượng "**Enable Backup** " (hình răng cưa) để mở hộp thoại và tiến hành kích hoạt dịch vụ. Tùy theo loại database engine và VPC là VMWare hay Open Stack mà một số trường thông tin có thể hiển thị khác nhau.
 [![](/img/migrated/DBaaS_BackupDB_enable-e1764561767179-15ed20cd.png)](/img/migrated/DBaaS_BackupDB_enable-e1764561767179-15ed20cd.png)
 Mô tả ý nghĩa và cách điền giá trị cho các trường trên màn hình:
   * **Capacity (GB)** : Nhập dung lượng lưu trữ dữ liệu backup cho database, tính theo đơn vị GB, với giá trị tối thiểu là 10 GB.
@@ -39,4 +39,4 @@ Nhập các thông tin cần thay đổi và nhấn Save để xác nhận. Quá
 **Cảnh báo:**  
 Việc huỷ dịch vụ Backup sẽ xóa toàn bộ dữ liệu đã được sao lưu, đồng thời hủy tất cả các job backup hiện có. Sau khi xóa, bạn không thể thực hiện restore hoặc khôi phục cơ sở dữ liệu theo thời điểm (PITR).  
 
-Để huỷ dịch vụ Backup, tại màn hình quản lý dịch vụ Backup, nhấp vào nút **Delete Backup** (biểu tượng hình thùng rác) cạnh section **Backup Service** để mở hộp thoại xác nhận xoá. Nhập “**delete** ” và bấm **Confirm** để xác nhận huỷ dịch vụ backup. Quá trình này có thể kéo dài từ 5–10 phút, trong thời gian này dịch vụ Backup sẽ hiển thị trạng thái **Deleting**. Sau khi xử lý thành công, dịch vụ sẽ chuyển về trạng thái **Inactive**.
+Để huỷ dịch vụ Backup, tại màn hình quản lý dịch vụ Backup, nhấp vào nút **Delete Backup** (biểu tượng hình thùng rác) cạnh section **Backup Service** để mở hộp thoại xác nhận xoá. Nhập "**delete** " và bấm **Confirm** để xác nhận huỷ dịch vụ backup. Quá trình này có thể kéo dài từ 5–10 phút, trong thời gian này dịch vụ Backup sẽ hiển thị trạng thái **Deleting**. Sau khi xử lý thành công, dịch vụ sẽ chuyển về trạng thái **Inactive**.

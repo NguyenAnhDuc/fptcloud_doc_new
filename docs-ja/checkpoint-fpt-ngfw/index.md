@@ -1,13 +1,12 @@
 ---
 id: "checkpoint-fpt-ngfw"
-title: "Checkpoint Fpt Ngfw"
-sidebar_label: "Checkpoint Fpt Ngfw"
-sidebar_position: "1"
+title: "CheckPoint - FPT NGFW"
+sidebar_label: "概要"
+sidebar_position: 1
 ---
-# Checkpoint Fpt Ngfw
 
-![](/img/migrated/icon-networking-f57b0b33.png)
+# CheckPoint – FPT NGFW
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+![CheckPoint FPT NGFW](/img/migrated/icon-networking-f57b0b33.png)
+
+CheckPoint Firewallは、ネットワークシステムを保護するための次世代ファイアウォール（NGFW）製品です。

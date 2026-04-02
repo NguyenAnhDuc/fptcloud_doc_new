@@ -2,12 +2,11 @@
 id: "user-defined-pattern"
 title: "User Defined Pattern"
 sidebar_label: "User Defined Pattern"
-sidebar_position: "25"
+sidebar_position: 25
 ---
+
 # User Defined Pattern
 
-![](/img/migrated/dashboard-12e0b64f.png)
+CVEフィルタリング用にグループ化された利用可能なパターンを表示します。
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+[![file](/img/migrated/image-1714116728771-f78f22c5.png)](/img/migrated/image-1714116728771-f78f22c5.png)

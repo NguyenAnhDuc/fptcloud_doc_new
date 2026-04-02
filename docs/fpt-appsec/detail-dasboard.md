@@ -1,19 +1,11 @@
 ---
 id: "detail-dasboard"
-title: "Bảng điều khiển"
-sidebar_label: "Bảng điều khiển"
-sidebar_position: "5"
+title: "Dashboard"
+description: "FPT AppSec Dashboard overview"
+sidebar_label: "Dashboard"
+sidebar_position: 5
 ---
 
-# FPT AppSec
+# Dashboard
 
-  * [ ![](/img/migrated/images-331b7b32.png) Release note ](javascript: "Release note")
-  * [ ![](/img/migrated/settings-f58a338e.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-8abaee1e.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\)  ")
-
-Dashboard
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-appsec%2F "FPT AppSec")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-appsec%2F "FPT AppSec")
-
-* * *
+The FPT AppSec Dashboard provides a centralized view of security metrics across your organization. It displays scan results, issue statistics, and asset information aggregated from all teams.

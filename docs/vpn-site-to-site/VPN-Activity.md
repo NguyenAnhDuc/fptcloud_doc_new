@@ -1,14 +1,17 @@
 ---
 id: "VPN-Activity"
-title: "Vpn Activity"
-description: "Successful VPN actions are recorded in the Activity Log."
-sidebar_label: "Vpn Activity"
+title: "VPN activity log"
+description: "Guide to viewing VPN activity records in the Activity Log"
+sidebar_label: "VPN activity log"
 sidebar_position: 10
 ---
 
-# Vpn Activity
+# VPN activity log
 
-Successful VPN actions are recorded in the Activity Log. 
-**Step 1** : Go to the Activity Log on the left menu. 
-**Step 2** : Check VPN activity
+Successful VPN actions are recorded in the Activity Log.
+
+1. Go to **Activity Log** in the left menu.
+
+2. Review the VPN activity entries.
+
 [![Activity log](/img/migrated/Activity-log-1024x475-84cbd02a.png)](/img/migrated/Activity-log-1024x475-84cbd02a.png)

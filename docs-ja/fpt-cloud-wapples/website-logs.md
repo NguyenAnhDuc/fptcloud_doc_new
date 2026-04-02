@@ -2,12 +2,11 @@
 id: "website-logs"
 title: "Website Logs"
 sidebar_label: "Website Logs"
-sidebar_position: "11"
+sidebar_position: 11
 ---
+
 # Website Logs
 
-[![file](/img/migrated/image-1714112450269-7c2dcf6b.png)](/img/migrated/image-1714112450269-7c2dcf6b.png)
+クライアントおよびサーバーから検出されたログ（Weak Password、Account Enumeration、Session Limiting、URL Encryption など）を基に、ウェブサイトのログフィルタリングを設定します。
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**Website** フィールドで各ウェブサイトを個別に選択できます。 [![file](/img/migrated/image-1714112450269-7c2dcf6b.png)](/img/migrated/image-1714112450269-7c2dcf6b.png)

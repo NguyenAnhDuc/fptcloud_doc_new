@@ -1,11 +1,10 @@
 ---
 id: "incremental-backup-la-gi-va-loi-ich-khi-su-dung"
-title: "Incremental backup là gì và lợi ích khi sử dụng?"
-sidebar_label: "Incremental backup là gì và lợi ích khi sử dụng?"
+title: "What is incremental backup and what are its benefits?"
+description: "Explanation of incremental backup and how it saves time, processing power, and storage compared to full backup."
+sidebar_label: "What is incremental backup?"
 sidebar_position: "11"
 ---
-# Incremental backup là gì and lợi ích when sử dụng?
+# What is incremental backup and what are its benefits?
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+**Incremental backup** is a backup method based on the principle of comparing the current system with the most recent backup and only storing data that has changed. Rather than capturing and storing all data like a **Full Backup** — which is very time-consuming to process — **incremental backup** saves significant time, processing performance, and storage capacity.

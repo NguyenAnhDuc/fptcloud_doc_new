@@ -1,13 +1,19 @@
 ---
 id: "unlock-instance-deletion"
-title: "Unlock Instance Deletion"
-sidebar_label: "Unlock Instance Deletion"
-sidebar_position: "4"
+title: "インスタンス削除のロック解除"
+description: "仮想マシンのロックを解除して、通常通り削除できるようにします。"
+sidebar_label: "インスタンス削除のロック解除"
+sidebar_position: 4
 ---
-# Unlock Instance Deletion
 
-[![file](/img/migrated/image-1702889865206-f8a5a864.png)](/img/migrated/image-1702889865206-f8a5a864.png)
+# インスタンス削除のロック解除
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+ロックされた仮想マシンを削除するには、事前にロックを解除する必要があります。
+
+1. **Instance Management** で仮想マシンを選択し、**Actions** → **Unlock Deletion** をクリックします。
+
+2. 確認ダイアログに仮想マシン名が表示されます。**Unlock Instance Deletion** をクリックして確認します。
+
+[![Unlock Instance Deletion確認ダイアログ](/img/migrated/image-1702889865206-f8a5a864.png)](/img/migrated/image-1702889865206-f8a5a864.png)
+
+ロックが解除された仮想マシンは通常通り削除できるようになります。

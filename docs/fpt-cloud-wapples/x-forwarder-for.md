@@ -1,13 +1,16 @@
 ---
 id: "x-forwarder-for"
-title: "Bao gồm các chức năng"
-sidebar_label: "Bao gồm các chức năng"
-sidebar_position: "19"
+title: "X-Forwarded-For"
+description: "Block or detect IPs based on the presence of the X-Forwarded-For header"
+sidebar_label: "X-Forwarded-For"
+sidebar_position: 19
 ---
-# X Forwarder For
+
+# X-Forwarded-For
+
+Includes the following features:
+
+- **Block X-Forwarded-For IP**: Blocks IPs that do not include an X-Forwarded-For header
+- **Detect by X-Forwarded-For IP**: Detects and records logs for IPs that do not include an X-Forwarded-For header
 
 [![file](/img/migrated/image-1714116672471-1770a269.png)](/img/migrated/image-1714116672471-1770a269.png)
-
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::

@@ -1,13 +1,20 @@
 ---
 id: "user-guide-tab"
-title: "Cung cấp user guide hướng dẫn sử dụng, cấu hình, tích hợp các dịch vụ."
-sidebar_label: "Cung cấp user guide hướng dẫn sử dụng, cấu hình, tích hợp các dịch vụ."
-sidebar_position: "11"
+title: "User Guide tab"
+sidebar_label: "User Guide tab"
+sidebar_position: 11
 ---
-# Cung cấp user guide guide sử dụng, cấu hình, tích hợp the service.
+
+# User Guide tab
+
+The User Guide tab provides guides for using, configuring, and integrating services.
+
+**Step 1:** Log in to FPT Cloud Portal at **[https://console.fptcloud.com](https://console.fptcloud.com)**.
+
+**Step 2:** In the FPT Cloud Portal menu, click **Monitoring** to display the workspace list.
+
+**Step 3:** Click a workspace name to view its details.
+
+**Step 4:** Select the **User Guide** tab.
 
 [![Alt text](/img/migrated/Screenshot-2025-04-16-151027-4bc4a124.png)](/img/migrated/Screenshot-2025-04-16-151027-4bc4a124.png)
-
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::

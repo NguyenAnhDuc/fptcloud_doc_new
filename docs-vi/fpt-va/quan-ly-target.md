@@ -1,20 +1,22 @@
 ---
 id: "quan-ly-target"
 title: "Quản lý Target"
-description: "Quản lý Target"
+description: "Tổng quan về quản lý mục tiêu quét trong FPT Cloud VA."
 sidebar_label: "Quản lý Target"
 sidebar_position: 3
 ---
 
-# FPT Cloud VA
+# Quản lý Target
 
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
+**Target** là đối tượng được FPT VA rà quét lỗ hổng bảo mật, do người dùng tạo và cài đặt trên **FPT Portal**. Target có thể là một website, một địa chỉ IP public hoặc một dải IP mà người dùng đang quản lý.
 
-Quản lý Target
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
+Các thao tác quản lý Target bao gồm:
 
-* * *
+- [Tạo một Target mới](tao-target.md)
+- [Kiểm tra trạng thái scan của Target](kiem-tra-trang-thai-target.md)
+- [Chỉnh sửa cấu hình scan Target](update-target.md)
+- [Scan Now](scan-now.md)
+- [Xóa Target](xoa-target.md)
+- [Lấy Header trang web](lay-header.md)
+- [Lấy Cookie trang web](lay-cookie.md)
+- [Mở Remote Registry trên Windows để sử dụng SMB](mo-remote-registry-window.md)

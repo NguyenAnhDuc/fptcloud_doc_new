@@ -6,7 +6,7 @@ sidebar_label: "Tại sao nên sử dụng GPU trên Cloud?"
 sidebar_position: 40
 ---
 
-# Tai Sao Nen Su Dung Gpu Tren Cloud
+# Tại sao nên sử dụng GPU trên Cloud
 
 Phần lớn các doạnh nghiệp vẫn đang sử dụng GPU on-premise. Mô hình sử dụng on-premise tồn tại hạn chế như: tốn chi phí đầu tư và nhân sự cho việc triển khai, quản lý, bảo trì và nâng cấp. 
 Ngược lại, các phiên bản GPU do nền tảng điện toán đám mây cung cấp chỉ tốn chi phí sử dụng dịch vụ mà không cần bất kỳ hoạt động kỹ thuật nào khác, với mức phí dịch vụ hợp lý, người dùng chỉ phải chi trả khi sử dụng thực tế. 

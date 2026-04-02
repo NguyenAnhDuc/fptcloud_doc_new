@@ -25,7 +25,7 @@ We recommend you adjust parameters based on each purpose:
 | Creative writing  | 1.0–1.5  |   | 500+  | 0.8–1.0  |  
 | Technical explanation  | 0.2–0.5  |   | 200–500  | 0.3–0.6  |  
 | Summarization  | 0.2–0.5  |   | 150–300  | 0.3–0.6  |  
-| Code generation  | 0.1–0.4  | “n” or “#”  |   | 0.3–0.6  |  
+| Code generation  | 0.1–0.4  | "n" or "#"  |   | 0.3–0.6  |  
 | Conversational agent  | 0.7–1.0  |   | 200–600  | 0.8–1.0  |  
 ### Step 2: Start chatting
 The Playground interface is structured around **Completions** , which include:  

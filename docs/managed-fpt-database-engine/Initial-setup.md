@@ -21,4 +21,4 @@ If you **do not have an account on the FPT Console Portal** , please sign up an 
 If you already **have an account on the FPT Console Porta** l, please access the FPT Console Portal following the instructions in section [Accessing FPT Console Portal](../managed-fpt-database-engine/index.md)
 If you **do not have the appropriate access rights** , you will need to request the system administrator to grant the necessary access rights. Access control instructions can be found in section [FPT Database Engine Right Management](../managed-fpt-database-engine/index.md)
 If you **have not created a subnet for database provisioning** , please follow the instructions in section [Subnet Management](../managed-fpt-database-engine/index.md) for database provisioning.
-After completing the initial setup steps, you can proceed with section “7. Tutorials”.
+After completing the initial setup steps, you can proceed with section "7. Tutorials".

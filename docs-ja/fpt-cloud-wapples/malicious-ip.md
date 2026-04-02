@@ -1,13 +1,12 @@
 ---
 id: "malicious-ip"
 title: "Malicious Ip"
+description: "Malicious Ip"
 sidebar_label: "Malicious Ip"
-sidebar_position: "28"
+sidebar_position: 28
 ---
-# Malicious Ip
 
-![](/img/migrated/dashboard-12e0b64f.png)
+# Malicious IP
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+安全でないと評価された IP アドレスの一覧テーブルです。
+[![file](/img/migrated/image-1714116747548-2551c78a.png)](/img/migrated/image-1714116747548-2551c78a.png)

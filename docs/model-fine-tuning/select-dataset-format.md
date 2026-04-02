@@ -44,9 +44,9 @@ We currently support data formats for fine-tuning include:
 ```
 Copy[
    {
-      “instruction”: “string”,
-      “input”: “string”,
-      “output” “string”
+      "instruction": "string",
+      "input": "string",
+      "output" "string"
   }
 ]
 
@@ -84,10 +84,10 @@ Each data sample consists of a `conversations` array, where each turn in the cha
 ```
 Copy[
    {
-      “conversations”: [
+      "conversations": [
          {
-            “from”: “string”,
-            “value”: “string”
+            "from": "string",
+            "value": "string"
          }
       ]
    }
@@ -103,7 +103,7 @@ Copy[
     "conversations": [
       {
         "from": "human",
-        "value": "You are a powerful Ai that will detail Character Biographies in succinct and detailed manner. You WILL cover their Personality, Age, Physical Appearance, Attire, Background, and Abilities to the highest degree of accuracy. Use explicit and visceral and graphic descriptions for appearances, clothes, sight, smell, texture, taste, feelings, actions.\nGenerate a profile of “Sona Sitri” from “Highschool DxD”"
+        "value": "You are a powerful Ai that will detail Character Biographies in succinct and detailed manner. You WILL cover their Personality, Age, Physical Appearance, Attire, Background, and Abilities to the highest degree of accuracy. Use explicit and visceral and graphic descriptions for appearances, clothes, sight, smell, texture, taste, feelings, actions.\nGenerate a profile of "Sona Sitri" from "Highschool DxD""
       },
       {
         "from": "gpt",
@@ -123,7 +123,7 @@ Copy[
       },
       {
         "from": "human",
-        "value": "Write down a Modern AU news article for Game of Thrones which talks about the Green Trial (including the purge of the High Sparrows and Tyrells) and the Coronation of Queen Cersei from the perspective of a modern Westeros, modernizing the events of Game of Thrones to a war torn Westeros inspired by modern civil wars in the process. Have there be a rigged referendum where Cersei seizing control of the throne after Tommen’s death was “approved” by an “overwhelming majority” of voters and “unanimously approved” by a (purged and puppeted) legislature which also approved other amendments to the constitution, with one of said measures an amendment which formalized the one-party nature of the Westerosi state under the Lannisters (even though the country had de facto functioned as such for years). Mention other measures that could be taken by the Lannister regime in such a scenario. Finally, feel free to name the Party the one-party state has and its (official) ideology. "
+        "value": "Write down a Modern AU news article for Game of Thrones which talks about the Green Trial (including the purge of the High Sparrows and Tyrells) and the Coronation of Queen Cersei from the perspective of a modern Westeros, modernizing the events of Game of Thrones to a war torn Westeros inspired by modern civil wars in the process. Have there be a rigged referendum where Cersei seizing control of the throne after Tommen’s death was "approved" by an "overwhelming majority" of voters and "unanimously approved" by a (purged and puppeted) legislature which also approved other amendments to the constitution, with one of said measures an amendment which formalized the one-party nature of the Westerosi state under the Lannisters (even though the country had de facto functioned as such for years). Mention other measures that could be taken by the Lannister regime in such a scenario. Finally, feel free to name the Party the one-party state has and its (official) ideology. "
       },
       {
         "from": "gpt",
@@ -147,19 +147,19 @@ Copy[
 ```
 Copy[
    {
-      “conversations”: [
+      "conversations": [
          {
-            “from”: “string”,
-            “value”: “string”
+            "from": "string",
+            "value": "string"
          }
 ],
-      “chosen”: {
-         “from”: “string”,
-         “value”: “string”
+      "chosen": {
+         "from": "string",
+         "value": "string"
 },
-      “rejected”: {
-         “from”: “string”,
-         “value”: “string”
+      "rejected": {
+         "from": "string",
+         "value": "string"
       }
    }
 ]
@@ -228,13 +228,13 @@ The structure includes:
 ```
 Copy[
    {
-      “message”: [
+      "message": [
          {
-            “role”: “string”, “content”: “<image>string”
+            "role": "string", "content": "<image>string"
          }
       ],
-      “images”: [
-         “images/0.jpg”
+      "images": [
+         "images/0.jpg"
       ]
    }
 ]
@@ -304,7 +304,7 @@ Each data point in the corpus includes a `"text"` field with a string of text. T
 ```
 Copy[
    {
-      “text”: “string”
+      "text": "string"
    }
 ]
 

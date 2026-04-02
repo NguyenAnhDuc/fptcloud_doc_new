@@ -10,7 +10,7 @@ sidebar_position: 51
 
 Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public của người dùng cuối khi truy cập vào ứng dụng trong Kubernetes thông qua istio gateway, người dùng có thể cấu hình: 
 Enable proxy protocol cho service istio-ingressgateway bằng cách thêm annotation _loadbalancer.fptcloud.com/proxy-protocol: "true"_ trong cấu hình của service. 
-Cấu hình envoyFilter trong namespace _“istio-system”_ : 
+Cấu hình envoyFilter trong namespace _"istio-system"_ : 
 
 ```
 apiVersion: networking.istio.io/v1alpha3 

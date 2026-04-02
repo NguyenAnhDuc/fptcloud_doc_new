@@ -1,11 +1,15 @@
 ---
 id: "tich-hop-dich-vu"
-title: "Tích hợp dịch vụ"
-sidebar_label: "Tích hợp dịch vụ"
-sidebar_position: "3"
+title: "Service integration"
+description: "How to integrate the Reporting service into your FPT Cloud Monitoring workspace."
+sidebar_label: "Service integration"
+sidebar_position: 3
 ---
-# Tích hợp service
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Service integration
+
+To use this management tool, you first need to contact the FPT Cloud Monitoring support admin team to **integrate** the Reporting service into your workspace.
+
+After integration is complete, you can use the service directly from the Dashboard.
+
+Contact us when you are ready to get started.

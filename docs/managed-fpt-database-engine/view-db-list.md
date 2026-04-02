@@ -36,10 +36,10 @@ Once the restart is completed and the new configuration is successfully applied,
 | Type  | Displays the database engine type.  |  
 | Tag  | Displays the database engine type.  |  
 | Version  | Displays the database version and lifecycle status: 
-* Beta version: labeled “Beta”
+* Beta version: labeled "Beta"
 * General Availability (GA): Displays normally, no tag
-* Deprecated version: labeled “Dep.”
-* End of Support version: labeled “EoS”
+* Deprecated version: labeled "Dep."
+* End of Support version: labeled "EoS"
  |  
 | Node  | Displays the number of nodes in the database cluster.  |  
 | Status  | Displays the current database status (Running, Stopped, Warning, ...).  |  

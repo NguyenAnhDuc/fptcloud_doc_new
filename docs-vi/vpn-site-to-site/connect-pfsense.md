@@ -40,7 +40,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 **Phần 1: General information** [![](/img/migrated/photo_2_2025-07-09_17-34-31-bab62499.jpg)](/img/migrated/photo_2_2025-07-09_17-34-31-bab62499.jpg)
 **Lưu ý** : Thông số Pre-shared-key cần lưu lại để kết nối với Palo Alto   
 **Phần 2: Remote VPN information** [![file](/img/migrated/image-1757089299476-d2ccb53e.png)](/img/migrated/image-1757089299476-d2ccb53e.png)
-Quý khách hàng lựa chọn Providers = “others" sau đó làm theo các bước sau:
+Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bước sau:
   * Bước 1: Điền providers name = "pfsense" 
   * Bước 2: Điền thông tin cho IKE và IPSec cụ thể như sau:
 

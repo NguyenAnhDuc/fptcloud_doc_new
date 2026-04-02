@@ -1,11 +1,11 @@
 ---
 id: "overview-nat-instance"
-title: "Overview Nat Instance"
-sidebar_label: "Overview Nat Instance"
-sidebar_position: "2"
+title: "NAT Instance overview"
+description: "Overview of the NAT Instance feature for enabling isolated network instances to access the Internet."
+sidebar_label: "NAT Instance overview"
+sidebar_position: 2
 ---
-# Overview Nat Instance
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# NAT Instance overview
+
+The NAT Instance feature enables instances in isolated networks to access external systems on the Internet, such as installing software or connecting to On-premise infrastructure.

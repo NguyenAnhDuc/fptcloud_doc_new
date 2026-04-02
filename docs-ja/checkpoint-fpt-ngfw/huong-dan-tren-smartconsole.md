@@ -1,13 +1,10 @@
 ---
 id: "huong-dan-tren-smartconsole"
-title: "Hướng dẫn trên SmartConsole"
-sidebar_label: "Hướng dẫn trên SmartConsole"
-sidebar_position: "8"
+title: "SmartConsoleでの操作ガイド"
+sidebar_label: "SmartConsoleでの操作ガイド"
+sidebar_position: 8
 ---
-# Hướng dẫn trên SmartConsole
 
-![](/img/migrated/icon-networking-f57b0b33.png)
+# SmartConsoleでの操作ガイド
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+このセクションでは、SmartConsoleアプリケーションを通じてCheckPoint – FPT NGFWを管理する方法について説明します。SmartConsoleへのアクセス、ポリシーのインストール、オブジェクトの作成、ファイアウォールルール、NATルール、ログの調査、BladeとAccountの管理が含まれます。

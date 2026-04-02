@@ -6,8 +6,10 @@ sidebar_label: "Xem danh sách Kubernetes Cluster đã tạo"
 sidebar_position: 5
 ---
 
-# Xem Danh Sach Kubernetes Cluster Da Tao
+# Xem danh sách Kubernetes cluster đã tạo
 
-Bạn có thể xem và quản lý danh sách Kubernetes Cluster đã tạo trên trang **Kubernetes Management**. Để mở **Kubernetes Management** , hãy thao tác như sau:
-Trên **FPT Portal** , ở menu chọn **Kubernetes.** Chọn Tab **Managed**. Hệ thống sẽ hiển thị danh sách Cluster đã tạo với các thông tin quan trọng như : **Name** , **Version** , **Worker Group** , **Type** , **Status** , **Created at.** , **Actions.**
+Bạn có thể xem và quản lý danh sách Kubernetes cluster đã tạo trên trang **Kubernetes Management**.
+
+Trên **FPT Portal**, ở menu chọn **Kubernetes**, sau đó chọn tab **Managed**. Hệ thống sẽ hiển thị danh sách cluster đã tạo với các thông tin: **Name**, **Version**, **Worker Group**, **Type**, **Status**, **Created at** và **Actions**.
+
 [![](/img/migrated/Picture9-c0423748.png)](/img/migrated/Picture9-c0423748.png)

@@ -20,7 +20,7 @@ Bạn có hai phương thức để đăng nhập:
 Sau khi đăng nhập thành công, bạn sẽ được chuyển đến trang mặc định của FPT Console, nơi bạn có thể quản lý các tài nguyên DBaaS và các dịch vụ đám mây khác.
 ### Khắc phục sự cố đăng nhập:
 Nếu bạn gặp khó khăn khi đăng nhập, hãy thử các bước sau:
-  * Quên mật khẩu: Nếu bạn quên mật khẩu, nhấp vào liên kết “Forgot password” trên trang đăng nhập và làm theo hướng dẫn để đặt lại mật khẩu.
+  * Quên mật khẩu: Nếu bạn quên mật khẩu, nhấp vào liên kết "Forgot password" trên trang đăng nhập và làm theo hướng dẫn để đặt lại mật khẩu.
   * Tài khoản bị khóa: Nếu tài khoản của bạn bị khóa, vui lòng liên hệ với FPT Cloud Support để mở khóa tài khoản.
   * Thông tin đăng nhập sai: Kiểm tra lại tên người dùng và mật khẩu để đảm bảo không có lỗi đánh máy.
 

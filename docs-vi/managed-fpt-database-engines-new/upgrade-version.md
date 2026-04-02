@@ -29,8 +29,8 @@ Tính năng **Nâng cấp phiên bản cho cơ sở dữ liệu** trong FPT Data
 Trên trang **Overview** , tìm và nhấp vào biểu tượng **Upgrade** bên cạnh thông tin phiên bản. Một hộp thoại sẽ mở ra hiển thị phiên bản hiện tại và phiên bản mục tiêu có thể cập nhật.
 [![](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)
 Chọn version cần nâng cấp và nhập từ khóa xác nhận vào trường nhập liệu. Nhấn **Upgrade** để bắt đầu quá trình nâng cấp.
-Trong quá trình thực hiện, trạng thái của database cluster sẽ chuyển sang **“Updating”**. Không cố gắng kết nối hoặc thay đổi khi cập nhật đang diễn ra. Cụm sẽ tự động khởi động lại trong quá trình cập nhật.
-Khi hoàn tất upgrade, trạng thái sẽ trở về **“Running”** và cơ sở dữ liệu đã được nâng cấp lên phiên bản mới.
+Trong quá trình thực hiện, trạng thái của database cluster sẽ chuyển sang **"Updating"**. Không cố gắng kết nối hoặc thay đổi khi cập nhật đang diễn ra. Cụm sẽ tự động khởi động lại trong quá trình cập nhật.
+Khi hoàn tất upgrade, trạng thái sẽ trở về **"Running"** và cơ sở dữ liệu đã được nâng cấp lên phiên bản mới.
 ### Lưu ý quan trọng
   * **Không thể hoàn tác** : Việc cập nhật phiên bản không thể quay lại; hãy đảm bảo bản sao lưu hoàn chỉnh.
   * **Ngắt kết nối** : Tất cả kết nối ứng dụng phải được dừng trước khi nâng cấp.

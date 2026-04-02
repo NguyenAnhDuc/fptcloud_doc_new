@@ -1,12 +1,12 @@
 ---
 id: "View-and-Update-Secret-information"
-title: "View And Update Secret Information"
-description: "**Step 1:** Select the Secret Engine to view **Secrets** on the Secret Engine Management screen:"
-sidebar_label: "View And Update Secret..."
+title: "View and update secret information"
+description: "How to view and update key/value data for a secret on FPT Key Vault."
+sidebar_label: "View and update secret"
 sidebar_position: 9
 ---
 
-# View And Update Secret Information
+# View and update secret information
 
 **Step 1:** Select the Secret Engine to view **Secrets** on the Secret Engine Management screen:
 [![](/img/migrated/v1-88a45c58.png)](/img/migrated/v1-88a45c58.png)

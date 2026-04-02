@@ -27,7 +27,7 @@ Trên trang đăng ký, điền các thông tin sau:
   * **Confirm Password** : Nhập lại mật khẩu để xác nhận.
 
 ### Bước 3: Hoàn tất xác minh CAPTCHA
-Để xác nhận bạn không phải là robot, hãy đánh dấu vào ô “I’m not a robot” và hoàn thành bài kiểm tra reCAPTCHA (nếu có).
+Để xác nhận bạn không phải là robot, hãy đánh dấu vào ô "I’m not a robot" và hoàn thành bài kiểm tra reCAPTCHA (nếu có).
 ### Bước 4: Chấp nhận Điều khoản và Chính sách bảo mật
 Đọc và chấp nhận _Điều khoản sử dụng và Chính sách bảo mật_ bằng cách đánh dấu vào ô.
 ### Bước 5: Xác nhận đăng ký

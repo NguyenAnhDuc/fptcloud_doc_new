@@ -25,9 +25,9 @@ sidebar_position: 12
   * **TCP inspect timeout (ms):** Thời gian chờ tối đa mà bộ định tuyến hoặc thiết bị bảo mật chờ đợi để nhận được phản hồi từ máy chủ đích trong quá trình kiểm tra TCP, mặc định là 0.
   * **Connection limit:** Giới hạn số lượng kết nối đồng thời mà dịch vụ cân bằng tải (load balancer) có thể xử lý. Giới hạn này giúp đảm bảo dịch vụ không bị quá tải và có thể hoạt động ổn định, mặc định hiển thị là -1 (kết nối vô hạn).
   * **HTTP Header insertions:** Mặc định điền sẵn **X-Forwarded-For, X-Forwarded-Proto, X-Forwarded-Port** , có thể bỏ chọn Header nếu không có nhu cầu. 
-    * **X-Forwarded-For:** When “true” a X-Forwarded-For header is inserted into the request to the backend member that specifies the client IP address.
-    * **X-Forwarded-Port:** When “true” a X-Forwarded-Port header is inserted into the request to the backend member that specifies the listener port.
-    * **X-Forwarded-Proto:** When “true” a X-Forwarded-Proto header is inserted into the request to the backend member.
+    * **X-Forwarded-For:** When "true" a X-Forwarded-For header is inserted into the request to the backend member that specifies the client IP address.
+    * **X-Forwarded-Port:** When "true" a X-Forwarded-Port header is inserted into the request to the backend member that specifies the listener port.
+    * **X-Forwarded-Proto:** When "true" a X-Forwarded-Proto header is inserted into the request to the backend member.
 
 Nhấn **Create Listener** để thực hiện tạo hoặc **Cancel** để huỷ bỏ.
 **2. Update Listener**

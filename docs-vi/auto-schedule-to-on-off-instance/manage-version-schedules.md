@@ -1,19 +1,18 @@
 ---
 id: "manage-version-schedules"
-title: "Manage Version Schedules"
-description: "Manage Version Schedules"
-sidebar_label: "Manage Version Schedules"
+title: "Quản lý instance schedules"
+description: "Hướng dẫn quản lý danh sách instance schedule trên FPT Cloud."
+sidebar_label: "Quản lý instance schedules"
 sidebar_position: 3
 ---
 
-# Manage Version Schedules
+# Quản lý instance schedules
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
+Trang **Instance Schedule Management** hiển thị toàn bộ danh sách các instance schedule mà bạn đã tạo, bao gồm thông tin về tên, thời gian, tần suất và danh sách máy ảo được gắn kèm.
 
-Quản lý instance schedules
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fauto-schedule-to-on-off-instance%2F "Auto Schedule To On-Off Instance")
+Từ trang này bạn có thể thực hiện các thao tác:
 
-* * *
+- Tạo mới một instance schedule.
+- Xem chi tiết một instance schedule.
+- Gắn hoặc gỡ máy ảo khỏi schedule.
+- Xóa một instance schedule.

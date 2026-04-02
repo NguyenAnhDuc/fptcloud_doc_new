@@ -1,12 +1,14 @@
 ---
 id: "alerting"
-title: "8. Quản trị Cảnh báo (Alerting)"
-sidebar_label: "8. Quản trị Cảnh báo (Alerting)"
-sidebar_position: "18"
+title: "アラート管理"
+sidebar_label: "アラート管理"
+sidebar_position: 18
 ---
 
-# 8. Quản trị Cảnh báo (Alerting)
+# アラート管理
 
-**ステップ1:** にログインします dashboard (xem mục 7.1. にアクセスします dashboard)
-**ステップ2:** Trên menu trái, click **Home** > **Alerting**
+**手順 1:** [ダッシュボードにアクセスします](truy-cap-vao-dashboard.md)。
+
+**手順 2:** 左メニューで **Home** > **Alerting** をクリックします。
+
 [![Alt text](/img/migrated/Picture16-2-9a67b595.png)](/img/migrated/Picture16-2-9a67b595.png)

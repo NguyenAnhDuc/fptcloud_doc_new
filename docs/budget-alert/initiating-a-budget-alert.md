@@ -1,42 +1,67 @@
 ---
 id: "initiating-a-budget-alert"
-title: "Initiating A Budget Alert"
-description: "**Step 1** : In the menu, select Billing > Select Budget Alert. The system displays the created budget alert list."
-sidebar_label: "Initiating A Budget Alert"
+title: "Create a Budget Alert"
+description: "Guide to creating a Budget Alert for proactive budget monitoring on FPT Cloud Portal."
+sidebar_label: "Create a Budget Alert"
 sidebar_position: 2
 ---
 
-# Initiating A Budget Alert
+# Create a Budget Alert
 
-**Step 1** : In the menu, select Billing > Select Budget Alert. The system displays the created budget alert list.
-[![file](/img/migrated/image-1722238229739-f6ec0b8c.png)](/img/migrated/image-1722238229739-f6ec0b8c.png)
-**Step 2** : Select the Create Budget Alert button, the system will go to the fill in screen to create a budget alert.
-[![file](/img/migrated/image-1722238258978-89fcec91.png)](/img/migrated/image-1722238258978-89fcec91.png)
-**Step 3** : Select the Create Budget Alert button, the system will take you to the Basics Information filling screen.
-  * Budget Name (required): Users enter the name of the budget alert, up to 50 characters, including uppercase characters, numbers, dashes, and underscores.
-  * Budget period (required):
-    * Select Monthly if you want to charge and alert by month (starting from 00:00 on the 1st of every month and ending at 23:59 on the last day of the month)
-    * Select Daily if you want to charge and alert daily (starts at 00:00 daily and ends at 23:59 daily)
-  * Budget amount (required): The total budget amount for 1 day or 1 month (default currency is Vietnamese dong)
-  * Budget scope (required):
-    * Select "All services" if you want to calculate the budget alert threshold according to the actual cost of all services and resources in the current ORG tenant.
-    * Select "Filter specific resources" if you want to calculate the budget alert threshold for some services by VPC or by tag.
-    * Note: You can select 1 or more VPCs/Tags. The actual cost will be calculated from the usage of the service/resource that is concurrently located in all VPCs and the selected Tag. Services/resources that are only located in 1 VPC or 1 Tag and not in other VPCs or Tags will not be charged.
+Budget Alert notifies you when cloud costs reach a defined budget threshold — reducing the risk of overspending and giving you proactive cost control.
 
-[![file](/img/migrated/image-1722238275706-df16f772.png)](/img/migrated/image-1722238275706-df16f772.png)
-**Step 4** : Select the Next button, the system will go to the Alert thresholds & Create information filling screen.
-  * Threshold number (required): The user enters the warning threshold number.
-  * Threshold unit (required): The user selects the unit of the alert threshold
-    * If you select "Percent (%)", the system will warn you when the actual amount is greater than or equal to x% of the budget amount - where x = threshold number.
-    * If you select "Vietnam dong (đ)", the system will warn you when the actual amount is greater than or equal to the amount at the threshold number.
-  * Severity: The user selects the alert level as Warning or Critical.
-  * Notification title (required): The user enters the title of the alert email; Up to 255 characters, including uppercase characters, numbers, dashes, and underscores (excluding single quotes, quotes, backslashes, and forward slashes).
-  * Description (required): The user enters the content of the alert email; Up to 500 characters, including uppercase characters, numbers, dashes, and underscores (excluding single quotes, quotes, backslashes, and slashes).
-  * Email recipients (required): Users enter email alerts (multiple emails can be imported)
-  * Add Alert Threshold (optional): Users can create multiple alert thresholds on the budget of a resource group.
-  * Note: Each alert threshold will be alerted 3 times.
+## Prerequisites
 
-[![file](/img/migrated/image-1722238293122-55c558a2.png)](/img/migrated/image-1722238293122-55c558a2.png)
-[![file](/img/migrated/image-1722238298494-77e57e31.png)](/img/migrated/image-1722238298494-77e57e31.png)
-**Step 5** : Select the Create button to save the Budget Alert information you just created or select the Previous button to return to the previous screen (Basic information).
-[![file](/img/migrated/image-1722238751599-265e93b0.png)](/img/migrated/image-1722238751599-265e93b0.png)
+- An FPT Cloud account with access to **Billing**.
+- Signed in to FPT Cloud Portal.
+
+## Create a Budget Alert
+
+1. Select **Billing** → **Budget Alert**. The system displays the list of existing Budget Alerts.
+
+   ![Budget Alert list](/img/migrated/image-1722238229739-f6ec0b8c.png)
+
+2. Click **Create Budget Alert**. The system navigates to the information entry screen.
+
+   ![Create Budget Alert button](/img/migrated/image-1722238258978-89fcec91.png)
+
+3. Fill in the **Basic Information**:
+   - **Budget Name** (required): name of the Budget Alert, up to 50 characters, including uppercase letters, numbers, hyphens, and underscores.
+   - **Budget period** (required):
+     - Select **Monthly** to calculate costs and trigger alerts by month (from 00:00 on the 1st to 23:59 on the last day of the month).
+     - Select **Daily** to calculate costs and trigger alerts by day (from 00:00 to 23:59 each day).
+   - **Budget amount** (required): total budget for one day or one month (default currency is VND).
+   - **Budget scope** (required):
+     - Select **All services** to calculate the alert threshold based on actual costs across all services and resources in the current tenant.
+     - Select **Filter specific resources** to calculate the alert threshold for specific services filtered by VPC or tag.
+
+   :::note
+   You can select multiple VPCs and tags. Actual cost is calculated from usage of services that belong simultaneously to all selected VPCs and tags. Services belonging to only one VPC or tag but not the others are excluded.
+   :::
+
+   ![Basic Information form](/img/migrated/image-1722238275706-df16f772.png)
+
+4. Click **Next**. The system navigates to the **Alert thresholds & Create** screen:
+   - **Threshold number** (required): enter the alert threshold value.
+   - **Threshold unit** (required):
+     - Select **Percent (%)** — the system alerts when actual cost is >= x% of the Budget amount (x = threshold number).
+     - Select **Vietnam dong (d)** — the system alerts when actual cost is >= the threshold number amount.
+   - **Severity** (required): select the alert level — **Warning** or **Critical**.
+   - **Notification title** (required): subject of the alert email, up to 255 characters (excluding single quotes, double quotes, and slashes).
+   - **Description** (required): body of the alert email, up to 500 characters.
+   - **Email recipients** (required): enter the email addresses to receive alerts (multiple addresses allowed).
+   - **Add Alert Threshold** (optional): create additional alert thresholds for the same budget.
+
+   :::note
+   Each alert threshold sends a maximum of 3 notifications.
+   :::
+
+   ![Alert thresholds form](/img/migrated/image-1722238293122-55c558a2.png)
+
+   ![Alert threshold configuration example](/img/migrated/image-1722238298494-77e57e31.png)
+
+5. Click **Create** to save the Budget Alert, or click **Previous** to return to the Basic Information screen.
+
+   ![Confirm Budget Alert creation](/img/migrated/image-1722238751599-265e93b0.png)
+
+The new Budget Alert appears in the list.

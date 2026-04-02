@@ -44,7 +44,7 @@ Bạn có thể tiến hành **Reintegrate** hoặc **Disable** tích hợp GitH
 ## Vô hiệu hoá tích hợp GitHub
 **Bước 1** : Nhấn **Disable** trong màn hình chi tiết của tích hợp GitHub
 [![anhfsec](/img/migrated/in-git4-cd794a67.png)](/img/migrated/in-git4-cd794a67.png)
-**Bước 2** : Điền “disable" và nhấn **Confirm** để thực hiện vô hiệu hóa
+**Bước 2** : Điền "disable" và nhấn **Confirm** để thực hiện vô hiệu hóa
 [![anhfsec](/img/migrated/Screenshot-2025-06-17-160052-d7098984.png)](/img/migrated/Screenshot-2025-06-17-160052-d7098984.png)
 ## Access Key cho CI/CD pipeline
 Ở phần detail bạn sẽ được cung cấp access key để có thể tích hợp CI/CD Pipeline. Hướng dẫn tích hợp [tại đây](./cicd-guideline.md)

@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Hibernate & Wake-up"
 sidebar_position: 23
 ---
 
-# Tinh Nang Hibernate Wakeup
+# Tính năng Hibernate & Wake-up
 
 Các Clusters thường được sử dụng 24/24 nếu như chúng đang chạy cho môi trường production còn đối với việc sử dụng các cluster scho môi trường dev, test, staging hay demo, việc scale down các resources K8s khi không sử dụng sẽ giúp tiết kiệm chi phí cho người dùng. Tuy nhiên việc scale down thủ công có thể sẽ tốn nhiều thời gian vậy nên tính năng Hibernate sinh ra để tự động hoá phần việc này. 
 _Khi người dùng sử dụng tính năng**Hibernate** , các resources trong cluster sẽ có những thay đổi như sau: _

@@ -1,63 +1,90 @@
 ---
 id: "khoi-tao-policy"
 title: "Khởi tạo Policy"
-description: "[![create policy](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)](/img/migrated/Screenshot-2024-10-02-055525-3"
+description: "Hướng dẫn khởi tạo Autoscale Policy trên FPT Autoscale."
 sidebar_label: "Khởi tạo Policy"
 sidebar_position: 14
 ---
 
 # Khởi tạo Policy
 
-##  **Bước 1** : Truy cập trang **Autoscaling > Autoscale Policy**. Chọn **Create policy**.
-[![create policy](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)
-##  **Bước 2** : Thực hiện cấu hình các thông số.
-**Type** : Chọn loại policy phù hợp.
-**Name** : Đặt tên policy sao cho dễ quản lý nhất. Tên phải có 6 đến 250 kí tự, chỉ bao gồm chữ cái latin, số và dấu gạch dưới.
-### Deletion policy
-Deletion policy sẽ kiểm soát thứ tự ưu tiên xóa node trong một group nếu có bất kỳ hành động nào gây giảm node. Nếu group không áp dụng policy này, các nodes sẽ được lựa chọn ngẫu nhiên.
-[![deletion policy](/img/migrated/Screenshot-2024-10-02-055724-aa33696c.png)](/img/migrated/Screenshot-2024-10-02-055724-aa33696c.png)
-**Mode** :
-  * OLDEST FIRST: Ưu tiên xóa các nodes từ cũ nhất đến mới nhất.
-  * YOUNGEST FIRST: Ưu tiên xóa các nodes từ mới nhất đến cũ nhất.
+1. Truy cập trang **Autoscaling > Autoscale Policy**. Chọn **Create policy**.
 
-### Scaling policy
-Scaling policy sẽ kiểm soát hành vi scale của một group trước các hành động được thực thi tự động bởi dịch vụ giám sát.
-[![scaling policy](/img/migrated/Screenshot-2024-10-02-055757-a8c024c1.png)](/img/migrated/Screenshot-2024-10-02-055757-a8c024c1.png)
-**Change type** : Lựa chọn hình thức điều chỉnh cho group.
-  * Exact capacity
-  * Change in capacity
-  * Change in percentage
+   [![Nút Create policy](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)](/img/migrated/Screenshot-2024-10-02-055525-37b63cd9.png)
 
-**Event** : Loại event sẽ trigger policy này.
-  * Scale in
-  * Scale out
+2. Cấu hình các thông số.
 
-**Number** : Tùy vào **Change type** được chọn, giá trị này sẽ có ý nghĩa khác nhau.
-  * Exact capacity: Nhập công suất mới (số nguyên dương) của group. Sau khi điều chỉnh, số lượng node trong group sẽ bằng đúng giá trị này.
-  * Change in capacity: Nhập số node cần thêm vào (số nguyên dương) hoặc cần loại bỏ (số nguyên âm) khỏi group. Sau khi điều chỉnh, số lượng node trong group sẽ bằng công suất trước khi điều chỉnh cộng thêm hoặc trừ đi giá trị tuyệt đối của giá trị này.
-  * Change in percentage: Nhập tỷ lệ (%) cần thêm vào (số thực dương) hoặc cần loại bỏ (số thực âm) dựa trên công suất hiện tại của group. Ví dụ: Công suất hiện tại của group là 4, giá trị của **Number** là 50%. Suy ra, số node được thêm vào là 50% của 4, tức là 2 nodes mới sẽ được sinh ra và tổng công suất sau khi điều chỉnh là 6.
+   - **Type**: Chọn loại policy phù hợp.
+   - **Name**: Đặt tên policy sao cho dễ quản lý. Tên phải có 6 đến 250 ký tự, chỉ bao gồm chữ cái latin, số và dấu gạch dưới.
 
-### Load balancer policy
-Load balancer policy cho phép các nodes được sinh ra trong một group tự động gắn với một Load balancer hoặc tự động gỡ khỏi Load balancer khi các nodes bị xóa.
-[![load balancer policy](/img/migrated/Screenshot-2024-10-02-055840-4c829465.png)](/img/migrated/Screenshot-2024-10-02-055840-4c829465.png)
-**Server pool** : Chọn Server pool tương ứng trong Load balancer.
-**Member port** : Port mà các member sẽ mở để listen.
-### Classic load balancer policy
-Classic load balancer policy cho phép các nodes được sinh ra trong một group tự động gắn với một Classic load balancer hoặc tự động gỡ khỏi Classic load balancer khi các nodes bị xóa.
-[![classic load balancer policy](/img/migrated/Screenshot-2024-10-02-055921-fb7c84c9.png)](/img/migrated/Screenshot-2024-10-02-055921-fb7c84c9.png)
-**Member port** : Port mà các member sẽ mở để listen.
-### Health policy
-Health policy sẽ kiểm soát cách kiểm tra và khôi phục các nodes trong một group.
-[![health policy](/img/migrated/Screenshot-2024-10-02-055947-c0a9514f.png)](/img/migrated/Screenshot-2024-10-02-055947-c0a9514f.png)
-**Recovery action** : Chọn phương án khôi phục node nếu node không hoạt động.
-  * Recreate: Xóa và tạo lại node.
-  * Reboot: Khởi động lại node.
+   ### Deletion policy
 
-**Interval check (s)** : Khoảng thời gian (tính bằng giây) giữa các lần kiểm tra sức khỏe nodes.
-##  **Bước 3** : Chọn **Create policy** để xác nhận.
-Sau khi tạo thành công, policy sẽ hiển thị trên danh sách các policies hiện có.
-[![list policy](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)
-Có thể xem lại thông tin chi tiết của policy bằng cách click vào tên policy tương ứng trên danh sách:
-[![click to view policy details](/img/migrated/Screenshot-2024-10-02-065632-1d3bd238.png)](/img/migrated/Screenshot-2024-10-02-065632-1d3bd238.png)
-## Lưu ý
-Hiện chưa hỗ trợ thay đổi các thông số kỹ thuật cho policy. Các policy được tạo chỉ là định nghĩa tĩnh. Để policy được áp dụng trên một group cụ thể, cần phải attach policy vào group tương ứng.
+   Deletion policy kiểm soát thứ tự ưu tiên xóa node trong group khi có hành động làm giảm số node. Nếu group không áp dụng policy này, các node được chọn xóa ngẫu nhiên.
+
+   [![Cấu hình Deletion policy](/img/migrated/Screenshot-2024-10-02-055724-aa33696c.png)](/img/migrated/Screenshot-2024-10-02-055724-aa33696c.png)
+
+   - **Mode**:
+     - _Oldest first_: Ưu tiên xóa các node từ cũ nhất đến mới nhất.
+     - _Youngest first_: Ưu tiên xóa các node từ mới nhất đến cũ nhất.
+
+   ### Scaling policy
+
+   Scaling policy kiểm soát hành vi scale của group trước các hành động được thực thi tự động bởi dịch vụ giám sát.
+
+   [![Cấu hình Scaling policy](/img/migrated/Screenshot-2024-10-02-055757-a8c024c1.png)](/img/migrated/Screenshot-2024-10-02-055757-a8c024c1.png)
+
+   - **Change type**: Hình thức điều chỉnh cho group.
+     - _Exact capacity_
+     - _Change in capacity_
+     - _Change in percentage_
+
+   - **Event**: Loại event sẽ trigger policy này.
+     - _Scale in_
+     - _Scale out_
+
+   - **Number**: Giá trị có ý nghĩa khác nhau tùy theo **Change type**:
+     - _Exact capacity_: Nhập công suất mới (số nguyên dương). Sau khi điều chỉnh, số node trong group bằng đúng giá trị này.
+     - _Change in capacity_: Nhập số node cần thêm (số nguyên dương) hoặc loại bỏ (số nguyên âm). Số node sau điều chỉnh bằng công suất hiện tại cộng/trừ giá trị tuyệt đối của **Number**.
+     - _Change in percentage_: Nhập tỷ lệ (%) cần thêm (số thực dương) hoặc loại bỏ (số thực âm) dựa trên công suất hiện tại. Ví dụ: công suất hiện tại là 4 node, **Number** là 50% thì thêm 2 node mới, tổng sau điều chỉnh là 6.
+
+   ### Load balancer policy
+
+   Load balancer policy cho phép các node được tạo trong group tự động gắn vào một Load balancer, và tự động gỡ khỏi Load balancer khi node bị xóa.
+
+   [![Cấu hình Load balancer policy](/img/migrated/Screenshot-2024-10-02-055840-4c829465.png)](/img/migrated/Screenshot-2024-10-02-055840-4c829465.png)
+
+   - **Server pool**: Chọn Server pool tương ứng trong Load balancer.
+   - **Member port**: Port mà các member sẽ mở để listen.
+
+   ### Classic load balancer policy
+
+   Classic load balancer policy cho phép các node được tạo trong group tự động gắn vào một Classic load balancer, và tự động gỡ khỏi Classic load balancer khi node bị xóa.
+
+   [![Cấu hình Classic load balancer policy](/img/migrated/Screenshot-2024-10-02-055921-fb7c84c9.png)](/img/migrated/Screenshot-2024-10-02-055921-fb7c84c9.png)
+
+   - **Member port**: Port mà các member sẽ mở để listen.
+
+   ### Health policy
+
+   Health policy kiểm soát cách kiểm tra và khôi phục các node trong group.
+
+   [![Cấu hình Health policy](/img/migrated/Screenshot-2024-10-02-055947-c0a9514f.png)](/img/migrated/Screenshot-2024-10-02-055947-c0a9514f.png)
+
+   - **Recovery action**: Chọn phương án khôi phục node nếu node không hoạt động.
+     - _Recreate_: Xóa và tạo lại node.
+     - _Reboot_: Khởi động lại node.
+   - **Interval check (s)**: Khoảng thời gian (giây) giữa các lần kiểm tra sức khỏe node.
+
+3. Chọn **Create policy** để xác nhận.
+
+   Sau khi tạo thành công, policy hiển thị trong danh sách các policy hiện có.
+
+   [![Danh sách policy](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)](/img/migrated/Screenshot-2024-10-02-065449-ebb1fd0a.png)
+
+   Xem thông tin chi tiết của policy bằng cách nhấn vào tên policy trong danh sách:
+
+   [![Nhấn vào tên policy để xem chi tiết](/img/migrated/Screenshot-2024-10-02-065632-1d3bd238.png)](/img/migrated/Screenshot-2024-10-02-065632-1d3bd238.png)
+
+   :::note
+   Hiện chưa hỗ trợ thay đổi thông số kỹ thuật của policy. Các policy được tạo chỉ là định nghĩa tĩnh. Để policy có hiệu lực trên một group cụ thể, cần attach policy vào group tương ứng.
+   :::

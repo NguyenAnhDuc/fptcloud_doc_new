@@ -1,13 +1,26 @@
 ---
 id: "nang-cap-goi-dich-vu"
-title: "Nâng cấp gói dịch vụ"
-sidebar_label: "Nâng cấp gói dịch vụ"
-sidebar_position: "19"
+title: "サービスパッケージのアップグレード"
+sidebar_label: "サービスパッケージのアップグレード"
+sidebar_position: 19
 ---
-# アップグレード gói dịch vụ
+
+# サービスパッケージのアップグレード
+
+Jenkins ジョブの数が現在のリソース割り当てを超えた場合、FPT Cloud が提供する上位リソースパッケージにアップグレードできます。
+
+**ステップ 1:** **Essential Properties** > **Instance Information** に移動します。
 
 [![](/img/migrated/Picture93-650c22b2.png)](/img/migrated/Picture93-650c22b2.png)
 
+**ステップ 2:** アップグレードするリソースパッケージを選択します。
+
+[![](/img/migrated/Picture94-74bdab8d.png)](/img/migrated/Picture94-74bdab8d.png)
+
 :::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+上位のリソースパッケージへのアップグレードのみ可能です。ダウングレードはサポートされていません。
 :::
+
+**ステップ 3:** リソースパッケージアップグレード後の結果。
+
+[![](/img/migrated/Picture95-a73deeab.png)](/img/migrated/Picture95-a73deeab.png)

@@ -35,7 +35,7 @@ Lưu ý: Tính năng áp dụng với driver Cinder (đã được tạo sẵn b
 ![](/img/migrated/1-4a954f79.png)
 ![](/img/migrated/2-e5cd1ce3.png)
 _Hình 1: Backup Tab_
-**Bước 2** : Tại tab Backup, bấm “New Plan” để khởi tạo một Backup Plan mới
+**Bước 2** : Tại tab Backup, bấm "New Plan" để khởi tạo một Backup Plan mới
 ![](/img/migrated/3-0cf67abf.png)
 ➤ Điền thông tin của Backup Plan, bao gồm: 
 ① Essential Information: 
@@ -50,7 +50,7 @@ _Hình 2: Điền tên của Plan, lựa chọn khoảng thời gian Retention (
 Lưu ý: Retention áp dụng cho các bản snapshot của PVC được lựa chọn trong Plan 
 ![](/img/migrated/5-32ab0027.png)
 _Hình 3: Lựa chọn các PVC mong muốn được áp dụng Plan_
-Lưu ý: Danh sách hiển thị theo “pvc_name(pvc_namespace)”
+Lưu ý: Danh sách hiển thị theo "pvc_name(pvc_namespace)"
 ![](/img/migrated/6-b988ff7b.png)
 _Hình 4: Cấu hình các lịch mong muốn, Thêm hoặc Xóa_
 ![](/img/migrated/7-68d5de2f.png)
@@ -59,9 +59,9 @@ _Hình 5: Lưu Backup Plan và quay trở lại tab Backup_
 _Hình 6: Backup Plan mới tạo sẽ được thêm vào danh sách Backup Plan List_
 ![](/img/migrated/9-785e1b70.png)
 _Hình 7: Edit / Disable / Delete Backup Plan_
-Những snapshot được tạo theo lịch của Backup Plan sẽ nằm trong danh sách Snapshot List với **_Type = “Scheduled"_**
+Những snapshot được tạo theo lịch của Backup Plan sẽ nằm trong danh sách Snapshot List với **_Type = "Scheduled"_**
 **Hướng dẫn sử dụng tab PVC Snapshot**
-Ở trong sub-tab này sẽ hiển thị các snapshot đã được khởi tạo, bao gồm của khách hàng tự tạo _(Type =**“Manually"**)_, hoặc tạo bởi Backup Plan (_Type =**“Scheduled"**_) 
+Ở trong sub-tab này sẽ hiển thị các snapshot đã được khởi tạo, bao gồm của khách hàng tự tạo _(Type =**"Manually"**)_, hoặc tạo bởi Backup Plan (_Type =**"Scheduled"**_) 
 ![](/img/migrated/10-d065a7cb.png)
 _Hình 8: Màn hiển thị danh sách các Snapshot đã được tạo_
 ![](/img/migrated/11-85c4a667.png)

@@ -1,11 +1,11 @@
 ---
 id: "self-diagnostics"
-title: "Quản trị các cảnh báo về các trạng thái hệ thống và trạng thái mạng"
-sidebar_label: "Quản trị các cảnh báo về các trạng thái hệ thống và trạng thái mạng"
+title: "Managing Alerts for System Status and Network Status"
+sidebar_label: "Managing Alerts for System Status and Network Status"
 sidebar_position: "37"
 ---
 
-# Quản trị the alert về the status system and status network
+# Managing Alerts for System Status and Network Status
 
-Quản trị the alert về the status system and status network
+Manage alerts for system status and network status.
 [![file](/img/migrated/image-1714117117042-a83082c2.png)](/img/migrated/image-1714117117042-a83082c2.png)

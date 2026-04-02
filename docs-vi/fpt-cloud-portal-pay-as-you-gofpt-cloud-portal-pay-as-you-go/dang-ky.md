@@ -1,15 +1,17 @@
 ---
 id: "dang-ky"
-title: "Đăng ký tài khoản trên hệ thống."
-description: "B1. Trên trang console.fptcloud.com"
-sidebar_label: "Đăng ký tài khoản trên hệ thống."
+title: "Đăng ký tài khoản"
+description: "Hướng dẫn đăng ký tài khoản FPT ID trên FPT Cloud Portal."
+sidebar_label: "Đăng ký tài khoản"
 sidebar_position: 2
 ---
 
-# Đăng ký tài khoản trên hệ thống.
+# Đăng ký tài khoản
 
-B1. Trên trang console.fptcloud.com
-  * Người dùng đăng ký tài khoản FPT ID.
+Thực hiện các bước sau để đăng ký tài khoản FPT ID trên FPT Cloud Portal.
 
-[![file](/img/migrated/image-1694073641641-fb287cef.png)](/img/migrated/image-1694073641641-fb287cef.png)
-B2. Người dùng xác nhận thông tin email đăng ký qua email đã đăng ký
+1. Truy cập trang [console.fptcloud.com](https://console.fptcloud.com) và đăng ký tài khoản FPT ID.
+
+[![Trang đăng ký tài khoản FPT ID](/img/migrated/image-1694073641641-fb287cef.png)](/img/migrated/image-1694073641641-fb287cef.png)
+
+2. Xác nhận email đăng ký bằng cách kiểm tra hộp thư của địa chỉ email đã đăng ký và làm theo hướng dẫn trong email xác nhận.

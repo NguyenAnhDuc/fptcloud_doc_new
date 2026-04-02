@@ -59,7 +59,7 @@ To mount data from a Bare Metal server, you need to create a Mount Point with th
   2. Fill in the information: 
      * **Region** : Select the usage region.
      * **VPC / Subnet** : Choose the subnet containing GPU servers.
-     * **Mount Point Name** : 3–63 characters, letters/numbers/“_”, cannot start/end with a special character.
+     * **Mount Point Name** : 3–63 characters, letters/numbers/"_", cannot start/end with a special character.
      * **Protocol** : NFSv3 or NFSv4. 
        * If NFSv3: You can add an NFS Alias.
        * If NFSv4: Ensure **all parent folders in the path also use NFSv4**.

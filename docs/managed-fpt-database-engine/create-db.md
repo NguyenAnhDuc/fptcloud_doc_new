@@ -23,14 +23,14 @@ Describe the fields on the screen:
 | --- |  
 | Field  | Description  |  
 | Engine Type  | Select the database engine. Depending on the selected menu, the system will display the corresponding options: 
-* Relational Databases will display the values: “PostgreSQL”, “MySQL”, “MariaDB”, “SQL Server”
-* NoSQL will display the values: “MongoDB”, “Cassandra”, “Redis”
-* Search Engine will display the values: “OpenSearch”
-* Data Streaming will display the values: “Kafka”
-* Time Series Database will display the values: “TimescaleDB”
-* OLAP will display the values: “Clickhouse”
+* Relational Databases will display the values: "PostgreSQL", "MySQL", "MariaDB", "SQL Server"
+* NoSQL will display the values: "MongoDB", "Cassandra", "Redis"
+* Search Engine will display the values: "OpenSearch"
+* Data Streaming will display the values: "Kafka"
+* Time Series Database will display the values: "TimescaleDB"
+* OLAP will display the values: "Clickhouse"
  |  
-| Edition  | Select the engine edition, including: “Enterprise”, “Standard”, “Web”.   
+| Edition  | Select the engine edition, including: "Enterprise", "Standard", "Web".   
 This field is only displayed for "SQL Server" as the engine type.  |  
 | Engine Version  | Select a supported engine version based on the Database Engine Version Policy.  |  
  |  
@@ -108,9 +108,9 @@ Describe the fields on the screen:
 | Storage Threshold (%)  | Storage usage threshold to trigger automatic scaling.  |  
 | Storage Scale (%)  | Percentage of storage increase applied per scaling operation.  |  
   * **Maintenance Window** : defines the time period during which the system is allowed to perform maintenance activities:
-    * **Day of Week** : The day of the week on which maintenance is performed. Available options range from “Monday” to “Sunday”.
+    * **Day of Week** : The day of the week on which maintenance is performed. Available options range from "Monday" to "Sunday".
     * **Start Time** : the time at which maintenance is allowed to start on the selected day. Maintenance duration: 1 hour, starting from the configured Start Time.
-  * **Notification Recipients List** : Enter a list of email addresses to receive notifications when backup or scaling events occur. You can add multiple emails by clicking the “+” button to include a new email in the list.
+  * **Notification Recipients List** : Enter a list of email addresses to receive notifications when backup or scaling events occur. You can add multiple emails by clicking the "+" button to include a new email in the list.
 
 After entering all required information, click **Next Step** to proceed to the review step and confirm database creation.
 ### Step 4: Review & Create

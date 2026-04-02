@@ -34,7 +34,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 **Phần 1: General information** [![](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)
 **Phần 2: Remote VPN information**
 [![](/img/migrated/photo_3_2025-07-09_17-37-17-fc829da9.jpg)](/img/migrated/photo_3_2025-07-09_17-37-17-fc829da9.jpg)
-Quý khách hàng lựa chọn Providers = “others" sau đó làm theo các bước sau:
+Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bước sau:
   * Bước 1: Điền providers name = "VMWare" 
   * Bước 2: Điền thông tin cho IKE và IPSec cụ thể như sau:   
 **Đối với IKE:**

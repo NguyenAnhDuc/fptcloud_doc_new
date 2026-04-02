@@ -1,21 +1,34 @@
 ---
 id: "buy-storage-disk"
-title: "Mua storage disk (ổ đĩa rời)"
-description: "Khách hàng đã nạp tiền trên hệ thống có thể mua ổ đĩa rời."
-sidebar_label: "Mua storage disk (ổ đĩa rời)"
+title: "Mua storage disk"
+description: "Hướng dẫn mua ổ đĩa rời trên FPT Cloud Portal theo hình thức PAYG."
+sidebar_label: "Mua storage disk"
 sidebar_position: 12
 ---
 
-# Mua storage disk (ổ đĩa rời)
+# Mua storage disk
 
-Khách hàng đã nạp tiền trên hệ thống có thể mua ổ đĩa rời.
-  * B1. Vào trang Compute Engine - Storage Disks [![file](/img/migrated/image-1694073928674-97d41009.png)](/img/migrated/image-1694073928674-97d41009.png)
-  * B2. Chọn New Storage [![file](/img/migrated/image-1694073937844-c9e0ea1f.png)](/img/migrated/image-1694073937844-c9e0ea1f.png)
-  * B3. Chọn Storage policy và size 
-    * Hệ thống estimate số tiền sử dụng storage trong 1 giờ cho khách hàng.
-  * B4. Bấm Create storage disk
-    * Nếu các thông tin hợp lệ thì hệ thống tạo storage và đi đến trang Storage disk
-    * Nếu user đã sử dụng hết giới hạn tài nguyên, hệ thống sẽ báo lỗi [![file](/img/migrated/image-1694073957418-7a7b3dac.png)](/img/migrated/image-1694073957418-7a7b3dac.png)
-Lưu ý: 
-  * Khách hàng cần có ít nhất 50.000đ + tiền sử dụng storage trong 1h để khởi tạo
-  * Hệ thống sẽ trừ tiền chi phí sử dụng storage trong 1h ngay khi khởi tạo. [![file](/img/migrated/image-1694073966294-6d3c6da1.png)](/img/migrated/image-1694073966294-6d3c6da1.png)
+Sau khi đã nạp tiền, bạn có thể mua ổ đĩa rời để sử dụng.
+
+:::note
+- Bạn cần có ít nhất 50.000 VND cộng với chi phí sử dụng storage trong 1 giờ để khởi tạo.
+- Hệ thống sẽ trừ tiền chi phí sử dụng storage trong 1 giờ ngay khi khởi tạo.
+:::
+
+1. Truy cập trang **Compute Engine – Storage Disks**.
+
+[![Trang Storage Disks](/img/migrated/image-1694073928674-97d41009.png)](/img/migrated/image-1694073928674-97d41009.png)
+
+2. Chọn **New Storage**.
+
+[![Tạo storage mới](/img/migrated/image-1694073937844-c9e0ea1f.png)](/img/migrated/image-1694073937844-c9e0ea1f.png)
+
+3. Chọn **Storage policy** và dung lượng cần thiết. Hệ thống ước tính chi phí sử dụng trong 1 giờ để bạn tham khảo.
+
+4. Nhấn **Create storage disk**.
+   - Nếu thông tin hợp lệ, hệ thống tạo storage và chuyển đến trang Storage Disks.
+   - Nếu bạn đã sử dụng hết giới hạn tài nguyên, hệ thống sẽ hiển thị thông báo lỗi.
+
+[![Kết quả tạo storage disk](/img/migrated/image-1694073957418-7a7b3dac.png)](/img/migrated/image-1694073957418-7a7b3dac.png)
+
+[![Chi phí khấu trừ sau khi khởi tạo](/img/migrated/image-1694073966294-6d3c6da1.png)](/img/migrated/image-1694073966294-6d3c6da1.png)

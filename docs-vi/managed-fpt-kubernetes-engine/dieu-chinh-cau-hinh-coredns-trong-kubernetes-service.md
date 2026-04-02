@@ -49,7 +49,7 @@ data:
     }
 ```
 
-Trong đó 1.1.1.1 và 2.2.2.2 là dns server mà người dùng định nghĩa. “forward . 2.2.2.2” nghĩa là CoreDNS sẽ gửi yêu cầu phân giải domain *.com tới dns server 2.2.2.2
+Trong đó 1.1.1.1 và 2.2.2.2 là dns server mà người dùng định nghĩa. "forward . 2.2.2.2" nghĩa là CoreDNS sẽ gửi yêu cầu phân giải domain *.com tới dns server 2.2.2.2
 Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
 **Custom domains:**
 Nếu người dùng muốn cấu hình custom domain mà chỉ có thể phân giải nội bộ cluster, ví dụ phân giải domain puglife.local (không phải là domain hợp lệ), nếu không cấu hình coredns-custom configmap, M-FKE cluster sẽ không thể phân giải domain đó. Người dùng có thể cấu hình như sau:

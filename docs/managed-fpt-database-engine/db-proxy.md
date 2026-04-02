@@ -23,7 +23,7 @@ On the FPT Cloud Portal, the DB Proxy Management feature allows users to:
 | manageDatabase:CreateProxy  | Create  | Allow creating a new DB proxy for a database in the system.  |  
 | manageDatabase:DeleteProxy  | Delete  | Allow deleting a DB Proxy for databases in the system.  |  
 ### 1. Access DB Proxy Management
-Log in to the FPT Cloud Portal. After a successful login, from the main menu, select “**Database Platform** ” > “**All Databases** ”. Click the ID of the database cluster you want to manage, then switch to the DB Proxy tab to access the **DB Proxy Management** page:
+Log in to the FPT Cloud Portal. After a successful login, from the main menu, select "**Database Platform** " > "**All Databases** ". Click the ID of the database cluster you want to manage, then switch to the DB Proxy tab to access the **DB Proxy Management** page:
 [![](/img/migrated/db-proxy-list-scaled-ef82702b.png)](/img/migrated/db-proxy-list-scaled-ef82702b.png)
 **Note** : The **DB Proxy** tab is displayed only when the database is created with High Availability (HA) enabled and the database engine is supported.
 ### 2. Create a DB Proxy

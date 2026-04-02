@@ -1,13 +1,13 @@
 ---
 id: "nat_instance"
-title: "Nat Instance"
-sidebar_label: "Nat Instance"
-sidebar_position: "1"
+title: "NAT Instance"
+description: "Enable instances in isolated networks to access the Internet via NAT Instance on FPT Cloud."
+sidebar_label: "NAT Instance"
+sidebar_position: 1
 ---
+
 # NAT Instance
 
-![](/img/migrated/tai-xuong-2-25c50a7f.png)
+## Overview
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+The NAT Instance feature enables instances in isolated networks to access external systems on the Internet, such as installing software or connecting to On-premise infrastructure.

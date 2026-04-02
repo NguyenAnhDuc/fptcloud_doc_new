@@ -1,13 +1,18 @@
 ---
 id: "truy-cap-vao-dashboard"
-title: "7.1. Truy cập vào dashboard"
-sidebar_label: "7.1. Truy cập vào dashboard"
-sidebar_position: "16"
+title: "ダッシュボードにアクセスする"
+sidebar_label: "ダッシュボードにアクセスする"
+sidebar_position: 16
 ---
-# 7.1. にアクセスします dashboard
+
+# ダッシュボードにアクセスする
+
+**手順 1:** FPT Cloud Portal（**[https://console.fptcloud.com](https://console.fptcloud.com)**）にログインします。
+
+**手順 2:** FPT Cloud Portal のメニューで **Monitoring** をクリックします。
+
+**手順 3:** ワークスペースをクリックし、**Configuration** タブに移動します。
+
+**手順 4:** ダッシュボード URL をクリックします。シングルサインオン（SSO）で自動的にログインされます。
 
 [![Alt text](/img/migrated/Picture12-2-bd33afb0.png)](/img/migrated/Picture12-2-bd33afb0.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::

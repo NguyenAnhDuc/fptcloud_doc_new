@@ -33,7 +33,7 @@ Lưu ý: Nếu tenant chưa được active dịch vụ File Storage – High Pe
 
 [![](/img/migrated/7-3-1d6e69ee.png)](/img/migrated/7-3-1d6e69ee.png)
 Lưu ý: Managed GPU cluster tích hợp File Storage – High Performance phải ở trạng Succeeded (Running) mới có thể thực hiện tích hợp 
-  * Bước 2: Trong tab Essential Properties → High Performance Storage Integration, click Enable High Performance Storage → chọn MountPoint trong list sau đó click button “Confirm”.
+  * Bước 2: Trong tab Essential Properties → High Performance Storage Integration, click Enable High Performance Storage → chọn MountPoint trong list sau đó click button "Confirm".
 
 [![](/img/migrated/8-2-9dec85a0.png)](/img/migrated/8-2-9dec85a0.png)
 [![](/img/migrated/9-2-6b1d861c.png)](/img/migrated/9-2-6b1d861c.png)

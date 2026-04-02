@@ -1,19 +1,21 @@
 ---
 id: "fpt-appsec"
-title: "Fpt Appsec"
-sidebar_label: "Fpt Appsec"
-sidebar_position: "1"
+title: "FPT AppSec"
+description: "FPT AppSec - Application Security Platform for DevSecOps"
+sidebar_label: "FPT AppSec"
+sidebar_position: 1
 ---
 
 # FPT AppSec
 
-  * [ ![](/img/migrated/images-331b7b32.png) Release note ](javascript: "Release note")
-  * [ ![](/img/migrated/settings-f58a338e.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-8abaee1e.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\)  ")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT AppSec
+FPT AppSec (FPT Security Platform AppSec Service) is an application security platform that helps organizations manage security risks and streamline DevSecOps workflows. It supports source code scanning, secret scanning, IaC scanning, and container image scanning.
 
-##  Home page 
-01Release note 
-02Initial Setup 
-03Hướng dẫn details (Tutorial)
+## Main sections
+
+- **Release notes** - Latest updates and new features
+- **Initial setup** - First-time configuration guide
+- **Dashboard** - Organization-level security metrics
+- **Organization management** - Manage members, roles, and teams
+- **Team management** - Team settings and member management
+- **Integration management** - Connect GitHub, GitLab, FPT Container Registry, Harbor
+- **Workspace management** - Manage assets and security issues

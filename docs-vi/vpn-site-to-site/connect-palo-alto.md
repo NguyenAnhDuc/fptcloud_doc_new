@@ -37,7 +37,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 
 **Phần 2: Remote VPN information** [![](/img/migrated/photo_3_2025-07-09_17-34-04-8e9693a4.jpg)](/img/migrated/photo_3_2025-07-09_17-34-04-8e9693a4.jpg)
   
-Khi quý khách hàng lựa chọn Providers “Palo Alto”, hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
+Khi quý khách hàng lựa chọn Providers "Palo Alto", hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
 **Đối với IKE:**
   * Encryption algorithm: aes-256
   * Authorization algorithm: sha256

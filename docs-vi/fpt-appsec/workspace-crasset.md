@@ -44,7 +44,7 @@ Tương tự hướng dẫn đối với [SCM assets](../fpt-appsec/index.md)
   * Tại màn hình Issue List, mỗi issue được hiển thị dưới dạng Issue Info Card với các thông tin:
     * Severity: Critical/High/Medium/Low
     * Package Name hoặc Secret Name
-    * Issue Title (nếu có “:”, lấy phần sau dấu “:”)
+    * Issue Title (nếu có ":", lấy phần sau dấu ":")
     * Vul References: CWE/CVE/CVSS
     * Score: 0–10 (làm tròn đến 1 chữ số thập phân)
     * Issue Status: Trạng thái hiện tại của issue theo lần scan gần nhất.
@@ -76,7 +76,7 @@ Cho phép lọc theo: Severity, Status, Priority Score (0–10), Issue Type, "Fi
     * Issue Description – Mô tả chi tiết về issue.
     * Issue Remediation – Hướng dẫn fix issue, bao gồm:
     * Current package – Phiên bản package đang được sử dụng.
-    * Fixed in version – Phiên bản đã được vá (nếu có, nếu không hiển thị “Not available”).
+    * Fixed in version – Phiên bản đã được vá (nếu có, nếu không hiển thị "Not available").
     * Security Information – Điểm CVSS, vector tấn công
     * References – Danh sách link tham chiếu liên quan, click để mở.
     * Manifest Layer – Hiển thị toàn bộ layer trong Dockerfile, highlight vị trí chứa lỗi và tự động cuộn dòng lỗi vào giữa màn hình.

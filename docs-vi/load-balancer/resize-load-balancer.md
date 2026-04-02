@@ -14,7 +14,7 @@ Tính năng **"Thay Đổi gói Load Balancer (Resize)"** là một phần quan 
   * **Tiết kiệm chi phí:** Tính năng resize có thể giúp bạn tiết kiệm chi phí bằng cách đảm bảo rằng bạn chỉ sử dụng các tài nguyên cần thiết, tránh lãng phí tài nguyên và giảm chi phí cloud của bạn. 
 
 Để thay đổi gói cho **Load Balancer** , người dùng thao tác theo các bước sau: 
-**Bước 1:** Tại màn hiển thị danh sách Load Balancer, nhấn vào biểu tượng **“ba chấm”** của Load Balancer cần thay đổi gói, nhấn chọn **Resize**. 
+**Bước 1:** Tại màn hiển thị danh sách Load Balancer, nhấn vào biểu tượng **"ba chấm"** của Load Balancer cần thay đổi gói, nhấn chọn **Resize**. 
 **Bước 2:** Một hộp thoại hiện ra bao gồm các gói **Load Balancer** khả dụng, người dùng tiến hành chọn gói phù hợp với nhu cầu sử dụng. 
 **Bước 3:** Nhấn chọn **Resize load balancer** để thay đổi gói và **Cancel** để huỷ bỏ. 
 **Note:**

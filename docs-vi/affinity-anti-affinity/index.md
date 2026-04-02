@@ -1,21 +1,32 @@
 ---
 id: "affinity-anti-affinity"
-title: "Quản lý Instance Group với chính sách Affinity & Anti-Affinity"
-description: "Quản lý Instance Group với chính sách Affinity & Anti-Affinity"
-sidebar_label: "Quản lý Instance Group..."
+title: "Tổng quan Affinity & Anti-Affinity"
+description: "Quản lý Instance Group với chính sách Affinity & Anti-Affinity trên FPT Cloud."
+sidebar_label: "Tổng quan"
 sidebar_position: 1
 ---
 
-# Quản lý Instance Group với chính sách Affinity & Anti-Affinity
+# Tổng quan Affinity & Anti-Affinity
 
-  * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-Quản lý Instance Group với chính sách Affinity & Anti-Affinity
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Quản lý Instance Group với chính sách Affinity & Anti-Affinity
+Affinity và Anti-Affinity giúp bạn kiểm soát cách đặt các máy ảo trên các máy chủ vật lý — đặc biệt khi bạn cần đảm bảo hiệu năng hoặc tính sẵn sàng cao.
 
-Quản lý Instance Group với chính sách Affinity & Anti-Affinity
-##  Giới thiệu 
-Affinity và anti-affinity là hai khái niệm quan trọng liên quan đến việc đặt các máy ảo trên các máy chủ. Để thực hiện điều này, bạn có thể tạo các nhóm máy chủ (instance groups) với chính sách affinity hoặc anti-affinity. Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo theo chính sách mong muốn.
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts)
+Bạn có thể tạo các Instance Group với chính sách Soft Affinity hoặc Soft Anti-Affinity. Khi khởi chạy máy ảo, hệ thống sẽ dựa vào chính sách của Instance Group để quyết định vị trí đặt máy ảo.
+
+## Các chính sách hỗ trợ
+
+| Chính sách | Mô tả |
+|---|---|
+| **Soft Affinity** | Ưu tiên đặt các máy ảo trong cùng Instance Group trên cùng một máy chủ vật lý. |
+| **Soft Anti-Affinity** | Ưu tiên đặt các máy ảo trong cùng Instance Group trên các máy chủ vật lý khác nhau. |
+
+## Giới hạn
+
+- Tối đa 10 Instance Group mỗi tenant.
+- Mỗi Instance Group chứa tối đa 10 Instance.
+
+## Hướng dẫn sử dụng
+
+- [Thiết lập ban đầu](./initial-setup.md)
+- [Khởi tạo Instance Group](./create-instance-group.md)
+- [Gắn Instance vào Instance Group](./add-instance-instance-group.md)
+- [Xóa Instance Group](./delete-instance-group.md)

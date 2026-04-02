@@ -1,11 +1,11 @@
 ---
 id: "quan-ly-profile"
-title: "Management Profile"
-sidebar_label: "Management Profile"
-sidebar_position: "2"
+title: "Manage Profile"
+description: "An Autoscale Profile stores the technical specifications used as the basis for creating Instance Nodes managed by an Autoscale Group."
+sidebar_label: "Manage Profile"
+sidebar_position: 2
 ---
+
 # Manage Profile
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+An Autoscale Profile is an object that stores the technical specifications used as the basis for creating Instance Nodes managed by an Autoscale Group.

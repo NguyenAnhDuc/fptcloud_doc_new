@@ -1,13 +1,14 @@
 ---
 id: "kiem-tra-trang-thai-cua-alert"
-title: "Kiểm tra trạng thái của Alert"
-sidebar_label: "Kiểm tra trạng thái của Alert"
-sidebar_position: "10"
+title: "アラートのステータスを確認する"
+sidebar_label: "アラートのステータスを確認する"
+sidebar_position: 10
 ---
-# 確認 trạng thái của Alert
+
+# アラートのステータスを確認する
+
+アラートが作成されると、システムは継続的に FPT Portal に情報を同期します。アラートの稼働状況は以下の手順で確認できます。
+
+**Alert Management** テーブルで監視したいアラートを見つけます。アラートの稼働状況は **State** フィールドに表示されます。
 
 [![file](/img/migrated/image-1725532671573-07a3638c.png)](/img/migrated/image-1725532671573-07a3638c.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::

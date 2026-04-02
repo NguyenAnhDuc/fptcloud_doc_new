@@ -1,11 +1,10 @@
 ---
 id: "incremental-backup-la-gi-va-loi-ich-khi-su-dung"
-title: "Incremental backup là gì và lợi ích khi sử dụng?"
-sidebar_label: "Incremental backup là gì và lợi ích khi sử dụng?"
+title: "増分バックアップとは何か、そのメリットは？"
+description: "増分バックアップの説明と、フルバックアップと比べて時間、処理能力、ストレージを節約する方法。"
+sidebar_label: "増分バックアップとは？"
 sidebar_position: "11"
 ---
-# Incremental backup là gì và lợi ích khi sử dụng?
+# 増分バックアップとは何か、そのメリットは？
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**増分バックアップ**は、現在のシステムと最新のバックアップを比較し、変更されたデータのみを保存する原則に基づいたバックアップ方式です。処理に非常に時間がかかる**フルバックアップ**のようにすべてのデータをキャプチャして保存する代わりに、**増分バックアップ**は時間、処理パフォーマンス、ストレージ容量を大幅に節約します。

@@ -3,7 +3,7 @@ id: "sso-single-sign-on"
 title: "SSO (Single Sign-On)"
 description: "Configure Single Sign-On for your organization on FPT Cloud."
 sidebar_label: "SSO"
-sidebar_position: "1"
+sidebar_position: 1
 ---
 
 # SSO (Single Sign-On)

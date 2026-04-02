@@ -48,7 +48,7 @@ Follow the detailed guide [here](../gpu-virtual-machine-en/index.md).
 #### Step 5: Access to GPU Virtual Machine
 After successfully creating the GPU VM, you can access the server via **SSH** : 
   * **Terminal:** Open your terminal and enter the command with your SSH key. 
-  * **Web Console:** Go to the server’s detail page and click **“Open at Console”** to log in with a password through the web console. 
+  * **Web Console:** Go to the server’s detail page and click **"Open at Console"** to log in with a password through the web console. 
 
 > 💡 _The default username is**root.**_
 Follow the detailed guide [here](../gpu-virtual-machine-en/index.md).

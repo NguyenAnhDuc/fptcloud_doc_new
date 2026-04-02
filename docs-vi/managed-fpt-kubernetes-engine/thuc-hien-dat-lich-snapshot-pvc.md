@@ -6,7 +6,7 @@ sidebar_label: "Thực hiện đặt lịch Snapshot PVC trên Kubernetes"
 sidebar_position: 48
 ---
 
-# Thuc Hien Dat Lich Snapshot Pvc
+# Thực hiện đặt lịch snapshot PVC
 
 Bên cạnh tính năng Snapshot PV trên Kubernetes, FPTCloud cung cấp thêm cho khách hàng lựa chọn thực hiện đặt lịch Snapshot thông qua CronJob trên Kubernetes. 
 **1. Cài đặt Lịch Cronjob Snapshot PV**
@@ -57,7 +57,7 @@ metadata:
   namespace: default #or any other namespace that you want to deploy the cronjob, but must be in the same namespace with ServiceAccount and ClusterRoleBinding 
 spec: 
   schedule: "0 * * * *" #Adjust this (minute hour day(month) month day(week)) 
-    timeZone: “Asia/Saigon” 
+    timeZone: "Asia/Saigon" 
   jobTemplate: 
     spec: 
       template: 

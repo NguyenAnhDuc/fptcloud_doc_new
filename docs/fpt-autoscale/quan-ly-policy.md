@@ -1,11 +1,11 @@
 ---
 id: "quan-ly-policy"
-title: "Management Policy"
-sidebar_label: "Management Policy"
-sidebar_position: "13"
+title: "Manage Policy"
+description: "An Autoscale Policy is a set of rules to check or actions to execute before and after applying an action to an Autoscale Group."
+sidebar_label: "Manage Policy"
+sidebar_position: 13
 ---
+
 # Manage Policy
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+An Autoscale Policy is a set of **rules to check** or **actions to execute** before performing an action on an Autoscale Group or after the action completes.

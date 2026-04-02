@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi cấu hình Internal subnet Load Balancer (CIDR)"
 sidebar_position: 13
 ---
 
-# Thay Doi Cau Hinh Internal Subnet Load Balancer
+# Thay đổi cấu hình Internal Subnet Load Balancer
 
 FPT Cloud hỗ trợ khách hàng thay đổi dải Internal subnet load balancer (CIDR) ngay trên Unify portal, để thực hiện khách hàng làm theo các bước sau:
 **Bước 1** : Chọn cluster muốn thay đổi Internal subnet Load Balancer, click vào cluster name.

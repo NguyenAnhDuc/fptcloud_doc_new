@@ -1,16 +1,24 @@
 ---
 id: "Initial-Setup"
 title: "Thiết lập ban đầu"
-description: "Nếu đây là lần đầu tiên bạn sử dụng, trước tiên hãy kiểm tra và hoàn thành các công việc sau:"
+description: "Các bước cần hoàn thành trước khi bắt đầu sử dụng NAT Instance trên FPT Cloud."
 sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 3
 ---
 
 # Thiết lập ban đầu
 
-Nếu đây là lần đầu tiên bạn sử dụng, trước tiên hãy kiểm tra và hoàn thành các công việc sau: 
-**Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal**
-Để bắt đầu sử dụng dịch vụ FPT Cloud, người dùng cần đăng nhập vào FPT Portal. 
-Hãy truy cập vào [**https://console.fptcloud.com**](https://console.fptcloud.com/) và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ. 
-Sau đó chọn chức năng Sign Up và nhập các thông tin theo hướng dẫn của hệ thống. Người dùng sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản. 
-Trong quá trình thao tác nếu gặp bất kỳ lỗi nào hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+Nếu đây là lần đầu tiên bạn sử dụng, hãy kiểm tra và hoàn thành các bước sau trước khi bắt đầu.
+
+## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+
+Để bắt đầu sử dụng dịch vụ FPT Cloud, bạn cần đăng nhập vào FPT Portal.
+
+1. Truy cập [https://console.fptcloud.com](https://console.fptcloud.com/) và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp.
+2. Chọn đúng Tenant, Region và VPC cần sử dụng dịch vụ.
+
+Nếu chưa có tài khoản, chọn **Sign Up** và nhập thông tin theo hướng dẫn của hệ thống. Đội ngũ hỗ trợ sẽ liên hệ để xác nhận thông tin và tạo tài khoản cho bạn.
+
+:::note
+Trong quá trình thao tác nếu gặp bất kỳ lỗi nào, hãy liên hệ ngay với đội ngũ Support của chúng tôi để được hỗ trợ.
+:::

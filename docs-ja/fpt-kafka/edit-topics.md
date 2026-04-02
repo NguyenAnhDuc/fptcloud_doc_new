@@ -1,7 +1,7 @@
 ---
 id: "edit-topics"
 title: "topicの編集"
-description: "FPT KafkaでpartitionをAddしたりrecordをEmptyする方法。"
+description: "FPT Kafkaでtopicにpartitionを追加したり、recordを削除する方法。"
 sidebar_label: "topicの編集"
 sidebar_position: 7
 ---

@@ -18,7 +18,7 @@ Currently, the notification system supports the following alert categories:
 This guide helps you set up and manage notifications to effectively track important events in FPT Database Engine on the FPT Cloud Portal.
 ## Configuring notifications from FPT Database Engine
 ### Step 1: Access to Notification Setting page
-Sign in to FPT Cloud Portal. From the left navigation menu, select “**Database Platform** ” → choose your DB engine category (Relational, Non‑Relational, etc.). Select the target Cluster ID. Switch to the “**Notification** ” tab on the cluster details page.
+Sign in to FPT Cloud Portal. From the left navigation menu, select "**Database Platform** " → choose your DB engine category (Relational, Non‑Relational, etc.). Select the target Cluster ID. Switch to the "**Notification** " tab on the cluster details page.
 [![](/img/migrated/notification-scaled-fbca99ff.png)](/img/migrated/notification-scaled-fbca99ff.png)
 ### Step 2: Create alert rules
 Click **Add New Alert List** (the plus icon next to the **Notification List**) to open the dialog for adding alerts.
@@ -34,9 +34,9 @@ Enter the configuration information:
     * **Resource** – Resource usage notifications.
     * **Vertical Scaling** – Scale up notification.
   * **Current Recipient List** : 
-    * If Type = “Email” -> Enter the email address that will receive alert notifications.
-    * If Type = “Telegram” -> Enter the telegram channel ID that will receive alert notifications. Instructions on how to obtain the channel ID can be found in section [2. Configure Telegram to receive notifications from FPT Database Engine](../managed-fpt-database-engine/index.md).
-  * Alert conditions for **Current Services Notification** = “Resource”: 
+    * If Type = "Email" -> Enter the email address that will receive alert notifications.
+    * If Type = "Telegram" -> Enter the telegram channel ID that will receive alert notifications. Instructions on how to obtain the channel ID can be found in section [2. Configure Telegram to receive notifications from FPT Database Engine](../managed-fpt-database-engine/index.md).
+  * Alert conditions for **Current Services Notification** = "Resource": 
     * **vCPU more than (%)** : Specify the CPU usage threshold (percentage). An alert is triggered when vCPU usage exceeds this value.
     * **RAM more than (%)** : Specify the memory usage threshold (percentage). An alert is triggered when RAM usage exceeds this value.
     * **Storage more than (%)** : Specify the storage usage threshold (percentage). An alert is triggered when disk usage exceeds this value.

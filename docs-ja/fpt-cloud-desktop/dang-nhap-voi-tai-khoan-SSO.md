@@ -1,13 +1,15 @@
 ---
 id: "dang-nhap-voi-tai-khoan-SSO"
-title: "Dang Nhap Voi Tai Khoan Sso"
-sidebar_label: "Dang Nhap Voi Tai Khoan Sso"
-sidebar_position: "4"
+title: "SSOアカウントでログイン"
+description: "SSOアカウント（Azure AD）を使用してFPT Cloud Desktopにログインするガイド"
+sidebar_label: "SSOアカウントでログイン"
+sidebar_position: 4
 ---
-# Dang Nhap Voi Tai Khoan Sso
 
-![](/img/migrated/icon-overview-edd6032a.png)
+# SSOアカウントでログイン
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+FPT Cloud DesktopはSSOアカウント（例：Azure AD / Microsoftアカウント）でのログインをサポートしています。ご利用環境に合わせてアクセス方法を選択してください。
+
+- [新しいFCDClient経由でアクセス](./SSO-qua-FCDClient-moi.md)（推奨）
+- [Webブラウザ経由でアクセス](./SSO-qua-web-browser.md)
+- [旧FCDClient経由でアクセス](./SSO-qua-FCDClient-cu.md)

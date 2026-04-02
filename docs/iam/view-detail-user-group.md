@@ -1,13 +1,16 @@
 ---
 id: "view-detail-user-group"
-title: "View Detail User Group"
-description: "**Step 1** : From the menu, select **IAM** > **User Groups** , and the system will display the **User Groups Management*"
-sidebar_label: "View Detail User Group"
+title: "View User Group details"
+description: "View the detailed configuration of a User Group in FPT IAM."
+sidebar_label: "View User Group details"
 sidebar_position: 14
 ---
 
-# View Detail User Group
+# View User Group details
 
-**Step 1** : From the menu, select **IAM** > **User Groups** , and the system will display the **User Groups Management** page.
-**Step 2** : Select the **User Group** you want to view from the list. The system will display the **User Group Details** page.
-[![file](/img/migrated/image-1734344596704-321ecd6d.png)](/img/migrated/image-1734344596704-321ecd6d.png)
+1. From the menu, select **IAM** > **User Groups**.
+2. Select the User Group you want to view from the list.
+
+The system displays the **User Group Details** page.
+
+[![](/img/migrated/image-1734344596704-321ecd6d.png)](/img/migrated/image-1734344596704-321ecd6d.png)

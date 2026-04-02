@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi Cluster Endpoint Access"
 sidebar_position: 11
 ---
 
-# Thay Doi Cluster Endponit Access
+# Thay đổi Cluster Endpoint Access
 
 **Để thay đổi Access Mode của cụm Kubernetes trên FPT Cloud, khách hàng làm theo hướng dẫn sau:**
 Lưu ý: 

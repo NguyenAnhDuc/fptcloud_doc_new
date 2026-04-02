@@ -1,26 +1,40 @@
 ---
 id: "quan-ly-nat-tung-gateway"
-title: "1. Quản lý danh sách NAT Rule"
-description: "[![file](/img/migrated/image-1754290989063-fe150ddd.png)](/img/migrated/image-1754290989063-fe150ddd.png)"
-sidebar_label: "1. Quản lý danh sách NAT Rule"
+title: "Quản lý NAT Rule của Gateway"
+description: "Hướng dẫn xem, tạo, chỉnh sửa và xóa NAT Rule trong một Gateway trên FPT Cloud"
+sidebar_label: "Quản lý NAT Rule"
 sidebar_position: 5
 ---
 
-# 1. Quản lý danh sách NAT Rule
+# Quản lý NAT Rule của Gateway
 
-## **1. Quản lý danh sách NAT Rule**
-[![file](/img/migrated/image-1754290989063-fe150ddd.png)](/img/migrated/image-1754290989063-fe150ddd.png)
-## **2. Tạo NAT Rule**
-Người dùng có thể bấm nút Create NAT Rule để tạo mới 1 NAT Rule
-[![file](/img/migrated/image-1754291008356-de8b3348.png)](/img/migrated/image-1754291008356-de8b3348.png)
-Có 2 loại NAT:
-  * Inbound NAT: Quản lý dữ liệu đi từ bên ngoài vào mạng nội bộ
-  * Outbound NAT: Quản lý dữ liệu đi từ mạng nội bộ ra ngoài
+## Xem danh sách NAT Rule
 
-## **3. Chỉnh sửa NAT Rule**
-Ở cột Actions, người dùng có thể bấm nút Edit để chỉnh sửa thông tin của NAT Rule
-  * Với gateway loại Basic sẽ không được chỉnh sửa NAT Rule, chỉ được chỉnh sửa khi Gateway loại Custom
+[![Màn hình danh sách NAT Rule](/img/migrated/image-1754290989063-fe150ddd.png)](/img/migrated/image-1754290989063-fe150ddd.png)
 
-## **4. Xoá NAT Rule**
-Ở cột Actions, người dùng có thể bấm nút Delete để chỉnh sửa thông tin của Route
-  * Với gateway loại Basic sẽ không được xoá NAT Rule, chỉ được xoá NAT Rule khi Gateway loại Custom
+## Tạo NAT Rule
+
+Bạn có thể nhấn nút **Create NAT Rule** để tạo mới một NAT Rule.
+
+[![Form tạo NAT Rule](/img/migrated/image-1754291008356-de8b3348.png)](/img/migrated/image-1754291008356-de8b3348.png)
+
+Có hai loại NAT:
+
+- **Inbound NAT**: Quản lý dữ liệu đi từ bên ngoài vào mạng nội bộ.
+- **Outbound NAT**: Quản lý dữ liệu đi từ mạng nội bộ ra ngoài.
+
+## Chỉnh sửa NAT Rule
+
+Ở cột **Actions**, bạn có thể nhấn nút **Edit** để chỉnh sửa thông tin của NAT Rule.
+
+:::note
+Gateway loại **Basic** không hỗ trợ chỉnh sửa NAT Rule. Bạn chỉ có thể chỉnh sửa khi Gateway là loại **Custom**.
+:::
+
+## Xóa NAT Rule
+
+Ở cột **Actions**, bạn có thể nhấn nút **Delete** để xóa NAT Rule.
+
+:::note
+Gateway loại **Basic** không hỗ trợ xóa NAT Rule. Bạn chỉ có thể xóa khi Gateway là loại **Custom**.
+:::

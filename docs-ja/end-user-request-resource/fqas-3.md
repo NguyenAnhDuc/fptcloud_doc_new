@@ -1,11 +1,11 @@
 ---
 id: "fqas-3"
-title: "Tôi có thể lựa chọn VPC hoặc tạo mới VPC khi yêu cầu dịch vụ không?"
-sidebar_label: "Tôi có thể lựa chọn VPC hoặc tạo mới VPC khi yêu cầu dịch vụ không?"
-sidebar_position: "7"
+title: "サービスのリクエスト時にVPCを選択または新規作成できますか？"
+description: "新しいVPC（New）または管理権限を持つ任意のVPCを選択できます。"
+sidebar_label: "サービスのリクエスト時にVPCを選択または新規作成できますか？"
+sidebar_position: 7
 ---
-# Tôi có thể lựa chọn VPC hoặc tạo mới VPC khi yêu cầu dịch vụ không?
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# サービスのリクエスト時にVPCを選択または新規作成できますか？
+
+新しいVPC（New）または管理権限を持つ任意のVPCを選択できます。VPC Owner権限を持つアカウントの場合、New VPCまたは現在管理しているVPCのみ選択でき、管理外の他のVPCは選択できません。

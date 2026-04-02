@@ -1,20 +1,15 @@
 ---
 id: "xem-ket-qua-quet"
 title: "Xem kết quả quét"
-description: "Xem kết quả quét"
+description: "Tổng quan về xem kết quả quét trong FPT Cloud VA."
 sidebar_label: "Xem kết quả quét"
 sidebar_position: 12
 ---
 
-# FPT Cloud VA
+# Xem kết quả quét
 
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
+Sau khi Target đã được quét ít nhất một lần, bạn có thể xem kết quả quét qua các mục sau:
 
-Xem kết quả quét
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-va%2F "FPT Cloud VA")
-
-* * *
+- [Truy cập Dashboard kết quả quét](dashboard-ket-qua-quet.md)
+- [Xem chi tiết kết quả quét](xem-chi-tiet-ket-qua-quet.md)
+- [Xem kết quả lịch sử quét](xem-ket-qua-quet-cu.md)

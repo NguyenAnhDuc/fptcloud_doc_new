@@ -1,13 +1,10 @@
 ---
 id: "huong-dan-tren-smartconsole"
-title: "Hướng dẫn trên SmartConsole"
-sidebar_label: "Hướng dẫn trên SmartConsole"
-sidebar_position: "8"
+title: "Guide on SmartConsole"
+sidebar_label: "Guide on SmartConsole"
+sidebar_position: 8
 ---
-# CheckPoint – FPT NGFW
 
-![](/img/migrated/icon-networking-f57b0b33.png)
+# Guide on SmartConsole
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+This section covers how to manage CheckPoint – FPT NGFW through the SmartConsole application, including accessing SmartConsole, installing policies, creating objects, firewall rules, NAT rules, investigating logs, and managing Blades and accounts.

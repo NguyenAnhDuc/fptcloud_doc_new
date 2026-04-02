@@ -1,10 +1,10 @@
 ---
 id: "tich-hop-monitoring-kubernetes"
-title: "Tích hợp Monitoring Kubernetes"
-sidebar_label: "Tích hợp Monitoring Kubernetes"
-sidebar_position: "8"
+title: "Monitoring Kubernetes integration"
+sidebar_label: "Monitoring K8s"
+sidebar_position: 8
 ---
 
-# Tích hợp Monitoring Kubernetes
+# Monitoring Kubernetes integration
 
-Monitoring in K8S is tích hợp with system FPT Monitoring to thu thập metrics and logs, đồng thời cung cấp dashboard and alert when need to thiết.
+Kubernetes monitoring is integrated with the FPT Monitoring system to collect metrics and logs, and to provide dashboards and alerts as needed.

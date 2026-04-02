@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi Flavor (cấu hình) NFS Server"
 sidebar_position: 14
 ---
 
-# Thay Doi Flavor Cau Hinh Nfs
+# Thay đổi flavor cấu hình NFS
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)

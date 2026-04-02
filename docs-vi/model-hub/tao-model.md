@@ -11,7 +11,7 @@ sidebar_position: 6
 Mục đích: Thêm mới model vào hệ thống 
 Để tạo mới 1 model, bạn thao tác như sau: Bước 1: Tại màn hình dịch vụ Model Hub, click button Create đi đến màn tạo mới  
 [![](/img/migrated/Picture9-661ce3b5.png)](/img/migrated/Picture9-661ce3b5.png) [![](/img/migrated/Picture10-6db13648.png)](/img/migrated/Picture10-6db13648.png) Bước 2: Tại step 1 Basic Infomation, nhập Model title 
-Lưu ý: Model title bao gồm các ký tự a-z, A-Z, số, dấu “-”, “_” . Tên model là duy nhất và không được để trống 
+Lưu ý: Model title bao gồm các ký tự a-z, A-Z, số, dấu "-", "_" . Tên model là duy nhất và không được để trống 
 Bước 3: Nhập Description mô tả của Model 
 Bước 4: Chọn Model visibility (Private, Public hoặc Public metadata) 
 Bước 5: Upload Avatar 

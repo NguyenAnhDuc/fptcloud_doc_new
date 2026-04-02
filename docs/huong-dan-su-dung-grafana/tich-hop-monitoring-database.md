@@ -1,11 +1,10 @@
 ---
 id: "tich-hop-monitoring-database"
-title: "Tích hợp Monitoring Database"
-sidebar_label: "Tích hợp Monitoring Database"
-sidebar_position: "14"
+title: "Database monitoring integration"
+sidebar_label: "Monitoring database"
+sidebar_position: 14
 ---
-# Tích hợp Monitoring Database
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Database monitoring integration
+
+Database monitoring in FPT Database Engine is integrated with the FPT Monitoring system to collect metrics and logs, and to provide dashboards and alerts as needed. This guide describes how to access, configure, and use Monitoring to track the health and performance of database clusters on FPT Cloud Portal.

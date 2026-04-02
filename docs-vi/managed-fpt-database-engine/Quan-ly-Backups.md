@@ -1,20 +1,16 @@
 ---
 id: "Quan-ly-Backups"
-title: "Quan Ly Backups"
-description: "Quan Ly Backups"
-sidebar_label: "Quan Ly Backups"
+title: "Quản lý backup"
+description: "Tổng quan về quản lý backup cho FPT Smart Cloud Database Engine."
+sidebar_label: "Quản lý backup"
 sidebar_position: 11
 ---
 
-# Managed – FPT Database Engine
+# Quản lý backup
 
-  * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-database-service-a532361d.png) Pre- requirement ](javascript: "Pre- requirement")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+Phần này hướng dẫn các thao tác quản lý backup cho Database Engine.
 
-Quản lý Backups
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-database-engine%2F "Managed – FPT Database Engine")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fmanaged-fpt-database-engine%2F "Managed – FPT Database Engine")
-
-* * *
+- [Tạo backup service](./Tao-backups-service.md)
+- [Cập nhật và xoá backup job](./Cap-nhat-va-xoa-Backup-job.md)
+- [Cập nhật và xoá backup service](./Cap-nhat-va-xoa-Backup-Service.md)
+- [Quản lý restore](./Quan-ly-Restore.md)

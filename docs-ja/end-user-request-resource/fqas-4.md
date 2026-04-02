@@ -1,11 +1,11 @@
 ---
 id: "fqas-4"
-title: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
-sidebar_label: "Vì sao tôi không tìm thấy phần Request Resource ở thành menu?"
-sidebar_position: "8"
+title: "メニューにRequest Resourceセクションが見つからないのはなぜですか？"
+description: "VPC OwnerまたはTenant Owner権限がない場合、リソースリクエストを作成できません。FCIのサポートチームに連絡して権限の付与を依頼してください。"
+sidebar_label: "メニューにRequest Resourceセクションが見つからないのはなぜですか？"
+sidebar_position: 8
 ---
-# Vì sao tôi không tìm thấy phần Request Resource ở thành menu?
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# メニューにRequest Resourceセクションが見つからないのはなぜですか？
+
+VPC OwnerまたはTenant Owner権限がない場合、リソースリクエストを作成できません。FCIのサポートチームに連絡して、適切な権限の付与を依頼してください。

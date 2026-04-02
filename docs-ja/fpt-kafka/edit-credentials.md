@@ -1,7 +1,7 @@
 ---
 id: "edit-credentials"
 title: "credentialの編集"
-description: "FPT KafkaでcredentialのパスワードをChangeする方法。"
+description: "FPT Kafkaでcredentialのパスワードを変更する方法。"
 sidebar_label: "credentialの編集"
 sidebar_position: 11
 ---

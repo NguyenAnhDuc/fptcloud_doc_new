@@ -1,11 +1,39 @@
 ---
 id: "cloud-advisor-fault-tolerance"
-title: "Show những vấn đề liên quan đến Fault Tolerance"
-sidebar_label: "Show những vấn đề liên quan đến Fault Tolerance"
-sidebar_position: "6"
+title: "フォールトトレランスの問題"
+description: "Cloud Advisorのストレージディスクスナップショットとインスタンススナップショットを含むフォールトトレランスに関する問題のガイド。"
+sidebar_label: "フォールトトレランスの問題"
+sidebar_position: 6
+pagination_next: null
 ---
-# Show những vấn đề liên quan đến Fault Tolerance
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# フォールトトレランスの問題
+
+Cloud Advisorは以下のフォールトトレランスに関する問題を検出します：
+
+## ストレージディスクスナップショット
+
+- **説明**: このルールはスナップショットが存在しないストレージディスクを確認します。
+- **違反リストに表示される項目**:
+  - Project
+  - Region
+  - VPC
+  - ストレージディスク名
+  - ストレージディスクの種類
+  - ストレージポリシー
+  - ストレージサイズ
+  - アタッチ状態
+  - ストレージスナップショット名
+  - スナップショットの経過時間
+
+## インスタンススナップショット
+
+- **説明**: このルールはスナップショットが存在しないインスタンスを確認します。
+- **違反リストに表示される項目**:
+  - Project
+  - Region
+  - VPC
+  - インスタンス名
+  - インスタンスサイズ
+  - インスタンススナップショット名
+  - スナップショットの経過時間

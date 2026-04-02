@@ -1,13 +1,12 @@
 ---
 id: "fpt-monitoring-ip-access-control"
-title: "Fpt Monitoring Ip Access Control"
-sidebar_label: "Fpt Monitoring Ip Access Control"
-sidebar_position: "1"
+title: "FPT Monitoring – IP アクセス制御"
+sidebar_label: "FPT Monitoring – IP アクセス制御"
+sidebar_position: 1
 ---
-# Fpt Monitoring Ip Access Control
 
-![](/img/migrated/settings-db5eccfa.webp)
+# FPT Monitoring – IP アクセス制御
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+IP Access Control は FPT Cloud Monitoring のセキュリティ機能です。ワークスペース内の各 FPT Cloud Monitoring エンドポイントにアクセスを許可する外部 IP アドレスの一覧を設定・管理できます。
+
+この機能は、FPT Cloud 外からのホワイトリストにない接続を積極的にブロックし、アクセスセキュリティの強化、不正アクセスの防止、セキュリティコンプライアンスの充足を支援します。

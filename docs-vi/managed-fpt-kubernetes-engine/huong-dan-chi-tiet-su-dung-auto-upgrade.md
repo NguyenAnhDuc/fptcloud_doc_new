@@ -16,13 +16,13 @@ pagination_next: null
 **1. Khởi tạo Managed Kubernetes Cluster:**
 Khi khởi tạo một Managed Kubernetes Cluster tính năng Auto Upgrade Version sẽ mặc định bị disable như hình bên dưới: 
 [![](/img/migrated/Picture1-5-341fc3c7.png)](/img/migrated/Picture1-5-341fc3c7.png)
-Để xem thông tin chi tiết về các mốc thời gian quan trọng của một Kubernetes version được hỗ trợ bởi FPT cloud, click vào biểu tượng “?”. 
+Để xem thông tin chi tiết về các mốc thời gian quan trọng của một Kubernetes version được hỗ trợ bởi FPT cloud, click vào biểu tượng "?". 
 [![](/img/migrated/Picture2-4-cf1843f2.png)](/img/migrated/Picture2-4-cf1843f2.png)
 Nếu enable tính năng Auto Upgrade Version mà không cấu hình thời gian upgrade, mặc định thời điểm upgrade sẽ là 07:00 GMT+7 vào ngày đầu tiên khi version đó end of standard support 
 [![](/img/migrated/Picture3-4-648a0a23.png)](/img/migrated/Picture3-4-648a0a23.png)
 Sau khi cấu hình thời gian sẽ thực hiện auto upgrade, có thể xem thời điểm version hiện tại sẽ end of support, thời điểm gần nhất sẽ thực hiện auto upgrade và tổng hợp về lập lịch auto upgrade. 
 [![](/img/migrated/Picture4-4-a5f4e49f.png)](/img/migrated/Picture4-4-a5f4e49f.png)
-Hoàn tất việc cấu hình lập lịch auto upgrade version trong quá trình khởi tạo cluster, click “Next” để tiếp tục sang bước cấu hình “Nodes Pool”. 
+Hoàn tất việc cấu hình lập lịch auto upgrade version trong quá trình khởi tạo cluster, click "Next" để tiếp tục sang bước cấu hình "Nodes Pool". 
 **2. Thay đổi cấu hình Auto Upgrade Version với các cluster đã tồn tại**
 _Lưu ý:_
 _- Với các Managed Kubernetes Cluster đã tồn tại và được cấu hình auto upgrade version, người dùng vẫn có thể upgrade version chủ động theo cách bình thường như đối với các cluster không enable tính năng này._

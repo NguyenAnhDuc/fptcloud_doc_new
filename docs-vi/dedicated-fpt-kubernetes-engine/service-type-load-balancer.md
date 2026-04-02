@@ -6,7 +6,7 @@ sidebar_label: "Service Type Load-Balancer"
 sidebar_position: 23
 ---
 
-# Service Type Load Balancer
+# Service type Load Balancer
 
 D-FKE hỗ trợ tạo **Service type Load Balancer** giúp user có thể dễ dàng public ứng dụng ra ngoài cluster. Hệ thống hỗ trợ cả public và private LB.
   * **Public LB:** Mặc định svc type LB khi được tạo dưới dạng public, service được gán Public IP để có thể truy cập từ internet.
@@ -46,7 +46,7 @@ CopyapiVersion: v1
 kind: Service
 metadata:  
   annotations:
-    service.beta.kubernetes.io/fpt-load-balancer-internal: “true”
+    service.beta.kubernetes.io/fpt-load-balancer-internal: "true"
   name: web  
   namespace: default
 spec:  
@@ -83,8 +83,8 @@ Copykubectl edit cm fptcloud-ccm-configmap -n kube-system
 ```
 Copyloadbalancer:
       oneArm:
-        startIP: “169.254.64.1”
-        endIP: “169.254.127.254” 
+        startIP: "169.254.64.1"
+        endIP: "169.254.127.254" 
 ```
 
 Chỉnh sửa lại startIP và endIP theo dải IP mong muốn và thực hiên save.

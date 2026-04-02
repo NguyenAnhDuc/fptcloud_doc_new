@@ -36,7 +36,7 @@ Thông số của VPN Connection sẽ bao gồm 3 mục chính:
 [![](/img/migrated/photo_2_2025-07-09_17-37-35-f1f6f494.jpg)](/img/migrated/photo_2_2025-07-09_17-37-35-f1f6f494.jpg)
 **Phần 2: Remote VPN information**
 [![file](/img/migrated/image-1757055954440-3519ef8e.png)](/img/migrated/image-1757055954440-3519ef8e.png)
-Khi quý khách hàng lựa chọn Providers “Fortigate”,hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
+Khi quý khách hàng lựa chọn Providers "Fortigate",hệ thống sẽ tự động điền thông tin cho IKE và IPSec cụ thể như sau:
 **Đối với IKE:**
   * Encryption algorithm: aes-256
   * Authorization algorithm: sha256

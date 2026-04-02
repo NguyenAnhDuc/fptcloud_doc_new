@@ -1,15 +1,23 @@
 ---
 id: "delete-instance-schedule"
 title: "Xóa một instance schedule"
-description: "**Lưu ý** : Thao tác này sẽ không thực hiện được nếu lịch đã và đang chạy dở chưa xong. Việc xóa instance schedule này s"
+description: "Hướng dẫn xóa instance schedule trên FPT Cloud."
 sidebar_label: "Xóa một instance schedule"
 sidebar_position: 6
 ---
 
 # Xóa một instance schedule
 
-**Lưu ý** : Thao tác này sẽ không thực hiện được nếu lịch đã và đang chạy dở chưa xong. Việc xóa instance schedule này sẽ không thể khôi phục lại được. 
-**Bước 1** : Trên bảng quản trị **Instance Schedule Management,** trong phần **Action** , chọn **Delete**
-[![file](/img/migrated/image-1695609049584-8754accf.png)](/img/migrated/image-1695609049584-8754accf.png)
-**Bước 2** : Một hộp thoại cảnh báo sẽ hiện lên, hiển thị tên schedule và yêu cầu người dùng xác nhận. Gõ chữ **delete** và chọn **Delete schedule** để tiến hành xóa, sau đó hệ thống sẽ xóa hoàn toàn schedule và các máy ảo đang attach (nếu có) thì sẽ được giải phóng và giữ nguyên status nó đang đứng.
-[![file](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)
+:::warning
+Thao tác xóa không thể thực hiện nếu lịch đang trong quá trình chạy chưa hoàn thành. Sau khi xóa, instance schedule sẽ không thể khôi phục lại.
+:::
+
+**Bước 1:** Trên bảng quản trị **Instance Schedule Management**, trong phần **Action**, chọn **Delete**.
+
+[![Nút xóa trong danh sách](/img/migrated/image-1695609049584-8754accf.png)](/img/migrated/image-1695609049584-8754accf.png)
+
+**Bước 2:** Hộp thoại xác nhận sẽ hiện ra, hiển thị tên schedule. Gõ **delete** vào ô xác nhận, sau đó chọn **Delete schedule** để tiến hành xóa.
+
+Hệ thống sẽ xóa hoàn toàn schedule. Các máy ảo đang được gắn vào lịch (nếu có) sẽ được giải phóng và giữ nguyên trạng thái hiện tại.
+
+[![Hộp thoại xác nhận xóa](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)

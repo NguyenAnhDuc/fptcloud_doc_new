@@ -1,13 +1,18 @@
 ---
 id: "auto-schedule-to-on-off-instance"
-title: "Auto Schedule To On Off Instance"
-sidebar_label: "Auto Schedule To On Off Instance"
-sidebar_position: "1"
+title: "Instanceの自動スケジュール起動/停止"
+description: "FPT CloudにおけるInstance Scheduleの概要です。"
+sidebar_label: "Instanceの自動スケジュール起動/停止"
+sidebar_position: 1
 ---
-# Auto Schedule To On Off Instance
 
-![](/img/migrated/initial-setup-714537aa.png)
+# Instanceの自動スケジュール起動/停止
+
+Instance Scheduleは、仮想マシンを指定した時刻と頻度で自動的に起動・停止できる機能です。コストの最適化や運用の効率化に役立ちます。
 
 :::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+- スケジュール内のすべての仮想マシンへの起動/停止操作が完了するまで、選択したstart timeまたはstop timeから最大15分かかる場合があります。特定の時刻までに起動/停止を完了させる必要がある場合は、スケジュールを15分早めに設定し、各スケジュール間を少なくとも15分空けてください。
+- スケジュールは作成後に時刻や頻度を編集することができません。変更できるのは、スケジュールに紐付けられた仮想マシンのみです。時刻や頻度を変更したい場合は、既存のスケジュールを削除して新しいスケジュールを作成してください。
+- スケジュールは、選択したstart time/stop timeの少なくとも1時間前に作成する必要があります。
+- 1時間の枠内では、起動または停止のいずれか1つのアクションのみ設定できます。
 :::

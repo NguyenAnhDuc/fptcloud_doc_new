@@ -17,10 +17,10 @@ Chức năng này hỗ trợ:
   * Theo dõi lịch sử thay đổi (audit trail).
   * Kiểm tra các hành động quản trị (administrative operations).
 
-Để truy cập trang **Event Logs** , thực hiện đăng nhập FPT Cloud Console. Sau khi đăng nhập thành công, từ menu chính, chọn “**Database Platform** ” > “**All Databases** ”. Nhấn vào ID của database cluster cần quản lý > chọn tab “**Event Logs** ”.
-  * Chọn tab “**Process Monitoring** ” để xem process log. Chọn action và nhấn “**View** ” để xem kết quả.
+Để truy cập trang **Event Logs** , thực hiện đăng nhập FPT Cloud Console. Sau khi đăng nhập thành công, từ menu chính, chọn "**Database Platform** " > "**All Databases** ". Nhấn vào ID của database cluster cần quản lý > chọn tab "**Event Logs** ".
+  * Chọn tab "**Process Monitoring** " để xem process log. Chọn action và nhấn "**View** " để xem kết quả.
 
 [![](/img/migrated/view-process-monitor-scaled-85e128b6.png)](/img/migrated/view-process-monitor-scaled-85e128b6.png)
-  * Chọn tab “**Event Logs** ” để xem event log.
+  * Chọn tab "**Event Logs** " để xem event log.
 
 [![](/img/migrated/view-event-log-scaled-61adb5ff.png)](/img/migrated/view-event-log-scaled-61adb5ff.png)

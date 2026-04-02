@@ -49,4 +49,4 @@ Trong phần Action, người dùng có thể chọn các loại scan: Code Anal
 [![Alt text](/img/migrated/Picture15-4a5f2bd8.png)](/img/migrated/Picture15-4a5f2bd8.png)
 **Bước 5:** Kiểm tra lại tất cả trường bắt buộc đã điền. Nhấn **Create** để lưu schedule. 
 [![Alt text](/img/migrated/Picture13-d4757f19.png)](/img/migrated/Picture13-d4757f19.png)
-Khi ấn tạo schedule thành công, hệ thống sẽ chuyển về màn hình danh sách schedule và hiển thị thông báo _“Created schedule successfully”_.
+Khi ấn tạo schedule thành công, hệ thống sẽ chuyển về màn hình danh sách schedule và hiển thị thông báo _"Created schedule successfully"_.

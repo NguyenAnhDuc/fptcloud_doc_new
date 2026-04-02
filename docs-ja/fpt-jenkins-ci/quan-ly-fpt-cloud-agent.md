@@ -1,11 +1,10 @@
 ---
 id: "quan-ly-fpt-cloud-agent"
-title: "管理 FPT Cloud Agent"
-sidebar_label: "管理 FPT Cloud Agent"
-sidebar_position: "6"
+title: "FPT Cloud Agent の管理"
+sidebar_label: "FPT Cloud Agent の管理"
+sidebar_position: 6
 ---
-# 管理 FPT Cloud Agent
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+# FPT Cloud Agent の管理
+
+この機能では、FPT Portal インターフェースを通じてエージェントの作成・編集・削除を行うことができます。

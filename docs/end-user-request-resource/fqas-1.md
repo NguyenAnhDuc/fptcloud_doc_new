@@ -1,11 +1,11 @@
 ---
 id: "fqas-1"
-title: "Tôi có thể tạo nhiều yêu cầu cùng 1 lúc được không?"
-sidebar_label: "Tôi có thể tạo nhiều yêu cầu cùng 1 lúc được không?"
-sidebar_position: "5"
+title: "Can I create multiple requests at the same time?"
+description: "Customers can create multiple requests at the same time. The requests will be sent to FCI and processed in order of priority based on creation time."
+sidebar_label: "Can I create multiple requests at the same time?"
+sidebar_position: 5
 ---
-# Fqas 1
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Can I create multiple requests at the same time?
+
+Customers can create multiple requests at the same time. The requests will be sent to FCI and processed in order of priority based on the time they were created.

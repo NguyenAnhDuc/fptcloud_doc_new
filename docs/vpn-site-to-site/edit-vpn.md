@@ -1,18 +1,23 @@
 ---
 id: "edit-vpn"
-title: "Edit Vpn"
-description: "Edit VPN Information: change VPN information after initialization."
-sidebar_label: "Edit Vpn"
+title: "Edit VPN information"
+description: "Guide to editing VPN Site-to-Site information after initialization"
+sidebar_label: "Edit VPN information"
 sidebar_position: 6
 ---
 
-# Edit Vpn
+# Edit VPN information
 
-Edit VPN Information: change VPN information after initialization.
-**Step 1** : Select Edit VPN Information.
-[![Config edit vpn](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)
-**Step 2** : Change VPN information. Note, the initialized VPN information will be loaded.
-[![Config update](/img/migrated/Config-update-1024x986-03db1582.png)](/img/migrated/Config-update-1024x986-03db1582.png)
-**Step 3** : Confirm Update. 
-VPN will change to Updating > Active status.
-[![Config active](/img/migrated/Config-active-1024x238-e65f8da4.png)](/img/migrated/Config-active-1024x238-e65f8da4.png)
+Change VPN connection information after initialization.
+
+1. Select **Edit VPN Information**.
+
+[![Edit VPN](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)](/img/migrated/Config-edit-vpn-1024x354-ecc0e559.png)
+
+2. Update the VPN fields. The previously configured values are pre-loaded.
+
+[![Update VPN](/img/migrated/Config-update-1024x986-03db1582.png)](/img/migrated/Config-update-1024x986-03db1582.png)
+
+3. Confirm the update. The VPN status changes from **Updating** to **Active**.
+
+[![Active status](/img/migrated/Config-active-1024x238-e65f8da4.png)](/img/migrated/Config-active-1024x238-e65f8da4.png)

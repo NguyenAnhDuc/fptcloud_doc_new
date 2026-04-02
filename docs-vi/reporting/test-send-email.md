@@ -1,18 +1,22 @@
 ---
 id: "test-send-email"
-title: "Test Send Email"
-description: "Chức năng **Test send email** hỗ trợ người dùng kiểm tra nội dung báo cáo và báo cáo được gửi thành công tới người nhận "
-sidebar_label: "Test Send Email"
+title: "Test send email"
+description: "Chức năng test send email hỗ trợ kiểm tra nội dung báo cáo và xác nhận báo cáo được gửi thành công tới người nhận."
+sidebar_label: "Test send email"
 sidebar_position: 5
 ---
 
-# Test Send Email
+# Test send email
 
-Chức năng **Test send email** hỗ trợ người dùng kiểm tra nội dung báo cáo và báo cáo được gửi thành công tới người nhận hay không. 
-Để sử dụng chức năng này, bạn thực hiện theo hướng dẫn: 
-**Bước 1** : Click **Home > Apps > Reporting > Create a new report **
-**Bước 2** : Điền đầy đủ thông tin tạo report: **Select Dashboard, Format Report, Schedule, Confirm**
-**Bước 3** : Click nút **Send email test** tại màn **Confirm**. 
-[![Alt text](/img/migrated/Picture10-0a9f7fe5.png)](/img/migrated/Picture10-0a9f7fe5.png)
-**Bước 4** : Xuất hiện hộp thoại nhập email test > Nhấn nút **Send**
-**Bước 5** : Check hộp thư email nhận report
+Chức năng **Test send email** hỗ trợ bạn kiểm tra nội dung báo cáo và xác nhận báo cáo được gửi thành công tới người nhận.
+
+Để sử dụng chức năng này:
+
+1. Vào **Home > Apps > Reporting > Create a new report**.
+2. Điền đầy đủ thông tin tạo report: **Select Dashboard**, **Format Report**, **Schedule**, **Confirm**.
+3. Tại màn **Confirm**, click nút **Send email test**.
+
+   [![Nút Send email test trên màn Confirm](/img/migrated/Picture10-0a9f7fe5.png)](/img/migrated/Picture10-0a9f7fe5.png)
+
+4. Xuất hiện hộp thoại nhập email test. Nhập địa chỉ email, sau đó nhấn nút **Send**.
+5. Kiểm tra hộp thư email để xác nhận nhận được report.

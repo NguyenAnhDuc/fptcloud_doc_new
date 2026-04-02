@@ -1,11 +1,18 @@
 ---
 id: "backup-report"
-title: "Backup Report"
-sidebar_label: "Backup Report"
+title: "バックアップレポート"
+description: "FPT Cloud上のVPC全体のバックアップ使用状況レポートを生成・エクスポートする方法。"
+sidebar_label: "バックアップレポート"
 sidebar_position: "8"
 ---
-# Backup Report
+# バックアップレポート
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+レポート機能では、すべてのVPC上のVM別バックアップ使用状況の統計をまとめることができます。取得できる情報は、Backup size、Job Name、VM Name、VPC、Private IP、OS、Backup type、Last success at、Created atです。
+
+レポートをエクスポートするには、以下の手順に従ってください：
+
+**ステップ1：** メニューで**Backup & Recovery** > **Backup & Recovery Management**を選択します。**Report**タブを開きます。
+
+**ステップ2：** **Get Report** > 取得するVPCとBackup typeを選択 > **Show results**を選択します。
+
+Excelにエクスポートしてレポートをエクセル形式でダウンロードできます。

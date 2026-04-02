@@ -32,16 +32,16 @@ During use, users can update the maintenance window by following these steps:
 Log in to the FPT Cloud Portal. From the main menu, select **Database Platform** → **All Database**. On the Database List page, select the Cluster ID you want to configure. Open the **Maintenance** tab to access the Maintenance Window management screen.
 [![](/img/migrated/view-maintenance-3d911f64.png)](/img/migrated/view-maintenance-3d911f64.png)
 **Step 2: Configure the Maintenance Window**
-On the **Maintenance** tab, click the Configuration icon (gear icon next to “Maintenance Window”) to open the **Update Maintenance Window** dialog:
+On the **Maintenance** tab, click the Configuration icon (gear icon next to "Maintenance Window") to open the **Update Maintenance Window** dialog:
 [![](/img/migrated/update-maintenance-wwindow-d95e9f42.png)](/img/migrated/update-maintenance-wwindow-d95e9f42.png)
 Enter the following information:
-  * **Day of Week** : The day of the week on which maintenance is performed. Available options range from “Monday” to “Sunday”.
+  * **Day of Week** : The day of the week on which maintenance is performed. Available options range from "Monday" to "Sunday".
   * **Start Time** : the time at which maintenance is allowed to start on the selected day. Maintenance duration: 1 hour, starting from the configured Start Time.
 
 Click **Save** to apply the changes. The system will apply the configuration for subsequent maintenance sessions.
 **Note** : You can update the Maintenance Window only if the database cluster does not already have a scheduled maintenance event.
 **Step 3: View Upcoming Maintenance Events**
-Scheduled maintenance activities are displayed in the “Pending Maintenance Event” section. The following information is provided:
+Scheduled maintenance activities are displayed in the "Pending Maintenance Event" section. The following information is provided:
   * **Maintenance Event** : Name of the maintenance event.
   * **Type** : Type of maintenance.
   * **Duration (Minute)** : Estimated maintenance duration in minutes.

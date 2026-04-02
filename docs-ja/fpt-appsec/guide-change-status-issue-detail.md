@@ -1,13 +1,16 @@
 ---
 id: "guide-change-status-issue-detail"
-title: "Hướng dẫn quản lý trạng thái issue tại màn Issue detail"
-sidebar_label: "Hướng dẫn quản lý trạng thái issue tại màn Issue detail"
-sidebar_position: "28"
+title: "Issue detail画面でのIssueステータス管理ガイド"
+description: "手順1: あるassetのIssue list画面で、いずれかのissueの「Details」をクリックして詳細ページに移動します。"
+sidebar_label: "Issue detailでのIssueステータス管理ガイド"
+sidebar_position: 28
 ---
-# Hướng dẫn quản lý trạng thái issue tại màn Issue detail
 
+# Issue detailでのIssueステータス管理ガイド
+
+手順1: あるassetのIssue list画面で、いずれかのissueの「Details」をクリックして詳細ページに移動します。
 [![anhfsec](/img/migrated/i6-e0741810.png)](/img/migrated/i6-e0741810.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+手順2: Issue detail画面では、直近のスキャン後のissueの現在のステータスを確認できます。issueのステータスを変更するには、「Note status」を選択します。
+[![anhfsec](/img/migrated/i7-c61cdbb2.png)](/img/migrated/i7-c61cdbb2.png)
+手順3: issueのステータス変更履歴を確認するには、Activityセクションを参照してください。
+[![anhfsec](/img/migrated/i8-8cf185fa.png)](/img/migrated/i8-8cf185fa.png)

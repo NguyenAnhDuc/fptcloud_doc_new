@@ -1,14 +1,18 @@
 ---
 id: "chinh-sua-recipient"
-title: "Edit Recipient"
-sidebar_label: "Edit Recipient"
-sidebar_position: "17"
+title: "Edit a recipient"
+sidebar_label: "Edit a recipient"
+sidebar_position: 17
 ---
 
-# Edit Recipient
+# Edit a recipient
 
-**Step 1** : Ở menu chọn **Cloud Guard** > **Alert** , chọn tab **Recipients.**
+**Step 1:** In the menu, go to **Cloud Guard** > **Alert** and select the **Recipients** tab.
+
 [![file](/img/migrated/image-1725532997863-419e42b8.png)](/img/migrated/image-1725532997863-419e42b8.png)
-**Step 2** : Select **Recipients** need to chỉnh sửa. System will displayed màn hình **Update**.
-**Step 3** : Enter information mới ando the trường corresponding and chọn **Update**.
+
+**Step 2:** Select the recipient to edit. The **Update** screen appears.
+
+**Step 3:** Enter the new values in the relevant fields and click **Update**.
+
 [![file](/img/migrated/image-1725533118811-da405cc4.png)](/img/migrated/image-1725533118811-da405cc4.png)

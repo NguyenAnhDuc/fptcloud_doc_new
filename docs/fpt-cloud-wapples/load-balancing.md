@@ -1,11 +1,11 @@
 ---
 id: "load-balancing"
-title: "Thống kê trạng thái của LB đích tương ứng với từng proxy được thiết lập"
-sidebar_label: "Thống kê trạng thái của LB đích tương ứng với từng proxy được thiết lập"
+title: "Statistics on the Status of Target Load Balancers for Each Configured Proxy"
+sidebar_label: "Statistics on the Status of Target Load Balancers for Each Configured Proxy"
 sidebar_position: "6"
 ---
 
-# Thống kê status of LB đích corresponding with fromng proxy is setup
+# Statistics on the Status of Target Load Balancers for Each Configured Proxy
 
-Thống kê status of LB đích corresponding with fromng proxy is setup
+Statistics on the status of target load balancers corresponding to each configured proxy.
 [![file](/img/migrated/image-1714112388673-6880a328.png)](/img/migrated/image-1714112388673-6880a328.png)

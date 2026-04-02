@@ -1,12 +1,13 @@
 ---
 id: "show-notification"
-title: "Show Notification"
-description: "Chuông thông báo được nhìn thấy bên trái account của người dùng ngay trên trang Cloud Portal ở góc bên phải màn hình. Kh"
-sidebar_label: "Show Notification"
+title: "Xem biểu tượng chuông thông báo"
+description: "Hướng dẫn xem biểu tượng chuông thông báo và nhận biết thông báo mới trên FPT Cloud Portal."
+sidebar_label: "Xem biểu tượng chuông thông báo"
 sidebar_position: 3
 ---
 
-# Show Notification
+# Xem biểu tượng chuông thông báo
 
-Chuông thông báo được nhìn thấy bên trái account của người dùng ngay trên trang Cloud Portal ở góc bên phải màn hình. Khi bạn điều hướng trong trang Cloud Portal, bạn sẽ được thông báo về bất kì các thông báo mới nào qua vòng tròn màu đỏ và số trên biểu tượng chuông như hình bên dưới
-[![file](/img/migrated/image-1710299697607-9fd658cc.png)](/img/migrated/image-1710299697607-9fd658cc.png)
+Biểu tượng chuông thông báo nằm ở góc trên bên phải của trang Cloud Portal, bên trái thông tin tài khoản. Khi điều hướng trong trang Cloud Portal, bạn sẽ được thông báo về các thông báo mới qua vòng tròn màu đỏ kèm số lượng trên biểu tượng chuông.
+
+[![Biểu tượng chuông thông báo với badge đỏ](/img/migrated/image-1710299697607-9fd658cc.png)](/img/migrated/image-1710299697607-9fd658cc.png)

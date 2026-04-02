@@ -1,18 +1,15 @@
 ---
 id: "quan-ly-managed-gpu-cluster"
-title: "Quan Ly Managed Gpu Cluster"
-sidebar_label: "Quan Ly Managed Gpu Cluster"
+title: "Managed GPU Cluster の管理"
+sidebar_label: "Managed GPU Cluster の管理"
 sidebar_position: "3"
 ---
 
-# Quan Ly Managed Gpu Cluster
+# Managed GPU Cluster の管理
 
-  * [ ![](/img/migrated/settings-d609e2cc.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-ee126f1d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
+Managed GPU Cluster を管理します。
 
-Quản lý Managed GPU Cluster
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-managed-gpu-cluster%2F "Managed GPU Cluster \(Kubernetes\)")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-managed-gpu-cluster%2F "Managed GPU Cluster \(Kubernetes\)")
+  * [ ![](/img/migrated/settings-d609e2cc.png) 初期設定 ](javascript: "初期設定")
+  * [ ![](/img/migrated/icon-networking-ee126f1d.png) 詳細ガイド (Tutorials) ](javascript: "詳細ガイド (Tutorials)")
 
 * * *

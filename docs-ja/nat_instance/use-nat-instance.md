@@ -1,13 +1,17 @@
 ---
 id: "use-nat-instance"
-title: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General"
-sidebar_label: "Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General"
-sidebar_position: "4"
+title: "Generalサービスプランのユーザーのみ利用可能"
+description: "FPT CloudのGeneralサービスプランユーザー向けNAT Instance利用ガイドです。"
+sidebar_label: "Generalサービスプランのユーザーのみ利用可能"
+sidebar_position: 4
 ---
-# Tính năng chỉ áp dụng cho người dùng mua dich vụ loại General
 
-[![file](/img/migrated/image-1719483578152-3556d024.png)](/img/migrated/image-1719483578152-3556d024.png)
+# Generalサービスプランのユーザーのみ利用可能
 
 :::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
+この機能は**General**サービスプランを購入したユーザーのみ利用できます。
 :::
+
+Subnet作成時に**isolated**モードを選択すると、isolated network内のインスタンスがインターネットにアクセスできるようにNAT Instanceを設定するための手順が表示されます。
+
+[![isolated subnet作成時のNAT Instance設定ガイド](/img/migrated/image-1719483578152-3556d024.png)](/img/migrated/image-1719483578152-3556d024.png)

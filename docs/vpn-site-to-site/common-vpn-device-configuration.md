@@ -1,8 +1,8 @@
 ---
 id: "common-vpn-device-configuration"
-title: "VPN Site-to-Site"
-description: "VPN Site-to-Site"
-sidebar_label: "VPN Site-to-Site"
+title: "Common VPN device configuration"
+description: "Reference configurations for common VPN devices when setting up VPN Site-to-Site connections"
+sidebar_label: "Common VPN device configuration"
 sidebar_position: 12
 ---
 

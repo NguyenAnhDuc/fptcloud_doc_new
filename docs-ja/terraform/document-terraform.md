@@ -1,20 +1,13 @@
 ---
 id: "document-terraform"
-title: "Document Terraform"
-sidebar_label: "Document Terraform"
-sidebar_position: "4"
+title: "Terraformドキュメント"
+description: "FPT Cloud Terraformプロバイダーのドキュメントとソースコードへの参照リンク。"
+sidebar_label: "Terraformドキュメント"
+sidebar_position: 4
 ---
 
-# Document Terraform
+# Terraformドキュメント
 
-- Terraform Provider Docs:https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/
+- **Terraformプロバイダードキュメント**: [https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/](https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/)
 
-Terraform Provider Docs:
-
-- https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/
-
-- FPT Cloud Terraform Source:https://github.com/fpt-corp/terraform-provider-fptcloud
-
-FPT Cloud Terraform Source:
-
-- https://github.com/fpt-corp/terraform-provider-fptcloud
+- **FPT Cloud Terraformソース**: [https://github.com/fpt-corp/terraform-provider-fptcloud](https://github.com/fpt-corp/terraform-provider-fptcloud)

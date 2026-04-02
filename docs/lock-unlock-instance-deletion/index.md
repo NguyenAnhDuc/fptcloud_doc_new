@@ -1,13 +1,13 @@
 ---
 id: "lock-unlock-instance-deletion"
-title: "Khóa & Mở khóa xóa máy ảo"
-sidebar_label: "Khóa & Mở khóa xóa máy ảo"
-sidebar_position: "1"
+title: "Lock & unlock instance deletion"
+description: "Protect important virtual machines from accidental deletion using the deletion lock feature."
+sidebar_label: "Lock & unlock instance deletion"
+sidebar_position: 1
 ---
-# Lock & Unlock Instance Deletion
 
-![](/img/migrated/settings-2-d6cac700.png)
+# Lock & unlock instance deletion
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+The deletion lock feature protects important virtual machines from accidental deletion — reducing the risk of data loss caused by operator error.
+
+You can lock any virtual machine to prevent it from being deleted or terminated unintentionally. This helps avoid accidentally deleting a production machine instead of a test machine.

@@ -50,7 +50,7 @@ Kiểm tra node GPU trên k8s đã sẵn sàng sử dụng bằng lệnh:
 Copykubectl describe node 
 ```
 
-Node sẽ sẵn sàng được sử dụng nếu tài nguyên “nvidia.com/gpu” có giá trị lớn hơn 1 ở mục capacity và allocatable 
+Node sẽ sẵn sàng được sử dụng nếu tài nguyên "nvidia.com/gpu" có giá trị lớn hơn 1 ở mục capacity và allocatable 
 
 ```
 CopyCapacity:

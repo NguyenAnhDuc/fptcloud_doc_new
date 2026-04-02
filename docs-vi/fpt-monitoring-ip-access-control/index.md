@@ -1,18 +1,13 @@
 ---
 id: "fpt-monitoring-ip-access-control"
-title: "Fpt Monitoring Ip Access Control"
-description: "Fpt Monitoring Ip Access Control"
-sidebar_label: "Fpt Monitoring Ip Access Control"
+title: "FPT Monitoring – IP Access Control"
+description: "Quản lý truy cập IP cho các endpoint FPT Monitoring của bạn."
+sidebar_label: "FPT Monitoring – IP Access Control"
 sidebar_position: 1
 ---
 
 # FPT Monitoring – IP Access Control
 
-  * [ ![](/img/migrated/settings-db5eccfa.webp) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-efcbe2f9.webp) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. FPT Monitoring – IP Access Control
+IP Access Control cho phép bạn kiểm soát các địa chỉ IP được phép truy cập vào các endpoint FPT Monitoring, bao gồm Grafana Dashboard, Metric datasource, Log datasource và Trace datasource.
 
-##  Trang chủ 
-01Initial Setup 
-02Hướng dẫn chi tiết (Tutorials)
+Mặc định, khi IP Access Control **chưa được bật**, tất cả địa chỉ IP đều có thể truy cập hệ thống. Khi tính năng được **bật**, mọi truy cập từ bên ngoài FPT Cloud sẽ bị chặn cho đến khi IP được thêm vào danh sách whitelist.

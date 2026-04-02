@@ -1,11 +1,12 @@
 ---
 id: "toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud"
-title: "Tôi được hỗ trợ những gì khi thuê máy chủ và dùng dịch vụ Backup trên FPT Cloud?"
-sidebar_label: "Tôi được hỗ trợ những gì khi thuê máy chủ và dùng dịch vụ Backup trên FPT Cloud?"
+title: "FPT Cloudでサーバーをレンタルしてバックアップサービスを使用する場合、どのようなサポートが受けられますか？"
+description: "バックアップサービスを使用するFPT Cloudユーザーが受けられるサポートの概要。"
+sidebar_label: "バックアップのサポート内容は？"
 sidebar_position: "10"
 ---
-# Tôi được hỗ trợ những gì khi thuê máy chủ và dùng dịch vụ Backup trên FPT Cloud?
+# FPT Cloudでサーバーをレンタルしてバックアップサービスを使用する場合、どのようなサポートが受けられますか？
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**FPT Cloud**に連絡してサービスの使用に同意すると、**FPT Portal**上でリソースを管理するためのアカウントと使用ガイドが提供されます。
+
+リソースの初期化とサービス利用中に何かサポートが必要な場合は、テクニカルチームに連絡するだけです。テクニカルエンジニアが24時間365日サポートします。

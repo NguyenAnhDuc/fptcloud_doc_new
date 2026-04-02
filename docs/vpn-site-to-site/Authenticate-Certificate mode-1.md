@@ -1,11 +1,11 @@
 ---
 id: "Authenticate-Certificate mode-1"
-title: "Authenticate Certificate Mode 1"
-description: "Unify Portal does not currently support this mode. For further support, please contact Customer Success for advice."
-sidebar_label: "Authenticate Certificate Mode 1"
+title: "Authenticate certificate mode"
+description: "Certificate authentication mode for VPN Site-to-Site"
+sidebar_label: "Authenticate certificate mode"
 sidebar_position: 11
 ---
 
-# Authenticate Certificate Mode 1
+# Authenticate certificate mode
 
-Unify Portal does not currently support this mode. For further support, please contact Customer Success for advice.
+Certificate authentication mode is not currently supported on the Unify Portal. For further assistance, contact the Customer Success team.

@@ -1,7 +1,7 @@
 ---
 id: "view-topics"
 title: "topicの表示"
-description: "FPT KafkaでtopicのdetailをViewする方法。"
+description: "FPT Kafkaでtopicの詳細情報を表示する方法。"
 sidebar_label: "topicの表示"
 sidebar_position: 6
 ---

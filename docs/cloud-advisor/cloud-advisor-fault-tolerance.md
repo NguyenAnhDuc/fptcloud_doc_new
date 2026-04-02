@@ -1,11 +1,39 @@
 ---
 id: "cloud-advisor-fault-tolerance"
-title: "Show những vấn đề liên quan đến Fault Tolerance"
-sidebar_label: "Show những vấn đề liên quan đến Fault Tolerance"
-sidebar_position: "6"
+title: "Fault tolerance issues"
+description: "Guide to fault tolerance issues in Cloud Advisor, including storage disk snapshots and instance snapshots."
+sidebar_label: "Fault tolerance issues"
+sidebar_position: 6
+pagination_next: null
 ---
-# Show những vấn đề liên quan to Fault Tolerance
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+# Fault tolerance issues
+
+Cloud Advisor surfaces the following fault tolerance issues:
+
+## Storage disk snapshot
+
+- **Description**: This rule checks for storage disks that do not have a snapshot.
+- **Violation list shows**:
+  - Project
+  - Region
+  - VPC
+  - Storage disk name
+  - Storage disk type
+  - Storage policy
+  - Storage size
+  - Attached
+  - Storage snapshot name
+  - Snapshot age
+
+## Instance snapshot
+
+- **Description**: This rule checks for instances that do not have a snapshot.
+- **Violation list shows**:
+  - Project
+  - Region
+  - VPC
+  - Instance name
+  - Instance size
+  - Instance snapshot name
+  - Snapshot age

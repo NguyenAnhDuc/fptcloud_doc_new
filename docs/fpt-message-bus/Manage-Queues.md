@@ -1,8 +1,8 @@
 ---
 id: "Manage-Queues"
-title: "FPT Message Bus"
-description: "FPT Message Bus"
-sidebar_label: "FPT Message Bus"
+title: "Manage Queues"
+description: "Create, view, and delete Queues on FPT Message Bus (RabbitMQ)."
+sidebar_label: "Manage Queues"
 sidebar_position: 4
 ---
 

@@ -64,7 +64,7 @@ Control how fine-tuning progress is tracked and saved.
 | Name  | Description  | Type  | Supported value  |  
 | --- | --- | --- | --- |  
 | **Checkpoint strategy**  | The checkpoint save strategy to adopt during training.  
-“best” only applicable when Evaluation strategy is not “no”.  | Enum[string]  | No, Epoch, Steps  |  
+"best" only applicable when Evaluation strategy is not "no".  | Enum[string]  | No, Epoch, Steps  |  
 | **Checkpoint steps**  | Number of training steps before two checkpoint saves if Checkpoint strategy = step.  | Int  | [1, +∞)  |  
 | **Evaluation strategy**  | The evaluation strategy to adopt during training.  | Enum[string]  | No, Epoch, Steps  |  
 | **Evaluation steps**  | Number of update steps between two evaluations if Evaluation strategy = steps.  

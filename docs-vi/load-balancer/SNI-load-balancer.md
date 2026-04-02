@@ -27,7 +27,7 @@ Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho
 **Bước 3** : Chọn tab **Listener** , sau đó chọn Listener đang sử dụng protocol TERMINATED_HTTPS, hoặc tạo mới Listener nếu chưa có
 **Bước 4** : Chọn các chứng chỉ SSL/TLS lên 2 trường: 
   * Default SSL/TLS certificate: Chọn chứng chỉ mặc định sử dụng cho Listener
-**Bước 5** : Nhấn “Update Listener” hoặc " Create Listener để lưu thay đổi.
+**Bước 5** : Nhấn "Update Listener" hoặc " Create Listener để lưu thay đổi.
 **Bước 6** : Trỏ các tên miền (hostname) về IP public của Load balancer và truy cập.
 Ngoài ra, người dùng có thể kết hợp sử dụng L7 policy để điều phối truy cập từng domain tới Pool mong muốn, cấu hình như sau:
 **Bước 1** : Tải lên đầy đủ chứng chỉ và add vào Listener như hướng dẫn trên, sau đó chọn tab L7 policy **Bước 2** : Tạo các L7 policy tại Listener:

@@ -1,18 +1,11 @@
 ---
 id: "quan-ly-router-group"
-title: "Quan Ly Router Group"
-sidebar_label: "Quan Ly Router Group"
-sidebar_position: "11"
+title: "Router Groupの管理"
+description: "FPT Event GatewayのRouter Groupの管理。"
+sidebar_label: "Router Groupの管理"
+sidebar_position: 11
 ---
 
-# Quan Ly Router Group
+# Router Groupの管理
 
-  * [ ![](/img/migrated/settings-3-341b24da.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn chi tiết (Tutorial)  ](javascript: "Hướng dẫn chi tiết \(Tutorial\) ")
-
-Quản lý Router group
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-event-gateway%2F "FPT Event Gateway")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-event-gateway%2F "FPT Event Gateway")
-
-* * *
+このセクションでは、**FPT Event Gateway** の **Router Group** の管理について説明します。Router Groupエントリの作成、確認、更新、削除が含まれます。

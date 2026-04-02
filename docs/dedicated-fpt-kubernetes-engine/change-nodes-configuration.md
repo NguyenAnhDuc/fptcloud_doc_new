@@ -1,18 +1,25 @@
 ---
 id: "change-nodes-configuration"
 title: "Change nodes configuration"
-description: "**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Manageme"
+description: "Change the flavor (CPU, RAM) of master or worker nodes in a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Change nodes configuration"
 sidebar_position: 13
 ---
 
 # Change nodes configuration
 
-**Step 1** : In the FPT Cloud Portal menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page.
+**Step 1:** In the FPT Cloud Portal menu, select **Kubernetes** to open the **Kubernetes Management** page.
+
 [![](/img/migrated/34-c0477746.png)](/img/migrated/34-c0477746.png)
-**Step 2** : Choose a Cluster that you want to adjust nodes' configuration from the list.
+
+**Step 2:** Select the cluster whose node configuration you want to change.
+
 [![](/img/migrated/35-b0efa90a.png)](/img/migrated/35-b0efa90a.png)
-**Step 3** : In the **Node Pools** tab, you can change the Flavor (CPU, RAM) of **Master Nodes** and **Worker Nodes** by clicking the **Setting** icon in the corresponding node type
+
+**Step 3:** In the **Node Pools** tab, click the **Setting** icon next to **Master Nodes** or **Worker Nodes** to change the flavor (CPU, RAM).
+
 [![](/img/migrated/36-a63268a4.png)](/img/migrated/36-a63268a4.png)
-**Step 4** : Choose the desired configuration > Click **Change** to make changes
+
+**Step 4:** Choose the desired configuration and click **Change**.
+
 [![](/img/migrated/37-68b0be4f.png)](/img/migrated/37-68b0be4f.png)

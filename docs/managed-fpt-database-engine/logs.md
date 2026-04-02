@@ -17,10 +17,10 @@ Key capabilities:
   * Track change history (audit trail).
   * Review administrative operations.
 
-Log in to FPT Cloud Portal. From the main menu, select Database Platform → All Databases. Click the ID of the target database cluster. Switch to the “Event Logs” tab to open log management.
-  * Select the “**Process Monitoring** ” tab to view process logs. Choose an action and click “**View** ” to see results.
+Log in to FPT Cloud Portal. From the main menu, select Database Platform → All Databases. Click the ID of the target database cluster. Switch to the "Event Logs" tab to open log management.
+  * Select the "**Process Monitoring** " tab to view process logs. Choose an action and click "**View** " to see results.
 
 [![](/img/migrated/view-process-monitor-scaled-85e128b6.png)](/img/migrated/view-process-monitor-scaled-85e128b6.png)
-  * Select the “**Event Logs** ” tab to view event logs.
+  * Select the "**Event Logs** " tab to view event logs.
 
 [![](/img/migrated/view-event-log-scaled-61adb5ff.png)](/img/migrated/view-event-log-scaled-61adb5ff.png)

@@ -1,18 +1,25 @@
 ---
 id: "nang-cap-k8s-version"
-title: "Nâng cấp K8S version"
-description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn nâ"
-sidebar_label: "Nâng cấp K8S version"
+title: "Nâng cấp phiên bản Kubernetes"
+description: "Hướng dẫn nâng cấp phiên bản Kubernetes cho cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Nâng cấp phiên bản Kubernetes"
 sidebar_position: 17
 ---
 
-# Nang Cap K8S Version
+# Nâng cấp phiên bản Kubernetes
 
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn nâng cấp K8s version. 
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster cần nâng cấp phiên bản Kubernetes.
+
 [![](/img/migrated/Picture41-d322b494.png)](/img/migrated/Picture41-d322b494.png)
-**Bước 2** : Tại mục **Cluster Information** > **Version**. Chọn icon **Setting**. 
+
+**Bước 2:** Tại mục **Cluster Information** > **Version**, chọn icon **Setting**.
+
 [![](/img/migrated/Picture42-6db86334.png)](/img/migrated/Picture42-6db86334.png)
-**Bước 3** : Chọn **Version** cần nâng cấp và chọn **Upgrade**. 
+
+**Bước 3:** Chọn phiên bản cần nâng cấp và nhấn **Upgrade**.
+
 [![](/img/migrated/Picture7-3-d45ba609.png)](/img/migrated/Picture7-3-d45ba609.png)
-_Lưu ý: Chỉ có thể nâng cấp version, không thực hiện được việc hạ version._
-_Để tránh phát sinh vấn đề trong quá trình xử lý, nên nâng cấp version lần lượt theo thứ tự._
+
+:::note
+Chỉ có thể nâng cấp phiên bản, không thể hạ cấp. Để tránh phát sinh vấn đề, nên nâng cấp phiên bản lần lượt theo thứ tự.
+:::

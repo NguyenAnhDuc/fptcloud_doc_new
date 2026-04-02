@@ -1,12 +1,14 @@
 ---
 id: "alerting"
-title: "8. Quản trị Cảnh báo (Alerting)"
-sidebar_label: "8. Quản trị Cảnh báo (Alerting)"
-sidebar_position: "18"
+title: "Alerting"
+sidebar_label: "Alerting"
+sidebar_position: 18
 ---
 
 # Alerting
 
-**Step 1** : Log in ando dashboard (xem mục 7.1. Truy cập ando dashboard)
-**Step 2** : Trên menu trái, click **Home** > **Alerting**
+**Step 1:** [Access the dashboard](truy-cap-vao-dashboard.md).
+
+**Step 2:** In the left menu, click **Home** > **Alerting**.
+
 [![Alt text](/img/migrated/Picture16-2-9a67b595.png)](/img/migrated/Picture16-2-9a67b595.png)

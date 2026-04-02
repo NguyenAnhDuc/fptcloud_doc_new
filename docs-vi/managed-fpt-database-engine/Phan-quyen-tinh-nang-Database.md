@@ -1,11 +1,13 @@
 ---
 id: "Phan-quyen-tinh-nang-Database"
-title: "Phan Quyen Tinh Nang Database"
-description: "Giúp cho người dùng tạo từng nhóm phần quyền cho từng tính năng của Database như Provision, View, Backup,..."
-sidebar_label: "Phan Quyen Tinh Nang..."
+title: "Phân quyền tính năng database"
+description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
+sidebar_label: "Phân quyền tính năng database"
 sidebar_position: 6
 ---
 
-# Phân quyền tính năng Database
+# Phân quyền tính năng database
 
-Giúp cho người dùng tạo từng nhóm phần quyền cho từng tính năng của Database như Provision, View, Backup,...
+Cho phép tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup và các tính năng khác.
+
+Sử dụng tính năng IAM Roles để cấu hình phân quyền. Xem [Roles](./Roles.md) để biết chi tiết.

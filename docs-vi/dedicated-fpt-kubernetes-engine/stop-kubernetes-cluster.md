@@ -6,7 +6,7 @@ sidebar_label: "Bạn có thể tắt các Cluster đang hoạt động theo hư
 sidebar_position: 9
 ---
 
-# Stop Kubernetes Cluster
+# Dừng Kubernetes cluster
 
 Bạn có thể tắt các **Cluster** đang hoạt động theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.

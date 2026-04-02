@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Runtime Security cho Managed Kubernetes Cluster"
 sidebar_position: 31
 ---
 
-# Tinh Nang Runtime Security Cluster
+# Tính năng Runtime Security cluster
 
 **1. Giới thiệu chung tính năng Runtime Security**
 Để đảm bảo bảo về an toàn bảo mật thông tin cho FPT Cloud Managed Kubernetes cluster, FPT Cloud phát triển tính năng cho phép tích hợp công cụ hỗ trợ Runtime Security cung cấp khả năng phát hiện các hành động bất thường trong K8S cluster có thể gây rủi ro cho lớp runtime và kernel của worker node.
@@ -52,7 +52,7 @@ Kết quả sau khi Disable:
 
 ![](/img/migrated/Picture11-2-5d780203.png)
 ![](/img/migrated/Picture12-3-2a273fdf.png)
-  * Bước 4: Download file kubeconfig và thực hiện port-forward cho service “falco-falcosidekick-ui". Người dùng có thể sử dụng công cụ Lens IDE để thực hiện port-forward trên giao diện dashboard bằng cách > chọn Network > chọn Services > Filter theo Namespace fptcloud-runtime-security
+  * Bước 4: Download file kubeconfig và thực hiện port-forward cho service "falco-falcosidekick-ui". Người dùng có thể sử dụng công cụ Lens IDE để thực hiện port-forward trên giao diện dashboard bằng cách > chọn Network > chọn Services > Filter theo Namespace fptcloud-runtime-security
 
 ![](/img/migrated/Picture13-2-7145e357.png)
 Chọn Service falco-falcosidekick-ui, chọn Forward
@@ -102,7 +102,7 @@ Kết quả sau khi cấu hình xong:
 Khi phát hiện sự bất thường, telegram của người dùng sẽ nhận được cảnh báo như hình dưới đây:
 ![](/img/migrated/Picture36-2-b799e46e.png)
 1.2 Thay đổi kênh nhận thông báo qua Gmail
-Lưu ý: Trước khi tạo Application Token cho Gmail, cần phải bật tính năng “Xác minh 2 bước” trên Tài khoản Google của mình.
+Lưu ý: Trước khi tạo Application Token cho Gmail, cần phải bật tính năng "Xác minh 2 bước" trên Tài khoản Google của mình.
 Bước 1: Truy cập [Link](https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6mwAuh3qaC1eKc7XewCMQU6V6lDuv3Om7ECAlm5R3MUftowOoR4MX-XbD84l&cid=3&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4OQmf3KJ7gkSxhbmm5DqwRFDxwc3wwtSlkg1jrKcUHx_TMi-BUsKmUREmg-JFjF-YQ6g1k7h68AIjbt4iHygIAU-91TEcQff78-lVDMW66UknnWR6s&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4OQmf3KJ7gkSxhbmm5DqwRFDxwc3wwtSlkg1jrKcUHx_TMi-BUsKmUREmg-JFjF-YQ6g1k7h68AIjbt4iHygIAU-91TEcQff78-lVDMW66UknnWR6s&ifkv=Ab5oB3ob8hiIojOpjbbdnRQCMUP-nN9e1JkarHYVPJC5rqHF2C0uV-5LfGO3o3CngznWNb750rsr&osid=1&rart=ANgoxcdw5cHl3-8KJUueNT-AOeg1uh0cFuqiMIYcsOFhdFZ3OLrYh76YA6MaQzOzIUzWMD0eRq9U2sOrd54eBwDGwp59FrpO-d9ALceCMK6WKkSUeohZqCs&rpbg=1&service=accountsettings) để tạo Application Token 
 ![](/img/migrated/Picture37-2-80332a4a.png)
 ![](/img/migrated/Picture38-2-c92796bc.png)

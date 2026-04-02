@@ -1,11 +1,13 @@
 ---
 id: "run-history"
-title: "Run History"
-description: "Run History trên Model Testing."
-sidebar_label: "Run History"
-sidebar_position: "21"
+title: "Lịch sử Run"
+description: "Lịch sử run cung cấp nhật ký chi tiết về tất cả các lần chạy kiểm thử cho một mô hình được chọn."
+sidebar_label: "Lịch sử Run"
+sidebar_position: 21
 ---
 
-# Run History
+# Lịch sử Run
 
-Run History trên Model Testing.
+Lịch sử run cung cấp nhật ký chi tiết về tất cả các lần chạy kiểm thử cho một mô hình được chọn.
+[![Alt text](/img/migrated/Run-history-a75b32a0.png)](/img/migrated/Run-history-a75b32a0.png)
+**Lưu ý:** Mỗi bản ghi trong lịch sử hiển thị thời điểm job được bắt đầu.

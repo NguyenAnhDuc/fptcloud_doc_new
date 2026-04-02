@@ -1,13 +1,10 @@
 ---
 id: "quan-ly-cau-hinh"
-title: "管理 cấu hình"
-sidebar_label: "管理 cấu hình"
-sidebar_position: "14"
+title: "設定の管理"
+sidebar_label: "設定の管理"
+sidebar_position: 14
 ---
-# 管理 cấu hình
 
-![](/img/migrated/settings-3-e684e7b5.png)
+# 設定の管理
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+この機能では、FPT Portal インターフェースを通じて Jenkins CI インスタンスのメール通知、SonarQube サーバー、Telegram Bot を設定できます。

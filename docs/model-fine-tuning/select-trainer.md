@@ -15,7 +15,7 @@ We offer three trainers to optimize your models:
 | --- | --- | --- | --- |  
 | **SFT (Supervised fine-tuning)**  | Foundational technique that trains your model on input-output pairs, teaching it to produce desired responses for specific inputs.  | - Provide examples of correct responses to prompts to guide the model’s behavior.  
   
-- Often uses human-generated “ground truth” responses to show the model how it should respond.  | - Classification  
+- Often uses human-generated "ground truth" responses to show the model how it should respond.  | - Classification  
   
 - Nuanced translation  
   

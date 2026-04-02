@@ -28,4 +28,4 @@ Các thao tác trong nhóm này áp dụng ở cấp database resource và yêu 
   * [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Khởi tạo một cơ sở dữ liệu mới bằng cách lựa chọn hệ quản trị, phiên bản, flavor và các cấu hình cần thiết khác.
   * [Kết nối cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Tìm hiểu cách lấy thông tin kết nối và kết nối tới cơ sở dữ liệu từ ứng dụng hoặc các công cụ client.
   * [Vận hành cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Thực hiện các thao tác vận hành phổ biến như khởi động, dừng, khởi động lại, quản lý cấu hình và theo dõi cơ sở dữ liệu.
-  * “7.2.5. Nâng cấp phiên bản cơ sở dữ liệu”: Nâng cấp phiên bản hệ quản trị cơ sở dữ liệu để sử dụng các tính năng mới, cải tiến hiệu năng và bản vá bảo mật.
+  * "7.2.5. Nâng cấp phiên bản cơ sở dữ liệu": Nâng cấp phiên bản hệ quản trị cơ sở dữ liệu để sử dụng các tính năng mới, cải tiến hiệu năng và bản vá bảo mật.

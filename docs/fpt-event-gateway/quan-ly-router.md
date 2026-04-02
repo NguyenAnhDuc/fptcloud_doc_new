@@ -1,18 +1,11 @@
 ---
 id: "quan-ly-router"
-title: "Quan Ly Router"
-sidebar_label: "Quan Ly Router"
-sidebar_position: "16"
+title: "Manage Router"
+description: "Manage Routers for FPT Event Gateway."
+sidebar_label: "Manage Router"
+sidebar_position: 16
 ---
 
-# FPT Event Gateway
+# Manage Router
 
-  * [ ![](/img/migrated/settings-3-341b24da.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2-09c1ef04.png) Hướng dẫn details (Tutorial)  ](javascript: "Hướng dẫn details \(Tutorial\) ")
-
-Manage Router
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-event-gateway%2F "FPT Event Gateway")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-event-gateway%2F "FPT Event Gateway")
-
-* * *
+This section covers managing **Routers** for **FPT Event Gateway**, including creating, updating, and deleting Router entries within Router Groups.

@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Rotate Kubeconfig"
 sidebar_position: 8
 ---
 
-# Tinh Nang Rotate Kubeconfig
+# Tính năng Rotate Kubeconfig
 
 Trong quá trình sử dụng Kubernetes cluster, người dùng có thể thực hiện rotate kubeconfig nếu muốn thay đổi token của user admin trong cluster. 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. 

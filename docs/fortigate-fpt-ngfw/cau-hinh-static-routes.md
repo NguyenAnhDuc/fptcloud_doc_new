@@ -1,13 +1,17 @@
 ---
 id: "cau-hinh-static-routes"
-title: "Configuration Static Routes"
-sidebar_label: "Configuration Static Routes"
-sidebar_position: "4"
+title: "Configure static routes"
+description: "Guide to viewing and creating static routes on Fortigate NGFW."
+sidebar_label: "Configure static routes"
+sidebar_position: 4
 ---
-# Configure Static Routes
 
-[![Userguide Fortigate FPT NGFW 2022 5](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)
+# Configure static routes
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+1. Navigate to **Network > Static Routes**. The initial CLI configuration already created a static route for the WAN port with gateway 10.0.0.1.
+
+   [![Static routes list](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-5-1024-f0a1691a.png)
+
+2. You can also create a static route through the web interface. Click **Create New**, select the Interface to route through, then choose a **Gateway** or **Destination** (Destination can be left as default if no specific destination is needed).
+
+   [![Create new static route](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-6-1024-701e228e.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-6-1024-701e228e.png)

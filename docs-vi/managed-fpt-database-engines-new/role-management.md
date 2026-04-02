@@ -34,7 +34,7 @@ Sau khi bạn chọn một service type, hệ thống sẽ tự động hiển t
   * **Action** : Xác định các hành động mà role được phép thực hiện. Nhấn **See more** để xem và chọn các hành động được gán cho role. Các hành động không được chọn sẽ không được cấp quyền và sẽ bị hệ thống chặn.
   * **Resource** : Xác định các tài nguyên mà role được phép truy cập. Nhấn **See more** để xem và chọn các tài nguyên được gán cho role. Các tài nguyên không được chọn sẽ không được cấp quyền và sẽ bị hệ thống chặn. Có 2 lựa chọn: 
     * **All** : Cho phép truy cập tất cả các tài nguyên. Khi chọn tùy chọn này, hệ thống mặc định role có quyền truy cập toàn bộ tài nguyên.
-    * **Specific** : Phân quyền truy cập theo từng tài nguyên cụ thể được chọn trong danh sách. **Lưu ý** : Với tùy chọn này, khi phân quyền **chặn xem mật khẩu tài khoản quản trị** (Service Type là “FDE” và action “FDE:hide_admin_password”), bạn cần chọn các cơ sở dữ liệu cần chặn trong trường **Select resource**. Chỉ những cơ sở dữ liệu được chọn mới bị giới hạn xem mật khẩu, các cơ sở dữ liệu không được chọn sẽ cho phép xem mật khẩu.
+    * **Specific** : Phân quyền truy cập theo từng tài nguyên cụ thể được chọn trong danh sách. **Lưu ý** : Với tùy chọn này, khi phân quyền **chặn xem mật khẩu tài khoản quản trị** (Service Type là "FDE" và action "FDE:hide_admin_password"), bạn cần chọn các cơ sở dữ liệu cần chặn trong trường **Select resource**. Chỉ những cơ sở dữ liệu được chọn mới bị giới hạn xem mật khẩu, các cơ sở dữ liệu không được chọn sẽ cho phép xem mật khẩu.
 
 [![](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)
 Sau khi nhập đầy đủ thông tin, chọn **Create role** để hoàn tất quá trình tạo role.

@@ -1,11 +1,23 @@
 ---
 id: "kiem-tra-thong-tin-backup-va-restore-cua-vm"
-title: "Kiểm tra thông tin backup và restore của VM."
-sidebar_label: "Kiểm tra thông tin backup và restore của VM."
+title: "VMのバックアップとリストア情報を確認する"
+description: "FPT PortalのVM管理インターフェースからVMのバックアップとリストアステータスを確認する方法。"
+sidebar_label: "VMのバックアップとリストア情報を確認する"
 sidebar_position: "7"
 ---
-# 確認 thông tin backup và restore của VM.
+# VMのバックアップとリストア情報を確認する
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+## VMのバックアップとリストアステータスの確認
+**Backup & Recovery Management**での全体統計に加えて、**FPT Portal**ではそのVMの管理インターフェースから各VMのバックアップとリストアステータスを確認することもできます。
+
+### ステップ1：VM管理インターフェースにアクセスする
+  1. メニューで**Compute Engine** > **Instance Management**を選択します。
+  2. 確認するVMを選択します。
+
+### ステップ2：Backupsタブを確認する
+  1. VMが**Backup Job**によって保護されている場合、**Backups**オプションが表示されます。
+  2. **Backups**タブを選択して、**Backup Job**のステータスとリストアポイントのリストを確認します。
+
+### 注意事項：
+  * BackupsタブはVMがBackup Jobによって保護されている場合にのみ表示されます。
+  * Backup Jobを削除すると、リストアポイントのリストとその他の情報もシステムから削除されます。

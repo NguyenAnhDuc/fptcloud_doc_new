@@ -22,7 +22,7 @@ To connect to Kafka, you can refer to the detailed steps in the **Document** sec
 **Step 3** : After setting up the necessary information, open the terminal and run this command:
 
 ```
-Copypython .\producer.py
+python .\producer.py
 ```
 
 The result should be as follows:
@@ -42,7 +42,7 @@ If the output is correct, it means the producer has successfully sent messages t
 **Step 3** : After setting up the necessary information, open the terminal and run this command:
 
 ```
-Copypython .\consumer.py
+python .\consumer.py
 ```
 
 The result should be as follows:

@@ -6,7 +6,7 @@ sidebar_label: "Retry Timeout Rule"
 sidebar_position: 28
 ---
 
-# Retry Timeout Rule
+# Retry timeout rule
 
 Trong quá trình sử dụng **Kubernetes Engine** , hệ thống có thể bị timeout trong 2 process sau: 
 ➤ Provision 

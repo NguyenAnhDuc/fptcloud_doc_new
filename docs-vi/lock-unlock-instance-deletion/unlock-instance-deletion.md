@@ -1,14 +1,19 @@
 ---
 id: "unlock-instance-deletion"
-title: "Unlock Instance Deletion"
-description: "Để có thể xóa máy ảo, bạn cần tiến hành mở khóa trước với các thao tác đơn giản sau."
-sidebar_label: "Unlock Instance Deletion"
+title: "Mở khóa xóa máy ảo"
+description: "Mở khóa máy ảo để có thể tiến hành xóa bình thường."
+sidebar_label: "Mở khóa xóa máy ảo"
 sidebar_position: 4
 ---
 
-# Unlock Instance Deletion
+# Mở khóa xóa máy ảo
 
-Để có thể xóa máy ảo, bạn cần tiến hành mở khóa trước với các thao tác đơn giản sau. 
-Bước 1: Trên bảng quản trị Instance Schedule Management, trong phần Action, chọn Unlock Deletion
-Bước 2: Một hộp thoại cảnh báo sẽ hiện lên, hiển thị tên máy ảo và yêu cầu người dùng xác nhận. Bạn chọn Unlock Instance Deletion để tiến hành mở khóa, sau đó hệ thống sẽ mở khóa máy ảo để bạn có thể xóa máy như bình thường.
-[![file](/img/migrated/image-1702889865206-f8a5a864.png)](/img/migrated/image-1702889865206-f8a5a864.png)
+Để xóa máy ảo đang bị khóa, bạn cần mở khóa trước với các thao tác sau.
+
+1. Tại bảng quản trị **Instance Management**, chọn máy ảo, nhấn **Actions** → **Unlock Deletion**.
+
+2. Hộp thoại cảnh báo hiển thị tên máy ảo và yêu cầu bạn xác nhận. Nhấn **Unlock Instance Deletion** để tiến hành mở khóa.
+
+[![Hộp thoại xác nhận Unlock Instance Deletion](/img/migrated/image-1702889865206-f8a5a864.png)](/img/migrated/image-1702889865206-f8a5a864.png)
+
+Máy ảo đã được mở khóa và có thể xóa bình thường.

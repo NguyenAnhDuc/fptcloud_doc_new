@@ -1,13 +1,15 @@
 ---
 id: "iac-old"
-title: "Iac Old"
-sidebar_label: "Iac Old"
-sidebar_position: "1"
+title: "IaC (Infrastructure as Code)"
+description: "Terraform と OpenStack Provider を使用して FPT Cloud インフラをコードで管理します。"
+sidebar_label: "IaC (Infrastructure as Code)"
+sidebar_position: 1
 ---
 
-# Iac Old
+# IaC (Infrastructure as Code)
 
-  * [ ![](/img/migrated/iac-old-28ff0c9c.html) Overviews ](javascript: "Overviews")
+Infrastructure as Code (IaC) を使用すると、FPT Cloud のインフラをポータル上での手動操作ではなく、コードで管理・設定できます。FPT Cloud は Terraform と OpenStack Provider をサポートしており、リソースの作成と管理を自動化できます。
 
-IaC old
-01Overviews
+## 目次
+
+- [OpenStack Provider の設定](./overview)

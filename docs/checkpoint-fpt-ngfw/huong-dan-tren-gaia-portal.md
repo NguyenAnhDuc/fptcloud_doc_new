@@ -1,13 +1,10 @@
 ---
 id: "huong-dan-tren-gaia-portal"
-title: "Hướng dẫn trên Gaia Portal"
-sidebar_label: "Hướng dẫn trên Gaia Portal"
-sidebar_position: "2"
+title: "Guide on Gaia Portal"
+sidebar_label: "Guide on Gaia Portal"
+sidebar_position: 2
 ---
-# CheckPoint – FPT NGFW
 
-![](/img/migrated/icon-networking-f57b0b33.png)
+# Guide on Gaia Portal
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+This section covers how to manage CheckPoint – FPT NGFW through the Gaia Portal interface, including accessing the portal, configuring network interfaces, static routes, DNS, and updating hotfixes.

@@ -1,13 +1,15 @@
 ---
 id: "schedule-delete"
-title: "Hướng dẫn xóa schedule"
-sidebar_label: "Hướng dẫn xóa schedule"
-sidebar_position: "32"
+title: "スケジュール削除ガイド"
+description: "Schedule Management画面で、各スケジュールの⋮マークを選択 > Deleteで1件のスケジュールを削除します。"
+sidebar_label: "スケジュール削除ガイド"
+sidebar_position: 32
+pagination_next: null
 ---
-# Hướng dẫn xóa schedule
 
+# スケジュール削除ガイド
+
+Schedule Management画面で、各スケジュールの⋮マークを選択 > Deleteで1件のスケジュールを削除します。
 [![Alt text](/img/migrated/Picture22-e6ff757e.png)](/img/migrated/Picture22-e6ff757e.png)
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+確認ポップアップが表示されます。_「delete」_ と入力してから **Confirm** をクリックし、スケジュールの削除を確定します。
+[![Alt text](/img/migrated/Picture23-c5dd269b.png)](/img/migrated/Picture23-c5dd269b.png)

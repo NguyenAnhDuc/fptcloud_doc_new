@@ -1,21 +1,23 @@
 ---
 id: "Why-cant-I-watch-Cost-Explore"
-title: "Cost Explorer"
-description: "Cost Explorer"
-sidebar_label: "Cost Explorer"
+title: "Cannot view Cost Explorer"
+description: "Causes and solutions when Cost Explorer is not visible."
+sidebar_label: "Cannot view Cost Explorer"
 sidebar_position: 4
 ---
 
-# Cost Explorer
+# Cannot view Cost Explorer
 
-AI Marketplace 
-AI Studio 
-  * [ ![](/img/migrated/cropped-FPT-Cloud-1@2x-8-69f71686.png) Quick Starts ](javascript: "Quick Starts")
-  * [ ![](/img/migrated/images-26be055c.jpg) Frequently Asked Questions (FAQs) ](javascript: "Frequently Asked Questions \(FAQs\)")
-  2. Cost Explorer
+There are three situations that prevent you from viewing the Billing module in general and Cost Explorer in particular:
 
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fen%2Fdocuments%2Fcost-explorer-2%2F "Cost Explorer")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fen%2Fdocuments%2Fcost-explorer-2%2F "Cost Explorer")
+**1. Your account has the Tenant Owner role but billing data is empty.**
 
-* * *
+Contact FCI Sale Support to set up service pricing and enable billing data display on the Portal.
+
+**2. Your account does not have the Tenant Owner role.**
+
+Ask a Tenant Owner in your organization to grant IAM permissions following the guide at [Grant billing permissions](../billing/index.md).
+
+**3. Your account has sufficient billing view permissions but no data appears.**
+
+Check the Project and Region currently selected. Try selecting the default Project and the Region where your billed resources are located. If the issue persists, contact FCI support.

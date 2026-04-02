@@ -18,7 +18,7 @@ sidebar_position: 16
 **1.1 Giới thiệu Slurm**
 Slurm là một nền tảng mã nguồn mở mạnh mẽ dùng để quản lý tài nguyên cụm và lập lịch công việc (job). Nó được thiết kế nhằm tối ưu hiệu năng và hiệu quả cho các siêu máy tính và cụm tính toán lớn. Các thành phần chính của nó hoạt động cùng nhau để đảm bảo hệ thống đạt hiệu suất cao và tính linh hoạt. Hình sau đây minh họa cách thức hoạt động của Slurm.
 [![](/img/migrated/Picture1-1-00c51d67.png)](/img/migrated/Picture1-1-00c51d67.png)
-**slurmctld** : là trình nền điều khiển của Slurm. Được xem như “bộ não” của Slurm, slurmctld giám sát tài nguyên hệ thống, lập lịch job và quản lý trạng thái cụm. Để tăng tính tin cậy, bạn có thể cấu hình một slurmctld thứ cấp nhằm tránh gián đoạn dịch vụ nếu slurmctld chính gặp sự cố, đảm bảo hệ thống luôn sẵn sàng cao.
+**slurmctld** : là trình nền điều khiển của Slurm. Được xem như "bộ não" của Slurm, slurmctld giám sát tài nguyên hệ thống, lập lịch job và quản lý trạng thái cụm. Để tăng tính tin cậy, bạn có thể cấu hình một slurmctld thứ cấp nhằm tránh gián đoạn dịch vụ nếu slurmctld chính gặp sự cố, đảm bảo hệ thống luôn sẵn sàng cao.
 **slurmd** : là trình nền nút của Slurm. slurmd được triển khai trên mỗi nút tính toán. Nó nhận lệnh từ slurmctld và quản lý job, bao gồm khởi chạy và thực thi job, báo cáo trạng thái job và chuẩn bị cho các lệnh job mới. slurmd đóng vai trò giao diện để giao tiếp trực tiếp với tài nguyên tính toán và là cơ sở để lập lịch job.
 **slurmdbd** : là trình nền cơ sở dữ liệu của Slurm. slurmdbd là thành phần tùy chọn nhưng rất quan trọng cho quản lý lâu dài và kiểm toán trong các cụm lớn, vì nó duy trì một cơ sở dữ liệu tập trung để lưu lịch sử job và thông tin kế toán. slurmdbd có thể tổng hợp dữ liệu từ nhiều cụm do Slurm quản lý, giúp đơn giản hóa và nâng cao hiệu quả quản lý dữ liệu.
 **SlurmCLI:** cung cấp các lệnh sau để hỗ trợ quản lý job và giám sát hệ thống:
@@ -328,7 +328,7 @@ Mặc định, chúng tôi expose login node qua một Load Balancer public, đi
 Copykubectl edit SlurmCluster  fpt-hpc -n fpt-hpc
 ```
 
-Tại phần cấu hình worker nodes, chuyển hướng tới mục “size" và edit số lượng worker node theo mong muốn
+Tại phần cấu hình worker nodes, chuyển hướng tới mục "size" và edit số lượng worker node theo mong muốn
 Lưu ý: 
 -Khi scale up số lượng worker nodes, node mới sẽ được tự động thêm vào danh sách worker nodes tại slurm controller node và sẵn sàng để chạy job.
 -Khi scale down nodes, bạn cần xóa node thủ công tại slurm controller bằng lệnh:

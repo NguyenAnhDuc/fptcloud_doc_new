@@ -1,13 +1,15 @@
 ---
 id: "graphical-analysis"
 title: "Graphical Analysis"
+description: "Filter and view metrics for each website such as network traffic, network status, or system status"
 sidebar_label: "Graphical Analysis"
-sidebar_position: "7"
+sidebar_position: 7
 ---
+
 # Graphical Analysis
 
-[![file](/img/migrated/image-1714112396895-5ab92a04.png)](/img/migrated/image-1714112396895-5ab92a04.png)
+Filter and view metrics for each website such as network traffic, network status, or system status.
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+You can select the website to inspect and the chart type in the respective fields as shown. The default chart type is Bar for all websites.
+
+[![file](/img/migrated/image-1714112396895-5ab92a04.png)](/img/migrated/image-1714112396895-5ab92a04.png)

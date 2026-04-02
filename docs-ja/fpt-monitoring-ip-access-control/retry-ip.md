@@ -1,13 +1,16 @@
 ---
 id: "retry-ip"
-title: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
-sidebar_label: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
-sidebar_position: "10"
+title: "失敗した IP 操作を再試行する"
+sidebar_label: "IP の再試行"
+sidebar_position: 10
 ---
-# Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.
 
-[![Retry IP](/img/migrated/Screenshot_7-db22b40e.png)](/img/migrated/Screenshot_7-db22b40e.png)
+# 失敗した IP 操作を再試行する
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+**Whitelist Failed** または **Blacklist Failed** ステータスの IP に適用されます。
+
+[![IP の再試行](/img/migrated/Screenshot_7-db22b40e.png)](/img/migrated/Screenshot_7-db22b40e.png)
+
+再試行する IP を選択して **Retry** をクリックします。
+
+IP は **Whitelisting** または **Blacklisting** ステータスで再処理されます。処理が完了するまで、対応するテーブルのすべてのアクションが一時的に無効になります。

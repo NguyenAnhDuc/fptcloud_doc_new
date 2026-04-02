@@ -1,13 +1,16 @@
 ---
 id: "retry-ip"
-title: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
-sidebar_label: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
-sidebar_position: "10"
+title: "Retry a failed IP operation"
+sidebar_label: "Retry failed IP"
+sidebar_position: 10
 ---
-# Áp dụng for the IP có status 'Whitelist Failed'/'Blacklist Failed'.
+
+# Retry a failed IP operation
+
+Applies to IPs with the status **Whitelist Failed** or **Blacklist Failed**.
 
 [![Retry IP](/img/migrated/Screenshot_7-db22b40e.png)](/img/migrated/Screenshot_7-db22b40e.png)
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+Select the IP(s) to retry and click **Retry**.
+
+The IP will be re-whitelisted or re-blacklisted with the status **Whitelisting** or **Blacklisting**. All actions on the corresponding table will be temporarily disabled until the process completes.

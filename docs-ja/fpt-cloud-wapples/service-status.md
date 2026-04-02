@@ -2,12 +2,11 @@
 id: "service-status"
 title: "Service Status"
 sidebar_label: "Service Status"
-sidebar_position: "5"
+sidebar_position: 5
 ---
+
 # Service Status
 
-![file](/img/migrated/image-1714112376191-644662e9.png)
+WAPPLESを経由して、ポリシーが設定された各IP・ウェブサイトへのトラフィック量を集計します。
 
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::
+![file](/img/migrated/image-1714112376191-644662e9.png)

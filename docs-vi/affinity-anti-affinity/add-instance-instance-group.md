@@ -1,16 +1,25 @@
 ---
 id: "add-instance-instance-group"
-title: "Gắn máy ảo vào Instance Group"
-description: "Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo the"
-sidebar_label: "Gắn máy ảo vào Instance Group"
-sidebar_position: 5
+title: "Gắn Instance vào Instance Group"
+description: "Hướng dẫn gắn máy ảo vào Instance Group khi tạo Instance mới."
+sidebar_label: "Gắn Instance vào Instance Group"
+sidebar_position: 4
 ---
 
-# Gắn máy ảo vào Instance Group
+# Gắn Instance vào Instance Group
 
-Khi bạn khởi chạy một máy ảo, bạn có thể truyền thông tin về nhóm máy chủ như một gợi ý để thực hiện việc đặt máy ảo theo chính sách mong muốn.
-Lưu ý là mỗi instance group chỉ có thể gắn với tối đa 10 instances.
-Để thực hiện điều này, bạn cần tiến hành các thao tác đơn giản sau:
-**Bước 1** : Trên màn hình **Create instance** , trong phần **Instance Group** , chọn **Name** của instance group bạn muốn đặt máy ảo
-![file](/img/migrated/image-1705025405311-fa794fe3.png)
-**Bước 2** : Chọn **Create instance**. Hệ thống sẽ tiến hành khởi tạo và thông báo kết quả. Nếu thành công, thông tin về instance group sẽ được hiển thị ở trang Instance Detail. ![file](/img/migrated/image-1705025498532-8edf7a7b.png)
+Khi tạo máy ảo mới, bạn có thể gắn máy ảo vào một Instance Group để áp dụng chính sách Affinity hoặc Anti-Affinity.
+
+:::note
+Mỗi Instance Group chứa tối đa 10 Instance.
+:::
+
+1. Trên màn hình **Create Instance**, trong phần **Instance Group**, chọn tên Instance Group muốn gắn.
+
+   ![Chọn Instance Group khi tạo Instance](/img/migrated/image-1705025405311-fa794fe3.png)
+
+2. Nhấn **Create Instance**.
+
+Thông tin Instance Group hiển thị trên trang **Instance Detail**.
+
+![Instance đã gắn vào Instance Group](/img/migrated/image-1705025498532-8edf7a7b.png)

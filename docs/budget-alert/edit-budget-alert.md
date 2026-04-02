@@ -10,11 +10,11 @@ sidebar_position: 5
 
 When you need to change the budget, alert thresholds, or resource groups, you can edit an existing Budget Alert. After updating, the system recalculates actual costs and sends alerts based on the new configuration.
 
-1. Select **Billing** → **Budget Alert**. The system displays the list of created Budget Alerts. Select the Budget Alert to edit, then select **Actions** → **Update**.
+1. Select **Billing** → **Budget Alert**. The system displays the list of existing Budget Alerts. Select the Budget Alert to edit, then select **Actions** → **Update**.
 
    ![Select Update Budget Alert](/img/migrated/image-1722238825640-0606b59c.png)
 
-2. Edit the information as when creating a Budget Alert.
+2. Edit the information the same way as when creating a Budget Alert.
 
 3. Click **Update** to save the changes.
 

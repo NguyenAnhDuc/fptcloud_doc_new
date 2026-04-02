@@ -16,7 +16,7 @@ On the **Essential Properties** tab, you will be provided with detailed informat
 **Step 2:** Log in to the **ArgoCD** cluster: From the **Essential Properties** screen, copy the URL and access the application:
   * **URL** : Information of created URL shown in **Essential Properties** tab.
   * **User** : Username shown in **Essential Properties** tab.
-  * **Password** : Use the “copy” function (icon) to copy the password.
+  * **Password** : Use the "copy" function (icon) to copy the password.
 
 [![](/img/migrated/Picture60-3afa2ba7.png)](/img/migrated/Picture60-3afa2ba7.png)
 Interface after successfully logging in to **ArgoCD** cluster:

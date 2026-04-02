@@ -1,13 +1,26 @@
 ---
 id: "fpt-va"
-title: "Fpt Va"
-sidebar_label: "Fpt Va"
-sidebar_position: "1"
+title: "FPT Cloud VA"
+description: "FPT Cloud Vulnerability Assessment helps you identify and remediate security vulnerabilities in your web applications and network systems."
+sidebar_label: "FPT Cloud VA"
+sidebar_position: 1
 ---
+
 # FPT Cloud VA
 
-![](/img/migrated/settings-800de3d1.png)
+FPT Cloud Vulnerability Assessment (FPT Cloud VA) is a service that automatically scans and identifies security vulnerabilities in web applications and network systems managed by users on FPT Portal.
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+## Key features
+
+- Supports scanning website (web application) and network (IP or IP range) targets.
+- Provides multiple scan modes: Host Discovery, Standard Scan, Deep Scan, Brute Force Scan, and Log4Shell Scan.
+- Schedules scans: one-time, daily, weekly, or monthly.
+- Sends email notifications after each successful scan.
+- Exports detailed vulnerability reports in multiple formats.
+
+## Documentation structure
+
+- **Initial setup** — Register the service and verify quota on FPT Portal.
+- **Manage targets** — Create, edit, check status, scan, and delete scan targets.
+- **View scan results** — Access the dashboard, view detailed results, and review scan history.
+- **Export reports** — Export vulnerability assessment reports.

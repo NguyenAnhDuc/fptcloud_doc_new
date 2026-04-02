@@ -49,7 +49,7 @@ A sample YAML template can be downloaded by clicking **Download template**.
 |  args  | list[string]  |   | Startup command arguments (optional).  |  
 ### Step 3: Review Configuration
 [!(/img/migrated/information-fill-1-30ad0c7d.png)](/img/migrated/information-fill-1-30ad0c7d.png)
-**Notice:** The button “Review" will only be enabled when all the validations within the YAML editor have passed.
+**Notice:** The button "Review" will only be enabled when all the validations within the YAML editor have passed.
 Click **Review** to continue. On this screen, you can: 
   * Verify container configuration including template, GPU, CPU, RAM, and disk allocation. 
   * Check pricing summary to view the estimated hourly cost. [![Alt text](/img/migrated/import-4-efe3185f.png)](/img/migrated/import-4-efe3185f.png)

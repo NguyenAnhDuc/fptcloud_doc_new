@@ -1,13 +1,13 @@
 ---
 id: "billing"
-title: "Hóa đơn"
-sidebar_label: "Hóa đơn"
-sidebar_position: "1"
+title: "Bills"
+description: "View and manage invoices and service usage costs on FPT Cloud."
+sidebar_label: "Bills"
+sidebar_position: 1
 ---
+
 # Bills
 
-![](/img/migrated/icon-networking-1-2d28802b.png)
+## Overview
 
-:::note
-This page is being translated from Vietnamese. For complete content, please refer to the Vietnamese version.
-:::
+The Bills feature lets you view usage costs by service or by resource type. For the current billing period, data is updated in real time. You can also look up reconciliation data from previous billing periods.

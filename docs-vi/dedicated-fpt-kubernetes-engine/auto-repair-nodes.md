@@ -6,7 +6,7 @@ sidebar_label: "A. Tổng quan"
 sidebar_position: 27
 ---
 
-# Auto Repair Nodes
+# Auto Repair nodes
 
 **A. Tổng quan**
 Bài viết này sẽ giới thiệu và giải thích về cách hoạt động của tính năng node auto-repair trong sản phẩm D-FKE của FPTCloud.
@@ -20,7 +20,7 @@ Copykubectl apply -f https://raw.githubusercontent.com/fci-xplat/fke-config/main
 ```
 
 **C. Cấu hình**
-Tại configmap “auto-repair-configmap" trong namespace kubesystem, có hai trường bạn có thể chỉnh sửa:
+Tại configmap "auto-repair-configmap" trong namespace kubesystem, có hai trường bạn có thể chỉnh sửa:
 
 ```
 Copyenable_rebooting_node (mặc định "true") 
@@ -32,7 +32,7 @@ Copyenable_replacing_node (mặc định "true")
 
 · **enable_rebooting_node** : bạn cấp quyền cho node auto-repair reboot các node bị lỗi.
 · **enable_replacing_node** : bạn cấp quyền cho node auto-repair xóa node bị lỗi.
-Trong trường hợp bạn muốn các node trong cụm của bạn ổn định, hãy cài đặt trường enable_replacing node giá trị “false".
+Trong trường hợp bạn muốn các node trong cụm của bạn ổn định, hãy cài đặt trường enable_replacing node giá trị "false".
 **D. Giải thích luồng hoạt động cơ bản**
   1. Node được phát hiện ở trạng thái NotReady quá 3p sẽ được reboot.
   2. Node được reboot trong 3 lần.

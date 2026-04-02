@@ -1,12 +1,12 @@
 ---
 id: "questions-2"
-title: "Questions 2"
-description: "Cost Explorer's Customize Filter allows you to filter by Tag. Use Tagging to tag specific resources for which you want t"
-sidebar_label: "Questions 2"
+title: "Filter Cost Explorer by specific resource"
+description: "Guide to using Tagging to filter Cost Explorer by specific resources."
+sidebar_label: "Filter Cost Explorer by specific resource"
 sidebar_position: 5
 pagination_next: null
 ---
 
-# Questions 2
+# Filter Cost Explorer by specific resource
 
-Cost Explorer's Customize Filter allows you to filter by Tag. Use Tagging to tag specific resources for which you want to see costs, then filter Cost Explorer with this tag.
+Cost Explorer's Customize Filter supports filtering by tag. Use the Tagging feature to tag the specific resources whose costs you want to view, then filter Cost Explorer by that tag.
