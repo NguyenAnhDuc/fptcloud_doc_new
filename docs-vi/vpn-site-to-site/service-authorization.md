@@ -1,5 +1,5 @@
 ---
-id: "service-authorization"
+id: "permission-access-guide"
 title: "Hướng dẫn phân quyền sử dụng dịch vụ"
 description: "Để thực hiện phân quyền cho user khác sử dụng dịch vụ **VPN Site to Site** trong cùng project, Quý khách thao tác theo c"
 sidebar_label: "Hướng dẫn phân quyền sử dụng dịch vụ"

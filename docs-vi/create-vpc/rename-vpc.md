@@ -1,5 +1,5 @@
 ---
-id: "rename-vpc"
+id: "rename-vpc-en"
 title: "Đổi tên VPC"
 description: "Hướng dẫn đổi tên VPC trên FPT Cloud Portal."
 sidebar_label: "Đổi tên VPC"

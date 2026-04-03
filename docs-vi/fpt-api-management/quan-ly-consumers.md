@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-consumers"
+id: "managing-consumers"
 title: "Quản lý Consumers"
 description: "Tạo, chỉnh sửa, xóa Consumer và quản lý đăng ký Product trên FPT API Management."
 sidebar_label: "Quản lý Consumers"

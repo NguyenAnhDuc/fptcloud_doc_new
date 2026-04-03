@@ -194,6 +194,24 @@
       "type": "file"
     },
     {
+      "path": "src/docusaurus/langMappingPlugin.js",
+      "accessCount": 6,
+      "lastAccessed": 1775212337638,
+      "type": "file"
+    },
+    {
+      "path": "scripts/generate-lang-mapping.js",
+      "accessCount": 4,
+      "lastAccessed": 1775212958753,
+      "type": "file"
+    },
+    {
+      "path": "src/components/LanguageSwitcher/index.js",
+      "accessCount": 3,
+      "lastAccessed": 1775211288800,
+      "type": "file"
+    },
+    {
       "path": "docs/モデルテスト/index.md",
       "accessCount": 2,
       "lastAccessed": 1775202373002,
@@ -212,9 +230,21 @@
       "type": "file"
     },
     {
-      "path": "src/docusaurus/langMappingPlugin.js",
+      "path": "docs-vi/fpt-appsec/guide-change-status-issue-detail.md",
       "accessCount": 2,
-      "lastAccessed": 1775211244540,
+      "lastAccessed": 1775212388789,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/fpt-monitoring-ip-access-control/truy-cap-tinh-nang.md",
+      "accessCount": 2,
+      "lastAccessed": 1775212406960,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/load-balancer/enable-hsts-to-http-listener.md",
+      "accessCount": 2,
+      "lastAccessed": 1775212408512,
       "type": "file"
     },
     {
@@ -374,9 +404,21 @@
       "type": "file"
     },
     {
-      "path": "src/components/LanguageSwitcher/index.js",
+      "path": "scripts/check-lang-matching.js",
       "accessCount": 1,
-      "lastAccessed": 1775211173660,
+      "lastAccessed": 1775212118538,
+      "type": "file"
+    },
+    {
+      "path": "scripts/unify-doc-ids.js",
+      "accessCount": 1,
+      "lastAccessed": 1775213438962,
+      "type": "file"
+    },
+    {
+      "path": "scripts/analyze-unmatched-docs.js",
+      "accessCount": 1,
+      "lastAccessed": 1775214014556,
       "type": "file"
     }
   ],

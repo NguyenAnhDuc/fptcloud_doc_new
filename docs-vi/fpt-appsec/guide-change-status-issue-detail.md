@@ -1,7 +1,7 @@
 ---
 id: "guide-change-status-issue-detail"
 title: "Hướng dẫn quản lý trạng thái issue tại màn Issue detail"
-description: "Bước 1: Tại màn hình Issue list của 1 asset, ấn "Details" của 1 issue bất kỳ để vào trang xem chi tiết:"
+description: "Bước 1: Tại màn hình Issue list của 1 asset, ấn Details của 1 issue bất kỳ để vào trang xem chi tiết"
 sidebar_label: "Hướng dẫn quản lý trạng thái issue tại màn Issue detail"
 sidebar_position: 28
 ---

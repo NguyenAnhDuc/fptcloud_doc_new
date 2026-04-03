@@ -1,5 +1,5 @@
 ---
-id: "enable-VPN-S2S-connection"
+id: "enable-vpn-s2S"
 title: "Kích hoạt VPN Site-to-Site"
 description: "Hướng dẫn kích hoạt lại kết nối VPN Site-to-Site đang Inactive."
 sidebar_label: "Kích hoạt VPN"

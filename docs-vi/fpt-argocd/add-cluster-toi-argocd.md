@@ -1,5 +1,5 @@
 ---
-id: "add-cluster-toi-argocd"
+id: "add-cluster-to-argocd"
 title: "Kết nối cluster Kubernetes tới ArgoCD"
 description: "Hướng dẫn thêm cluster Kubernetes vào ArgoCD instance để deploy ứng dụng"
 sidebar_label: "Kết nối cluster Kubernetes"

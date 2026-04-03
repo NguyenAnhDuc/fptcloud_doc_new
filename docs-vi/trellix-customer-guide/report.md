@@ -1,5 +1,5 @@
 ---
-id: "report"
+id: "report-guide"
 title: "Xem báo cáo"
 description: "Sử dụng các template báo cáo có sẵn hoặc tùy chỉnh để theo dõi hành vi mã độc trên hệ thống."
 sidebar_label: "Xem báo cáo"

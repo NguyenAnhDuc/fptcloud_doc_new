@@ -1,5 +1,5 @@
 ---
-id: "send-receive-messages-in-queues"
+id: "gui-nhan-message-trong-queues"
 title: "queue でのメッセージ送受信"
 description: "FPT Message Bus で queue のメッセージを送受信します。"
 sidebar_label: "queue でのメッセージ送受信"

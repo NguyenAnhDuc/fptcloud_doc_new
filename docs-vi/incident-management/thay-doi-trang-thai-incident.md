@@ -1,5 +1,5 @@
 ---
-id: "thay-doi-trang-thai-incident"
+id: "change-the-incident-status"
 title: "Thay đổi trạng thái incident"
 description: "Hướng dẫn thay đổi trạng thái của incident"
 sidebar_label: "Thay đổi trạng thái incident"

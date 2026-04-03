@@ -1,5 +1,5 @@
 ---
-id: "truc-quan-du-lieu-incident"
+id: "incident-data-visualization"
 title: "Trực quan dữ liệu incident"
 description: "Hướng dẫn sử dụng Incident Insights để trực quan hóa dữ liệu sự cố"
 sidebar_label: "Trực quan dữ liệu incident"

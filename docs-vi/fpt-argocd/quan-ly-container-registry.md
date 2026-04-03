@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-container-registry"
+id: "manage-container-registry"
 title: "Quản lý container registry"
 description: "Hướng dẫn thêm, cập nhật và xóa cấu hình container registry trong Image Updater"
 sidebar_label: "Quản lý container registry"

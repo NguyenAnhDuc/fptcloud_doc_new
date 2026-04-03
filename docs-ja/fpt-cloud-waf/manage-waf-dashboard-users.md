@@ -1,5 +1,5 @@
 ---
-id: "manage-waf-dashboard-users"
+id: "quan-ly-nguoi-dung-cua-waf-dashboard"
 title: "WAF Dashboardのユーザー管理"
 description: "WAF Dashboardへのアクセス権を持つユーザーアカウントを管理する方法。"
 sidebar_label: "WAF Dashboardのユーザー管理"

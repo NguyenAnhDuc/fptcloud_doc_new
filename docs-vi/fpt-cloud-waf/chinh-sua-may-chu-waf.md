@@ -1,5 +1,5 @@
 ---
-id: "chinh-sua-may-chu-waf"
+id: "update-information-of-the-WAF-server"
 title: "Chỉnh sửa máy chủ WAF"
 description: "Hướng dẫn cập nhật thông tin Name, Description và Size của máy chủ WAF."
 sidebar_label: "Chỉnh sửa máy chủ WAF"

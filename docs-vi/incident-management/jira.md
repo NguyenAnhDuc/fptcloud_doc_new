@@ -1,5 +1,5 @@
 ---
-id: "jira"
+id: "atlassian-jira"
 title: "Atlassian Jira"
 description: "Hướng dẫn tích hợp Atlassian Jira với Incident Management"
 sidebar_label: "Atlassian Jira"

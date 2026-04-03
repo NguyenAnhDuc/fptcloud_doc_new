@@ -1,5 +1,5 @@
 ---
-id: "view-VPN-detail-information"
+id: "view-vpn-"
 title: "Xem thông tin VPN"
 description: "Hướng dẫn xem thông tin chi tiết và trạng thái kết nối VPN."
 sidebar_label: "Xem thông tin VPN"

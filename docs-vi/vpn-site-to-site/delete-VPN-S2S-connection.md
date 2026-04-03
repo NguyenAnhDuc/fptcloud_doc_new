@@ -1,5 +1,5 @@
 ---
-id: "delete-VPN-S2S-connection"
+id: "delete-vpn"
 title: "Xóa VPN Site-to-Site"
 description: "Hướng dẫn xóa kết nối VPN Site-to-Site."
 sidebar_label: "Xóa VPN Site-to-Site"

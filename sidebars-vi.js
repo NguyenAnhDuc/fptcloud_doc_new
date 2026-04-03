@@ -1715,12 +1715,12 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-su-dung-object-storage-tren-s3-client",
+                  id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser",
                   label:  "Sử dụng Object Storage trên S3 Browser"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client",
+                  id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client",
                   label:  "Tích hợp FPT Object Storage với các S3-Client"
                 },
                 {
@@ -1871,12 +1871,12 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/Create-VPN-S2S-connection",
+                  id:  "vpn-site-to-site/create-vpn",
                   label:  "Khởi tạo VPN Site-to-Site"
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/view-VPN-detail-information",
+                  id:  "vpn-site-to-site/view-vpn-",
                   label:  "Xem thông tin VPN"
                 }
               ]
@@ -1888,17 +1888,17 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/disable-VPN-S2S-connection",
+                  id:  "vpn-site-to-site/disable-VPN-Site-to-Site",
                   label:  "Vô hiệu hóa VPN"
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/enable-VPN-S2S-connection",
+                  id:  "vpn-site-to-site/enable-vpn-s2S",
                   label:  "Kích hoạt VPN"
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/edit-VPN-S2S-information",
+                  id:  "vpn-site-to-site/edit-vpn",
                   label:  "Chỉnh sửa thông tin VPN"
                 },
                 {
@@ -1908,17 +1908,17 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/download-config-VPN-S2S",
+                  id:  "vpn-site-to-site/download-config-",
                   label:  "Tải cấu hình VPN"
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/delete-VPN-S2S-connection",
+                  id:  "vpn-site-to-site/delete-vpn",
                   label:  "Xóa VPN Site-to-Site"
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/VPN-S2S-check-activity-logs",
+                  id:  "vpn-site-to-site/VPN-Activity",
                   label:  "Xem Activity log VPN"
                 }
               ]
@@ -1945,7 +1945,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/connect-palo-alto",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Palo-Alto-guide",
                       label:  "Cấu hình VPN Site-to-Site với Palo Alto"
                     },
                     {
@@ -1985,7 +1985,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/connect-fci-fortigate",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Fortigate-guide",
                       label:  "Cấu hình VPN Site-to-Site với Fortigate"
                     },
                     {
@@ -2022,7 +2022,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/xoa-vpn-connection",
+                      id:  "vpn-site-to-site/delete-vpn-connection",
                       label:  "Hướng dẫn xóa VPN Connection"
                     },
                     {
@@ -2037,37 +2037,37 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/create-customergw",
+                      id:  "vpn-site-to-site/create-customer-gateway",
                       label:  "Hướng dẫn tạo Customer gateway"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/edit-customergw",
+                      id:  "vpn-site-to-site/edit-customer-gateway",
                       label:  "Hướng dẫn chỉnh sửa Customer gateway"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/delete-customergw",
+                      id:  "vpn-site-to-site/delete-customer-gateway",
                       label:  "Hướng dẫn xoá Customer gateway"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/service-authorization",
+                      id:  "vpn-site-to-site/permission-access-guide",
                       label:  "Hướng dẫn phân quyền sử dụng dịch vụ"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/set_alert",
+                      id:  "vpn-site-to-site/setting-up-alerts-via-the-cloud-guard-service-guide",
                       label:  "Hướng dẫn cài đặt cảnh báo thông qua dịch vụ Cloud Guard"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/logging",
+                      id:  "vpn-site-to-site/monitoring-service-through-logging-feature-guide",
                       label:  "Theo dõi dịch vụ thông qua tính năng logging"
                     },
                     {
                       type:  "doc",
-                      id:  "vpn-site-to-site/monitoring",
+                      id:  "vpn-site-to-site/monitoring-service-through-monitoring-feature-guide",
                       label:  "Monitoring"
                     },
                     {
@@ -2143,7 +2143,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "load-balancer/tich-hop-fmon",
+                      id:  "load-balancer/integrate-with-fmon",
                       label:  "Tích hợp Metric/Access logs Load Balancer với FPT Monitoring (FMON)"
                     }
                   ]
@@ -2396,12 +2396,12 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "create-vpc/rename-vpc",
+                  id:  "create-vpc/rename-vpc-en",
                   label:  "Đổi tên VPC"
                 },
                 {
                   type:  "doc",
-                  id:  "create-vpc/activitylog-bell",
+                  id:  "create-vpc/view-activity-en",
                   label:  "Xem Activity log và trạng thái tác vụ"
                 },
                 {
@@ -2531,7 +2531,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/xem-danh-sach-kubernetes-cluster-da-tao",
+                      id:  "managed-fpt-kubernetes-engine/list-created-cluster",
                       label:  "Xem danh sách Kubernetes Cluster đã tạo"
                     },
                     {
@@ -3726,27 +3726,27 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xem danh sach role",
+                      id:  "iam/view-role-list",
                       label:  "Xem danh sách role"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/khoi tao role va phan quyen cho role",
+                      id:  "iam/create-role",
                       label:  "Khởi tạo role và phân quyền cho role"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xem chi tiet role",
+                      id:  "iam/view-role-detail",
                       label:  "Xem chi tiết role"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/chinh sua role va permission",
+                      id:  "iam/edit-role-and-permissions",
                       label:  "Chỉnh sửa role và permission"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xoa role",
+                      id:  "iam/delete-role",
                       label:  "Xóa role"
                     }
                   ]
@@ -3768,27 +3768,27 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/khoi tao user group moi",
+                      id:  "iam/create-user-group",
                       label:  "Khởi tạo User Group mới"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xem danh sach user group",
+                      id:  "iam/view-list-user-group",
                       label:  "Xem danh sách User Group"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xem chi tiet user group",
+                      id:  "iam/view-detail-user-group",
                       label:  "Xem chi tiết User Group"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/chinh sua user group",
+                      id:  "iam/edit-user-group",
                       label:  "Chỉnh sửa User Group"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/xoa user groups",
+                      id:  "iam/delete-user-group",
                       label:  "Xóa User Group"
                     }
                   ]
@@ -3810,22 +3810,22 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/invite iam user moi",
+                      id:  "iam/invite-iam-user",
                       label:  "Invite IAM user mới"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/khoi tao account va truy cap vao vpc da duoc moi",
+                      id:  "iam/create-account-access-vpc",
                       label:  "Khởi tạo account và truy cập VPC đã được mời"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/thay doi mat khau",
+                      id:  "iam/Change password",
                       label:  "Thay đổi mật khẩu"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/cau hinh 2fa",
+                      id:  "iam/2FA configuration",
                       label:  "Cấu hình 2FA"
                     }
                   ]
@@ -3852,7 +3852,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/activity-log-ip-access",
+                      id:  "iam/Check Activity logs",
                       label:  "Kiểm tra activity logs"
                     },
                     {
@@ -4192,17 +4192,17 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+                  id:  "fpt-cloud-waf/create-a-new-waf-server",
                   label:  "Thêm mới máy chủ WAF"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+                  id:  "fpt-cloud-waf/log-in-to-waf-dashboard",
                   label:  "Đăng nhập WAF Dashboard"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/cau-hinh-ket-noi-may-chu-waf",
+                  id:  "fpt-cloud-waf/configure-waf-server-connection",
                   label:  "Cấu hình kết nối máy chủ WAF"
                 }
               ]
@@ -4214,17 +4214,17 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/tutorials-them-moi-may-chu-waf",
+                  id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server",
                   label:  "Thêm mới máy chủ WAF"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/chinh-sua-may-chu-waf",
+                  id:  "fpt-cloud-waf/update-information-of-the-WAF-server",
                   label:  "Chỉnh sửa máy chủ WAF"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/xoa-may-chu-waf",
+                  id:  "fpt-cloud-waf/delete-waf-server",
                   label:  "Xóa máy chủ WAF"
                 },
                 {
@@ -4234,12 +4234,12 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/tutorials-dang-nhap-waf-dashboard",
+                      id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard",
                       label:  "Đăng nhập WAF Dashboard"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/monitor-waf-voi-dashboard-overview",
+                      id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
                       label:  "Theo dõi WAF qua Dashboard Overview"
                     }
                   ]
@@ -4256,27 +4256,27 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/tao-moi-proxy-host",
+                      id:  "fpt-cloud-waf/create-proxy-host",
                       label:  "Tạo mới proxy host"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/xem-thong-tin-chi-tiet-proxy-host",
+                      id:  "fpt-cloud-waf/view-proxy-host-detail",
                       label:  "Xem chi tiết proxy host"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/cap-nhat-thong-tin-cho-proxy-host",
+                      id:  "fpt-cloud-waf/update-proxy-host",
                       label:  "Cập nhật proxy host"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/battat-proxy-host",
+                      id:  "fpt-cloud-waf/enable-disable-proxy-host",
                       label:  "Bật/tắt proxy host"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-waf/xoa-proxy-host",
+                      id:  "fpt-cloud-waf/delete-proxy-host",
                       label:  "Xóa proxy host"
                     },
                     {
@@ -4288,32 +4288,32 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-redirection-host",
+                  id:  "fpt-cloud-waf/manage-redirection-host",
                   label:  "Quản lý redirection host"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/them-moi-stream-host",
+                  id:  "fpt-cloud-waf/manage-stream-host",
                   label:  "Thêm mới stream host"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-404-host",
+                  id:  "fpt-cloud-waf/manage-404-host",
                   label:  "Quản lý 404 host"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-access-list",
+                  id:  "fpt-cloud-waf/manage-access-list",
                   label:  "Quản lý access list"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-ssl-certificates",
+                  id:  "fpt-cloud-waf/manage-ssl-certificate",
                   label:  "Quản lý SSL certificate"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-security-rule-sets",
+                  id:  "fpt-cloud-waf/manage-security-rule-set",
                   label:  "Quản lý security rule set"
                 },
                 {
@@ -5184,7 +5184,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/cau-hinh-integrations",
+              id:  "incident-management/configure-integrations",
               label:  "Cấu hình integrations"
             },
             {
@@ -5204,7 +5204,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/jira",
+              id:  "incident-management/atlassian-jira",
               label:  "Atlassian Jira"
             },
             {
@@ -5254,7 +5254,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/create-by-incoming-webhook",
+              id:  "incident-management/create-incident-via-webhook",
               label:  "Tạo qua incoming webhook"
             },
             {
@@ -5269,7 +5269,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/xem-chi-tiet-incident",
+              id:  "incident-management/view-incident-detail",
               label:  "Xem chi tiết incident"
             },
             {
@@ -5279,12 +5279,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/thay-doi-trang-thai-incident",
+              id:  "incident-management/change-the-incident-status",
               label:  "Thay đổi trạng thái incident"
             },
             {
               type:  "doc",
-              id:  "incident-management/thay-doi-muc-do-anh-huong-incident",
+              id:  "incident-management/change-the-incident-severity",
               label:  "Thay đổi mức độ ảnh hưởng"
             },
             {
@@ -5294,7 +5294,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "incident-management/truc-quan-du-lieu-incident",
+              id:  "incident-management/incident-data-visualization",
               label:  "Trực quan dữ liệu incident"
             }
           ]
@@ -5749,22 +5749,22 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/kiem-tra-thong-tin-goi-dich-vu",
+                  id:  "fpt-argocd/check-service-package-info",
                   label:  "Kiểm tra thông tin gói dịch vụ"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/tao-moi-fpt-argocd",
+                  id:  "fpt-argocd/create-fpt-argocd",
                   label:  "Tạo mới FPT ArgoCD instance"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/xem-thong-tin-chi-tiet-argocd",
+                  id:  "fpt-argocd/view-argocd-detail",
                   label:  "Xem thông tin và đăng nhập"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/add-cluster-toi-argocd",
+                  id:  "fpt-argocd/add-cluster-to-argocd",
                   label:  "Kết nối cluster Kubernetes"
                 },
                 {
@@ -5779,27 +5779,27 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/enable-disable-argocd-images-updater",
+                      id:  "fpt-argocd/enable-disable-images-updater",
                       label:  "Enable/disable Image Updater"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-log-level",
+                      id:  "fpt-argocd/configure-log-level",
                       label:  "Cấu hình log level"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/quan-ly-secret",
+                      id:  "fpt-argocd/manage-secrets",
                       label:  "Quản lý secret"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/quan-ly-registry-secret",
+                      id:  "fpt-argocd/manage-registry-secrets",
                       label:  "Quản lý registry secret"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/quan-ly-container-registry",
+                      id:  "fpt-argocd/manage-container-registry",
                       label:  "Quản lý container registry"
                     }
                   ]
@@ -5816,7 +5816,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/add-moi-webhook-secret",
+                      id:  "fpt-argocd/add-webhook-secret",
                       label:  "Tạo mới webhook secret"
                     },
                     {
@@ -5833,27 +5833,27 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-build-option-cho-kustomize",
+                  id:  "fpt-argocd/configure-build-options-kustomize",
                   label:  "Cấu hình Kustomize build options"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-timereconcile",
+                  id:  "fpt-argocd/configure-timereconcile",
                   label:  "Cấu hình TimeReconcile"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-rbac",
+                  id:  "fpt-argocd/configure-rbac",
                   label:  "Cấu hình RBAC policy"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-whitelist-ip",
+                  id:  "fpt-argocd/configure-whitelist-ip",
                   label:  "Cấu hình whitelist IP"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/nang-goi-dich-vu-dang-su-dung",
+                  id:  "fpt-argocd/upgrade-service-package",
                   label:  "Nâng gói dịch vụ"
                 },
                 {
@@ -5873,7 +5873,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/tao-moi-account-tren-portal",
+                      id:  "fpt-argocd/create-account",
                       label:  "Tạo mới tài khoản"
                     },
                     {
@@ -5893,7 +5893,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/mange-admin-account",
+                      id:  "fpt-argocd/manage-admin-account",
                       label:  "Quản lý tài khoản admin"
                     },
                     {
@@ -6074,7 +6074,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-api-management/huong-dan-nhanh-quick-starts",
+              id:  "fpt-api-management/quick-starts",
               label:  "Hướng dẫn nhanh (Quick Starts)"
             },
             {
@@ -6084,7 +6084,7 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-api-management/dang-ky-dich-vu-api-management-tren-fpt-portal",
+                  id:  "fpt-api-management/registering-on-fpt-portal",
                   label:  "Đăng ký dịch vụ API Management trên FPT Portal"
                 },
                 {
@@ -6104,17 +6104,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-api-management/quan-ly-products",
+                      id:  "fpt-api-management/managing-products",
                       label:  "Quản lý Products"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-api-management/quan-ly-api-site",
+                      id:  "fpt-api-management/managing-sites",
                       label:  "Quản lý API Site"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-api-management/quan-ly-consumers",
+                      id:  "fpt-api-management/managing-consumers",
                       label:  "Quản lý Consumers"
                     },
                     {
@@ -6131,7 +6131,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-api-management/huong-dan-su-dung-cho-api-consumer",
+                  id:  "fpt-api-management/consumer-api-usage-guide",
                   label:  "Hướng dẫn sử dụng cho API Consumer"
                 }
               ]
@@ -6187,17 +6187,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/tao-moi-app-catalogs",
+              id:  "fpt-app-catalogs/create-a-new-fpt-app-catalogs",
               label:  "Tạo mới App Catalog"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/xem-thong-tin-chi-tiet-app-catalog",
+              id:  "fpt-app-catalogs/view-app-catalog-details",
               label:  "Xem thông tin chi tiết App Catalog"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/ket-noi-cluster-toi-app-catalog-management",
+              id:  "fpt-app-catalogs/add-cluster-to-app-catalogs-management",
               label:  "Kết nối cluster tới App Catalog Management"
             },
             {
@@ -6207,12 +6207,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/search-app-catalogs-trong-repository",
+              id:  "fpt-app-catalogs/search-app-catalogs-from-a-repository",
               label:  "Tìm kiếm App Catalog trong repository"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/deploy-app-catalogs-toi-cluster",
+              id:  "fpt-app-catalogs/deploy-app-catalogs-to-cluster",
               label:  "Deploy App Catalog tới cluster"
             },
             {
@@ -6222,37 +6222,37 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/filter-apps-da-duoc-deploy-theo-cluster",
+              id:  "fpt-app-catalogs/filter-deployed-appplications-by-cluster",
               label:  "Filter apps đã deploy theo cluster"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/xem-chi-tiet-app-da-deploy",
+              id:  "fpt-app-catalogs/view-deployed-applications-details",
               label:  "Xem chi tiết app đã deploy"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/thay-doi-cau-hinh-cua-applications",
+              id:  "fpt-app-catalogs/change-applications-configuration",
               label:  "Thay đổi cấu hình của applications"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/rollback-app-ve-cau-hinh-cu",
+              id:  "fpt-app-catalogs/rollback-an-application-to-the-old-configuration",
               label:  "Rollback app về cấu hình cũ"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/upgrade-applications-toi-version-moi-nhat",
+              id:  "fpt-app-catalogs/upgrade-applications-to-the-latest-version",
               label:  "Upgrade applications tới version mới nhất"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/uninstall-applications-neu-muon-xoa-bo",
+              id:  "fpt-app-catalogs/uninstall-applications",
               label:  "Uninstall applications"
             },
             {
               type:  "doc",
-              id:  "fpt-app-catalogs/xoa-app-catalog-management",
+              id:  "fpt-app-catalogs/delete-an-app-catalogs-mangement",
               label:  "Xóa App Catalog Management"
             }
           ]
@@ -6483,7 +6483,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/huong-dan-nhanh-quick-starts",
+              id:  "fpt-message-bus/Quick-Starts",
               label:  "Hướng dẫn nhanh"
             },
             {
@@ -6518,27 +6518,27 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/tao-topics",
+              id:  "fpt-message-bus/Create-topics",
               label:  "Tạo topic"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/tao-subscriptions",
+              id:  "fpt-message-bus/Create-Subscriptions",
               label:  "Tạo subscription"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/sua-topic",
+              id:  "fpt-message-bus/Edit-topics",
               label:  "Sửa topic"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/gui-nhan-messages-trong-topics",
+              id:  "fpt-message-bus/Send-Receive-messages-in-topics",
               label:  "Gửi và nhận messages trong topic"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/xoa-topics",
+              id:  "fpt-message-bus/Delete-topics",
               label:  "Xóa topic"
             }
           ]
@@ -6567,17 +6567,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/tao-security-groups",
+              id:  "managed-fpt-database-engine/create-security-groups",
               label:  "Tao Security Groups"
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/tạo-floating-IP",
+              id:  "managed-fpt-database-engine/create-floating-ip",
               label:  "Tạo Floating Ip"
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/tạo-subnets",
+              id:  "managed-fpt-database-engine/create-subnets",
               label:  "Tạo Subnets"
             },
             {
@@ -6587,7 +6587,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/Roles",
+              id:  "managed-fpt-database-engine/roles",
               label:  "1. Tạo Roles"
             },
             {
@@ -6627,7 +6627,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/Quan-ly-Restore",
+              id:  "managed-fpt-database-engine/manage-restore",
               label:  "1 Tạo Restore Point"
             },
             {
@@ -6657,12 +6657,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/Khoi-tao-DB-Proxy",
+              id:  "managed-fpt-database-engine/create-db-proxy",
               label:  "Khoi tao db Proxy"
             },
             {
               type:  "doc",
-              id:  "managed-fpt-database-engine/Thao-tac-voi-DB-Proxy",
+              id:  "managed-fpt-database-engine/manage-db-proxy",
               label:  "Thao tac voi db Proxy"
             }
           ]
@@ -6928,7 +6928,7 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "trellix-customer-guide/truy-cap-giao-dien-quan-tri",
+              id:  "trellix-customer-guide/Access the administration interface",
               label:  "Truy cập giao diện quản trị"
             },
             {
@@ -6938,17 +6938,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/client-task",
+              id:  "trellix-customer-guide/client-task-mapping",
               label:  "Quản lý client tasks"
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/report",
+              id:  "trellix-customer-guide/report-guide",
               label:  "Xem báo cáo"
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/view-log",
+              id:  "trellix-customer-guide/Viewing Logs",
               label:  "Xem nhật ký (log)"
             },
             {
@@ -7060,12 +7060,12 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "cost-explorer/cost-explorer-dimension-service",
+                  id:  "cost-explorer/View-dashboards-and-specific-costs-by-service",
                   label:  "Xem chi phí theo dịch vụ"
                 },
                 {
                   type:  "doc",
-                  id:  "cost-explorer/cost-explorer-dimension-resource-type",
+                  id:  "cost-explorer/customer-filter",
                   label:  "Xem chi phí theo loại tài nguyên"
                 }
               ]
@@ -7101,27 +7101,27 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "budget-alert/Khởi tạo Bugdet Alert",
+              id:  "budget-alert/initiating-a-budget-alert",
               label:  "Khởi tạo Budget Alert"
             },
             {
               type:  "doc",
-              id:  "budget-alert/Xem thông tin cost và lịch sử cảnh báo",
+              id:  "budget-alert/view-cost-information",
               label:  "Xem thông tin chi phí và lịch sử cảnh báo"
             },
             {
               type:  "doc",
-              id:  "budget-alert/Tạm dừng cảnh báo của 1 Budget Alert",
+              id:  "budget-alert/pause-budget-alert",
               label:  "Tạm dừng cảnh báo Budget Alert"
             },
             {
               type:  "doc",
-              id:  "budget-alert/Chỉnh sửa Budget Alert",
+              id:  "budget-alert/edit-budget-alert",
               label:  "Chỉnh sửa Budget Alert"
             },
             {
               type:  "doc",
-              id:  "budget-alert/Xóa Budget Alert",
+              id:  "budget-alert/delete-budget-alert",
               label:  "Xóa Budget Alert"
             },
             {
@@ -7131,7 +7131,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "budget-alert/Cài đặt ngăn chặn tạo resource Compute-Network mới khi đã đạt ngưỡng ngân sách",
+              id:  "budget-alert/setting-budget-alert",
               label:  "Ngăn chặn tạo resource khi đạt ngưỡng"
             }
           ]

@@ -1,5 +1,5 @@
 ---
-id: "huong-dan-nhanh-quick-starts"
+id: "quick-starts"
 title: "Hướng dẫn nhanh (Quick Starts)"
 description: "Luồng đăng ký và cấu hình API Management cơ bản từ đầu đến cuối dành cho API Provider."
 sidebar_label: "Hướng dẫn nhanh (Quick Starts)"

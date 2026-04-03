@@ -1,5 +1,5 @@
 ---
-id: "monitoring"
+id: "monitoring-service-through-monitoring-feature-guide"
 title: "Monitoring"
 description: "Bài viết này hướng dẫn theo dõi trạng thái và tài nguyên sử dụng của dịch vụ VPN Site-to-site của FPT Smart Cloud."
 sidebar_label: "Monitoring"

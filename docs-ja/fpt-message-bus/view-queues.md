@@ -1,5 +1,5 @@
 ---
-id: "view-queues"
+id: "xem-queues"
 title: "queue の表示"
 description: "FPT Message Bus で queue の詳細情報を表示します。"
 sidebar_label: "queue の表示"

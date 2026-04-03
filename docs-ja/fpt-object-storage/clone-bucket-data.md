@@ -1,5 +1,5 @@
 ---
-id: "clone-bucket-data"
+id: "clone-du-lieu-giua-hai-bucket-khac-nhau"
 title: "異なる bucket 間でのデータのクローン"
 description: "Rclone または s3sync を使用して異なる bucket 間でデータをクローンする手順です。"
 sidebar_label: "bucket 間のデータクローン"

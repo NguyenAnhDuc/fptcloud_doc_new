@@ -1,5 +1,5 @@
 ---
-id: "Khoi-tao-DB-Proxy"
+id: "create-db-proxy"
 title: "Khoi tao db Proxy"
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **DB Proxy**"
 sidebar_label: "Khoi tao db Proxy"

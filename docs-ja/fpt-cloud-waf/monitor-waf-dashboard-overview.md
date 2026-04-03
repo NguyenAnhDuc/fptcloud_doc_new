@@ -1,5 +1,5 @@
 ---
-id: "monitor-waf-dashboard-overview"
+id: "monitor-waf-server-with-dashboard-overview"
 title: "Dashboard OverviewでWAFを監視する"
 description: "Overviewページを使用してWAFサーバーのステータスとメトリクスをリアルタイムで監視するガイドです。"
 sidebar_label: "Dashboard OverviewでWAFを監視する"

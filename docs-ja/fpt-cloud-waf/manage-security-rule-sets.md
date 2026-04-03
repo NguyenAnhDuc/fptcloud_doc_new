@@ -1,5 +1,5 @@
 ---
-id: "manage-security-rule-sets"
+id: "manage-security-rule-set"
 title: "Security rule setの管理"
 description: "WAF Dashboardでカスタムsecurity rule setを作成・管理する方法。"
 sidebar_label: "Security rule setの管理"

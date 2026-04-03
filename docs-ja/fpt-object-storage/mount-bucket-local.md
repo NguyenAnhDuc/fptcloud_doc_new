@@ -1,5 +1,5 @@
 ---
-id: "mount-bucket-local"
+id: "mount-bucket-thanh-o-dia-tren-may-local"
 title: "ローカルマシンへの bucket のマウント"
 description: "Windows（TntDrive）および Linux（S3FS）を使用してローカルマシンに bucket をドライブとしてマウントする手順です。"
 sidebar_label: "ローカルへの bucket マウント"

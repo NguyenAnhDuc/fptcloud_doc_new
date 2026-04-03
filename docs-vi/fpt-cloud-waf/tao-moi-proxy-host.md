@@ -1,5 +1,5 @@
 ---
-id: "tao-moi-proxy-host"
+id: "create-proxy-host"
 title: "Tạo mới proxy host"
 description: "Hướng dẫn tạo proxy host mới trong WAF Dashboard để chuyển tiếp traffic qua WAF."
 sidebar_label: "Tạo mới proxy host"

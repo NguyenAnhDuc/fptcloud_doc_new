@@ -1656,12 +1656,12 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/use-with-s3-browser",
+                  id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser",
                   label:  "S3 Browser での利用"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/integrate-s3-clients",
+                  id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client",
                   label:  "S3 クライアントとの統合"
                 },
                 {
@@ -1671,7 +1671,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/use-as-media-server",
+                  id:  "fpt-object-storage/su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application",
                   label:  "メディアサーバーとして使用"
                 },
                 {
@@ -1681,12 +1681,12 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/mount-bucket-local",
+                  id:  "fpt-object-storage/mount-bucket-thanh-o-dia-tren-may-local",
                   label:  "ローカルへの bucket マウント"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/clone-bucket-data",
+                  id:  "fpt-object-storage/clone-du-lieu-giua-hai-bucket-khac-nhau",
                   label:  "bucket 間のデータクローン"
                 },
                 {
@@ -1956,7 +1956,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "create-vpc/アクティビティログの表示_2",
+              id:  "create-vpc/rename-vpc-en",
               label:  "VPCの名前変更"
             },
             {
@@ -2558,22 +2558,22 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-container-registry/tagging-and-pushing-images",
+                  id:  "fpt-container-registry/tagging-and-pushing-images-to-fpt-container-registry",
                   label:  "イメージを tag して push する"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-container-registry/pulling-docker-image",
+                  id:  "fpt-container-registry/pulling-docker-image-from-fpt-container-registry-to-local",
                   label:  "Docker イメージを pull する"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-container-registry/managing-repositories",
+                  id:  "fpt-container-registry/deleting-an-image-or-artifact-in-a-repository",
                   label:  "Repository を管理する"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-container-registry/robot-account",
+                  id:  "fpt-container-registry/tao-moi-robot-account",
                   label:  "Robot account を管理する"
                 },
                 {
@@ -2677,7 +2677,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "dedicated-fpt-kubernetes-engine/upgrade-k8s-version",
+                  id:  "dedicated-fpt-kubernetes-engine/nang-cap-k8s-version",
                   label:  "Kubernetes バージョンのアップグレード"
                 },
                 {
@@ -3156,7 +3156,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "iam/edit-role",
+                  id:  "iam/edit-role-and-permissions",
                   label:  "RoleとPermissionの編集"
                 },
                 {
@@ -3176,12 +3176,12 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "iam/view-user-group-list",
+                  id:  "iam/view-list-user-group",
                   label:  "User Group一覧の表示"
                 },
                 {
                   type:  "doc",
-                  id:  "iam/view-user-group-detail",
+                  id:  "iam/view-detail-user-group",
                   label:  "User Group詳細の表示"
                 },
                 {
@@ -3858,12 +3858,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/add-waf-server",
+              id:  "fpt-cloud-waf/create-a-new-waf-server",
               label:  "WAFサーバーの追加"
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/log-in-waf-dashboard",
+              id:  "fpt-cloud-waf/log-in-to-waf-dashboard",
               label:  "WAF dashboardへのログイン"
             },
             {
@@ -3873,12 +3873,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-add-waf-server",
+              id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server",
               label:  "WAFサーバーの追加"
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/edit-waf-server",
+              id:  "fpt-cloud-waf/update-information-of-the-WAF-server",
               label:  "WAFサーバーの編集"
             },
             {
@@ -3888,12 +3888,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-log-in-waf-dashboard",
+              id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard",
               label:  "WAF dashboardへのログイン"
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/monitor-waf-dashboard-overview",
+              id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
               label:  "Dashboard OverviewでWAFを監視する"
             },
             {
@@ -3933,7 +3933,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/add-stream-host",
+              id:  "fpt-cloud-waf/manage-stream-host",
               label:  "Stream hostの追加"
             },
             {
@@ -3948,17 +3948,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/manage-ssl-certificates",
+              id:  "fpt-cloud-waf/manage-ssl-certificate",
               label:  "SSL certificateの管理"
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/manage-security-rule-sets",
+              id:  "fpt-cloud-waf/manage-security-rule-set",
               label:  "Security rule setの管理"
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/manage-waf-dashboard-users",
+              id:  "fpt-cloud-waf/quan-ly-nguoi-dung-cua-waf-dashboard",
               label:  "WAF Dashboardのユーザー管理"
             }
           ]
@@ -5186,7 +5186,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-vault-instance",
+              id:  "fpt-key-vault/Create-Vault-Instance",
               label:  "Vault Instanceを作成する"
             },
             {
@@ -5196,12 +5196,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-secret-engine",
+              id:  "fpt-key-vault/Create-Secret-Engine",
               label:  "Secret Engineを作成する"
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/delete-secret-engine",
+              id:  "fpt-key-vault/Delete-Secret-Engine",
               label:  "Secret Engineを削除する"
             },
             {
@@ -5211,17 +5211,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-secret",
+              id:  "fpt-key-vault/Create-Secret-in-Secret-Engine",
               label:  "Secret EngineにSecretを作成する"
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/view-update-secret",
+              id:  "fpt-key-vault/View-and-Update-Secret-information",
               label:  "Secret情報を表示・更新する"
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/delete-secret",
+              id:  "fpt-key-vault/Delete-Secret",
               label:  "Secretを削除する"
             },
             {
@@ -5231,12 +5231,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-policy",
+              id:  "fpt-key-vault/Create-Policy",
               label:  "Policyを作成する"
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/delete-policy",
+              id:  "fpt-key-vault/Delete-Policy",
               label:  "Policyを削除する"
             },
             {
@@ -5246,12 +5246,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-auth-method",
+              id:  "fpt-key-vault/Create-Auth-Method",
               label:  "Auth Methodを作成する"
             },
             {
               type:  "doc",
-              id:  "fpt-key-vault/create-role",
+              id:  "fpt-key-vault/Create-Role",
               label:  "Roleを作成する"
             }
           ]
@@ -5657,7 +5657,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/quick-starts",
+              id:  "fpt-message-bus/Quick-Starts",
               label:  "クイックスタート"
             },
             {
@@ -5667,22 +5667,22 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/create-queues",
+              id:  "fpt-message-bus/tao-queues",
               label:  "queue の作成"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/view-queues",
+              id:  "fpt-message-bus/xem-queues",
               label:  "queue の表示"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/send-receive-messages-in-queues",
+              id:  "fpt-message-bus/gui-nhan-message-trong-queues",
               label:  "queue でのメッセージ送受信"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/delete-queues",
+              id:  "fpt-message-bus/xoa-queues",
               label:  "queue の削除"
             },
             {
@@ -5692,27 +5692,27 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/create-topics",
+              id:  "fpt-message-bus/Create-topics",
               label:  "topic の作成"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/create-subscriptions",
+              id:  "fpt-message-bus/Create-Subscriptions",
               label:  "subscription の作成"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/edit-topics",
+              id:  "fpt-message-bus/Edit-topics",
               label:  "topic の編集"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/send-receive-messages-in-topics",
+              id:  "fpt-message-bus/Send-Receive-messages-in-topics",
               label:  "topic でのメッセージ送受信"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/delete-topics",
+              id:  "fpt-message-bus/Delete-topics",
               label:  "topic の削除"
             }
           ]
@@ -6097,7 +6097,7 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "trellix-customer-guide/truy-cap-giao-dien-quan-tri",
+              id:  "trellix-customer-guide/Access the administration interface",
               label:  "管理インターフェースへのアクセス"
             },
             {
@@ -6107,17 +6107,17 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/client-task",
+              id:  "trellix-customer-guide/client-task-mapping",
               label:  "クライアントタスクの管理"
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/report",
+              id:  "trellix-customer-guide/report-guide",
               label:  "レポートの表示"
             },
             {
               type:  "doc",
-              id:  "trellix-customer-guide/view-log",
+              id:  "trellix-customer-guide/Viewing Logs",
               label:  "ログの表示"
             },
             {
@@ -6292,32 +6292,32 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "budget-alert/予算アラートの作成_1",
+              id:  "budget-alert/initiating-a-budget-alert",
               label:  "予算アラートの作成"
             },
             {
               type:  "doc",
-              id:  "budget-alert/コスト情報とアラート履歴の確認_2",
+              id:  "budget-alert/view-cost-information",
               label:  "コスト情報とアラート履歴の確認"
             },
             {
               type:  "doc",
-              id:  "budget-alert/予算アラートの無効化_3",
+              id:  "budget-alert/pause-budget-alert",
               label:  "予算アラートの一時停止"
             },
             {
               type:  "doc",
-              id:  "budget-alert/予算アラートの編集_4",
+              id:  "budget-alert/edit-budget-alert",
               label:  "予算アラートの編集"
             },
             {
               type:  "doc",
-              id:  "budget-alert/予算アラートの削除_5",
+              id:  "budget-alert/delete-budget-alert",
               label:  "予算アラートの削除"
             },
             {
               type:  "doc",
-              id:  "budget-alert/予算しきい値に達した後の新規コンピューティング／ネットワークリソースの作成制限_6",
+              id:  "budget-alert/setting-budget-alert",
               label:  "しきい値到達時のリソース作成制限"
             }
           ]
@@ -6334,12 +6334,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "cost-explorer/サービス別のダッシュボード＆コストの確認_1",
+              id:  "cost-explorer/View-dashboards-and-specific-costs-by-service",
               label:  "サービス別のコストを確認"
             },
             {
               type:  "doc",
-              id:  "cost-explorer/フィルタをカスタマイズして期間／リソース グループ別のコストを確認_2",
+              id:  "cost-explorer/customer-filter",
               label:  "リソースタイプ別のコストを確認"
             },
             {

@@ -1,5 +1,5 @@
 ---
-id: "tao-moi-account-tren-portal"
+id: "create-account"
 title: "Tạo mới tài khoản trên Portal"
 description: "Hướng dẫn tạo tài khoản người dùng mới trong ArgoCD qua FPT Cloud Portal"
 sidebar_label: "Tạo mới tài khoản"

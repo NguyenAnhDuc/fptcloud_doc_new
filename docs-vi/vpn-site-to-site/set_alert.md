@@ -1,5 +1,5 @@
 ---
-id: "set_alert"
+id: "setting-up-alerts-via-the-cloud-guard-service-guide"
 title: "Hướng dẫn cài đặt cảnh báo thông qua dịch vụ Cloud Guard"
 description: "**Tích hợp dịch vụ Cloud Guard để thiết lập ngưỡng cảnh báo cho VPN** là chức năng cho phép người dùng cài đặt các ngưỡn"
 sidebar_label: "Hướng dẫn cài đặt cảnh báo thông qua dịch vụ Cloud Guard"

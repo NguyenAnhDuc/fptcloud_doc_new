@@ -1,5 +1,5 @@
 ---
-id: "xem-thong-tin-chi-tiet-app-catalog"
+id: "view-app-catalog-details"
 title: "Xem thông tin chi tiết App Catalog"
 description: "Xem thông tin chi tiết của cụm App Catalog đã được khởi tạo."
 sidebar_label: "Xem thông tin chi tiết App Catalog"

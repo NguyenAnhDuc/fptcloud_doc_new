@@ -1,5 +1,5 @@
 ---
-id: "Create-VPN-S2S-connection"
+id: "create-vpn"
 title: "Khởi tạo VPN Site-to-Site"
 description: "Hướng dẫn tạo kết nối VPN Site-to-Site mới trên FPT Cloud Portal."
 sidebar_label: "Khởi tạo VPN Site-to-Site"

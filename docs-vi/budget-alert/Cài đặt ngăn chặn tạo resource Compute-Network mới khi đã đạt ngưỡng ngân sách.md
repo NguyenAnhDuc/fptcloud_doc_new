@@ -1,5 +1,5 @@
 ---
-id: "Cài đặt ngăn chặn tạo resource Compute-Network mới khi đã đạt ngưỡng ngân sách"
+id: "setting-budget-alert"
 title: "Ngăn chặn tạo resource mới khi đạt ngưỡng ngân sách"
 description: "Hướng dẫn cài đặt tự động chặn tạo resource Compute/Network khi đạt ngưỡng cảnh báo ngân sách."
 sidebar_label: "Ngăn chặn tạo resource khi đạt ngưỡng"

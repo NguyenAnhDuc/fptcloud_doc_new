@@ -1,5 +1,5 @@
 ---
-id: "view-user-group-detail"
+id: "view-detail-user-group"
 title: "User Group詳細の表示"
 description: "FPT IAMでUser Groupの詳細情報を確認する方法。"
 sidebar_label: "User Group詳細の表示"

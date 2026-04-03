@@ -1,5 +1,5 @@
 ---
-id: "tutorials-dang-nhap-waf-dashboard"
+id: "tutorials-log-in-to-waf-dashboard"
 title: "Đăng nhập WAF Dashboard"
 description: "Hướng dẫn chi tiết đăng nhập vào WAF Dashboard sau khi khởi tạo máy chủ WAF."
 sidebar_label: "Đăng nhập WAF Dashboard"

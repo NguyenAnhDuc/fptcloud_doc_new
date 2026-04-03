@@ -1,5 +1,5 @@
 ---
-id: "tao-moi-fpt-argocd"
+id: "create-fpt-argocd"
 title: "Tạo mới FPT ArgoCD instance"
 description: "Hướng dẫn tạo mới một ArgoCD instance trên FPT Cloud Portal"
 sidebar_label: "Tạo mới FPT ArgoCD instance"

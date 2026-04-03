@@ -1,5 +1,5 @@
 ---
-id: "Chỉnh sửa Budget Alert"
+id: "edit-budget-alert"
 title: "Chỉnh sửa Budget Alert"
 description: "Hướng dẫn chỉnh sửa thông tin Budget Alert đã tạo."
 sidebar_label: "Chỉnh sửa Budget Alert"

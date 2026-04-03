@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-redirection-host"
+id: "manage-redirection-host"
 title: "Quản lý redirection host"
 description: "Hướng dẫn tạo và quản lý redirection host để chuyển hướng URL trong WAF Dashboard."
 sidebar_label: "Quản lý redirection host"

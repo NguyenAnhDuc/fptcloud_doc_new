@@ -1,5 +1,5 @@
 ---
-id: "Quan-ly-Restore"
+id: "manage-restore"
 title: "1 Tạo Restore Point"
 description: "**1 Tạo Restore Point**"
 sidebar_label: "1 Tạo Restore Point"

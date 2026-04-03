@@ -1,5 +1,5 @@
 ---
-id: "manage-ssl-certificates"
+id: "manage-ssl-certificate"
 title: "SSL certificateの管理"
 description: "WAF DashboardでLet's EncryptまたはCustom SSL certificateを作成・管理する方法。"
 sidebar_label: "SSL certificateの管理"

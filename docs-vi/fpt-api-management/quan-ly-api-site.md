@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-api-site"
+id: "managing-sites"
 title: "Quản lý API Site"
 description: "Site là một thực thể dùng để mapping các product với portal."
 sidebar_label: "Quản lý API Site"

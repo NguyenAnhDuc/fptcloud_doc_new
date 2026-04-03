@@ -1,5 +1,5 @@
 ---
-id: "logging"
+id: "monitoring-service-through-logging-feature-guide"
 title: "Theo dõi dịch vụ thông qua tính năng logging"
 description: "Bài viết này hướng dẫn bạn cách theo dõi và đọc thông tin log của dịch vụ VPN Site-to-Site trên nền tảng FPT Smart Cloud"
 sidebar_label: "Theo dõi dịch vụ thông qua tính năng logging"

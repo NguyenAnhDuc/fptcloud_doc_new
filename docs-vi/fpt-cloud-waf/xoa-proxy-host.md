@@ -1,5 +1,5 @@
 ---
-id: "xoa-proxy-host"
+id: "delete-proxy-host"
 title: "Xóa proxy host"
 description: "Hướng dẫn xóa proxy host khỏi WAF Dashboard."
 sidebar_label: "Xóa proxy host"

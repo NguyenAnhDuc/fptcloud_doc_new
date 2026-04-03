@@ -1,5 +1,5 @@
 ---
-id: "create-secret"
+id: "Create-Secret-in-Secret-Engine"
 title: "Secret EngineにSecretを作成する"
 description: "Secret Engine内にSecretを新規作成する方法"
 sidebar_label: "Secret EngineにSecretを作成する"

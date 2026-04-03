@@ -1,5 +1,5 @@
 ---
-id: "filter-apps-da-duoc-deploy-theo-cluster"
+id: "filter-deployed-appplications-by-cluster"
 title: "Filter apps đã deploy theo cluster"
 description: "Hướng dẫn lọc danh sách applications đã deploy theo cluster trong Deployed App."
 sidebar_label: "Filter apps đã deploy theo cluster"

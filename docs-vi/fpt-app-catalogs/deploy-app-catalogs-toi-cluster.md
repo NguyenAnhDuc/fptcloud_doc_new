@@ -1,5 +1,5 @@
 ---
-id: "deploy-app-catalogs-toi-cluster"
+id: "deploy-app-catalogs-to-cluster"
 title: "Deploy App Catalog tới cluster"
 description: "Hướng dẫn deploy App Catalog tới Kubernetes cluster."
 sidebar_label: "Deploy App Catalog tới cluster"

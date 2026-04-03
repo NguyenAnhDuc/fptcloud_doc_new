@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-products"
+id: "managing-products"
 title: "Quản lý Products"
 description: "Hướng dẫn khai báo, gắn API, chỉnh sửa và xóa Products trên FPT API Management."
 sidebar_label: "Quản lý Products"

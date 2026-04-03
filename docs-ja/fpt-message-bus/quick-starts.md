@@ -1,5 +1,5 @@
 ---
-id: "quick-starts"
+id: "Quick-Starts"
 title: "クイックスタート"
 description: "FPT Message Bus を素早く使い始めるためのガイドです。"
 sidebar_label: "クイックスタート"

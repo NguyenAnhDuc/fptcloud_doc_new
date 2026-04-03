@@ -1,5 +1,5 @@
 ---
-id: "uninstall-applications-neu-muon-xoa-bo"
+id: "uninstall-applications"
 title: "Uninstall applications"
 description: "Hướng dẫn gỡ bỏ chart đã được cài đặt trên cluster."
 sidebar_label: "Uninstall applications"

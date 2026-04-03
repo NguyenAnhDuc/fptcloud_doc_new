@@ -1,5 +1,5 @@
 ---
-id: "create-secret-engine"
+id: "Create-Secret-Engine"
 title: "Secret Engineを作成する"
 description: "Vault Instance内にSecret Engineを新規作成する方法"
 sidebar_label: "Secret Engineを作成する"

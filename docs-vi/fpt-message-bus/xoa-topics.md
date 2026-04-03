@@ -1,5 +1,5 @@
 ---
-id: "xoa-topics"
+id: "Delete-topics"
 title: "Xóa topic"
 description: "Hướng dẫn xóa topic trong FPT Message Bus for RabbitMQ."
 sidebar_label: "Xóa topic"

@@ -1,5 +1,5 @@
 ---
-id: "view-update-secret"
+id: "View-and-Update-Secret-information"
 title: "Secret情報を表示・更新する"
 description: "SecretのKey/Value値を表示・更新する方法"
 sidebar_label: "Secret情報を表示・更新する"

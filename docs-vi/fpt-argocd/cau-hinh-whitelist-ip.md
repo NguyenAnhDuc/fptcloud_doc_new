@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-whitelist-ip"
+id: "configure-whitelist-ip"
 title: "Cấu hình whitelist IP"
 description: "Hướng dẫn cấu hình danh sách IP được phép truy cập vào ArgoCD"
 sidebar_label: "Cấu hình whitelist IP"

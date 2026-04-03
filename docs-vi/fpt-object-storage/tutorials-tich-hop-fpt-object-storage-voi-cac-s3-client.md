@@ -1,5 +1,5 @@
 ---
-id: "tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client"
+id: "tutorials-integrate-fpt-object-storage-with-s3-client"
 title: "Tích hợp FPT Object Storage với các S3-Client"
 description: "FPT Object Storage hỗ trợ tích hợp vào các S3-SDK hoặc S3-Client tuân theo chuẩn AWS S3. Điều này cho phép bạn sử dụng c"
 sidebar_label: "Tích hợp FPT Object Storage với các S3-Client"

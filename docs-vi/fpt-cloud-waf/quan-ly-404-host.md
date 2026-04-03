@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-404-host"
+id: "manage-404-host"
 title: "Quản lý 404 host"
 description: "Hướng dẫn tạo và quản lý 404 host để điều hướng trang lỗi 404 về trang mong muốn."
 sidebar_label: "Quản lý 404 host"

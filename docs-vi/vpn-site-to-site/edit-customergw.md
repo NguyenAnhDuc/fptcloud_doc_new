@@ -1,5 +1,5 @@
 ---
-id: "edit-customergw"
+id: "edit-customer-gateway"
 title: "Hướng dẫn chỉnh sửa Customer gateway"
 description: "**_Lưu ý: Chỉ chỉnh sửa được Customer gateway khi CGW không được gán vào VPN connection_**"
 sidebar_label: "Hướng dẫn chỉnh sửa Customer gateway"

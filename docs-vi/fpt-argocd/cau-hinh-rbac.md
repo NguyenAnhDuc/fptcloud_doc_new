@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-rbac"
+id: "configure-rbac"
 title: "Cấu hình RBAC policy"
 description: "Hướng dẫn cấu hình phân quyền RBAC cho người dùng ArgoCD"
 sidebar_label: "Cấu hình RBAC policy"

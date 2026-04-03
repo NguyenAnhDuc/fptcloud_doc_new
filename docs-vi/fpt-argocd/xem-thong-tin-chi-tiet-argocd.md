@@ -1,5 +1,5 @@
 ---
-id: "xem-thong-tin-chi-tiet-argocd"
+id: "view-argocd-detail"
 title: "Xem thông tin chi tiết và đăng nhập ArgoCD"
 description: "Hướng dẫn xem thông tin chi tiết và đăng nhập vào ArgoCD instance đã khởi tạo"
 sidebar_label: "Xem thông tin và đăng nhập"

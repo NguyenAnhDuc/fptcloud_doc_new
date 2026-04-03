@@ -1,5 +1,5 @@
 ---
-id: "mange-admin-account"
+id: "manage-admin-account"
 title: "Quản lý tài khoản admin"
 description: "Hướng dẫn enable và disable tài khoản admin trong ArgoCD instance"
 sidebar_label: "Quản lý tài khoản admin"

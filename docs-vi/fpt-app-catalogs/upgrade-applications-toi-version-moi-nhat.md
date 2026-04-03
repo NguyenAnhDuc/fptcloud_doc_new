@@ -1,5 +1,5 @@
 ---
-id: "upgrade-applications-toi-version-moi-nhat"
+id: "upgrade-applications-to-the-latest-version"
 title: "Upgrade applications tới version mới nhất"
 description: "Hướng dẫn nâng cấp application lên phiên bản mới nhất trong repository."
 sidebar_label: "Upgrade applications tới version mới nhất"

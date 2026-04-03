@@ -1,5 +1,5 @@
 ---
-id: "chinh sua user group"
+id: "edit-user-group"
 title: "Chỉnh sửa User Group"
 description: "Hướng dẫn chỉnh sửa thông tin, role và user trong một User Group."
 sidebar_label: "Chỉnh sửa User Group"

@@ -1,5 +1,5 @@
 ---
-id: "khoi tao account va truy cap vao vpc da duoc moi"
+id: "create-account-access-vpc"
 title: "Khởi tạo account và truy cập vào VPC đã được mời"
 description: "Hướng dẫn cho IAM user mới nhận lời mời và khởi tạo tài khoản để truy cập VPC."
 sidebar_label: "Khởi tạo account và truy cập VPC đã được mời"

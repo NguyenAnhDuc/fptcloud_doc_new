@@ -1,5 +1,5 @@
 ---
-id: "tao-security-groups"
+id: "create-security-groups"
 title: "Tao Security Groups"
 description: "**Bước 1:** Tại thanh **Menu** > chọn **Networking** > Chọn **Security Group**"
 sidebar_label: "Tao Security Groups"

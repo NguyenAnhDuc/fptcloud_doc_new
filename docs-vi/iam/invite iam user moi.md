@@ -1,5 +1,5 @@
 ---
-id: "invite iam user moi"
+id: "invite-iam-user"
 title: "Invite IAM user mới"
 description: "Hướng dẫn mời IAM user mới vào tenant trong FPT IAM."
 sidebar_label: "Invite IAM user mới"

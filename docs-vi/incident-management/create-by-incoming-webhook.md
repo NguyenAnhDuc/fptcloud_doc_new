@@ -1,5 +1,5 @@
 ---
-id: "create-by-incoming-webhook"
+id: "create-incident-via-webhook"
 title: "Tạo incident qua incoming webhook"
 description: "Hướng dẫn tạo incident thông qua incoming webhook"
 sidebar_label: "Tạo qua incoming webhook"

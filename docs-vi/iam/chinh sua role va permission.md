@@ -1,5 +1,5 @@
 ---
-id: "chinh sua role va permission"
+id: "edit-role-and-permissions"
 title: "Chỉnh sửa role và permission"
 description: "Hướng dẫn thay đổi thông tin và permission của các Custom Role trong FPT IAM."
 sidebar_label: "Chỉnh sửa role và permission"

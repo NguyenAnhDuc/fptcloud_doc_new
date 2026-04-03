@@ -1,5 +1,5 @@
 ---
-id: "tao-moi-app-catalogs"
+id: "create-a-new-fpt-app-catalogs"
 title: "Tạo mới App Catalog"
 description: "Hướng dẫn tạo mới App Catalog trên FPT Portal."
 sidebar_label: "Tạo mới App Catalog"

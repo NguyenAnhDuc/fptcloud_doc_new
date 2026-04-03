@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-log-level"
+id: "configure-log-level"
 title: "Cấu hình log level"
 description: "Hướng dẫn cấu hình log level cho Image Updater controller"
 sidebar_label: "Cấu hình log level"

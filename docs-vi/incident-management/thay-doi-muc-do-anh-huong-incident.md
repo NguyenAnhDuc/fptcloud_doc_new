@@ -1,5 +1,5 @@
 ---
-id: "thay-doi-muc-do-anh-huong-incident"
+id: "change-the-incident-severity"
 title: "Thay đổi mức độ ảnh hưởng"
 description: "Hướng dẫn thay đổi mức độ ảnh hưởng (severity) của incident"
 sidebar_label: "Thay đổi mức độ ảnh hưởng"

@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-argocd-images-updater"
+id: "enable-disable-images-updater"
 title: "Enable/disable ArgoCD Image Updater"
 description: "Hướng dẫn bật hoặc tắt ArgoCD Image Updater qua giao diện Portal"
 sidebar_label: "Enable/disable Image Updater"

@@ -1,5 +1,5 @@
 ---
-id: "report"
+id: "report-guide"
 title: "レポートの表示"
 description: "組み込みのレポートテンプレートを使用するか、カスタムクエリを作成してシステム全体のマルウェア動作を監視します。"
 sidebar_label: "レポートの表示"

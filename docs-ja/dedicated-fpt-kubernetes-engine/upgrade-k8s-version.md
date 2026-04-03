@@ -1,5 +1,5 @@
 ---
-id: "upgrade-k8s-version"
+id: "nang-cap-k8s-version"
 title: "Kubernetes バージョンのアップグレード"
 description: "Kubernetes cluster のバージョンをアップグレードする手順。"
 sidebar_label: "Kubernetes バージョンのアップグレード"

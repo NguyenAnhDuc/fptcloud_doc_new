@@ -1,5 +1,5 @@
 ---
-id: "Khởi tạo Bugdet Alert"
+id: "initiating-a-budget-alert"
 title: "Khởi tạo Budget Alert"
 description: "Hướng dẫn tạo Budget Alert để cảnh báo ngân sách chủ động trên FPT Cloud Portal."
 sidebar_label: "Khởi tạo Budget Alert"

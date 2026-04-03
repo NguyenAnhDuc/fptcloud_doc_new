@@ -1,5 +1,5 @@
 ---
-id: "use-with-s3-browser"
+id: "tutorials-using-object-storage-on-s3-browser"
 title: "S3 Browser での Object Storage の利用"
 description: "S3 Browser を使用して FPT Object Storage を利用する手順です。"
 sidebar_label: "S3 Browser での利用"

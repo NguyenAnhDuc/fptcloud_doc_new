@@ -1,5 +1,5 @@
 ---
-id: "robot-account"
+id: "tao-moi-robot-account"
 title: "Robot account を管理する"
 description: "CI/CD パイプライン統合のための robot account を作成・管理する。"
 sidebar_label: "Robot account を管理する"

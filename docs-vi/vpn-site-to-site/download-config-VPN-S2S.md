@@ -1,5 +1,5 @@
 ---
-id: "download-config-VPN-S2S"
+id: "download-config-"
 title: "Tải cấu hình VPN"
 description: "Hướng dẫn tải file cấu hình VPN Site-to-Site để cài đặt phía local."
 sidebar_label: "Tải cấu hình VPN"

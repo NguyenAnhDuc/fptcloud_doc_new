@@ -1,5 +1,5 @@
 ---
-id: "view-user-group-list"
+id: "view-list-user-group"
 title: "User Group一覧の表示"
 description: "User Groups Managementページでユーザーグループの一覧を確認・管理する方法。"
 sidebar_label: "User Group一覧の表示"

@@ -1,5 +1,5 @@
 ---
-id: "delete-secret"
+id: "Delete-Secret"
 title: "Secretを削除する"
 description: "使用しなくなった、または期限切れのSecretを削除する方法"
 sidebar_label: "Secretを削除する"

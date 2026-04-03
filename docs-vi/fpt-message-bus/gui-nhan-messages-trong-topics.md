@@ -1,5 +1,5 @@
 ---
-id: "gui-nhan-messages-trong-topics"
+id: "Send-Receive-messages-in-topics"
 title: "Gửi và nhận messages trong topic"
 description: "Hướng dẫn gửi và nhận messages trong topic của FPT Message Bus for RabbitMQ."
 sidebar_label: "Gửi và nhận messages trong topic"

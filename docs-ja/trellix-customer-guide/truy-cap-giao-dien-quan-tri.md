@@ -1,5 +1,5 @@
 ---
-id: "truy-cap-giao-dien-quan-tri"
+id: "Access the administration interface"
 title: "管理インターフェースへのアクセス"
 description: "Trellix 管理コンソールへのログイン方法と主要機能の確認手順。"
 sidebar_label: "管理インターフェースへのアクセス"

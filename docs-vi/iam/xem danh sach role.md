@@ -1,5 +1,5 @@
 ---
-id: "xem danh sach role"
+id: "view-role-list"
 title: "Xem danh sách role"
 description: "Hướng dẫn xem và quản lý danh sách role trên trang Roles management."
 sidebar_label: "Xem danh sách role"

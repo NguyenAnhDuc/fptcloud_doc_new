@@ -25,12 +25,18 @@ function getTargetUrl(pathname, targetLang, urlMapping) {
     }
   }
 
-  // Fallback: swap the language prefix directly (works for EN↔VI same-path sections)
+  // Fallback: try to navigate to the same section in target language
   const currentLang = getCurrentLang(pathname);
   if (currentLang) {
     const rest = pathname.slice(currentLang.basePath.length);
     if (rest && rest !== '/') {
-      return targetLangConfig.basePath + rest;
+      // Extract section (first path segment after lang prefix)
+      const parts = rest.split('/').filter(Boolean);
+      if (parts.length >= 1) {
+        const section = parts[0];
+        // Try section index first (safer than exact path swap)
+        return targetLangConfig.basePath + '/' + section + '/';
+      }
     }
   }
 

@@ -1,5 +1,5 @@
 ---
-id: "xem-danh-sach-kubernetes-cluster-da-tao"
+id: "list-created-cluster"
 title: "Xem danh sách Kubernetes Cluster đã tạo"
 description: "Bạn có thể xem và quản lý danh sách Kubernetes Cluster đã tạo trên trang **Kubernetes Management**. Để mở **Kubernetes M"
 sidebar_label: "Xem danh sách Kubernetes Cluster đã tạo"

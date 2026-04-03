@@ -1,5 +1,5 @@
 ---
-id: "xem chi tiet user group"
+id: "view-detail-user-group"
 title: "Xem chi tiết User Group"
 description: "Hướng dẫn xem thông tin chi tiết của một User Group trong FPT IAM."
 sidebar_label: "Xem chi tiết User Group"

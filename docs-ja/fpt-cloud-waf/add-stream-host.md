@@ -1,5 +1,5 @@
 ---
-id: "add-stream-host"
+id: "manage-stream-host"
 title: "Stream hostの追加"
 description: "WAF DashboardでTCP/UDPトラフィックを転送するStream hostを作成する方法。"
 sidebar_label: "Stream hostの追加"

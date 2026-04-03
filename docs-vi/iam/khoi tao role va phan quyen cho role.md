@@ -1,5 +1,5 @@
 ---
-id: "khoi tao role va phan quyen cho role"
+id: "create-role"
 title: "Khởi tạo role và phân quyền cho role"
 description: "Hướng dẫn tạo một Custom Role mới và phân quyền cho role trong FPT IAM."
 sidebar_label: "Khởi tạo role và phân quyền cho role"

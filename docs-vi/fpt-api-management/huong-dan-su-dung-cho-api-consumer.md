@@ -1,5 +1,5 @@
 ---
-id: "huong-dan-su-dung-cho-api-consumer"
+id: "consumer-api-usage-guide"
 title: "Hướng dẫn sử dụng cho API Consumer"
 description: "Hướng dẫn API Consumer nhận thông tin xác thực và sử dụng API thông qua Postman."
 sidebar_label: "Hướng dẫn sử dụng cho API Consumer"

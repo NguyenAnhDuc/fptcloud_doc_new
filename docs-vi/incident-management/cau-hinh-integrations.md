@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-integrations"
+id: "configure-integrations"
 title: "Cấu hình integrations"
 description: "Hướng dẫn cấu hình tích hợp các công cụ với Incident Management"
 sidebar_label: "Cấu hình integrations"

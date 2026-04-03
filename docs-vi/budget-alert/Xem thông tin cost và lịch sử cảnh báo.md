@@ -1,5 +1,5 @@
 ---
-id: "Xem thông tin cost và lịch sử cảnh báo"
+id: "view-cost-information"
 title: "Xem thông tin chi phí và lịch sử cảnh báo"
 description: "Hướng dẫn xem chi phí thực tế và lịch sử cảnh báo của Budget Alert."
 sidebar_label: "Xem thông tin chi phí và lịch sử cảnh báo"

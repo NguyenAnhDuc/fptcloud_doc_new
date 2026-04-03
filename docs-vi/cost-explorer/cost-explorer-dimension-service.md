@@ -1,5 +1,5 @@
 ---
-id: "cost-explorer-dimension-service"
+id: "View-dashboards-and-specific-costs-by-service"
 title: "Xem chi phí theo dịch vụ"
 description: "Hướng dẫn xem Dashboard chi phí và tùy chỉnh bộ lọc theo dịch vụ trên Cost Explorer."
 sidebar_label: "Xem chi phí theo dịch vụ"

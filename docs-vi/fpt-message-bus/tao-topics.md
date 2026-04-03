@@ -1,5 +1,5 @@
 ---
-id: "tao-topics"
+id: "Create-topics"
 title: "Tạo topic"
 description: "Hướng dẫn tạo topic mới trong FPT Message Bus for RabbitMQ."
 sidebar_label: "Tạo topic"

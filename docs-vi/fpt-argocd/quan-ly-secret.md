@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-secret"
+id: "manage-secrets"
 title: "Quản lý secret"
 description: "Hướng dẫn thêm, cập nhật và xóa secret trong argocd-image-updater-secret"
 sidebar_label: "Quản lý secret"

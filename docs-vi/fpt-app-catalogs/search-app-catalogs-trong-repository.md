@@ -1,5 +1,5 @@
 ---
-id: "search-app-catalogs-trong-repository"
+id: "search-app-catalogs-from-a-repository"
 title: "Tìm kiếm App Catalog trong repository"
 description: "Hướng dẫn tìm kiếm App Catalog trong repository để deploy."
 sidebar_label: "Tìm kiếm App Catalog trong repository"

@@ -1,5 +1,5 @@
 ---
-id: "xem danh sach user group"
+id: "view-list-user-group"
 title: "Xem danh sách User Group"
 description: "Hướng dẫn xem và quản lý danh sách User Group trên trang User Groups Management."
 sidebar_label: "Xem danh sách User Group"

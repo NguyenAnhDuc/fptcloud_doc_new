@@ -1,5 +1,5 @@
 ---
-id: "create-subscriptions"
+id: "Create-Subscriptions"
 title: "subscription の作成"
 description: "FPT Message Bus で topic 内に subscription を作成します。"
 sidebar_label: "subscription の作成"

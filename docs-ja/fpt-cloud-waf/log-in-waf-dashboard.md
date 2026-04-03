@@ -1,5 +1,5 @@
 ---
-id: "log-in-waf-dashboard"
+id: "log-in-to-waf-dashboard"
 title: "WAF dashboardへのログイン"
 description: "WAFサーバー作成後にWAF Dashboardにログインするクイックスタートガイドです。"
 sidebar_label: "WAF dashboardへのログイン"

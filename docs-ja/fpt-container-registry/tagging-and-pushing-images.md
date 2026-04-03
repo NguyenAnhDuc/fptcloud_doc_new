@@ -1,5 +1,5 @@
 ---
-id: "tagging-and-pushing-images"
+id: "tagging-and-pushing-images-to-fpt-container-registry"
 title: "イメージを tag して FPT Container Registry に push する"
 description: "ローカルの Docker イメージに tag を付けて FPT Container Registry に push する。"
 sidebar_label: "イメージを tag して push する"

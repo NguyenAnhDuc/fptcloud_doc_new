@@ -1,7 +1,7 @@
 ---
 id: "enable-hsts-to-http-listener"
 title: "Enable HSTS to HTTPS Listener"
-description: "**HSTS (HTTP Strict Transport Security)** là một chính sách bảo mật giúp ngăn chặn các cuộc tấn công "man-in-the-middle""
+description: "HSTS (HTTP Strict Transport Security) là một chính sách bảo mật giúp ngăn chặn các cuộc tấn công man-in-the-middle"
 sidebar_label: "Enable HSTS to HTTPS Listener"
 sidebar_position: 17
 ---

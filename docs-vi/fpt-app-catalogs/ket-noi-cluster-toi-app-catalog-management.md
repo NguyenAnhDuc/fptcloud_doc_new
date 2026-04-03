@@ -1,5 +1,5 @@
 ---
-id: "ket-noi-cluster-toi-app-catalog-management"
+id: "add-cluster-to-app-catalogs-management"
 title: "Kết nối cluster tới App Catalog Management"
 description: "Hướng dẫn kết nối Kubernetes cluster tới App Catalogs Management để deploy ứng dụng."
 sidebar_label: "Kết nối cluster tới App Catalog Management"

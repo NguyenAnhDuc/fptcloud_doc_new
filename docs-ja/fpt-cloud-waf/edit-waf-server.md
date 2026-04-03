@@ -1,5 +1,5 @@
 ---
-id: "edit-waf-server"
+id: "update-information-of-the-WAF-server"
 title: "WAFサーバーの編集"
 description: "WAFサーバーのName、Description、Sizeを編集するガイドです。"
 sidebar_label: "WAFサーバーの編集"

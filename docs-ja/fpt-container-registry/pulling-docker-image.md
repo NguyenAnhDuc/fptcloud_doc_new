@@ -1,5 +1,5 @@
 ---
-id: "pulling-docker-image"
+id: "pulling-docker-image-from-fpt-container-registry-to-local"
 title: "FPT Container Registry から Docker イメージを pull する"
 description: "FPT Container Registry からローカル環境に Docker イメージを pull する。"
 sidebar_label: "Docker イメージを pull する"

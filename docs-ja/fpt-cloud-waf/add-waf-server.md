@@ -1,5 +1,5 @@
 ---
-id: "add-waf-server"
+id: "create-a-new-waf-server"
 title: "WAFサーバーの追加"
 description: "FPT Cloud PortalでWAFサーバーを追加するクイックスタートガイドです。"
 sidebar_label: "WAFサーバーの追加"

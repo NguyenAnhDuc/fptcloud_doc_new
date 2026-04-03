@@ -1,5 +1,5 @@
 ---
-id: "delete-secret-engine"
+id: "Delete-Secret-Engine"
 title: "Secret Engineを削除する"
 description: "使用しなくなったSecret Engineを削除する方法"
 sidebar_label: "Secret Engineを削除する"

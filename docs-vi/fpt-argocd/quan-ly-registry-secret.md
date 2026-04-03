@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-registry-secret"
+id: "manage-registry-secrets"
 title: "Quản lý registry secret"
 description: "Hướng dẫn tạo, cập nhật và xóa registry secret để xác thực container registry nội bộ"
 sidebar_label: "Quản lý registry secret"

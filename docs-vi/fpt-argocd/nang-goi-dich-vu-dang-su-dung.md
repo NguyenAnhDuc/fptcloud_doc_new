@@ -1,5 +1,5 @@
 ---
-id: "nang-goi-dich-vu-dang-su-dung"
+id: "upgrade-service-package"
 title: "Nâng gói dịch vụ"
 description: "Hướng dẫn nâng cấp gói dịch vụ ArgoCD lên gói cao hơn"
 sidebar_label: "Nâng gói dịch vụ"

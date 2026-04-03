@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-ssl-certificates"
+id: "manage-ssl-certificate"
 title: "Quản lý SSL certificate"
 description: "Hướng dẫn tạo và quản lý SSL certificate trong WAF Dashboard bằng Let's Encrypt hoặc Custom."
 sidebar_label: "Quản lý SSL certificate"

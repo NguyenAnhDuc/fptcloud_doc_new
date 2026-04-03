@@ -1,5 +1,5 @@
 ---
-id: "xoa-may-chu-waf"
+id: "delete-waf-server"
 title: "Xóa máy chủ WAF"
 description: "Hướng dẫn xóa máy chủ WAF. Thao tác này không thể phục hồi."
 sidebar_label: "Xóa máy chủ WAF"

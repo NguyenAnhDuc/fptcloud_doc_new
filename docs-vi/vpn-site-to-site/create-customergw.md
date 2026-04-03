@@ -1,5 +1,5 @@
 ---
-id: "create-customergw"
+id: "create-customer-gateway"
 title: "Hướng dẫn tạo Customer gateway"
 description: "**Bước 1:** Tại màn hình hiển thị danh sách **Customer gateway,** chọn **Create Customer gateway** để thực hiện tạo**.**"
 sidebar_label: "Hướng dẫn tạo Customer gateway"

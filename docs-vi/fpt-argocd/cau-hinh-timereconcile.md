@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-timereconcile"
+id: "configure-timereconcile"
 title: "Cấu hình TimeReconcile"
 description: "Hướng dẫn cấu hình thời gian kiểm tra đồng bộ giữa cluster Kubernetes và repository"
 sidebar_label: "Cấu hình TimeReconcile"

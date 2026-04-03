@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-access-list"
+id: "manage-access-list"
 title: "Quản lý access list"
 description: "Hướng dẫn tạo và quản lý access list để kiểm soát truy cập cho proxy host."
 sidebar_label: "Quản lý access list"

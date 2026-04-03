@@ -1,5 +1,5 @@
 ---
-id: "sua-topic"
+id: "Edit-topics"
 title: "Sửa topic"
 description: "Hướng dẫn chỉnh sửa topic trong FPT Message Bus for RabbitMQ."
 sidebar_label: "Sửa topic"

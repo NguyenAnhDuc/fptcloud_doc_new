@@ -1,5 +1,5 @@
 ---
-id: "edit-VPN-S2S-information"
+id: "edit-vpn"
 title: "Chỉnh sửa thông tin VPN"
 description: "Hướng dẫn thay đổi thông tin VPN Site-to-Site sau khi đã khởi tạo."
 sidebar_label: "Chỉnh sửa thông tin VPN"

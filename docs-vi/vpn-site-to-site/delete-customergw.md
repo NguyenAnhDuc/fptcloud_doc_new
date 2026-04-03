@@ -1,5 +1,5 @@
 ---
-id: "delete-customergw"
+id: "delete-customer-gateway"
 title: "Hướng dẫn xoá Customer gateway"
 description: "**_Lưu ý: Chỉ xoá được Customer gateway khi không có VPN Connection nào đang liên kết với gateway (Usage VPN Connection "
 sidebar_label: "Hướng dẫn xoá Customer gateway"

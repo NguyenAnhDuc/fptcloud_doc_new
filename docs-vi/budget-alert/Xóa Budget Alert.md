@@ -1,5 +1,5 @@
 ---
-id: "Xóa Budget Alert"
+id: "delete-budget-alert"
 title: "Xóa Budget Alert"
 description: "Hướng dẫn xóa Budget Alert khỏi danh sách."
 sidebar_label: "Xóa Budget Alert"

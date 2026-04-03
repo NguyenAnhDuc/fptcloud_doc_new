@@ -1,5 +1,5 @@
 ---
-id: "disable-VPN-S2S-connection"
+id: "disable-VPN-Site-to-Site"
 title: "Vô hiệu hóa VPN Site-to-Site"
 description: "Hướng dẫn tạm dừng kết nối VPN Site-to-Site đang hoạt động."
 sidebar_label: "Vô hiệu hóa VPN"

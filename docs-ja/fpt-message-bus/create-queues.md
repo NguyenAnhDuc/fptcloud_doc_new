@@ -1,5 +1,5 @@
 ---
-id: "create-queues"
+id: "tao-queues"
 title: "queue の作成"
 description: "FPT Message Bus で新しい queue を作成します。"
 sidebar_label: "queue の作成"

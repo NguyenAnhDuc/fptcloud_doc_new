@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-ket-noi-may-chu-waf"
+id: "configure-waf-server-connection"
 title: "Cấu hình kết nối máy chủ WAF"
 description: "Hướng dẫn kết nối máy chủ WAF với Web Server, thêm proxy host và SSL certificate."
 sidebar_label: "Cấu hình kết nối máy chủ WAF"

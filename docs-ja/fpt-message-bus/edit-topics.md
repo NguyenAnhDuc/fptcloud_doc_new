@@ -1,5 +1,5 @@
 ---
-id: "edit-topics"
+id: "Edit-topics"
 title: "topic の編集"
 description: "FPT Message Bus で topic を編集して subscription を追加または削除します。"
 sidebar_label: "topic の編集"

@@ -1,5 +1,5 @@
 ---
-id: "edit-role"
+id: "edit-role-and-permissions"
 title: "RoleとPermissionの編集"
 description: "FPT IAMでCustom Roleの情報とPermissionを変更する方法。"
 sidebar_label: "RoleとPermissionの編集"

@@ -1,5 +1,5 @@
 ---
-id: "dang-ky-dich-vu-api-management-tren-fpt-portal"
+id: "registering-on-fpt-portal"
 title: "Đăng ký dịch vụ API Management trên FPT Portal"
 description: "Hướng dẫn đăng ký tài khoản API Provider và khởi tạo dịch vụ API Management trên FPT Portal."
 sidebar_label: "Đăng ký dịch vụ API Management trên FPT Portal"

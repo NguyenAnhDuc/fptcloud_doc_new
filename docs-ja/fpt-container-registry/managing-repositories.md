@@ -1,5 +1,5 @@
 ---
-id: "managing-repositories"
+id: "deleting-an-image-or-artifact-in-a-repository"
 title: "FPT Portal で repository を管理する"
 description: "FPT Container Registry の repository を Portal から表示・管理する。"
 sidebar_label: "Repository を管理する"

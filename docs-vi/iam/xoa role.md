@@ -1,5 +1,5 @@
 ---
-id: "xoa role"
+id: "delete-role"
 title: "Xóa role"
 description: "Hướng dẫn xóa Custom Role không còn sử dụng trong FPT IAM."
 sidebar_label: "Xóa role"

@@ -1,5 +1,5 @@
 ---
-id: "create-vault-instance"
+id: "Create-Vault-Instance"
 title: "Vault Instanceを作成する"
 description: "FPT Cloud PortalでVault Instanceを新規作成する方法"
 sidebar_label: "Vault Instanceを作成する"

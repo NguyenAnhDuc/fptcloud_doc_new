@@ -1,5 +1,5 @@
 ---
-id: "huong-dan-nhanh-quick-starts"
+id: "Quick-Starts"
 title: "Hướng dẫn nhanh"
 description: "Hướng dẫn nhanh để bắt đầu sử dụng FPT Message Bus for RabbitMQ."
 sidebar_label: "Hướng dẫn nhanh"

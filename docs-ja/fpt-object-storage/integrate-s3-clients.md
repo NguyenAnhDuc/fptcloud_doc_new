@@ -1,5 +1,5 @@
 ---
-id: "integrate-s3-clients"
+id: "tutorials-integrate-fpt-object-storage-with-s3-client"
 title: "FPT Object Storage と S3 クライアントの統合"
 description: "S3CMD、Cyberduck、AWS CLI、WinSCP など各種 S3 クライアントと FPT Object Storage を統合する手順です。"
 sidebar_label: "S3 クライアントとの統合"

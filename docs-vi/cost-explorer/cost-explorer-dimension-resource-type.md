@@ -1,5 +1,5 @@
 ---
-id: "cost-explorer-dimension-resource-type"
+id: "customer-filter"
 title: "Xem chi phí theo loại tài nguyên"
 description: "Hướng dẫn xem chi phí theo loại tài nguyên (Resource Type) trên Cost Explorer."
 sidebar_label: "Xem chi phí theo loại tài nguyên"

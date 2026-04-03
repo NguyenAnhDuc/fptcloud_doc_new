@@ -1,5 +1,5 @@
 ---
-id: "client-task"
+id: "client-task-mapping"
 title: "Quản lý client tasks"
 description: "Xem và quản lý các tác vụ được lên lịch tự động chạy trên máy chủ đã cài đặt Trellix agent."
 sidebar_label: "Quản lý client tasks"

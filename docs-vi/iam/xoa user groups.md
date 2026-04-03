@@ -1,5 +1,5 @@
 ---
-id: "xoa user groups"
+id: "delete-user-group"
 title: "Xóa User Group"
 description: "Hướng dẫn xóa User Group không còn sử dụng trong FPT IAM."
 sidebar_label: "Xóa User Group"

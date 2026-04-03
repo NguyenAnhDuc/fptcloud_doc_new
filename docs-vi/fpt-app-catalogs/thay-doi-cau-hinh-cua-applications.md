@@ -1,5 +1,5 @@
 ---
-id: "thay-doi-cau-hinh-cua-applications"
+id: "change-applications-configuration"
 title: "Thay đổi cấu hình của applications"
 description: "Hướng dẫn thay đổi User Define Values để cập nhật cấu hình application đã deploy."
 sidebar_label: "Thay đổi cấu hình của applications"

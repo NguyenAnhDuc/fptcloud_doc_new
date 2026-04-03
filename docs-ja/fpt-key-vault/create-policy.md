@@ -1,5 +1,5 @@
 ---
-id: "create-policy"
+id: "Create-Policy"
 title: "Policyを作成する"
 description: "Secretアクセスをコントロールする新しいPolicyを作成する方法"
 sidebar_label: "Policyを作成する"

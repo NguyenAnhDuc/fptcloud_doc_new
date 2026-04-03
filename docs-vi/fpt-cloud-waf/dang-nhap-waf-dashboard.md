@@ -1,5 +1,5 @@
 ---
-id: "dang-nhap-waf-dashboard"
+id: "log-in-to-waf-dashboard"
 title: "Đăng nhập WAF Dashboard"
 description: "Hướng dẫn nhanh đăng nhập vào WAF Dashboard sau khi tạo máy chủ WAF."
 sidebar_label: "Đăng nhập WAF Dashboard"

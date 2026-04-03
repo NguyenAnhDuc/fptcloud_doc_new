@@ -1,5 +1,5 @@
 ---
-id: "tich-hop-fmon"
+id: "integrate-with-fmon"
 title: "Tích hợp Metric/Access logs Load Balancer với FPT Monitoring (FMON)"
 description: "Là tính năng được tích hợp với dịch vụ FPT Monitoring (FMON) giúp người dùng có thể đẩy Access logs hoặc Metric của Load"
 sidebar_label: "Tích hợp Metric/Access logs Load Balancer với FPT Monitoring (FMON)"

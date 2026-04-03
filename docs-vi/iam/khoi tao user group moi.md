@@ -1,5 +1,5 @@
 ---
-id: "khoi tao user group moi"
+id: "create-user-group"
 title: "Khởi tạo User Group mới"
 description: "Hướng dẫn tạo một User Group mới trong FPT IAM."
 sidebar_label: "Khởi tạo User Group mới"

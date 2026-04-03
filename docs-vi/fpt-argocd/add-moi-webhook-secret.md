@@ -1,5 +1,5 @@
 ---
-id: "add-moi-webhook-secret"
+id: "add-webhook-secret"
 title: "Tạo mới webhook secret"
 description: "Hướng dẫn tạo mới webhook secret cho GitHub, GitLab, Bitbucket và Gogs"
 sidebar_label: "Tạo mới webhook secret"

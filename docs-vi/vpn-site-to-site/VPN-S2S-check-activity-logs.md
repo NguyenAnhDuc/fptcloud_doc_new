@@ -1,5 +1,5 @@
 ---
-id: "VPN-S2S-check-activity-logs"
+id: "VPN-Activity"
 title: "Xem Activity log VPN"
 description: "Hướng dẫn kiểm tra lịch sử hoạt động VPN qua Activity Log."
 sidebar_label: "Xem Activity log VPN"

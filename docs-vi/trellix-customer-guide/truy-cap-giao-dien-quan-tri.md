@@ -1,5 +1,5 @@
 ---
-id: "truy-cap-giao-dien-quan-tri"
+id: "Access the administration interface"
 title: "Truy cập giao diện quản trị"
 description: "Hướng dẫn đăng nhập vào giao diện quản trị Trellix và khám phá các tính năng chính."
 sidebar_label: "Truy cập giao diện quản trị"

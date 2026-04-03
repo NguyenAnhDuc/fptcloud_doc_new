@@ -1,5 +1,5 @@
 ---
-id: "client-task"
+id: "client-task-mapping"
 title: "クライアントタスクの管理"
 description: "Trellix agent がインストールされたサーバーで自動実行されるスケジュールタスクを表示・管理する手順。"
 sidebar_label: "クライアントタスクの管理"

@@ -1,5 +1,5 @@
 ---
-id: "xem-thong-tin-chi-tiet-proxy-host"
+id: "view-proxy-host-detail"
 title: "Xem thông tin chi tiết proxy host"
 description: "Hướng dẫn xem thông tin chi tiết của một proxy host trong WAF Dashboard."
 sidebar_label: "Xem chi tiết proxy host"

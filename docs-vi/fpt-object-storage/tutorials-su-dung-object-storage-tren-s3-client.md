@@ -1,5 +1,5 @@
 ---
-id: "tutorials-su-dung-object-storage-tren-s3-client"
+id: "tutorials-using-object-storage-on-s3-browser"
 title: "Sử dụng Object Storage trên S3 Browser"
 description: "Ngoài việc sử dụng trực tiếp trên FPT Portal, bạn có thể đăng nhập và sử dụng trên tất cả các S3-SDK hoặc S3-Client khác"
 sidebar_label: "Sử dụng Object Storage trên S3 Browser"

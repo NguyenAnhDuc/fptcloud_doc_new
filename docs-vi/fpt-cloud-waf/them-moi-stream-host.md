@@ -1,5 +1,5 @@
 ---
-id: "them-moi-stream-host"
+id: "manage-stream-host"
 title: "Thêm mới stream host"
 description: "Hướng dẫn tạo stream host để chuyển tiếp lưu lượng TCP/UDP qua WAF Dashboard."
 sidebar_label: "Thêm mới stream host"

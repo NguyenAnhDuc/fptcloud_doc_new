@@ -1,5 +1,5 @@
 ---
-id: "kiem-tra-thong-tin-goi-dich-vu"
+id: "check-service-package-info"
 title: "Kiểm tra thông tin gói dịch vụ"
 description: "Xem các gói dịch vụ ArgoCD có thể sử dụng tại Quota Detail"
 sidebar_label: "Kiểm tra thông tin gói dịch vụ"

@@ -1,5 +1,5 @@
 ---
-id: "xoa-vpn-connection"
+id: "delete-vpn-connection"
 title: "Hướng dẫn xóa VPN Connection"
 description: "Để xoá VPN Connection, người dùng chọn **Delete** ở mục **Action** của VPN cần xoá. [![file](/img/migrated/image-1744270"
 sidebar_label: "Hướng dẫn xóa VPN Connection"

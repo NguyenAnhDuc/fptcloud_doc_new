@@ -1,7 +1,7 @@
 ---
 id: "truy-cap-tinh-nang"
 title: "Truy Cap Tinh Nang"
-description: "* Trên portal FPT Cloud Console, vào workspace FPT Cloud Monitoring cần cấu hình, chọn tab **"IP Access Control"**."
+description: "Trên portal FPT Cloud Console, vào workspace FPT Cloud Monitoring cần cấu hình, chọn tab IP Access Control."
 sidebar_label: "Truy Cap Tinh Nang"
 sidebar_position: 5
 ---

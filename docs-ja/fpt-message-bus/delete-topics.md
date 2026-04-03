@@ -1,5 +1,5 @@
 ---
-id: "delete-topics"
+id: "Delete-topics"
 title: "topic の削除"
 description: "FPT Message Bus で topic を削除します。"
 sidebar_label: "topic の削除"

@@ -1,5 +1,5 @@
 ---
-id: "view-log"
+id: "Viewing Logs"
 title: "ログの表示"
 description: "Trellix システム内のすべてのサーバーまたは個別サーバーのセキュリティイベントと脅威ログを表示します。"
 sidebar_label: "ログの表示"

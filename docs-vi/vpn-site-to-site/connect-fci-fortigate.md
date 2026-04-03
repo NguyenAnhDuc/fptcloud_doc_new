@@ -1,5 +1,5 @@
 ---
-id: "connect-fci-fortigate"
+id: "VPN-Site-to-Site-Configuration-with-Fortigate-guide"
 title: "Cấu hình VPN Site-to-Site với Fortigate"
 description: "Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN Site-to-Site của FPT Smart Cloud."
 sidebar_label: "Cấu hình VPN Site-to-Site với Fortigate"

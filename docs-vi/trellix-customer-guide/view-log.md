@@ -1,5 +1,5 @@
 ---
-id: "view-log"
+id: "Viewing Logs"
 title: "Xem nhật ký (log)"
 description: "Xem các security events và threat logs từ tất cả máy chủ hoặc từng máy chủ cụ thể trong hệ thống Trellix."
 sidebar_label: "Xem nhật ký (log)"

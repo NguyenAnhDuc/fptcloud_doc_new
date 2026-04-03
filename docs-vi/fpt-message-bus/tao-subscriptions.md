@@ -1,5 +1,5 @@
 ---
-id: "tao-subscriptions"
+id: "Create-Subscriptions"
 title: "Tạo subscription"
 description: "Hướng dẫn tạo subscription trong một topic của FPT Message Bus for RabbitMQ."
 sidebar_label: "Tạo subscription"

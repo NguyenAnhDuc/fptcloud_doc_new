@@ -1,5 +1,5 @@
 ---
-id: "create-topics"
+id: "Create-topics"
 title: "topic の作成"
 description: "FPT Message Bus で新しい topic を作成します。"
 sidebar_label: "topic の作成"

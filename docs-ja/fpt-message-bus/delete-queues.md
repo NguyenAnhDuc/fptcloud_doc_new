@@ -1,5 +1,5 @@
 ---
-id: "delete-queues"
+id: "xoa-queues"
 title: "queue の削除"
 description: "FPT Message Bus で queue を削除します。"
 sidebar_label: "queue の削除"

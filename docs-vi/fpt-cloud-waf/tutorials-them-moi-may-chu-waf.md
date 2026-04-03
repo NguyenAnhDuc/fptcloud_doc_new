@@ -1,5 +1,5 @@
 ---
-id: "tutorials-them-moi-may-chu-waf"
+id: "tutorials-create-a-new-waf-server"
 title: "Thêm mới máy chủ WAF"
 description: "Hướng dẫn chi tiết từng bước tạo máy chủ WAF trên FPT Cloud Portal."
 sidebar_label: "Thêm mới máy chủ WAF"

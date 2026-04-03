@@ -1,5 +1,5 @@
 ---
-id: "xoa-app-catalog-management"
+id: "delete-an-app-catalogs-mangement"
 title: "Xóa App Catalog Management"
 description: "Hướng dẫn xóa App Catalogs Management khi không còn sử dụng."
 sidebar_label: "Xóa App Catalog Management"

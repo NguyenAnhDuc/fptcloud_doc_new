@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-build-option-cho-kustomize"
+id: "configure-build-options-kustomize"
 title: "Cấu hình build options cho Kustomize"
 description: "Hướng dẫn cấu hình Kustomize build options mặc định trên FPT ArgoCD"
 sidebar_label: "Cấu hình Kustomize build options"

@@ -1,5 +1,5 @@
 ---
-id: "thay doi mat khau"
+id: "Change password"
 title: "Thay đổi mật khẩu"
 description: "Hướng dẫn thay đổi mật khẩu tài khoản IAM User trên FPT Portal."
 sidebar_label: "Thay đổi mật khẩu"

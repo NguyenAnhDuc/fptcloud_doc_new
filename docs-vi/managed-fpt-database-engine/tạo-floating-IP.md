@@ -1,5 +1,5 @@
 ---
-id: "tạo-floating-IP"
+id: "create-floating-ip"
 title: "Tạo Floating Ip"
 description: "**Floating IP** được dùng để lưu giữ **IP Public** và điều hướng truy cập từ internet vào máy ảo. Để máy ảo có thể truy"
 sidebar_label: "Tạo Floating Ip"

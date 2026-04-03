@@ -1,5 +1,5 @@
 ---
-id: "xem-chi-tiet-incident"
+id: "view-incident-detail"
 title: "Xem chi tiết incident"
 description: "Hướng dẫn xem thông tin chi tiết của một incident"
 sidebar_label: "Xem chi tiết incident"

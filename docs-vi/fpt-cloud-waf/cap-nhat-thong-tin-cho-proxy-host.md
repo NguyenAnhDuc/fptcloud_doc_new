@@ -1,5 +1,5 @@
 ---
-id: "cap-nhat-thong-tin-cho-proxy-host"
+id: "update-proxy-host"
 title: "Cập nhật thông tin proxy host"
 description: "Hướng dẫn chỉnh sửa thông tin cấu hình của proxy host trong WAF Dashboard."
 sidebar_label: "Cập nhật proxy host"

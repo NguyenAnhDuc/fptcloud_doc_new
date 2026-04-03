@@ -1,5 +1,5 @@
 ---
-id: "battat-proxy-host"
+id: "enable-disable-proxy-host"
 title: "Bật/tắt proxy host"
 description: "Hướng dẫn bật hoặc tắt trạng thái hoạt động của proxy host trong WAF Dashboard."
 sidebar_label: "Bật/tắt proxy host"

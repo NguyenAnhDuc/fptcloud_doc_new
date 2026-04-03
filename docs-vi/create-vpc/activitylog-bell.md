@@ -1,5 +1,5 @@
 ---
-id: "activitylog-bell"
+id: "view-activity-en"
 title: "Xem Activity log và trạng thái tác vụ"
 description: "Hướng dẫn xem Activity log và trạng thái tác vụ gần đây trên VPC."
 sidebar_label: "Xem Activity log và trạng thái tác vụ"

@@ -1,5 +1,5 @@
 ---
-id: "send-receive-messages-in-topics"
+id: "Send-Receive-messages-in-topics"
 title: "topic でのメッセージ送受信"
 description: "FPT Message Bus で topic のメッセージを送受信します。"
 sidebar_label: "topic でのメッセージ送受信"

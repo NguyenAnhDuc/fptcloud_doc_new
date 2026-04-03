@@ -1,5 +1,5 @@
 ---
-id: "rollback-app-ve-cau-hinh-cu"
+id: "rollback-an-application-to-the-old-configuration"
 title: "Rollback app về cấu hình cũ"
 description: "Hướng dẫn rollback application về cấu hình ở phiên bản trước."
 sidebar_label: "Rollback app về cấu hình cũ"

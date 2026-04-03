@@ -1,5 +1,5 @@
 ---
-id: "monitor-waf-voi-dashboard-overview"
+id: "monitor-waf-server-with-dashboard-overview"
 title: "Theo dõi WAF qua Dashboard Overview"
 description: "Hướng dẫn sử dụng trang Overview để giám sát trạng thái và số liệu máy chủ WAF."
 sidebar_label: "Theo dõi WAF qua Dashboard Overview"

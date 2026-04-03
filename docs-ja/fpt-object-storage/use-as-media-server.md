@@ -1,5 +1,5 @@
 ---
-id: "use-as-media-server"
+id: "su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application"
 title: "FPT Object Storage をメディアサーバーとして使用する"
 description: "FPT Object Storage をウェブサイト・ウェブアプリケーション向けのメディアファイル保存・配信サーバーとして活用する方法です。"
 sidebar_label: "メディアサーバーとして使用"

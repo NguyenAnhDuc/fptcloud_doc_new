@@ -1,5 +1,5 @@
 ---
-id: "Tạm dừng cảnh báo của 1 Budget Alert"
+id: "pause-budget-alert"
 title: "Tạm dừng cảnh báo Budget Alert"
 description: "Hướng dẫn tạm dừng (vô hiệu hóa) cảnh báo của một Budget Alert."
 sidebar_label: "Tạm dừng cảnh báo Budget Alert"

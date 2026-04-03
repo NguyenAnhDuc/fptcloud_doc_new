@@ -1,5 +1,5 @@
 ---
-id: "xem-chi-tiet-app-da-deploy"
+id: "view-deployed-applications-details"
 title: "Xem chi tiết app đã deploy"
 description: "Xem thông tin chi tiết của app đã được deploy bao gồm trạng thái, revisions, resource, manifest và values."
 sidebar_label: "Xem chi tiết app đã deploy"

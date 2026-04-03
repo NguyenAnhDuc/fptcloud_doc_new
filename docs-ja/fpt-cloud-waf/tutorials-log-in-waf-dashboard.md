@@ -1,5 +1,5 @@
 ---
-id: "tutorials-log-in-waf-dashboard"
+id: "tutorials-log-in-to-waf-dashboard"
 title: "WAF dashboardへのログイン"
 description: "WAFサーバー作成後にWAF Dashboardにログインするステップバイステップのチュートリアルです。"
 sidebar_label: "WAF dashboardへのログイン"

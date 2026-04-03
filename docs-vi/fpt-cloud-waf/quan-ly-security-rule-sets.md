@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-security-rule-sets"
+id: "manage-security-rule-set"
 title: "Quản lý security rule set"
 description: "Hướng dẫn tạo và quản lý security rule set tùy chỉnh trong WAF Dashboard."
 sidebar_label: "Quản lý security rule set"

@@ -1,5 +1,5 @@
 ---
-id: "Thao-tac-voi-DB-Proxy"
+id: "manage-db-proxy"
 title: "Thao tac voi db Proxy"
 description: "**Bước 1:** Xem danh sách DB Proxy"
 sidebar_label: "Thao tac voi db Proxy"

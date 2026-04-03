@@ -1,5 +1,5 @@
 ---
-id: "xem chi tiet role"
+id: "view-role-detail"
 title: "Xem chi tiết role"
 description: "Hướng dẫn xem thông tin chi tiết của một role trong FPT IAM."
 sidebar_label: "Xem chi tiết role"
