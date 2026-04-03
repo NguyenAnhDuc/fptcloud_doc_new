@@ -1,5 +1,5 @@
 ---
-id: "change-password"
+id: "Change password"
 title: "パスワードの変更"
 description: "FPT PortalでIAM Userアカウントのパスワードを変更する方法。"
 sidebar_label: "パスワードの変更"

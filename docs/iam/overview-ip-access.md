@@ -1,5 +1,5 @@
 ---
-id: "overview-ip-access"
+id: "ip-access-overview"
 title: "IP Access overview"
 description: "Overview of the IP Access feature to control system access by IP addresses."
 sidebar_label: "IP Access overview"

@@ -1,5 +1,5 @@
 ---
-id: "quan-ly-rest-apis"
+id: "manage-rest-apis"
 title: "Quản lý REST APIs"
 description: "Hướng dẫn khai báo, chỉnh sửa và xóa REST APIs trên FPT API Management."
 sidebar_label: "Quản lý REST APIs"

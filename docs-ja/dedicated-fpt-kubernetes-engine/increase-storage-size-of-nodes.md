@@ -1,5 +1,5 @@
 ---
-id: "increase-storage-size-of-nodes"
+id: "tang-storage-size-cua-nodes"
 title: "Nodes のストレージサイズの拡張"
 description: "Kubernetes クラスターのMaster Nodes・Worker Nodesのストレージサイズを拡張する方法を説明します。"
 sidebar_label: "Nodes ストレージサイズの拡張"

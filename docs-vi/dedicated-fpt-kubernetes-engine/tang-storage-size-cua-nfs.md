@@ -1,5 +1,5 @@
 ---
-id: "tang-storage-size-cua-nfs"
+id: "increase-storage-size-of-nfs-server"
 title: "Tăng Storage size của NFS Server"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Tăng Storage size của NFS Server"

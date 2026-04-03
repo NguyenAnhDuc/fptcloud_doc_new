@@ -1,5 +1,5 @@
 ---
-id: "Role-Overview"
+id: "role-overview"
 title: "Role overview"
 description: "Role là vai trò của người dùng trong tổ chức, quy định các quyền mà user có khả năng thực hiện."
 sidebar_label: "Role overview"

@@ -1,5 +1,5 @@
 ---
-id: "get-cluster-access-information"
+id: "lay-thong-tin-truy-cap-cluster"
 title: "cluster アクセス情報の取得"
 description: "Kubernetes cluster のアクセス情報を取得する手順。"
 sidebar_label: "cluster アクセス情報の取得"

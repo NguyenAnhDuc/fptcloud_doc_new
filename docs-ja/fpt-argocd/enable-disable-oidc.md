@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-oidc"
+id: "enable-disable-chuc-nang-cau-hinh-oidc"
 title: "OIDCのenable/disable"
 description: "ArgoCDのOIDC設定機能を有効または無効にする方法。"
 sidebar_label: "OIDCのenable/disable"

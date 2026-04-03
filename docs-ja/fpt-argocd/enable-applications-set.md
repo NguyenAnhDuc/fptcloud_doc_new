@@ -1,5 +1,5 @@
 ---
-id: "enable-applications-set"
+id: "cho-phep-enable-applications-set"
 title: "ApplicationSetのenable"
 description: "ArgoCDのApplicationSet機能を有効にする方法。"
 sidebar_label: "ApplicationSetのenable"

@@ -1,5 +1,5 @@
 ---
-id: "Provision-Database-Engine"
+id: "provision-database-engine"
 title: "Provision Database Engine"
 description: "Tổng quan về việc khởi tạo và quản lý Database Engine trên FPT Smart Cloud."
 sidebar_label: "Provision Database Engine"

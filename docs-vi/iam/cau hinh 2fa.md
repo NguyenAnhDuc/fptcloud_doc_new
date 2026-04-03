@@ -1,5 +1,5 @@
 ---
-id: "2FA configuration"
+id: "configure-2fa"
 title: "Cấu hình 2FA"
 description: "Hướng dẫn bật xác thực 2 yếu tố (2FA) cho tài khoản IAM User trên FPT Portal."
 sidebar_label: "Cấu hình 2FA"

@@ -358,25 +358,33 @@ function addOrphanedFiles(sidebarItems, docIndex, usedIds, lang) {
 
   let addedCount = 0;
 
-  // Build a map: directory name → deepest matching category in sidebar
-  // Match by: (1) existing doc IDs in category, (2) category label similarity
+  // Find the most specific category for this directory.
+  // Match by: category where the MAJORITY of direct docs belong to this dir.
+  // This avoids putting orphaned docs into parent categories that happen to
+  // contain a subcategory with matching docs.
   function findBestCategory(sidebarItems, dir) {
     let best = null;
+    let bestRatio = 0;
+    let bestMatchCount = 0;
 
     function search(items) {
       for (const item of items) {
         if (item.type !== 'category') continue;
 
-        // Method 1: check if any doc in this category belongs to this directory
-        const catIds = collectUsedDocIds(item.items || []);
-        let hasMatch = false;
-        for (const id of catIds) {
-          if (id.startsWith(dir + '/')) { hasMatch = true; break; }
-        }
+        // Count direct docs (not in subcategories) that match this dir
+        const directDocs = (item.items || []).filter(i => i.type === 'doc');
+        const matchingDocs = directDocs.filter(d => d.id && d.id.startsWith(dir + '/'));
 
-        if (hasMatch) {
-          // Prefer the deepest (most specific) category
-          best = item;
+        if (matchingDocs.length > 0) {
+          // Ratio: how many of this category's direct docs belong to this dir
+          const ratio = directDocs.length > 0 ? matchingDocs.length / directDocs.length : 0;
+
+          // Prefer categories where most docs are from this dir (more specific)
+          if (ratio > bestRatio || (ratio === bestRatio && matchingDocs.length > bestMatchCount)) {
+            best = item;
+            bestMatchCount = matchingDocs.length;
+            bestRatio = ratio;
+          }
         }
 
         // Recurse into sub-categories

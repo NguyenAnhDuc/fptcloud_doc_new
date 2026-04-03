@@ -1,5 +1,5 @@
 ---
-id: "create-ip"
+id: "create-ip-access"
 title: "Khởi tạo một record IP access mới"
 description: "Hướng dẫn tạo mới một record IP access trong FPT IAM."
 sidebar_label: "Khởi tạo record IP access mới"

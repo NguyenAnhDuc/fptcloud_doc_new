@@ -1,5 +1,5 @@
 ---
-id: "Check Activity logs"
+id: "ip-access-activity-log"
 title: "Kiểm tra activity logs"
 description: "Hướng dẫn kiểm tra activity logs của IP access trong FPT IAM."
 sidebar_label: "Kiểm tra activity logs"

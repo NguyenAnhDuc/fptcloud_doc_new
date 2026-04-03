@@ -1,5 +1,5 @@
 ---
-id: "khoi-tao-kubernetes-cluster-moi"
+id: "create-new-k8s-cluster"
 title: "Khởi tạo Kubernetes cluster mới"
 description: "Hướng dẫn tạo mới một Kubernetes cluster trên dịch vụ Dedicated FPT Kubernetes Engine."
 sidebar_label: "Khởi tạo Kubernetes cluster mới"

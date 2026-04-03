@@ -1,5 +1,5 @@
 ---
-id: "truy-cap-thong-tin-chi-tiet-cua-cluster"
+id: "access-clusters-detail-information"
 title: "Truy cập thông tin chi tiết của Cluster"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Truy cập thông tin chi tiết của Cluster"

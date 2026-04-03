@@ -1,5 +1,5 @@
 ---
-id: "configure-2fa"
+id: "2FA configuration"
 title: "2FAの設定"
 description: "FPT PortalでIAM Userアカウントの2要素認証（2FA）を有効にする方法。"
 sidebar_label: "2FAの設定"

@@ -1,5 +1,5 @@
 ---
-id: "thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao"
+id: "configure-webhook-with-secret"
 title: "Thực hiện cấu hình Webhook với webhook secret đã được tạo"
 description: "**Bước 1:** Cấu hình webhook trên Gitlab"
 sidebar_label: "Thực hiện cấu hình Webhook với webhook secret đã được tạo"

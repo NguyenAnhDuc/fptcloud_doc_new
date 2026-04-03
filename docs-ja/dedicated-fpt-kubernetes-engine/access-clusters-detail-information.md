@@ -1,5 +1,5 @@
 ---
-id: "access-clusters-detail-information"
+id: "truy-cap-thong-tin-chi-tiet-cua-cluster"
 title: "クラスターの詳細情報へのアクセス"
 description: "Kubernetes クラスターの詳細情報（クラスター情報、ノードプール、高度な設定、インスタンス、アクティビティログ）を確認する方法を説明します。"
 sidebar_label: "クラスター詳細情報へのアクセス"

@@ -1,5 +1,5 @@
 ---
-id: "stop-kubernetes-cluster"
+id: "stop-k8s-cluster"
 title: "Bạn có thể tắt các Cluster đang hoạt động theo hướng dẫn sau:"
 description: "Bạn có thể tắt các **Cluster** đang hoạt động theo hướng dẫn sau:"
 sidebar_label: "Bạn có thể tắt các Cluster đang hoạt động theo hướng dẫn sau:"

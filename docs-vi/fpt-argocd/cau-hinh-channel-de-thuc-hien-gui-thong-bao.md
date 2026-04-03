@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-channel-de-thuc-hien-gui-thong-bao"
+id: "configure-notification-channels"
 title: "Cấu hình channel để thực hiện gửi thông báo"
 description: "FPT Cloud cho phép thêm mới/ chỉnh sửa thông tin cấu hình các channel như sau:"
 sidebar_label: "Cấu hình channel để thực hiện gửi thông báo"

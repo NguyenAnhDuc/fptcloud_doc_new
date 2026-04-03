@@ -1,5 +1,5 @@
 ---
-id: "configure-oidc-config"
+id: "cau-hinh-oidc-config"
 title: "OIDC configの設定"
 description: "ArgoCDでSSO/Keycloak統合用の新しいOIDC configを追加する方法。"
 sidebar_label: "OIDC configの設定"

@@ -1,5 +1,5 @@
 ---
-id: "backup-restore-cluster"
+id: "backup-and-restore-cluster"
 title: "Cluster のバックアップとリストア"
 description: "Kubernetes cluster をバックアップおよびリストアする手順。"
 sidebar_label: "Cluster のバックアップとリストア"

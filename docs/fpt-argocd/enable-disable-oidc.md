@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-oidc"
+id: "enable-disable-chuc-nang-cau-hinh-oidc"
 title: "Enable/disable OIDC"
 description: "Guide to enabling or disabling OIDC configuration for ArgoCD"
 sidebar_label: "Enable/disable OIDC"

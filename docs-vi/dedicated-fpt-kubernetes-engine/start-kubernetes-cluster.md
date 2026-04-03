@@ -1,5 +1,5 @@
 ---
-id: "start-kubernetes-cluster"
+id: "start-k8s-cluster"
 title: "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"
 description: "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"
 sidebar_label: "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"

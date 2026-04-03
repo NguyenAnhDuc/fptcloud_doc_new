@@ -1,5 +1,5 @@
 ---
-id: "delete-oidc-da-cau-hinh"
+id: "delete-oidc-config"
 title: "Xóa cấu hình OIDC"
 description: "Hướng dẫn xóa OIDC Scope đã cấu hình trong ArgoCD"
 sidebar_label: "Xóa cấu hình OIDC"

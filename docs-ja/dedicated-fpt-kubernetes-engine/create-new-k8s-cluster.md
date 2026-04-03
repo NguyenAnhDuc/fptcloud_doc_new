@@ -1,5 +1,5 @@
 ---
-id: "create-new-k8s-cluster"
+id: "khoi-tao-kubernetes-cluster-moi"
 title: "新規 Kubernetes cluster の作成"
 description: "Dedicated FPT Kubernetes Engine サービスで新規 Kubernetes cluster を作成する手順。"
 sidebar_label: "新規 Kubernetes cluster の作成"

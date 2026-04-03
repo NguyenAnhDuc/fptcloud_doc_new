@@ -1,5 +1,5 @@
 ---
-id: "cho-phep-enable-applications-set"
+id: "enable-applications-set"
 title: "Enable ApplicationSet"
 description: "Hướng dẫn bật tính năng ApplicationSet trong ArgoCD"
 sidebar_label: "Enable ApplicationSet"

@@ -1,5 +1,5 @@
 ---
-id: "cau-hinh-oidc-config"
+id: "configure-oidc-config"
 title: "Cấu hình OIDC config"
 description: "Hướng dẫn thêm mới cấu hình OIDC để tích hợp SSO với Keycloak"
 sidebar_label: "Cấu hình OIDC config"

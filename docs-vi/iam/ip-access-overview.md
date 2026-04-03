@@ -1,5 +1,5 @@
 ---
-id: "ip-access-overview"
+id: "overview-ip-access"
 title: "IP Access overview"
 description: "IP Access kiểm soát truy cập hệ thống theo địa chỉ IP được cấu hình."
 sidebar_label: "IP Access overview"

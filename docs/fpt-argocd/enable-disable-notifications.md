@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-notifications"
+id: "enable-disable-notificaions"
 title: "Enable/disable notifications"
 description: "Guide to enabling or disabling ArgoCD notifications on FPT Cloud Portal"
 sidebar_label: "Enable/disable notifications"

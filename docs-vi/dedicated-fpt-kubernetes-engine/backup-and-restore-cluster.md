@@ -1,5 +1,5 @@
 ---
-id: "backup-and-restore-cluster"
+id: "backup-restore-cluster"
 title: "Backup and Restore Cluster"
 description: "Để backup k8s cluster, thực hiện backup master nodes sử dụng dịch vụ **Backup & Recovery**."
 sidebar_label: "Backup and Restore Cluster"

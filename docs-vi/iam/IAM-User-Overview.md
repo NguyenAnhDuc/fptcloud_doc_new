@@ -1,5 +1,5 @@
 ---
-id: "IAM-User-Overview"
+id: "overview-iam-user"
 title: "IAM User overview"
 description: "IAM User là người dùng được mời thêm vào Tenant, có thể đã có hoặc chưa có tài khoản FPT Cloud."
 sidebar_label: "IAM User overview"

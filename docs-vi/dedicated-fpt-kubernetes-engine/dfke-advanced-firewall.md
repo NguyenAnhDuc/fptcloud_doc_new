@@ -1,5 +1,5 @@
 ---
-id: "dfke-advanced-firewall"
+id: "advanced-firewall"
 title: "1. Tổng quan sản phẩm Kubenetes tích hợp Firewall"
 description: "Sản phẩm Kubenetes tích hợp Firewall khác so với sản phẩm Kubenetes cơ bản của FPT Cloud là sử dụng 01 Advanced Firewall"
 sidebar_label: "1. Tổng quan sản phẩm Kubenetes tích hợp Firewall"

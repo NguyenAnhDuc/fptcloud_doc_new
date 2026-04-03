@@ -1,5 +1,5 @@
 ---
-id: "initial-setup"
+id: "Initial-Setup"
 title: "初期設定"
 description: "FPT Kubernetes Engine サービスを使用する前の初期設定手順。"
 sidebar_label: "初期設定"

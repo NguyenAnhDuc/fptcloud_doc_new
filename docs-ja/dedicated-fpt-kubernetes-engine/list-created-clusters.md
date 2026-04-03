@@ -1,5 +1,5 @@
 ---
-id: "list-created-clusters"
+id: "xem-danh-sach-kubernetes-cluster-da-tao"
 title: "作成済みKubernetes クラスターの一覧表示"
 description: "Kubernetes Management ページで作成済みのKubernetes クラスターの一覧を確認・管理できます。"
 sidebar_label: "クラスター一覧の表示"

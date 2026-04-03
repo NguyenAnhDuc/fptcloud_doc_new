@@ -1,5 +1,5 @@
 ---
-id: "ip-access-activity-log"
+id: "Check Activity logs"
 title: "アクティビティログの確認"
 description: "FPT IAMでIP Accessのアクティビティログを確認する方法。"
 sidebar_label: "アクティビティログの確認"

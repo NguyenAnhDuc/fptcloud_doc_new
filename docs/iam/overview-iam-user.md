@@ -1,5 +1,5 @@
 ---
-id: "overview-iam-user"
+id: "IAM-User-Overview"
 title: "IAM User overview"
 description: "Overview of IAM Users — users invited to access a Tenant on FPT Cloud."
 sidebar_label: "IAM User overview"

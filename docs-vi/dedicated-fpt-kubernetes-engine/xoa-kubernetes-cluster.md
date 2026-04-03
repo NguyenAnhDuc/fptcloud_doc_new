@@ -1,5 +1,5 @@
 ---
-id: "xoa-kubernetes-cluster"
+id: "delete-k8s-cluster"
 title: "Xoa Kubernetes Cluster"
 description: "Với các **Kubernetes Cluster** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:"
 sidebar_label: "Xoa Kubernetes Cluster"

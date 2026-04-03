@@ -1,5 +1,5 @@
 ---
-id: "change-nfs-server-configuration"
+id: "thay-doi-flavor-cau-hinh-nfs"
 title: "NFS Server のフレーバー（構成）の変更"
 description: "Kubernetes クラスターのNFS ServerのCPU・RAMフレーバー（構成）を変更する方法を説明します。"
 sidebar_label: "NFS Server 構成の変更"

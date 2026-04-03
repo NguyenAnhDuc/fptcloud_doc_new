@@ -1,5 +1,5 @@
 ---
-id: "lay-thong-tin-truy-cap-cluster"
+id: "get-cluster-access-information"
 title: "Lấy thông tin truy cập Cluster"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management.**"
 sidebar_label: "Lấy thông tin truy cập Cluster"

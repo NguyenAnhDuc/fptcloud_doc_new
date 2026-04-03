@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-chuc-nang-cau-hinh-oidc"
+id: "enable-disable-oidc"
 title: "Enable/disable OIDC"
 description: "Hướng dẫn bật hoặc tắt chức năng cấu hình OIDC trong ArgoCD"
 sidebar_label: "Enable/disable OIDC"

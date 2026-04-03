@@ -1,5 +1,5 @@
 ---
-id: "scan-image"
+id: "scan-image-1"
 title: "イメージをスキャンする"
 description: "FPT Portal からコンテナイメージの脆弱性スキャンを実行する。"
 sidebar_label: "イメージをスキャンする"

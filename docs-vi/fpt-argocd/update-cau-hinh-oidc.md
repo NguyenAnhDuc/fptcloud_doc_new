@@ -1,5 +1,5 @@
 ---
-id: "update-cau-hinh-oidc"
+id: "update-oidc-config"
 title: "Cập nhật cấu hình OIDC"
 description: "Hướng dẫn chỉnh sửa cấu hình OIDC đã tạo trong ArgoCD"
 sidebar_label: "Cập nhật cấu hình OIDC"

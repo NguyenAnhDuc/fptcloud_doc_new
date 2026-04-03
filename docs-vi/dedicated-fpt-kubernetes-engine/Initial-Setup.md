@@ -1,5 +1,5 @@
 ---
-id: "Initial-Setup"
+id: "initial-setup"
 title: "Thiết lập ban đầu"
 description: "Hướng dẫn thiết lập ban đầu trước khi sử dụng dịch vụ FPT Kubernetes Engine."
 sidebar_label: "Thiết lập ban đầu"

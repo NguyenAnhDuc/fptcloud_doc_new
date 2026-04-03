@@ -1,5 +1,5 @@
 ---
-id: "stop-k8s-cluster"
+id: "stop-kubernetes-cluster"
 title: "Kubernetes クラスターの停止"
 description: "稼働中のKubernetes クラスターを停止する方法を説明します。"
 sidebar_label: "クラスターの停止"

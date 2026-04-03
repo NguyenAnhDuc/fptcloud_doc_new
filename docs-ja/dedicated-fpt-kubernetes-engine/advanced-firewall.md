@@ -1,5 +1,5 @@
 ---
-id: "advanced-firewall"
+id: "dfke-advanced-firewall"
 title: "DFKE Advanced Firewall"
 description: "Firewall 統合 Kubernetes 製品の概要と設定方法。"
 sidebar_label: "Advanced Firewall"

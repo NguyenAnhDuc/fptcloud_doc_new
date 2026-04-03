@@ -1,5 +1,5 @@
 ---
-id: "token"
+id: "user-token"
 title: "Token"
 description: "Tài liệu hướng dẫn sử dụng tính năng Token trên FPT Cloud Portal"
 sidebar_label: "Token"

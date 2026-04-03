@@ -1,5 +1,5 @@
 ---
-id: "overview-user-group"
+id: "User Group-Overview"
 title: "User Group overview"
 description: "A User Group represents a group of users with the same role in FPT IAM."
 sidebar_label: "User Group overview"

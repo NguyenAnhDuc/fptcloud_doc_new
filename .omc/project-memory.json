@@ -248,6 +248,12 @@
       "type": "file"
     },
     {
+      "path": "scripts/compare-menu.js",
+      "accessCount": 2,
+      "lastAccessed": 1775231861493,
+      "type": "file"
+    },
+    {
       "path": "scripts/menu-tree.json",
       "accessCount": 1,
       "lastAccessed": 1775191400399,
@@ -419,6 +425,30 @@
       "path": "scripts/analyze-unmatched-docs.js",
       "accessCount": 1,
       "lastAccessed": 1775214014556,
+      "type": "file"
+    },
+    {
+      "path": "scripts/analyze-unmatched-deep.js",
+      "accessCount": 1,
+      "lastAccessed": 1775230025267,
+      "type": "file"
+    },
+    {
+      "path": "scripts/smart-unify-ids.js",
+      "accessCount": 1,
+      "lastAccessed": 1775230237917,
+      "type": "file"
+    },
+    {
+      "path": "scripts/create-missing-translations.js",
+      "accessCount": 1,
+      "lastAccessed": 1775230639897,
+      "type": "file"
+    },
+    {
+      "path": "scripts/remove-duplicate-translations.js",
+      "accessCount": 1,
+      "lastAccessed": 1775231779191,
       "type": "file"
     }
   ],

@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-notifications"
+id: "enable-disable-notificaions"
 title: "Notificationsのenable/disable"
 description: "ArgoCDのnotifications機能を有効または無効にする方法。"
 sidebar_label: "Notificationsのenable/disable"

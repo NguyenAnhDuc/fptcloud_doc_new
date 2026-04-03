@@ -1,5 +1,5 @@
 ---
-id: "thay-doi-flavor-cau-hinh-nfs"
+id: "change-nfs-server-configuration"
 title: "Thay đổi Flavor (cấu hình) NFS Server"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Thay đổi Flavor (cấu hình) NFS Server"

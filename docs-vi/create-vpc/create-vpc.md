@@ -1,5 +1,5 @@
 ---
-id: "create-vpc"
+id: "create-vpc-en"
 title: "Khởi tạo VPC"
 description: "Hướng dẫn khởi tạo VPC mới trên FPT Cloud Portal."
 sidebar_label: "Khởi tạo VPC"

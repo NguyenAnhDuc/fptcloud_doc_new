@@ -1,5 +1,5 @@
 ---
-id: "user-token"
+id: "token"
 title: "ユーザートークン"
 description: "FPT Cloud AI Studioのユーザートークン機能に関するドキュメント"
 sidebar_label: "ユーザートークン"

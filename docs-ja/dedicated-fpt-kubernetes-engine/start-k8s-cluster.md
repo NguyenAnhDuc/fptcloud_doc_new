@@ -1,5 +1,5 @@
 ---
-id: "start-k8s-cluster"
+id: "start-kubernetes-cluster"
 title: "Kubernetes クラスターの起動"
 description: "以前に停止したKubernetes クラスターを再起動する方法を説明します。"
 sidebar_label: "クラスターの起動"

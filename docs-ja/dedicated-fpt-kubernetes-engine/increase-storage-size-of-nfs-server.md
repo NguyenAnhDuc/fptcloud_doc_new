@@ -1,5 +1,5 @@
 ---
-id: "increase-storage-size-of-nfs-server"
+id: "tang-storage-size-cua-nfs"
 title: "NFS Server のストレージサイズの拡張"
 description: "Kubernetes クラスターのNFS Serverのストレージサイズを拡張する方法を説明します。"
 sidebar_label: "NFS Server ストレージサイズの拡張"

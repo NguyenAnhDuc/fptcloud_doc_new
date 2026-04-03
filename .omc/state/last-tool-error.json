@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"# Confirm files exist with same name\\nls docs/tagging/create-tag-new.md docs-vi/tagging/create-tag-new.md docs-ja/タグ-付け/create-tag-new.md 2>&1\",\"description\":\"Verify files exist across lan...",
-  "error": "Exit code 2\nls: cannot access 'docs/tagging/create-tag-new.md': No such file or directory\nls: cannot access 'docs-ja/タグ-付け/create-tag-new.md': No such file or directory\ndocs-vi/tagging/create-tag-new.md",
-  "timestamp": "2026-04-03T10:41:04.866Z",
+  "tool_input_preview": "{\"command\":\"node scripts/rebuild-sidebars-from-menu.js 2>&1 | grep Written && node scripts/clean-sidebar-refs.js 2>&1 | grep -v \\\"0 invalid\\\" && node scripts/flatten-single-child-categories.js 2>&1 &&...",
+  "error": "Exit code 1\n  Written: sidebars-vi.js\n  Written: sidebars.js\n  Written: sidebars-ja.js",
+  "timestamp": "2026-04-03T16:28:37.648Z",
   "retry_count": 1
 }

@@ -1,5 +1,5 @@
 ---
-id: "delete-k8s-cluster"
+id: "xoa-kubernetes-cluster"
 title: "Kubernetes クラスターの削除"
 description: "不要になったKubernetes クラスターを削除する方法を説明します。"
 sidebar_label: "クラスターの削除"

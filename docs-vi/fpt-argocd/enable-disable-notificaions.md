@@ -1,5 +1,5 @@
 ---
-id: "enable-disable-notificaions"
+id: "enable-disable-notifications"
 title: "Enable/disable notifications"
 description: "Hướng dẫn bật hoặc tắt tính năng notifications trong ArgoCD"
 sidebar_label: "Enable/disable notifications"

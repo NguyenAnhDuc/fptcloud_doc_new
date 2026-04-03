@@ -1,5 +1,5 @@
 ---
-id: "create-ip-access"
+id: "create-ip"
 title: "新しいIP Accessレコードの作成"
 description: "FPT IAMで新しいIP Accessレコードを作成する方法。"
 sidebar_label: "新しいIP Accessレコードの作成"

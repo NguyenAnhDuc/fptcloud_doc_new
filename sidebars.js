@@ -19,7 +19,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
@@ -41,7 +41,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -122,7 +122,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
@@ -161,7 +161,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
@@ -178,7 +178,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -217,34 +217,12 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Global Search",
-          collapsed:  true,
-          items:  [
-            {
-              type:  "doc",
-              id:  "global-search/global-search-phase-1",
-              label:  "Global Search guide"
-            },
-            {
-              type:  "doc",
-              id:  "global-search/global-search",
-              label:  "Global Search"
-            },
-            {
-              type:  "doc",
-              id:  "global-search/global-search-usage",
-              label:  "Using Global Search"
-            }
-          ]
-        },
-        {
-          type:  "category",
           label:  "FPT Cloud Portal – Pay As You Go",
           collapsed:  true,
           items:  [
             {
               type:  "category",
-              label:  "Registration & Sign In",
+              label:  "Đăng ký, đăng nhập",
               collapsed:  true,
               items:  [
                 {
@@ -261,7 +239,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Register Personal/Organization Info",
+              label:  "Đăng ký thông tin cá nhân/ tổ chức",
               collapsed:  true,
               items:  [
                 {
@@ -278,12 +256,17 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/home-page-portal",
                   label:  "Portal Home Page"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+                  label:  "FPT Cloud Portal – Pay As You Go"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Top Up Account",
+              label:  "Nạp tiền vào tài khoản",
               collapsed:  true,
               items:  [
                 {
@@ -300,7 +283,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Purchase Virtual Machine",
+              label:  "Mua máy ảo",
               collapsed:  true,
               items:  [
                 {
@@ -322,7 +305,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Purchase Storage",
+              label:  "Mua Storage",
               collapsed:  true,
               items:  [
                 {
@@ -339,7 +322,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "View Service Billing",
+              label:  "Xem billing các dịch vụ trên hệ thống",
               collapsed:  true,
               items:  [
                 {
@@ -351,11 +334,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions",
                   label:  "View Transaction History"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
-                  label:  "FPT Cloud Portal – Pay As You Go"
                 }
               ]
             }
@@ -368,38 +346,23 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "fpt-cloud-desktop/overview-fcd",
-              label:  "Detailed overview"
-            },
-            {
-              type:  "doc",
               id:  "fpt-cloud-desktop/initial-setup",
               label:  "Prerequisites"
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Sign In with SSO Account (Azure)",
+                  label:  "Đăng nhập với tài khoản SSO (Azure)",
                   collapsed:  true,
                   items:  [
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO",
                       label:  "Log in with SSO account"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-desktop/SSO-qua-FCDClient-moi",
-                      label:  "Via new FCDClient (recommended)"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-desktop/SSO-qua-web-browser",
-                      label:  "Via web browser"
                     },
                     {
                       type:  "doc",
@@ -410,7 +373,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Sign In with Account/Password",
+                  label:  "Đăng nhập với Account/Password",
                   collapsed:  true,
                   items:  [
                     {
@@ -425,34 +388,22 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-desktop/accountpassword-qua-web-browser",
-                      label:  "Via web browser"
+                      id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
+                      label:  "Via legacy FCDClient"
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
-                      label:  "Via legacy FCDClient"
+                      id:  "fpt-cloud-desktop/fpt-cloud-desktop",
+                      label:  "What is FPT Cloud Desktop?"
                     }
                   ]
                 }
               ]
             },
             {
-              type:  "category",
-              label:  "FAQs",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/faq",
-                  label:  "Frequently asked questions (FAQs)"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/fpt-cloud-desktop",
-                  label:  "What is FPT Cloud Desktop?"
-                }
-              ]
+              type:  "doc",
+              id:  "fpt-cloud-desktop/faq",
+              label:  "Frequently asked questions (FAQs)"
             }
           ]
         },
@@ -463,7 +414,7 @@ module.exports = {
           items:  [
             {
               type:  "category",
-              label:  "Manage Profile",
+              label:  "Quản lý Profile",
               collapsed:  true,
               items:  [
                 {
@@ -490,7 +441,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Manage Group",
+              label:  "Quản lý Group",
               collapsed:  true,
               items:  [
                 {
@@ -527,12 +478,17 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-autoscale/xoa-group",
                   label:  "Delete Group"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-autoscale/fpt-autoscale",
+                  label:  "FPT Autoscale"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Manage Policy",
+              label:  "Quản lý Policy",
               collapsed:  true,
               items:  [
                 {
@@ -547,23 +503,8 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-autoscale/attach-policy-vao-group",
-                  label:  "Attach Policy to Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-autoscale/detach-policy-khoi-group",
-                  label:  "Detach Policy from Group"
-                },
-                {
-                  type:  "doc",
                   id:  "fpt-autoscale/xoa-policy",
                   label:  "Delete Policy"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-autoscale/fpt-autoscale",
-                  label:  "FPT Autoscale"
                 }
               ]
             }
@@ -581,12 +522,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Create Virtual Machine",
+                  label:  "Tạo một máy ảo",
                   collapsed:  true,
                   items:  [
                     {
@@ -630,12 +571,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage Virtual Machines",
+                  label:  "Quản lý máy ảo",
                   collapsed:  true,
                   items:  [
                     {
@@ -682,17 +623,12 @@ module.exports = {
                       type:  "doc",
                       id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
                       label:  "Backup VM with Snapshot"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-xoa-may-ao",
-                      label:  "Delete a virtual machine"
                     }
                   ]
                 },
                 {
                   type:  "category",
-                  label:  "Manage GPU with Portal Console",
+                  label:  "Quản lý GPU với Portal Console",
                   collapsed:  true,
                   items:  [
                     {
@@ -714,7 +650,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage GPU Server with HPC Portal",
+                  label:  "Quản lý GPU Server với HPC Portal",
                   collapsed:  true,
                   items:  [
                     {
@@ -771,6 +707,11 @@ module.exports = {
                       type:  "doc",
                       id:  "cloud-server/hpc-delete-image",
                       label:  "Delete Image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/cloud-server",
+                      label:  "Overview"
                     }
                   ]
                 },
@@ -872,7 +813,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Instance Template",
+                  label:  "Quản lý Instance Template",
                   collapsed:  true,
                   items:  [
                     {
@@ -909,7 +850,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage NIC (Network Interface Card)",
+                  label:  "Quản lý NIC (Network Interface Card)",
                   collapsed:  true,
                   items:  [
                     {
@@ -1008,7 +949,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Security Group",
+                  label:  "Quản lý Security Group",
                   collapsed:  true,
                   items:  [
                     {
@@ -1035,7 +976,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Instance Group with Affinity & Anti-Affinity",
+                  label:  "Quản lý Instance Group với chính sách Affinity & Anti-Affinity",
                   collapsed:  true,
                   items:  [
                     {
@@ -1077,7 +1018,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Project",
+                  label:  "Quản lý Project",
                   collapsed:  true,
                   items:  [
                     {
@@ -1151,7 +1092,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "VM Snapshot Schedule",
+                  label:  "Lịch snapshot máy ảo",
                   collapsed:  true,
                   items:  [
                     {
@@ -1183,7 +1124,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Disk Snapshot Schedule",
+                  label:  "Lịch snapshot ổ đĩa",
                   collapsed:  true,
                   items:  [
                     {
@@ -1217,7 +1158,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "FAQs",
+              label:  "Các câu hỏi thường gặp (FAQs)",
               collapsed:  true,
               items:  [
                 {
@@ -1234,11 +1175,6 @@ module.exports = {
                   type:  "doc",
                   id:  "cloud-server/question-",
                   label:  "FAQ: NAT Instance"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/cloud-server",
-                  label:  "Overview"
                 }
               ]
             },
@@ -1520,6 +1456,23 @@ module.exports = {
         },
         {
           type:  "category",
+          label:  "Global Search",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "global-search/global-search",
+              label:  "Global Search"
+            },
+            {
+              type:  "doc",
+              id:  "global-search/global-search-usage",
+              label:  "Using Global Search"
+            }
+          ]
+        },
+        {
+          type:  "category",
           label:  "Relation Management",
           collapsed:  true,
           items:  [
@@ -1550,11 +1503,6 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "relation-management/app-relation-management",
-              label:  "App Relation Management"
-            },
-            {
-              type:  "doc",
               id:  "relation-management/tag-management",
               label:  "Tag Management"
             },
@@ -1567,11 +1515,6 @@ module.exports = {
               type:  "doc",
               id:  "relation-management/relation-management-detail",
               label:  "1, Create relation"
-            },
-            {
-              type:  "doc",
-              id:  "relation-management/datasource-relation-management",
-              label:  "Datasource Relation Management"
             },
             {
               type:  "doc",
@@ -1634,6 +1577,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "user-token/create-token",
+              label:  "Tạo token mới"
+            },
+            {
+              type:  "doc",
               id:  "user-token/quick-start",
               label:  "Quick Start"
             },
@@ -1641,6 +1589,16 @@ module.exports = {
               type:  "doc",
               id:  "user-token/how-to-create-an-user-token",
               label:  "How To Create An..."
+            },
+            {
+              type:  "doc",
+              id:  "user-token/revoke-token",
+              label:  "Thu hồi token"
+            },
+            {
+              type:  "doc",
+              id:  "user-token/fqas",
+              label:  "Câu hỏi thường gặp"
             }
           ]
         }
@@ -1663,58 +1621,187 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Use Object Storage on FPT Portal",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "category",
+                  label:  "Sử dụng Object Storage trên FPT Portal",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal",
+                      label:  "Sử dụng trên FPT Portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-bucket",
+                      label:  "Create a bucket"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-object",
+                      label:  "Upload objects to a bucket"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-permissions",
+                      label:  "Edit object permissions (ACL)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-bucket-config",
+                      label:  "Bucket configuration"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-encryption",
+                      label:  "Cách Hoạt Động Của SSE-C"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/fpt-object-storage",
+                      label:  "FPT Object Storage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/object-storage",
+                      label:  "Giới thiệu"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-using-object-storage-on-fpt-portal",
+                      label:  "Use Object Storage on FPT Portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/use-on-fpt-portal",
+                      label:  "FPT Portal での利用"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/manage-bucket",
+                      label:  "bucket の管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/manage-objects",
+                      label:  "object の管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/manage-permissions",
+                      label:  "Permissions"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/bucket-config",
+                      label:  "bucket の設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/encryption",
+                      label:  "暗号化（SSE-C）"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-access-key-management",
+                      label:  "Access key management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/manage-access-keys",
+                      label:  "access key の管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-subuser-management",
+                      label:  "Subuser management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/manage-subusers",
+                      label:  "subuser の管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser",
+                      label:  "Use Object Storage with S3 Browser"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client",
+                      label:  "Integrate with S3 client"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/sdk-api-reference",
+                      label:  "SDK・API リファレンス"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/build-static-website",
+                      label:  "静的ウェブサイトの構築"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-object-storage/subuser-bucket-permissions",
+                      label:  "subuser への bucket 権限付与"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal",
+                  label:  "Quản lý Access Key"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-object-storage/tutorials-quan-ly-subuser",
+                  label:  "Quản Lý SubUser Trên..."
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-object-storage/SDK-API-Reference",
+                  label:  "Cài đặt"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-object-storage/migrate-bucket-data",
+                  label:  "tương thích với AWS S3"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Một số gợi ý mẫu (Samples)",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-bucket",
-                  label:  "Create a bucket"
+                  id:  "fpt-object-storage/su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application",
+                  label:  "Sử dụng FPT Object Storage làm media server"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-object",
-                  label:  "Upload objects to a bucket"
+                  id:  "fpt-object-storage/xay-dung-mot-website-tinh-bang-fpt-object-storage",
+                  label:  "Xây dựng một website tĩnh bằng FPT Object Storage"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-permissions",
-                  label:  "Edit object permissions (ACL)"
+                  id:  "fpt-object-storage/mount-bucket-thanh-o-dia-tren-may-local",
+                  label:  "Mount bucket thành ổ đĩa trên máy local"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/tutorials-bucket-config",
-                  label:  "Bucket configuration"
+                  id:  "fpt-object-storage/clone-du-lieu-giua-hai-bucket-khac-nhau",
+                  label:  "Clone dữ liệu giữa hai bucket khác nhau"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-object-storage/fpt-object-storage",
-                  label:  "FPT Object Storage"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-object-storage/tutorials-using-object-storage-on-fpt-portal",
-                  label:  "Use Object Storage on FPT Portal"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-object-storage/tutorials-access-key-management",
-                  label:  "Access key management"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-object-storage/tutorials-subuser-management",
-                  label:  "Subuser management"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser",
-                  label:  "Use Object Storage with S3 Browser"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client",
-                  label:  "Integrate with S3 client"
+                  id:  "fpt-object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser",
+                  label:  "Phân quyền sử dụng bucket cho các subuser"
                 }
               ]
             }
@@ -1722,7 +1809,7 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Initial Setup",
+          label:  "File Storage - High Performance",
           collapsed:  true,
           items:  [
             {
@@ -1731,39 +1818,73 @@ module.exports = {
               label:  "Initial setup"
             },
             {
-              type:  "doc",
-              id:  "file-storage-high-performance/file-storage-high-performance",
-              label:  "File Storage – High..."
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/vietnam-region",
-              label:  "Vietnam region"
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/mountpoint-management",
-              label:  "Mount point management"
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/vn-using-file-storage-high-performance-on-baremetal-gpu-server",
-              label:  "Create mount point (Vietnam)"
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/using-file-storage-high-performance-on-kubernetes-k8s-cluster",
-              label:  "Use on Kubernetes cluster"
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/japan-region",
-              label:  "Japan region"
-            },
-            {
-              type:  "doc",
-              id:  "file-storage-high-performance/japan-using-file-storage-high-performance-on-baremetal-gpu-server",
-              label:  "Create mount point (Japan)"
+              type:  "category",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "category",
+                  label:  "Region Việt Nam",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/quan-ly-mountpoint",
+                      label:  "MountPoint の管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
+                      label:  "Baremetal (GPU Server) での利用"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)",
+                      label:  "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/file-storage-high-performance",
+                      label:  "File Storage – High..."
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/vietnam-region",
+                      label:  "Vietnam region"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/mountpoint-management",
+                      label:  "Mount point management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/vn-using-file-storage-high-performance-on-baremetal-gpu-server",
+                      label:  "Create mount point (Vietnam)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/using-file-storage-high-performance-on-kubernetes-k8s-cluster",
+                      label:  "Use on Kubernetes cluster"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/japan-region",
+                      label:  "Japan region"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/japan-using-file-storage-high-performance-on-baremetal-gpu-server",
+                      label:  "Create mount point (Japan)"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
+                  label:  "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
+                }
+              ]
             }
           ]
         }
@@ -1781,158 +1902,272 @@ module.exports = {
           items:  [
             {
               type:  "doc",
+              id:  "vpn-site-to-site/overviews-vpn",
+              label:  "Tổng quan VPN Site-to-Site"
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/initial-setup",
+              label:  "Thiết lập ban đầu"
+            },
+            {
+              type:  "doc",
               id:  "vpn-site-to-site/edit-security-profile",
               label:  "Edit Security Profile"
             },
             {
               type:  "category",
-              label:  "Manage VPN Connection",
+              label:  "VPN Site to Site (new version)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/edit-vpn-connection",
-                  label:  "Edit VPN connection"
+                  type:  "category",
+                  label:  "Cấu hình thiết bị VPN phổ biến",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-pfsense",
+                      label:  "Cấu hình VPN Site-to-Site với PfSense"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-strongswan",
+                      label:  "Cấu hình VPN Site-to-Site với strongSwan"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-vyos-1.5",
+                      label:  "Cấu hình VPN Site-to-Site với Vyos 1.5"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-checkpoint-r8120",
+                      label:  "Cấu hình VPN Site-to-Site với CheckPoint R81.20"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-fci-aws-transitgw",
+                      label:  "Cấu hình kết nối VPN Site-to-Site giữa FCI Cloud và AWS (Transit-Gateway)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-fci-aws-virtualgw",
+                      label:  "I. Cấu hình VPN Site-to-Site trên AWS"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-fci-vmware",
+                      label:  "Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack và VMware"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/connect-behind-NAT",
+                      label:  "Cấu hình VPN Site-to-Site với các thiết bị NAT IP"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/vpn-site-to-site",
+                      label:  "VPN Site-to-Site"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/create-vpn",
+                      label:  "Create VPN"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/サイト間VPNの作成 -1",
+                      label:  "サイト間VPNの作成"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN情報の確認",
+                      label:  "VPN情報の確認"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/view-vpn-",
+                      label:  "View VPN details"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/disable-VPN-Site-to-Site",
+                      label:  "Disable VPN Site-to-Site"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/サイト間VPNの無効化 -1",
+                      label:  "サイト間VPNの無効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/enable-vpn-s2S",
+                      label:  "Enable VPN Site-to-Site"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/サイト間VPNを有効にする-2",
+                      label:  "サイト間VPNの有効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/edit-vpn",
+                      label:  "Edit VPN information"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/サイト間VPNの情報編集 -3",
+                      label:  "VPN情報の編集"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/download-config-",
+                      label:  "Download configuration"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/サイト間の削除-5",
+                      label:  "サイト間VPNの削除"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/delete-vpn",
+                      label:  "Delete VPN"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN-Activity",
+                      label:  "VPN activity log"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/Authenticate-Certificate mode-1",
+                      label:  "Authenticate certificate mode"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/common-vpn-device-configuration",
+                      label:  "Common VPN device configuration"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Palo-Alto-guide",
+                      label:  "Configuration with Palo Alto"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Fortigate-guide",
+                      label:  "Configuration with Fortigate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(Virtual-private-gateways)-guide",
+                      label:  "Configuration with AWS (Virtual Private Gateways)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(transit-gateway)-guide",
+                      label:  "Configuration with AWS (Transit Gateway)"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/openstack-portal-to-VMW",
+                      label:  "Configuration with VMware"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/vpn-connection-management",
+                      label:  "VPN connection management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/create-a-vpn-connection",
+                      label:  "Create a VPN connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/delete-vpn-connection",
+                      label:  "Delete VPN connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/create-customer-gateway",
+                      label:  "Create Customer Gateway"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/edit-customer-gateway",
+                      label:  "Edit Customer Gateway"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/delete-customer-gateway",
+                      label:  "Delete Customer Gateway"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/permission-access-guide",
+                      label:  "Service authorization management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/setting-up-alerts-via-the-cloud-guard-service-guide",
+                      label:  "Set up alerts via Cloud Guard"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/monitoring-service-through-monitoring-feature-guide",
+                      label:  "Monitor via Monitoring"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/monitoring-service-through-logging-feature-guide",
+                      label:  "Monitor via Logging"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/frequently-asked-question",
+                      label:  "FAQs"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý & thao tác VPN Connection",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/action-management",
+                      label:  "Quản lý & thao tác VPN Connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/create-vpn-connection",
+                      label:  "Hướng dẫn khởi tạo VPN Connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/edit-vpn-connection",
+                      label:  "Edit VPN connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/enable-disable-vpn-connection",
+                      label:  "Enable/disable VPN connection"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "vpn-site-to-site/ket-noi-thiet-bi-behind-NAT-IP",
+                      label:  "Hướng dẫn kết nối thiết bị Behind NAT IP"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "vpn-site-to-site/enable-disable-vpn-connection",
-                  label:  "Enable/disable VPN connection"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/vpn-site-to-site",
-                  label:  "VPN Site-to-Site"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/create-vpn",
-                  label:  "Create VPN"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/view-vpn-",
-                  label:  "View VPN details"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/disable-VPN-Site-to-Site",
-                  label:  "Disable VPN Site-to-Site"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/enable-vpn-s2S",
-                  label:  "Enable VPN Site-to-Site"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/edit-vpn",
-                  label:  "Edit VPN information"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/download-config-",
-                  label:  "Download configuration"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/delete-vpn",
-                  label:  "Delete VPN"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/VPN-Activity",
-                  label:  "VPN activity log"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/Authenticate-Certificate mode-1",
-                  label:  "Authenticate certificate mode"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/common-vpn-device-configuration",
-                  label:  "Common VPN device configuration"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Palo-Alto-guide",
-                  label:  "Configuration with Palo Alto"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-with-Fortigate-guide",
-                  label:  "Configuration with Fortigate"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(Virtual-private-gateways)-guide",
-                  label:  "Configuration with AWS (Virtual Private Gateways)"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(transit-gateway)-guide",
-                  label:  "Configuration with AWS (Transit Gateway)"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/openstack-portal-to-VMW",
-                  label:  "Configuration with VMware"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/vpn-connection-management",
-                  label:  "VPN connection management"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/create-a-vpn-connection",
-                  label:  "Create a VPN connection"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/delete-vpn-connection",
-                  label:  "Delete VPN connection"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/create-customer-gateway",
-                  label:  "Create Customer Gateway"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/edit-customer-gateway",
-                  label:  "Edit Customer Gateway"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/delete-customer-gateway",
-                  label:  "Delete Customer Gateway"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/permission-access-guide",
-                  label:  "Service authorization management"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/setting-up-alerts-via-the-cloud-guard-service-guide",
-                  label:  "Set up alerts via Cloud Guard"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/monitoring-service-through-monitoring-feature-guide",
-                  label:  "Monitor via Monitoring"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/monitoring-service-through-logging-feature-guide",
-                  label:  "Monitor via Logging"
-                },
-                {
-                  type:  "doc",
-                  id:  "vpn-site-to-site/frequently-asked-question",
-                  label:  "FAQs"
+                  id:  "vpn-site-to-site/faq",
+                  label:  "Câu hỏi thường gặp"
                 }
               ]
             }
@@ -1940,165 +2175,270 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Load Balancer (Tutorials)",
+          label:  "Load Balancer",
           collapsed:  true,
           items:  [
             {
               type:  "category",
-              label:  "Quản lý Load Balancer",
+              label:  "Load Balancer (Tutorials)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "load-balancer/resize-load-balancer",
-                  label:  "Resize a Load Balancer"
+                  type:  "category",
+                  label:  "Quản lý Load Balancer",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/khoi-tao-load-balancer",
+                      label:  "Khởi tạo Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/cap-nhat-load-balancer",
+                      label:  "Update Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/theo-doi-bieu-do-load-balancer",
+                      label:  "Theo dõi biểu đồ giám sát Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/them-external-member",
+                      label:  "Thêm External member cho Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/resize-load-balancer",
+                      label:  "Resize a Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/access-logs",
+                      label:  "Access logs"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "load-balancer/access-logs",
-                  label:  "Access logs"
+                  type:  "category",
+                  label:  "Quản lý Listener",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/khoi-tao-listener",
+                      label:  "Khởi tạo Listener"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/cau-hinh-timeout",
+                      label:  "Cấu hình Timeout"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/chinh-sua-listener",
+                      label:  "Cấu hình L7 policy cho Listener"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/redirect-prefix",
+                      label:  "Redirect prefix"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/enable-hsts-to-http-listener",
+                      label:  "Enable HSTS to HTTPS Listener"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/Allow-IP-CIDR",
+                      label:  "Cấu hình Allow IP/CIDR"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/SNI-load-balancer",
+                      label:  "Cấu hình SNI trên Load balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/load-balancer",
+                      label:  "Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/initial-setup",
+                      label:  "Initial setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/create-load-balancer",
+                      label:  "Create a Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/update-load-balancer",
+                      label:  "Update a Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/monitor-load-balancer",
+                      label:  "Monitor Load Balancer charts"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/integrate-with-fmon",
+                      label:  "Integrate with FMON"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/add-external-member",
+                      label:  "Add external members"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/create-listener",
+                      label:  "Create a Listener"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-timeout",
+                      label:  "Configure timeout"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-l7-policy",
+                      label:  "Configure L7 policy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/redirect-http-to-https",
+                      label:  "Redirect HTTP to HTTPS"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/enable-hsts",
+                      label:  "Enable HSTS"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/allow-ip-cidr",
+                      label:  "Configure Allow IP/CIDR"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-sni",
+                      label:  "Configure SNI"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/create-server-pool",
+                      label:  "Create a Server Pool"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-health-check",
+                      label:  "Configure health check"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/import-ssl-certificate",
+                      label:  "Import SSL certificate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/delete-ssl-certificate",
+                      label:  "Delete SSL certificate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/classic-import-ssl-certificate",
+                      label:  "Import SSL certificate (Classic)"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Server Pool",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/khoi-tao-server-pool",
+                      label:  "Khởi tạo Server Pool"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/them-bot-member-cho-server-pool",
+                      label:  "Thêm/bớt member cho Server pool"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/chinh-sua-cau-hinh-health-check",
+                      label:  "Chỉnh sửa cấu hình Health check"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý SSL Certificate",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/quan-ly-ssl-certificate",
+                      label:  "Quan Ly Ssl Certificate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/import-ssl-certificate-cho-load-balancer",
+                      label:  "Import ssl Certificate cho Load Balancer"
+                    }
+                  ]
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Quản lý Listener",
+              label:  "Classic Load Balancer (Tutorials)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "load-balancer/redirect-prefix",
-                  label:  "Redirect prefix"
+                  type:  "category",
+                  label:  "Quản lý Load Balancer",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/khoi tao mot load balancer moi",
+                      label:  "Khởi tạo một Load Balancer mới"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/them may ao vao load balancer",
+                      label:  "Thêm máy ảo vào Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/xoa may ao khoi load balancer",
+                      label:  "Xóa máy ảo khỏi Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/thay doi thong tin cau hinh load balancer",
+                      label:  "Thay đổi thông tin cấu hình Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/xoa load balancer",
+                      label:  "Xóa Load Balancer"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "load-balancer/load-balancer",
-                  label:  "Load Balancer"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/initial-setup",
-                  label:  "Initial setup"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/create-load-balancer",
-                  label:  "Create a Load Balancer"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/update-load-balancer",
-                  label:  "Update a Load Balancer"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/monitor-load-balancer",
-                  label:  "Monitor Load Balancer charts"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/integrate-with-fmon",
-                  label:  "Integrate with FMON"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/add-external-member",
-                  label:  "Add external members"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/create-listener",
-                  label:  "Create a Listener"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/configure-timeout",
-                  label:  "Configure timeout"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/configure-l7-policy",
-                  label:  "Configure L7 policy"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/redirect-http-to-https",
-                  label:  "Redirect HTTP to HTTPS"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/enable-hsts",
-                  label:  "Enable HSTS"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/allow-ip-cidr",
-                  label:  "Configure Allow IP/CIDR"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/configure-sni",
-                  label:  "Configure SNI"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/create-server-pool",
-                  label:  "Create a Server Pool"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/manage-pool-members",
-                  label:  "Add and remove pool members"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/configure-health-check",
-                  label:  "Configure health check"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/import-ssl-certificate",
-                  label:  "Import SSL certificate"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/delete-ssl-certificate",
-                  label:  "Delete SSL certificate"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-create-load-balancer",
-                  label:  "Create a Classic Load Balancer"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-add-instance",
-                  label:  "Add a VM to a Classic LB"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-remove-instance",
-                  label:  "Remove a VM from a Classic LB"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-update-load-balancer",
-                  label:  "Update Classic LB configuration"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-delete-load-balancer",
-                  label:  "Delete a Classic Load Balancer"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-import-ssl-certificate",
-                  label:  "Import SSL certificate (Classic)"
-                },
-                {
-                  type:  "doc",
-                  id:  "load-balancer/classic-view-ssl-certificate",
-                  label:  "View SSL certificate details (Classic)"
+                  id:  "load-balancer/xem thong tin chi tiet ssl certificate",
+                  label:  "Xem thông tin chi tiết SSL Certificate"
                 }
               ]
             }
@@ -2106,33 +2446,60 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Quick Starts",
+          label:  "Create VPC",
           collapsed:  true,
           items:  [
+            {
+              type:  "category",
+              label:  "Initial Setup",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "create-vpc/initial-setup",
+                  label:  "Thiết lập ban đầu"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/initial-setup-en",
+                  label:  "Initial Setup En"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/初期設定_1",
+                  label:  "初期設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/VPC の作成_1",
+                  label:  "VPCを作成する"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/create-vpc-en",
+                  label:  "Create a VPC"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/rename-vpc-en",
+                  label:  "Rename Vpc En"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/view-activity-en",
+                  label:  "View Activity En"
+                },
+                {
+                  type:  "doc",
+                  id:  "create-vpc/アクティビティログ＆直近タスクステータスの記録_3",
+                  label:  "Activity logとタスクステータスの確認"
+                }
+              ]
+            },
             {
               type:  "doc",
               id:  "create-vpc/create-vpc",
               label:  "Create VPC"
-            },
-            {
-              type:  "doc",
-              id:  "create-vpc/initial-setup-en",
-              label:  "Initial Setup En"
-            },
-            {
-              type:  "doc",
-              id:  "create-vpc/create-vpc-en",
-              label:  "Create a VPC"
-            },
-            {
-              type:  "doc",
-              id:  "create-vpc/rename-vpc-en",
-              label:  "Rename Vpc En"
-            },
-            {
-              type:  "doc",
-              id:  "create-vpc/view-activity-en",
-              label:  "View Activity En"
             }
           ]
         },
@@ -2228,25 +2595,373 @@ module.exports = {
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "managed-fpt-kubernetes-engine/Initial-setup",
+              label:  "初期設定"
+            },
+            {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
+                  type:  "category",
+                  label:  "Quản lý Kubernetes Cluster",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/khoi-tạo-kubernetes-cluster-moi",
+                      label:  "Khởi tạo Kubernetes Cluster mới"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/truy-cap-thong-tin-chi-tiet-cua-cluster",
+                      label:  "クラスターの詳細情報へのアクセス"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/lay-thong-tin-truy-cap-cluster",
+                      label:  "Lấy thông tin truy cập Cluster"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tinh-nang-rotate-kubeconfig",
+                      label:  "kubeconfig のローテーション機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/xoa-kubernetes-cluster",
+                      label:  "Xoa Kubernetes Cluster"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Thay đổi cấu hình K8s Cluster",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/thay-doi-cluster-endponit-access",
+                      label:  "クラスターエンドポイントアクセスの変更"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/them-worker-group",
+                      label:  "Thêm Worker Group"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/thay-doi-cau-hinh-internal-subnet-load-balancer",
+                      label:  "Internal subnet Load Balancer（CIDR）設定の変更"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/chinh-sua-label-taint-cho-worker-group",
+                      label:  "ワーカーグループの label/taint 設定変更"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/bat-tat-node-auto-repair",
+                      label:  "Node Auto-repair の有効化/無効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/chuyen-worker-group-base",
+                      label:  "ベースワーカーグループの切り替え"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/nang-cap-k8s-version",
+                      label:  "Nâng cấp phiên bản Kubernetes"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/cluster-autoscale",
+                      label:  "Cluster autoscale"
+                    }
+                  ]
+                },
+                {
                   type:  "doc",
-                  id:  "managed-fpt-kubernetes-engine/cluster-autoscale",
-                  label:  "Cluster autoscale"
+                  id:  "managed-fpt-kubernetes-engine/trien-khai-ung-dung-tren-worker-pool",
+                  label:  "ワーカープールへのアプリケーションのデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/scale-in-chi-dinh-node",
+                  label:  "クラスター内の特定 node を指定したスケールイン機能"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/service-type-load-balancer",
+                  label:  "Service Type Load-Balancer"
                 },
                 {
                   type:  "doc",
                   id:  "managed-fpt-kubernetes-engine/persistent-storage",
                   label:  "Persistent storage"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/tinh-nang-hibernate-wakeup",
+                  label:  "Tính năng Hibernate & Wake-up"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/tinh-nang-dat-lich-hibernate-wake-up",
+                  label:  "Hibernate & Wake-up スケジュール機能"
+                },
+                {
+                  type:  "category",
+                  label:  "Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version)",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tu-dong-nang-cap-version",
+                      label:  "バージョン自動アップグレード機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/gioi-thieu-chung-ve-quy-trinh-quan-ly-version",
+                      label:  "FPTCloud における Kubernetes バージョン管理プロセスの概要"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/huong-dan-chi-tiet-su-dung-auto-upgrade",
+                      label:  "auto upgrade version 機能の詳細ガイド"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/fpt-cloud-managed-kubernetes-release-calendar",
+                  label:  "FPT Cloud Managed Kubernetes リリースカレンダー"
+                },
+                {
+                  type:  "category",
+                  label:  "Tính năng tăng cường bảo mật cho dịch vụ MFKE",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tinh-nang-tang-cuong-bao-mat-mfke",
+                      label:  "M-FKE のセキュリティ強化機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tinh-nang-benchmark-cluster",
+                      label:  "Managed Kubernetes Cluster のベンチマーク機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tinh-nang-runtime-security-cluster",
+                      label:  "Tính năng Runtime Security cho Managed Kubernetes Cluster"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tinh-nang-workload-scan",
+                      label:  "Tính năng Workload Managed Kubernetes Cluster"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/audit-log-vn",
+                      label:  "Giới thiệu chung tính năng Audit Logs Security"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/danh-tag-cho-vm",
+                  label:  "仮想マシンへのタグ付け機能"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/backup-restore-vn",
+                  label:  "Backup & Restore 機能"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/managed-fpt-kubernetes-engine",
+                  label:  "Managed FPT Kubernetes Engine"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/initial-setup",
+                  label:  "Initial setup"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/managing-k8s-cluster",
+                  label:  "Managing Kubernetes clusters"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/create-new-k8s-cluster",
+                  label:  "Create a new Kubernetes cluster"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi",
+                  label:  "新しい Kubernetes Cluster の作成"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/list-created-cluster",
+                  label:  "List created clusters"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/access-clusters-detail-information",
+                  label:  "Access cluster detail information"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/get-cluster-access-information",
+                  label:  "Get cluster access information"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/delete-k8s-cluster",
+                  label:  "Delete a Kubernetes cluster"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/changing-clusters-configuration",
+                  label:  "Change cluster configuration"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/add-worker-group",
+                  label:  "Add a worker group"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/change-worker-groups-configuration",
+                  label:  "Change worker group configuration"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/upgrade-k8s-version",
+                  label:  "Upgrade Kubernetes version"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/enable-cluster-autoscale",
+                  label:  "Enable cluster autoscale"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/disable-cluster-autoscale",
+                  label:  "Disable cluster autoscale"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/modify-cluster-autoscale-configuration",
+                  label:  "Modify cluster autoscale configuration"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/deploy-application-in-worker-pool",
+                  label:  "Deploy application in worker pool"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/load-balancer-services",
+                  label:  "Load Balancer services"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/how-to-use-gpu-in-kubernetes",
+                  label:  "How to use GPU in Kubernetes"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/setup-k8s-cluster-for-gpu-usage",
+                  label:  "Set up Kubernetes cluster for GPU usage"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/addding-gpu-worker-group",
+                  label:  "Add a GPU worker group"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/deploy-application-with-gpu-on-k8s",
+                  label:  "Deploy application with GPU on Kubernetes"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/setting-up-gpu-telemetry",
+                  label:  "Setting up GPU telemetry"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/container-level-auto-scaling",
+                  label:  "Container-level auto scaling"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/node-level-auto-scaling",
+                  label:  "Node-level auto scaling"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/notes-when-using-mfke",
+                  label:  "Notes when using MFKE"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/faqs-mfke",
+                  label:  "FAQs"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/gpu-fpt-cloud",
+                  label:  "GPU on FPT Cloud"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/what-is-gpu",
+                  label:  "What is GPU"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/why-you-should-use-gpu-in-cloud",
+                  label:  "Why use GPU on cloud"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/why-you-should-use-gpu-in-k8s",
+                  label:  "Why use GPU on Kubernetes"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/gpu-fpt-cloud-k8s",
+                  label:  "GPU service on FPT Kubernetes Engine"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/snapshot-va-restore-pvc-tren-k8s-fpt",
+                  label:  "PVC のスナップショットとリストア"
                 }
               ]
             },
             {
+              type:  "doc",
+              id:  "managed-fpt-kubernetes-engine/cac-luu-y-khi-su-dung-m-fke",
+              label:  "M-FKE 使用上の注意事項"
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-kubernetes-engine/mfke-faqs",
+              label:  "よくある質問"
+            },
+            {
               type:  "category",
-              label:  "Samples",
+              label:  "Một số gợi ý mẫu (Samples)",
               collapsed:  true,
               items:  [
                 {
@@ -2261,165 +2976,94 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/gpu-la-gi",
+                      label:  "GPU là gì?"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tai-sao-nen-su-dung-gpu-tren-cloud",
+                      label:  "Tại sao nên sử dụng GPU trên Cloud?"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/tai-sao-nen-su-dung-gpu-tren-kubernetes",
+                      label:  "Kubernetes で GPU を使用する理由"
+                    },
+                    {
+                      type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/gpu-sharing",
                       label:  "GPU sharing"
                     },
                     {
                       type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/managed-fpt-kubernetes-engine",
-                      label:  "Managed FPT Kubernetes Engine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/initial-setup",
-                      label:  "Initial setup"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/managing-k8s-cluster",
-                      label:  "Managing Kubernetes clusters"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/create-new-k8s-cluster",
-                      label:  "Create a new Kubernetes cluster"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/list-created-cluster",
-                      label:  "List created clusters"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/access-clusters-detail-information",
-                      label:  "Access cluster detail information"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/get-cluster-access-information",
-                      label:  "Get cluster access information"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/delete-k8s-cluster",
-                      label:  "Delete a Kubernetes cluster"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/changing-clusters-configuration",
-                      label:  "Change cluster configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/add-worker-group",
-                      label:  "Add a worker group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/change-worker-groups-configuration",
-                      label:  "Change worker group configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/upgrade-k8s-version",
-                      label:  "Upgrade Kubernetes version"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/enable-cluster-autoscale",
-                      label:  "Enable cluster autoscale"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/disable-cluster-autoscale",
-                      label:  "Disable cluster autoscale"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/modify-cluster-autoscale-configuration",
-                      label:  "Modify cluster autoscale configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/deploy-application-in-worker-pool",
-                      label:  "Deploy application in worker pool"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/load-balancer-services",
-                      label:  "Load Balancer services"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/how-to-use-gpu-in-kubernetes",
-                      label:  "How to use GPU in Kubernetes"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/setup-k8s-cluster-for-gpu-usage",
-                      label:  "Set up Kubernetes cluster for GPU usage"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/addding-gpu-worker-group",
-                      label:  "Add a GPU worker group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/deploy-application-with-gpu-on-k8s",
-                      label:  "Deploy application with GPU on Kubernetes"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/setting-up-gpu-telemetry",
-                      label:  "Setting up GPU telemetry"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/container-level-auto-scaling",
-                      label:  "Container-level auto scaling"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/node-level-auto-scaling",
-                      label:  "Node-level auto scaling"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/notes-when-using-mfke",
-                      label:  "Notes when using MFKE"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/faqs-mfke",
-                      label:  "FAQs"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/gpu-fpt-cloud",
-                      label:  "GPU on FPT Cloud"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/what-is-gpu",
-                      label:  "What is GPU"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/why-you-should-use-gpu-in-cloud",
-                      label:  "Why use GPU on cloud"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/why-you-should-use-gpu-in-k8s",
-                      label:  "Why use GPU on Kubernetes"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "managed-fpt-kubernetes-engine/gpu-fpt-cloud-k8s",
-                      label:  "GPU service on FPT Kubernetes Engine"
+                      id:  "managed-fpt-kubernetes-engine/dich-vu-gpu-tren-k8s",
+                      label:  "Dịch vụ GPU trên K8s FPT Cloud"
                     }
                   ]
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/dieu-chinh-cau-hinh-coredns-trong-kubernetes-service",
+                  label:  "CoreDNS 設定の調整"
+                },
+                {
+                  type:  "category",
+                  label:  "Snapshot và restore persistent volume trong Kubernetes",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/snapshot-và-restore-pvc-trên-k8s-fpt",
+                      label:  "Snapshot và restore PVC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/snapshot-persistent-volume-tren-k8s",
+                      label:  "Persistent Volume のスナップショット機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/restore-persistent-volume-tren-k8s",
+                      label:  "スナップショットからの volume リストア機能"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/thuc-hien-dat-lich-snapshot-pvc",
+                      label:  "PVC スナップショットのスケジュール設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/thuc-hien-dat-lich-xoa-pvc-snapshot",
+                      label:  "PVC スナップショット削除スケジュールの設定"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình proxy protocol",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/cau-hinh-proxy-protocol-cho-istio-ingress",
+                      label:  "istio-ingress の Proxy Protocol 設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/cau-hinh-proxy-protocol-cho-nginx-ingress",
+                      label:  "nginx-ingress の Proxy Protocol 設定"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/service-type-kb-layer7-lbv2",
+                  label:  "Service Type Loadbalancer Layer 7（LBv2）の使用"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-kubernetes-engine/thay-doi-cau-hinh-flavor-cua-worker-pool",
+                  label:  "ワーカープールのフレーバー設定変更"
                 }
               ]
             }
@@ -2494,75 +3138,371 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Docker CLI Guide",
+          label:  "Hướng dẫn chi tiết (Tutorials)",
           collapsed:  true,
           items:  [
             {
-              type:  "doc",
-              id:  "fpt-container-registry/docker-login",
-              label:  "Docker Login"
+              type:  "category",
+              label:  "Kích hoạt dịch vụ FPT Container Registry",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
+                  label:  "Kích hoạt dịch vụ Container Registry"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu",
+                  label:  "Kiểm tra thông tin gói dịch vụ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/kich-hoat-dich-vu",
+                  label:  "Kích hoạt dịch vụ"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Hướng dẫn sử dụng trên Docker CLI",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/docker-login",
+                  label:  "Docker Login"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
+                  label:  "Tag và push image"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
+                  label:  "Pull Docker image về local"
+                }
+              ]
             },
             {
               type:  "doc",
-              id:  "fpt-container-registry/fpt-container-registry",
-              label:  "FPT Container Registry"
+              id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
+              label:  "Xóa image hoặc artifact"
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/initial-setup",
-              label:  "Initial Setup"
+              type:  "category",
+              label:  "Quản lý Retention Rule",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-retention-rule",
+                  label:  "Quản lý retention rule"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/them-moi-tag-retention-rule",
+                  label:  "Thêm mới tag retention rule"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-tag-retention-rule",
+                  label:  "Quản lý tag retention rule"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule",
+                  label:  "Cấu hình lịch chạy retention rule"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-retention-run",
+                  label:  "Quản lý retention run"
+                }
+              ]
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/enabling-fpt-container-registry-service",
-              label:  "Enabling Fpt Container Registry..."
+              type:  "category",
+              label:  "Quản lý Robot Account",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/tao-moi-robot-account",
+                  label:  "Robot account を管理する"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/cap-nhat-robot-account",
+                  label:  "Cập nhật robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
+                  label:  "Tắt robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/enable-robot-account",
+                  label:  "Bật lại robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xoa-mot-robot-account",
+                  label:  "Xóa robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/refresh-robot-account",
+                  label:  "Refresh robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/huong-dan-su-dung-robot-account",
+                  label:  "Sử dụng robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/fpt-container-registry",
+                  label:  "FPT Container Registry"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/initial-setup",
+                  label:  "Initial Setup"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/enabling-fpt-container-registry-service",
+                  label:  "Enabling Fpt Container Registry..."
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/docker-cli",
+                  label:  "FPT Container Registry"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/tagging-and-pushing-images-to-fpt-container-registry",
+                  label:  "Tagging And Pushing Images..."
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/pulling-docker-image-from-fpt-container-registry-to-local",
+                  label:  "Pulling Docker Image From..."
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/managing-repositories-on-the-fpt-cloud-portal",
+                  label:  "FPT Container Registry"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/retention-rule",
+                  label:  "Retention rule を管理する"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/view-repositories-list",
+                  label:  "View Repositories List"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/deleting-an-image-or-artifact-in-a-repository",
+                  label:  "Deleting An Image Or..."
+                }
+              ]
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/docker-cli",
-              label:  "FPT Container Registry"
+              type:  "category",
+              label:  "Quản lý Gói dịch vụ",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
+                  label:  "Xem chi tiết quota"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung",
+                  label:  "Nâng gói dịch vụ"
+                }
+              ]
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/tagging-and-pushing-images-to-fpt-container-registry",
-              label:  "Tagging And Pushing Images..."
-            },
-            {
-              type:  "doc",
-              id:  "fpt-container-registry/pulling-docker-image-from-fpt-container-registry-to-local",
-              label:  "Pulling Docker Image From..."
-            },
-            {
-              type:  "doc",
-              id:  "fpt-container-registry/managing-repositories-on-the-fpt-cloud-portal",
-              label:  "FPT Container Registry"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-container-registry/view-repositories-list",
-              label:  "View Repositories List"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-container-registry/deleting-an-image-or-artifact-in-a-repository",
-              label:  "Deleting An Image Or..."
+              type:  "category",
+              label:  "Scan Images",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/scan-image-1",
+                  label:  "イメージをスキャンする"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/stop-scan",
+                  label:  "Dừng scan"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
+                  label:  "Quản lý kết quả scan"
+                }
+              ]
             }
           ]
         },
         {
           type:  "category",
-          label:  "Tutorials",
+          label:  "Dedicated - FPT Kubernetes Engine",
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/Initial-Setup",
+              label:  "初期設定"
+            },
+            {
               type:  "category",
-              label:  "Modify K8s Cluster Configuration",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
+                  type:  "category",
+                  label:  "Quản lý Kubernetes cluster",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi",
+                      label:  "新規 Kubernetes cluster の作成"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/xem-danh-sach-kubernetes-cluster-da-tao",
+                      label:  "クラスター一覧の表示"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/truy-cap-thong-tin-chi-tiet-cua-cluster",
+                      label:  "クラスター詳細情報へのアクセス"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/lay-thong-tin-truy-cap-cluster",
+                      label:  "cluster アクセス情報の取得"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/xoa-kubernetes-cluster",
+                      label:  "クラスターの削除"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/stop-kubernetes-cluster",
+                      label:  "クラスターの停止"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/start-kubernetes-cluster",
+                      label:  "クラスターの起動"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Thay đổi cấu hình K8s Cluster",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/scale-worker-nodes",
+                      label:  "Scale worker nodes"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nodes",
+                      label:  "Nodes 構成の変更"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nfs",
+                      label:  "NFS Server 構成の変更"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nodes",
+                      label:  "Nodes ストレージサイズの拡張"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nfs",
+                      label:  "NFS Server ストレージサイズの拡張"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/nang-cap-k8s-version",
+                      label:  "Kubernetes バージョンのアップグレード"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/them-nfs-persistent-storage",
+                      label:  "NFS Persistent Storage の追加"
+                    }
+                  ]
+                },
+                {
                   type:  "doc",
-                  id:  "dedicated-fpt-kubernetes-engine/scale-worker-nodes",
-                  label:  "Scale worker nodes"
+                  id:  "dedicated-fpt-kubernetes-engine/AutoScale",
+                  label:  "Autoscale"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/manual-scale",
+                  label:  "Manual scale"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/best-practice-manual-scaling",
+                  label:  "Best practices: manual scaling"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/persistent-storage",
+                  label:  "Persistent storage"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/service-type-load-balancer",
+                  label:  "Service Type Load-Balancer"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/dfke-advanced-firewall",
+                  label:  "Advanced Firewall"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/backup-and-restore-cluster",
+                  label:  "Cluster のバックアップとリストア"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version",
+                  label:  "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/auto-repair-nodes",
+                  label:  "Auto repair nodes"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/retry-timeout-rule",
+                  label:  "Retry Timeout Rule"
                 },
                 {
                   type:  "doc",
@@ -2683,28 +3623,23 @@ module.exports = {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/best-practice-upgrade-version",
                   label:  "Best practices: version upgrade"
+                },
+                {
+                  type:  "doc",
+                  id:  "dedicated-fpt-kubernetes-engine/fke-usage-notes",
+                  label:  "FKE 使用上の注意事項"
                 }
               ]
             },
             {
               type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/manual-scale",
-              label:  "Manual scale"
+              id:  "dedicated-fpt-kubernetes-engine/cac-luu-y-khi-su-dung-fke",
+              label:  "Các lưu ý khi sử dụng FKE"
             },
             {
               type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/best-practice-manual-scaling",
-              label:  "Best practices: manual scaling"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/persistent-storage",
-              label:  "Persistent storage"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/auto-repair-nodes",
-              label:  "Auto repair nodes"
+              id:  "dedicated-fpt-kubernetes-engine/dfke-faqs",
+              label:  "Câu hỏi thường gặp"
             }
           ]
         },
@@ -2800,11 +3735,6 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "gpu-container/vllm-use-cases",
-              label:  "GPU Container"
-            },
-            {
-              type:  "doc",
               id:  "gpu-container/vllm-use-case",
               label:  "Vllm Use Case"
             },
@@ -2857,8 +3787,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "gpu-virtual-machine-en/概要",
+              label:  "概要"
+            },
+            {
+              type:  "doc",
               id:  "gpu-virtual-machine-en/quick-start",
               label:  "Quick Start"
+            },
+            {
+              type:  "doc",
+              id:  "gpu-virtual-machine-en/初期-設定",
+              label:  "初期 設定"
             },
             {
               type:  "doc",
@@ -2867,13 +3807,33 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "gpu-virtual-machine-en/クイック-スタート",
+              label:  "クイック スタート"
+            },
+            {
+              type:  "doc",
               id:  "gpu-virtual-machine-en/custom-images",
               label:  "Custom Images"
             },
             {
               type:  "doc",
+              id:  "gpu-virtual-machine-en/サブネット-の-作成",
+              label:  "サブネット の 作成"
+            },
+            {
+              type:  "doc",
+              id:  "gpu-virtual-machine-en/GPU-VM -インスタンス-の-作成",
+              label:  "Gpu Vm インスタンス の..."
+            },
+            {
+              type:  "doc",
               id:  "gpu-virtual-machine-en/block-storage",
               label:  "Block Storage"
+            },
+            {
+              type:  "doc",
+              id:  "gpu-virtual-machine-en/IPアドレス（フローティングIP）の割り当て",
+              label:  "Ipアドレス（フローティングIp）の割り当て"
             },
             {
               type:  "doc",
@@ -2887,13 +3847,28 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "gpu-virtual-machine-en/セキュリティグループの作成",
+              label:  "セキュリティグループの作成"
+            },
+            {
+              type:  "doc",
               id:  "gpu-virtual-machine-en/floating-ip",
               label:  "Floating Ip"
             },
             {
               type:  "doc",
+              id:  "gpu-virtual-machine-en/サーバーへのアクセス",
+              label:  "サーバーへのアクセス"
+            },
+            {
+              type:  "doc",
               id:  "gpu-virtual-machine-en/create-a-security-group",
               label:  "Create A Security Group"
+            },
+            {
+              type:  "doc",
+              id:  "gpu-virtual-machine-en/に関するよくある質問",
+              label:  "一般"
             },
             {
               type:  "doc",
@@ -3095,12 +4070,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage Role",
+                  label:  "Quản lý Role",
                   collapsed:  true,
                   items:  [
                     {
@@ -3116,6 +4091,16 @@ module.exports = {
                   ]
                 },
                 {
+                  type:  "doc",
+                  id:  "iam/User Group-Overview",
+                  label:  "User Group overview"
+                },
+                {
+                  type:  "doc",
+                  id:  "iam/IAM-User-Overview",
+                  label:  "IAM User overview"
+                },
+                {
                   type:  "category",
                   label:  "IP Access",
                   collapsed:  true,
@@ -3127,8 +4112,8 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/delete-ip-access",
-                      label:  "Delete an IP access record"
+                      id:  "iam/ip-access-overview",
+                      label:  "IP Access overview"
                     },
                     {
                       type:  "doc",
@@ -3142,16 +4127,6 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/initial-setup",
-                      label:  "Initial setup"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/role-overview",
-                      label:  "Role overview"
-                    },
-                    {
-                      type:  "doc",
                       id:  "iam/view-role-list",
                       label:  "View role list"
                     },
@@ -3159,11 +4134,6 @@ module.exports = {
                       type:  "doc",
                       id:  "iam/Create-a-Role-and-Assign-Permissions-to-the-Role",
                       label:  "Create A Role And..."
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/create-role",
-                      label:  "Create a role and assign permissions"
                     },
                     {
                       type:  "doc",
@@ -3182,23 +4152,13 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/manage-user-groups",
-                      label:  "User Group management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/overview-user-group",
-                      label:  "User Group overview"
+                      id:  "iam/user-group-overview",
+                      label:  "User Group概要"
                     },
                     {
                       type:  "doc",
                       id:  "iam/create-user-group",
                       label:  "Create a User Group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/view-list-user-group",
-                      label:  "View User Group list"
                     },
                     {
                       type:  "doc",
@@ -3217,13 +4177,8 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/Manage IAM Users",
-                      label:  "IAM"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/overview-iam-user",
-                      label:  "IAM User overview"
+                      id:  "iam/iam-user-overview",
+                      label:  "IAM User概要"
                     },
                     {
                       type:  "doc",
@@ -3232,18 +4187,8 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/invite-iam-user",
-                      label:  "Invite new IAM users"
-                    },
-                    {
-                      type:  "doc",
                       id:  "iam/Create an account and access the invited VPC",
                       label:  "Create An Account And..."
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/create-account-access-vpc",
-                      label:  "Create an account and access the invited VPC"
                     },
                     {
                       type:  "doc",
@@ -3252,28 +4197,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "iam/change-password",
-                      label:  "Change password"
-                    },
-                    {
-                      type:  "doc",
                       id:  "iam/2FA configuration",
                       label:  "2Fa Configuration"
                     },
                     {
                       type:  "doc",
-                      id:  "iam/configure-2fa",
-                      label:  "Configure 2FA"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/overview-ip-access",
-                      label:  "IP Access overview"
-                    },
-                    {
-                      type:  "doc",
                       id:  "iam/create-ip-access",
                       label:  "Create IP access record"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "iam/create-ip",
+                      label:  "新しいIP Accessレコードの作成"
                     },
                     {
                       type:  "doc",
@@ -3284,11 +4219,6 @@ module.exports = {
                       type:  "doc",
                       id:  "iam/Check Activity logs",
                       label:  "Check Activity Logs"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/ip-access-activity-log",
-                      label:  "Check IP access activity logs"
                     }
                   ]
                 }
@@ -3315,11 +4245,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/detection-status",
                   label:  "Detection Status"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/system-status",
-                  label:  "System Status"
                 },
                 {
                   type:  "doc",
@@ -3369,11 +4294,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/website-logs",
                   label:  "Website Logs"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/export-list",
-                  label:  "Export List"
                 }
               ]
             },
@@ -3411,6 +4331,11 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-wapples/network-filters-scheduling",
                       label:  "Network Filters Scheduling"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/fpt-cloud-wapples",
+                      label:  "FPT Cloud WAPPLES"
                     }
                   ]
                 },
@@ -3441,11 +4366,6 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-wapples/web-access-management",
-                      label:  "Web Access Management"
-                    },
-                    {
-                      type:  "doc",
                       id:  "fpt-cloud-wapples/url-filter-settings",
                       label:  "URL Filter Settings"
                     }
@@ -3453,40 +4373,8 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-wapples/detection-exceptions",
-                  label:  "Detection Exceptions"
-                },
-                {
-                  type:  "category",
-                  label:  "Pattern Storage",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/user-defined-pattern",
-                      label:  "User Defined Pattern"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/error-handling",
-                      label:  "Error Handling"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/privacy-filtering",
-                      label:  "Privacy Filtering"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/malicious-ip",
-                      label:  "Malicious Ip"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/snort",
-                      label:  "Snort"
-                    }
-                  ]
+                  id:  "fpt-cloud-wapples/privacy-filtering",
+                  label:  "Privacy Filtering"
                 },
                 {
                   type:  "doc",
@@ -3496,26 +4384,9 @@ module.exports = {
               ]
             },
             {
-              type:  "category",
-              label:  "Reports",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/report-generation",
-                  label:  "Report Generation"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/report-list",
-                  label:  "Report List"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/report-scheduling",
-                  label:  "Report Scheduling"
-                }
-              ]
+              type:  "doc",
+              id:  "fpt-cloud-wapples/report-scheduling",
+              label:  "Report Scheduling"
             },
             {
               type:  "category",
@@ -3523,58 +4394,14 @@ module.exports = {
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Operations",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/accounts",
-                      label:  "Accounts"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/audit-level",
-                      label:  "Audit Level"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/smtp",
-                      label:  "Smtp"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/self-diagnostics",
-                      label:  "Managing Alerts for System Status and Network Status"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/self-diagnostics",
+                  label:  "Managing Alerts for System Status and Network Status"
                 },
                 {
-                  type:  "category",
-                  label:  "Backup",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/backup-list",
-                      label:  "Backup List"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/automatic-backup",
-                      label:  "Automatic Backup"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/backup-restore",
-                      label:  "Backup Restore"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-wapples/fpt-cloud-wapples",
-                      label:  "FPT Cloud WAPPLES"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/backup-restore",
+                  label:  "Backup Restore"
                 },
                 {
                   type:  "doc",
@@ -3597,123 +4424,125 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Initial Setup",
+          label:  "FPT Cloud WAF",
           collapsed:  true,
           items:  [
             {
-              type:  "doc",
-              id:  "fpt-cloud-waf/Initial Setup",
-              label:  "Initial setup"
+              type:  "category",
+              label:  "Initial Setup",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/Initial Setup",
+                  label:  "Initial setup"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/fpt-cloud-waf",
+                  label:  "FPT Cloud WAF"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/configure-waf-server-connection",
+                  label:  "Configure WAF server connection"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server",
+                  label:  "Create a new WAF server"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/update-information-of-the-WAF-server",
+                  label:  "Update WAF server information"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/delete-waf-server",
+                  label:  "Delete WAF server"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard",
+                  label:  "Manage WAF server with WAF Dashboard"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard",
+                  label:  "Log in to WAF Dashboard"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
+                  label:  "Monitor WAF with Dashboard Overview"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/create-proxy-host",
+                  label:  "Create a proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-proxy-host",
+                  label:  "Manage proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-redirection-host",
+                  label:  "Manage redirection host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/view-proxy-host-detail",
+                  label:  "View proxy host details"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-stream-host",
+                  label:  "Manage stream host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/update-proxy-host",
+                  label:  "Update a proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/enable-disable-proxy-host",
+                  label:  "Enable or disable a proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-404-host",
+                  label:  "Manage 404 host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/delete-proxy-host",
+                  label:  "Delete a proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-access-list",
+                  label:  "Manage access list"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-ssl-certificate",
+                  label:  "Manage SSL certificate"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-security-rule-set",
+                  label:  "Manage security rule set"
+                }
+              ]
             },
             {
               type:  "doc",
-              id:  "fpt-cloud-waf/fpt-cloud-waf",
-              label:  "FPT Cloud WAF"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/create-a-new-waf-server",
-              label:  "Create a new WAF server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/log-in-to-waf-dashboard",
-              label:  "Log in to WAF Dashboard"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/configure-waf-server-connection",
-              label:  "Configure WAF server connection"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server",
-              label:  "Create a new WAF server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/update-information-of-the-WAF-server",
-              label:  "Update WAF server information"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/delete-waf-server",
-              label:  "Delete WAF server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard",
-              label:  "Manage WAF server with WAF Dashboard"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard",
-              label:  "Log in to WAF Dashboard"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
-              label:  "Monitor WAF with Dashboard Overview"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/create-proxy-host",
-              label:  "Create a proxy host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-proxy-host",
-              label:  "Manage proxy host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-redirection-host",
-              label:  "Manage redirection host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/view-proxy-host-detail",
-              label:  "View proxy host details"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-stream-host",
-              label:  "Manage stream host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/update-proxy-host",
-              label:  "Update a proxy host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/enable-disable-proxy-host",
-              label:  "Enable or disable a proxy host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-404-host",
-              label:  "Manage 404 host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/delete-proxy-host",
-              label:  "Delete a proxy host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-access-list",
-              label:  "Manage access list"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-ssl-certificate",
-              label:  "Manage SSL certificate"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-security-rule-set",
-              label:  "Manage security rule set"
+              id:  "fpt-cloud-waf/quan-ly-proxy-host",
+              label:  "Quản lý proxy host"
             }
           ]
         },
@@ -3729,12 +4558,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage Target",
+                  label:  "Quản lý Target",
                   collapsed:  true,
                   items:  [
                     {
@@ -3781,12 +4610,17 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-va/mo-remote-registry-window",
                       label:  "Enable Remote Registry on Windows"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-va/fpt-va",
+                      label:  "FPT Cloud VA"
                     }
                   ]
                 },
                 {
                   type:  "category",
-                  label:  "View Scan Results",
+                  label:  "Xem kết quả quét",
                   collapsed:  true,
                   items:  [
                     {
@@ -3808,11 +4642,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-va/xem-ket-qua-quet-cu",
                       label:  "View scan history"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-va/fpt-va",
-                      label:  "FPT Cloud VA"
                     }
                   ]
                 },
@@ -3832,7 +4661,7 @@ module.exports = {
           items:  [
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -3879,18 +4708,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fortigate-fpt-ngfw/hien-thi-logs-traffic",
                   label:  "View traffic logs"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "FAQs",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fortigate-fpt-ngfw/FAQ",
-                  label:  "FAQ"
                 },
                 {
                   type:  "doc",
@@ -3898,6 +4715,11 @@ module.exports = {
                   label:  "Fortigate – FPT NGFW"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fortigate-fpt-ngfw/FAQ",
+              label:  "FAQ"
             }
           ]
         },
@@ -3913,7 +4735,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
@@ -3942,7 +4764,7 @@ module.exports = {
           items:  [
             {
               type:  "category",
-              label:  "Gaia Portal Guide",
+              label:  "Hướng dẫn trên Gaia Portal",
               collapsed:  true,
               items:  [
                 {
@@ -3979,7 +4801,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "SmartConsole Guide",
+              label:  "Hướng dẫn trên SmartConsole",
               collapsed:  true,
               items:  [
                 {
@@ -4122,7 +4944,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -4176,7 +4998,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết",
               collapsed:  true,
               items:  [
                 {
@@ -4191,7 +5013,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "3. Manage a Workspace",
+                  label:  "3. Quản lý một Workspace",
                   collapsed:  true,
                   items:  [
                     {
@@ -4211,11 +5033,6 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-cloud-monitoring/add-data-tab",
-                      label:  "Add Data tab"
-                    },
-                    {
-                      type:  "doc",
                       id:  "fpt-cloud-monitoring/user-management-tab",
                       label:  "User Management tab"
                     },
@@ -4223,11 +5040,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-monitoring/quota-and-package-tab",
                       label:  "Quota and Package tab"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-monitoring/user-guide-tab",
-                      label:  "User Guide tab"
                     }
                   ]
                 },
@@ -4248,7 +5060,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "7. Data Visualization",
+                  label:  "7. Trực quan hóa dữ liệu",
                   collapsed:  true,
                   items:  [
                     {
@@ -4265,11 +5077,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-monitoring/fcmon-dashboard-template",
                       label:  "Dashboard templates"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-cloud-monitoring/fpt-cloud-monitoring",
-                      label:  "FPT Cloud Monitoring"
                     }
                   ]
                 },
@@ -4287,6 +5094,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-monitoring/quan-tri-user",
                   label:  "User management"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-monitoring/fpt-cloud-monitoring",
+                  label:  "FPT Cloud Monitoring"
                 }
               ]
             },
@@ -4299,11 +5111,6 @@ module.exports = {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/huong-dan-su-dung-grafana",
                   label:  "Overview"
-                },
-                {
-                  type:  "doc",
-                  id:  "huong-dan-su-dung-grafana/initial-setup",
-                  label:  "Initial setup"
                 },
                 {
                   type:  "doc",
@@ -4421,12 +5228,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage Alert",
+                  label:  "Quản lý Alert",
                   collapsed:  true,
                   items:  [
                     {
@@ -4478,12 +5285,17 @@ module.exports = {
                       type:  "doc",
                       id:  "cloud-guard/xoa-alert",
                       label:  "Delete an alert"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-guard/cloud-guard",
+                      label:  "FPT Cloud Guard"
                     }
                   ]
                 },
                 {
                   type:  "category",
-                  label:  "Manage Recipient",
+                  label:  "Quản lý Recipient",
                   collapsed:  true,
                   items:  [
                     {
@@ -4510,11 +5322,6 @@ module.exports = {
                       type:  "doc",
                       id:  "cloud-guard/xoa-recipient",
                       label:  "Delete a recipient"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-guard/cloud-guard",
-                      label:  "FPT Cloud Guard"
                     }
                   ]
                 }
@@ -4686,6 +5493,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "incident-management/quan-tri-incident",
+              label:  "Quản trị incident"
+            },
+            {
+              type:  "doc",
               id:  "incident-management/filter-incidents",
               label:  "Search and filter incidents"
             },
@@ -4715,7 +5527,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -4779,7 +5591,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -4816,12 +5628,17 @@ module.exports = {
                   type:  "doc",
                   id:  "backup/backup-volume",
                   label:  "Backup Volume"
+                },
+                {
+                  type:  "doc",
+                  id:  "backup/backup",
+                  label:  "Backup"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "FAQs",
+              label:  "Các câu hỏi thường gặp (FAQs)",
               collapsed:  true,
               items:  [
                 {
@@ -4843,11 +5660,6 @@ module.exports = {
                   type:  "doc",
                   id:  "backup/toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong",
                   label:  "Does FPT Cloud have a Backup trial policy?"
-                },
-                {
-                  type:  "doc",
-                  id:  "backup/backup",
-                  label:  "Backup"
                 }
               ]
             }
@@ -4862,6 +5674,178 @@ module.exports = {
       items:  [
         {
           type:  "category",
+          label:  "FPT Key Vault",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-key-vault/Initial Setup",
+              label:  "Thiết lập ban đầu"
+            },
+            {
+              type:  "category",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-key-vault/tutorials-khoi-tao-vault-instance",
+                  label:  "Khởi tạo Vault Instance"
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Secret Engine",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-tao-secret-engine",
+                      label:  "Tạo Secret Engine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xoa-secret-engine",
+                      label:  "Xóa Secret Engine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/fpt-key-vault",
+                      label:  "FPT Key Vault"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Initial-Setup",
+                      label:  "Initial Setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Vault-Instance",
+                      label:  "Create Vault Instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Secret-Engine-Management",
+                      label:  "Secret Engine management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Secret-Engine",
+                      label:  "Create Secret Engine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Delete-Secret-Engine",
+                      label:  "Delete Secret Engine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Secret-management",
+                      label:  "Secret management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Secret-in-Secret-Engine",
+                      label:  "Create a secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/View-and-Update-Secret-information",
+                      label:  "View and update secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Delete-Secret",
+                      label:  "Delete Secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Policy-management",
+                      label:  "Policy management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Policy",
+                      label:  "Create Policy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Delete-Policy",
+                      label:  "Delete Policy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Auth-Method-Management",
+                      label:  "Auth Method management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Auth-Method",
+                      label:  "Create Auth Method"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/Create-Role",
+                      label:  "Create Role"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Secret",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-tao-secret-tren-secret-engine",
+                      label:  "Tạo Secret trên Secret Engine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xoa-secret",
+                      label:  "Xóa Secret"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Policy",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-tao-policy",
+                      label:  "Tạo Policy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xoa-policy",
+                      label:  "Xóa Policy"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Auth Method",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-tao-auth-method",
+                      label:  "Tạo Auth Method"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-key-vault/tutorials-tao-role",
+                      label:  "Tạo Role"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          type:  "category",
           label:  "FPT Jenkins CI",
           collapsed:  true,
           items:  [
@@ -4872,7 +5856,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
@@ -4892,7 +5876,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage FPT Cloud Agent",
+                  label:  "Quản lý FPT Cloud Agent",
                   collapsed:  true,
                   items:  [
                     {
@@ -4919,7 +5903,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Credential",
+                  label:  "Quản lý Credential",
                   collapsed:  true,
                   items:  [
                     {
@@ -4946,7 +5930,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Manage Configuration",
+                  label:  "Quản lý cấu hình",
                   collapsed:  true,
                   items:  [
                     {
@@ -5015,13 +5999,13 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-jenkins-ci/huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal",
                       label:  "Create a Jenkins CI/CD pipeline"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-jenkins-ci/fpt-jenkins-ci",
-                      label:  "Overview"
                     }
                   ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-jenkins-ci/fpt-jenkins-ci",
+                  label:  "Overview"
                 }
               ]
             }
@@ -5039,46 +6023,19 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Configure Webhook",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/edit-webhook-secret",
-                      label:  "Edit webhook secret"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-webhook-secret",
-                      label:  "Delete webhook secret"
-                    }
-                  ]
-                },
-                {
                   type:  "doc",
-                  id:  "fpt-argocd/upgrade-version",
-                  label:  "Upgrade ArgoCD version"
+                  id:  "fpt-argocd/delete-webhook-secret",
+                  label:  "Delete webhook secret"
                 },
                 {
                   type:  "category",
-                  label:  "Manage Account on ArgoCD",
+                  label:  "Quản lý account trên argocd",
                   collapsed:  true,
                   items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/edit-capabilities",
-                      label:  "Edit capabilities"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/change-password",
-                      label:  "Change account password"
-                    },
                     {
                       type:  "doc",
                       id:  "fpt-argocd/enable-disable-account",
@@ -5115,6 +6072,55 @@ module.exports = {
                 },
                 {
                   type:  "category",
+                  label:  "Cấu hình OIDC phục vụ SSO config",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-chuc-nang-cau-hinh-oidc",
+                      label:  "Enable/disable OIDC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-oidc-config",
+                      label:  "OIDC configの設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/update-cau-hinh-oidc",
+                      label:  "OIDC configの更新"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/delete-oidc-da-cau-hinh",
+                      label:  "OIDC configの削除"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cho-phep-enable-applications-set",
+                  label:  "ApplicationSetのenable"
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình Notifications",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-notificaions",
+                      label:  "Enable/disable notifications"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao",
+                      label:  "通知チャンネルの設定"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
                   label:  "Demo",
                   collapsed:  true,
                   items:  [
@@ -5122,6 +6128,56 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-argocd/demo",
                       label:  "Demo"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                      label:  "Hướng dẫn đăng nhập vào ArgoCD"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                      label:  "Hướng dẫn cấu hình ArgoCD cluster để deploy ứng dụng với manifes"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
+                      label:  "Webhook secretを使用したWebhookの設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                      label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                      label:  "Hướng dẫn deploy applications qua helm chart repo"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                      label:  "Hướng dẫn deploy applications qua argocd cli"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                      label:  "Hướng dẫn sử dụng applicationset để deploy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                      label:  "Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                      label:  "Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                      label:  "Hướng dẫn tích hợp Argo CD Images Updater"
                     },
                     {
                       type:  "doc",
@@ -5160,18 +6216,8 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/view-argocd-detail",
-                      label:  "View details and log in"
-                    },
-                    {
-                      type:  "doc",
                       id:  "fpt-argocd/Webhook-configuration",
                       label:  "Webhook Configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/add-cluster-to-argocd",
-                      label:  "Connect Kubernetes cluster"
                     },
                     {
                       type:  "doc",
@@ -5192,11 +6238,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-argocd/enable-disable-images-updater",
                       label:  "Enable/disable Image Updater"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/Delete--webhook-secret",
-                      label:  "Delete Webhook Secret"
                     },
                     {
                       type:  "doc",
@@ -5250,11 +6291,6 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/add-webhook-secret",
-                      label:  "Add webhook secret"
-                    },
-                    {
-                      type:  "doc",
                       id:  "fpt-argocd/Edit-capabilities",
                       label:  "Edit Capabilities"
                     },
@@ -5262,11 +6298,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-argocd/Change-password",
                       label:  "Change Password"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/Enable-and-Disable-account",
-                      label:  "Enable And Disable Account"
                     },
                     {
                       type:  "doc",
@@ -5315,11 +6346,6 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-argocd/create-account",
-                      label:  "Create a new account"
-                    },
-                    {
-                      type:  "doc",
                       id:  "fpt-argocd/manage-admin-account",
                       label:  "Manage admin account"
                     },
@@ -5327,11 +6353,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-argocd/configure-notifications",
                       label:  "Configure notifications"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-notifications",
-                      label:  "Enable/disable notifications"
                     },
                     {
                       type:  "doc",
@@ -5347,11 +6368,6 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-argocd/configure-oidc-sso",
                       label:  "Configure OIDC SSO"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-oidc",
-                      label:  "Enable/disable OIDC"
                     },
                     {
                       type:  "doc",
@@ -5378,93 +6394,6 @@ module.exports = {
               ]
             }
           ]
-        },
-        {
-          type:  "category",
-          label:  "FPT Key Vault",
-          collapsed:  true,
-          items:  [
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/fpt-key-vault",
-              label:  "FPT Key Vault"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Initial-Setup",
-              label:  "Initial Setup"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Vault-Instance",
-              label:  "Create Vault Instance"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Secret-Engine-Management",
-              label:  "Secret Engine management"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Secret-Engine",
-              label:  "Create Secret Engine"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Delete-Secret-Engine",
-              label:  "Delete Secret Engine"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Secret-management",
-              label:  "Secret management"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Secret-in-Secret-Engine",
-              label:  "Create a secret"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/View-and-Update-Secret-information",
-              label:  "View and update secret"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Delete-Secret",
-              label:  "Delete Secret"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Policy-management",
-              label:  "Policy management"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Policy",
-              label:  "Create Policy"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Delete-Policy",
-              label:  "Delete Policy"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Auth-Method-Management",
-              label:  "Auth Method management"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Auth-Method",
-              label:  "Create Auth Method"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-key-vault/Create-Role",
-              label:  "Create Role"
-            }
-          ]
         }
       ]
     },
@@ -5479,19 +6408,14 @@ module.exports = {
           collapsed:  true,
           items:  [
             {
-              type:  "doc",
-              id:  "fpt-api-management/initial-setup",
-              label:  "Initial setup"
-            },
-            {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Initial Setup",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-api-management/analytics",
-                  label:  "Analytics"
+                  id:  "fpt-api-management/initial-setup",
+                  label:  "Initial setup"
                 },
                 {
                   type:  "doc",
@@ -5539,6 +6463,23 @@ module.exports = {
                   label:  "API Consumer usage guide"
                 }
               ]
+            },
+            {
+              type:  "category",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-api-management/quan-ly-rest-apis",
+                  label:  "REST API の管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-api-management/analytics",
+                  label:  "Analytics"
+                }
+              ]
             }
           ]
         },
@@ -5579,6 +6520,11 @@ module.exports = {
           label:  "FPT App Catalogs",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "fpt-app-catalogs/app-catalogs",
+              label:  "FPT App Catalogs"
+            },
             {
               type:  "doc",
               id:  "fpt-app-catalogs/fpt-app-catalogs",
@@ -5877,6 +6823,11 @@ module.exports = {
           items:  [
             {
               type:  "doc",
+              id:  "fpt-message-bus/fpt-message-bus-for-rabbitmq",
+              label:  "FPT Message Bus for RabbitMQ"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/fpt-message-bus",
               label:  "FPT Message Bus"
             },
@@ -5897,8 +6848,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/manage-queues",
+              label:  "queue の管理"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/Create-queues",
               label:  "Create Queues"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/tao-queues",
+              label:  "queue の作成"
             },
             {
               type:  "doc",
@@ -5907,8 +6868,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/xem-queues",
+              label:  "Xem queue"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/Send-Receive-messages-in-queues",
               label:  "Send and receive messages in queues"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/gui-nhan-message-trong-queues",
+              label:  "queue でのメッセージ送受信"
             },
             {
               type:  "doc",
@@ -5917,8 +6888,23 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/xoa-queues",
+              label:  "queue の削除"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/Manage-topics",
               label:  "Manage Topics"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/manage-topics",
+              label:  "topic の管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/quan-ly-topics",
+              label:  "Quản lý topics"
             },
             {
               type:  "doc",
@@ -6005,7 +6991,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Initial Setup",
+              label:  "Thiết lập ban đầu (Initial Setup)",
               collapsed:  true,
               items:  [
                 {
@@ -6032,12 +7018,12 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Hướng dẫn chi tiết",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage FPT Database Engine Service",
+                  label:  "Quản lý dịch vụ FPT Database Engine",
                   collapsed:  true,
                   items:  [
                     {
@@ -6059,7 +7045,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Initialize and Operate Database",
+                  label:  "Khởi tạo và vận hành cơ sở dữ liệu",
                   collapsed:  true,
                   items:  [
                     {
@@ -6187,33 +7173,16 @@ module.exports = {
                       label:  "Report Schedule"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "managed-fpt-database-engine/benchmark-sysbench",
-              label:  "Benchmark with Sysbench"
-            },
-            {
-              type:  "doc",
-              id:  "managed-fpt-database-engine/mysql-troubleshooting",
-              label:  "Mysql Troubleshooting"
-            },
-            {
-              type:  "category",
-              label:  "FAQs",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "managed-fpt-database-engine/clickhouse-use-ha",
-                  label:  "ClickHouse high availability"
                 },
                 {
                   type:  "doc",
                   id:  "managed-fpt-database-engine/managed-fpt-database-engine",
                   label:  "Managed FPT Database Engine"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/initial-setup",
+                  label:  "初期設定"
                 },
                 {
                   type:  "doc",
@@ -6247,13 +7216,23 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "managed-fpt-database-engine/provision-database-engine",
+                  id:  "managed-fpt-database-engine/Provision-Database-Engine",
                   label:  "Provision Database Engine"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Khoi-tao-Database-Engine",
+                  label:  "Khoi tao Database Engine"
                 },
                 {
                   type:  "doc",
                   id:  "managed-fpt-database-engine/create-database-engine",
                   label:  "Create a Database Engine"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Thao-tac-voi-Database-Engine",
+                  label:  "Thao tac voi Database Engine"
                 },
                 {
                   type:  "doc",
@@ -6272,8 +7251,18 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "managed-fpt-database-engine/Tao-backups-service",
+                  label:  "Tao Backups Service"
+                },
+                {
+                  type:  "doc",
                   id:  "managed-fpt-database-engine/create-backup-service",
                   label:  "Create backup service"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Cap-nhat-va-xoa-Backup-job",
+                  label:  "Cap Nhat va xoa Backup job"
                 },
                 {
                   type:  "doc",
@@ -6284,6 +7273,11 @@ module.exports = {
                   type:  "doc",
                   id:  "managed-fpt-database-engine/update-delete-backup-job",
                   label:  "Update and delete backup jobs"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Cap-nhat-va-xoa-Backup-Service",
+                  label:  "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
                 },
                 {
                   type:  "doc",
@@ -6302,8 +7296,18 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "managed-fpt-database-engine/Quan-ly-Resource",
+                  label:  "Quan ly Resource"
+                },
+                {
+                  type:  "doc",
                   id:  "managed-fpt-database-engine/manage-resources",
                   label:  "Manage resources"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Quan-ly-Configuration",
+                  label:  "Quan ly Configuration"
                 },
                 {
                   type:  "doc",
@@ -6312,8 +7316,18 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "managed-fpt-database-engine/Quan-ly-Process-Monitoring",
+                  label:  "Quan ly Process Monitoring"
+                },
+                {
+                  type:  "doc",
                   id:  "managed-fpt-database-engine/process-monitoring",
                   label:  "Process monitoring"
+                },
+                {
+                  type:  "doc",
+                  id:  "managed-fpt-database-engine/Quan-ly-Event-Logs",
+                  label:  "Quan ly Event Logs"
                 },
                 {
                   type:  "doc",
@@ -6346,6 +7360,21 @@ module.exports = {
                   label:  "Report"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-database-engine/benchmark-sysbench",
+              label:  "Benchmark with Sysbench"
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-database-engine/mysql-troubleshooting",
+              label:  "Mysql Troubleshooting"
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-database-engine/clickhouse-use-ha",
+              label:  "ClickHouse high availability"
             }
           ]
         },
@@ -6605,6 +7634,48 @@ module.exports = {
         },
         {
           type:  "category",
+          label:  "Trellix Customer Guide",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/setting-agert",
+              label:  "agent インストールパッケージの作成"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/trellix-customer-guide",
+              label:  "Trellix Customer Guide"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Access the administration interface",
+              label:  "Access The Administration Interface"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Create Agent Installation Package",
+              label:  "Trellix Customer Guide"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/client-task-mapping",
+              label:  "Client Task Mapping"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/report-guide",
+              label:  "Report Guide"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Viewing Logs",
+              label:  "Viewing Logs"
+            }
+          ]
+        },
+        {
+          type:  "category",
           label:  "Request Resource",
           collapsed:  true,
           items:  [
@@ -6615,7 +7686,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
@@ -6632,7 +7703,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "FAQs",
+              label:  "Các câu hỏi thường gặp (FAQs)",
               collapsed:  true,
               items:  [
                 {
@@ -6685,43 +7756,6 @@ module.exports = {
               label:  "Configure the OpenStack Provider"
             }
           ]
-        },
-        {
-          type:  "category",
-          label:  "Trellix Customer Guide",
-          collapsed:  true,
-          items:  [
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/trellix-customer-guide",
-              label:  "Trellix Customer Guide"
-            },
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/Access the administration interface",
-              label:  "Access The Administration Interface"
-            },
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/Create Agent Installation Package",
-              label:  "Trellix Customer Guide"
-            },
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/client-task-mapping",
-              label:  "Client Task Mapping"
-            },
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/report-guide",
-              label:  "Report Guide"
-            },
-            {
-              type:  "doc",
-              id:  "trellix-customer-guide/Viewing Logs",
-              label:  "Viewing Logs"
-            }
-          ]
         }
       ]
     },
@@ -6732,17 +7766,64 @@ module.exports = {
       items:  [
         {
           type:  "category",
+          label:  "FAQs",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "cost-explorer/question-1",
+              label:  "Không xem được Cost Explorer"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/cost-explorer",
+              label:  "Cost Explorer"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/コストエクスプローラー",
+              label:  "コストエクスプローラー"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/View-dashboards-and-specific-costs-by-service",
+              label:  "View costs by service"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/customer-filter",
+              label:  "View costs by resource type"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/Why-cant-I-watch-Cost-Explore",
+              label:  "Cannot view Cost Explorer"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/質問-1",
+              label:  "コストエクスプローラーを確認できない"
+            },
+            {
+              type:  "doc",
+              id:  "cost-explorer/questions-2",
+              label:  "Filter Cost Explorer by specific resource"
+            }
+          ]
+        },
+        {
+          type:  "category",
           label:  "Bills",
           collapsed:  true,
           items:  [
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
                   type:  "category",
-                  label:  "View Billing Reconciliation",
+                  label:  "Xem đối soát theo kỳ hóa đơn",
                   collapsed:  true,
                   items:  [
                     {
@@ -6759,6 +7840,11 @@ module.exports = {
                       type:  "doc",
                       id:  "billing/view-bill-charges-by-resource",
                       label:  "View charges by resource"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "billing/billing",
+                      label:  "Bills"
                     }
                   ]
                 },
@@ -6793,11 +7879,6 @@ module.exports = {
                   type:  "doc",
                   id:  "billing/fqas-3",
                   label:  "Why do I have multiple reconciliation entries in the same billing period?"
-                },
-                {
-                  type:  "doc",
-                  id:  "billing/billing",
-                  label:  "Bills"
                 }
               ]
             }
@@ -6812,6 +7893,11 @@ module.exports = {
               type:  "doc",
               id:  "budget-alert/budget-alert",
               label:  "Budget Alert"
+            },
+            {
+              type:  "doc",
+              id:  "budget-alert/予算アラート",
+              label:  "予算アラート"
             },
             {
               type:  "doc",
@@ -6842,38 +7928,6 @@ module.exports = {
               type:  "doc",
               id:  "budget-alert/setting-budget-alert",
               label:  "Block resource creation at threshold"
-            }
-          ]
-        },
-        {
-          type:  "category",
-          label:  "Cost Explorer",
-          collapsed:  true,
-          items:  [
-            {
-              type:  "doc",
-              id:  "cost-explorer/cost-explorer",
-              label:  "Cost Explorer"
-            },
-            {
-              type:  "doc",
-              id:  "cost-explorer/View-dashboards-and-specific-costs-by-service",
-              label:  "View costs by service"
-            },
-            {
-              type:  "doc",
-              id:  "cost-explorer/customer-filter",
-              label:  "View costs by resource type"
-            },
-            {
-              type:  "doc",
-              id:  "cost-explorer/Why-cant-I-watch-Cost-Explore",
-              label:  "Cannot view Cost Explorer"
-            },
-            {
-              type:  "doc",
-              id:  "cost-explorer/questions-2",
-              label:  "Filter Cost Explorer by specific resource"
             }
           ]
         }
@@ -6908,7 +7962,7 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Tutorials",
+          label:  "Hướng dẫn chi tiết (Tutorial)",
           collapsed:  true,
           items:  [
             {
@@ -6940,7 +7994,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Organization Management",
+              label:  "Organization Management - Quản lý Organization",
               collapsed:  true,
               items:  [
                 {
@@ -6972,7 +8026,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Team Management",
+              label:  "Team Management - Quản lý Team",
               collapsed:  true,
               items:  [
                 {
@@ -6994,7 +8048,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Integration Management",
+              label:  "Integration Management - Quản lý tích hợp",
               collapsed:  true,
               items:  [
                 {
@@ -7031,12 +8085,17 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-appsec/cicd-guideline",
                   label:  "DevOps pipeline integration"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-appsec/fpt-appsec",
+                  label:  "FPT AppSec"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Workspace Management",
+              label:  "Workspace Management - Quản lý Asset và Issue",
               collapsed:  true,
               items:  [
                 {
@@ -7068,7 +8127,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Schedule Management",
+              label:  "Schedule Management - Quản lý lịch chạy scan",
               collapsed:  true,
               items:  [
                 {
@@ -7090,11 +8149,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-appsec/schedule-delete",
                   label:  "Delete a schedule"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-appsec/fpt-appsec",
-                  label:  "FPT AppSec"
                 }
               ]
             }
@@ -7114,19 +8168,14 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Tutorials",
+          label:  "Hướng dẫn chi tiết (Tutorials)",
           collapsed:  true,
           items:  [
             {
               type:  "category",
-              label:  "Manage Managed GPU Cluster",
+              label:  "Quản lý Managed GPU Cluster",
               collapsed:  true,
               items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster",
-                  label:  "Manage Managed GPU Cluster"
-                },
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi",
@@ -7151,14 +8200,9 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Modify K8S Cluster Configuration",
+              label:  "Thay đổi cấu hình K8S Cluster",
               collapsed:  true,
               items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-managed-gpu-cluster/thay-doi-cau-hinh-k8s",
-                  label:  "Change K8S Cluster Configuration"
-                },
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/add-them-worker-group",
@@ -7218,7 +8262,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Deploy Sample GPU Workload to Managed GPU Cluster",
+              label:  "Triển khai workload GPU mẫu lên Managed GPU Cluster",
               collapsed:  true,
               items:  [
                 {
@@ -7245,13 +8289,13 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/finetune-llm-models",
                   label:  "Fine-tuning an LLM model with Unsloth on Kubernetes"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-managed-gpu-cluster/fpt-managed-gpu-cluster",
-                  label:  "FPT Managed GPU Cluster"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-managed-gpu-cluster/fpt-managed-gpu-cluster",
+              label:  "FPT Managed GPU Cluster"
             }
           ]
         }
@@ -7376,13 +8420,33 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "ai-notebook/get-started-jp",
+              label:  "AI Notebookについて"
+            },
+            {
+              type:  "doc",
+              id:  "ai-notebook/quick-start-jp",
+              label:  "クイックスタート"
+            },
+            {
+              type:  "doc",
               id:  "ai-notebook/quick-start",
               label:  "Quick start"
             },
             {
               type:  "doc",
+              id:  "ai-notebook/lauch-jp",
+              label:  "AI Notebookの起動"
+            },
+            {
+              type:  "doc",
               id:  "ai-notebook/launch-ai-notebook",
               label:  "Launch AI Notebook"
+            },
+            {
+              type:  "doc",
+              id:  "ai-notebook/create-jp",
+              label:  "Notebookの作成"
             },
             {
               type:  "doc",
@@ -7396,8 +8460,23 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "ai-notebook/switch",
+              label:  "Kernelの接続と切り替え"
+            },
+            {
+              type:  "doc",
+              id:  "ai-notebook/shut-down-jp",
+              label:  "Kernelのシャットダウン"
+            },
+            {
+              type:  "doc",
               id:  "ai-notebook/shut-down-kernel",
               label:  "Shut down kernel"
+            },
+            {
+              type:  "doc",
+              id:  "ai-notebook/faq-jp",
+              label:  "よくある質問"
             },
             {
               type:  "doc",
@@ -7490,6 +8569,11 @@ module.exports = {
               type:  "doc",
               id:  "ai_marketplace/FAQ",
               label:  "FAQ"
+            },
+            {
+              type:  "doc",
+              id:  "ai_marketplace/sign-in",
+              label:  "サインイン"
             }
           ]
         },
@@ -7532,8 +8616,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/concept",
+              label:  "モデルの微調整"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/overview",
               label:  "Model Fine-Tuning"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/key-features",
+              label:  "Key Features"
             },
             {
               type:  "doc",
@@ -7542,8 +8636,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/faqs",
+              label:  "よくある質問"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/when-to-use-model-fine-tuning",
               label:  "When To Use Model..."
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/initial-setup",
+              label:  "初期設定"
             },
             {
               type:  "doc",
@@ -7557,6 +8661,16 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/top-up-balance",
+              label:  "Top Up Balance"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/create-pipeline",
+              label:  "Create Pipeline"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/step-by-step",
               label:  "Step By Step"
             },
@@ -7567,8 +8681,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/training-configuration",
+              label:  "Training Configuration"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/select-base-model",
               label:  "Select Base Model"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/select-data-format",
+              label:  "Select Data Format"
             },
             {
               type:  "doc",
@@ -7577,8 +8701,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/set-hyperparameters",
+              label:  "Set Hyperparameters"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/select-volume",
               label:  "Select Volume"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/manage-pipeline",
+              label:  "Manage Pipeline"
             },
             {
               type:  "doc",
@@ -7602,8 +8736,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/view-execution-history",
+              label:  "View Execution History"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/finish",
               label:  "Finish"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/view-execution-details",
+              label:  "View Execution Details"
             },
             {
               type:  "doc",
@@ -7714,8 +8858,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/initial-setup",
+              label:  "Thiết lập ban đầu"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/overview",
               label:  "Overview"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/dang-nhap",
+              label:  "Đăng nhập"
             },
             {
               type:  "doc",
@@ -7724,8 +8878,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/danh-sach-model",
+              label:  "Danh Sach Model"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-does-it-work",
               label:  "How does it work"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/chi-tiet-model",
+              label:  "Mục đích: Xem chi tiết model"
             },
             {
               type:  "doc",
@@ -7739,8 +8903,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/tao-model",
+              label:  "Mục đích: Thêm mới model vào hệ thống"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/sign-up-for-an-account",
               label:  "Sign Up For An..."
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/sua-model",
+              label:  "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
             },
             {
               type:  "doc",
@@ -7749,13 +8923,28 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/xoa-model",
+              label:  "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/start-using-services",
               label:  "Start Using Services"
             },
             {
               type:  "doc",
+              id:  "model-hub/tao-verison",
+              label:  "Tao Verison"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/notice",
               label:  "Model Hub"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/update-version",
+              label:  "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
             },
             {
               type:  "doc",
@@ -7766,6 +8955,11 @@ module.exports = {
               type:  "doc",
               id:  "model-hub/create-a-model",
               label:  "Create a model"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/upload-file",
+              label:  "Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng"
             },
             {
               type:  "doc",
@@ -7799,8 +8993,23 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/update-share",
+              label:  "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/Edit-version",
               label:  "Edit a version"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/delete-share",
+              label:  "Delete Share"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/clone-model",
+              label:  "Mục đích: Nhân bản 1 model giống với model đã có."
             },
             {
               type:  "doc",
@@ -7809,8 +9018,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/base-model",
+              label:  "Base Model"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-to-upload-download-files-by-sdk",
               label:  "Upload and download files by SDK"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/create-organization",
+              label:  "Create Organization"
             },
             {
               type:  "doc",
@@ -7821,6 +9040,11 @@ module.exports = {
               type:  "doc",
               id:  "model-hub/download-files",
               label:  "Download files"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/view-update-organization",
+              label:  "Mục đích: view detail organization"
             },
             {
               type:  "doc",
@@ -7836,6 +9060,11 @@ module.exports = {
               type:  "doc",
               id:  "model-hub/add-share",
               label:  "Add share"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/chi-tiet-model-catalog",
+              label:  "Mục đích: Xem chi tiết model"
             },
             {
               type:  "doc",
@@ -7928,23 +9157,8 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "model-testing-interactive-sessions/overview",
-              label:  "Model Testing – Interactive..."
-            },
-            {
-              type:  "doc",
-              id:  "model-testing-interactive-sessions/what-is-model-testing-interactive-sessions",
-              label:  "What Is Model Testing..."
-            },
-            {
-              type:  "doc",
               id:  "model-testing-interactive-sessions/when-to-use-model-testing-interactive-sessions",
               label:  "When To Use Model..."
-            },
-            {
-              type:  "doc",
-              id:  "model-testing-interactive-sessions/quick-start",
-              label:  "Model Testing – Interactive..."
             },
             {
               type:  "doc",
@@ -8134,43 +9348,43 @@ module.exports = {
               label:  "Faq"
             }
           ]
+        }
+      ]
+    },
+    {
+      type:  "category",
+      label:  "Model Testing",
+      collapsed:  true,
+      items:  [
+        {
+          type:  "doc",
+          id:  "model-testing/model-testing",
+          label:  "Model testing"
         },
         {
-          type:  "category",
-          label:  "Model Testing",
-          collapsed:  true,
-          items:  [
-            {
-              type:  "doc",
-              id:  "model-testing/model-testing",
-              label:  "Model testing"
-            },
-            {
-              type:  "doc",
-              id:  "model-testing/definition",
-              label:  "Definition"
-            },
-            {
-              type:  "doc",
-              id:  "model-testing/key-features",
-              label:  "Key features"
-            },
-            {
-              type:  "doc",
-              id:  "model-testing/create-an-interactive-session",
-              label:  "Create an interactive session"
-            },
-            {
-              type:  "doc",
-              id:  "model-testing/test-models-response",
-              label:  "Test models response"
-            },
-            {
-              type:  "doc",
-              id:  "model-testing/completion-history",
-              label:  "Completion history"
-            }
-          ]
+          type:  "doc",
+          id:  "model-testing/definition",
+          label:  "Definition"
+        },
+        {
+          type:  "doc",
+          id:  "model-testing/key-features",
+          label:  "Key features"
+        },
+        {
+          type:  "doc",
+          id:  "model-testing/create-an-interactive-session",
+          label:  "Create an interactive session"
+        },
+        {
+          type:  "doc",
+          id:  "model-testing/test-models-response",
+          label:  "Test models response"
+        },
+        {
+          type:  "doc",
+          id:  "model-testing/completion-history",
+          label:  "Completion history"
         }
       ]
     }

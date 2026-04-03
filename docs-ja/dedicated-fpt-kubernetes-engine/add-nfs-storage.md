@@ -1,5 +1,5 @@
 ---
-id: "add-nfs-storage"
+id: "them-nfs-persistent-storage"
 title: "NFS Persistent Storage の追加"
 description: "Kubernetes クラスターにNFS Persistent Storageを追加する方法を説明します。"
 sidebar_label: "NFS Persistent Storage の追加"

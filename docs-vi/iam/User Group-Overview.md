@@ -1,5 +1,5 @@
 ---
-id: "User Group-Overview"
+id: "overview-user-group"
 title: "User Group overview"
 description: "User Group là nhóm người dùng có vai trò giống nhau, được gán chung Roles và Permission."
 sidebar_label: "User Group overview"
