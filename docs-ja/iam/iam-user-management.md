@@ -6,8 +6,8 @@ sidebar_label: "IAM User管理"
 sidebar_position: 17
 ---
 
-# IAM User管理
+# Quản lý IAM User
 
-IAM User管理機能により、Tenant ownerは新しいユーザーをテナントに招待し、User Groupを通じてアクセス権限を管理できます。
+Tính năng Quản lý IAM User cho phép Tenant owner mời người dùng mới vào tenant và quản lý quyền truy cập của họ thông qua User Group.
 
-詳細な手順はこのページのサブセクションを参照してください。
+Xem các hướng dẫn chi tiết trong mục con của trang này.

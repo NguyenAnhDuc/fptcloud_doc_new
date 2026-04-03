@@ -8,4 +8,8 @@ sidebar_position: 7
 
 # Japan region
 
-Guide for using File Storage High Performance in the Japan region.
+FPT Cloud File Storage High Performance is available in the Japan region, providing low-latency, high-throughput storage for workloads hosted in Japan. This guide covers region-specific configuration and usage for the Japan deployment.
+
+:::note
+This page is being updated. Please check back later.
+:::

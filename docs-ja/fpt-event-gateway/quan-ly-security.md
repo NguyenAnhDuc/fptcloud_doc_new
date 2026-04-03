@@ -6,6 +6,6 @@ sidebar_label: "セキュリティの管理"
 sidebar_position: 7
 ---
 
-# セキュリティの管理
+# Manage Security
 
-このセクションでは、**FPT Event Gateway** のSecurity（JWT認証）設定の管理について説明します。JWT authエントリの作成、確認、更新、削除が含まれます。
+This section covers managing Security (JWT authentication) configurations for **FPT Event Gateway**, including creating, viewing, updating, and deleting JWT auth entries.

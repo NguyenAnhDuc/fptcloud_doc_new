@@ -8,4 +8,6 @@ sidebar_position: "21"
 
 # Run History
 
-Run History — Model Testing上の機能。
+Run history provides a detailed log of all testing runs for a selected model.
+[![Alt text](/img/migrated/Run-history-a75b32a0.png)](/img/migrated/Run-history-a75b32a0.png)
+**Notice:** Each record in history shows when the job was started

@@ -5,6 +5,6 @@ sidebar_label: "クレデンシャルの管理"
 sidebar_position: 10
 ---
 
-# クレデンシャルの管理
+# Manage credentials
 
-FPT Cloud では、Portal インターフェースを通じて以下の種類のクレデンシャルを管理できます：Secret text、Username with password、GitLab API token、SSH Username with private key。
+FPT Cloud allows you to manage several types of credentials through the Portal interface, including: Secret text, Username with password, GitLab API token, and SSH Username with private key.

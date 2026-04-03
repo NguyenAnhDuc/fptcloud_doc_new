@@ -6,6 +6,8 @@ sidebar_label: "SSO用のOIDC設定"
 sidebar_position: 33
 ---
 
-# SSO用のOIDC設定
+# Configure OIDC SSO
 
-adminアカウントとローカルアカウントに加え、FPT CloudはArgoCDとKeycloakシステムの統合をサポートしています。これにより、SSO（シングルサインオン）を通じてArgoCDへのログインアカウントを管理できます。
+FPT ArgoCD supports configuring OIDC SSO to allow users to authenticate using an external identity provider.
+
+Configure OIDC SSO settings in the **Security & Access** > **OIDC** section of the ArgoCD instance.

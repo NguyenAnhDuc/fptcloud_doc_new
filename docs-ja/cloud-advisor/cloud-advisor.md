@@ -6,10 +6,10 @@ sidebar_label: "紹介"
 sidebar_position: 2
 ---
 
-# Cloud Advisorの紹介
+# Introduction to Cloud Advisor
 
-FPT Cloud Advisorは、以下のことを支援するツールです：
+FPT Cloud Advisor is a tool that helps you:
 
-- クラウドリソースの安全性、パフォーマンス、コスト最適化の評価
-- 設定ミスのリスクの検出
-- システム改善のための推奨事項の提供
+- Evaluate the safety, performance, and cost optimization of your cloud resources
+- Detect misconfiguration risks
+- Provide recommendations to improve your system

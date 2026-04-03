@@ -6,6 +6,11 @@ sidebar_label: "トラフィック設定"
 sidebar_position: "10"
 ---
 
-# トラフィック設定
+# Traffic setting configuration
 
-モデルバージョン間でトラフィックを分割するための設定です。
+[![Alt text](/img/migrated/14-28f62d74.png)](/img/migrated/14-28f62d74.png)  
+| **Information**  | **Description**  | **Available Actions**  |  
+| --- | --- | --- |  
+| Service type  | Type of service connecting to the external network  | Cannot be changed  |  
+| Traffic type  | Type of external connection: public/private  | Cannot be changed  |  
+| Port  | Network port for external connections and internal instance calls  | Cannot be changed  |

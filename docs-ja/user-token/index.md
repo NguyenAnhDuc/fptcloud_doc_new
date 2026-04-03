@@ -6,6 +6,6 @@ sidebar_label: "ユーザートークン"
 sidebar_position: 1
 ---
 
-# ユーザートークン
+# Token
 
-ユーザートークンは、FPT Cloud AI Studioのサービス（モデルファインチューニング、モデルハブなど）にAPIやSDK経由でアクセスするための短期間有効な認証情報です。ログインパスワードを共有せずに、安全にAPIを利用できます。
+Token là tính năng cho phép khách hàng xác thực và truy cập các dịch vụ FPT Cloud thông qua API, Terraform và SDK mà không cần dùng mật khẩu trực tiếp.

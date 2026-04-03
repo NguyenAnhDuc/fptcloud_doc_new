@@ -8,4 +8,6 @@ sidebar_position: 42
 
 # Demo
 
-ArgoCDクラスターへの接続手順については、メニューの **Document** セクションで詳細を参照してください。
+This page provides a quick reference for connecting to and using an ArgoCD cluster on FPT Cloud.
+
+Refer to the **Document** section in the menu for detailed instructions on each operation.

@@ -5,6 +5,6 @@ sidebar_label: "FPT Cloud Monitoring を有効化する"
 sidebar_position: 3
 ---
 
-# FPT Cloud Monitoring を有効化する
+# Activate FPT Cloud Monitoring
 
-**FPT Cloud Monitoring** を新規登録するには、サービスクォータを付与してもらう必要があります。ご利用をご希望の場合は、お問い合わせください。
+To register for **FPT Cloud Monitoring**, you need to be granted a service quota. Contact us if you would like to use the service.

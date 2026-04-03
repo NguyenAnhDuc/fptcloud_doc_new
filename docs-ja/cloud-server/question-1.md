@@ -7,6 +7,6 @@ sidebar_position: 106
 pagination_next: null
 ---
 
-# 作成済みのAddress Pairを編集できますか？
+# Can I edit Address Pairs that have already been created?
 
-現在、システムは作成済みのAddress Pairの編集をサポートしていません。設定を変更するには、既存のAddress Pairを削除して新しく作成する必要があります。
+The system does not currently support editing an Address Pair after it has been created. To change the configuration, you need to delete the existing Address Pair and create a new one.

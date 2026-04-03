@@ -8,4 +8,16 @@ sidebar_position: "9"
 
 # How To Manage Session
 
-How To Manage Session — Model Testing上の機能。
+It includes:
+
+- Status Session
+
+Status Session
+
+- Stop Session
+
+Stop Session
+
+- Delete Session
+
+Delete Session

@@ -5,6 +5,6 @@ sidebar_label: "FPT Cloud Agent の管理"
 sidebar_position: 6
 ---
 
-# FPT Cloud Agent の管理
+# Quản lý FPT Cloud Agent
 
-この機能では、FPT Portal インターフェースを通じてエージェントの作成・編集・削除を行うことができます。
+Chức năng này cho phép người dùng có thể tạo, sửa, xoá agent thông qua giao diện FPT Portal. Để sử dụng chức năng, người dùng có thể thực hiện như sau:

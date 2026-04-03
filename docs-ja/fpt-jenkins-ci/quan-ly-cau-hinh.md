@@ -5,6 +5,6 @@ sidebar_label: "設定の管理"
 sidebar_position: 14
 ---
 
-# 設定の管理
+# Manage configurations
 
-この機能では、FPT Portal インターフェースを通じて Jenkins CI インスタンスのメール通知、SonarQube サーバー、Telegram Bot を設定できます。
+This feature allows you to configure email notifications, SonarQube servers, and Telegram Bots for your Jenkins CI instance through the FPT Portal interface.

@@ -6,6 +6,6 @@ sidebar_label: "NAT Instanceの概要"
 sidebar_position: 2
 ---
 
-# NAT Instanceの概要
+# NAT Instance overview
 
-NAT Instance機能は、isolated network内のインスタンスがインターネット上の外部システム（ソフトウェアのインストールやOn-premise環境への接続など）にアクセスできるようにします。
+The NAT Instance feature enables instances in isolated networks to access external systems on the Internet, such as installing software or connecting to On-premise infrastructure.

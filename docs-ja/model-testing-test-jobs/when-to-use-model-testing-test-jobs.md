@@ -8,4 +8,8 @@ sidebar_position: "4"
 
 # When To Use Model Testing Test Jobs
 
-When To Use Model Testing Test Jobs — Model Testing上の機能。
+**Model Testing - Test Jobs** is most valuable when you need to evaluate the overall performance, reliability, and scalability of a fine-tuned model before deployment.
+You should use **Test Jobs** when:
+  * You want to validate model performance **at scale**.
+  * You want to track improvements **across model versions**.
+  * You require **quantitative performance metrics**.

@@ -6,6 +6,6 @@ sidebar_label: "Policyの管理"
 sidebar_position: 13
 ---
 
-# Policyの管理
+# Manage Policy
 
-Autoscale Policyは、Autoscale Groupに対してアクションを実行する前または実行完了後に**確認するルール**または**実行するアクション**のセットです。
+An Autoscale Policy is a set of **rules to check** or **actions to execute** before performing an action on an Autoscale Group or after the action completes.

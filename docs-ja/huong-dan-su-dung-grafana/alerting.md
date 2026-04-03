@@ -8,4 +8,8 @@ sidebar_position: 17
 
 # Alerting
 
-このページは現在コンテンツを更新中です。後ほど再度ご確認ください。
+Grafana Alerting allows you to configure alert rules based on metric thresholds and conditions, so that your team is notified automatically when issues arise. This guide covers creating alert rules, configuring notification channels, and managing alert states within FPT Cloud's Grafana deployment.
+
+:::note
+This page is being updated. Please check back later.
+:::

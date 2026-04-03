@@ -6,6 +6,6 @@ sidebar_label: "メニューにRequest Resourceセクションが見つからな
 sidebar_position: 8
 ---
 
-# メニューにRequest Resourceセクションが見つからないのはなぜですか？
+# Why can't I find the Request Resource section in the menu?
 
-VPC OwnerまたはTenant Owner権限がない場合、リソースリクエストを作成できません。FCIのサポートチームに連絡して、適切な権限の付与を依頼してください。
+If you do not have VPC Owner or Tenant Owner permissions, you cannot create a resource request. Please contact FCI's support team to be granted the appropriate permissions.

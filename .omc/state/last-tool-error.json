@@ -1,7 +1,7 @@
 {
-  "tool_name": "Read",
-  "tool_input_preview": "{\"file_path\":\"/root/.claude/projects/-root-codes-fptcloud-doc-new/c76acfb7-025c-4ce8-a2cb-eebcf5e28133/tool-results/by8ox9v90.txt\"}",
-  "error": "File content (35423 tokens) exceeds maximum allowed tokens (10000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
-  "timestamp": "2026-03-30T16:28:35.681Z",
-  "retry_count": 2
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"python3 -c \\\"\\nfrom playwright.sync_api import sync_playwright\\nimport sys\\nsys.path.insert(0, 'scripts')\\nfrom crawl_menu import crawl_sidebar, create_browser, safe_navigate, load_selecto...",
+  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"<string>\", line 18, in <module>\nAttributeError: 'str' object has no attribute 'get'\nTagging: ?doc= links (14 unique)",
+  "timestamp": "2026-04-03T04:38:06.121Z",
+  "retry_count": 1
 }

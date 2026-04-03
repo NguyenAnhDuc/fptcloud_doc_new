@@ -7,10 +7,10 @@ sidebar_position: 81
 pagination_next: null
 ---
 
-# Instance Groupの削除
+# Delete an Instance Group
 
-不要になったInstance Groupを削除します。
+Delete an Instance Group when it is no longer required.
 
 :::warning
-Instance Groupを削除すると配置ポリシーが削除されます。グループに含まれていたInstanceは自動的には移動されず、現在の物理ホストに留まります。
+Deleting an Instance Group removes the placement policy. Instances that were in the group will not be automatically relocated — they remain on their current physical hosts.
 :::

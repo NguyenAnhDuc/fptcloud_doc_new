@@ -5,6 +5,7 @@ description: "バックアップサービスのFPT Cloudトライアルポリシ
 sidebar_label: "バックアップのトライアルポリシーはありますか？"
 sidebar_position: "13"
 ---
-# バックアップについて学びたいのですが、FPT Cloudにはトライアルポリシーがありますか？
 
-はい、各サービスと時期によって対応するトライアルプログラムがあります。最新のプログラムについての情報を得るために、FPT Cloudにお気軽にお問い合わせください。
+# I want to learn about Backup — does FPT Cloud have a trial policy?
+
+Yes, depending on each service and time period, we have corresponding trial programs. Do not hesitate to contact FPT Cloud to receive information about the latest programs.

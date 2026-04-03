@@ -10,104 +10,61 @@
 ├────────┬─────────┬───────┬─────────┬──────────┬───────┬────────┬─────────┤
 │ Lang   │ Sidebar │ Files │ Missing │ Orphaned │ Empty │ Images │ Broken  │
 ├────────┼─────────┼───────┼─────────┼──────────┼───────┼────────┼─────────┤
-│ EN     │ 698     │ 1347  │ 0       │ 738      │ 4     │ 3246   │ 0       │
-│ VI     │ 1032    │ 1355  │ 0       │ 405      │ 18    │ 3803   │ 0       │
-│ JA     │ 596     │ 1269  │ 0       │ 829      │ 71    │ 3143   │ 0       │
+│ EN     │ 1347    │ 1347  │ 0       │ 94       │ 0     │ 3246   │ 0       │
+│ VI     │ 1355    │ 1355  │ 0       │ 82       │ 0     │ 3803   │ 0       │
+│ JA     │ 1224    │ 1224  │ 0       │ 112      │ 0     │ 3133   │ 0       │
 └────────┴─────────┴───────┴─────────┴──────────┴───────┴────────┴─────────┘
 
 
-[EN] ORPHANED FILES -- not in sidebar (738):
-   - affinity-anti-affinity/add-instance-instance-group
-   - affinity-anti-affinity/create-instance-group
-   - affinity-anti-affinity/delete-instance-group
+[EN] ORPHANED FILES -- not in sidebar (94):
    - affinity-anti-affinity/index
-   - affinity-anti-affinity/initial-setup
    - ai-factory-billing/index
    - ai-notebook/index
    - ai_marketplace/index
-   - allow-address-pair/activity-log
-   - allow-address-pair/create-address-pair-on-instance-management
-   - allow-address-pair/create-address-pair
-   - allow-address-pair/delete-address-pair
    - allow-address-pair/index
-   - allow-address-pair/initial-setup
-   - allow-address-pair/question-1
-   - auto-schedule-to-on-off-instance/attach-schedule-to-instance
-   - auto-schedule-to-on-off-instance/create-new-instance
-   - auto-schedule-to-on-off-instance/delete-instance-schedule
-   - auto-schedule-to-on-off-instance/detach-schedule-to-instance
    - auto-schedule-to-on-off-instance/index
-   ... and 718 more
+   - backup/index
+   - billing/index
+   - budget-alert/index
+   - change-network-config/index
+   - checkpoint-fpt-ngfw/index
+   - cloud-advisor/index
+   - cloud-guard/index
+   - cloud-server/index
+   - cost-explorer/index
+   - create-vpc/index
+   - data-hub/index
+   - ddos-protection/index
+   - dedicated-fpt-kubernetes-engine/index
+   - end-user-request-resource/index
+   ... and 74 more
 
-[EN] EMPTY/SHORT FILES (4):
-   - file-storage-high-performance/japan-region (82 chars) -- "# Japan region
-
-Guide for using File Storage High Performance in the Japan regio"
-   - file-storage-high-performance/vietnam-region (86 chars) -- "# Vietnam region
-
-Guide for using File Storage High Performance in the Vietnam r"
-   - fpt-cloud-portal/index (98 chars) -- "# FPT Cloud Portal
-
-FPT Cloud Portal is the central management console for all F"
-   - huong-dan-su-dung-grafana/alerting (64 chars) -- "# Alerting
-
-This page is being updated. Please check back later."
-
-[VI] ORPHANED FILES -- not in sidebar (405):
-   - affinity-anti-affinity/add-instance-instance-group
-   - affinity-anti-affinity/create-instance-group
-   - affinity-anti-affinity/delete-instance-group
+[VI] ORPHANED FILES -- not in sidebar (82):
    - affinity-anti-affinity/index
-   - affinity-anti-affinity/initial-setup
-   - ai-factory-billing/add-credits
-   - ai-factory-billing/balance
-   - ai-factory-billing/billing-calculation
-   - ai-factory-billing/billing-faq
-   - ai-factory-billing/billing-plan
-   - ai-factory-billing/credit-history
-   - ai-factory-billing/gpu-container-billing
-   - ai-factory-billing/index
-   - ai-factory-billing/low-balance-threshold-alert
-   - ai-factory-billing/modas-billing
-   - ai-factory-billing/model-finetuning-billing
-   - ai-factory-billing/model-hub-billing
-   - ai-factory-billing/overview
-   - ai-factory-billing/payment-invoice
-   - ai-factory-billing/payment-methods
-   ... and 385 more
-
-[VI] EMPTY/SHORT FILES (18):
-   - cloud-server/add-card-NIC- new (0 chars) -- ""
-   - cloud-server/add-instance-instance-group (0 chars) -- ""
-   - cloud-server/change-address-MAC (0 chars) -- ""
-   - cloud-server/change-network-config (0 chars) -- ""
-   - cloud-server/convert-card (0 chars) -- ""
-   - cloud-server/create-card-NIC- Primary (0 chars) -- ""
-   - cloud-server/create-instance-group (0 chars) -- ""
-   - cloud-server/delete-card-NIC (0 chars) -- ""
-   - cloud-server/delete-instance-group (0 chars) -- ""
-   - cloud-server/disable-NIC-card (0 chars) -- ""
-   - cloud-server/edit-instance-group-specific (0 chars) -- ""
-   - cloud-server/edit-ip-address (0 chars) -- ""
-   - cloud-server/enable-NIC-card (0 chars) -- ""
-   - cloud-server/header-project (0 chars) -- ""
-   - cloud-server/quan-ly-project (0 chars) -- ""
-   - cloud-server/select-project-when-creating-VPC (0 chars) -- ""
-   - fpt-cloud-portal/index (97 chars) -- "# FPT Cloud Portal
-
-FPT Cloud Portal là giao diện quản lý trung tâm cho tất cả d"
-   - huong-dan-su-dung-grafana/alerting (73 chars) -- "# Alerting
-
-Trang này đang được cập nhật nội dung. Vui lòng quay lại sau."
-
-[JA] ORPHANED FILES -- not in sidebar (829):
-   - affinity-anti-affinity/add-instance-instance-group
-   - affinity-anti-affinity/create-instance-group
-   - affinity-anti-affinity/delete-instance-group
-   - affinity-anti-affinity/index
-   - affinity-anti-affinity/initial-setup
    - ai-factory-billing/index
    - ai-notebook/index
+   - ai_marketplace/index
+   - allow-address-pair/index
+   - auto-schedule-to-on-off-instance/index
+   - backup/index
+   - billing/index
+   - budget-alert/index
+   - change-network-config/index
+   - checkpoint-fpt-ngfw/index
+   - cloud-advisor/index
+   - cloud-guard/index
+   - cloud-server/index
+   - cost-explorer/index
+   - create-vpc/index
+   - data-hub/index
+   - ddos-protection/index
+   - dedicated-fpt-kubernetes-engine/index
+   - end-user-request-resource/index
+   ... and 62 more
+
+[JA] ORPHANED FILES -- not in sidebar (112):
+   - affinity-anti-affinity/index
+   - ai-factory-billing/index
    - ai_marketplace/AI マーケットプレイス
    - ai_marketplace/index
    - ai_marketplace/お問い合わせ
@@ -116,98 +73,17 @@ Trang này đang được cập nhật nội dung. Vui lòng quay lại sau."
    - ai_marketplace/マイアカウント
    - ai_marketplace/残高
    - ai_marketplace/製品情報
-   - allow-address-pair/activity-log
-   - allow-address-pair/create-address-pair-on-instance-management
-   - allow-address-pair/create-address-pair
-   - allow-address-pair/delete-address-pair
-   - allow-address-pair/index
-   ... and 809 more
-
-[JA] EMPTY/SHORT FILES (71):
-   - ai-factory-billing/index (88 chars) -- "# AI Factory Billing
-
-AI Factory Billing は、FPT AI Factory サービスのクレジット、支払い、およびコスト追"
-   - ai-notebook/index (80 chars) -- "# AI Notebook
-
-AI NotebookはFPT AI Factory上でAI/ML開発向けのマネージドJupyterノートブック環境を提供します。"
-   - cloud-server/index (80 chars) -- "# FPT Cloud Serverの概要
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::"
-   - cloud-server/network-all (71 chars) -- "# ネットワーキング概要
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::"
-   - cloud-server/quan-ly-floating-ip (74 chars) -- "# Floating IP管理
-
-:::note
-このページはベトナム語から翻訳中です。完全な内容については、ベトナム語版をご参照ください。
-:::"
-   - create-vpc/index (95 chars) -- "# VPC の作成
-
-VPC作成機能では、FPT Cloud Portal上でVPCを自主的に作成・管理できます。リソースの分離、ネットワーク制御、セキュリティ"
-   - data-hub/index (75 chars) -- "# Data Hub
-
-Data Hubは、FPT AI Factory上のAI/MLワークフロー向けにデータ管理とパイプラインサービスを提供します。"
-   - end-user-request-resource/fqas-1 (80 chars) -- "# 同時に複数のリクエストを作成できますか？
-
-お客様は同時に複数のリクエストを作成できます。リクエストはFCIに送信され、作成時刻の優先順に順次処理されます。"
-   - fpt-argocd/demo (68 chars) -- "# Demo
-
-ArgoCDクラスターへの接続手順については、メニューの **Document** セクションで詳細を参照してください。"
-   - fpt-autoscale/quan-ly-profile (92 chars) -- "# Profileの管理
-
-Autoscale Profileは、Autoscale Groupが管理するInstance Nodeを作成するための技術仕様を保"
-   - fpt-cloud-wapples/ssl-profile (69 chars) -- "# SSL プロファイルの保存と表示
-
-SSL の設定を保存および表示します。プラスアイコンをクリックすることで新しい設定を追加できます。"
-   - fpt-jenkins-ci/demo (61 chars) -- "# デモ
-
-Jenkins インスタンスへの接続手順については、Portal メニューの詳細ドキュメントをご参照ください。"
-   - fpt-jenkins-ci/quan-ly-fpt-cloud-agent (79 chars) -- "# FPT Cloud Agent の管理
-
-この機能では、FPT Portal インターフェースを通じてエージェントの作成・編集・削除を行うことができます。"
-   - fpt-va/scan-now (37 chars) -- "# Scan now
-
-Scan now FPT Cloud VAの機能。"
-   - huong-dan-su-dung-grafana/alerting (45 chars) -- "# Alerting
-
-このページは現在コンテンツを更新中です。後ほど再度ご確認ください。"
-   - index (63 chars) -- "# FPT Cloud ドキュメント
-
-FPT Cloudのドキュメントへようこそ。サイドバーからカテゴリを選択してください。"
-   - model-hub/how-to-create-model-version (99 chars) -- "# model バージョンの作成
-
-AI Marketplace
-AI Studio
-model バージョンの作成方法
-  2. Model Hub
-
-mode"
-   - model-hub/how-to-share-a-model (84 chars) -- "# model の共有
-
-AI Marketplace
-AI Studio
-model の共有方法
-  2. Model Hub
-
-model の共有方法
-
-*"
-   - model-hub/how-to-use-private-model (98 chars) -- "# Model Hub
-
-AI Marketplace
-AI Studio
-プライベート model の使用方法
-  2. Model Hub
-
-プライベート "
-   - model-hub/index (90 chars) -- "# Model Hub
-
-Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョン管理、共有するための集中リポ"
-   ... and 51 more
+   - auto-schedule-to-on-off-instance/index
+   - backup/index
+   - budget-alert/index
+   - change-network-config/index
+   - cloud-advisor/index
+   - cloud-guard/index
+   - cost-explorer/index
+   - create-vpc/index
+   - data-hub/index
+   - ddos-protection/index
+   ... and 92 more
 
 ┌──────────────────────────────────────────────────────────────────────────┐
 │  IMAGE STATS                                                             │
@@ -216,7 +92,7 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
 ├────────┼────────┼────────┼────────┼──────────┼───────────────────────────┤
 │ EN     │ 3246   │ 3201   │ 0      │ 45       │ 0                         │
 │ VI     │ 3803   │ 3687   │ 0      │ 33       │ 0                         │
-│ JA     │ 3143   │ 3106   │ 0      │ 9        │ 0                         │
+│ JA     │ 3133   │ 3086   │ 0      │ 19       │ 0                         │
 └────────┴────────┴────────┴────────┴──────────┴───────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────────────────────┐
@@ -225,13 +101,13 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
 
   File name mismatches (different filenames between languages):
     EN <-> VI: 398 only in EN, 394 only in VI
-    EN <-> JA: 287 only in EN, 272 only in JA
-    VI <-> JA: 425 only in VI, 414 only in JA
+    EN <-> JA: 366 only in EN, 262 only in JA
+    VI <-> JA: 502 only in VI, 402 only in JA
 
   Content equivalence analysis (matched by images + heading structure):
     EN <-> VI: 289 equivalent pairs found, 109 truly only EN, 105 truly only VI
-    EN <-> JA: 113 equivalent pairs found, 174 truly only EN, 159 truly only JA
-    VI <-> JA: 269 equivalent pairs found, 156 truly only VI, 145 truly only JA
+    EN <-> JA: 120 equivalent pairs found, 246 truly only EN, 142 truly only JA
+    VI <-> JA: 276 equivalent pairs found, 226 truly only VI, 126 truly only JA
 
   ── EN <-> VI Detail ──
 
@@ -295,11 +171,11 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
 
    [file-storage-high-performance] (EN: 9, VI: 9)
      EQUIVALENT PAIRS (6):
-       EN: japan-region  <=>  VI: region-nhat-ban  (41% match)
+       EN: japan-region  <=>  VI: region-nhat-ban  (43% match)
        EN: japan-using-file-storage-high-performance-on-baremetal-gpu-server  <=>  VI: japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server  (90% match)
        EN: mountpoint-management  <=>  VI: quan-ly-mountpoint  (99% match)
        EN: using-file-storage-high-performance-on-kubernetes-k8s-cluster  <=>  VI: region-viet-nam  (41% match)
-       EN: vietnam-region  <=>  VI: Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)  (41% match)
+       EN: vietnam-region  <=>  VI: Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)  (43% match)
        EN: vn-using-file-storage-high-performance-on-baremetal-gpu-server  <=>  VI: vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server  (100% match)
 
    [fpt-api-management] (EN: 12, VI: 12)
@@ -709,19 +585,18 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
 
   ── EN <-> JA Detail ──
 
-   [ai-notebook] (EN: 9, JA: 9)
+   [ai-notebook] (EN: 9, JA: 7)
      EQUIVALENT PAIRS (7):
        EN: about-ai-notebooks  <=>  JA: get-started-jp  (91% match)
        EN: connect-switch-kernel  <=>  JA: switch  (48% match)
        EN: create-notebook  <=>  JA: create-jp  (47% match)
        EN: faq  <=>  JA: faq-jp  (91% match)
-       EN: launch-ai-notebook  <=>  JA: lauch-jp  (46% match)
+       EN: index  <=>  JA: lauch-jp  (46% match)
        EN: quick-start  <=>  JA: quick-start-jp  (58% match)
        EN: shut-down-kernel  <=>  JA: shut-down-jp  (46% match)
-     TRULY ONLY in EN (1):
+     TRULY ONLY in EN (2):
        - ai-notebook
-     TRULY ONLY in JA (1):
-       - ai-notebook-jp
+       - launch-ai-notebook
 
    [ai_marketplace] (EN: 17, JA: 25)
      TRULY ONLY in JA (8):
@@ -733,6 +608,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - マイアカウント
        - 残高
        - 製品情報
+
+   [allow-address-pair] (EN: 8, JA: 6)
+     TRULY ONLY in EN (2):
+       - allow-address-pair
+       - index
+
+   [billing] (EN: 10, JA: 8)
+     TRULY ONLY in EN (2):
+       - billing
+       - index
 
    [budget-alert] (EN: 8, JA: 8)
      EQUIVALENT PAIRS (6):
@@ -746,6 +631,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - budget-alert
      TRULY ONLY in JA (1):
        - 予算アラート
+
+   [checkpoint-fpt-ngfw] (EN: 17, JA: 15)
+     TRULY ONLY in EN (2):
+       - checkpoint-fpt-ngfw
+       - index
+
+   [cloud-server] (EN: 108, JA: 106)
+     TRULY ONLY in EN (2):
+       - cloud-server
+       - index
 
    [cost-explorer] (EN: 6, JA: 6)
      EQUIVALENT PAIRS (4):
@@ -774,17 +669,40 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - fke-usage-notes
        - upgrade-k8s-version
 
-   [file-storage-high-performance] (EN: 9, JA: 9)
+   [end-user-request-resource] (EN: 10, JA: 8)
+     TRULY ONLY in EN (2):
+       - end-user-request-resource
+       - index
+
+   [file-storage-high-performance] (EN: 9, JA: 7)
      EQUIVALENT PAIRS (6):
-       EN: japan-region  <=>  JA: region-nhat-ban  (87% match)
+       EN: index  <=>  JA: region-nhat-ban  (93% match)
+       EN: japan-region  <=>  JA: region-viet-nam  (97% match)
        EN: japan-using-file-storage-high-performance-on-baremetal-gpu-server  <=>  JA: japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server  (82% match)
        EN: mountpoint-management  <=>  JA: quan-ly-mountpoint  (92% match)
        EN: using-file-storage-high-performance-on-kubernetes-k8s-cluster  <=>  JA: su-dung-file-storage-high-performance-tren-kubernetes-k8s-cluster  (89% match)
-       EN: vietnam-region  <=>  JA: region-viet-nam  (85% match)
        EN: vn-using-file-storage-high-performance-on-baremetal-gpu-server  <=>  JA: vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server  (67% match)
+     TRULY ONLY in EN (2):
+       - file-storage-high-performance
+       - vietnam-region
 
-   [fpt-argocd] (EN: 63, JA: 44)
-     TRULY ONLY in EN (19):
+   [fpt-api-management] (EN: 12, JA: 10)
+     TRULY ONLY in EN (2):
+       - fpt-api-management
+       - index
+
+   [fpt-app-catalogs] (EN: 17, JA: 15)
+     TRULY ONLY in EN (2):
+       - fpt-app-catalogs
+       - index
+
+   [fpt-appsec] (EN: 33, JA: 31)
+     TRULY ONLY in EN (2):
+       - fpt-appsec
+       - index
+
+   [fpt-argocd] (EN: 63, JA: 42)
+     TRULY ONLY in EN (21):
        - Change-password
        - Configure-Build-Options-for-Kustomize
        - Configure-RBAC-policy
@@ -793,12 +711,37 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - Create-new-webhook-secret
        - Delete--webhook-secret
        - Demo
-       ... and 11 more
+       ... and 13 more
+
+   [fpt-autoscale] (EN: 18, JA: 16)
+     TRULY ONLY in EN (2):
+       - fpt-autoscale
+       - index
+
+   [fpt-backup-as-a-service] (EN: 11, JA: 9)
+     TRULY ONLY in EN (2):
+       - fpt-backup-as-a-service
+       - index
+
+   [fpt-cloud-desktop] (EN: 13, JA: 11)
+     TRULY ONLY in EN (2):
+       - fpt-cloud-desktop
+       - index
+
+   [fpt-cloud-monitoring] (EN: 21, JA: 19)
+     TRULY ONLY in EN (2):
+       - fpt-cloud-monitoring
+       - index
 
    [fpt-cloud-portal] (EN: 2, JA: 0)
      TRULY ONLY in EN (2):
        - fpt-cloud-portal
        - index
+
+   [fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go] (EN: 17, JA: 15)
+     TRULY ONLY in EN (2):
+       -  choose-the-form-of-PAYG-and-verify-the-phon- number
+       - choose-the-form-of-PAYG-and-verify-the-phon- number
 
    [fpt-cloud-waf] (EN: 24, JA: 24)
      EQUIVALENT PAIRS (11):
@@ -814,6 +757,11 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        EN: tutorials-log-in-to-waf-dashboard  <=>  JA: tutorials-log-in-waf-dashboard  (98% match, 3 shared imgs)
        EN: update-information-of-the-WAF-server  <=>  JA: edit-waf-server  (97% match, 2 shared imgs)
 
+   [fpt-cloud-wapples] (EN: 44, JA: 42)
+     TRULY ONLY in EN (2):
+       - fpt-cloud-wapples
+       - index
+
    [fpt-container-registry] (EN: 11, JA: 11)
      EQUIVALENT PAIRS (3):
        EN: deleting-an-image-or-artifact-in-a-repository  <=>  JA: managing-repositories  (53% match, 2 shared imgs)
@@ -827,6 +775,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - retention-rule
        - robot-account
        - scan-image
+
+   [fpt-jenkins-ci] (EN: 26, JA: 24)
+     TRULY ONLY in EN (2):
+       - fpt-jenkins-ci
+       - index
+
+   [fpt-kafka] (EN: 21, JA: 19)
+     TRULY ONLY in EN (2):
+       - fpt-kafka
+       - index
 
    [fpt-key-vault] (EN: 17, JA: 17)
      EQUIVALENT PAIRS (15):
@@ -846,7 +804,12 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        EN: Secret-management  <=>  JA: initial-setup  (48% match)
        EN: View-and-Update-Secret-information  <=>  JA: view-update-secret  (100% match, 3 shared imgs)
 
-   [fpt-message-bus] (EN: 15, JA: 15)
+   [fpt-kubernetes-engine-with-gpu] (EN: 13, JA: 11)
+     TRULY ONLY in EN (2):
+       - fpt-kubernetes-engine-with-gpu
+       - index
+
+   [fpt-message-bus] (EN: 15, JA: 13)
      EQUIVALENT PAIRS (11):
        EN: Create-Subscriptions  <=>  JA: create-subscriptions  (100% match, 2 shared imgs)
        EN: Create-queues  <=>  JA: create-queues  (49% match)
@@ -859,232 +822,29 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        EN: Quick-Starts  <=>  JA: quick-starts  (81% match, 13 shared imgs)
        EN: Send-Receive-messages-in-queues  <=>  JA: delete-queues  (46% match)
        EN: Send-Receive-messages-in-topics  <=>  JA: send-receive-messages-in-topics  (73% match, 4 shared imgs)
-     TRULY ONLY in EN (1):
+     TRULY ONLY in EN (3):
        - View-queues
+       - fpt-message-bus
+       - index
      TRULY ONLY in JA (1):
        - send-receive-messages-in-queues
 
-   [fpt-object-storage] (EN: 12, JA: 20)
-     EQUIVALENT PAIRS (5):
-       EN: tutorials-access-key-management  <=>  JA: manage-permissions  (47% match)
-       EN: tutorials-bucket-config  <=>  JA: bucket-config  (45% match)
-       EN: tutorials-integrate-fpt-object-storage-with-s3-client  <=>  JA: integrate-s3-clients  (96% match, 5 shared imgs)
-       EN: tutorials-using-object-storage-on-fpt-portal  <=>  JA: use-on-fpt-portal  (90% match)
-       EN: tutorials-using-object-storage-on-s3-browser  <=>  JA: use-with-s3-browser  (81% match, 27 shared imgs)
-     TRULY ONLY in EN (5):
-       - fpt-object-storage
-       - tutorials-bucket
-       - tutorials-object
-       - tutorials-permissions
-       - tutorials-subuser-management
-     TRULY ONLY in JA (13):
-       - build-static-website
-       - clone-bucket-data
-       - encryption
-       - manage-access-keys
-       - manage-bucket
-       - manage-objects
-       - manage-subusers
-       - migrate-bucket-data
-       ... and 5 more
-
-   [gpu-virtual-machine-en] (EN: 17, JA: 11)
-     EQUIVALENT PAIRS (2):
-       EN: fpt_images  <=>  JA: サブネット-の-作成  (50% match)
-       EN: monitor-gpu-vms  <=>  JA: 概要  (49% match)
-     TRULY ONLY in EN (14):
-       - access-to-servers
-       - block-storage
-       - create-a-gpu-vm
-       - create-a-security-group
-       - create-a-snapshot
-       - create-a-subnet
-       - custom-images
-       - faq
-       ... and 6 more
-     TRULY ONLY in JA (8):
-       - GPU-VM -インスタンス-の-作成
-       - IPアドレス（フローティングIP）の割り当て
-       - gpu-virtual-machine
-       - に関するよくある質問
-       - クイック-スタート
-       - サーバーへのアクセス
-       - セキュリティグループの作成
-       - 初期-設定
-
-   [iam] (EN: 38, JA: 29)
-     EQUIVALENT PAIRS (8):
-       EN: 2FA configuration  <=>  JA: edit-role  (46% match)
-       EN: Change password  <=>  JA: iam-user-overview  (46% match)
-       EN: Check Activity logs  <=>  JA: view-user-group-detail  (49% match)
-       EN: Create an account and access the invited VPC  <=>  JA: ip-access-overview  (45% match)
-       EN: Create-a-Role-and-Assign-Permissions-to-the-Role  <=>  JA: view-user-group-list  (41% match)
-       EN: Delete IP access record.  <=>  JA: user-group-overview  (46% match)
-       EN: Initial Setup  <=>  JA: user-group-management  (85% match)
-       EN: Invite new IAM users  <=>  JA: iam-user-management  (41% match)
-     TRULY ONLY in EN (9):
-       - Manage IAM Users
-       - Role-Overview
-       - edit-role-and-permissions
-       - manage-user-groups
-       - overview-iam-user
-       - overview-ip-access
-       - overview-user-group
-       - view-detail-user-group
-       ... and 1 more
-
-   [incident-management] (EN: 27, JA: 26)
-     TRULY ONLY in EN (1):
-       - incident-management-overview
-
-   [managed-fpt-database-engine] (EN: 66, JA: 23)
-     EQUIVALENT PAIRS (1):
-       EN: Initial-setup  <=>  JA: initial-setup  (46% match)
-     TRULY ONLY in EN (43):
-       - Version-List
-       - access-console
-       - active-db-service
-       - backup-job-mgmt
-       - backup-mgmt
-       - backup-restore
-       - benchmark-sysbench
-       - clickhouse-use-ha
-       ... and 35 more
-
-   [managed-fpt-kubernetes-engine] (EN: 36, JA: 113)
-     EQUIVALENT PAIRS (4):
-       EN: gpu-fpt-cloud  <=>  JA: auto-upgrade-version  (98% match)
-       EN: gpu-fpt-cloud-k8s  <=>  JA: auto-upgrade-guide  (44% match)
-       EN: why-you-should-use-gpu-in-cloud  <=>  JA: why-use-gpu-on-k8s  (100% match)
-       EN: why-you-should-use-gpu-in-k8s  <=>  JA: version-management-overview  (95% match)
-     TRULY ONLY in EN (1):
-       - managed-fpt-kubernetes-engine
-     TRULY ONLY in JA (78):
-       - Initial-setup
-       - audit-log
-       - audit-log-vn
-       - backup-restore
-       - backup-restore-vn
-       - bat-tat-node-auto-repair
-       - benchmark-cluster
-       - cac-luu-y-khi-su-dung-m-fke
-       ... and 70 more
-
-   [model-fine-tuning] (EN: 36, JA: 17)
-     EQUIVALENT PAIRS (12):
-       EN: about-jaist  <=>  JA: key-features  (96% match)
-       EN: business-impact  <=>  JA: set-hyperparameters  (89% match)
-       EN: cancel-pipeline  <=>  JA: training-configuration  (47% match)
-       EN: challenges  <=>  JA: view-execution-history  (49% match)
-       EN: delete-pipeline  <=>  JA: top-up-balance  (46% match)
-       EN: edit-pipeline  <=>  JA: manage-pipeline  (42% match)
-       EN: execution-details  <=>  JA: concept  (41% match)
-       EN: execution-history  <=>  JA: audit-logs  (41% match)
-       EN: faq  <=>  JA: faqs  (93% match)
-       EN: finish  <=>  JA: view-pipeline-settings  (41% match)
-       EN: fpt-ai-factory-solution  <=>  JA: select-data-format  (41% match)
-       EN: sign-up-for-an-account  <=>  JA: initial-setup  (46% match)
-     TRULY ONLY in EN (22):
-       - fine-tune-the-gemma-3-27B-instruct-model-for-financial-tasks
-       - how-to-create-pipeline
-       - how-to-manage-pipeline
-       - how-to-monitor-and-evaluate
-       - jaist-accelerates-japanese-llm-development-with-fpt-ai-factory
-       - logs
-       - model-fine-tuning
-       - model-metrics
-       ... and 14 more
-     TRULY ONLY in JA (3):
-       - create-pipeline
-       - model-fine-tuning-ja
-       - view-execution-details
-
-   [policy-management] (EN: 11, JA: 18)
-     EQUIVALENT PAIRS (1):
-       EN: overview-policy  <=>  JA: 初期設定  (95% match)
-     TRULY ONLY in JA (7):
-       - ポリシーを有効にする_07
-       - ポリシーを無効にする_06
-       - ポリシー削除_05
-       - ポリシー管理の作成_03
-       - ポリシー管理の迅速な作成-01
-       - ポリシー管理の適用_02
-       - ポリシー編集_04
-
-   [tagging] (EN: 28, JA: 0)
-     TRULY ONLY in EN (28):
-       - Delete Tag
-       - Edit tags
-       - Initializing tags 
-       - Manage tag for Security group
-       - Manage tag to Custom image
-       - Manage tag to Instance Management
-       - Manage tag to Resource
-       - Manage tag to Snapshot
-       ... and 20 more
-
-   [trellix-customer-guide] (EN: 7, JA: 7)
-     EQUIVALENT PAIRS (4):
-       EN: Access the administration interface  <=>  JA: truy-cap-giao-dien-quan-tri  (99% match, 3 shared imgs)
-       EN: Create Agent Installation Package  <=>  JA: report  (47% match)
-       EN: Viewing Logs  <=>  JA: view-log  (69% match, 7 shared imgs)
-       EN: client-task-mapping  <=>  JA: client-task  (100% match, 2 shared imgs)
-     TRULY ONLY in EN (1):
-       - report-guide
-     TRULY ONLY in JA (1):
-       - setting-agert
-
-   [vpn-site-to-site] (EN: 31, JA: 11)
-     EQUIVALENT PAIRS (9):
-       EN: Authenticate-Certificate mode-1  <=>  JA: サイト間VPNの構成情報をダウンロード  (96% match)
-       EN: VPN-Activity  <=>  JA: サイト間の削除-5  (49% match)
-       EN: VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(Virtual-private-gateways)-guide  <=>  JA: 認証証明書モード  (90% match)
-       EN: VPN-Site-to-Site-Configuration-between-FCI-and-AWS-(transit-gateway)-guide  <=>  JA: VPNアクティビティの確認  (50% match)
-       EN: common-vpn-device-configuration  <=>  JA: サイト間VPNの情報編集 -3  (43% match)
-       EN: create-a-vpn-connection  <=>  JA: サイト間VPNの作成 -1  (46% match)
-       EN: create-customer-gateway  <=>  JA: VPN情報の確認  (46% match)
-       EN: create-vpn  <=>  JA: サイト間VPNの無効化 -1  (43% match)
-       EN: delete-customer-gateway  <=>  JA: サイト間VPNを有効にする-2  (47% match)
-     TRULY ONLY in EN (21):
-       - VPN-Site-to-Site-Configuration-with-Fortigate-guide
-       - VPN-Site-to-Site-Configuration-with-Palo-Alto-guide
-       - delete-vpn
-       - delete-vpn-connection
-       - disable-VPN-Site-to-Site
-       - download-config-
-       - edit-customer-gateway
-       - edit-security-profile
-       ... and 13 more
-     TRULY ONLY in JA (1):
-       - サイト間-vpn
-
-   [タグ-付け] (EN: 0, JA: 30)
-     TRULY ONLY in JA (30):
-       - create-tag-new
-       - delete-tag
-       - edit-tag
-       - index
-       - initial-setup
-       - resource-1
-       - tagg-lb
-       - tagging
-       ... and 22 more
+   ... and 27 more folders with mismatches
 
   ── VI <-> JA Detail ──
 
-   [ai-notebook] (VI: 9, JA: 9)
+   [ai-notebook] (VI: 9, JA: 7)
      EQUIVALENT PAIRS (7):
        VI: about-ai-notebooks  <=>  JA: get-started-jp  (91% match)
        VI: connect-switch-kernel  <=>  JA: switch  (49% match)
        VI: create-notebook  <=>  JA: create-jp  (47% match)
        VI: faq  <=>  JA: faq-jp  (90% match)
-       VI: launch-ai-notebook  <=>  JA: lauch-jp  (46% match)
+       VI: index  <=>  JA: lauch-jp  (46% match)
        VI: quick-start  <=>  JA: quick-start-jp  (59% match)
        VI: shut-down-kernel  <=>  JA: shut-down-jp  (46% match)
-     TRULY ONLY in VI (1):
+     TRULY ONLY in VI (2):
        - ai-notebook
-     TRULY ONLY in JA (1):
-       - ai-notebook-jp
+       - launch-ai-notebook
 
    [ai_marketplace] (VI: 17, JA: 25)
      TRULY ONLY in JA (8):
@@ -1096,6 +856,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - マイアカウント
        - 残高
        - 製品情報
+
+   [allow-address-pair] (VI: 8, JA: 6)
+     TRULY ONLY in VI (2):
+       - allow-address-pair
+       - index
+
+   [billing] (VI: 10, JA: 8)
+     TRULY ONLY in VI (2):
+       - billing
+       - index
 
    [budget-alert] (VI: 8, JA: 8)
      EQUIVALENT PAIRS (6):
@@ -1109,6 +879,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - budget-alert
      TRULY ONLY in JA (1):
        - 予算アラート
+
+   [checkpoint-fpt-ngfw] (VI: 17, JA: 15)
+     TRULY ONLY in VI (2):
+       - checkpoint-fpt-ngfw
+       - index
+
+   [cloud-server] (VI: 108, JA: 106)
+     TRULY ONLY in VI (2):
+       - cloud-server
+       - index
 
    [cost-explorer] (VI: 6, JA: 6)
      EQUIVALENT PAIRS (4):
@@ -1156,43 +936,58 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - best-practice-upgrade-version
        - fke-usage-notes
 
-   [file-storage-high-performance] (VI: 9, JA: 9)
+   [end-user-request-resource] (VI: 10, JA: 8)
+     TRULY ONLY in VI (2):
+       - end-user-request-resource
+       - index
+
+   [file-storage-high-performance] (VI: 9, JA: 7)
      EQUIVALENT PAIRS (1):
        VI: Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)  <=>  JA: su-dung-file-storage-high-performance-tren-kubernetes-k8s-cluster  (42% match)
+     TRULY ONLY in VI (2):
+       - file-storage-high-performance
+       - index
 
-   [fpt-api-management] (VI: 12, JA: 12)
+   [fpt-api-management] (VI: 12, JA: 10)
      EQUIVALENT PAIRS (8):
        VI: dang-ky-dich-vu-api-management-tren-fpt-portal  <=>  JA: registering-on-fpt-portal  (99% match, 5 shared imgs)
        VI: huong-dan-nhanh-quick-starts  <=>  JA: quick-starts  (99% match, 36 shared imgs)
        VI: huong-dan-su-dung-cho-api-consumer  <=>  JA: consumer-api-usage-guide  (99% match, 4 shared imgs)
+       VI: index  <=>  JA: manage-rest-apis  (47% match)
        VI: khai-bao-thong-tin-tren-apimanager-application  <=>  JA: declaring-information  (95% match)
        VI: quan-ly-api-site  <=>  JA: managing-sites  (49% match, 7 shared imgs)
        VI: quan-ly-consumers  <=>  JA: managing-consumers  (96% match, 15 shared imgs)
        VI: quan-ly-products  <=>  JA: managing-products  (95% match, 11 shared imgs)
-       VI: quan-ly-rest-apis  <=>  JA: manage-rest-apis  (42% match, 3 shared imgs)
+     TRULY ONLY in VI (2):
+       - fpt-api-management
+       - quan-ly-rest-apis
 
-   [fpt-app-catalogs] (VI: 17, JA: 17)
+   [fpt-app-catalogs] (VI: 17, JA: 15)
      EQUIVALENT PAIRS (14):
        VI: deploy-app-catalogs-toi-cluster  <=>  JA: deploy-app-catalogs-to-cluster  (99% match, 6 shared imgs)
        VI: filter-apps-da-duoc-deploy-theo-cluster  <=>  JA: filter-deployed-appplications-by-cluster  (99% match, 4 shared imgs)
+       VI: index  <=>  JA: manage-app-catalogs  (43% match)
        VI: ket-noi-cluster-toi-app-catalog-management  <=>  JA: add-cluster-to-app-catalogs-management  (98% match, 3 shared imgs)
-       VI: quan-ly-app-catalogs  <=>  JA: manage-app-catalogs  (93% match)
-       VI: quan-ly-applications-da-duoc-deploy  <=>  JA: manage-deployed-applications  (92% match)
+       VI: quan-ly-app-catalogs  <=>  JA: manage-deployed-applications  (91% match)
+       VI: quan-ly-applications-da-duoc-deploy  <=>  JA: search-app-catalogs-from-a-repository  (49% match)
        VI: rollback-app-ve-cau-hinh-cu  <=>  JA: rollback-an-application-to-the-old-configuration  (98% match, 3 shared imgs)
-       VI: search-app-catalogs-trong-repository  <=>  JA: search-app-catalogs-from-a-repository  (97% match, 1 shared imgs)
+       VI: search-app-catalogs-trong-repository  <=>  JA: view-deployed-applications-details  (50% match)
        VI: tao-moi-app-catalogs  <=>  JA: create-a-new-fpt-app-catalogs  (98% match, 4 shared imgs)
        VI: thay-doi-cau-hinh-cua-applications  <=>  JA: change-applications-configuration  (98% match, 5 shared imgs)
        VI: uninstall-applications-neu-muon-xoa-bo  <=>  JA: uninstall-applications  (98% match, 3 shared imgs)
        VI: upgrade-applications-toi-version-moi-nhat  <=>  JA: upgrade-applications-to-the-latest-version  (97% match, 2 shared imgs)
-       VI: xem-chi-tiet-app-da-deploy  <=>  JA: view-deployed-applications-details  (98% match, 2 shared imgs)
+       VI: xem-chi-tiet-app-da-deploy  <=>  JA: delete-an-app-catalogs-mangement  (47% match)
        VI: xem-thong-tin-chi-tiet-app-catalog  <=>  JA: view-app-catalog-details  (98% match, 4 shared imgs)
-       VI: xoa-app-catalog-management  <=>  JA: delete-an-app-catalogs-mangement  (98% match, 2 shared imgs)
-     TRULY ONLY in VI (1):
+     TRULY ONLY in VI (2):
        - app-catalogs
-     TRULY ONLY in JA (1):
-       - fpt-app-catalogs
+       - xoa-app-catalog-management
 
-   [fpt-argocd] (VI: 53, JA: 44)
+   [fpt-appsec] (VI: 33, JA: 31)
+     TRULY ONLY in VI (2):
+       - fpt-appsec
+       - index
+
+   [fpt-argocd] (VI: 53, JA: 42)
      EQUIVALENT PAIRS (31):
        VI: Initial-setup  <=>  JA: initial-setup  (92% match)
        VI: add-cluster-toi-argocd  <=>  JA: add-cluster-to-argocd  (98% match, 6 shared imgs)
@@ -1210,21 +1005,46 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        VI: cau-hinh-whitelist-ip  <=>  JA: configure-whitelist-ip  (98% match, 4 shared imgs)
        VI: cho-phep-enable-applications-set  <=>  JA: enable-applications-set  (98% match, 2 shared imgs)
        ... and 16 more pairs
-     TRULY ONLY in VI (9):
+     TRULY ONLY in VI (11):
+       - fpt-argocd
        - huong-dan-tich-hop-argocd-images-updater
        - huong-dan-tich-hop-oidc-de-quan-ly-account
+       - index
        - kiem-tra-thong-tin-goi-dich-vu
        - nang-goi-dich-vu-dang-su-dung
        - quan-ly-account-tren-argocd
        - tao-moi-account-tren-portal
-       - tao-moi-fpt-argocd
-       - thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao
-       ... and 1 more
+       ... and 3 more
+
+   [fpt-autoscale] (VI: 18, JA: 16)
+     TRULY ONLY in VI (2):
+       - fpt-autoscale
+       - index
+
+   [fpt-backup-as-a-service] (VI: 11, JA: 9)
+     TRULY ONLY in VI (2):
+       - fpt-backup-as-a-service
+       - index
+
+   [fpt-cloud-desktop] (VI: 13, JA: 11)
+     TRULY ONLY in VI (2):
+       - fpt-cloud-desktop
+       - index
+
+   [fpt-cloud-monitoring] (VI: 21, JA: 19)
+     TRULY ONLY in VI (2):
+       - fpt-cloud-monitoring
+       - index
 
    [fpt-cloud-portal] (VI: 2, JA: 0)
      TRULY ONLY in VI (2):
        - fpt-cloud-portal
        - index
+
+   [fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go] (VI: 17, JA: 15)
+     TRULY ONLY in VI (2):
+       -  choose-the-form-of-PAYG-and-verify-the-phon- number
+       - choose-the-form-of-PAYG-and-verify-the-phon- number
 
    [fpt-cloud-waf] (VI: 24, JA: 24)
      EQUIVALENT PAIRS (22):
@@ -1244,6 +1064,11 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        VI: quan-ly-ssl-certificates  <=>  JA: manage-ssl-certificates  (98% match, 4 shared imgs)
        VI: tao-moi-proxy-host  <=>  JA: create-proxy-host  (98% match, 2 shared imgs)
        ... and 7 more pairs
+
+   [fpt-cloud-wapples] (VI: 44, JA: 42)
+     TRULY ONLY in VI (2):
+       - fpt-cloud-wapples
+       - index
 
    [fpt-container-registry] (VI: 34, JA: 11)
      EQUIVALENT PAIRS (6):
@@ -1266,6 +1091,16 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
      TRULY ONLY in JA (1):
        - managing-repositories
 
+   [fpt-jenkins-ci] (VI: 26, JA: 24)
+     TRULY ONLY in VI (2):
+       - fpt-jenkins-ci
+       - index
+
+   [fpt-kafka] (VI: 21, JA: 19)
+     TRULY ONLY in VI (2):
+       - fpt-kafka
+       - index
+
    [fpt-key-vault] (VI: 13, JA: 17)
      EQUIVALENT PAIRS (11):
        VI: Initial Setup  <=>  JA: initial-setup  (94% match)
@@ -1285,311 +1120,30 @@ Model Hub は、FPT AI Factory 上で AI/ML の model を保存、バージョ�
        - secret-engine-management
        - secret-management
 
-   [fpt-message-bus] (VI: 15, JA: 15)
+   [fpt-kubernetes-engine-with-gpu] (VI: 13, JA: 11)
+     TRULY ONLY in VI (2):
+       - fpt-kubernetes-engine-with-gpu
+       - index
+
+   [fpt-message-bus] (VI: 15, JA: 13)
      EQUIVALENT PAIRS (12):
        VI: gui-nhan-message-trong-queues  <=>  JA: send-receive-messages-in-queues  (98% match, 3 shared imgs)
        VI: gui-nhan-messages-trong-topics  <=>  JA: send-receive-messages-in-topics  (99% match, 4 shared imgs)
        VI: huong-dan-nhanh-quick-starts  <=>  JA: quick-starts  (99% match, 13 shared imgs)
-       VI: quan-ly-queues  <=>  JA: manage-topics  (99% match)
-       VI: quan-ly-topics  <=>  JA: manage-queues  (92% match)
+       VI: index  <=>  JA: manage-topics  (49% match)
+       VI: quan-ly-queues  <=>  JA: manage-queues  (95% match)
+       VI: quan-ly-topics  <=>  JA: view-queues  (50% match)
        VI: sua-topic  <=>  JA: edit-topics  (98% match, 2 shared imgs)
        VI: tao-queues  <=>  JA: create-queues  (97% match, 2 shared imgs)
        VI: tao-subscriptions  <=>  JA: create-subscriptions  (98% match, 2 shared imgs)
        VI: tao-topics  <=>  JA: create-topics  (99% match, 2 shared imgs)
-       VI: xem-queues  <=>  JA: view-queues  (97% match, 2 shared imgs)
+       VI: xem-queues  <=>  JA: delete-topics  (48% match)
        VI: xoa-queues  <=>  JA: delete-queues  (98% match, 2 shared imgs)
-       VI: xoa-topics  <=>  JA: delete-topics  (98% match, 2 shared imgs)
-     TRULY ONLY in VI (1):
+     TRULY ONLY in VI (2):
        - fpt-message-bus-for-rabbitmq
-     TRULY ONLY in JA (1):
-       - fpt-message-bus
+       - xoa-topics
 
-   [fpt-object-storage] (VI: 20, JA: 20)
-     EQUIVALENT PAIRS (16):
-       VI: SDK-API-Reference  <=>  JA: sdk-api-reference  (53% match)
-       VI: clone-du-lieu-giua-hai-bucket-khac-nhau  <=>  JA: clone-bucket-data  (98% match, 5 shared imgs)
-       VI: mount-bucket-thanh-o-dia-tren-may-local  <=>  JA: mount-bucket-local  (98% match, 9 shared imgs)
-       VI: phan-quyen-su-dung-bucket-cho-cac-subuser  <=>  JA: subuser-bucket-permissions  (95% match)
-       VI: su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application  <=>  JA: use-as-media-server  (96% match, 7 shared imgs)
-       VI: tutorials-bucket  <=>  JA: manage-bucket  (95% match)
-       VI: tutorials-bucket-config  <=>  JA: bucket-config  (89% match)
-       VI: tutorials-encryption  <=>  JA: encryption  (91% match)
-       VI: tutorials-object  <=>  JA: manage-objects  (93% match)
-       VI: tutorials-permissions  <=>  JA: manage-permissions  (95% match)
-       VI: tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal  <=>  JA: manage-access-keys  (94% match)
-       VI: tutorials-quan-ly-subuser  <=>  JA: manage-subusers  (93% match)
-       VI: tutorials-su-dung-object-storage-tren-fpt-portal  <=>  JA: use-on-fpt-portal  (96% match)
-       VI: tutorials-su-dung-object-storage-tren-s3-client  <=>  JA: use-with-s3-browser  (82% match, 27 shared imgs)
-       VI: tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client  <=>  JA: integrate-s3-clients  (97% match, 5 shared imgs)
-       ... and 1 more pairs
-
-   [global-search] (VI: 3, JA: 4)
-     TRULY ONLY in JA (1):
-       - global-search-usage
-
-   [gpu-virtual-machine-en] (VI: 17, JA: 11)
-     EQUIVALENT PAIRS (2):
-       VI: fpt_images  <=>  JA: サブネット-の-作成  (50% match)
-       VI: monitor-gpu-vms  <=>  JA: 概要  (49% match)
-     TRULY ONLY in VI (14):
-       - access-to-servers
-       - block-storage
-       - create-a-gpu-vm
-       - create-a-security-group
-       - create-a-snapshot
-       - create-a-subnet
-       - custom-images
-       - faq
-       ... and 6 more
-     TRULY ONLY in JA (8):
-       - GPU-VM -インスタンス-の-作成
-       - IPアドレス（フローティングIP）の割り当て
-       - gpu-virtual-machine
-       - に関するよくある質問
-       - クイック-スタート
-       - サーバーへのアクセス
-       - セキュリティグループの作成
-       - 初期-設定
-
-   [iam] (VI: 29, JA: 29)
-     EQUIVALENT PAIRS (20):
-       VI: IAM-User-Overview  <=>  JA: iam-user-overview  (93% match)
-       VI: Initial Setup  <=>  JA: initial-setup  (92% match)
-       VI: Role-Overview  <=>  JA: user-group-overview  (93% match)
-       VI: User Group-Overview  <=>  JA: role-overview  (91% match)
-       VI: activity-log-ip-access  <=>  JA: ip-access-activity-log  (97% match, 1 shared imgs)
-       VI: cau hinh 2fa  <=>  JA: configure-2fa  (98% match, 3 shared imgs)
-       VI: chinh sua role va permission  <=>  JA: edit-role  (98% match, 3 shared imgs)
-       VI: chinh sua user group  <=>  JA: edit-user-group  (99% match, 1 shared imgs)
-       VI: create-ip  <=>  JA: create-ip-access  (98% match, 4 shared imgs)
-       VI: invite iam user moi  <=>  JA: invite-iam-user  (98% match, 3 shared imgs)
-       VI: khoi tao account va truy cap vao vpc da duoc moi  <=>  JA: create-account-access-vpc  (97% match, 1 shared imgs)
-       VI: khoi tao role va phan quyen cho role  <=>  JA: create-role  (98% match, 7 shared imgs)
-       VI: khoi tao user group moi  <=>  JA: create-user-group  (98% match, 2 shared imgs)
-       VI: thay doi mat khau  <=>  JA: change-password  (98% match, 3 shared imgs)
-       VI: xem chi tiet role  <=>  JA: view-role-detail  (97% match, 1 shared imgs)
-       ... and 5 more pairs
-
-   [incident-management] (VI: 26, JA: 26)
-     EQUIVALENT PAIRS (10):
-       VI: cau-hinh-integrations  <=>  JA: configure-integrations  (99% match, 3 shared imgs)
-       VI: cau-hinh-settings  <=>  JA: manage-incidents  (95% match)
-       VI: create-by-incoming-webhook  <=>  JA: create-incident-via-webhook  (99% match, 2 shared imgs)
-       VI: jira  <=>  JA: atlassian-jira  (98% match, 4 shared imgs)
-       VI: quan-tri-incident  <=>  JA: create-incident  (86% match)
-       VI: tao-incident  <=>  JA: configure-incident-settings  (93% match)
-       VI: thay-doi-muc-do-anh-huong-incident  <=>  JA: change-the-incident-severity  (97% match, 1 shared imgs)
-       VI: thay-doi-trang-thai-incident  <=>  JA: change-the-incident-status  (97% match, 1 shared imgs)
-       VI: truc-quan-du-lieu-incident  <=>  JA: incident-data-visualization  (97% match, 1 shared imgs)
-       VI: xem-chi-tiet-incident  <=>  JA: view-incident-detail  (98% match, 1 shared imgs)
-
-   [load-balancer] (VI: 46, JA: 30)
-     EQUIVALENT PAIRS (14):
-       VI: Allow-IP-CIDR  <=>  JA: monitor-load-balancer  (88% match)
-       VI: Initial Setup  <=>  JA: create-listener  (97% match)
-       VI: SNI-load-balancer  <=>  JA: create-load-balancer  (61% match)
-       VI: cap-nhat-load-balancer  <=>  JA: enable-hsts  (100% match)
-       VI: cau-hinh-timeout  <=>  JA: add-external-member  (100% match)
-       VI: chinh-sua-cau-hinh-health-check  <=>  JA: redirect-http-to-https  (84% match)
-       VI: chinh-sua-listener  <=>  JA: update-load-balancer  (82% match)
-       VI: enable-hsts-to-http-listener  <=>  JA: configure-timeout  (87% match)
-       VI: import-ssl-certificate-cho-load-balancer  <=>  JA: import-ssl-certificate  (89% match)
-       VI: khoi tao mot load balancer moi  <=>  JA: integrate-with-fmon  (45% match)
-       VI: khoi-tao-listener  <=>  JA: create-server-pool  (48% match)
-       VI: khoi-tao-server-pool  <=>  JA: configure-health-check  (45% match)
-       VI: redirect-http-request-sang-https  <=>  JA: allow-ip-cidr  (49% match)
-       VI: theo-doi-bieu-do-load-balancer  <=>  JA: configure-sni  (41% match)
-     TRULY ONLY in VI (17):
-       - khoi-tao-load-balancer
-       - manage-load-balancer
-       - quan-ly-listener
-       - quan-ly-load-balancer
-       - quan-ly-server-pool
-       - quan-ly-ssl-certificate
-       - ssl-load-balancer
-       - tao import ssl certificate
-       ... and 9 more
-     TRULY ONLY in JA (1):
-       - initial-setup
-
-   [managed-fpt-database-engine] (VI: 23, JA: 23)
-     EQUIVALENT PAIRS (19):
-       VI: Cap-nhat-va-xoa-Backup-Service  <=>  JA: create-security-groups  (40% match)
-       VI: Cap-nhat-va-xoa-Backup-job  <=>  JA: create-subnets  (40% match)
-       VI: DB-proxy  <=>  JA: manage-event-logs  (99% match)
-       VI: Initial-setup  <=>  JA: create-backup-service  (69% match)
-       VI: Khoi-tao-DB-Proxy  <=>  JA: create-db-proxy  (98% match, 4 shared imgs)
-       VI: Khoi-tao-Database-Engine  <=>  JA: create-database-engine  (40% match)
-       VI: Phan-quyen-tinh-nang-Database  <=>  JA: manage-backups  (98% match)
-       VI: Provision-Database-Engine  <=>  JA: process-monitoring  (98% match)
-       VI: Quan-ly-Backups  <=>  JA: update-delete-backup-job  (96% match)
-       VI: Quan-ly-Configuration  <=>  JA: manage-configuration  (40% match)
-       VI: Quan-ly-Event-Logs  <=>  JA: update-delete-backup-service  (40% match)
-       VI: Quan-ly-Process-Monitoring  <=>  JA: manage-resources  (40% match)
-       VI: Quan-ly-Resource  <=>  JA: provision-database-engine  (40% match)
-       VI: Quan-ly-Restore  <=>  JA: manage-restore  (78% match, 7 shared imgs)
-       VI: Roles  <=>  JA: roles  (78% match, 5 shared imgs)
-       ... and 4 more pairs
-     TRULY ONLY in VI (2):
-       - tao-security-groups
-       - tạo-subnets
-     TRULY ONLY in JA (2):
-       - initial-setup
-       - manage-database-engine
-
-   [managed-fpt-kubernetes-engine] (VI: 55, JA: 113)
-     EQUIVALENT PAIRS (1):
-       VI: snapshot-và-restore-pvc-trên-k8s-fpt  <=>  JA: proxy-protocol-istio-ingress  (97% match)
-     TRULY ONLY in VI (2):
-       - khoi-tạo-kubernetes-cluster-moi
-       - managed-fpt-kubernetes-engine
-     TRULY ONLY in JA (60):
-       - access-clusters-detail-information
-       - add-worker-group
-       - addding-gpu-worker-group
-       - audit-log
-       - auto-upgrade-guide
-       - auto-upgrade-version
-       - backup-restore
-       - benchmark-cluster
-       ... and 52 more
-
-   [model-fine-tuning] (VI: 36, JA: 17)
-     EQUIVALENT PAIRS (12):
-       VI: about-jaist  <=>  JA: key-features  (97% match)
-       VI: business-impact  <=>  JA: set-hyperparameters  (88% match)
-       VI: cancel-pipeline  <=>  JA: training-configuration  (47% match)
-       VI: challenges  <=>  JA: view-execution-history  (50% match)
-       VI: delete-pipeline  <=>  JA: top-up-balance  (46% match)
-       VI: edit-pipeline  <=>  JA: manage-pipeline  (42% match)
-       VI: execution-details  <=>  JA: concept  (41% match)
-       VI: execution-history  <=>  JA: audit-logs  (41% match)
-       VI: faq  <=>  JA: faqs  (93% match)
-       VI: fine-tune-the-gemma-3-27B-instruct-model-for-financial-tasks  <=>  JA: view-pipeline-settings  (40% match)
-       VI: finish  <=>  JA: select-data-format  (40% match)
-       VI: sign-up-for-an-account  <=>  JA: initial-setup  (46% match)
-     TRULY ONLY in VI (22):
-       - fpt-ai-factory-solution
-       - how-to-create-pipeline
-       - how-to-manage-pipeline
-       - how-to-monitor-and-evaluate
-       - jaist-accelerates-japanese-llm-development-with-fpt-ai-factory
-       - logs
-       - model-fine-tuning
-       - model-metrics
-       ... and 14 more
-     TRULY ONLY in JA (3):
-       - create-pipeline
-       - model-fine-tuning-ja
-       - view-execution-details
-
-   [model-hub] (VI: 28, JA: 29)
-     EQUIVALENT PAIRS (15):
-       VI: base-model  <=>  JA: download-files  (45% match)
-       VI: chi-tiet-model  <=>  JA: upload-files  (46% match)
-       VI: chi-tiet-model-catalog  <=>  JA: how-to-use-model-catalog  (47% match)
-       VI: clone-model  <=>  JA: create-version  (49% match)
-       VI: create-organization  <=>  JA: Edit-version  (47% match)
-       VI: dang-nhap  <=>  JA: start-using-services  (43% match)
-       VI: danh-sach-model  <=>  JA: what-is-model-hub  (41% match)
-       VI: delete-share  <=>  JA: how-to-upload-download-files-by-sdk  (42% match)
-       VI: download-file  <=>  JA: top-up-balance  (92% match)
-       VI: initial-setup  <=>  JA: how-to-create-model-version  (83% match)
-       VI: model-catalog  <=>  JA: how-to-use-private-model  (92% match)
-       VI: model-deployment  <=>  JA: how-to-share-a-model  (43% match)
-       VI: share-detail-invited  <=>  JA: quick-start  (42% match)
-       VI: share-detail-joined  <=>  JA: notice  (42% match)
-       VI: sua-model  <=>  JA: overview  (41% match)
-     TRULY ONLY in VI (8):
-       - danh-sach-model-catalog
-       - tao-model
-       - tao-verison
-       - update-share
-       - update-version
-       - upload-file
-       - view-update-organization
-       - xoa-model
-     TRULY ONLY in JA (9):
-       - create-a-model
-       - delete-a-model
-       - edit-a-model
-       - how-does-it-work
-       - how-to-use-model-from-other-sources-like-hugging-face
-       - sign-up-for-an-account
-       - view-list-model-2
-       - view-model-details
-       ... and 1 more
-
-   [policy-management] (VI: 11, JA: 18)
-     EQUIVALENT PAIRS (1):
-       VI: overview-policy  <=>  JA: 初期設定  (99% match)
-     TRULY ONLY in JA (7):
-       - ポリシーを有効にする_07
-       - ポリシーを無効にする_06
-       - ポリシー削除_05
-       - ポリシー管理の作成_03
-       - ポリシー管理の迅速な作成-01
-       - ポリシー管理の適用_02
-       - ポリシー編集_04
-
-   [tagging] (VI: 16, JA: 0)
-     TRULY ONLY in VI (16):
-       - create-tag-new
-       - delete-tag
-       - edit-tag
-       - index
-       - initial-setup
-       - resource-1
-       - tagg-lb
-       - tagging
-       ... and 8 more
-
-   [user-token] (VI: 6, JA: 5)
-     EQUIVALENT PAIRS (1):
-       VI: create-token  <=>  JA: quick-start  (44% match)
-     TRULY ONLY in VI (3):
-       - fqas
-       - revoke-token
-       - token
-     TRULY ONLY in JA (2):
-       - how-to-create-an-user-token
-       - user-token
-
-   [vpn-site-to-site] (VI: 40, JA: 11)
-     EQUIVALENT PAIRS (9):
-       VI: Create-VPN-S2S-connection  <=>  JA: サイト間VPNの作成 -1  (47% match)
-       VI: VPN-S2S-check-activity-logs  <=>  JA: サイト間の削除-5  (49% match)
-       VI: action-management  <=>  JA: VPN情報の確認  (44% match)
-       VI: authenticate-certificate-mode  <=>  JA: サイト間VPNの構成情報をダウンロード  (97% match)
-       VI: common-config  <=>  JA: サイト間VPNの無効化 -1  (44% match)
-       VI: connect-behind-NAT  <=>  JA: サイト間VPNを有効にする-2  (41% match)
-       VI: create-customergw  <=>  JA: サイト間VPNの情報編集 -3  (45% match)
-       VI: create-vpn-connection  <=>  JA: VPNアクティビティの確認  (40% match)
-       VI: delete-VPN-S2S-connection  <=>  JA: 認証証明書モード  (43% match)
-     TRULY ONLY in VI (30):
-       - connect-checkpoint-r8120
-       - connect-fci-aws-transitgw
-       - connect-fci-aws-virtualgw
-       - connect-fci-fortigate
-       - connect-fci-vmware
-       - connect-palo-alto
-       - connect-pfsense
-       - connect-strongswan
-       ... and 22 more
-     TRULY ONLY in JA (1):
-       - サイト間-vpn
-
-   [タグ-付け] (VI: 0, JA: 30)
-     TRULY ONLY in JA (30):
-       - create-tag-new
-       - delete-tag
-       - edit-tag
-       - index
-       - initial-setup
-       - resource-1
-       - tagg-lb
-       - tagging
-       ... and 22 more
+   ... and 29 more folders with mismatches
 
 ══════════════════════════════════════════════════════════════════════════
 ISSUES FOUND -- Review the details above.

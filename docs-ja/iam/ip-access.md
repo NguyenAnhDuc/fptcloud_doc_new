@@ -8,6 +8,11 @@ sidebar_position: 23
 
 # IP Access
 
-IP Access機能はIPアドレスに基づいてシステムアクセスを制御し、対応するIPが設定されたユーザーのみがシステムにログインできます。
+Control system access by allowing only users with configured IP addresses on FPT Cloud.
 
-詳細な手順はこのページのサブセクションを参照してください。
+This section covers:
+
+- [IP Access overview](./overview-ip-access.md) — How IP access control works
+- [Create an IP access record](./create-ip-access.md) — Add a new IP rule
+- [Delete an IP access record](./delete-ip-access.md) — Remove an IP rule
+- [Check IP access activity logs](./ip-access-activity-log.md) — Review access history

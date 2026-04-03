@@ -6,6 +6,6 @@ sidebar_label: "Profileの管理"
 sidebar_position: 2
 ---
 
-# Profileの管理
+# Manage Profile
 
-Autoscale Profileは、Autoscale Groupが管理するInstance Nodeを作成するための技術仕様を保存するオブジェクトです。
+An Autoscale Profile is an object that stores the technical specifications used as the basis for creating Instance Nodes managed by an Autoscale Group.
