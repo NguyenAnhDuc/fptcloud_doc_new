@@ -22,10 +22,12 @@ On the FPT Cloud Portal, the DB Proxy Management feature allows users to:
 | manageDatabase:ListProxy  | View  | Allow viewing the database's DB Proxy list.  |  
 | manageDatabase:CreateProxy  | Create  | Allow creating a new DB proxy for a database in the system.  |  
 | manageDatabase:DeleteProxy  | Delete  | Allow deleting a DB Proxy for databases in the system.  |  
+
 ### 1. Access DB Proxy Management
 Log in to the FPT Cloud Portal. After a successful login, from the main menu, select "**Database Platform** " > "**All Databases** ". Click the ID of the database cluster you want to manage, then switch to the DB Proxy tab to access the **DB Proxy Management** page:
 [![](/img/migrated/db-proxy-list-scaled-ef82702b.png)](/img/migrated/db-proxy-list-scaled-ef82702b.png)
 **Note** : The **DB Proxy** tab is displayed only when the database is created with High Availability (HA) enabled and the database engine is supported.
+
 ### 2. Create a DB Proxy
 On the **DB Proxy Management** page, click **Create DB Proxy**. The **Create DB Proxy** dialog is displayed:
 [![](/img/migrated/create-db-proxy-scaled-edd86c55.png)](/img/migrated/create-db-proxy-scaled-edd86c55.png)
@@ -38,10 +40,12 @@ Provide the following information:
 
 After completing the configuration, click **Create DB Proxy** to confirm. The system validates resource availability, displays a creation notification, and starts provisioning the DB Proxy based on the selected settings. The newly created proxy appears at the top of the DB Proxy Management list with the status **Processing**.
 The provisioning process typically takes 5–7 minutes. Once completed, the proxy status changes to Running and the proxy is ready for use. Note: If the provisioning process fails, delete the failed proxy and create a new one..
+
 ### 3. View Connection Information
 To view connection details for a DB Proxy, go to the **DB Proxy Management** page and select the proxy ID. The **DB Proxy Detail** dialog is displayed, showing endpoint and configuration information:
 [![](/img/migrated/view-db-proxy-scaled-1adf11c4.png)](/img/migrated/view-db-proxy-scaled-1adf11c4.png)
 A **Running** status indicates that the DB Proxy is active and ready to accept connections. Use the information provided in the **Endpoint** field to configure application connections to the proxy.
+
 ### 4. DB Proxy Operations
 You can perform operational actions on a DB Proxy based on its lifecycle status, including Start, Stop, Restart, Resize, and Delete.
 **Available Actions:**

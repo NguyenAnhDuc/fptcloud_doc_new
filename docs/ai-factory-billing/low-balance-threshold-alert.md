@@ -11,6 +11,7 @@ sidebar_position: 5
 Running out of credits may disrupt your applications on **FPT AI Factory**. To avoid this, you can enable **Low Balance Alerts**. These alerts notify you by email when your balance drops below a threshold you define.  
 By default, this feature is **disabled**.
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/07/image2025-9-16_14-55-51.png)](https://fptcloud.com/wp-content/uploads/2025/07/image2025-9-16_14-55-51.png)
+
 ### How to Enable Low Balance Alerts
   1. Go to the **Billing** page and open the **Settings** tab. 
   2. In the **Low Balance Alert** section, check the box to enable alerts. 

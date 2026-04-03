@@ -5,6 +5,7 @@ description: "Overview of support available to FPT Cloud customers using the Bac
 sidebar_label: "What support is available for Backup?"
 sidebar_position: "10"
 ---
+
 # What support do I receive when renting a server and using the Backup service on FPT Cloud?
 
 As soon as you contact **FPT Cloud** and agree to use the service, you will be provided with an account to manage resources on the **FPT Portal** and usage guides.

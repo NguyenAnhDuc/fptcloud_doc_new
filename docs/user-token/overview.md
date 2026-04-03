@@ -11,6 +11,7 @@ sidebar_position: 2
 ### **1. What It Is**
 An **API Token Service** is a system or component that **issues, validates, and manages access tokens** for clients (users, apps, or other systems) to securely access APIs.
 Instead of passing credentials each time, clients present a token — a short-lived credential — that proves their identity and permissions.
+
 ### **2. Key Functions**  
 | Function  | Description  |  
 | --- | --- |  
@@ -19,6 +20,7 @@ Instead of passing credentials each time, clients present a token — a short-li
 | **Token Revocation**  | Invalidates tokens manually or automatically (e.g., if a user logs out or a secret is compromised).  |  
 | **Scope & Permission Management**  | Defines what resources or APIs a token can access.  |  
 | **Auditing & Logging**  | Tracks token usage, expiry, and potential abuse for security and compliance.  |  
+
 ### **3. Benefits**
 ✅ Increases API security (no password sharing)
 ✅ Enables fine-grained access control via scopes/roles

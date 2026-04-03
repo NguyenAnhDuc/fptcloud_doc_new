@@ -10,6 +10,7 @@ sidebar_position: 44
 
 Mục này trình bày kết quả benchmark hiệu năng cơ sở dữ liệu được thực hiện bằng công cụ Sysbench, nhằm cung cấp thông tin tham khảo về khả năng xử lý của các database engine trên các cấu hình tài nguyên (flavor) khác nhau.
 Kết quả benchmark chỉ mang tính tham khảo và không đảm bảo hiệu năng thực tế.
+
 ### 1. Giới thiệu Benchmark Sysbench
 #### Mục đích:
 Benchmark Sysbench được sử dụng để:
@@ -19,6 +20,7 @@ Benchmark Sysbench được sử dụng để:
 
 #### Database engine được benchmark:
 Các database engine được benchmark trong tài liệu này bao gồm: PostgreSQL, MySQL và MariaDB.
+
 #### Chỉ số đo lường:
 Kết quả benchmark bao gồm các chỉ số chính:
   * **Sysbench Read** : Tổng số truy vấn đọc được thực hiện trong quá trình benchmark.
@@ -27,6 +29,7 @@ Kết quả benchmark bao gồm các chỉ số chính:
   * **TPS (Transactions Per Second)** : Số lượng transaction hoàn chỉnh trung bình mỗi giây.
 
 Các chỉ số QPS và TPS được sử dụng làm cơ sở để đánh giá hiệu năng tổng thể của hệ thống. Giá trị QPS và TPS càng cao thể hiện throughput của hệ thống càng tốt.
+
 ### 2. Kết quả benchmark theo database engine
 #### 2.1. PostgreSQL
 **Môi trường kiểm thử:**  
@@ -48,6 +51,7 @@ Các chỉ số QPS và TPS được sử dụng làm cơ sở để đánh giá
 | 8C32G  | 64  | 5679842  | 1622732  | 13519.46  | 675.94  |  
 | 16C32G  | 64  | 6448036  | 1842199  | 15350.46  | 767.49  |  
 | 16C64G  | 64  | 6926948  | 1979031  | 16489.02  | 824.41  |  
+
 #### 2.2. MySQL
 **Môi trường kiểm thử:**  
 | Thông số  | Giá trị  |  
@@ -65,6 +69,7 @@ Các chỉ số QPS và TPS được sử dụng làm cơ sở để đánh giá
 | 8C16G  | 32  | 9748144  | 2785184  | 23209.29  | 1160.46  |  
 | 8C32G  | 32  | 9423834  | 2692524  | 22430.67  | 1121.53  |  
 | 16C32G  | 64  | 9786238  | 2796068  | 23289.48  | 1164.47  |  
+
 #### 2.3. MariaDB
 **Môi trường kiểm thử:**  
 | Thông số  | Giá trị  |  
@@ -83,6 +88,7 @@ Các chỉ số QPS và TPS được sử dụng làm cơ sở để đánh giá
 | 8C32G  | 32  | 8491182  | 2086388  | 20216.52  | 1010.83  |  
 | 16C32G  | 64  | 10267208  | 2568032  | 24444.58  | 1222.23  |  
 | 16C64G  | 64  | 10789884  | 2719241  | 25688.30  | 1284.42  |  
+
 ### 3. Nhận định & Khuyến nghị
   * Việc tăng CPU và RAM nhìn chung giúp cải thiện throughput.
   * Mỗi database engine có đặc điểm scale khác nhau.

@@ -10,6 +10,7 @@ pagination_next: null
 # Incident Data Visualization
 
 **Incident Insights** enables the ability to visualize incident data, facilitating the exploration of metrics and trends in incident response performance
+
 ### View Incident Insights
 **Step 1** : Log in to FMON Grafana.
 **Step 2** : From the sidebar menu, choose **Apps** > **FMON - Incident** > **Insights**

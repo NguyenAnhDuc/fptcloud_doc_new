@@ -9,6 +9,7 @@ sidebar_position: 10
 # Analytics
 
 _User Type: API Provider_
+
 ### 1. Analytics
 Providers can access the analytics menu to view statistics regarding API usage.
 Currently, the Analytics section displays 2 charts:

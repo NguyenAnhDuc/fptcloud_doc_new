@@ -10,8 +10,10 @@ sidebar_position: 8
 
 ### Overview
 **GPU Virtual Machines (VMs)** are **Linux-based** virtual machines that run on top of **virtualized hardware** with **high-end GPUs**. Each VM you create is a new virtual server that you can use either standalone or as part of a larger, cloud-based infrastructure. 
+
 ### Step 1: Open Instance Management
 In the side menu, go to **Compute Engine > Instance Management**, then click **Create Instance**. 
+
 ### Step 2: Configure the Instance
 [![Alt text](/img/migrated/Create-VM-1-e5ce2c58.png)](/img/migrated/Create-VM-1-e5ce2c58.png)
   1. **Instance Name:** Enter a unique name for your GPU virtual machine. 
@@ -28,6 +30,7 @@ Currently supported GPUs: **NVIDIA H100 SXM5** and **NVIDIA H200 SXM**.
   5. **Resource Type:** Each GPU VM offers different configurations for **vCPU** , **RAM** , and the **number of GPUs attached**. You can choose the configuration that best fits your workload requirements. 
 
 [![Alt text](/img/migrated/Create-VM-4-37c83e6c.png)](/img/migrated/Create-VM-4-37c83e6c.png)
+
 ### Step 3: Configure the Storage Disk
 [![Alt text](/img/migrated/Create-VM-5-63fa6879.png)](/img/migrated/Create-VM-5-63fa6879.png)
   * **Storage Policy:** Specifies the storage type used for the GPU VM. 
@@ -51,8 +54,10 @@ Choose one of the following authentication methods:
   * **Password:** Set a password and securely store it for console access. 
 
 [![Alt text](/img/migrated/Create-VM-7-34b41ab4.png)](/img/migrated/Create-VM-7-34b41ab4.png)
+
 ### Step 6: Advanced Settings
 [![Alt text](/img/migrated/Create-VM-8-eb39dba2.png)](/img/migrated/Create-VM-8-eb39dba2.png)
+
 #### Backup Job
 Only available for **GPU VMs using Block Storage - Persistent Disk**. You can schedule automatic backups and define their frequency and timing. 
 **Backup Options:**
@@ -61,8 +66,10 @@ Only available for **GPU VMs using Block Storage - Persistent Disk**. You can sc
   * **Daily Incremental, Monthly Active Full:** Performs daily incremental backups with a full backup once per month. 
 
 **Backup Time:** Set the specific time for the backup to run. 
+
 #### Tags
 Assign existing tags to help manage and categorize your resources. 
+
 #### User Data (Cloud-init Script)
 The **User Data** field allows you to add **cloud-init scripts**. 
 When the VM starts, cloud-init reads metadata and automatically configures the system — including **users** , **SSH keys** , and **network settings**. 

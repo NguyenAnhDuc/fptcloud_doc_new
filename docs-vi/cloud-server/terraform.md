@@ -9,6 +9,7 @@ sidebar_position: 75
 # IaC (Terraform)
 
 FPT Smart Cloud giới thiệu Terraform như một giải pháp quản lý hạ tầng tiên tiến, giúp người dùng tự động hóa việc triển khai và quản lý cơ sở hạ tầng đám mây một cách hiệu quả. Với Terraform, người dùng có thể định nghĩa hạ tầng dưới dạng mã (Infrastructure as Code), giúp việc triển khai trở nên nhất quán, dễ dàng mở rộng và quản lý trên nhiều nền tảng đám mây khác nhau như AWS, Azure, và Google Cloud. Giải pháp này không chỉ giảm thiểu rủi ro mà còn tăng cường khả năng kiểm soát và tối ưu hóa tài nguyên, từ đó hỗ trợ doanh nghiệp đạt được mục tiêu công nghệ một cách nhanh chóng và bền vững.
+
 # **Set up**
 ## **1. Yêu cầu hệ thống**
   * Hệ điều hành: Terraform hỗ trợ nhiều hệ điều hành như Linux, macOS, Windows.
@@ -49,6 +50,7 @@ Copyterraform -v
 ## **4. Cách lấy token sử dụng cho terraform FPTCloud**
 Vào **Sidebar** -> chọn mục **Token**
 [![file](/img/migrated/image-1723437528179-91f0c476.png)](/img/migrated/image-1723437528179-91f0c476.png)
+
 ## **5. Khởi tạo FPT Cloud Provider**
   * Kiểm tra phiên bản và hướng dẫn cài đặt FPT Cloud Provider trên trang Terraform
 
@@ -65,6 +67,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Sử dụng accrss token để kết nối đến FPT Cloud:
 
 [![file](/img/migrated/image-1723437566706-348f066d.png)](/img/migrated/image-1723437566706-348f066d.png)
+
 # **Document**
   * Terraform Provider Docs: 
     * <https://registry.terraform.io/providers/fpt-corp/fptcloud/latest/docs/>
@@ -82,6 +85,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Hủy instance đã tạo:
 
 [![file](/img/migrated/image-1723437700286-b35fddad.png)](/img/migrated/image-1723437700286-b35fddad.png)
+
 ## **2. Floating IP**
   * Script tạo floating IP:
 
@@ -92,6 +96,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Hủy floating IP đã tạo:
 
 [![file](/img/migrated/image-1723437746142-363beff3.png)](/img/migrated/image-1723437746142-363beff3.png)
+
 ## **3. Security group**
   * Script tạo security group:
 
@@ -102,6 +107,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Hủy security group đã tạo:
 
 [![file](/img/migrated/image-1723437790818-b15cbbf6.png)](/img/migrated/image-1723437790818-b15cbbf6.png)
+
 ## **4. Storage disk**
   * Script tạo storage:
 
@@ -112,6 +118,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Hủy storage đã tạo:
 
 [![file](/img/migrated/image-1723437832407-dc6858ee.png)](/img/migrated/image-1723437832407-dc6858ee.png)
+
 ## **5. Database**
   * Script tạo database:
 
@@ -122,6 +129,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Script quản lý trạng thái chạy/dừng của database:
 
 [![file](/img/migrated/image-1728455276595-5698c246.png)](/img/migrated/image-1728455276595-5698c246.png)
+
 ## **6. Dedicated FKE**
   * Script tạo cụm Dedicated FKE:
 
@@ -129,6 +137,7 @@ Vào **Sidebar** -> chọn mục **Token**
   * Kết quả khi tạo thành công:
 
 [![file](/img/migrated/image-1728875338930-4c7925af.png)](/img/migrated/image-1728875338930-4c7925af.png)
+
 ## **7. Managed FKE**
   * Script tạo cụm Managed FKE:
 

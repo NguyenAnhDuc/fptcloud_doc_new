@@ -5,6 +5,7 @@ description: "Prerequisites and initial steps before creating backup jobs on FPT
 sidebar_label: "Initial setup"
 sidebar_position: "2"
 ---
+
 # Initial setup
 
 ## Prerequisites

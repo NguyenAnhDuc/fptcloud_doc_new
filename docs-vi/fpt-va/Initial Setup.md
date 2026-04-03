@@ -12,6 +12,7 @@ sidebar_position: 2
 Để đăng nhập vào FPT Portal, hãy truy cập vào và đăng nhập bằng tài khoản và mật khẩu FPT Cloud đã được cấp, chọn đúng Tenant cần sử dụng dịch vụ VA.
 Nếu chưa có tài khoản FPT Cloud, hãy truy cập trang chủ tại <https://fptcloud.com/>, chọn chức năng **Sign Up** và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tiến hành tạo tài khoản.
 Nếu không chắc chắn về các thông tin trên hoặc hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+
 ### 5.2 Đăng ký dịch vụ và kiểm tra quota.
 Nếu có nhu cầu sử dụng **FPT Vulnerability Assessment** , hãy liên hệ với bộ phận hỗ trợ tại <https://fptcloud.com/lien-he/> . Sau khi cung cấp các thông tin cần thiết, tài khoản của bạn sẽ được mở tính năng quản trị **FPT Vulnerability Assessment** trên **FPT** **Portal**.
 Sau khi đăng ký sử dụng dịch vụ, khi đăng nhập vào sẽ hiển thị thêm service **Cloud VA** trên menu.

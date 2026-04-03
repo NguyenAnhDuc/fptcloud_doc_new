@@ -23,10 +23,10 @@
       "brokenImages": 0
     },
     "ja": {
-      "sidebarIds": 1224,
-      "filesOnDisk": 1224,
+      "sidebarIds": 1225,
+      "filesOnDisk": 1225,
       "sidebarMissing": 0,
-      "orphaned": 112,
+      "orphaned": 113,
       "emptyOrShort": 0,
       "wrongLanguage": 0,
       "frontmatterIssues": 0,
@@ -107,6 +107,7 @@
       "model-fine-tuning/index",
       "model-hub/index",
       "model-serving/index",
+      "model-testing/index",
       "model-testing-interactive-sessions/index",
       "model-testing-test-jobs/index",
       "nat_instance/index",
@@ -133,8 +134,7 @@
       "trellix-customer-guide/index",
       "user-token/index",
       "vpn-site-to-site/index",
-      "zalo-ticket-support/index",
-      "モデルテスト/index"
+      "zalo-ticket-support/index"
     ],
     "vi": [
       "affinity-anti-affinity/index",
@@ -203,6 +203,7 @@
       "model-fine-tuning/index",
       "model-hub/index",
       "model-serving/index",
+      "model-testing/index",
       "model-testing-interactive-sessions/index",
       "model-testing-test-jobs/index",
       "nat_instance/index",
@@ -217,8 +218,7 @@
       "trellix-customer-guide/index",
       "user-token/index",
       "vpn-site-to-site/index",
-      "zalo-ticket-support/index",
-      "モデルテスト/index"
+      "zalo-ticket-support/index"
     ],
     "ja": [
       "affinity-anti-affinity/index",
@@ -332,7 +332,8 @@
       "タグ-付け/ロードバランサー",
       "タグ-付け/作成したタグの削除",
       "タグ-付け/初期設定",
-      "タグ-付け/請求のタグ付け"
+      "タグ-付け/請求のタグ付け",
+      "モデルテスト/index"
     ]
   },
   "emptyFiles": {
@@ -382,10 +383,10 @@
     "counts": {
       "enViOnlyEN": 398,
       "enViOnlyVI": 394,
-      "enJaOnlyEN": 366,
-      "enJaOnlyJA": 262,
-      "viJaOnlyVI": 502,
-      "viJaOnlyJA": 402
+      "enJaOnlyEN": 371,
+      "enJaOnlyJA": 269,
+      "viJaOnlyVI": 507,
+      "viJaOnlyJA": 409
     }
   },
   "crossLangMismatch": {
@@ -3534,7 +3535,7 @@
           {
             "fileA": "how-to-use-model-catalog",
             "fileB": "tao-model",
-            "score": 49,
+            "score": 48,
             "sharedImages": 0,
             "imagesA": 1,
             "imagesB": 3
@@ -3558,7 +3559,7 @@
           {
             "fileA": "overview",
             "fileB": "update-version",
-            "score": 47,
+            "score": 46,
             "sharedImages": 0,
             "imagesA": 0,
             "imagesB": 1
@@ -6228,6 +6229,32 @@
         "trulyOnlyB": []
       },
       {
+        "folder": "model-testing",
+        "onlyInEN": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
+          "index",
+          "key-features",
+          "model-testing",
+          "test-models-response"
+        ],
+        "onlyInJA": [],
+        "countA": 7,
+        "countB": 0,
+        "contentMatched": [],
+        "trulyOnlyA": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
+          "index",
+          "key-features",
+          "model-testing",
+          "test-models-response"
+        ],
+        "trulyOnlyB": []
+      },
+      {
         "folder": "model-testing-interactive-sessions",
         "onlyInEN": [
           "index",
@@ -6740,19 +6767,29 @@
       },
       {
         "folder": "モデルテスト",
-        "onlyInEN": [
+        "onlyInEN": [],
+        "onlyInJA": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
           "index",
+          "key-features",
+          "test-models-response",
           "モデルテスト"
         ],
-        "onlyInJA": [],
-        "countA": 7,
-        "countB": 5,
+        "countA": 0,
+        "countB": 7,
         "contentMatched": [],
-        "trulyOnlyA": [
+        "trulyOnlyA": [],
+        "trulyOnlyB": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
           "index",
+          "key-features",
+          "test-models-response",
           "モデルテスト"
-        ],
-        "trulyOnlyB": []
+        ]
       }
     ],
     "viVsJa": [
@@ -8934,7 +8971,7 @@
           {
             "fileA": "tutorials-encryption",
             "fileB": "encryption",
-            "score": 91,
+            "score": 90,
             "sharedImages": 0,
             "imagesA": 0,
             "imagesB": 0
@@ -10367,7 +10404,7 @@
           {
             "fileA": "clone-model",
             "fileB": "create-version",
-            "score": 49,
+            "score": 50,
             "sharedImages": 0,
             "imagesA": 1,
             "imagesB": 1
@@ -10447,7 +10484,7 @@
           {
             "fileA": "share-detail-invited",
             "fileB": "quick-start",
-            "score": 49,
+            "score": 48,
             "sharedImages": 0,
             "imagesA": 2,
             "imagesB": 0
@@ -10490,6 +10527,32 @@
           "view-model-details",
           "why-model-hub"
         ]
+      },
+      {
+        "folder": "model-testing",
+        "onlyInVI": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
+          "index",
+          "key-features",
+          "model-testing",
+          "test-models-response"
+        ],
+        "onlyInJA": [],
+        "countA": 7,
+        "countB": 0,
+        "contentMatched": [],
+        "trulyOnlyA": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
+          "index",
+          "key-features",
+          "model-testing",
+          "test-models-response"
+        ],
+        "trulyOnlyB": []
       },
       {
         "folder": "model-testing-interactive-sessions",
@@ -10974,19 +11037,29 @@
       },
       {
         "folder": "モデルテスト",
-        "onlyInVI": [
+        "onlyInVI": [],
+        "onlyInJA": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
           "index",
+          "key-features",
+          "test-models-response",
           "モデルテスト"
         ],
-        "onlyInJA": [],
-        "countA": 7,
-        "countB": 5,
+        "countA": 0,
+        "countB": 7,
         "contentMatched": [],
-        "trulyOnlyA": [
+        "trulyOnlyA": [],
+        "trulyOnlyB": [
+          "completion-history",
+          "create-an-interactive-session",
+          "definition",
           "index",
+          "key-features",
+          "test-models-response",
           "モデルテスト"
-        ],
-        "trulyOnlyB": []
+        ]
       }
     ]
   },
@@ -10999,10 +11072,10 @@
     "trulyMissing": {
       "enViA": 109,
       "enViB": 105,
-      "enJaA": 246,
-      "enJaB": 142,
-      "viJaA": 226,
-      "viJaB": 126
+      "enJaA": 251,
+      "enJaB": 149,
+      "viJaA": 231,
+      "viJaB": 133
     }
   }
 }

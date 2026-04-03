@@ -9,6 +9,7 @@ sidebar_position: 31
 # Thay Doi Thong Tin Cau Hinh Load Balancer
 
 Bạn có thể thay đổi thông tin cấu hình và gói sử dụng của **Load Balancer** đã tạo tại trang **Load Balancer details.**
+
 ### Thay đổi cài đặt của Load Balancer
 **Bước 1** : Truy cập vào trang **Load Balancer details** bằng cách chọn tên **Load Balancer** tương ứng trên bảng quản trị **Load Balancer Management**.
 **[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)**

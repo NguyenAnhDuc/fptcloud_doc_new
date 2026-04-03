@@ -10,6 +10,7 @@ sidebar_position: 8
 
 A **Site** is an entity used to map products to a portal.
 If you're using the **Pilot** or **Normal** package, a default site is provided and additional sites cannot be created. If you need extra sites, consider upgrading to a higher-tier package.
+
 ### 1. Creating a New Site
 **Step 1** : In the **Application** menu, navigate to **API Manager** > **Sites** , click **Create**.
 [![](/img/migrated/Userguide-FPT-API-Management-16-1024x538-be9735da.png)](/img/migrated/Userguide-FPT-API-Management-16-1024x538-be9735da.png)
@@ -24,6 +25,7 @@ If you're using the **Pilot** or **Normal** package, a default site is provided 
 [![](/img/migrated/Userguide-FPT-API-Management-17-1024x538-c8843ff5.png)](/img/migrated/Userguide-FPT-API-Management-17-1024x538-c8843ff5.png)
 **Step 3** : Click **OK** to create the Site.
 [![](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)
+
 ### 2. Modifying Site Information
 To modify the information about a Site, follow these steps:
 **Step 1** : In **Site Management** , choose the Site to modify > **Edit**.
@@ -31,6 +33,7 @@ To modify the information about a Site, follow these steps:
 **Step 2** : Enter new information and click **OK**.
 [![](/img/migrated/Userguide-FPT-API-Management-48-1024x538-db207ea1.png)](/img/migrated/Userguide-FPT-API-Management-48-1024x538-db207ea1.png)
 **Note** : Certain fields cannot be altered and will be disabled in the edit interface.
+
 ### 3. Staging a Product
 To start deploying a product onto a site, users need to stage (place) the product onto the site.
 **Note** : When a product is staged onto a site, consumers still cannot use the APIs within that product. Users need to publish the product for consumers to use it.
@@ -75,6 +78,7 @@ To get the Endpoint information for a product, follow these steps:
 [![](/img/migrated/Userguide-FPT-API-Management-52-1024x538-de25edf9.png)](/img/migrated/Userguide-FPT-API-Management-52-1024x538-de25edf9.png)
 **Step 3** : The required information will be available in the **API Endpoint** field.
 [![](/img/migrated/Userguide-FPT-API-Management-53-1024x538-0de79411.png)](/img/migrated/Userguide-FPT-API-Management-53-1024x538-0de79411.png)
+
 ### 6. Managing the Dev-Portal Page
 After publishing a site, a portal page is created. This page manages the list of publicized products on that site and lists the APIs within those products.
 To get the portal link, follow these steps:
@@ -83,6 +87,7 @@ To get the portal link, follow these steps:
 **Step 2** : Accessing that link will redirect you to a page with the following interface:
 [![](/img/migrated/api10-0c966bd1.png)](/img/migrated/api10-0c966bd1.png)
 To log in, you need an username and password. Please contact us for account information.
+
 ### 7. Managing IP Addresses
 For enhanced security, API Providers can allow or block consumers' API calls from specific IP addresses.
 **Step 1** : In **Sites** , select a site containing products in a Published state.
@@ -96,6 +101,7 @@ For enhanced security, API Providers can allow or block consumers' API calls fro
   * If you enter IPs in **Deny** and leave **Allow** empty: All IPs can access except those listed in Deny.
 
 **Note** : You cannot simultaneously allow and deny the same IP.
+
 ### 8. Testing
 For convenient API verification after publishing on a site before sharing information with consumers, you can test this within our API Management system.
 Here's how:

@@ -9,6 +9,7 @@ sidebar_position: 12
 # Create a model
 
 **Create Model** allows users to build a private AI model by customizing its basic settings, metadata, and access controls. On the Model Hub service screen, click the Create button to go to the creation page. [![file](/img/migrated/image-1757057515124-cb536ba9.png)](/img/migrated/image-1757057515124-cb536ba9.png)
+
 ### **Step 1: Fill in Basic Information**
 [![file](/img/migrated/image-1757057993590-aafcd5b8.png)](/img/migrated/image-1757057993590-aafcd5b8.png)
 In the **Basic Information** section, complete the following fields:
@@ -38,6 +39,7 @@ You can assign tags under the following predefined categories:
 
 ### **Step 3: Preview**
 The **Preview** panel on the right will display a live preview of your model based on the information you’ve entered.
+
 ### **Step 4: Navigation**
   * Click **Cancel** to discard changes and exit.
   * Click **Submit** to finalize and create the model.

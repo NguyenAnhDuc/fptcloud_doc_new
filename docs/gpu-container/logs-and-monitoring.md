@@ -9,6 +9,7 @@ sidebar_position: 10
 # Logs And Monitoring
 
 GPU Container provides **container logs** and **metrics** to help you monitor and troubleshoot your workloads. To view your logs and metrics, open the Details Container screen, open the Logs or Monitoring tab. This gives you container logs and metrics monitoring, making it easy to diagnose issues or monitor your container’s activity. 
+
 ## Container Logs
 Container logs include all application logs. Note that logs are only kept for 14 days, and timestamps are shown in the UTC time zone. . [![Alt text](/img/migrated/Logs_screen-6445c59e.png)](/img/migrated/Logs_screen-6445c59e.png)
   1. Download: Download logs from the last 14 days of your container. 

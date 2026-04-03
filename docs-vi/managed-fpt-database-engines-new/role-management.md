@@ -11,8 +11,10 @@ sidebar_position: 13
 Role là một thành phần cốt lõi của mô-đun IAM trên FPT Cloud Portal. Chức năng **Quản lý Role** cho phép quản trị hệ thống định nghĩa và gán các vai trò với tập quyền truy cập (permissions) cụ thể cho người dùng khi sử dụng dịch vụ FPT Database Engine.
 Việc sử dụng role giúp tăng cường bảo mật thông qua kiểm soát truy cập chi tiết, áp dụng nguyên tắc phân quyền tối thiểu, đồng thời hỗ trợ tách biệt quyền hạn theo từng nhu cầu và mô hình vận hành.
 Các bước dưới đây cung cấp hướng dẫn chi tiết để tạo mới một Role và gán các quyền truy cập (permissions) tương ứng cho role đó.
+
 ### Bước 1: Truy cập trang Quản lý role
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **IAM** > **Roles**. Giao diện **Role Management** sẽ hiển thị danh sách role hiện có, cùng các tùy chọn để tạo mới, chỉnh sửa hoặc xoá một role.
+
 ### Bước 2: Tạo role mới
 Trong trang **Role Management** , nhấn **Create role**. Màn hình tạo role mới hiển thị như sau:
 [![](/img/migrated/create-role-46051a0f.png)](/img/migrated/create-role-46051a0f.png)

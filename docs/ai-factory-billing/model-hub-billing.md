@@ -17,9 +17,11 @@ Based on usage volume and usage duration of a pipeline.
 
 **Rate** : `01 GB/hour` (Every 1 hour) 
 * * *
+
 ### Billing Equation
 Hourly storage usage = Total usage amount within 1 hour = Sum of (Usage amount in each 5-minute block) 
 * * *
+
 ### Example  
 | Time Slot  | Recorded Block Size (GB)  | Price / 1 minute  | Usage Amount  |  
 | --- | --- | --- | --- |  

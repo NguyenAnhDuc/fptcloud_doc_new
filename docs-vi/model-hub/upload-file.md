@@ -10,13 +10,18 @@ sidebar_position: 12
 
 Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng 
 Các bước thực hiện: 
+
 Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Version 
+
 Bước 2: Click vào dấu 3 chấm cột Action > Chọn Upload
 [![](/img/migrated/Picture20-1fbfb321.png)](/img/migrated/Picture20-1fbfb321.png)
+
 Bước 3: Sinh ra thông tin để upload file qua CLI. 
 [![](/img/migrated/anh-2-0bfbc3c3.png)](/img/migrated/anh-2-0bfbc3c3.png) Bước 4: Người dùng cần vào menu Configuration để lấy các thông tin Access/Secret key để upload file [![](/img/migrated/anh-3-dc5c31ee.png)](/img/migrated/anh-3-dc5c31ee.png) [![](/img/migrated/anh-4-1295fdc8.png)](/img/migrated/anh-4-1295fdc8.png)
 Ví dụ dùng tool S3 Client là WinSCP để upload file, bạn thao tác như sau: 
+
 Bước 1: Cài WinSCP và mở WinSCP 
+
 Bước 2: Nhập các thông tin để login vào WinSCP như sau: 
 [![](/img/migrated/Picture22-c505575f.png)](/img/migrated/Picture22-c505575f.png)
   * File protocol: chọn là Amazon S3 

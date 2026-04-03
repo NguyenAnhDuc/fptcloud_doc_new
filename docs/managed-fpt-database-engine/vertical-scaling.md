@@ -9,10 +9,12 @@ sidebar_position: 36
 # Vertical Scaling
 
 The **Vertical Scaling** feature enables automatic adjustment of database resources, including vCPU, RAM, and Storage, in real time based on performance requirements or actual resource utilization. This feature allows the system to proactively scale resources when needed, ensuring operational flexibility and efficiency without requiring manual intervention.
+
 ### Required Permissions:  
 | Permission  | Action Type  | Description  |  
 | --- | --- | --- |  
 | manageDatabase:Configuration  | Edit  | Allows modifying database configuration such as parameters, and scaling configurations.  |  
+
 ### 1. Enable Vertical Scaling Service
 You can enable the Vertical Scaling service using one of the following methods:
   * Enable it during the Additional Service configuration step when creating a database (refer to Section [Provision Database](../managed-fpt-database-engine/index.md)), or
@@ -22,13 +24,16 @@ You can enable the Vertical Scaling service using one of the following methods:
 To enable Vertical Scaling, the Notification service must be enabled, and at least one Email or Telegram channel must be configured to receive scaling-related alerts. If Notification is not configured, the system will display a dialog prompting you to complete this configuration first.
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
 Click **Go to Notification** to navigate to the **Notification** tab and follow the instructions in Section 7.8. Notification.
+
 #### Step 1: Access Vertical Scaling
 Log in to FPT Cloud Portal. From the main menu, select **Database Platform → All Databases**. Click the ID of the target database cluster. Switch to the **Vertical Scaling** tab to access the configuration management page. If the service has not been enabled, the **Vertical Scaling** page will display an Inactive status.
 [![](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)
+
 #### Step 2: Enabling Vertical Scaling
 After the database cluster is successfully created, the Vertical Scaling service is set to Inactive by default. Click the **Enable Vertical Scaling** icon (gear icon) next to **Service Information** to open the confirmation dialog.
 Click **Confirm** to enable the service. Once completed, the service status will change to **Active** as below:
 [![](/img/migrated/scaling-enabled-scaled-c48b62a6.png)](/img/migrated/scaling-enabled-scaled-c48b62a6.png)
+
 ### 2. Configure Compute Scaling
 On the **Vertical Scaling** page, click **Add Flavor Scaling** (plus icon) under **Compute Scaling**. The **Add Compute Scaling** dialog will appear, allowing you to configure automatic scaling for vCPU and RAM.
 [![](/img/migrated/add-compute-scaling-1-scaled-8921f622.png)](/img/migrated/add-compute-scaling-1-scaled-8921f622.png)

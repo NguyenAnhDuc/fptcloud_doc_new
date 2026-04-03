@@ -11,6 +11,7 @@ sidebar_position: 9
 ## Giới thiệu
 Tính năng **Backup Volume** cho phép người dùng tạo bản sao lưu cho các volume trong VPC trên Unify Portal.
 Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi phục khi xảy ra sự cố.
+
 ## Điều kiện
   * Đã đăng nhập vào **Unify Portal**.
   * Dịch vụ **Backup** cho VPC đang ở trạng thái **Enable**.
@@ -20,6 +21,7 @@ Backup đảm bảo dữ liệu luôn có bản dự phòng và có thể khôi 
 ## Tạo Backup Volume
 ### Bước 1: Mở giao diện Backup & Recovery
 Nhấn nút **Create Backup Job**.
+
 ### Bước 2: Nhập thông tin cơ bản
 Trên form **Create Backup Job** , điền các trường sau:
   1. **Job Name** (_bắt buộc_): 

@@ -10,6 +10,7 @@ sidebar_position: 7
 
 ## **Kiểm Tra Trạng Thái Backup và Restore của VM**
 Ngoài việc thống kê chung ở **Backup & Recovery Management**, **FPT Portal** còn hỗ trợ bạn xem trạng thái backup và restore của từng VM tại giao diện quản trị của VM đấy.
+
 ### **Bước 1: Truy cập giao diện quản trị VM**
   1. Ở menu chọn **Compute Engine** > **Instance Management**.
   2. Chọn VM cần kiểm tra thông tin.

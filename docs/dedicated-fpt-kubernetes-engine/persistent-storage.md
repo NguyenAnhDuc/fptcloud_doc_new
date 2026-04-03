@@ -9,6 +9,7 @@ sidebar_position: 20
 # Persistent storage
 
 FKE provides 02 types of Persistent Storage:
+
 ### A. Block Persistent Storage
 When creating a Kubernetes Cluster, the system automatically creates a Storage Class corresponding to the Storage Policy that user chose when creating the Kubernetes Cluster. Users can use this Storage Class to create RWO Persistent Volumes.
 Block Storage is suitable for applications that need to read and write quickly, databases...
@@ -47,6 +48,7 @@ Copykubectl get pvc
 ```
 
 PVC will be in **Pending** state until a Pod use it.
+
 ### B. File Persistent Storage
 When creating a Kubernetes Cluster, users can choose to enable NFS or enable it after creation. After enabling NFS, Storage Class `xplat-nfs` will be created in the cluster with the storage size as entered by the user when enabling NFS.
 To list the available Storage Class, run this command:

@@ -24,6 +24,7 @@ Generate an API endpoint for the model so it can be integrated into your applica
 Customize the model using your own dataset to improve performance for your specific use case.
   * **Delete**
 Delete a model [![file](/img/migrated/image-1757045894316-5df42b0e.png)](/img/migrated/image-1757045894316-5df42b0e.png)
+
 ## **Browsing and Filtering Models**
   * Use the **search bar** (top left) to quickly find a model by name.
   * Use the **filter menu** to sort models by:

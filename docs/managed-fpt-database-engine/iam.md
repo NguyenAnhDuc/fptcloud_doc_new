@@ -12,6 +12,7 @@ sidebar_position: 12
 To ensure security, compliance, and separation of duties in a cloud environment, FPT Cloud uses an Identity and Access Management (IAM) module to control who can do what, and on which resources.
 IAM enables centralized permission management across users, groups, and DBaaS components in the FPT Cloud Portal, enforcing the principle of least privilege by assigning roles to users through groups within a Tenant and VPC scope.
 **_The least privilege principle_** : assign only the minimum necessary rights to perform tasks. For instance, grant viewing access only if no configuration or delete actions are required.
+
 ### FPT Database Engine – Permission Model
 To perform database provisioning, operation, and management tasks, users must be granted the appropriate IAM permissions. Each action within the FPT Database Engine service is governed by specific permissions. If a user is not assigned a required permission, the corresponding operation will not be available to that user.
 Permissions for the FPT Database Engine service are organized and grouped by functional domains, as described below:
@@ -64,5 +65,6 @@ Permissions for the FPT Database Engine service are organized and grouped by fun
 | Permission  | Action Type  | Description  |  
 | --- | --- | --- |  
 | manageDatabase:ReportConfig  | Edit  | Allows configuring and manageing the schedule for receiving database activity reports.  |  
+
 ### Configure permissions for the FPT Database Engine service
 To configure roles and define user groups, refer to section [Role Management](../managed-fpt-database-engine/index.md), and [User Group Management](../managed-fpt-database-engine/index.md) for detailed instructions.

@@ -5,6 +5,7 @@ description: "FPT Cloudでバックアップジョブを作成する前の前提
 sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
+
 # 初期設定
 
 ## 前提条件

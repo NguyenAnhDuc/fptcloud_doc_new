@@ -17,6 +17,7 @@ To create a new **Kafka** account, you need to be allocated with service quota. 
 **Step 3** : Click **Create**. The system will initialize the service and provide processing status notifications.
 After successfully creating the account, users will be automatically redirected to the **Kafka Service** administration page.
 Alternatively, you can access the **Kafka Service** administration page by navigate to the **Kafka Service** page and click **Start** on the instance you would like to access.
+
 ### 2. Create Topics
 To create a topic, follow these steps:
 **Step 1** : From the menu, navigate to **Application** > **Topic**. click **Create**.
@@ -30,6 +31,7 @@ To create a topic, follow these steps:
 [![](/img/migrated/Pic2_Taotopic-67891311.png)](/img/migrated/Pic2_Taotopic-67891311.png)
 **Step 3** : Click **OK** to proceed with creating the topic.
 **Note** : The topic name must follow the format **_[prefix].[topic name]_**
+
 ### 3. Create Credentials
 Users can create **Credentials** (username/password pair) for Kafka Service’s connection configuration using the _SASL/SCRAM-SHA-256_ authentication method.
 **Step 1** : From the menu, navigate to **Application** > **Credentials**. Click **Create**
@@ -41,6 +43,7 @@ Users can create **Credentials** (username/password pair) for Kafka Service’s 
 **Note** : Initially, the system will auto-generate a password. You can reset the password if needed.
 **Step 3** : Click **OK** to create the credential.
 **Note** : The topic name must follow the format **_[prefix].[credential name]_**
+
 ### 4. Create ACLs
 **ACLs** help users assign permissions, limiting the operations of principals on each topic or group. The permissions include Write, Read, from different IP addresses.
 To create ACLs, follow these instructions:
@@ -57,6 +60,7 @@ If **Literal** is selected, it means you have read/write permissions for only on
 
 [![](/img/migrated/Pic1_ACL-194aa4c5.png)](/img/migrated/Pic1_ACL-194aa4c5.png)
 **Step 3** : Click **OK** to complete.
+
 ### 5. Create Consumer Groups
 A consumer group is a group of consumers. A consumer can be any application that has the function of subscribing to a topic and consuming messages.
 To create a consumer group, do the following:

@@ -16,6 +16,7 @@ The **Kafka User Management** feature is available only for the Kafka engine. It
 
 ### 1. Create new Kafka user
 To create a new Kafka user, follow these steps:
+
 #### Step 1: Accessing Kafka User Management
 Sign in to the FPT Cloud Console. Select "**Database Platform** " > "**Data Streaming** " > click the Kafka cluster ID to open the details page. Choose "**Configure Params** " tab > forose "**Kafka ACL** " sub-tab. The **Kafka user management** page is displayed.
 [![](/img/migrated/view-kafka-acl-scaled-514e908e.png)](/img/migrated/view-kafka-acl-scaled-514e908e.png)
@@ -75,6 +76,7 @@ Enter configuration details:
   * **Operations** : Select one or more allowed Kafka operations depending on the resource type.
 
 After completing the configuration, select "**Save** " to apply the ACL to the Kafka user. The ACL takes effect immediately without requiring a Kafka cluster restart. A Kafka user can be assigned multiple ACLs.
+
 #### Best Practices:
   * Grant permissions using prefix-based ACLs when possible. Prefix-based ACLs simplify permission management at scale.
   * Separate ACLs for producers and consumers.

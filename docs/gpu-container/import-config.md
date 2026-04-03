@@ -9,11 +9,13 @@ sidebar_position: 6
 # Import Config
 
 For quick deployment, or when you already have a configuration file prepared, use this feature to create a container rather than configuring it through the user interface.
+
 ### Step 1: Open Import Configuration modal
   1. Navigate to GPU Container from the side menu. 
   2. Click Import Configuration located on the top right of the container list page. 
 
 [![Alt text](/img/migrated/import-1-4a9b93de.png)](/img/migrated/import-1-4a9b93de.png)
+
 ### Step 2: Provide configuration file in YAML format
 You can import configuration in two ways: 
   * Paste YAML directly into the YAML editor. 
@@ -47,6 +49,7 @@ A sample YAML template can be downloaded by clicking **Download template**.
 |  startup_commands  |   |   |   |  
 |  cmds  | list[string]  |   | Startup commands (optional).  |  
 |  args  | list[string]  |   | Startup command arguments (optional).  |  
+
 ### Step 3: Review Configuration
 [!(/img/migrated/information-fill-1-30ad0c7d.png)](/img/migrated/information-fill-1-30ad0c7d.png)
 **Notice:** The button "Review" will only be enabled when all the validations within the YAML editor have passed.

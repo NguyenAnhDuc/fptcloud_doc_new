@@ -15,6 +15,7 @@ sidebar_position: 20
 
 Trong ví dụ này chúng ta sẽ tạo kết nối VPN Site-to-Site với các thông số như trong topology bên dưới:
 [![file](/img/migrated/image-1744187555434-7059bf1d.png)](/img/migrated/image-1744187555434-7059bf1d.png)
+
 ## Cấu hình VPN Site-to-Site trên FCI Cloud
 **Bước 1. Tạo Customer gateways**
 1.1 Tạo customer gateway với các bước sau:
@@ -56,6 +57,7 @@ Khi quý khách hàng lựa chọn Providers "AWS ",hệ thống sẽ tự độ
 **Phần 3: Remote VPN information** [![](/img/migrated/Screenshot-2025-08-18-110311-4-6969ef54.png)](/img/migrated/Screenshot-2025-08-18-110311-4-6969ef54.png)
 Điền thông số Delay và max failure và chọn **Create VPN Connection**
 Sau khi VPN HAN khởi tạo hoàn tất, VPN Connection kết nối hai dải mạng LAN sẽ ONLINE, và các VM sẽ có thể giao tiếp với nhau qua IP LAN của chúng.
+
 ## Cấu hình VPN Site-to-Site trên AWS
 **Bước 1.** Tạo **Customer gateway**  
 **Customer Gateway** là một tài nguyên trong AWS để đại diện cho thiết bị **gateway** tại on-premises network.  

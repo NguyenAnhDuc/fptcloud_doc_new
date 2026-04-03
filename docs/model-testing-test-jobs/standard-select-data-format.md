@@ -24,6 +24,7 @@ Only select data format when you choose **test suite = standard**
 - PARQUET  | Limit 100MB  |  
 [![Alt text](/img/migrated/Data-format-a194722e.png)](/img/migrated/Data-format-a194722e.png)
 We currently support data formats for testing include:
+
 ### a/ Alpaca
 **Alpaca** uses a very simple structure to fine-tune the model with Instruction-following format with input, output pairs for **supervised fine-tuning** tasks. The basic structure includes:
   * **Instruction** : A string containing the specific task or request that the model needs to perform.
@@ -61,6 +62,7 @@ Copy[
 
 **Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/alpaca>
 **Supported file format:** .csv, .json, .jsonlines, .zip, .parquet
+
 ### b/ ShareGPT
 **ShareGPT** is designed to represent multi-turn conversations (back-and-forth chats) between a user and an AI assistant. It is commonly used when training or fine-tuning models for dialogue systems or chatbots that need to handle contextual conversation over multiple turns.
 Each data sample consists of a `conversations` array, where each turn in the chat includes:
@@ -117,6 +119,7 @@ Copy[
 
 **Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt>
 **Supported file format:** .json, .jsonlines, .zip, .parquet
+
 ### c/ ShareGPT_Image
 **ShareGPT_Image** is an extension of the ShareGPT multi-turn chat format, designed specifically for multi-modal training — that is, training models that handle both text and images in conversations.
 It’s used in fine-tuning vision-language models (VLMs), which need to process images alongside natural language.

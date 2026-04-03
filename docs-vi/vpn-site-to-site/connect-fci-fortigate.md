@@ -58,6 +58,7 @@ Khi quý khách hàng lựa chọn Providers "Fortigate",hệ thống sẽ tự 
 **Phần 3: Remote VPN information**
 [![](/img/migrated/Screenshot-2025-08-18-110311-2300da0e.png)](/img/migrated/Screenshot-2025-08-18-110311-2300da0e.png)
 Điền thông số Delay và max failure và chọn **Create VPN Connection**
+
 ## Bước 2: Cấu hình IPsec cho Fortigate
 - Đăng nhập web vào Fortigate khách hàng: [![file](/img/migrated/image-1744193935450-35f5c8ce.png)](/img/migrated/image-1744193935450-35f5c8ce.png) - Chọn IPsec Wizard: [![file](/img/migrated/image-1744193947980-2791ca43.png)](/img/migrated/image-1744193947980-2791ca43.png) - Chọn IPsec Tunnels:
   * IP Address là IP của FPT đã tạo ở bước 1
@@ -67,6 +68,7 @@ Khi quý khách hàng lựa chọn Providers "Fortigate",hệ thống sẽ tự 
 
 - Cấu hình Phase 2 như sau:
 + Local IP là dãy network khách hàng cần kết nối [![file](/img/migrated/image-1744194053329-8c1ac803.png)](/img/migrated/image-1744194053329-8c1ac803.png)
+
 ## Bước 3: Cấu hình firewall và routing cho Fortigate
   * Set firewall Allowed All cả incoming và outcoming như 2 hình dưới đây:
 

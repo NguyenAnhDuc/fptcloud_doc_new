@@ -17,6 +17,7 @@ Lúc này bạn có thể xem **Name** , **Email** , **Org Units** , **Role** , 
 [![anhfsec](/img/migrated/anhb21-3100c74f.png)](/img/migrated/anhb21-3100c74f.png)
 Ở phần này, bạn có thể xem các thông tin như **Org Units** , **Role** ,**Status** , **Added By** và **Added Date**
 [![anhfsec](/img/migrated/anhb22-c0e01d58.png)](/img/migrated/anhb22-c0e01d58.png)
+
 ## Thêm Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Add Member**
@@ -27,6 +28,7 @@ Lúc này bạn có thể xem **Name** , **Email** , **Org Units** , **Role** , 
 [![anhfsec](/img/migrated/memb2-b6e91c9d.png)](/img/migrated/memb2-b6e91c9d.png)
 **Bước 3** : Nhấn **Save**
 [![anhfsec](/img/migrated/memb3-c4aff71d.png)](/img/migrated/memb3-c4aff71d.png)
+
 ## Chỉnh sửa Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Edit** ở phần **Action** của **Member**
@@ -35,18 +37,21 @@ Chỉ **Org Admin** có quyền chỉnh sửa
 [![anhfsec](/img/migrated/E2-new-c0d59994.png)](/img/migrated/E2-new-c0d59994.png)
 **Bước 3** : Nhấn **Save**
 [![anhfsec](/img/migrated/E3-4f0c6208.png)](/img/migrated/E3-4f0c6208.png)
+
 ## Xóa Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Remove** ở phần Action của Member
 [![anhfsec](/img/migrated/X1-4479b566.png)](/img/migrated/X1-4479b566.png)
 **Bước 2** : Điền **remove** và sau đó nhấn **Confirm**
 [![anhfsec](/img/migrated/X2-e4c5fcb3.png)](/img/migrated/X2-e4c5fcb3.png)
+
 ## Disable Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần**Disable** ở phần Action của Member
 [![anhfsec](/img/migrated/D1-40787124.png)](/img/migrated/D1-40787124.png)
 **Bước 2** : Điền **disable** và sau đó nhấn**Confirm**
 [![anhfsec](/img/migrated/D2-d09cab02.png)](/img/migrated/D2-d09cab02.png)
+
 ## Enable Member
 Chỉ **Org Admin** có quyền chỉnh sửa
 **Bước 1** : Nhấn vào phần **Enable** ở phần Action của Member

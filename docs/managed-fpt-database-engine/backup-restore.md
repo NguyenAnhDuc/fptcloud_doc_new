@@ -9,6 +9,7 @@ sidebar_position: 26
 # Backup and restore
 
 The**Backup & Restore** feature on FPT Database Engine helps protect data against risks such as accidental deletion, data corruption, or system failures. The platform supports automatic backups, data restoration from backup files, and Point-in-Time Recovery for selected supported database engines.
+
 ### Backup
 A backup is a snapshot of database data taken at a specific point in time. Backups are used to restore data in case of operational errors or failures. The backup mechanism is designed to protect data, enable recovery in the event of failures, and meet compliance and security requirements in a cloud environment.
 The Backup feature allows you to configure, operate, and monitor backup operations for databases. You can:
@@ -17,6 +18,7 @@ The Backup feature allows you to configure, operate, and monitor backup operatio
   * Monitor backup status through the management interface.
 
 Backups are available for all database engines provided by FPT.
+
 ### Backup types
 FPT Database Engine supports the following backup types:
   * **Full backup** : Backs up the entire database cluster.
@@ -24,14 +26,18 @@ FPT Database Engine supports the following backup types:
 
 ### Backup storage
 Backups are stored on dedicated storage, isolated from the database cluster. This design ensures: data durability, high availability, and reliable recovery in the event of cluster failures.
+
 ### Backup retention
 Backup retention defines the number of full backups retained. When the retention limit is exceeded, the oldest backups are automatically deleted.
+
 ### Restore
 Restore allows you to recover a database from an existing backup. The restore operation creates a new database based on the selected backup.
+
 ### Point-in-Time Recovery (PITR)
 Point-in-Time Recovery allows you to restore a database to a specific point in time. PITR is supported by combining periodic full backups and continuously archived transaction logs. This approach enables restoring a database to any valid point within the retention period.
 PITR is especially useful for accidental data deletion, application errors and unintended data or configuration changes. **Currently, this feature is supported for PostgreSQL only.**
 The combination of backup and PITR enhances data protection, ensures high availability, and provides flexible recovery capabilities for real-world operational scenarios.
+
 ### Required Permissions  
 | Permission  | Action Type  | Description  |  
 | --- | --- | --- |  

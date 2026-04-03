@@ -25,6 +25,7 @@ FPT Database Engine follows the versioning convention established by the communi
 | Major version  | Significant changes in architecture or features, which may not be backward compatible. Example: PostgreSQL 14 or MySQL 8.0  |  
 | Minor version  | Smaller updates, bug fixes, or security patches that are backward compatible. Example: MySQL 8.0.25   |  
 Users can view the exact version they are using for their database directly on the Console Portal by checking the details of their database.
+
 ### Version Lifecycle
 Each database engine version follows a lifecycle consisting of the following stages:  
 | Stage  | Description  |  
@@ -37,6 +38,7 @@ On Console Portal, deprecated versions are displayed with the "Deprecated" or "D
 | **4. End of Support (EoS)**  | The version is no longer supported.   
 On Console Portal, Beta versions are displayed with the "EoS" tag.  |  
 **Note** : Users are advised to proactively upgrade before the current version reaches the Deprecated or EoS stage to ensure the system's security and stability.
+
 ### Recommendations  
 | Scenario  | Recommended Action  |  
 | --- | --- |  

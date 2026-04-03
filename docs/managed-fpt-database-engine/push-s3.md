@@ -12,8 +12,10 @@ pagination_next: null
 The **Push backup to S3** feature enables users to push database backups to an S3 compatible storage, supporting long term retention, archival, or external consumption use cases. The feature is particularly useful for disaster recovery, auditing, or replicating data to external systems.
 Currently, FPT is providing this feature for various engine types: PostgreSQL, MySQL, MariaDB, SQLServer, Redis, MongoDB, TimescaleDB.
 This guide helps you use the feature to manage backing up data to S3, supporting secure storage, recovery goals, or data integration outside the system.
+
 ### 1. Add New S3 Configuration
 The **Add new S3 configuration** feature allows users to configure S3-compatible storage information for use as a backup storage destination.
+
 #### Prerequisites:
   * A valid S3 bucket is available.
   * Access Key and Secret Key with permission to access the bucket.
@@ -44,6 +46,7 @@ When needed, users can perform the following actions on an existing S3 configura
 
 ### 2. Push backup to S3
 The Push backup to S3 feature allows users to push existing database backup files to a pre-configured S3 storage.
+
 #### Prerequisites:
   * A valid S3 storage configuration is available.
   * The database cluster has at least one successful backup.

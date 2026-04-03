@@ -5,6 +5,7 @@ description: "How to create a new VM using data from an existing Restore Point o
 sidebar_label: "Create a New VM from Restore Points"
 sidebar_position: "5"
 ---
+
 # Create a New VM from Restore Points
 
 FPT Backup supports not only restoring a VM from a Restore Point but also creating a new VM with data taken from a Restore Point. The newly created VM will have disk data identical to the original VM at the time the Restore Point was created, while allowing customization of RAM, CPU, and Network configuration. This makes it easy to quickly and simply create multiple secondary VMs from a primary VM.

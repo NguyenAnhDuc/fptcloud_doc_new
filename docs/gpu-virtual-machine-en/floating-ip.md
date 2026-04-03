@@ -12,8 +12,10 @@ sidebar_position: 9
 A **Floating IP** (also known as a **Public IP**) is a publicly accessible static IPv4 address. 
 You can **assign or reassign** a reserved Floating IP to a **GPU Virtual machine** to make it reachable from the internet. 
 The Floating IP can be **removed at any time** when external access is no longer required. 
+
 ### Attach Floating IPs
 After successfully creating a GPU VM, you can assign a **Floating IP** (a Public IP that can be flexibly attached or detached) to make the instance accessible from the internet. 
+
 #### Step 1: Access the Allocate IP Address Feature
 You can allocate a Floating IP using one of the following methods: 
 **Method 1:**
@@ -66,9 +68,11 @@ If your **GPU VM uses an Ephemeral (NVMe) disk** , the following port settings a
 
 _You may repeat this step to add additional ports as needed._
 If your **GPU VM uses a Block Storage - Persistent disk** , these port configurations are **optional**. 
+
 #### Step 3: Confirm Allocation
 After completing the required fields, click **Allocate Floating IP** to confirm. 
 The newly created Floating IP will then appear in the list and can be attached to your VM. 
+
 ### Detach Floating IPs
 If you no longer need to use a Floating IP or want to detach it to assign to another virtual machine, follow these steps: 
 **Step 1:**
@@ -79,6 +83,7 @@ Under the **Actions** column, select **Disconnect Instance**.
 A confirmation pop-up will appear. 
 To confirm the detachment, click **Disconnect**. 
 [![Alt text](/img/migrated/Floating-IP-5-cc51b9fd.png)](/img/migrated/Floating-IP-5-cc51b9fd.png)
+
 ### Release Floating IPs from the VPC
 If a Floating IP is no longer needed, you can release it from the VPC as follows: 
 **Step 1:**

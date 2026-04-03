@@ -11,6 +11,7 @@ sidebar_position: 4
 **Bước 1:** Ở menu chọn **Load Balancer > Load Balancer**, chọn **Create Load Balancer**
 **Bước 2:** Nhập thông tin cấu hình **Load Balancer** tại màn tạo mới
 Để khởi tạo 1 Load Balancer, hệ thống sẽ mặc định tạo 1 Listener và 1 Server pool mặc định cho người dùng dựa trên phần cấu hình được chọn khi khởi tạo, bao gồm các thông tin sau
+
 #### 1. Thông tin Load Balancer  
 | Trường  | Mô tả  |  
 | --- | --- |  
@@ -32,6 +33,7 @@ CopyLưu ý: Với Load Balancer v2.0, người dùng không cần tạo se
 | Description  | Mô tả  |  
 | Protocol  | Chọn giao thức mà Listener nhận request và điều phối  |  
 | Port  | Chọn Port mà Listener điều phối request tới  |  
+
 #### 3. Cấu hình Server pool  
 | Trường  | Mô tả  |  
 | --- | --- |  
@@ -59,6 +61,7 @@ Sau khi hoàn tất khởi tạo, hệ thống sẽ điều hướng ngư
 | Server pool  | Tương tự Load Balancer  | Tương tự Load Balancer  |  
 | Member  | N/A  |  **Healthy** : Member đang khả dụng để nhận request   
 **Unhealthy** : Member không khả dụng  |  
+
 #### 4. Recommended alarm
 Khi khởi tạo LB, hệ thống tự động gợi ý tạo kèm 2 cảnh báo quan trọng nhằm nhận biết quá tải LB trong quá trình sử dụng bao gồm:
   * Cảnh báo số packet/s bị drop khi qua LB vượt ngưỡng an toàn (>50 pps)

@@ -10,6 +10,7 @@ sidebar_position: 37
 
 **Maintenance Window** cho phép khách hàng chủ động thiết lập khung thời gian bảo trì định kỳ cho cụm cơ sở dữ liệu. Trong thời gian này, FPT sẽ thực hiện các hoạt động nâng cấp, vá lỗi và tối ưu hệ thống.
 Tính năng giúp giảm thiểu ảnh hưởng đến hoạt động kinh doanh và nâng cao độ ổn định của dịch vụ.
+
 #### Quy tắc hoạt động:
   * Maintenance Window có chu kỳ hàng tuần.
   * Áp dụng cho từng database cluster riêng biệt.
@@ -19,6 +20,7 @@ Tính năng giúp giảm thiểu ảnh hưởng đến hoạt động kinh doanh
 | Tên quyền  | Loại thao tác  | Mô tả  |  
 | --- | --- | --- |  
 | manageDatabase:Configuration  | Edit  | Quyền thay đổi cấu hình cơ sở dữ liệu (parameter, cấu hình scaling,...)  |  
+
 #### Chức năng chính:
   * Cấu hình ngày và giờ bảo trì định kỳ.
   * Hỗ trợ chỉnh sửa trong quá trình vận hành.

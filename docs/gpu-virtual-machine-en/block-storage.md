@@ -17,12 +17,14 @@ There are two types of Block Storage disks:
 
 To access this service, go to **Main Menu > Compute Engine > Storage disks**. 
 From this page, users can view a list of all Storage Disks created within the VPC, along with key details such as **Name** , **Tags** , **Storage type** , **Storage policy** , **Size** , **Created At** (creation date), and **Attached** (associated virtual machine). 
+
 ### Create Storage Disks
 To create a Storage disk in FPT Cloud, first identify the type of disk you need: 
   * **Root disk** is automatically created along with the virtual machine. References: [Create a GPU VM](../gpu-virtual-machine-en/index.md)
   * **External disk** can be created independently and attached to a virtual machine later. 
 
 You can create an External disk using either of the following methods: 
+
 #### Option 1: Create an External disk from a Virtual machine detail page
 **1. Access the Storage section:**
   * From the main menu, go to **Compute Engine > Instance management**. 
@@ -77,6 +79,7 @@ After detachment, all data on the disk remains intact, and the disk can be reatt
 [![Alt text](/img/migrated/Block-Storage-7-408bd268.png)](/img/migrated/Block-Storage-7-408bd268.png)
 **2.** Review the confirmation popup, then click **Detach** to confirm. 
 [![Alt text](/img/migrated/Block-Storage-8-02444235.png)](/img/migrated/Block-Storage-8-02444235.png)
+
 ### Edit Storage Disks
 You can edit the details of a Storage disk when it is **not attached** to any virtual machine. 
 **1.** Select the Storage disk you want to modify from the list, then click **Actions > Edit**. 
@@ -88,6 +91,7 @@ You can edit the details of a Storage disk when it is **not attached** to any vi
 
 Note: The new size must be greater than the current size — reducing disk size is not supported. 
 [![Alt text](/img/migrated/Block-Storage-10-7f0b7d59.png)](/img/migrated/Block-Storage-10-7f0b7d59.png)
+
 ### Create Volume Snapshots
 **1.** Select the Storage disk you want to back up from the list, then click **Actions > Create volume snapshots**. 
 [![Alt text](/img/migrated/Block-Storage-11-577334e5.png)](/img/migrated/Block-Storage-11-577334e5.png)
@@ -101,6 +105,7 @@ Note:
   * Snapshots are stored in the **Snapshot section** and can be used to create new disks or restore data later. 
 
 [![Alt text](/img/migrated/Block-Storage-12-bdf7bb4f.png)](/img/migrated/Block-Storage-12-bdf7bb4f.png)
+
 ### Delete Storage Disk
 A Storage disk can be automatically or manually deleted depending on its type and attachment status. 
   * **Root disk:** is automatically deleted together with the virtual machine it is attached to. No manual action is required. 

@@ -10,7 +10,9 @@ sidebar_position: 15
 
 Mục đích: Chia sẻ model cho User khác không cùng Tenant 
 Các bước thực hiện: 
+
 Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Share 
+
 Bước 2: Click nút Add để mở màn Add user [![](/img/migrated/Picture27-ce447d74.png)](/img/migrated/Picture27-ce447d74.png) Bước 3: Người dùng nhập các thông tin: 
   * Email (BSS account): Email của người được share có trong FPT ID 
   * Role: có 3 role: manage, operator, user 

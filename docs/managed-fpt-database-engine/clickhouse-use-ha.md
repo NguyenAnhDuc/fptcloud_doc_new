@@ -24,6 +24,7 @@ Replication is only supported for tables in the MergeTree family, which includes
 ### Q2. Is replication applied at the server level or table level?
 **A:**
 Replication works at the table level, not at the server level. This means a single server can host both replicated and non-replicated tables at the same time.
+
 ### Q3. Does replication depend on sharding in ClickHouse?
 **A:**
 No. Replication is independent of sharding. Each shard manages its own replication mechanism separately from other shards.

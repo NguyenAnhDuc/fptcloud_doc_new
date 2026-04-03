@@ -17,6 +17,7 @@ Một số lợi ích có thể được kể ra:
   * **Tăng tốc website:** Các file media sẽ được trình duyệt của enduser load trực tiếp từ DataCenter tốc độ cao của FPT Object Storage. Giảm thời gian tải trang xuống mức tối đa. Các DataCenter của FPT Object Storage được đặt ở TP.Hà Nội và TP.Hồ Chí Minh, đảm bảo tốc độ trong nước luôn được ổn định trong trường hợp internet ra quốc tế bị trục trặc. Tuân thủ các quy định về nội địa hóa dữ liệu theo Nghị Định 53/2022 của Chính Phủ.
 
 Trong phạm vi bài viết này, chúng tôi sẽ giới thiệu tổng quan và hướng dẫn giải pháp Sử dụng FPT Object Storage làm media server dựa trên ví dụ tích hợp FPT S3 vào một website chạy WordPress.
+
 ## Điều kiện tiên quyết
   * Website được build trên nền tảng WordPress.
   * Đang sử dụng dịch vụ FPT Object Storage. 
@@ -43,6 +44,7 @@ Bucket là một đơn vị lưu trữ mang tính logical trên S3. Một bucket
 
 ### B. Tạo tài khoản SubUser và phân quyền sử dụng Bucket cho SubUser này.
 Trong quá trình test hoặc demo, bạn có thể sử dụng cặp key của admin để thực hiện kết nối. Tuy nhiên về lâu dài FPT Cloud không khuyến nghị bạn thực hiện hành động này, sẽ có rất nhiều rủi ro nếu cặp key này bị lộ lọt ra ngoài. Hacker có thể xóa toàn bộ dữ liệu của các bucket trong Object Storage của bạn mà không thể phục hồi lại được. Hãy tạo một SubUser với quyền hạn chế, chỉ có thể tác động đến bucket được chỉ định. Sau đó sử dụng key của SubUser này để cấu hình ở website WordPress.
+
 ### C. Cài đặt và cấu hình Plugin trên website WordPress
 Truy cập vào trang quản trị của website WordPress, sau đó vào mục **Plugin**. Tìm plugin **Media Cloud** và tải về.
 [![file](/img/migrated/image-1692777159058-5ed07e14.png)](/img/migrated/image-1692777159058-5ed07e14.png)

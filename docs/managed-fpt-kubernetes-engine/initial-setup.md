@@ -9,6 +9,7 @@ sidebar_position: 2
 # Initial setup
 
 If this is the first time you use the **FPT Kubernetes Engine** service, first, double-check that you have completed the following steps:
+
 ### 1. Create a FPT Cloud account and log in to the FPT Cloud Portal.
 After that is finished, you can proceed to use the **FPT Kubernetes Engine** service on FPT Cloud.
 To register for an FPT Cloud account, navigate to the [FPT Cloud Portal](https://console.fptcloud.com).
@@ -16,6 +17,7 @@ Then, click on the **Sign Up** button at the bottom of the page and follow the i
 To log in to the FPT Cloud Portal, navigate to the [FPT Cloud Portal](https://console.fptcloud.com).
 Then, enter your email and password and click on the **Sign In** button. After that, choose the correct Tenant, Region, and VPC.
 If you encounter any errors during the process, please do not hesitate to contact our Support department for immediate assistance.
+
 ### 2. Create Subnets with a Static Pool
 The Kubernetes Cluster only operates with **Subnets** that have the **Static Pool** option enabled, so you need to create a Subnet with a Static Pool following these instructions:
 **Step 1** : In the **Networking** section, select the **Subnets** tab.
@@ -30,5 +32,6 @@ The Kubernetes Cluster only operates with **Subnets** that have the **Static Poo
 
 Click **Save** to create a new Subnet. The system will process the request and notify you of the results.
 [![](/img/migrated/3-4d84255a.png)](/img/migrated/3-4d84255a.png)
+
 ### 3. Request activation of the FKE service and allocate resource quotas
 If this is your first time using FPT Cloud, some services may not be enabled for your account. Contact our support team and provide information about your desired configuration. We will allocate the necessary resources, such as RAM + CPU, Storage, Public IP, etc., for you to use the FKE service.

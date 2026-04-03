@@ -9,6 +9,7 @@ sidebar_position: 6
 # Deployment Model
 
 Mục này mô tả các mô hình triển khai database được hỗ trợ trong dịch vụ FPT Database Engine, giúp người dùng lựa chọn kiến trúc phù hợp với yêu cầu về tính sẵn sàng, hiệu năng và chi phí.
+
 ### Mô hình Single Node
 Mô hình Single Node triển khai database trên một node duy nhất, bao gồm đầy đủ tài nguyên compute (vCPU, RAM) và storage. Mô hình này không hỗ trợ failover tự động và phụ thuộc vào trạng thái hoạt động của node.
 Mô hình Single Node phù hợp với:

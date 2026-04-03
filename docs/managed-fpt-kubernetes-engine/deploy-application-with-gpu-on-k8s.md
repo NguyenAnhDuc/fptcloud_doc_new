@@ -29,6 +29,7 @@ Copynvidia-smi mig -lgi
 ```
 
 [![](/img/migrated/59-1-bb3d5068.png)](/img/migrated/59-1-bb3d5068.png)
+
 ### Example of deploying an application with GPU workload:
   * With the strategy set to **single** , the GPU resources are declared as:
 

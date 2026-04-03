@@ -14,13 +14,16 @@ sidebar_position: 3
 
 ## Step 2: Go back to <https://ai.fptcloud.com/> and log in your new account (If you use FPT ID)
 [![file](/img/migrated/Screenshot-2025-07-04-175942-fe345258.png)](/img/migrated/Screenshot-2025-07-04-175942-fe345258.png)
+
 # Step-by-step
 After logging in to the FPT AI Factory portal at ai.fptcloud.com, follow the instructions below: 
+
 ## Step 1: Add credit to account
   1. Navigate to section ACCOUNT and click Billing
   2. Click Add Credit button and enter an amount and payment information to complete. 
 
 Or, you have a voucher from FPT, apply your valid code in Add Voucher section to redeem credits
+
 ## Step 2: Create a container
   1. Select GPU Container in the Side menu. 
   2. Click button **Create New GPU Container** and configure the Container deployment. 

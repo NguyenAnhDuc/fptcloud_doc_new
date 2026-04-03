@@ -41,6 +41,7 @@ CopyLoading safetensors checkpoint shards: 100% Completed [3/3]
 ```
 
 This indicates that all model files have been successfully loaded. 
+
 ### Step 2: Sending a Run request
 After your container is running and the model is downloaded, you can send a run request to test the setup.
   1. Check the available model list.

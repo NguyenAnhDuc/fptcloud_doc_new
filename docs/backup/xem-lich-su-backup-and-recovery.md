@@ -5,6 +5,7 @@ description: "How to view the full operation history for the Backup & Recovery s
 sidebar_label: "View Backup & Recovery History"
 sidebar_position: "6"
 ---
+
 # View Backup & Recovery History
 
 **FPT Portal** allows users to view the complete operation history for the **Backup & Recovery** service, such as creating/deleting **Backup Jobs**, restoring/cloning Restore Points.

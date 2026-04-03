@@ -11,6 +11,7 @@ sidebar_position: 32
 Tài nguyên của cụm cơ sở dữ liệu bao gồm Flavor (CPU – RAM) và dung lượng ổ đĩa dữ liệu (Data Disk Size).
 Chức năng **Quản lý tài nguyên cụm cơ sở dữ liệu** cho phép người dùng theo dõi và điều chỉnh các tài nguyên được cấp cho một cụm cơ sở dữ liệu, bao gồm CPU – RAM (Flavor), dung lượng ổ đĩa dữ liệu, và chính sách lưu trữ (Storage Policy), nhằm đáp ứng yêu cầu về hiệu năng và dung lượng trong quá trình vận hành.
 Các bước thao tác chi tiết được trình bày trong phần hướng dẫn bên dưới.
+
 ### 1. Xem thông tin tài nguyên cơ sở dữ liệu
 Trên thanh menu, chọn **Database Platform** > Chọn menu **All Database** hoặc hoặc chọn menu tương ứng với nhóm cơ sở dữ liệu phù hợp cluster > click vào Cluster ID > chọn tab **Resource** để vào màn hình quản lý tài nguyên cơ sở dữ liệu.
 [![](/img/migrated/view-resource-scaled-5cec940f.png)](/img/migrated/view-resource-scaled-5cec940f.png)

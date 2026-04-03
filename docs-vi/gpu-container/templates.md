@@ -9,6 +9,7 @@ sidebar_position: 11
 # Templates
 
 Templates được dùng để khởi chạy image dưới dạng container và xác định dung lượng ổ đĩa container, volume, đường dẫn volume và cổng cần thiết. Bạn cũng có thể định nghĩa biến môi trường và lệnh khởi động trong template.
+
 ## Templates tích hợp sẵn
 Các template này được duy trì bởi FPT AI Factory. Hiện chúng tôi cung cấp các template tích hợp sẵn:
   1. vLLM v0.8.1

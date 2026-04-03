@@ -1,5 +1,5 @@
 ---
-id: "モデルテスト"
+id: "model-testing"
 title: "Model testing"
 description: "Overview of the model testing feature"
 sidebar_label: "Model testing"

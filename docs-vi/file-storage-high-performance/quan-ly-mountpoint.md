@@ -23,6 +23,7 @@ Trong hệ thống FPT File Storage – High Performance, Mount Point là một 
 | Client (máy chủ)  | Mount dữ liệu từ file storage, hiển thị như ổ đĩa nội bộ.  |  
 | Storage Backend (VAST)  | Hạ tầng lưu trữ.  |  
 | QoS Policy  | Gắn với mount point để giới hạn IOPS, throughput…  |  
+
 ### **Cấu trúc Mount Point**  
 | **Trường**  | **Mô tả**  |  
 | --- | --- |  
@@ -45,6 +46,7 @@ Trong hệ thống FPT File Storage – High Performance, Mount Point là một 
     * **Multi-Path RDMA** : Cho workload lớn, kết nối song song.
 
 * * *
+
 ## **2. Tạo Mount Point**
 ### **Nguyên tắc quan trọng**
   * **Gắn với subnet cụ thể** : Chỉ máy chủ thuộc subnet được gán mới có thể mount.
@@ -54,6 +56,7 @@ Trong hệ thống FPT File Storage – High Performance, Mount Point là một 
   * **NFSv4 yêu cầu full path export** : Mọi thư mục cha trong path cũng phải được export.
 
 > Ví dụ: mount /project-a/team1/data bằng NFSv4 thì /project-a và /project-a/team1 cũng cần export.
+
 ### **Các bước tạo Mount Point trên Unify Portal**
   1. Truy cập tab **MountPoint** , nhấn **Create MountPoint**.
   2. Điền thông tin: 
@@ -73,6 +76,7 @@ Trong hệ thống FPT File Storage – High Performance, Mount Point là một 
   * **Thất bại** : Hiển thị lỗi – cần kiểm tra lại thông tin đã khai báo.
 
 * * *
+
 ## **3. Xóa Mount Point**
 Bạn có thể xoá Mount Point khi không còn sử dụng, nhằm:
   * Thu hồi quyền truy cập.

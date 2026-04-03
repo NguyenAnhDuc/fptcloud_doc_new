@@ -9,8 +9,10 @@ sidebar_position: 8
 # Connect Container
 
 You can connect to your GPU Container using a few different methods, depending on your specific needs, preferences, and the template used to create the container. 
+
 ## HTTP Services
 Connecting to a container using HTTP is convenient, quick, and secure via HTTPS. To connect using the HTTP Service: 
+
 ### Step 1: Once the container is running, navigate to Container Details Page.
 ### Step 2: Find the endpoint, then copy to clipbooard or click to open on browser.
 ### Step 3: Follow the guide that matches your template.  
@@ -29,6 +31,7 @@ Connecting to a container using HTTP is convenient, quick, and secure via HTTPS.
  | Testing your container using Postman (*)  | Testing your container using Postman (*)  |  
 (*) Hugging Face Token: Hugging Face Token in Environment Variable section is required when using Ollama template. If you do not have Hugging Face Token yet, please follow [this guide](https://huggingface.co/docs/hub/en/security-tokens). 
 (*) Testing container by using Postman: Append **/v1/models** to your endpoint, then provide your API_TOKEN in the Authorization. If you're using the vLLM template, also include HUGGING_FACE_HUB_TOKEN in the request parameters to test your container.
+
 ## TCP Ports
 To access your instance via public endpoint, you will need to add TCP ports to the container configuration. When your container is created, you will receive a public domain and an external public port mapping to access your service. An external public port will be randomly selected from the range 30000-40000.
 The format will be DOMAIN:EXTERNAL_PORT -> INTERNAL_PORT. For example: 

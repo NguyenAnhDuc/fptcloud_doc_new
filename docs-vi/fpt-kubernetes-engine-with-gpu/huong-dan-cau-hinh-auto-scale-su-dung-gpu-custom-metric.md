@@ -10,6 +10,7 @@ sidebar_position: 11
 
 Kubernetes hỗ trợ tự động auto scale dựa trên các custom metrics như GPU metrics bằng cách kết hợp với Prometheus. Bài viết này giới thiệu cách để cấu hình Auto Scale cho các ứng dụng sử dụng GPU chạy trên nền tảng FPT Kubernetes Engine.
 [![](/img/migrated/Picture5-1-b79630d5.png)](/img/migrated/Picture5-1-b79630d5.png)
+
 ## Yêu cầu:
   * Cụm Kubernetes có gắn GPU
   * Ứng dụng sử dụng GPU đang ở trạng thái running
@@ -46,6 +47,7 @@ prometheus-kube-prometheus-prometheus.prometheus.svc.cluster.local
   * Sau đó ta kiểm tra trạng thái của hai gói trên
 
 [![](/img/migrated/anh4-28b01e4f.png)](/img/migrated/anh4-28b01e4f.png)
+
 ### Bước 2: Cấu hình Horizontal Pod Autoscaler cho ứng dụng GPU
 Horizontal Pod Autoscaler (HPA) tự động scale các Pod để đáp ứng điều kiện được đưa ra trong cấu hình. Ở phần trên khi cấu hình xong prometheus-addapter sẽ export ra các Custom Metric của DCGM để theo dõi workload của GPU.
 Ví dụ một file manifest HPA

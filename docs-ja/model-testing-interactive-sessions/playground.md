@@ -11,6 +11,7 @@ sidebar_position: "14"
 **Playground** is space where users can interact with AI models in a chat-like format. It’s designed for testing messages, evaluating model responses, and adjusting model behavior.
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/05/Playground-Interactive-Session-1.png)](https://fptcloud.com/wp-content/uploads/2025/05/Playground-Interactive-Session-1.png)
 You can follow guide to evaluate your model:
+
 ### Step 1: Adjust parameters
 Parameters include:  
 | Name  | Description  | Type  | Supported value  |  
@@ -27,6 +28,7 @@ We recommend you adjust parameters based on each purpose:
 | Summarization  | 0.2–0.5  |   | 150–300  | 0.3–0.6  |  
 | Code generation  | 0.1–0.4  | "n" or "#"  |   | 0.3–0.6  |  
 | Conversational agent  | 0.7–1.0  |   | 200–600  | 0.8–1.0  |  
+
 ### Step 2: Start chatting
 The Playground interface is structured around **Completions** , which include:  
 | Prompts  | Description  |  
@@ -37,6 +39,7 @@ The Playground interface is structured around **Completions** , which include:
 | User messages  | Represent the input or query from you. You can type text to test LLM models or add to upload an image to test VLM models.  |  
 | Assistant responses  | The AI model’s reply is based on user messages and system messages.  |  
 You can interact with the model in real time, observe how it responds, and iterate based on your goals.
+
 ### Step 3: Refine your prompts
 To improve or explore different behaviors:
   * Modify the **system message** to change the assistant’s personality or tone.

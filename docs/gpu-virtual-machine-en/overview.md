@@ -11,6 +11,7 @@ sidebar_position: 2
 ### What is GPU Virtual Machine?
 **GPU Virtual Machine (GPU VM)** enables you to **deploy and manage high-performance GPU servers** with ease. **GPU VM uses a passthrough GPU to get a dedicated GPU** , applications access it through the layers of a guest OS and hypervisor. Other critical VM resources that applications use, such as RAM, storage, and networking, are also virtualized.
 We currently offer two types of virtual machines (VMs), each with a different storage option.
+
 ### GPU VM Type  
 | **GPU VM Type**  | **Storage Type**  | **Key Features of Storage**  |  
 | --- | --- | --- |  
@@ -30,6 +31,7 @@ We currently offer two types of virtual machines (VMs), each with a different st
 - Supports automated backup & restore   
   
 - Storage is billed separately from GPU instance cost  |  
+
 ### How Does It Work?
 A GPU VM works like a powerful cloud-based computer with a dedicated GPU for intensive workloads. You can:
   * **Easily deploy a GPU VM** with the latest GPU generations in minutes through the FPT Cloud Portal. 

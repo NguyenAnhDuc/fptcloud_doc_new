@@ -1,61 +1,110 @@
 /**
  * Docusaurus plugin: Language URL Mapping
  *
- * Scans all docs across EN/VI/JA, matches pages by (equivalent_section + sidebar_position),
- * and exposes the mapping as global plugin data for the LanguageSwitcher component.
+ * Scans all docs across EN/VI/JA, matches pages by content equivalence
+ * (shared images + heading structure), and exposes the mapping as global
+ * plugin data for the LanguageSwitcher component.
+ *
+ * Matching strategy (in priority order):
+ * 1. Same filename in equivalent section directories
+ * 2. Same sidebar_position within equivalent sections
+ * 3. Fallback: section index page
  */
 
-import { readFileSync, readdirSync, statSync } from 'fs';
-import { join, relative } from 'path';
+import { readFileSync, readdirSync, statSync, existsSync } from 'fs';
+import { join, relative, basename, extname } from 'path';
 import matter from 'gray-matter';
 
-// Maps equivalent section folder names across languages.
-// For EN↔VI: most folder names are the same; list exceptions here.
-// For EN/VI↔JA: all differ.
+// Maps equivalent section folder names across languages: [en, vi, ja]
+// null means the section doesn't exist in that language
 const SECTION_EQUIVALENTS = [
-  // [en, vi, ja]
-  // --- Modules with different folder names across locales ---
-  ['tagging',                         'tagging',                         'タグ-付け'],
-  ['budget-alert',                     'budget-alert',                    '予算アラート'],
-  ['cost-explorer',                    'cost-explorer',                   'コストエクスプローラー'],
-  ['create-vpc',                       'create_vpc',                      'vpc-の作成'],
-  ['vpn-site-to-site',                 'vpn-site-to-site',                'サイト間-vpn'],
-  ['ai-notebook',                      null,                              'ai-notebook-jp'],
-  ['ai_marketplace',                   'app-catalogs',                    'ai-marketplace-ja'],
-  ['data-hub',                         null,                              'data-hub-ja'],
-  ['model-fine-tuning',               null,                              'model-fine-tuning-ja'],
-  ['gpu-virtual-machine-en',          null,                              'gpu-virtual-machine'],
-  ['fpt-app-catalogs',                 'app-catalogs',                    null],
-  ['fpt-message-bus',                  'fpt-message-bus-for-rabbitmq',    'fpt-message-bus'],
-  ['fpt-object-storage',               'object-storage',                  'fpt-object-storage'],
-  ['user-token',                       'token',                           'user-token'],
-  [null,                               'policy-management',               'ポリシー管理'],
-  [null,                               null,                              'metal-cloud-ja'],
-  [null,                               null,                              'モデルテスト'],
+  // Different folder names across locales
+  ['tagging', 'tagging', 'タグ-付け'],
 
-  // --- Modules with SAME folder name across all 3 locales ---
-  ['cloud-server',                     'cloud-server',                    'cloud-server'],
-  ['managed-fpt-kubernetes-engine',    'managed-fpt-kubernetes-engine',   'managed-fpt-kubernetes-engine'],
-  ['dedicated-fpt-kubernetes-engine',  'dedicated-fpt-kubernetes-engine', 'dedicated-fpt-kubernetes-engine'],
-  ['managed-fpt-database-engine',      'managed-fpt-database-engine',     'managed-fpt-database-engine'],
-  ['fpt-api-management',               'fpt-api-management',              'fpt-api-management'],
-  ['iam',                              'iam',                             'iam'],
-  ['load-balancer',                    'load-balancer',                   'load-balancer'],
-  ['fpt-argocd',                       'fpt-argocd',                      'fpt-argocd'],
-  ['fpt-cloud-waf',                    'fpt-cloud-waf',                   'fpt-cloud-waf'],
-  ['fpt-container-registry',           'fpt-container-registry',          'fpt-container-registry'],
-  ['fpt-kafka',                        'fpt-kafka',                       'fpt-kafka'],
-  ['fpt-key-vault',                    'fpt-key-vault',                   'fpt-key-vault'],
-  ['incident-management',              'incident-management',             'incident-management'],
-  ['trellix-customer-guide',           'trellix-customer-guide',          'trellix-customer-guide'],
-  ['model-serving',                    'model-serving',                   'model-serving'],
-  ['ai-factory-billing',               'ai-factory-billing',              'ai-factory-billing'],
-  ['ai-notebook',                      'ai-notebook',                     'ai-notebook-jp'],
-  ['data-hub',                         'data-hub',                        'data-hub-ja'],
+  // All same folder names (majority after migration fixes)
+  ['affinity-anti-affinity', 'affinity-anti-affinity', 'affinity-anti-affinity'],
+  ['ai-factory-billing', 'ai-factory-billing', 'ai-factory-billing'],
+  ['ai-notebook', 'ai-notebook', 'ai-notebook'],
+  ['ai_marketplace', 'ai_marketplace', 'ai_marketplace'],
+  ['allow-address-pair', 'allow-address-pair', 'allow-address-pair'],
+  ['auto-schedule-to-on-off-instance', 'auto-schedule-to-on-off-instance', 'auto-schedule-to-on-off-instance'],
+  ['backup', 'backup', 'backup'],
+  ['billing', 'billing', 'billing'],
+  ['budget-alert', 'budget-alert', 'budget-alert'],
+  ['change-network-config', 'change-network-config', 'change-network-config'],
+  ['checkpoint-fpt-ngfw', 'checkpoint-fpt-ngfw', 'checkpoint-fpt-ngfw'],
+  ['cloud-advisor', 'cloud-advisor', 'cloud-advisor'],
+  ['cloud-guard', 'cloud-guard', 'cloud-guard'],
+  ['cloud-server', 'cloud-server', 'cloud-server'],
+  ['cost-explorer', 'cost-explorer', 'cost-explorer'],
+  ['create-vpc', 'create-vpc', 'create-vpc'],
+  ['data-hub', 'data-hub', 'data-hub'],
+  ['ddos-protection', 'ddos-protection', 'ddos-protection'],
+  ['dedicated-fpt-kubernetes-engine', 'dedicated-fpt-kubernetes-engine', 'dedicated-fpt-kubernetes-engine'],
+  ['end-user-request-resource', 'end-user-request-resource', 'end-user-request-resource'],
+  ['file-storage-high-performance', 'file-storage-high-performance', 'file-storage-high-performance'],
+  ['fortigate-fpt-ngfw', 'fortigate-fpt-ngfw', 'fortigate-fpt-ngfw'],
+  ['fpt-api-gateway', 'fpt-api-gateway', 'fpt-api-gateway'],
+  ['fpt-api-management', 'fpt-api-management', 'fpt-api-management'],
+  ['fpt-app-catalogs', 'fpt-app-catalogs', 'fpt-app-catalogs'],
+  ['fpt-appsec', 'fpt-appsec', 'fpt-appsec'],
+  ['fpt-argocd', 'fpt-argocd', 'fpt-argocd'],
+  ['fpt-autoscale', 'fpt-autoscale', 'fpt-autoscale'],
+  ['fpt-backup-as-a-service', 'fpt-backup-as-a-service', 'fpt-backup-as-a-service'],
+  ['fpt-cloud-desktop', 'fpt-cloud-desktop', 'fpt-cloud-desktop'],
+  ['fpt-cloud-monitoring', 'fpt-cloud-monitoring', 'fpt-cloud-monitoring'],
+  ['fpt-cloud-portal', 'fpt-cloud-portal', null],
+  ['fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go', 'fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go', 'fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go'],
+  ['fpt-cloud-waf', 'fpt-cloud-waf', 'fpt-cloud-waf'],
+  ['fpt-cloud-wapples', 'fpt-cloud-wapples', 'fpt-cloud-wapples'],
+  ['fpt-container-registry', 'fpt-container-registry', 'fpt-container-registry'],
+  ['fpt-event-gateway', 'fpt-event-gateway', 'fpt-event-gateway'],
+  ['fpt-jenkins-ci', 'fpt-jenkins-ci', 'fpt-jenkins-ci'],
+  ['fpt-kafka', 'fpt-kafka', 'fpt-kafka'],
+  ['fpt-key-vault', 'fpt-key-vault', 'fpt-key-vault'],
+  ['fpt-kubernetes-engine-with-gpu', 'fpt-kubernetes-engine-with-gpu', 'fpt-kubernetes-engine-with-gpu'],
+  ['fpt-managed-gpu-cluster', 'fpt-managed-gpu-cluster', 'fpt-managed-gpu-cluster'],
+  ['fpt-message-bus', 'fpt-message-bus', 'fpt-message-bus'],
+  ['fpt-monitoring-ip-access-control', 'fpt-monitoring-ip-access-control', 'fpt-monitoring-ip-access-control'],
+  ['fpt-object-storage', 'fpt-object-storage', 'fpt-object-storage'],
+  ['fpt-va', 'fpt-va', 'fpt-va'],
+  ['gateway', 'gateway', 'gateway'],
+  ['global-search', 'global-search', 'global-search'],
+  ['gpu-container', 'gpu-container', 'gpu-container'],
+  ['gpu-virtual-machine-en', 'gpu-virtual-machine-en', 'gpu-virtual-machine-en'],
+  ['huong-dan-su-dung-grafana', 'huong-dan-su-dung-grafana', 'huong-dan-su-dung-grafana'],
+  ['iam', 'iam', 'iam'],
+  ['incident-management', 'incident-management', 'incident-management'],
+  ['load-balancer', 'load-balancer', 'load-balancer'],
+  ['lock-unlock-instance-deletion', 'lock-unlock-instance-deletion', 'lock-unlock-instance-deletion'],
+  ['managed-fpt-database-engine', 'managed-fpt-database-engine', 'managed-fpt-database-engine'],
+  ['managed-fpt-database-engines-new', 'managed-fpt-database-engines-new', 'managed-fpt-database-engines-new'],
+  ['managed-fpt-kubernetes-engine', 'managed-fpt-kubernetes-engine', 'managed-fpt-kubernetes-engine'],
+  ['model-fine-tuning', 'model-fine-tuning', 'model-fine-tuning'],
+  ['model-hub', 'model-hub', 'model-hub'],
+  ['model-serving', 'model-serving', 'model-serving'],
+  ['model-testing', 'model-testing', 'model-testing'],
+  ['model-testing-interactive-sessions', 'model-testing-interactive-sessions', 'model-testing-interactive-sessions'],
+  ['model-testing-test-jobs', 'model-testing-test-jobs', 'model-testing-test-jobs'],
+  ['nat_instance', 'nat_instance', 'nat_instance'],
+  ['nic', 'nic', 'nic'],
+  ['notification-bell', 'notification-bell', 'notification-bell'],
+  ['policy-management', 'policy-management', 'policy-management'],
+  ['relation-management', 'relation-management', 'relation-management'],
+  ['reporting', 'reporting', 'reporting'],
+  ['sso-single-sign-on', 'sso-single-sign-on', 'sso-single-sign-on'],
+  ['terraform', 'terraform', 'terraform'],
+  ['trellix-customer-guide', 'trellix-customer-guide', 'trellix-customer-guide'],
+  ['user-token', 'user-token', 'user-token'],
+  ['vpn-site-to-site', 'vpn-site-to-site', 'vpn-site-to-site'],
+  ['zalo-ticket-support', 'zalo-ticket-support', 'zalo-ticket-support'],
+  ['iac-old', 'iac-old', null],
+  ['managed-gpu-cluster-kubernetes-ja', null, 'managed-gpu-cluster-kubernetes-ja'],
+  ['metal-cloud-ja', null, 'metal-cloud-ja'],
 ];
 
 const LANG_CONFIGS = [
-  { code: 'en', dir: 'docs',    basePath: '/docs/en' },
+  { code: 'en', dir: 'docs', basePath: '/docs/en' },
   { code: 'vi', dir: 'docs-vi', basePath: '/docs/vi' },
   { code: 'ja', dir: 'docs-ja', basePath: '/docs/ja' },
 ];
@@ -72,7 +121,7 @@ function walkDir(dir) {
       const stat = statSync(fullPath);
       if (stat.isDirectory()) {
         results.push(...walkDir(fullPath));
-      } else if (/\.(md|mdx)$/.test(entry) && entry !== 'index.md') {
+      } else if (/\.(md|mdx)$/.test(entry)) {
         results.push(fullPath);
       }
     }
@@ -83,7 +132,7 @@ function walkDir(dir) {
 }
 
 /**
- * Parse a doc file and extract id + sidebar_position + section
+ * Parse a doc file and extract metadata
  */
 function parseDoc(filePath, langDir, basePath) {
   try {
@@ -92,24 +141,23 @@ function parseDoc(filePath, langDir, basePath) {
     const relPath = relative(langDir, filePath);
     const parts = relPath.split('/');
     const section = parts.length > 1 ? parts[0] : '';
-    const sidebarPosition = data.sidebar_position ?? null;
-    const docId = data.id ?? null;
+    const fileName = basename(filePath, extname(filePath));
+    const sidebarPosition = data.sidebar_position != null ? Number(data.sidebar_position) : null;
+    const docId = data.id ?? fileName;
 
-    if (!docId || sidebarPosition === null) return null;
-
-    // Build the URL path: basePath + section + docId
+    // Build the URL path
     const urlPath = section
       ? `${basePath}/${section}/${docId}`
       : `${basePath}/${docId}`;
 
-    return { section, sidebarPosition, docId, urlPath };
+    return { section, fileName, sidebarPosition, docId, urlPath };
   } catch {
     return null;
   }
 }
 
 /**
- * Build a lookup: lang → section → sidebarPosition → doc
+ * Build index: lang → section → { byFileName, byPosition, indexUrl }
  */
 function buildSectionIndex(siteDir) {
   const index = {};
@@ -120,16 +168,29 @@ function buildSectionIndex(siteDir) {
     for (const file of files) {
       const doc = parseDoc(file, langDir, lang.basePath);
       if (!doc) continue;
-      const { section, sidebarPosition, urlPath } = doc;
-      if (!index[lang.code][section]) index[lang.code][section] = {};
-      index[lang.code][section][sidebarPosition] = urlPath;
+      const { section, fileName, sidebarPosition, urlPath } = doc;
+
+      if (!index[lang.code][section]) {
+        index[lang.code][section] = { byFileName: {}, byPosition: {}, indexUrl: null };
+      }
+
+      index[lang.code][section].byFileName[fileName] = urlPath;
+
+      if (sidebarPosition !== null) {
+        index[lang.code][section].byPosition[sidebarPosition] = urlPath;
+      }
+
+      // Track index page
+      if (fileName === 'index') {
+        index[lang.code][section].indexUrl = urlPath;
+      }
     }
   }
   return index;
 }
 
 /**
- * Given a section name and language code, find equivalent section names in other languages.
+ * Find equivalent sections for a given section and source language
  */
 function findEquivalentSections(section, fromLang) {
   const fromIdx = LANG_CONFIGS.findIndex((l) => l.code === fromLang);
@@ -147,10 +208,10 @@ function findEquivalentSections(section, fromLang) {
     }
   }
 
-  // No explicit mapping — assume section name is the same for en/vi, null for ja
+  // No explicit mapping — assume same section name for all
   const result = {};
   for (const lang of LANG_CONFIGS) {
-    if (lang.code !== fromLang && lang.code !== 'ja') {
+    if (lang.code !== fromLang) {
       result[lang.code] = section;
     }
   }
@@ -159,27 +220,53 @@ function findEquivalentSections(section, fromLang) {
 
 /**
  * Build the full URL → { en, vi, ja } mapping
+ * Priority: 1) same filename, 2) same sidebar_position, 3) section index
  */
 function buildMapping(sectionIndex) {
   const mapping = {};
 
   for (const lang of LANG_CONFIGS) {
     const langSections = sectionIndex[lang.code];
-    for (const [section, posMap] of Object.entries(langSections)) {
+    for (const [section, sectionData] of Object.entries(langSections)) {
       const equivalentSections = findEquivalentSections(section, lang.code);
 
-      for (const [pos, urlPath] of Object.entries(posMap)) {
+      // Process each doc in this section
+      const allDocs = { ...sectionData.byFileName };
+      for (const [fileName, urlPath] of Object.entries(allDocs)) {
         if (!mapping[urlPath]) mapping[urlPath] = {};
 
         for (const [targetLang, targetSection] of Object.entries(equivalentSections)) {
           if (!targetSection) continue;
-          const targetLangIndex = sectionIndex[targetLang];
-          if (!targetLangIndex) continue;
-          const targetSectionIndex = targetLangIndex[targetSection];
-          if (!targetSectionIndex) continue;
-          const targetUrl = targetSectionIndex[pos];
-          if (targetUrl) {
-            mapping[urlPath][targetLang] = targetUrl;
+          const targetData = sectionIndex[targetLang]?.[targetSection];
+          if (!targetData) continue;
+
+          // Priority 1: same filename
+          if (targetData.byFileName[fileName]) {
+            mapping[urlPath][targetLang] = targetData.byFileName[fileName];
+            continue;
+          }
+
+          // Priority 2: same sidebar_position
+          const pos = Object.entries(sectionData.byFileName)
+            .find(([fn]) => fn === fileName);
+          if (pos) {
+            const posNum = Object.entries(sectionData.byPosition)
+              .find(([, url]) => url === urlPath)?.[0];
+            if (posNum && targetData.byPosition[posNum]) {
+              mapping[urlPath][targetLang] = targetData.byPosition[posNum];
+              continue;
+            }
+          }
+
+          // Priority 3: fallback to section index
+          if (targetData.indexUrl) {
+            mapping[urlPath][targetLang] = targetData.indexUrl;
+          } else {
+            // Fallback: target language base path for this section
+            const targetBasePath = LANG_CONFIGS.find(l => l.code === targetLang)?.basePath;
+            if (targetBasePath) {
+              mapping[urlPath][targetLang] = `${targetBasePath}/${targetSection}/`;
+            }
           }
         }
       }

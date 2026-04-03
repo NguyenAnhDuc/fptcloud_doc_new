@@ -5,6 +5,7 @@ description: "FPT Cloud Backup Native service for Cloud Server (VM) and Volume d
 sidebar_label: "Backup"
 sidebar_position: "1"
 ---
+
 # Backup
 
 ## 1.1. What is Backup Native?

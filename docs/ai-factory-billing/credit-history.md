@@ -9,6 +9,7 @@ sidebar_position: 6
 # Credit history
 
 The **Credit History** tab lets you track all **balance changes** , including **top-ups, voucher credits, and service usage.** [![Alt text](/img/migrated/image2025-6-30_14-3-28-f7bf8b4c.png)](/img/migrated/image2025-6-30_14-3-28-f7bf8b4c.png) [![Alt text](/img/migrated/image2025-6-30_14-4-25-da425d96.png)](/img/migrated/image2025-6-30_14-4-25-da425d96.png)
+
 ## Table Fields Explanation  
 | Field  | Description  |  
 | --- | --- |  
@@ -31,6 +32,7 @@ Voucher code applied to the transaction.  |
 | **Amount**  | Credit change:  
 • A **positive amount (+)** indicates credits added  
 • A **negative amount (-)** indicates credits deducted (service usage or failed reversals).  |  
+
 ## Table Filter
 Filter allows users to apply multiple filters at the same time to quickly find specific transactions.
   * **Balance Type:**

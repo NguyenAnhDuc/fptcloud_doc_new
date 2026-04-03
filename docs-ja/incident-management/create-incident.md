@@ -9,6 +9,7 @@ sidebar_position: 15
 # Create Incident
 
 You can create a new incident in two ways, either directly from the system through the **Declare Incident** feature, or via an **Incoming Webhook**.
+
 ### Declare Incident
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Declare Incident**
@@ -20,6 +21,7 @@ You can create a new incident in two ways, either directly from the system throu
 
 **Step 4** : Click **Declare incident**
 [![](/img/migrated/Screenshot_15-c7ec0f86.png)](/img/migrated/Screenshot_15-c7ec0f86.png)
+
 ### Incoming Webhook
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Integration**

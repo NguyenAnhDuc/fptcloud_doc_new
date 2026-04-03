@@ -13,6 +13,7 @@ pagination_next: null
 **1. What is GPU Virtual Machine?**
 GPU Virtual Machine or **GPU VM** is an isolated system with its own dedicated **GPU, CPU, memory, network interface, and storage** , created from a **GPU Cluster** of hardware resources. 
 It provides a wide range of **pre-configured virtual machines** designed to align with your workload requirements, offering flexible options from **1 to 8 GPUs per VM**. 
+
 ### Features
 **2. Can I resize a GPU instance (CPU, RAM, or Disk)?**
   * **With Block Storage – Ephemeral Disk (NVMe):**  

@@ -27,7 +27,9 @@ Cấu hình điều kiện cảnh báo (Configure condition) như sau:
 | 3  | Threshold  | Chọn ngưỡng cảnh báo, khi hệ thống phát hiện vượt ngưỡng theo điều kiện sẽ bắn cảnh báo  |  
 | 4  | Alert interval  | Chọn thời gian lặp lại tính toán của hệ thống (nhỏ nhất là 3 phút)  |  
 | 5  | Repeat time  | Chọn thời gian lặp lại cảnh báo nếu chỉ số duy trì vượt ngưỡng  |  
+
 #### Bước 2: Tạo người nhận cảnh báo mức VPC
 Nếu chưa có người nhận cho cảnh báo VPN, nhấn Create recipient here để tạo mới người nhận mức VPC như sau: [![file](/img/migrated/image-1722328406388-fa58b299.png)](/img/migrated/image-1722328406388-fa58b299.png)
+
 #### Bước 3: Quay trở lại màn tạo Alert, chọn người nhận mới tạo và nhấn Create
 [![file](/img/migrated/image-1722329874375-73b8678d.png)](/img/migrated/image-1722329874375-73b8678d.png) Alert đã tạo thành công hiển thị tại màn danh sách, khi điều kiện vượt ngưỡng hoặc trở về mức an toàn hệ thống sẽ tự động bắn cảnh báo cho người nhận qua phương thức cảnh báo đã chọn.

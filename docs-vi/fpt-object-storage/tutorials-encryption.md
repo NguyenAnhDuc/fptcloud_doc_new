@@ -11,6 +11,7 @@ pagination_next: null
 
 ## Server-Side Encryption with Customer-Provided Keys (SSE-C)
 **Server-Side Encryption with Customer-Provided Keys (SSE-C)** là một tính năng trong **FPT Object Storage** giúp tăng cường bảo mật dữ liệu của bạn bằng cách sử dụng các khóa mã hóa do khách hàng cung cấp. Dưới đây là cách hoạt động và các điểm quan trọng của tính năng này:
+
 ### Cách Hoạt Động Của SSE-C
   1. **Tải lên Dữ liệu:**
      * Khi bạn tải lên một object, bạn cần cung cấp khóa mã hóa cùng với dữ liệu.

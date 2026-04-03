@@ -10,6 +10,7 @@ sidebar_position: 21
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp FPT Container Registry (FCR)
 _Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
+
 ## Integrate FCR - Add VPC
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào **FPT Container Registry** để đến màn tích hợp:
 [![anhfsec](/img/migrated/fcr1-2-c3f2a38c.png)](/img/migrated/fcr1-2-c3f2a38c.png)
@@ -29,6 +30,7 @@ Trường hợp các thông tin không hợp lệ (sai Robot Account, secret), h
 [![anhfsec](/img/migrated/infcr8-c753c69c.png)](/img/migrated/infcr8-c753c69c.png)
 VPC được kết nối thành công sẽ được thêm vào danh sách **Integrated VPCs**
 [![anhfsec](/img/migrated/infcr9-c2ef4bc4.png)](/img/migrated/infcr9-c2ef4bc4.png)
+
 ## Xem detail
 Chỉ **Org Admin** và **Team Manager** có quyền xem chi tiết tích hợp
 Sau khi đã chọn org/team, nhấn vào **Configured FPT Container Registry** để xem chi tiết
@@ -37,17 +39,21 @@ Sau khi đã chọn org/team, nhấn vào **Configured FPT Container Registry** 
 [![anhfsec](/img/migrated/infcr9-c2ef4bc4.png)](/img/migrated/infcr9-c2ef4bc4.png)
 Bạn có thể tiến hành **Add VPC** , **Reconfigure** , và **Delete** VPCs hoặc **Disable** tích hợp với FPT Container Registry
 [anhfsec](/img/migrated/fcr1-2-c3f2a38c.png)
+
 ## Reconfigure FPT Container Registry VPC
 **Bước 1** : Để **reconfigure** FPT Container Registry VPC, ấn vào màn hình chi tiết của tích hợp FPT Container Registry. Chọn **Reconfigure** ở mục Action của 1 VPC
 [![anhfsec](/img/migrated/lala4-fe8e1ce9.png)](/img/migrated/lala4-fe8e1ce9.png)
 **Bước 2** : Thực hiện các thao tác giống **Add VPC**
+
 ## Xóa VPC
 **Bước 1** : Chọn **Delete** ở mục Action của 1 VPC
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/rfcr2.png)
 **Bước 2** : Điền _delete_ rồi nhấn **Confirm**
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/rfcr3.png)
+
 ## Vô hiệu hoá tích hợp FPT Container Registry
 Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
+
 ## Access Key cho CI/CD pipeline
 Ở phần detail, ngoài General Information, bạn sẽ được cung cấp **access key** của từng VPC để có thể tích hợp CI/CD Pipeline
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/rfcr4.png)

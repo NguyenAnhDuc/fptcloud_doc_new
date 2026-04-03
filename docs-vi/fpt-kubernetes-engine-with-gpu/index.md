@@ -69,5 +69,6 @@ Trên region Hanoi 2 và Japan, FPT Cloud hiện tại đang hỗ trợ Kubernet
 👉 Nếu chọn cấu hình strategy single: all-1g.10gb, card GPU H100 trên worker được chia nhỏ thành 7 mig-devices có tài nguyên gpu logic (bằng 1⁄7 GPU vật lý) và 10GB GPU RAM.
 **_Chú ý:_**
 MIG config áp dụng cho tất cả các card gắn trên worker. MIG strategy trên các worker group của cùng cluster phải cùng 1 loại (single/mixed/none).
+
 ##  Trang chủ 
 01Hướng dẫn sử dụng

@@ -9,6 +9,7 @@ sidebar_position: 11
 # Templates
 
 Templates are used to launch images as containers and define the required container disk size, volume, volume paths, and ports needed. You can also define environment variables and startup commands within the template. 
+
 ## Built-in Templates
 These templates are maintained by FPT AI Factory. We now offer built-in templates: 
   1. vLLM v0.8.1 
@@ -162,6 +163,7 @@ These templates are maintained by FPT AI Factory. We now offer built-in template
 | Type  | Port  |  
 | --- | --- |  
 | TCP  | 22  |  
+
 ## Custom Templates
 You can use your own **Docker image** by clicking **"Custom Template"** and overriding your own image:tag. If your image is from a private Docker repository, make sure to provide your username and password for authentication. 
 [![Alt text](/img/migrated/Screenshot-2025-06-19-154727-8b486ae9.png)](/img/migrated/Screenshot-2025-06-19-154727-8b486ae9.png)

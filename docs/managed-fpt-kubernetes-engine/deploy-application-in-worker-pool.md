@@ -9,6 +9,7 @@ sidebar_position: 17
 # Deploy application in worker pool
 
 The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applications without worrying about resource scaling issues.
+
 ### The manifest file configuration for application deployment
 For example, deploying an application on a cluster with 02 worker pools:
 [![](/img/migrated/38-1-6efb9b88.png)](/img/migrated/38-1-6efb9b88.png)
@@ -23,6 +24,7 @@ When using resources to deploy applications in Kubernetes (Pod, Deployment, Stat
 [![](/img/migrated/42-1-57d47fd0.png)](/img/migrated/42-1-57d47fd0.png)
 [![](/img/migrated/43-1-21ff93a1.png)](/img/migrated/43-1-21ff93a1.png)
 In this case, the value entered in the first image's **values** section (using **Node Affinity Rule**) and the value in the **nodeSelector** section is the name of the worker pool that the user wants to deploy the application to.
+
 ### Application Deployment:
 When deploying the NGINX application using the manifest file:
 [![](/img/migrated/44-1-ee17e782.png)](/img/migrated/44-1-ee17e782.png)

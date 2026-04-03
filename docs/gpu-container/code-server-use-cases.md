@@ -10,9 +10,11 @@ sidebar_position: 22
 
 ## Finetune BERT on GLUE MRPC using Code Server
 This guide will walk you through fine-tuning a pre-trained BERT model on the GLUE MRPC task using a GPU-enabled Code Server container.
+
 ### Step 1: Create a GPU Container
 Create a container using Code Server template. ![Alt text](/img/migrated/finetune1-e657c84d.png) ![Alt text](/img/migrated/finetune2-d33efc2b.png) ![Alt text](/img/migrated/finetune3-4eda41e9.png)
 Access to container via HTTP endpoint, the Code Server container will ask for the password, please use the password generated in container details to connect. ![Alt text](/img/migrated/finetune4-899580d1.png)
+
 ### Step 2: Install python3, pip
 
 ```
@@ -62,6 +64,7 @@ python3 run_glue.py
 ```
 
 ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.25-1f76ec48.png) ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.34-c190efa5.png)
+
 ### Step 7: Test model
 Create a file contains test script called test.py
 

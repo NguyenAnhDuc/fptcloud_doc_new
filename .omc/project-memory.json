@@ -189,8 +189,32 @@
   "hotPaths": [
     {
       "path": "scripts/crawl_menu.py",
-      "accessCount": 6,
-      "lastAccessed": 1775191114573,
+      "accessCount": 10,
+      "lastAccessed": 1775196089766,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1775202373002,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/definition.md",
+      "accessCount": 2,
+      "lastAccessed": 1775202373471,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fix-sidebar-labels.js",
+      "accessCount": 2,
+      "lastAccessed": 1775204023183,
+      "type": "file"
+    },
+    {
+      "path": "src/docusaurus/langMappingPlugin.js",
+      "accessCount": 2,
+      "lastAccessed": 1775211244540,
       "type": "file"
     },
     {
@@ -209,6 +233,150 @@
       "path": "scripts/menu-tree.csv",
       "accessCount": 1,
       "lastAccessed": 1775191401705,
+      "type": "file"
+    },
+    {
+      "path": "sidebars-vi.js",
+      "accessCount": 1,
+      "lastAccessed": 1775200142051,
+      "type": "directory"
+    },
+    {
+      "path": "sidebars.js",
+      "accessCount": 1,
+      "lastAccessed": 1775200143044,
+      "type": "directory"
+    },
+    {
+      "path": "docs/ai-factory-billing/credit-history.md",
+      "accessCount": 1,
+      "lastAccessed": 1775200231734,
+      "type": "file"
+    },
+    {
+      "path": "docs/ai-factory-billing/overview.md",
+      "accessCount": 1,
+      "lastAccessed": 1775200231954,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/managed-fpt-database-engine/Initial-setup.md",
+      "accessCount": 1,
+      "lastAccessed": 1775200232386,
+      "type": "file"
+    },
+    {
+      "path": "docs-ja/モデルテスト/test-models-response.md",
+      "accessCount": 1,
+      "lastAccessed": 1775200235025,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fix-formatting.js",
+      "accessCount": 1,
+      "lastAccessed": 1775200423714,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/completion-history.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202329159,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/create-an-interactive-session.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202329610,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/key-features.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202330234,
+      "type": "file"
+    },
+    {
+      "path": "docs/モデルテスト/test-models-response.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202330433,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/completion-history.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202333028,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/how-to-create-session.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202333250,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202333426,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/how-to-evaluate-model.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202335939,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/overview.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202335992,
+      "type": "file"
+    },
+    {
+      "path": "docs-vi/モデルテスト/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202373415,
+      "type": "file"
+    },
+    {
+      "path": "docs-ja/モデルテスト/definition.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202532125,
+      "type": "file"
+    },
+    {
+      "path": "docs-ja/モデルテスト/index.md",
+      "accessCount": 1,
+      "lastAccessed": 1775202542037,
+      "type": "file"
+    },
+    {
+      "path": "scripts/check-sidebar-consistency.js",
+      "accessCount": 1,
+      "lastAccessed": 1775204727653,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fix-remaining-labels.js",
+      "accessCount": 1,
+      "lastAccessed": 1775204828446,
+      "type": "file"
+    },
+    {
+      "path": "scripts/flatten-single-child-categories.js",
+      "accessCount": 1,
+      "lastAccessed": 1775210264575,
+      "type": "file"
+    },
+    {
+      "path": "scripts/check-language-switch.js",
+      "accessCount": 1,
+      "lastAccessed": 1775210877007,
+      "type": "file"
+    },
+    {
+      "path": "src/components/LanguageSwitcher/index.js",
+      "accessCount": 1,
+      "lastAccessed": 1775211173660,
       "type": "file"
     }
   ],

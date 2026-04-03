@@ -33,6 +33,7 @@ ZIP
 PARQUET  | Limit 100MB  |  
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Data-format.png)](https://fptcloud.com/wp-content/uploads/2025/02/Data-format.png)
 We currently support data formats for fine-tuning include:
+
 ### a/ Alpaca
 **Alpaca** uses a very simple structure to fine-tune the model with Instruction-following format with input, output pairs for **supervised fine-tuning** tasks. The basic structure includes:
   * **Instruction** : A string containing the specific task or request that the model needs to perform.
@@ -72,6 +73,7 @@ Copy[
 
 **Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/alpaca>
 **Supported file format:** .csv, .json, .jsonlines, .zip, .parquet
+
 ### b/ ShareGPT
 ### b.1/ Trainer = SFT
 **ShareGPT** is designed to represent multi-turn conversations (back-and-forth chats) between a user and an AI assistant. It is commonly used when training or fine-tuning models for dialogue systems or chatbots that need to handle contextual conversation over multiple turns.
@@ -137,6 +139,7 @@ Copy[
 
 **Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt>
 **Supported file format:** .json, .jsonlines, .zip, .parquet
+
 ### b.2 / Trainer = DPO
 **ShareGPT_DPO** is a dataset consisting of conversations (prompt + response) collected from ShareGPT, along with pairs of responses that have been ranked by humans based on which one is better. It is used to:
   * Train language models like GPT to respond in ways that align with human preferences.
@@ -208,6 +211,7 @@ Copy[
 
 **Samples** : <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt-dpo>
 **Supported file format:** .json, .jsonlines, .zip, .parquet
+
 ### c/ ShareGPT_Image
 **ShareGPT_Image** is an extension of the ShareGPT multi-turn chat format, designed specifically for multi-modal training — that is, training models that handle both text and images in conversations.
 It’s used in fine-tuning vision-language models (VLMs), which need to process images alongside natural language.
@@ -296,6 +300,7 @@ Copy[
 
 **Samples** : <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt-image>
 **Supported file format:** .zip, .parquet
+
 ### d/ Corpus
 **Corpus** is a collection of text used for training or fine-tuning language models.
 Each data point in the corpus includes a `"text"` field with a string of text. This format is commonly used when you don't need to distinguish between **instruction** and **output** , but just want to provide raw text data for the model to learn from

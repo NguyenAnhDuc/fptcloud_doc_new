@@ -11,8 +11,10 @@ pagination_next: null
 
 Chức năng **Quản lý User Group** cho phép tập hợp nhiều người dùng vào một nhóm và gán cho nhóm đó role phù hợp. Tính năng này là một phần của IAM trên FPT Cloud Portal, giúp sắp xếp người dùng theo vai trò, giảm công việc quản trị và đảm bảo các quyền truy cập được ứng dụng nhất quán trong môi trường DBaaS.
 Để tạo một một nhóm người dùng mới, thực hiện các bước sau:
+
 ### Bước 1: Truy cập trang Quản lý user group
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **IAM** > **User groups**. Giao diện **User Group Management** sẽ hiển thị danh sách nhóm người dùng hiện có, cùng các tùy chọn để tạo mới, chỉnh sửa hoặc xoá một nhóm người dùng.
+
 ### Bước 2: Tạo nhóm người dùng mới
 Trong trang **User Group Management** , nhấn **Create user group**. Màn hình tạo nhóm người dùng mới hiển thị như sau:
 [![](/img/migrated/create-usser-group-scaled-33777350.png)](/img/migrated/create-usser-group-scaled-33777350.png)

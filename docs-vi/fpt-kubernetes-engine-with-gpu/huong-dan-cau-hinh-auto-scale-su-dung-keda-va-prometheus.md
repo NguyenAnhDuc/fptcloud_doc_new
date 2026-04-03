@@ -10,6 +10,7 @@ pagination_next: null
 # Hướng dẫn cấu hình Auto Scale sử dụng KEDA và Prometheus
 
 [![](/img/migrated/Picture3-2-a84e2a0e.png)](/img/migrated/Picture3-2-a84e2a0e.png)
+
 ## Yêu cầu
   * Cụm kubernetes có gắn GPU
   * Ứng dụng GPU đang ở trạng thái running

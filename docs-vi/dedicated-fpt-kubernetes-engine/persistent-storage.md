@@ -9,6 +9,7 @@ sidebar_position: 22
 # Persistent Storage
 
 FKE cung cấp cho người sử dụng 02 loại Persistent Storage.
+
 ## A. Block Persistent Storage:
 Khi tạo Kubernetes Cluster, hệ thống tự động tạo Storage Class tương ứng với Storage Policy người sử dụng chọn khi tạo Kubernetes Cluster. User có thể sử dụng Storage Class này để tạo PVC dạng RWO.
 Block Storage phù hợp cho các ứng dụng cần đọc ghi nhanh, databases…
@@ -47,6 +48,7 @@ Copykubectl get pvc
 ```
 
 PVC sẽ ở trạng thái pending cho đến khi có Pod sử dụng.
+
 ## B. File Persistent Storage:
 Khi tạo Kubernetes Cluster, người sử dụng chọn enable NFS hoặc có thể enable sau khi tạo. Sau khi NFS được enable, Storage Class xplat-nfs sẽ được tạo trong cluster với storage size khi user nhập khi enable NFS.
 Để kiểm tra các Storageclass đang có:

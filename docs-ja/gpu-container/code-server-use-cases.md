@@ -10,9 +10,11 @@ sidebar_position: 22
 
 ## Code ServerでGLUE MRPCのBERTをファインチューニングする
 このガイドでは、GPU対応のCode ServerコンテナでGLUE MRPCタスクに事前学習済みBERTモデルをファインチューニングする方法を説明します。
+
 ### ステップ1：GPU Containerを作成する
 Code ServerテンプレートでContainerを作成します。 ![Alt text](/img/migrated/finetune1-e657c84d.png) ![Alt text](/img/migrated/finetune2-d33efc2b.png) ![Alt text](/img/migrated/finetune3-4eda41e9.png)
 HTTPエンドポイント経由でContainerにアクセスします。Code ServerコンテナはパスワードAdを要求するため、コンテナの詳細で生成されたパスワードを使用して接続してください。 ![Alt text](/img/migrated/finetune4-899580d1.png)
+
 ### ステップ2：python3、pipをインストールする
 
 ```
@@ -62,6 +64,7 @@ python3 run_glue.py
 ```
 
 ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.25-1f76ec48.png) ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.34-c190efa5.png)
+
 ### ステップ7：モデルをテストする
 test.pyというテストスクリプトを含むファイルを作成します
 

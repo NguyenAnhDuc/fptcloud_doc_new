@@ -5,6 +5,7 @@ description: "FPT PortalでBackup & Recoveryサービスの操作履歴全体を
 sidebar_label: "バックアップ＆リカバリー履歴"
 sidebar_position: "6"
 ---
+
 # バックアップ＆リカバリー履歴を表示する
 
 **FPT Portal**では、**Backup Job**の作成/削除、リストアポイントの復元/クローンなど、**Backup & Recovery**サービスに対するすべての操作履歴を表示できます。

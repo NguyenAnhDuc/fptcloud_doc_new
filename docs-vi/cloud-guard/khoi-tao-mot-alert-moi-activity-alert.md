@@ -18,5 +18,6 @@ sidebar_position: 8
 | **Action**  | Chọn các loại tác động mà hệ thống bắn cảnh báo  |  
 **Lưu ý** : Mỗi loại tài nguyên sẽ có những action khác nhau cho phép đặt cảnh báo. Khi đặt cảnh báo Activity log sẽ mặc định apply cho toàn bộ VPC | | **Severity** | Chọn mức độ nghiêm trọng của cảnh báo, có các mức: Critical, High, Medium, Low | | **Notify to** | Chọn người nhận cảnh báo |
 [![file](/img/migrated/image-1725532405898-58b580bc.png)](/img/migrated/image-1725532405898-58b580bc.png)
+
 Bước 3: Chọn Create để thực hiện khởi tạo Alert. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo dựa vào các thông tin đã chọn.
 Sau khi khởi tạo thành công, người dùng có thể thấy Alert mới tạo và kiểm tra thông tin trên bảng quản trị.

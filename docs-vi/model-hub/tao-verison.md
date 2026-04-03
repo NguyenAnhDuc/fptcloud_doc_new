@@ -10,7 +10,9 @@ sidebar_position: 9
 
 Tạo phiên bản có mục đích giúp lưu thông tin 1 phiên bản trainning của model vào hệ thống. 
 Để tạo mới phiên bản, bạn thao tác như sau: 
+
 Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Version 
+
 Bước 2: Click button New version để mở form tạo mới  
 [![](/img/migrated/Picture16-20ac1db9.png)](/img/migrated/Picture16-20ac1db9.png) Bước 3: Hiển thị form tạo mới phiên bản, người dùng nhập các thông tin: 
   * Version: là mã phiên bản 

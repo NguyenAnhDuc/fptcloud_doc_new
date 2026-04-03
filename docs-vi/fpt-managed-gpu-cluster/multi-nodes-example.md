@@ -15,11 +15,14 @@ Trong hướng dẫn này, bạn sẽ:
   * Triển khai mô hình LLM lên trên nhiều Nodes
 
 Bài hướng dẫn này dành cho các kỹ sư Machine Learning (ML), quản trị viên và người vận hành nền tảng, cũng như các chuyên gia về Data và AI, những người quan tâm đến việc sử dụng khả năng điều phối container của Kubernetes để phục vụ các mô hình ngôn ngữ lớn (LLM). 
+
 ##  Background 
 ###  GPUs 
 Bộ xử lý đồ họa (GPU) cho phép bạn tăng tốc các khối lượng công việc cụ thể như học máy và xử lý dữ liệu. FKE cung cấp các node được trang bị GPU mạnh mẽ này, cho phép bạn cấu hình cluster để đạt hiệu năng tối ưu cho các tác vụ học máy và xử lý dữ liệu. FKE cung cấp nhiều tùy chọn loại máy để cấu hình node, bao gồm các loại máy sử dụng GPU NVIDIA H100, A30 và A100. 
+
 ###  LeaderWorkerSet (LWS) 
 LeaderWorkerSet (LWS) là một opensource trên Kubernetes nhằm giải quyết các mô hình triển khai AI/ML trên nhiều node. Việc triển khai AI workload trên nhiều node sử dụng nhiều Pod, mỗi Pod có thể chạy trên các node khác nhau, xử lý khối lượng công việc suy phân tán. LWS cho phép xem và quản lý nhiều Pod như một nhóm, từ đó đơn giản hóa việc vận hành và quản lý phục vụ mô hình phân tán. 
+
 ###  vLLM và multi-host serving 
   
 Khi triển khai các mô hình LLM có cường độ tính toán cao, chúng tôi khuyến nghị sử dụng vLLM và chạy trên nhiều GPU. 
@@ -86,6 +89,7 @@ Copykubectl get pod -n lws-system
 ##  Deploy vLLM server phục vụ serving trên nhiều nodes 
 Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
 LeaderWorkerSet được sử dụng tại đây, việc sử dụng LeaderWorkerSet với vLLM không làm thay đổi cấu hình vLLM so với việc chỉ sử dụng vLLM triển khai model. 
+
 ###  Deploy vllm bằng LeaderWorkerSet 
 
 ```
@@ -238,6 +242,7 @@ Copy   spec:
 
 ##  Serve model 
 Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+
 ###  Set up networking để truy cập model ngoài cụm 
 Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
 Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 

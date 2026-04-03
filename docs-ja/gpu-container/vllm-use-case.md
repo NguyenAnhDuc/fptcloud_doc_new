@@ -14,6 +14,7 @@ sidebar_position: 19
 HF_TOKENフィールドにHugging FaceトークンをHugging Faceの値に置き換えることを忘れないでください。
 ![Alt text](/img/migrated/vllm2-f52567f6.png)
 ![Alt text](/img/migrated/Screenshot-2025-05-29-at-09.08.47-2425298a.png)
+
 ## ステップ2：Postmanを使用してテストする。ステップ1で追加したAPI_Tokenを使用して認証します
 
 ```

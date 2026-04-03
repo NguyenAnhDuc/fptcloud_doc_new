@@ -46,12 +46,14 @@ Copy[
 **Step 3** : Click **Parse** > then click **Import**.
 The successfully declared APIs will be displayed in the **Import APIs** table.
 If any errors occur, error messages will be shown in the **Import Error** section.
+
 ### 2. Edit REST APIs
 To modify the information of a REST API, follow these steps:
 **Step 1** : In **Rest APIs** , choose the REST API to modify > **Edit**.
 [![](/img/migrated/api2-35ac975d.png)](/img/migrated/api2-35ac975d.png)
 **Step 2** : Enter new information and click **OK**.
 [![](/img/migrated/api3-f62688d9.png)](/img/migrated/api3-f62688d9.png)
+
 ### 3. Delete REST APIs
 If you want to remove a previously declared REST API from the system, ensure that the REST API is not associated with any Products. To detach REST APIs from Products, follow the instructions in the [Product Management](../fpt-api-management/index.md) section.
 To delete Rest APIs, follow these steps:
@@ -59,6 +61,7 @@ To delete Rest APIs, follow these steps:
 [![](/img/migrated/api4-ba563945.png)](/img/migrated/api4-ba563945.png)
 **Step 2** : In the confirmation popup, click **Yes** to proceed.
 [![](/img/migrated/api5-a71be4e0.png)](/img/migrated/api5-a71be4e0.png)
+
 ### 4. Transformer
 If you want to add/edit fields with a specified value in a request or response, you can use the API Management's **Transformer** feature.
 To begin, follow these steps:
@@ -66,6 +69,7 @@ To begin, follow these steps:
 **Step 2** : Tick **Request Transformer / Response Transformer** , click **Raw View** , and input the information you want to modify in each request/response.
 _For example_ : Removing certain fields in the request transformer: In case you want to remove one or more fields in the body / headers / query string of a request, input the data you want to change in the respective section.
 [![](/img/migrated/api6-3c8c283a.png)](/img/migrated/api6-3c8c283a.png)
+
 ### 5. Security (Cross-Origin Resource Sharing)
 To use this feature, follow these steps:
 **Step 1** : In the **Application** menu, go to **API Manager** > **Rest APIs** > select an API > **Edit**.

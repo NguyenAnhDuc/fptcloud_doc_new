@@ -9,6 +9,7 @@ sidebar_position: 15
 # Edit a model
 
 **Edit Model** allows users to update the details of an existing private model, including its metadata, configuration, and access settings.
+
 ### **Step 1: Locate Your Model**
   * Use the **search bar** at the top to find your model by name or keyword.
   * Apply **filters** (e.g., version, size, tags) to narrow down the list.
@@ -20,6 +21,7 @@ sidebar_position: 15
     * **Size**
     * **Tags**
   * Click the **Edit** button next to the model you want to modify. [![file](/img/migrated/image-1757326429664-b76cb241.png)](/img/migrated/image-1757326429664-b76cb241.png)
+
 ### **Step 3: Editing the Model**
 
 Once you click **Edit** , you’ll be taken to the model configuration interface where you can:

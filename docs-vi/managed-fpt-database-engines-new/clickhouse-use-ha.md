@@ -24,6 +24,7 @@ Replication (nhân bản dữ liệu) chỉ được hỗ trợ cho các bảng 
 ### Q2. Replication hoạt động ở mức server hay mức table?
 **A:**
 Replication hoạt động ở mức bảng (table-level), không phải ở mức server. Do đó, trên cùng một server có thể tồn tại cả bảng có replication và bảng không có replication.
+
 ### Q3. Replication có phụ thuộc vào sharding trong ClickHouse không?
 **A:**
 Không. Replication không phụ thuộc vào sharding. Mỗi shard có cơ chế replication độc lập với các shard khác.

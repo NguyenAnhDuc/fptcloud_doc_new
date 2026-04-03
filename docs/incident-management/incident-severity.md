@@ -17,6 +17,7 @@ Below is a list of recommended impact levels that are given in the FMON incident
 | Major  | Significant impact level. For example: "Customer-facing" services disrupted for a small group of customers; Core system functionality affected.  |  
 | Minor  | Low impact level. For example: A minor inconvenience for customers, but there is an alternative solution available.  |  
 | Pending  | Severity level needs to be determined and identified as soon as possible.  |  
+
 ### A. Update the incident severity
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**
@@ -26,6 +27,7 @@ Below is a list of recommended impact levels that are given in the FMON incident
 **Step 5** : Select a color for the label if desired.
 **Step 6** : Click **Edit Severity** to update the severity level.
 [![](/img/migrated/Screenshot_11-c1f3d936.png)](/img/migrated/Screenshot_11-c1f3d936.png)
+
 ### B. Enable / Disable Incident Severity
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**

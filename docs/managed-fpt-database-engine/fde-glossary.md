@@ -9,6 +9,7 @@ sidebar_position: 2
 # Fde Glossary
 
 This section provides clear definitions and explanations for the key terms and concepts commonly used in the FPT Database Engine platform. Whether you are a beginner or an experienced user, understanding these terms will help you make the most of the features and capabilities our service offers.
+
 ### General Cloud & DBaaS Terms  
 | Term  | Definition  |  
 | --- | --- |  
@@ -29,6 +30,7 @@ This section provides clear definitions and explanations for the key terms and c
 | Subnet  | A segment of the VPC that provides IP address ranges for resources.  |  
 | CIDR  | The IP range notation used to define a subnet.  |  
 | Static IP Pool  | A reserved set of IPs within a subnet that can be statically allocated.  |  
+
 ### Database Architecture & Deployment Terms  
 | Term  | Definition  |  
 | --- | --- |  
@@ -40,6 +42,7 @@ This section provides clear definitions and explanations for the key terms and c
 | Failover  | The process of switching to a standby node when a failure occurs.  |  
 | High Availability (HA)  | An architecture designed to ensure continuous operation with minimal downtime.  |  
 | Database Proxy  | An intermediary component that routes application connections to appropriate database instances.  |  
+
 ### Backup & Recovery Terms  
 | Term  | Definition  |  
 | --- | --- |  
@@ -51,11 +54,13 @@ This section provides clear definitions and explanations for the key terms and c
 | Backup Job  | A scheduled or on-demand task that creates database backups.  |  
 | Restore  | The process of recovering a database from backups  |  
 | Point-in-Time Recovery (PITR)  | The ability to restore a database to a specific point in time.  |  
+
 ### Security & Access Control Terms  
 | Term  | Definition  |  
 | --- | --- |  
 | Role-Based Access Control (RBAC)  | An access control mechanism based on user roles.  |  
 | Identity and Access Management (IAM)  | A system for managing identities and access permissions.  |  
+
 ### Monitoring & Operations Terms  
 | Term  | Definition  |  
 | --- | --- |  
@@ -64,6 +69,7 @@ This section provides clear definitions and explanations for the key terms and c
 | Alert  | A notification triggered when defined thresholds are exceeded.  |  
 | Log  | A record of system events and activities.  |  
 | Maintenance Window  | A scheduled period for system maintenance activities.  |  
+
 ### Billing & Service Terms  
 | Term  | Definition  |  
 | --- | --- |  

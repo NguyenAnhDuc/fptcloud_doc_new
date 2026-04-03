@@ -25,6 +25,7 @@ model には以下のコンポーネントが含まれます： [![file](/img/mi
 
 ### **model カード**
 [![file](/img/migrated/image-1757330874098-15240c3e.png)](/img/migrated/image-1757330874098-15240c3e.png) model カード：model の概要情報
+
 ### **バージョン**
 [![file](/img/migrated/image-1757331088375-4ce0f3b9.png)](/img/migrated/image-1757331088375-4ce0f3b9.png)
   * **Index**：バージョンの番号順。

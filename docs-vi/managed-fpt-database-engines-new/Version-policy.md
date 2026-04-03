@@ -25,6 +25,7 @@ FPT Database Engine tuân theo quy ước đánh số phiên bản được cộ
 | Major version  | Thay đổi lớn về kiến trúc hoặc tính năng, có thể không tương thích với các phiên bản trước. Ví dụ: PostgreSQL 14 hoặc MySQL 8.0  |  
 | Minor version  | Cập nhật nhỏ, sửa lỗi hoặc vá bảo mật, tương thích ngược. Ví dụ: MySQL 8.0.25  |  
 Người dùng có thể xem chính xác phiên bản đang sử dụng cho database của mình trực tiếp trên Console Portal khi kiểm tra thông tin chi tiết của database.
+
 ### Vòng đời version (Version Lifecycle):
 Mỗi phiên bản database engine tuân theo vòng đời gồm các giai đoạn sau:  
 | Giai đoạn  | Mô tả  |  
@@ -37,6 +38,7 @@ Trên Console Portal, phiên bản deprecated được hiển thị kèm tag "De
 | **4. End of Support (EoS)**  | Phiên bản ngừng hỗ trợ hoàn toàn.   
 Trên Console Portal, phiên bản end of support được hiển thị kèm tag "EoS".  |  
 **Lưu ý:** Người dùng nên chủ động nâng cấp trước khi phiên bản hiện tại chuyển sang giai đoạn Deprecated hoặc EoS để đảm bảo an toàn và ổn định cho hệ thống. 
+
 ### Khuyến nghị sử dụng  
 | Tình huống  | Hành động khuyến nghị  |  
 | --- | --- |  

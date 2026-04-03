@@ -10,10 +10,12 @@ sidebar_position: 42
 
 The **Manual Report Export** feature allows users to extract statistical data about backup activities for database clusters over a selected time period at the time of execution. This report helps track backup history, evaluate execution status, and support operational audits or internal archiving.
 To export a backup report file, follow these steps:
+
 ### Step 1: Access the function
 Select **Database Platform** on the menu bar, then select **Advanced Feature** s to open the **Advanced Features** screen.
 [![](/img/migrated/B1-c0322d1a.png)](/img/migrated/B1-c0322d1a.png)
 On the **Advanced Features** screen, click the **Go to Reporting** button to open the **Reporting** screen. When the **Reporting** interface appears, select the **Report Export** tab to access the manual report export feature.
+
 ### Step 2: Enter filter conditions
 On the **Report Export** screen, users enter the conditions for exporting report data.
 [![](/img/migrated/B2-ee06829e.png)](/img/migrated/B2-ee06829e.png)
@@ -55,6 +57,7 @@ Description of fields in the **Report Preview** table:
 | Backup State  | Displays the backup job status ("successful" for success; "deleted" for deleted)  |  
 | Start Time  | Displays the backup start time  |  
 | Finish Time  | Displays the backup completion time  |  
+
 ### Step 4: Export the report
 After entering all fields fully and validly, click Export to export the report as a CSV file, which will automatically download to the user's local machine. The downloaded backup report file includes:
   * File name: In the format `{reportType}`_`{vpcName}`_`{exportTime}`, where: 

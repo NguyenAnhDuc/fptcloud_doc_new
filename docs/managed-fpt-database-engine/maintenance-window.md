@@ -10,6 +10,7 @@ sidebar_position: 37
 
 The **Maintenance Window** feature allows customers to proactively define a time window for periodic maintenance of their database clusters. During this window, FPT performs system upgrades, patching, and optimization activities.
 This feature helps minimize the impact on business operations while improving overall service stability.
+
 #### Operating Rules:
   * The Maintenance Window operates on a weekly basis.
   * It is applied per database cluster.
@@ -19,6 +20,7 @@ This feature helps minimize the impact on business operations while improving ov
 | Permission  | Action Type  | Description  |  
 | --- | --- | --- |  
 | manageDatabase:Configuration  | Edit  | Allows modifying database configuration such as parameters, and scaling configurations.  |  
+
 #### Key Capabilities:
   * Configure the day and time for periodic maintenance.
   * Update the Maintenance Window during service operation.

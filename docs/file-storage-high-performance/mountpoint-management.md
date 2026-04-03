@@ -23,6 +23,7 @@ To mount data from a Bare Metal server, you need to create a Mount Point with th
 | Client (server)  | Mounts data from file storage, shown as a local disk.  |  
 | Storage Backend (VAST)  | Underlying storage infrastructure.  |  
 | QoS Policy  | Attached to mount point to limit IOPS, throughput, etc.  |  
+
 ### **Mount Point Structure**  
 | **Field**  | **Description**  |  
 | --- | --- |  
@@ -45,6 +46,7 @@ To mount data from a Bare Metal server, you need to create a Mount Point with th
     * **Multi-Path RDMA** : For large workloads, allows parallel connections.
 
 * * *
+
 ## **2. Creating a Mount Point**
 ### **Important Principles**
   * **Bind to specific subnet** : Only servers in the assigned subnet can mount.
@@ -54,6 +56,7 @@ To mount data from a Bare Metal server, you need to create a Mount Point with th
   * **NFSv4 requires full path export** : All parent directories in the path must also be exported.
 
 > Example: To mount `/project-a/team1/data` using NFSv4, `/project-a` and `/project-a/team1` must also be exported.
+
 ### **Steps to Create a Mount Point on Unify Portal**
   1. Go to the **MountPoint** tab, click **Create MountPoint**.
   2. Fill in the information: 
@@ -73,6 +76,7 @@ To mount data from a Bare Metal server, you need to create a Mount Point with th
   * **Failure** : An error will be displayed – review the entered information.
 
 * * *
+
 ## **3. Deleting a Mount Point**
 You can delete a Mount Point when it is no longer in use, to:
   * Revoke access.

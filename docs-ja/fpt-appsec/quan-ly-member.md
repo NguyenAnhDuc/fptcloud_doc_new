@@ -17,6 +17,7 @@ sidebar_position: 11
 [![anhfsec](/img/migrated/anhb21-3100c74f.png)](/img/migrated/anhb21-3100c74f.png)
 ここでは **Org Units**、**Role**、**Status**、**Added By**、**Added Date** などの情報を確認できます。
 [![anhfsec](/img/migrated/anhb22-c0e01d58.png)](/img/migrated/anhb22-c0e01d58.png)
+
 ## メンバーの追加
 **Org Admin** のみ編集権限を持ちます。
 **手順1** : **Add Member** をクリックします。
@@ -27,6 +28,7 @@ sidebar_position: 11
 [![anhfsec](/img/migrated/memb2-b6e91c9d.png)](/img/migrated/memb2-b6e91c9d.png)
 **手順3** : **Save** をクリックします。
 [![anhfsec](/img/migrated/memb3-c4aff71d.png)](/img/migrated/memb3-c4aff71d.png)
+
 ## メンバーの編集
 **Org Admin** のみ編集権限を持ちます。
 **手順1** : **Member** のActionから **Edit** をクリックします。
@@ -35,18 +37,21 @@ sidebar_position: 11
 [![anhfsec](/img/migrated/E2-new-c0d59994.png)](/img/migrated/E2-new-c0d59994.png)
 **手順3** : **Save** をクリックします。
 [![anhfsec](/img/migrated/E3-4f0c6208.png)](/img/migrated/E3-4f0c6208.png)
+
 ## メンバーの削除
 **Org Admin** のみ編集権限を持ちます。
 **手順1** : **Member** のActionから **Remove** をクリックします。
 [![anhfsec](/img/migrated/X1-4479b566.png)](/img/migrated/X1-4479b566.png)
 **手順2** : **remove** と入力し、**Confirm** をクリックします。
 [![anhfsec](/img/migrated/X2-e4c5fcb3.png)](/img/migrated/X2-e4c5fcb3.png)
+
 ## メンバーの無効化
 **Org Admin** のみ編集権限を持ちます。
 **手順1** : **Member** のActionから **Disable** をクリックします。
 [![anhfsec](/img/migrated/D1-40787124.png)](/img/migrated/D1-40787124.png)
 **手順2** : **disable** と入力し、**Confirm** をクリックします。
 [![anhfsec](/img/migrated/D2-d09cab02.png)](/img/migrated/D2-d09cab02.png)
+
 ## メンバーの有効化
 **Org Admin** のみ編集権限を持ちます。
 **手順1** : **Member** のActionから **Enable** をクリックします。

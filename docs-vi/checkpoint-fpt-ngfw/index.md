@@ -18,6 +18,7 @@ CheckPoint – FPT NGFW
 
 CheckPoint – FPT NGFW
 CheckPoint Firewall là sản phẩm Next-generation Firewall phục vụ việc bảo vệ hệ thống mạng.
+
 ##  Trang chủ 
 01Hướng dẫn chi tiết (Tutorials) 
 02Các câu hỏi thường gặp (FAQs) 

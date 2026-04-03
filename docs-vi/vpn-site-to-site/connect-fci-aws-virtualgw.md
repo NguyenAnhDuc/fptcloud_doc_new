@@ -13,6 +13,7 @@ Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng AWS và 
   * [II. Cấu hình VPN Site-to-Site trên FCI Cloud](../vpn-site-to-site/index.md)
 
 Trong ví dụ này chúng ta sẽ tạo kết nối VPN Site-to-Site với các thông số như trong topology bên dưới: [![file](/img/migrated/image-1744187648981-6cf9e3e4.png)](/img/migrated/image-1744187648981-6cf9e3e4.png)
+
 ## Cấu hình VPN Site-to-Site trên AWS
 **Bước 1.** Tạo **Customer gateway**  
 **Customer Gateway** là một tài nguyên trong AWS để đại diện cho thiết bị **gateway** tại on-premises network.  
@@ -65,6 +66,7 @@ a. Vào trang VPN connection
 b. Chọn connection vừa tạo > chọn **Download configuration**  
 c. Chọn Vendor: **pfSense** , IKE version: **IKEv1** > chọn **Download**  
 [![file](/img/migrated/image-1744187893211-6e8c1faf.png)](/img/migrated/image-1744187893211-6e8c1faf.png) Ta sẽ dựa vào configuration file này để tạo VPN Site-to-Site phía FCI [![file](/img/migrated/image-1744187903307-dcef580b.png)](/img/migrated/image-1744187903307-dcef580b.png)
+
 ## Cấu hình VPN Site-to-Site trên FCI Cloud
 **Bước 1. Tạo Customer gateways**  
 Tạo customer gateway với các thông tin sau:

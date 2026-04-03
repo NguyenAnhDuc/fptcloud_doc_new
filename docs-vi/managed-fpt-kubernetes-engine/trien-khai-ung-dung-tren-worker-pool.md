@@ -9,6 +9,7 @@ sidebar_position: 19
 # Triển khai ứng dụng trên worker pool
 
 Sản phẩm Managed FKE quản lý worker theo các worker pool, hỗ trợ cho khách hàng thuận tiện triển khai các ứng dụng trên đó và không cần quan tâm đến vấn đề scale tài nguyên.
+
 ## Cấu hình file manifest để triển khai ứng dụng
 Ví dụ triển khai ứng dụng trên cluster có 02 worker pools:
 [![Userguide M FKE 30](/img/migrated/Userguide-M-FKE-30-f3f4045c.png)](/img/migrated/Userguide-M-FKE-30-f3f4045c.png)
@@ -95,6 +96,7 @@ spec:
 ```
 
 Trong đó, giá trị điền vào phần values trong hình thứ nhất (sử dụng Node Affinity Rule) và giá trị phần nodeSelector là tên của worker pool mà người dung muốn triển khai ứng dụng.
+
 ## Triển khai ứng dụng
 Khi triển khai ứng dụng nginx sử dụng file manifest.
 [![Userguide M FKE 36](/img/migrated/Userguide-M-FKE-36-55bd9a6e.png)](/img/migrated/Userguide-M-FKE-36-55bd9a6e.png)

@@ -15,6 +15,7 @@ _注意_ :
   * _「Refresh」を押してデータを更新してください。_
 
 [![anhfsec](/img/migrated/map-asset-d0bb4e87.png)](/img/migrated/map-asset-d0bb4e87.png)
+
 ## グラフ構成
 | 要素 | 説明 |
 | --- | --- |
@@ -23,6 +24,7 @@ _注意_ :
 | Y軸 | 連携ツール別のasset数 |
 | 凡例（Legend） | 連携ツールの一覧（右下に表示） |
 | グループ列 | 各チームに最大5本のサブ列を持つグループがあり、各列は1つの連携ツールに対応 |
+
 ## ニーズに応じたデータフィルタリング
 **凡例オプション（右下）:**
   * クリックして各assetタイプ（GitHub、GitLab、GitLab server、FPT Container Registry、Harbor）のデータの表示／非表示を切り替えます。

@@ -21,6 +21,7 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
 **手順4** : 希望のImageを選択して **Add** をクリックします。
 [![anhfsec](/img/migrated/23-0c6ab90e.png)](/img/migrated/23-0c6ab90e.png)
 追加が成功すると、システムは初回スキャンを自動実行し、Asset ManagementのAll Assetsタブに結果を表示します。asset追加の履歴はHistoryタブで確認できます。
+
 ## Assetの概要情報の確認
 **手順1** : Asset Management > All 画面で、CR Asset Nameのテキストリンクをクリックしていずれかのassetを選択します。
 **手順2** : Asset Overview画面で以下の概要情報を確認できます。
@@ -40,6 +41,7 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
 ## Issueの情報確認
 ### 3.1. Issue Listの表示
 [SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+
 ### 3.2. Issueの情報確認
   * Issue List画面では、各issueがIssue Info Card形式で以下の情報とともに表示されます。
     * Severity: Critical/High/Medium/Low
@@ -55,6 +57,7 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
 ### 3.3. Issueのフィルタリング、検索、並べ替え
 #### 3.3.1. フィルター
 フィルター条件: Severity、Status、Priority Score（0〜10）、Issue Type、「Fixed in」available、Image Layer、Exploit Maturity、Exploit Status。複数条件を同時に選択できます。
+
 #### 3.3.2.
   * 検索キーワード: Issue ID、Issue Title
   * Enterで検索、Clearで一覧をリセット
@@ -85,7 +88,9 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
 
 ## Assetの再スキャン
 [SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+
 ## Assetの無効化/有効化
 [SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+
 ## Assetの削除
 [SCM assets](../fpt-appsec/index.md)のガイドと同様です。

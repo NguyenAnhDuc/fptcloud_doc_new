@@ -9,6 +9,7 @@ sidebar_position: 8
 # Incident Label
 
 **Labeling incidents** allow users to effectively filter and gain a better understanding of incident over time. Using labels help group incidents and provide a tag for them - for example, indicating which group is involved, which service is affected, and whether customers are impacted or not.
+
 ### A. Creating a label
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**
@@ -19,6 +20,7 @@ sidebar_position: 8
 **Step 6** : Click **Add Label** to create the label
 [![](/img/migrated/Screenshot_6-441947ed.png)](/img/migrated/Screenshot_6-441947ed.png)
 Repeat to create additional labels.
+
 ### B. Updating label
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**
@@ -28,6 +30,7 @@ Repeat to create additional labels.
 **Step 5** : Select a color for the label if desired.
 **Step 6** : Click **Edit Label** to update the label
 [![](/img/migrated/Screenshot_8-2f86e3dd.png)](/img/migrated/Screenshot_8-2f86e3dd.png)
+
 ### C. Deleting label
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**

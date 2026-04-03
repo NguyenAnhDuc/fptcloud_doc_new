@@ -11,6 +11,7 @@ pagination_next: null
 
 Chức năng **Lập lịch báo cáo tự động (Report Schedules)** cho phép người dùng tạo, quản lý và theo dõi lịch trình tự động gửi báo cáo về các hoạt động backup (sao lưu dữ liệu) của cụm cơ sở dữ liệu theo khoảng thời gian tùy chọn. Thay vì phải truy cập hệ thống để xuất báo cáo thủ công, người dùng có thể thiết lập lịch trình để hệ thống tự động gửi báo cáo định kỳ tới các địa chỉ email đã định trước. Báo cáo được gửi dưới dạng tệp CSV.
 Để tạo một lịch trình gửi báo cáo thực hiện các bước dưới đây:
+
 ### Bước 1: Truy cập trang quản lý lịch trình
 Người dùng chọn **Database Platform** trên thanh menu rồi chọn menu **Advanced Features** để mở màn hình **Advanced Features**.
 [![](/img/migrated/B1-c0322d1a.png)](/img/migrated/B1-c0322d1a.png)
@@ -26,6 +27,7 @@ Thông tin của từng lịch trình bao gồm:
 | Email recipients  | Danh sách các địa chỉ email sẽ nhận báo cáo  |  
 | Created at  | Thời điểm lịch trình được tạo  |  
 | Action  | Các tùy chọn để chỉnh sửa (Edit) hoặc xóa (Delete) lịch trình  |  
+
 ### Bước 2: Tạo một lịch trình báo cáo mới
 Tại màn hình **Report Schedules** , nhấn vào nút **Add Schedule** ở góc trên cùng bên phải để mở màn hình **Add a Report Schedule**.
 [![](/img/migrated/create-report-schedule-scaled-523d245a.png)](/img/migrated/create-report-schedule-scaled-523d245a.png)

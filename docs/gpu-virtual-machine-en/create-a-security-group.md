@@ -24,6 +24,7 @@ The following outbound rules are added by default:
 | HTTP  | TCP  | 80  | ALLOW  | IPv4  | 169.254.169.254  |  
 | Custom  | UDP  | 67  | ALLOW  | IPv4  | All  |  
 | HTTP  | TCP  | 80  | ALLOW  | IPv6  | fe80::a9fe:a9fe/128  |  
+
 ### Create a Security Group
 **Step 1:** In the left-side menu, go to **Networking → Security Group** , then click **Create Security Group**. 
 [![Alt text](/img/migrated/Floating-IP-8-95cd2212.png)](/img/migrated/Floating-IP-8-95cd2212.png)
@@ -35,6 +36,7 @@ The following outbound rules are added by default:
   * **Configure Security Rules:** Update **Inbound** and **Outbound** rules. 
 
 **Step 3:** Confirm by clicking **Create Security Group**. The newly created Security Group will appear in the list. 
+
 ### Manage Rules
 A single Security Group can contain multiple **Inbound** and **Outbound** rules. 
   1. **Inbound Rules:**
@@ -83,6 +85,7 @@ You can also specify a **CIDR range** to apply the Security Group to a network s
 Click **Apply Instances** to confirm. 
 The system will process and display the result. 
 [![Alt text](/img/migrated/Floating-IP-14-faf1db2e.png)](/img/migrated/Floating-IP-14-faf1db2e.png)
+
 ### Detach a GPU VM
 **Step 1:**
 In the **Security Group Management** page, select the Security Group currently attached to the virtual machine. 
@@ -92,6 +95,7 @@ In the **Apply To** section, locate the instance you want to remove.
 Click the **X** icon next to it, then click **Apply Instances** to confirm. 
 The system will process and display the result. 
 [![Alt text](/img/migrated/Floating-IP-16-ddb03cce.png)](/img/migrated/Floating-IP-16-ddb03cce.png)
+
 ### Delete a Security Group
 If you no longer need a Security Group, you can delete it from the VPC. 
 ⚠️ Note: All rules must be deleted first before the Security Group can be removed. 

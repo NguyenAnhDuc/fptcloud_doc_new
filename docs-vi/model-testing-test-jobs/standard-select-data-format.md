@@ -24,6 +24,7 @@ Chỉ chọn định dạng dữ liệu khi bạn chọn **test suite = standard
 - PARQUET  | Giới hạn 100MB  |  
 [![Alt text](/img/migrated/Data-format-a194722e.png)](/img/migrated/Data-format-a194722e.png)
 Hiện tại chúng tôi hỗ trợ các định dạng dữ liệu cho việc kiểm thử bao gồm:
+
 ### a/ Alpaca
 **Alpaca** sử dụng cấu trúc rất đơn giản để fine-tune mô hình với định dạng Instruction-following kèm các cặp input, output cho các nhiệm vụ **supervised fine-tuning**. Cấu trúc cơ bản bao gồm:
   * **Instruction** : Chuỗi chứa nhiệm vụ hoặc yêu cầu cụ thể mà mô hình cần thực hiện.
@@ -61,6 +62,7 @@ Copy[
 
 **Mẫu:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/alpaca>
 **Định dạng file hỗ trợ:** .csv, .json, .jsonlines, .zip, .parquet
+
 ### b/ ShareGPT
 **ShareGPT** được thiết kế để biểu diễn các cuộc hội thoại nhiều lượt (trò chuyện qua lại) giữa người dùng và trợ lý AI. Định dạng này thường được sử dụng khi huấn luyện hoặc fine-tuning các mô hình cho các hệ thống hội thoại hoặc chatbot cần xử lý hội thoại ngữ cảnh qua nhiều lượt.
 Mỗi mẫu dữ liệu bao gồm một mảng `conversations`, trong đó mỗi lượt trong cuộc trò chuyện bao gồm:
@@ -117,6 +119,7 @@ Copy[
 
 **Mẫu:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt>
 **Định dạng file hỗ trợ:** .json, .jsonlines, .zip, .parquet
+
 ### c/ ShareGPT_Image
 **ShareGPT_Image** là phần mở rộng của định dạng hội thoại nhiều lượt ShareGPT, được thiết kế đặc biệt cho việc huấn luyện đa phương thức — tức là huấn luyện các mô hình xử lý cả văn bản và hình ảnh trong các cuộc hội thoại.
 Định dạng này được sử dụng trong việc fine-tuning các vision-language models (VLMs), cần xử lý hình ảnh cùng với ngôn ngữ tự nhiên.

@@ -41,6 +41,7 @@ e.g: "env=prod, region=han"  |   | Chọn node để đưa vào member pool củ
 | loadbalancer.fptcloud.com/health-monitor-max-retries-down  | integer  | 3  | Số lần healthcheck thành công để đánh dấu backend hoạt động trở lại (UP).  |  
 Lưu ý: 
 Ngoài ra, MFKE hỗ trợ người dùng cấu hình: 
+
 #### 1. Tạo service type LoadBalancer chỉ định floatingIP gắn vào LoadBalancer:
 
 ```
@@ -62,6 +63,7 @@ spec:
 ```
 
 Lưu ý: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
+
 #### 2. Giới hạn quyền truy cập vào Load Balancer bằng cấu hình _"loadBalancerSourceRanges"_ trong phần _"spec"_ của cấu hình service:
 
 ```

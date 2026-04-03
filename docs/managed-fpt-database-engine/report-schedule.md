@@ -11,6 +11,7 @@ pagination_next: null
 
 The **Report Schedules** function allows users to create, manage, and monitor schedules for automatically sending reports on backup activities for database clusters over selected periods. Instead of manually accessing the system to export reports, users can set up schedules for the system to automatically send periodic reports to predefined email addresses. Reports are sent as CSV files.
 To create a report submission schedule, follow these steps:
+
 ### Step 1: Access the Reporting schedule management
 Select **Database Platform** on the menu bar, then select **Advanced Features** to open the **Advanced Features** screen.
 [![](/img/migrated/B1-c0322d1a.png)](/img/migrated/B1-c0322d1a.png)
@@ -26,6 +27,7 @@ Displayed information for each schedule:
 | Email recipients  | List of email addresses receiving the report  |  
 | Created at  | Schedule creation time  |  
 | Action  | Options to edit (Edit) or delete (Delete) the schedule  |  
+
 ### Step 2: Create a new report schedule
 On the **Report Schedules** screen, click the **Add Schedule** button in the top-right corner to open the **Add a Report Schedule** screen.
 [![](/img/migrated/create-report-schedule-scaled-523d245a.png)](/img/migrated/create-report-schedule-scaled-523d245a.png)

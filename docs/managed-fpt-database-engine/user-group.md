@@ -11,8 +11,10 @@ pagination_next: null
 
 The **User Group Management** function helps organize multiple users under a shared access control configuration by assigning roles to the group as a whole. The feature is part of IAM on the FPT Cloud Portal. It helps organize users by roles, reduces administrative overhead, and ensures consistent application of access rights across the DBaaS environment.
 To create a new user group, follow these steps:
+
 ### Step 1: Access the User Group Management page
 Log in to the FPT Cloud Portal. After logging successfully, from the main menu, select **IAM** > **User groups**. The **User Group Management** interface will display the list of existing user groups, along with options to create, edit, or delete a user group.
+
 ### Step 2: Create a new user group
 On the **User Group Management** page, click **Create user group**. The **Create New User Group** screen will appear as follows:
 [![](/img/migrated/create-usser-group-scaled-33777350.png)](/img/migrated/create-usser-group-scaled-33777350.png)

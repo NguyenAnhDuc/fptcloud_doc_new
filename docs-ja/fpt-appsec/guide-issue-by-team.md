@@ -20,6 +20,7 @@ _注意_ :
 
 各グラフは積み上げ棒グラフ形式で、チームごとのIssue数を表示します。
 [![anhfsec](/img/migrated/map-issue-f80ed4ef.png)](/img/migrated/map-issue-f80ed4ef.png)
+
 ## グラフ構成
 | 要素 | 説明 |
 | --- | --- |
@@ -27,6 +28,7 @@ _注意_ :
 | X軸 | Issue総数 |
 | 凡例（Legend） | - Severity: Critical、High、Medium、Low<br/>- Scan Type: Code Analysis、Secret Scanning、IaC Scanning、Image Scanning |
 | データ | 深刻度またはスキャン種別で階層化 |
+
 ## ニーズに応じたデータフィルタリング
 凡例オプション（右下）:
   * クリックして各深刻度またはスキャン種別のデータの表示／非表示を切り替えます。

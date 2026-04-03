@@ -10,6 +10,7 @@ sidebar_position: 2
 
 Nếu đây là lần đầu tiên bạn sử dụng **FPT Smart Cloud Database Engine** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:[Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](../managed-fpt-database-engine/index.md)
 Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để khởi tạo **Database Engine** trên hệ thống FPT Cloud.
+
 ### 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
 Để bắt đầu sử dụng dịch vụ **FPT Smart Cloud Database Engine,** bạn cần đăng nhập vào **FPT Portal**.
 Hãy truy cập vào và đăng nhập bằng tài khoản/mật khẩu **FPT Cloud** đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ.

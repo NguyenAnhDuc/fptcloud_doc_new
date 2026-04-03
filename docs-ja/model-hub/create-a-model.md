@@ -9,6 +9,7 @@ sidebar_position: 12
 # model の作成
 
 **Create Model** を使用すると、基本設定、メタデータ、アクセス制御をカスタマイズして、プライベート AI model を構築できます。Model Hub サービス画面で **Create** ボタンをクリックして作成ページに移動します。 [![file](/img/migrated/image-1757057515124-cb536ba9.png)](/img/migrated/image-1757057515124-cb536ba9.png)
+
 ### **ステップ 1：基本情報の入力**
 [![file](/img/migrated/image-1757057993590-aafcd5b8.png)](/img/migrated/image-1757057993590-aafcd5b8.png)
 **基本情報** セクションで以下のフィールドを入力します：
@@ -38,6 +39,7 @@ sidebar_position: 12
 
 ### **ステップ 3：プレビュー**
 右側の **Preview** パネルには、入力した情報に基づいた model のライブプレビューが表示されます。
+
 ### **ステップ 4：ナビゲーション**
   * **Cancel** をクリックして変更を破棄して終了します。
   * **Submit** をクリックして model の作成を確定します。

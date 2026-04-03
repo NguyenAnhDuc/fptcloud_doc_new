@@ -9,6 +9,7 @@ sidebar_position: 7
 # Hướng dẫn từng bước
 
 Sau khi đăng nhập vào FPT AI Factory Portal tại <https://ai.fptcloud.com/> hoặc <https://ai.fptcloud.jp/>, hãy làm theo hướng dẫn bên dưới:
+
 ### Bước 1: Nạp credit vào tài khoản
   1. Chọn **Billing** trong Sidemenu
   2. Nhấp nút **Add Credit** và nhập số tiền cùng thông tin thanh toán để hoàn tất. Hoặc, nếu bạn có voucher từ FPT, áp dụng mã hợp lệ của bạn trong **Voucher code** để đổi lấy credit.

@@ -15,6 +15,7 @@ _Note_ :
   * _Ấn ‘Refresh’ để làm mới dữ liệu_
 
 [![anhfsec](/img/migrated/map-asset-d0bb4e87.png)](/img/migrated/map-asset-d0bb4e87.png)
+
 ## Cấu trúc biểu đồ  
 | Thành phần  | Mô tả  |  
 | --- | --- |  
@@ -23,6 +24,7 @@ _Note_ :
 | Trục Y  | Số lượng asset theo từng tool tích hợp  |  
 | Legend  | Danh sách các tool tích hợp, hiển thị dưới góc phải (Right Bottom)  |  
 | Group Column  | Mỗi team có 1 nhóm gồm tối đa 5 cột con – mỗi cột tương ứng 1 tool tích hợp  |  
+
 ## Lọc dữ liệu theo nhu cầu
 **Tùy chọn legend (góc phải dưới):**
   * Click để ẩn/hiện dữ liệu theo từng loại asset, bao gồm asset từ GitHub, GitLab, GitLab server, FPT Container Registry, Harbor 

@@ -11,6 +11,7 @@ sidebar_position: 32
 Database resources include the Flavor (CPU and RAM) and Data Disk Size.
 The **Database Resource Management** feature enables users to monitor and adjust the resources allocated to a database, including CPU and RAM (Flavor), data disk capacity, and storage policy, to meet performance and capacity requirements during operation.
 Detailed instructions are provided in the sections below.
+
 ### 1. View database resource information
 On the menu bar, select **Database Platform** > select **All Database** or the menu corresponding to the appropriate database group for the cluster > click the Cluster ID > select the **Resource** tab to enter the database resource management screen.
 [![](/img/migrated/view-resource-scaled-5cec940f.png)](/img/migrated/view-resource-scaled-5cec940f.png)

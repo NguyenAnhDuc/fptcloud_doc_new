@@ -9,6 +9,7 @@ sidebar_position: 21
 # Create a database
 
 The **Database Provisioning** function enables rapid deployment of various database engines on the FPT Database Engine platform without manual infrastructure setup. Provisioning a database cluster involves entering configuration details for the engine type, network, cluster identity, and optional services like backups and auto-scaling. This guide outlines the multi-step process.
+
 ### Step 1: Open the create database page
 Access the **Database List** page corresponding to the type of database you wish to create (see section [View Database List](../managed-fpt-database-engine/index.md) for details), select **Create a Database Engine** or **Create** to start provisioning a new database. The **Create new database** page opens and provides configuration options to define and deploy a new database in the FPT Database Engine environment. Provisioning progress includes 3 steps:
   * Step 1 – Database Configuration
@@ -70,6 +71,7 @@ This field is displayed only when the engine type is Cassandra.  |
 | Flavor  | Select a Flavor to define compute resources per node (vCPU, RAM).  |  
 | Data Disk Size (GB)  | Allocated data disk size for the database. The size is measured in GB, with a minimum value of 20 GB.  |  
 After entering all required information, click **Next Step** to proceed to configuring the associated services.
+
 ### Step 3: Configure Additional Services
 [![](/img/migrated/create-db-step-2-2-d636b5e2.png)](/img/migrated/create-db-step-2-2-d636b5e2.png)
 This screen allows you to configure optional managed services for the database cluster, including backup, auto scaling, and notifications, to enhance availability, scalability, and operational visibility.
@@ -113,6 +115,7 @@ Describe the fields on the screen:
   * **Notification Recipients List** : Enter a list of email addresses to receive notifications when backup or scaling events occur. You can add multiple emails by clicking the "+" button to include a new email in the list.
 
 After entering all required information, click **Next Step** to proceed to the review step and confirm database creation.
+
 ### Step 4: Review & Create
 Users should review all configuration settings for the database before confirming creation:
   * To make changes, click **Back** to return to the previous step and update the information.

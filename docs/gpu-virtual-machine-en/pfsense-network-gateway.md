@@ -9,9 +9,11 @@ sidebar_position: 15
 # Pfsense Network Gateway
 
 This article will introduce how to build a **highly available (HA) network gateway** using **pfSense**. This FreeBSD-based open-source software helps you achieve a **stable and reliable network environment**. 
+
 ### What is pfSense?
 **pfSense** is an **open source router/firewall software** based on **FreeBSD** that can implement various network functions such as **router** , **firewall** , **VPN** , and **proxy**. 
 The configuration of the virtual network gateway when building **ExpressRoute / Site-to-Site VPN** is also described in the official documentation, making it safe and suitable for many **corporate environments**. 
+
 ### File Preparation
 **Step 1:** **Download pfSense ISO file**
 Go to the official pfSense website: <https://www.pfsense.org/download/>  
@@ -21,6 +23,7 @@ Visit <https://console.fptcloud.jp/> and log in using your provided credentials.
 **Step 3:** **Upload the ISO file**
 Select the downloaded **pfSense ISO file** and upload it to the portal. You will receive a confirmation message once the upload is complete. 
 [![Alt text](/img/migrated/Gateway-1-b47c3b2f.png)](/img/migrated/Gateway-1-b47c3b2f.png) [![Alt text](/img/migrated/Gateway-2-4be6ba54.png)](/img/migrated/Gateway-2-4be6ba54.png) [![Alt text](/img/migrated/Gateway-3-8fdf7850.png)](/img/migrated/Gateway-3-8fdf7850.png) [![Alt text](/img/migrated/Gateway-4-7cdc3ec5.png)](/img/migrated/Gateway-4-7cdc3ec5.png) [![Alt text](/img/migrated/Gateway-5-aa96ffd0.png)](/img/migrated/Gateway-5-aa96ffd0.png)
+
 ### Network Environment Preparation
 **Step 1:** **Create a New Subnet**
 In the **FPT Cloud Console** , create a new **subnet** according to your network requirements, which will allow you to assign the necessary **IP addresses** to the network interfaces of pfSense. 
@@ -28,6 +31,7 @@ In the **FPT Cloud Console** , create a new **subnet** according to your network
 **Step 2:** **Create a Security Group**
 Define **security rules** for your environment and create appropriate **security groups** to control communication and network traffic between pfSense virtual machines. 
 [![Alt text](/img/migrated/Gateway-8-2c508ffb.png)](/img/migrated/Gateway-8-2c508ffb.png) [![Alt text](/img/migrated/Gateway-9-17ab1b36.png)](/img/migrated/Gateway-9-17ab1b36.png)
+
 ### Creating a pfSense Virtual Machine
 **Step 1:** **Compute Engine**
 Go to the **Compute** menu in the FPT Cloud console and click **"Create Instance"**. 
@@ -41,6 +45,7 @@ Select the appropriate **resource size (CPU/RAM)** for your environment and conn
 **Step 4:** **Attach a Security Group**
 Attach the previously created **security group** and **create the virtual machine**. 
 [![Alt text](/img/migrated/Gateway-16-e6cfe33e.png)](/img/migrated/Gateway-16-e6cfe33e.png) [![Alt text](/img/migrated/Gateway-17-2ff59be5.png)](/img/migrated/Gateway-17-2ff59be5.png)
+
 ### HA (High Availability) Requirements
 **Minimum Requirements for High Availability (HA) Implementation:**
   * At least **three IPs per subnet** on the pfSense network interface 
@@ -52,6 +57,7 @@ Attach the previously created **security group** and **create the virtual machin
 
 ### Configuring the pfSense Interface
 [![Alt text](/img/migrated/Gateway-18-f3d63a40.png)](/img/migrated/Gateway-18-f3d63a40.png)
+
 #### New Network: Adding a Card
   1. Select **"Assignment"** from the **Interface** menu and click **"Add"** to add a new interface. 
   2. Double-click the **OPT1** interface and enter the required information. 
@@ -69,6 +75,7 @@ Attach the previously created **security group** and **create the virtual machin
   * The username and password for the remote system specify the credentials of a high-privileged user on the pfSense slave virtual machine
 
 [![Alt text](/img/migrated/Gateway-19-9a29037e.png)](/img/migrated/Gateway-19-9a29037e.png)
+
 #### Configuring CARP on the Slave
   * Similarly, select **"High Availability Synchronization"** from the **System** menu and enter the required information.
   * The settings will be different from those of the master, so please follow the instructions to set them appropriately.

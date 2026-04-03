@@ -187,8 +187,56 @@ def inspect_page(url, headed=False, timeout=15):
 
 # ── Step 1: Crawl L1-L2 ─────────────────────────────────────────────
 
+def extract_categories_from_page(page):
+    """Extract L1 categories and L2 items from the currently visible tab content."""
+    return page.evaluate("""() => {
+        const results = [];
+        const categories = document.querySelectorAll('.bota_doccument_category_li');
+        for (const cat of categories) {
+            // Skip hidden categories (from inactive tabs)
+            if (cat.offsetParent === null && cat.style.display !== '') continue;
+
+            let label = '';
+            for (const node of cat.childNodes) {
+                if (node.nodeType === 3) {
+                    const t = node.textContent.trim();
+                    if (t.length > 2) { label = t; break; }
+                }
+            }
+            if (!label) {
+                for (const child of cat.children) {
+                    if (!child.classList.contains('bota_doccument_cat_item')) {
+                        const t = child.textContent.trim();
+                        if (t.length > 2 && t.length < 80) { label = t; break; }
+                    }
+                }
+            }
+            if (!label) continue;
+
+            const children = [];
+            const items = cat.querySelectorAll('.bota_doccument_cat_item_li a[href]');
+            for (const a of items) {
+                const text = a.textContent.trim();
+                const href = a.href;
+                if (text && href) {
+                    children.push({ label: text, url: href, level: 2, children: [] });
+                }
+            }
+
+            if (children.length > 0) {
+                results.push({ label: label, level: 1, url: null, children: children });
+            }
+        }
+        return results;
+    }""")
+
+
 def crawl_step1(base_url, headed=False, timeout=15, delay=1.5):
-    """Crawl the listing page to get L1 categories and L2 page links."""
+    """Crawl the listing page to get L1 categories and L2 page links.
+
+    Clicks through ALL tabs (FPT Cloud Portal, FPT AI Factory, FAQ, etc.)
+    to capture the complete menu structure.
+    """
     url = base_url.rstrip("/") + DEFAULT_LISTING_PATH
     print(f"\n=== Step 1: Crawling L1-L2 from {url} ===\n")
 
@@ -201,87 +249,91 @@ def crawl_step1(base_url, headed=False, timeout=15, delay=1.5):
             browser.close()
             return None
 
-        # Extract menu using the known FPT Cloud DOM structure:
-        #   .bota_doccument_category_li     = L1 category
-        #   .bota_doccument_cat_item_li a   = L2 doc link
-        #   .bota_doccument_category_nav_tab = top-level tabs (Portal, AI Factory, FAQ)
-        menu_data = page.evaluate("""() => {
-            const results = [];
-
-            // 1. Extract top-level tabs (FPT Cloud Portal, FPT AI Factory, FAQ)
-            const topTabs = document.querySelectorAll('.bota_doccument_category_nav_tab li a[href]');
-            const topTabItems = [];
-            for (const a of topTabs) {
-                const text = a.textContent.trim();
-                const href = a.href;
-                if (text && href && !href.endsWith('/danh-sach-tai-lieu/')) {
-                    topTabItems.push({ label: text, url: href, level: 1, children: [], isTopTab: true });
-                }
+        # 1. Get all tab links
+        tab_info = page.evaluate("""() => {
+            const tabs = [];
+            const tabLinks = document.querySelectorAll('.bota_doccument_category_nav_tab li a[href]');
+            for (const a of tabLinks) {
+                tabs.push({
+                    label: a.textContent.trim(),
+                    href: a.href,
+                    dataId: a.getAttribute('data-id') || a.getAttribute('href'),
+                    isActive: a.closest('li')?.classList?.contains('active') || false,
+                });
             }
-
-            // 2. Extract category groups from the main tab content
-            const categories = document.querySelectorAll('.bota_doccument_category_li');
-            for (const cat of categories) {
-                // Get category label — first direct text node or first element text
-                let label = '';
-                for (const node of cat.childNodes) {
-                    if (node.nodeType === 3) { // text node
-                        const t = node.textContent.trim();
-                        if (t.length > 2) { label = t; break; }
-                    }
-                }
-                if (!label) {
-                    // Try first child that's not the item list
-                    for (const child of cat.children) {
-                        if (!child.classList.contains('bota_doccument_cat_item')) {
-                            const t = child.textContent.trim();
-                            if (t.length > 2 && t.length < 80) { label = t; break; }
-                        }
-                    }
-                }
-                if (!label) continue;
-
-                // Get L2 items
-                const children = [];
-                const items = cat.querySelectorAll('.bota_doccument_cat_item_li a[href]');
-                for (const a of items) {
-                    const text = a.textContent.trim();
-                    const href = a.href;
-                    if (text && href) {
-                        children.push({ label: text, url: href, level: 2, children: [] });
-                    }
-                }
-
-                if (children.length > 0) {
-                    results.push({ label: label, level: 1, url: null, children: children });
-                }
-            }
-
             return {
-                results: results,
-                topTabs: topTabItems,
-                debug: {
-                    categoriesFound: categories.length,
-                    topTabsFound: topTabs.length,
-                    pageTitle: document.title,
-                    url: window.location.href,
-                }
+                tabs: tabs,
+                pageTitle: document.title,
             };
         }""")
 
+        all_tabs = tab_info["tabs"]
+        print(f"  Page: {tab_info['pageTitle']}")
+        print(f"  Found {len(all_tabs)} tabs: {', '.join(t['label'] for t in all_tabs)}\n")
+
+        # 2. Extract categories from the default active tab first
+        all_results = []
+        print(f"  --- Extracting from default active tab ---")
+        default_cats = extract_categories_from_page(page)
+        print(f"  Found {len(default_cats)} categories from default tab")
+        all_results.extend(default_cats)
+
+        # Track which tab labels we've processed
+        processed_labels = set()
+        for cat in default_cats:
+            processed_labels.add(cat["label"])
+
+        # 3. Click each non-active tab and extract its categories
+        for tab in all_tabs:
+            if tab["isActive"]:
+                continue
+
+            print(f"\n  --- Clicking tab: {tab['label']} ({tab['href']}) ---")
+            try:
+                # Navigate to the tab URL
+                if not safe_navigate(page, tab["href"], timeout * 1000):
+                    print(f"    Failed to load tab: {tab['label']}")
+                    # Try clicking instead
+                    try:
+                        page.click(f"a[href='{tab['href']}']", timeout=5000)
+                        page.wait_for_timeout(2000)
+                    except Exception:
+                        print(f"    Click also failed, skipping tab")
+                        continue
+
+                tab_cats = extract_categories_from_page(page)
+                new_cats = [c for c in tab_cats if c["label"] not in processed_labels]
+
+                if new_cats:
+                    print(f"    Found {len(new_cats)} new categories")
+                    all_results.extend(new_cats)
+                    for cat in new_cats:
+                        processed_labels.add(cat["label"])
+                elif tab_cats:
+                    print(f"    Found {len(tab_cats)} categories (all duplicates, skipped)")
+                else:
+                    # No categories found — this tab might be a single-page section
+                    # Add it as an L1 entry so step2 can crawl its sub-pages
+                    print(f"    No categories found — adding as L1 entry")
+                    all_results.append({
+                        "label": tab["label"],
+                        "level": 1,
+                        "url": tab["href"],
+                        "children": [],
+                        "isTopTab": True,
+                    })
+
+                time.sleep(delay)
+
+            except Exception as e:
+                print(f"    Error processing tab {tab['label']}: {e}")
+
         browser.close()
 
-    results = menu_data["results"]
-    top_tabs = menu_data["topTabs"]
-    debug = menu_data["debug"]
+    results = all_results
 
-    # Add top tabs as separate L1 entries
-    for tab in top_tabs:
-        results.append(tab)
-
-    print(f"  Page: {debug['pageTitle']}")
-    print(f"  Categories: {debug['categoriesFound']}, Top tabs: {debug['topTabsFound']}")
-    print(f"  Extracted {len(results)} categories\n")
+    print(f"\n  === Summary ===")
+    print(f"  Extracted {len(results)} total categories\n")
 
     # Validate against known structure
     found_labels = {r["label"] for r in results}
@@ -309,88 +361,165 @@ def crawl_step1(base_url, headed=False, timeout=15, delay=1.5):
 def crawl_sidebar(page, selectors, url):
     """Extract sidebar/TOC menu items from an FPT Cloud doc page.
 
-    Doc pages contain ?doc= query param links for sub-pages. These appear in
-    the desktop sidebar (depth ~11) and mobile sidebar (depth ~19). We only
-    take the first occurrence (desktop) and use DOM depth differences to
-    determine nesting (depth 11 = L3, depth 13 = L4).
+    Strategy:
+    1. Find the sidebar container that holds ?doc= links
+    2. Walk the <ul>/<li> tree structure to capture BOTH:
+       - Link items (<a href="?doc=...">) → leaf docs
+       - Non-link group headers (text-only <li> with child <ul>) → categories
+    3. Use the DOM tree structure (not depth heuristics) for accurate hierarchy
     """
 
     result = page.evaluate("""(pageUrl) => {
-        // Find ALL links with ?doc= — these are the actual doc sub-pages
+        // Step 1: Find sidebar container
+        // Look for the first UL that contains ?doc= links (desktop sidebar)
         const allDocLinks = document.querySelectorAll("a[href*='?doc=']");
         if (allDocLinks.length === 0) {
             return { items: [], usedSelector: null };
         }
 
-        // Deduplicate: same href appears in desktop + mobile sidebar.
-        // Take first occurrence of each ?doc= value (desktop version).
-        const seen = new Set();
-        const rawLinks = [];
-        for (const a of allDocLinks) {
-            const url = new URL(a.href);
-            const docParam = url.searchParams.get('doc');
-            if (!docParam || seen.has(docParam)) continue;
-            seen.add(docParam);
-
-            // Compute DOM depth relative to body
-            let depth = 0;
-            let node = a;
-            while (node.parentElement) { depth++; node = node.parentElement; }
-
-            // Check if parent LI has class 'has-child' (indicates sub-items follow)
-            const parentLi = a.closest('li');
-            const hasChild = parentLi?.classList?.contains('has-child') || false;
-
-            rawLinks.push({
-                label: a.textContent.trim(),
-                url: a.href,
-                docParam: docParam,
-                depth: depth,
-                hasChild: hasChild,
-            });
+        // Find the common ancestor UL of all doc links (the sidebar root)
+        // Use the first doc link's ancestor UL that contains many links
+        let sidebarRoot = null;
+        let firstLink = allDocLinks[0];
+        let node = firstLink.parentElement;
+        while (node) {
+            if (node.tagName === 'UL' || node.tagName === 'OL') {
+                const linkCount = node.querySelectorAll("a[href*='?doc=']").length;
+                // Take the first UL that has most of the links (desktop sidebar)
+                if (linkCount >= allDocLinks.length / 2) {
+                    sidebarRoot = node;
+                    break;
+                }
+            }
+            node = node.parentElement;
         }
 
-        if (rawLinks.length === 0) {
-            return { items: [], usedSelector: null };
+        if (!sidebarRoot) {
+            // Fallback: use old method with flat links
+            sidebarRoot = firstLink.closest('ul');
         }
 
-        // Determine base depth (minimum depth = L3)
-        const minDepth = Math.min(...rawLinks.map(l => l.depth));
+        // Step 2: Recursively walk the UL/LI tree
+        function walkList(ul, baseLevel) {
+            const items = [];
+            if (!ul) return items;
 
-        // Build tree: iterate flat list, use depth to determine parent-child.
-        // Same depth = siblings, greater depth = children of previous item.
-        function buildTree(links) {
-            const root = [];
-            const stack = [{ children: root, depth: minDepth - 1 }];
+            const lis = ul.children;
+            for (const li of lis) {
+                if (li.tagName !== 'LI') continue;
 
-            for (const link of links) {
-                const item = {
-                    label: link.label,
-                    url: link.url,
-                    level: 3 + Math.round((link.depth - minDepth) / 2),
-                    children: [],
-                };
+                // Find direct <a> link (not in nested UL)
+                let link = null;
+                let groupLabel = null;
+                let childUl = null;
 
-                // Pop stack until we find a parent with lesser depth
-                while (stack.length > 1 && stack[stack.length - 1].depth >= link.depth) {
-                    stack.pop();
+                for (const child of li.children) {
+                    if (child.tagName === 'A' && child.href && child.href.includes('?doc=')) {
+                        link = child;
+                    } else if (child.tagName === 'UL' || child.tagName === 'OL') {
+                        childUl = child;
+                    } else if (child.tagName === 'SPAN' || child.tagName === 'DIV' ||
+                               child.tagName === 'P' || child.tagName === 'STRONG') {
+                        const text = child.textContent.trim();
+                        if (text.length > 1 && text.length < 200) {
+                            groupLabel = text;
+                        }
+                    }
                 }
 
-                // Add to current parent
-                stack[stack.length - 1].children.push(item);
+                // Also check: the <a> might be a direct child text node
+                if (!link) {
+                    const directA = li.querySelector(':scope > a[href*="?doc="]');
+                    if (directA) link = directA;
+                }
 
-                // If this item has children (deeper items follow), push it as potential parent
-                stack.push({ children: item.children, depth: link.depth });
+                // Also look for child UL if not found yet
+                if (!childUl) {
+                    childUl = li.querySelector(':scope > ul, :scope > ol');
+                }
+
+                // If no link and no group label, try getting text from LI directly
+                if (!link && !groupLabel && childUl) {
+                    // This LI is a group header — get its text (excluding child UL text)
+                    let text = '';
+                    for (const cn of li.childNodes) {
+                        if (cn.nodeType === 3) { // text node
+                            text += cn.textContent.trim();
+                        } else if (cn.tagName !== 'UL' && cn.tagName !== 'OL') {
+                            text += cn.textContent.trim();
+                        }
+                    }
+                    text = text.trim();
+                    if (text.length > 1 && text.length < 200) {
+                        groupLabel = text;
+                    }
+                }
+
+                if (link) {
+                    const item = {
+                        label: link.textContent.trim(),
+                        url: link.href,
+                        level: baseLevel,
+                        children: [],
+                    };
+
+                    // If this link item also has a child UL, recurse
+                    if (childUl) {
+                        item.children = walkList(childUl, baseLevel + 1);
+                    }
+
+                    items.push(item);
+                } else if (groupLabel && childUl) {
+                    // Non-link group header with children
+                    const item = {
+                        label: groupLabel,
+                        url: null,
+                        level: baseLevel,
+                        children: walkList(childUl, baseLevel + 1),
+                    };
+                    items.push(item);
+                } else if (childUl) {
+                    // UL without identifiable header — flatten children up
+                    const subItems = walkList(childUl, baseLevel);
+                    items.push(...subItems);
+                }
             }
 
-            return root;
+            return items;
         }
 
-        const treeItems = buildTree(rawLinks);
+        // Deduplicate by doc param (desktop vs mobile sidebar)
+        const seenDocs = new Set();
+        function dedup(items) {
+            const result = [];
+            for (const item of items) {
+                if (item.url) {
+                    try {
+                        const u = new URL(item.url);
+                        const doc = u.searchParams.get('doc');
+                        if (doc && seenDocs.has(doc)) continue;
+                        if (doc) seenDocs.add(doc);
+                    } catch(e) {}
+                }
+                item.children = dedup(item.children || []);
+                result.push(item);
+            }
+            return result;
+        }
+
+        const rawTree = walkList(sidebarRoot, 3);
+        const tree = dedup(rawTree);
+
+        // Count total items
+        function countAll(items) {
+            let c = items.length;
+            for (const i of items) c += countAll(i.children || []);
+            return c;
+        }
 
         return {
-            items: treeItems,
-            usedSelector: '?doc= links (' + rawLinks.length + ' unique)',
+            items: tree,
+            usedSelector: 'UL/LI tree walk (' + countAll(tree) + ' items)',
         };
     }""", url)
 

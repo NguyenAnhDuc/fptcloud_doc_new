@@ -42,6 +42,7 @@ Allocatable:
 ```
 
 Node sẽ sẵn sàng được sử dụng nếu tài nguyên "nvidia.com/gpu" có giá trị lớn hơn 1 ở mục capacity và allocatable 
+
 ### Chuẩn bị token Huggingface (optional)
 Lên trang chủ Huggingface, tạo token và tạo Secret trên k8s chứa token này: 
 
@@ -53,6 +54,7 @@ Copykubectl create secret generic hf-secret \
 
 ## Deploy VLLM
 Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
+
 ### Deploy vllm bằng deployment
 
 ```
@@ -170,6 +172,7 @@ volumes:
 
 ##  Serve model 
 Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+
 ###  Set up networking để truy cập model ngoài cụm 
 Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
 Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 

@@ -11,6 +11,7 @@ sidebar_position: 9
 **Bước 1** : Ở menu chọn **Security** > **Cloud Guard** , mở tab **Threat** **Alerts** và chọn **Create Alert**.
 [![file](/img/migrated/image-1725532528612-3fb1607b.png)](/img/migrated/image-1725532528612-3fb1607b.png)
 Một hộp thoại mới sẽ hiện lên và hướng dẫn người dùng thực hiện các bước tiếp theo.
+
 Bước 2: Cấu hình cảnh báo theo nhu cầu bằng cách nhập thông tin vào trường dữ liệu tương ứng:  
 |   |   |  
 | --- | --- |  

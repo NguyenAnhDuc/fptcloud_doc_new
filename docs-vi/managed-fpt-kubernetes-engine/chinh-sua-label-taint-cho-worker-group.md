@@ -17,6 +17,7 @@ sidebar_position: 14
 [![](/img/migrated/Picture29-db44e41c.png)](/img/migrated/Picture29-db44e41c.png)
 [![](/img/migrated/Picture3-3-ae58b9db.png)](/img/migrated/Picture3-3-ae58b9db.png)
 Quá trình chỉnh sửa Labels và Taints sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing** , trong khi thực hiện người sử dụng không thể thao tác chỉnh sửa Cluster cho đến khi quá trình hoàn tất.
+
 # Cô lập workload hệ thống và workload ứng dụng
 Để workload ứng dụng không làm ảnh hưởng đến sự hoạt động của cluster, tính năng **Reserve this worker group for system workloads only** cho phép người dùng dành riêng Worker Group Base để chạy System Pods, đồng thời ngăn Application Pods được schedule vào worker group này. 
 ⚠️ Lưu ý: Tính năng chỉ áp dụng cho các cluster có từ 2 worker group trở lên. 

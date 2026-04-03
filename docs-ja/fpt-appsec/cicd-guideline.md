@@ -12,6 +12,7 @@ pagination_next: null
 **ガイドライン: FSP Core ServiceのScanning APIをCI/CDパイプラインに統合する**
 このガイドでは、FSP Core ServiceのスキャンエンドポイントをCI/CDパイプラインに統合する方法を説明します。これにより、変更のたびにソースコードスキャン、Secretスキャン、コンテナイメージのセキュリティスキャンを自動化できます。
 [![CICD flow](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)](/img/migrated/Screenshot-2026-01-22-113824-0f7aa110.png)
+
 ### 1. 概要
 CI/CDパイプラインにセキュリティスキャンステップを自動化することで、脆弱性を早期に検出できます。このガイドでは以下を説明します。
   * 準備要件

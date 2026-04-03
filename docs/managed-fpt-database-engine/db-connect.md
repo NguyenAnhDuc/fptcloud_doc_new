@@ -11,6 +11,7 @@ sidebar_position: 23
 This guide explains how to connect to a database deployed on FPT Database Engine using supported connection methods and best practices.
 After provisioning a database on FPT Database Engine, users can connect to it using standard database clients, application drivers, or management tools. Connectivity depends on network configuration, access control, and database credentials.
 Before connecting to a database instance, you must configure appropriate network access and security policies to allow connections from your client. This usually involves creating security group rules and assigning a floating IP (public IP) if you need external access. Once network access is permitted, you can connect to your database using a database client tool.
+
 ## Create a Security Group
 A Security Group is a collection of firewall rules that control inbound and outbound network traffic to and from a database cluster. Each rule defines the allowed ports, protocols, and IP addresses or CIDR ranges.
 Properly configuring Security Groups helps secure database connectivity, enforce the least privilege access model and reduce the risk of unauthorized access.
@@ -25,8 +26,10 @@ Properly configuring Security Groups helps secure database connectivity, enforce
 **
 **
 To ensure security and ease of management, create and configure a Security Group for the database cluster by following these steps:
+
 ### Step 1: Access the Security Groups Management page
 Log in to the FPT Cloud Portal. After logging successfully, from the main menu, select **Network** > **Security Groups**. The **Security Group Management** interface will display the list of existing security groups, along with options to create, edit, or delete a security group.
+
 ### Step 2: Create a new security group
 On the **Security Group Management** page, click **Create security group**. The **Create New Security Group** screen will appear as follows:
 [![](/img/migrated/create-security-group-scaled-8aa5e8ed.png)](/img/migrated/create-security-group-scaled-8aa5e8ed.png)
@@ -48,8 +51,10 @@ If needed, you can perform the following actions on the created security group:
 To enable external (public) access to your database cluster or instance, you must create and assign a Floating IP to the database. A Floating IP is a static public IPv4 address that can be associated with your DBaaS resource without changing other network settings. Assigning it requires that your security group / firewall rules permit the appropriate traffic (ports, protocols) to your database.
 **Best Practice** : Assign a Floating IP only when public access is required. If the database serves internal traffic within a VPC, consider using private static IPs to avoid exposing the service externally.
 The steps to assign a Floating IP address are as follows:
+
 ### Step 1: Access the Floating IP Management page
 Log in to the FPT Cloud Portal. After logging successfully, from the main menu, select **Network > Floating IPs**. The **Floating IP Management** interface will display the list of existing Floating IPs, along with options to create, or delete a floating IP.
+
 ### Step 2: Allocate IP address
 On the **Floating IP Management** page, click **Allocate IP address**. The **Allocate IP address** popup will appear as follows:
 [![](/img/migrated/allocate-IP-scaled-65984edf.png)](/img/migrated/allocate-IP-scaled-65984edf.png)
@@ -71,6 +76,7 @@ When the Floating IP is no longer required, select **Release IP** for the corres
 
 ## Connect to the database using a client
 After network access is granted (via security group and floating IP), you can connect using your preferred database client (e.g., pgAdmin for PostgreSQL, MySQL Workbench for MySQL).
+
 ### Step 1: View connection information
 Database connection details are displayed on the **Database Overview** page in the FPT Cloud Portal. To access this page, open the **Database list** page, then select the database cluster ID to view the details page:
 [![](/img/migrated/db-overview-scaled-2357ac75.png)](/img/migrated/db-overview-scaled-2357ac75.png)

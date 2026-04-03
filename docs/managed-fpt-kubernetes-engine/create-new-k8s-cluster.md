@@ -18,6 +18,7 @@ Note: Some mandatory conditions for performing this operation:
 [![](/img/migrated/4-b2cca4ea.png)](/img/migrated/4-b2cca4ea.png)
 **Step 2** : Configure the Cluster according to your needs.
 [![](/img/migrated/5-902fbed7.png)](/img/migrated/5-902fbed7.png)
+
 ### A. General Information:
   * **Name** : Enter the Cluster name.
   * **Version** : Choose a Kubernetes version.
@@ -25,6 +26,7 @@ Note: Some mandatory conditions for performing this operation:
 
 ### B. Worker Group Configuration:
 M-FKE manages worker nodes through **Worker Groups** , a group consisting of worker nodes with similar configurations. Users can divide worker groups for suitable applications. The system requires a minimum of 01 Worker Group (Base), and users cannot remove this base worker group.
+
 #### _B.1 Worker Group 1:_
   * **Type** : Choose the configuration (CPU & Memory) for the Worker Node.
   * **Container Runtime** : Containerd.
@@ -35,6 +37,7 @@ M-FKE manages worker nodes through **Worker Groups** , a group consisting of wor
 
 #### _B.2 Worker Group n:_
 You can add additional worker groups when initializing the K8s cluster.
+
 ### C. Advanced Config:
 Settings for advanced users. If you do not understand these parameters, leave them as is.
   * **Pod Network** : Network used for Pods in the cluster.

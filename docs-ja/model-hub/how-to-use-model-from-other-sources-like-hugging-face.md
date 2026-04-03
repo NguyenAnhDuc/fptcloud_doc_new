@@ -10,6 +10,7 @@ sidebar_position: 27
 
 他で使用した model がある場合、または AI Studio で直接サポートされていない Hugging Face のオープンソース model を見つけた場合でも、AI Studio を使用してファインチューニングできます。
 ここでは、ファインチューニングのためにカスタム model を AI Studio に取り込む方法を説明します。
+
 ## SDK 経由で model をアップロードする
 ### ステップ 1：SDK CLI のインストール
 

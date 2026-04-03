@@ -16,6 +16,7 @@ Các thành phần chính bao gồm:
 – Load balancer 
 – Cụm Kubenetes: Master node (API, ETCD), Worker node (App and Service)
 [![file](/img/migrated/image-1691469857854-05b04fb7.png)](/img/migrated/image-1691469857854-05b04fb7.png)
+
 ## Các requirement rules cho cụm Kubenetes trên Advanced Firewall
 Luồng traffic truy cập vào các node k8s như sau: [![file](/img/migrated/image-1691469894054-7f2f9cab.png)](/img/migrated/image-1691469894054-7f2f9cab.png)
 **Chú ý:**
@@ -27,6 +28,7 @@ Bảng quy hoạch rule Firewall trên Advanced Firewall cho cụm Kubenetes:
 Bảng quy hoạch rule NAT trên Advanced Firewall cho cụm Kubenetes: 
 [![file](/img/migrated/image-1691480310854-7798d361.png)](/img/migrated/image-1691480310854-7798d361.png)
 Trên Gateway vẫn có rule Firewall và rule Nat ở để đảm bảo traffic kết nối từ Gateway đến Firewall, các rule mặc định này được tạo tự động, người dùng phải tạo rule cho ứng dụng (option) nếu cần. 
+
 ## Khởi tạo cụm Kubenetes tích hợp Firewall
 **Yêu cầu:**
 – Quota CPU, RAM, Storage, Instance: đáp ứng đủ cho cấu hình cluster Kubernetes mong muốn. 
@@ -34,9 +36,14 @@ Trên Gateway vẫn có rule Firewall và rule Nat ở để đảm bảo traffi
 – Thông tin IP của Firewall: Cần thông tin 01 IP Public và 01 Private của Firewall. 
 – Thông tin IP của Gateway: 01 IP private này được sử dụng để cấu hình route từ Firewall đến Gateway. 
 **Các bước khởi tạo như sau:**
+
 Bước 1: Từ FPT Cloud portal, chọn Kubernetes. Chọn tab "Dedicated". Chọn Create. Nhập vào các thông tin mong muốn của cụm K8s. 
+
 Bước 2: Cấu hình Firewall, tick vào mục Enable Firewall. 
 [![file](/img/migrated/image-1691469995783-e893b090.png)](/img/migrated/image-1691469995783-e893b090.png)
+
 Bước 3: Nhập vào Thông tin của Firewall, bao gồm: IP Gateway, IP Public và Private của Checkpoint.
+
 Bước 4: Ấn Create, kiểm tra lại các thông tin và ấn Agree để tiến hành khởi tạo. 
+
 Bước 5: Theo dõi trạng thái khởi tạo cụm K8s. Sau khi trạng thái Successed (Running) thì tiến hành sử dụng, triển khai ứng dụng.

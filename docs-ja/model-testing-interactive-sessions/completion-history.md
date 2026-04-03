@@ -10,6 +10,7 @@ sidebar_position: "15"
 
 Completion history allows you to view and manage the past completions. It helps track previous messages, responses, and session details for review or reuse.
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/05/Completion-history.png)](https://fptcloud.com/wp-content/uploads/2025/05/Completion-history.png)
+
 ### Accessing completion history
   1. Navigate to the **Completion History** tab in your interface. This page displays a list of all your current and past completions.
   2. You can **browse** through the list or use the **search bar** to find specific completions using:
@@ -35,6 +36,7 @@ To remove a completion from your history:
   2. Confirmation popup show to confirm the deletion
 
 **Notice:** Deleted completions are **permanently removed** and cannot be recovered.
+
 ### Download all completions
 To export your entire completion history:
   1. Click the **Download** button

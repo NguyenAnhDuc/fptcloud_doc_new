@@ -10,6 +10,7 @@ pagination_next: null
 # Sni Load Balancer
 
 Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho phép một Listener phục vụ nhiều tên miền (hostname) khác nhau bằng cách ánh xạ từng tên miền với một chứng chỉ SSL/TLS cụ thể. Tính năng này giúp tiết kiệm tài nguyên, hỗ trợ triển khai đa miền và tăng cường bảo mật cho các dịch vụ HTTPS.
+
 ### Cách hoạt động
   * Khi một client gửi yêu cầu HTTPS đến Load Balancer, trình duyệt hoặc ứng dụng sẽ đính kèm tên miền (SNI hostname) vào trong giai đoạn bắt tay SSL.
   * Load Balancer sẽ đọc thông tin hostname từ SNI và chọn chứng chỉ SSL tương ứng được cấu hình sẵn cho hostname đó.
@@ -70,6 +71,7 @@ Policy3 - Rule:
 ```
 
 **Bước 3** : Lưu lại các thay đổi và truy cập tới các domain để kiểm tra Load balancer đã redirect request đúng chưa
+
 ### Lưu ý
   * **Client phải hỗ trợ SNI** : Đa số trình duyệt và công cụ hiện nay đều hỗ trợ SNI. Một số client cũ (như curl bản rất cũ hoặc thiết bị IoT) có thể không hỗ trợ.
   * **Chứng chỉ SSL cần hợp lệ** và đúng với hostname.

@@ -14,5 +14,6 @@ sidebar_position: 16
 [![](/img/migrated/Picture31-f3d03b46.png)](/img/migrated/Picture31-f3d03b46.png)
 **Bước 3** : Chọn tab **Advanced** , bạn có thể thay đổi Storage size của *_NFS Server_ bằng cách chọn icon Setting ở config tương ứng.
 [![](/img/migrated/Picture48-973e4b67.png)](/img/migrated/Picture48-973e4b67.png)
+
 Bước 4: Nhập dung lượng cần tăng thêm > Chọn **Extend** để thực hiện tăng dung lượng storage.
 [![](/img/migrated/Picture49-e1270d21.png)](/img/migrated/Picture49-e1270d21.png)

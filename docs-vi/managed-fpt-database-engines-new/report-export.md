@@ -10,10 +10,12 @@ sidebar_position: 42
 
 Tính năng **Xuất báo cáo thủ công (Report Export)** cho phép người dùng trích xuất dữ liệu thống kê về các hoạt động backup (sao lưu) dữ liệu của cụm cơ sở dữ liệu theo khoảng thời gian tùy chọn ngay tại thời điểm thực hiện chức năng. Báo cáo giúp người dùng theo dõi lịch sử backup, đánh giá trạng thái thực hiện, phục vụ kiểm tra vận hành hoặc lưu trữ nội bộ.
 Để thực hiện xuất file báo cáo backup, người dùng thực hiện các bước sau:
+
 ### Bước 1: Truy cập chức năng
 Người dùng truy cập **Database Platform** trên thanh menu và chọn menu **Advanced Features** -> Click button **Go to Reporting** để mở màn hình **Reporting**.
 [![](/img/migrated/B1-c0322d1a.png)](/img/migrated/B1-c0322d1a.png)
 Tại màn hình **Advanced Features** , tiếp tục click button **Go to Reporting** để mở màn hình **Reporting**. Khi giao diện **Reporting** hiển thị, chọn tab **Report Export** để truy cập tính năng xuất báo cáo thủ công.
+
 ### Bước 2: Nhập điều kiện filter
 Tại màn hình **Reporting** , người dùng nhập các điều kiện để xuất dữ liệu báo cáo.
 [![](/img/migrated/B2-ee06829e.png)](/img/migrated/B2-ee06829e.png)
@@ -58,6 +60,7 @@ Mô tả các trường thông tin hiển thị trong bảng **Report Preview** 
 | Backup State  | Hiển thị trạng thái chạy job backup ("successfull" - chạy job backup thành công và "deleted" - job chạy thành công và đã bị xoá)  |  
 | Start Time  | Hiển thị thời gian bắt đầu backup dữ liệu  |  
 | Finish Time  | Hiển thị thời gian thời gian hoàn thành backup dữ liệu  |  
+
 ### Bước 4: Export báo cáo
 Sau khi đã nhập tất cả trường thông tin đầy đủ và hợp lệ, người dùng click button **Export** để xuất báo cáo dưới dạng file csv và tự động download file về máy local của người dùng. File báo cáo backup database được tải xuống sẽ bao gồm các thông tin sau:
   * Tên file report: theo định dạng {reportType}{vpcName}{exportTime}, trong đó: 

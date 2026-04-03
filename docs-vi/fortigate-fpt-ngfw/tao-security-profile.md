@@ -14,6 +14,7 @@ sidebar_position: 7
 **Bước 2:** Tạo mới một Profile hoặc có thể dùng Profile có sẵn của **Fortigate**.  
 ![Userguide Fortigate FPT NGFW 2022 14](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-14-102-d5b64418.png)  
 Tùy chọn các **Giao Thức Inspected** , **Feature** và **Action**.
+
 ## Web Filter
 **Bước 1:** **Security Profiles** > **Web Filter**.
 ![Userguide Fortigate FPT NGFW 2022 15](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-15-102-5d2b8463.png)
@@ -27,6 +28,7 @@ Bật **URL Filter** > **Create New.**
 
 ![Userguide Fortigate FPT NGFW 2022 18](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-18-102-0730e9d9.png)
 ![Userguide Fortigate FPT NGFW 2022 19](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-19-17350cd9.png)
+
 ## Application Control
 **Bước 1:** **Security Profiles** > **Application Control.**
 ![Userguide Fortigate FPT NGFW 2022 20](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-20-102-4e4f0eba.png)
@@ -35,6 +37,7 @@ Bật **URL Filter** > **Create New.**
 ![Userguide Fortigate FPT NGFW 2022 22](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-22-102-568d50f4.png)
 **Bước 3:** Sử dụng các signature có sẵn hoặc tạo mới **Create New** > **Custom Application Signature**.
 ![Userguide Fortigate FPT NGFW 2022 23](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-23-102-8c16436a.png)
+
 ## Intrusion Prevention – IPS
 **Bước 1:** **Security Profiles** > **Intrusion Prevention**.
 ![Userguide Fortigate FPT NGFW 2022 24](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-24-102-a9517010.png)
@@ -43,6 +46,7 @@ Bật **URL Filter** > **Create New.**
 ![Userguide Fortigate FPT NGFW 2022 26](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-26-102-c379afe0.png)
 **Bước 3:** Sử dụng các IPS signature có sẵn hoặc tạo mới **IPS Signature and Filter** > **Create New.**
 ![Userguide Fortigate FPT NGFW 2022 27](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-27-102-ccc83cc5.png)
+
 ## WebApplication FireWall – WAF
 **Bước 1:** **Security Profiles** > **Web Application FireWall**  
 ![Userguide Fortigate FPT NGFW 2022 28](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-28-102-3da9bc27.png)  

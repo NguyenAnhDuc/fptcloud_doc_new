@@ -25,6 +25,7 @@ With the **Edit Object Permissions** feature on the FPT Portal, there are two ma
 [![file](/img/migrated/image-1690858053759-049e0946.bin)](/img/migrated/image-1690858053759-049e0946.bin)
 **Step 3:** Select the display mode in the **Read permission** box, then choose **Update.**
 [![file](/img/migrated/image-1690858061046-6112eb1e.bin)](/img/migrated/image-1690858061046-6112eb1e.bin)
+
 # Bucket Permissions (Bucket ACL)
 Bucket permissions (ACL) allow you to manage access rights to a bucket. There are two basic permissions defined: Public and Private.
   * **Public:** Listing all objects in the bucket will be displayed to everyone, including Anonymous Users on the Internet. All they need is the bucket link, and they will have the right to list all objects.
@@ -41,6 +42,7 @@ To configure Bucket permissions (ACL), follow these steps:
 If you want to change permissions for all subfolders and objects inside the bucket simultaneously, check **Apply for all subfolders and objects.**
 > **Note:** Processing time will depend on the number of objects. The more objects, the longer the processing time.
 [![file](/img/migrated/image-1690878437407-662f85da.bin)](/img/migrated/image-1690878437407-662f85da.bin)
+
 # Configure Bucket Policy
 Bucket Policy is a feature that allows you to manage access rights to a specific bucket. It provides a tool for users to set permissions for sub-users and other users.
 Bucket Policy is written in JSON format following AWS standards. You can use the AWS policy generator tool here: [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)

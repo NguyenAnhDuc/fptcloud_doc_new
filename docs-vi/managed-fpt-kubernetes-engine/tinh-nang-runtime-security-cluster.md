@@ -84,17 +84,22 @@ Kết quả sau khi Disable Falco UI:
 **D**. Tích hợp Runtime Security Event Notification
 **1. Telegram**
 1.1. Enable Runtime Security Event Notification
+
 Bước 1: Đăng nhập Telegram, search BotFather
 ![](/img/migrated/Picture26-2-9f59ef7d.png)
+
 Bước 2: Nhập /newbot và tiến hành đặt tên cho bot
 ![](/img/migrated/Picture27-2-6ee2ba65.png)
+
 Bước 3: Tạo group chat để nhận thông báo
 ![](/img/migrated/Picture28-2-f21f0f24.png)
 ![](/img/migrated/Picture29-2-89f24d13.png)
 ![](/img/migrated/Picture30-2-e9df26be.png) ![](/img/migrated/Picture31-2-c9402508.png)
 ![](/img/migrated/Picture32-2-b4cf9d92.png)
+
 Bước 4: Trên Unify portal, thực hiện enable Runtime Security Event Notification
 ![](/img/migrated/Picture33-2-710ec259.png)
+
 Bước 5: Chọn kênh nhận cảnh báo là Telegram, nhập ChatID và Token ID sau đó bấm Confirm
 ![](/img/migrated/Picture34-2-bdf2572f.png)
 Kết quả sau khi cấu hình xong:
@@ -103,11 +108,14 @@ Khi phát hiện sự bất thường, telegram của người dùng sẽ nhận
 ![](/img/migrated/Picture36-2-b799e46e.png)
 1.2 Thay đổi kênh nhận thông báo qua Gmail
 Lưu ý: Trước khi tạo Application Token cho Gmail, cần phải bật tính năng "Xác minh 2 bước" trên Tài khoản Google của mình.
+
 Bước 1: Truy cập [Link](https://accounts.google.com/v3/signin/challenge/pwd?TL=AKeb6mwAuh3qaC1eKc7XewCMQU6V6lDuv3Om7ECAlm5R3MUftowOoR4MX-XbD84l&cid=3&continue=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4OQmf3KJ7gkSxhbmm5DqwRFDxwc3wwtSlkg1jrKcUHx_TMi-BUsKmUREmg-JFjF-YQ6g1k7h68AIjbt4iHygIAU-91TEcQff78-lVDMW66UknnWR6s&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords%3Fpli%3D1%26rapt%3DAEjHL4OQmf3KJ7gkSxhbmm5DqwRFDxwc3wwtSlkg1jrKcUHx_TMi-BUsKmUREmg-JFjF-YQ6g1k7h68AIjbt4iHygIAU-91TEcQff78-lVDMW66UknnWR6s&ifkv=Ab5oB3ob8hiIojOpjbbdnRQCMUP-nN9e1JkarHYVPJC5rqHF2C0uV-5LfGO3o3CngznWNb750rsr&osid=1&rart=ANgoxcdw5cHl3-8KJUueNT-AOeg1uh0cFuqiMIYcsOFhdFZ3OLrYh76YA6MaQzOzIUzWMD0eRq9U2sOrd54eBwDGwp59FrpO-d9ALceCMK6WKkSUeohZqCs&rpbg=1&service=accountsettings) để tạo Application Token 
 ![](/img/migrated/Picture37-2-80332a4a.png)
 ![](/img/migrated/Picture38-2-c92796bc.png)
+
 Bước 2: Chọn Edit Runtime
 ![](/img/migrated/Picture39-1-b7ff93b3.png)
+
 Bước 3: Nhập thông tin để nhận thông báo qua Gmail và bấm Confirm
 ![](/img/migrated/Picture40-1-517093c1.png)
 Kết quả sau khi cấu hình xong:

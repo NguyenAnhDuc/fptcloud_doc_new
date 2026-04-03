@@ -14,6 +14,7 @@ Trong hướng dẫn này, chúng ta đang sử dụng Deepseek-R1-Distill-Qwen-
 Hãy nhớ thay thế giá trị Hugging Face token của bạn vào trường HF_TOKEN.
 ![Alt text](/img/migrated/vllm2-f52567f6.png)
 ![Alt text](/img/migrated/Screenshot-2025-05-29-at-09.08.47-2425298a.png)
+
 ## Bước 2: Kiểm tra bằng Postman. Sử dụng API_Token đã thêm ở Bước 1 để xác thực
 
 ```

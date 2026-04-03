@@ -1,5 +1,5 @@
 ---
-id: "モデルテスト"
+id: "model-testing"
 title: "Kiểm thử mô hình"
 description: "Tài liệu tổng hợp về tính năng Kiểm thử mô hình"
 sidebar_label: "Kiểm thử mô hình"

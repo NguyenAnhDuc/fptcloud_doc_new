@@ -71,6 +71,7 @@ Copy   resource "openstack_networking_router_v2" "router_1" {
 | `name`  | Name of vRouter  |   |  
 | `external_network_id`  | ID of external gateway, a router with an external gateway is required if any compute instances or load balancers will be using floating IPs.  |   |  
 | ...  |   |   |  
+
 #### 2. [Network](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_network_v2)
 
 ```
@@ -125,6 +126,7 @@ Copy    resource "openstack_networking_network_v2" "network_1" {
 | `name`  | Name of network.  | string  |   | Yes  |  
 | `shared`  | Specifies whether the network resource can be accessed by any tenant or not.  | bool  | false  | No  |  
 | ...  |   |   |   |   |  
+
 #### 3. [Subnet](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_subnet_v2)
 
 ```
@@ -151,6 +153,7 @@ Copy   resource "openstack_networking_network_v2" "network_1" {
 | `dns_nameservers`  | List of DNS server of subnet.  | list  |   | No  |  
 | `prefixlen`  | Prefix length of subnet.  | int  |   | No  |  
 | ...  |   |   |   |   |  
+
 #### 4. [Port](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_port_v2)
 
 ```
@@ -175,6 +178,7 @@ Copy    resource "openstack_networking_network_v2" "network_1" {
 | `allowed_address_pairs`  | An IP/MAC Address pair of additional IP addresses that can be active on this port.  | list  |   | No  |  
 | `security_group_ids`  | A list of security group IDs to apply to the port.  | list  |   | No  |  
 | ...  |   |   |   |   |  
+
 #### 5. [FloatingIP](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_floatingip_v2)
 
 ```
@@ -190,6 +194,7 @@ Copy    resource "openstack_networking_floatingip_v2" "floatip_1" {
 | `fixed_ip`  | Fixed IP of the port to associate with this floating IP.  | string  |   | No  |  
 | `description`  | Human-readable description for the floating IP.  | string  |   | No  |  
 | ...  |   |   |   |   |  
+
 #### 6. [Security Group](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_secgroup_v2)
 
 ```
@@ -205,6 +210,7 @@ Copy    resource "openstack_networking_secgroup_v2" "secgroup_1" {
 | `description`  | Human-readable description for the security group.  | string  |   | No  |  
 | `tenant_id`  | The owner of the security group. Required if admin wants to create a port for another tenant.  | string  |   | No  |  
 | ...  |   |   |   |   |  
+
 #### 7. [Security Group Rule](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/networking_secgroup_rule_v2)
 
 ```
@@ -236,6 +242,7 @@ Copy    resource "openstack_networking_secgroup_v2" "secgroup_1" {
 | `port_range_max`  |   | int  |   | No  |  
 | `description`  | A description of the rule.  | string  |   | No  |  
 | ...  |   |   |   |   |  
+
 ### B. Storage
 #### 1. [Volume](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/blockstorage_volume_v3)
 
@@ -259,6 +266,7 @@ Copy    resource "openstack_blockstorage_volume_v3" "volume_1" {
 | `image_id`  | The image ID from which to create the volume.  | string  |   | No  |  
 | `volume_type`  | The type of volume to create.  | string  |   | No  |  
 | ...  |   |   |   |   |  
+
 ### C. Compute
 #### 1. [Instance](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs/resources/compute_instance_v2)
 
@@ -302,6 +310,7 @@ resource "openstack_compute_volume_attach_v2" "attached" {
 | block_device  | Configuration of block devices.  | list  |   | No  |   |  
 | availability_zone  |  The availability zone in which to create the server.  | string  |   | No  |   |  
 | ...  |   |   |   |   |   |  
+
 ## Example
 This section focus on show up the actual use case of FPT Cloud Iac by using terraform to deploy new Web Application on FPT Cloud, the step described as the following:
   * Setting up terraform

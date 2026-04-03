@@ -11,6 +11,7 @@ sidebar_position: 29
 [![](/img/migrated/64-1-9863061f.png)](/img/migrated/64-1-9863061f.png)
 This is a reference system architecture model for deploying **Micro-services** applications on FPT Cloud with **FPT Kubernetes Engine**. This architecture model is based on basic design principles of components such as network, security, and high availability.
 FPT Cloud provides products in the form of Services, such as API Management, FMON, Container Registry, and Key Vault. These services are placed in a VPC managed by FPT Cloud.
+
 ## Network Topology:
 The network model is divided into separate subnets for each component to facilitate easier management, and firewalls can be placed between subnets to enhance security.
   * Subnet for **Database** Nodes: Typically, this subnet will not have internet access. Access is restricted from the Kubernetes subnet with limited ports based on Databases.
@@ -65,6 +66,7 @@ The network model is divided into separate subnets for each component to facilit
   * To avoid reducing too many pods, which can cause service interruptions, set PDB to limit the number of pods that can be terminated (possibly during node scale-down or application deployment). 
 
 _For example_ , if you set the replica to 05 and expect that at any given time only 02 Pods are allowed to terminate, leaving 03 Pods running to ensure good application responsiveness, you can configure PodDisruptionBudget with minAvailable set to 3.
+
 ### 9. Use Persistent Volume:
   * FKE supports **Block** and **File Storage**.
   * **Block Storage** is the default choice for the system, supporting RWO, responding well to performance according to Storage Policy.

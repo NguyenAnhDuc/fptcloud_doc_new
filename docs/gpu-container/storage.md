@@ -16,6 +16,7 @@ GPU Container provides High-Performance Storage (HPS) remaining for the duration
 
 ## Temporary Disk
 Temporary disk (NVMe) is a type of storage that provides temporary storage for a container. Any data stored on the temporary disk will be lost when the container is stopped or deleted so make sure to back up important data before shutting down your container. 
+
 ## Storage type comparison  
 | Feature  | Temporary Disk  | Persistent Disk  |  
 | --- | --- | --- |  

@@ -10,6 +10,7 @@ sidebar_position: 44
 
 This section presents database performance benchmark results performed using the Sysbench tool, aiming to provide a reference for the processing capabilities of database engines across different compute configurations (flavors).
 The results are provided for reference purposes only and do not represent guaranteed performance.
+
 ### 1. Benchmark Sysbench Overview
 **Purpose:**
   * Evaluate OLTP (Read/Write) performance of supported database engines.
@@ -25,6 +26,7 @@ The database engines are included in this benchmark: PostgreSQL, MySQL, and Mari
   * **TPS (Transactions Per Second)** : Average number of completed transactions per second.
 
 Higher QPS and TPS values indicate higher throughput under the tested workload.
+
 ### 2. Benchmark Results by Database Engine
 #### 2.1. PostgreSQL
 **Test environment:**  
@@ -46,6 +48,7 @@ Higher QPS and TPS values indicate higher throughput under the tested workload.
 | 8C32G  | 64  | 5679842  | 1622732  | 13519.46  | 675.94  |  
 | 16C32G  | 64  | 6448036  | 1842199  | 15350.46  | 767.49  |  
 | 16C64G  | 64  | 6926948  | 1979031  | 16489.02  | 824.41  |  
+
 #### 2.2. MySQL
 **Test environment:**  
 | Parameter  | Value  |  
@@ -63,6 +66,7 @@ Higher QPS and TPS values indicate higher throughput under the tested workload.
 | 8C16G  | 32  | 9748144  | 2785184  | 23209.29  | 1160.46  |  
 | 8C32G  | 32  | 9423834  | 2692524  | 22430.67  | 1121.53  |  
 | 16C32G  | 64  | 9786238  | 2796068  | 23289.48  | 1164.47  |  
+
 #### 2.3. MariaDB
 **Test environment:**  
 | Parameter  | Value  |  
@@ -81,6 +85,7 @@ Higher QPS and TPS values indicate higher throughput under the tested workload.
 | 8C32G  | 32  | 8491182  | 2086388  | 20216.52  | 1010.83  |  
 | 16C32G  | 64  | 10267208  | 2568032  | 24444.58  | 1222.23  |  
 | 16C64G  | 64  | 10789884  | 2719241  | 25688.30  | 1284.42  |  
+
 ### 3. Analysis & Recommendations
   * Increasing CPU and memory generally improves throughput.
   * Each database engine exhibits different scaling characteristics.

@@ -10,6 +10,7 @@ sidebar_position: "17"
 
 ### 1. What is Model Testing - Interactive Sessions?
 Model Testing - Interactive Sessions is a service in the FPT AI Factory Portal that allows users to **test and validate fine-tuned AI models** in real-world scenarios through a chat-like interface.
+
 ### 2. When should I use Model Testing - Interactive Sessions?
 Use them when you want to:
   * Simulate real user interactions
@@ -30,6 +31,7 @@ Only model that meet these criteria:
 
 ### 5. Can I restart a stopped session?
 No. Once stopped, a session cannot be restarted. You must create a new one.
+
 ### 6. What is the Playground?
 The Playground is where you:
   * Chat with the model

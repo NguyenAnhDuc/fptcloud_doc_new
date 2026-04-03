@@ -10,6 +10,7 @@ sidebar_position: "16"
 
 **Notice:** Get API Endpoint is enabled when session's status is **RUNNING**
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/05/Get-API-Endpoint.png)](https://fptcloud.com/wp-content/uploads/2025/05/Get-API-Endpoint.png)
+
 ### Step 1: Get the required information
 We offer:  
 | Objects  | Description  |  
@@ -27,6 +28,7 @@ We offer:
 - Model ID  
 - Messages (system, user, assistant)  
 - Temperature  |  
+
 ### Step 2: Choose your intergration platform
 ### Step 3: Send a Request to the API
 Here's an example using Python:

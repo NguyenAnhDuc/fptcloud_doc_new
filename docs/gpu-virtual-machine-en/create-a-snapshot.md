@@ -10,6 +10,7 @@ sidebar_position: 14
 
 **Snapshots** are on-demand **disk images** of **GPU VMs** and **volumes** saved to your account. You can use them to **create new GPU VMs** and **volumes** with the same contents. 
 Note: This feature only supports **GPU VMs using Block Storage – Persistent Disk**. 
+
 ### Create a Snapshot
 The **snapshot** feature allows you to capture the **current state of a virtual machine** , enabling quick recovery or rollback in case of system changes or failures. 
 [![Alt text](/img/migrated/Create-a-Snapshot-1-6cd88936.png)](/img/migrated/Create-a-Snapshot-1-6cd88936.png)
@@ -18,6 +19,7 @@ The **snapshot** feature allows you to capture the **current state of a virtual 
 **Step 3:** Create an **instance snapshot** by entering a **snapshot name** and **tag** (optional). 
 The snapshot that has been created will appear in the **Snapshot** section. 
 [![Alt text](/img/migrated/Create-a-Snapshot-2-28d60c6a.png)](/img/migrated/Create-a-Snapshot-2-28d60c6a.png)
+
 ### Use a Snapshot
 [![Alt text](/img/migrated/Create-a-Snapshot-3-f015bb9d.png)](/img/migrated/Create-a-Snapshot-3-f015bb9d.png)
 **Step 1:** Open the **Snapshot** section from the **Side menu**. 

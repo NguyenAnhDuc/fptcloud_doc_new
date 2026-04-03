@@ -9,24 +9,30 @@ sidebar_position: 36
 # Vertical Scaling
 
 Chức năng **Vertical Scaling** cho phép tự động điều chỉnh tài nguyên của cơ sở dữ liệu bao gồm vCPU, RAM và Storage theo thời gian thực, dựa trên yêu cầu hiệu suất hoặc mức độ sử dụng thực tế. Tính năng này giúp hệ thống chủ động mở rộng tài nguyên khi cần thiết, đảm bảo tính linh hoạt, hiệu quả vận hành và không yêu cầu can thiệp thủ công từ người dùng.
+
 ### Quyền cần thiết:  
 | Tên quyền  | Loại thao tác  | Mô tả  |  
 | --- | --- | --- |  
 | manageDatabase:Configuration  | Edit  | Quyền thay đổi cấu hình cơ sở dữ liệu (parameter, cấu hình scaling, ...)  |  
+
 ### 1. Kích hoạt dịch vụ Vertical Scaling
 Để kích hoạt dịch vụ Vertical Scaling, bạn có thể thực hiện trực tiếp trong bước cấu hình dịch vụ bổ sung (Additional Service) khi khởi tạo cơ sở dữ liệu (xem chi tiết tại mục [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md)) hoặc kích hoạt sau khi cơ sở dữ liệu đã được khởi tạo thành công theo hướng dẫn dưới đây.
+
 #### Điều kiện tiên quyết:
 Để kích hoạt Vertical Scaling, bạn bắt buộc phải bật dịch vụ Notification và hoàn tất cấu hình danh sách Email hoặc Telegram để nhận cảnh báo liên quan đến hoạt động scale. Nếu Notification chưa được cấu hình, hệ thống sẽ hiển thị hộp thoại yêu cầu cấu hình trước khi tiếp tục.
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
 Nhấn **Go to Notification** để chuyển đến tab **Notification** và thực hiện cấu hình theo hướng dẫn tại mục [Notification](../managed-fpt-database-engines-new/index.md).
+
 #### Bước 1: Truy cập chức năng Vertical Scaling
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn "**Database Platform** " > "**All Databases** ". Nhấn vào ID của database cluster cần quản lý > chuyển sang tab **Vertical Scaling** để truy cập trang quản lý cấu hình Vertical Scaling. Nếu dịch vụ chưa được kích hoạt, màn hình **Vertical Scaling** sẽ hiển thị trạng thái ban đầu (**Inactive**).
 [![](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)](/img/migrated/vertical-scaling-inactive-scaled-d7dc0524.png)
+
 #### Bước 2: Kích hoạt dịch vụ
 Sau khi database cluster được tạo thành công, nếu Vertical Scaling chưa được kích hoạt, trạng thái dịch vụ sẽ là **Inactive**. Nhấn vào biểu tượng **Enable Vertical Scaling** (biểu tượng bánh răng) tại mục **Service Information** để mở hộp thoại xác nhận.
 Nhấn **Confirm** trên hộp thoại để kích hoạt dịch vụ. Sau khi hoàn tất, dịch vụ sẽ chuyển sang trạng thái **Active** như sau:
 [![](/img/migrated/scaling-enabled-scaled-c48b62a6.png)](/img/migrated/scaling-enabled-scaled-c48b62a6.png)
 Sau khi kích hoạt, bạn cần thiết lập các ngưỡng tài nguyên CPU/RAM hoặc Storage làm căn cứ để hệ thống tự động mở rộng tài nguyên. Chi tiết được trình bày tại mục 2 và mục 3.
+
 ### 2. Thiết lập mở rộng tài nguyên compute
 Trên màn hình **Vertical Scaling** , nhấn **Add Flavor Scaling** (biểu tượng dấu cộng) trong mục**Compute Scaling** , hệ thống sẽ hiển thị hộp thoại **Add Compute Scaling** để cấu hình tự động mở rộng vCPU và RAM cho cơ sở dữ liệu.
 [![](/img/migrated/add-compute-scaling-1-scaled-8921f622.png)](/img/migrated/add-compute-scaling-1-scaled-8921f622.png)

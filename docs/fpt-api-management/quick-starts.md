@@ -27,6 +27,7 @@ After a successful initialization of the account, users will be automatically re
 [![](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)](/img/migrated/Userguide-FPT-API-Management-4-1024x538-56046d89.png)
 Alternatively, to access the **ApiManager Application** administration page, you can navigate to the **API Management** page and click **Start** on the instance you would like to access.
 [![](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)](/img/migrated/Userguide-FPT-API-Management-5-1024x258-06e7b130.png)
+
 ### 2. Creating a REST API
 After a successful registration of the service, every **API Management** configuration will be executed entirely within the **ApiManager Application**. You need to declare the APIs that require management within the system for centralized administration.
 **Step 1** : From the application menu, navigate to **Application** > **API Manager** > **Rest APIs**. Click **Create**.
@@ -43,6 +44,7 @@ _**Note** : The security method cannot be changed after creation, so please be c
 [![](/img/migrated/Userguide-FPT-API-Management-7-1024x538-a0a559fa.png)](/img/migrated/Userguide-FPT-API-Management-7-1024x538-a0a559fa.png)
 **Step 3** : Click **OK** to initialize the REST API.
 [![](/img/migrated/Userguide-FPT-API-Management-8-1024x538-c2bb67f9.png)](/img/migrated/Userguide-FPT-API-Management-8-1024x538-c2bb67f9.png)
+
 ### 3. Creating a Product
 A **Product** is an entity used to group multiple APIs together (due to shared usage purposes, shared clients, etc.). Instead of configuring each API separately, you only need to configure a single **Product**.
 **Step 1** : From the menu, navigate to **Application** > **API Manager** > **Products**. Click **Create**.
@@ -55,6 +57,7 @@ A **Product** is an entity used to group multiple APIs together (due to shared u
 [![](/img/migrated/Userguide-FPT-API-Management-10-1024x538-5c96395a.png)](/img/migrated/Userguide-FPT-API-Management-10-1024x538-5c96395a.png)
 **Step 3** : Click **OK** to create the Product.
 [![](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)
+
 ### 4. Attach APIs to a Product
 To attach an API to a Product, follow these steps:
 **Step 1** : In **Product Management** , select the Product to which you want to attach an API. Click **Register API**.
@@ -85,6 +88,7 @@ If you're using the **Pilot** or **Normal** package, a default site is provided 
 [![](/img/migrated/Userguide-FPT-API-Management-17-1024x538-c8843ff5.png)](/img/migrated/Userguide-FPT-API-Management-17-1024x538-c8843ff5.png)
 **Step 3** : Click **OK** to create the Site.
 [![](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)](/img/migrated/Userguide-FPT-API-Management-18-1024x538-c20fb585.png)
+
 ### 6. Staging Product
 Once you have your Products and Sites, to begin using them, you need to stage (place) the product into the corresponding site.
 To assign a product to a site, follow these steps:
@@ -112,6 +116,7 @@ To publish a Product, follow these steps:
 [![](/img/migrated/Userguide-FPT-API-Management-24-1024x558-b953da5f.png)](/img/migrated/Userguide-FPT-API-Management-24-1024x558-b953da5f.png)
 **Step 3** : Choose the Product to be Published > click **Publish**.
 [![](/img/migrated/Userguide-FPT-API-Management-25-1024x556-cd93e7e6.png)](/img/migrated/Userguide-FPT-API-Management-25-1024x556-cd93e7e6.png)
+
 ### 8. Creating new Consumers
 Consumers are end-users utilizing the API, with permission to use the APIs declared in authorized Products.
 To create a Consumer, follow these steps:
@@ -135,6 +140,7 @@ To create a Consumer, follow these steps:
 
 **Step 3** : Click **OK** to create.
 [![](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)
+
 ### 9. Subscribe to a Product
 Once the Consumer is created, to use the APIs within a Product, the Consumer must subscribe to the Product.
 **Step 1** : In **Consumer Management** , select the Consumer and click **Product Subscription**.
@@ -146,6 +152,7 @@ Once the Consumer is created, to use the APIs within a Product, the Consumer mus
 **Step 4** : Click **OK**.
 [![](/img/migrated/Userguide-FPT-API-Management-32-1024x538-401df389.png)](/img/migrated/Userguide-FPT-API-Management-32-1024x538-401df389.png)
 The client can now use the APIs provided by the API Provider.
+
 ### 10. Receive Information from the API Provider
 To begin using the APIs, clients will need to acquire the following information:
   * **API Endpoint** : Provided according to the **Get Product Endpoint** instructions.

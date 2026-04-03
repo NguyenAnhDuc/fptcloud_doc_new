@@ -9,6 +9,7 @@ sidebar_position: 10
 # Logs And Monitoring
 
 GPU Container cung cấp **logs container** và **metrics** để giúp bạn giám sát và khắc phục sự cố workload. Để xem logs và metrics, bạn mở màn hình Chi tiết Container, chọn tab Logs hoặc Monitoring. Tính năng này giúp dễ dàng chẩn đoán sự cố hoặc theo dõi hoạt động của container.
+
 ## Logs Container
 Logs container bao gồm tất cả logs ứng dụng. Lưu ý rằng logs chỉ được lưu trong 14 ngày và dấu thời gian hiển thị theo múi giờ UTC. [![Alt text](/img/migrated/Logs_screen-6445c59e.png)](/img/migrated/Logs_screen-6445c59e.png)
   1. Download: Tải xuống logs trong 14 ngày gần nhất của container.

@@ -20,12 +20,14 @@ sidebar_position: 7
 **Step 3** : Click **OK** to create the Product.
 [![](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)](/img/migrated/Userguide-FPT-API-Management-11-1024x538-93a6a17c.png)
 If the **Create** button is disabled, check your API Management service package. For the **Pilot** and **Normal** packages, only a maximum of 1 Product can be created in the system.
+
 ### 2. Edit Product Information
 To modify the information about a Product, follow these steps:
 **Step 1** : In **Product Management** , choose the Product to modify > **Edit**.
 [![](/img/migrated/Userguide-FPT-API-Management-42-1024x538-10a13d66.png)](/img/migrated/Userguide-FPT-API-Management-42-1024x538-10a13d66.png)
 **Step 2** : Enter new information and click **OK**.
 [![](/img/migrated/Userguide-FPT-API-Management-43-1024x538-26ece1a3.png)](/img/migrated/Userguide-FPT-API-Management-43-1024x538-26ece1a3.png)
+
 ### 3. Attach APIs to a Product
 To attach an API to a Product, follow these steps:
 **Step 1** : In **Product Management** , select the Product to which you want to attach an API > Click **Register API**.
@@ -48,6 +50,7 @@ To detach an API from a Product, follow these steps:
 [![](/img/migrated/Userguide-FPT-API-Management-44-1024x538-ce6ff282.png)](/img/migrated/Userguide-FPT-API-Management-44-1024x538-ce6ff282.png)
 **Step 3** : Click **Yes** to confirm.
 [![](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)](/img/migrated/Userguide-FPT-API-Management-45-426f4f56.png)
+
 ### 5. Delete a Product
 To delete a previously declared Product from the system, ensure the Product has no REST APIs associated. To remove REST APIs from a Product, follow the instructions in the **Detach APIs from a Product** section.
 To delete a Product, follow these steps:

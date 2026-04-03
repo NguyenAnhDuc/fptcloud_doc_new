@@ -28,6 +28,7 @@ LBv2: "Basic-1"  | Cấu hình flavor của LoadBalancer để đáp ứng tải
 | loadbalancer.fptcloud.com/x-forwarded-for  | "true"/"false"  | "false"  | Muốn forward header của request tới LoadBalancer pool backend khi sử dụng LoadBalancer layer7, cấu hình value là "true".   
 Chú ý: Không thể sử dụng proxy protocol và x-forwarded-for cùng một lúc  |  
 Ngoài ra, Managed GPU Cluster hỗ trợ người dùng cấu hình: 
+
 #### 1. Tạo service type LoadBalancer chỉ định floatingIP gắn vào LoadBalancer:
 
 ```
@@ -49,6 +50,7 @@ spec:
 ```
 
 Lưu ý: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
+
 #### 2. Giới hạn quyền truy cập vào Load Balancer bằng cấu hình _"loadBalancerSourceRanges"_ trong phần _"spec"_ của cấu hình service:
 
 ```

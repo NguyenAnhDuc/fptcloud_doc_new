@@ -14,6 +14,7 @@ sidebar_position: 7
   * A login dialog box will appear in the center of the screen.
 
 [![file](/img/migrated/image-1756379868688-c8bb05fd.png)](/img/migrated/image-1756379868688-c8bb05fd.png)
+
 ### **2. Sign in Options**
 You can sign in using one of the following methods:
   * **Continue with FPT ID** : Use your existing FPT account credentials to log in.
@@ -25,6 +26,7 @@ You can sign in using one of the following methods:
   * **Continue with Microsoft** : Use your Microsoft account to log in securely.
 
 [![file](/img/migrated/image-1756380229709-9aa75e66.png)](/img/migrated/image-1756380229709-9aa75e66.png)
+
 ### **3. Sign up for a New Account**
   * If you do not have an account, choose one of the available login options (FPT ID, Google, or Microsoft).
   * Complete the registration process as instructed.
@@ -38,6 +40,7 @@ After signing in, you will be redirected to the **AI Factory Dashboard** , where
   * Access pricing and billing
 
 [![file](/img/migrated/image-1756380788218-07094d0e.png)](/img/migrated/image-1756380788218-07094d0e.png)
+
 ### **5. Troubleshooting**
   * Ensure that your Google or Microsoft account is active if using external login methods.
   * For FPT ID login issues, reset your password through the **FPT account recovery page** (<https://id.fptcloud.com/>).

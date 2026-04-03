@@ -11,6 +11,7 @@ pagination_next: null
 
 ### 1. What is Model Fine-tuning?
 Model Fine-tuning is the process of retraining a base language model on a specialized dataset so that it performs better in a specific domain or for a targeted use case.
+
 ### 2. Which model should I choose for fine-tuning?
   * Small models (<=1B parameters) --> for testing or light workloads
   * Medium models (7B-13B) --> balanced performance and cost
@@ -24,6 +25,7 @@ It depends on:
   * Your hardware setup (hyperparameters & infrastructure)
 
 Typically, it ranges from a few hours to several days.
+
 ### 4. What do your need to prepare before fine-tuning a model?
 You'll need:
   * Clean, diverse, and non-duplicated data.

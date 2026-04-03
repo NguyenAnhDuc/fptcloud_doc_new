@@ -34,6 +34,7 @@ Ví dụ: [![Alt text](/img/migrated/Picture48-4adc6eb8.png)](/img/migrated/Pict
 **Bước 4** : Sau khi điền hết các thông tin, click **Create** để tạo
 Sau khi tạo thành công, component được hiển thị trong màn danh sách.
 **2, Update component**
+
 Bước 1: Menu chọn Component management >> Tại màn danh sách, ở cột Action, click button Update
 [![Alt text](/img/migrated/Picture17-7b5c3a89.png)](/img/migrated/Picture17-7b5c3a89.png)
 **Bước 2** : Thực hiện chỉnh sửa thông tin component. Các thông tin cho phép chỉnh sửa bao gồm:

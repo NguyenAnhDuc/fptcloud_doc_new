@@ -17,6 +17,7 @@ Main components include:
   * **Kubernetes Cluster** : Master Nodes (API, etcd) and Worker Nodes (App and Service)
 
 [![](/img/migrated/58-cf58bfc2.png)](/img/migrated/58-cf58bfc2.png)
+
 ### 2. Requirement rules for Kubernetes on Advanced Firewall
 The traffic flow to access the Kubernetes Nodes is as follows:
 [![](/img/migrated/59-0ffe8844.png)](/img/migrated/59-0ffe8844.png)
@@ -30,6 +31,7 @@ The traffic flow to access the Kubernetes Nodes is as follows:
 **NAT rule** planning table on Advanced Firewall for Kubernetes cluster:
 [![](/img/migrated/61-70f34366.png)](/img/migrated/61-70f34366.png)
 On the Gateway, there are still Firewall rules and NAT rules to ensure traffic flowing from the Gateway to the Firewall. These default rules are automatically created, and users must create rules for the application (optional) if needed.
+
 ### 3. Initialize a Kubernetes cluster with integrated Firewall
 #### Prerequisites:
   * **CPU, RAM, Storage** , and **Instance** quotas must be sufficient for the desired Cluster configuration.

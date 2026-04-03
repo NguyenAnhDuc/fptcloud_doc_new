@@ -10,6 +10,7 @@ pagination_next: null
 # Demo
 
 To connect to Kafka, you can refer to the detailed steps in the **Document** section from the menu.
+
 ### Part 1: Producer sends message to topic
 **Step 1** : Create a `producer.py` file
 [![](/img/migrated/demo1-ab8e9665.png)](/img/migrated/demo1-ab8e9665.png)
@@ -28,6 +29,7 @@ python .\producer.py
 The result should be as follows:
 [![](/img/migrated/demo3-f019af0a.png)](/img/migrated/demo3-f019af0a.png)
 If the output is correct, it means the producer has successfully sent messages to the partitions of the topic.
+
 ### Part 2: Consumer reads the sent message
 **Step 1** : First, create a `consumer.py` file
 [![](/img/migrated/demo4-bd2ed2a2.png)](/img/migrated/demo4-bd2ed2a2.png)

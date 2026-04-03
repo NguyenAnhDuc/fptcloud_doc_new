@@ -15,6 +15,7 @@ In case you have an account, you sign in to the **FPT AI Factory Portal** at <ht
 [![file](/img/migrated/Sign-in-c414053f.png)](/img/migrated/Sign-in-c414053f.png)
 After signing in successfully, you will be directed to the **AI Factory Portal**.
 [![file](/img/migrated/AI-Factory-Portal-e041e9d7.png)](/img/migrated/AI-Factory-Portal-e041e9d7.png)
+
 ### 2. For the user to sign a contract
 Create an FPT Cloud account at <https://ai.fptcloud.com/> or <https://ai.fptcloud.jp/>, click **Sign up** and fill in the required information to register an account. Then, check your email for instructions from FPT Smart Cloud (noreply@fptcloud.com) to complete the registration and verify your account.
 [![file](/img/migrated/Sign-up-debdda1c.png)](/img/migrated/Sign-up-debdda1c.png)

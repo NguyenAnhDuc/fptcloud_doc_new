@@ -9,9 +9,11 @@ sidebar_position: 11
 # Register Account
 
 Để bắt đầu sử dụng FPT Console Portal, bạn cần đăng ký một tài khoản mới. Hãy làm theo các bước dưới đây để hoàn tất quá trình đăng ký.
+
 ### Bước 1: Truy cập trang Đăng Ký
 Truy cập vào trang chủ FPT Cloud qua địa chỉ <https://fptcloud.com/> và nhấn vào nút **Đăng ký** để bắt đầu quá trình đăng ký tài khoản. Màn hình đăng ký sẽ hiển thị như sau:
 [![](/img/migrated/Signup-scaled-81d298a4.png)](/img/migrated/Signup-scaled-81d298a4.png)
+
 ### Bước 2: Nhập thông tin đăng ký
 Trên trang đăng ký, điền các thông tin sau:
   * **First Name** : Nhập tên của bạn.
@@ -28,10 +30,13 @@ Trên trang đăng ký, điền các thông tin sau:
 
 ### Bước 3: Hoàn tất xác minh CAPTCHA
 Để xác nhận bạn không phải là robot, hãy đánh dấu vào ô "I’m not a robot" và hoàn thành bài kiểm tra reCAPTCHA (nếu có).
+
 ### Bước 4: Chấp nhận Điều khoản và Chính sách bảo mật
 Đọc và chấp nhận _Điều khoản sử dụng và Chính sách bảo mật_ bằng cách đánh dấu vào ô.
+
 ### Bước 5: Xác nhận đăng ký
 Sau khi điền đầy đủ và xác nhận các thông tin, nhấn nút **Sign Up** để tạo tài khoản của bạn.
+
 ### Bước 6: Xác nhận tài khoản
 Bộ phận hỗ trợ FPT Cloud sẽ liên hệ với bạn để xác nhận thông tin và hoàn tất việc đăng ký tài khoản.
 Sau khi tài khoản của bạn được tạo thành công, bạn có thể đăng nhập vào FPT Console Portal và bắt đầu sử dụng các dịch vụ.

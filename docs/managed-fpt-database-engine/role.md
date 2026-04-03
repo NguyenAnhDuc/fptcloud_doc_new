@@ -11,8 +11,10 @@ sidebar_position: 13
 A Role is a core component of the IAM module on the FPT Cloud Portal. Role Management enables system administrators to define and assign roles with specific permissions to users when accessing the FPT Database Engine service.
 Using roles enhances security by enforcing fine-grained access control, supports the principle of least privilege, and enables clear separation of responsibilities based on operational requirements.
 The following steps provide detailed instructions on how to create a new Role and assign the required access permissions to that role.
+
 ### Step 1: Access the Role Management page
 Log in to the FPT Cloud Portal. After logging successfully, from the main menu, select **IAM** > **Roles**. The Role Management interface will display the list of existing roles, along with options to create, edit, or delete a role.
+
 ### Step 2: Create a new role
 On the Role Management page, click **Create role**. The **Create New Role** screen will appear as follows: [![](/img/migrated/Role-b2-b3c0a671.png)](/img/migrated/Role-b2-b3c0a671.png)
 Enter the basic information:

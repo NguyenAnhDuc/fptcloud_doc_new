@@ -14,6 +14,7 @@ sidebar_position: 12
 ![](/img/migrated/Picture31-f3d03b46.png)
 **Bước 3** : Tại tab **Node Pools** > **Auto Scale** chọn icon ![](/img/migrated/Picture32-9e7541e2.png)
 ![](/img/migrated/Picture33-042905c4.png)
+
 Bước 4: Màn hình **Auto Scale Nodes Of Cluster** hiện ra. Người dùng nhập các trường thông tin yêu cầu.
   * Min node/ Max node: Nhập số lượng worker nodes muốn thêm/bớt.
 

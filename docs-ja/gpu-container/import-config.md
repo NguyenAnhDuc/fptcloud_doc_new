@@ -9,11 +9,13 @@ sidebar_position: 6
 # Import Config
 
 迅速なデプロイや設定ファイルが既に準備されている場合、ユーザーインターフェースで設定するのではなく、この機能を使用してコンテナを作成できます。
+
 ### ステップ1：設定のインポートモーダルを開く
   1. サイドメニューからGPU Containerに移動します。
   2. コンテナ一覧ページの右上にある「設定のインポート」をクリックします。
 
 [![Alt text](/img/migrated/import-1-4a9b93de.png)](/img/migrated/import-1-4a9b93de.png)
+
 ### ステップ2：YAML形式の設定ファイルを提供する
 設定は2つの方法でインポートできます：
   * YAMLエディタに直接YAMLを貼り付けます。
@@ -47,6 +49,7 @@ sidebar_position: 6
 |  startup_commands |   |   |   |
 |  cmds | list[string] |   | 起動コマンド（オプション）。 |
 |  args | list[string] |   | 起動コマンドの引数（オプション）。 |
+
 ### ステップ3：設定を確認する
 [!(/img/migrated/information-fill-1-30ad0c7d.png)](/img/migrated/information-fill-1-30ad0c7d.png)
 **注意：** 「Review」ボタンはYAMLエディタ内のすべてのバリデーションが通過した場合にのみ有効になります。

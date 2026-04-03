@@ -22,8 +22,10 @@ Managed – FPT Database Engines
   2. Managed – FPT Database Engines
 
 Managed – FPT Database Engines
+
 ## Giới thiệu về FPT Database Engine
 FPT Database Engine là dịch vụ Managed Database (DBaaS) được cung cấp trên nền tảng FPT Cloud, cho phép người dùng triển khai, vận hành và quản trị cơ sở dữ liệu mà không cần trực tiếp quản lý hạ tầng vật lý hoặc các tác vụ vận hành phức tạp. Dịch vụ được thiết kế nhằm đảm bảo tính sẵn sàng cao (High Availability), khả năng mở rộng linh hoạt (Scalability), an toàn dữ liệu (Data Security) và vận hành ổn định, phù hợp cho các hệ thống nghiệp vụ từ môi trường thử nghiệm đến môi trường sản xuất.
+
 ## Các hệ quản trị cơ sở dữ liệu được hỗ trợ
 FPT Database Engine hỗ trợ nhiều hệ quản trị cơ sở dữ liệu phổ biến, đáp ứng đa dạng nhu cầu ứng dụng và kiến trúc hệ thống của doanh nghiệp, bao gồm:
   * **Relational Databases** : PostgreSQL, MySQL, MariaDB, Microsoft SQL Server
@@ -34,6 +36,7 @@ FPT Database Engine hỗ trợ nhiều hệ quản trị cơ sở dữ liệu ph
   * **OLAP** : Clickhouse
 
 Danh sách hệ quản trị và phiên bản cụ thể có thể thay đổi theo từng thời điểm và được công bố trên Console Portal.
+
 ## Tổng quan kiến trúc dịch vụ
 FPT Database Engine được triển khai trên hạ tầng Cloud-native của FPT Cloud, tích hợp sẵn các thành phần vận hành và bảo vệ hệ thống, bao gồm:
   * Tài nguyên Compute, Storage và Network được phân bổ tự động.
@@ -42,6 +45,7 @@ FPT Database Engine được triển khai trên hạ tầng Cloud-native của F
   * Giám sát hiệu năng và trạng thái hệ thống theo thời gian thực
 
 Người dùng tương tác với dịch vụ thông qua Unified Service Portal hoặc OpenAPI, không cần truy cập trực tiếp vào tầng hạ tầng bên dưới.
+
 ## Các tính năng chính
   * **Tự động triển khai** : Người dùng có thể nhanh chóng tạo mới Database Instance hoặc Database Cluster chỉ với vài bước cấu hình trên portal, bao gồm lựa chọn engine, phiên bản, cấu hình tài nguyên và chính sách sao lưu.
   * **Sao lưu và khôi phục dữ liệu** : FPT Database Engine hỗ trợ sao lưu tự động và thủ công, cho phép khôi phục dữ liệu nhằm giảm thiểu rủi ro mất dữ liệu.

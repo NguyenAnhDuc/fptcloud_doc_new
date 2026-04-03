@@ -51,6 +51,7 @@ Tìm hiểu thêm về Taints [tại đây](http://kubernetes.io/docs/concepts/s
 **• Service Network** : Network sử dụng cho Service trong Cluster. 
 **• Network Node Prefix** : Số Pod tối đa trên mỗi Managed GPU Node. 
 **• Max Pod per Node** : Loại CNI được cài cho Cluster, chỉ hỗ trợ loại Calico 
+
 Bước 5: Màn hình Review & Create sẽ hiển thị các thông tin cụm Cluster người dùng đã cấu hình trước đó và hệ thống tự động kiểm tra quota Bare Metal GPU server có đủ để khởi tạo Cluster hay không 
 [![](/img/migrated/7-1-0c3879d8.png)](/img/migrated/7-1-0c3879d8.png)
 Sau khi hệ thống kiểm tra tài nguyên thành công, nhấn button Create a Managed GPU Cluster để tiến hành tạo cụm Cluster.

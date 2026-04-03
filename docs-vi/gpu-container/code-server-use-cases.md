@@ -10,9 +10,11 @@ sidebar_position: 22
 
 ## Fine-tune BERT trên GLUE MRPC sử dụng Code Server
 Hướng dẫn này sẽ giúp bạn fine-tune mô hình BERT đã được huấn luyện sẵn trên tác vụ GLUE MRPC sử dụng container Code Server có GPU.
+
 ### Bước 1: Tạo GPU Container
 Tạo container sử dụng template Code Server. ![Alt text](/img/migrated/finetune1-e657c84d.png) ![Alt text](/img/migrated/finetune2-d33efc2b.png) ![Alt text](/img/migrated/finetune3-4eda41e9.png)
 Truy cập container qua HTTP endpoint, container Code Server sẽ yêu cầu mật khẩu, hãy sử dụng mật khẩu được tạo trong thông tin chi tiết container để kết nối. ![Alt text](/img/migrated/finetune4-899580d1.png)
+
 ### Bước 2: Cài đặt python3, pip
 
 ```
@@ -62,6 +64,7 @@ python3 run_glue.py
 ```
 
 ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.25-1f76ec48.png) ![Alt text](/img/migrated/Screenshot-2025-06-02-at-21.54.34-c190efa5.png)
+
 ### Bước 7: Kiểm tra mô hình
 Tạo file chứa script kiểm tra tên test.py
 

@@ -13,10 +13,12 @@ sidebar_position: 1
   * [ ![](/img/migrated/question-45cd06af.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
 
 Backup
+
 ## 1.1. Backup Native là gì?
 Backup Native là dịch vụ sao lưu dữ liệu dành cho Cloud Server (VM) và Volume trên FPT Cloud.
 Dịch vụ giúp người dùng tạo ra các bản sao lưu (backup) theo lịch hẹn hoặc thủ công, và có thể khôi phục lại hệ thống về thời điểm mong muốn khi xảy ra lỗi, sự cố, hay nhầm lẫn thao tác.
 Các bản sao lưu được quản lý ngay trong giao diện Backup Management, dễ theo dõi, dễ thao tác, và hoàn toàn tự động.
+
 ## 1.2. Những lợi ích khi sử dụng
 Backup Native mang đến cho bạn các lợi ích sau:
   * **Bảo vệ dữ liệu toàn diện**
@@ -34,6 +36,7 @@ Hạn chế rủi ro mất dữ liệu do lỗi thao tác, lỗi phần mềm, h
 
 ## 1.3. Các đối tượng được hỗ trợ
 Backup Native hiện hỗ trợ hai nhóm tài nguyên chính:
+
 ### Cloud Server (VM)
   * Sao lưu toàn bộ trạng thái VM tại thời điểm backup.
   * Phù hợp cho các ứng dụng, website, hệ thống chạy trực tiếp trên máy chủ.

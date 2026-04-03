@@ -9,6 +9,7 @@ sidebar_position: 3
 # Configure Integrations
 
 **Incident Management Integrations** allow users to integrate with existing tools to enhance visibility and collaboration during incident response.
+
 ### Installing and managing integrations:
 **Step 1** : Login to **FMON Grafana**.
 **Step 2** : Find the **Fmon - Incident** option in the sidebar menu and click on **Integration**

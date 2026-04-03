@@ -16,8 +16,10 @@ In DBaaS, subnets play a key role in:
 
 Subnets define the IP address range used for DBaaS resources and help ensure that traffic between applications and databases flows within a managed network environment.
 Subnet management is a critical foundational task for DBaaS provisioning in your cloud network. This guide shows how to create, verify, and manage subnets via the FPT Console Portal, ensuring your database workloads have stable, isolated network resources.
+
 ### Step 1: Access the Subnet Management page
 Log in to the FPT Cloud Portal. After logging successfully, from the main menu, select **Network** > **Subnets**. The **Subnet Management** interface will display the list of existing subnets, along with options to create, edit, or delete a subnet.
+
 ### Step 2: Create a new subnet
 On the **Subnet Management** page, click **Create subnet**. The **Create New Subnet** screen will appear as follows:
 [![](/img/migrated/Create-subnet-scaled-5bd6cd39.png)](/img/migrated/Create-subnet-scaled-5bd6cd39.png)

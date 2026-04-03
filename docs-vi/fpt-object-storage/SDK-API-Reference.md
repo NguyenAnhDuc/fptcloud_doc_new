@@ -9,6 +9,7 @@ sidebar_position: 13
 # Set up connection information
 
 FPT Object Storage là một sản phẩm được phát triển dựa trên tiêu chuẩn AWS S3. Vì vậy bạn có thể sử dụng tất cả các công cụ và thư viện đã được phát triển cho AWS S3 để tương tác với FPT Object Storage. Dưới đây là hướng dẫn cài đặt và config kết nối mẫu của một số ngôn ngữ thông dụng.
+
 ## Python
 Với Python, bạn có thể sử dụng thư viện boto3. Đây là thư viện chính thức của Amazon cho Python.
 **Cài đặt**
@@ -64,6 +65,7 @@ s3client.delete_object(Bucket=bucket_name, Key=object_key)
 
 **Tài liệu đầy đủ**
 Refer: <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>
+
 ## Java
 Để sử dụng FPT Object Storage trong Java, bạn có thể sử dụng các thư viện hỗ trợ như AWS SDK for Java, MinIO hoặc s3proxy.
 Dưới đây là một hướng dẫn sử dụng AWS SDK for Java, một trong những thư viện phổ biến nhất để kết nối và thao tác với FPT Object Storage:
@@ -134,6 +136,7 @@ public class S3Example {
 
 **Tài liệu đầy đủ**
 Refer: <https://docs.aws.amazon.com/sdk-for-java/>
+
 ## C-Sharp
 FPT Object Storage được thiết kế tương thích với Amazon S3, vì vậy bạn có thể sử dụng S3 SDK for C# được cung cấp bới AWS để tương tác với FPT Object Storage. Dưới đây là một số hướng dẫn cơ bản:
 **Cài đặt**
@@ -215,6 +218,7 @@ class Program {
 
 **Tài liệu đầy đủ**
 Refer: <https://aws.amazon.com/sdk-for-net/>
+
 ## PHP
 **Cài đặt**
 
@@ -303,6 +307,7 @@ $s3Client->deleteObject(["Bucket" => $bucketName, "Key" => $objectKey]);
 
 **Tài liệu đầy đủ**
 Refer: <https://docs.aws.amazon.com/sdk-for-php/>
+
 ## Javascript
 **Cài đặt**
 
@@ -411,6 +416,7 @@ s3.deleteObject({
 
 **Tài liệu đầy đủ**
 Refer: <https://docs.aws.amazon.com/sdk-for-javascript/>
+
 ## NodeJS
 **Cài đặt**
 
@@ -495,6 +501,7 @@ s3.deleteObject({ Bucket: bucketName, Key: objectKey }, (err, data) => {
 
 **Tài liệu đầy đủ**
 Refer: <https://github.com/aws/aws-sdk-js/>
+
 ## Go
 **Cài đặt**
 

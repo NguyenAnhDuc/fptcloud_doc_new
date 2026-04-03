@@ -15,6 +15,7 @@ Below is a list of recommended statuses that are given in the FMON incident syst
 | --- | --- |  
 | Active  | Incident occurred  |  
 | Resolved  | Incident has been resolved  |  
+
 ### A. Editing incident status
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Settings**

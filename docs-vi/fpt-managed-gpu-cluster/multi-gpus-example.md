@@ -14,6 +14,7 @@ Trong hướng dẫn này, bạn sẽ:
   * Triển khai mô hình LLM trên nhiều GPU
 
 Bài hướng dẫn này dành cho các kỹ sư Machine Learning (ML), quản trị viên và người vận hành nền tảng, cũng như các chuyên gia về Data và AI, những người quan tâm đến việc sử dụng khả năng điều phối container của Kubernetes để phục vụ các mô hình ngôn ngữ lớn (LLM). 
+
 ## Chuẩn bị môi trường
 ### Chuẩn bị cụm FKE GPU
   * Một cụm Kubernetes có GPU
@@ -54,6 +55,7 @@ Copykubectl create secret generic hf-secret \
 
 ## Deploy vLLM
 Trong phần này, bạn triển khai container vLLM để phục vụ mô hình Gemma mà bạn muốn sử dụng. Để triển khai mô hình, bài hướng dẫn này sử dụng Kubernetes Deployment. Deployment là một đối tượng API của Kubernetes cho phép bạn chạy nhiều bản sao (replica) của Pod và các Pod này được phân bổ trên các node trong một cluster. 
+
 ### Deploy vLLM bằng Deployment
 
 ```
@@ -156,6 +158,7 @@ spec:
 
 ## Serve model
 Tại phần này, chúng ta sẽ thực hiện việc kiểm tra kết nối & gửi các request để model xử lý 
+
 ###  Set up networking để truy cập model ngoài cụm 
 Nếu tại mục Expose model, bạn sử dụng service type loadbalancer, hãy sử dụng IP public của loadbalancer đó. 
 Nếu bạn sử dụng service type CusterIP, hãy port forward service này: 

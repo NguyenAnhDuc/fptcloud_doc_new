@@ -10,6 +10,7 @@ sidebar_position: 15
 
 To start using AI Factory services, you may use **Top-up Credits** or **Voucher Credits**.
 If you have received a **voucher code** —for example, as part of a promotional offer—you can apply it to redeem credits!
+
 ## Notice
   * The voucher must be **redeemed within a validity period**. Expired codes cannot be used.
   * **Voucher credits also expire after** **a validity period** and **cannot be used once expired.**

@@ -10,6 +10,7 @@ sidebar_position: 20
 
 **Org Admin** および **Team Manager** のみ GitLab Server 連携の編集権限を持ちます。
 _権限の詳細は[こちら](./quan-ly-member.md)をご参照ください。_
+
 ## Configure GitLab Server
 **手順1** : org/teamを選択後、GitLab Serverをクリックして連携画面に移動します。
 [![anhfsec](/img/migrated/labs1-34ab9227.png)](/img/migrated/labs1-34ab9227.png)
@@ -28,11 +29,15 @@ _権限の詳細は[こちら](./quan-ly-member.md)をご参照ください。_
 成功した場合は **Test connect successfully** が表示されます。
 **手順7** : **Integrate** をクリックします。
 [![anhfsec](/img/migrated/labs6-cd567134.png)](/img/migrated/labs6-cd567134.png)
+
 ## 詳細表示
 [GitHub連携](./guide-github.md)の詳細表示ガイドと同様です。
+
 ## Reconfigure GitLab Cloud
 [GitHub連携](./guide-github.md)のreconfigureガイドと同様です。
+
 ## GitLab Cloud連携の無効化
 [GitHub連携](./guide-github.md)の無効化ガイドと同様です。
+
 ## CI/CDパイプライン用Access Key
 [GitHub連携](./guide-github.md)と同様です。

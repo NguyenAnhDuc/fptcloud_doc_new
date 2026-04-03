@@ -5,6 +5,7 @@ description: "FPT Cloud上のVPC全体のバックアップ使用状況レポー
 sidebar_label: "バックアップレポート"
 sidebar_position: "8"
 ---
+
 # バックアップレポート
 
 レポート機能では、すべてのVPC上のVM別バックアップ使用状況の統計をまとめることができます。取得できる情報は、Backup size、Job Name、VM Name、VPC、Private IP、OS、Backup type、Last success at、Created atです。

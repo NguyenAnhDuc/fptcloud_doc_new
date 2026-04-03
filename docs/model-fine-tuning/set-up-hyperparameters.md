@@ -10,6 +10,7 @@ sidebar_position: 14
 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Hyperparameters.png)](https://fptcloud.com/wp-content/uploads/2025/02/Hyperparameters.png)
 Hyperparameters control how the model’s weights are updated during the training process. To make configuration easier, we categorize hyperparameters into **5 distinct groups** based on their function and relevance:
+
 ### Group 1 - General
 The core settings of your training process.   
 | Name  | Description  | Type  | Supported value  |  
@@ -23,6 +24,7 @@ In case of distributed training, this is batch size on each device.  | Int  | [1
 | **ZeRO stage**  | Stage to apply DeepSpeed ZeRO algorithm. Only apply when Distributed backend = DeepSpeed.  | Enum[int]  | 1, 2, 3  |  
 | **Training type**  | Which parameter mode to use.  | Enum[string]  | Full, LoRA  |  
 | **Resume from checkpoint**  | Relative path of the checkpoint that the training engine will resume from.  | Union[bool, string]  | No, Last checkpoint, Path/to/checkpoint  |  
+
 ### Group 2 - Training runtime
 Optimize the efficiency and performance of your training.   
 | Name  | Description  | Type  | Supported value  |  
@@ -41,6 +43,7 @@ Optimize the efficiency and performance of your training.
 | **Full determinism**  | Ensure reproducible results in distributed training. **Important:** this will negatively impact the performance, so only use it for debugging.  
 If True, setting Seed will not take effect.  | Bool  | True, False  |  
 | **Seed**  | Random seed for reproducibility.  | Int  | [0, +∞)  |  
+
 ### Group 3 - DPO
 Enable this group when using **trainer = DPO**.   
 | Name  | Description  | Type  | Supported value  |  
@@ -50,6 +53,7 @@ Enable this group when using **trainer = DPO**.
 | **Preference fine-tuning mix**  | The SFT loss coefficient in DPO training.  | Float  | [0, 10]  |  
 | **Preference loss**  | The type of DPO loss to use.  | Enum[string]  | Sigmoid, Hinge, Ipo, Kto pair, Orpo, Simpo  |  
 | **SimPO gamma**  | The target reward margin in SimPO loss. Used only when applicable.  | Float  | (0, +∞)  |  
+
 ### Group 4 - LoRA
 Enable this group when using **Training type = LoRA**.   
 | Name  | Description  | Type  | Supported value  |  
@@ -59,6 +63,7 @@ Enable this group when using **Training type = LoRA**.
 | **LoRA dropout**  | Dropout rate for LoRA.  | Float  | [0, 1]  |  
 | **LoRA rank**  | Rank of the LoRA matrices.  | Int  | [1, +∞)  |  
 | **Target modules**  | Target modules for quantization or fine-tuning.  | String  | All linear  |  
+
 ### Group 5 - Others
 Control how fine-tuning progress is tracked and saved.   
 | Name  | Description  | Type  | Supported value  |  

@@ -5,6 +5,7 @@ description: "How to restore a VM to a previous stable state using FPT Backup Re
 sidebar_label: "Restore a VM from Restore Points"
 sidebar_position: "4"
 ---
+
 # Restore a VM from Restore Points
 
 VMs protected by a **Backup Job** have restore points created periodically at times when the system is running stably. If the system encounters a problem, you only need to restore the VM to the most recent stable point.

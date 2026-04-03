@@ -14,6 +14,7 @@ sidebar_position: 7
 **Bước 1:** Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
 **Bước 2:** Mở tab **Versioning**.
 **Bước 3:** Chọn **Enable** để bật tính năng Versioning hoặc **Disable** để tắt tính năng này, sau đó nhấn **Save** để lưu các thay đổi.
+
 ## Static Website Hosting
 **Static Website Hosting** là một tính năng cho phép bạn lưu trữ toàn bộ resource của một trang web tĩnh trên FPT Object Storage. Thay vì chỉ lưu trữ các tệp tin như bình thường, bạn có thể sử dụng bucket để lưu các file HTML, CSS, JavaScript cùng các tài nguyên tĩnh khác và cung cấp nó cho người dùng ở dạng website. Khi kích hoạt Static Website Hosting cho một bucket, FPT Object Storage sẽ cung cấp cho bạn một URL công khai. Bạn có thể sử dụng URL này để truy cập và chia sẻ trang web của mình giống như với các dịch vụ web hosting khác.
 Để cấu hình **Static Website Hosting** trong FPT Object Storage, thực hiện các bước sau:
@@ -25,6 +26,7 @@ sidebar_position: 7
   * **Error Document:** Tên của trang lỗi (404), sẽ hiển thị nếu người dùng yêu cầu một URL không hợp lệ (ví dụ: `404.html`).
 
 **Bước 5:** Truy cập trang web của bạn bằng URL được cung cấp trong phần Endpoints.
+
 ## Lifecycle Configurations
 Lifecycle Configurations là tính năng trong FPT Object Storage cho phép bạn tự động quản lý vòng đời của các đối tượng trong bucket. Tính năng này đặc biệt hữu ích cho việc tự động xóa các object sau một thời gian nhất định, giúp tiết kiệm chi phí lưu trữ và quản lý dữ liệu hiệu quả.
 Một **Lifecycle Rule** thông thường bao gồm các thành phần sau:
@@ -40,6 +42,7 @@ Một **Lifecycle Rule** thông thường bao gồm các thành phần sau:
   * **Hành động thực hiện:** Các hành động đã được cấu hình trong rule sẽ được áp dụng đối với các object đáp ứng điều kiện của rule.
 
 Điều này giúp tự động quản lý vòng đời của các đối tượng mà không cần can thiệp thủ công hàng ngày.
+
 ### A. Tạo Lifecycle Rule mới
 Để cấu hình **Lifecycle Configurations** cho một bucket trong **FPT Object Storage** , bạn thực hiện các bước sau:
 **Bước 1:** Trên bảng quản trị **Object Storage Management** , chọn **Config** ở bucket cần cấu hình Lifecycle Rule.
@@ -60,20 +63,24 @@ Tiếp theo, bạn có thể cấu hình các hành động khác của Lifecycl
 Trong **FPT Object Storage** , khi tính năng **Versioning** đã được bật, việc xóa một đối tượng không dẫn đến việc xóa vĩnh viễn ngay lập tức. Thay vào đó, hệ thống sẽ tạo một **delete marker**.
 **Delete marker** là một thực thể đặc biệt được sử dụng để đánh dấu rằng đối tượng đã bị xóa. Điều này giúp hệ thống theo dõi lịch sử xóa và cho phép khôi phục dữ liệu nếu cần trong tương lai.
 Khi tất cả các phiên bản cũ hơn của đối tượng đã bị xóa và chỉ còn lại delete marker trong danh sách phiên bản, delete marker sẽ chuyển thành **Expired delete markers**. Đây là dấu hiệu cho thấy không còn phiên bản nào của đối tượng còn tồn tại trong bucket, và delete marker đã hết hạn.
+
 ### B. Update Lifecycle Rule
 Để cập nhật một **Lifecycle Rule** trong **FPT Object Storage** , thực hiện các bước sau:
 **Bước 1:** Tại **Lifecycle Rule** cần cập nhật, chọn **Edit**.
 **Bước 2:** Nhập các thông tin cần cập nhật cho **Lifecycle Rule** vào các trường tương ứng.
 Sau khi hoàn tất việc nhập thông tin, lưu các thay đổi để áp dụng cập nhật.
+
 ### C. Delete Lifecycle Rule
 Để xóa một **Lifecycle Rule** trong **FPT Object Storage** , thực hiện các bước sau:
 **Bước 1:** Tại **Lifecycle Rule** cần xóa, chọn **Delete**.
 **Bước 2:** Một hộp thoại cảnh báo sẽ hiển thị, hiển thị tên rule và yêu cầu bạn xác nhận hành động. Chọn **Delete** để tiến hành xóa rule.
+
 ## Cấu hình Bucket CORS
 **CORS (Cross-Origin Resource Sharing)** cho phép các trang web và ứng dụng từ các nguồn khác nhau tương tác và chia sẻ dữ liệu một cách an toàn.
 Mặc định, **FPT Object Storage** sẽ chặn tất cả các yêu cầu từ các origin khác nhau đến bucket của bạn. Tính năng **Bucket CORS** cho phép một trang web từ một origin cụ thể có thể yêu cầu tài nguyên từ bucket mà không bị chặn bởi **Same-Origin Policy (SOP)**.
 Khi một trang web hoặc ứng dụng cố gắng truy cập tài nguyên từ FPT Object Storage, trình duyệt sẽ gửi một yêu cầu **Cross-Origin (CORS request)** đến server FPT Object Storage. Server phải đáp ứng yêu cầu này bằng cách gửi các HTTP headers chứa chính sách CORS. Trình duyệt sau đó kiểm tra các headers này để xác định xem việc truy cập có được phép hay không.
 Để cho phép một origin (website hoặc server) có thể **GET** dữ liệu từ bucket, bạn cần cấu hình chúng trong **Bucket CORS Config**.
+
 ### A. Tạo Bucket CORS Rule mới
 Để tạo một **CORS Rule** mới cho bucket trong **FPT Object Storage** , thực hiện các bước sau:
 **Bước 1:** Trên bảng quản trị **Object Storage Management** , chọn **Config** ở bucket cần cấu hình CORS.
@@ -88,6 +95,7 @@ Khi một trang web hoặc ứng dụng cố gắng truy cập tài nguyên từ
     * **Allowed Headers:** Nhập các tiêu đề được chỉ định trong `Access-Control-Request-Headers`. (Ví dụ: `Content-Type`, `Authorization`)
 
 Sau khi nhập đầy đủ thông tin, nhấn **Save** để áp dụng cấu hình CORS mới cho bucket.
+
 ### B. Update Bucket CORS Rule
 Để cập nhật một **Bucket CORS Rule** hiện có trong **FPT Object Storage** , thực hiện các bước sau:
 **Bước 1:** Ở **Bucket CORS Rule** cần cập nhật, chọn **Edit**.
@@ -101,6 +109,7 @@ Sau khi nhập đầy đủ thông tin, nhấn **Save** để áp dụng cấu h
     * **Allowed Headers:** Thay đổi các tiêu đề được chỉ định trong `Access-Control-Request-Headers`.
 
 Sau khi thực hiện các thay đổi, nhấn **Save** để áp dụng các cập nhật cho CORS Rule.
+
 ### C. Delete Bucket CORS Rule
 Để xóa một **Bucket CORS Rule** trong **FPT Object Storage** , thực hiện các bước sau:
 **Bước 1:** Ở **Bucket CORS Rule** cần xóa, chọn **Delete**.

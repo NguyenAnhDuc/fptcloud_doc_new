@@ -16,6 +16,7 @@ Tính năng **Quản lý Kafka user** là tính năng **chỉ áp dụng cho eng
 
 ### 1. Tạo Kafka user mới
 Để tạo một Kafka user mới, thực hiện các bước sau:
+
 #### Bước 1: Truy cập trang Quản lý Kafka user
 Đăng nhập FPT Cloud Console. Chọn "**Database Platform** " > "**Data Streaming** " > nhấp vào cluster ID của cụm Kafka để mở trang chi tiết. Chọn tab "**Configure Params** " > chọn sub-tab "**Kafka ACL** ". Trang quản lý Kafka user hiển thị như sau:
 [![](/img/migrated/view-kafka-acl-scaled-514e908e.png)](/img/migrated/view-kafka-acl-scaled-514e908e.png)
@@ -85,6 +86,7 @@ Nhập thông tin cấu hình:
       * **Read** : cho phép đọc nội dung của group.
 
 Sau khi hoàn tất, nhấn "**Save** " để áp dụng ACL cho Kafka user. ACL sẽ có hiệu lực ngay lập tức mà không cần khởi động lại Kafka cluster. Một Kafka user có thể được gán nhiều ACL.
+
 #### Best Practices:
   * Ưu tiên phân quyền bằng ACL theo prefix. ACL theo prefix giúp quản lý quyền hiệu quả khi hệ thống mở rộng.
   * Tách ACL cho producer và consumer.

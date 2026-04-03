@@ -17,5 +17,6 @@ CopyLưu ý: Đối với các cảnh báo cho Object Storage, người nh
 
 #### Bước 2: Chọn người nhận cảnh báo hoặc chọn Create recipient here để tạo người nhận mức Tenant
 [![file](/img/migrated/image-1696236659925-9bb270d8.png)](/img/migrated/image-1696236659925-9bb270d8.png) Tích chọn **Tenant-level recipient** để tạo người nhận cho cả Tenant
+
 #### Bước 3: Quay trở lại màn tạo Alert, chọn người nhận mới tạo và nhấn Create
 [![file](/img/migrated/image-1696237048466-bfaa420d.png)](/img/migrated/image-1696237048466-bfaa420d.png) Alert đã tạo thành công hiển thị tại màn danh sách, khi điều kiện vượt ngưỡng hoặc trở về mức an toàn hệ thống sẽ tự động bắn cảnh báo cho người nhận qua phương thức cảnh báo đã chọn.

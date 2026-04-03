@@ -16,10 +16,12 @@ Currently, the notification system supports the following alert categories:
   * Maintenance notification – notifications when FPT performs maintenance that affects the database cluster.
 
 This guide helps you set up and manage notifications to effectively track important events in FPT Database Engine on the FPT Cloud Portal.
+
 ## Configuring notifications from FPT Database Engine
 ### Step 1: Access to Notification Setting page
 Sign in to FPT Cloud Portal. From the left navigation menu, select "**Database Platform** " → choose your DB engine category (Relational, Non‑Relational, etc.). Select the target Cluster ID. Switch to the "**Notification** " tab on the cluster details page.
 [![](/img/migrated/notification-scaled-fbca99ff.png)](/img/migrated/notification-scaled-fbca99ff.png)
+
 ### Step 2: Create alert rules
 Click **Add New Alert List** (the plus icon next to the **Notification List**) to open the dialog for adding alerts.
 [![](/img/migrated/add-alert-scaled-5779954f.png)](/img/migrated/add-alert-scaled-5779954f.png)
@@ -56,14 +58,18 @@ All configured alerts appear in the **Notification List** on the **Notification*
 
 ## Configure Telegram to receive notifications from FPT Database Engine
 When setting up notifications from FPT via Telegram, you need to enter the channel ID. The steps below guide you through the process of obtaining this ID.
+
 ### Step 1: Create a Telegram Channel
 Log in to Telegram. Create a new Private channel. Assign a channel name (for example: FDE Notify) to receive notifications from FPT Database Engine.
+
 ### Step 2: Add the Bot to the Channel
 Search for **@fde_notify_bot** in the member search box. Select **FDE NOTIFY** to add the bot to the channel.
 [![](/img/migrated/tele_add_noti_bot-scaled-8f932da5.png)](/img/migrated/tele_add_noti_bot-scaled-8f932da5.png)
+
 ### Step 3: Assign Admin Permission to the Bot
 Set @fde_notify_bot as an Administrator of the newly created channel to allow it to send notifications.
 [![](/img/migrated/tele_admin-ab9912a8.png)](/img/migrated/tele_admin-ab9912a8.png)
+
 ### Step 4: Retrieve the Channel ID
 In Telegram, use the search box to find **@username_to_id_bot**.
 [![](/img/migrated/Tele_IDBot-scaled-fab904cb.png)](/img/migrated/Tele_IDBot-scaled-fab904cb.png)
@@ -72,6 +78,7 @@ Open the Keyboard Shortcuts menu and select **Channel**.
 [![](/img/migrated/tele_channel_select-ad989119.png)](/img/migrated/tele_channel_select-ad989119.png)
 Select the channel you have just created and click **Send**. Telegram will return the Channel ID. Save this ID for later use.
 [![](/img/migrated/tele_channel_id-431370d0.png)](/img/migrated/tele_channel_id-431370d0.png)
+
 ### Step 5: Register the Channel ID in FPT Console Portal
 Follow the instructions in [1. Configuring notifications from FPT Database Engine](../managed-fpt-database-engine/index.md) section. When selecting Telegram as the notification type, paste the Channel ID obtained in Step 4 into the channel field.
 **Note** : To configure multiple Telegram channels, repeat Steps 1 through 4 for each channel to obtain the corresponding Channel ID.

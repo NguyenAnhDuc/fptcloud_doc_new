@@ -14,6 +14,7 @@ Sign up for an account at:
   * **Japan region** : [ai.fptcloud.jp](https://ai.fptcloud.jp "ai.fptcloud.jp")
 
 A tenant will be created automatically when you sign in. Follow the initial setup.
+
 ## Initial Setup
 **Step #1. Sign up & Sign in**
   * Access <http://id.fptcloud.com/> to create a new account
@@ -30,9 +31,11 @@ A tenant will be created automatically when you sign in. Follow the initial setu
 
 ## Add Credits to Your Balance
   1. Navigate to **Account** > **Billing** in the left menu
+
 ## Redeem Voucher
 If you have a voucher code:
   1. Navigate to **Account** > **Billing** in the left menu
+
 ## Start Using Services
 ## Important Notes
   * **Regional Separation** : Balances are region-specific. You'll need separate tenants for Vietnam and Japan regions

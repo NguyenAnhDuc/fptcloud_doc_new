@@ -46,5 +46,6 @@ Details:
 
 #### 3. Start Pipeline
 Wait for your pipeline to initialize. This process usually takes around 15 minutes to finish.
+
 #### 4. Monitor
 You can monitor the progress in Model metrics, System metrics and Logs.

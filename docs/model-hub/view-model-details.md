@@ -25,6 +25,7 @@ A model includes the following components: [![file](/img/migrated/image-17573308
 
 ### **Model card**
 [![file](/img/migrated/image-1757330874098-15240c3e.png)](/img/migrated/image-1757330874098-15240c3e.png) Model card: Overview information about the model
+
 ### **Versions**
 [![file](/img/migrated/image-1757331088375-4ce0f3b9.png)](/img/migrated/image-1757331088375-4ce0f3b9.png)
   * **Index** : The order number of the version.

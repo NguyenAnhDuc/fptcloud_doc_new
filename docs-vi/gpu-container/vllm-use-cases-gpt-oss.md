@@ -41,6 +41,7 @@ Loading safetensors checkpoint shards: 100% Completed [3/3]
 ```
 
 Điều này cho thấy tất cả các file mô hình đã được tải thành công.
+
 ### Bước 2: Gửi yêu cầu chạy
 Sau khi container đang chạy và mô hình đã tải xuống, bạn có thể gửi yêu cầu chạy để kiểm tra cài đặt.
   1. Kiểm tra danh sách mô hình khả dụng.

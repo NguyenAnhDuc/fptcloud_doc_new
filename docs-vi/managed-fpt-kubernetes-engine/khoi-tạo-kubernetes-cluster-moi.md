@@ -47,6 +47,7 @@ sidebar_position: 4
 **Bước 3:** Cấu hình Nodes Pool theo nhu cầu sử dụng sau đó click button 
 
 [![Alt text](/img/migrated/Create-K8s-1-92a23d1f.png)](/img/migrated/Create-K8s-1-92a23d1f.png) [![Alt text](/img/migrated/Create-K8s-2-fea4fe96.png)](/img/migrated/Create-K8s-2-fea4fe96.png)
+
 ### **Những điểm cần lưu ý khi tạo cụm cluster M-FKE:**
 ➤ M-FKE quản lý các worker nodes thông qua Worker Group, là một group bao gồm các worker nodes có cấu hình giống nhau. Người sử dụng có thể phân chia worker groups cho các ứng dụng phù hợp. Hệ thống yêu cầu tối thiểu phải có 01 Worker Group (Base), người sử dụng không thể remove worker group này.
 ➤ Trong mục cấu hình Worker Group, người dùng có thể thực hiện gán label cho worker group mong muốn. Label này sẽ được áp dụng cho tất cả các worker nodes thuộc worker group. Người dùng có thể thêm nhiều hoặc bỏ bớt các label, cũng như chỉnh sửa key/value của các label có sẵn. Các label này giúp người dùng dễ dàng trong việc triển khai ứng dụng trên các worker group riêng biệt theo nhu cầu. 

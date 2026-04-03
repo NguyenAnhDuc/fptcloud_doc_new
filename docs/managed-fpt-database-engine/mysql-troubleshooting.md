@@ -11,10 +11,12 @@ sidebar_position: 45
 The MySQL Troubleshooting page provides quick guidance to help you identify and resolve common issues when using the MySQL service on FPT Cloud DBaaS. This section focuses on frequently encountered problems such as connection errors, configuration issues, performance degradation, backup/restore failures, and MySQL-specific scenarios.
 Each topic includes clear descriptions of symptoms, root causes, and recommended resolutions, enabling you to perform initial troubleshooting or work effectively with the technical support team.
 The goal of this document is to help you operate MySQL in a stable, secure, and efficient manner while minimizing service disruption during incidents.
+
 ### Error categories:
 [1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…"](../managed-fpt-database-engine/index.md)
 [2. Server Crash: MySQL crash when using composite indexes on JSON columns](../managed-fpt-database-engine/index.md)
 [3. Metadata Lock Storm](../managed-fpt-database-engine/index.md)
+
 ### 1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…"
 #### 1.1. Symptoms
 During MySQL backup operations on the FPT Database Engine, the backup task may fail and send an error notification via email similar to the message above:
@@ -30,6 +32,7 @@ During MySQL backup operations on the FPT Database Engine, the backup task may f
      created_at : 10/23/2055 00:31:01  
      `
 This issue is caused by a **known bug in Percona XtraBackup** , the backup tool used by FCI for MySQL backups.
+
 #### 1.2. Root Cause
 Starting **from MySQL 8.0.29** , InnoDB supports **INSTANT ADD/DROP COLUMN** , allowing columns to be added or removed without rebuilding the table.
 Characteristics of INSTANT command:
@@ -38,6 +41,7 @@ Characteristics of INSTANT command:
   * Only additional metadata is written to the InnoDB dictionary (indicated by TOTAL_ROW_VERSIONS > 0).
 
 However, **XtraBackup is not fully compatible** with tables that contain TOTAL_ROW_VERSIONS > 0. As a result, XtraBackup cannot process tables that have used INSTANT ADD/DROP COLUMN, causing the backup process to stop and return an error requesting OPTIMIZE TABLE.
+
 #### 1.3. Impact
 This error leads to the following effects:
   * Reduced query performance: Operations are slower due to data not being optimally sorted.
@@ -112,6 +116,7 @@ When using composite (multi-column) indexes that include JSON columns, MySQL nod
  cluster_name : clustername  
      `
 This is a MySQL error related to the use of an associative index on a JSON column, causing a MySQL node crash. You can find more details about this error at this link: <https://bugs.mysql.com/bug.php?id=109542>.
+
 #### 2.2. Root Cause
 From MySQL 8.0.2x onwards, tables with INDEX definitions that use fields in JSON columns may experience the crash described above. The main cause of this error is that MySQL encounters problems trying to create and maintain indexes on JSON columns in combo indexes. Specifically:
   * Index incompatibility with JSON columns: MySQL cannot properly handle JSON objects in combo indexes, leading to memory errors or asynchronous processing.
@@ -120,6 +125,7 @@ From MySQL 8.0.2x onwards, tables with INDEX definitions that use fields in JSON
 
 #### 2.3. Impact
 When this error occurs, MySQL may crash or restart unexpectedly, and in some cases, the database may be unrecoverable after the crash. This will severely impact the availability and reliability of the service, especially in a production environment.
+
 #### 2.5. Resolution and Recommendations
   * Use single indexes instead of combo indexes when working with JSON columns.
   * Avoid creating indexes directly on JSON columns, or if necessary, use generated columns to index specific values in JSON.
@@ -137,12 +143,15 @@ When using MySQL in a HA model, the following situation may occur: the MySQL dat
      1118    admin   10.225.65.36:49652      fpt     Query   124     Waiting for table metadata lock SELECT COUNT(1) AS `cnt` FROM `user_notifications` `UserNotificationEntity` WHERE ( ((`UserNotificat  
      `
 This error occurs after you execute a DDL command on the user_notifications table, causing the database (2 slave nodes) to enter a Metadata Lock Storm state.
+
 #### 3.2. Root Cause
 MySQL uses Metadata Lock (MDL) to protect the structural information of tables (including schema-level and table-level) when executing Data Definition Language (DDL) and Data Manipulation Language (DML) commands.
 In a MySQL InnoDB Cluster environment, replicated DDL transactions (such as ALTER TABLE, CREATE INDEX, DROP TABLE, etc.) are executed sequentially on slave nodes by the applier thread. However, for some reason, such as a long query or uncommitted DML, the user session may be holding the MDL lock. This can lead to the applier thread having to wait too long for the lock.
 When the applier thread cannot obtain the lock in time, other transactions in the GR queue (Global Replication Queue) become congested (as seen in the user_notifications table of the example above). As a result, the applier thread on the slave node hangs, causing threads accessing the table to also hang, making it difficult to access the slave node and resulting in application errors.
+
 #### 3.3. Impact
 When this error occurs, user queries and transactions are blocked, leading to data access disruptions and increased system latency. In a MySQL Cluster environment, this can clog replication transactions, causing data lag and reducing overall system performance.
+
 #### 3.4. Resolution and Recommendations
 To avoid a Metadata Lock Storm in this case, the following steps should be taken:
   * Step 1: Temporarily stop applications or services accessing the table related to the DDL task → Purpose: to prevent the generation of new queries that hold metadata locks or await locks.

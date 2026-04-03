@@ -16,6 +16,7 @@ GPU Container cung cấp High-Performance Storage (HPS) tồn tại trong suốt
 
 ## Ổ đĩa tạm thời (Temporary Disk)
 Ổ đĩa tạm thời (NVMe) là loại lưu trữ cung cấp không gian lưu trữ tạm thời cho container. Mọi dữ liệu trên ổ đĩa tạm thời sẽ bị mất khi container bị dừng hoặc xóa, vì vậy hãy sao lưu dữ liệu quan trọng trước khi tắt container.
+
 ## So sánh các loại lưu trữ
 | Tính năng | Ổ đĩa tạm thời | Ổ đĩa liên tục |
 | --- | --- | --- |

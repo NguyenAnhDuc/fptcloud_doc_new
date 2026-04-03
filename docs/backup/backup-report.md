@@ -5,6 +5,7 @@ description: "How to generate and export backup usage reports across VPCs on FPT
 sidebar_label: "Backup Report"
 sidebar_position: "8"
 ---
+
 # Backup Report
 
 The report function allows you to compile statistics on backup usage per VM across all VPCs. Information available includes Backup size, Job Name, VM Name, VPC, Private IP, OS, Backup type, Last success at, and Created at.

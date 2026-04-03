@@ -15,6 +15,7 @@ sidebar_position: 1
 
 **Event Gateway** là thành phần trung gian giúp tiếp nhận, xử lý và định tuyến các sự kiện (events) theo thời gian thực giữa các hệ thống. Nó hoạt động như một **cổng dữ liệu sự kiện tập trung** , cho phép kết nối linh hoạt giữa các nguồn phát sự kiện và hệ thống xử lý như Kafka, webhook, hay các pipeline phân tích. 
 Hỗ trợ các tính năng như **lọc, chuyển đổi và định tuyến sự kiện** , Event Gateway phù hợp với các kiến trúc hướng sự kiện, thường được dùng trong **real-time analytics** , **monitoring** , **IoT** , và các hệ thống phân tán cần xử lý dữ liệu sự kiện một cách đáng tin cậy và có kiểm soát.
+
 ##  Trang chủ 
 01Initial Setup 
 02Hướng dẫn chi tiết (Tutorial)

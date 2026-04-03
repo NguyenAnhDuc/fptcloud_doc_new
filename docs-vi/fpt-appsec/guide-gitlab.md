@@ -10,6 +10,7 @@ sidebar_position: 19
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp GitLab
 _Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
+
 ## Configure GitLab
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào GitLab để đến màn tích hợp GitLab Cloud:
 [![anhfsec](/img/migrated/lab1-1-0a091c8d.png)](/img/migrated/lab1-1-0a091c8d.png)
@@ -26,11 +27,15 @@ Lúc này hệ thống sẽ kiểm tra các miền bắt buộc và valid **Pers
 Nếu thành công, màn hình sẽ hiển thị **Test connect successfully**
 **Bước 6** : Nhấn vào **Integrate**
 [![anhfsec](/img/migrated/lab9-aab31bf0.png)](/img/migrated/lab9-aab31bf0.png)
+
 ## Xem detail
 Tương tự hướng dẫn xem chi tiết [tích hợp GitHub](./guide-github.md)
+
 ## Reconfigure GitLab Cloud
 Tương tự hướng dẫn reconfigure [tích hợp GitHub](./guide-github.md)
+
 ## Vô hiệu hoá tích hợp GitLab Cloud
 Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
+
 ## Access Key cho CI/CD pipeline
 Tương tự [tích hợp GitHub](./guide-github.md)

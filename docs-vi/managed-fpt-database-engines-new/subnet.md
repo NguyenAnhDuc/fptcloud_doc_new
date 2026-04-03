@@ -16,8 +16,10 @@ Subnet là một dải địa chỉ IP được chia nhỏ từ một VPC (Virtu
 
 Subnet giúp người dùng xác định phạm vi địa chỉ IP, và đảm bảo traffic giữa ứng dụng và database được thực hiện trong không gian mạng được kiểm soát.
 Việc quản lý subnet là nhiệm vụ nền tảng để triển khai DBaaS. Hướng dẫn này giúp bạn tạo, xác minh và quản lý subnet qua FPT Console Portal, đảm bảo tài nguyên mạng ổn định cho khối lượng công việc cơ sở dữ liệu.
+
 ### Bước 1: Truy cập trang Quản lý subnet
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **Network** > **Subnets**. Giao diện **Subnets Management** sẽ hiển thị danh sách subnets hiện có, cùng các tùy chọn để tạo mới, chỉnh sửa hoặc xoá một subnet.
+
 ### Bước 2: Tạo subnet mới
 Trong trang **Subnets Management** , nhấn **Create subnet**. Màn hình tạo subnet mới hiển thị như sau:
 [![](/img/migrated/Create-subnet-scaled-5bd6cd39.png)](/img/migrated/Create-subnet-scaled-5bd6cd39.png)

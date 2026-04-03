@@ -10,6 +10,7 @@ pagination_next: null
 # Managing Consumers
 
 After the provider publishes a product on a site, the client cannot immediately use those APIs. To enable client access, the provider must go to the **Consumer** menu to create client information and assign the client to a previously published product. Only then can the client utilize the APIs.
+
 ### 1. Creating New Consumers
 **Step 1** : In the **API Manager** menu, select **Consumers** > **Create**.
 [![](/img/migrated/Userguide-FPT-API-Management-26-1024x538-38542a55.png)](/img/migrated/Userguide-FPT-API-Management-26-1024x538-38542a55.png)
@@ -27,6 +28,7 @@ After the provider publishes a product on a site, the client cannot immediately 
 [![](/img/migrated/Userguide-FPT-API-Management-27-1024x538-8505cbdc.png)](/img/migrated/Userguide-FPT-API-Management-27-1024x538-8505cbdc.png)
 **Step 3** : Click **OK** to create.
 [![](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)](/img/migrated/Userguide-FPT-API-Management-28-1024x538-29ff8f20.png)
+
 ### 2. Subscribe to a Product
 Once the Consumer is created, to use the APIs within a Product, the Consumer must subscribe to the Product.
 **Step 1** : In **Consumer Management** , select the Consumer and click **Product Subscription**.
@@ -39,6 +41,7 @@ Once the Consumer is created, to use the APIs within a Product, the Consumer mus
 [![](/img/migrated/Userguide-FPT-API-Management-32-1024x538-401df389.png)](/img/migrated/Userguide-FPT-API-Management-32-1024x538-401df389.png)
 The client can now use the APIs provided by the API Provider.
 **Note** : The product must be in a published state for the consumer to subscribe.
+
 ### 3. Unsubscribing Product
 **Step 1** : In **Consumer Management** , select the Consumer and click **Product Subscription**.
 [![](/img/migrated/Userguide-FPT-API-Management-29-1024x538-821efca8.png)](/img/migrated/Userguide-FPT-API-Management-29-1024x538-821efca8.png)
@@ -46,6 +49,7 @@ The client can now use the APIs provided by the API Provider.
 [![](/img/migrated/Userguide-FPT-API-Management-54-1024x538-ae92854b.png)](/img/migrated/Userguide-FPT-API-Management-54-1024x538-ae92854b.png)
 **Step 3** : Click **OK**.
 [![](/img/migrated/Userguide-FPT-API-Management-55-16026107.png)](/img/migrated/Userguide-FPT-API-Management-55-16026107.png)
+
 ### 4. Modifying Consumer Information
 To adjust a Consumer's information, follow these steps:
 **Step 1** : In **Consumer Management** , select the consumer to modify > **Edit**.
@@ -53,8 +57,10 @@ To adjust a Consumer's information, follow these steps:
 **Step 2** : Enter the new information and click **OK**.
 [![](/img/migrated/Userguide-FPT-API-Management-57-1024x538-7fe0874b.png)](/img/migrated/Userguide-FPT-API-Management-57-1024x538-7fe0874b.png)
 **Note** : Some fields cannot be changed and will be disabled in the edit interface.
+
 ### 5. Retrieving Consumer Authentication Information
 To use APIs created from API Management, the Consumer must retrieve authentication information and provide it when sending requests to APIs. Currently, API Management supports two authentication methods: **Basic Auth (User/Pass)** and **API Key**.
+
 #### 5.1. Retrieving Username and Password for Basic Auth:
   * **Username** : Username follows this structure: `Username = UsernameProvider + site name + usernameConsumer`.
 _For example_ : `demo123.sitedemo.demoacc`
@@ -68,6 +74,7 @@ In **Consumer Management** , select the Consumer > **Edit**.
 [![](/img/migrated/Userguide-FPT-API-Management-60-1024x590-14edb59b.png)](/img/migrated/Userguide-FPT-API-Management-60-1024x590-14edb59b.png)
 **Step 2** : Retrieve the API Key from the **API Key** field.
 [![](/img/migrated/Userguide-FPT-API-Management-61-1024x590-bca437e1.png)](/img/migrated/Userguide-FPT-API-Management-61-1024x590-bca437e1.png)
+
 ### 6. Deleting a Consumer
 To delete a previously declared Consumer from the system, ensure the Consumer has unsubscribed from all Products. To unsubscribe from products, follow the íntruction in the **Unsubscribing Product** section.
 To delete a Consumer, follow these steps:

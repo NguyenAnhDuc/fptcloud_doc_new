@@ -9,6 +9,7 @@ sidebar_position: 2
 # Fde Glossary
 
 Mục này cung cấp các định nghĩa và giải thích rõ ràng về các thuật ngữ và khái niệm chính thường được sử dụng trong nền tảng FPT Database Engine. Dù bạn là người mới bắt đầu hay đã có kinh nghiệm, việc hiểu rõ các thuật ngữ này sẽ giúp bạn tận dụng tối đa các tính năng và khả năng mà dịch vụ của chúng tôi mang lại.
+
 ### Thuật ngữ chung về Cloud & DBaaS  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  
@@ -29,6 +30,7 @@ Mục này cung cấp các định nghĩa và giải thích rõ ràng về các 
 | Subnet  | Một phần mạng con của VPC xác định dải IP cho tài nguyên.  |  
 | CIDR  | Cách biểu diễn dải IP được dùng để định nghĩa subnet.  |  
 | Static IP Pool  | Tập IP dự trữ trong subnet dùng cho cấp phát cố định.  |  
+
 ### Thuật ngữ về kiến trúc và triển khai cơ sở dữ liệu  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  
@@ -40,6 +42,7 @@ Mục này cung cấp các định nghĩa và giải thích rõ ràng về các 
 | Failover  | Quá trình tự động hoặc thủ công chuyển vai trò sang node dự phòng khi xảy ra sự cố.  |  
 | High Availability (HA)  | Kiến trúc đảm bảo hệ thống hoạt động liên tục với thời gian gián đoạn tối thiểu.  |  
 | Database Proxy  | Thành phần trung gian định tuyến kết nối ứng dụng đến cơ sở dữ liệu phù hợp.  |  
+
 ### Thuật ngữ về Sao lưu và Khôi phục  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  
@@ -51,11 +54,13 @@ Mục này cung cấp các định nghĩa và giải thích rõ ràng về các 
 | Backup Job  | Tác vụ sao lưu database được thực hiện theo lịch hoặc theo yêu cầu.  |  
 | Restore  | Quá trình phục hồi dữ liệu database từ bản sao lưu  |  
 | Point-in-Time Recovery (PITR)  | Khả năng khôi phục database về một thời điểm cụ thể.  |  
+
 ### Thuật ngữ về Bảo mật và Kiểm soát truy cập  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  
 | Role-Based Access Control (RBAC)  | Cơ chế phân quyền dựa trên vai trò người dùng.  |  
 | Identity and Access Management (IAM)  | Hệ thống quản lý danh tính và quyền truy cập.  |  
+
 ### Thuật ngữ về Giám sát và Vận hành  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  
@@ -64,6 +69,7 @@ Mục này cung cấp các định nghĩa và giải thích rõ ràng về các 
 | Alert  | Thông báo được gửi khi vượt ngưỡng cấu hình.  |  
 | Log  | Bản ghi sự kiện và hoạt động của hệ thống.  |  
 | Maintenance Window  | Khoảng thời gian dành cho hoạt động bảo trì hệ thống.  |  
+
 ### Thuật ngữ về Thanh toán và Dịch vụ  
 | Thuật ngữ  | Định nghĩa  |  
 | --- | --- |  

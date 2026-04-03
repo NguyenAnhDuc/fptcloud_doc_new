@@ -26,6 +26,7 @@ Ngoài trường hợp sử dụng qua **FPT Portal** , **S3 Browser** chúng ta
 [![User guide FPT Object Storage 59](/img/migrated/User-guide-FPT-Object-Storage-59-8342cb83.png)](/img/migrated/User-guide-FPT-Object-Storage-59-8342cb83.png)
 Bạn có thể kiểm tra trong File Explorer
 [![User guide FPT Object Storage 60](/img/migrated/User-guide-FPT-Object-Storage-60-c5d9eea8.png)](/img/migrated/User-guide-FPT-Object-Storage-60-c5d9eea8.png)
+
 ## Mount bucket với Linux
 Trong hướng dẫn này sẽ hướng dẫn khách hàng thực hiện mount bucket thông qua hệ điều hành Ubuntu 20.04 thông qua công cụ S3FS.
 **Bước 1:** Cài đặt S3FS.

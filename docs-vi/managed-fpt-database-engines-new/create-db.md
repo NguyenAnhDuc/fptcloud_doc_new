@@ -9,6 +9,7 @@ sidebar_position: 21
 # Create Db
 
 Chức năng **Khởi tạo cơ sở dữ liệu** cho phép triển khai nhanh các cơ sở dữ liệu khác nhau trên nền tảng FPT Database Engine mà không cần cấu hình chi tiết hạ tầng vật lý. Việc khởi tạo một cụm cơ sở dữ liệu mới yêu cầu bạn nhập các cấu hình liên quan đến loại engine, network, định danh cluster, và các dịch vụ bổ sung như backup và auto-scaling. Hướng dẫn chi tiết mô tả ngay dưới đây.
+
 ### Bước 1: Mở màn hình tạo cơ sở dữ liệu
 Truy cập trang danh sách cơ sở dữ liệu tương ứng với loại cơ sở dữ liệu cần tạo (chi tiết xem mục [Xem danh sách cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md), chọn **Create a Database Engine** hoặc **Create** để bắt đầu quá trình khởi tạo một cơ sở dữ liệu mới. Màn hình **Create New Database** sẽ được mở, cho phép bạn cấu hình các thông số cần thiết để định nghĩa và triển khai cơ sở dữ liệu trong môi trường FPT Database Engine. Tiến trình triển khai gồm 3 bước:
   * Step 1 – Database Configuration
@@ -69,6 +70,7 @@ Chỉ hiển thị đối với Engine Type là Cassandra.  |
 | Flavor  | Chọn Flavor để xác định tài nguyên compute cho mỗi node (vCPU, RAM).  |  
 | Data Disk Size (GB)  | Dung lượng ổ đĩa dữ liệu cho database, tính theo đơn vị GB với giá trị tối thiểu là 20 GB.  |  
 Sau khi nhập đầy đủ thông tin, nhấn **Next Step** để chuyển sang cấu hình các dịch vụ đi kèm.
+
 ### Bước 3: Cấu hình dịch vụ add-on
 [![](/img/migrated/create-db-step-2-2-d636b5e2.png)](/img/migrated/create-db-step-2-2-d636b5e2.png)
 Màn hình này cho phép cấu hình các dịch vụ bổ sung (optional) cho database cluster như backup, tự động mở rộng tài nguyên, và thông báo, nhằm tăng độ sẵn sàng, khả năng mở rộng và khả năng vận hành.
@@ -112,6 +114,7 @@ Mô tả các trường trên màn hình:
   * **Notification Recipients List** : Nhập danh sách email để nhận thông báo khi có sự kiện backup hoặc scaling được thực hiện. Bạn có thể thêm nhiều email bằng cách nhấn icon "+" để nhập email mới vào danh sách.
 
 Sau khi nhập đầy đủ thông tin, nhấn **Next Step** để chuyển sang bước kiểm tra các thông tin đã nhập và xác nhận việc khởi tạo cơ sở dữ liệu.
+
 ### Bước 4: Kiểm tra thông tin & xác nhận khởi tạo
 Người dùng cần kiểm tra toàn bộ thông tin đã cấu hình cho cơ sở dữ liệu trước khi xác nhận khởi tạo:
   * Nếu cần chỉnh sửa, nhấn "Back" để quay lại bước trước và cập nhật thông tin.

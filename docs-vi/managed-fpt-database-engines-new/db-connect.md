@@ -11,6 +11,7 @@ sidebar_position: 23
 Mục này hướng dẫn cách kết nối tới cơ sở dữ liệu được triển khai trên FPT Database Engine thông qua các phương thức kết nối được hỗ trợ và các khuyến nghị vận hành.
 Sau khi tạo cụm cơ sở dữ liệu thành công trên FPT Database Engine, người dùng có thể kết nối bằng các công cụ quản trị, driver ứng dụng, hoặc client tiêu chuẩn. Khả năng kết nối phụ thuộc vào cấu hình mạng, chính sách bảo mật, và thông tin xác thực database.
 Trước khi kết nối vào một cụm cơ sở dữ liệu, bạn cần cấu hình các thiết lập mạng và bảo mật để cho phép kết nối từ client. Điều này thường bao gồm việc tạo security group rules và gán floating IP (địa chỉ IP công cộng) nếu kết nối từ bên ngoài. Sau khi quyền truy cập mạng đã được cấp, bạn có thể sử dụng công cụ client để đăng nhập vào cơ sở dữ liệu.
+
 ## Tạo Security Group
 Security Group là tập hợp các quy tắc tường lửa (firewall rules) dùng để kiểm soát lưu lượng mạng đến (inbound) và đi (outbound) từ cụm cơ sở dữ liệu. Mỗi rule xác định port, protocol, và địa chỉ IP/CIDR được phép kết nối tới cơ sở dữ liệu.
 Việc cấu hình Security Group đúng cách giúp bảo vệ kết nối cơ sở dữ liệu, giới hạn truy cập theo nguyên tắc least privilege và giảm thiểu nguy cơ truy cập trái phép từ bên ngoài.
@@ -21,8 +22,10 @@ Việc cấu hình Security Group đúng cách giúp bảo vệ kết nối cơ 
   * **Không** khuyến nghị **dùng chung Security Group cho nhiều cụm hoặc mở toàn bộ port.** Việc cấu hình quá rộng có thể **mở rộng phạm vi truy cập ngoài ý muốn, tăng nguy cơ truy cập trái phép và ảnh hưởng đến các cụm khác** khi thay đổi rule. Trong một số trường hợp, **có thể gây gián đoạn dịch vụ** hoặc **rò rỉ dữ liệu**
 
 Để đảm bảo an toàn và dễ quản lý, hãy tạo và cấu hình Security Group cho cụm cơ sở dữ liệu theo các bước sau:
+
 ### Bước 1: Truy cập trang Quản lý security group
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **Network > Security Groups**. Giao diện **Security Group Management** sẽ hiển thị danh sách security group hiện có, cùng các tùy chọn để tạo mới, chỉnh sửa hoặc xoá một security group.
+
 ### Bước 2: Tạo security group mới
 Trong trang **Security Group Management** , nhấn **Create security group**. Màn hình tạo security group mới hiển thị như sau:
 [![](/img/migrated/create-security-group-scaled-8aa5e8ed.png)](/img/migrated/create-security-group-scaled-8aa5e8ed.png)
@@ -44,8 +47,10 @@ Khi cần thiết, bạn có thể thực hiện các thao tác sau với securi
 Để cho phép truy cập cơ sở dữ liệu từ mạng ngoài (Internet) hoặc bên ngoài VPC, bạn cần tạo và gán Floating IP cho nó. Floating IP là một địa chỉ IPv4 công cộng tĩnh, có thể chuyển đổi giữa các tài nguyên mà không cần thay đổi cấu hình khác bên trong hệ thống mạng. Việc gán Floating IP yêu cầu bạn đảm bảo các security group / firewall rules cho phép traffic phù hợp (port, protocol) đến cơ sở dữ liệu.
 **Best Practice** : Chỉ gán Floating IP khi cần truy cập public. Nếu database chỉ phục vụ backend nội bộ trong VPC, cân nhắc sử dụng private static IP để tránh phơi bày dịch vụ ra public network.
 Các bước thực hiện cấp phát Floating IP như sau:
+
 ### Bước 1: Truy cập trang Quản lý Floating IP
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **Network > Floating IPs**. Giao diện **Floating IP Management** sẽ hiển thị danh sách hiện có, cùng các tùy chọn để tạo mới hoặc release một Floating IP.
+
 ### Bước 2: Cấp phát địa chỉ IP
 Trong trang **Floating IP Management** , nhấn **Allocate IP address**. Hộp thoại cấp phát IP hiển thị như sau:
 [![](/img/migrated/allocate-IP-scaled-65984edf.png)](/img/migrated/allocate-IP-scaled-65984edf.png)
@@ -67,6 +72,7 @@ Khi Floating IP không còn nhu cầu sử dụng, bạn có thể giải phóng
 
 ## Kết nối vào cơ sở dữ liệu qua Client
 Sau khi đã cấp quyền mạng (security group và floating IP), bạn có thể kết nối tới cơ sở dữ liệu bằng công cụ client yêu thích (ví dụ: pgAdmin cho PostgreSQL, MySQL Workbench cho MySQL…).
+
 ### Bước 1: Lấy thông tin kết nối
 Thông tin kết nối cơ sở dữ liệu được hiển thị trên màn hình **Database Overview** trong FPT Cloud Portal. Để truy cập màn hình này, mở **Database list** , sau đó chọn ID của cơ sở dữ liệu để xem trang chi tiết:
 [![](/img/migrated/db-overview-scaled-2357ac75.png)](/img/migrated/db-overview-scaled-2357ac75.png)

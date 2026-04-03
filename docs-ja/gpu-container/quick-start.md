@@ -14,13 +14,16 @@ sidebar_position: 3
 
 ## ステップ2：<https://ai.fptcloud.com/> に戻り、新しいアカウントでログインします（FPT IDを使用する場合）
 [![file](/img/migrated/Screenshot-2025-07-04-175942-fe345258.png)](/img/migrated/Screenshot-2025-07-04-175942-fe345258.png)
+
 # ステップバイステップ
 ai.fptcloud.comのFPT AI Factoryポータルにログイン後、以下の手順に従ってください：
+
 ## ステップ1：アカウントにクレジットを追加する
   1. ACCOUNTセクションに移動して「Billing」をクリックします
   2. 「Add Credit」ボタンをクリックし、金額と支払い情報を入力して完了します。
 
 または、FPTのバウチャーをお持ちの場合は、「Add Voucher」セクションに有効なコードを適用してクレジットを引き換えます
+
 ## ステップ2：コンテナを作成する
   1. サイドメニューで「GPU Container」を選択します。
   2. **Create New GPU Container** ボタンをクリックして、コンテナのデプロイを設定します。

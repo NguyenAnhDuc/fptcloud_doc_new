@@ -19,6 +19,7 @@ Information required to log in to **S3 Browser** :
 | REST Endpoint  | Obtained from FPT Portal using HTTPS method  |  
 | Access Key  | Admin Access Key or SubUser Access Key  |  
 | Secret Access Key  | Admin Secret Key or SubUser Secret Key  |  
+
 ## Logging into FPT Object Storage Account with S3 Browser
 **Step 1:** In the **S3 Browser** application interface, select the **Accounts** menu and choose **Add new account**.
 [![User guide FPT Object Storage 16](/img/migrated/User-guide-FPT-Object-Storage-16-5946a0ca.png)](/img/migrated/User-guide-FPT-Object-Storage-16-5946a0ca.png)
@@ -26,11 +27,13 @@ Information required to log in to **S3 Browser** :
 [![User guide FPT Object Storage 17](/img/migrated/User-guide-FPT-Object-Storage-17-ebb112ea.png)](/img/migrated/User-guide-FPT-Object-Storage-17-ebb112ea.png)
 After a successful connection, the application will display a list of all the **Buckets** in your storage.
 [![User guide FPT Object Storage 18](/img/migrated/User-guide-FPT-Object-Storage-18-d232f82d.png)](/img/migrated/User-guide-FPT-Object-Storage-18-d232f82d.png)
+
 ## Creating a New Bucket
 **Step 1:** In the **S3 Browser** interface, select **New bucket**.
 [![User guide FPT Object Storage 19](/img/migrated/User-guide-FPT-Object-Storage-19-6d6ada0b.png)](/img/migrated/User-guide-FPT-Object-Storage-19-6d6ada0b.png)
 **Step 2:** Enter the name of the new bucket and select **Create new bucket**.
 [![User guide FPT Object Storage 20](/img/migrated/User-guide-FPT-Object-Storage-20-8b2e049c.png)](/img/migrated/User-guide-FPT-Object-Storage-20-8b2e049c.png)
+
 ## Uploading Files/Folders to a Bucket
 **Step 1:** Navigate to where you want to upload a File/Folder and select **Upload**.
 [![User guide FPT Object Storage 21](/img/migrated/User-guide-FPT-Object-Storage-21-b64dc351.png)](/img/migrated/User-guide-FPT-Object-Storage-21-b64dc351.png)
@@ -40,11 +43,13 @@ After a successful connection, the application will display a list of all the **
 [![User guide FPT Object Storage 23](/img/migrated/User-guide-FPT-Object-Storage-23-715159a2.png)](/img/migrated/User-guide-FPT-Object-Storage-23-715159a2.png)
 After a successful upload, the File/Folder will be displayed in **S3 Browser**.
 [![User guide FPT Object Storage 24](/img/migrated/User-guide-FPT-Object-Storage-24-11eea5f0.png)](/img/migrated/User-guide-FPT-Object-Storage-24-11eea5f0.png)
+
 ## Downloading Files/Folders from a Bucket
 **Step 1:** Select the File/Folder you want to download from the list and choose **Download**.
 [![User guide FPT Object Storage 25](/img/migrated/User-guide-FPT-Object-Storage-25-bc174a18.png)](/img/migrated/User-guide-FPT-Object-Storage-25-bc174a18.png)
 **Step 2:** Choose the local folder where you want to save the downloaded File/Folder from the S3 bucket and select **Select Folder** to confirm.
 [![User guide FPT Object Storage 26](/img/migrated/User-guide-FPT-Object-Storage-26-dbef0261.png)](/img/migrated/User-guide-FPT-Object-Storage-26-dbef0261.png)
+
 ## Enabling Versioning for a Bucket
 **Versioning** is a feature that allows you to store and manage multiple versions of the same object in **FPT Object Storage**. You can use the **Versioning** feature to store, retrieve, and restore all versions of any object stored in your bucket.
 To enable this feature for a bucket, follow these steps:
@@ -52,6 +57,7 @@ To enable this feature for a bucket, follow these steps:
 [![User guide FPT Object Storage 27](/img/migrated/User-guide-FPT-Object-Storage-27-29308078.png)](/img/migrated/User-guide-FPT-Object-Storage-27-29308078.png)
 **Step 2:** Tick the box for **Enable versioning for new-bucket** and select **OK** to save the settings.
 [![User guide FPT Object Storage 28](/img/migrated/User-guide-FPT-Object-Storage-28-2a0c389a.png)](/img/migrated/User-guide-FPT-Object-Storage-28-2a0c389a.png)
+
 ## Restoring Deleted Files
 After enabling **Versioning** , all actions that result in file changes, including **deletion** , are stored and numbered. If you want to restore a deleted file, remove the **(delete)** marked version from the **Version** list, and the file will be rolled back to the normal version before deletion.
 To restore a deleted file, follow this example:
@@ -60,11 +66,13 @@ In the **Versions** tab, you will see the latest version marked **(delete)**. Se
 [![User guide FPT Object Storage 29](/img/migrated/User-guide-FPT-Object-Storage-29-6f9195da.png)](/img/migrated/User-guide-FPT-Object-Storage-29-6f9195da.png)
 The file will be restored.
 [![User guide FPT Object Storage 30](/img/migrated/User-guide-FPT-Object-Storage-30-3bc28457.png)](/img/migrated/User-guide-FPT-Object-Storage-30-3bc28457.png)
+
 ## Downloading Older Versions of a File
 If **Versioning** is enabled, you can download older versions of a file as follows:
 **Step 1:** In the **S3 Browser** interface, select the file for which you want to download older versions.
 **Step 2:** Open the **Versions** tab and select the version you want to download.
 **Step 3:** Choose **Download** , then select the location to save the file on your local machine and click **Select folder**.
+
 ## Setting Up Bucket Lifecycle Policies
 The **Bucket Lifecycle** feature allows you to automatically delete files, groups of files, or file versions from **Storage** after a specified period. Deleting unnecessary files or versions can save you valuable resources and costs for **Storage**.
 To enable **Bucket Lifecycle** , follow these steps:
@@ -87,6 +95,7 @@ Depending on your needs, open the corresponding tab and select **Permanently del
 [![User guide FPT Object Storage 35](/img/migrated/User-guide-FPT-Object-Storage-35-f158dc30.png)](/img/migrated/User-guide-FPT-Object-Storage-35-f158dc30.png)
 **Step 6:** Add more rules if needed, and once you have set up all the rules, select **Save**.
 [![User guide FPT Object Storage 36](/img/migrated/User-guide-FPT-Object-Storage-36-1024x47-8379d63a.png)](/img/migrated/User-guide-FPT-Object-Storage-36-1024x47-8379d63a.png)
+
 ## Setting Up Bucket ACL (Access Control List)
 **Bucket ACL** (Access Control List) is a feature that allows you to manage access rights to groups and objects in your bucket.
 [![User guide FPT Object Storage 37](/img/migrated/User-guide-FPT-Object-Storage-37-51971e9e.png)](/img/migrated/User-guide-FPT-Object-Storage-37-51971e9e.png)
@@ -95,6 +104,7 @@ Depending on your needs, open the corresponding tab and select **Permanently del
   * **Make private** : Only the owner can operate with the bucket.
 
 [![User guide FPT Object Storage 38](/img/migrated/User-guide-FPT-Object-Storage-38-c1590c92.png)](/img/migrated/User-guide-FPT-Object-Storage-38-c1590c92.png)
+
 ## Using a Bucket as a Static Website
 Using a bucket as a static website allows you to create a static website that can be made public on the Internet and accessed via the **S3 WEBSITE ENDPOINT**.
 **Step 1:** Upload the entire website source to the S3 bucket.
@@ -106,6 +116,7 @@ Using a bucket as a static website allows you to create a static website that ca
 **Step 4:** Select **Permissions** and set Read permissions for all users for the bucket.
 [![User guide FPT Object Storage 42](/img/migrated/User-guide-FPT-Object-Storage-42-3a759306.png)](/img/migrated/User-guide-FPT-Object-Storage-42-3a759306.png)
 **Step 5:** Access the static website using the provided S3 WEBSITE ENDPOINT link from the **Object Storage Management** section.
+
 ## Creating Public Links with a Specific Time Frame
 The feature of creating public links within a specific time frame allows you to make the source web content stored in a bucket public. Typically, this can be used for testing web sources or demonstrations.
 **Note:** Creating public links within a specific time frame requires using S3 Browser Pro.
@@ -116,6 +127,7 @@ The feature of creating public links within a specific time frame allows you to 
 [![User guide FPT Object Storage 45](/img/migrated/User-guide-FPT-Object-Storage-45-1024x53-08b2a3af.png)](/img/migrated/User-guide-FPT-Object-Storage-45-1024x53-08b2a3af.png)
 You can verify that the link becomes inaccessible after the expiration time.
 [![User guide FPT Object Storage 46](/img/migrated/User-guide-FPT-Object-Storage-46-1024x53-0ae51a51.png)](/img/migrated/User-guide-FPT-Object-Storage-46-1024x53-0ae51a51.png)
+
 ## CORS (Cross-Origin Resource Sharing)
 **Step 1:** Access the **CORS Configuration** in **S3 Browser**.
 [![User guide FPT Object Storage 47](/img/migrated/User-guide-FPT-Object-Storage-47-cec0f611.png)](/img/migrated/User-guide-FPT-Object-Storage-47-cec0f611.png)

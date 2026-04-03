@@ -9,6 +9,7 @@ sidebar_position: 6
 # Deployment Model
 
 This section describes the database deployment models supported by the FPT Database Engine, enabling users to choose an architecture that meets their availability, performance, and cost requirements.
+
 ### Single Node Deployment
 The Single Node deployment model provisions the database on a single node with allocated compute (vCPU, RAM) and storage resources. This model does not support automatic failover and depends entirely on the availability of the node.
 The Single Node model is suitable for:

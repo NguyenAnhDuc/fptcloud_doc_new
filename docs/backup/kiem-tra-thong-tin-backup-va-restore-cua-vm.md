@@ -5,6 +5,7 @@ description: "How to check the backup and restore status of a VM from the VM adm
 sidebar_label: "Check VM Backup and Restore Information"
 sidebar_position: "7"
 ---
+
 # Check VM Backup and Restore Information
 
 ## Check VM Backup and Restore Status

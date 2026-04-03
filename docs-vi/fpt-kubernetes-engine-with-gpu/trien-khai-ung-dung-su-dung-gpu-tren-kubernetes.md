@@ -21,6 +21,7 @@ Copykubectl get node  -o json | jq ‘.items[].metadata.labels‘ 
 
 _Ví dụ:_ hình dưới cho thấy worker sử dụng card Nvidia A30, cấu hình strategy: all-balanced, trạng thái: success.
 [![Alt text](/img/migrated/Picture32-1-30173fb0.png)](/img/migrated/Picture32-1-30173fb0.png)
+
 ### 💡 **Kiểm tra cấu hình GPU Instance trên worker chưa bằng lệnh sau (ssh vào worker, gõ lệnh):**
 #### 👉 **Ví dụ triển khai ứng dụng sử dụng GPU:**
 1️⃣ **Với sharing mode MIG và strategy: single, tài nguyên GPU được khai báo như sau:**

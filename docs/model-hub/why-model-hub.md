@@ -16,16 +16,19 @@ sidebar_position: 5
     * Reuse models with just one line of code.
 
 * * *
+
 ### 2. Reusability & Efficiency
   * Training large models from scratch is **expensive**.
   * Hubs let you **reuse pretrained checkpoints** , so you only need to fine-tune.
 
 * * *
+
 ### 3. Collaboration & Sharing
   * Teams can **push fine-tuned models** to a hub → other team members can pull them instantly.
   * This works for code: version control, forks, and community contributions.
 
 * * *
+
 ### 4. Deployment Ready
   * That means once your model is in the hub, you can: 
     * Deploy it on cloud infrastructure.
@@ -33,6 +36,7 @@ sidebar_position: 5
     * Scale it without managing servers.
 
 * * *
+
 ### 5. Governance & Version Control
   * Hubs track **different versions** of models.
   * You know exactly which checkpoint was used in production (important for **MLOps & audits**).

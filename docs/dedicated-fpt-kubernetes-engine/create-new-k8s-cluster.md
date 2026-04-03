@@ -22,6 +22,7 @@ sidebar_position: 4
 
 **Step 3** : Configure Node Pools as desired, then click 
 [![](/img/migrated/6.EnterNodePools-54a4316e.png)](/img/migrated/6.EnterNodePools-54a4316e.png)
+
 #### Storage Policy & Load Balancer
   * **Policy** : Choose Storage Policy for Disk of VMs in the Kubernetes Cluster.
   * **LB Size** : Load Balancer's config:
@@ -47,6 +48,7 @@ sidebar_position: 4
 
 **Step 4** : Configure Advanced configuration, then click 
 [![](/img/migrated/7.EnterAdvanced-03d66ae7.png)](/img/migrated/7.EnterAdvanced-03d66ae7.png)
+
 #### NFS Storage:
   * **Enable NFS Persistent Storage** : Enabling **NFS Persistent Storage** to be deploy along with this Cluster.
   * **Disk (GB)** : Capacity of NFS Storage. Remember to have suitable sizing, changing disk capacity will hvae to be done manually by the user.

@@ -13,6 +13,7 @@ sidebar_position: 1
   * [ ![](/img/migrated/suggestion-b956384e.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
 
 Request Resource
+
 ##  Tổng quan (Overview) 
 **1. Giới thiệu về Yêu cầu cung cấp tài nguyên**
 Nhóm tính năng Yêu cầu cung cấp tài nguyên (Request Resource) sẽ giúp người dùng tự chủ động đưa ra yêu cầu cung cấp tăng thêm tài nguyên mới hoặc tài nguyên dùng thử mà không cần mất thời gian liên hệ hoặc chờ đợi với người bán hàng. Bạn có thể tự yêu cầu mua mới hoặc tăng thêm lượng dịch vụ nhanh chóng trên giao diện của FPT Portal.

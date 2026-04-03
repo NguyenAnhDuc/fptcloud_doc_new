@@ -9,11 +9,13 @@ sidebar_position: "8"
 # How To Create Session
 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/05/Create-Session.png)](https://fptcloud.com/wp-content/uploads/2025/05/Create-Session.png)
+
 ### Step 1: Enter Session Name and Description
 You must enter a unique name session (e.g., int.session_20250915155915) that satisfies the following conditions:
   * Maximum 100 characters
 
 Optional note session description with maximum 200 characters.
+
 ### Step 2: Select Model
 You select model from the **Model Hub** in two ways:
   * **Model Catalog:** A repository of model sources from various providers such as DeepSeek, Gemma, Llama, and Qwen.
@@ -36,6 +38,7 @@ Example:
 **(→ available)**  | Instruction-tuned   
   
 **(→ available)**  |  
+
 ### Step 3: Select Session Stop
 You can enter and adjust the icon up-down to select appreciated time for the session.
 We recommend you define how the session should automatically terminate based on one or more of the following condition:
@@ -44,6 +47,7 @@ We recommend you define how the session should automatically terminate based on 
   * Model-specific limits
 
 This ensures efficient resource usage and prevents unintended long-running sessions.
+
 ### Step 4: Submit
 You review and submit a session
 **Notice:** For the PAYG user

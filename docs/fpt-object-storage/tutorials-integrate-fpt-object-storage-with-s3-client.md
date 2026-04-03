@@ -10,8 +10,10 @@ pagination_next: null
 # Integrate with S3 client
 
 FPT Object Storage supports integration with S3-SDKs or S3-Clients following the AWS S3 standard. This lets you use familiar tools and libraries to interact with your bucket's data.
+
 ## S3CMD (Unix/Linux)
 **S3CMD:** This is a command-line tool for Linux/Unix that allows you to manage data on FPT Object Storage or AWS S3. You can upload, download, and organize files and folders.
+
 ### A. Installation:
 **CentOS/RHEL:**
 
@@ -32,6 +34,7 @@ Copy$ brew install s3cmd
 ```
 
 Other operating systems can be referenced at the S3CMD homepage: <https://s3tools.org/download>
+
 ### B. Configuration:
 **Step 1:** Open a terminal and run the following command to start the configuration process:
 
@@ -78,11 +81,14 @@ Copy$ s3cmd ls
 ```
 
 If you see the list of displayed buckets, you have successfully connected to FPT Object Storage.
+
 ## Cyberduck (Mac and Windows)
 **CyberDuck:** This is an open-source GUI application for Mac and Windows that allows you to manage files directly on FPT Object Storage or AWS S3. It provides a more user-friendly environment for uploading, downloading, and managing files.
+
 ### A. Installation:
 Visit the Cyberduck homepage to download the appropriate version for your device: [Cyberduck Download](https://cyberduck.io/download)
 After downloading, open the installation file and follow the application's instructions to complete the Cyberduck installation.
+
 ### B. Configuration:
 **Step 1:** Open the Cyberduck application after installation.
 **Step 2:** Click the **Open Connection** button on the main interface or select **File** -> **Open Connection** from the menu. [![file](/img/migrated/image-1692698326176-ef4d33a6.png)](/img/migrated/image-1692698326176-ef4d33a6.png) **Step 3:** An **Open Connection** dialog will appear. In this dialog, enter the authentication information as follows:
@@ -93,6 +99,7 @@ After downloading, open the installation file and follow the application's instr
   * **Secret Key ID:** Secret Key obtained from FPT Portal. [![file](/img/migrated/image-1692698347523-bab6ef92.png)](/img/migrated/image-1692698347523-bab6ef92.png) After entering the authentication information, press **Connect** to establish the connection.
 
 Cyberduck will connect to FPT Object Storage using the provided authentication information. Once the connection is successful, the folder structure on FPT Object Storage appears in the Cyberduck window. [![file](/img/migrated/image-1692698365189-9866d9f6.png)](/img/migrated/image-1692698365189-9866d9f6.png) From here, you can perform various operations such as uploading, downloading, and managing files directly through the intuitive interface of Cyberduck.
+
 ## AWS CLI (Linux, Mac, and Windows)
 ### A. Installation:
 Download the latest version from the official AWS CLI website or install it using the following instructions: **Linux/Unix:**
@@ -123,6 +130,7 @@ Copymsiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
 
 Follow the on-screen instructions to complete the installation.
+
 ### B. Configuration:
 After installation, open Command Prompt, PowerShell, or Terminal, depending on your operating system.
 Enter the following command to start the configuration process:
@@ -147,11 +155,14 @@ Copyaws --version
 ```
 
 If the above command returns the version of AWS CLI, it indicates that you have successfully installed and configured it.
+
 ## WinSCP (Windows)
 WinSCP stands for **Windows Secure Copy Protocol** and is a free Windows application used to securely transfer files between a personal computer and a remote server. It is primarily used for managing and sharing files through protocols such as SFTP (Secure File Transfer Protocol), SCP (Secure Copy Protocol), FTP (File Transfer Protocol), AWS S3, etc., via a user-friendly interface.
+
 ### A. Installation:
 Visit the official WinSCP website to download and install the software: [WinSCP Download](https://winscp.net/eng/download.php)
 After downloading, open the installation file and follow the instructions to complete the WinSCP installation.
+
 ### B. Configuration:
 **Step 1.** Open the WinSCP application after installation.
 **Step 2.** Click on **New Session** to start setting up a new connection. [![file](/img/migrated/image-1692698404134-52896479.png)](/img/migrated/image-1692698404134-52896479.png) **Step 3.** In the **Login** window, follow these steps:
@@ -163,11 +174,14 @@ After downloading, open the installation file and follow the instructions to com
 
 After a successful connection, you will see a list of buckets on FPT Object Storage appear in the WinSCP window.
 From here, you can perform drag-and-drop operations to upload, download, and manage files directly through the intuitive WinSCP interface.
+
 ## Tool S3sync (FreeBSD, Linux, OpenBSD, MacOS)
 s3sync is an open-source tool developed to manage and synchronize files between a personal computer or server with cloud storage services using the S3 protocol, such as Amazon S3 from Amazon Web Services and FPT Object Storage from FPT Cloud. This tool allows you to upload and download files and perform synchronization operations between cloud storage services.
+
 ### A. Installation:
 Access the project's link to download and install the software: [S3sync Releases](https://github.com/larrabee/s3sync/releases)
 After downloading, extract and follow the instructions to complete the S3sync installation.
+
 ### B. Configuration:
 You must provide authentication information in the execution commands for the tool to function.
 Basic parameters:
