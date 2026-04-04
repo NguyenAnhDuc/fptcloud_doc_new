@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/root/codes/fptcloud_doc_new/docs-ja/managed-fpt-kubernetes-engine/tinh-nang-hibernate-wakeup.md\"}",
+  "error": "File does not exist. Note: your current working directory is /root/codes/fptcloud_doc_new.",
+  "timestamp": "2026-04-04T17:59:15.622Z",
+  "retry_count": 5
+}

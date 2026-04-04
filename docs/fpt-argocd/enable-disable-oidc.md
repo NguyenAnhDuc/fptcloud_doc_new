@@ -1,13 +1,15 @@
 ---
-id: "enable-disable-chuc-nang-cau-hinh-oidc"
-title: "Enable/disable OIDC"
-description: "Guide to enabling or disabling OIDC configuration for ArgoCD"
-sidebar_label: "Enable/disable OIDC"
-sidebar_position: 35
+id: "enable-disable-oidc"
+title: "Enable/Disable OIDC configuration"
+sidebar_label: "Enable/Disable OIDC"
 ---
 
 # Enable/disable OIDC
 
-FPT Cloud supports enabling or disabling the OIDC configuration for ArgoCD via the Portal interface.
+1. Tại màn hình **Security & Access** > **OIDC Scope**, nhấn **Enable OIDC Config**.
 
-Go to **Security & Access** > **OIDC** to enable or disable the OIDC integration.
+[![](/img/migrated/Picture21-4-ce80ca2a.png)](/img/migrated/Picture21-4-ce80ca2a.png)
+
+2. Kết quả sau khi enable thành công:
+
+[![](/img/migrated/Picture22-4-f83f0ae0.png)](/img/migrated/Picture22-4-f83f0ae0.png)

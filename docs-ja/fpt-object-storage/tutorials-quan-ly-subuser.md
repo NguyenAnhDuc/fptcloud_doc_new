@@ -1,59 +1,86 @@
 ---
 id: "tutorials-quan-ly-subuser"
-title: "Tutorials Quan Ly Subuser"
-description: "**SubUser** là người dùng con được tạo trong FPT Object Storage với quyền truy cập giới hạn, giúp tăng cường bảo mật và "
-sidebar_label: "Tutorials Quan Ly Subuser"
+title: "SubUser の管理"
+description: "FPT Object Storage では、アクセスが制限された SubUser を作成してセキュリティを強化し、データへのアクセスをより効果的に管理できます。"
+sidebar_label: "SubUser の管理"
 sidebar_position: "10"
 ---
 
-# Quản Lý SubUser Trên FPT Object Storage
+# FPT Object Storage の SubUser 管理
 
-**SubUser** là người dùng con được tạo trong FPT Object Storage với quyền truy cập giới hạn, giúp tăng cường bảo mật và kiểm soát truy cập dữ liệu hiệu quả hơn.
-Tuỳ theo nhu cầu sử dụng, quản trị viên có thể gán cho SubUser các **role** với mức độ truy cập khác nhau.
+**SubUser** は FPT Object Storage 内でアクセスが制限された状態で作成されるサブユーザーです。セキュリティを強化し、データへのアクセスをより効果的に管理するために役立ちます。
+管理者は用途に応じて、異なるアクセスレベルの **role** を SubUser に割り当てることができます。
 
-### Các vai trò được hỗ trợ:
-  * **None** : Không có quyền truy cập.
-  * **Read** : Chỉ được đọc dữ liệu trong bucket.
-  * **Write** : Chỉ được ghi dữ liệu vào bucket.
-  * **Read - Write** : Có quyền đọc và ghi dữ liệu.
-  * **Full** : Toàn quyền, bao gồm cả thao tác cấu hình bucket.
+### サポートされている role:
 
-Việc sử dụng SubUser giúp phân quyền rõ ràng, hạn chế rủi ro khi cần chia sẻ quyền truy cập với nhiều người dùng hoặc ứng dụng.
-* * *
+- **None**: アクセス権なし。
+- **Read**: bucket 内のデータの読み取りのみ可能。
+- **Write**: bucket へのデータ書き込みのみ可能。
+- **Read - Write**: データの読み取りと書き込みが可能。
+- **Full**: bucket 設定操作を含むすべての権限。
 
-## Tạo SubUser Mới
-**Bước 1:** Truy cập menu **Object Storage Management** , chọn tab **SubUser** , sau đó chọn **Region**.
-**Bước 2:** Nhấn **Create SubUser**.
-**Bước 3:** Nhập thông tin cần thiết:
-  * **Name** : Tên hiển thị dễ nhớ.
-  * **Access level** : Chọn vai trò phù hợp.
+SubUser を使用することで権限を明確に分離でき、複数のユーザーやアプリケーションとアクセス権を共有する際のリスクを軽減できます。
 
-**Bước 4:** Nhấn **Create** để hoàn tất quá trình tạo SubUser.
-* * *
+---
 
-## Chỉnh Sửa Role Của SubUser
-**Bước 1:** Trong danh sách SubUser, chọn **Detail** tại SubUser cần chỉnh sửa.
-**Bước 2:** Ở trường **Access level** , chọn role mới phù hợp.
-**Bước 3:** Nhấn **Save** để cập nhật.
-* * *
+## SubUser の作成
 
-## Quản Lý SubUser Access Key
-Mỗi SubUser có thể có tối đa **2 cặp Access Key** dùng để xác thực khi truy cập bucket qua SDK, API hoặc S3 Client.
+**ステップ 1:** **Object Storage Management** メニューで **SubUser** タブを選択し、**Region** を選択します。
 
-### A. Tạo SubUser Access Key
-**Bước 1:** Vào **Detail** của SubUser cần tạo key.
-**Bước 2:** Nhấn **Generate Key**.
-**Bước 3:** Hệ thống sẽ tạo một cặp **Access Key** và **Secret Key**.
-**Bước 4:** **Lưu trữ ngay** thông tin key ở nơi an toàn, sau đó nhấn **Confirm access key** để xác nhận.
-> 🔐 Lưu ý: Secret Key chỉ hiển thị một lần duy nhất.
+**ステップ 2:** **Create SubUser** をクリックします。
 
-### B. Xóa SubUser Access Key
-**Bước 1:** Vào **Detail** của SubUser chứa key cần xoá.
-**Bước 2:** Tại phần **Action** của Access Key, chọn **Delete**.
-**Bước 3:** Xác nhận thao tác khi được yêu cầu để hoàn tất việc xoá key.
-> ⚠️ Sau khi xoá, tất cả các client đang sử dụng key này sẽ mất quyền truy cập.
-* * *
+**ステップ 3:** 必要な情報を入力します。
+- **Name**: わかりやすい表示名。
+- **Access level**: 適切な role を選択します。
 
-## Xoá SubUser
-**Bước 1:** Trong danh sách SubUser, chọn **Delete** bên cạnh SubUser cần xoá.
-**Bước 2:** Xác nhận thao tác khi hộp thoại cảnh báo hiển thị.
+**ステップ 4:** **Create** をクリックして SubUser の作成を完了します。
+
+---
+
+## SubUser の role の編集
+
+**ステップ 1:** SubUser 一覧で、編集する SubUser の **Detail** を選択します。
+
+**ステップ 2:** **Access level** フィールドで新しい role を選択します。
+
+**ステップ 3:** **Save** をクリックして更新します。
+
+---
+
+## SubUser Access Key の管理
+
+各 SubUser は、SDK、API、S3 Client 経由で bucket にアクセスする際の認証に使用する **Access Key を最大 2 組**持つことができます。
+
+### A. SubUser Access Key の作成
+
+**ステップ 1:** 鍵を作成する SubUser の **Detail** を開きます。
+
+**ステップ 2:** **Generate Key** をクリックします。
+
+**ステップ 3:** システムが **Access Key** と **Secret Key** のペアを生成します。
+
+**ステップ 4:** すぐに安全な場所に鍵の情報を保管し、**Confirm access key** をクリックして確認します。
+
+:::warning
+Secret Key は一度しか表示されません。
+:::
+
+### B. SubUser Access Key の削除
+
+**ステップ 1:** 削除する鍵が含まれる SubUser の **Detail** を開きます。
+
+**ステップ 2:** Access Key の **Action** セクションで **Delete** を選択します。
+
+**ステップ 3:** 要求に応じて操作を確認し、鍵の削除を完了します。
+
+:::warning
+削除後、この鍵を使用しているすべてのクライアントはアクセス権を失います。
+:::
+
+---
+
+## SubUser の削除
+
+**ステップ 1:** SubUser 一覧で、削除する SubUser の横にある **Delete** を選択します。
+
+**ステップ 2:** 警告ダイアログが表示されたら操作を確認します。

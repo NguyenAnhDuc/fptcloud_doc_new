@@ -1,0 +1,11 @@
+---
+id: "model-testing-interactive-sessions"
+title: "Model Testing – Interactive Sessions"
+sidebar_label: "Model Testing – Interactive..."
+sidebar_position: "1"
+description: "Model Testing – Interactive Sessions"
+---
+
+# Model Testing – Interactive Sessions
+
+Model Testing Interactive Sessions allows you to evaluate AI model performance through interactive testing.

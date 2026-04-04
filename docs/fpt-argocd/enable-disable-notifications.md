@@ -1,13 +1,15 @@
 ---
-id: "enable-disable-notificaions"
-title: "Enable/disable notifications"
-description: "Guide to enabling or disabling ArgoCD notifications on FPT Cloud Portal"
-sidebar_label: "Enable/disable notifications"
-sidebar_position: 31
+id: "enable-disable-notifications"
+title: "Enable/Disable Notifications"
+sidebar_label: "Enable/Disable Notifications"
 ---
 
 # Enable/disable notifications
 
-FPT Cloud supports enabling or disabling the ArgoCD notification service via the Portal interface.
+1. Tại màn hình **Notifications**, nhấn **Enable Notifications**.
 
-Go to **Configuration** > **Notifications** > **Service Status** to enable or disable the notification service.
+[![](/img/migrated/Picture36-3-e6e46cf4.png)](/img/migrated/Picture36-3-e6e46cf4.png)
+
+2. Sau khi enable thành công, FPT Cloud cho phép cấu hình thông báo tới **Telegram**, **Slack** và **Email**.
+
+[![](/img/migrated/Picture37-3-6222ecd1.png)](/img/migrated/Picture37-3-6222ecd1.png)

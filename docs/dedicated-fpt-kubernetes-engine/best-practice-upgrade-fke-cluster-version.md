@@ -1,62 +1,64 @@
 ---
 id: "best-practice-upgrade-fke-cluster-version"
-title: "Best Practice Upgrade Fke Cluster Version"
-description: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
-sidebar_label: "Best Practice Upgrade Fke Cluster Version"
-sidebar_position: "26"
+title: "Best practices for upgrading FKE cluster version"
+description: "Best practices and detailed process for upgrading the Kubernetes cluster version in D-FKE."
+sidebar_label: "Best practices for upgrading FKE cluster version"
+sidebar_position: 26
 ---
 
-# Hướng dẫn upgrade FKE cluster version
+# Best practices for upgrading FKE cluster version
 
-Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console. 
-**A. Tính năng sản phẩm:**
-  * Cả master và worker node đều được nâng cấp version: quá trình này hoàn toàn tự động, người dùng dễ dàng thao tác trên portal, không cần tác động vào cluster. 
-  * Upgrade master với zero downtime: hệ thống tự động upgrade master lên phiên bản kế tiếp VD: 1.21 à 1.22 không có downtime nếu cluster sử dụng mode HA ( 3 master). Với các cluster có 1 master, sẽ mất một vài phút downtime master, trong thời gian đó không thể tác động vào cluster (Kubernetes API) nhưng workload của ứng dụng vẫn hoạt động bình thường. 
-  * Upgrade worker với zero downtime: hệ thống tự động Rolling update version từng worker node. Lần lượt các worker sẽ drain hết pod workload và cordon (disable schedule) pods gán vào node cho tới khi node nó update xong. 
+D-FKE supports upgrading the Kubernetes cluster version via the Portal Console.
 
-**B. Chi tiết quá trình upgrade của hệ thống:**
+**A. Product features:**
+  * Both master and worker nodes are upgraded automatically — the process requires no manual intervention on the cluster.
+  * **Zero-downtime master upgrade:** The system automatically upgrades the master to the next version (e.g. 1.21 → 1.22) with no downtime when the cluster runs in HA mode (3 masters). For clusters with a single master, a few minutes of master downtime may occur during the upgrade; application workloads continue running normally during this time.
+  * **Zero-downtime worker upgrade:** The system performs a rolling update on each worker node. Each worker is drained of pod workloads and cordoned (scheduling disabled) until the node upgrade is complete.
+
+**B. Upgrade process details:**
+
 **1. Pre-upgrade**
-  * Hệ thống setup môi trường để cluster upgrade 
-  * Kiểm tra môi trường: cluster status/network status 
+  * The system prepares the environment for the cluster upgrade.
+  * Environment checks: cluster status / network status.
 
 **2. Upgrade**
-(Upgrade lần lượt các node, master trước, worker sau) 
-  * Cordon node 
-  * Drain node 
-  * Check node is in ready state 
-  * Backup old certs and keys, Backup old confs (master) 
-  * Update etcd-servers for apiserver (master) 
-  * Install new version software on node: kubelet, calico, container runtime, coredns, nodelocaldns, metrics server .. 
+(Nodes are upgraded in order: masters first, then workers)
+  * Cordon node
+  * Drain node
+  * Check node is in ready state
+  * Backup old certs and keys; backup old confs (master)
+  * Update etcd-servers for apiserver (master)
+  * Install new version software on node: kubelet, calico, container runtime, coredns, nodelocaldns, metrics server, etc.
 
 **3. Post-upgrade**
-  * Install new version Addon on node: CSI, CCM, Autoscaler 
-  * Check upgrade state 
-  * Cleanup 
+  * Install new version addons on node: CSI, CCM, Autoscaler
+  * Check upgrade state
+  * Cleanup
 
-**C. Recommend cho cluster khi sử dụng upgrade:**
-  * Quá trình upgrade cluster nên thực hiện trong thời điểm hệ thống chịu tải thấp, nên thực hiện sau giờ hành chính hoặc cuối tuần. 
-  * Trước khi upgrade môi trường prod nên kiểm thử các ứng dụng có tương thích với K8S version mới không ở môi trường dev/uat trước, đặc biệt là các API K8S version mới. 
-  * Nâng cấp version cluster theo từng phiên bản kế tiếp, ví dụ: 1.21 à 1.22 à 1.23 
-  * Đảm bảo cluster luôn sử dụng phiên bản mới nhất (tham khảo bảng EOL version) 
-  * Backup config của cluster trước khi upgrade: sử dụng các tool CD hoặc backup manifest/helm chart 
-  * Triển khai cluster sử dụng HA master (03 master) để đảm bảo không downtime control plane. 
-  * Triển khai cluster sử dụng HA worker từ 02 worker trở lên để đảm bảo không downtime workload ứng dụng. 
-  * Triển khai các ứng dụng dưới dạng Workload Controller như Deployment, Replicaset, DaemonSet, .. có replica từ 2 trở lên và không nên triển khai các Pod đơn lẻ. 
-  * Không nên triển khai ứng dụng sử dụng local storage (empty dir, hostpath ..) nên sử dụng CSI 
-  * Triển khai Anti-Affinity rule cho các ứng dụng để đảm bảo ứng dụng chạy trên nhiều worker nodes 
-  * Đảm bảo Firewall mở port để hệ thống của FPT kết nối đến cluster trong quá trình upgrade (FKE controller: từ 103.160.90.33 đến <> port tcp 6443, 32085, 2022 
+**C. Recommendations for cluster upgrade:**
+  * Perform the cluster upgrade during low-traffic periods — after business hours or on weekends.
+  * Before upgrading the production environment, test application compatibility with the new Kubernetes version in a dev/uat environment, especially for new Kubernetes API versions.
+  * Upgrade the cluster version one step at a time (e.g. 1.21 → 1.22 → 1.23).
+  * Keep the cluster on the latest supported version (refer to the EOL chart below).
+  * Back up cluster configuration before upgrading: use CD tools or back up manifests/helm charts.
+  * Deploy clusters with HA masters (3 masters) to ensure zero downtime for the control plane.
+  * Deploy clusters with at least 2 workers to ensure zero downtime for application workloads.
+  * Deploy applications using Workload Controllers such as Deployment, ReplicaSet, DaemonSet with at least 2 replicas; avoid standalone Pods.
+  * Avoid using local storage (emptyDir, hostPath); use CSI instead.
+  * Apply Anti-Affinity rules to ensure applications run across multiple worker nodes.
+  * Ensure Firewall ports are open for FPT systems to connect to the cluster during upgrade (FKE controller: from 103.160.90.33 to cluster, TCP ports 6443, 32085, 2022).
+  * Size resources appropriately to allow rolling updates on worker nodes (consider adding 1 extra worker as a buffer before upgrading the cluster version).
 
-  * Thiết kế sizing tài nguyên cho ứng dụng đảm bảo có đủ tài nguyên để để Rolling update worker node (có thể scale thêm 01 worker làm buffer trước khi upgrade version cluster). 
+**D. D-FKE EOL Chart**
 
-**D. D-FKE EOL Chart**  
-| Kubernetes version  | Upstream release  | FKE GA  | FKE End of standard support  |  
-| --- | --- | --- | --- |  
-| 1.21  | Apr,2021  | 2021  | Sep, 2024  |  
-| 1.22  | Aug, 2021  | 2022  | Nov, 2024  |  
-| 1.23  | Dec, 2021  | 2023  | Feb, 2025  |  
-| 1.24  | May, 2022  |   |   |  
-| 1.25  | Aug, 2022  | Oct, 2023  | Aug, 2025  |  
-| 1.26  | Dec, 2022  | Jan, 2024  | Nov, 2025  |  
-| 1.27  | Apr, 2023  | Feb, 2024  | Feb, 2026  |  
-| 1.28  | Aug, 2023  | Mar, 2024  | May, 2026  |  
-| 1.29  | Jan, 2024  |   |   |
+| Kubernetes version | Upstream release | FKE GA | FKE End of standard support |
+| --- | --- | --- | --- |
+| 1.21 | Apr, 2021 | 2021 | Sep, 2024 |
+| 1.22 | Aug, 2021 | 2022 | Nov, 2024 |
+| 1.23 | Dec, 2021 | 2023 | Feb, 2025 |
+| 1.24 | May, 2022 | | |
+| 1.25 | Aug, 2022 | Oct, 2023 | Aug, 2025 |
+| 1.26 | Dec, 2022 | Jan, 2024 | Nov, 2025 |
+| 1.27 | Apr, 2023 | Feb, 2024 | Feb, 2026 |
+| 1.28 | Aug, 2023 | Mar, 2024 | May, 2026 |
+| 1.29 | Jan, 2024 | | |

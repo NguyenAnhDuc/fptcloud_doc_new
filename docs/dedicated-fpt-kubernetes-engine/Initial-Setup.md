@@ -1,43 +1,43 @@
 ---
 id: "Initial-Setup"
 title: "Initial Setup"
-description: "FPT Kubernetes Engine サービスを使用する前の初期設定手順。"
+description: "Initial setup steps before using the FPT Kubernetes Engine service."
 sidebar_label: "Initial Setup"
 sidebar_position: "2"
 ---
 
-# 初期設定
+# Initial Setup
 
-FPT Kubernetes Engine を初めてご利用になる場合は、以下の手順を確認・完了してから開始してください。
+If you are using FPT Kubernetes Engine for the first time, review and complete the following steps before getting started.
 
-## FPT Cloud アカウントの作成と FPT Portal へのログイン
+## Create an FPT Cloud account and log in to FPT Portal
 
-1. https://fptcloud.com/ にアクセスし、**Sign Up** を選択します。
-2. システムの指示に従って必要な情報を入力します。
-3. サポートチームに連絡して情報を確認し、アカウントを有効化します。
-4. 付与されたアカウントとパスワードで FPT Portal にログインします。
-5. 正しい Tenant、Region、VPC を選択します。
+1. Go to https://fptcloud.com/ and select **Sign Up**.
+2. Follow the system instructions to fill in the required information.
+3. Contact the support team to verify your information and activate your account.
+4. Log in to FPT Portal with the provided account and password.
+5. Select the correct Tenant, Region, and VPC.
 
 :::note
-上記情報について不明な点がある場合、または 3 回の試行後にエラーが発生した場合は、サポートチームにお問い合わせください。
+If you have any questions about the above information, or if an error occurs after 3 attempts, please contact the support team.
 :::
 
-## Static Pool を持つ subnet の作成
+## Create a subnet with a Static Pool
 
-Kubernetes cluster は Static Pool オプションが有効になっている subnet でのみ動作します。次の手順に従って subnet を作成してください。
+A Kubernetes cluster can only operate on a subnet with the Static Pool option enabled. Follow these steps to create a subnet.
 
-1. **Networking** セクションで **Subnets** タブを選択します。
+1. In the **Networking** section, select the **Subnets** tab.
 [![Userguide K8s 1](/img/migrated/Userguide-K8s-1-1024x520-cf033d8c.png)](/img/migrated/Userguide-K8s-1-1024x520-cf033d8c.png)
-2. **Subnets Management** ページで **Create** を選択します。
+2. On the **Subnets Management** page, select **Create**.
 [![Userguide K8s 2](/img/migrated/Userguide-K8s-2-1024x202-6de849e4.png)](/img/migrated/Userguide-K8s-2-1024x202-6de849e4.png)
-3. 以下の情報を入力します。
-   - **Name:** subnet の分かりやすい名前を入力します。
-   - **CIDR:** 有効な CIDR を入力します。
-   - **Advanced settings** をチェックします。
-   - **Static IP Pool:** CIDR から取得した有効な IP レンジを入力します。
-4. **Save** を選択して新しい subnet を作成します。
+3. Fill in the following information:
+   - **Name:** Enter a descriptive name for the subnet.
+   - **CIDR:** Enter a valid CIDR.
+   - Check **Advanced settings**.
+   - **Static IP Pool:** Enter a valid IP range derived from the CIDR.
+4. Select **Save** to create the new subnet.
 [![Userguide K8s 3](/img/migrated/Userguide-K8s-3-c5aca27b.png)](/img/migrated/Userguide-K8s-3-c5aca27b.png)
 
-## FKE サービスの有効化とリソースクォータの申請
+## Enable FKE service and request resource quota
 
-FPT Cloud を初めてご利用の場合、一部のサービスがアカウントで有効になっていない場合があります。サポートチームに連絡し、希望する構成情報を提供してください。FPT Cloud は FKE サービスの利用に必要な RAM、CPU、Storage、Public IP などのリソースを割り当てます。
+If you are new to FPT Cloud, some services may not be enabled on your account. Contact the support team and provide your desired configuration details. FPT Cloud will allocate the necessary resources — RAM, CPU, Storage, Public IP, and others — required to use the FKE service.

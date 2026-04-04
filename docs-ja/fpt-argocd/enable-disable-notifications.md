@@ -1,17 +1,15 @@
 ---
-id: "enable-disable-notificaions"
-title: "Notificationsのenable/disable"
-description: "ArgoCDのnotifications機能を有効または無効にする方法。"
-sidebar_label: "Notificationsのenable/disable"
-sidebar_position: 40
+id: "enable-disable-notifications"
+title: "通知の有効化/無効化"
+sidebar_label: "通知の有効化/無効化"
 ---
 
-# Notificationsのenable/disable
+# Enable/disable notifications
 
-1. **Notifications** 画面で **Enable Notifications** をクリックします。
+1. Tại màn hình **Notifications**, nhấn **Enable Notifications**.
 
 [![](/img/migrated/Picture36-3-e6e46cf4.png)](/img/migrated/Picture36-3-e6e46cf4.png)
 
-2. Enable成功後、FPT Cloudは **Telegram**、**Slack**、**Email** への通知設定が可能になります。
+2. Sau khi enable thành công, FPT Cloud cho phép cấu hình thông báo tới **Telegram**, **Slack** và **Email**.
 
 [![](/img/migrated/Picture37-3-6222ecd1.png)](/img/migrated/Picture37-3-6222ecd1.png)

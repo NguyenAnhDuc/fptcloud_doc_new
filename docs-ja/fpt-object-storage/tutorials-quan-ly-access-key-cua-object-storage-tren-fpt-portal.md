@@ -1,42 +1,54 @@
 ---
 id: "tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal"
-title: "Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal"
-description: "Cặp Access Key và Private Key là phương thức xác thực cơ bản của dịch vụ FPT Object Storage. Để sử dụng bucket thông qua"
-sidebar_label: "Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal"
+title: "FPT Portal での Object Storage Access Key の管理"
+description: "Access Key と Secret Key は FPT Object Storage の基本的な認証方式です。SDK、API、S3 Client などのポータル以外の方法で bucket を使用するために必要な情報を管理する手順です。"
+sidebar_label: "Access Key の管理"
 sidebar_position: "9"
 ---
 
-# Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal
+# FPT Portal での Object Storage Access Key の管理
 
-Cặp Access Key và Private Key là phương thức xác thực cơ bản của dịch vụ FPT Object Storage. Để sử dụng bucket thông qua các phương thức khác Portal như SDK, API, S3 Client. Bạn cần có các thông tin sau:
-  * Access Key
-  * Private Key
-  * Endpoint
-  * Region (optional)
+Access Key と Secret Key は FPT Object Storage サービスの基本的な認証方式です。SDK、API、S3 Client などのポータル以外の方法で bucket を使用するには、以下の情報が必要です。
 
-Các thông tin này trên sẽ được cung cấp đầy đủ trên FPT Unify Portal.
-Hãy lưu trữ cẩn thận thông tin này. Access Key được tạo ra ở tab Access Key đều là key với quyền Admin, vì vậy bạn có thể sẽ mất toàn bộ dữ liệu trong các bucket nếu thông tin này lộ lọt ra ngoài. Trong trường hợp cần share quyền sử dụng bucket cho nhiều người, hoặc lưu trữ key ở ứng dụng không an toàn, hãy tạo các SubUser với quyền truy cập giới hạn và sử dụng SubUser Access Key.
-Nếu phát hiện bị lộ key hãy truy cập FPT Portal và xóa key đấy ngay lập tức tránh phát sinh các rủi ro khác.
+- Access Key
+- Secret Key
+- Endpoint
+- Region（任意）
 
-## Tạo Admin Access Key
-Hiện tại mỗi tài khoản chỉ được tạo tối đa 5 cặp Admin Access Key tại một region. Nếu muốn sử dụng nhiều hơn 5 cặp key, hãy tạo thêm các SubUser.
-Vì lý do bảo mật, Secret Key chỉ được hiển thị một lần duy nhất ở bước tạo. Hãy lưu trữ cẩn thận ở nơi an toàn tránh tính trạng mất quyền truy cập vào bucket.
-  1. Truy cập menu **Object Storage** → chọn tab **Access Key** → chọn **Region**.
-  2. Nhấn nút **Generate Key**.
-  3. Hệ thống tạo ra một cặp **Access Key** và **Secret Key**.
-  4. **Sao chép và lưu trữ** key ở nơi an toàn, sau đó nhấn **Confirm Access Key** để hoàn tất.
+これらの情報はすべて FPT Unify Portal で確認できます。
 
-* * *
+:::warning
+この情報は安全な場所に大切に保管してください。**Access Key** タブで作成した Access Key はすべて Admin 権限を持つ鍵です。情報が漏洩した場合、bucket 内のすべてのデータが失われる可能性があります。複数のユーザーと bucket へのアクセス権を共有する必要がある場合や、安全でないアプリケーションに鍵を保存する場合は、アクセスが制限された SubUser を作成し、SubUser Access Key を使用してください。鍵が漏洩したことに気付いた場合は、すぐに FPT Portal にアクセスして該当の鍵を削除し、さらなるリスクの発生を防いでください。
+:::
 
-## Xoá Access Key
-Sau khi xóa, tất cả các ứng dụng hoặc client đang sử dụng key đó sẽ không còn truy cập được nữa.
-  1. Truy cập menu **Object Storage** → tab **Access Key** → chọn **Region**.
-  2. Tìm Access Key cần xoá → chọn **Delete** tại cột thao tác.
-  3. Xác nhận xoá khi hộp thoại hiện lên.
+## Admin Access Key の作成
 
-* * *
+現在、1 つのアカウントにつき 1 リージョンあたり最大 5 組の Admin Access Key を作成できます。5 組以上必要な場合は、SubUser を追加作成してください。
 
-## Lấy Thông Tin Endpoint
-**Endpoint** là địa chỉ HTTPS dùng để kết nối đến FPT Object Storage. Mỗi **region** sẽ có endpoint khác nhau.
-  1. Truy cập menu **Object Storage** → tab **Access Key** → chọn **Region**.
-  2. Tại cột **Endpoint** , bạn có thể **sao chép URL** tương ứng.
+:::warning
+セキュリティ上の理由から、Secret Key は作成時に一度だけ表示されます。bucket へのアクセス権を失わないよう、安全な場所に大切に保管してください。
+:::
+
+1. **Object Storage** メニュー → **Access Key** タブ → **Region** を選択します。
+2. **Generate Key** ボタンをクリックします。
+3. システムが **Access Key** と **Secret Key** のペアを生成します。
+4. 安全な場所に鍵をコピーして保管し、**Confirm Access Key** をクリックして完了します。
+
+---
+
+## Access Key の削除
+
+削除後、その鍵を使用しているすべてのアプリケーションまたはクライアントはアクセスできなくなります。
+
+1. **Object Storage** メニュー → **Access Key** タブ → **Region** を選択します。
+2. 削除する Access Key を見つけ、操作列の **Delete** を選択します。
+3. ダイアログが表示されたら削除を確認します。
+
+---
+
+## Endpoint 情報の取得
+
+**Endpoint** は FPT Object Storage への接続に使用する HTTPS アドレスです。**region** ごとに異なる endpoint があります。
+
+1. **Object Storage** メニュー → **Access Key** タブ → **Region** を選択します。
+2. **Endpoint** 列で、対応する **URL をコピー**できます。

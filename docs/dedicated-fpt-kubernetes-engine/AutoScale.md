@@ -1,39 +1,39 @@
 ---
 id: "AutoScale"
 title: "AutoScale"
-description: "D-FKE の Autoscale 機能の概要と使用方法。"
+description: "Overview and usage of the Autoscale feature in D-FKE."
 sidebar_label: "AutoScale"
 sidebar_position: "19"
 ---
 
 # Autoscale
 
-Autoscale 機能は D-FKE で Kubernetes Cluster を作成する際にデフォルトで有効になっています。
+The Autoscale feature is enabled by default when creating a Kubernetes Cluster in D-FKE.
 
-D-FKE の Autoscale 機能は Kubernetes の cluster-autoscaler ツールをベースに開発されています。以下の条件が満たされた場合に、システムが cluster の worker node 数を自動的に調整します。
+D-FKE's Autoscale feature is built on top of Kubernetes' cluster-autoscaler tool. The system automatically adjusts the number of worker nodes in a cluster when the following conditions are met:
 
-- リソース不足により Pod が pending 状態になっている場合。
-- cluster 内の node のリソース使用率（CPU と RAM）が一定時間（デフォルト 15 分）50% 未満で、その node 上の Pod が他の node に移動可能な場合。
+- Pods are in a pending state due to insufficient resources.
+- Resource utilization (CPU and RAM) of nodes in the cluster has been below 50% for a certain period (default 15 minutes), and the pods on those nodes can be moved to other nodes.
 
-参照: <https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler>
+Reference: <https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler>
 
-cluster-autoscaler 機能を使用するには、HPA（HorizontalPodAutoscaler）と組み合わせて使用します。
+The cluster-autoscaler feature is used in combination with HPA (HorizontalPodAutoscaler).
 
-- **Scale-up:** HPA はリソース使用率が設定したしきい値を超えると Pod を自動的に追加します。新しい Pod が作成されたとき、Worker Nodes のリソースが Pod の request に足りない場合、cluster-autoscaler が自動的に Worker Nodes を追加して新規 Pod に対応します。
-- **Scale-down:** HPA はリソース使用率が設定したしきい値を下回ると Pod 数を自動的に減らします。その結果 node のリソース使用量が減少し、cluster-autoscaler によって node が自動的に削除されます。
+- **Scale-up:** HPA automatically adds pods when resource utilization exceeds the configured threshold. When new pods are created and Worker Nodes do not have enough resources to satisfy the pod's request, cluster-autoscaler automatically adds Worker Nodes to accommodate the new pods.
+- **Scale-down:** HPA automatically reduces the number of pods when resource utilization falls below the configured threshold. As a result, node resource usage decreases and nodes are automatically removed by cluster-autoscaler.
 
-参照: <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/>
+Reference: <https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/>
 
-**基本的な使用シナリオ:**
+**Common usage scenarios:**
 
-- worker node 数を固定にする: Min = Max に同じ数を設定します。
-- 特定の node でのスケールダウンを防ぐ: 以下のアノテーションを追加した node は Cluster Autoscaler がスケールダウンしません。
+- Fix the number of worker nodes: Set Min = Max to the same value.
+- Prevent scale-down on specific nodes: Nodes with the following annotation will not be scaled down by Cluster Autoscaler.
 
 ```
 "cluster-autoscaler.kubernetes.io/scale-down-disabled": "true"
 ```
 
-アノテーションを追加するコマンド:
+Command to add the annotation:
 
 ```
 kubectl annotate node <node-name> cluster-autoscaler.kubernetes.io/scale-down-disabled=true

@@ -1,42 +1,51 @@
 ---
 id: "fke-usage-notes"
-title: "Fke Usage Notes"
-description: "FKE サービスを使用する際の推奨事項と注意事項。"
-sidebar_label: "Fke Usage Notes"
+title: "FKE usage notes"
+description: "Recommendations and notes when using the FKE service."
+sidebar_label: "FKE usage notes"
 sidebar_position: "29"
 ---
 
-# FKE 使用上の注意事項
+# FKE usage notes
 
-### 1. HA Master Nodes の選択
-可用性を確保するため、重要なシステムには HA Master Nodes を選択してください。Dev/Test 環境では non-HA を選択することもできます。
+### 1. Select HA Master Nodes
 
-### 2. Namespace の使用
-アプリケーションや環境を分離して管理しやすくするために namespace を作成してください。システムが事前に作成した namespace にはアプリケーションをデプロイしないようにしてください。
+To ensure availability, select HA Master Nodes for critical systems. For Dev/Test environments, you may choose non-HA.
 
-### 3. Readiness & Liveness Probe の使用
-アプリケーションの可用性を確保するために使用します。
+### 2. Use namespaces
 
-Readiness Probe は Pod がリクエストを受け入れる準備ができている場合にのみリクエストが転送されることを保証します。Pod の起動には時間がかかることが多いため、Readiness Probe を設定することで起動中の Pod（アプリケーションが未準備）にリクエストが転送されるのを防ぎます。
+Create namespaces to isolate applications and environments for easier management. Do not deploy applications into namespaces pre-created by the system.
 
-Liveness Probe はアプリケーションを実行している Pod が Running 状態であることを保証します。Liveness Probe が失敗した場合、Pod は再起動されます。
+### 3. Use Readiness & Liveness Probes
 
-### 4. Resource Requests & Limits の設定
-コンテナが実行に十分なリソースを確保し、許容量を超えないようにします。limits を設定しない場合、Pod が許容量を超えてリソースを使用し、Node がクラッシュする可能性があります。
+Use probes to ensure application availability.
 
-### 5. Autoscale の使用
-Kubernetes HPA ベースの FKE Autoscale 機能を使用すると、トラフィックが増加した際にアプリケーションが迅速に対応できます。使用量が少ない場合は、システムが自動的に Pod と Node を最小限に削減します。
+Readiness Probe ensures that requests are only forwarded to a Pod when it is ready to accept them. Because Pods often take time to start, configuring a Readiness Probe prevents requests from being routed to a starting Pod (where the application is not yet ready).
 
-### 6. 複数 Pod（2 台以上）の使用
-HA を確保するために、各サービスで 2 台以上の Pod を使用することを推奨します。replica Pod が異なる Node に配置されるよう anti-affinity を使用してください。
+Liveness Probe ensures that the Pod running your application remains in a Running state. If the Liveness Probe fails, the Pod is restarted.
 
-### 7. Persistent Volume の使用
-FKE は Block と File Storage をサポートしています。
-- Block Storage はシステムのデフォルト選択肢で、RWO をサポートし、Storage Policy に応じた優れたパフォーマンスを提供します。
-- File Storage は NFS を使用した RWX をサポートします。データベースには File Storage を使用しないでください。
+### 4. Configure Resource Requests & Limits
 
-### 8. バックアップ
-ガイドに従って cluster のバックアップスケジュールを設定してください。PVC 上のデータのバックアップはユーザーが自ら行う必要があります。VM にバックアップしてから FCloud Backup & Recovery ソリューションで VM をバックアップすることができます。
+Ensure containers have sufficient resources to run and do not exceed their allowed quota. Without limits, a Pod may consume more resources than allowed, causing the Node to crash.
+
+### 5. Use Autoscale
+
+Using the Kubernetes HPA-based FKE Autoscale feature allows your application to respond quickly when traffic increases. When usage is low, the system automatically scales Pods and Nodes down to the minimum.
+
+### 6. Use multiple Pods (2 or more)
+
+To ensure HA, use 2 or more Pods per service. Use anti-affinity to ensure replica Pods are placed on different Nodes.
+
+### 7. Use Persistent Volumes
+
+FKE supports Block and File Storage.
+- Block Storage is the system default, supports RWO, and provides excellent performance depending on the Storage Policy.
+- File Storage supports RWX using NFS. Do not use File Storage for databases.
+
+### 8. Backup
+
+Set up a cluster backup schedule following the guide. Backing up data on PVCs is the user's responsibility. You can back up to a VM and then back up the VM using the FCloud Backup & Recovery solution.
 
 ### 9. Monitoring & Logging
-FMON を使用して Kubernetes cluster の監視とログを統合してください。システムのアラートを設定してください。
+
+Use FMON to integrate monitoring and logging for your Kubernetes cluster. Configure system alerts.

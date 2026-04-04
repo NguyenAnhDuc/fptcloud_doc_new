@@ -134,6 +134,11 @@ module.exports = {
                   type:  "doc",
                   id:  "sso-single-sign-on/use-sso",
                   label:  "SSOの使用"
+                },
+                {
+                  type:  "doc",
+                  id:  "sso-single-sign-on/sso-single-sign-on",
+                  label:  "SSO"
                 }
               ]
             }
@@ -324,6 +329,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
                   label:  "Fpt Cloud Portal Pay As You Gofpt Cloud Portal Pay As You Go"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ choose-the-form-of-PAYG-and-verify-the-phon- number",
+                  label:  "Select PAYG and Verify Phone Number"
                 }
               ]
             }
@@ -497,6 +507,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-autoscale/xoa-policy",
                   label:  "Policyの削除"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-autoscale/fpt-autoscale",
+                  label:  "FPT Autoscale"
                 }
               ]
             }
@@ -1340,6 +1355,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "gateway/gateway",
+                  label:  "Gateway"
+                },
+                {
+                  type:  "doc",
                   id:  "gateway/huong-dan",
                   label:  "Gatewayへのアクセス"
                 },
@@ -1402,6 +1422,11 @@ module.exports = {
               label:  "Nat Instance",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "nat_instance/nat_instance",
+                  label:  "NAT Instance"
+                },
                 {
                   type:  "doc",
                   id:  "nat_instance/overview-nat-instance",
@@ -1493,6 +1518,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "notification-bell/notification-bell",
+                  label:  "Notification Bell"
+                },
+                {
+                  type:  "doc",
                   id:  "notification-bell/initial-setup",
                   label:  "初期設定"
                 },
@@ -1513,6 +1543,16 @@ module.exports = {
               label:  "Relation Management",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "relation-management/relation-management",
+                  label:  "Relation Management"
+                },
+                {
+                  type:  "doc",
+                  id:  "relation-management/initial-setup",
+                  label:  "Initial Setup"
+                },
                 {
                   type:  "doc",
                   id:  "relation-management/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal",
@@ -1597,6 +1637,11 @@ module.exports = {
               label:  "User Token",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "user-token/user-token",
+                  label:  "User Token"
+                },
                 {
                   type:  "doc",
                   id:  "user-token/overview",
@@ -1755,6 +1800,14 @@ module.exports = {
                   label:  "Phan Quyen Su Dung Bucket Cho Cac Subuser"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client"
             }
           ]
         },
@@ -1792,6 +1845,11 @@ module.exports = {
                       type:  "doc",
                       id:  "file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
                       label:  "Baremetal (GPU Server) での利用"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)",
+                      label:  "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
                     }
                   ]
                 },
@@ -2010,6 +2068,10 @@ module.exports = {
                   label:  "よくある質問"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/tai-file-cau-hinh-vpn"
             }
           ]
         },
@@ -2097,7 +2159,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "load-balancer/allow-ip-cidr"
+                      id:  "load-balancer/Allow-IP-CIDR"
                     },
                     {
                       type:  "doc",
@@ -2185,6 +2247,74 @@ module.exports = {
                   ]
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/cap-nhat-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/theo-doi-bieu-do-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/them-external-member"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/cau-hinh-timeout"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/chinh-sua-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/redirect-http-request-sang-https"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/enable-hsts-to-http-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/SNI-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-server-pool"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/them-bot-member-cho-server-pool"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/chinh-sua-cau-hinh-health-check"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/quan-ly-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/import-ssl-certificate-cho-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/xoa-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/tao import ssl certificate"
             }
           ]
         },
@@ -2254,6 +2384,11 @@ module.exports = {
                   label:  "Kubernetes Clusterの管理",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/quan-ly-kubernetes-cluster",
+                      label:  "Quan Ly Kubernetes Cluster"
+                    },
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/khoi-tạo-kubernetes-cluster-moi",
@@ -2556,6 +2691,10 @@ module.exports = {
                   label:  "ワーカープールのフレーバー設定変更"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-kubernetes-engine/list-created-cluster"
             }
           ]
         },
@@ -2660,6 +2799,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
+                  label:  "Huong Dan Su Dung Tren Docker Cli"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/docker-login",
                   label:  "Docker Login"
                 },
@@ -2676,9 +2820,26 @@ module.exports = {
               ]
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
-              label:  "Repository 内の image または artifact を削除する"
+              type:  "category",
+              label:  "Quản lý Repositories trên FPT Portal",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
+                  label:  "Quan Ly Repositories Tren Fpt Portal"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xem-danh-sach-repositories",
+                  label:  "Xem Danh Sach Repositories"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
+                  label:  "Repository 内の image または artifact を削除する"
+                }
+              ]
             },
             {
               type:  "category",
@@ -2719,8 +2880,18 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-robot-account",
+                  label:  "Quan Ly Robot Account"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/tao-moi-robot-account",
                   label:  "Robot account を管理する"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xem-danh-sach-robot-account",
+                  label:  "Xem Danh Sach Robot Account"
                 },
                 {
                   type:  "doc",
@@ -2761,6 +2932,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-goi-dich-vu",
+                  label:  "Quan Ly Goi Dich Vu"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
                   label:  "サービス quota の詳細を確認する"
                 },
@@ -2797,6 +2973,10 @@ module.exports = {
                   label:  "スキャン結果を管理する"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-container-registry/scan-image-1"
             }
           ]
         },
@@ -2820,6 +3000,11 @@ module.exports = {
                   label:  "Kubernetes Clusterの管理",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/quan-ly-kubernetes-cluster",
+                      label:  "Kubernetes clusterの管理"
+                    },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi",
@@ -2862,6 +3047,11 @@ module.exports = {
                   label:  "K8s Cluster Configurationの変更",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/thay-doi-cau-hinh-k8s-cluster",
+                      label:  "K8s cluster構成の変更"
+                    },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/scale-worker-nodes",
@@ -2967,6 +3157,70 @@ module.exports = {
                   label:  "よくある質問（FAQ）"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/Initial-Setup"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/xem-danh-sach-kubernetes-cluster-da-tao"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/truy-cap-thong-tin-chi-tiet-cua-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/lay-thong-tin-truy-cap-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/xoa-kubernetes-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/stop-kubernetes-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/start-kubernetes-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nodes"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nfs"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nodes"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nfs"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/them-nfs-persistent-storage"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/AutoScale"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/dfke-advanced-firewall"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/backup-and-restore-cluster"
             }
           ]
         }
@@ -3364,6 +3618,86 @@ module.exports = {
                   label:  "WAF Dashboardのユーザー管理"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-stream-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/configure-waf-server-connection"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/create-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/delete-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/delete-waf-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/update-information-of-the-WAF-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/enable-disable-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/fpt-cloud-waf"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-404-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-access-list"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-redirection-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-security-rule-set"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/update-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/view-proxy-host-detail"
             }
           ]
         },
@@ -3804,6 +4138,11 @@ module.exports = {
                   type:  "doc",
                   id:  "reporting/delete-report",
                   label:  "レポートの削除"
+                },
+                {
+                  type:  "doc",
+                  id:  "reporting/reporting",
+                  label:  "Reporting"
                 }
               ]
             }
@@ -3917,6 +4256,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-monitoring/quan-tri-user",
                   label:  "ユーザー管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-monitoring/fpt-cloud-monitoring",
+                  label:  "FPT Cloud Monitoring"
                 }
               ]
             },
@@ -4152,7 +4496,7 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-advisor/cloud-advisor",
+                  id:  "cloud-advisor/cloud-advisor-introduction",
                   label:  "Cloud Advisor"
                 },
                 {
@@ -4241,6 +4585,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "incident-management/cau-hinh-settings",
+              label:  "Cau Hinh Settings"
+            },
+            {
+              type:  "doc",
               id:  "incident-management/configure-incident-settings",
               label:  "Settings の設定"
             },
@@ -4268,6 +4617,11 @@ module.exports = {
               type:  "doc",
               id:  "incident-management/create-incident",
               label:  "インシデントの作成"
+            },
+            {
+              type:  "doc",
+              id:  "incident-management/tao-incident",
+              label:  "Tao Incident"
             },
             {
               type:  "doc",
@@ -4335,53 +4689,65 @@ module.exports = {
       items:  [
         {
           type:  "category",
-          label:  "チュートリアル",
+          label:  "FPT Backup As a Service",
           collapsed:  true,
           items:  [
             {
               type:  "doc",
-              id:  "fpt-backup-as-a-service/install-veeam-agent-for-linux",
-              label:  "Install Veeam Agent for Linux"
+              id:  "fpt-backup-as-a-service/Chi tiết dịch vụ",
+              label:  "Chi TiếT DịCh Vụ"
             },
             {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/install-veeam-agent-for-windows",
-              label:  "Install Veeam Agent for Windows"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-file-and-folder-for-linux",
-              label:  "Restore File and Folder for Linux"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-file-and-folder-for-windows",
-              label:  "Restore File and Folder for Windows"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-window-vm-from-cloud-repository",
-              label:  "Restore Window vm From Cloud Repository"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository",
-              label:  "Restore Linux vm From Cloud Repository"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/create-veeam-recovery-media",
-              label:  "Create Veeam Recovery Media"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/managing-alarms",
-              label:  "Managing Alarms"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/fpt-backup-as-a-service",
-              label:  "Fpt Backup As A Service"
+              type:  "category",
+              label:  "チュートリアル",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/install-veeam-agent-for-linux",
+                  label:  "Install Veeam Agent for Linux"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/install-veeam-agent-for-windows",
+                  label:  "Install Veeam Agent for Windows"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-file-and-folder-for-linux",
+                  label:  "Restore File and Folder for Linux"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-file-and-folder-for-windows",
+                  label:  "Restore File and Folder for Windows"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-window-vm-from-cloud-repository",
+                  label:  "Restore Window vm From Cloud Repository"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository",
+                  label:  "Restore Linux vm From Cloud Repository"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/create-veeam-recovery-media",
+                  label:  "Create Veeam Recovery Media"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/managing-alarms",
+                  label:  "Managing Alarms"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/fpt-backup-as-a-service",
+                  label:  "Fpt Backup As A Service"
+                }
+              ]
             }
           ]
         },
@@ -4607,6 +4973,11 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "fpt-jenkins-ci/quan-ly-fpt-cloud-agent",
+                      label:  "Manage FPT Cloud Agent"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-jenkins-ci/them-moi-mot-agent",
                       label:  "エージェントの新規追加"
                     },
@@ -4722,6 +5093,11 @@ module.exports = {
                       label:  "Jenkins CI/CD パイプラインの作成"
                     }
                   ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-jenkins-ci/fpt-jenkins-ci",
+                  label:  "Overview"
                 }
               ]
             }
@@ -4729,185 +5105,200 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "FPT ArgoCD",
+          label:  "チュートリアル",
           collapsed:  true,
           items:  [
             {
-              type:  "doc",
-              id:  "fpt-argocd/Initial-setup",
-              label:  "Initial Setup"
-            },
-            {
               type:  "category",
-              label:  "チュートリアル",
+              label:  "Cấu hình Image Updater",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Webhookの設定",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/edit-webhook-secret",
-                      label:  "Webhook secretの編集"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-webhook-secret",
-                      label:  "Webhook secretの削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Account on ArgoCDの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-account",
-                      label:  "アカウントのenable/disable"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-admin-password",
-                      label:  "Adminパスワードの更新"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Admin account, Enable/disable Anonymous User",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
-                      label:  "AdminとAnonymous userの管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-anonymous-user",
-                      label:  "Anonymous userのenable/disable"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-admin-user",
-                      label:  "Adminアカウントのenable/disable"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "OIDC SSO設定",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-chuc-nang-cau-hinh-oidc",
-                      label:  "OIDCのenable/disable"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-oidc-config",
-                      label:  "OIDC configの設定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-cau-hinh-oidc",
-                      label:  "OIDC configの更新"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-oidc-da-cau-hinh",
-                      label:  "OIDC configの削除"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-image-updater",
+                  label:  "Cau Hinh Image Updater"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cho-phep-enable-applications-set",
-                  label:  "ApplicationSetのenable"
+                  id:  "fpt-argocd/enable-disable-images-updater",
+                  label:  "Image Updaterの有効化/無効化"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Webhookの設定",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-webhook",
+                  label:  "Cau Hinh Webhook"
                 },
                 {
-                  type:  "category",
-                  label:  "Notificationsの設定",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-notificaions",
-                      label:  "Notificationsのenable/disable"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao",
-                      label:  "通知チャンネルの設定"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/Edit-webhook-secret",
+                  label:  "Webhook secretの編集"
                 },
                 {
-                  type:  "category",
-                  label:  "Demo",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/demo",
-                      label:  "Demo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                      label:  "Huong Dan Dang Nhap Vao Argocd"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                      label:  "manifestでアプリケーションをデプロイ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
-                      label:  "Webhook secretを使用したWebhookの設定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                      label:  "Kustomizeビルドオプションでデプロイ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                      label:  "Helmチャートリポジトリでデプロイ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                      label:  "ArgoCD CLIでデプロイ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                      label:  "ApplicationSetでデプロイ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                      label:  "通知の設定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                      label:  "アカウント管理のためにOIDCを統合"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                      label:  "ArgoCD Image Updaterを統合"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/delete-webhook-secret",
+                  label:  "Webhook secretの削除"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Account on ArgoCDの管理",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/quan-ly-account-tren-argocd",
+                  label:  "ArgoCDアカウント管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-account",
+                  label:  "アカウントのenable/disable"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-admin-password",
+                  label:  "Adminパスワードの更新"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Admin account, Enable/disable Anonymous User",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
+                  label:  "AdminとAnonymous userの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-anonymous-user",
+                  label:  "Anonymous userのenable/disable"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-admin-user",
+                  label:  "Adminアカウントのenable/disable"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "OIDC SSO設定",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
+                  label:  "Cau Hinh Oidc Phuc Vu Sso Config"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-oidc-config",
+                  label:  "OIDC configの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-oidc-config",
+                  label:  "OIDC configの更新"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/delete-oidc-da-cau-hinh",
+                  label:  "OIDC設定の削除"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/enable-applications-set",
+              label:  "ApplicationSetのenable"
+            },
+            {
+              type:  "category",
+              label:  "Notificationsの設定",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-notifications",
+                  label:  "Cau Hinh Notifications"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-notification-channels",
+                  label:  "通知チャンネルの設定"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Demo",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/demo",
+                  label:  "Demo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                  label:  "Huong Dan Dang Nhap Vao Argocd"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                  label:  "manifestでアプリケーションをデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
+                  label:  "作成済みwebhook secretを使ったWebhookの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                  label:  "Kustomizeビルドオプションでデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                  label:  "Helmチャートリポジトリでデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                  label:  "ArgoCD CLIでデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                  label:  "ApplicationSetでデプロイ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                  label:  "通知の設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                  label:  "アカウント管理のためにOIDCを統合"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                  label:  "ArgoCD Image Updaterを統合"
                 }
               ]
             }
@@ -4937,10 +5328,51 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-api-management/khai-bao-thong-tin-tren-apimanager-application",
+                  label:  "Khai Bao Thong Tin Tren Apimanager Application"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-api-management/analytics",
                   label:  "Analytics"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/consumer-api-usage-guide"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/declaring-information"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/fpt-api-management"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/manage-rest-apis"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-consumers"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-products"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-sites"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/quick-starts"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/registering-on-fpt-portal"
             }
           ]
         },
@@ -4988,6 +5420,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-app-catalogs/fpt-app-catalogs",
+              label:  "FPT App Catalogs"
+            },
+            {
+              type:  "doc",
               id:  "fpt-app-catalogs/initial-setup",
               label:  "初期セットアップ"
             },
@@ -5013,6 +5450,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-app-catalogs/quan-ly-app-catalogs",
+              label:  "Quan Ly App Catalogs"
+            },
+            {
+              type:  "doc",
               id:  "fpt-app-catalogs/search-app-catalogs-from-a-repository",
               label:  "リポジトリから App Catalog を検索する"
             },
@@ -5025,6 +5467,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-app-catalogs/manage-deployed-applications",
               label:  "デプロイ済みアプリケーションの管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-app-catalogs/quan-ly-applications-da-duoc-deploy",
+              label:  "Quan Ly Applications Da Duoc Deploy"
             },
             {
               type:  "doc",
@@ -5284,6 +5731,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/fpt-message-bus",
+              label:  "FPT Message Bus"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/initial-setup",
               label:  "初期設定"
             },
@@ -5294,8 +5746,18 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-queues",
+              id:  "fpt-message-bus/Manage-Queues",
+              label:  "Manage Queues"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/Manage-Queues",
               label:  "queue の管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/quan-ly-queues",
+              label:  "Quan Ly Queues"
             },
             {
               type:  "doc",
@@ -5329,12 +5791,22 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/Delete-queues",
+              label:  "Delete Queues"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/xoa-queues",
               label:  "queue の削除"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-topics",
+              id:  "fpt-message-bus/Manage-topics",
+              label:  "Manage Topics"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/Manage-topics",
               label:  "topic の管理"
             },
             {
@@ -5570,7 +6042,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "managed-fpt-database-engine/db-proxy",
+                  id:  "managed-fpt-database-engine/DB-proxy",
                   label:  "DB proxy"
                 },
                 {
@@ -6850,6 +7322,11 @@ module.exports = {
           items:  [
             {
               type:  "doc",
+              id:  "model-fine-tuning/model-fine-tuning",
+              label:  "Model Fine-Tuning"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/concept",
               label:  "モデルの微調整"
             },
@@ -6990,8 +7467,28 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-fine-tuning/how-to-manage-pipeline",
+              label:  "How To Manage Pipeline"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/cancel-pipeline",
+              label:  "Cancel Pipeline"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/edit-pipeline",
+              label:  "Edit Pipeline"
+            },
+            {
+              type:  "doc",
               id:  "model-fine-tuning/delete-pipeline",
               label:  "pipeline の削除"
+            },
+            {
+              type:  "doc",
+              id:  "model-fine-tuning/execution-history",
+              label:  "Execution History"
             },
             {
               type:  "doc",
@@ -7065,6 +7562,16 @@ module.exports = {
           label:  "Model Hub",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "model-hub/model-hub",
+              label:  "Model Hub"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/danh-sach-model-catalog",
+              label:  "Danh Sach Model Catalog"
+            },
             {
               type:  "doc",
               id:  "model-hub/initial-setup",
@@ -7172,6 +7679,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/download-file",
+              label:  "Download File"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/view-list-model-2",
               label:  "model 一覧の表示"
             },
@@ -7192,8 +7704,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/share-detail-invited",
+              label:  "Share Detail Invited"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-to-create-model-version",
               label:  "model バージョンの作成"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/share-detail-joined",
+              label:  "Share Detail Joined"
             },
             {
               type:  "doc",
@@ -7262,8 +7784,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/model-deployment",
+              label:  "Model Deployment"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-to-share-a-model",
               label:  "model の共有"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/model-catalog",
+              label:  "Model Catalog"
             },
             {
               type:  "doc",
@@ -7359,6 +7891,11 @@ module.exports = {
           label:  "Model Testing Interactive Sessions",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "model-testing-interactive-sessions/model-testing-interactive-sessions",
+              label:  "Model Testing – Interactive..."
+            },
             {
               type:  "doc",
               id:  "model-testing-interactive-sessions/overview",
@@ -7709,6 +8246,11 @@ module.exports = {
       items:  [
         {
           type:  "doc",
+          id:  "gpu-virtual-machine-en/gpu-virtual-machine-en",
+          label:  "GPU Virtual Machine"
+        },
+        {
+          type:  "doc",
           id:  "gpu-virtual-machine-en/overview",
           label:  "Overview"
         },
@@ -7846,6 +8388,11 @@ module.exports = {
         },
         {
           type:  "doc",
+          id:  "managed-gpu-cluster-kubernetes-ja/Managed-GPU ク-ラ-ス-タ-ー-の-管-理",
+          label:  "Managing the Managed GPU Cluster"
+        },
+        {
+          type:  "doc",
           id:  "managed-gpu-cluster-kubernetes-ja/新-し-い- Managed-GPU -ク-ラ-ス-タ-ー-を-起-動",
           label:  "新 し い Managed..."
         },
@@ -7886,6 +8433,11 @@ module.exports = {
         },
         {
           type:  "doc",
+          id:  "managed-gpu-cluster-kubernetes-ja/ワーカーグループのベース切り替え機能",
+          label:  "Worker group base switching feature"
+        },
+        {
+          type:  "doc",
           id:  "managed-gpu-cluster-kubernetes-ja/サービス種別：ロードバランサー",
           label:  "サービス種別：ロードバランサー"
         },
@@ -7901,6 +8453,11 @@ module.exports = {
       label:  "Metal Cloud Ja",
       collapsed:  true,
       items:  [
+        {
+          type:  "doc",
+          id:  "metal-cloud-ja/metal-cloud-ja",
+          label:  "Metal Cloud"
+        },
         {
           type:  "doc",
           id:  "metal-cloud-ja/概要",

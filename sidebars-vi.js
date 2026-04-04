@@ -1856,9 +1856,21 @@ module.exports = {
                   ]
                 },
                 {
-                  type:  "doc",
-                  id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
-                  label:  "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
+                  type:  "category",
+                  label:  "Region Nhật Bản",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/region-nhat-ban",
+                      label:  "Region Nhat Ban"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
+                      label:  "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
+                    }
+                  ]
                 }
               ]
             }
@@ -2318,7 +2330,7 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "create-vpc/create-vpc",
+                  id:  "create-vpc/create-vpc-en",
                   label:  "Tạo VPC"
                 },
                 {
@@ -3460,9 +3472,26 @@ module.exports = {
                   ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/privacy-filtering",
-                  label:  "Privacy Filtering"
+                  type:  "category",
+                  label:  "Pattern Storage",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/user-defined-pattern",
+                      label:  "User Defined Pattern"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/privacy-filtering",
+                      label:  "Privacy Filtering"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/malicious-ip",
+                      label:  "Malicious Ip"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
@@ -3643,6 +3672,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-waf/fpt-cloud-waf",
                   label:  "FPT Cloud WAF"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard",
+                  label:  "Manage WAF server with WAF Dashboard"
                 },
                 {
                   type:  "doc",
@@ -3883,6 +3917,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "checkpoint-fpt-ngfw/huong-dan-tren-gaia-portal",
+                  label:  "Guide on Gaia Portal"
+                },
+                {
+                  type:  "doc",
                   id:  "checkpoint-fpt-ngfw/truy-cap-gaia-portal",
                   label:  "Truy cập Gaia Portal"
                 },
@@ -3913,6 +3952,11 @@ module.exports = {
               label:  "Hướng dẫn trên SmartConsole",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "checkpoint-fpt-ngfw/huong-dan-tren-smartconsole",
+                  label:  "Guide on SmartConsole"
+                },
                 {
                   type:  "doc",
                   id:  "checkpoint-fpt-ngfw/truy-cap-smartconsole",
@@ -4438,7 +4482,7 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-advisor/cloud-advisor",
+                  id:  "cloud-advisor/cloud-advisor-introduction",
                   label:  "Cloud Advisor"
                 },
                 {
@@ -4504,6 +4548,11 @@ module.exports = {
               type:  "doc",
               id:  "incident-management/outgoing-webhook",
               label:  "Outgoing webhook"
+            },
+            {
+              type:  "doc",
+              id:  "incident-management/configure-incident-settings",
+              label:  "Configure Incident Settings"
             },
             {
               type:  "doc",
@@ -4964,6 +5013,11 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "fpt-jenkins-ci/quan-ly-cau-hinh",
+                      label:  "Manage configurations"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-jenkins-ci/cau-hinh-email-notifications",
                       label:  "Cấu hình Email Notifications"
                     },
@@ -5037,302 +5091,290 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "FPT ArgoCD",
+          label:  "Hướng dẫn chi tiết (Tutorials)",
           collapsed:  true,
           items:  [
             {
               type:  "doc",
-              id:  "fpt-argocd/Initial-setup",
-              label:  "Thiết lập ban đầu"
+              id:  "fpt-argocd/check-service-package-info",
+              label:  "Kiểm tra thông tin gói dịch vụ"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/create-fpt-argocd",
+              label:  "Tạo mới FPT ArgoCD instance"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/view-argocd-detail",
+              label:  "Xem thông tin và đăng nhập"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/add-cluster-to-argocd",
+              label:  "Kết nối cluster Kubernetes"
             },
             {
               type:  "category",
-              label:  "Hướng dẫn chi tiết (Tutorials)",
+              label:  "Cấu hình Image Updater",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/check-service-package-info",
-                  label:  "Kiểm tra thông tin gói dịch vụ"
+                  id:  "fpt-argocd/cau-hinh-image-updater",
+                  label:  "Cấu hình Image Updater"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/create-fpt-argocd",
-                  label:  "Tạo mới FPT ArgoCD instance"
+                  id:  "fpt-argocd/enable-disable-images-updater",
+                  label:  "Enable/disable Image Updater"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/view-argocd-detail",
-                  label:  "Xem thông tin và đăng nhập"
+                  id:  "fpt-argocd/configure-log-level",
+                  label:  "Cấu hình log level"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/add-cluster-to-argocd",
-                  label:  "Kết nối cluster Kubernetes"
-                },
-                {
-                  type:  "category",
-                  label:  "Cấu hình Image Updater",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-image-updater",
-                      label:  "Cấu hình Image Updater"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-images-updater",
-                      label:  "Enable/disable Image Updater"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/configure-log-level",
-                      label:  "Cấu hình log level"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-secrets",
-                      label:  "Quản lý secret"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-registry-secrets",
-                      label:  "Quản lý registry secret"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-container-registry",
-                      label:  "Quản lý container registry"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Cấu hình webhook",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-webhook",
-                      label:  "Cấu hình webhook"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/add-webhook-secret",
-                      label:  "Tạo mới webhook secret"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/edit-webhook-secret",
-                      label:  "Cập nhật webhook secret"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-webhook-secret",
-                      label:  "Xóa webhook secret"
-                    }
-                  ]
+                  id:  "fpt-argocd/manage-secrets",
+                  label:  "Quản lý secret"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-build-options-kustomize",
-                  label:  "Cấu hình Kustomize build options"
+                  id:  "fpt-argocd/manage-registry-secrets",
+                  label:  "Quản lý registry secret"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-timereconcile",
-                  label:  "Cấu hình TimeReconcile"
+                  id:  "fpt-argocd/manage-container-registry",
+                  label:  "Quản lý container registry"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Cấu hình webhook",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-webhook",
+                  label:  "Cấu hình webhook"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-rbac",
-                  label:  "Cấu hình RBAC policy"
+                  id:  "fpt-argocd/add-webhook-secret",
+                  label:  "Tạo mới webhook secret"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-whitelist-ip",
-                  label:  "Cấu hình whitelist IP"
+                  id:  "fpt-argocd/Edit-webhook-secret",
+                  label:  "Cập nhật webhook secret"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/upgrade-service-package",
-                  label:  "Nâng gói dịch vụ"
-                },
+                  id:  "fpt-argocd/delete-webhook-secret",
+                  label:  "Xóa webhook secret"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-build-options-kustomize",
+              label:  "Cấu hình Kustomize build options"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-timereconcile",
+              label:  "Cấu hình TimeReconcile"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-rbac",
+              label:  "Cấu hình RBAC policy"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-whitelist-ip",
+              label:  "Cấu hình whitelist IP"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/upgrade-service-package",
+              label:  "Nâng gói dịch vụ"
+            },
+            {
+              type:  "category",
+              label:  "Quản lý account trên argocd",
+              collapsed:  true,
+              items:  [
                 {
-                  type:  "category",
-                  label:  "Quản lý account trên argocd",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/quan-ly-account-tren-argocd",
-                      label:  "Quản lý tài khoản ArgoCD"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/create-account",
-                      label:  "Tạo mới tài khoản"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-account",
-                      label:  "Enable/disable tài khoản"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-admin-account",
-                      label:  "Quản lý tài khoản admin"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-admin-password",
-                      label:  "Cập nhật mật khẩu admin"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Admin account, Enable/disable Anonymous User",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
-                      label:  "Quản lý admin và anonymous user"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-anonymous-user",
-                      label:  "Enable/disable anonymous user"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-admin-user",
-                      label:  "Enable/disable tài khoản admin"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Cấu hình OIDC phục vụ SSO config",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
-                      label:  "Cấu hình OIDC cho SSO"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-oidc",
-                      label:  "Enable/disable OIDC"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/configure-oidc-config",
-                      label:  "Cấu hình OIDC config"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-oidc-config",
-                      label:  "Cập nhật cấu hình OIDC"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-oidc-config",
-                      label:  "Xóa cấu hình OIDC"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/quan-ly-account-tren-argocd",
+                  label:  "Quản lý tài khoản ArgoCD"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/enable-applications-set",
-                  label:  "Enable ApplicationSet"
+                  id:  "fpt-argocd/create-account",
+                  label:  "Tạo mới tài khoản"
                 },
                 {
-                  type:  "category",
-                  label:  "Cấu hình Notifications",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-notifications",
-                      label:  "Cấu hình notifications"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-notifications",
-                      label:  "Enable/disable notifications"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/configure-notification-channels",
-                      label:  "Cấu hình channel để thực hiện gửi thông báo"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-account",
+                  label:  "Enable/disable tài khoản"
                 },
                 {
-                  type:  "category",
-                  label:  "Demo",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/demo",
-                      label:  "Demo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                      label:  "Hướng dẫn đăng nhập vào ArgoCD"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                      label:  "Hướng dẫn cấu hình ArgoCD cluster để deploy ứng dụng với manifes"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/configure-webhook-with-secret",
-                      label:  "Thực hiện cấu hình Webhook với webhook secret đã được tạo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                      label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                      label:  "Hướng dẫn deploy applications qua helm chart repo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                      label:  "Hướng dẫn deploy applications qua argocd cli"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                      label:  "Hướng dẫn sử dụng applicationset để deploy"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                      label:  "Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                      label:  "Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                      label:  "Hướng dẫn tích hợp Argo CD Images Updater"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-admin-account",
+                  label:  "Quản lý tài khoản admin"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-admin-password",
+                  label:  "Cập nhật mật khẩu admin"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Admin account, Enable/disable Anonymous User",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
+                  label:  "Quản lý admin và anonymous user"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-anonymous-user",
+                  label:  "Enable/disable anonymous user"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-admin-user",
+                  label:  "Enable/disable tài khoản admin"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Cấu hình OIDC phục vụ SSO config",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
+                  label:  "Cấu hình OIDC cho SSO"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-oidc",
+                  label:  "Enable/disable OIDC"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-oidc-config",
+                  label:  "Cấu hình OIDC config"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-oidc-config",
+                  label:  "Cập nhật cấu hình OIDC"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/delete-oidc-config",
+                  label:  "Xóa cấu hình OIDC"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/enable-applications-set",
+              label:  "Enable ApplicationSet"
+            },
+            {
+              type:  "category",
+              label:  "Cấu hình Notifications",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-notifications",
+                  label:  "Cấu hình notifications"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-notifications",
+                  label:  "Enable/disable notifications"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-notification-channels",
+                  label:  "Cấu hình channel để thực hiện gửi thông báo"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Demo",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/demo",
+                  label:  "Demo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                  label:  "Hướng dẫn đăng nhập vào ArgoCD"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                  label:  "Hướng dẫn cấu hình ArgoCD cluster để deploy ứng dụng với manifes"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-webhook-with-secret",
+                  label:  "Thực hiện cấu hình Webhook với webhook secret đã được tạo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                  label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                  label:  "Hướng dẫn deploy applications qua helm chart repo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                  label:  "Hướng dẫn deploy applications qua argocd cli"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                  label:  "Hướng dẫn sử dụng applicationset để deploy"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                  label:  "Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                  label:  "Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                  label:  "Hướng dẫn tích hợp Argo CD Images Updater"
                 }
               ]
             }
@@ -5416,6 +5458,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-api-management/fpt-api-management",
                   label:  "FPT API Management"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-api-management/declaring-information",
+                  label:  "Declaring information on ApiManager"
                 }
               ]
             }
@@ -5460,6 +5507,11 @@ module.exports = {
           items:  [
             {
               type:  "doc",
+              id:  "fpt-app-catalogs/fpt-app-catalogs",
+              label:  "FPT App Catalogs"
+            },
+            {
+              type:  "doc",
               id:  "fpt-app-catalogs/app-catalogs",
               label:  "FPT App Catalogs"
             },
@@ -5485,6 +5537,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-app-catalogs/manage-app-catalogs",
+              label:  "Manage App Catalogs"
+            },
+            {
+              type:  "doc",
               id:  "fpt-app-catalogs/quan-ly-app-catalogs",
               label:  "Quản lý App Catalogs"
             },
@@ -5497,6 +5554,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-app-catalogs/deploy-app-catalogs-to-cluster",
               label:  "Deploy App Catalog tới cluster"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-app-catalogs/manage-deployed-applications",
+              label:  "Manage Deployed Applications"
             },
             {
               type:  "doc",
@@ -5577,6 +5639,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-event-gateway/quan-ly-security",
+              label:  "Manage Security"
+            },
+            {
+              type:  "doc",
               id:  "fpt-event-gateway/tao-moi-security",
               label:  "Tao moi Security"
             },
@@ -5589,6 +5656,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-event-gateway/xoa-security",
               label:  "Xoa Security"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-event-gateway/quan-ly-router-group",
+              label:  "Manage Router Group"
             },
             {
               type:  "doc",
@@ -5609,6 +5681,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-event-gateway/xoa-router-group",
               label:  "Xoa Router Group"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-event-gateway/quan-ly-router",
+              label:  "Manage Router"
             },
             {
               type:  "doc",
@@ -5741,6 +5818,11 @@ module.exports = {
           items:  [
             {
               type:  "doc",
+              id:  "fpt-message-bus/fpt-message-bus",
+              label:  "FPT Message Bus"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/fpt-message-bus-for-rabbitmq",
               label:  "FPT Message Bus for RabbitMQ"
             },
@@ -5756,7 +5838,12 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-queues",
+              id:  "fpt-message-bus/Manage-Queues",
+              label:  "Manage Queues"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/Manage-Queues",
               label:  "Quản lý queues"
             },
             {
@@ -5796,12 +5883,22 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-message-bus/Delete-queues",
+              label:  "Delete Queues"
+            },
+            {
+              type:  "doc",
               id:  "fpt-message-bus/xoa-queues",
               label:  "Xóa queue"
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-topics",
+              id:  "fpt-message-bus/Manage-topics",
+              label:  "Manage Topics"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/Manage-topics",
               label:  "Quản lý topics"
             },
             {
@@ -6037,7 +6134,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "managed-fpt-database-engine/db-proxy",
+                  id:  "managed-fpt-database-engine/DB-proxy",
                   label:  "DB Proxy overview"
                 },
                 {
@@ -6897,6 +6994,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster",
+                  label:  "Quan Ly Managed Gpu Cluster"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi",
                   label:  "Lưu ý :"
                 },
@@ -7597,8 +7699,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/overview",
+              label:  "Overview"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/dang-nhap",
               label:  "Đăng nhập"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/what-is-model-hub",
+              label:  "What Is Model Hub"
             },
             {
               type:  "doc",
@@ -7622,6 +7734,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/quick-start",
+              label:  "Model Hub"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/tao-model",
               label:  "Mục đích: Thêm mới model vào hệ thống"
             },
@@ -7637,13 +7754,28 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/top-up-balance",
+              label:  "Top Up Balance"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/xoa-model",
               label:  "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
             },
             {
               type:  "doc",
+              id:  "model-hub/start-using-services",
+              label:  "Start Using Services"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/tao-verison",
               label:  "Tao Verison"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/notice",
+              label:  "Model Hub"
             },
             {
               type:  "doc",
@@ -7654,6 +7786,11 @@ module.exports = {
               type:  "doc",
               id:  "model-hub/delete-version",
               label:  "Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/how-to-use-private-model",
+              label:  "Model Hub"
             },
             {
               type:  "doc",
@@ -7707,6 +7844,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/how-to-create-model-version",
+              label:  "Create a model version"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/share-detail-joined",
               label:  "Các bước thực hiện:"
             },
@@ -7742,6 +7884,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/how-to-upload-download-files-by-sdk",
+              label:  "Upload and download files by SDK"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/create-organization",
               label:  "Create Organization"
             },
@@ -7764,6 +7911,11 @@ module.exports = {
               type:  "doc",
               id:  "model-hub/model-deployment",
               label:  "Mục đích: Kích hoạt, bỏ kích hoạt chức năng deployment của model"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/how-to-share-a-model",
+              label:  "Share a model"
             },
             {
               type:  "doc",

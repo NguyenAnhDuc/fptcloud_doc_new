@@ -1,20 +1,28 @@
 ---
 id: "Create-Policy"
 title: "Create Policy"
-description: "**Step 1** : Select the Key Vault to create **Policy** on the Key Vault Management screen:"
 sidebar_label: "Create Policy"
 sidebar_position: "12"
+description: "Secretアクセスをコントロールする新しいPolicyを作成する方法"
 ---
 
-# Create Policy
+# Policyを作成する
 
-**Step 1** : Select the Key Vault to create **Policy** on the Key Vault Management screen:
-[![](/img/migrated/a1-ead7c276.png)](/img/migrated/a1-ead7c276.png)
-**Step 2** : In the **Policies** tab, click **Create**
-[![](/img/migrated/A2-a834177e.png)](/img/migrated/A2-a834177e.png)
-**Step 3** : In the **Create New Policy** popup, enter the necessary information
-[![](/img/migrated/a3-a18630ac.png)](/img/migrated/a3-a18630ac.png)
-  * **Name** : The name of the Policy
-  * **Rule** : Secret path that the user or application can access
+PolicyはVault内のSecretパスへのアクセスルールを定義します。Policyを使用して、どのユーザーまたはアプリケーションがSecretの読み取り、書き込み、削除を行えるかを制御します。
 
-**Step 4** : Click **Create** to proceed. The system will check the resource requirement, send a confirmation message and proceed with the process of creating a new **Policy** based on the information entered.
+1. Key Vault Management画面でPolicyを追加するKey Vaultを選択します。
+
+   [![Key Vault Management一覧画面](/img/migrated/a1-ead7c276.png)](/img/migrated/a1-ead7c276.png)
+
+2. **Policies** タブで **Create** をクリックします。
+
+   [![Createボタンが表示されたPoliciesタブ](/img/migrated/A2-a834177e.png)](/img/migrated/A2-a834177e.png)
+
+3. **Create New Policy** ポップアップで必要な情報を入力します:
+
+   - **Name**: Policyの名前。
+   - **Rule**: ユーザーまたはアプリケーションがアクセスできるSecretパス。
+
+   [![NameとRuleフィールドが表示されたCreate New Policyフォーム](/img/migrated/a3-a18630ac.png)](/img/migrated/a3-a18630ac.png)
+
+4. **Create** をクリックして続行します。システムが確認メッセージを送信し、入力した情報に基づいて新しい **Policy** を作成します。

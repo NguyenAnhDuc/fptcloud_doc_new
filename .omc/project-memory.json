@@ -189,26 +189,26 @@
   "hotPaths": [
     {
       "path": "sidebars.js",
-      "accessCount": 42,
-      "lastAccessed": 1775282225312,
+      "accessCount": 54,
+      "lastAccessed": 1775288680780,
+      "type": "directory"
+    },
+    {
+      "path": "sidebars-vi.js",
+      "accessCount": 39,
+      "lastAccessed": 1775288693195,
       "type": "directory"
     },
     {
       "path": "fptcloud-docs-style-guide.md",
-      "accessCount": 19,
-      "lastAccessed": 1775283313838,
+      "accessCount": 25,
+      "lastAccessed": 1775325542822,
       "type": "file"
     },
     {
-      "path": "sidebars-vi.js",
-      "accessCount": 17,
-      "lastAccessed": 1775282555319,
-      "type": "directory"
-    },
-    {
       "path": "scripts/crawl_menu.py",
-      "accessCount": 10,
-      "lastAccessed": 1775196089766,
+      "accessCount": 12,
+      "lastAccessed": 1775325351565,
       "type": "file"
     },
     {
@@ -239,6 +239,12 @@
       "path": "docs/model-testing-interactive-sessions/overview.md",
       "accessCount": 3,
       "lastAccessed": 1775244600501,
+      "type": "file"
+    },
+    {
+      "path": "scripts/compare-menu.js",
+      "accessCount": 3,
+      "lastAccessed": 1775291446976,
       "type": "file"
     },
     {
@@ -278,21 +284,21 @@
       "type": "file"
     },
     {
-      "path": "scripts/compare-menu.js",
-      "accessCount": 2,
-      "lastAccessed": 1775231861493,
-      "type": "file"
-    },
-    {
       "path": "docs/model-testing-interactive-sessions/index.md",
       "accessCount": 2,
       "lastAccessed": 1775244545857,
       "type": "file"
     },
     {
+      "path": "scripts/compare-structure.js",
+      "accessCount": 2,
+      "lastAccessed": 1775291446349,
+      "type": "file"
+    },
+    {
       "path": "scripts/menu-tree.json",
-      "accessCount": 1,
-      "lastAccessed": 1775191400399,
+      "accessCount": 2,
+      "lastAccessed": 1775291549189,
       "type": "file"
     },
     {
@@ -467,12 +473,6 @@
       "path": "scripts/translate-remaining-labels.js",
       "accessCount": 1,
       "lastAccessed": 1775237943402,
-      "type": "file"
-    },
-    {
-      "path": "scripts/compare-structure.js",
-      "accessCount": 1,
-      "lastAccessed": 1775240079893,
       "type": "file"
     },
     {

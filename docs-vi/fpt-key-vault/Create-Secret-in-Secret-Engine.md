@@ -1,9 +1,9 @@
 ---
 id: "Create-Secret-in-Secret-Engine"
-title: "Create a secret in a secret engine"
-description: "How to create a new secret inside a secret engine on FPT Key Vault."
-sidebar_label: "Create a secret"
+title: "Create Secret In Secret Engine"
+sidebar_label: "Create Secret In Secret Engine"
 sidebar_position: "8"
+description: "Secret Engine内にSecretを新規作成する方法"
 ---
 
 # Secret EngineにSecretを作成する

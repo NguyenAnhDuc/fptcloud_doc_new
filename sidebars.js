@@ -1800,6 +1800,14 @@ module.exports = {
                   label:  "Phan Quyen Su Dung Bucket Cho Cac Subuser"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-object-storage/tutorials-using-object-storage-on-s3-browser"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-object-storage/tutorials-integrate-fpt-object-storage-with-s3-client"
             }
           ]
         },
@@ -1837,13 +1845,30 @@ module.exports = {
                       type:  "doc",
                       id:  "file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
                       label:  "Vn Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)",
+                      label:  "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
                     }
                   ]
                 },
                 {
-                  type:  "doc",
-                  id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
-                  label:  "Japan Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+                  type:  "category",
+                  label:  "Japan Region",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/region-nhat-ban",
+                      label:  "Region Nhat Ban"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
+                      label:  "Japan Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+                    }
+                  ]
                 }
               ]
             }
@@ -2043,6 +2068,10 @@ module.exports = {
                   label:  "FAQs"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/tai-file-cau-hinh-vpn"
             }
           ]
         },
@@ -2130,7 +2159,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "load-balancer/allow-ip-cidr"
+                      id:  "load-balancer/Allow-IP-CIDR"
                     },
                     {
                       type:  "doc",
@@ -2218,6 +2247,74 @@ module.exports = {
                   ]
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/cap-nhat-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/theo-doi-bieu-do-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/them-external-member"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/cau-hinh-timeout"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/chinh-sua-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/redirect-http-request-sang-https"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/enable-hsts-to-http-listener"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/SNI-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/khoi-tao-server-pool"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/them-bot-member-cho-server-pool"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/chinh-sua-cau-hinh-health-check"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/quan-ly-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/import-ssl-certificate-cho-load-balancer"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/xoa-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "load-balancer/tao import ssl certificate"
             }
           ]
         },
@@ -2289,6 +2386,11 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/quan-ly-kubernetes-cluster",
+                      label:  "Quan Ly Kubernetes Cluster"
+                    },
+                    {
+                      type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/khoi-tạo-kubernetes-cluster-moi",
                       label:  "Khoi TạO Kubernetes Cluster Moi"
                     },
@@ -2319,6 +2421,11 @@ module.exports = {
                   label:  "Modify K8s Cluster Configuration",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/thay-doi-cau-hinh-k8s-cluster",
+                      label:  "Thay Doi Cau Hinh K8s Cluster"
+                    },
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/thay-doi-cluster-endponit-access",
@@ -2558,6 +2665,11 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "managed-fpt-kubernetes-engine/cau-hinh-proxy-protocol",
+                      label:  "Cau Hinh Proxy Protocol"
+                    },
+                    {
+                      type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/cau-hinh-proxy-protocol-cho-istio-ingress",
                       label:  "Configure Proxy Protocol for Istio Ingress"
                     },
@@ -2579,6 +2691,10 @@ module.exports = {
                   label:  "Change Worker Pool Flavor Configuration"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "managed-fpt-kubernetes-engine/list-created-cluster"
             }
           ]
         },
@@ -2683,6 +2799,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
+                  label:  "Huong Dan Su Dung Tren Docker Cli"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/docker-login",
                   label:  "Docker Login"
                 },
@@ -2699,9 +2820,26 @@ module.exports = {
               ]
             },
             {
-              type:  "doc",
-              id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
-              label:  "Delete images or artifacts in repositories"
+              type:  "category",
+              label:  "Quản lý Repositories trên FPT Portal",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
+                  label:  "Quan Ly Repositories Tren Fpt Portal"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xem-danh-sach-repositories",
+                  label:  "Xem Danh Sach Repositories"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
+                  label:  "Delete images or artifacts in repositories"
+                }
+              ]
             },
             {
               type:  "category",
@@ -2742,8 +2880,18 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-robot-account",
+                  label:  "Quan Ly Robot Account"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/tao-moi-robot-account",
                   label:  "Create a robot account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/xem-danh-sach-robot-account",
+                  label:  "Xem Danh Sach Robot Account"
                 },
                 {
                   type:  "doc",
@@ -2784,6 +2932,11 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-container-registry/quan-ly-goi-dich-vu",
+                  label:  "Quan Ly Goi Dich Vu"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
                   label:  "View service quota details"
                 },
@@ -2799,6 +2952,11 @@ module.exports = {
               label:  "Scan Images",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-container-registry/scan-image",
+                  label:  "Scan image"
+                },
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/scan-image-1",
@@ -2838,6 +2996,11 @@ module.exports = {
                   label:  "Manage Kubernetes Cluster",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/quan-ly-kubernetes-cluster",
+                      label:  "Manage Kubernetes cluster"
+                    },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi",
@@ -2880,6 +3043,11 @@ module.exports = {
                   label:  "Modify K8s Cluster Configuration",
                   collapsed:  true,
                   items:  [
+                    {
+                      type:  "doc",
+                      id:  "dedicated-fpt-kubernetes-engine/thay-doi-cau-hinh-k8s-cluster",
+                      label:  "Change K8s cluster configuration"
+                    },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/scale-worker-nodes",
@@ -2955,7 +3123,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version",
-                  label:  "Best Practice Upgrade Fke Cluster Version"
+                  label:  "Best practices for upgrading FKE cluster version"
                 },
                 {
                   type:  "doc",
@@ -2985,6 +3153,70 @@ module.exports = {
                   label:  "FAQs"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/Initial-Setup"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/create-new-k8s-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/list-created-clusters"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/access-clusters-detail-information"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/get-cluster-access-information"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/delete-k8s-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/stop-k8s-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/start-k8s-cluster"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/change-nodes-configuration"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/change-nfs-server-configuration"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/increase-storage-size-of-nodes"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/increase-storage-size-of-nfs-server"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/add-nfs-storage"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/auto-scale"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/advanced-firewall"
+            },
+            {
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/backup-restore-cluster"
             }
           ]
         }
@@ -3284,9 +3516,26 @@ module.exports = {
                   ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-cloud-wapples/privacy-filtering",
-                  label:  "Privacy Filtering"
+                  type:  "category",
+                  label:  "Pattern Storage",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/user-defined-pattern",
+                      label:  "User Defined Pattern"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/privacy-filtering",
+                      label:  "Privacy Filtering"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/malicious-ip",
+                      label:  "Malicious Ip"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
@@ -3358,8 +3607,93 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-waf/quan-ly-proxy-host",
                   label:  "Manage proxy host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/quan-ly-nguoi-dung-cua-waf-dashboard",
+                  label:  "Manage WAF Dashboard users"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/configure-waf-server-connection"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/create-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/delete-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/delete-waf-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/enable-disable-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/fpt-cloud-waf"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-404-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-access-list"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-redirection-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-security-rule-set"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-ssl-certificate"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-stream-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/update-information-of-the-WAF-server"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/update-proxy-host"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/view-proxy-host-detail"
             }
           ]
         },
@@ -4158,7 +4492,7 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-advisor/cloud-advisor",
+                  id:  "cloud-advisor/cloud-advisor-introduction",
                   label:  "Cloud Advisor"
                 },
                 {
@@ -4197,7 +4531,7 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "incident-management/incident-management",
+              id:  "incident-management/incident-management-overview",
               label:  "Incident Management"
             },
             {
@@ -4267,6 +4601,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "incident-management/cau-hinh-settings",
+              label:  "Cau Hinh Settings"
+            },
+            {
+              type:  "doc",
               id:  "incident-management/create-incident",
               label:  "Create Incident"
             },
@@ -4289,6 +4628,11 @@ module.exports = {
               type:  "doc",
               id:  "incident-management/change-the-incident-status",
               label:  "Change The Incident Status"
+            },
+            {
+              type:  "doc",
+              id:  "incident-management/tao-incident",
+              label:  "Tao Incident"
             },
             {
               type:  "doc",
@@ -4329,6 +4673,10 @@ module.exports = {
               type:  "doc",
               id:  "incident-management/copy-activities-as-markdown",
               label:  "Copy activities as markdown"
+            },
+            {
+              type:  "doc",
+              id:  "incident-management/incident-management-overview"
             }
           ]
         }
@@ -4341,53 +4689,65 @@ module.exports = {
       items:  [
         {
           type:  "category",
-          label:  "Tutorials",
+          label:  "FPT Backup As a Service",
           collapsed:  true,
           items:  [
             {
               type:  "doc",
-              id:  "fpt-backup-as-a-service/install-veeam-agent-for-linux",
-              label:  "Install Veeam Agent for Linux"
+              id:  "fpt-backup-as-a-service/Chi tiết dịch vụ",
+              label:  "Chi TiếT DịCh Vụ"
             },
             {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/install-veeam-agent-for-windows",
-              label:  "Install Veeam Agent for Windows"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-file-and-folder-for-linux",
-              label:  "Restore files and folders for Linux"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-file-and-folder-for-windows",
-              label:  "Restore files and folders for Windows"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-window-vm-from-cloud-repository",
-              label:  "Restore Windows VM from cloud repository"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository",
-              label:  "Restore Linux VM from cloud repository"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/create-veeam-recovery-media",
-              label:  "Create Veeam Recovery Media"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/managing-alarms",
-              label:  "Managing alarms"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-backup-as-a-service/fpt-backup-as-a-service",
-              label:  "FPT Backup as a Service"
+              type:  "category",
+              label:  "Tutorials",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/install-veeam-agent-for-linux",
+                  label:  "Install Veeam Agent for Linux"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/install-veeam-agent-for-windows",
+                  label:  "Install Veeam Agent for Windows"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-file-and-folder-for-linux",
+                  label:  "Restore files and folders for Linux"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-file-and-folder-for-windows",
+                  label:  "Restore files and folders for Windows"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-window-vm-from-cloud-repository",
+                  label:  "Restore Windows VM from cloud repository"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository",
+                  label:  "Restore Linux VM from cloud repository"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/create-veeam-recovery-media",
+                  label:  "Create Veeam Recovery Media"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/managing-alarms",
+                  label:  "Managing alarms"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-backup-as-a-service/fpt-backup-as-a-service",
+                  label:  "FPT Backup as a Service"
+                }
+              ]
             }
           ]
         },
@@ -4745,173 +5105,183 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "FPT ArgoCD",
+          label:  "Tutorials",
           collapsed:  true,
           items:  [
             {
               type:  "doc",
-              id:  "fpt-argocd/Initial-setup",
-              label:  "Initial Setup"
+              id:  "fpt-argocd/cau-hinh-image-updater",
+              label:  "Cau Hinh Image Updater"
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Configure Webhook",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/delete-webhook-secret",
-                  label:  "Delete webhook secret"
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Account on ArgoCD",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-account",
-                      label:  "Enable/disable account"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-admin-password",
-                      label:  "Update admin password"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Admin account, Enable/disable Anonymous User",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
-                      label:  "Manage anonymous user access"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-anonymous-user",
-                      label:  "Enable/disable anonymous user"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-admin-user",
-                      label:  "Enable/disable admin user"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "OIDC SSO Configuration",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-chuc-nang-cau-hinh-oidc",
-                      label:  "Enable/disable OIDC"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-oidc-config",
-                      label:  "Cau Hinh Oidc Config"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/update-cau-hinh-oidc",
-                      label:  "Update Cau Hinh Oidc"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/delete-oidc-da-cau-hinh",
-                      label:  "Delete Oidc Da Cau Hinh"
-                    }
-                  ]
+                  id:  "fpt-argocd/cau-hinh-webhook",
+                  label:  "Cau Hinh Webhook"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cho-phep-enable-applications-set",
-                  label:  "Enable ApplicationSet"
+                  id:  "fpt-argocd/Edit-webhook-secret",
+                  label:  "Edit Webhook Secret"
                 },
                 {
-                  type:  "category",
-                  label:  "Configure Notifications",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/enable-disable-notificaions",
-                      label:  "Enable/disable notifications"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao",
-                      label:  "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/delete-webhook-secret",
+                  label:  "Delete webhook secret"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Account on ArgoCD",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/quan-ly-account-tren-argocd",
+                  label:  "Quan Ly Account Tren Argocd"
                 },
                 {
-                  type:  "category",
-                  label:  "Demo",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/demo",
-                      label:  "Demo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                      label:  "Huong Dan Dang Nhap Vao Argocd"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                      label:  "Deploy applications with manifest"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
-                      label:  "Thuc Hien Cau Hinh Webhook Voi Webhook Secret Da Duoc Tao"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                      label:  "Deploy with Kustomize build options"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                      label:  "Deploy via Helm chart repo"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                      label:  "Deploy via ArgoCD CLI"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                      label:  "Deploy using ApplicationSet"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                      label:  "Configure notifications"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                      label:  "Integrate OIDC for account management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                      label:  "Integrate ArgoCD Image Updater"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-account",
+                  label:  "Enable/disable account"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-admin-password",
+                  label:  "Update admin password"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Admin account, Enable/disable Anonymous User",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
+                  label:  "Manage anonymous user access"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-anonymous-user",
+                  label:  "Enable/disable anonymous user"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-admin-user",
+                  label:  "Enable/disable admin user"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "OIDC SSO Configuration",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
+                  label:  "Cau Hinh Oidc Phuc Vu Sso Config"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-oidc-config",
+                  label:  "Cau Hinh Oidc Config"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/update-cau-hinh-oidc",
+                  label:  "Update Cau Hinh Oidc"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/cho-phep-enable-applications-set",
+              label:  "Enable ApplicationSet"
+            },
+            {
+              type:  "category",
+              label:  "Configure Notifications",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-notifications",
+                  label:  "Cau Hinh Notifications"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao",
+                  label:  "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Demo",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/demo",
+                  label:  "Demo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                  label:  "Huong Dan Dang Nhap Vao Argocd"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                  label:  "Deploy applications with manifest"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
+                  label:  "Thuc Hien Cau Hinh Webhook Voi Webhook Secret Da Duoc Tao"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                  label:  "Deploy with Kustomize build options"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                  label:  "Deploy via Helm chart repo"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                  label:  "Deploy via ArgoCD CLI"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                  label:  "Deploy using ApplicationSet"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                  label:  "Configure notifications"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                  label:  "Integrate OIDC for account management"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                  label:  "Integrate ArgoCD Image Updater"
                 }
               ]
             }
@@ -4941,10 +5311,51 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
+                  id:  "fpt-api-management/khai-bao-thong-tin-tren-apimanager-application",
+                  label:  "Khai Bao Thong Tin Tren Apimanager Application"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-api-management/analytics",
                   label:  "Analytics"
                 }
               ]
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/consumer-api-usage-guide"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/declaring-information"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/fpt-api-management"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/manage-rest-apis"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-consumers"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-products"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/managing-sites"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/quick-starts"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-api-management/registering-on-fpt-portal"
             }
           ]
         },
@@ -5022,6 +5433,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "fpt-app-catalogs/quan-ly-app-catalogs",
+              label:  "Quan Ly App Catalogs"
+            },
+            {
+              type:  "doc",
               id:  "fpt-app-catalogs/search-app-catalogs-from-a-repository",
               label:  "Search App Catalogs From..."
             },
@@ -5034,6 +5450,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-app-catalogs/manage-deployed-applications",
               label:  "Manage Deployed Applications"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-app-catalogs/quan-ly-applications-da-duoc-deploy",
+              label:  "Quan Ly Applications Da Duoc Deploy"
             },
             {
               type:  "doc",
@@ -5313,8 +5734,13 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-queues",
+              id:  "fpt-message-bus/Manage-Queues",
               label:  "Manage queues"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-message-bus/quan-ly-queues",
+              label:  "Quan Ly Queues"
             },
             {
               type:  "doc",
@@ -5363,7 +5789,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/manage-topics",
+              id:  "fpt-message-bus/Manage-topics",
               label:  "Manage topics"
             },
             {
@@ -5599,7 +6025,7 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "managed-fpt-database-engine/db-proxy",
+                  id:  "managed-fpt-database-engine/DB-proxy",
                   label:  "DB Proxy overview"
                 },
                 {
@@ -5928,6 +6354,30 @@ module.exports = {
               type:  "doc",
               id:  "trellix-customer-guide/setting-agert",
               label:  "Setting Agert"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Access the administration interface"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Create Agent Installation Package"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/Viewing Logs"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/client-task-mapping"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/trellix-customer-guide"
+            },
+            {
+              type:  "doc",
+              id:  "trellix-customer-guide/report-guide"
             }
           ]
         },
@@ -6399,6 +6849,11 @@ module.exports = {
               label:  "Manage Managed GPU Cluster",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster",
+                  label:  "Quan Ly Managed Gpu Cluster"
+                },
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi",
@@ -7091,6 +7546,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/danh-sach-model-catalog",
+              label:  "Danh Sach Model Catalog"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/initial-setup",
               label:  "Initial Setup"
             },
@@ -7196,6 +7656,11 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/download-file",
+              label:  "Download File"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/view-list-model-2",
               label:  "View List Model 2"
             },
@@ -7216,8 +7681,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/share-detail-invited",
+              label:  "Share Detail Invited"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-to-create-model-version",
               label:  "Create a model version"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/share-detail-joined",
+              label:  "Share Detail Joined"
             },
             {
               type:  "doc",
@@ -7286,8 +7761,18 @@ module.exports = {
             },
             {
               type:  "doc",
+              id:  "model-hub/model-deployment",
+              label:  "Model Deployment"
+            },
+            {
+              type:  "doc",
               id:  "model-hub/how-to-share-a-model",
               label:  "Share a model"
+            },
+            {
+              type:  "doc",
+              id:  "model-hub/model-catalog",
+              label:  "Model Catalog"
             },
             {
               type:  "doc",
@@ -7688,6 +8173,11 @@ module.exports = {
           type:  "doc",
           id:  "gpu-container/jupyter-notebook-tutorials",
           label:  "Jupyter Notebook Tutorials"
+        },
+        {
+          type:  "doc",
+          id:  "gpu-container/vllm-use-cases",
+          label:  "GPU Container"
         },
         {
           type:  "doc",
