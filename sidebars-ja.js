@@ -529,661 +529,452 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "クイックスタート",
+              label:  "Virtual Machineの作成",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Virtual Machineの作成",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quick-starts-tao-mot-may-ao",
-                      label:  "仮想マシンの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-vm-iso",
-                      label:  "ISOファイルからのVM作成時の注意事項"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "cloud-server/quick-starts-tao-mot-may-ao",
+                  label:  "仮想マシンの作成"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/clone-instance",
-                  label:  "仮想マシンのクローン"
+                  id:  "cloud-server/create-vm-iso",
+                  label:  "ISOファイルからのVM作成時の注意事項"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/clone-instance",
+              label:  "仮想マシンのクローン"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-tatbat-may-ao",
+              label:  "仮想マシンの起動/停止"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao",
+              label:  "仮想マシンの再起動"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-xoa-may-ao",
+              label:  "仮想マシンの削除"
+            },
+            {
+              type:  "category",
+              label:  "Virtual Machinesの管理",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-may-ao",
+                  label:  "仮想マシンの管理"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-tatbat-may-ao",
-                  label:  "仮想マシンの起動/停止"
+                  id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi",
+                  label:  "新しい仮想マシンの作成"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao",
-                  label:  "仮想マシンの再起動"
+                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows",
+                  label:  "Windows仮想マシンへの接続"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/lock-unlock-instance-deletion",
-                  label:  "削除ロック & ロック解除"
+                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux",
+                  label:  "Linux仮想マシンへの接続"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-xoa-may-ao",
-                  label:  "仮想マシンの削除"
+                  id:  "cloud-server/attach-a-network-card-to-the-virtual-machine",
+                  label:  "仮想マシンへのNIC追加"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/remove-the-network-card-from-the-virtual-machine",
+                  label:  "仮想マシンからのNIC削除"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao",
+                  label:  "仮想マシン情報の確認"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu",
+                  label:  "仮想マシン構成の変更"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
+                  label:  "Snapshotによるバックアップ"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "チュートリアル",
+              label:  "GPU with Portal Consoleの管理",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Virtual Machinesの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-may-ao",
-                      label:  "仮想マシンの管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi",
-                      label:  "新しい仮想マシンの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows",
-                      label:  "Windows仮想マシンへの接続"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux",
-                      label:  "Linux仮想マシンへの接続"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/attach-a-network-card-to-the-virtual-machine",
-                      label:  "仮想マシンへのNIC追加"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/remove-the-network-card-from-the-virtual-machine",
-                      label:  "仮想マシンからのNIC削除"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao",
-                      label:  "仮想マシン情報の確認"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu",
-                      label:  "仮想マシン構成の変更"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
-                      label:  "Snapshotによるバックアップ"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "GPU with Portal Consoleの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/GPU",
-                      label:  "Portal ConsoleでのGPU管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gpu-general",
-                      label:  "Console PortalでのGPU管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gpu-specific",
-                      label:  "SpecificサービスのGPU管理"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "GPU Server with HPC Portalの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-gpu-voi-hpc-portal",
-                      label:  "HPC PortalでのGPU Server管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-quick-start",
-                      label:  "クイックスタート"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-change-package",
-                      label:  "マシン設定の変更"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-fixed-rental",
-                      label:  "固定レンタル期間の設定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-snapshot-backup",
-                      label:  "Snapshotバックアップ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-hardware-fixation",
-                      label:  "ハードウェア固定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-rest-machine",
-                      label:  "マシンのリセット"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-schedule-shutdown",
-                      label:  "シャットダウンスケジュール"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-clone-image",
-                      label:  "Imageのクローン"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-level-2-password",
-                      label:  "第2レベルパスワードの設定"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-delete-image",
-                      label:  "Imageの削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Block Storage",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/block-storage",
-                      label:  "Block Storage"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tao-storage-disk",
-                      label:  "Storage Disk の作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gan-storage-disk-vao-may-ao",
-                      label:  "Storage Disk を Instance にアタッチする"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows",
-                      label:  "Windows Instance のディスクを設定する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/go-storage-disk-khoi-may-ao",
-                      label:  "Storage Disk を Instance からデタッチする"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-storage-disk",
-                      label:  "Storage Disk の編集"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/xoa-storage-disk",
-                      label:  "Storage Disk の削除"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "cloud-server/GPU",
+                  label:  "Portal ConsoleでのGPU管理"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/profile-ssh-key",
-                  label:  "SSH Key"
-                },
-                {
-                  type:  "category",
-                  label:  "Token",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/token",
-                      label:  "Token"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-token",
-                      label:  "Token の作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/revoke-token",
-                      label:  "Revoke Token"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/FQAs",
-                      label:  "よくある質問"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Custom Images",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/custom-images-overview",
-                      label:  "Custom Images Overview"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tai-len-custom-image",
-                      label:  "Custom Image のアップロード"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/xoa-custom-image",
-                      label:  "Custom Image の削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Instance Templateの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-quan-ly-instance-template",
-                      label:  "Instance Templateの管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao",
-                      label:  "仮想マシンからTemplateを作成する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao",
-                      label:  "Custom ImagesでTemplateを管理する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-tao-instance-tu-template",
-                      label:  "TemplateからInstanceを作成する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-xoa-template",
-                      label:  "Templateを削除する"
-                    }
-                  ]
+                  id:  "cloud-server/gpu-general",
+                  label:  "Console PortalでのGPU管理"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/nat-instance",
-                  label:  "NAT Instance"
-                },
-                {
-                  type:  "category",
-                  label:  "NICの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/NIC-overview-1",
-                      label:  "NICの管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/overview-nic",
-                      label:  "概要"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-card-NIC- Primary",
-                      label:  "Primary NICカードを作成する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/disable-NIC-card",
-                      label:  "Network Interface Cardを無効化する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/enable-NIC-card",
-                      label:  "Network Interface Cardを有効化する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/add-card-NIC- new",
-                      label:  "新しいNetwork Interface Cardを追加する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/convert-card",
-                      label:  "カードをPrimaryに変換する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-ip-address",
-                      label:  "IP Addressを編集する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/change-address-MAC",
-                      label:  "MACアドレスを変更する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-card-NIC",
-                      label:  "Network Interface Cardを削除する"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/change-network-config",
-                      label:  "Network Configを変更する"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Networking",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/network-all",
-                      label:  "ネットワーキング概要"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/networking-overview",
-                      label:  "ネットワーキング詳細"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gateway",
-                      label:  "Gateway"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-floating-ip",
-                      label:  "Floating IP管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/Quản lý Subnets",
-                      label:  "Subnet管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/allow-address-pair",
-                      label:  "Allow Address Pair"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Security Groupの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-security-group",
-                      label:  "Security Group管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/security-group-filter",
-                      label:  "Security Groupのフィルター"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/security-group-priority-rule",
-                      label:  "Priority Rule管理"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/terraform",
-                  label:  "IaC (Terraform)"
-                },
-                {
-                  type:  "category",
-                  label:  "Instance Group (Affinity & Anti-Affinity)の管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/instance-group",
-                      label:  "Instance Group — Affinity & Anti-Affinity"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/overview-affinity",
-                      label:  "概要"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-instance-group",
-                      label:  "Instance Groupの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-instance-group-specific",
-                      label:  "Instance Groupの編集"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/add-instance-instance-group",
-                      label:  "InstanceをGroupに追加"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-instance-group",
-                      label:  "Instance Groupの削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/overview-bell",
-                  label:  "通知ベル"
-                },
-                {
-                  type:  "category",
-                  label:  "Projectの管理",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/project-structure",
-                      label:  "Project管理"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-project",
-                      label:  "Project管理の詳細"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/select-project-when-creating-VPC",
-                      label:  "VPC作成時のProject選択"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/header-project",
-                      label:  "ヘッダーインターフェースの変更"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/new-quota",
-                  label:  "PAYGサービス"
-                },
-                {
-                  type:  "category",
-                  label:  "Auto schedule to on-off Instance",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/instance-schedule",
-                      label:  "インスタンス起動・停止スケジュール"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-overview",
-                      label:  "概要"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-new-instance",
-                      label:  "Instance Scheduleの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/view-detail-instance",
-                      label:  "詳細の確認"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/attach-schedule-to-instance",
-                      label:  "InstanceをScheduleにアタッチ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/detach-schedule-to-instance",
-                      label:  "InstanceをScheduleからデタッチ"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-instance-schedule",
-                      label:  "Instance Scheduleの削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "VMスナップショットスケジュール",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-snapshotVM",
-                      label:  "インスタンスSnapshotスケジュール"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-schedule-snapshotVM",
-                      label:  "インスタンスSnapshotスケジュールの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/viewschedule-snapshotVM",
-                      label:  "詳細の確認"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/editschedule-snapshotVM",
-                      label:  "編集"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/deleteschedule-snapshotVM",
-                      label:  "インスタンスSnapshotスケジュールの削除"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "ディスクスナップショットスケジュール",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-snapshotstorage",
-                      label:  "ストレージディスクSnapshotスケジュール"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/createschedule-snapshotstorage",
-                      label:  "ストレージディスクSnapshotスケジュールの作成"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/viewschedule-snapshotstorage",
-                      label:  "詳細の確認"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/editschedule-snapshotstorage",
-                      label:  "編集"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/deleteschedule-snapshotstorage",
-                      label:  "ストレージディスクSnapshotスケジュールの削除"
-                    }
-                  ]
+                  id:  "cloud-server/gpu-specific",
+                  label:  "SpecificサービスのGPU管理"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "よくある質問",
+              label:  "GPU Server with HPC Portalの管理",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-2",
-                  label:  "FAQ：Security Groupルールのカスタマイズ"
+                  id:  "cloud-server/quan-ly-gpu-voi-hpc-portal",
+                  label:  "HPC PortalでのGPU Server管理"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-1",
-                  label:  "FAQ：Address Pairの編集"
+                  id:  "cloud-server/hpc-quick-start",
+                  label:  "クイックスタート"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-",
-                  label:  "FAQ：NAT Instance"
+                  id:  "cloud-server/hpc-change-package",
+                  label:  "マシン設定の変更"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/cloud-server",
-                  label:  "Overview"
+                  id:  "cloud-server/hpc-fixed-rental",
+                  label:  "固定レンタル期間の設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-snapshot-backup",
+                  label:  "Snapshotバックアップ"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-hardware-fixation",
+                  label:  "ハードウェア固定"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-rest-machine",
+                  label:  "マシンのリセット"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-schedule-shutdown",
+                  label:  "シャットダウンスケジュール"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-clone-image",
+                  label:  "Imageのクローン"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-level-2-password",
+                  label:  "第2レベルパスワードの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-delete-image",
+                  label:  "Imageの削除"
                 }
               ]
+            },
+            {
+              type:  "category",
+              label:  "Block Storage",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/block-storage",
+                  label:  "Block Storage"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tao-storage-disk",
+                  label:  "Storage Disk の作成"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/gan-storage-disk-vao-may-ao",
+                  label:  "Storage Disk を Instance にアタッチする"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows",
+                  label:  "Windows Instance のディスクを設定する"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/go-storage-disk-khoi-may-ao",
+                  label:  "Storage Disk を Instance からデタッチする"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/edit-storage-disk",
+                  label:  "Storage Disk の編集"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/xoa-storage-disk",
+                  label:  "Storage Disk の削除"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/profile-ssh-key",
+              label:  "SSH Key"
+            },
+            {
+              type:  "category",
+              label:  "Custom Images",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/custom-images-overview",
+                  label:  "Custom Images Overview"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tai-len-custom-image",
+                  label:  "Custom Image のアップロード"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/xoa-custom-image",
+                  label:  "Custom Image の削除"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Instance Templateの管理",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-quan-ly-instance-template",
+                  label:  "Instance Templateの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao",
+                  label:  "仮想マシンからTemplateを作成する"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao",
+                  label:  "Custom ImagesでTemplateを管理する"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-tao-instance-tu-template",
+                  label:  "TemplateからInstanceを作成する"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-xoa-template",
+                  label:  "Templateを削除する"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/nat-instance",
+              label:  "NAT Instance"
+            },
+            {
+              type:  "category",
+              label:  "Networking",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/network-all",
+                  label:  "ネットワーキング概要"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/networking-overview",
+                  label:  "ネットワーキング詳細"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-floating-ip",
+                  label:  "Floating IP管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/Quản lý Subnets",
+                  label:  "Subnet管理"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Security Groupの管理",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-security-group",
+                  label:  "Security Group管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/security-group-filter",
+                  label:  "Security Groupのフィルター"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/security-group-priority-rule",
+                  label:  "Priority Rule管理"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/overview-bell",
+              label:  "通知ベル"
+            },
+            {
+              type:  "category",
+              label:  "Projectの管理",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/project-structure",
+                  label:  "Project管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-project",
+                  label:  "Project管理の詳細"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/select-project-when-creating-VPC",
+                  label:  "VPC作成時のProject選択"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/header-project",
+                  label:  "ヘッダーインターフェースの変更"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/new-quota",
+              label:  "PAYGサービス"
+            },
+            {
+              type:  "category",
+              label:  "VMスナップショットスケジュール",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/schedule-snapshotVM",
+                  label:  "インスタンスSnapshotスケジュール"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/create-schedule-snapshotVM",
+                  label:  "インスタンスSnapshotスケジュールの作成"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/viewschedule-snapshotVM",
+                  label:  "詳細の確認"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/editschedule-snapshotVM",
+                  label:  "編集"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/deleteschedule-snapshotVM",
+                  label:  "インスタンスSnapshotスケジュールの削除"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "ディスクスナップショットスケジュール",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/schedule-snapshotstorage",
+                  label:  "ストレージディスクSnapshotスケジュール"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/createschedule-snapshotstorage",
+                  label:  "ストレージディスクSnapshotスケジュールの作成"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/viewschedule-snapshotstorage",
+                  label:  "詳細の確認"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/editschedule-snapshotstorage",
+                  label:  "編集"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/deleteschedule-snapshotstorage",
+                  label:  "ストレージディスクSnapshotスケジュールの削除"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-2",
+              label:  "FAQ：Security Groupルールのカスタマイズ"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-1",
+              label:  "FAQ：Address Pairの編集"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-",
+              label:  "FAQ：NAT Instance"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/cloud-server",
+              label:  "Overview"
             },
             {
               type:  "category",

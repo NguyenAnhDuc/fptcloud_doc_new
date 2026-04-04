@@ -529,661 +529,452 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quick Starts",
+              label:  "Create Virtual Machine",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Create Virtual Machine",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quick-starts-tao-mot-may-ao",
-                      label:  "Create a virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-vm-iso",
-                      label:  "Notes for creating VM from ISO file"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "cloud-server/quick-starts-tao-mot-may-ao",
+                  label:  "Create a virtual machine"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/clone-instance",
-                  label:  "Clone a virtual machine"
+                  id:  "cloud-server/create-vm-iso",
+                  label:  "Notes for creating VM from ISO file"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/clone-instance",
+              label:  "Clone a virtual machine"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-tatbat-may-ao",
+              label:  "Power on/off virtual machine"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao",
+              label:  "Reboot virtual machine"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/quick-starts-xoa-may-ao",
+              label:  "Delete a virtual machine"
+            },
+            {
+              type:  "category",
+              label:  "Manage Virtual Machines",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-may-ao",
+                  label:  "Manage virtual machines"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-tatbat-may-ao",
-                  label:  "Power on/off virtual machine"
+                  id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi",
+                  label:  "Create a new virtual machine"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao",
-                  label:  "Reboot virtual machine"
+                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows",
+                  label:  "Connect to a Windows virtual machine"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/lock-unlock-instance-deletion",
-                  label:  "Lock & Unlock VM deletion"
+                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux",
+                  label:  "Connect to a Linux virtual machine"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/quick-starts-xoa-may-ao",
-                  label:  "Delete a virtual machine"
+                  id:  "cloud-server/attach-a-network-card-to-the-virtual-machine",
+                  label:  "Attach a network card (NIC) to the virtual machine"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/remove-the-network-card-from-the-virtual-machine",
+                  label:  "Remove a network card (NIC) from the virtual machine"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao",
+                  label:  "View virtual machine details"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu",
+                  label:  "Change VM configuration"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
+                  label:  "Backup VM with Snapshot"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Tutorials",
+              label:  "Manage GPU with Portal Console",
               collapsed:  true,
               items:  [
                 {
-                  type:  "category",
-                  label:  "Manage Virtual Machines",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-may-ao",
-                      label:  "Manage virtual machines"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi",
-                      label:  "Create a new virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows",
-                      label:  "Connect to a Windows virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux",
-                      label:  "Connect to a Linux virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/attach-a-network-card-to-the-virtual-machine",
-                      label:  "Attach a network card (NIC) to the virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/remove-the-network-card-from-the-virtual-machine",
-                      label:  "Remove a network card (NIC) from the virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao",
-                      label:  "View virtual machine details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu",
-                      label:  "Change VM configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
-                      label:  "Backup VM with Snapshot"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage GPU with Portal Console",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/GPU",
-                      label:  "Managing GPU with Portal Console"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gpu-general",
-                      label:  "Managing GPU with Console Portal"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gpu-specific",
-                      label:  "Managing GPU for Specific Service"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage GPU Server with HPC Portal",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-gpu-voi-hpc-portal",
-                      label:  "Managing GPU Server with HPC Portal"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-quick-start",
-                      label:  "Quick Start"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-change-package",
-                      label:  "Change Machine Configuration"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-fixed-rental",
-                      label:  "Set Fixed Rental Period"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-snapshot-backup",
-                      label:  "Snapshot Backup"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-hardware-fixation",
-                      label:  "Hardware Fixation"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-rest-machine",
-                      label:  "Reset Machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-schedule-shutdown",
-                      label:  "Schedule Shutdown"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-clone-image",
-                      label:  "Clone Image"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-level-2-password",
-                      label:  "Set Level 2 Password"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/hpc-delete-image",
-                      label:  "Delete Image"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Block Storage",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/block-storage",
-                      label:  "Block Storage"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tao-storage-disk",
-                      label:  "Create a Storage Disk"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gan-storage-disk-vao-may-ao",
-                      label:  "Attach a Storage Disk to an Instance"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows",
-                      label:  "Configure a Disk on a Windows Instance"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/go-storage-disk-khoi-may-ao",
-                      label:  "Detach a Storage Disk from an Instance"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-storage-disk",
-                      label:  "Edit a Storage Disk"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/xoa-storage-disk",
-                      label:  "Delete a Storage Disk"
-                    }
-                  ]
+                  type:  "doc",
+                  id:  "cloud-server/GPU",
+                  label:  "Managing GPU with Portal Console"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/profile-ssh-key",
-                  label:  "SSH Key"
-                },
-                {
-                  type:  "category",
-                  label:  "Token",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/token",
-                      label:  "Token"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-token",
-                      label:  "Create a Token"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/revoke-token",
-                      label:  "Revoke Token"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/FQAs",
-                      label:  "Frequently Asked Questions"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Custom Images",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/custom-images-overview",
-                      label:  "Custom Images Overview"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tai-len-custom-image",
-                      label:  "Upload a Custom Image"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/xoa-custom-image",
-                      label:  "Delete a Custom Image"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Instance Template",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-quan-ly-instance-template",
-                      label:  "Managing Instance Templates"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao",
-                      label:  "Create a template from a virtual machine"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao",
-                      label:  "Manage templates on Custom Images"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-tao-instance-tu-template",
-                      label:  "Create an Instance from a template"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/tutorials-xoa-template",
-                      label:  "Delete a template"
-                    }
-                  ]
+                  id:  "cloud-server/gpu-general",
+                  label:  "Managing GPU with Console Portal"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/nat-instance",
-                  label:  "NAT Instance"
-                },
-                {
-                  type:  "category",
-                  label:  "Manage NIC",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/NIC-overview-1",
-                      label:  "Managing NIC"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/overview-nic",
-                      label:  "Overview"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-card-NIC- Primary",
-                      label:  "Create a Primary NIC card"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/disable-NIC-card",
-                      label:  "Disable Network Interface Card"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/enable-NIC-card",
-                      label:  "Enable Network Interface Card"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/add-card-NIC- new",
-                      label:  "Add a new Network Interface Card"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/convert-card",
-                      label:  "Convert a card to Primary"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-ip-address",
-                      label:  "Edit IP Address"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/change-address-MAC",
-                      label:  "Change MAC address"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-card-NIC",
-                      label:  "Delete Network Interface Card"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/change-network-config",
-                      label:  "Change Network Config"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Networking",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/network-all",
-                      label:  "Networking Overview"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/networking-overview",
-                      label:  "Networking Details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/gateway",
-                      label:  "Gateway"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-floating-ip",
-                      label:  "Floating IP Management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/Quản lý Subnets",
-                      label:  "Subnet Management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/allow-address-pair",
-                      label:  "Allow Address Pair"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Security Group",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-security-group",
-                      label:  "Security Group Management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/security-group-filter",
-                      label:  "Filter Security Group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/security-group-priority-rule",
-                      label:  "Priority Rule Management"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/terraform",
-                  label:  "IaC (Terraform)"
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Instance Group (Affinity & Anti-Affinity)",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/instance-group",
-                      label:  "Instance Group — Affinity & Anti-Affinity"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/overview-affinity",
-                      label:  "Introduction"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-instance-group",
-                      label:  "Create Instance Group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/edit-instance-group-specific",
-                      label:  "Edit Instance Group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/add-instance-instance-group",
-                      label:  "Add Instance to Group"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-instance-group",
-                      label:  "Delete Instance Group"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/overview-bell",
-                  label:  "Notification Bell"
-                },
-                {
-                  type:  "category",
-                  label:  "Manage Project",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/project-structure",
-                      label:  "Project Management"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/quan-ly-project",
-                      label:  "Project Management Details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/select-project-when-creating-VPC",
-                      label:  "Select Project When Creating VPC"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/header-project",
-                      label:  "Change Header Interface"
-                    }
-                  ]
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/new-quota",
-                  label:  "PAYG Service"
-                },
-                {
-                  type:  "category",
-                  label:  "Auto schedule to on-off Instance",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/instance-schedule",
-                      label:  "Instance Start/Stop Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-overview",
-                      label:  "Overview"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-new-instance",
-                      label:  "Create Instance Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/view-detail-instance",
-                      label:  "View Details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/attach-schedule-to-instance",
-                      label:  "Attach Instance to Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/detach-schedule-to-instance",
-                      label:  "Detach Instance from Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/delete-instance-schedule",
-                      label:  "Delete Instance Schedule"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "VM Snapshot Schedule",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-snapshotVM",
-                      label:  "Instance Snapshot Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/create-schedule-snapshotVM",
-                      label:  "Create Instance Snapshot Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/viewschedule-snapshotVM",
-                      label:  "View Details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/editschedule-snapshotVM",
-                      label:  "Edit"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/deleteschedule-snapshotVM",
-                      label:  "Delete Instance Snapshot Schedule"
-                    }
-                  ]
-                },
-                {
-                  type:  "category",
-                  label:  "Disk Snapshot Schedule",
-                  collapsed:  true,
-                  items:  [
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/schedule-snapshotstorage",
-                      label:  "Storage Disk Snapshot Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/createschedule-snapshotstorage",
-                      label:  "Create Storage Disk Snapshot Schedule"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/viewschedule-snapshotstorage",
-                      label:  "View Details"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/editschedule-snapshotstorage",
-                      label:  "Edit"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "cloud-server/deleteschedule-snapshotstorage",
-                      label:  "Delete Storage Disk Snapshot Schedule"
-                    }
-                  ]
+                  id:  "cloud-server/gpu-specific",
+                  label:  "Managing GPU for Specific Service"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "FAQs",
+              label:  "Manage GPU Server with HPC Portal",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-2",
-                  label:  "FAQ: Customize Security Group Rules"
+                  id:  "cloud-server/quan-ly-gpu-voi-hpc-portal",
+                  label:  "Managing GPU Server with HPC Portal"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-1",
-                  label:  "FAQ: Edit Address Pair"
+                  id:  "cloud-server/hpc-quick-start",
+                  label:  "Quick Start"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/question-",
-                  label:  "FAQ: NAT Instance"
+                  id:  "cloud-server/hpc-change-package",
+                  label:  "Change Machine Configuration"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/cloud-server",
-                  label:  "Overview"
+                  id:  "cloud-server/hpc-fixed-rental",
+                  label:  "Set Fixed Rental Period"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-snapshot-backup",
+                  label:  "Snapshot Backup"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-hardware-fixation",
+                  label:  "Hardware Fixation"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-rest-machine",
+                  label:  "Reset Machine"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-schedule-shutdown",
+                  label:  "Schedule Shutdown"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-clone-image",
+                  label:  "Clone Image"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-level-2-password",
+                  label:  "Set Level 2 Password"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/hpc-delete-image",
+                  label:  "Delete Image"
                 }
               ]
+            },
+            {
+              type:  "category",
+              label:  "Block Storage",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/block-storage",
+                  label:  "Block Storage"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tao-storage-disk",
+                  label:  "Create a Storage Disk"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/gan-storage-disk-vao-may-ao",
+                  label:  "Attach a Storage Disk to an Instance"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows",
+                  label:  "Configure a Disk on a Windows Instance"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/go-storage-disk-khoi-may-ao",
+                  label:  "Detach a Storage Disk from an Instance"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/edit-storage-disk",
+                  label:  "Edit a Storage Disk"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/xoa-storage-disk",
+                  label:  "Delete a Storage Disk"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/profile-ssh-key",
+              label:  "SSH Key"
+            },
+            {
+              type:  "category",
+              label:  "Custom Images",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/custom-images-overview",
+                  label:  "Custom Images Overview"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tai-len-custom-image",
+                  label:  "Upload a Custom Image"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/xoa-custom-image",
+                  label:  "Delete a Custom Image"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Instance Template",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-quan-ly-instance-template",
+                  label:  "Managing Instance Templates"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao",
+                  label:  "Create a template from a virtual machine"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao",
+                  label:  "Manage templates on Custom Images"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-tao-instance-tu-template",
+                  label:  "Create an Instance from a template"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/tutorials-xoa-template",
+                  label:  "Delete a template"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/nat-instance",
+              label:  "NAT Instance"
+            },
+            {
+              type:  "category",
+              label:  "Networking",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/network-all",
+                  label:  "Networking Overview"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/networking-overview",
+                  label:  "Networking Details"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-floating-ip",
+                  label:  "Floating IP Management"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/Quản lý Subnets",
+                  label:  "Subnet Management"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Manage Security Group",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-security-group",
+                  label:  "Security Group Management"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/security-group-filter",
+                  label:  "Filter Security Group"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/security-group-priority-rule",
+                  label:  "Priority Rule Management"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/overview-bell",
+              label:  "Notification Bell"
+            },
+            {
+              type:  "category",
+              label:  "Manage Project",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/project-structure",
+                  label:  "Project Management"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/quan-ly-project",
+                  label:  "Project Management Details"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/select-project-when-creating-VPC",
+                  label:  "Select Project When Creating VPC"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/header-project",
+                  label:  "Change Header Interface"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/new-quota",
+              label:  "PAYG Service"
+            },
+            {
+              type:  "category",
+              label:  "VM Snapshot Schedule",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/schedule-snapshotVM",
+                  label:  "Instance Snapshot Schedule"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/create-schedule-snapshotVM",
+                  label:  "Create Instance Snapshot Schedule"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/viewschedule-snapshotVM",
+                  label:  "View Details"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/editschedule-snapshotVM",
+                  label:  "Edit"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/deleteschedule-snapshotVM",
+                  label:  "Delete Instance Snapshot Schedule"
+                }
+              ]
+            },
+            {
+              type:  "category",
+              label:  "Disk Snapshot Schedule",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "cloud-server/schedule-snapshotstorage",
+                  label:  "Storage Disk Snapshot Schedule"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/createschedule-snapshotstorage",
+                  label:  "Create Storage Disk Snapshot Schedule"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/viewschedule-snapshotstorage",
+                  label:  "View Details"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/editschedule-snapshotstorage",
+                  label:  "Edit"
+                },
+                {
+                  type:  "doc",
+                  id:  "cloud-server/deleteschedule-snapshotstorage",
+                  label:  "Delete Storage Disk Snapshot Schedule"
+                }
+              ]
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-2",
+              label:  "FAQ: Customize Security Group Rules"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-1",
+              label:  "FAQ: Edit Address Pair"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/question-",
+              label:  "FAQ: NAT Instance"
+            },
+            {
+              type:  "doc",
+              id:  "cloud-server/cloud-server",
+              label:  "Overview"
             },
             {
               type:  "category",

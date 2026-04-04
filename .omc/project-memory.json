@@ -189,14 +189,14 @@
   "hotPaths": [
     {
       "path": "sidebars.js",
-      "accessCount": 54,
-      "lastAccessed": 1775288680780,
+      "accessCount": 67,
+      "lastAccessed": 1775329035284,
       "type": "directory"
     },
     {
       "path": "sidebars-vi.js",
-      "accessCount": 40,
-      "lastAccessed": 1775327007027,
+      "accessCount": 56,
+      "lastAccessed": 1775329028598,
       "type": "directory"
     },
     {
