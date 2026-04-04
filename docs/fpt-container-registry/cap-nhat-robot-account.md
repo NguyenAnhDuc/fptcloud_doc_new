@@ -1,27 +1,27 @@
 ---
 id: "cap-nhat-robot-account"
-title: "Cập nhật robot account"
-description: "Chỉnh sửa expiration time, description và permission của robot account."
-sidebar_label: "Cập nhật robot account"
+title: "Update a robot account"
+description: "Edit the expiration time, description, and permissions of a robot account."
+sidebar_label: "Update a robot account"
 sidebar_position: "21"
 ---
 
-# Cập nhật robot account
+# Update a robot account
 
-FPT Cloud cho phép chỉnh sửa các thông tin của robot account đã tạo khi nhu cầu sử dụng thay đổi, bao gồm thời gian hết hạn, mô tả và quyền hạn.
+FPT Cloud allows you to edit the information of an existing robot account when your usage requirements change, including its expiration time, description, and permissions.
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn cập nhật.
+1. In the **Robot Account** list, select the robot account you want to update.
 
-   [![Chọn robot account trong danh sách](/img/migrated/Picture65-7ccf0a71.png)](/img/migrated/Picture65-7ccf0a71.png)
+   [![Select robot account in the list](/img/migrated/Picture65-7ccf0a71.png)](/img/migrated/Picture65-7ccf0a71.png)
 
-2. Chọn **Edit** trong phần **Action**.
+2. Select **Edit** in the **Action** section.
 
-   [![Nút Edit trong Action](/img/migrated/Picture66-abba460f.png)](/img/migrated/Picture66-abba460f.png)
+   [![Edit button in Action](/img/migrated/Picture66-abba460f.png)](/img/migrated/Picture66-abba460f.png)
 
-3. Cập nhật thông tin trong hộp thoại: **Expiration time**, **Description** và/hoặc **Permissions**. Chọn **Edit** để lưu.
+3. Update the information in the dialog: **Expiration time**, **Description**, and/or **Permissions**. Click **Edit** to save.
 
-   [![Hộp thoại chỉnh sửa robot account](/img/migrated/Picture67-a1ad0b6a.png)](/img/migrated/Picture67-a1ad0b6a.png)
+   [![Robot account edit dialog](/img/migrated/Picture67-a1ad0b6a.png)](/img/migrated/Picture67-a1ad0b6a.png)
 
-4. Kiểm tra thông tin sau khi cập nhật.
+4. Verify the information after updating.
 
-   [![Thông tin robot account sau khi cập nhật](/img/migrated/Picture68-ebd6b02f.png)](/img/migrated/Picture68-ebd6b02f.png)
+   [![Robot account information after update](/img/migrated/Picture68-ebd6b02f.png)](/img/migrated/Picture68-ebd6b02f.png)

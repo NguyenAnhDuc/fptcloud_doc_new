@@ -1,8 +1,8 @@
 ---
 id: "why-model-hub"
-title: "Model Hub を使う理由"
-description: "* hub がなければ、誰もが **GitHub リポジトリ、ランダムなブログ、または論文で model を探し回る** 必要があります。"
-sidebar_label: "Model Hub を使う理由"
+title: "Why Model Hub"
+description: "* Without a hub, everyone would have to **hunt for models on GitHub repos, random blogs, or papers**."
+sidebar_label: "Why Model Hub"
 sidebar_position: "5"
 ---
 

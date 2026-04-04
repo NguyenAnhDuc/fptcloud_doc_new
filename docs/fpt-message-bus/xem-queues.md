@@ -1,29 +1,29 @@
 ---
 id: "xem-queues"
-title: "Xem queue"
-description: "Hướng dẫn xem thông tin chi tiết của một queue trong FPT Message Bus for RabbitMQ."
-sidebar_label: "Xem queue"
+title: "View a queue"
+description: "How to view detailed information about a queue in FPT Message Bus for RabbitMQ."
+sidebar_label: "View a queue"
 sidebar_position: "6"
 ---
 
-# Xem queue
+# View a queue
 
-Bạn có thể kiểm tra cấu hình và trạng thái của bất kỳ queue nào để theo dõi và xác minh thiết lập. Thông tin hiển thị ở chế độ chỉ đọc.
+You can inspect the configuration and status of any queue to monitor and verify its setup. Information is displayed in read-only mode.
 
-1. Chọn queue bạn muốn xem thông tin chi tiết.
+1. Select the queue you want to view in detail.
 
-   [![Màn hình danh sách queues, chọn một queue](/img/migrated/View-1-bb456837.png)](/img/migrated/View-1-bb456837.png)
+   [![Queue list screen, select a queue](/img/migrated/View-1-bb456837.png)](/img/migrated/View-1-bb456837.png)
 
-2. Chọn nút **View**.
+2. Click the **View** button.
 
-   [![Màn hình chi tiết queue hiển thị Name, Status và các thông số cấu hình](/img/migrated/View-2-cec0d10d.png)](/img/migrated/View-2-cec0d10d.png)
+   [![Queue detail screen showing Name, Status and configuration parameters](/img/migrated/View-2-cec0d10d.png)](/img/migrated/View-2-cec0d10d.png)
 
-Màn hình hiển thị các thông tin đã cấu hình, bao gồm:
+The screen displays the configured information, including:
 
-- **Name**: Tên queue.
-- **Status**: Trạng thái của queue.
-- Các thông số cấu hình: max length, max length byte, message TTL, overflow, v.v.
+- **Name**: The queue name.
+- **Status**: The queue status.
+- Configuration parameters: max length, max length byte, message TTL, overflow, etc.
 
 :::note
-Tất cả thông tin chỉ có quyền xem, không thể chỉnh sửa tại đây.
+All information is read-only and cannot be edited here.
 :::

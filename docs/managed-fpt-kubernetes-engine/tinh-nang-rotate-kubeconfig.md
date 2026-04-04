@@ -1,17 +1,20 @@
 ---
 id: "tinh-nang-rotate-kubeconfig"
-title: "kubeconfig のローテーション機能"
-description: "Kubernetes クラスターの使用中に、管理者ユーザーのトークンを変更したい場合は kubeconfig のローテーションを実行できます。"
-sidebar_label: "kubeconfig のローテーション機能"
+title: "Rotate Kubeconfig feature"
+description: "How to rotate the kubeconfig to change the admin user token in a Managed FPT Kubernetes Engine cluster."
+sidebar_label: "Rotate Kubeconfig feature"
 sidebar_position: "8"
 ---
 
-# Tính năng Rotate Kubeconfig
+# Rotate Kubeconfig feature
 
-Trong quá trình sử dụng Kubernetes cluster, người dùng có thể thực hiện rotate kubeconfig nếu muốn thay đổi token của user admin trong cluster. 
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. 
+While using a Kubernetes cluster, you can rotate the kubeconfig if you want to change the admin user token in the cluster.
+
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears.
 [![](/img/migrated/Picture15-31f6358c.png)](/img/migrated/Picture15-31f6358c.png)
-**Bước 2** : Ở tab **Essential Properties** , mục **Configuration** chọn **Renew kubeconfig**
+
+**Step 2:** In the **Essential Properties** tab, under **Configuration**, select **Renew kubeconfig**.
 [![](/img/migrated/Picture16-abcd6aa3.png)](/img/migrated/Picture16-abcd6aa3.png)
-**Bước 3:** Xác nhận thông tin cảnh báo trong pop-up và click button **Renew**
+
+**Step 3:** Review the warning information in the pop-up and click **Renew**.
 [![](/img/migrated/Picture17-4bc52df3.png)](/img/migrated/Picture17-4bc52df3.png)

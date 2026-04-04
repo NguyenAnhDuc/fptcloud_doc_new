@@ -1,62 +1,66 @@
 ---
 id: "best-practice-upgrade-fke-cluster-version"
-title: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
-description: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
-sidebar_label: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
+title: "FKE clusterバージョンアップグレードのベストプラクティス"
+description: "D-FKEサービスはPortal ConsoleからKubernetes clusterのバージョンアップグレードをサポートしています。"
+sidebar_label: "ベストプラクティス: バージョンアップグレード"
 sidebar_position: "26"
 ---
 
-# Hướng dẫn upgrade FKE cluster version
+# FKE clusterバージョンアップグレードのベストプラクティス
 
-Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console. 
-**A. Tính năng sản phẩm:**
-  * Cả master và worker node đều được nâng cấp version: quá trình này hoàn toàn tự động, người dùng dễ dàng thao tác trên portal, không cần tác động vào cluster. 
-  * Upgrade master với zero downtime: hệ thống tự động upgrade master lên phiên bản kế tiếp VD: 1.21 à 1.22 không có downtime nếu cluster sử dụng mode HA ( 3 master). Với các cluster có 1 master, sẽ mất một vài phút downtime master, trong thời gian đó không thể tác động vào cluster (Kubernetes API) nhưng workload của ứng dụng vẫn hoạt động bình thường. 
-  * Upgrade worker với zero downtime: hệ thống tự động Rolling update version từng worker node. Lần lượt các worker sẽ drain hết pod workload và cordon (disable schedule) pods gán vào node cho tới khi node nó update xong. 
+D-FKEサービスはPortal ConsoleからKubernetes clusterのバージョンアップグレードをサポートしています。
 
-**B. Chi tiết quá trình upgrade của hệ thống:**
-**1. Pre-upgrade**
-  * Hệ thống setup môi trường để cluster upgrade 
-  * Kiểm tra môi trường: cluster status/network status 
+## A. 製品機能
 
-**2. Upgrade**
-(Upgrade lần lượt các node, master trước, worker sau) 
-  * Cordon node 
-  * Drain node 
-  * Check node is in ready state 
-  * Backup old certs and keys, Backup old confs (master) 
-  * Update etcd-servers for apiserver (master) 
-  * Install new version software on node: kubelet, calico, container runtime, coredns, nodelocaldns, metrics server .. 
+- **masterとworker nodeの両方がアップグレードされます:** プロセスは完全に自動化されており、ユーザーはclusterに直接介入することなく、ポータルから簡単に操作できます。
+- **ゼロダウンタイムのmasterアップグレード:** clusterがHAモード（3台のmaster）を使用している場合、システムは自動的にmasterを次のバージョン（例: 1.21 → 1.22）にダウンタイムなしでアップグレードします。masterが1台のclusterでは、数分間のmasterダウンタイムが発生し、その間Kubernetes APIが使用できませんが、アプリケーションのworkloadは正常に動作し続けます。
+- **ゼロダウンタイムのworkerアップグレード:** システムは各worker nodeを順番にRolling updateします。各workerはpod workloadをdrainし、node更新が完了するまでcordon（スケジュール無効）されます。
 
-**3. Post-upgrade**
-  * Install new version Addon on node: CSI, CCM, Autoscaler 
-  * Check upgrade state 
-  * Cleanup 
+## B. アップグレードプロセスの詳細
 
-**C. Recommend cho cluster khi sử dụng upgrade:**
-  * Quá trình upgrade cluster nên thực hiện trong thời điểm hệ thống chịu tải thấp, nên thực hiện sau giờ hành chính hoặc cuối tuần. 
-  * Trước khi upgrade môi trường prod nên kiểm thử các ứng dụng có tương thích với K8S version mới không ở môi trường dev/uat trước, đặc biệt là các API K8S version mới. 
-  * Nâng cấp version cluster theo từng phiên bản kế tiếp, ví dụ: 1.21 à 1.22 à 1.23 
-  * Đảm bảo cluster luôn sử dụng phiên bản mới nhất (tham khảo bảng EOL version) 
-  * Backup config của cluster trước khi upgrade: sử dụng các tool CD hoặc backup manifest/helm chart 
-  * Triển khai cluster sử dụng HA master (03 master) để đảm bảo không downtime control plane. 
-  * Triển khai cluster sử dụng HA worker từ 02 worker trở lên để đảm bảo không downtime workload ứng dụng. 
-  * Triển khai các ứng dụng dưới dạng Workload Controller như Deployment, Replicaset, DaemonSet, .. có replica từ 2 trở lên và không nên triển khai các Pod đơn lẻ. 
-  * Không nên triển khai ứng dụng sử dụng local storage (empty dir, hostpath ..) nên sử dụng CSI 
-  * Triển khai Anti-Affinity rule cho các ứng dụng để đảm bảo ứng dụng chạy trên nhiều worker nodes 
-  * Đảm bảo Firewall mở port để hệ thống của FPT kết nối đến cluster trong quá trình upgrade (FKE controller: từ 103.160.90.33 đến <> port tcp 6443, 32085, 2022 
+**1. アップグレード前**
+- clusterアップグレードのための環境をセットアップします。
+- 環境チェック: cluster status / network status。
 
-  * Thiết kế sizing tài nguyên cho ứng dụng đảm bảo có đủ tài nguyên để để Rolling update worker node (có thể scale thêm 01 worker làm buffer trước khi upgrade version cluster). 
+**2. アップグレード**
+（nodeを順番にアップグレード: masterが先、次にworker）
+- nodeをcordonする。
+- nodeをdrainする。
+- nodeがready状態であることを確認する。
+- 古いcertsとkeysをバックアップ; 古いconfigsをバックアップ（master）。
+- apiserverのetcd-serversを更新（master）。
+- nodeに新バージョンのソフトウェアをインストール: kubelet、calico、container runtime、coredns、nodelocaldns、metrics serverなど。
 
-**D. D-FKE EOL Chart**  
-| Kubernetes version  | Upstream release  | FKE GA  | FKE End of standard support  |  
-| --- | --- | --- | --- |  
-| 1.21  | Apr,2021  | 2021  | Sep, 2024  |  
-| 1.22  | Aug, 2021  | 2022  | Nov, 2024  |  
-| 1.23  | Dec, 2021  | 2023  | Feb, 2025  |  
-| 1.24  | May, 2022  |   |   |  
-| 1.25  | Aug, 2022  | Oct, 2023  | Aug, 2025  |  
-| 1.26  | Dec, 2022  | Jan, 2024  | Nov, 2025  |  
-| 1.27  | Apr, 2023  | Feb, 2024  | Feb, 2026  |  
-| 1.28  | Aug, 2023  | Mar, 2024  | May, 2026  |  
-| 1.29  | Jan, 2024  |   |   |
+**3. アップグレード後**
+- nodeに新バージョンのアドオンをインストール: CSI、CCM、Autoscaler。
+- アップグレード状態を確認する。
+- クリーンアップ。
+
+## C. clusterアップグレード時の推奨事項
+
+- clusterのアップグレードは、業務時間外や週末など、システム負荷が低い時間帯に実施してください。
+- 本番環境をアップグレードする前に、dev/uat環境でアプリケーションが新しいKubernetesバージョンと互換性があるかテストしてください。特に新しいKubernetes APIバージョンについて確認してください。
+- clusterバージョンを順番にアップグレードしてください（例: 1.21 → 1.22 → 1.23）。
+- clusterが常に最新のサポートバージョンを使用していることを確認してください（EOLバージョン表を参照）。
+- アップグレード前にcluster configurationをバックアップしてください: CDツールを使用するか、manifest/helm chartをバックアップしてください。
+- control planeのダウンタイムをゼロにするため、HA master（3台のmaster）でclusterをデプロイしてください。
+- アプリケーションworkloadのダウンタイムをゼロにするため、2台以上のHA workerでclusterをデプロイしてください。
+- Deployment、Replicaset、DaemonSetなどのWorkload Controllerを使用し、2台以上のreplicaでアプリケーションをデプロイしてください。単一のPodのデプロイは避けてください。
+- local storage（empty dir、hostpathなど）は使用せず、CSIを使用してください。
+- アプリケーションが複数のworker nodeで動作することを保証するために、Anti-Affinityルールをデプロイしてください。
+- アップグレード中にFPTのシステムがclusterに接続できるようファイアウォールのポートを開放してください（FKE controller: 103.160.90.33からcluster port tcp 6443、32085、2022; FPT Cloud Portal: 103.160.90.36、103.160.90.37、103.160.90.39からPublic IP port tcp 6443）。
+- worker nodeのRolling updateに十分なリソースを確保するため、アプリケーションのリソースサイジングを設計してください（clusterバージョンのアップグレード前にバッファとして1台のworkerをスケールアウトすることを検討してください）。
+
+## D. D-FKE EOLチャート
+
+| Kubernetesバージョン | アップストリームリリース | FKE GA | FKE標準サポート終了 |
+| --- | --- | --- | --- |
+| 1.21 | 2021年4月 | 2021 | 2024年9月 |
+| 1.22 | 2021年8月 | 2022 | 2024年11月 |
+| 1.23 | 2021年12月 | 2023 | 2025年2月 |
+| 1.24 | 2022年5月 | | |
+| 1.25 | 2022年8月 | 2023年10月 | 2025年8月 |
+| 1.26 | 2022年12月 | 2024年1月 | 2025年11月 |
+| 1.27 | 2023年4月 | 2024年2月 | 2026年2月 |
+| 1.28 | 2023年8月 | 2024年3月 | 2026年5月 |
+| 1.29 | 2024年1月 | | |

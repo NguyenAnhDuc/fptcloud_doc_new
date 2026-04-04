@@ -1,8 +1,8 @@
 ---
 id: "how-to-use-model-from-other-sources-like-hugging-face"
-title: "他のソースからの model の使用"
-description: "他で使用した model がある場合、または AI Studio で直接サポートされていない Hugging Face のオープンソース model を見つけた場合でも、AI Studio を使用してファインチューニングできます。"
-sidebar_label: "他のソースからの model の使用"
+title: "Use models from other sources"
+description: "If you already have a model you’ve used elsewhere, or you’ve found an open-source model on Hugging Face that’s not direc"
+sidebar_label: "Use models from other sources"
 sidebar_position: "27"
 ---
 

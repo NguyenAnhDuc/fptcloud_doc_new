@@ -1,46 +1,46 @@
 ---
 id: "create-jp"
-title: "Notebookの作成"
-description: "FPT AI FactoryでCPUまたはGPUに接続する新しいAI Notebookインスタンスを作成する方法。"
-sidebar_label: "Notebookの作成"
+title: "Tạo notebook"
+description: "Tạo AI Notebook instance mới kết nối với CPU hoặc GPU trên FPT AI Factory."
+sidebar_label: "Tạo notebook"
 sidebar_position: "5"
 ---
 
-# Notebookの作成
+# Tạo notebook
 
-[![ランチャーのNotebookセクション画面](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)
+[![Màn hình phần Notebook trong Launcher](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)
 
-## CPUに接続するNotebookを作成する
+## Tạo notebook kết nối CPU
 
-**ステップ1:**
+**Bước 1:**
 
-- 「**+ボタン（1）**」をクリックします。
-- 「**CPUノートブック（2）**」を選択します。
+- Nhấn **nút + (1)**.
+- Chọn **CPU Notebook (2)**.
 
-**ステップ2:** ノートブックの準備が整ったら:
+**Bước 2:** Khi notebook sẵn sàng:
 
-- ノートブックの左下に`"CPU (free) | idle"`と表示されます。
-- 選択したフレーバーが右上の**カーネル設定メニュー**内「**実行中カーネル**」セクションに表示されます。
+- Notebook sẽ hiển thị `"CPU (free) | idle"` ở góc dưới bên trái.
+- Flavor đã chọn sẽ hiển thị được chọn trong phần **Running kernel** của kernel configuration menu ở góc trên bên phải.
 
-**ステップ3:** コーディングを開始します。
+**Bước 3:** Bắt đầu lập trình.
 
 ---
 
-## GPUに接続するNotebookを作成する
+## Tạo notebook kết nối GPU
 
-**ステップ1:** 開始前に、アカウントに少なくとも1時間のGPU利用料をカバーできる十分なクレジットがあることを確認してください。
+**Bước 1:** Trước khi bắt đầu, hãy đảm bảo tài khoản có đủ credit để trả ít nhất 1 giờ sử dụng GPU.
 
-**ステップ2:** 「**希望のGPU（3）**」を搭載したノートブックを選択します。
+**Bước 2:** Chọn notebook với **GPU mong muốn (3)**.
 
-**ステップ3:** 確認ポップアップで「**確認**」を選択します。
+**Bước 3:** Chọn **Confirm** trên pop-up xác nhận.
 
-[![GPU確認ポップアップ画面](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
+[![Pop-up xác nhận GPU notebook](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
 
-**ステップ4:** ノートブックの準備が整うまで約**1〜2分**お待ちください。
+**Bước 4:** Chờ khoảng **1–2 phút** để notebook sẵn sàng.
 
-**ステップ5:** ノートブックの準備が完了したら:
+**Bước 5:** Khi notebook sẵn sàng:
 
-- ノートブックの左下に`"GPU フレーバー名 | idle"`と表示されます。
-- 選択したフレーバーが右上の**カーネル設定メニュー**内「**実行中カーネル**」セクションに選択済みとして表示されます。
+- Notebook sẽ hiển thị `"GPU flavor name | idle"` ở góc dưới bên trái.
+- Flavor đã chọn sẽ hiển thị được chọn trong phần **Running kernel** của kernel configuration menu ở góc trên bên phải.
 
-**ステップ6:** コーディングを開始します。
+**Bước 6:** Bắt đầu lập trình.

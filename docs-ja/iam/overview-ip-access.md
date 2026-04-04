@@ -1,18 +1,18 @@
 ---
 id: "overview-ip-access"
-title: "IP Access overview"
-description: "IP Access kiểm soát truy cập hệ thống theo địa chỉ IP được cấu hình."
-sidebar_label: "IP Access overview"
+title: "IP Access概要"
+description: "IP Accessは設定されたIPアドレスに基づいてシステムアクセスを制御する機能です。"
+sidebar_label: "IP Access概要"
 sidebar_position: "24"
 ---
 
-# IP Access overview
+# IP Access概要
 
-Tính năng IP Access kiểm soát truy cập hệ thống, chỉ cho phép người dùng đăng nhập từ các địa chỉ IP đã được cấu hình. Các tài khoản người dùng không thuộc danh sách IP được cấp phép sẽ không thể truy cập vào hệ thống.
+IP Access機能はシステムへのアクセスを制御し、設定済みのIPアドレスからのみログインを許可します。許可されたIPリストに含まれないユーザーアカウントはシステムにアクセスできません。
 
-- Cần xác định chính xác danh sách người dùng tương ứng với các IP được phép truy cập.
-- Nếu đang trong quá trình cài đặt, hãy thêm địa chỉ IP public đang truy cập và tài khoản của mình vào (ưu tiên record đầu tiên) để đảm bảo quá trình cài đặt không bị gián đoạn.
+- アクセスを許可するIPに対応するユーザーリストを正確に指定する必要があります。
+- 設定中の場合は、現在アクセスに使用しているパブリックIPアドレスと自分のアカウントを追加してください（最初のレコードとして優先）。これにより設定作業が中断されません。
 
 :::warning
-Tính năng IP Access không áp dụng đối với Tenant Owner — tất cả Tenant Owner không bị giới hạn truy cập theo IP.
+IP Access機能はTenant Ownerには適用されません — すべてのTenant OwnerはIPによるアクセス制限を受けません。
 :::

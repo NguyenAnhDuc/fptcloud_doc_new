@@ -1,15 +1,17 @@
 ---
 id: "lay-thong-tin-truy-cap-cluster"
-title: "Lấy thông tin truy cập Cluster"
-description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn lấ"
-sidebar_label: "Lấy thông tin truy cập Cluster"
+title: "cluster アクセス情報の取得"
+description: "Managed FPT Kubernetes Engine の cluster にアクセスするための kubeconfig ファイルをダウンロードする方法。"
+sidebar_label: "cluster アクセス情報の取得"
 sidebar_position: "7"
 ---
 
-# Lấy thông tin truy cập cluster
+# cluster アクセス情報の取得
 
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn lấy thông tin truy cập Cluster.
+**ステップ 1:** メニューから **Kubernetes** を選択して **Kubernetes Management** ページを開きます。アクセス情報を取得したい cluster を選択します。
 [![](/img/migrated/Picture13-81dbf0a6.png)](/img/migrated/Picture13-81dbf0a6.png)
-**Bước 2:** Ở mục **Essential Properties > Cluster Information > Configuration**, có thể download file kubeconfig để đăng nhập Cluster thông qua kubectl hoặc các công cụ khác. 
+
+**ステップ 2:** **Essential Properties** > **Cluster Information** > **Configuration** セクションで、kubectl またはその他のツールを使用して cluster にログインするための kubeconfig ファイルをダウンロードします。
 [![](/img/migrated/Picture14-513c6f7b.png)](/img/migrated/Picture14-513c6f7b.png)
-_Gợi ý: M-FKE sử dụng native Kubernetes, người dùng sử dụng cluster với các công cụ kubectl và dashboard như với Kubernetes Cluster thông thường._
+
+ヒント: M-FKE は native Kubernetes を使用しているため、通常の Kubernetes Cluster と同様に kubectl や dashboard などのツールで cluster を利用できます。

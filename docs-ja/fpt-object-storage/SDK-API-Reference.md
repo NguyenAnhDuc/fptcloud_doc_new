@@ -1,8 +1,8 @@
 ---
 id: "SDK-API-Reference"
-title: "Cài đặt"
+title: "SDK API Reference"
 description: "FPT Object Storage là một sản phẩm được phát triển dựa trên tiêu chuẩn AWS S3. Vì vậy bạn có thể sử dụng tất cả các công"
-sidebar_label: "Cài đặt"
+sidebar_label: "SDK API Reference"
 sidebar_position: "13"
 ---
 

@@ -1,21 +1,21 @@
 ---
 id: "ai-notebook"
-title: "AI Notebook"
-description: "AI Notebook cung cấp môi trường Jupyter notebook được quản lý cho phát triển AI/ML trên FPT AI Factory."
-sidebar_label: "AI Notebook"
+title: "Ai Notebook"
+description: "AI Notebook provides managed Jupyter notebook environments for AI/ML development on FPT AI Factory."
+sidebar_label: "Ai Notebook"
 sidebar_position: "1"
 ---
 
 # AI Notebook
 
-AI Notebook cung cấp môi trường Jupyter notebook được quản lý cho phát triển AI/ML trên FPT AI Factory. Bạn có thể khởi chạy máy chủ JupyterLab được cấu hình sẵn với tài nguyên GPU hoặc CPU chỉ trong vài phút — không cần thiết lập thủ công. Bộ nhớ lưu trữ bền vững giúp dữ liệu, mô hình và kết quả thử nghiệm của bạn luôn có sẵn qua các phiên làm việc.
+AI Notebook provides managed Jupyter notebook environments for AI/ML development on FPT AI Factory. You can launch a pre-configured JupyterLab server with GPU or CPU resources in minutes — no manual setup required. Persistent storage keeps your datasets, models, and experiments available across sessions.
 
-## Hướng dẫn
+## Guides
 
-- [Giới thiệu AI Notebooks](./about-ai-notebooks.md) — AI Notebooks là gì, cách hoạt động và lý do sử dụng.
-- [Hướng dẫn nhanh](./quick-start.md) — Tạo tài khoản, nạp credit và chạy notebook đầu tiên.
-- [Khởi chạy AI Notebook](./launch-ai-notebook.md) — Mở JupyterLab Launcher từ FPT AI Factory console.
-- [Tạo notebook](./create-notebook.md) — Tạo notebook kết nối với tài nguyên CPU hoặc GPU.
-- [Kết nối và chuyển kernel](./connect-switch-kernel.md) — Chuyển đổi giữa các môi trường kernel hoặc khởi động kernel mới.
-- [Tắt kernel](./shut-down-kernel.md) — Kết thúc kernel đang chạy để dừng tính phí.
-- [Câu hỏi thường gặp](./faq.md) — Quy tắc nhàn rỗi, thời gian khởi động và các câu hỏi phổ biến.
+- [About AI Notebooks](./about-ai-notebooks.md) — What AI Notebooks is, how it works, and why to use it.
+- [Quick start](./quick-start.md) — Create an account, add credits, and run your first notebook.
+- [Launch AI Notebook](./launch-ai-notebook.md) — Open the JupyterLab Launcher from the FPT AI Factory console.
+- [Create a notebook](./create-notebook.md) — Create a notebook connected to CPU or GPU resources.
+- [Connect and switch kernel](./connect-switch-kernel.md) — Switch between kernel environments or start a new kernel.
+- [Shut down kernel](./shut-down-kernel.md) — Terminate running kernels to stop billing.
+- [FAQ](./faq.md) — Idle rules, startup times, and common questions.

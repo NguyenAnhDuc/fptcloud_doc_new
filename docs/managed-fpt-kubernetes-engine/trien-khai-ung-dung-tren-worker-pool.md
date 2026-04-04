@@ -1,29 +1,37 @@
 ---
 id: "trien-khai-ung-dung-tren-worker-pool"
-title: "ワーカープールへのアプリケーションのデプロイ"
-description: "Managed FKE はワーカープールで worker を管理し、リソースのスケールを気にせずにアプリケーションをデプロイできます。"
-sidebar_label: "ワーカープールへのアプリケーションのデプロイ"
+title: "Deploy applications on a worker pool"
+description: "How to configure and deploy applications on specific worker pools in Managed FPT Kubernetes Engine."
+sidebar_label: "Deploy applications on a worker pool"
 sidebar_position: "19"
 ---
 
-# Triển khai ứng dụng trên worker pool
+# Deploy applications on a worker pool
 
-Sản phẩm Managed FKE quản lý worker theo các worker pool, hỗ trợ cho khách hàng thuận tiện triển khai các ứng dụng trên đó và không cần quan tâm đến vấn đề scale tài nguyên.
+Managed FKE manages workers using worker pools, making it convenient for users to deploy applications without having to worry about resource scaling.
 
-## Cấu hình file manifest để triển khai ứng dụng
-Ví dụ triển khai ứng dụng trên cluster có 02 worker pools:
+## Configure a manifest file to deploy an application
+
+Example: deploying an application on a cluster with 2 worker pools:
 [![Userguide M FKE 30](/img/migrated/Userguide-M-FKE-30-f3f4045c.png)](/img/migrated/Userguide-M-FKE-30-f3f4045c.png)
-Mỗi worker pool đang có một worker node:
+
+Each worker pool has one worker node:
 [![Userguide M FKE 31](/img/migrated/Userguide-M-FKE-31-80027e2e.png)](/img/migrated/Userguide-M-FKE-31-80027e2e.png)
-Các worker nodes được đánh các label để phục vụ cho việc phân biệt node và dễ dàng triển khai ứng dụng lên các worker node có chung label:
+
+Worker nodes are labeled to distinguish nodes and make it easy to deploy applications to worker nodes with a common label:
 [![Userguide M FKE 32](/img/migrated/Userguide-M-FKE-32-7a9414e6.png)](/img/migrated/Userguide-M-FKE-32-7a9414e6.png)
-Các worker nodes thuộc worker pool **_worker-1zx5wqdu_** được đánh label **_worker.fptcloud/pool=worker-1zx5wqdu_**
-Người dùng có thể copy tên của worker pool khi ấn vào detail của cấu hình worker pool:
+
+Worker nodes in the **worker-1zx5wqdu** worker pool are labeled **worker.fptcloud/pool=worker-1zx5wqdu**.
+
+You can copy the worker pool name by clicking on the worker pool configuration details:
 [![Userguide M FKE 33](/img/migrated/Userguide-M-FKE-33-1024x558-ad024fb2.png)](/img/migrated/Userguide-M-FKE-33-1024x558-ad024fb2.png)
-Khi sử dụng các resources để triển khai ứng dụng trong Kubernetes (Pod, Deployment, StatefulSet, DaemonSet, Replicaset), người dùng có thể thêm Node Affinity Rule hoặc Node Selector trong phần Specification của file cấu hình:
 
-```
-CopyapiVersion: apps/v1
+When using resources to deploy applications in Kubernetes (Pod, Deployment, StatefulSet, DaemonSet, ReplicaSet), you can add a Node Affinity Rule or Node Selector in the Specification section of the configuration file:
+
+Using Node Affinity Rule:
+
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment-test
@@ -51,19 +59,21 @@ spec:
           limits:
             memory: "900Mi"
             cpu: "900m"
-        affinity:
-          nodeAffinity:
-            requiredDuringSchedulingIgnoredDuringExecution:
-              nodeSelectorTerms:
-              - matchExpressions:
-                - key: worker.fptcloud/pool
-                  operator: In
-                  values:
-                  - worker-1zx5wqdu
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: worker.fptcloud/pool
+                operator: In
+                values:
+                - worker-1zx5wqdu
 ```
 
-```
-CopyapiVersion: apps/v1
+Using Node Selector:
+
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment-test
@@ -91,18 +101,23 @@ spec:
           limits:
             memory: "900Mi"
             cpu: "900m"
-        nodeSelector:
-          worker.fptcloud/pool: worker-1zx5wqdu
+      nodeSelector:
+        worker.fptcloud/pool: worker-1zx5wqdu
 ```
 
-Trong đó, giá trị điền vào phần values trong hình thứ nhất (sử dụng Node Affinity Rule) và giá trị phần nodeSelector là tên của worker pool mà người dung muốn triển khai ứng dụng.
+The value in the `values` section (Node Affinity Rule) and the `nodeSelector` value is the name of the worker pool where you want to deploy the application.
 
-## Triển khai ứng dụng
-Khi triển khai ứng dụng nginx sử dụng file manifest.
+## Deploy an application
+
+When deploying the nginx application using a manifest file:
 [![Userguide M FKE 36](/img/migrated/Userguide-M-FKE-36-55bd9a6e.png)](/img/migrated/Userguide-M-FKE-36-55bd9a6e.png)
-Khi đó, 1 pod bị pending do thiếu tài nguyên của worker nodes trong pool để chạy pod:
+
+If one pod is pending due to insufficient worker node resources in the pool:
 [![Userguide M FKE 37](/img/migrated/Userguide-M-FKE-37-1024x88-cd236bc8.png)](/img/migrated/Userguide-M-FKE-37-1024x88-cd236bc8.png)
-Thành phần Cluster Autoscaler nằm ở phía quản trị của FPT Cloud sẽ thực hiện hành động scale thêm worker node trong pool đó để phục vụ pod nginx bị pending.
+
+The Cluster Autoscaler component on the FPT Cloud admin side automatically scales out an additional worker node in that pool to serve the pending nginx pod.
 [![Userguide M FKE 38](/img/migrated/Userguide-M-FKE-38-1408a3cf.png)](/img/migrated/Userguide-M-FKE-38-1408a3cf.png)
-Sau khi 1 worker nodes được thêm vào trong worker pool, pod nginx khi trước bị Pending bây giờ đã chuyển sang trạng thái Running.
-Khi scale ứng dụng sử dụng ít pod hơn, tài nguyên trống của các worker nodes sẽ tăng lên, cho đến khi lượng sử dụng tài nguyên về CPU, Memory so với tài nguyên tối đã của node đó giảm xuống dưới 50% trong khoảng thời gian 10 phút, node đó sẽ được tự động xóa khỏi worker pool, tiết kiệm chi phí cho người dùng.
+
+After a worker node is added to the worker pool, the previously Pending nginx pod transitions to Running status.
+
+When scaling the application down to use fewer pods, the available resources on worker nodes increase. When CPU and Memory utilization drops below 50% of the node's maximum capacity for 10 consecutive minutes, that node is automatically removed from the worker pool, saving costs for the user.

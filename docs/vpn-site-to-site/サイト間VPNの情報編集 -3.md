@@ -1,23 +1,24 @@
 ---
 id: "サイト間VPNの情報編集 -3"
-title: "VPN情報の編集"
-description: "作成済みVPN Site-to-Siteの情報を変更するガイドです。"
-sidebar_label: "VPN情報の編集"
+title: "Edit VPN information"
+description: "Guide to editing the configuration of an existing VPN Site-to-Site connection."
+sidebar_label: "Edit VPN information"
 sidebar_position: "6"
+draft: true
 ---
 
-# VPN情報の編集
+# Edit VPN information
 
-作成後にVPN構成を変更する必要がある場合、接続情報を編集できます。
+If you need to change the VPN configuration after creation, you can edit the connection details.
 
-1. VPN接続を選択し、**Actions** → **Edit VPN Information** をクリックします。
+1. Select the VPN connection, then click **Actions** → **Edit VPN Information**.
 
-   ![Edit VPN Informationメニュー](/img/migrated/image-1742915365993-6486c2a4.png)
+   ![Edit VPN Information menu](/img/migrated/image-1742915365993-6486c2a4.png)
 
-2. VPN情報を変更します。作成時の情報がデフォルトで読み込まれます。
+2. Update the VPN information. The original values are pre-populated by default.
 
-   ![VPN編集フォーム](/img/migrated/image-1742915433625-2d068d8c.png)
+   ![VPN edit form](/img/migrated/image-1742915433625-2d068d8c.png)
 
-3. **Update** をクリックして確認します。VPNステータスが **Updating** → **Active** に変わります。
+3. Click **Update** to confirm. The VPN status changes from **Updating** to **Active**.
 
-   ![VPN更新成功](/img/migrated/image-1742915544560-614508af.png)
+   ![VPN update success](/img/migrated/image-1742915544560-614508af.png)

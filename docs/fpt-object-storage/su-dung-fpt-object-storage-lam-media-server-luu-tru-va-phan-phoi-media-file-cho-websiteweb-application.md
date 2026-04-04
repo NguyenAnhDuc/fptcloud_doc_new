@@ -1,8 +1,8 @@
 ---
 id: "su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application"
-title: "Sử dụng FPT Object Storage làm media server"
+title: "Su Dung Fpt Object Storage Lam Media Server Luu Tru Va Phan Phoi Media File Cho Websiteweb Application"
 description: "**FPT Object Storage** là dịch vụ lưu trữ dữ liệu đối tượng được cung cấp bởi **FPT Smart Cloud** , hỗ trợ giao thức tươ"
-sidebar_label: "Sử dụng FPT Object Storage làm media server"
+sidebar_label: "Su Dung Fpt Object Storage Lam Media Server Luu Tru Va Phan Phoi Media File Cho Websiteweb Application"
 sidebar_position: "15"
 ---
 

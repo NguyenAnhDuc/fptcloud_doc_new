@@ -1,15 +1,15 @@
 ---
 id: "fpt-cloud-portal"
-title: "FPT Cloud Portal"
+title: "Fpt Cloud Portal"
 description: "FPT Cloud Portal là giao diện quản lý trung tâm cho tất cả dịch vụ FPT Cloud."
-sidebar_label: "FPT Cloud Portal"
+sidebar_label: "Fpt Cloud Portal"
 sidebar_position: "1"
 ---
 
 # FPT Cloud Portal
 
-FPT Cloud Portal là giao diện quản lý trung tâm cho tất cả dịch vụ FPT Cloud. Cổng thông tin cung cấp một giao diện web thống nhất để khởi tạo, giám sát và quản lý các tài nguyên như máy chủ ảo, mạng, lưu trữ và nhiều dịch vụ khác. Tất cả các thao tác trên các sản phẩm FPT Cloud đều có thể thực hiện qua Portal mà không cần sử dụng công cụ dòng lệnh.
+FPT Cloud Portal is the central management console for all FPT Cloud services. It provides a unified web interface for provisioning, monitoring, and managing resources such as virtual machines, networking, storage, and more. All operations across FPT Cloud products can be performed through the Portal without requiring command-line tools.
 
 :::note
-Trang này đang được cập nhật nội dung. Vui lòng quay lại sau.
+This page is being updated. Please check back later.
 :::

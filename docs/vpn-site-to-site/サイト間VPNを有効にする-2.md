@@ -1,25 +1,26 @@
 ---
 id: "サイト間VPNを有効にする-2"
-title: "サイト間VPNの有効化"
-description: "InactiveなVPN Site-to-Site接続を再度有効化するガイドです。"
-sidebar_label: "サイト間VPNの有効化"
+title: "Enable VPN Site-to-Site"
+description: "Guide to re-enabling an inactive VPN Site-to-Site connection."
+sidebar_label: "Enable VPN Site-to-Site"
 sidebar_position: "5"
+draft: true
 ---
 
-# サイト間VPNの有効化
+# Enable VPN Site-to-Site
 
-VPNがInactiveステータスの場合、有効化（Enable）して接続を復元できます。
+When a VPN connection is in Inactive status, you can re-enable it to restore the tunnel.
 
-1. 有効化したいVPN接続を選択し、**Actions** をクリックします。
+1. Select the VPN connection you want to enable, then click **Actions**.
 
-   ![有効化するVPNを選択](/img/migrated/image-1742915728452-cae81a5a.png)
+   ![Select VPN to enable](/img/migrated/image-1742915728452-cae81a5a.png)
 
-   ![Enableオプションのあるメニュー](/img/migrated/image-1742915757815-213397ba.png)
+   ![Menu with Enable option](/img/migrated/image-1742915757815-213397ba.png)
 
-2. 有効化を確認します。
+2. Confirm the enable action.
 
-   ![VPN有効化の確認ダイアログ](/img/migrated/image-1742915838936-bb16d359.png)
+   ![VPN enable confirmation dialog](/img/migrated/image-1742915838936-bb16d359.png)
 
-3. VPNステータスが **Activating** → **Active** に変わります。
+3. The VPN status changes from **Activating** to **Active**.
 
-   ![ActiveステータスのVPN](/img/migrated/image-1742916079751-7ce3789b.png)
+   ![VPN with Active status](/img/migrated/image-1742916079751-7ce3789b.png)

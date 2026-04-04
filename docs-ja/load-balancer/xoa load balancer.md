@@ -1,15 +1,19 @@
 ---
 id: "xoa load balancer"
-title: "Xóa Load Balancer"
-description: "Nếu không còn nhu cầu sử dụng, bạn có thể xóa **Load Balancer** khỏi **VPC** để tiết kiệm tài nguyên và tránh phát sinh "
-sidebar_label: "Xóa Load Balancer"
+title: "ロードバランサーの削除"
+description: "FPT Cloud の VPC から Load Balancer を削除する方法を説明します。"
+sidebar_label: "ロードバランサーの削除"
 sidebar_position: "32"
 ---
 
-# Xoa Load Balancer
+# ロードバランサーの削除
 
-Nếu không còn nhu cầu sử dụng, bạn có thể xóa **Load Balancer** khỏi **VPC** để tiết kiệm tài nguyên và tránh phát sinh chi phí.
-**Bước 1** : Trên bảng quản trị **Load Balancer Management** , trong phần **Action** của LB cần xóa, chọn **Delete**.
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-15-1024-225988fc.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-15-1024-225988fc.png)**
-**Bước 2:** Hệ thống sẽ hiển thị popup xác nhận thông tin xóa, chọn **Delete** để xác nhận.
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-16-6b6db13c.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-16-6b6db13c.png)**
+不要になった Load Balancer は VPC から削除してリソースを節約し、コストの発生を防ぐことができます。
+
+**手順 1:** Load Balancer Management の一覧で削除する Load Balancer の **Action** メニューから **Delete** を選択します。
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-15-1024-225988fc.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-15-1024-225988fc.png)
+
+**手順 2:** 削除確認のポップアップが表示されます。**Delete** をクリックして確認します。
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-16-6b6db13c.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-16-6b6db13c.png)

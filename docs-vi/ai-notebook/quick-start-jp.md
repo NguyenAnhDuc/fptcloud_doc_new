@@ -1,46 +1,46 @@
 ---
 id: "quick-start-jp"
-title: "クイックスタート"
-description: "FPT AI FactoryでAI Notebookを始めるためのクイックスタートガイド。"
-sidebar_label: "クイックスタート"
+title: "Hướng dẫn nhanh"
+description: "Bắt đầu sử dụng AI Notebooks trên FPT AI Factory."
+sidebar_label: "Hướng dẫn nhanh"
 sidebar_position: "3"
 ---
 
-# クイックスタート
+# Hướng dẫn nhanh
 
-### ステップ1: アカウントを作成する
+### Bước 1: Tạo tài khoản
 
-1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) にアクセスし、**FPT ID** を使用してサインアップするか、**Google** アカウントで続行してください。
-2. FPT ID を使用する場合は、**FPT Smart Cloud** からの確認メールでアカウントを確認してください。
+1. Truy cập [https://ai.fptcloud.com/](https://ai.fptcloud.com/), đăng ký bằng **FPT ID** hoặc tiếp tục với **Google**.
+2. Xác minh tài khoản qua email xác nhận từ **FPT Smart Cloud** nếu sử dụng FPT ID.
 
-### ステップ2: アカウントにログインする
+### Bước 2: Đăng nhập vào tài khoản
 
-1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) に戻り、ログインしてください。
+1. Quay lại [https://ai.fptcloud.com/](https://ai.fptcloud.com/) và đăng nhập.
 
-### ステップ3: AI Notebookを起動する
+### Bước 3: Khởi chạy AI Notebook
 
-1. 左メニューから「**AI Notebook**」を選択してください。
-2. ノートブックの起動には約**1〜2分**かかります。
-3. 詳細なガイドは[こちら](./lauch-jp.md)をご覧ください。
+1. Từ menu bên trái, chọn **AI Notebook**.
+2. Chờ khoảng **1–2 phút** để notebook khởi động.
+3. Xem hướng dẫn chi tiết [tại đây](./lauch-jp.md).
 
-### ステップ4: アカウントにクレジットを追加する
+### Bước 4: Nạp credit vào tài khoản
 
-1. 左メニューの「**アカウント**」セクションから「**請求**」を選択してください。
-2. 「**クレジットを追加**」をクリックし、金額と支払い情報を入力して完了します。
-3. FPT発行のバウチャーをお持ちの場合は、「**バウチャーを追加**」セクションで有効なコードを入力し、クレジットを交換してください。
+1. Trong menu bên trái, mục **Account**, chọn **Billing**.
+2. Nhấn **Add Credit**, nhập số tiền và thông tin thanh toán.
+3. Nếu có voucher từ FPT, nhập mã hợp lệ trong phần **Add Voucher** để đổi credit.
 
-### ステップ5: AI Notebookを作成する
+### Bước 5: Tạo AI Notebook
 
-1. ランチャーから、CPU/GPUに接続するノートブックを作成できます。
-2. 詳細なガイドは[こちら](./create-jp.md)をご覧ください。
+1. Từ **Launcher**, bạn có thể chọn tạo notebook kết nối với CPU hoặc GPU.
+2. Xem hướng dẫn chi tiết [tại đây](./create-jp.md).
 
-### ステップ6: ノートブックを新規/既存カーネルに接続する
+### Bước 6: Kết nối notebook với kernel mới hoặc hiện có
 
-1. 新しいカーネルを起動するには、**カーネル設定メニュー**の「**その他のカーネルを起動**」から目的のカーネルを選択してください。
-2. 既存カーネルに接続するには、**カーネル設定メニュー**の「**実行中のカーネル**」から目的のカーネルを選択してください。
-3. 詳細なガイドは[こちら](./switch.md)をご覧ください。
+1. Để khởi động kernel mới, chọn kernel mong muốn trong **Start Other Kernels** ở **kernel configuration menu**.
+2. Để kết nối notebook với kernel hiện có, chọn kernel mong muốn trong **Running Kernels** ở **kernel configuration menu**.
+3. Xem hướng dẫn chi tiết [tại đây](./switch.md).
 
-### ステップ7: カーネルをシャットダウンする
+### Bước 7: Tắt kernel
 
-1. **実行中のカーネル/ノートブック**（ナビゲーションバー上から2番目のアイコン）に移動します。
-2. 詳細なガイドは[こちら](./shut-down-jp.md)をご覧ください。
+1. Điều hướng đến **Running Kernels/Notebooks** (biểu tượng thứ hai từ trên xuống trong thanh điều hướng).
+2. Xem hướng dẫn chi tiết [tại đây](./shut-down-jp.md).

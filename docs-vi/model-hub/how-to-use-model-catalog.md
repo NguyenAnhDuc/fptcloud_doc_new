@@ -1,8 +1,8 @@
 ---
 id: "how-to-use-model-catalog"
-title: "Model Catalog の使用"
-description: "各 model カードには以下が含まれます："
-sidebar_label: "Model Catalog の使用"
+title: "Use Model Catalog"
+description: "Each model card includes:"
+sidebar_label: "Use Model Catalog"
 sidebar_position: "28"
 ---
 

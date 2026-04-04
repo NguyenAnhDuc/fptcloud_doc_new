@@ -1,8 +1,8 @@
 ---
 id: "fqas"
-title: "Câu hỏi thường gặp"
+title: "Fqas"
 description: "Câu hỏi thường gặp về tính năng Token trên FPT Cloud Portal"
-sidebar_label: "Câu hỏi thường gặp"
+sidebar_label: "Fqas"
 sidebar_position: "5"
 ---
 

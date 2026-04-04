@@ -1,14 +1,18 @@
 ---
-id: "ip-access-overview"
+id: "overview-ip-access"
 title: "IP Access overview"
-description: "Overview of the IP Access feature to control system access by IP addresses."
+description: "IP Access controls system access based on configured IP addresses."
 sidebar_label: "IP Access overview"
 sidebar_position: 24
 ---
 
 # IP Access overview
 
-The **IP Access** feature controls system access by allowing only users connecting from configured IP addresses. Users from any other IP address will be denied access.
+The IP Access feature controls system access, allowing users to log in only from IP addresses that have been configured. User accounts not included in the permitted IP list will not be able to access the system.
 
-- Ensure the list of users and their corresponding IP addresses is accurate before enabling.
-- During setup, add the public IP address you are currently using and your account as the first record to avoid interrupting the setup process. After setup, all users outside the configured conditions will be denied access.
+- You need to accurately identify the list of users corresponding to the IPs allowed to access the system.
+- If you are in the process of setting up, add the public IP address you are currently using and your own account (prioritize as the first record) to ensure the setup process is not interrupted.
+
+:::warning
+The IP Access feature does not apply to Tenant Owners — all Tenant Owners are not restricted by IP-based access control.
+:::

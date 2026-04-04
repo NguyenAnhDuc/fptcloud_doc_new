@@ -1,106 +1,106 @@
 ---
 id: "bucket-config"
-title: "bucket の設定"
-description: "FPT Object Storage での versioning、Static Website Hosting、Lifecycle、CORS の設定手順です。"
-sidebar_label: "bucket の設定"
-sidebar_position: "7"
+title: "Cấu hình bucket"
+description: "Hướng dẫn cấu hình versioning, Static Website Hosting, Lifecycle và CORS trong FPT Object Storage."
+sidebar_label: "Cấu hình bucket"
+sidebar_position: 7
 ---
 
-# bucket の設定
+# Cấu hình bucket
 
 ## Versioning
 
-**Versioning** は **FPT Object Storage** の機能で、object の複数バージョンを保存・管理します。この機能が有効になると、object を更新または削除するたびに新しいバージョンが作成・保存されます。必要に応じて以前のバージョンに復元できます。
+**Versioning** là tính năng trong **FPT Object Storage** giúp lưu và quản lý nhiều phiên bản của một object. Khi tính năng này được bật, mỗi lần bạn cập nhật hoặc xóa object, một phiên bản mới sẽ được tạo ra và lưu trữ lại. Điều này cho phép bạn khôi phục các phiên bản trước đó của object nếu cần.
 
-bucket の Versioning を有効にするには:
+Để bật Versioning cho một bucket:
 
-1. 設定する bucket の **Action** で **Config** を選択します。
-2. **Versioning** タブを開きます。
-3. **Enable** を選択して Versioning を有効にするか、**Disable** を選択して無効にし、**Save** をクリックして変更を保存します。
+1. Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
+2. Mở tab **Versioning**.
+3. Chọn **Enable** để bật hoặc **Disable** để tắt Versioning, sau đó nhấn **Save** để lưu thay đổi.
 
 ## Static Website Hosting
 
-**Static Website Hosting** は、静的ウェブサイトのすべてのリソースを FPT Object Storage に保存できる機能です。通常のファイル保存だけでなく、HTML・CSS・JavaScript ファイルやその他の静的リソースを bucket に保存してウェブサイトとして公開できます。Static Website Hosting を有効にすると、FPT Object Storage がパブリック URL を提供します。
+**Static Website Hosting** là tính năng cho phép bạn lưu trữ toàn bộ resource của một trang web tĩnh trên FPT Object Storage. Thay vì chỉ lưu trữ các tệp tin như bình thường, bạn có thể sử dụng bucket để lưu các file HTML, CSS, JavaScript cùng các tài nguyên tĩnh khác và cung cấp nó cho người dùng ở dạng website. Khi kích hoạt Static Website Hosting, FPT Object Storage sẽ cung cấp cho bạn một URL công khai.
 
-**Static Website Hosting** を設定するには:
+Để cấu hình **Static Website Hosting**:
 
-1. ウェブサイトのソースコードをすべて FPT Object Storage の bucket にアップロードします。
-2. 設定する bucket の **Action** で **Config** を選択します。
-3. **Static Website Hosting** タブを開きます。
-4. **Enable Website Hosting** を選択し、必要なパラメーターを入力します。
-   - **Index Document:** ウェブサイトのトップページ名（例: `index.html`）。
-   - **Error Document:** エラーページ（404）の名前。無効な URL をリクエストした場合に表示されます（例: `404.html`）。
-5. Endpoints セクションに表示された URL でウェブサイトにアクセスします。
+1. Upload toàn bộ mã nguồn của trang web lên bucket trong FPT Object Storage.
+2. Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
+3. Mở tab **Static Website Hosting**.
+4. Chọn **Enable Website Hosting** và điền các thông số cần thiết:
+   - **Index Document:** Tên của trang chủ của website (ví dụ: `index.html`).
+   - **Error Document:** Tên của trang lỗi (404), sẽ hiển thị nếu người dùng yêu cầu một URL không hợp lệ (ví dụ: `404.html`).
+5. Truy cập trang web của bạn bằng URL được cung cấp trong phần Endpoints.
 
 ## Lifecycle Configurations
 
-Lifecycle Configurations は FPT Object Storage の機能で、bucket 内の object のライフサイクルを自動管理できます。一定期間後に object を自動削除することで、ストレージコストの削減とデータ管理の効率化に役立ちます。
+Lifecycle Configurations là tính năng trong FPT Object Storage cho phép bạn tự động quản lý vòng đời của các object trong bucket. Tính năng này đặc biệt hữu ích cho việc tự động xóa các object sau một thời gian nhất định, giúp tiết kiệm chi phí lưu trữ và quản lý dữ liệu hiệu quả.
 
-通常の **Lifecycle Rule** は以下のコンポーネントで構成されます。
+Một **Lifecycle Rule** thông thường bao gồm các thành phần sau:
 
-- **Scope（スコープ）:** ルールを適用する object を定義します。bucket 全体に適用するか、プレフィックス（prefix）を指定して特定のグループに適用できます。
-- **Delete current versions of objects:** スコープ内の object の現在のバージョンが削除されるタイミングを定義します。Versioning を使用しない場合、現在のバージョンの削除は object の永久削除に相当します。
-- **Permanently delete noncurrent versions of objects:** スコープ内の object の非現在バージョンが削除されるタイミングを定義します。非現在バージョンは Versioning 使用時のみ作成されます。
-- **Delete incomplete multipart uploads:** 未完了のマルチパートアップロードを削除するタイミングを定義します。不完全なアップロードをクリーンアップしてストレージ容量を解放します。
-- **Delete expired object delete markers:** 有効期限切れの delete marker（バージョンが存在しないもの）を削除します。不要なマーカーを排除して bucket を整理します。
+- **Scope (Phạm vi):** Xác định các object mà rule sẽ áp dụng. Bạn có thể áp dụng rule cho toàn bộ bucket hoặc chỉ định tiền tố (prefix) để áp dụng cho một nhóm object cụ thể.
+- **Delete current versions of objects:** Xác định thời điểm khi current version của các object trong phạm vi sẽ bị xóa. Nếu không sử dụng Versioning, việc xóa current version sẽ tương đương với xóa vĩnh viễn object.
+- **Permanently delete noncurrent versions of objects:** Xác định thời điểm khi non-current version của các object trong phạm vi sẽ bị xóa. Non-current versions chỉ được tạo ra khi sử dụng Versioning.
+- **Delete incomplete multipart uploads:** Xác định thời điểm xóa các multipart uploads chưa hoàn thành, giúp dọn dẹp uploads không hoàn chỉnh và giải phóng không gian lưu trữ.
+- **Delete expired object delete markers:** Xóa các delete markers đã hết hạn (không còn version nào), giúp giữ cho bucket gọn gàng hơn.
 
-**Lifecycle Rule** は毎日 GMT 0 時（ベトナム時間 7:00）に bucket 内のすべての object をスキャンして自動実行されます。
+**Lifecycle Rule** sẽ tự động được thực thi mỗi ngày lúc 0h GMT (07h00 giờ Việt Nam) bằng cách quét toàn bộ các object trong bucket.
 
-### A. 新しい Lifecycle Rule の作成
+### A. Tạo Lifecycle Rule mới
 
-1. **Object Storage Management** 管理パネルで Lifecycle Rule を設定する bucket の **Config** を選択します。
-2. **Lifecycle Configurations** タブを開き、**Create Rule** を選択します。
-3. **Lifecycle Rule** の情報を対応するフィールドに入力します。
-   - **Rule Name:** 識別・管理しやすいルール名。
-   - **Rule Scope:** ルールを適用する object のスコープ。bucket 全体（**Full**）を選択するか、プレフィックス（**Prefix**）を指定して特定のグループに適用できます。
-   - **Delete current versions of objects:** object の現在のバージョンを削除する日数を選択します。
-   - **Permanently delete noncurrent versions of objects:** object の非現在バージョンを削除する日数を選択します。
-   - **Delete incomplete multipart uploads:** 未完了のマルチパートアップロードを削除する日数を選択します。
-   - **Delete expired object delete markers:** 有効期限切れの delete marker を削除する日数を選択します。
-4. **Save** をクリックして保存します。
+1. Trên bảng quản trị **Object Storage Management**, chọn **Config** ở bucket cần cấu hình Lifecycle Rule.
+2. Mở tab **Lifecycle Configurations**, sau đó chọn **Create Rule**.
+3. Nhập thông tin của **Lifecycle Rule** vào các trường tương ứng:
+   - **Rule Name:** Tên của Rule để dễ nhận diện và quản lý.
+   - **Rule Scope:** Phạm vi các object mà quy tắc sẽ áp dụng. Chọn **Full** để áp dụng toàn bộ bucket hoặc **Prefix** để áp dụng cho một nhóm object cụ thể.
+   - **Delete current versions of objects:** Chọn số ngày sẽ xóa các current versions của objects.
+   - **Permanently delete noncurrent versions of objects:** Chọn số ngày sẽ xóa các noncurrent versions của objects.
+   - **Delete incomplete multipart uploads:** Chọn số ngày sẽ xóa các incomplete multipart uploads.
+   - **Delete expired object delete markers:** Chọn số ngày sẽ xóa các expired object delete markers.
+4. Nhấn **Save** để lưu.
 
-### B. Lifecycle Rule の更新
+### B. Cập nhật Lifecycle Rule
 
-1. 更新する **Lifecycle Rule** で **Edit** を選択します。
-2. 対応するフィールドに更新情報を入力します。
-3. 情報の入力が完了したら、変更を適用するために保存します。
+1. Tại **Lifecycle Rule** cần cập nhật, chọn **Edit**.
+2. Nhập các thông tin cần cập nhật vào các trường tương ứng.
+3. Sau khi hoàn tất, lưu các thay đổi để áp dụng cập nhật.
 
-### C. Lifecycle Rule の削除
+### C. Xóa Lifecycle Rule
 
-1. 削除する **Lifecycle Rule** で **Delete** を選択します。
-2. 警告ダイアログが表示され、ルール名と操作の確認を求めます。**Delete** を選択してルールを削除します。
+1. Tại **Lifecycle Rule** cần xóa, chọn **Delete**.
+2. Một hộp thoại cảnh báo sẽ hiển thị tên rule và yêu cầu xác nhận. Chọn **Delete** để tiến hành xóa rule.
 
-## Bucket CORS の設定
+## Cấu hình Bucket CORS
 
-**CORS（Cross-Origin Resource Sharing）** は、異なるオリジンのウェブサイトやアプリケーションが安全にデータを操作・共有できるようにします。
+**CORS (Cross-Origin Resource Sharing)** cho phép các trang web và ứng dụng từ các nguồn khác nhau tương tác và chia sẻ dữ liệu một cách an toàn.
 
-デフォルトでは、**FPT Object Storage** は異なるオリジンからの bucket へのすべてのリクエストをブロックします。**Bucket CORS** 機能により、特定のオリジンのウェブサイトが **Same-Origin Policy（SOP）** によるブロックなしに bucket のリソースをリクエストできるようになります。
+Mặc định, **FPT Object Storage** sẽ chặn tất cả các yêu cầu từ các origin khác nhau đến bucket. Tính năng **Bucket CORS** cho phép một trang web từ một origin cụ thể có thể yêu cầu tài nguyên từ bucket mà không bị chặn bởi **Same-Origin Policy (SOP)**.
 
-bucket のデータを **GET** できるオリジン（ウェブサイトまたはサーバー）を許可するには、**Bucket CORS Config** で設定する必要があります。
+Để cho phép một origin (website hoặc server) có thể **GET** dữ liệu từ bucket, bạn cần cấu hình trong **Bucket CORS Config**.
 
-### A. 新しい Bucket CORS Rule の作成
+### A. Tạo Bucket CORS Rule mới
 
-1. **Object Storage Management** 管理パネルで CORS を設定する bucket の **Config** を選択します。
-2. **Bucket CORS** タブを開き、**Create Rule** を選択します。
-3. **CORS Rule** の情報を対応するフィールドに入力します。
-   - **Rule Name:** ルール名（例: `AllowAllOrigins`）。
-   - **Allowed Origins:** CORS リクエストを許可するオリジン（ウェブサイトまたはサーバー）の一覧を入力します。すべてのオリジンを許可するには `*` を使用します。
-   - **Allowed Methods:** オリジンに許可する HTTP メソッドを 1 つ以上選択します（例: `GET`、`POST`、`PUT`）。
-   - **Max Age Seconds:** CORS ポリシーのキャッシュ時間を秒単位で入力します（例: `3600` で 1 時間キャッシュ）。
+1. Trên bảng quản trị **Object Storage Management**, chọn **Config** ở bucket cần cấu hình CORS.
+2. Mở tab **Bucket CORS**, sau đó chọn **Create Rule**.
+3. Nhập thông tin của **CORS Rule** vào các trường tương ứng:
+   - **Rule Name:** Tên của Rule (ví dụ: `AllowAllOrigins`).
+   - **Allowed Origins:** Nhập danh sách các origin (website hoặc server) được phép thực hiện CORS request. Sử dụng `*` để cho phép tất cả các origins.
+   - **Allowed Methods:** Chọn một hoặc nhiều phương thức HTTP mà bạn cho phép các origins thực thi (ví dụ: `GET`, `POST`, `PUT`).
+   - **Max Age Seconds:** Nhập thời gian lưu cache cho chính sách CORS trong giây (ví dụ: `3600` để lưu cache trong 1 giờ).
    - **Advanced Settings:**
-     - **Expose Headers:** アプリケーションからアクセスできるレスポンスヘッダーを入力します（例: `x-amz-request-id`）。
-     - **Allowed Headers:** `Access-Control-Request-Headers` で指定されるヘッダーを入力します（例: `Content-Type`、`Authorization`）。
-4. すべての情報を入力したら、**Save** をクリックして新しい CORS 設定を bucket に適用します。
+     - **Expose Headers:** Nhập các headers trong phản hồi mà bạn muốn ứng dụng có thể truy cập (ví dụ: `x-amz-request-id`).
+     - **Allowed Headers:** Nhập các tiêu đề được chỉ định trong `Access-Control-Request-Headers` (ví dụ: `Content-Type`, `Authorization`).
+4. Sau khi nhập đầy đủ thông tin, nhấn **Save** để áp dụng cấu hình CORS mới cho bucket.
 
-### B. Bucket CORS Rule の更新
+### B. Cập nhật Bucket CORS Rule
 
-1. 更新する **Bucket CORS Rule** で **Edit** を選択します。
-2. **CORS Rule** の更新情報を対応するフィールドに入力します。
-3. 変更を行った後、**Save** をクリックして CORS Rule の更新を適用します。
+1. Ở **Bucket CORS Rule** cần cập nhật, chọn **Edit**.
+2. Nhập các thông tin cập nhật của **CORS Rule** vào các trường tương ứng.
+3. Sau khi thực hiện các thay đổi, nhấn **Save** để áp dụng cập nhật.
 
-### C. Bucket CORS Rule の削除
+### C. Xóa Bucket CORS Rule
 
-1. 削除する **Bucket CORS Rule** で **Delete** を選択します。
-2. 警告ダイアログが表示され、ルール名と操作の確認を求めます。**Delete** を選択してルールを削除します。
+1. Ở **Bucket CORS Rule** cần xóa, chọn **Delete**.
+2. Một hộp thoại cảnh báo sẽ hiển thị tên rule và yêu cầu xác nhận. Chọn **Delete** để tiến hành xóa rule.
 
-削除が確認されると、ルールは削除され、そのルールに関連する CORS リクエストは適用されなくなります。
+Sau khi xác nhận, rule sẽ bị xóa và các yêu cầu CORS liên quan đến rule đó sẽ không còn được áp dụng.

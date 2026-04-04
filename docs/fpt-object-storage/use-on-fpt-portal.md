@@ -1,21 +1,21 @@
 ---
 id: "use-on-fpt-portal"
-title: "FPT Portal での Object Storage の利用"
-description: "FPT Unify Portal を通じて FPT Object Storage を利用する方法の概要です。"
-sidebar_label: "FPT Portal での利用"
-sidebar_position: "3"
+title: "Use Object Storage on FPT Portal"
+description: "Overview of how to use FPT Object Storage through the FPT Unify Portal."
+sidebar_label: "Use on FPT Portal"
+sidebar_position: 3
 ---
 
-# FPT Portal での Object Storage の利用
+# Use Object Storage on FPT Portal
 
-FPT Unify Portal は、bucket、object、permissions、bucket 設定、暗号化など FPT Object Storage のすべてのリソースを管理するための直感的なインターフェースを提供します。
+FPT Unify Portal provides an intuitive interface for managing all FPT Object Storage resources, including buckets, objects, permissions, bucket configuration, and encryption.
 
-このセクションで説明するトピック:
+Topics covered in this section:
 
-- **bucket** — bucket の作成・削除・検索およびフォルダーの追加。
-- **object** — object のアップロード・ダウンロード・コピー・移動・削除。
-- **Permissions** — bucket ACL、object ACL、bucket policy の設定。
-- **Bucket Config** — versioning、static website hosting、lifecycle、CORS の設定。
-- **Encryption** — お客様提供の暗号化キーを使用した SSE-C によるデータ暗号化。
+- **Bucket** — Create, delete, search buckets, and add folders.
+- **Object** — Upload, download, copy, move, and delete objects.
+- **Permissions** — Configure bucket ACL, object ACL, and bucket policy.
+- **Bucket Config** — Configure versioning, static website hosting, lifecycle, and CORS.
+- **Encryption** — Use SSE-C to encrypt data with customer-provided keys.
 
-Object Storage Management にアクセスするには、[https://console.fptcloud.com](https://console.fptcloud.com) にログインし、Project を選択して **Object Storage** タブを選択します。
+To access Object Storage Management, log in to [https://console.fptcloud.com](https://console.fptcloud.com), select a Project, and choose the **Object Storage** tab.

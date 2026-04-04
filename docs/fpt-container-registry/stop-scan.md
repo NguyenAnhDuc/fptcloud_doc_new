@@ -1,23 +1,23 @@
 ---
 id: "stop-scan"
-title: "Dừng scan image"
-description: "Dừng tiến trình quét đang chạy."
-sidebar_label: "Dừng scan"
+title: "Stop a scan"
+description: "Stop an in-progress scan process."
+sidebar_label: "Stop a scan"
 sidebar_position: "32"
 ---
 
-# Dừng scan image
+# Stop a scan
 
-Nếu cần hủy tiến trình quét đang chạy, bạn có thể dừng trực tiếp từ Portal.
+If you need to cancel an in-progress scan, you can stop it directly from the Portal.
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Repository** > **Detail Repository**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Repository** > **Detail Repository**.
 
-   [![Chi tiết repository](/img/migrated/Picture95-0525ee7d.png)](/img/migrated/Picture95-0525ee7d.png)
+   [![Repository details](/img/migrated/Picture95-0525ee7d.png)](/img/migrated/Picture95-0525ee7d.png)
 
-2. Chọn artifact đang ở trạng thái **Scanning** để hiển thị nút **STOP SCAN**.
+2. Select the artifact in **Scanning** state to display the **STOP SCAN** button.
 
-   [![Nút STOP SCAN trên artifact đang scan](/img/migrated/Picture96-2378cc7e.png)](/img/migrated/Picture96-2378cc7e.png)
+   [![STOP SCAN button on scanning artifact](/img/migrated/Picture96-2378cc7e.png)](/img/migrated/Picture96-2378cc7e.png)
 
-3. Kiểm tra trạng thái sau khi dừng scan.
+3. Verify the status after stopping the scan.
 
-   [![Trạng thái sau khi Stop Scan](/img/migrated/Picture97-8488b37b.png)](/img/migrated/Picture97-8488b37b.png)
+   [![Status after Stop Scan](/img/migrated/Picture97-8488b37b.png)](/img/migrated/Picture97-8488b37b.png)

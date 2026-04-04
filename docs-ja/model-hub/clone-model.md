@@ -1,19 +1,22 @@
 ---
 id: "clone-model"
-title: "Mục đích: Nhân bản 1 model giống với model đã có."
-description: "Mục đích: Nhân bản 1 model giống với model đã có."
-sidebar_label: "Mục đích: Nhân bản 1 model giống với model đã có."
+title: "model の複製"
+description: "既存の model を複製します。"
+sidebar_label: "model の複製"
 sidebar_position: "20"
 ---
 
-# Clone Model
+# model の複製
 
-Mục đích: Nhân bản 1 model giống với model đã có.
-Các bước thực hiện: 
+既存の model と同じ内容で model を複製します。
 
-Bước 1: Click vào 1 model để xem chi tiết 
+## 手順
 
-Bước 2: Click vào Actions > Chọn action Clone
-[![](/img/migrated/anh-7-d1085098.png)](/img/migrated/anh-7-d1085098.png) Bước 3: Sau khi click Clone, hiển thị màn hình clone model với các thông tin là thông tin của model gốc mà người dùng đang thực hiện clone. Tại đây, người dùng thực hiện chỉnh sửa lại Model title để đảm bảo model name là duy nhất, điền các thông tin cần thiết khác 
+1. model をクリックして詳細を表示します。
 
-Bước 4: Click Save. Hệ thống trở lại màn hình model list với model mới vừa thực hiện clone
+2. **Actions** > **Clone** をクリックします。
+[![](/img/migrated/anh-7-d1085098.png)](/img/migrated/anh-7-d1085098.png)
+
+3. 複製元の model の情報があらかじめ入力された clone model 画面が表示されます。**Model title** を編集して一意の名前にし、その他の必要なフィールドを入力します。
+
+4. **Save** をクリックします。システムが model リスト画面に戻り、新たに複製された model が表示されます。

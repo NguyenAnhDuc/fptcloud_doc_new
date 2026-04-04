@@ -1,25 +1,41 @@
 ---
 id: "huong-dan-deploy-applications-qua-helm-chart-repo"
-title: "Hướng dẫn deploy applications qua helm chart repo"
-description: "**Bước 1:** Cấu hình repository helm chart Cấu hình helm repository, trường hợp helm chart public có thể không cần cấu h"
-sidebar_label: "Hướng dẫn deploy applications qua helm chart repo"
+title: "Helmチャートリポジトリを使用してアプリケーションをデプロイする"
+description: "HelmチャートリポジトリでArgoCDにアプリケーションをデプロイする方法"
+sidebar_label: "Helmチャートリポジトリでデプロイ"
 sidebar_position: "47"
 ---
 
-# Huong Dan Deploy Applications Qua Helm Chart Repo
+# Helmチャートリポジトリを使用してアプリケーションをデプロイする
 
-**Bước 1:** Cấu hình repository helm chart Cấu hình helm repository, trường hợp helm chart public có thể không cần cấu hình helm repo, tuy nhiên nếu helm chart private cần cấu hình helm repo để ArgoCD có thể get repository deploy ứng dụng.
-Ví dụ add helm repository của xplat tới ArgoCD
+**ステップ1:** Helmチャートリポジトリを設定します。パブリックHelmチャートの場合、リポジトリ設定は不要な場合があります。ただし、プライベートHelmチャートの場合は、ArgoCDがデプロイリポジトリにアクセスできるようにHelmリポジトリを設定する必要があります。
+
+例: xplatのHelmリポジトリをArgoCDに追加します。
+
 [![](/img/migrated/Picture17-3-cbd4241f.png)](/img/migrated/Picture17-3-cbd4241f.png)
-Kết quả cấu hình thành công repository:
+
+リポジトリの設定成功後の結果:
+
 [![](/img/migrated/Picture18-3-f2c9fb5e.png)](/img/migrated/Picture18-3-f2c9fb5e.png)
-**Bước 2:** Tạo Applications để deploy chart cert-manager
+
+**ステップ2:** cert-managerチャートをデプロイするApplicationを作成します。
+
 [![](/img/migrated/Picture19-3-47801cfa.png)](/img/migrated/Picture19-3-47801cfa.png)
+
 [![](/img/migrated/Picture20-3-92fd4474.png)](/img/migrated/Picture20-3-92fd4474.png)
+
 [![](/img/migrated/Picture21-3-59520a91.png)](/img/migrated/Picture21-3-59520a91.png)
-Kết quả sau khi deploy applications:
+
+アプリケーションデプロイ後の結果:
+
 [![](/img/migrated/Picture22-2-ef9ddebf.png)](/img/migrated/Picture22-2-ef9ddebf.png)
-Kiểm tra kết quả deploy dưới k8s cluster:
+
+k8sクラスター上のデプロイ結果を確認します:
+
 [![](/img/migrated/Picture23-2-b618fe2a.png)](/img/migrated/Picture23-2-b618fe2a.png)
-**Lưu ý** : Trong trường hợp deploy applications sử dụng helm chart deploy, argocd sẽ lấy file chart về để deploy như manifest. Do đó dưới cụm k8s cluster khi get list helm chart sẽ không thấy chart deploy.*
+
+:::note
+Helmチャートを使用してアプリケーションをデプロイする場合、ArgoCDはチャートファイルを取得してmanifestとしてデプロイします。そのため、k8sクラスターでHelmチャートの一覧を表示してもデプロイしたチャートは表示されません。
+:::
+
 [![](/img/migrated/Picture24-2-5310f476.png)](/img/migrated/Picture24-2-5310f476.png)

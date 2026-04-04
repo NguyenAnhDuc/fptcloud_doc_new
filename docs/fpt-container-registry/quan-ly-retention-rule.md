@@ -1,13 +1,13 @@
 ---
 id: "quan-ly-retention-rule"
-title: "Quản lý retention rule"
-description: "Thiết lập quy tắc giữ lại image để tự động dọn dẹp tag không còn cần thiết."
-sidebar_label: "Quản lý retention rule"
+title: "Manage retention rules"
+description: "Set up image retention rules to automatically clean up unused tags."
+sidebar_label: "Manage retention rules"
 sidebar_position: "13"
 ---
 
-# Quản lý retention rule
+# Manage retention rules
 
-Một repository có thể tích lũy nhiều image với các tag khác nhau theo thời gian, trong đó nhiều tag đã lỗi thời và không còn được sử dụng. Các tag dư thừa này tiêu tốn dung lượng lưu trữ đáng kể.
+A repository can accumulate many images with different tags over time, many of which become outdated and unused. These redundant tags consume significant storage space.
 
-FPT Cloud cung cấp chức năng **Retention Rule** để xác định quy tắc tự động giữ lại hoặc xóa image/tag theo tiêu chí bạn định nghĩa, giúp tối ưu hóa việc sử dụng dung lượng lưu trữ.
+FPT Cloud provides the **Retention Rule** feature to define rules that automatically retain or delete images and tags based on criteria you specify, helping optimize storage usage.

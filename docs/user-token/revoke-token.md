@@ -1,8 +1,8 @@
 ---
 id: "revoke-token"
-title: "Thu hồi token"
+title: "Revoke Token"
 description: "Hướng dẫn thu hồi token xác thực trên FPT Cloud Portal"
-sidebar_label: "Thu hồi token"
+sidebar_label: "Revoke Token"
 sidebar_position: "4"
 ---
 

@@ -1,19 +1,19 @@
 ---
 id: "snapshot-va-restore-pvc-tren-k8s-fpt"
-title: "K8s FPT 上での PVC のスナップショットとリストア"
-description: "FPT Cloud Managed Kubernetes における PVC のスナップショットとリストア機能の概要を説明します。"
-sidebar_label: "PVC のスナップショットとリストア"
+title: "Snapshot and Restore PVC on Kubernetes"
+description: "Overview of the PVC snapshot and restore feature in FPT Cloud Managed Kubernetes."
+sidebar_label: "Snapshot and Restore PVC on Kubernetes"
 sidebar_position: "45"
 ---
 
-# K8s FPT 上での PVC のスナップショットとリストア
+# Snapshot and Restore Persistent Volume on Kubernetes
 
-FPT Cloud Managed Kubernetes Engine（M-FKE）では、Persistent Volume Claim（PVC）のスナップショット作成とリストア機能を提供しています。
+FPT Cloud Managed Kubernetes Engine (M-FKE) supports creating snapshots and restoring Persistent Volume Claims (PVCs).
 
-以下の関連ドキュメントを参照してください。
+See the related documentation:
 
-- **[Persistent Volume のスナップショット機能](./snapshot-persistent-volume.md)**: Kubernetes 上で PV のスナップショットを作成する方法を説明します。VolumeSnapshotClass と VolumeSnapshot の設定方法が含まれます。
-- **[スナップショットからの volume リストア機能](./restore-persistent-volume.md)**: 既存のスナップショットから PV データをリストアする方法を説明します。
-- **[PVC スナップショットのスケジュール設定](./schedule-pvc-snapshot.md)**: CronJob を使用して PVC スナップショットを定期的に自動作成する方法を説明します。
-- **[PVC スナップショット削除スケジュールの設定](./schedule-delete-pvc-snapshot.md)**: CronJob を使用して古い PVC スナップショットを自動削除する方法を説明します。
-- **[Backup & Restore 機能](./backup-restore.md)**: FPT Cloud Portal の UI を使用して PVC のバックアップと復元を管理する方法を説明します。
+- **[Snapshot Persistent Volume](./snapshot-persistent-volume.md)**: How to create PV snapshots on Kubernetes, including VolumeSnapshotClass and VolumeSnapshot configuration.
+- **[Restore volume from snapshot](./restore-persistent-volume-tren-k8s.md)**: How to restore PV data from an existing snapshot.
+- **[Schedule PVC snapshot](./thuc-hien-dat-lich-snapshot-pvc.md)**: How to automatically create PVC snapshots on a schedule using CronJob.
+- **[Schedule PVC snapshot deletion](./thuc-hien-dat-lich-xoa-pvc-snapshot.md)**: How to automatically delete old PVC snapshots using CronJob.
+- **[Backup & Restore feature](./backup-restore-vn.md)**: How to manage PVC backup and restore via the FPT Cloud Portal interface.

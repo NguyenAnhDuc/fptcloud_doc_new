@@ -1,31 +1,32 @@
 ---
 id: "subuser-bucket-permissions"
-title: "subuser への bucket 使用権限の付与"
-description: "Bucket Policy を使用して各 subuser に特定の bucket へのアクセス権を付与する手順です。"
-sidebar_label: "subuser への bucket 権限付与"
-sidebar_position: "19"
+title: "Phân quyền sử dụng bucket cho subuser"
+description: "Hướng dẫn sử dụng Bucket Policy để cấp quyền truy cập từng bucket cụ thể cho subuser trong FPT Object Storage."
+sidebar_label: "Phân quyền bucket cho subuser"
+sidebar_position: 19
+pagination_next: null
 ---
 
-# subuser への bucket 使用権限の付与
+# Phân quyền sử dụng bucket cho subuser
 
-## 概要
+## Giới thiệu
 
-現在 FPT Object Storage では subuser を作成できますが、subuser のロールは管理者のすべてのリソースに対して有効になります。例えば Read only ロールの subuser を作成すると、その subuser は管理者のすべての bucket に対して Read 権限を持ちます。
+Hiện tại FPT Object Storage đã hỗ trợ bạn tạo các SubUser, tuy nhiên role của SubUser sẽ hiệu lực với toàn bộ tài nguyên của Admin. Ví dụ bạn tạo một SubUser với role Read only thì SubUser đấy sẽ có quyền read đối với toàn bộ bucket của Admin.
 
-各 bucket に対して権限を付与するには、Bucket Policy を使用する必要があります。
+Để phân quyền cho từng bucket, cần phải sử dụng đến Bucket Policy.
 
-Bucket-1、Bucket-2、Bucket-3 の 3 つの bucket を SubUser-1、SubUser-2、SubUser-3 の 3 人の subuser に付与する場合、以下が **FPT Unify Portal** での詳細な設定ガイドです。
+Giả sử chúng ta có 3 bucket là Bucket-1, Bucket-2, Bucket-3 muốn phân quyền cho 3 SubUser SubUser-1, SubUser-2, SubUser-3. Dưới đây là hướng dẫn cấu hình chi tiết trên **FPT Unify Portal**.
 
-## 前提条件
+## Điều kiện tiên quyết
 
-- FPT Cloud アカウントを持ち、Object Storage サービスが有効化されていること。
-- 同じリージョンで bucket が正常に作成されていること。
+- Bạn cần có tài khoản FPT Cloud, đã được enable dịch vụ Object Storage.
+- Đã tạo thành công các bucket trên cùng một Region.
 
-## 手順の概要
+## Tổng quan
 
-1. **subuser を None 権限で作成**して、subuser が他の bucket にアクセスできないようにします。
+1. **Tạo các SubUser với quyền None** để đảm bảo SubUser không thể truy cập vào các bucket khác.
 
-2. **特定の bucket への subuser のアクセスを開放します。** 各 bucket で以下のテンプレートに従って Bucket Policy を設定します。
+2. **Mở quyền truy cập vào bucket cụ thể cho SubUser.** Ở từng bucket, khai báo Bucket Policy theo mẫu sau:
 
 ```json
 {
@@ -46,14 +47,14 @@ Bucket-1、Bucket-2、Bucket-3 の 3 つの bucket を SubUser-1、SubUser-2、S
 }
 ```
 
-- **Version:** policy のバージョン（通常は "2012-10-17"）。
-- **Effect:** 権限（"Allow" または "Deny"）。
-- **Principal:** 特定のユーザーまたはロール。SUBUSER_ACCOUNT_ID と SUBUSER_NAME を権限を付与する subuser の情報に置き換えてください。
-- **Action:** subuser が bucket に対して実行できるアクション（ここでは "s3:*" ですべてのアクション）。
-- **Resource:** policy が適用されるリソース（ここでは bucket とその bucket 内のすべての object）。
+- **Version:** Phiên bản của policy (thường là "2012-10-17").
+- **Effect:** Quyền (có thể là "Allow" hoặc "Deny").
+- **Principal:** Người dùng hoặc vai trò cụ thể. Thay thế SUBUSER_ACCOUNT_ID và SUBUSER_NAME bằng thông tin của subuser cần được cấp quyền.
+- **Action:** Hành động mà subuser được phép thực hiện trên bucket (ở đây là "s3:*" cho tất cả các hành động).
+- **Resource:** Tài nguyên mà policy áp dụng (ở đây là bucket và tất cả các object trong bucket).
 
-3. **SubUser Key を作成**してエンドユーザーに提供します。
+3. **Tạo các SubUser Key** và cung cấp cho enduser.
 
-## まとめ
+## Kết luận
 
-以上の手順により、bucket policy を使用して FPT Object Storage 内で異なる bucket を使用する subuser の権限付与を行いました。
+Với các bước trên, bạn đã sử dụng bucket policy để phân quyền subuser sử dụng các bucket khác nhau trong FPT Object Storage.

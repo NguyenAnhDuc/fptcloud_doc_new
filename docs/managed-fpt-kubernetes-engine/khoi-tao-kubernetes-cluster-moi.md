@@ -1,51 +1,51 @@
 ---
 id: "khoi-tao-kubernetes-cluster-moi"
-title: "新しい Kubernetes Cluster の作成"
-description: "FPT Cloud Portal で新しい Managed FPT Kubernetes Engine（M-FKE）クラスターを作成する手順を説明します。"
-sidebar_label: "新しい Kubernetes Cluster の作成"
+title: "Create a new Kubernetes cluster"
+description: "Steps to create a new Managed FPT Kubernetes Engine (M-FKE) cluster from the FPT Cloud Portal."
+sidebar_label: "Create a new Kubernetes cluster"
 sidebar_position: "4"
 ---
 
-# 新しい Kubernetes Cluster の作成
+# Create a new Kubernetes cluster
 
-FPT Cloud Portal で新しい Managed Kubernetes クラスターを作成する手順を説明します。
+The following steps explain how to create a new Managed Kubernetes cluster from the FPT Cloud Portal.
 
-## 前提条件
+## Prerequisites
 
-クラスターを作成する前に、[初期設定](./initial-setup.md)が完了していることを確認してください。Subnet と Static IP Pool が正しく設定されている必要があります。
+Before creating a cluster, ensure that the [Initial Setup](./initial-setup.md) is complete. A Subnet and Static IP Pool must be correctly configured.
 
-## クラスターの作成手順
+## Steps to create a cluster
 
-**ステップ 1:** メニューで **Kubernetes** を選択すると、**Kubernetes Management** ページが表示されます。**Create a Kubernetes Engine** をクリックします。
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears. Click **Create a Kubernetes Engine**.
 
-**ステップ 2:** クラスターの基本情報を入力します。
+**Step 2:** Enter basic cluster information:
 
-- **Cluster Name**: クラスターの名前を入力します。
-- **Kubernetes Version**: 使用する Kubernetes のバージョンを選択します。利用可能なバージョンについては、[リリースカレンダー](./release-calendar.md)を参照してください。
-- **VPC / Subnet**: クラスターを作成する VPC と Subnet を選択します。
+- **Cluster Name**: Enter a name for the cluster.
+- **Kubernetes Version**: Select the Kubernetes version to use. See the [Release Calendar](./release-calendar.md) for available versions.
+- **VPC / Subnet**: Select the VPC and Subnet where the cluster will be created.
 
-**ステップ 3:** クラスターのエンドポイントアクセスモードを設定します。
+**Step 3:** Configure the cluster endpoint access mode:
 
-- **Public**: クラスターの API サーバーがインターネットから直接アクセス可能になります。
-- **Public & Private**: クラスターの API サーバーがインターネットとプライベートネットワークの両方からアクセス可能になります。
-- **Private**: クラスターの API サーバーがプライベートネットワークからのみアクセス可能になります。
+- **Public**: The cluster API server is directly accessible from the internet.
+- **Public & Private**: The cluster API server is accessible from both the internet and the private network.
+- **Private**: The cluster API server is accessible from the private network only.
 
-**ステップ 4:** **Auto Upgrade Version** の設定を行います。有効にする場合は、アップグレードのスケジュールを設定します。詳細は[バージョン自動アップグレード機能](./auto-upgrade-version.md)を参照してください。
+**Step 4:** Configure **Auto Upgrade Version**. If enabled, set the upgrade schedule. See [Auto Upgrade Version feature](./auto-upgrade-version.md) for details.
 
-**ステップ 5:** **Nodes Pool** の設定を行います。
+**Step 5:** Configure the **Nodes Pool**:
 
-- **Worker Group 名**: ワーカーグループの名前を入力します。
-- **Flavor**: worker node のサイジング（CPU、RAM、DISK）を選択します。
-- **Min/Max Nodes**: ワーカーグループの最小・最大 node 数を設定します。min と max の値が異なる場合、Cluster Autoscale が自動的に有効になります。
-- **Node Auto-repair**: Node Auto-repair 機能の有効/無効を設定します。
-- **Labels/Taints**: 必要に応じて worker node のラベルと taint を設定します。
+- **Worker Group name**: Enter a name for the worker group.
+- **Flavor**: Select the worker node sizing (CPU, RAM, Disk).
+- **Min/Max Nodes**: Set the minimum and maximum node count for the worker group. If min and max differ, Cluster Autoscale is automatically enabled.
+- **Node Auto-repair**: Enable or disable the Node Auto-repair feature.
+- **Labels/Taints**: Configure worker node labels and taints as needed.
 
-**ステップ 6:** 設定内容を確認して **Create a Kubernetes** ボタンをクリックします。
+**Step 6:** Review the configuration and click **Create a Kubernetes**.
 
-クラスターの作成プロセスが開始され、ステータスが **Processing** に変わります。作成が完了するとステータスが **Succeeded (Running)** に変わります。
+The cluster creation process starts and the status changes to **Processing**. Once creation is complete, the status changes to **Succeeded (Running)**.
 
-## 注意事項
+## Notes
 
-- クラスターの作成には数分かかります。
-- 作成中はクラスターの設定変更はできません。
-- クラスター作成後、[kubeconfig の取得](./get-cluster-access-information.md)を行ってクラスターにアクセスできます。
+- Cluster creation takes a few minutes.
+- Cluster settings cannot be changed during creation.
+- After the cluster is created, [retrieve the kubeconfig](./get-cluster-access-information.md) to access the cluster.

@@ -1,46 +1,46 @@
 ---
 id: "create-jp"
-title: "Notebookの作成"
-description: "FPT AI FactoryでCPUまたはGPUに接続する新しいAI Notebookインスタンスを作成する方法。"
-sidebar_label: "Notebookの作成"
+title: "Create a notebook"
+description: "Create a new AI Notebook instance connected to CPU or GPU on FPT AI Factory."
+sidebar_label: "Create a notebook"
 sidebar_position: "5"
 ---
 
-# Notebookの作成
+# Create a notebook
 
-[![ランチャーのNotebookセクション画面](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)
+[![AI Notebook launcher showing the notebook creation options](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)](/img/migrated/Screenshot-2025-09-24-at-15.45.42-0c7fedab.png)
 
-## CPUに接続するNotebookを作成する
+## Create a notebook connected to CPU
 
-**ステップ1:**
+**Step 1:**
 
-- 「**+ボタン（1）**」をクリックします。
-- 「**CPUノートブック（2）**」を選択します。
+- Click **+ button (1)**.
+- Choose **CPU Notebook (2)**.
 
-**ステップ2:** ノートブックの準備が整ったら:
+**Step 2:** Once your notebook is ready:
 
-- ノートブックの左下に`"CPU (free) | idle"`と表示されます。
-- 選択したフレーバーが右上の**カーネル設定メニュー**内「**実行中カーネル**」セクションに表示されます。
+- The notebook will show `"CPU (free) | idle"` on the bottom left.
+- Your chosen flavor will appear as selected in the **Running kernel** section of the kernel configuration menu on the upper right.
 
-**ステップ3:** コーディングを開始します。
+**Step 3:** Start coding.
 
 ---
 
-## GPUに接続するNotebookを作成する
+## Create a notebook connected to GPU
 
-**ステップ1:** 開始前に、アカウントに少なくとも1時間のGPU利用料をカバーできる十分なクレジットがあることを確認してください。
+**Step 1:** Before you start, make sure your account has enough credits to cover at least one hour of GPU cost.
 
-**ステップ2:** 「**希望のGPU（3）**」を搭載したノートブックを選択します。
+**Step 2:** Choose notebook with **preferred GPU (3)**.
 
-**ステップ3:** 確認ポップアップで「**確認**」を選択します。
+**Step 3:** Choose **Confirm** on the confirmation pop-up.
 
-[![GPU確認ポップアップ画面](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
+[![GPU notebook confirmation pop-up dialog](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
 
-**ステップ4:** ノートブックの準備が整うまで約**1〜2分**お待ちください。
+**Step 4:** Wait about **1–2 minutes** for the notebook to be ready.
 
-**ステップ5:** ノートブックの準備が完了したら:
+**Step 5:** Once your notebook is ready:
 
-- ノートブックの左下に`"GPU フレーバー名 | idle"`と表示されます。
-- 選択したフレーバーが右上の**カーネル設定メニュー**内「**実行中カーネル**」セクションに選択済みとして表示されます。
+- The notebook will show `"GPU flavor name | idle"` on the bottom left.
+- Your chosen flavor will appear as selected in the **Running kernel** section of the kernel configuration menu on the upper right.
 
-**ステップ6:** コーディングを開始します。
+**Step 6:** Start coding.

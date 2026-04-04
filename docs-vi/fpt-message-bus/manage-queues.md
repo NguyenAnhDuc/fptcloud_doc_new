@@ -1,18 +1,18 @@
 ---
 id: "manage-queues"
-title: "queue の管理"
-description: "FPT Message Bus における queue 管理の概要。"
-sidebar_label: "queue の管理"
+title: "Quản lý queues"
+description: "Tổng quan về quản lý queue trong FPT Message Bus."
+sidebar_label: "Quản lý queues"
 sidebar_position: "4"
 ---
 
-# queue の管理
+# Quản lý queues
 
-queue は consumer が取得するまでメッセージを保存する仕組みです。FPT Message Bus では、管理インターフェースから直接 queue の作成、表示、メッセージの送受信、削除を行えます。
+Queue lưu trữ message cho đến khi consumer nhận. FPT Message Bus cho phép bạn tạo, xem, gửi/nhận message và xóa queue trực tiếp từ giao diện quản lý.
 
-詳細なガイドを参照してください。
+Xem các hướng dẫn chi tiết:
 
-- [queue の作成](./create-queues.md)
-- [queue の表示](./view-queues.md)
-- [queue でのメッセージ送受信](./send-receive-messages-in-queues.md)
-- [queue の削除](./delete-queues.md)
+- [Tạo queue](./tao-queues.md)
+- [Xem queue](./xem-queues.md)
+- [Gửi và nhận messages trong queue](./gui-nhan-message-trong-queues.md)
+- [Xóa queue](./xoa-queues.md)

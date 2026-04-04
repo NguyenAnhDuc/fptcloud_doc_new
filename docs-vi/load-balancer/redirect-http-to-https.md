@@ -1,8 +1,8 @@
 ---
 id: "redirect-http-to-https"
-title: "HTTP リクエストの HTTPS へのリダイレクト"
-description: "FPT Cloud ロードバランサーで L7 ポリシーを使用して HTTP から HTTPS への自動リダイレクトを設定する方法を説明します。"
-sidebar_label: "HTTP から HTTPS へのリダイレクト"
+title: "Redirect HTTP requests to HTTPS"
+description: "How to configure automatic HTTP to HTTPS redirection on FPT Cloud Load Balancer using L7 policy."
+sidebar_label: "Redirect HTTP to HTTPS"
 sidebar_position: "13"
 ---
 

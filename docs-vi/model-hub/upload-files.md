@@ -1,8 +1,8 @@
 ---
 id: "upload-files"
-title: "ファイルのアップロード"
-description: "model バージョンを選択してください"
-sidebar_label: "ファイルのアップロード"
+title: "Upload Files"
+description: "Choose your model version"
+sidebar_label: "Upload Files"
 sidebar_position: "22"
 ---
 

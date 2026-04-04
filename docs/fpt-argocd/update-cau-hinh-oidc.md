@@ -1,8 +1,8 @@
 ---
 id: "update-cau-hinh-oidc"
-title: "OIDC configの更新"
+title: "Update Cau Hinh Oidc"
 description: "ArgoCDの既存のOIDC設定を編集する方法。"
-sidebar_label: "OIDC configの更新"
+sidebar_label: "Update Cau Hinh Oidc"
 sidebar_position: "36"
 ---
 

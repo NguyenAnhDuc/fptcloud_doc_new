@@ -1,9 +1,10 @@
 ---
 id: "edit-vpn"
-title: "Chỉnh sửa thông tin VPN"
-description: "Hướng dẫn thay đổi thông tin VPN Site-to-Site sau khi đã khởi tạo."
-sidebar_label: "Chỉnh sửa thông tin VPN"
-sidebar_position: "8"
+title: "Edit VPN information"
+description: "Guide to editing VPN Site-to-Site information after initialization"
+sidebar_label: "Edit VPN information"
+sidebar_position: "6"
+draft: true
 ---
 
 # Edit VPN information

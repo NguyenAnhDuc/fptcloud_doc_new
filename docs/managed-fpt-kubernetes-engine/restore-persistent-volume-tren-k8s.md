@@ -1,23 +1,23 @@
 ---
 id: "restore-persistent-volume-tren-k8s"
-title: "Kubernetes 上でのスナップショットからの volume のリストア機能"
-description: "MFKE の volume リストア機能を使用して、既存の PV スナップショットから PV データをリストアする方法を説明します。"
-sidebar_label: "スナップショットからの volume リストア機能"
+title: "Restore Persistent Volume on Kubernetes"
+description: "How to restore data in a Persistent Volume using existing snapshots in Managed FPT Kubernetes Engine."
+sidebar_label: "Restore Persistent Volume on Kubernetes"
 sidebar_position: "47"
 ---
 
-# Restore Persistent Volume trên K8s
+# Restore Persistent Volume on Kubernetes
 
-* Tính năng restore volume trên MFKE giúp người dùng restore dữ liệu trong PV sử dụng các bản snapshot đã có của PV. Cách thao tác để restore dữ liệu hoàn toàn native với kubernetes, người dùng chỉ cần cấu hình PVC dựa trên snapshot đã có, sau đó chỉnh sửa cấu hình pvc hoặc volumeMount của ứng dụng bằng PVC mới tạo. Tài liệu tham khảo tính năng restore volume trên kubernetes <https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource>
+The restore volume feature in MFKE lets you restore data in a Persistent Volume (PV) using existing PV snapshots. The restore process is fully native to Kubernetes — you simply configure a PVC based on an existing snapshot, then update your application's PVC or volumeMount configuration to use the newly created PVC. See the Kubernetes documentation for reference: <https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource>
 
-Người dùng thực hiện restore volume bằng cấu hình PVC yaml file:
+To restore a volume, configure and apply a PVC YAML file as follows:
 
-```
+```yaml
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name:  
-  namespace: 
+  name: <new-pvc-name>
+  namespace: <namespace>
 spec:
   dataSource:
     name: new-snapshot-test
@@ -30,4 +30,4 @@ spec:
       storage: 20Gi
 ```
 
-Sau đó thực hiện cấu hình PVC này trong ứng dụng mong muốn.
+After applying, configure this PVC in your application as desired.

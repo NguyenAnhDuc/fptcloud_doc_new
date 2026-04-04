@@ -1,40 +1,41 @@
 ---
 id: "encryption"
-title: "暗号化（SSE-C）"
-description: "FPT Object Storage での Server-Side Encryption with Customer-Provided Keys（SSE-C）の利用ガイドです。"
-sidebar_label: "暗号化（SSE-C）"
-sidebar_position: "8"
+title: "Mã hóa (SSE-C)"
+description: "Hướng dẫn sử dụng Server-Side Encryption with Customer-Provided Keys (SSE-C) trong FPT Object Storage."
+sidebar_label: "Mã hóa (SSE-C)"
+sidebar_position: 8
+pagination_next: null
 ---
 
-# 暗号化（SSE-C）
+# Mã hóa (SSE-C)
 
-## Server-Side Encryption with Customer-Provided Keys（SSE-C）
+## Server-Side Encryption with Customer-Provided Keys (SSE-C)
 
-**Server-Side Encryption with Customer-Provided Keys（SSE-C）** は **FPT Object Storage** の機能で、お客様が提供する暗号化キーを使用してデータのセキュリティを強化します。
+**Server-Side Encryption with Customer-Provided Keys (SSE-C)** là một tính năng trong **FPT Object Storage** giúp tăng cường bảo mật dữ liệu bằng cách sử dụng các khóa mã hóa do khách hàng cung cấp.
 
-### SSE-C の動作方法
+### Cách hoạt động của SSE-C
 
-1. **データのアップロード:**
-   - object をアップロードする際、データとともに暗号化キーを提供する必要があります。
-   - FPT Object Storage はこの暗号化キーを使用してデータを暗号化してから保存します。
-   - 暗号化が完了すると、暗号化キーは破棄されシステムに保存されません。
+1. **Tải lên dữ liệu:**
+   - Khi bạn tải lên một object, bạn cần cung cấp khóa mã hóa cùng với dữ liệu.
+   - FPT Object Storage sử dụng khóa mã hóa này để mã hóa dữ liệu trước khi lưu trữ.
+   - Sau khi mã hóa xong, khóa mã hóa sẽ bị tiêu hủy và không được lưu trữ lại trên hệ thống.
 
-2. **データのダウンロード:**
-   - データをダウンロードする際、最初にデータの暗号化に使用した暗号化キーを提供する必要があります。
-   - FPT Object Storage はこのキーを使用してデータを復号化し、返します。
+2. **Tải xuống dữ liệu:**
+   - Khi bạn tải xuống dữ liệu, bạn cần cung cấp khóa mã hóa mà bạn đã sử dụng để mã hóa dữ liệu ban đầu.
+   - FPT Object Storage sử dụng khóa này để giải mã dữ liệu và trả lại cho bạn.
 
-### 重要なポイント
+### Các điểm quan trọng
 
-- **キーの管理:**
-  - お客様は暗号化キーの管理について全責任を負います。
-  - FPT Object Storage はお客様の暗号化キーを保存しません。暗号化キーを紛失した場合、そのキーで暗号化されたデータにアクセスできなくなります。
+- **Quản lý khóa:**
+  - Bạn hoàn toàn chịu trách nhiệm về việc quản lý khóa mã hóa của mình.
+  - FPT Object Storage không lưu trữ khóa mã hóa của bạn. Nếu bạn mất khóa mã hóa, bạn sẽ không thể truy cập vào dữ liệu được mã hóa bằng khóa đó.
 
-- **セキュリティ:**
-  - SSE-C はデータ保護の追加レイヤーを提供し、厳格なセキュリティ規制の遵守を求める組織に特に有用です。
-  - お客様は暗号化キーの管理を通じて重要な object へのアクセスを完全に制御できます。
+- **Bảo mật:**
+  - SSE-C cung cấp một lớp bảo vệ dữ liệu bổ sung, đặc biệt hữu ích cho các tổ chức yêu cầu tuân thủ quy định bảo mật nghiêm ngặt.
+  - Khách hàng có khả năng kiểm soát hoàn toàn quyền truy cập vào các object quan trọng thông qua quản lý khóa mã hóa.
 
-- **使用方法:**
-  - SSE-C を使用する際は、暗号化キーを自分で作成・保存・保護する必要があります。
-  - 暗号化キーを管理・保護するための適切なセキュリティプロセスを確保してください。
+- **Sử dụng:**
+  - Khi sử dụng SSE-C, bạn cần phải tự tạo, lưu trữ và bảo vệ khóa mã hóa của mình.
+  - Đảm bảo rằng bạn có các quy trình bảo mật thích hợp để quản lý và bảo vệ các khóa mã hóa này.
 
-SSE-C は **FPT Object Storage** 内の機密データを保護する効果的な方法で、お客様にデータへのアクセスとセキュリティに関する最大限の制御を提供します。
+SSE-C là một phương thức hiệu quả để bảo vệ dữ liệu nhạy cảm trong **FPT Object Storage**, mang lại sự kiểm soát tối đa cho khách hàng về quyền truy cập và bảo mật dữ liệu của họ.

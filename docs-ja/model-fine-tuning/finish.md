@@ -1,8 +1,8 @@
 ---
 id: "finish"
-title: "Finish"
-description: "Bước cuối cùng để hoàn tất cấu hình pipeline fine-tuning."
-sidebar_label: "Finish"
+title: "完了"
+description: "fine-tuning pipeline の設定を完了するための最終ステップ。"
+sidebar_label: "完了"
 sidebar_position: "16"
 ---
 

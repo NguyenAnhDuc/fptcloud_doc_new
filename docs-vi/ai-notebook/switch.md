@@ -1,40 +1,40 @@
 ---
 id: "switch"
-title: "Kernelの接続と切り替え"
-description: "AI NotebookでKernel環境を切り替える方法。"
-sidebar_label: "Kernelの接続と切り替え"
+title: "Kết nối và chuyển kernel"
+description: "Chuyển đổi giữa các môi trường kernel khác nhau trong AI Notebook của bạn."
+sidebar_label: "Kết nối và chuyển kernel"
 sidebar_position: "6"
 ---
 
-# Kernelの接続と切り替え
+# Kết nối và chuyển kernel
 
-**ステップ1:** Notebook IDEで、右上の**カーネル設定メニュー**を開きます。
+**Bước 1:** Trong Notebook IDE, mở **kernel configuration menu** (góc trên bên phải).
 
-[![カーネル設定メニュー画面](/img/migrated/worddav6371362747fec3bad8be91cf1e057a7c-0bc7f485.png)](/img/migrated/worddav6371362747fec3bad8be91cf1e057a7c-0bc7f485.png)
+[![Màn hình kernel configuration menu trong AI Notebook IDE](/img/migrated/worddav6371362747fec3bad8be91cf1e057a7c-0bc7f485.png)](/img/migrated/worddav6371362747fec3bad8be91cf1e057a7c-0bc7f485.png)
 
-| **オプション** | **説明** | **使用タイミング** |
+| **Tùy chọn** | **Mô tả** | **Khi nào sử dụng** |
 | --- | --- | --- |
-| **実行中のカーネル** | 既存のアクティブなカーネル（例：Python 3）に接続します。 | 作業を迅速に再開し、リソースを節約 |
-| **他のカーネルを起動** | 選択したGPUリソース（1x、2x、4x、8x H100）で新しいカーネルを起動します。 | 新しい実験や重いワークロード |
-| **カーネルなし** | 計算リソースを割り当てずにノートブックを開く。 | 実行せずにコードを表示または編集 |
+| **Running Kernels** | Kết nối với kernel đang hoạt động (ví dụ: Python 3). | Tiếp tục công việc nhanh chóng, tiết kiệm tài nguyên |
+| **Start Other Kernels** | Khởi động kernel mới với tài nguyên GPU đã chọn (1x, 2x, 4x, 8x H100). | Thử nghiệm mới hoặc khối lượng công việc lớn |
+| **No Kernel** | Mở notebook mà không gắn bất kỳ tài nguyên tính toán nào. | Xem hoặc chỉnh sửa code mà không chạy |
 
 ---
 
-**ステップ2a: 新しいカーネルを開始する**
+**Bước 2a: Khởi động kernel mới**
 
-1. 開始前に、アカウントに少なくとも1時間のGPU利用料をカバーできる十分なクレジットがあることを確認してください。
-2. 「**他のカーネルを起動**」で、使用するGPUタイプを選択してください。
-3. 「**確認**」をクリックし、確認ポップアップを承認してください。
+1. Trước khi bắt đầu, hãy đảm bảo tài khoản có đủ credit để trả ít nhất 1 giờ sử dụng GPU.
+2. Trong **Start Other Kernels**, chọn loại GPU bạn muốn.
+3. Nhấn **Confirm** và xác nhận pop-up xác nhận.
 
-[![GPU確認ポップアップ画面](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
+[![Màn hình pop-up xác nhận chọn GPU kernel](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)](/img/migrated/worddavcbde47ee263356d9fcbb156662265af0-2f05a191.png)
 
-4. ノートブックの準備が整うまで約**1〜2分**待ちます。
-5. 接続が完了すると、新しいカーネルが「**実行中のカーネル**」に表示されます。
+4. Chờ khoảng **1–2 phút** để notebook sẵn sàng.
+5. Sau khi kết nối, kernel mới sẽ hiển thị trong **Running Kernels**.
 
 ---
 
-**ステップ2b: 既存カーネルへの切り替え**
+**Bước 2b: Chuyển sang kernel hiện có**
 
-1. 「**実行中のカーネル**」で、接続したいカーネルを選択します。
-2. ノートブックの準備が整うまで約**1〜2分**待ちます。
-3. 接続が完了すると、カーネルが「**実行中のカーネル**」で選択されます。
+1. Trong **Running Kernels**, chọn kernel bạn muốn kết nối.
+2. Chờ khoảng **1–2 phút** để notebook sẵn sàng.
+3. Sau khi kết nối, kernel đã chọn sẽ được hiển thị trong **Running Kernels**.

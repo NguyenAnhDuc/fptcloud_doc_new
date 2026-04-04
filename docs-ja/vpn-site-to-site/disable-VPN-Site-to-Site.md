@@ -4,6 +4,7 @@ title: "Disable VPN Site-to-Site"
 description: "Guide to disabling an active VPN Site-to-Site connection"
 sidebar_label: "Disable VPN Site-to-Site"
 sidebar_position: "4"
+draft: true
 ---
 
 # Disable VPN Site-to-Site

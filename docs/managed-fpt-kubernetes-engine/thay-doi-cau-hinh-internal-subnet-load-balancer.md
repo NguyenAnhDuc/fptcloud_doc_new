@@ -1,18 +1,22 @@
 ---
 id: "thay-doi-cau-hinh-internal-subnet-load-balancer"
-title: "Internal subnet Load Balancer（CIDR）設定の変更"
-description: "FPT Cloud は Unify Portal 上で Internal subnet Load Balancer（CIDR）の範囲を変更できます。"
-sidebar_label: "Internal subnet Load Balancer（CIDR）設定の変更"
+title: "Change Internal Subnet Load Balancer Configuration"
+description: "How to change the internal subnet load balancer CIDR range directly from the Unify portal."
+sidebar_label: "Change Internal Subnet Load Balancer Configuration"
 sidebar_position: "13"
 ---
 
-# Thay đổi cấu hình Internal Subnet Load Balancer
+# Change Internal Subnet Load Balancer Configuration
 
-FPT Cloud hỗ trợ khách hàng thay đổi dải Internal subnet load balancer (CIDR) ngay trên Unify portal, để thực hiện khách hàng làm theo các bước sau:
-**Bước 1** : Chọn cluster muốn thay đổi Internal subnet Load Balancer, click vào cluster name.
+FPT Cloud lets you change the internal subnet load balancer (CIDR) range directly from the Unify portal. Follow the steps below:
+
+**Step 1:** Select the cluster you want to change the Internal Subnet Load Balancer for and click on the cluster name.
 [![](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)
-**Bước 2** : Chọn tab **Advanced** , click button Config Internal subnet Load Balancer.
+
+**Step 2:** Select the **Advanced** tab and click the **Config Internal Subnet Load Balancer** button.
 [![](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)
-**Bước 3** : Nhập dải CDIR hợp lệ và click button **Confirm**
+
+**Step 3:** Enter a valid CIDR range and click **Confirm**.
 [![](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)](/img/migrated/Screenshot-2025-04-08-140012-9692da06.png)
-Quá trình update Internal subnet Load Balancer sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing**. Cluster vẫn hoạt động bình thường khi thực hiện chuyển Internal subnet Load Balancer (CIDR) mới.
+
+The Internal Subnet Load Balancer update process takes a few minutes. The cluster status changes to **Processing** during this time. The cluster continues to operate normally while the new Internal Subnet Load Balancer (CIDR) is being applied.

@@ -1,27 +1,27 @@
 ---
 id: "huong-dan-nang-goi-dich-vu-dang-su-dung"
-title: "Nâng gói dịch vụ"
-description: "Nâng cấp gói FPT Container Registry lên mức cao hơn."
-sidebar_label: "Nâng gói dịch vụ"
+title: "Upgrade your service plan"
+description: "Upgrade your FPT Container Registry service plan to a higher tier."
+sidebar_label: "Upgrade your service plan"
 sidebar_position: "29"
 ---
 
-# Nâng gói dịch vụ
+# Upgrade your service plan
 
-Khi nhu cầu lưu trữ hoặc số lần pull tăng vượt giới hạn của gói hiện tại, bạn có thể nâng cấp lên gói cao hơn trực tiếp trên Portal. Chỉ có thể nâng gói, không thể hạ gói.
+When your storage needs or pull count exceed the limits of your current plan, you can upgrade to a higher tier directly from the Portal. Upgrades only — downgrading is not supported.
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Configuration** > **Update Type**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Configuration** > **Update Type**.
 
-   [![Nút Update Type trong Configuration](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
+   [![Update Type button in Configuration](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
 
-2. Chọn gói dịch vụ muốn nâng cấp.
+2. Select the service plan you want to upgrade to.
 
-   [![Danh sách gói dịch vụ để nâng cấp](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
+   [![Service plan list for upgrade](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
 
-3. Chọn **Update** để xác nhận nâng gói.
+3. Click **Update** to confirm the upgrade.
 
-   [![Xác nhận nâng gói](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
+   [![Confirm upgrade](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
 
-4. Kiểm tra thông tin gói dịch vụ sau khi nâng cấp.
+4. Verify the service plan information after upgrading.
 
-   [![Thông tin gói sau khi nâng cấp](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)
+   [![Service plan information after upgrade](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)

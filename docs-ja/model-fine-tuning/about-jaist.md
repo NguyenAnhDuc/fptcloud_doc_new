@@ -1,8 +1,8 @@
 ---
 id: "about-jaist"
-title: "About Jaist"
-description: "Viện Khoa học và Công nghệ Tiên tiến Nhật Bản (JAIST) là một trường đại học quốc gia sau đại học được thành lập vào tháng 10 năm 1990."
-sidebar_label: "About Jaist"
+title: "JAIST について"
+description: "北陸先端科学技術大学院大学（JAIST）は、1990年10月に設立された国立大学院大学です。"
+sidebar_label: "JAIST について"
 sidebar_position: "31"
 ---
 

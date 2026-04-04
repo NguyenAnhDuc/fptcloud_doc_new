@@ -1,8 +1,8 @@
 ---
 id: "edit-security-profile"
-title: "Chỉnh sửa Security Profile"
-description: "Hướng dẫn thay đổi cấu hình bảo mật kết nối VPN."
-sidebar_label: "Chỉnh sửa Security Profile"
+title: "セキュリティプロファイルの編集"
+description: "VPN接続のセキュリティ設定を変更するガイドです。"
+sidebar_label: "セキュリティプロファイルの編集"
 sidebar_position: "9"
 ---
 

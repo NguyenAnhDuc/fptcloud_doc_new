@@ -1,36 +1,43 @@
 ---
 id: "chi-tiet-model"
-title: "Mục đích: Xem chi tiết model"
-description: "Mục đích: Xem chi tiết model"
-sidebar_label: "Mục đích: Xem chi tiết model"
+title: "model の詳細"
+description: "Model Hub 内の model の詳細を表示します。"
+sidebar_label: "model の詳細"
 sidebar_position: "5"
 ---
 
-# Chi Tiet Model
+# model の詳細
 
-Mục đích: Xem chi tiết model 
-Một model bao gồm các thành phần sau: 
-  * Model title: Tên model 
-  * Description: Mô tả model 
-  * Lasted version: Phiên bản cuối cùng, là phiên bản có ngày tạo gần nhất với thời điểm xem chi tiết 
-  * Created date: Ngày tạo model 
-  * Modified: Ngày chỉnh sửa thông tin model gần nhất 
-  * Model visibility: Model ở dạng Private, Public hoặc Public metadata
-  * Tags: Các tag gắn với model 
-  * Model card: Thông tin tổng quan của model [![](/img/migrated/Picture5-2bcf13c8.png)](/img/migrated/Picture5-2bcf13c8.png)
-  * Version: 
-    * Version: Mã phiên bản 
-    * Created date: Ngày tạo phiên bản 
-    * Size: Dung lượng 
-    * Type: Phiên bản ở dạng Private hoặc Public [![](/img/migrated/Picture6-db90f2cf.png)](/img/migrated/Picture6-db90f2cf.png)
-  * File Browser: hiển thị các tệp đã upload tương ứng với từng version 
-    * File: tên tệp tin 
-    * Modified date: Ngày chỉnh sửa gần nhất 
-    * Size: Dung lượng tệp tin [![](/img/migrated/Picture7-4a2eec64.png)](/img/migrated/Picture7-4a2eec64.png)
-  * 
-    * Email: mail của người được chia sẻ model 
-    * Name: Tên người dùng 
-    * Role: Quyền của người được chia sẻ model 
-    * Date invited: Thời gian thêm người dùng vào model 
-    * Date joined: Thời gian người dùng tham gia (là thời điểm lần đầu tiên người dùng xem chi tiết model) 
-    * Action: Action, Update, Delete người dùng tham gia model [![](/img/migrated/Picture8-34374d24.png)](/img/migrated/Picture8-34374d24.png)
+model の詳細を表示します。model には以下のコンポーネントが含まれます。
+
+- **Model title**: model の名前。
+- **Description**: model の説明。
+- **Latest version**: 表示時点で最も新しく作成された version。
+- **Created date**: model の作成日。
+- **Modified**: model 情報の最終更新日。
+- **Model visibility**: model が Private、Public、または Public metadata のいずれか。
+- **Tags**: model に付与された tag。
+- **Model card**: model の概要情報。
+[![](/img/migrated/Picture5-2bcf13c8.png)](/img/migrated/Picture5-2bcf13c8.png)
+
+- **Version**:
+  - **Version**: version コード。
+  - **Created date**: version の作成日。
+  - **Size**: ストレージサイズ。
+  - **Type**: version が Private か Public か。
+[![](/img/migrated/Picture6-db90f2cf.png)](/img/migrated/Picture6-db90f2cf.png)
+
+- **File Browser**: 各 version にアップロードされたファイルを表示します。
+  - **File**: ファイル名。
+  - **Modified date**: 最終更新日。
+  - **Size**: ファイルサイズ。
+[![](/img/migrated/Picture7-4a2eec64.png)](/img/migrated/Picture7-4a2eec64.png)
+
+- **Share**:
+  - **Email**: 共有されたユーザーのメールアドレス。
+  - **Name**: ユーザー名。
+  - **Role**: 共有ユーザーの権限レベル。
+  - **Date invited**: ユーザーが model に追加された日時。
+  - **Date joined**: ユーザーが初めて model の詳細を表示した日時。
+  - **Action**: 共有ユーザーの Update または Delete 操作。
+[![](/img/migrated/Picture8-34374d24.png)](/img/migrated/Picture8-34374d24.png)

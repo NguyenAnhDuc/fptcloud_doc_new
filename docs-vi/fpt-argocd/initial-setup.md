@@ -1,8 +1,8 @@
 ---
 id: "initial-setup"
-title: "初期設定"
+title: "Initial Setup"
 description: "FPT ArgoCDを初めて使用する前に完了すべき手順"
-sidebar_label: "初期設定"
+sidebar_label: "Initial Setup"
 sidebar_position: "2"
 ---
 

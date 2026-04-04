@@ -1,12 +1,12 @@
 ---
 id: "overview-user-group"
-title: "User Group overview"
+title: "Tổng quan User Group"
 description: "User Group là nhóm người dùng có vai trò giống nhau, được gán chung Roles và Permission."
-sidebar_label: "User Group overview"
+sidebar_label: "Tổng quan User Group"
 sidebar_position: 11
 ---
 
-# User Group overview
+# Tổng quan User Group
 
 User Group là đối tượng đại diện cho một nhóm người dùng có vai trò giống nhau. Tất cả IAM user trong cùng User Group sẽ được gán chung Roles & Permission của User Group đó.
 

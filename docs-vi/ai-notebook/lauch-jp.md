@@ -1,58 +1,58 @@
 ---
 id: "lauch-jp"
-title: "AI Notebookの起動"
-description: "FPT AI FactoryコンソールからAI Notebookを起動してアクセスする方法。"
-sidebar_label: "AI Notebookの起動"
+title: "Khởi chạy AI Notebook"
+description: "Khởi chạy và truy cập AI Notebook từ FPT AI Factory console."
+sidebar_label: "Khởi chạy AI Notebook"
 sidebar_position: "4"
 ---
 
-# AI Notebookの起動
+# Khởi chạy AI Notebook
 
-**ステップ1:** 左メニューから「**AI Notebook**」を選択します。ノートブックの起動には約1〜2分かかります。
+**Bước 1:** Từ menu bên trái, chọn **AI Notebook**. Notebook mất khoảng 1–2 phút để khởi động.
 
-[![AI Notebookメニュー選択画面](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)
+[![Mục AI Notebook trong menu điều hướng bên trái FPT AI Factory](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)
 
-**ステップ2:** 準備が整うと、ブラウザが自動的に**AI Notebookランチャー**を開きます。ポップアップがブロックされている場合は、「**AI Notebookを開く**」をクリックしてランチャーに入ってください。
+**Bước 2:** Khi sẵn sàng, trình duyệt sẽ tự động mở **AI Notebook Launcher**. Nếu pop-up bị chặn, nhấn **Open AI Notebook** để vào Launcher.
 
-[![AI Notebookを開くボタン](/img/migrated/image-3-1-2c056774.png)](/img/migrated/image-3-1-2c056774.png)
+[![Nút Open AI Notebook hiển thị sau khi notebook sẵn sàng](/img/migrated/image-3-1-2c056774.png)](/img/migrated/image-3-1-2c056774.png)
 
-## ランチャーの概要
+## Tổng quan về Launcher
 
-ランチャーは**JupyterLab**の起点となります。新しいノートブックの作成、コンソールの起動、作業実行に使うリソースの種類（CPUまたはGPU）の選択が可能です。
+Launcher là điểm khởi đầu trong **JupyterLab**. Bạn có thể tạo notebook mới, mở console và chọn loại tài nguyên (CPU hoặc GPU) để thực hiện công việc.
 
-[![JupyterLabランチャー概要画面](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)
+[![Giao diện JupyterLab Launcher với các tùy chọn notebook và console](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)
 
-**1. ナビゲーションバーのクイックアクセス**
+**1. Truy cập nhanh trên thanh điều hướng**
 
-- **ファイルブラウザ:** AI Notebook環境内のファイルやフォルダを管理するワークスペースのハブです。ファイルの迅速な開く、名前変更、削除、整理が可能です。
-- **実行中のカーネル/ノートブック:** アクティブなカーネルと開いているノートブックをすべて表示します。セッションの監視、GPU/CPU使用状況の確認、アイドル状態のものを停止してリソースを解放するために使用します。
-- **目次:** ノートブックのセクションを構造化されたビューで表示します。長いノートブックをスクロールせずに見出し間を簡単に移動できます。
-- **GPUカーネル管理:** GPUカーネルを制御・監視します。GPU割り当て/使用状況を確認し、未使用のGPUカーネルをシャットダウンします。
-- **拡張機能マネージャー:** AI Notebookを拡張ツールや統合機能で強化します。Gitやコードフォーマッタなどの拡張機能をインストール、有効化、無効化して生産性を向上させます。
+- **File Browser:** Trung tâm quản lý tệp và thư mục trong môi trường AI Notebook. Nhanh chóng mở, đổi tên, xóa hoặc sắp xếp tệp.
+- **Running Kernels / Notebooks:** Hiển thị tất cả kernel đang hoạt động và notebook đang mở. Dùng để theo dõi phiên làm việc, kiểm tra mức sử dụng GPU/CPU và dừng các kernel nhàn rỗi để giải phóng tài nguyên.
+- **Table of Contents:** Cung cấp chế độ xem có cấu trúc các phần của notebook. Dễ dàng chuyển giữa các tiêu đề mà không cần cuộn qua notebook dài.
+- **GPU Kernel Management:** Kiểm soát và giám sát GPU kernel. Kiểm tra trạng thái phân bổ/sử dụng GPU và tắt các GPU kernel không dùng.
+- **Extensions Manager:** Mở rộng AI Notebook với các công cụ và tích hợp bổ sung. Cài đặt, bật hoặc tắt các extension như Git hoặc công cụ định dạng code để nâng cao năng suất.
 
-**2. ノートブックとコンソールのオプション**
+**2. Tùy chọn notebook và console**
 
-**ノートブックセクション:**
-インタラクティブなコードと出力環境が必要な場合に使用します。Markdown、チャート、メモを使ったコードの開発、可視化、ドキュメント化に最適です。
-異なるリソースで新しいノートブックセッションを選択できます:
+**Phần Notebook:**
+Sử dụng khi bạn muốn môi trường code tương tác kết hợp với đầu ra. Lý tưởng để phát triển, trực quan hóa và lập tài liệu code với Markdown, biểu đồ và ghi chú.
+Chọn phiên notebook mới với các tài nguyên khác nhau:
 
-- CPU（無料）
+- CPU (Miễn phí)
 - 1x GPU H100 SXM5
 - 2x GPU H100 SXM5
 - 4x GPU H100 SXM5
 - 8x GPU H100 SXM5
 
-**コンソールセクション:**
-クイックスクリプトの実行やコードスニペットのテストなど、軽量なコマンドラインインターフェースのみが必要な場合に使用します。同じリソースオプションでコンソールセッション（コマンドライン + コード実行）を開始します。
+**Phần Console:**
+Sử dụng khi bạn chỉ cần giao diện dòng lệnh nhẹ để chạy script nhanh hoặc kiểm tra đoạn code — không cần văn bản đa dạng thức hay đầu ra trực quan. Khởi động phiên console (dòng lệnh + thực thi code) với cùng các tùy chọn tài nguyên.
 
-**その他セクション:**
-追加ファイルを作成します:
+**Phần Other:**
+Tạo các tệp bổ sung như:
 
-- テキストファイル
-- マークダウンファイル
-- Pythonファイル
+- Text File
+- Markdown File
+- Python File
 
-**3. リソース選択と価格設定パネル**
+**3. Bảng chọn tài nguyên và giá**
 
-- 注意: 追加費用を避けるため、未使用のランタイムは切断・削除してください。
-- 利用可能なGPU構成の詳細（CPU、RAM、VRAM、時間あたりのコスト）を表示します。
+- Lưu ý: Ngắt kết nối và xóa các runtime không dùng để tránh phát sinh chi phí.
+- Hiển thị các cấu hình GPU có sẵn với thông tin chi tiết (CPU, RAM, VRAM, chi phí mỗi giờ).

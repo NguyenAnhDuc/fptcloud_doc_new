@@ -1,51 +1,42 @@
 ---
 id: "service-type-load-balancer"
-title: "Service Type Load-Balancer"
-description: "Sản phẩm Managed FKE được phát triển từ Kubernetes Native và tích hợp thêm thêm các thành phần cloud provider vào Kubern"
-sidebar_label: "Service Type Load-Balancer"
+title: "Service Type Load Balancer"
+description: "Managed FKE integrates FPT Cloud Controller Manager to support Load Balancer service type with various configuration options."
+sidebar_label: "Service Type Load Balancer"
 sidebar_position: "21"
 ---
 
-# Service type Load Balancer
+# Service Type Load Balancer
 
-Sản phẩm Managed FKE được phát triển từ Kubernetes Native và tích hợp thêm thêm các thành phần cloud provider vào Kubernetes trong đó có thành phần FPT Cloud Controller Manager. Thành phần này nhằm mục đích quản lý các worker nodes trong cluster và các service dạng Load Balancer. Người dùng có thể có nhiều cách để expose một ứng dụng của mình ra bên ngoài internet để khách hàng của người dùng đó có thể truy cập vào ứng dụng, dịch vụ. Các cách đó có thể bao gồm việc tạo ingress cho service, hoặc tạo service dạng node port và gắn floating cho VM worker node, hoặc có thể sử dụng service dạng Load Balancer. 
-FPTCloud hỗ trợ người dùng tạo service dạng load balancer với các option đi kèm annotation trong cấu hình của service:   
-|   |   |   |   |  
-| --- | --- | --- | --- |  
-| **Key**  | **Value**  | **Default**  | **Mục đích**  |  
-| service.beta.kubernetes.io/fpt-load-balancer-internal  | "true"/"false"  | "false"  | Nếu không muốn expose service ra ngoài internet, cấu hình value là "true"  |  
-| loadbalancer.fptcloud.com/keep-floatingip   | "true"/"false"  | "false"  | Nếu muốn giữ floating IP của service LoadBalancer ở lại trong VPC sau khi xóa service đó, cấu hình value là "true"  |  
-| loadbalancer.fptcloud.com/proxy-protocol  | "true"/"false"  | "false"  | Nếu muốn LoadBalancer sử dụng protocol là PROXY, hãy cấu hình value là "true".   
-Chú ý: Proxy protocol chỉ sử dụng với LoadBalancer layer4  |  
-| loadbalancer.fptcloud.com/enable-health-monitor  | "true"/"false"  | "true"  | Muốn disable health monitor cho LoadBalancer Pool, cấu hình value là "false"  |  
-| service.beta.kubernetes.io/fpt-load-balancer-type  | - LBv1 bao gồm:  
-basic/ advanced/ standard/ premium ( đã dừng hỗ trợ LBv1 )   
-- LBv2 bao gồm:   
-Starter/Basic-1/ Basic-2/ Standard/ Advanced/ Premium/ Extra-1/ Extra-2/ Extra-3/ Extra-S/ Extra-M/ Extra-L  | LBv1: "basic"   
-LBv2: "Basic-1"  | Cấu hình flavor của LoadBalancer để đáp ứng tải tương ứng của ứng dụng đằng sau backend của LoadBalancer pool   
-Chú ý:  Nếu cấu hình annotation key "service.beta.kubernetes.io/fpt-load-balancer-type" có value khác với những giá trị cho phép có thể gây lỗi  |  
-| loadbalancer.fptcloud.com/enable-ingress-hostname  | "true"/"false"  | "false"  | Muốn enable ingress hostname cho service type LoadBalancer, cấu hình value là "true"  |  
-| loadbalancer.fptcloud.com/load-balancer-version  | "v1"/"v2"  | "v2"  | Muốn sử dụng LBv1 cho service type LoadBalancer, cấu hình value là "v1". Mặc định LBv2 sẽ được tạo ra nếu không cấu hình annotation này   
-Chú ý: Không thể sử dụng proxy protocol và x-forwarded-for cùng một lúc  |  
-| loadbalancer.fptcloud.com/x-forwarded-for  | "true"/"false"  | "false"  | Muốn forward header của request tới LoadBalancer pool backend khi sử dụng LoadBalancer layer7, cấu hình value là "true".  |  
-| loadbalancer.fptcloud.com/node-selector  | mảng các cặp key=value  
-e.g: "env=prod, region=han"  |   | Chọn node để đưa vào member pool của LoadBalancer, các node được chọn sẽ chứa tất cả các cặp key=value mà người dùng sử dụng  |  
-| loadbalancer.fptcloud.com/connection-limit  | integer  | -1  | Giới hạn số kết nối đồng thời tối đa. -1 là không giới hạn  |  
-| loadbalancer.fptcloud.com/timeout-client-data  | integer (ms)  | 50000  | Thời gian chờ dữ liệu từ phía client. Đơn vị ms  |  
-| loadbalancer.fptcloud.com/timeout-member-connect  | integer (ms)  | 5000  | Thời gian chờ kết nối giữa load balancer và backend. Đơn vị ms  |  
-| loadbalancer.fptcloud.com/timeout-member-data  | integer (ms)  | 50000  | Thời gian chờ dữ liệu giữa load balancer và backend. Đơn vị ms  |  
-| loadbalancer.fptcloud.com/timeout-tcp-inspect  | integer (ms)  | 0  | Thời gian chờ để kiểm tra TCP. 0ms là tắt chức năng kiểm tra TCP.  |  
-| loadbalancer.fptcloud.com/health-monitor-delay  | integer (s)  | 60  | Khoảng thời gian giữa các lần healthcheck member trong pool  |  
-| loadbalancer.fptcloud.com/health-monitor-timeout  | integer (s)  | 30  | Thời gian tối đa cho một lần healthcheck  |  
-| loadbalancer.fptcloud.com/health-monitor-max-retries  | integer  | 5  | Số lần healthcheck thất bại trước khi đánh dấu backend là DOWN.  |  
-| loadbalancer.fptcloud.com/health-monitor-max-retries-down  | integer  | 3  | Số lần healthcheck thành công để đánh dấu backend hoạt động trở lại (UP).  |  
-Lưu ý: 
-Ngoài ra, MFKE hỗ trợ người dùng cấu hình: 
+Managed FKE is built on native Kubernetes with additional cloud provider components integrated, including the FPT Cloud Controller Manager. This component manages worker nodes in the cluster and Load Balancer type services. You can expose your application to the internet in several ways, including creating an ingress for the service, creating a NodePort service with a floating IP attached to the worker VM, or using a Load Balancer type service.
 
-#### 1. Tạo service type LoadBalancer chỉ định floatingIP gắn vào LoadBalancer:
+FPT Cloud supports creating Load Balancer type services with the following annotation options in the service configuration:
 
-```
-Copykind: Service
+| **Key** | **Value** | **Default** | **Purpose** |
+| --- | --- | --- | --- |
+| service.beta.kubernetes.io/fpt-load-balancer-internal | "true"/"false" | "false" | Set to "true" if you do not want to expose the service to the internet |
+| loadbalancer.fptcloud.com/keep-floatingip | "true"/"false" | "false" | Set to "true" to retain the floating IP of the LoadBalancer service in the VPC after deleting the service |
+| loadbalancer.fptcloud.com/proxy-protocol | "true"/"false" | "false" | Set to "true" to use PROXY protocol for the LoadBalancer. Note: Proxy protocol is only supported with Layer 4 LoadBalancer |
+| loadbalancer.fptcloud.com/enable-health-monitor | "true"/"false" | "true" | Set to "false" to disable health monitor for the LoadBalancer Pool |
+| service.beta.kubernetes.io/fpt-load-balancer-type | LBv1: basic/advanced/standard/premium (LBv1 no longer supported); LBv2: Starter/Basic-1/Basic-2/Standard/Advanced/Premium/Extra-1/Extra-2/Extra-3/Extra-S/Extra-M/Extra-L | LBv1: "basic"; LBv2: "Basic-1" | Configure the LoadBalancer flavor to handle the corresponding load from the application backend pool. Note: Using a value other than the allowed values for this annotation may cause errors |
+| loadbalancer.fptcloud.com/enable-ingress-hostname | "true"/"false" | "false" | Set to "true" to enable ingress hostname for the LoadBalancer service type |
+| loadbalancer.fptcloud.com/load-balancer-version | "v1"/"v2" | "v2" | Set to "v1" to use LBv1. LBv2 is created by default if this annotation is not configured. Note: Proxy protocol and x-forwarded-for cannot be used simultaneously |
+| loadbalancer.fptcloud.com/x-forwarded-for | "true"/"false" | "false" | Set to "true" to forward request headers to the LoadBalancer pool backend when using a Layer 7 LoadBalancer |
+| loadbalancer.fptcloud.com/node-selector | array of key=value pairs, e.g: "env=prod, region=han" | | Select nodes to include in the LoadBalancer member pool; selected nodes must contain all specified key=value pairs |
+| loadbalancer.fptcloud.com/connection-limit | integer | -1 | Maximum concurrent connection limit. -1 means unlimited |
+| loadbalancer.fptcloud.com/timeout-client-data | integer (ms) | 50000 | Timeout for data from the client side, in milliseconds |
+| loadbalancer.fptcloud.com/timeout-member-connect | integer (ms) | 5000 | Connection timeout between the load balancer and backend, in milliseconds |
+| loadbalancer.fptcloud.com/timeout-member-data | integer (ms) | 50000 | Data timeout between the load balancer and backend, in milliseconds |
+| loadbalancer.fptcloud.com/timeout-tcp-inspect | integer (ms) | 0 | Timeout for TCP inspection. 0ms disables TCP inspection |
+| loadbalancer.fptcloud.com/health-monitor-delay | integer (s) | 60 | Interval between health checks for pool members, in seconds |
+| loadbalancer.fptcloud.com/health-monitor-timeout | integer (s) | 30 | Maximum time for a single health check, in seconds |
+| loadbalancer.fptcloud.com/health-monitor-max-retries | integer | 5 | Number of failed health checks before marking a backend as DOWN |
+| loadbalancer.fptcloud.com/health-monitor-max-retries-down | integer | 3 | Number of successful health checks to mark a backend as UP again |
+
+## 1. Create a Load Balancer service with a specific floating IP
+
+```yaml
+kind: Service
 apiVersion: v1
 metadata:
   name: hello-world
@@ -62,12 +53,12 @@ spec:
       targetPort: web
 ```
 
-Lưu ý: IP public cần được allocate vào VPC và ở trạng thái Inactive. Người dùng vào mục **Networking - > Floating Ips** để kiểm tra. 
+**Note:** The public IP must be allocated to the VPC and have Inactive status. Check under **Networking -> Floating IPs**.
 
-#### 2. Giới hạn quyền truy cập vào Load Balancer bằng cấu hình _"loadBalancerSourceRanges"_ trong phần _"spec"_ của cấu hình service:
+## 2. Restrict access to the Load Balancer using `loadBalancerSourceRanges`
 
-```
-Copykind: Service
+```yaml
+kind: Service
 apiVersion: v1
 metadata:
   name: hello-world
@@ -86,4 +77,4 @@ spec:
       targetPort: web
 ```
 
-Lưu ý: Cấu hình "loadBalancerSourceRanges" chứa mảng các dải IP public được phép truy cập vào Load Balancer. Mặc định M-FKE tạo service type Load Balancer với cấu hình dải IP source là 0.0.0.0/0.
+**Note:** `loadBalancerSourceRanges` contains an array of public IP ranges allowed to access the Load Balancer. By default, M-FKE creates Load Balancer services with the source IP range `0.0.0.0/0`.

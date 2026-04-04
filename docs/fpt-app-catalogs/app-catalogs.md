@@ -1,8 +1,8 @@
 ---
 id: "app-catalogs"
-title: "FPT App Catalogs"
+title: "App Catalogs"
 description: "Sử dụng FPT App Catalogs để triển khai và quản lý ứng dụng trên Kubernetes."
-sidebar_label: "FPT App Catalogs"
+sidebar_label: "App Catalogs"
 sidebar_position: "1"
 ---
 

@@ -1,21 +1,28 @@
 ---
 id: "tao-verison"
-title: "Tao Verison"
-description: "Tạo phiên bản có mục đích giúp lưu thông tin 1 phiên bản trainning của model vào hệ thống."
-sidebar_label: "Tao Verison"
+title: "Create Version"
+description: "Save a training checkpoint of a model as a new version."
+sidebar_label: "Create Version"
 sidebar_position: "9"
 ---
 
-# Tao Verison
+# Create Version
 
-Tạo phiên bản có mục đích giúp lưu thông tin 1 phiên bản trainning của model vào hệ thống. 
-Để tạo mới phiên bản, bạn thao tác như sau: 
+Create a new version to save a training checkpoint of a model in the system.
 
-Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Version 
+## Steps
 
-Bước 2: Click button New version để mở form tạo mới  
-[![](/img/migrated/Picture16-20ac1db9.png)](/img/migrated/Picture16-20ac1db9.png) Bước 3: Hiển thị form tạo mới phiên bản, người dùng nhập các thông tin: 
-  * Version: là mã phiên bản 
+1. Click on a model to view its details, then select the **Version** tab.
 
-Lưu ý: Mã phiên bản bao gồm a-z, A-Z, số, dấu "-", "_", ".", nhận tối đa 20 kí tự. Mã phiên bản là duy nhất đối với một model. 
-  * Version visibility: Trạng thái của phiên bản, bao gồm: Private, Public [![](/img/migrated/Picture17-c9655dec.png)](/img/migrated/Picture17-c9655dec.png) Bước 4: Nhấn Create để tạo
+2. Click **New version** to open the creation form.
+[![](/img/migrated/Picture16-20ac1db9.png)](/img/migrated/Picture16-20ac1db9.png)
+
+3. Fill in the version information:
+   - **Version**: The version code.
+
+   > **Note:** The version code may include a–z, A–Z, digits, `-`, `_`, and `.`, up to 20 characters. The version code must be unique within a model.
+
+   - **Version visibility**: The status of the version — Private or Public.
+[![](/img/migrated/Picture17-c9655dec.png)](/img/migrated/Picture17-c9655dec.png)
+
+4. Click **Create** to save the new version.

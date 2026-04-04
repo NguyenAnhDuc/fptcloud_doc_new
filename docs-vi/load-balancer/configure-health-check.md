@@ -1,8 +1,8 @@
 ---
 id: "configure-health-check"
-title: "ヘルスチェックの設定"
-description: "FPT Cloud ロードバランサーのサーバープールメンバーに対するヘルスチェックの仕組みと設定方法を説明します。"
-sidebar_label: "ヘルスチェックの設定"
+title: "Configure health check"
+description: "How health check works for Load Balancer Server Pool members and how to configure it on FPT Cloud."
+sidebar_label: "Configure health check"
 sidebar_position: "20"
 ---
 

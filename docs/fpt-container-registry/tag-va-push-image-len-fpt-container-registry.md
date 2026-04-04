@@ -1,43 +1,43 @@
 ---
 id: "tag-va-push-image-len-fpt-container-registry"
-title: "Tag và push image lên FPT Container Registry"
-description: "Hướng dẫn tag và push Docker image từ local lên FPT Container Registry."
-sidebar_label: "Tag và push image"
+title: "Tag and push an image to FPT Container Registry"
+description: "Guide to tagging and pushing a Docker image from local to FPT Container Registry."
+sidebar_label: "Tag and push an image to FPT Container Registry"
 sidebar_position: "8"
 ---
 
-# Tag và push image lên FPT Container Registry
+# Tag and push an image to FPT Container Registry
 
-Sau khi đăng nhập thành công, bạn cần tag image local với URI của FPT Container Registry trước khi push lên. Việc này giúp Docker biết đích đến khi thực hiện push.
+After logging in successfully, you need to tag your local image with the FPT Container Registry URI before pushing. This tells Docker the destination when performing the push.
 
-1. Tag image local với URI của FPT Container Registry:
+1. Tag the local image with the FPT Container Registry URI:
 
    ```bash
    docker tag SOURCE_IMAGE[:TAG] registry.fke.fptcloud.com/<registry-id>/REPOSITORY[:TAG]
    ```
 
-   Trong đó `<registry-id>` sẽ được tự động điền nếu bạn sao chép câu lệnh từ FPT Portal.
+   The `<registry-id>` will be auto-filled if you copy the command from the FPT Portal.
 
-   Ví dụ:
+   Example:
 
    ```bash
    docker tag docker:20.10.12-dind registry.fke.fptcloud.com/088b6c2e-7fb9-4fd7-b906-779e99c63e32/docker:20.10.12-dind
    ```
 
-2. Push image lên FPT Container Registry:
+2. Push the image to FPT Container Registry:
 
    ```bash
    docker push registry.fke.fptcloud.com/<registry-id>/REPOSITORY[:TAG]
    ```
 
-   Ví dụ:
+   Example:
 
    ```bash
    docker push registry.fke.fptcloud.com/088b6c2e-7fb9-4fd7-b906-779e99c63e32/docker:20.10.12-dind
    ```
 
-3. Kiểm tra kết quả push image trên Portal.
+3. Verify the image push result on the Portal.
 
-   [![Kết quả push image thành công](/img/migrated/Picture11-1-9de7f6f9.png)](/img/migrated/Picture11-1-9de7f6f9.png)
+   [![Successful image push result](/img/migrated/Picture11-1-9de7f6f9.png)](/img/migrated/Picture11-1-9de7f6f9.png)
 
-   [![Danh sách image sau khi push](/img/migrated/Picture12-2-6e60be56.png)](/img/migrated/Picture12-2-6e60be56.png)
+   [![Image list after push](/img/migrated/Picture12-2-6e60be56.png)](/img/migrated/Picture12-2-6e60be56.png)

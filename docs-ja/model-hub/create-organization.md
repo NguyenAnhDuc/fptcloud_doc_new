@@ -1,19 +1,22 @@
 ---
 id: "create-organization"
-title: "Create Organization"
-description: "Mục đích: Sau khi tenant được active, người dùng lần đầu truy cập vào dịch vụ Model Hub trên tenant sẽ cần làm bước này,"
-sidebar_label: "Create Organization"
+title: "組織の作成"
+description: "tenant 上で Model Hub に初めてアクセスする際に組織を作成します。"
+sidebar_label: "組織の作成"
 sidebar_position: "22"
 ---
 
-# Create Organization
+# 組織の作成
 
-Mục đích: Sau khi tenant được active, người dùng lần đầu truy cập vào dịch vụ Model Hub trên tenant sẽ cần làm bước này, thực hiện create organization, sau đó mới sử dụng dịch vụ.
+tenant がアクティベートされた後、その tenant で初めて Model Hub サービスにアクセスするユーザーは、サービスを使用する前に組織を作成する必要があります。
 
-Bước 1: Tại màn hình dịch vụ Private Model, người dùng sẽ thấy hiển thị form Create organizaton
+## 手順
+
+1. **Private Model** サービス画面で **Create Organization** フォームが表示されます。
 [![](/img/migrated/anh-12-d2d971ad.png)](/img/migrated/anh-12-d2d971ad.png)
 
-Bước 2: Người dùng thực thiện điền đầy đủ thông tin Owner email, Organization name, upload Logo
-Lưu ý: thông tin Owner email, Organization name là bắt buộc, người dùng có thể bỏ trống trường Logo
+2. **Owner email**、**Organization name** を入力し、**Logo** をアップロードします（任意）。
 
-Bước 3: Click button Create, hệ thống điều hướng đến màn hình dịch vụ Private Model, tại đây, người dùng có thể bắt đầu sử dụng dịch vụ
+   > **注意:** Owner email と Organization name は必須です。Logo は省略可能です。
+
+3. **Create** をクリックします。システムが Private Model サービス画面に移動し、サービスの使用を開始できます。

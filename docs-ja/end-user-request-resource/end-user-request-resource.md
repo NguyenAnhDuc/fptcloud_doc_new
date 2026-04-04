@@ -1,27 +1,32 @@
 ---
 id: "end-user-request-resource"
-title: "Yêu cầu tài nguyên"
-description: "Yêu cầu tài nguyên"
-sidebar_label: "Yêu cầu tài nguyên"
+title: "End User Request Resource"
+description: "Resource Request"
+sidebar_label: "End User Request Resource"
 sidebar_position: "1"
 ---
 
-# Yêu cầu tài nguyên
+# Resource Request
 
   * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/icon-networking-2645685c.png) Hướng dẫn nhanh (Quick Starts) ](javascript: "Hướng dẫn nhanh \(Quick Starts\)")
-  * [ ![](/img/migrated/suggestion-b956384e.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
+  * [ ![](/img/migrated/icon-networking-2645685c.png) Quick Starts ](javascript: "Quick Starts")
+  * [ ![](/img/migrated/suggestion-b956384e.png) Frequently Asked Questions (FAQs) ](javascript: "Frequently Asked Questions \(FAQs\)")
 
-Request Resource
+Resource Request
 
-##  Tổng quan (Overview) 
-**1. Giới thiệu về Yêu cầu cung cấp tài nguyên**
-Nhóm tính năng Yêu cầu cung cấp tài nguyên (Request Resource) sẽ giúp người dùng tự chủ động đưa ra yêu cầu cung cấp tăng thêm tài nguyên mới hoặc tài nguyên dùng thử mà không cần mất thời gian liên hệ hoặc chờ đợi với người bán hàng. Bạn có thể tự yêu cầu mua mới hoặc tăng thêm lượng dịch vụ nhanh chóng trên giao diện của FPT Portal.
-Bài viết này sẽ cung cấp cho bạn thông tin về cách bạn tạo 1 yêu cầu cung cấp tài nguyên và những điều bạn nên cân nhắc trước khi tạo và quản lý các yêu cầu đã tạo.
-**2. Những điều cần lưu ý trước khi bạn tạo một yêu cầu cung cấp tài nguyên?**
-  * VPC: Với tài khoản có quyền VPC owner, khách hàng chỉ có thể chọn VPC gán với dịch vụ là New hoặc chính VPC đó. Với tài khoản có quyền Tenant Owner, khách hàng có thể chọn tất cả VPC có trong Tenant đó hoặc VPC New để gán với dịch vụ. Tuy nhiên, việc chọn VPC là không bắt buộc khi tạo yêu cầu.
-  * Start date/End date: Start date và end date của mỗi dịch vụ có thể khác nhau. Start date bắt buộc phải là ngày sau ngày hiện tại (ngày tạo yêu cầu) và End date bắt buộc phải là ngày sau ngày Start date. Tuy nhiên bạn không bắt buộc phải chọn Start date/End date. FCI sẽ xác nhận lại với bạn ngày bắt đầu và ngày cuối cùng sử dụng dịch vụ nên bạn hoàn toàn yên tâm nếu không chọn thông tin này trong ticket yêu cầu.
+## Overview
 
-01Initial Setup 
-02Hướng dẫn nhanh (Quick Starts) 
-03Các câu hỏi thường gặp (FAQs)
+**1. Introduction to Resource Request**
+
+The Resource Request feature group allows users to proactively submit requests for additional new resources or trial resources without needing to contact or wait for a sales representative. You can request to purchase new resources or increase your service quota quickly through the FPT Portal interface.
+
+This article provides information on how to create a resource request and what you should consider before creating and managing your submitted requests.
+
+**2. Things to note before creating a resource request**
+
+  * VPC: For accounts with VPC Owner permissions, customers can only select the VPC assigned to the service as New or that specific VPC. For accounts with Tenant Owner permissions, customers can select all VPCs within that Tenant or a New VPC to assign to the service. However, selecting a VPC is not mandatory when creating a request.
+  * Start date/End date: The start date and end date of each service may differ. The start date must be a date after the current date (the date the request is created) and the end date must be after the start date. However, you are not required to select a start date/end date. FCI will confirm the start and end dates of the service with you, so you can rest assured if you do not include this information in the request ticket.
+
+01 Initial Setup
+02 Quick Starts
+03 Frequently Asked Questions (FAQs)

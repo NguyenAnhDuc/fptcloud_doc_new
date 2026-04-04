@@ -1,43 +1,43 @@
 ---
 id: "cau-hinh-lap-lich-chay-retention-rule"
-title: "Cấu hình lịch chạy retention rule"
-description: "Lên lịch tự động chạy retention rule theo chu kỳ."
-sidebar_label: "Cấu hình lịch chạy retention rule"
+title: "Schedule a retention rule"
+description: "Set up a schedule to automatically run retention rules on a recurring basis."
+sidebar_label: "Schedule a retention rule"
 sidebar_position: "16"
 ---
 
-# Cấu hình lịch chạy retention rule
+# Schedule a retention rule
 
-Thay vì chạy retention rule thủ công, bạn có thể lên lịch để hệ thống tự động thực thi theo chu kỳ, đảm bảo dung lượng lưu trữ luôn được tối ưu.
+Instead of running retention rules manually, you can set a schedule so the system executes them automatically on a recurring basis, keeping storage usage consistently optimized.
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > **Schedule** > **Edit**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Policy** > **Schedule** > **Edit**.
 
-   [![Nút Edit Schedule](/img/migrated/Picture43-1-fe4aeec3.png)](/img/migrated/Picture43-1-fe4aeec3.png)
+   [![Edit Schedule button](/img/migrated/Picture43-1-fe4aeec3.png)](/img/migrated/Picture43-1-fe4aeec3.png)
 
-2. Chọn tần suất chạy retention rule.
+2. Select the execution frequency for the retention rule.
 
-   [![Tùy chọn tần suất chạy](/img/migrated/Picture44-1-1535ba88.png)](/img/migrated/Picture44-1-1535ba88.png)
+   [![Execution frequency options](/img/migrated/Picture44-1-1535ba88.png)](/img/migrated/Picture44-1-1535ba88.png)
 
-   | Tùy chọn | Mô tả |
+   | Option | Description |
    |---|---|
-   | None | Không lên lịch, chạy thủ công từ Portal |
-   | Hourly | Chạy mỗi giờ một lần |
-   | Daily | Chạy mỗi ngày lúc 7:00 AM |
-   | Weekly | Chạy mỗi tuần một lần |
-   | Custom | Nhập cron expression tùy chỉnh |
+   | None | No schedule — run manually from Portal |
+   | Hourly | Run once every hour |
+   | Daily | Run every day at 7:00 AM |
+   | Weekly | Run once every week |
+   | Custom | Enter a custom cron expression |
 
    :::warning
-   Nếu bạn định nghĩa nhiều quy tắc, lịch trình áp dụng cho tất cả quy tắc. Không thể lên lịch khác nhau cho từng quy tắc riêng lẻ.
+   If you define multiple rules, the schedule applies to all rules. You cannot set different schedules for individual rules.
    :::
 
-   Ví dụ cấu hình Custom schedule:
+   Custom schedule configuration example:
 
-   [![Ví dụ cấu hình Custom schedule](/img/migrated/Picture45-1-20717af0.png)](/img/migrated/Picture45-1-20717af0.png)
+   [![Custom schedule configuration example](/img/migrated/Picture45-1-20717af0.png)](/img/migrated/Picture45-1-20717af0.png)
 
-3. Chọn **Save** > **OK** để lưu lịch.
+3. Click **Save** > **OK** to save the schedule.
 
-   [![Xác nhận lưu lịch](/img/migrated/Picture46-1-c68ab5ea.png)](/img/migrated/Picture46-1-c68ab5ea.png)
+   [![Confirm saving the schedule](/img/migrated/Picture46-1-c68ab5ea.png)](/img/migrated/Picture46-1-c68ab5ea.png)
 
-4. Kiểm tra kết quả sau khi cấu hình lịch.
+4. Verify the result after configuring the schedule.
 
-   [![Kết quả cấu hình lịch chạy](/img/migrated/Picture47-1-373e4e1a.png)](/img/migrated/Picture47-1-373e4e1a.png)
+   [![Schedule configuration result](/img/migrated/Picture47-1-373e4e1a.png)](/img/migrated/Picture47-1-373e4e1a.png)

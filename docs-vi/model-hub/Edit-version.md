@@ -1,8 +1,8 @@
 ---
 id: "Edit-version"
-title: "バージョンの編集"
-description: "**目的**：既存のバージョンを編集できます。"
-sidebar_label: "バージョンの編集"
+title: "Edit a version"
+description: "**Purpose** : Allows users to edit an existing version."
+sidebar_label: "Edit a version"
 sidebar_position: "19"
 ---
 

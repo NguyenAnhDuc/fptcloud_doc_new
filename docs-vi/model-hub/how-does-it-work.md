@@ -1,8 +1,8 @@
 ---
 id: "how-does-it-work"
-title: "仕組み"
-description: "* Model Catalog から model を検索します（例：NLP 向けの `'Llama-3.2-1B'`、ビジョン向けの `'Qwen2-VL-72B'`）。"
-sidebar_label: "仕組み"
+title: "How does it work"
+description: "* Search the model (e.g., `'Llama-3.2-1B'` for NLP, `'Qwen2-VL-72B'` for vision)."
+sidebar_label: "How does it work"
 sidebar_position: "4"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "manage-database-engine"
-title: "Database Engine の管理"
-description: "FPT Smart Cloud Database Engine の管理操作手順。"
-sidebar_label: "Database Engine の管理"
+title: "Manage Database Engine"
+description: "Steps to manage Database Engine operations on FPT Smart Cloud."
+sidebar_label: "Manage Database Engine"
 sidebar_position: "10"
 ---
 

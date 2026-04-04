@@ -1,18 +1,20 @@
 ---
 id: "cau-hinh-proxy-protocol-cho-istio-ingress"
-title: "Managed Kubernetes Cluster での istio-ingress の Proxy Protocol 設定"
-description: "FPT Cloud の Managed Kubernetes サービスを使用して istio gateway 経由でアプリケーションにアクセスする際のエンドユーザーのパブリック IP 情報を取得するための設定方法を説明します。"
-sidebar_label: "istio-ingress の Proxy Protocol 設定"
+title: "Configure Proxy Protocol for Istio Ingress"
+description: "How to configure Proxy Protocol for Istio Ingress Gateway in Managed Kubernetes to retrieve the public IP of end users."
+sidebar_label: "Configure Proxy Protocol for Istio Ingress"
 sidebar_position: "51"
 ---
 
-# Cấu hình Proxy Protocol cho Istio Ingress
+# Configure Proxy Protocol for Istio Ingress
 
-Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public của người dùng cuối khi truy cập vào ứng dụng trong Kubernetes thông qua istio gateway, người dùng có thể cấu hình: 
-Enable proxy protocol cho service istio-ingressgateway bằng cách thêm annotation _loadbalancer.fptcloud.com/proxy-protocol: "true"_ trong cấu hình của service. 
-Cấu hình envoyFilter trong namespace _"istio-system"_ : 
+If you are using FPT Cloud Managed Kubernetes and need to retrieve the public IP of end users when they access applications in Kubernetes through an Istio gateway, you can configure the following:
 
-```
+Enable proxy protocol for the **istio-ingressgateway** service by adding the annotation `loadbalancer.fptcloud.com/proxy-protocol: "true"` to the service configuration.
+
+Configure an EnvoyFilter in the `istio-system` namespace:
+
+```yaml
 apiVersion: networking.istio.io/v1alpha3 
 kind: EnvoyFilter 
 metadata: 
@@ -33,5 +35,6 @@ spec:
       istio: [lable-istio-gateway] 
 ```
 
-Khi đó, nếu các request người dùng cuối truy cập vào ứng dụng thông qua gateway istio, trong logs của pod istio-ingressgateway có thể thấy được thông tin source IP public từ các người dùng cuối này. 
-Lưu ý tài liệu này được áp dụng cho các phiên bản thấp hơn hoặc bằng 1.22 của istio opensource.
+With this configuration, when end users access the application through the Istio gateway, the logs of the istio-ingressgateway pod will show the source public IP of those end users.
+
+**Note:** This guide applies to Istio open source versions 1.22 and earlier.

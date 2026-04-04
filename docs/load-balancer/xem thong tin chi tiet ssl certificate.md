@@ -1,14 +1,17 @@
 ---
 id: "xem thong tin chi tiet ssl certificate"
-title: "Xem thông tin chi tiết SSL Certificate"
-description: "Bạn có thể xem lại toàn bộ **SSL Certificate** đã tạo trong VPC tại mục **Manage SSL Certificate for Load balancer**."
-sidebar_label: "Xem thông tin chi tiết SSL Certificate"
+title: "View SSL Certificate Details"
+description: "How to view SSL certificate details for Load Balancer on FPT Cloud."
+sidebar_label: "View SSL Certificate Details"
 sidebar_position: "35"
 ---
 
-# Xem Thong Tin Chi Tiet Ssl Certificate
+# View SSL Certificate Details
 
-Bạn có thể xem lại toàn bộ **SSL Certificate** đã tạo trong VPC tại mục **Manage SSL Certificate for Load balancer**.
+You can view all SSL certificates created in the VPC under **Manage SSL Certificate for Load balancer**.
+
 [![file](/img/migrated/image-1712808075335-de5bd0cf.png)](/img/migrated/image-1712808075335-de5bd0cf.png)
-Khi bạn chọn một **SSL Certificate** cụ thể, hệ thống sẽ hiển thị các thông tin **Name** , **Public Key** của **SSL Certificate** đấy.
+
+When you select a specific SSL certificate, the system displays the **Name** and **Public Key** of that certificate.
+
 [![file](/img/migrated/image-1712808088237-03369751.png)](/img/migrated/image-1712808088237-03369751.png)

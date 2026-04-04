@@ -1,41 +1,41 @@
 ---
 id: "pull-docker-image-tu-fpt-container-registry-ve-local"
-title: "Pull Docker image từ FPT Container Registry về local"
-description: "Hướng dẫn pull Docker image từ FPT Container Registry về máy local."
-sidebar_label: "Pull Docker image về local"
+title: "FPT Container Registry から Docker image を pull する"
+description: "FPT Container Registry からローカルに Docker image を pull する手順。"
+sidebar_label: "FPT Container Registry から Docker image を pull する"
 sidebar_position: "9"
 ---
 
-# Pull Docker image từ FPT Container Registry về local
+# FPT Container Registry から Docker image を pull する
 
-Sau khi đã push image lên registry, bạn có thể pull image về bất kỳ máy nào có quyền truy cập. Mỗi lần pull sẽ tính vào **Pull-limit** của gói dịch vụ đang sử dụng.
+Registry に image を push した後、アクセス権を持つどのマシンからでも image を pull できます。pull するたびに使用中のサービスプランの **Pull-limit** が消費されます。
 
-1. Tại màn hình **Repository**, click vào image muốn pull để xem thông tin chi tiết.
+1. **Repository** 画面で pull したい image をクリックして詳細情報を表示します。
 
-   [![Danh sách image trong repository](/img/migrated/Picture13-2-f77f73c3.png)](/img/migrated/Picture13-2-f77f73c3.png)
+   [![Repository 内の image 一覧](/img/migrated/Picture13-2-f77f73c3.png)](/img/migrated/Picture13-2-f77f73c3.png)
 
-2. Chọn **Detail Repository** để xem chi tiết image. Click icon **copy** để sao chép lệnh pull.
+2. **Detail Repository** を選択して image の詳細を表示します。**コピー** アイコンをクリックして pull コマンドをコピーします。
 
-   FPT Cloud hỗ trợ pull theo tag hoặc theo SHA:
+   FPT Cloud は tag または SHA による pull をサポートしています:
 
-   - Pull theo SHA:
+   - SHA による pull:
 
-     [![Pull image theo SHA](/img/migrated/Picture14-1-8f23c8c0.png)](/img/migrated/Picture14-1-8f23c8c0.png)
+     [![SHA で image を pull](/img/migrated/Picture14-1-8f23c8c0.png)](/img/migrated/Picture14-1-8f23c8c0.png)
 
-   - Pull theo tag:
+   - tag による pull:
 
-     [![Pull image theo tag](/img/migrated/Picture15-1-783da3a0.png)](/img/migrated/Picture15-1-783da3a0.png)
+     [![tag で image を pull](/img/migrated/Picture15-1-783da3a0.png)](/img/migrated/Picture15-1-783da3a0.png)
 
-   Ví dụ:
+   例:
 
    ```bash
    docker pull registry.fke.fptcloud.com/088b6c2e-7fb9-4fd7-b906-779e99c63e32/docker:20.10.12-dind
    ```
 
-3. Sử dụng Docker CLI để pull image về local.
+3. Docker CLI を使用して image をローカルに pull します。
 
-   [![Kết quả pull image thành công](/img/migrated/Picture16-1-000c1df3.png)](/img/migrated/Picture16-1-000c1df3.png)
+   [![Image pull 成功の結果](/img/migrated/Picture16-1-000c1df3.png)](/img/migrated/Picture16-1-000c1df3.png)
 
-   Sau mỗi lần pull, **Pull-limit** sẽ được cập nhật:
+   Pull するたびに **Pull-limit** が更新されます:
 
-   [![Cập nhật Pull-limit sau khi pull](/img/migrated/Picture17-1-bc8321ee.png)](/img/migrated/Picture17-1-bc8321ee.png)
+   [![Pull 後の Pull-limit 更新](/img/migrated/Picture17-1-bc8321ee.png)](/img/migrated/Picture17-1-bc8321ee.png)

@@ -1,22 +1,28 @@
 ---
 id: "bat-tat-node-auto-repair"
-title: "Node Auto-repair の有効化/無効化"
-description: "Cluster Autoscale 機能に加え、FPTCloud は Node Auto-repair 機能を提供します。この機能により、NotReady 状態が 3 分以上続く worker node を自動的に再起動します。"
-sidebar_label: "Node Auto-repair の有効化/無効化"
+title: "Enable/Disable Node Auto Repair"
+description: "How to enable or disable the Node Auto Repair feature for worker groups in Managed FPT Kubernetes Engine."
+sidebar_label: "Enable/Disable Node Auto Repair"
 sidebar_position: "15"
 ---
 
-# Bật/tắt Node Auto Repair
+# Enable/Disable Node Auto Repair
 
-_Bên cạnh tính năng Cluster Autoscale, FPTCloud cung cấp tính năng Node Auto-repair hỗ trợ người dùng tự động reboot worker nodes bị NotReady quá 3 phút. Tính năng này mang đến hiệu quả trong trường hợp các worker nodes bị quá tải hoặc gặp vấn đề liên quan đến container runtime, kubelet dẫn đến tình trạng node NotReady. Nếu sau quá trình auto repair mà node không thể trở lại trạng thái Ready thì sau 10 phút hệ thống sẽ thay thế node notReady đó bằng một node mới có cấu hình tương tự. Tính năng này mặc định enable cho worker group base (là worker group chứa các thành phần system của cluster). Người dùng có thể lựa chọn enable hoặc disable tính năng này cho các worker group khác trong cluster._
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn bật/tắt Node Auto-repair. 
+In addition to the Cluster Autoscale feature, FPT Cloud provides the Node Auto-repair feature, which automatically reboots worker nodes that have been in a NotReady state for more than 3 minutes. This is effective in cases where worker nodes are overloaded or experience issues with the container runtime or kubelet, causing the node to become NotReady. If a node cannot return to Ready status after the auto repair process, the system replaces the NotReady node with a new node of the same configuration after 10 minutes. This feature is enabled by default for the base worker group (which contains the system components of the cluster). Users can choose to enable or disable this feature for other worker groups in the cluster.
+
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears. Select the **Cluster** you want to enable/disable Node Auto-repair for.
 [![](/img/migrated/Picture31-fa3d5722.png)](/img/migrated/Picture31-fa3d5722.png)
-**Bước 2** : Chọn **Node Pools** > **Edit Workers**
+
+**Step 2:** Select **Node Pools** > **Edit Workers**.
 [![](/img/migrated/Picture4-3-1c81009b.png)](/img/migrated/Picture4-3-1c81009b.png)
-**Bước 3** : Tại woker pool, thực hiện bật/tắt tính năng Node auto repair. 
+
+**Step 3:** In the worker pool, enable or disable the Node Auto Repair feature.
 [![](/img/migrated/Picture33-8691df0e.png)](/img/migrated/Picture33-8691df0e.png)
-**Lưu ý:** Chỉ có thể nâng cấp version, không thực hiện được việc hạ version.
-**Bước 4** : Click button **Save**. 
+
+**Note:** You can only upgrade the version; downgrading is not supported.
+
+**Step 4:** Click the **Save** button.
 [![](/img/migrated/Picture34-0822dd51.png)](/img/migrated/Picture34-0822dd51.png)
 [![](/img/migrated/Picture35-b4d39044.png)](/img/migrated/Picture35-b4d39044.png)
-Quá trình chỉnh sửa Bật/Tắt Node auto repair sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing** , trong khi thực hiện người sử dụng không thể thao tác chỉnh sửa Cluster cho đến khi quá trình hoàn tất.
+
+The process of enabling/disabling Node Auto Repair takes a few minutes. The cluster status changes to **Processing** during this time, and you cannot make other changes to the cluster until the process completes.

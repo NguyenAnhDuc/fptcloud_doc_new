@@ -1,8 +1,8 @@
 ---
 id: "delete-a-model"
-title: "model の削除"
-description: "**Delete a model** を使用すると、作成した model の一覧から削除できます。"
-sidebar_label: "model の削除"
+title: "Delete a model"
+description: "**Delete a model** allows user to delete from the list of created models"
+sidebar_label: "Delete a model"
 sidebar_position: "16"
 ---
 

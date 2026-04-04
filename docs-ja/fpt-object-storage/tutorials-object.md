@@ -1,75 +1,33 @@
 ---
 id: "tutorials-object"
-title: "Quản lý object"
-description: "Hướng dẫn upload, download, copy, move và xóa object trong FPT Object Storage."
-sidebar_label: "Quản lý object"
+title: "Tutorials Object"
+description: "FPT Unify Portal supports a maximum upload size of 100GB per upload. If you need to upload a larger file, please use the"
+sidebar_label: "Tutorials Object"
 sidebar_position: "5"
 ---
 
-# Quản lý object
+# Upload objects to a bucket
 
-Mỗi object trong FPT Object Storage đại diện cho một file dữ liệu. Hệ thống không áp đặt giới hạn về định dạng file — bạn có thể lưu trữ mọi loại file từ văn bản, hình ảnh, âm thanh, video đến các file định dạng riêng của ứng dụng.
+FPT Unify Portal supports a maximum upload size of 100GB per upload. If you need to upload a larger file, please use the S3 tool or S3 CLI.
+If the file you are about to upload has the same name as an existing file in the folder, you will receive an overwrite warning. If versioning is not enabled, these files will overwrite the existing file in the bucket. If versioning is enabled, the system will create a new version.
+**Step 1** : In the **Object Storage Management** dashboard, select the bucket where you want to upload the file.
+**Step 2** : Navigate to the location where you want to add the file and select **Upload object.** [![file](/img/migrated/image-1690857983047-04b1d8d1.bin)](/img/migrated/image-1690857983047-04b1d8d1.bin) **Step 3** : Choose the file from your device to upload and click **Upload**. [![file](/img/migrated/image-1690857992938-e04ca382.bin)](/img/migrated/image-1690857992938-e04ca382.bin)
 
-- **Metadata và tags:** Mỗi object có thể kèm theo metadata và tags để mô tả nội dung, giúp quản lý và tìm kiếm dễ dàng hơn.
-- **Kiểm soát quyền truy cập:** Quyền truy cập đối với từng object có thể được kiểm soát qua ACL hoặc bucket policy.
-- **Versioning:** FPT Object Storage hỗ trợ lưu nhiều phiên bản cho các object, cho phép giữ lại và phục hồi các phiên bản trước khi cần.
+# Download an Object
+**Step 1** : In the **Object Storage Management** dashboard, select the bucket that contains the file you want to download.
+**Step 2** : Navigate to the location of the file you want to download and click on the file's name. The system will automatically download the selected file to your device through the browser. [![file](/img/migrated/image-1690858004400-4b38e486.bin)](/img/migrated/image-1690858004400-4b38e486.bin)
 
-## Upload object mới vào bucket
+# Copy the URL of an Object
+You can obtain the URL of each object in case you need to share the file or link it to another website. However, to successfully GET this object, it must be in Public mode, along with the bucket containing it.
+**Step 1** : In the **Object Storage Management** dashboard, select the bucket containing the file you want to copy the URL.
+**Step 2** : Navigate to the file location, and in the **Action** section, select **Copy URL.** [![file](/img/migrated/image-1690858029271-e6abf719.bin)](/img/migrated/image-1690858029271-e6abf719.bin)
 
-**FPT Unify Portal** hỗ trợ upload tối đa 100 GB cho mỗi lần upload. Nếu cần upload file lớn hơn, hãy sử dụng S3 Client Tool, S3 SDK/CLI.
+# Delete Object
 
-:::note
-Nếu file trùng tên với file đã tồn tại, bạn sẽ nhận cảnh báo ghi đè. Nếu versioning chưa bật, file sẽ ghi đè lên file cũ. Nếu versioning đã bật, hệ thống sẽ tạo một phiên bản mới.
-:::
+```
+CopyNote: If versioning is not enabled, deleting an object will permanently remove the object and cannot be recovered. Proceed with caution.
+```
 
-1. Trên **Object Storage Management**, di chuyển đến vị trí cần thêm file và chọn **Upload object**.
-2. Chọn file từ thiết bị và chọn **Upload**.
-
-## Download object
-
-1. Di chuyển đến vị trí của file cần tải xuống trên **Object Storage Management**.
-2. Nhấn vào tên file — hệ thống sẽ tự động tải file về thiết bị.
-
-## Generate presigned URL
-
-Presigned URL là một liên kết truy cập tạm thời, giúp chia sẻ quyền truy cập vào một object cụ thể mà không cần thay đổi cấu hình quyền của bucket. Liên kết có thời hạn sử dụng và tự động hết hạn sau thời gian được chỉ định.
-
-1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần tạo presigned URL.
-2. Ở phần **Action** của object, chọn **Generate Presigned URL**.
-3. Chọn thời gian hết hạn cho URL (từ vài phút đến vài ngày), sau đó nhấn **Generate**.
-4. Sao chép và chia sẻ URL được hiển thị. Sau khi hết hạn, URL sẽ không còn hiệu lực.
-
-## Copy object
-
-Copy object cho phép sao chép dữ liệu trong FPT Object Storage mà không làm thay đổi hoặc mất dữ liệu gốc.
-
-1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần copy.
-2. Ở phần **Action** của object, chọn **Copy**.
-3. Chọn đích đến bao gồm **Bucket** và **Folder** mới nếu cần, sau đó chọn **Confirm**.
-
-## Move object
-
-Move object là quá trình di chuyển object từ vị trí này sang vị trí khác. Quá trình này sao chép object đến vị trí mới rồi xóa object khỏi vị trí ban đầu.
-
-1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần di chuyển.
-2. Ở phần **Action** của object, chọn **Move**.
-3. Chọn đích đến bao gồm **Bucket** và **Folder** mới nếu cần, sau đó chọn **Confirm**.
-
-## Copy URL của object
-
-Bạn có thể lấy URL của object để chia sẻ hoặc gắn link vào website. Để GET được object, object hoặc bucket chứa nó phải ở chế độ Public.
-
-1. Trên **Object Storage Management**, di chuyển đến vị trí file.
-2. Ở phần **Action**, chọn **Copy URL**.
-
-## Xóa object
-
-:::note
-Nếu versioning không được bật, khi xóa object thì object đó sẽ bị xóa vĩnh viễn và không thể phục hồi. Nếu versioning được bật, hệ thống sẽ tạo ra một "delete marker" thay vì xóa hoàn toàn — các phiên bản trước đó vẫn tồn tại và có thể phục hồi.
-
-Thao tác xóa qua portal chỉ phù hợp cho các file có dung lượng dưới 50 GB.
-:::
-
-1. Trên **Object Storage Management**, di chuyển đến vị trí file cần xóa.
-2. Ở phần **Action**, chọn **Delete**.
-3. Xác nhận thao tác xóa trong hộp thoại cảnh báo.
+**Step 1:** On the **Object Storage Management** dashboard, select the bucket containing the file you want to delete.
+**Step 2:** Navigate to the file location, and in the **Action** section, choose **Delete.** [![file](/img/migrated/image-1690858068872-dd1301ae.bin)](/img/migrated/image-1690858068872-dd1301ae.bin)
+**Step 3:** A confirmation dialog will appear, displaying the file name and requesting user confirmation. Select **Delete** to proceed with the deletion. [![file](/img/migrated/image-1690858075037-46f9f63d.bin)](/img/migrated/image-1690858075037-46f9f63d.bin)

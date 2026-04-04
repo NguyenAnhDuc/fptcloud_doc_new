@@ -1,18 +1,22 @@
 ---
 id: "Initial Setup"
-title: "Thiết lập ban đầu"
-description: "Để bắt đầu sử dụng FPT IAM, hãy kiểm tra và hoàn thành các công việc sau."
-sidebar_label: "Thiết lập ban đầu"
+title: "初期設定"
+description: "FPT IAMの使用を開始するために確認・完了すべき作業。"
+sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Initial Setup
+# 初期設定
 
-To start using FPT IAM, please check and complete the following tasks:
-**Register an Account on FPT Portal**
-To register an FPT Cloud account, visit the homepage at <https://fptcloud.com/>.
-  * Then select the Sign Up function and enter the required information as instructed by the system. Our support team will contact you shortly afterward to confirm the details and create your account.
-  * After logging in with the provided account and password, select the appropriate Tenant to manage permissions.
+FPT IAMの使用を開始するには、以下の作業を確認・完了してください。
 
-If you are unsure about the above information or encounter a system error after three attempts, please contact our Support team for assistance.
-Once you have completed these steps, you are ready to use FPT IAM.
+**FPT Portalでのアカウント登録**
+
+FPT Cloudアカウントを登録するには、<https://fptcloud.com/> にアクセスしてください。
+
+- **Sign Up** 機能を選択し、システムの指示に従って必要な情報を入力します。その後すぐにサポートチームが連絡し、詳細を確認してアカウントを作成します。
+- 付与されたアカウントとパスワードでログインした後、権限を管理する適切なTenantを選択します。
+
+上記の情報が不明な場合、または3回の試行後にシステムエラーが発生した場合は、サポートチームにお問い合わせください。
+
+これらの手順を完了すると、FPT IAMを使用する準備が整います。

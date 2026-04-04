@@ -1,65 +1,65 @@
 ---
 id: "khoi-tao-kubernetes-cluster-moi"
-title: "新規 Kubernetes cluster の作成"
-description: "Dedicated FPT Kubernetes Engine サービスで新規 Kubernetes cluster を作成する手順。"
-sidebar_label: "新規 Kubernetes cluster の作成"
+title: "Create a new Kubernetes cluster"
+description: "How to create a new Kubernetes cluster in Dedicated FPT Kubernetes Engine."
+sidebar_label: "Create a new Kubernetes cluster"
 sidebar_position: "4"
 ---
 
-# 新規 Kubernetes cluster の作成
+# Create a new Kubernetes cluster
 
 :::note
-実行前の必須条件:
-- CPU、RAM、Storage、Instance のクォータが希望する cluster 構成に十分であること。
-- 利用可能な Public IP が 1 つあること（Kubernetes API と Ingress 用）。
-- Kubernetes Nodes 用の VM Network が 1 つあること（Static IP Pool を持つ subnet が必要）。
+Prerequisites before proceeding:
+- CPU, RAM, Storage, and Instance quotas are sufficient for the desired cluster configuration.
+- At least one available Public IP (for Kubernetes API and Ingress).
+- One VM Network for Kubernetes Nodes (requires a subnet with a Static IP Pool).
 :::
 
-1. メニューから **Kubernetes** を選択し、**Create** をクリックします。
+1. From the menu, select **Kubernetes**, then click **Create**.
 [![](/img/migrated/Picture1-f7c686bf.png)](/img/migrated/Picture1-f7c686bf.png)
-2. cluster の名前とバージョンを入力し、**Next** をクリックします。
+2. Enter the cluster name and version, then click **Next**.
 [![](/img/migrated/Picture2-ea3a672d.png)](/img/migrated/Picture2-ea3a672d.png)
-   - **Name:** cluster 名を入力します。
-   - **Version:** cluster のバージョンを選択します。
-3. 必要に応じて Node Pools を設定し、**Next** を選択します。
+   - **Name:** Enter the cluster name.
+   - **Version:** Select the cluster version.
+3. Configure Node Pools as needed, then click **Next**.
 [![](/img/migrated/Picture3-f4c4f789.png)](/img/migrated/Picture3-f4c4f789.png)
 
    **Storage Policy & Load Balancer:**
-   - **Policy:** cluster 内の VM のディスクに使用する Storage Policy を選択します。
-   - **LB Size:** Load Balancer を設定します（Standard / Advanced / Premium）。
+   - **Policy:** Select the Storage Policy to use for VM disks in the cluster.
+   - **LB Size:** Configure the Load Balancer (Standard / Advanced / Premium).
 
-   **Master Node 設定:**
-   - **Type:** Master Node の CPU とメモリ構成を選択します。
-   - **Disk (GB):** Master Node のルートディスク容量を選択します。
-   - **High Availability:** Disable（master node 1 台）または Enable（master node 3 台）。
+   **Master Node configuration:**
+   - **Type:** Select the CPU and memory configuration for Master Nodes.
+   - **Disk (GB):** Select the root disk size for Master Nodes.
+   - **High Availability:** Disable (1 master node) or Enable (3 master nodes).
 
-   **Worker Node 設定:**
-   - **Type:** Worker Node の CPU とメモリ構成を選択します。
-   - **Disk (GB):** Worker Node のルートディスク容量を選択します。
-   - **Quantity:** cluster の Worker Node 数を入力します。
-   - **Autoscale:** autoscale 機能のオン/オフ。有効にした場合は Scale Min と Scale Max を入力します。
+   **Worker Node configuration:**
+   - **Type:** Select the CPU and memory configuration for Worker Nodes.
+   - **Disk (GB):** Select the root disk size for Worker Nodes.
+   - **Quantity:** Enter the number of Worker Nodes in the cluster.
+   - **Autoscale:** Toggle autoscale on or off. If enabled, enter Scale Min and Scale Max values.
 
    **Nodes Credentials:**
-   - **SSH Key:** VM Node へのログインに使用するキー（root ユーザー）。
+   - **SSH Key:** Key used to log in to VM Nodes (root user).
 
-4. cluster の詳細設定を行い、**Next** をクリックします。
+4. Configure advanced cluster settings, then click **Next**.
 [![](/img/migrated/Screenshot_52-aef22d51.png)](/img/migrated/Screenshot_52-aef22d51.png)
 
    **NFS Storage:**
-   - **Enable NFS Persistent Storage** をチェックすると、cluster と一緒に NFS Persistent Storage をデプロイします。
-   - **Disk (GB):** NFS Storage の容量を入力します。
+   - Check **Enable NFS Persistent Storage** to deploy NFS Persistent Storage alongside the cluster.
+   - **Disk (GB):** Enter the NFS Storage capacity.
 
-   **Firewall 設定:**
-   - **Enable Firewall** をチェックすると、cluster と一緒に Edge IP、Public IP、Private IP を設定します。
+   **Firewall configuration:**
+   - Check **Enable Firewall** to configure Edge IP, Public IP, and Private IP alongside the cluster.
 
-   **詳細設定:**
-   - **Pod Network:** cluster 内の Pod に使用するネットワーク。
-   - **Service Network:** cluster 内の Service に使用するネットワーク。
-   - **Network Node Prefix:** Node 内の Pod のサブネットプレフィックス。
-   - **Max Pod per Node:** 各 Kubernetes Node の最大 Pod 数。
-   - **Nodes DNS:** Nodes および Kubernetes cluster で使用する DNS。
+   **Advanced settings:**
+   - **Pod Network:** The network used for Pods in the cluster.
+   - **Service Network:** The network used for Services in the cluster.
+   - **Network Node Prefix:** The subnet prefix for Pods within a Node.
+   - **Max Pod per Node:** Maximum number of Pods per Kubernetes Node.
+   - **Nodes DNS:** DNS used by Nodes and the Kubernetes cluster.
 
-5. 設定の概要を確認します。
+5. Review the configuration summary.
 [![](/img/migrated/Picture4-db8dfc98.png)](/img/migrated/Picture4-db8dfc98.png)
-6. **Create a Kubernetes** を選択します。システムが確認・リソースチェックを行い、cluster の作成を開始します。
+6. Click **Create a Kubernetes**. The system verifies, checks resources, and begins creating the cluster.
 [![](/img/migrated/Picture5-6a395f6a.png)](/img/migrated/Picture5-6a395f6a.png)

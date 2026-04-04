@@ -1,8 +1,8 @@
 ---
 id: "tutorials-quan-ly-subuser"
-title: "Quản Lý SubUser Trên FPT Object Storage"
+title: "Tutorials Quan Ly Subuser"
 description: "**SubUser** là người dùng con được tạo trong FPT Object Storage với quyền truy cập giới hạn, giúp tăng cường bảo mật và "
-sidebar_label: "Quản Lý SubUser Trên..."
+sidebar_label: "Tutorials Quan Ly Subuser"
 sidebar_position: "10"
 ---
 

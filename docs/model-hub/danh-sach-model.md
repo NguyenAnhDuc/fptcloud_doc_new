@@ -1,18 +1,46 @@
 ---
 id: "danh-sach-model"
-title: "Danh Sach Model"
-description: "Mục đích: Xem danh sách, tìm kiếm model trong tổ chức của mình để dễ dàng tìm kiếm và có cái nhìn tổng quan về số lượng"
-sidebar_label: "Danh Sach Model"
+title: "Model List"
+description: "View and search models in your organization."
+sidebar_label: "Model List"
 sidebar_position: "4"
 ---
 
-# Danh Sach Model
+# Model List
 
-Mục đích: Xem danh sách, tìm kiếm model trong tổ chức của mình để dễ dàng tìm kiếm và có cái nhìn tổng quan về số lượng 
-Để tìm kiếm 1 model nào đó, bạn thao tác như sau: Bước 1: Tại màn hình danh sách model, bạn nhập từ khóa tìm kiếm vào thanh search, sau đó ấn Enter 
-Lưu ý: Từ khóa có thể nhập dạng tương đối, không phân biệt hoa thường 
+View and search the models in your organization to get an overview of total model count and find specific models quickly.
 
-Bước 2: Màn hình lúc này sẽ trả ra kết quả các model phù hợp với kết quả tìm kiếm 
-Màn danh sách model còn cho phép bạn sắp xếp các model theo thứ tự thời gian tạo gần nhất (last created), thời gian cập nhật gần nhất (last modified), sắp xếp model theo thứ tự alphabetic (A-Z), alphabetic (Z-A). Hệ thống đang mặc định hiển thị danh sách model theo thứ tự cập nhật gần nhất. Để sắp xếp lại danh sách các model, bạn thao tác như sau: 
+## Search for a model
 
-Bước 1: Tại màn danh sách model, click vào dropdown list, có 4 option cho bạn lựa chọn tùy theo nhu cầu sắp xếp danh sách model, lần lượt là: Last modified, last created, alphabetic (A-Z), alphabetic (Z-A). Bước 2: Sau khi chọn 1 option, màn hình trả ra danh sách model được sắp xếp theo lựa chọn tương ứng [![](/img/migrated/Picture2-b6be0846.png)](/img/migrated/Picture2-b6be0846.png) Ngoài ra, hệ thống còn cho phép filter ra danh sách các model tùy theo nhu cầu tìm kiếm bằng cách kết hợp 1 hay nhiều filter với nhau. Để filter các model, bạn làm như sau: Bước 1: Click vào biểu tượng filter, màn hình hiển thị ra popup với các option để filter [![](/img/migrated/Picture3-11196998.png)](/img/migrated/Picture3-11196998.png) [![](/img/migrated/Picture4-f31e5037.png)](/img/migrated/Picture4-f31e5037.png) Bước 2: Apply các filter tương ứng, click button Apply, màn hình trả ra kết quả các model tương ứng với filter. Để hiển thị lại toàn bộ danh sách model, click button Clear
+1. On the model list screen, enter a keyword in the search bar, then press **Enter**.
+
+   > **Note:** The keyword supports partial matching and is case-insensitive.
+
+2. The screen returns a list of models matching your search.
+
+## Sort models
+
+The model list supports sorting by:
+- **Last modified**: Most recently updated (default).
+- **Last created**: Most recently created.
+- **Alphabetic (A–Z)**.
+- **Alphabetic (Z–A)**.
+
+To sort the list:
+
+1. On the model list screen, click the dropdown list and select one of the 4 sort options.
+
+2. The screen returns the model list sorted according to your selection.
+[![](/img/migrated/Picture2-b6be0846.png)](/img/migrated/Picture2-b6be0846.png)
+
+## Filter models
+
+You can also filter models by combining one or more filter criteria.
+
+1. Click the filter icon. A popup appears with available filter options.
+[![](/img/migrated/Picture3-11196998.png)](/img/migrated/Picture3-11196998.png)
+[![](/img/migrated/Picture4-f31e5037.png)](/img/migrated/Picture4-f31e5037.png)
+
+2. Select the filters you want to apply, then click **Apply**. The screen returns a filtered list of models.
+
+3. To display all models again, click **Clear**.

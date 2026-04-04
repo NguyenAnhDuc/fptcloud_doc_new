@@ -1,36 +1,36 @@
 ---
 id: "deploy-application-in-worker-pool"
-title: "Deploy application in worker pool"
-description: "The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applicatio"
-sidebar_label: "Deploy application in worker pool"
+title: "Triển khai ứng dụng trên worker pool"
+description: "Sản phẩm M-FKE quản lý worker dựa trên worker pool, hỗ trợ người dùng triển khai ứng dụng mà không cần lo lắng về vấn đề scale tài nguyên."
+sidebar_label: "Triển khai ứng dụng trên worker pool"
 sidebar_position: "17"
 ---
 
-# Deploy application in worker pool
+# Triển khai ứng dụng trên worker pool
 
-The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applications without worrying about resource scaling issues.
+Sản phẩm M-FKE quản lý worker dựa trên worker pool, hỗ trợ người dùng triển khai ứng dụng mà không cần lo lắng về vấn đề scale tài nguyên.
 
-### The manifest file configuration for application deployment
-For example, deploying an application on a cluster with 02 worker pools:
+### Cấu hình file manifest để triển khai ứng dụng
+Ví dụ: triển khai ứng dụng trên cluster có 02 worker pool:
 [![](/img/migrated/38-1-6efb9b88.png)](/img/migrated/38-1-6efb9b88.png)
-Each worker pool has a worker node:
+Mỗi worker pool có một worker node:
 [![](/img/migrated/39-1-b46c56f7.png)](/img/migrated/39-1-b46c56f7.png)
-Worker nodes are labeled to differentiate nodes and facilitate application deployment on nodes with common labels:
+Worker node được gán label để phân biệt các node và dễ dàng triển khai ứng dụng lên node có label chung:
 [![](/img/migrated/40-1-bd0237e9.png)](/img/migrated/40-1-bd0237e9.png)
-Worker nodes belonging to the worker pool **worker-1zx5wqdu** are labeled **worker.fptcloud/pool=worker-1zx5wqdu**.
-Users can copy the worker pool name when clicking on the details of the worker pool configuration.
+Worker node thuộc worker pool **worker-1zx5wqdu** được gán label **worker.fptcloud/pool=worker-1zx5wqdu**.
+Người dùng có thể sao chép tên worker pool khi bấm vào chi tiết cấu hình của worker pool.
 [![](/img/migrated/41-1-c6efbda0.png)](/img/migrated/41-1-c6efbda0.png)
-When using resources to deploy applications in Kubernetes (Pod, Deployment, StatefulSet, DaemonSet, Replicaset), users can add a **Node Affinity Rule** or **Node Selector** in the Specification section of the configuration file:
+Khi sử dụng tài nguyên để triển khai ứng dụng trong Kubernetes (Pod, Deployment, StatefulSet, DaemonSet, ReplicaSet), người dùng có thể thêm **Node Affinity Rule** hoặc **Node Selector** trong phần Specification của file cấu hình:
 [![](/img/migrated/42-1-57d47fd0.png)](/img/migrated/42-1-57d47fd0.png)
 [![](/img/migrated/43-1-21ff93a1.png)](/img/migrated/43-1-21ff93a1.png)
-In this case, the value entered in the first image's **values** section (using **Node Affinity Rule**) and the value in the **nodeSelector** section is the name of the worker pool that the user wants to deploy the application to.
+Trong trường hợp này, giá trị nhập vào mục **values** (dùng **Node Affinity Rule**) và giá trị trong mục **nodeSelector** là tên worker pool mà người dùng muốn triển khai ứng dụng lên.
 
-### Application Deployment:
-When deploying the NGINX application using the manifest file:
+### Triển khai ứng dụng:
+Khi triển khai ứng dụng NGINX bằng file manifest:
 [![](/img/migrated/44-1-ee17e782.png)](/img/migrated/44-1-ee17e782.png)
-One pod is in **Pending** state due to a lack of resources on the worker nodes in the pool to run the pod:
+Một pod ở trạng thái **Pending** do worker node trong pool không đủ tài nguyên để chạy pod:
 [![](/img/migrated/45-1-29ab2f37.png)](/img/migrated/45-1-29ab2f37.png)
-The **Cluster Autoscaler** component from FPT Cloud will scale up by adding more worker nodes to that pool to serve the pending NGINX pod.
+Thành phần **Cluster Autoscaler** của FPT Cloud sẽ tự động scale out thêm worker node vào pool đó để phục vụ nginx pod đang Pending.
 [![](/img/migrated/46-1-1acc0d3d.png)](/img/migrated/46-1-1acc0d3d.png)
-After adding a worker node to the worker pool, the NGINX pod that was previously **Pending** is now in the **Running** state.
-When scaling the application using fewer pods, the available resources on the worker nodes will increase until the resource usage for CPU and Memory compared to the node's maximum resources decreases below 50% over a 10-minute period. At that point, the node will be automatically removed from the worker pool, saving costs for the user.
+Sau khi thêm worker node vào worker pool, nginx pod trước đó ở trạng thái **Pending** sẽ chuyển sang trạng thái **Running**.
+Khi scale ứng dụng xuống dùng ít pod hơn, tài nguyên sẵn có trên worker node tăng lên. Khi mức sử dụng CPU và Memory so với tài nguyên tối đa của node giảm xuống dưới 50% trong 10 phút liên tiếp, node đó sẽ tự động bị xóa khỏi worker pool, tiết kiệm chi phí cho người dùng.

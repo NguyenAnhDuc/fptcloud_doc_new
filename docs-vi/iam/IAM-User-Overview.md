@@ -1,12 +1,12 @@
 ---
 id: "overview-iam-user"
-title: "IAM User overview"
+title: "Tổng quan IAM User"
 description: "IAM User là người dùng được mời thêm vào Tenant, có thể đã có hoặc chưa có tài khoản FPT Cloud."
-sidebar_label: "IAM User overview"
+sidebar_label: "Tổng quan IAM User"
 sidebar_position: 18
 ---
 
-# IAM User overview
+# Tổng quan IAM User
 
 IAM User là người dùng được mời thêm vào Tenant, có thể là người dùng đã có tài khoản FPT Cloud/SSO hoặc chưa có.
 

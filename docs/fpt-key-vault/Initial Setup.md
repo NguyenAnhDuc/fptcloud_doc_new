@@ -1,27 +1,27 @@
 ---
 id: "Initial Setup"
-title: "Thiết lập ban đầu"
-description: "Các bước chuẩn bị trước khi bắt đầu sử dụng FPT Key Vault lần đầu tiên"
-sidebar_label: "Thiết lập ban đầu"
+title: "Initial Setup"
+description: "Prerequisites before using FPT Key Vault for the first time"
+sidebar_label: "Initial Setup"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# Initial Setup
 
-Trước khi sử dụng FPT Key Vault, bạn cần có tài khoản FPT Cloud và đăng nhập vào FPT Portal. Bước này đảm bảo bạn có quyền truy cập đúng Tenant, Region và VPC để khởi tạo dịch vụ.
+Before using FPT Key Vault, you need an FPT Cloud account and must log in to the FPT Portal. This step ensures you have the correct access to the Tenant, Region, and VPC to initialize the service.
 
-## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## Create an FPT Cloud account and log in to FPT Portal
 
-Nếu chưa có tài khoản FPT Cloud, truy cập [https://fptcloud.com/](https://fptcloud.com/), chọn **Sign Up** và nhập các thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận và tạo tài khoản.
+If you do not have an FPT Cloud account, go to [https://fptcloud.com/](https://fptcloud.com/), click **Sign Up**, and enter the required information. The support team will contact you to verify and create your account.
 
-Sau khi có tài khoản, thực hiện các bước sau:
+Once you have an account, follow these steps:
 
-1. Truy cập [FPT Cloud Portal](https://console.fptcloud.com).
-2. Nhập email và mật khẩu, chọn **Sign In**.
-3. Chọn đúng **Tenant**, **Region** và **VPC** cần sử dụng dịch vụ.
+1. Go to [FPT Cloud Portal](https://console.fptcloud.com).
+2. Enter your email and password, then click **Sign In**.
+3. Select the correct **Tenant**, **Region**, and **VPC** for the service.
 
 :::note
-Nếu gặp bất kỳ lỗi nào trong quá trình thao tác, hãy liên hệ đội ngũ Support để được hỗ trợ kịp thời.
+If you encounter any errors during the process, contact the Support team for immediate assistance.
 :::
 
-Sau khi hoàn tất các bước trên, bạn đã sẵn sàng để khởi tạo **Key Vault** trên hệ thống FPT Cloud.
+After completing the above steps, you are ready to create a **Key Vault** on FPT Cloud.

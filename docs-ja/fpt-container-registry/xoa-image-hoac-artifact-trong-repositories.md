@@ -1,53 +1,53 @@
 ---
 id: "xoa-image-hoac-artifact-trong-repositories"
-title: "Xóa image hoặc artifact trong repositories"
-description: "Xóa image, artifact hoặc tag để giải phóng dung lượng lưu trữ."
-sidebar_label: "Xóa image hoặc artifact"
+title: "Repository 内の image または artifact を削除する"
+description: "ストレージを解放するために image、artifact、または tag を削除する。"
+sidebar_label: "Repository 内の image または artifact を削除する"
 sidebar_position: "12"
 ---
 
-# Xóa image hoặc artifact trong repositories
+# Repository 内の image または artifact を削除する
 
-Khi cần giải phóng dung lượng lưu trữ hoặc loại bỏ các image/artifact không còn sử dụng, thực hiện theo các bước dưới đây. Thao tác xóa không thể hoàn tác.
+ストレージを解放したり、使用しなくなった image/artifact を削除したりする場合は、以下の手順に従います。削除操作は元に戻せません。
 
 :::danger
-Xóa image, artifact hoặc tag là thao tác không thể khôi phục. Đảm bảo bạn không còn cần tài nguyên này trước khi xóa.
+Image、artifact、または tag の削除は元に戻せません。削除前にそのリソースが不要であることを確認してください。
 :::
 
-## Xóa repository
+## Repository を削除する
 
-1. Trong phần **Action** của image hoặc artifact, chọn **Delete**.
+1. image または artifact の **Action** セクションで **Delete** を選択します。
 
-   [![Chọn Delete trong Action](/img/migrated/Picture19-1-efab785a.png)](/img/migrated/Picture19-1-efab785a.png)
+   [![Action の Delete を選択](/img/migrated/Picture19-1-efab785a.png)](/img/migrated/Picture19-1-efab785a.png)
 
-2. Chọn **Delete** trong hộp thoại xác nhận.
+2. 確認ダイアログで **Delete** をクリックします。
 
-   [![Xác nhận xóa repository](/img/migrated/Picture20-1-a67dbf3a.png)](/img/migrated/Picture20-1-a67dbf3a.png)
+   [![Repository 削除の確認](/img/migrated/Picture20-1-a67dbf3a.png)](/img/migrated/Picture20-1-a67dbf3a.png)
 
-## Xóa artifact
+## Artifact を削除する
 
-1. Mở **Detail Repository** để xem danh sách artifact.
+1. **Detail Repository** を開いて artifact の一覧を表示します。
 
-   [![Chi tiết repository](/img/migrated/Picture21-1-14112c71.png)](/img/migrated/Picture21-1-14112c71.png)
+   [![Repository の詳細](/img/migrated/Picture21-1-14112c71.png)](/img/migrated/Picture21-1-14112c71.png)
 
-2. Trong phần **Action** của artifact, chọn **Delete**.
+2. artifact の **Action** セクションで **Delete** を選択します。
 
-   [![Chọn Delete artifact](/img/migrated/Picture22-1-812a2686.png)](/img/migrated/Picture22-1-812a2686.png)
+   [![Artifact の Delete を選択](/img/migrated/Picture22-1-812a2686.png)](/img/migrated/Picture22-1-812a2686.png)
 
-3. Chọn **Delete** trong hộp thoại xác nhận.
+3. 確認ダイアログで **Delete** をクリックします。
 
-   [![Xác nhận xóa artifact](/img/migrated/Picture23-1-7da45a00.png)](/img/migrated/Picture23-1-7da45a00.png)
+   [![Artifact 削除の確認](/img/migrated/Picture23-1-7da45a00.png)](/img/migrated/Picture23-1-7da45a00.png)
 
-## Xóa tag
+## Tag を削除する
 
-1. Mở **Detail Tag** để xem thông tin tag.
+1. **Detail Tag** を開いて tag の情報を表示します。
 
-   [![Chi tiết tag](/img/migrated/Picture24-1-65f144c5.png)](/img/migrated/Picture24-1-65f144c5.png)
+   [![Tag の詳細](/img/migrated/Picture24-1-65f144c5.png)](/img/migrated/Picture24-1-65f144c5.png)
 
-2. Trong phần **Action** của tag, chọn **Delete**.
+2. tag の **Action** セクションで **Delete** を選択します。
 
-   [![Chọn Delete tag](/img/migrated/Picture25-609bcb94.png)](/img/migrated/Picture25-609bcb94.png)
+   [![Tag の Delete を選択](/img/migrated/Picture25-609bcb94.png)](/img/migrated/Picture25-609bcb94.png)
 
-3. Chọn **Delete** trong hộp thoại xác nhận.
+3. 確認ダイアログで **Delete** をクリックします。
 
-   [![Xác nhận xóa tag](/img/migrated/Picture26-f6b122fd.png)](/img/migrated/Picture26-f6b122fd.png)
+   [![Tag 削除の確認](/img/migrated/Picture26-f6b122fd.png)](/img/migrated/Picture26-f6b122fd.png)

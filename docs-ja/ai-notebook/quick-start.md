@@ -1,47 +1,47 @@
 ---
 id: "quick-start"
-title: "Hướng dẫn nhanh"
-description: "Bắt đầu sử dụng AI Notebooks trên FPT AI Factory."
-sidebar_label: "Hướng dẫn nhanh"
+title: "クイックスタート"
+description: "FPT AI FactoryでAI Notebookを始めるためのクイックスタートガイド。"
+sidebar_label: "クイックスタート"
 sidebar_position: "3"
 ---
 
-# Quick start
+# クイックスタート
 
-## Step 1: Create an account
+## ステップ1: アカウントを作成する
 
-  1. Go to <https://ai.fptcloud.com/>, sign up using **FPT ID** or continue with **Google**.
-  2. Verify your account via confirmation email from **FPT Smart Cloud** if using FPT ID.
+1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) にアクセスし、**FPT ID** を使用してサインアップするか、**Google** アカウントで続行してください。
+2. FPT ID を使用する場合は、**FPT Smart Cloud** からの確認メールでアカウントを確認してください。
 
-## Step 2: Log in to your account
+## ステップ2: アカウントにログインする
 
-  1. Return to <https://ai.fptcloud.com/> and log in.
+1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) に戻り、ログインしてください。
 
-## Step 3: Launch AI Notebook
+## ステップ3: AI Notebookを起動する
 
-  1. From the left menu, select **AI Notebooks**.
-  2. Wait about **1–2 minutes** for the notebook to start.
-  3. Check out the detailed guide [here](./launch-ai-notebook.md)
+1. 左メニューから「**AI Notebooks**」を選択してください。
+2. ノートブックの起動には約**1〜2分**かかります。
+3. 詳細なガイドは[こちら](./launch-ai-notebook.md)をご覧ください。
 
-## Step 4: Add credit to account
+## ステップ4: アカウントにクレジットを追加する
 
-  1. On the left menu, under **Account** section, select **Billing**
-  2. Click **Add Credit** and enter an amount and payment information.
-  3. If you have a voucher from FPT, apply your valid code under **Add Voucher** to redeem credits.
-  4. Check out the detailed guide [here](../ai-factory-billing/index.md)
+1. 左メニューの「**Account**」セクションから「**Billing**」を選択してください。
+2. 「**Add Credit**」をクリックし、金額と支払い情報を入力して完了します。
+3. FPT発行のバウチャーをお持ちの場合は、「**Add Voucher**」セクションで有効なコードを入力し、クレジットを交換してください。
+4. 詳細なガイドは[こちら](../ai-factory-billing/index.md)をご覧ください。
 
-## Step 5: Create AI Notebook
+## ステップ5: AI Notebookを作成する
 
-  1. From the **Launcher**, you can choose to create a notebook that connects to CPU/GPU.
-  2. Check out the detailed guide [here](../ai-notebook/index.md)
+1. **Launcher** から、CPU/GPUに接続するノートブックを作成できます。
+2. 詳細なガイドは[こちら](../ai-notebook/index.md)をご覧ください。
 
-## Step 6: Connect notebook to a new/existing kernel
+## ステップ6: ノートブックを新規/既存カーネルに接続する
 
-  1. To start a new kernel, select the kernel you want from **Start Other Kernels** in the **kernel configuration menu**.
-  2. To connect your notebook to an existing kernel, select the kernel you want from **Running Kernels** in the **kernel configuration menu**.
-  3. Check out the detailed guide [here](../ai-notebook/index.md)
+1. 新しいカーネルを起動するには、**カーネル設定メニュー**の「**Start Other Kernels**」から目的のカーネルを選択してください。
+2. 既存カーネルに接続するには、**カーネル設定メニュー**の「**Running Kernels**」から目的のカーネルを選択してください。
+3. 詳細なガイドは[こちら](../ai-notebook/index.md)をご覧ください。
 
-## Step 7: Shut down kernel
+## ステップ7: カーネルをシャットダウンする
 
-  1. Navigate to **Running Kernels/Notebooks** (second icon from the top in the navigation bar).
-  2. Check out the detailed guide [here](./shut-down-kernel.md)
+1. **Running Kernels/Notebooks**（ナビゲーションバー上から2番目のアイコン）に移動します。
+2. 詳細なガイドは[こちら](./shut-down-kernel.md)をご覧ください。

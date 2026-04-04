@@ -1,19 +1,18 @@
 ---
 id: "view-activity-en"
-title: "View Activity En"
-description: "Actions on the VPC are recorded in the Activity log. Users can review it as needed."
-sidebar_label: "View Activity En"
-sidebar_position: 4
+title: "View activity log and task status"
+description: "Guide to viewing the Activity log and recent task status for a VPC."
+sidebar_label: "View activity log and task status"
+sidebar_position: 5
 pagination_next: null
 ---
 
-# View Activity En
+# View activity log and task status
 
-Actions on the VPC are recorded in the Activity log. Users can review it as needed.
-[![file](/img/migrated/image-1714811329766-37208c03.png)](/img/migrated/image-1714811329766-37208c03.png)
-__
-_VPC Activity log records actions on VPC_
-In addition, actions on the VPC are recorded in Bell - Recent task. Users can know the status of tasks in progress
-[![file](/img/migrated/image-1714811345638-2e8d0492.png)](/img/migrated/image-1714811345638-2e8d0492.png)
-__
-_Bell recent task records tasks that are being performed on the VPC_
+All actions performed on a VPC are recorded in the Activity log. You can review them at any time.
+
+![VPC Activity log recording all actions on the VPC](/img/migrated/image-1744258669711-406a501d.png)
+
+VPC actions are also recorded in **Bell - Recent task**, where you can check the status of tasks in progress.
+
+![Bell Recent task recording tasks running on the VPC](/img/migrated/image-1714811345638-2e8d0492.png)

@@ -1,27 +1,27 @@
 ---
 id: "huong-dan-nang-goi-dich-vu-dang-su-dung"
-title: "Nâng gói dịch vụ"
-description: "Nâng cấp gói FPT Container Registry lên mức cao hơn."
-sidebar_label: "Nâng gói dịch vụ"
+title: "サービスプランをアップグレードする"
+description: "FPT Container Registry のサービスプランを上位にアップグレードする。"
+sidebar_label: "サービスプランをアップグレードする"
 sidebar_position: "29"
 ---
 
-# Nâng gói dịch vụ
+# サービスプランをアップグレードする
 
-Khi nhu cầu lưu trữ hoặc số lần pull tăng vượt giới hạn của gói hiện tại, bạn có thể nâng cấp lên gói cao hơn trực tiếp trên Portal. Chỉ có thể nâng gói, không thể hạ gói.
+ストレージ使用量や pull 回数が現在のプランの上限を超える場合、Portal から直接上位プランにアップグレードできます。アップグレードのみ可能で、ダウングレードはできません。
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Configuration** > **Update Type**.
+1. **FPT Portal** メニューで **Container Registry** > **Configuration** > **Update Type** を選択します。
 
-   [![Nút Update Type trong Configuration](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
+   [![Configuration の Update Type ボタン](/img/migrated/Picture86-62c0048a.png)](/img/migrated/Picture86-62c0048a.png)
 
-2. Chọn gói dịch vụ muốn nâng cấp.
+2. アップグレードしたいサービスプランを選択します。
 
-   [![Danh sách gói dịch vụ để nâng cấp](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
+   [![アップグレード用サービスプラン一覧](/img/migrated/Picture87-793fd481.png)](/img/migrated/Picture87-793fd481.png)
 
-3. Chọn **Update** để xác nhận nâng gói.
+3. **Update** をクリックしてアップグレードを確認します。
 
-   [![Xác nhận nâng gói](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
+   [![アップグレードの確認](/img/migrated/Picture88-0cf71a94.png)](/img/migrated/Picture88-0cf71a94.png)
 
-4. Kiểm tra thông tin gói dịch vụ sau khi nâng cấp.
+4. アップグレード後のサービスプラン情報を確認します。
 
-   [![Thông tin gói sau khi nâng cấp](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)
+   [![アップグレード後のプラン情報](/img/migrated/Picture89-ca8ca84b.png)](/img/migrated/Picture89-ca8ca84b.png)

@@ -1,23 +1,23 @@
 ---
-id: "Why-cant-I-watch-Cost-Explore"
-title: "Cannot view Cost Explorer"
-description: "Causes and solutions when Cost Explorer is not visible."
-sidebar_label: "Cannot view Cost Explorer"
+id: "question-1"
+title: "Cost Explorerが表示されない"
+description: "Cost Explorerが表示されない場合の原因と対処法。"
+sidebar_label: "Cost Explorerが表示されない"
 sidebar_position: "4"
 ---
 
-# Cannot view Cost Explorer
+# Cost Explorerが表示されない
 
-There are three situations that prevent you from viewing the Billing module in general and Cost Explorer in particular:
+BillingモジュールおよびCost Explorer機能が表示されない原因として、以下の3つのケースが考えられます。
 
-**1. Your account has the Tenant Owner role but billing data is empty.**
+**1. アカウントにTenant Ownerロールがあるが、billingデータが空の場合**
 
-Contact FCI Sale Support to set up service pricing and enable billing data display on the Portal.
+FCI Sale Supportに連絡してサービス料金の設定とPortalへのbillingデータ表示の対応を依頼してください。
 
-**2. Your account does not have the Tenant Owner role.**
+**2. アカウントにTenant Ownerロールがない場合**
 
-Ask a Tenant Owner in your organization to grant IAM permissions following the guide at [Grant billing permissions](../billing/index.md).
+組織内のTenant Owner権限を持つ担当者に、IAM権限の付与を依頼してください。手順については[billing閲覧権限の設定](../billing/index.md)をご参照ください。
 
-**3. Your account has sufficient billing view permissions but no data appears.**
+**3. アカウントに十分なbilling閲覧権限があるがデータが表示されない場合**
 
-Check the Project and Region currently selected. Try selecting the default Project and the Region where your billed resources are located. If the issue persists, contact FCI support.
+現在選択しているProjectとRegionを確認してください。デフォルトのProjectと請求対象リソースのあるRegionに切り替えてお試しください。解決しない場合は、FCIサポートにお問い合わせください。

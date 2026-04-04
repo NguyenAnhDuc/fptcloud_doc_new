@@ -1,8 +1,8 @@
 ---
 id: "cloud-server"
-title: "Tổng quan FPT Cloud Server"
-description: "FPT Cloud Server giúp bạn khởi tạo và quản lý máy ảo trên nền tảng cloud với hiệu năng cao, bảo mật và linh hoạt."
-sidebar_label: "Tổng quan"
+title: "FPT Cloud Server overview"
+description: "FPT Cloud Server helps you create and manage virtual machines on the cloud with high performance, security, and flexible resource scaling."
+sidebar_label: "Overview"
 sidebar_position: "1"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "step-by-step"
-title: "Step By Step"
-description: "Hướng dẫn từng bước sử dụng Model Fine-Tuning trên FPT AI Factory."
-sidebar_label: "Step By Step"
+title: "ステップバイステップ"
+description: "FPT AI Factory で Model Fine-Tuning を使用するためのステップバイステップガイド。"
+sidebar_label: "ステップバイステップ"
 sidebar_position: "7"
 ---
 

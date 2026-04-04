@@ -1,28 +1,40 @@
 ---
 id: "tao-model"
-title: "Mục đích: Thêm mới model vào hệ thống"
-description: "Mục đích: Thêm mới model vào hệ thống"
-sidebar_label: "Mục đích: Thêm mới model vào hệ thống"
+title: "model の作成"
+description: "システムに新しい model を追加します。"
+sidebar_label: "model の作成"
 sidebar_position: "6"
 ---
 
-# Tao Model
+# model の作成
 
-Mục đích: Thêm mới model vào hệ thống 
-Để tạo mới 1 model, bạn thao tác như sau: Bước 1: Tại màn hình dịch vụ Model Hub, click button Create đi đến màn tạo mới  
-[![](/img/migrated/Picture9-661ce3b5.png)](/img/migrated/Picture9-661ce3b5.png) [![](/img/migrated/Picture10-6db13648.png)](/img/migrated/Picture10-6db13648.png) Bước 2: Tại step 1 Basic Infomation, nhập Model title 
-Lưu ý: Model title bao gồm các ký tự a-z, A-Z, số, dấu "-", "_" . Tên model là duy nhất và không được để trống 
+システムに新しい model を追加します。
 
-Bước 3: Nhập Description mô tả của Model 
+## 手順
 
-Bước 4: Chọn Model visibility (Private, Public hoặc Public metadata) 
+1. **Model Hub** サービス画面で **Create** をクリックし、作成フォームに進みます。
+[![](/img/migrated/Picture9-661ce3b5.png)](/img/migrated/Picture9-661ce3b5.png)
+[![](/img/migrated/Picture10-6db13648.png)](/img/migrated/Picture10-6db13648.png)
 
-Bước 5: Upload Avatar 
+2. **Step 1 — Basic Information** で **Model title** を入力します。
 
-Bước 6: Điền thông tin Model overview mô tả tổng quan về Model 
+   > **注意:** Model title には a–z、A–Z、数字、`-`、`_` が使用できます。名前は一意であり、空白にできません。
 
-Bước 7: Click button Next để chuyển sang step 2 sau khi đã điền đầy đủ thông tin ở step 1 [![](/img/migrated/Picture11-befcf99e.png)](/img/migrated/Picture11-befcf99e.png) Bước 8: Tại step 2 Tags, thực hiện chọn lần lượt các tag cho Framework, Architecture, Subject, Task, Others 
+3. model の **Description** を入力します。
 
-Bước 9: Click button Next để sang step 3, hoặc button Back nếu muốn trở lại step 1 để chỉnh sửa 
+4. **Model visibility**（Private、Public、または Public metadata）を選択します。
 
-Bước 10: Tại step 3 Review & Create, bạn review lại các thông tin đã tạo của Model, nếu đã đầy đủ và chính xác, click button Create a model để hoàn thành phần tạo mới 1 model, màn hình sẽ back lại trang model list với model mới tạo ở đầu tiên, nếu cần chỉnh sửa lại thông tin click button Back
+5. **Avatar** をアップロードします。
+
+6. model の概要を説明する **Model overview** を入力します。
+
+7. **Next** をクリックして Step 2 に進みます。
+[![](/img/migrated/Picture11-befcf99e.png)](/img/migrated/Picture11-befcf99e.png)
+
+8. **Step 2 — Tags** で、Framework、Architecture、Subject、Task、Others の各 tag を選択します。
+
+9. **Next** をクリックして Step 3 に進むか、**Back** をクリックして Step 1 に戻ります。
+
+10. **Step 3 — Review & Create** で、model のすべての情報を確認します。内容が正しければ **Create a model** をクリックして完了します。修正が必要な場合は **Back** をクリックします。
+
+新しい model が model リストの先頭に表示されます。

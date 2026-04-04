@@ -1,30 +1,30 @@
 ---
 id: "faqs-mfke"
-title: "FAQs"
-description: "Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). M-FKE provides support in both of these regi"
-sidebar_label: "FAQs"
+title: "Câu hỏi thường gặp"
+description: "Các câu hỏi thường gặp về dịch vụ Managed FPT Kubernetes Engine."
+sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: "28"
 ---
 
-# FAQs
+# Câu hỏi thường gặp
 
-### Which regions does M-FKE support?
-Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). M-FKE provides support in both of these regions.
+### M-FKE hỗ trợ những region nào?
+Hiện tại FPT Cloud hỗ trợ 02 Region: HAN (Hà Nội) và SGN (Sài Gòn/HCM). M-FKE cung cấp hỗ trợ ở cả hai region này.
 
-### Can an M-FKE cluster span multiple regions?
-M-FKE does not support a cluster running across multiple regions. You can create a cluster in each region for the same application to implement BC&DR (Business Continuity and Disaster Recovery).
+### Cluster M-FKE có thể trải rộng trên nhiều region không?
+M-FKE không hỗ trợ cluster chạy trên nhiều region. Bạn có thể tạo cluster ở mỗi region cho cùng một ứng dụng để thực hiện BC&DR (Business Continuity and Disaster Recovery).
 
-### Does M-FKE support multiple VM configurations within a cluster?
-M-FKE supports multiple VM configurations within a cluster by using worker groups, each worker group can have a different configuration. Worker Nodes within the same worker group have the same configuration (CPU, RAM, DISK).
+### M-FKE có hỗ trợ nhiều cấu hình VM trong một cluster không?
+M-FKE hỗ trợ nhiều cấu hình VM trong một cluster bằng cách sử dụng worker group, mỗi worker group có thể có cấu hình khác nhau. Các Worker Node trong cùng một worker group có cùng cấu hình (CPU, RAM, Disk).
 
-### How many Worker Nodes does M-FKE support in a cluster?
-M-FKE defaults to a maximum limit of 100 Worker Nodes per Worker Group and 10 Worker Groups per Cluster. You need to contact FPT Cloud to increase the Worker Nodes limit if needed.
+### M-FKE hỗ trợ tối đa bao nhiêu Worker Node trong một cluster?
+M-FKE mặc định giới hạn tối đa 100 Worker Node mỗi Worker Group và 10 Worker Group mỗi Cluster. Bạn cần liên hệ FPT Cloud để tăng giới hạn Worker Node nếu cần.
 
-### Is M-FKE compatible with my existing Kubernetes applications?
-M-FKE uses native Kubernetes, making it fully compatible with Kubernetes platforms on other clouds such as AWS, Azure, GCP, DO, as well as Kubernetes clusters you install on your infrastructure. This facilitates easy migration of applications between FPT Cloud, your data center, and other clouds.
+### M-FKE có tương thích với các ứng dụng Kubernetes hiện tại của tôi không?
+M-FKE sử dụng native Kubernetes, hoàn toàn tương thích với các nền tảng Kubernetes trên các cloud khác như AWS, Azure, GCP, DO, cũng như các Kubernetes cluster bạn cài đặt trên hạ tầng của mình. Điều này giúp dễ dàng di chuyển ứng dụng giữa FPT Cloud, data center của bạn và các cloud khác.
 
-### How can I expose my application outside the cluster?
-There are several ways to expose your application outside the cluster for customer use. One simple method is to use the [Load Balancer Services](../managed-fpt-kubernetes-engine/index.md) as instructed.
+### Làm sao để expose ứng dụng ra ngoài cluster?
+Có nhiều cách để expose ứng dụng ra ngoài cluster cho khách hàng sử dụng. Một cách đơn giản là sử dụng [Load Balancer Services](../managed-fpt-kubernetes-engine/index.md) theo hướng dẫn.
 
-### How can I monitor performance and configure alerts for the cluster?
-FPT Cloud provides the FMON product to help you monitor performance and configure alerts for the Kubernetes cluster. Additionally, FMON offers logging and tracing for easy integration with FKE.
+### Làm sao để giám sát hiệu suất và cấu hình cảnh báo cho cluster?
+FPT Cloud cung cấp sản phẩm FMON để giúp bạn giám sát hiệu suất và cấu hình cảnh báo cho Kubernetes cluster. Ngoài ra, FMON cũng cung cấp logging và tracing để tích hợp dễ dàng với FKE.

@@ -1,48 +1,55 @@
 ---
 id: "khoi-tao-listener"
-title: "Khởi tạo Listener"
-description: "**Listener** là thành phần quan trọng lắng nghe các yêu cầu từ client và điều hướng chúng đến các máy chủ đích phù hợp, "
-sidebar_label: "Khởi tạo Listener"
+title: "リスナーの作成・更新・削除"
+description: "FPT Cloud Load Balancer でリスナーを作成・更新・削除する方法を説明します。"
+sidebar_label: "リスナーの作成・更新・削除"
 sidebar_position: "12"
 ---
 
-# Khoi Tao Listener
+# リスナーの作成・更新・削除
 
-**Listener** là thành phần quan trọng lắng nghe các yêu cầu từ client và điều hướng chúng đến các máy chủ đích phù hợp, bao gồm các thông tin về giao thức, cổng dịch vụ cùng các thông số chi tiết khác. Nó cho phép bạn cấu hình cách **Load Balancer** lắng nghe và định tuyến lưu lượng truy cập đến các ứng dụng hoặc dịch vụ cụ thể trên máy chủ backend.
-**1.** **Tạo Listener**
-**Listener** được tạo cùng **Load Balancer** khi tạo **Load Balancer**
-Để tạo thêm **Listener** cho **Load Balancer,** bạn thao tác theo hướng dẫn sau:
-**Bước 1:** Truy cập vào trang **Load Balancer Details,** chọn tên **Load Balancer** tương ứng trên bảng quản trị **Load Balancer Management.**
-**Bước 2:** Chọn tab **Listener,** tiếp theo ấn chọn **Create Listener**
-**Bước 3:** Tại đây người dùng nhập thông tin cho **Listener.**
-  * **Listener name:** Nhập tên cho **Listener.**
-  * **Description:** Nhập mô tả cho **Listener.**
-  * **Protocol:** Chọn giao thức sử dụng **HTTP/ TERMINATED_HTTPS/ TCP /UDP** (mặc định hiển thị là HTTP và Port 80)
-  * **Server pool:** Trong trường hợp các request đến **Listener** nằm ngoài danh sách **Policies** được cấu hình, các request này sẽ được chuyển hướng đến Pool mặc định để xử lý.
-  * **Client data timeout (ms):** Thời gian tối đa mà Load Balancer cho phép một khách hàng (client) duy trì kết nối đến nó mà không thực hiện bất kỳ yêu cầu (request) nào, mặc định là 50000 (tính theo ms).
-  * **Member connect timeout (ms):** Thời gian tối đa mà Load Balancer cho phép một máy chủ thành viên (member) trong nhóm máy chủ backend duy trì một kết nối mở mà không nhận được dữ liệu từ nó, mặc định là 5000(tính theo ms).
-  * **Member data timeout (ms):** Thời gian tối đa mà Load Balancer cho phép một máy chủ thành viên(member) duy trì kết nối đến nó mà không thực hiện bất kỳ yêu cầu (request) nào, mặc định là 5000(tính theo ms). 
-  * **TCP inspect timeout (ms):** Thời gian chờ tối đa mà bộ định tuyến hoặc thiết bị bảo mật chờ đợi để nhận được phản hồi từ máy chủ đích trong quá trình kiểm tra TCP, mặc định là 0.
-  * **Connection limit:** Giới hạn số lượng kết nối đồng thời mà dịch vụ cân bằng tải (load balancer) có thể xử lý. Giới hạn này giúp đảm bảo dịch vụ không bị quá tải và có thể hoạt động ổn định, mặc định hiển thị là -1 (kết nối vô hạn).
-  * **HTTP Header insertions:** Mặc định điền sẵn **X-Forwarded-For, X-Forwarded-Proto, X-Forwarded-Port** , có thể bỏ chọn Header nếu không có nhu cầu. 
-    * **X-Forwarded-For:** When "true" a X-Forwarded-For header is inserted into the request to the backend member that specifies the client IP address.
-    * **X-Forwarded-Port:** When "true" a X-Forwarded-Port header is inserted into the request to the backend member that specifies the listener port.
-    * **X-Forwarded-Proto:** When "true" a X-Forwarded-Proto header is inserted into the request to the backend member.
+**Listener** は、クライアントからの受信リクエストを受け取り、適切なバックエンドサーバーに転送するコンポーネントです。プロトコル、ポート、その他のパラメーターを定義し、Load Balancer がトラフィックを受け取り分散する方法を制御します。
 
-Nhấn **Create Listener** để thực hiện tạo hoặc **Cancel** để huỷ bỏ.
-**2. Update Listener**
-**Bước 1:** Tại màn hình hiển thị danh sách **Listener,** chọn **Listener** cần cập nhật.
-**Bước 2:** Tại đây người dùng được update các thông tin sau:
-  * **Listener name:** Nhập tên cho **Listener.**
-  * **Description:** Nhập mô tả cho **Listener.**
-  * **Server pool:** Trong trường các request đến **Listener** nằm ngoài danh sách **Policies** được cấu hình, các request này sẽ được chuyển hướng đến Pool mặc định để xử lý.
-  * **Client data timeout (ms):** Thời gian tối đa mà Load Balancer cho phép một khách hàng (client) duy trì kết nối đến nó mà không thực hiện bất kỳ yêu cầu (request) nào, mặc định là 50000 (tính theo ms).
-  * **Member connect timeout (ms)** :Thời gian tối đa mà Load Balancer cho phép một máy chủ thành viên (member) trong nhóm máy chủ backend duy trì một kết nối mở mà không nhận được dữ liệu từ nó, mặc định là 5000(tính theo ms).
-  * **Member data timeout (ms):** Thời gian tối đa mà Load Balancer cho phép một máy chủ thành viên(member) duy trì kết nối đến nó mà không thực hiện bất kỳ yêu cầu (request) nào, mặc định là 5000(tính theo ms). 
-  * **TCP inspect timeout (ms):** Thời gian chờ tối đa mà bộ định tuyến hoặc thiết bị bảo mật chờ đợi để nhận được phản hồi từ máy chủ đích trong quá trình kiểm tra TCP**,** mặc định là 0.
-  * **Connection limit:** Giới hạn số lượng kết nối đồng thời mà dịch vụ cân bằng tải (load balancer) có thể xử lý. Giới hạn này giúp đảm bảo dịch vụ không bị quá tải và có thể hoạt động ổn định, mặc định hiển thị là -1 (kết nối vô hạn).
+Load Balancer 作成時にデフォルトの Listener が自動的に作成されます。
 
-Nhấn **Update Listener** để thực hiện cập nhật hoặc **Cancel** để huỷ bỏ.
-**3.Xoá Listener**
-**Bước 1:** Tại màn hình hiển thị danh sách **Listener,** trong phần **Action** của **Listener** cần xoá, chọn **Delete**.
-**Bước 2:** Một hộp thoại cảnh báo sẽ hiện lên, hiển thị tên **Listener** và yêu cầu người dùng xác nhận. Gõ chữ **delete** và chọn **Delete Listener** để tiến hành xóa.
+## 1. Listener の作成
+
+**手順 1:** Load Balancer の詳細ページにアクセスし、Load Balancer Management の一覧から対応する Load Balancer 名を選択します。
+
+**手順 2:** **Listener** タブを選択し、**Create Listener** をクリックします。
+
+**手順 3:** Listener の情報を入力します：
+
+- **Listener name**: Listener の名前を入力します。
+- **Description**: 任意の説明。
+- **Protocol**: プロトコルを選択します — **HTTP**、**TERMINATED_HTTPS**、**TCP**、または **UDP**（デフォルト：ポート 80 の HTTP）。
+- **Server pool**: 設定された L7 ポリシーに一致しないリクエストを転送するデフォルトプール。
+- **Client data timeout (ms)**: クライアント接続がリクエストを送信せずにアイドル状態を維持できる最大時間。デフォルト：50,000 ms。
+- **Member connect timeout (ms)**: バックエンド member が接続を受け入れるまでの最大待機時間。デフォルト：5,000 ms。
+- **Member data timeout (ms)**: バックエンド member 接続がアイドル状態を維持できる最大時間。デフォルト：5,000 ms。
+- **TCP inspect timeout (ms)**: TCP インスペクションのレスポンス最大待機時間。デフォルト：0。
+- **Connection limit**: Load Balancer が処理できる同時接続の最大数。デフォルト：-1（無制限）。
+- **HTTP Header insertions**: **X-Forwarded-For**、**X-Forwarded-Proto**、**X-Forwarded-Port** があらかじめ入力されています。不要なものはチェックを外します。
+  - **X-Forwarded-For**: バックエンドリクエストヘッダーにクライアント IP アドレスを挿入します。
+  - **X-Forwarded-Port**: バックエンドリクエストヘッダーにリスナーポートを挿入します。
+  - **X-Forwarded-Proto**: バックエンドリクエストヘッダーにリスナープロトコルを挿入します。
+
+**Create Listener** をクリックして作成するか、**Cancel** で取り消します。
+
+## 2. Listener の更新
+
+**手順 1:** Listener 一覧で更新する Listener を選択します。
+
+**手順 2:** 以下の情報を更新します：
+
+- **Listener name**、**Description**、**Server pool**
+- **Client data timeout (ms)**、**Member connect timeout (ms)**、**Member data timeout (ms)**
+- **TCP inspect timeout (ms)**、**Connection limit**
+
+**Update Listener** をクリックして適用するか、**Cancel** で取り消します。
+
+## 3. Listener の削除
+
+**手順 1:** Listener 一覧で削除する Listener の **Action** メニューから **Delete** を選択します。
+
+**手順 2:** 確認ダイアログが表示されます。`delete` と入力し、**Delete Listener** をクリックして確認します。

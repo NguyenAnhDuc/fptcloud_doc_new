@@ -1,18 +1,46 @@
 ---
 id: "danh-sach-model"
-title: "Danh Sach Model"
-description: "Mục đích: Xem danh sách, tìm kiếm model trong tổ chức của mình để dễ dàng tìm kiếm và có cái nhìn tổng quan về số lượng"
-sidebar_label: "Danh Sach Model"
+title: "model リスト"
+description: "組織内の model を一覧表示・検索します。"
+sidebar_label: "model リスト"
 sidebar_position: "4"
 ---
 
-# Danh Sach Model
+# model リスト
 
-Mục đích: Xem danh sách, tìm kiếm model trong tổ chức của mình để dễ dàng tìm kiếm và có cái nhìn tổng quan về số lượng 
-Để tìm kiếm 1 model nào đó, bạn thao tác như sau: Bước 1: Tại màn hình danh sách model, bạn nhập từ khóa tìm kiếm vào thanh search, sau đó ấn Enter 
-Lưu ý: Từ khóa có thể nhập dạng tương đối, không phân biệt hoa thường 
+組織内の model を一覧表示・検索して、model の総数を把握し、特定の model を素早く見つけます。
 
-Bước 2: Màn hình lúc này sẽ trả ra kết quả các model phù hợp với kết quả tìm kiếm 
-Màn danh sách model còn cho phép bạn sắp xếp các model theo thứ tự thời gian tạo gần nhất (last created), thời gian cập nhật gần nhất (last modified), sắp xếp model theo thứ tự alphabetic (A-Z), alphabetic (Z-A). Hệ thống đang mặc định hiển thị danh sách model theo thứ tự cập nhật gần nhất. Để sắp xếp lại danh sách các model, bạn thao tác như sau: 
+## model を検索する
 
-Bước 1: Tại màn danh sách model, click vào dropdown list, có 4 option cho bạn lựa chọn tùy theo nhu cầu sắp xếp danh sách model, lần lượt là: Last modified, last created, alphabetic (A-Z), alphabetic (Z-A). Bước 2: Sau khi chọn 1 option, màn hình trả ra danh sách model được sắp xếp theo lựa chọn tương ứng [![](/img/migrated/Picture2-b6be0846.png)](/img/migrated/Picture2-b6be0846.png) Ngoài ra, hệ thống còn cho phép filter ra danh sách các model tùy theo nhu cầu tìm kiếm bằng cách kết hợp 1 hay nhiều filter với nhau. Để filter các model, bạn làm như sau: Bước 1: Click vào biểu tượng filter, màn hình hiển thị ra popup với các option để filter [![](/img/migrated/Picture3-11196998.png)](/img/migrated/Picture3-11196998.png) [![](/img/migrated/Picture4-f31e5037.png)](/img/migrated/Picture4-f31e5037.png) Bước 2: Apply các filter tương ứng, click button Apply, màn hình trả ra kết quả các model tương ứng với filter. Để hiển thị lại toàn bộ danh sách model, click button Clear
+1. model リスト画面で、検索バーにキーワードを入力し、**Enter** を押します。
+
+   > **注意:** キーワードは部分一致に対応しており、大文字・小文字を区別しません。
+
+2. 画面に検索結果に一致する model が表示されます。
+
+## model を並べ替える
+
+model リストは以下の順序で並べ替えることができます。
+- **Last modified**: 最近更新された順（デフォルト）。
+- **Last created**: 最近作成された順。
+- **Alphabetic (A–Z)**.
+- **Alphabetic (Z–A)**.
+
+並べ替えの手順:
+
+1. model リスト画面でドロップダウンリストをクリックし、4 つの並べ替えオプションから 1 つを選択します。
+
+2. 選択した順序で model リストが表示されます。
+[![](/img/migrated/Picture2-b6be0846.png)](/img/migrated/Picture2-b6be0846.png)
+
+## model をフィルターする
+
+1 つまたは複数のフィルター条件を組み合わせて model をフィルターすることもできます。
+
+1. フィルターアイコンをクリックします。フィルターオプションのポップアップが表示されます。
+[![](/img/migrated/Picture3-11196998.png)](/img/migrated/Picture3-11196998.png)
+[![](/img/migrated/Picture4-f31e5037.png)](/img/migrated/Picture4-f31e5037.png)
+
+2. 適用したいフィルターを選択し、**Apply** をクリックします。フィルター条件に一致する model リストが表示されます。
+
+3. すべての model を再表示するには **Clear** をクリックします。

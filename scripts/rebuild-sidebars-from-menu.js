@@ -117,24 +117,28 @@ const DIR_TO_PARENT = {
   'nic': 'FPT Cloud Server > Cloud Server',
   'notification-bell': 'FPT Cloud Server > Cloud Server',
 
-  // Direct L2 under FPT Cloud Server
-  'fpt-cloud-portal': 'FPT Cloud Server',
-  'terraform': 'FPT Cloud Server',
-  'user-token': 'FPT Cloud Server',
-  'relation-management': 'FPT Cloud Server',
+  // Sub-features of Cloud Server (L3)
+  'fpt-cloud-portal': 'FPT Cloud Server > Cloud Server',
+  'terraform': 'FPT Cloud Server > Cloud Server',
+  'user-token': 'FPT Cloud Server > Cloud Server',
+  'relation-management': 'FPT Cloud Server > Cloud Server',
 
   // FPT Network
-  'nat_instance': 'FPT Network',
-  'gateway': 'FPT Network',
   'vpn-site-to-site': 'FPT Network',
   'create-vpc': 'FPT Network',
 
-  // FPT Container — sub-features of specific L2s
-  'gpu-container': 'FPT Container',
-  'gpu-virtual-machine-en': 'FPT Container',
-  'fpt-managed-gpu-cluster': 'FPT Container',
-  'managed-gpu-cluster-kubernetes-ja': 'FPT Container',
-  'metal-cloud-ja': 'FPT Container',
+  // These belong to Cloud Server, not Network
+  'nat_instance': 'FPT Cloud Server > Cloud Server',
+  'gateway': 'FPT Cloud Server > Cloud Server',
+
+  // FPT Container
+  'fpt-container-registry': 'FPT Container',
+
+  // These need review — move to top-level "Other" for now
+  // 'gpu-container': AI Factory related
+  // 'gpu-virtual-machine-en': Cloud Server related
+  // 'managed-gpu-cluster-kubernetes-ja': duplicate of fpt-managed-gpu-cluster (JA)
+  // 'metal-cloud-ja': JA-only bare metal service
 
   // FPT Security
   'fpt-monitoring-ip-access-control': 'FPT Security',
@@ -358,41 +362,39 @@ function addOrphanedFiles(sidebarItems, docIndex, usedIds, lang) {
 
   let addedCount = 0;
 
-  // Find the most specific category for this directory.
-  // Match by: category where the MAJORITY of direct docs belong to this dir.
-  // This avoids putting orphaned docs into parent categories that happen to
-  // contain a subcategory with matching docs.
+  // Find the L2 (module-level) category for this directory.
+  // Only match categories at depth 1-2 to avoid stuffing orphaned docs
+  // into L3+ subcategories like "Tutorials" or "Quick Starts".
   function findBestCategory(sidebarItems, dir) {
     let best = null;
-    let bestRatio = 0;
-    let bestMatchCount = 0;
 
-    function search(items) {
+    function search(items, depth) {
       for (const item of items) {
         if (item.type !== 'category') continue;
 
-        // Count direct docs (not in subcategories) that match this dir
-        const directDocs = (item.items || []).filter(i => i.type === 'doc');
-        const matchingDocs = directDocs.filter(d => d.id && d.id.startsWith(dir + '/'));
+        // Only consider categories at depth 0-2 (L1, L2, L3 max)
+        if (depth <= 2) {
+          // Check if any doc (including in subcategories) belongs to this dir
+          const allIds = collectUsedDocIds(item.items || []);
+          let hasMatch = false;
+          for (const id of allIds) {
+            if (id.startsWith(dir + '/')) { hasMatch = true; break; }
+          }
 
-        if (matchingDocs.length > 0) {
-          // Ratio: how many of this category's direct docs belong to this dir
-          const ratio = directDocs.length > 0 ? matchingDocs.length / directDocs.length : 0;
-
-          // Prefer categories where most docs are from this dir (more specific)
-          if (ratio > bestRatio || (ratio === bestRatio && matchingDocs.length > bestMatchCount)) {
-            best = item;
-            bestMatchCount = matchingDocs.length;
-            bestRatio = ratio;
+          if (hasMatch) {
+            // At depth 0 (L1): only use if no better L2 match found
+            // At depth 1-2 (L2/L3): prefer this level
+            if (depth > 0 || !best) {
+              best = item;
+            }
           }
         }
 
-        // Recurse into sub-categories
-        search(item.items || []);
+        search(item.items || [], depth + 1);
       }
     }
 
-    search(sidebarItems);
+    search(sidebarItems, 0);
     return best;
   }
 
@@ -404,13 +406,28 @@ function addOrphanedFiles(sidebarItems, docIndex, usedIds, lang) {
     const targetCat = findBestCategory(sidebarItems, dir);
 
     if (targetCat) {
-      // Add docs INSIDE the matching category
+      // Add orphaned docs as a new "Other" subcategory inside the matching L2 category,
+      // NOT mixed into existing subcategories like Tutorials/Samples
       const existingIds = collectUsedDocIds(targetCat.items || []);
-      for (const doc of docs) {
-        if (!existingIds.has(doc.docId)) {
-          targetCat.items.push({ type: 'doc', id: doc.docId, label: doc.label });
-          usedIds.add(doc.docId);
-          addedCount++;
+      const newDocs = docs.filter(d => !existingIds.has(d.docId));
+      if (newDocs.length > 0) {
+        // If few docs (<=3), add directly; if many, create "Other" subcategory
+        if (newDocs.length <= 3) {
+          for (const doc of newDocs) {
+            targetCat.items.push({ type: 'doc', id: doc.docId, label: doc.label });
+            usedIds.add(doc.docId);
+            addedCount++;
+          }
+        } else {
+          const otherCat = {
+            type: 'category',
+            label: 'Other',
+            collapsed: true,
+            items: newDocs.map(d => ({ type: 'doc', id: d.docId, label: d.label })),
+          };
+          targetCat.items.push(otherCat);
+          for (const doc of newDocs) usedIds.add(doc.docId);
+          addedCount += newDocs.length;
         }
       }
     } else {

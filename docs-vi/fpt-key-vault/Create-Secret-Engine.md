@@ -1,8 +1,8 @@
 ---
 id: "Create-Secret-Engine"
-title: "Secret Engineを作成する"
-description: "Vault Instance内にSecret Engineを新規作成する方法"
-sidebar_label: "Secret Engineを作成する"
+title: "Create Secret Engine"
+description: "**Step 1:** Select the Key Vault to create **Secrets Engine** on the Key Vault Management screen:"
+sidebar_label: "Create Secret Engine"
 sidebar_position: "5"
 ---
 

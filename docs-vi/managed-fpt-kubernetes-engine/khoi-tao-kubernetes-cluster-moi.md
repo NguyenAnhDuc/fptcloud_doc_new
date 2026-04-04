@@ -1,8 +1,8 @@
 ---
 id: "khoi-tao-kubernetes-cluster-moi"
-title: "新しい Kubernetes Cluster の作成"
+title: "Khoi Tao Kubernetes Cluster Moi"
 description: "FPT Cloud Portal で新しい Managed FPT Kubernetes Engine（M-FKE）クラスターを作成する手順を説明します。"
-sidebar_label: "新しい Kubernetes Cluster の作成"
+sidebar_label: "Khoi Tao Kubernetes Cluster Moi"
 sidebar_position: "4"
 ---
 

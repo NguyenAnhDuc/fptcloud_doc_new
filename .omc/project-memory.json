@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775190620691,
+  "lastScanned": 1775282487184,
   "projectRoot": "/root/codes/fptcloud_doc_new",
   "techStack": {
     "languages": [
@@ -68,7 +68,7 @@
       "path": "blog",
       "purpose": null,
       "fileCount": 5,
-      "lastAccessed": 1775190620682,
+      "lastAccessed": 1775282487171,
       "keyFiles": [
         "2019-05-28-first-blog-post.md",
         "2019-05-29-long-blog-post.md",
@@ -81,7 +81,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 8,
-      "lastAccessed": 1775190620682,
+      "lastAccessed": 1775282487172,
       "keyFiles": [
         "404.html",
         "_redirects",
@@ -94,7 +94,7 @@
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 1,
-      "lastAccessed": 1775190620688,
+      "lastAccessed": 1775282487178,
       "keyFiles": [
         "index.md"
       ]
@@ -103,14 +103,14 @@
       "path": "docs-en",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775190620689,
+      "lastAccessed": 1775282487181,
       "keyFiles": []
     },
     "docs-ja": {
       "path": "docs-ja",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775190620689,
+      "lastAccessed": 1775282487181,
       "keyFiles": [
         "index.md"
       ]
@@ -119,7 +119,7 @@
       "path": "docs-vi",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775190620689,
+      "lastAccessed": 1775282487181,
       "keyFiles": [
         "index.md"
       ]
@@ -127,28 +127,28 @@
     "scripts": {
       "path": "scripts",
       "purpose": "Build/utility scripts",
-      "fileCount": 12,
-      "lastAccessed": 1775190620689,
+      "fileCount": 41,
+      "lastAccessed": 1775282487182,
       "keyFiles": [
-        "check-migration.js",
-        "checkpoint.json",
-        "clean-sidebar-refs.js",
-        "cleanup-ja-duplicates.js",
-        "crawl_menu.py"
+        "analyze-unmatched-deep.js",
+        "analyze-unmatched-docs.js",
+        "check-lang-matching.js",
+        "check-language-switch.js",
+        "check-menu-mapping.js"
       ]
     },
     "src": {
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1775190620690,
+      "lastAccessed": 1775282487182,
       "keyFiles": []
     },
     "static": {
       "path": "static",
       "purpose": "Static files",
       "fileCount": 2,
-      "lastAccessed": 1775190620690,
+      "lastAccessed": 1775282487182,
       "keyFiles": [
         "_redirects"
       ]
@@ -157,28 +157,28 @@
       "path": "build/assets",
       "purpose": "Static assets",
       "fileCount": 0,
-      "lastAccessed": 1775190620690,
+      "lastAccessed": 1775282487182,
       "keyFiles": []
     },
     "build/docs": {
       "path": "build/docs",
       "purpose": "Documentation",
       "fileCount": 0,
-      "lastAccessed": 1775190620690,
+      "lastAccessed": 1775282487182,
       "keyFiles": []
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1775190620691,
+      "lastAccessed": 1775282487183,
       "keyFiles": []
     },
     "src/pages": {
       "path": "src/pages",
       "purpose": "Page components",
       "fileCount": 3,
-      "lastAccessed": 1775190620691,
+      "lastAccessed": 1775282487183,
       "keyFiles": [
         "index.js",
         "index.module.css",
@@ -188,9 +188,33 @@
   },
   "hotPaths": [
     {
+      "path": "sidebars.js",
+      "accessCount": 42,
+      "lastAccessed": 1775282225312,
+      "type": "directory"
+    },
+    {
+      "path": "fptcloud-docs-style-guide.md",
+      "accessCount": 19,
+      "lastAccessed": 1775283313838,
+      "type": "file"
+    },
+    {
+      "path": "sidebars-vi.js",
+      "accessCount": 17,
+      "lastAccessed": 1775282555319,
+      "type": "directory"
+    },
+    {
       "path": "scripts/crawl_menu.py",
       "accessCount": 10,
       "lastAccessed": 1775196089766,
+      "type": "file"
+    },
+    {
+      "path": "scripts/create-missing-translations.js",
+      "accessCount": 9,
+      "lastAccessed": 1775241383640,
       "type": "file"
     },
     {
@@ -209,6 +233,12 @@
       "path": "src/components/LanguageSwitcher/index.js",
       "accessCount": 3,
       "lastAccessed": 1775211288800,
+      "type": "file"
+    },
+    {
+      "path": "docs/model-testing-interactive-sessions/overview.md",
+      "accessCount": 3,
+      "lastAccessed": 1775244600501,
       "type": "file"
     },
     {
@@ -254,6 +284,12 @@
       "type": "file"
     },
     {
+      "path": "docs/model-testing-interactive-sessions/index.md",
+      "accessCount": 2,
+      "lastAccessed": 1775244545857,
+      "type": "file"
+    },
+    {
       "path": "scripts/menu-tree.json",
       "accessCount": 1,
       "lastAccessed": 1775191400399,
@@ -270,18 +306,6 @@
       "accessCount": 1,
       "lastAccessed": 1775191401705,
       "type": "file"
-    },
-    {
-      "path": "sidebars-vi.js",
-      "accessCount": 1,
-      "lastAccessed": 1775200142051,
-      "type": "directory"
-    },
-    {
-      "path": "sidebars.js",
-      "accessCount": 1,
-      "lastAccessed": 1775200143044,
-      "type": "directory"
     },
     {
       "path": "docs/ai-factory-billing/credit-history.md",
@@ -350,21 +374,9 @@
       "type": "file"
     },
     {
-      "path": "docs/model-testing-interactive-sessions/index.md",
-      "accessCount": 1,
-      "lastAccessed": 1775202333426,
-      "type": "file"
-    },
-    {
       "path": "docs/model-testing-interactive-sessions/how-to-evaluate-model.md",
       "accessCount": 1,
       "lastAccessed": 1775202335939,
-      "type": "file"
-    },
-    {
-      "path": "docs/model-testing-interactive-sessions/overview.md",
-      "accessCount": 1,
-      "lastAccessed": 1775202335992,
       "type": "file"
     },
     {
@@ -440,15 +452,39 @@
       "type": "file"
     },
     {
-      "path": "scripts/create-missing-translations.js",
-      "accessCount": 1,
-      "lastAccessed": 1775230639897,
-      "type": "file"
-    },
-    {
       "path": "scripts/remove-duplicate-translations.js",
       "accessCount": 1,
       "lastAccessed": 1775231779191,
+      "type": "file"
+    },
+    {
+      "path": "scripts/translate-vi-labels.js",
+      "accessCount": 1,
+      "lastAccessed": 1775237534599,
+      "type": "file"
+    },
+    {
+      "path": "scripts/translate-remaining-labels.js",
+      "accessCount": 1,
+      "lastAccessed": 1775237943402,
+      "type": "file"
+    },
+    {
+      "path": "scripts/compare-structure.js",
+      "accessCount": 1,
+      "lastAccessed": 1775240079893,
+      "type": "file"
+    },
+    {
+      "path": "scripts/scan-wrong-module.js",
+      "accessCount": 1,
+      "lastAccessed": 1775241778610,
+      "type": "file"
+    },
+    {
+      "path": "scripts/fix-wrong-content-files.js",
+      "accessCount": 1,
+      "lastAccessed": 1775243913411,
       "type": "file"
     }
   ],

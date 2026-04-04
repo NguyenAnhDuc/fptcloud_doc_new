@@ -1,33 +1,37 @@
 ---
 id: "base-model"
 title: "Base Model"
-description: "Mục đích: thể hiện mối quan hệ, biến thể của model từ một model khác theo thứ tự model gốc phía trên, model đang xem chi"
+description: "Define the parent-child relationship between models using the Base Model field."
 sidebar_label: "Base Model"
 sidebar_position: "21"
 ---
 
 # Base Model
 
-Mục đích: thể hiện mối quan hệ, biến thể của model từ một model khác theo thứ tự model gốc phía trên, model đang xem chi tiết ở dưới cùng.
-Các bước thực hiện để tạo Base Model
+The Base Model field shows the relationship between models — a model derived from another model — with the parent model listed at the top and the current model at the bottom.
 
-Bước 1: Tại menu AI Platform, chọn sub menu Private Model, click button Create để tạo model Hubmới
+## Steps to create a model with a Base Model
 
-Bước 2: Tại step 1, nhập đầy đủ các thông tin như Title, Description, Model visibility...
+1. In the **AI Platform** menu, select **Private Model**, then click **Create** to create a new model.
 
-Bước 3: Tại trường Base model, click vào dropdown list để chọn model hub cha của model hub đang tạo
-[![](/img/migrated/anh-8-205447ff.png)](/img/migrated/anh-8-205447ff.png) Lưu ý: chỉ được phép chọn 1 base model. Trường này không bắt buộc, người dùng có thể để trống
+2. In Step 1, fill in all required fields: Title, Description, Model visibility, etc.
 
-Bước 4: Click button Next, tại step 2 Tags, thực hiện chọn lần lượt các tag cho Framework, Architecture, Subject, Task, Others
+3. In the **Base model** field, click the dropdown list to select the parent model hub.
+[![](/img/migrated/anh-8-205447ff.png)](/img/migrated/anh-8-205447ff.png)
 
-Bước 5: Click button Next, view lại toàn bộ thông tin của model hub đã tạo. Tại đây, người dùng sẽ thấy hiển thị thêm phần Base model như ví dụ dưới đây
+   > **Note:** Only one base model can be selected. This field is optional.
+
+4. Click **Next**. In Step 2 — Tags, select tags for Framework, Architecture, Subject, Task, and Others.
+
+5. Click **Next** to review all model information. The **Base model** section appears as shown below.
 [![](/img/migrated/anh-9-4ab19bb5.png)](/img/migrated/anh-9-4ab19bb5.png)
 
-Bước 6: Sau khi các thông tin đã đúng và đầy đủ, click button Create a model
+6. When all information is correct, click **Create a model**.
 
-Bước 7: Hệ thống chuyển sang màn model list với model hub vừa tạo thành công
+7. The system navigates to the model list with the newly created model.
 
-Bước 8: Đi đến màn hình chi tiết của model hub vừa tạo thành công, người dùng sẽ thấy hiển thị thêm phần Base model, kèm icon model relationship
+8. Open the detail screen of the newly created model. The **Base model** section appears along with the model relationship icon.
 [![](/img/migrated/anh-10-5c581304.png)](/img/migrated/anh-10-5c581304.png)
-Click vào icon Model relationship, hiển thị popup thể hiện quan hệ cha con giữa 2 model. Popup cho phép click vào Model hub name để đi đến màn hình chi tiết của Model hub tương ứng
+
+Click the **Model relationship** icon to view a popup showing the parent-child relationship between the two models. Click the model name in the popup to navigate to that model's detail screen.
 [![](/img/migrated/anh-11-3de031d8.png)](/img/migrated/anh-11-3de031d8.png)

@@ -1,27 +1,27 @@
 ---
 id: "tutorials-xoa-policy"
-title: "Xóa Policy"
-description: "Hướng dẫn xóa một Policy không còn sử dụng"
-sidebar_label: "Xóa Policy"
+title: "Policyを削除する"
+description: "使用しなくなったPolicyを削除する方法"
+sidebar_label: "Policyを削除する"
 sidebar_position: "10"
 ---
 
-# Xóa Policy
+# Policyを削除する
 
-Xóa Policy khi các quy tắc truy cập không còn phù hợp hoặc không cần thiết. Trước khi xóa, hãy kiểm tra xem Policy này có đang được gán cho bất kỳ Role nào không.
+アクセスルールが不要になったPolicyを削除します。削除前に、このPolicyが現在アクティブなRoleに割り当てられていないことを確認してください。
 
 :::danger
-Xóa Policy là thao tác không thể hoàn tác. Các Role đang sử dụng Policy này sẽ mất quyền truy cập tương ứng.
+Policyの削除は取り消しできません。このPolicyが割り当てられているRoleは、対応するアクセス権限を失います。
 :::
 
-1. Trên **Key Vault Management**, chọn **Key Vault** chứa **Policy** cần xóa.
+1. **Key Vault Management** で削除する **Policy** が含まれる **Key Vault** を選択します。
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management一覧画面](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Policies** và chọn **Delete** trong phần **Action** của Policy cần xóa.
+2. **Policies** タブで削除するPolicyのActionメニューから **Delete** をクリックします。
 
-   [![Danh sách Policy với tùy chọn Delete trong Action](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)
+   [![ActionメニューにDeleteオプションが表示されたPolicy一覧](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)
 
-3. Hộp thoại xác nhận hiện ra. Chọn **Delete** để xác nhận xóa **Policy**.
+3. 確認ダイアログが表示されます。**Delete** をクリックして **Policy** の削除を確認します。
 
-   [![Hộp thoại xác nhận xóa Policy](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)
+   [![Policy削除確認ダイアログ](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)

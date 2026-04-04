@@ -1,17 +1,17 @@
 ---
 id: "why-you-should-use-gpu-in-k8s"
-title: "Why use GPU on Kubernetes"
-description: "Kubernetes currently supports GPUs, making it easy to configure and utilize GPU resources for accelerating workloads suc"
-sidebar_label: "Why use GPU on Kubernetes"
+title: "Tại sao nên sử dụng GPU trên Kubernetes?"
+description: "Kubernetes hiện hỗ trợ GPU, giúp dễ dàng cấu hình và sử dụng tài nguyên GPU để tăng tốc các workload như khoa học dữ liệu, machine learning và deep learning."
+sidebar_label: "Tại sao nên sử dụng GPU trên Kubernetes?"
 sidebar_position: "33"
 ---
 
-# Why use GPU on Kubernetes
+# Tại sao nên sử dụng GPU trên Kubernetes?
 
-Kubernetes currently supports GPUs, making it easy to configure and utilize GPU resources for accelerating workloads such as data science, machine learning, and especially deep learning. Kubernetes provides GPUs as a resource type, and device plug-ins enable Pods to access specialized hardware features like GPUs and schedule them as schedulable resources. GPU inherits all the advantages of K8s:
-  * **Containerization** : Containers are lightweight, don't require a full operating system, and instead run with a shared OS kernel, making them smaller, faster, and more portable than traditional virtual machines.
-  * **Microservices** : Suitable for applications using microservices architecture, Kubernetes coordinates and automates the operation of workload resources. Most ML projects are written in programming languages like Python or R, and applications can be written in different programming languages. In this case, the Containers-based model plays a significant role, allowing developers to run independent tests for different languages.
-  * **Autoscaling** : Flexible automatic scaling is a crucial and frequently mentioned feature of Kubernetes. Applications on Kubernetes have three capabilities for automatic scaling: Horizontal Pod Autoscaler (HPA) automatically increases/decreases the number of available pods depending on resource usage, Vertical Pod Autoscaler (VPA) automatically adjusts CPU and memory for existing pods, and Cluster Autoscaler automatically expands the number of worker nodes when pods lack resources to initiate.
-  * **Automatic Deployment** : Kubernetes provides automated deployment solutions, combined with CI/CD. Deploying application models to environments becomes very easy.
+Kubernetes hiện hỗ trợ GPU, giúp dễ dàng cấu hình và sử dụng tài nguyên GPU để tăng tốc các workload như khoa học dữ liệu, machine learning và đặc biệt là deep learning. Kubernetes cung cấp GPU như một loại tài nguyên, và các device plugin cho phép Pod truy cập vào các tính năng phần cứng chuyên biệt như GPU và lên lịch chúng như các tài nguyên có thể schedule được. GPU thừa hưởng tất cả các ưu điểm của K8s:
+  * **Containerization:** Container nhẹ, không yêu cầu hệ điều hành đầy đủ mà chạy với kernel OS dùng chung, giúp chúng nhỏ hơn, nhanh hơn và di động hơn so với máy ảo truyền thống.
+  * **Microservices:** Phù hợp với các ứng dụng sử dụng kiến trúc microservices, Kubernetes điều phối và tự động hóa việc vận hành workload resource. Hầu hết các dự án ML được viết bằng Python hoặc R, và các ứng dụng có thể được viết bằng nhiều ngôn ngữ lập trình khác nhau. Trong trường hợp này, mô hình dựa trên Container đóng vai trò quan trọng, cho phép nhà phát triển chạy các bài test độc lập cho các ngôn ngữ khác nhau.
+  * **Autoscaling:** Tự động scale linh hoạt là tính năng quan trọng và được nhắc đến nhiều của Kubernetes. Ứng dụng trên Kubernetes có ba khả năng tự động scale: Horizontal Pod Autoscaler (HPA) tự động tăng/giảm số pod khả dụng tùy theo mức sử dụng tài nguyên, Vertical Pod Autoscaler (VPA) tự động điều chỉnh CPU và memory cho các pod hiện có, và Cluster Autoscaler tự động mở rộng số worker node khi pod thiếu tài nguyên để khởi động.
+  * **Triển khai tự động:** Kubernetes cung cấp giải pháp triển khai tự động, kết hợp với CI/CD. Việc triển khai mô hình ứng dụng lên các môi trường trở nên rất dễ dàng.
 
-With an increasing number of AI applications and services, the demand for using GPUs on Kubernetes is growing. NVIDIA has built its own libraries and software to optimize GPU usage in container environments. Using NVIDIA GPUs with Kubernetes enables seamless scaling with the automatic deployment, maintenance, scheduling, and operation of GPU containers on worker nodes.
+Với số lượng ứng dụng và dịch vụ AI ngày càng tăng, nhu cầu sử dụng GPU trên Kubernetes đang tăng trưởng mạnh. NVIDIA đã xây dựng thư viện và phần mềm riêng để tối ưu hóa việc sử dụng GPU trong môi trường container. Sử dụng NVIDIA GPU với Kubernetes cho phép scale liền mạch với khả năng tự động triển khai, bảo trì, lên lịch và vận hành GPU container trên worker node.

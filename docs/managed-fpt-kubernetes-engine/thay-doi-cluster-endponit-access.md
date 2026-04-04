@@ -1,37 +1,49 @@
 ---
 id: "thay-doi-cluster-endponit-access"
-title: "クラスターエンドポイントアクセスの変更"
-description: "FPT Cloud Kubernetes クラスターのアクセスモードを変更する手順を説明します。"
-sidebar_label: "クラスターエンドポイントアクセスの変更"
+title: "Change Cluster Endpoint Access"
+description: "How to change the cluster endpoint access mode in Managed FPT Kubernetes Engine."
+sidebar_label: "Change Cluster Endpoint Access"
 sidebar_position: "11"
 ---
 
-# Thay đổi Cluster Endpoint Access
+# Change Cluster Endpoint Access
 
-**Để thay đổi Access Mode của cụm Kubernetes trên FPT Cloud, khách hàng làm theo hướng dẫn sau:**
-Lưu ý: 
-  * M-FKE chỉ hỗ trợ chuyển đổi Access Mode từ Public & Privae ➔ Private và ngược lại.
-  * M-FKE không hỗ trợ chuyển đổi Access Mode nếu cụm Kubernetes đang ở mode Public.
+**To change the Access Mode of a Kubernetes cluster on FPT Cloud, follow the steps below:**
 
-**Bước 1:** Chọn cluster muốn thay đổi Access Mode, click vào cluster name
+**Notes:**
+  * M-FKE only supports switching Access Mode from Public & Private to Private and vice versa.
+  * M-FKE does not support switching Access Mode if the Kubernetes cluster is currently in Public mode.
+
+**Step 1:** Select the cluster you want to change the Access Mode for and click the cluster name.
 [![](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)
-**Bước 2:** Tại mục Cluster Endpoint Access, click button Edit
+
+**Step 2:** Under Cluster Endpoint Access, click the **Edit** button.
 [![](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)
-**Bước 3:** Chọn Access Mode mong muốn, nhập Allow CIDR hợp lệ và click button Confirm.
+
+**Step 3:** Select the desired Access Mode, enter a valid Allow CIDR, and click **Confirm**.
 [![](/img/migrated/Screenshot-2025-03-20-152635-8d2271bf.png)](/img/migrated/Screenshot-2025-03-20-152635-8d2271bf.png)
-**Để update lại Allow CIDR, khách hàng làm theo hướng dẫn sau:**
-**Bước 1:** Chọn cluster muốn thay đổi Access Mode, click vào cluster name
+
+## To update the Allow CIDR:
+
+**Step 1:** Select the cluster you want to update and click the cluster name.
 [![](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)
-**Bước 2:** Tại mục Cluster Endpoint Access, click button Edit
+
+**Step 2:** Under Cluster Endpoint Access, click the **Edit** button.
 [![](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)
-**Bước 3:** Nhập thêm dải CIDR hợp lệ và click button Confirm.
+
+**Step 3:** Add additional valid CIDR ranges and click **Confirm**.
 [![](/img/migrated/Screenshot-2025-03-20-153324-cab3a4aa.png)](/img/migrated/Screenshot-2025-03-20-153324-cab3a4aa.png)
-**Để xóa bỏ Allow CIDR, khách hàng làm theo hướng dẫn sau:**
-**Bước 1:** Chọn cluster muốn thay đổi Access Mode, click vào cluster name
+
+## To remove Allow CIDR:
+
+**Step 1:** Select the cluster you want to update and click the cluster name.
 [![](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)](/img/migrated/Screenshot-2025-03-20-151549-d5cf37cb.png)
-**Bước 2:** Tại mục Cluster Endpoint Access, click button Edit
+
+**Step 2:** Under Cluster Endpoint Access, click the **Edit** button.
 [![](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)](/img/migrated/Screenshot-2025-03-20-151934-2-7e9b842b.png)
-**Bước 3:** Xóa bỏ toàn bộ CIDR đã có và click button Confirm
+
+**Step 3:** Remove all existing CIDRs and click **Confirm**.
 [![](/img/migrated/Screenshot-2025-03-20-153755-e5b8d33b.png)](/img/migrated/Screenshot-2025-03-20-153755-e5b8d33b.png)
 [![](/img/migrated/Screenshot-2025-03-20-153912-95e50f54.png)](/img/migrated/Screenshot-2025-03-20-153912-95e50f54.png)
-Quá trình update Access Mode sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing**. Cluster vẫn hoạt động bình thường khi thực hiện chuyển Access Mode mới.
+
+The Access Mode update process takes a few minutes. The cluster status changes to **Processing** during this time. The cluster continues to operate normally while the new Access Mode is being applied.

@@ -1,8 +1,8 @@
 ---
 id: "AutoScale"
-title: "Autoscale"
+title: "AutoScale"
 description: "D-FKE の Autoscale 機能の概要と使用方法。"
-sidebar_label: "Autoscale"
+sidebar_label: "AutoScale"
 sidebar_position: "19"
 ---
 

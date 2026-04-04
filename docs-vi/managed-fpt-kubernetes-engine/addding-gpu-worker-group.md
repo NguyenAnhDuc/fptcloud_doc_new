@@ -1,28 +1,28 @@
 ---
 id: "addding-gpu-worker-group"
-title: "GPU Worker Group の追加"
-description: "既存のManaged FKE クラスターにGPU Worker Groupを追加する方法を説明します。"
-sidebar_label: "GPU Worker Group の追加"
+title: "Thêm GPU worker group"
+description: "Hướng dẫn thêm GPU worker group vào cluster Kubernetes trên FPT Cloud."
+sidebar_label: "Thêm GPU worker group"
 sidebar_position: "22"
 ---
 
-# Add a GPU worker group
+# Thêm GPU worker group
 
-#### Prerequisites:
-  * **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the extra Worker Group specifications. If you plan to use auto-scale, you must have enough GPU quota for the **maximum amount of nodes** that you desire.
-  * 01 **Network Subnet** : Network for the Kubernetes Nodes, with a static IP Pool.
+#### Điều kiện tiên quyết:
+  * **Quota CPU, GPU, RAM, Storage và Instance:** Đủ cho thông số Worker Group bổ sung. Nếu có kế hoạch sử dụng auto-scale, cần có đủ GPU quota cho **số lượng node tối đa** mong muốn.
+  * 01 **Network Subnet:** Network cho Kubernetes Node, với Static IP Pool.
 
-#### Steps to configure
-**Step 1** : Login to the [FPT Cloud Portal](https://console.fptcloud.com). From the sidebar menu, choose **Kubernetes** > Choose the cluster to config. In **Detail Cluster** > **Worker Group** > click the **Config Icon**
+#### Các bước cấu hình
+**Bước 1:** Đăng nhập [FPT Cloud Portal](https://console.fptcloud.com). Từ menu sidebar, chọn **Kubernetes** > Chọn cluster cần cấu hình. Trong **Detail Cluster** > **Worker Group** > chọn **Config Icon**
 [![](/img/migrated/55-1-7d362c94.png)](/img/migrated/55-1-7d362c94.png)
-**Step 2** : Click **Add Worker Group** to add a new Worker Group.
+**Bước 2:** Chọn **Add Worker Group** để thêm Worker Group mới.
 [![](/img/migrated/56-1-93a8803a.png)](/img/migrated/56-1-93a8803a.png)
-**Step 3** : Select **GPU specs** in the Worker Group.
+**Bước 3:** Chọn **GPU specs** trong Worker Group.
 [![](/img/migrated/57-1-dec56678.png)](/img/migrated/57-1-dec56678.png)
-  * Choose **Instance type** : GPU
-  * Choose **GPU type** : A30, A100, etc…
-  * Choose **GPU Sharing configuration** : None, Single, Mixed, etc…
-  * Choose **Specs type** : CPU – RAM – GPU
+  * Chọn **Instance type:** GPU
+  * Chọn **GPU type:** A30, A100, v.v.
+  * Chọn **GPU Sharing configuration:** None, Single, Mixed, v.v.
+  * Chọn **Specs type:** CPU – RAM – GPU
 
-**Step 4** : Click **Save** and verify the initialization information.
-**Step 5** : Wait until the cluster succeeds initialize (status: **Running**) > Ready to use.
+**Bước 4:** Chọn **Save** và xác nhận thông tin khởi tạo.
+**Bước 5:** Chờ đến khi cluster khởi tạo thành công (trạng thái: **Running**) > Sẵn sàng sử dụng.

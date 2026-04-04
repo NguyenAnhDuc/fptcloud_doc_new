@@ -1,57 +1,57 @@
 ---
 id: "dfke-advanced-firewall"
 title: "DFKE Advanced Firewall"
-description: "Firewall 統合 Kubernetes 製品の概要と設定方法。"
+description: "Overview and configuration of the Firewall-integrated Kubernetes product in Dedicated FPT Kubernetes Engine."
 sidebar_label: "Advanced Firewall"
 sidebar_position: "24"
 ---
 
 # DFKE Advanced Firewall
 
-## Firewall 統合 Kubernetes 製品の概要
+## Overview of the Firewall-integrated Kubernetes product
 
-Firewall 統合 Kubernetes 製品は FPT Cloud の基本 Kubernetes 製品と異なり、Tenant の Gateway の前段に Advanced Firewall を 1 台配置します。Advanced Firewall は Kubernetes cluster のセキュリティルール（Allow、Drop）および NAT ルール（DNAT、SNAT）の保護と設定を担います。
+Unlike the standard FPT Cloud Kubernetes product, the Firewall-integrated Kubernetes product places one Advanced Firewall in front of the Tenant's Gateway. The Advanced Firewall handles protection and configuration of security rules (Allow, Drop) and NAT rules (DNAT, SNAT) for the Kubernetes cluster.
 
-主要コンポーネント:
-- Advanced Firewall（例: Checkpoint）
-- Gateway（Internet Gateway、Firewall L4）
+Key components:
+- Advanced Firewall (e.g., Checkpoint)
+- Gateway (Internet Gateway, Firewall L4)
 - Load balancer
-- Kubernetes cluster: Master node（API、ETCD）、Worker node（App と Service）
+- Kubernetes cluster: Master node (API, ETCD), Worker node (App and Service)
 
 [![file](/img/migrated/image-1691469857854-05b04fb7.png)](/img/migrated/image-1691469857854-05b04fb7.png)
 
-## Advanced Firewall における Kubernetes cluster の必要ルール
+## Required rules for a Kubernetes cluster behind Advanced Firewall
 
-Kubernetes node へのトラフィックフロー:
+Traffic flow to Kubernetes nodes:
 [![file](/img/migrated/image-1691469894054-7f2f9cab.png)](/img/migrated/image-1691469894054-7f2f9cab.png)
 
 :::note
-- Kubernetes cluster のすべてのインバウンドおよびアウトバウンドルールは Advanced Firewall 上で設定します。
-- Kubernetes cluster のすべての NAT ルールは Advanced Firewall 上で設定します。
-- Public IP は Advanced Firewall 上に配置します。
+- All inbound and outbound rules for the Kubernetes cluster are configured on the Advanced Firewall.
+- All NAT rules for the Kubernetes cluster are configured on the Advanced Firewall.
+- Public IPs are placed on the Advanced Firewall.
 :::
 
-Advanced Firewall 上の Kubernetes cluster 向け Firewall ルール計画表:
+Firewall rule planning table for Kubernetes cluster on Advanced Firewall:
 [![file](/img/migrated/image-1691480281087-05f96745.png)](/img/migrated/image-1691480281087-05f96745.png)
 
-Advanced Firewall 上の Kubernetes cluster 向け NAT ルール計画表:
+NAT rule planning table for Kubernetes cluster on Advanced Firewall:
 [![file](/img/migrated/image-1691480310854-7798d361.png)](/img/migrated/image-1691480310854-7798d361.png)
 
-Gateway にも Firewall ルールと NAT ルールが存在し、Gateway から Firewall へのトラフィック接続を確保します。これらのデフォルトルールは自動的に作成されます。必要に応じてアプリケーション用のルールを作成してください（オプション）。
+The Gateway also has Firewall and NAT rules to ensure traffic connectivity from Gateway to Firewall. These default rules are created automatically. Create additional rules for your application as needed (optional).
 
-## Firewall 統合 Kubernetes cluster の作成
+## Create a Firewall-integrated Kubernetes cluster
 
-**要件:**
-- CPU、RAM、Storage、Instance クォータが希望する Kubernetes cluster 構成に十分であること。
-- Network subnet が 1 つ: Kubernetes Nodes 用ネットワーク（Static IP Pool が必要な subnet）。この subnet は、外部から Firewall、Gateway を経由して Kubernetes Node まで接続するためのルートを設定できるよう、詳細に計画・設計する必要があります。
-- Firewall の IP 情報: Public IP 1 つと Firewall の Private IP 1 つの情報が必要です。
-- Gateway の IP 情報: Firewall から Gateway へのルートを設定するために使用する Private IP 1 つ。
+**Requirements:**
+- CPU, RAM, Storage, and Instance quotas sufficient for the desired Kubernetes cluster configuration.
+- One network subnet for Kubernetes Nodes (subnet with Static IP Pool required). This subnet must be carefully planned and designed to allow routing from external sources through the Firewall and Gateway to the Kubernetes Nodes.
+- Firewall IP information: one Public IP and one Private IP for the Firewall.
+- Gateway IP information: one Private IP used to configure the route from Firewall to Gateway.
 
-**作成手順:**
+**Creation steps:**
 
-1. FPT Cloud Portal から Kubernetes を選択します。**Dedicated** タブを選択し、**Create** をクリックします。希望する Kubernetes cluster の情報を入力します。
-2. Firewall の設定で **Enable Firewall** にチェックを入れます。
+1. From the FPT Cloud Portal, select Kubernetes. Choose the **Dedicated** tab and click **Create**. Enter the desired Kubernetes cluster information.
+2. In the Firewall settings, check **Enable Firewall**.
 [![file](/img/migrated/image-1691469995783-e893b090.png)](/img/migrated/image-1691469995783-e893b090.png)
-3. Firewall の情報（Gateway IP、Checkpoint の Public IP と Private IP）を入力します。
-4. **Create** をクリックし、情報を確認して **Agree** をクリックして作成を開始します。
-5. Kubernetes cluster の作成状況を確認します。ステータスが Succeeded（Running）になったらアプリケーションのデプロイを開始できます。
+3. Enter the Firewall information (Gateway IP, Checkpoint Public IP and Private IP).
+4. Click **Create**, review the information, then click **Agree** to start creation.
+5. Monitor the Kubernetes cluster creation status. Once the status is Succeeded (Running), you can begin deploying applications.

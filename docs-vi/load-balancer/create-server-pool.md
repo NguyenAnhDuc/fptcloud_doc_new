@@ -1,8 +1,8 @@
 ---
 id: "create-server-pool"
-title: "サーバープールの作成"
-description: "FPT Cloud ロードバランサーで負荷分散アルゴリズム、スティッキーセッション、ヘルスチェック設定を含むサーバープールを作成する方法を説明します。"
-sidebar_label: "サーバープールの作成"
+title: "Create a Server Pool"
+description: "How to create a Server Pool with load balancing algorithm, sticky session, and health check configuration on FPT Cloud Load Balancer."
+sidebar_label: "Create a Server Pool"
 sidebar_position: "18"
 ---
 

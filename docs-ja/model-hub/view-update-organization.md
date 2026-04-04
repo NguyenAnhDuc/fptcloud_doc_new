@@ -1,17 +1,27 @@
 ---
 id: "view-update-organization"
-title: "Mục đích: view detail organization"
-description: "Mục đích: view detail organization"
-sidebar_label: "Mục đích: view detail organization"
+title: "組織の表示・更新"
+description: "Model Hub の組織情報を表示・更新します。"
+sidebar_label: "組織の表示・更新"
 sidebar_position: "23"
 ---
 
-# View Update Organization
+# 組織の表示・更新
 
-Mục đích: view detail organization
-Lưu ý: Account phải được share quyền Admin trong IAM portal mới có quyền view organization
+組織の詳細を表示および更新します。
 
-Bước 1: Người dùng click vào menu AI Platform > Configuration sẽ thấy hiển thị block Organizaton
+> **注意:** 組織を表示するには、IAM ポータルで Admin 権限が付与されている必要があります。
 
-Bước 2: Để xem detail, người dùng click vào button View, hiển thị popup detail với thông tin Logo, Owner email và Organization name
-![](/img/migrated/anh-13-13131bf3.png) Bước 3: Để update lại organization, người dùng click vào button Edit, hiển thị popup edit Organizaiton, tại đây, người dùng có thể chỉnh sửa thông tin Owner email và Organization name, Logo ![](/img/migrated/anh-14-5929f415.png) Bước 4: Click Save để lưu lại thay đổi hoặc Cancel để hủy bỏ thao tác
+## 手順
+
+1. メニューで **AI Platform** > **Configuration** をクリックします。**Organization** ブロックが表示されます。
+
+2. 詳細を表示するには **View** をクリックします。Logo、Owner email、Organization name が表示されるポップアップが開きます。
+
+![](/img/migrated/anh-13-13131bf3.png)
+
+3. 組織を更新するには **Edit** をクリックします。Edit Organization ポップアップが表示され、**Owner email**、**Organization name**、**Logo** を編集できます。
+
+![](/img/migrated/anh-14-5929f415.png)
+
+4. **Save** をクリックして変更を保存するか、**Cancel** をクリックして破棄します。

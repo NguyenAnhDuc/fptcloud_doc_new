@@ -1,8 +1,8 @@
 ---
 id: "create-database-engine"
-title: "Database Engine の作成"
-description: "FPT Smart Cloud Database Engine で新規データベースを作成する手順。"
-sidebar_label: "Database Engine の作成"
+title: "Create a Database Engine"
+description: "Steps to create a new Database Engine on FPT Smart Cloud."
+sidebar_label: "Create a Database Engine"
 sidebar_position: "9"
 ---
 

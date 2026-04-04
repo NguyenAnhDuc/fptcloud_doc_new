@@ -1,8 +1,8 @@
 ---
 id: "khoi-tạo-kubernetes-cluster-moi"
-title: "Khởi tạo Kubernetes Cluster mới"
+title: "Khoi TạO Kubernetes Cluster Moi"
 description: "**Lưu ý:** Một số điều kiện bắt buộc để thực hiện thao tác này:"
-sidebar_label: "Khởi tạo Kubernetes Cluster mới"
+sidebar_label: "Khoi TạO Kubernetes Cluster Moi"
 sidebar_position: "4"
 ---
 

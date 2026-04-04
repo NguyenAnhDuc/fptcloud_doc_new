@@ -1,23 +1,23 @@
 ---
 id: "initial-setup"
-title: "Thiết lập ban đầu"
-description: "Các bước chuẩn bị trước khi sử dụng dịch vụ VPN Site-to-Site."
-sidebar_label: "Thiết lập ban đầu"
+title: "Initial setup"
+description: "Steps to complete before using the VPN Site-to-Site service."
+sidebar_label: "Initial setup"
 sidebar_position: "3"
 ---
 
-# Thiết lập ban đầu
+# Initial setup
 
-Nếu đây là lần đầu tiên bạn sử dụng, hãy kiểm tra và hoàn thành các bước sau:
+If this is your first time using the service, review and complete the following steps.
 
-## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## Create an FPT Cloud account and sign in to FPT Portal
 
-1. Truy cập [https://console.fptcloud.com](https://console.fptcloud.com/) và đăng nhập bằng tài khoản FPT Cloud đã được cấp.
+1. Go to [https://console.fptcloud.com](https://console.fptcloud.com/) and sign in with your provisioned FPT Cloud account.
 
-2. Chọn đúng **Tenant**, **Region**, **VPC** cần sử dụng dịch vụ.
+2. Select the correct **Tenant**, **Region**, and **VPC** for the service you want to use.
 
-Nếu chưa có tài khoản FPT Cloud, truy cập [https://fptcloud.com/](https://fptcloud.com/), chọn **Sign Up** và nhập thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận và tạo tài khoản.
+If you do not have an FPT Cloud account, go to [https://fptcloud.com/](https://fptcloud.com/), select **Sign Up**, and fill in the required information. The support team will contact you to confirm and create your account.
 
 :::note
-Nếu gặp bất kỳ lỗi nào trong quá trình thao tác, liên hệ đội ngũ Support để được hỗ trợ.
+If you encounter any errors during the process, contact the Support team for assistance.
 :::

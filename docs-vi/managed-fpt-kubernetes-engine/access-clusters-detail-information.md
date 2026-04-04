@@ -1,24 +1,24 @@
 ---
 id: "access-clusters-detail-information"
-title: "Access cluster detail information"
-description: "View detailed information about a Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Access cluster detail information"
+title: "Truy cập thông tin chi tiết của cluster"
+description: "Hướng dẫn xem thông tin chi tiết của cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Truy cập thông tin chi tiết của cluster"
 sidebar_position: "6"
 ---
 
-# Access cluster detail information
+# Truy cập thông tin chi tiết của cluster
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Choose the **Managed** tab and select the cluster you want to view.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn tab **Managed** và chọn cluster muốn xem thông tin.
 
 [![](/img/migrated/8-c8cfd8da.png)](/img/migrated/8-c8cfd8da.png)
 
-**Step 2:** The Overview tab shows the following cluster details:
+**Bước 2:** Tab **Overview** hiển thị các thông tin chi tiết của cluster:
 
 [![](/img/migrated/9-316e6773.png)](/img/migrated/9-316e6773.png)
 
-- **General information:** Basic cluster information including name, Kubernetes version, network, and status.
-- **Worker groups config:** List of worker groups and their configuration (min/max nodes, CPU, memory, disk).
-- **Advanced config:** Advanced Kubernetes cluster parameters (pod network, service network, etc.).
-- **API:** API server URL.
-- **Kubernetes config:** Download the `.kubeconfig` file for cluster access.
-- **SSH key:** Download the SSH key file for accessing worker nodes.
+- **Thông tin chung:** Thông tin cơ bản của cluster bao gồm tên, phiên bản Kubernetes, network và trạng thái.
+- **Cấu hình worker group:** Danh sách các worker group và cấu hình của từng nhóm (số node tối thiểu/tối đa, CPU, memory, disk).
+- **Cấu hình nâng cao:** Các tham số Kubernetes nâng cao (pod network, service network, v.v.).
+- **API:** URL của API server.
+- **Kubernetes config:** Tải file `.kubeconfig` để truy cập cluster.
+- **SSH key:** Tải file SSH key để truy cập các worker node.

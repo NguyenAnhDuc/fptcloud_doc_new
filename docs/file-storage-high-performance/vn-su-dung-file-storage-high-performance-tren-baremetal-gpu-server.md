@@ -1,8 +1,8 @@
 ---
 id: "vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server"
-title: "Baremetal (GPU Server) での File Storage – High Performance の利用"
-description: "ベトナムリージョンの Baremetal GPU サーバーで File Storage – High Performance をマウントする手順。"
-sidebar_label: "Baremetal (GPU Server) での利用"
+title: "Vn Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+description: "Sau khi request cấp phát dịch vụ được chấp nhận, bạn sẽ nhận được các thông tin để sử dụng File Storage trên Baremetal."
+sidebar_label: "Vn Su Dung File Storage High Performance Tren Baremetal Gpu Server"
 sidebar_position: "5"
 ---
 

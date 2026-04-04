@@ -1,31 +1,31 @@
 ---
 id: "xoa-mot-robot-account"
-title: "Xóa robot account"
-description: "Xóa vĩnh viễn một hoặc nhiều robot account."
-sidebar_label: "Xóa robot account"
+title: "Robot account を削除する"
+description: "1 つまたは複数の robot account を完全に削除する。"
+sidebar_label: "Robot account を削除する"
 sidebar_position: "24"
 ---
 
-# Xóa robot account
+# Robot account を削除する
 
-Khi robot account không còn cần thiết, bạn có thể xóa để dọn dẹp và giảm bề mặt tấn công bảo mật. FPT Cloud hỗ trợ xóa một hoặc nhiều robot account cùng lúc.
+Robot account が不要になった場合は、削除してクリーンアップしセキュリティの攻撃対象領域を減らすことができます。FPT Cloud では 1 つまたは複数の robot account を同時に削除できます。
 
 :::danger
-Xóa robot account là thao tác không thể hoàn tác. Các pipeline CI/CD đang sử dụng account này sẽ mất quyền truy cập ngay lập tức.
+Robot account の削除は元に戻せません。この account を使用している CI/CD パイプラインはすぐにアクセスできなくなります。
 :::
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn xóa, sau đó chọn **ACTION DELETE**.
+1. **Robot Account** リストで削除したい robot account を選択し、**ACTION DELETE** を選択します。
 
-   [![Chọn ACTION DELETE](/img/migrated/Picture75-6386b37b.png)](/img/migrated/Picture75-6386b37b.png)
+   [![ACTION DELETE を選択](/img/migrated/Picture75-6386b37b.png)](/img/migrated/Picture75-6386b37b.png)
 
-   Để xóa nhiều robot account cùng lúc, chọn nhiều account trước khi thực hiện action.
+   複数の robot account を同時に削除するには、action を実行する前に複数の account を選択します。
 
-   [![Chọn nhiều robot account để xóa](/img/migrated/Picture76-d591e336.png)](/img/migrated/Picture76-d591e336.png)
+   [![削除する複数の robot account を選択](/img/migrated/Picture76-d591e336.png)](/img/migrated/Picture76-d591e336.png)
 
-2. Trong hộp thoại xác nhận, nhập **DELETE** để thực hiện xóa.
+2. 確認ダイアログで **DELETE** と入力して削除を実行します。
 
-   [![Nhập DELETE để xác nhận](/img/migrated/Picture77-39f9f679.png)](/img/migrated/Picture77-39f9f679.png)
+   [![DELETE を入力して確認](/img/migrated/Picture77-39f9f679.png)](/img/migrated/Picture77-39f9f679.png)
 
-3. Kiểm tra danh sách sau khi xóa.
+3. 削除後の一覧を確認します。
 
-   [![Danh sách robot account sau khi xóa](/img/migrated/Picture78-f877292a.png)](/img/migrated/Picture78-f877292a.png)
+   [![削除後の robot account 一覧](/img/migrated/Picture78-f877292a.png)](/img/migrated/Picture78-f877292a.png)

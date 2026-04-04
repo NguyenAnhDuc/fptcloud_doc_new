@@ -1,9 +1,9 @@
 ---
 id: "tagging-and-pushing-images-to-fpt-container-registry"
-title: "イメージを tag して FPT Container Registry に push する"
-description: "ローカルの Docker イメージに tag を付けて FPT Container Registry に push する。"
-sidebar_label: "イメージを tag して push する"
-sidebar_position: "5"
+title: "Tagging And Pushing Images To Fpt Container Registry"
+description: "**Step 1** : **Tag** the local image with the FPT Container Registry URI with the command:"
+sidebar_label: "Tagging And Pushing Images..."
+sidebar_position: "6"
 ---
 
 # Tagging And Pushing Images To Fpt Container Registry

@@ -1,20 +1,20 @@
 ---
 id: "overviews-vpn"
-title: "Tổng quan VPN Site-to-Site"
-description: "Giới thiệu dịch vụ VPN Site-to-Site và các yêu cầu trước khi triển khai."
-sidebar_label: "Tổng quan VPN Site-to-Site"
+title: "VPN Site-to-Site overview"
+description: "Introduction to the VPN Site-to-Site service and prerequisites for deployment."
+sidebar_label: "VPN Site-to-Site overview"
 sidebar_position: "2"
 ---
 
-# Tổng quan VPN Site-to-Site
+# VPN Site-to-Site overview
 
-VPN Site-to-Site cho phép các công ty xây dựng hệ thống mạng riêng ảo hoàn chỉnh cho các địa điểm đa dạng. Dịch vụ này kết nối các mạng nội bộ một cách liên tục và bảo mật, cho phép nhân viên chia sẻ tài nguyên an toàn giữa các mạng.
+VPN Site-to-Site lets organizations build a complete virtual private network across multiple locations. The service connects internal networks continuously and securely, enabling staff to share resources safely between sites.
 
-FPT Cloud Site-to-Site VPN là dịch vụ VPN quản lý đầy đủ, cho phép tạo kết nối bảo mật giữa mạng văn phòng và tài nguyên đám mây của FPT. Sử dụng tunnel IPSec, dịch vụ kết nối trung tâm dữ liệu doanh nghiệp với các văn phòng chi nhánh.
+FPT Cloud Site-to-Site VPN is a fully managed VPN service that creates a secure connection between your office network and FPT Cloud resources. Using IPSec tunnels, it links enterprise data centers with branch offices.
 
-## Yêu cầu trước khi tạo VPN Site-to-Site
+## Prerequisites for creating a VPN Site-to-Site connection
 
-- **Kiến trúc mạng**: đảm bảo kiến trúc mạng on-premise phù hợp với việc triển khai VPN S2S — xác định địa chỉ IP, phân vùng mạng, và các thiết bị mạng phù hợp.
-- **Floating IP**: hệ thống Cloud FPT cần 1 IP public để kết nối VPN S2S. IP public này chưa được gán cho bất kỳ dịch vụ nào khác.
-- **IP addressing**: đảm bảo các địa chỉ IP trong VPN S2S không xung đột với các mạng khác trong tổ chức hoặc mạng công cộng.
-- **Giao thức và mã hóa**: chọn giao thức và cấu hình mã hóa phù hợp. Phổ biến nhất là IPSec với mã hóa AES hoặc 3DES, kết hợp giao thức xác thực IKEv1 hoặc IKEv2.
+- **Network architecture**: ensure your on-premises network architecture is compatible with VPN S2S deployment — identify IP addresses, network segments, and appropriate network devices.
+- **Floating IP**: the FPT Cloud system requires one public IP for the VPN S2S connection. This public IP must not already be assigned to any other service.
+- **IP addressing**: ensure IP addresses used in the VPN S2S do not conflict with other networks in your organization or with public networks.
+- **Protocols and encryption**: choose appropriate protocols and encryption settings. The most common combination is IPSec with AES or 3DES encryption, paired with IKEv1 or IKEv2 authentication.

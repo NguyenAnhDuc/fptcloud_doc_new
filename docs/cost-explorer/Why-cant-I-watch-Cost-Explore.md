@@ -1,5 +1,5 @@
 ---
-id: "Why-cant-I-watch-Cost-Explore"
+id: "question-1"
 title: "Cannot view Cost Explorer"
 description: "Causes and solutions when Cost Explorer is not visible."
 sidebar_label: "Cannot view Cost Explorer"

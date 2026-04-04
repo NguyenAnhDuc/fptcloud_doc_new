@@ -1,30 +1,30 @@
 ---
 id: "faqs"
-title: "よくある質問"
-description: "Dedicated FPT Kubernetes Engine に関するよくある質問と回答。"
-sidebar_label: "よくある質問"
-sidebar_position: "30"
+title: "Câu hỏi thường gặp"
+description: "Hiện tại FPT Cloud đang hỗ trợ 02 Regions là HAN (Hanoi) và SGN (Saigon/HCM). D-FKE hỗ trợ tương ứng ở cả 02 Regions trên."
+sidebar_label: "Câu hỏi thường gặp"
+sidebar_position: "25"
 ---
 
-# FAQs
+# Câu hỏi thường gặp
 
-### Which regions does D-FKE support?
-Currently, FPT Cloud supports 02 Regions: HAN (Hanoi) and SGN (Saigon/HCM). D-FKE provides support in both of these regions.
+### D-FKE hỗ trợ ở các regions nào?
+Hiện tại FPT Cloud đang hỗ trợ 02 Regions là HAN (Hanoi) và SGN (Saigon/HCM). D-FKE hỗ trợ tương ứng ở cả 02 Regions trên.
 
-### Can an D-FKE cluster span multiple regions?
-D-FKE does not support a cluster running across multiple regions. You can create a cluster in each region for the same application to implement BC&DR (Business Continuity and Disaster Recovery).
+### Một cluster D-FKE có thể trải trên nhiều regions không?
+D-FKE không hỗ trợ một cluster chạy trên nhiều regions. Bạn có thể tạo cluster trên mỗi region cho cùng một ứng dụng để thực hiện BC&DR (Business Continuity and Disaster Recovery).
 
-### Does D-FKE support multiple VM configurations within a cluster?
-D-FKE currently does not support multiple VM configurations within a cluster. Worker Nodes must have the same configuration (CPU, RAM, DISK), and Master Nodes must have the same configuration (CPU, RAM, DISK). You can increase Nodes configuration on the fly.
+### D-FKE có hỗ trợ nhiều cấu hình VM trong một cluster không?
+D-FKE hiện tại không hỗ trợ nhiều cấu hình VM trong một cluster. Các Worker node phải có cấu hình giống nhau (CPU, RAM, Disk), và các Master node phải có cấu hình giống nhau (CPU, RAM, Disk). Bạn có thể tăng cấu hình node trong quá trình sử dụng.
 
-### How many Worker Nodes does D-FKE support in a cluster?
-D-FKE defaults to a maximum limit of 100 Worker Nodes per Cluster. You need to contact FPT Cloud to increase the Worker Nodes limit if needed.
+### D-FKE hỗ trợ bao nhiêu Worker node trong một cluster?
+D-FKE mặc định giới hạn tối đa 100 Worker node trên một Cluster. Bạn cần liên hệ với FPT Cloud để tăng giới hạn Worker node nếu có nhu cầu.
 
-### Is D-FKE compatible with my existing Kubernetes applications?
-D-FKE uses native Kubernetes, making it fully compatible with Kubernetes platforms on other clouds such as AWS, Azure, GCP, DO, as well as Kubernetes clusters you install on your infrastructure. This facilitates easy migration of applications between FPT Cloud, your data center, and other clouds.
+### D-FKE có tương thích với các ứng dụng Kubernetes hiện có của tôi không?
+D-FKE sử dụng native Kubernetes nên hoàn toàn tương thích với các nền tảng Kubernetes trên các Cloud khác như AWS, Azure, GCP, DigitalOcean, cũng như các cluster Kubernetes bạn cài đặt trên hạ tầng của mình. Điều này giúp bạn dễ dàng di chuyển ứng dụng giữa FPT Cloud, data center của bạn và các Cloud khác.
 
-### How can I expose my application outside the cluster?
-There are several ways to expose your application outside the cluster for customer use. One simple method is to use the [Load Balancer Services](../dedicated-fpt-kubernetes-engine/index.md) as instructed.
+### Làm thế nào để public ứng dụng ra ngoài cluster?
+Có một số cách để public ứng dụng ra ngoài cluster cho khách hàng sử dụng. Một cách đơn giản là sử dụng [Load Balancer Services](../dedicated-fpt-kubernetes-engine/index.md) theo hướng dẫn.
 
-### How can I monitor performance and configure alerts for the cluster?
-FPT Cloud provides the FMON product to help you monitor performance and configure alerts for the Kubernetes cluster. Additionally, FMON offers logging and tracing for easy integration with FKE.
+### Làm thế nào để giám sát hiệu năng và cấu hình cảnh báo cho cluster?
+FPTCloud cung cấp sản phẩm FMON giúp bạn giám sát hiệu năng và cấu hình cảnh báo cho Kubernetes cluster. Ngoài ra, FMON cung cấp logging và tracing dễ dàng tích hợp với FKE.

@@ -1,8 +1,8 @@
 ---
 id: "Create-Policy"
-title: "Policyを作成する"
-description: "Secretアクセスをコントロールする新しいPolicyを作成する方法"
-sidebar_label: "Policyを作成する"
+title: "Create Policy"
+description: "**Step 1** : Select the Key Vault to create **Policy** on the Key Vault Management screen:"
+sidebar_label: "Create Policy"
 sidebar_position: "12"
 ---
 

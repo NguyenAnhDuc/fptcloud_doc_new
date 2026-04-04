@@ -1,31 +1,31 @@
 ---
 id: "xoa-mot-robot-account"
-title: "Xóa robot account"
-description: "Xóa vĩnh viễn một hoặc nhiều robot account."
-sidebar_label: "Xóa robot account"
+title: "Delete a robot account"
+description: "Permanently delete one or more robot accounts."
+sidebar_label: "Delete a robot account"
 sidebar_position: "24"
 ---
 
-# Xóa robot account
+# Delete a robot account
 
-Khi robot account không còn cần thiết, bạn có thể xóa để dọn dẹp và giảm bề mặt tấn công bảo mật. FPT Cloud hỗ trợ xóa một hoặc nhiều robot account cùng lúc.
+When a robot account is no longer needed, you can delete it to clean up and reduce your security attack surface. FPT Cloud supports deleting one or multiple robot accounts at the same time.
 
 :::danger
-Xóa robot account là thao tác không thể hoàn tác. Các pipeline CI/CD đang sử dụng account này sẽ mất quyền truy cập ngay lập tức.
+Deleting a robot account cannot be undone. CI/CD pipelines using this account will immediately lose access.
 :::
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn xóa, sau đó chọn **ACTION DELETE**.
+1. In the **Robot Account** list, select the robot account to delete, then select **ACTION DELETE**.
 
-   [![Chọn ACTION DELETE](/img/migrated/Picture75-6386b37b.png)](/img/migrated/Picture75-6386b37b.png)
+   [![Select ACTION DELETE](/img/migrated/Picture75-6386b37b.png)](/img/migrated/Picture75-6386b37b.png)
 
-   Để xóa nhiều robot account cùng lúc, chọn nhiều account trước khi thực hiện action.
+   To delete multiple robot accounts at once, select multiple accounts before performing the action.
 
-   [![Chọn nhiều robot account để xóa](/img/migrated/Picture76-d591e336.png)](/img/migrated/Picture76-d591e336.png)
+   [![Select multiple robot accounts for deletion](/img/migrated/Picture76-d591e336.png)](/img/migrated/Picture76-d591e336.png)
 
-2. Trong hộp thoại xác nhận, nhập **DELETE** để thực hiện xóa.
+2. In the confirmation dialog, enter **DELETE** to confirm the deletion.
 
-   [![Nhập DELETE để xác nhận](/img/migrated/Picture77-39f9f679.png)](/img/migrated/Picture77-39f9f679.png)
+   [![Enter DELETE to confirm](/img/migrated/Picture77-39f9f679.png)](/img/migrated/Picture77-39f9f679.png)
 
-3. Kiểm tra danh sách sau khi xóa.
+3. Verify the list after deletion.
 
-   [![Danh sách robot account sau khi xóa](/img/migrated/Picture78-f877292a.png)](/img/migrated/Picture78-f877292a.png)
+   [![Robot account list after deletion](/img/migrated/Picture78-f877292a.png)](/img/migrated/Picture78-f877292a.png)

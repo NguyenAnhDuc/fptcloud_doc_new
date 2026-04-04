@@ -1,8 +1,8 @@
 ---
 id: "create-listener"
-title: "リスナーの作成・更新・削除"
-description: "FPT Cloud ロードバランサーでリスナーを作成・更新・削除する方法を説明します。"
-sidebar_label: "リスナーの作成"
+title: "Create, update, and delete a Listener"
+description: "How to create, update, and delete Listeners on a Load Balancer in FPT Cloud."
+sidebar_label: "Create a Listener"
 sidebar_position: "10"
 ---
 

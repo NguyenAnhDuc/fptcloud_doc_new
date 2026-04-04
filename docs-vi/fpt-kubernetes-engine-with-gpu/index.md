@@ -1,8 +1,8 @@
 ---
 id: "fpt-kubernetes-engine-with-gpu"
-title: "Fpt Kubernetes Engine With Gpu"
-description: "Fpt Kubernetes Engine With Gpu"
-sidebar_label: "Fpt Kubernetes Engine With Gpu"
+title: "FPT Kubernetes Engine with GPU"
+description: "FPT Kubernetes Engine with GPU trên FPT Cloud hỗ trợ GPU NVIDIA với quản lý tài nguyên tự động."
+sidebar_label: "FPT Kubernetes Engine with GPU"
 sidebar_position: 1
 ---
 

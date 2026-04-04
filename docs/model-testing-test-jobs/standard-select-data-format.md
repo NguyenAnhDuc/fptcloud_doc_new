@@ -3,35 +3,35 @@ id: "standard-select-data-format"
 title: "Standard Select Data Format"
 description: "Only select data format when you choose **test suite = standard**"
 sidebar_label: "Standard Select Data Format"
-sidebar_position: 11
+sidebar_position: "11"
 ---
 
-# Standard Select Data Format
+# Standard - Chọn Định dạng Dữ liệu
 
-Only select data format when you choose **test suite = standard**  
-| Supported data format  | Supported file format  | Supported file size  |  
+Chỉ chọn định dạng dữ liệu khi bạn chọn **test suite = standard**  
+| Định dạng dữ liệu hỗ trợ  | Định dạng file hỗ trợ  | Kích thước file hỗ trợ  |  
 | --- | --- | --- |  
 | Alpaca  | - CSV   
 - JSON   
 - JSONLINES   
 - ZIP   
-- PARQUET  | Limit 100MB  |  
+- PARQUET  | Giới hạn 100MB  |  
 | ShareGPT  | - JSON   
 - JSONLINES   
 - ZIP   
-- PARQUET  | Limit 100MB  |  
+- PARQUET  | Giới hạn 100MB  |  
 | ShareGPT_Image  | - ZIP   
-- PARQUET  | Limit 100MB  |  
+- PARQUET  | Giới hạn 100MB  |  
 [![Alt text](/img/migrated/Data-format-a194722e.png)](/img/migrated/Data-format-a194722e.png)
-We currently support data formats for testing include:
+Hiện tại chúng tôi hỗ trợ các định dạng dữ liệu cho việc kiểm thử bao gồm:
 
 ### a/ Alpaca
-**Alpaca** uses a very simple structure to fine-tune the model with Instruction-following format with input, output pairs for **supervised fine-tuning** tasks. The basic structure includes:
-  * **Instruction** : A string containing the specific task or request that the model needs to perform.
-  * **Input** : A string containing the information that the model needs to process in order to carry out the task.
-  * **Output** : A string representing the result the model should return, generated from processing the instruction and input.
+**Alpaca** sử dụng cấu trúc rất đơn giản để fine-tune mô hình với định dạng Instruction-following kèm các cặp input, output cho các nhiệm vụ **supervised fine-tuning**. Cấu trúc cơ bản bao gồm:
+  * **Instruction** : Chuỗi chứa nhiệm vụ hoặc yêu cầu cụ thể mà mô hình cần thực hiện.
+  * **Input** : Chuỗi chứa thông tin mô hình cần xử lý để thực hiện nhiệm vụ.
+  * **Output** : Chuỗi đại diện cho kết quả mô hình cần trả về, được tạo ra từ việc xử lý instruction và input.
 
-**Detailed Structure:**
+**Cấu trúc chi tiết:**
 
 ```
 Copy[
@@ -43,7 +43,7 @@ Copy[
 ]
 ```
 
-**Examples** :
+**Ví dụ** :
 
 ```
 Copy[
@@ -60,16 +60,16 @@ Copy[
 ]
 ```
 
-**Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/alpaca>
-**Supported file format:** .csv, .json, .jsonlines, .zip, .parquet
+**Mẫu:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/alpaca>
+**Định dạng file hỗ trợ:** .csv, .json, .jsonlines, .zip, .parquet
 
 ### b/ ShareGPT
-**ShareGPT** is designed to represent multi-turn conversations (back-and-forth chats) between a user and an AI assistant. It is commonly used when training or fine-tuning models for dialogue systems or chatbots that need to handle contextual conversation over multiple turns.
-Each data sample consists of a `conversations` array, where each turn in the chat includes:
-  * **from** : Who is speaking — usually `"human"` or `"system"`.
-  * **value** : The actual message text from that speaker.
+**ShareGPT** được thiết kế để biểu diễn các cuộc hội thoại nhiều lượt (trò chuyện qua lại) giữa người dùng và trợ lý AI. Định dạng này thường được sử dụng khi huấn luyện hoặc fine-tuning các mô hình cho các hệ thống hội thoại hoặc chatbot cần xử lý hội thoại ngữ cảnh qua nhiều lượt.
+Mỗi mẫu dữ liệu bao gồm một mảng `conversations`, trong đó mỗi lượt trong cuộc trò chuyện bao gồm:
+  * **from** : Người đang nói — thường là `"human"` hoặc `"system"`.
+  * **value** : Nội dung tin nhắn thực tế từ người nói đó.
 
-**Detailed Structure:**
+**Cấu trúc chi tiết:**
 
 ```
 Copy[
@@ -84,7 +84,7 @@ Copy[
 ]
 ```
 
-**Examples** :
+**Ví dụ** :
 
 ```
 Copy[
@@ -117,25 +117,25 @@ Copy[
 ]
 ```
 
-**Samples:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt>
-**Supported file format:** .json, .jsonlines, .zip, .parquet
+**Mẫu:** <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt>
+**Định dạng file hỗ trợ:** .json, .jsonlines, .zip, .parquet
 
 ### c/ ShareGPT_Image
-**ShareGPT_Image** is an extension of the ShareGPT multi-turn chat format, designed specifically for multi-modal training — that is, training models that handle both text and images in conversations.
-It’s used in fine-tuning vision-language models (VLMs), which need to process images alongside natural language.
-The structure includes:
-  * A list of **chat turns** under `"message"` (same as ShareGPT).
-  * A field called `"image"` or `"image_path"` that points to the image used in the conversation (using format png, jpg, jpeg)
+**ShareGPT_Image** là phần mở rộng của định dạng hội thoại nhiều lượt ShareGPT, được thiết kế đặc biệt cho việc huấn luyện đa phương thức — tức là huấn luyện các mô hình xử lý cả văn bản và hình ảnh trong các cuộc hội thoại.
+Định dạng này được sử dụng trong việc fine-tuning các vision-language models (VLMs), cần xử lý hình ảnh cùng với ngôn ngữ tự nhiên.
+Cấu trúc bao gồm:
+  * Danh sách các **lượt trò chuyện** trong `"message"` (giống như ShareGPT).
+  * Một trường gọi là `"image"` hoặc `"image_path"` trỏ đến hình ảnh được sử dụng trong cuộc hội thoại (sử dụng định dạng png, jpg, jpeg)
 
-**Notice:**
-  * **Must include the`image` token** in the chat content where an image should appear.
-  * If there are **multiple images** : 
-    * Image paths must be defined in an **`images`array**.
-    * The **positions of the images** in the chat flow are indicated by the **`image`tokens**
-    * The **number of`image` tokens** in the chat must **match the number of items in the`images` array**.
-    * Images will be **mapped in order of appearance** , with each `image` token replaced by the corresponding image from the `images` array.
+**Lưu ý:**
+  * **Phải bao gồm token`image`** trong nội dung trò chuyện ở vị trí hình ảnh sẽ xuất hiện.
+  * Nếu có **nhiều hình ảnh** : 
+    * Đường dẫn hình ảnh phải được định nghĩa trong một **mảng`images`**.
+    * **Vị trí của hình ảnh** trong luồng trò chuyện được chỉ ra bởi **các token`image`**
+    * **Số lượng token`image`** trong trò chuyện phải **khớp với số lượng phần tử trong mảng`images`**.
+    * Hình ảnh sẽ được **ánh xạ theo thứ tự xuất hiện**, với mỗi token `image` được thay thế bởi hình ảnh tương ứng từ mảng `images`.
 
-**Detailed Structures:**
+**Cấu trúc chi tiết:**
 
 ```
 Copy[
@@ -152,7 +152,7 @@ Copy[
 ]
 ```
 
-**Examples:**
+**Ví dụ:**
 
 ```
 Copy[
@@ -204,5 +204,5 @@ Copy[
 ]
 ```
 
-**Samples** : <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt-image>
-**Supported file format:** .zip, .parquet
+**Mẫu** : <https://github.com/fpt-corp/ai-studio-samples/tree/main/sample-datasets/sharegpt-image>
+**Định dạng file hỗ trợ:** .zip, .parquet

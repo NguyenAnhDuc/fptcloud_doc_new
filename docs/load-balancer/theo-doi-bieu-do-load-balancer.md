@@ -1,41 +1,29 @@
 ---
 id: "theo-doi-bieu-do-load-balancer"
-title: "Theo dõi biểu đồ giám sát Load Balancer"
-description: "Để theo dõi biểu đồ giám sát **Load Balancer** , trong màn hình hiển thị danh sách **Load Balancer** , nhấn chọn **Load "
-sidebar_label: "Theo dõi biểu đồ giám sát Load Balancer"
+title: "Monitor Load Balancer Charts"
+description: "How to view real-time monitoring charts for Listeners, Server Pools, and active servers on FPT Cloud Load Balancer."
+sidebar_label: "Monitor Load Balancer Charts"
 sidebar_position: "6"
 ---
 
-# Theo Doi Bieu Do Load Balancer
+# Monitor Load Balancer Charts
 
-Để theo dõi biểu đồ giám sát **Load Balancer** , trong màn hình hiển thị danh sách **Load Balancer** , nhấn chọn **Load Balancer** mà bạn muốn xem biểu đồ.
-Tại tab **Monitor** , người dùng theo dõi trạng thái của **Load Balancer** , có các đồ thị biểu diễn trạng thái của từng **Listener, nhóm Server** theo thời gian thực.
-**Listener** :
+In the Load Balancer list, click the Load Balancer you want to monitor. Under the **Monitor** tab, you can view the Load Balancer status through real-time charts for each Listener and Server Pool.
 
-```
-  -[Listener]Request/s: Số lượng request gửi đến Frontend trong thời gian 1s.
+**Listener metrics:**
 
-  -[Listener]Response Code: Thống kê http status code do Frontend trả về. Các mã theo dõi gồm:
+- **[Listener] Request/s**: Number of requests received by the Listener per second.
+- **[Listener] Response Code**: HTTP status codes returned by the Listener:
+  - `2xx`: Successful responses (e.g. 200 OK)
+  - `3xx`: Redirects (e.g. 301 Moved Permanently)
+  - `4xx`: Client errors (e.g. 404 Not Found)
+  - `5xx`: Server errors (e.g. 500 Internal Server Error)
+- **[Listener] Data Transfer**: Real-time data transfer throughput through the Listener (bytes).
 
-                 +2xx: Phản hồi thành công (ví dụ: 200 OK)
+**Pool metrics:**
 
-                 +3xx: Chuyển hướng (ví dụ: 301 Di chuyển vĩnh viễn)
+- **[Pool] Request/s**: Number of requests sent to the backend Server Pool per second. Indicates the total workload the Load Balancer is distributing.
+- **[Pool] Response Code**: HTTP status codes returned by the backend.
+- **[Pool] Data Transfer**: Real-time data transfer throughput through the backend (bytes).
 
-                 +4xx: Lỗi của khách hàng (ví dụ: 404 Không tìm thấy)
-
-                 +5xx: Lỗi của máy chủ (ví dụ: 500 Lỗi máy chủ nội bộ) Bằng cách theo dõi mã phản hồi, bạn có thể xác định các vấn đề tiềm ẩn với máy chủ backend, chẳng hạn như tỷ lệ lỗi cao.
-
-   -[Listener] Data Transfer: Thống kê lưu lượng dữ liệu truyền tải qua frontend theo thời gian thực .Đơn vị dữ liệu: Byte.
-```
-
-**Pool** :
-
-```
-Copy   -[Pool] Request/s: Lượng request được gửi đến nhóm máy chủ backend trên mỗi giây. Cho biết tổng khối lượng công việc mà bộ cân bằng tải đang phân phối.
-
-   -[Pool]Response Code: Thống kê http status code do Backend trả về .
-
-   -[Pool]Data Transfer: Thống kê lưu lượng dữ liệu truyền tải qua Backend theo thời gian thực. 
-```
-
-**Active server:** Số lượng máy chủ Backend hiện đang active (Healthy) của **Load Balancer.** Số lượng này có thể thay đổi theo thời gian dựa trên nhu cầu lưu lượng truy cập và cấu hình cân bằng tải.
+**Active server:** The number of currently active (healthy) backend servers for this Load Balancer. This number changes over time based on traffic demand and Load Balancer configuration.

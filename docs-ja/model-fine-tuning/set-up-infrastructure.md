@@ -1,8 +1,8 @@
 ---
 id: "set-up-infrastructure"
-title: "Set Up Infrastructure"
-description: "Chúng tôi hỗ trợ cả cấu hình single-node và multi-node, với tối đa 16 node."
-sidebar_label: "Set Up Infrastructure"
+title: "インフラのセットアップ"
+description: "最大 16 ノードまでの single-node および multi-node 構成をサポートしています。"
+sidebar_label: "インフラのセットアップ"
 sidebar_position: "15"
 ---
 

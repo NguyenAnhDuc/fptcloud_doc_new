@@ -1,67 +1,67 @@
 ---
 id: "quan-ly-retention-run"
-title: "Quản lý retention run"
-description: "Chạy, kiểm tra và quản lý các lần thực thi retention rule."
-sidebar_label: "Quản lý retention run"
+title: "Retention run を管理する"
+description: "Retention rule の実行履歴を管理し、手動実行・dry run・中止・ログ確認を行う。"
+sidebar_label: "Retention run を管理する"
 sidebar_position: "17"
 ---
 
-# Quản lý retention run
+# Retention run を管理する
 
-Retention run là lịch sử các lần thực thi retention rule. FPT Cloud cho phép bạn chạy thủ công, thực hiện dry run để kiểm tra trước, hủy một lần chạy đang thực hiện và xem log chi tiết.
+Retention run は retention rule の実行履歴です。FPT Cloud では、手動実行、事前確認のための dry run、実行中の run の中止、詳細ログの確認が行えます。
 
-## Chạy quy tắc thủ công (Run now)
+## 手動実行（Run now）
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > **RUN NOW**.
+1. **FPT Portal** メニューで **Container Registry** > **Policy** > **RUN NOW** を選択します。
 
-   [![Nút RUN NOW](/img/migrated/Picture48-1-1310d2d8.png)](/img/migrated/Picture48-1-1310d2d8.png)
+   [![RUN NOW ボタン](/img/migrated/Picture48-1-1310d2d8.png)](/img/migrated/Picture48-1-1310d2d8.png)
 
-2. Chọn **OK** để xác nhận chạy retention.
+2. **OK** をクリックして retention の実行を確認します。
 
-   [![Xác nhận RUN NOW](/img/migrated/Picture49-1-ad9995a4.png)](/img/migrated/Picture49-1-ad9995a4.png)
+   [![RUN NOW の確認](/img/migrated/Picture49-1-ad9995a4.png)](/img/migrated/Picture49-1-ad9995a4.png)
 
-3. Kiểm tra kết quả sau khi chạy.
+3. 実行後の結果を確認します。
 
-   [![Kết quả sau khi chạy retention](/img/migrated/Picture50-1-67a91903.png)](/img/migrated/Picture50-1-67a91903.png)
+   [![Retention 実行後の結果](/img/migrated/Picture50-1-67a91903.png)](/img/migrated/Picture50-1-67a91903.png)
 
 ## Dry run
 
-Dry run kiểm tra quy tắc mà không thực sự xóa image, giúp bạn xác minh cấu hình trước khi áp dụng.
+Dry run は image を実際に削除せずにルールを確認し、適用前に設定を検証できます。
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > **DRY RUN**.
+1. **FPT Portal** メニューで **Container Registry** > **Policy** > **DRY RUN** を選択します。
 
-   [![Nút DRY RUN](/img/migrated/Picture51-1-6b16d900.png)](/img/migrated/Picture51-1-6b16d900.png)
+   [![DRY RUN ボタン](/img/migrated/Picture51-1-6b16d900.png)](/img/migrated/Picture51-1-6b16d900.png)
 
-2. Kiểm tra kết quả dry run. Không có image nào bị xóa thực sự.
+2. Dry run の結果を確認します。実際には image は削除されません。
 
-   [![Kết quả sau khi DRY RUN](/img/migrated/Picture52-1-b8c3c76a.png)](/img/migrated/Picture52-1-b8c3c76a.png)
+   [![DRY RUN 後の結果](/img/migrated/Picture52-1-b8c3c76a.png)](/img/migrated/Picture52-1-b8c3c76a.png)
 
-## Hủy retention run đang chạy (Abort)
+## 実行中の retention run を中止する（Abort）
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > chọn retention run đang **Running** > **ABORT**.
+1. **FPT Portal** メニューで **Container Registry** > **Policy** > **Running** 状態の retention run を選択 > **ABORT** を選択します。
 
-   [![Nút ABORT trên retention đang chạy](/img/migrated/Picture53-1-aedc2cf2.png)](/img/migrated/Picture53-1-aedc2cf2.png)
+   [![実行中の retention の ABORT ボタン](/img/migrated/Picture53-1-aedc2cf2.png)](/img/migrated/Picture53-1-aedc2cf2.png)
 
-2. Chọn **OK** để xác nhận hủy.
+2. **OK** をクリックして中止を確認します。
 
-   [![Xác nhận Abort](/img/migrated/Picture54-a4f9fc84.png)](/img/migrated/Picture54-a4f9fc84.png)
+   [![Abort の確認](/img/migrated/Picture54-a4f9fc84.png)](/img/migrated/Picture54-a4f9fc84.png)
 
-3. Kiểm tra kết quả sau khi hủy.
+3. 中止後の結果を確認します。
 
-   [![Kết quả sau khi Abort](/img/migrated/Picture55-6ea6d35a.png)](/img/migrated/Picture55-6ea6d35a.png)
+   [![Abort 後の結果](/img/migrated/Picture55-6ea6d35a.png)](/img/migrated/Picture55-6ea6d35a.png)
 
-## Xem danh sách retention run
+## Retention run の一覧を表示する
 
-Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** để xem danh sách tất cả lần chạy.
+**FPT Portal** メニューで **Container Registry** > **Policy** を選択してすべての実行履歴を表示します。
 
-[![Danh sách retention run](/img/migrated/Picture56-d461b01d.png)](/img/migrated/Picture56-d461b01d.png)
+[![Retention run の一覧](/img/migrated/Picture56-d461b01d.png)](/img/migrated/Picture56-d461b01d.png)
 
-## Xem log của một retention run
+## Retention run のログを表示する
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > click vào một retention run để xem chi tiết.
+1. **FPT Portal** メニューで **Container Registry** > **Policy** > retention run をクリックして詳細を表示します。
 
-   [![Chi tiết retention run](/img/migrated/Picture57-cd40bdbd.png)](/img/migrated/Picture57-cd40bdbd.png)
+   [![Retention run の詳細](/img/migrated/Picture57-cd40bdbd.png)](/img/migrated/Picture57-cd40bdbd.png)
 
-2. Kiểm tra log của từng repository trong lần chạy đó.
+2. その実行内の各 repository のログを確認します。
 
-   [![Log chi tiết của retention run](/img/migrated/Picture58-6d27606a.png)](/img/migrated/Picture58-6d27606a.png)
+   [![Retention run の詳細ログ](/img/migrated/Picture58-6d27606a.png)](/img/migrated/Picture58-6d27606a.png)

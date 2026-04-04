@@ -1,15 +1,15 @@
 ---
 id: "cost-explorer"
-title: "Phân tích chi phí"
-description: "Phân tích và theo dõi chi phí dịch vụ trên FPT Cloud theo nhiều chiều."
-sidebar_label: "Phân tích chi phí"
+title: "Cost Explorer"
+description: "FPT Cloudのサービスコストを複数のディメンションで分析・追跡します。"
+sidebar_label: "Cost Explorer"
 sidebar_position: "1"
 ---
 
 # Cost Explorer
 
-Cost Explorer giúp bạn phân tích và theo dõi chi phí dịch vụ trên FPT Cloud theo nhiều chiều — theo dịch vụ, theo loại tài nguyên, theo VPC hoặc theo tag. Tính năng này đặc biệt hữu ích khi bạn cần kiểm soát chi phí cloud và tối ưu hóa ngân sách.
+Cost Explorerは、FPT Cloudのサービスコストをサービス別、リソースタイプ別、VPC別、またはタグ別など複数のディメンションで分析・追跡できます。クラウド費用を管理し予算を最適化する際に特に役立ちます。
 
 :::note
-Chi phí hiển thị trong Cost Explorer được tùy biến theo bộ lọc bạn cài đặt tại Customize Filter và có thể khác với chi phí thực tế trong đối soát cuối tháng theo kỳ hóa đơn.
+Cost Explorerに表示されるコストは、Customize Filterで設定したフィルターに基づいてカスタマイズされており、月末請求書の実際の請求金額と異なる場合があります。
 :::

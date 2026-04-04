@@ -1,8 +1,8 @@
 ---
 id: "download-files"
-title: "ファイルのダウンロード"
-description: "model バージョンを選択してください"
-sidebar_label: "ファイルのダウンロード"
+title: "Download files"
+description: "Choose your model version*"
+sidebar_label: "Download files"
 sidebar_position: "23"
 ---
 

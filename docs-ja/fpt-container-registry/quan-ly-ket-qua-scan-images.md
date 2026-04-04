@@ -1,27 +1,27 @@
 ---
 id: "quan-ly-ket-qua-scan-images"
-title: "Quản lý kết quả scan image"
-description: "Xem chi tiết lỗ hổng bảo mật được phát hiện sau khi scan image."
-sidebar_label: "Quản lý kết quả scan"
+title: "スキャン結果を管理する"
+description: "image スキャン後に検出されたセキュリティ脆弱性の詳細を確認する。"
+sidebar_label: "スキャン結果を管理する"
 sidebar_position: "33"
 ---
 
-# Quản lý kết quả scan image
+# スキャン結果を管理する
 
-Sau khi scan hoàn tất, FPT Container Registry cung cấp báo cáo chi tiết về các lỗ hổng bảo mật được phát hiện, giúp bạn đánh giá mức độ rủi ro và đưa ra biện pháp xử lý phù hợp.
+スキャン完了後、FPT Container Registry は検出されたセキュリティ脆弱性の詳細レポートを提供します。これにより、リスクレベルを評価して適切な対処を行えます。
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Repository** > **Detail Repository**.
+1. **FPT Portal** メニューで **Container Registry** > **Repository** > **Detail Repository** を選択します。
 
-   ![Chi tiết repository để xem kết quả scan](/img/migrated/Picture98-49e7fa22.png)
+   ![スキャン結果を確認するための repository 詳細](/img/migrated/Picture98-49e7fa22.png)
 
-2. Click vào bảng **Vulnerabilities** để xem tổng số lỗ hổng đã phát hiện.
+2. **Vulnerabilities** テーブルをクリックして検出された脆弱性の総数を確認します。
 
-   ![Bảng Vulnerabilities](/img/migrated/Picture99-b3e32c1f.png)
+   ![Vulnerabilities テーブル](/img/migrated/Picture99-b3e32c1f.png)
 
-3. Click vào **Detail Artifact** để xem chi tiết từng lỗ hổng.
+3. **Detail Artifact** をクリックして各脆弱性の詳細を表示します。
 
-   ![Chi tiết artifact với danh sách lỗ hổng](/img/migrated/Picture100-766da985.png)
+   ![脆弱性リストを含む artifact の詳細](/img/migrated/Picture100-766da985.png)
 
-4. Xem danh sách đầy đủ các lỗ hổng được phát hiện qua FPT Container Registry.
+4. FPT Container Registry で検出された脆弱性の完全なリストを確認します。
 
-   ![Danh sách chi tiết lỗ hổng bảo mật](/img/migrated/Picture101-55d53435.png)
+   ![セキュリティ脆弱性の詳細リスト](/img/migrated/Picture101-55d53435.png)

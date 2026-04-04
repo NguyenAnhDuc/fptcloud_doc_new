@@ -1,16 +1,23 @@
 ---
 id: "delete-share"
-title: "Delete Share"
-description: "Mục đích: Xóa chia sẻ, Người đã được chia sẻ, không còn thấy và thao tác được với model trong hệ thống"
-sidebar_label: "Delete Share"
+title: "共有の削除"
+description: "ユーザーの model への共有アクセスを削除します。"
+sidebar_label: "共有の削除"
 sidebar_position: "19"
 ---
 
-# Delete Share
+# 共有の削除
 
-Mục đích: Xóa chia sẻ, Người đã được chia sẻ, không còn thấy và thao tác được với model trong hệ thống 
-Các bước thực hiện: 
+ユーザーの model への共有アクセスを削除します。削除後、そのユーザーは model を表示・操作できなくなります。
 
-Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Share 
+## 手順
 
-Bước 2: Click vào dấu 3 chấm cột Action > Chọn Delete [![](/img/migrated/Picture36-364e845a.png)](/img/migrated/Picture36-364e845a.png) Bước 3: Hiển thị hộp thoại xác nhận, để đồng ý xóa, bạn nhập "delete" vào text box. Lúc này button Delete sẽ enable lên cho người dùng xóa. [![](/img/migrated/Picture37-044436ec.png)](/img/migrated/Picture37-044436ec.png) Bước 4: Để xóa, click button Confirm, để hủy bỏ thao tác chọn Cancel
+1. model をクリックして詳細を表示し、**Share** タブを選択します。
+
+2. **Action** 列の 3 点アイコンをクリックし、**Delete** を選択します。
+[![](/img/migrated/Picture36-364e845a.png)](/img/migrated/Picture36-364e845a.png)
+
+3. 確認ダイアログが表示されます。テキストボックスに `delete` と入力して確認します。**Delete** ボタンが有効になります。
+[![](/img/migrated/Picture37-044436ec.png)](/img/migrated/Picture37-044436ec.png)
+
+4. **Confirm** をクリックして削除するか、**Cancel** をクリックして操作を取り消します。

@@ -1,8 +1,8 @@
 ---
 id: "create-a-model"
-title: "model の作成"
-description: "**Create Model** を使用すると、基本設定、メタデータ、アクセス制御をカスタマイズして、プライベート AI model を構築できます。"
-sidebar_label: "model の作成"
+title: "Create a model"
+description: "**Create Model** allows users to build a private AI model by customizing its basic settings, metadata, and access contro"
+sidebar_label: "Create a model"
 sidebar_position: "12"
 ---
 

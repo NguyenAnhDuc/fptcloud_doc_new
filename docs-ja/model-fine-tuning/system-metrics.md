@@ -1,8 +1,8 @@
 ---
 id: "system-metrics"
-title: "System Metrics"
-description: "System metrics được thu thập để theo dõi hiệu suất phần cứng và cơ sở hạ tầng trong quá trình training model."
-sidebar_label: "System Metrics"
+title: "システムメトリクス"
+description: "model トレーニング中のハードウェアとインフラのパフォーマンスを監視するために収集されるシステムメトリクス。"
+sidebar_label: "システムメトリクス"
 sidebar_position: "26"
 ---
 

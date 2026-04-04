@@ -1,27 +1,27 @@
 ---
 id: "tutorials-tao-secret-engine"
-title: "Tạo Secret Engine"
-description: "Hướng dẫn tạo mới Secret Engine trong một Vault Instance"
-sidebar_label: "Tạo Secret Engine"
+title: "Create a Secret Engine"
+description: "How to create a new Secret Engine inside a Vault Instance"
+sidebar_label: "Create a Secret Engine"
 sidebar_position: "4"
 ---
 
-# Tạo Secret Engine
+# Create a Secret Engine
 
-Secret Engine là thành phần quản lý và lưu trữ các Secret trong Vault. Mỗi Secret Engine có mount point riêng và có thể chứa nhiều Secret theo cấu trúc Key/Value.
+A Secret Engine is the component that manages and stores Secrets inside a Vault. Each Secret Engine has its own mount point and can contain multiple Secrets in Key/Value format.
 
-1. Trên **Key Vault Management**, chọn **Key Vault** cần thêm **Secret Engine**.
+1. On **Key Vault Management**, select the **Key Vault** to add a **Secret Engine** to.
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management list screen](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Secret** và chọn **Create**.
+2. Open the **Secret** tab and click **Create**.
 
-   [![Tab Secret với nút Create](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)
+   [![Secret tab with Create button](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)
 
-3. Trên màn hình **Create New Secret Engine**, nhập các thông tin cần thiết.
+3. On the **Create New Secret Engine** screen, enter the required information.
 
-   [![Form tạo mới Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)
+   [![Create New Secret Engine form](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)
 
-4. Chọn **Create** để hoàn tất. Hệ thống gửi thông báo xác nhận và tiến hành tạo **Secret Engine** mới.
+4. Click **Create** to finish. The system sends a confirmation message and creates the new **Secret Engine**.
 
-   [![Danh sách Secret Engine sau khi tạo thành công](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)
+   [![Secret Engine list after successful creation](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)

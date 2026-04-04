@@ -1,19 +1,22 @@
 ---
 id: "create-organization"
 title: "Create Organization"
-description: "Mục đích: Sau khi tenant được active, người dùng lần đầu truy cập vào dịch vụ Model Hub trên tenant sẽ cần làm bước này,"
+description: "Set up your organization the first time you access Model Hub on a tenant."
 sidebar_label: "Create Organization"
 sidebar_position: "22"
 ---
 
 # Create Organization
 
-Mục đích: Sau khi tenant được active, người dùng lần đầu truy cập vào dịch vụ Model Hub trên tenant sẽ cần làm bước này, thực hiện create organization, sau đó mới sử dụng dịch vụ.
+After a tenant is activated, the first user to access the Model Hub service on that tenant must create an organization before using the service.
 
-Bước 1: Tại màn hình dịch vụ Private Model, người dùng sẽ thấy hiển thị form Create organizaton
+## Steps
+
+1. On the **Private Model** service screen, the **Create Organization** form appears.
 [![](/img/migrated/anh-12-d2d971ad.png)](/img/migrated/anh-12-d2d971ad.png)
 
-Bước 2: Người dùng thực thiện điền đầy đủ thông tin Owner email, Organization name, upload Logo
-Lưu ý: thông tin Owner email, Organization name là bắt buộc, người dùng có thể bỏ trống trường Logo
+2. Fill in the **Owner email**, **Organization name**, and optionally upload a **Logo**.
 
-Bước 3: Click button Create, hệ thống điều hướng đến màn hình dịch vụ Private Model, tại đây, người dùng có thể bắt đầu sử dụng dịch vụ
+   > **Note:** Owner email and Organization name are required. Logo is optional.
+
+3. Click **Create**. The system navigates to the Private Model service screen, where you can start using the service.

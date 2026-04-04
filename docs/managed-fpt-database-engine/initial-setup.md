@@ -1,23 +1,23 @@
 ---
 id: "initial-setup"
-title: "初期設定"
-description: "FPT Smart Cloud Database Engine を初めて使用する前の初期設定手順。"
-sidebar_label: "初期設定"
+title: "Initial Setup"
+description: "Initial setup steps before using FPT Smart Cloud Database Engine for the first time."
+sidebar_label: "Initial Setup"
 sidebar_position: "2"
 ---
 
-# 初期設定
+# Initial setup
 
-**FPT Smart Cloud Database Engine** を初めてご利用になる場合は、以下の手順を確認・完了してから開始してください。
+Before using **FPT Smart Cloud Database Engine** for the first time, complete the following steps.
 
-## FPT Cloud アカウントの作成と FPT Portal へのログイン
+## Create an FPT Cloud account and log in to FPT Portal
 
-**FPT Smart Cloud Database Engine** サービスの使用を開始するには、**FPT Portal** にログインする必要があります。
+To start using **FPT Smart Cloud Database Engine**, you must log in to **FPT Portal**.
 
-付与された **FPT Cloud** のアカウントとパスワードでログインしてください。サービスを使用する正しい Tenant、Region、VPC を選択します。
+Log in with the **FPT Cloud** account and password provided to you. Select the correct Tenant, Region, and VPC for the service you want to use.
 
-FPT Cloud アカウントをお持ちでない場合は、<https://fptcloud.com/> にアクセスしてください。
+If you do not have an FPT Cloud account, visit <https://fptcloud.com/>.
 
-**Sign Up** 機能を選択し、システムの指示に従って情報を入力してください。サポート担当者がすぐに連絡し、アカウント作成のための情報を確認します。
+Select the **Sign Up** option and fill in the required information following the system instructions. A support representative will contact you shortly to verify your information and complete account creation.
 
-操作中に問題が発生した場合は、サポートチームまでお問い合わせください。
+If you encounter any issues during the process, contact the support team.

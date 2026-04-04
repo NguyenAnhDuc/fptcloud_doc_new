@@ -1,19 +1,22 @@
 ---
 id: "View-queues"
-title: "View Queues"
-description: "**Step 1** : Choose a queue that you want to view detailed information."
-sidebar_label: "View Queues"
+title: "queue の表示"
+description: "FPT Message Bus for RabbitMQ で queue の詳細情報を表示する方法。"
+sidebar_label: "queue の表示"
 sidebar_position: "6"
 ---
 
-# View Queues
+# queue の表示
 
-**Step 1** : Choose a queue that you want to view detailed information.
-**Step 2** : Click **View**.
-This will display the information you entered, including:
-  * **Name** : Queue name.
-  * **Status** : Queue status.
-  * Entered informations such as max length, max length byte, message TTL, overflow, etc., will also be shown here.
+**ステップ1:** 詳細情報を表示したい queue を選択します。
+
+**ステップ2:** **View** をクリックします。
+
+入力した情報が表示されます:
+- **Name**: queue 名。
+- **Status**: queue のステータス。
+- max length、max length byte、message TTL、overflow などの設定情報も表示されます。
 
 [![](/img/migrated/queue_view_1-98f8393e.png)](/img/migrated/queue_view_1-98f8393e.png)
-These details are read-only, and there is no permission to edit.
+
+これらの詳細情報は読み取り専用で、編集することはできません。

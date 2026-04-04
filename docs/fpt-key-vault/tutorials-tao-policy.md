@@ -1,30 +1,30 @@
 ---
 id: "tutorials-tao-policy"
-title: "Tạo Policy"
-description: "Hướng dẫn tạo mới Policy để kiểm soát quyền truy cập Secret"
-sidebar_label: "Tạo Policy"
+title: "Create a Policy"
+description: "How to create a new Policy to control Secret access"
+sidebar_label: "Create a Policy"
 sidebar_position: "9"
 ---
 
-# Tạo Policy
+# Create a Policy
 
-Policy định nghĩa các quyền truy cập vào Secret path trong Vault. Sử dụng Policy để kiểm soát người dùng hoặc ứng dụng nào có thể đọc, ghi hoặc xóa Secret.
+A Policy defines access rules for Secret paths in Vault. Use Policies to control which users or applications can read, write, or delete Secrets.
 
-1. Trên **Key Vault Management**, chọn **Key Vault** cần thêm **Policy**.
+1. On **Key Vault Management**, select the **Key Vault** to add a **Policy** to.
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management list screen](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Policies** và chọn **Create**.
+2. Open the **Policies** tab and click **Create**.
 
-   [![Tab Policies với nút Create](/img/migrated/Userguide-FPT-KeyVault-2022-18-1024x538-c0e5b589.png)](/img/migrated/Userguide-FPT-KeyVault-2022-18-1024x538-c0e5b589.png)
+   [![Policies tab with Create button](/img/migrated/Userguide-FPT-KeyVault-2022-18-1024x538-c0e5b589.png)](/img/migrated/Userguide-FPT-KeyVault-2022-18-1024x538-c0e5b589.png)
 
-3. Trên màn hình **Create New Policy**, nhập các thông tin cần thiết:
+3. On the **Create New Policy** screen, enter the required information:
 
-   - **Name**: Tên của **Policy**.
-   - **Rule**: Mô tả đường dẫn Secret mà người dùng hoặc ứng dụng có thể truy cập.
+   - **Name**: The name of the **Policy**.
+   - **Rule**: Describes the Secret path that users or applications can access.
 
-   [![Form tạo mới Policy với các trường Name và Rule](/img/migrated/Userguide-FPT-KeyVault-2022-19-2cd1b5bd.png)](/img/migrated/Userguide-FPT-KeyVault-2022-19-2cd1b5bd.png)
+   [![Create New Policy form with Name and Rule fields](/img/migrated/Userguide-FPT-KeyVault-2022-19-2cd1b5bd.png)](/img/migrated/Userguide-FPT-KeyVault-2022-19-2cd1b5bd.png)
 
-4. Chọn **Create** để hoàn tất. Hệ thống gửi thông báo xác nhận và tiến hành tạo **Policy** mới.
+4. Click **Create** to finish. The system sends a confirmation message and creates the new **Policy**.
 
-   [![Danh sách Policy sau khi tạo thành công](/img/migrated/Userguide-FPT-KeyVault-2022-20-1024x538-0f781649.png)](/img/migrated/Userguide-FPT-KeyVault-2022-20-1024x538-0f781649.png)
+   [![Policy list after successful creation](/img/migrated/Userguide-FPT-KeyVault-2022-20-1024x538-0f781649.png)](/img/migrated/Userguide-FPT-KeyVault-2022-20-1024x538-0f781649.png)

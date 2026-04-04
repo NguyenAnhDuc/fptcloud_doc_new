@@ -1,19 +1,27 @@
 ---
 id: "xoa may ao khoi load balancer"
-title: "Xóa máy ảo khỏi Load Balancer"
-description: "Nếu muốn xóa máy ảo khỏi **Load Balancer** bạn thao tác theo hướng dẫn sau:"
-sidebar_label: "Xóa máy ảo khỏi Load Balancer"
+title: "Remove Virtual Machines from Load Balancer"
+description: "How to remove virtual machines from a Load Balancer on FPT Cloud."
+sidebar_label: "Remove Virtual Machines from Load Balancer"
 sidebar_position: "30"
 ---
 
-# Xoa May Ao Khoi Load Balancer
+# Remove Virtual Machines from Load Balancer
 
-Nếu muốn xóa máy ảo khỏi **Load Balancer** bạn thao tác theo hướng dẫn sau:
-**Bước 1** : Truy cập vào trang **Load Balancer details** bằng cách chọn tên **Load Balancer** tương ứng trên bảng quản trị **Load Balancer Management**.
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)**
-**Bước 2** : Ở tab **Instances** sẽ hiện danh sách máy ảo đã thêm vào **Load Balancer.** Tiếp theo chọn **Select instances.**
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-5-1024x-96497cb3.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-5-1024x-96497cb3.png)**
-**Bước 3:** Bấm vào icon **[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-8-da4ac7b6.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-8-da4ac7b6.png)**ở cuối tên máy ảo cần xóa tại trường**Instances** trong popup **Change instances.**
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-9-d29dbacb.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-9-d29dbacb.png)**
-**Bước 4:** Chọn **Save**.
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-7-300x1-828020a4.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-7-300x1-828020a4.png)**
+To remove a virtual machine from a Load Balancer, follow these steps:
+
+**Step 1:** Go to the **Load Balancer details** page by selecting the Load Balancer name in the **Load Balancer Management** dashboard.
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)
+
+**Step 2:** In the **Instances** tab, the list of virtual machines added to the Load Balancer is shown. Click **Select instances**.
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-5-1024x-96497cb3.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-5-1024x-96497cb3.png)
+
+**Step 3:** In the **Change instances** popup, click the remove icon at the end of the virtual machine name you want to remove in the **Instances** field.
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-9-d29dbacb.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-9-d29dbacb.png)
+
+**Step 4:** Click **Save**.
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-7-300x1-828020a4.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-7-300x1-828020a4.png)

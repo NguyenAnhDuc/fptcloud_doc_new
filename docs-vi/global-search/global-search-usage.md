@@ -1,8 +1,8 @@
 ---
 id: "global-search-usage"
-title: "グローバル検索の使い方"
-description: "FPT CloudのGlobal Search機能を使ってリソースを検索・管理するためのステップバイステップガイドです。"
-sidebar_label: "グローバル検索の使い方"
+title: "Using Global Search"
+description: "Step-by-step guide to using the Global Search feature on FPT Cloud to find and manage resources."
+sidebar_label: "Using Global Search"
 sidebar_position: "2"
 ---
 

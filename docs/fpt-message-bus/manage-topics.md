@@ -1,19 +1,19 @@
 ---
 id: "manage-topics"
-title: "topic の管理"
-description: "FPT Message Bus における topic 管理の概要。"
-sidebar_label: "topic の管理"
+title: "Manage topics"
+description: "Overview of topic management in FPT Message Bus."
+sidebar_label: "Manage topics"
 sidebar_position: "9"
 ---
 
-# topic の管理
+# Manage topics
 
-topic は publish/subscribe モデルを使ってメッセージを配信します。publish された 1 つのメッセージが、登録されたすべての subscription に同時に配信されます。FPT Message Bus では、管理インターフェースから topic の作成、編集、メッセージの送受信、削除を行えます。
+Topics distribute messages using the publish/subscribe model — one published message is delivered simultaneously to all registered subscriptions. With FPT Message Bus, you can create, edit, send/receive messages, and delete topics from the management interface.
 
-詳細なガイドを参照してください。
+See the detailed guides:
 
-- [topic の作成](./create-topics.md)
-- [subscription の作成](./create-subscriptions.md)
-- [topic の編集](./edit-topics.md)
-- [topic でのメッセージ送受信](./send-receive-messages-in-topics.md)
-- [topic の削除](./delete-topics.md)
+- [Create a topic](./create-topics.md)
+- [Create a subscription](./create-subscriptions.md)
+- [Edit a topic](./edit-topics.md)
+- [Send and receive messages in topics](./send-receive-messages-in-topics.md)
+- [Delete a topic](./delete-topics.md)

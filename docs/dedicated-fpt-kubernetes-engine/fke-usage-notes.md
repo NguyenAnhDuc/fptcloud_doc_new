@@ -1,8 +1,8 @@
 ---
 id: "fke-usage-notes"
-title: "FKE 使用上の注意事項"
+title: "Fke Usage Notes"
 description: "FKE サービスを使用する際の推奨事項と注意事項。"
-sidebar_label: "FKE 使用上の注意事項"
+sidebar_label: "Fke Usage Notes"
 sidebar_position: "29"
 ---
 

@@ -1,32 +1,37 @@
 ---
 id: "them-worker-group"
-title: "Thêm Worker Group"
-description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn th"
-sidebar_label: "Thêm Worker Group"
+title: "Add a worker group"
+description: "How to add a new worker group to a Managed FPT Kubernetes Engine cluster."
+sidebar_label: "Add a worker group"
 sidebar_position: "12"
 ---
 
-# Thêm worker group
+# Add a worker group
 
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn **Cluster** muốn thêm Worker Group.
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears. Select the **Cluster** you want to add a Worker Group to.
 [![](/img/migrated/Picture21-59a1a031.png)](/img/migrated/Picture21-59a1a031.png)
-**Bước 2** : Chọn **Node Pools** > **Edit Workers**.
-[![](/img/migrated/Picture22-21285b05.png)](/img/migrated/Picture22-21285b05.png)
-**Bước 3** : Chọn **ADD WORKER GROUP**.
-[![](/img/migrated/Picture23-51511b2e.png)](/img/migrated/Picture23-51511b2e.png)
-**Bước 4:** Nhập các trường thông tin theo yêu cầu.
-[![](/img/migrated/Picture24-753cbc70.png)](/img/migrated/Picture24-753cbc70.png)
-  * **Instance Type:** Chọn loại Instance (CPU hoặc GPU) cho các **Worker Node**
-  * **Type:** Chọn cấu hình (CPU & Memory) cho các **Worker Node**
-  * **Container Runtime:** Chọn **Containerd**. 
-  * **Storage Policy:** Chọn loại **Storage Policy** (tương ứng với IOPS) cho Worker Node Disk. 
-  * **Disk (GB):** Chọn dung lượng root disk cho các **Worker Node**. 
-  * **Network:** Subnet sử dụng để deploy các VM của Kubernetes Cluster. 
-  * **Scale min:** Số VM instance Worker Node tối thiểu cho cụm k8s. Recommend tối thiểu là 03 Nodes cho môi trường Production. 
-  * **Scale max:** Số VM instance Worker Node tối đa cho một worker group trong cụm k8s. 
-  * **Label:** Đánh Label cho **Worker Group**
-  * **Taint:** Đánh Taint cho **Worker Group**
 
-**Bước 5** : Kiểm tra lại thông tin, chọn **Save** để thực hiện thêm mới Worker.
+**Step 2:** Select **Node Pools** > **Edit Workers**.
+[![](/img/migrated/Picture22-21285b05.png)](/img/migrated/Picture22-21285b05.png)
+
+**Step 3:** Click **ADD WORKER GROUP**.
+[![](/img/migrated/Picture23-51511b2e.png)](/img/migrated/Picture23-51511b2e.png)
+
+**Step 4:** Fill in the required fields.
+[![](/img/migrated/Picture24-753cbc70.png)](/img/migrated/Picture24-753cbc70.png)
+
+  * **Instance Type:** Select the Instance type (CPU or GPU) for **Worker nodes**.
+  * **Type:** Select the configuration (CPU & Memory) for **Worker nodes**.
+  * **Container Runtime:** Select **Containerd**.
+  * **Storage Policy:** Select the **Storage Policy** type (corresponding to IOPS) for the Worker node disk.
+  * **Disk (GB):** Select the root disk size for **Worker nodes**.
+  * **Network:** The Subnet used to deploy VMs for the Kubernetes cluster.
+  * **Scale min:** Minimum number of Worker node VM instances in the cluster. Recommended minimum is 3 nodes for production environments.
+  * **Scale max:** Maximum number of Worker node VM instances per worker group in the cluster.
+  * **Label:** Assign Labels to the **Worker Group**.
+  * **Taint:** Assign Taints to the **Worker Group**.
+
+**Step 5:** Review the information, then click **Save** to add the new Worker.
 [![](/img/migrated/Picture25-131290d6.png)](/img/migrated/Picture25-131290d6.png)
-Quá trình Scale Cluster sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing**. Cluster vẫn hoạt động bình thường khi thực hiện thêm Worker Group mới.
+
+The cluster scaling process takes a few minutes. The cluster status changes to **Processing** during this time. The cluster continues to operate normally while the new Worker Group is being added.

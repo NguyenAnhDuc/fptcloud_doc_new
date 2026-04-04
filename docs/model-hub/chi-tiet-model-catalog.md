@@ -1,29 +1,38 @@
 ---
 id: "chi-tiet-model-catalog"
-title: "Mục đích: Xem chi tiết model"
-description: "Mục đích: Xem chi tiết model"
-sidebar_label: "Mục đích: Xem chi tiết model"
+title: "Model Catalog Details"
+description: "View the details of a model in the Model Catalog."
+sidebar_label: "Model Catalog Details"
 sidebar_position: "27"
 ---
 
-# Chi Tiet Model Catalog
+# Model Catalog Details
 
-Mục đích: Xem chi tiết model 
-Một model trong Model catalog sẽ bao gồm những phần sau:
-  * Model title: Tên model
-  * Description: Mô tả model
-  * Publisher: tenant tạo model
-  * Created date: Ngày tạo model
-  * Modified: Ngày chỉnh sửa thông tin model gần nhất
-  * Tags: Các tag gắn với model
-  * Model card: Thông tin tổng quan của model [![](/img/migrated/anh-16-4af6707f.png)](/img/migrated/anh-16-4af6707f.png)
-  * Version: (Lưu ý: tại model catalog, tab Version sẽ chỉ hiển thị data đối với các model có Model visibility là Public, chứa các phiên bản có type là Public, các model có Model visibility là Public metadata sẽ không có quyền view tab này)
-    * Version: mã phiên bản 
-    * Crerate date: Ngày tạo phiên bản
-    * Size: Dung lượng
-    * Type: trạng thái của phiên bản
-    * Actions: Chỉ cho phép Download tại model catalog [![](/img/migrated/anh-17-66b2395d.png)](/img/migrated/anh-17-66b2395d.png)
-  * File Browser: hiển thị các tệp đã upload tương ứng với từng version 
-    * File: tên tệp tin
-    * Modified date: ngày chỉnh sửa gần nhất
-    * Size: dung lượng tệp tin [![](/img/migrated/anh-18-0a98f64e.png)](/img/migrated/anh-18-0a98f64e.png)
+View the details of a model in the Model Catalog.
+
+A model in the Model Catalog includes the following information:
+- **Model title**: Name of the model.
+- **Description**: Description of the model.
+- **Publisher**: The tenant that created the model.
+- **Created date**: Date the model was created.
+- **Modified**: Date the model information was last updated.
+- **Tags**: Tags attached to the model.
+- **Model card**: Overview information about the model.
+[![](/img/migrated/anh-16-4af6707f.png)](/img/migrated/anh-16-4af6707f.png)
+
+- **Version**:
+
+  > **Note:** In the Model Catalog, the Version tab only displays data for models with **Model visibility = Public** that contain versions of type **Public**. Models with **Model visibility = Public metadata** cannot view this tab.
+
+  - **Version**: Version code.
+  - **Create date**: Date the version was created.
+  - **Size**: Storage size.
+  - **Type**: Status of the version.
+  - **Actions**: Only **Download** is available in the Model Catalog.
+[![](/img/migrated/anh-17-66b2395d.png)](/img/migrated/anh-17-66b2395d.png)
+
+- **File Browser**: Displays uploaded files for each version.
+  - **File**: File name.
+  - **Modified date**: Date last modified.
+  - **Size**: File size.
+[![](/img/migrated/anh-18-0a98f64e.png)](/img/migrated/anh-18-0a98f64e.png)

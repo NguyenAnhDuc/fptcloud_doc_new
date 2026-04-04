@@ -1,8 +1,8 @@
 ---
 id: "monitor-load-balancer"
-title: "ロードバランサーの監視グラフ"
-description: "FPT Cloud ロードバランサーのリスナー、サーバープール、アクティブサーバーのリアルタイム監視グラフを表示する方法を説明します。"
-sidebar_label: "ロードバランサーの監視グラフ"
+title: "Monitor Load Balancer charts"
+description: "How to view real-time monitoring charts for Listeners, Server Pools, and active servers on FPT Cloud Load Balancer."
+sidebar_label: "Monitor Load Balancer charts"
 sidebar_position: "5"
 ---
 

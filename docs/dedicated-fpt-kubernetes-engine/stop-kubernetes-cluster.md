@@ -1,21 +1,21 @@
 ---
 id: "stop-kubernetes-cluster"
-title: "Kubernetes クラスターの停止"
-description: "稼働中のKubernetes クラスターを停止する方法を説明します。"
-sidebar_label: "クラスターの停止"
+title: "Stop a Kubernetes cluster"
+description: "How to stop a running Kubernetes cluster in Dedicated FPT Kubernetes Engine."
+sidebar_label: "Stop a Kubernetes cluster"
 sidebar_position: "9"
 ---
 
-# Kubernetes クラスターの停止
+# Stop a Kubernetes cluster
 
-稼働中の **Cluster** を停止するには、以下の手順に従ってください。
+To stop a running **cluster**, follow these steps.
 
-**手順 1**: メニューで **Kubernetes** を選択します。**Kubernetes Management** ページが表示されます。
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears.
 
 [![](/img/migrated/Picture23-08ba7bb9.png)](/img/migrated/Picture23-08ba7bb9.png)
 
-**手順 2**: 一覧から停止したい **Cluster** の末尾にある **Action** を選択し、**Stop** を選択します。
+**Step 2:** In the list, select **Action** at the end of the cluster you want to stop, then choose **Stop**.
 
 [![](/img/migrated/Picture24-ed18aacd.png)](/img/migrated/Picture24-ed18aacd.png)
 
-**手順 3**: ポップアップの警告情報を確認し、**Stop** を選択します。
+**Step 3:** Review the warning information in the pop-up, then click **Stop**.

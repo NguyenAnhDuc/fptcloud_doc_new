@@ -1,8 +1,8 @@
 ---
 id: "configure-notifications"
-title: "Notificationsの設定"
+title: "Configure Notifications"
 description: "ArgoCDのnotifications機能の概要。Telegram、Slack、Emailへの通知送信をサポート。"
-sidebar_label: "Notificationsの設定"
+sidebar_label: "Configure Notifications"
 sidebar_position: "39"
 ---
 

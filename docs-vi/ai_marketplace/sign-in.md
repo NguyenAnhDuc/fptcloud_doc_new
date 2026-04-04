@@ -1,21 +1,21 @@
 ---
 id: "sign-in"
-title: "サインイン"
-description: "FPT AI Marketplace へのサインインおよびアカウント作成方法を説明します。"
-sidebar_label: "サインイン"
+title: "Sign In"
+description: "Hướng dẫn đăng nhập và tạo tài khoản trên FPT AI Marketplace."
+sidebar_label: "Sign In"
 sidebar_position: "99"
 ---
 
-# サインイン
+# Đăng nhập
 
-<https://marketplace.fptcloud.com> にアクセスし、**「ログイン」** をクリックして FPT Cloud アカウントの資格情報を入力します。
+Truy cập <https://marketplace.fptcloud.com> và nhấn **"Đăng nhập"** để nhập thông tin tài khoản FPT Cloud của bạn.
 
-[![ログインページのスクリーンショット](/img/migrated/image-1739520025120-aa402f24.png)](/img/migrated/image-1739520025120-aa402f24.png)
+[![Ảnh chụp màn hình trang đăng nhập](/img/migrated/image-1739520025120-aa402f24.png)](/img/migrated/image-1739520025120-aa402f24.png)
 
-FPT Cloud アカウントをお持ちでない場合は、**「サインアップ」** ボタンをクリックし、画面の指示に従ってアカウントを作成してください。
+Nếu bạn chưa có tài khoản FPT Cloud, nhấn nút **"Đăng ký"** và làm theo hướng dẫn trên màn hình để tạo tài khoản.
 
-[![サインアップページのスクリーンショット](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
+[![Ảnh chụp màn hình trang đăng ký](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
 
 :::tip
-サインアップとログインの詳細な手順については、[クイックスタート](./quick-start.md)を参照してください。
+Xem hướng dẫn đăng ký và đăng nhập chi tiết tại [Bắt đầu nhanh](./quick-start.md).
 :::

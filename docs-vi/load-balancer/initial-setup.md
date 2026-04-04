@@ -1,41 +1,41 @@
 ---
 id: "initial-setup"
-title: "初期設定"
-description: "FPT Cloud ロードバランサーサービスを使用する前に完了すべき前提条件。"
-sidebar_label: "初期設定"
+title: "Thiết lập ban đầu"
+description: "Các bước cần hoàn thành trước khi sử dụng dịch vụ Load Balancer của FPT Cloud."
+sidebar_label: "Thiết lập ban đầu"
 sidebar_position: "2"
 ---
 
-# Initial setup
+# Thiết lập ban đầu
 
-Before using the FPT Cloud Load Balancer service, complete the following steps:
+Trước khi sử dụng dịch vụ Load Balancer của FPT Cloud, hãy hoàn thành các bước sau:
 
-- Create an FPT Cloud account and log in to the FPT Portal.
-- Create a virtual server on FPT Cloud.
-- Attach a Security Group to the virtual server.
+- Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal.
+- Tạo máy chủ ảo trên FPT Cloud.
+- Gắn Security Group vào máy chủ ảo.
 
-## Create an account and log in to the FPT Portal
+## Tạo tài khoản và đăng nhập FPT Portal
 
-1. Go to <https://console.fptcloud.com> and log in with your FPT Cloud account credentials.
-2. Select the correct Tenant, Region, and VPC for your service.
+1. Truy cập <https://console.fptcloud.com> và đăng nhập bằng thông tin tài khoản FPT Cloud của bạn.
+2. Chọn đúng Tenant, Region và VPC cho dịch vụ của bạn.
 
 :::note
-If you do not have an FPT Cloud account, visit <https://fptcloud.com/>, click **Sign Up**, and follow the instructions. The support team will contact you to confirm your account details.
+Nếu chưa có tài khoản FPT Cloud, truy cập <https://fptcloud.com/>, nhấn **Sign Up** và làm theo hướng dẫn. Đội hỗ trợ sẽ liên hệ để xác nhận thông tin tài khoản.
 :::
 
-## Create a virtual server
+## Tạo máy chủ ảo
 
-FPT Load Balancer supports load balancing for virtual servers on FPT Cloud. Create and manage virtual servers according to the Cloud Server documentation.
+FPT Load Balancer hỗ trợ cân bằng tải cho các máy chủ ảo trên FPT Cloud. Tạo và quản lý máy chủ ảo theo tài liệu hướng dẫn Cloud Server.
 
-## Attach a Security Group to the virtual server
+## Gắn Security Group vào máy chủ ảo
 
-A Security Group acts as a network firewall at the virtual machine level, controlling inbound and outbound traffic. By default, FPT Cloud virtual machines allow all outbound traffic but block all inbound traffic.
+Security Group hoạt động như tường lửa mạng ở cấp độ máy ảo, kiểm soát lưu lượng vào và ra. Mặc định, máy ảo FPT Cloud cho phép tất cả lưu lượng ra nhưng chặn tất cả lưu lượng vào.
 
-Load Balancer requires specific ports to be open. In addition to service ports such as HTTP/HTTPS, you must also open ports used for health checks.
+Load Balancer yêu cầu mở các cổng cụ thể. Ngoài các cổng dịch vụ như HTTP/HTTPS, bạn cũng cần mở các cổng dùng cho health check.
 
-Example: to create Load Balancer LB1 that balances traffic for a web server running on port 80 across virtual machines A and B:
+Ví dụ: để tạo Load Balancer LB1 cân bằng tải cho web server chạy trên cổng 80 trên máy ảo A và B:
 
-1. Create a new Security Group.
-2. Add an Inbound rule for port 80.
-3. Attach the Security Group to virtual machine A and virtual machine B.
-4. If LB1 is an External Load Balancer (with a Public IP assigned), also attach the Security Group to LB1.
+1. Tạo Security Group mới.
+2. Thêm rule Inbound cho cổng 80.
+3. Gắn Security Group vào máy ảo A và máy ảo B.
+4. Nếu LB1 là External Load Balancer (có gán Public IP), gắn thêm Security Group vào LB1.

@@ -1,8 +1,8 @@
 ---
 id: "tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal"
-title: "Quản lý Access Key"
+title: "Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal"
 description: "Cặp Access Key và Private Key là phương thức xác thực cơ bản của dịch vụ FPT Object Storage. Để sử dụng bucket thông qua"
-sidebar_label: "Quản lý Access Key"
+sidebar_label: "Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal"
 sidebar_position: "9"
 ---
 

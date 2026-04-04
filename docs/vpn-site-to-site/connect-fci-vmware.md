@@ -1,53 +1,56 @@
 ---
 id: "connect-fci-vmware"
-title: "Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack và VMware"
-description: "Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng VMW và OPS trên Unify portal"
-sidebar_label: "Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack và VMware"
+title: "Connect FCI to VMware"
+description: "This guide explains how to connect VPNaaS between the VMware and OPS platforms on the Unify portal."
+sidebar_label: "Connect FCI to VMware"
 sidebar_position: "22"
 ---
 
-# Connect Fci Vmware
+# Connect FCI to VMware
 
-Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng VMW và OPS trên Unify portal 
-  * [Bước 1: Cấu hình VPN_AAS trên Openstack](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình VPN_AAS trên VMWare Cloud](../vpn-site-to-site/index.md)
-  * [Bước 3: Kiểm tra kết nối](../vpn-site-to-site/index.md)
+This guide explains how to connect VPNaaS between the VMware and OPS platforms on the Unify portal.
+  * [Step 1: Configure VPN on OpenStack](../vpn-site-to-site/index.md)
+  * [Step 2: Configure VPN on VMware Cloud](../vpn-site-to-site/index.md)
+  * [Step 3: Verify the connection](../vpn-site-to-site/index.md)
 
-Cần đảm bảo các điều kiện sau:
-  * VPNAAS OPS trên trang Portal Unify
-  * VMWare Cloud
+Ensure the following prerequisites are met:
+  * VPNaaS on OPS configured on the Unify Portal
+  * VMware Cloud
 
-Trong ví dụ này chúng ta sẽ tạo kết nối VPN site-to-site với các thông số như trong topology bên dưới. [![file](/img/migrated/image-1744186989019-ef1c7215.png)](/img/migrated/image-1744186989019-ef1c7215.png)
+In this example, we will create a VPN Site-to-Site connection using the parameters shown in the topology below. [![file](/img/migrated/image-1744186989019-ef1c7215.png)](/img/migrated/image-1744186989019-ef1c7215.png)
 
-## Bước 1: Cấu hình VPN_AAS trên Openstack
-Truy cập và tạo VPN Site To Site trên [**https://console.fptcloud.com**](https://console.fptcloud.com/)
-- Tạo Customer Gateway
-+ Remote IP public: là floating IP của VPN gateway VMW**
-+ Remote private network: là dãy Lan Subnet cần peering của VMW**
+## Step 1: Configure VPN on OpenStack
+Go to [**https://console.fptcloud.com**](https://console.fptcloud.com/) and create a VPN Site-to-Site connection.
+- Create a Customer Gateway:
+  + Remote IP public: the Floating IP of the VMware VPN gateway.
+  + Remote private network: the LAN Subnet range to peer with from VMware.
 [![](/img/migrated/photo_1_2025-07-09_17-37-17-46c848d8.jpg)](/img/migrated/photo_1_2025-07-09_17-37-17-46c848d8.jpg)
-- Tạo VPN Connection  
-Với thông số **"Pre-shared key" cần lưu lại để điền khi khởi tạo VPN Connection bên VMW.**
-Thông số của VPN Connection sẽ bao gồm 3 mục chính:
-  * General information (chứa các thông tin chung của kết nối VPN)
-  * Remote VPN Information (chứa các thông tin mã hóa và thông tin của quý khách hàng)
-  * Dead Peer Detection (số lần hệ thống tự động retry kết nối khi bị vấn đề)
 
-**Phần 1: General information** [![](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)
-**Phần 2: Remote VPN information**
+- Create a VPN Connection.
+Note the **Pre-shared key** value — you will need it when creating the VPN Connection on the VMware side.
+The VPN Connection parameters consist of three main sections:
+  * General information (general connection details)
+  * Remote VPN Information (encryption settings and customer-side information)
+  * Dead Peer Detection (number of automatic retries when a connectivity issue occurs)
+
+**Section 1: General information** [![](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)](/img/migrated/photo_2_2025-07-09_17-37-17-85fbfff3.jpg)
+
+**Section 2: Remote VPN information**
 [![](/img/migrated/photo_3_2025-07-09_17-37-17-fc829da9.jpg)](/img/migrated/photo_3_2025-07-09_17-37-17-fc829da9.jpg)
-Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bước sau:
-  * Bước 1: Điền providers name = "VMWare" 
-  * Bước 2: Điền thông tin cho IKE và IPSec cụ thể như sau:   
-**Đối với IKE:**
+Select Providers = "others", then follow these steps:
+  * Step 1: Enter providers name = "VMWare".
+  * Step 2: Enter the IKE and IPSec settings as follows:
+
+**For IKE:**
   * Encryption algorithm: aes-256
   * Authorization algorithm: sha256
   * IKE version: ikev2
   * Lifetime units: seconds
   * Lifetime value: 28800
   * DH Group: GROUP_14
-  * Phase1 negotiation mode: main
+  * Phase 1 negotiation mode: main
 
-**Đối với IPsec:**
+**For IPSec:**
   * Encapsulation mode: tunnel
   * Encryption algorithm: aes-256
   * Authorization algorithm: sha256
@@ -56,15 +59,17 @@ Quý khách hàng lựa chọn Providers = "others" sau đó làm theo các bư�
   * Perfect forward secrecy (PFS): GROUP_14
   * Transform protocol: esp
 
-**Phần 3: Remote VPN information** [![](/img/migrated/Screenshot-2025-08-18-110311-1-d443cc15.png)](/img/migrated/Screenshot-2025-08-18-110311-1-d443cc15.png)
-Điền thông số Delay và max failure và chọn **Create VPN Connection**
+**Section 3: Dead Peer Detection** [![](/img/migrated/Screenshot-2025-08-18-110311-1-d443cc15.png)](/img/migrated/Screenshot-2025-08-18-110311-1-d443cc15.png)
+Enter the Delay and max failure values, then select **Create VPN Connection**.
 
-## Bước 2: Cấu hình VPN_AAS trên VMWare Cloud
-- Truy cập hệ thống VMware để set up thông tin kết nối VPN Site to Site. [![file](/img/migrated/image-1744187357567-a443e457.png)](/img/migrated/image-1744187357567-a443e457.png) **-** Tại tab **Peer Authentication,** với thông số **Pre-shared key,** nhập key đã đã tạo ở OSP, sau đó ấn Next. [![file](/img/migrated/image-1744187368445-21260a99.png)](/img/migrated/image-1744187368445-21260a99.png)
-  * Nhập các trường thông tin của **Endpoint Configuration** [![file](/img/migrated/image-1744187391395-c3f680db.png)](/img/migrated/image-1744187391395-c3f680db.png)
-  * Sau khi tạo, chọn **Customize Security Profile** để sửa lại thông tin IKE policy, IPSec policy **khớp với IKE policy, IPSec policy đã tạo ở OSP** [![file](/img/migrated/image-1744187411562-947bda1b.png)](/img/migrated/image-1744187411562-947bda1b.png) **-** Chọn **View statistics** , để kiểm tra trạng thái kết nối.  
-Nếu trạng thái hiển thị là **UP** → đã connect thành công giữa 2 sites. [![file](/img/migrated/image-1744187423506-91d113ce.png)](/img/migrated/image-1744187423506-91d113ce.png) [![file](/img/migrated/image-1744187435352-3206ec31.png)](/img/migrated/image-1744187435352-3206ec31.png)
+## Step 2: Configure VPN on VMware Cloud
+- Sign in to the VMware system to set up the VPN Site-to-Site connection information. [![file](/img/migrated/image-1744187357567-a443e457.png)](/img/migrated/image-1744187357567-a443e457.png)
+- On the **Peer Authentication** tab, enter the **Pre-shared key** created on the OPS side, then select Next. [![file](/img/migrated/image-1744187368445-21260a99.png)](/img/migrated/image-1744187368445-21260a99.png)
+  * Enter the **Endpoint Configuration** fields. [![file](/img/migrated/image-1744187391395-c3f680db.png)](/img/migrated/image-1744187391395-c3f680db.png)
+  * After creation, select **Customize Security Profile** to update the IKE policy and IPSec policy to **match the IKE policy and IPSec policy created on OPS**. [![file](/img/migrated/image-1744187411562-947bda1b.png)](/img/migrated/image-1744187411562-947bda1b.png)
+- Select **View statistics** to check the connection status.
+If the status shows **UP**, the connection between the two sites is established successfully. [![file](/img/migrated/image-1744187423506-91d113ce.png)](/img/migrated/image-1744187423506-91d113ce.png) [![file](/img/migrated/image-1744187435352-3206ec31.png)](/img/migrated/image-1744187435352-3206ec31.png)
 
-## Bước 3: Kiểm tra kết nối
-  * Ping từ VM OPS -> VM VMWare [![file](/img/migrated/image-1744187482688-2d623cf1.png)](/img/migrated/image-1744187482688-2d623cf1.png)
-  * Ping từ VM VMWare-> VM OSP [![file](/img/migrated/image-1744187497120-5bc3e118.png)](/img/migrated/image-1744187497120-5bc3e118.png)
+## Step 3: Verify the connection
+  * Ping from OPS VM to VMware VM. [![file](/img/migrated/image-1744187482688-2d623cf1.png)](/img/migrated/image-1744187482688-2d623cf1.png)
+  * Ping from VMware VM to OPS VM. [![file](/img/migrated/image-1744187497120-5bc3e118.png)](/img/migrated/image-1744187497120-5bc3e118.png)

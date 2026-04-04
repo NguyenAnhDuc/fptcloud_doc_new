@@ -1,21 +1,21 @@
 ---
 id: "sign-in"
-title: "サインイン"
-description: "FPT AI Marketplace へのサインインおよびアカウント作成方法を説明します。"
-sidebar_label: "サインイン"
+title: "Sign In"
+description: "How to sign in and create an account on FPT AI Marketplace."
+sidebar_label: "Sign In"
 sidebar_position: "99"
 ---
 
-# サインイン
+# Sign in
 
-<https://marketplace.fptcloud.com> にアクセスし、**「ログイン」** をクリックして FPT Cloud アカウントの資格情報を入力します。
+Go to <https://marketplace.fptcloud.com> and click **"Login"** to enter your FPT Cloud account credentials.
 
-[![ログインページのスクリーンショット](/img/migrated/image-1739520025120-aa402f24.png)](/img/migrated/image-1739520025120-aa402f24.png)
+[![Login page screenshot](/img/migrated/image-1739520025120-aa402f24.png)](/img/migrated/image-1739520025120-aa402f24.png)
 
-FPT Cloud アカウントをお持ちでない場合は、**「サインアップ」** ボタンをクリックし、画面の指示に従ってアカウントを作成してください。
+If you do not have an FPT Cloud account, click the **"Sign Up"** button and follow the on-screen instructions to create one.
 
-[![サインアップページのスクリーンショット](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
+[![Sign up page screenshot](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
 
 :::tip
-サインアップとログインの詳細な手順については、[クイックスタート](./quick-start.md)を参照してください。
+For detailed sign-up and login instructions, see [Quick Start](./quick-start.md).
 :::

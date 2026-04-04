@@ -8,26 +8,26 @@ sidebar_position: 3
 
 # Create a VPC
 
-To create a new VPC, you need to sign in with the Tenant Owner role.
+You must sign in with Tenant Owner permission to create a new VPC.
 
 1. Select **VPCs** → **Create VPC**.
 
-   ![VPC list page with Create VPC button](/img/migrated/image-1714811267317-66868093.png)
+   ![VPC list page with Create VPC button](/img/migrated/image-1744258756717-b8306892.png)
 
 2. Enter the following information:
-   - **VPC Name**: VPC name, minimum 10 characters, maximum 50 characters, including uppercase letters, numbers, dashes, and underscores. The system automatically converts lowercase to uppercase.
-   - **VPC owner**: select the account to be assigned VPC Owner permissions. The system pre-selects the current account as VPC Owner.
-   - **Network setting** (optional): configure Subnet information. This can be set up after VPC creation.
-     - **Name**: a descriptive Subnet name.
-     - **Type**: currently supports 2 types — Routed and Isolated.
-     - **Network Address (CIDR)**: enter a valid CIDR.
-     - **Gateway IP**: enter a valid Gateway IP address.
-     - **Static IP Pool** (optional): enter the IP range to use. If not specified, the system uses all IPs from the CIDR.
+   - **VPC Name**: Name of the VPC. Between 10 and 50 characters. Can contain uppercase letters, numbers, dashes, and underscores. Lowercase letters are automatically converted to uppercase.
+   - **VPC owner**: Select the account to grant VPC Owner permission. The current account is selected by default.
+   - **Network setting** (optional): Configure Subnet information. This can also be configured after the VPC is created.
+     - **Name**: Name of the Subnet.
+     - **Type**: Currently supports two types — Routed and Isolated.
+     - **Network Address (CIDR)**: Enter a valid CIDR.
+     - **Gateway IP**: Enter a valid gateway IP address.
+     - **Static IP Pool** (optional): Enter the IP range to use. If left blank, all IPs from the CIDR are used.
 
-   ![Create VPC form](/img/migrated/image-1714811289727-41fbb01b.png)
+   ![VPC creation form](/img/migrated/image-1744258458944-38445575.png)
 
-3. Click **Create VPC**. The system processes the request and notifies you of the result.
+3. Click **Create VPC**. The system initializes and notifies you of the result.
 
-   ![VPC created successfully](/img/migrated/image-1714811309818-c434eb33.png)
+   ![VPC created successfully](/img/migrated/image-1744258774497-f77ee8ce.png)
 
 The new VPC appears on the **VPCs** page.

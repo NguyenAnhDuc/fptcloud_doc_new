@@ -1,23 +1,28 @@
 ---
 id: "them-external-member"
-title: "Thêm External member cho Load Balancer"
-description: "Tính năng thêm **External member** của Load Balancer cho phép bạn thêm các endpoint bên ngoài vào pool server. Endpoint "
-sidebar_label: "Thêm External member cho Load Balancer"
+title: "Add External Members to Load Balancer"
+description: "How to add and remove external endpoints in a Load Balancer Server Pool on FPT Cloud."
+sidebar_label: "Add External Members"
 sidebar_position: "7"
 ---
 
-# Them External Member
+# Add External Members to Load Balancer
 
-Tính năng thêm **External member** của Load Balancer cho phép bạn thêm các endpoint bên ngoài vào pool server. Endpoint bên ngoài có thể là một máy chủ, dịch vụ hoặc ứng dụng khác đang chạy trên mạng. Việc thêm **External member** giúp bạn mở rộng khả năng xử lý của Load Balancer, tận dụng các tài nguyên bên ngoài và nâng cao hiệu quả hoạt động của hệ thống. 
-Để thêm **External member** cho Load Balancer, người dùng thao tác theo hướng dẫn sau: 
-**Bước 1:** Tại màn hình hiển thị danh sách Load Balancer, chọn **Load Balancer** cần thêm **External member.**
-**Bước 2:** Tại màn hiển thị chi tiết Load Balancer, chọn tab **Server pool,** tại đây người dùng chọn server pool cần thêm **External member.**
-**Bước 3:** Tại mục **Add server** , chọn **Add external member.**
-Người dùng nhập các thông tin sau: 
-  * **Name** : Tên hiển thị cho **External member**
-  * **IP Address** : Địa chỉ IP của **External member**
-  * **Port** : Port mà Member sẽ lắng nghe để xử lý các yêu cầu đến. Port này thường liên quan đến dịch vụ cụ thể mà Member cung cấp. 
-  * **Weight** : Trọng số quy định mức độ ưu tiên của mỗi **External Member** trong việc xử lý các yêu cầu. Các Member có trọng số cao sẽ nhận được nhiều yêu cầu hơn so với các Member có trọng số thấp. 
+The **External member** feature allows you to add external endpoints (servers, services, or applications running on other networks) to a Server Pool. Adding external members lets you expand the Load Balancer's processing capacity and leverage external resources to improve system efficiency.
 
-**Bước 4:** Nhấn **Update Server pool** để kết thúc thao tác. 
-Để xoá **External member** , trong phần **Action** của External member cần xoá, chọn **Remove**.
+To add external members to a Load Balancer, follow these steps:
+
+**Step 1:** In the Load Balancer list, select the Load Balancer you want to add an external member to.
+
+**Step 2:** In the Load Balancer detail view, select the **Server pool** tab, then select the Server Pool you want to add the external member to.
+
+**Step 3:** Under **Add server**, click **Add external member** and enter the following:
+
+- **Name**: Display name for the external member.
+- **IP Address**: IP address of the external member.
+- **Port**: The port on which the member listens for requests. This is typically the port related to the specific service the member provides.
+- **Weight**: Priority weight for request handling. Members with higher weight receive more requests.
+
+**Step 4:** Click **Update Server pool** to save.
+
+To remove an external member, click **Remove** from the **Action** menu of the member you want to delete.

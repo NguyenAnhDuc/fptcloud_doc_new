@@ -1,24 +1,24 @@
 ---
 id: "faq-jp"
-title: "よくある質問"
-description: "FPT AI NotebookについてのFAQ（よくある質問）。"
-sidebar_label: "よくある質問"
+title: "FAQ"
+description: "Frequently asked questions about AI Notebooks on FPT AI Factory."
+sidebar_label: "FAQ"
 sidebar_position: "8"
 ---
 
-# よくある質問
+# FAQ
 
-## AI Notebookのアイドル状態に関するルールは何ですか？
+## What are the idle rules in AI Notebook?
 
-リソースの節約と予期せぬ課金回避のため、AI Notebookはアイドル状態のセッションを自動的に管理します。以下のルールが適用されます:
+To help you save resources and avoid unexpected charges, AI Notebook automatically manages idle sessions. The following rules apply:
 
-- **GPUカーネルアイドルタイムアウト:** GPUカーネルは、30分間操作がない（コード実行がない）状態が続くとアイドル状態と見なされます。この場合、カーネルは自動的に切断されます。
-- **ラボのアイドルタイムアウト:** ラボ環境は、ユーザー操作（入力、クリック、タブ切り替え）が1時間ない場合にアイドル状態と見なされます。アイドル状態になると、ラボはリソースを解放するために自動的に削除されます。
-- **データ保護:** アイドル状態によるラボ削除時、保存済みファイルは永続ストレージに安全に保管され、後からアクセス可能です。ブラウザを閉じる前に必ず**ファイルを保存**して、未保存の作業が失われないようにしてください。
+- **GPU kernel idle timeout:** A GPU kernel is considered idle after 30 minutes of no activity (no code execution). When this happens, the kernel will be automatically disconnected.
+- **Lab idle timeout:** The lab environment is considered idle after 1 hour of no user interaction (no typing, clicking, or switching tabs). Once idle, the lab will be automatically deleted to free up resources.
+- **Data safety:** If your lab is deleted due to idleness, all saved files remain securely stored in persistent storage and can be accessed later. Remember to **save your files** before closing the browser to ensure that no unsaved work is lost.
 
-## CPUおよびGPUフレーバーの起動にはどのくらい時間がかかりますか？
+## How long does it take to start CPU and GPU flavors?
 
-- **GPUフレーバー:** 起動には通常**45秒から1分**かかります。
-- **CPUフレーバー:** 起動には通常**約15秒**かかります。
+- **GPU flavor:** Startup typically takes **45 seconds to 1 minute**.
+- **CPU flavor:** Startup typically takes **around 15 seconds**.
 
-_実際の起動時間は、システムの負荷やネットワーク状況によって異なる場合があります。_
+_Actual startup time may vary depending on system load and network conditions._

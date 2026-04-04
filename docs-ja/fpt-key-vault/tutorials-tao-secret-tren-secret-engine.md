@@ -1,30 +1,30 @@
 ---
 id: "tutorials-tao-secret-tren-secret-engine"
-title: "Tạo Secret trên Secret Engine"
-description: "Hướng dẫn tạo mới Secret trong một Secret Engine"
-sidebar_label: "Tạo Secret trên Secret Engine"
+title: "Secret EngineにSecretを作成する"
+description: "Secret Engine内にSecretを新規作成する方法"
+sidebar_label: "Secret EngineにSecretを作成する"
 sidebar_position: "6"
 ---
 
-# Tạo Secret trên Secret Engine
+# Secret EngineにSecretを作成する
 
-Secret là đơn vị lưu trữ thông tin bí mật theo cấu trúc Key/Value trong Secret Engine. Mỗi Secret có thể chứa nhiều cặp Key/Value và hỗ trợ versioning để theo dõi lịch sử thay đổi.
+SecretはSecret Engine内でKey/Valueペアとして機密情報を保存する単位です。各SecretはKey/Valueペアを複数格納でき、バージョニングをサポートしているため変更履歴を追跡できます。
 
-1. Trên **Secret Engine Detail**, chọn **Secret Engine** cần thêm **Secret**.
+1. **Secret Engine Detail** で **Secret** を追加する **Secret Engine** を選択します。
 
-   [![Màn hình chi tiết Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
+   [![Secret Engine詳細画面](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
 
-2. Chọn **Create**.
+2. **Create** をクリックします。
 
-   [![Danh sách Secret với nút Create](/img/migrated/Userguide-FPT-KeyVault-2022-11-1024x538-5970f818.png)](/img/migrated/Userguide-FPT-KeyVault-2022-11-1024x538-5970f818.png)
+   [![Createボタンが表示されたSecret一覧](/img/migrated/Userguide-FPT-KeyVault-2022-11-1024x538-5970f818.png)](/img/migrated/Userguide-FPT-KeyVault-2022-11-1024x538-5970f818.png)
 
-3. Trên màn hình **Create New Version**, nhập các thông tin cần thiết:
+3. **Create New Version** 画面で必要な情報を入力します:
 
-   - **Name**: Tên của **Secret**.
-   - **Secret data**: Theo cấu trúc Key/Value.
+   - **Name**: **Secret** の名前。
+   - **Secret data**: Key/Value形式。
 
-   [![Form tạo mới Secret với các trường Name và Secret data](/img/migrated/Userguide-FPT-KeyVault-2022-12-bea1cf7c.png)](/img/migrated/Userguide-FPT-KeyVault-2022-12-bea1cf7c.png)
+   [![NameとSecret dataフィールドが表示されたCreate New Secretフォーム](/img/migrated/Userguide-FPT-KeyVault-2022-12-bea1cf7c.png)](/img/migrated/Userguide-FPT-KeyVault-2022-12-bea1cf7c.png)
 
-4. Chọn **Add** để thêm từng cặp Key/Value. Sau khi khai báo đủ các Secret, chọn **Create** để lưu. Hệ thống gửi thông báo xác nhận và tiến hành tạo các **Secret** mới.
+4. **Add** をクリックして各Key/Valueペアを追加します。すべてのSecretを入力したら **Create** をクリックして保存します。システムが確認メッセージを送信し、新しい **Secret** を作成します。
 
-   [![Danh sách Secret sau khi tạo thành công](/img/migrated/Userguide-FPT-KeyVault-2022-13-da5b58e1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-13-da5b58e1.png)
+   [![作成成功後のSecret一覧](/img/migrated/Userguide-FPT-KeyVault-2022-13-da5b58e1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-13-da5b58e1.png)

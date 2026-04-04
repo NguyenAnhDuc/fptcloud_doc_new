@@ -1,5 +1,5 @@
 ---
-id: "fqas-2"
+id: "questions-2"
 title: "Lọc Cost Explorer theo resource cụ thể"
 description: "Hướng dẫn sử dụng Tagging để lọc Cost Explorer theo resource cụ thể."
 sidebar_label: "Lọc Cost Explorer theo resource cụ thể"

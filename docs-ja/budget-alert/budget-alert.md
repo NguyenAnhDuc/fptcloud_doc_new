@@ -1,22 +1,22 @@
 ---
 id: "budget-alert"
-title: "Cảnh báo ngân sách"
-description: "Thiết lập hệ thống cảnh báo ngân sách chủ động trên FPT Cloud Portal."
-sidebar_label: "Cảnh báo ngân sách"
+title: "Budget Alert"
+description: "FPT Cloud Portalでプロアクティブな予算アラートシステムを設定します。"
+sidebar_label: "Budget Alert"
 sidebar_position: "1"
 ---
 
 # Budget Alert
 
-Budget Alert helps you build a proactive budget monitoring system — tracking cloud costs in real time and sending notifications when spending reaches a defined threshold. This is especially useful for controlling cloud costs across daily, monthly, quarterly, or annual periods.
+Budget Alertは、クラウドコストをリアルタイムで追跡し、支出が設定したしきい値に達した際に通知を送信するプロアクティブな予算監視システムを構築できます。日次、月次、四半期、年次のクラウドコスト管理に特に役立ちます。
 
-## Create a budget and configure alerts
+## 予算の作成とアラートの設定
 
-- Set budget amounts for daily, monthly, quarterly, or annual periods based on actual usage or projected end-of-period spend.
-- Select and define resource groups to monitor against budget limits.
-- Configure alert thresholds and notification methods (system notification or email) based on your needs.
+- 実際の使用量または期末見込み支出に基づいて、日次・月次・四半期・年次の予算額を設定します。
+- 予算上限に対して監視するリソースグループを選択・定義します。
+- 目的に応じてアラートしきい値と通知方法（システム通知またはメール）を設定します。
 
-## View budget history and alerts
+## 予算履歴とアラートの確認
 
-- Track actual costs, the variance between actual and budgeted amounts, and projected end-of-period costs.
-- Review alert history with content based on the configured thresholds.
+- 実績コスト、実績と予算の差異、期末見込みコストを追跡します。
+- 設定したしきい値に基づいた内容のアラート履歴を確認します。

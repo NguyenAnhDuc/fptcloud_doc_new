@@ -1,8 +1,8 @@
 ---
 id: "edit-a-model"
-title: "model の編集"
-description: "**Edit Model** を使用すると、既存のプライベート model の詳細（メタデータ、設定、アクセス設定を含む）を更新できます。"
-sidebar_label: "model の編集"
+title: "Edit a model"
+description: "**Edit Model** allows users to update the details of an existing private model, including its metadata, configuration, a"
+sidebar_label: "Edit a model"
 sidebar_position: "15"
 ---
 

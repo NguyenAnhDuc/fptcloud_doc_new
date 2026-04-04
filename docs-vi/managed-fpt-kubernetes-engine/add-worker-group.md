@@ -1,38 +1,38 @@
 ---
 id: "add-worker-group"
-title: "Add a worker group"
-description: "Add a new worker group to an existing Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Add a worker group"
+title: "Thêm worker group"
+description: "Hướng dẫn thêm worker group mới vào cluster Managed FPT Kubernetes Engine đã có."
+sidebar_label: "Thêm worker group"
 sidebar_position: "10"
 ---
 
-# Add a worker group
+# Thêm worker group
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster you want to add a worker group to.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn thêm worker group.
 
 [![](/img/migrated/15-3314db3f.png)](/img/migrated/15-3314db3f.png)
 
-**Step 2:** Click **Configure Worker Groups**.
+**Bước 2:** Chọn **Configure Worker Groups**.
 
 [![](/img/migrated/16-1d7abe11.png)](/img/migrated/16-1d7abe11.png)
 
-**Step 3:** Click **Add Worker Group**.
+**Bước 3:** Chọn **Add Worker Group**.
 
 [![](/img/migrated/17-bfaff80b.png)](/img/migrated/17-bfaff80b.png)
 
-**Step 4:** Enter the required information:
+**Bước 4:** Nhập các thông tin theo yêu cầu:
 
 [![](/img/migrated/18-1-76d3b20a.png)](/img/migrated/18-1-76d3b20a.png)
 
-- **Type:** Choose the CPU and memory configuration for the worker node.
+- **Type:** Chọn cấu hình CPU và memory cho worker node.
 - **Container runtime:** Containerd.
-- **Storage policy:** Choose the storage policy type (corresponding to IOPS) for the worker node disk.
-- **Disk (GB):** Select the root disk capacity for the worker node.
-- **Scale min:** Minimum number of VM instances for the worker node. At least 3 nodes are recommended for production.
-- **Scale max:** Maximum number of VM instances for the worker group.
+- **Storage policy:** Chọn loại storage policy (tương ứng với IOPS) cho disk của worker node.
+- **Disk (GB):** Chọn dung lượng root disk cho worker node.
+- **Scale min:** Số VM instance worker node tối thiểu. Khuyến nghị tối thiểu 3 node cho môi trường production.
+- **Scale max:** Số VM instance tối đa cho worker group.
 
-**Step 5:** Verify the information and click **Save** to add the worker group.
+**Bước 5:** Kiểm tra lại thông tin và chọn **Save** để thêm worker group.
 
 [![](/img/migrated/19-1-5e45dec7.png)](/img/migrated/19-1-5e45dec7.png)
 
-The cluster scaling process takes a few minutes and the cluster status changes to **Processing**. The cluster continues to operate normally while the new worker group is being added.
+Quá trình scale cluster sẽ thực hiện trong vài phút và trạng thái cluster chuyển sang **Processing**. Cluster vẫn hoạt động bình thường trong khi thêm worker group mới.

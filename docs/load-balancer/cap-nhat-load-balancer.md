@@ -1,19 +1,21 @@
 ---
 id: "cap-nhat-load-balancer"
-title: "Update Load Balancer"
-description: "Để cập nhật **Load Balancer** , trong phần **Action** của **Load Balancer** cần cập nhật chọn **Update Load Balancer.**"
-sidebar_label: "Update Load Balancer"
+title: "Update a Load Balancer"
+description: "How to update a Load Balancer's name, description, size, public IP, and subnet on FPT Cloud."
+sidebar_label: "Update a Load Balancer"
 sidebar_position: "5"
 ---
 
-# Cap Nhat Load Balancer
+# Update a Load Balancer
 
-Để cập nhật **Load Balancer** , trong phần **Action** của **Load Balancer** cần cập nhật chọn **Update Load Balancer.**
-Tại đây người dùng được cập nhật các thông tin:
-  * **Name** : Nhập tên cho **Load Balancer**.
-  * **Description** : Nhập mô tả cho **Load Balancer**.
-  * **Size** : Chọn gói **Load Balancer** phù hợp với nhu cầu sử dụng của bạn.
-  * **Public IP** : Chọn IP public cho **Load Balancer** nếu bạn muốn truy cập từ ngoài internet.
-  * **Subnet** : Chọn subnet đặt **Load Balancer** theo quy hoạch của người dùng. Nếu không có nhu cầu quy hoạch đặc biệt, hệ thống sẽ chọn 1 subnet bất kỳ sẵn có của VPC.
+In the **Action** menu of the Load Balancer you want to update, select **Update Load Balancer**.
 
-Nhấn **Update Load Balancer** để cập nhật **Load Balancer** và **Cancel** để huỷ bỏ.
+You can update the following information:
+
+- **Name**: Enter a new name for the Load Balancer.
+- **Description**: Enter a new description.
+- **Size**: Select a new Load Balancer package that fits your needs.
+- **Public IP**: Assign a public IP for internet access.
+- **Subnet**: Select the subnet for the Load Balancer. If no specific subnet is required, the system will select any available subnet in the VPC.
+
+Click **Update Load Balancer** to apply changes, or **Cancel** to discard.

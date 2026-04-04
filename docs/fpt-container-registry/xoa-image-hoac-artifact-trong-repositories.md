@@ -1,53 +1,53 @@
 ---
 id: "xoa-image-hoac-artifact-trong-repositories"
-title: "Xóa image hoặc artifact trong repositories"
-description: "Xóa image, artifact hoặc tag để giải phóng dung lượng lưu trữ."
-sidebar_label: "Xóa image hoặc artifact"
+title: "Delete images or artifacts in repositories"
+description: "Delete images, artifacts, or tags to free up storage space."
+sidebar_label: "Delete images or artifacts in repositories"
 sidebar_position: "12"
 ---
 
-# Xóa image hoặc artifact trong repositories
+# Delete images or artifacts in repositories
 
-Khi cần giải phóng dung lượng lưu trữ hoặc loại bỏ các image/artifact không còn sử dụng, thực hiện theo các bước dưới đây. Thao tác xóa không thể hoàn tác.
+When you need to free up storage space or remove unused images and artifacts, follow the steps below. Deletion cannot be undone.
 
 :::danger
-Xóa image, artifact hoặc tag là thao tác không thể khôi phục. Đảm bảo bạn không còn cần tài nguyên này trước khi xóa.
+Deleting an image, artifact, or tag is irreversible. Ensure you no longer need this resource before deleting.
 :::
 
-## Xóa repository
+## Delete a repository
 
-1. Trong phần **Action** của image hoặc artifact, chọn **Delete**.
+1. In the **Action** section of the image or artifact, select **Delete**.
 
-   [![Chọn Delete trong Action](/img/migrated/Picture19-1-efab785a.png)](/img/migrated/Picture19-1-efab785a.png)
+   [![Select Delete in Action](/img/migrated/Picture19-1-efab785a.png)](/img/migrated/Picture19-1-efab785a.png)
 
-2. Chọn **Delete** trong hộp thoại xác nhận.
+2. Click **Delete** in the confirmation dialog.
 
-   [![Xác nhận xóa repository](/img/migrated/Picture20-1-a67dbf3a.png)](/img/migrated/Picture20-1-a67dbf3a.png)
+   [![Confirm repository deletion](/img/migrated/Picture20-1-a67dbf3a.png)](/img/migrated/Picture20-1-a67dbf3a.png)
 
-## Xóa artifact
+## Delete an artifact
 
-1. Mở **Detail Repository** để xem danh sách artifact.
+1. Open **Detail Repository** to view the artifact list.
 
-   [![Chi tiết repository](/img/migrated/Picture21-1-14112c71.png)](/img/migrated/Picture21-1-14112c71.png)
+   [![Repository details](/img/migrated/Picture21-1-14112c71.png)](/img/migrated/Picture21-1-14112c71.png)
 
-2. Trong phần **Action** của artifact, chọn **Delete**.
+2. In the **Action** section of the artifact, select **Delete**.
 
-   [![Chọn Delete artifact](/img/migrated/Picture22-1-812a2686.png)](/img/migrated/Picture22-1-812a2686.png)
+   [![Select Delete artifact](/img/migrated/Picture22-1-812a2686.png)](/img/migrated/Picture22-1-812a2686.png)
 
-3. Chọn **Delete** trong hộp thoại xác nhận.
+3. Click **Delete** in the confirmation dialog.
 
-   [![Xác nhận xóa artifact](/img/migrated/Picture23-1-7da45a00.png)](/img/migrated/Picture23-1-7da45a00.png)
+   [![Confirm artifact deletion](/img/migrated/Picture23-1-7da45a00.png)](/img/migrated/Picture23-1-7da45a00.png)
 
-## Xóa tag
+## Delete a tag
 
-1. Mở **Detail Tag** để xem thông tin tag.
+1. Open **Detail Tag** to view the tag information.
 
-   [![Chi tiết tag](/img/migrated/Picture24-1-65f144c5.png)](/img/migrated/Picture24-1-65f144c5.png)
+   [![Tag details](/img/migrated/Picture24-1-65f144c5.png)](/img/migrated/Picture24-1-65f144c5.png)
 
-2. Trong phần **Action** của tag, chọn **Delete**.
+2. In the **Action** section of the tag, select **Delete**.
 
-   [![Chọn Delete tag](/img/migrated/Picture25-609bcb94.png)](/img/migrated/Picture25-609bcb94.png)
+   [![Select Delete tag](/img/migrated/Picture25-609bcb94.png)](/img/migrated/Picture25-609bcb94.png)
 
-3. Chọn **Delete** trong hộp thoại xác nhận.
+3. Click **Delete** in the confirmation dialog.
 
-   [![Xác nhận xóa tag](/img/migrated/Picture26-f6b122fd.png)](/img/migrated/Picture26-f6b122fd.png)
+   [![Confirm tag deletion](/img/migrated/Picture26-f6b122fd.png)](/img/migrated/Picture26-f6b122fd.png)

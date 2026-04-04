@@ -1,27 +1,27 @@
 ---
 id: "revoke-token"
-title: "Thu hồi token"
-description: "Hướng dẫn thu hồi token xác thực trên FPT Cloud Portal"
-sidebar_label: "Thu hồi token"
+title: "Tokenの失効"
+description: "FPT Cloud Portalで認証Tokenを失効させる手順"
+sidebar_label: "Tokenの失効"
 sidebar_position: "4"
 ---
 
-# Thu hồi token
+# Tokenの失効
 
-Thu hồi token giúp vô hiệu hóa quyền truy cập API ngay lập tức khi token không còn cần thiết hoặc bị lộ. Thao tác này không thể hoàn tác sau khi xác nhận.
+Tokenを失効させることで、Tokenが不要になったときや漏洩した場合にAPIアクセスを即座に無効化できます。確認後はこの操作を元に戻すことができません。
 
-1. Trên trang **Token**, nhấn nút **Revoke** tương ứng với token cần thu hồi.
+1. **Token**ページで、失効させたいTokenに対応する**Revoke**ボタンを押します。
 
-   [![Danh sách token với nút Revoke ở cột hành động](/img/migrated/image-1731025026905-158de23e.png)](/img/migrated/image-1731025026905-158de23e.png)
+   [![アクション列にRevokeボタンが表示されたToken一覧](/img/migrated/image-1731025026905-158de23e.png)](/img/migrated/image-1731025026905-158de23e.png)
 
-2. Xác nhận thu hồi token trong hộp thoại xác nhận.
+2. 確認ダイアログでTokenの失効を確認します。
 
-   [![Hộp thoại xác nhận thu hồi token](/img/migrated/image-1731025048482-957c5ad2.png)](/img/migrated/image-1731025048482-957c5ad2.png)
+   [![Token失効の確認ダイアログ](/img/migrated/image-1731025048482-957c5ad2.png)](/img/migrated/image-1731025048482-957c5ad2.png)
 
-3. Hệ thống tự động vô hiệu hóa token. Token chuyển sang trạng thái **Revoked** trong danh sách.
+3. システムが自動的にTokenを無効化します。Token一覧でTokenのステータスが**Revoked**に変わります。
 
-   [![Danh sách token hiển thị trạng thái Revoked sau khi thu hồi](/img/migrated/image-1731025071939-e64b80bc.png)](/img/migrated/image-1731025071939-e64b80bc.png)
+   [![失効後にRevokedステータスが表示されたToken一覧](/img/migrated/image-1731025071939-e64b80bc.png)](/img/migrated/image-1731025071939-e64b80bc.png)
 
 :::note
-Một số token cũ được tạo trước phiên bản nâng cấp của FPT Cloud Portal không hỗ trợ thu hồi. Khi di chuột vào nút Revoke của các token này, hệ thống hiển thị tooltip: "Tokens created earlier cannot be revoked".
+FPT Cloud Portalのアップグレード前に作成された古いTokenは失効をサポートしていません。これらのTokenのRevokeボタンにカーソルを合わせると、ツールチップ「Tokens created earlier cannot be revoked」が表示されます。
 :::

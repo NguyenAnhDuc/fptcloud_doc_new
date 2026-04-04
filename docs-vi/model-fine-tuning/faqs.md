@@ -1,8 +1,8 @@
 ---
 id: "faqs"
-title: "よくある質問"
+title: "Faqs"
 description: "このガイドは、**モデル微調整サービス** を理解し、最大限に活用できるように設計されており、始めたばかりの場合でも、高度なユースケースの最適化を検討している場合でも、これを最大限に活用できます。"
-sidebar_label: "よくある質問"
+sidebar_label: "Faqs"
 sidebar_position: "4"
 ---
 

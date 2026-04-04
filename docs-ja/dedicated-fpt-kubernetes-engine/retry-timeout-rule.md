@@ -1,66 +1,78 @@
 ---
 id: "retry-timeout-rule"
-title: "Retry Timeout Rule"
-description: "Trong quá trình sử dụng **Kubernetes Engine** , hệ thống có thể bị timeout trong 2 process sau:"
-sidebar_label: "Retry Timeout Rule"
+title: "リトライタイムアウトルール"
+description: "Kubernetes Engineのプロビジョニングおよびスケーリングプロセスにおけるタイムアウトとリトライのルール。"
+sidebar_label: "リトライタイムアウトルール"
 sidebar_position: "28"
 ---
 
-# Retry timeout rule
+# リトライタイムアウトルール
 
-Trong quá trình sử dụng **Kubernetes Engine** , hệ thống có thể bị timeout trong 2 process sau: 
-➤ Provision 
-➤ Scaling 
-① **Timeout Provision**
-Trong quá trình provision 1 cụm Kubernetes Engine, hệ thống có thể phát sinh vấn đề dẫn tới timeout, được tính toán theo bảng:   
-| First Header  | Condition  |  
-| --- | --- |  
-| Provisioning => Slowing  | 20 Min  |  
-| Slowing => Pending  | 20 Min  |  
-| Pending => Error (timeout)  | 40 Min  |  
-  * Khi provision sẽ xảy ra 2 trường hợp 
+**Kubernetes Engine**の使用中に、以下の2つのプロセスでタイムアウトが発生する可能性があります：
+- Provision
+- Scaling
 
-▪ Provision thành công 
-▪ Provision không thành công 
-  * Khi Provision không thành công, sẽ có 2 tình huống: 
+## 1. Provisionタイムアウト
 
-▪ Provision thành công nhưng mất đồng bộ status: 
-◦ Lúc này, cụm K8s thực chất đã được tạo thành công 
-◦ Khi chọn retry, hệ thống sẽ đồng bộ lại dữ liệu và không chạy lại provision process 
-▪ Khi provision không thành công do lỗi processing: 
-◦ Nếu status = failed thì hiển thị retry cho phép người dùng thử lại. 
-◦ Nếu status = provisioning, hệ thống sẽ bắt đầu đếm thời gian từ lúc submit request. 
-▫ Nếu status = provisioning, hệ thống sẽ bắt đầu đếm thời gian từ lúc submit request. 
-▫ Sau 20 phút từ khi chuyển status = slowing mà chưa có thay đổi trạng thái, hệ thống sẽ chuyển status => pending 
-▫ Sau 40 phút từ khi chuyển status = pending mà chưa có thay đổi trạng thái, hệ thống sẽ chuyển status => error 
-▫ Khi status = error, cho phép user có action retry. Hệ thống sẽ reset bộ counting và bắt đầu quá trình scale lại từ đầu 
-▫ Tổng thời gian từ lúc bắt đầu provision cho tới khi timeout hoàn toàn là 1 tiếng 20 phút 
-◦ Khi status = error, cho phép user retry 
+Kubernetes Engineのclusterプロビジョニング中に問題が発生し、タイムアウトになる場合があります。タイムアウトは以下の表に従って計算されます：
+
+| ステータス変化 | 条件 |
+| --- | --- |
+| Provisioning => Slowing | 20分 |
+| Slowing => Pending | 20分 |
+| Pending => Error（タイムアウト） | 40分 |
+
+プロビジョニングでは、以下の2つの結果のいずれかが発生します：
+- Provision成功
+- Provision失敗
+
+Provisionが失敗した場合、2つの状況が考えられます：
+
+- **Provisionは成功したがステータスの同期が失われた場合：**
+  - Kubernetes clusterは実際には正常に作成されています。
+  - Retryを選択すると、システムはデータを再同期し、provisionプロセスを再実行しません。
+
+- **処理エラーによりProvisionが失敗した場合：**
+  - status = failedの場合、ユーザーが再試行できるようRetryオプションが表示されます。
+  - status = provisioningの場合、システムはリクエスト送信時から時間のカウントを開始します。
+    - 20分経過してもステータスが変化しない場合、システムはstatusを**slowing**に移行します。
+    - slowing状態で20分経過してもステータスが変化しない場合、システムはstatusを**pending**に移行します。
+    - pending状態で40分経過してもステータスが変化しない場合、システムはstatusを**error**に移行します。
+    - status = errorになると、ユーザーはRetryができます。システムはカウンターをリセットし、provisionプロセスを最初から再開します。
+  - プロビジョニング開始から完全タイムアウトまでの総時間：**1時間20分**。
+  - status = errorになると、ユーザーはretryができます。
+
 [![](/img/migrated/Picture6-2-22819bd9.png)](/img/migrated/Picture6-2-22819bd9.png)
-② **Timeout Scaling**
-Khi tạo Kubernetes Cluster thành công và trong quá trình sử dụng hệ thống tự động autoscale hoặc user tiến hành manual scale, core xử lý sẽ tiến hành scale up/down các node:   
-| Status change  | 1 <= worker add < 5  | 5 < worker add  |  
-| --- | --- | --- |  
-| Running => Slowing  | 10 Min  | 10 min + (worker add num - 5) x 3 min  |  
-| Slowing => Pending  | 20 Min  | 20 min + (worker add num - 5) x 3 min  |  
-| Pending => Error (timeout)  | 30 Min  | 30 min + (worker add num - 5) x 3 min  |  
-  * Khi scaling sẽ xảy ra 2 trường hợp:
 
-▪ Scaling thành công 
-▪ Scaling không thành công 
-  * Khi scaling không thành công, sẽ có 2 tình huống: 
+## 2. Scalingタイムアウト
 
-▪ Scaling thành công nhưng mất đồng bộ status 
-◦ Lúc này, cụm K8s thực chất đã có thêm số worker như điều kiện scale 
-◦ Khi chọn retry, hệ thống sẽ đồng bộ lại dữ liệu và không chạy lại scaling process 
-▪ Khi scaling không thành công do lỗi processing: 
-◦ Nếu status = failed thì hiển thị retry cho phép người dùng thử lại. 
-◦ Nếu status = processing, hệ thống sẽ bắt đầu đếm thời gian từ lúc submit request 
-▫ Sau 10 phút (tăng thêm theo số lượng worker add thêm) mà vẫn chưa có thay đổi trạng thái (failed/success), hệ thống sẽ chuyển status hiển thị thành slowing 
-▫ Sau 20 phút từ khi chuyển status = slowing mà chưa có thay đổi trạng thái, hệ thống sẽ chuyển status => pending 
-▫ Sau 30 phút từ khi chuyển status = pending mà chưa có thay đổi trạng thái, hệ thống sẽ chuyển status => error 
-▫ Khi status = error, cho phép user có action retry. Hệ thống sẽ reset bộ counting và bắt đầu quá trình scale lại từ đầu 
-▫ Tổng thời gian từ lúc bắt đầu scale cho tới khi timeout hoàn toàn là 1 tiếng (tăng thêm với trên 5 worker thêm mới) 
-  * Khi cụm về trạng thái error, user có thể chọn **Retry**
+Kubernetes clusterが正常に作成された後、オートスケールまたは手動スケール中に、コアプロセッサがnodeをスケールアップ/ダウンします：
+
+| ステータス変化 | 1 <= 追加worker数 < 5 | 追加worker数 > 5 |
+| --- | --- | --- |
+| Running => Slowing | 10分 | 10分 + (追加worker数 - 5) × 3分 |
+| Slowing => Pending | 20分 | 20分 + (追加worker数 - 5) × 3分 |
+| Pending => Error（タイムアウト） | 30分 | 30分 + (追加worker数 - 5) × 3分 |
+
+スケーリングでは、以下の2つの結果のいずれかが発生します：
+- Scaling成功
+- Scaling失敗
+
+Scalingが失敗した場合、2つの状況が考えられます：
+
+- **Scalingは成功したがステータスの同期が失われた場合：**
+  - Kubernetes clusterには実際にスケール条件で指定した数のworkerが追加されています。
+  - Retryを選択すると、システムはデータを再同期し、scalingプロセスを再実行しません。
+
+- **処理エラーによりScalingが失敗した場合：**
+  - status = failedの場合、ユーザーが再試行できるようRetryオプションが表示されます。
+  - status = processingの場合、システムはリクエスト送信時から時間のカウントを開始します。
+    - 10分（追加worker数に応じて増加）経過してもステータスが変化しない場合（failed/success）、システムはstatusを**slowing**に移行します。
+    - slowing状態で20分経過してもステータスが変化しない場合、システムはstatusを**pending**に移行します。
+    - pending状態で30分経過してもステータスが変化しない場合、システムはstatusを**error**に移行します。
+    - status = errorになると、ユーザーはRetryができます。システムはカウンターをリセットし、スケーリングプロセスを最初から再開します。
+  - スケーリング開始から完全タイムアウトまでの総時間：**1時間**（5台以上の新規worker追加では増加します）。
+
+clusterがerrorステータスになると、ユーザーは**Retry**を選択できます。
 
 [![](/img/migrated/Picture5-2-3cb10329.png)](/img/migrated/Picture5-2-3cb10329.png)

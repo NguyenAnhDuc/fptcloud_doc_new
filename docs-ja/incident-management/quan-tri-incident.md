@@ -1,18 +1,18 @@
 ---
 id: "quan-tri-incident"
-title: "Quản trị incident"
-description: "Tổng quan về các tính năng quản trị incident"
-sidebar_label: "Quản trị incident"
+title: "Incidentの管理"
+description: "Incident管理機能の概要"
+sidebar_label: "Incidentの管理"
 sidebar_position: "18"
 ---
 
-# Quản trị incident
+# Incidentの管理
 
-Phần này hướng dẫn các thao tác quản trị incident sau khi đã tạo, bao gồm:
+このセクションでは、Incidentを作成した後の管理操作について説明します。具体的には以下の操作を含みます。
 
-- [Tìm kiếm và lọc incidents](./filter-incidents.md)
-- [Xem chi tiết incident](./xem-chi-tiet-incident.md)
-- [Ghi lại hoạt động xử lý (post incident activity)](./post-incident-activity.md)
-- [Thay đổi trạng thái incident](./thay-doi-trang-thai-incident.md)
-- [Thay đổi mức độ ảnh hưởng](./thay-doi-muc-do-anh-huong-incident.md)
-- [Xuất activity log dạng markdown](./copy-activities-as-markdown.md)
+- [Incidentの検索とフィルター](./filter-incidents.md)
+- [Incident詳細の確認](./xem-chi-tiet-incident.md)
+- [処理活動の記録（post incident activity）](./post-incident-activity.md)
+- [Incidentステータスの変更](./thay-doi-trang-thai-incident.md)
+- [影響度の変更](./thay-doi-muc-do-anh-huong-incident.md)
+- [Activity logのMarkdown形式エクスポート](./copy-activities-as-markdown.md)

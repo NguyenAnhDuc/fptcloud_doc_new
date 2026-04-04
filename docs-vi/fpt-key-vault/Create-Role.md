@@ -1,8 +1,8 @@
 ---
 id: "Create-Role"
-title: "Roleを作成する"
-description: "Secretアクセス権限を付与するAuth Method内のRoleを新規作成する方法"
-sidebar_label: "Roleを作成する"
+title: "Create Role"
+description: "**Step 1** : Select the Auth Method to create **Role** on the Access Management screen:"
+sidebar_label: "Create Role"
 sidebar_position: "16"
 ---
 

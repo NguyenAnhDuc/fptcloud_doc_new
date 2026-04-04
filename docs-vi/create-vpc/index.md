@@ -1,5 +1,5 @@
 ---
-id: "vpc-の作成"
+id: "create-vpc"
 title: "Tạo VPC"
 description: "Khởi tạo và quản lý VPC trên FPT Cloud Portal."
 sidebar_label: "Tạo VPC"

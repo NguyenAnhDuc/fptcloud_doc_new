@@ -1,8 +1,8 @@
 ---
 id: "add-external-member"
-title: "ロードバランサーへの外部メンバーの追加"
-description: "FPT Cloud ロードバランサーのサーバープールに外部エンドポイントを追加・削除する方法を説明します。"
-sidebar_label: "外部メンバーの追加"
+title: "Add external members to a Load Balancer"
+description: "How to add and remove external endpoint members from a Load Balancer Server Pool on FPT Cloud."
+sidebar_label: "Add external members"
 sidebar_position: "8"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "summary"
-title: "Summary"
-description: "Tóm tắt về sự hợp tác giữa JAIST và FPT AI Factory trong việc phát triển LLM tiếng Nhật."
-sidebar_label: "Summary"
+title: "まとめ"
+description: "日本語 LLM 開発における JAIST と FPT AI Factory のコラボレーションのまとめ。"
+sidebar_label: "まとめ"
 sidebar_position: "30"
 ---
 

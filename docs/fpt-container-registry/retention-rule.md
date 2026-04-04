@@ -1,55 +1,55 @@
 ---
 id: "retention-rule"
-title: "Retention rule を管理する"
-description: "不要なイメージを自動削除するための retention rule を設定する。"
-sidebar_label: "Retention rule を管理する"
+title: "Retention Rule"
+description: "Configure retention rules to automatically delete unused images."
+sidebar_label: "Retention Rule"
 sidebar_position: "9"
 ---
 
-# Retention rule を管理する
+# Manage retention rules
 
-Repository には時間の経過とともに多くの tag が蓄積され、使用されなくなった tag がストレージを消費します。FPT Cloud の **Retention Rule** 機能を使用すると、イメージや tag の保持・削除基準を自動化し、ストレージを最適化できます。
+As a repository accumulates tags over time, unused tags consume storage. Use FPT Cloud's **Retention Rule** feature to automate image and tag retention or deletion criteria, optimizing storage usage.
 
-## Tag retention rule を追加する
+## Add a tag retention rule
 
-保持基準を定義することで、不要な tag を自動的に削除できます。
+Define retention criteria to automatically remove unnecessary tags.
 
-1. サイドバーメニューで **Container Registry** を選択し、**Policy** タブを開きます。
+1. On the sidebar menu, select **Container Registry** and open the **Policy** tab.
 
-   [![Policy タブ](/img/migrated/Picture27-62a35e57.png)](/img/migrated/Picture27-62a35e57.png)
+   [![Policy tab](/img/migrated/Picture27-62a35e57.png)](/img/migrated/Picture27-62a35e57.png)
 
-2. **ADD RULES** を選択し、tag retention rule の情報を入力します。
+2. Select **ADD RULES** and enter the tag retention rule information.
 
-3. **Repositories** メニューで **matching** または **excluding** を選択します。
+3. In the **Repositories** menu, select **matching** or **excluding**.
 
-4. **By image count or number of days** メニューで保持するイメージ数または期間を指定します。
+4. In the **By image count or number of days** menu, specify the number of images or the retention period to keep.
 
-   | オプション | 説明 |
+   | Option | Description |
    |---|---|
-   | retain the most recently pushed # images | 最近 push された指定数のイメージを保持 |
-   | retain the most recently pulled # images | 最近 pull された指定数のイメージを保持 |
-   | retain the images pushed within the last # days | 指定日数以内に push されたイメージを保持 |
-   | retain the images pulled within the last # days | 指定日数以内に pull されたイメージを保持 |
-   | retain always | 常に保持 |
+   | retain the most recently pushed # images | Keep the specified number of most recently pushed images |
+   | retain the most recently pulled # images | Keep the specified number of most recently pulled images |
+   | retain the images pushed within the last # days | Keep images pushed within the specified number of days |
+   | retain the images pulled within the last # days | Keep images pulled within the specified number of days |
+   | retain always | Always retain |
 
-5. **Tag** メニューで対象 tag を指定し、**Add** をクリックしてルールを保存します。
+5. In the **Tag** menu, specify the target tags and click **Add** to save the rule.
 
-## スケジュールを設定する
+## Set a schedule
 
-Retention rule を定期的に自動実行するスケジュールを設定できます。
+Configure a schedule to automatically run retention rules on a recurring basis.
 
-1. **Container Registry** > **Policy** > **Schedule** > **Edit** を選択します。
+1. Select **Container Registry** > **Policy** > **Schedule** > **Edit**.
 
-2. 実行頻度を選択します（None、Hourly、Daily、Weekly、Custom）。
+2. Select the execution frequency (None, Hourly, Daily, Weekly, Custom).
 
    :::warning
-   スケジュールはすべての rule に適用されます。rule ごとに異なるスケジュールを設定することはできません。
+   The schedule applies to all rules. You cannot set different schedules for individual rules.
    :::
 
-3. **Save** > **OK** でスケジュールを保存します。
+3. Click **Save** > **OK** to save the schedule.
 
-## Retention run を管理する
+## Manage retention runs
 
-- **RUN NOW:** rule を手動で即時実行します。
-- **DRY RUN:** イメージを実際に削除せずに rule を検証します。
-- **ABORT:** 実行中の retention run を中止します。
+- **RUN NOW:** Execute the rule manually and immediately.
+- **DRY RUN:** Validate the rule without actually deleting any images.
+- **ABORT:** Stop an in-progress retention run.

@@ -1,8 +1,8 @@
 ---
 id: "enable-hsts"
-title: "HTTPS リスナーでの HSTS の有効化"
-description: "FPT Cloud ロードバランサーの HTTPS リスナーで HTTP Strict Transport Security (HSTS) を有効にする方法を説明します。"
-sidebar_label: "HSTS の有効化"
+title: "Enable HSTS on an HTTPS Listener"
+description: "How to enable HTTP Strict Transport Security (HSTS) on a Load Balancer HTTPS Listener in FPT Cloud."
+sidebar_label: "Enable HSTS"
 sidebar_position: "15"
 ---
 

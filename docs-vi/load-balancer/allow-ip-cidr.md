@@ -1,8 +1,8 @@
 ---
 id: "allow-ip-cidr"
-title: "許可 IP/CIDR の設定"
-description: "FPT Cloud ロードバランサーへのアクセスを特定の IP アドレスまたは CIDR 範囲に制限する方法を説明します。"
-sidebar_label: "許可 IP/CIDR の設定"
+title: "Configure Allow IP/CIDR"
+description: "How to restrict Load Balancer access to specific IP addresses or CIDR ranges on FPT Cloud."
+sidebar_label: "Configure Allow IP/CIDR"
 sidebar_position: "16"
 ---
 

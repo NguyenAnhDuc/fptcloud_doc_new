@@ -1,20 +1,20 @@
 ---
 id: "overviews-vpn"
-title: "Tổng quan VPN Site-to-Site"
-description: "Giới thiệu dịch vụ VPN Site-to-Site và các yêu cầu trước khi triển khai."
-sidebar_label: "Tổng quan VPN Site-to-Site"
+title: "VPN Site-to-Site 概要"
+description: "VPN Site-to-Siteサービスの紹介と導入前の要件。"
+sidebar_label: "VPN Site-to-Site 概要"
 sidebar_position: "2"
 ---
 
-# Tổng quan VPN Site-to-Site
+# VPN Site-to-Site 概要
 
-VPN Site-to-Site cho phép các công ty xây dựng hệ thống mạng riêng ảo hoàn chỉnh cho các địa điểm đa dạng. Dịch vụ này kết nối các mạng nội bộ một cách liên tục và bảo mật, cho phép nhân viên chia sẻ tài nguyên an toàn giữa các mạng.
+VPN Site-to-Siteは、企業が複数の拠点にまたがる完全な仮想プライベートネットワークを構築できるサービスです。社内ネットワーク同士を継続的かつ安全に接続し、従業員がネットワーク間でリソースを安全に共有できるようにします。
 
-FPT Cloud Site-to-Site VPN là dịch vụ VPN quản lý đầy đủ, cho phép tạo kết nối bảo mật giữa mạng văn phòng và tài nguyên đám mây của FPT. Sử dụng tunnel IPSec, dịch vụ kết nối trung tâm dữ liệu doanh nghiệp với các văn phòng chi nhánh.
+FPT Cloud Site-to-Site VPNはフルマネージドVPNサービスです。IPSecトンネルを使用して、企業のデータセンターと各拠点オフィスを接続し、オフィスネットワークとFPTクラウドリソース間のセキュアな接続を提供します。
 
-## Yêu cầu trước khi tạo VPN Site-to-Site
+## VPN Site-to-Site作成前の要件
 
-- **Kiến trúc mạng**: đảm bảo kiến trúc mạng on-premise phù hợp với việc triển khai VPN S2S — xác định địa chỉ IP, phân vùng mạng, và các thiết bị mạng phù hợp.
-- **Floating IP**: hệ thống Cloud FPT cần 1 IP public để kết nối VPN S2S. IP public này chưa được gán cho bất kỳ dịch vụ nào khác.
-- **IP addressing**: đảm bảo các địa chỉ IP trong VPN S2S không xung đột với các mạng khác trong tổ chức hoặc mạng công cộng.
-- **Giao thức và mã hóa**: chọn giao thức và cấu hình mã hóa phù hợp. Phổ biến nhất là IPSec với mã hóa AES hoặc 3DES, kết hợp giao thức xác thực IKEv1 hoặc IKEv2.
+- **ネットワーク設計**: オンプレミスネットワーク構成がVPN S2S導入に適していることを確認してください。IPアドレス、ネットワークセグメント、適切なネットワーク機器を特定してください。
+- **Floating IP**: FPT Cloudシステムには、VPN S2S接続用のパブリックIPが1つ必要です。このIPは他のサービスに割り当てられていないものを使用してください。
+- **IPアドレス設計**: VPN S2Sで使用するIPアドレスが、組織内の他のネットワークやパブリックネットワークと重複しないことを確認してください。
+- **プロトコルと暗号化**: 適切なプロトコルと暗号化設定を選択してください。AES暗号化とIKEv1またはIKEv2認証プロトコルを組み合わせたIPSecが最も一般的です。

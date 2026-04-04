@@ -8,24 +8,38 @@ sidebar_position: "2"
 
 # Overview
 
-### GPU Virtual Machine là gì?
-**GPU Virtual Machine (GPU VM)** cho phép bạn **triển khai và quản lý các máy chủ GPU hiệu năng cao** một cách dễ dàng. **GPU VM sử dụng GPU passthrough để có được GPU chuyên dụng**, các ứng dụng truy cập GPU thông qua các lớp của hệ điều hành khách và hypervisor. Các tài nguyên VM quan trọng khác mà ứng dụng sử dụng, như RAM, storage và networking, cũng được ảo hóa.
-Hiện tại chúng tôi cung cấp hai loại máy ảo (VM), mỗi loại có tùy chọn storage khác nhau.
+### What is GPU Virtual Machine?
+**GPU Virtual Machine (GPU VM)** enables you to **deploy and manage high-performance GPU servers** with ease. **GPU VM uses a passthrough GPU to get a dedicated GPU** , applications access it through the layers of a guest OS and hypervisor. Other critical VM resources that applications use, such as RAM, storage, and networking, are also virtualized.
+We currently offer two types of virtual machines (VMs), each with a different storage option.
 
-### Loại GPU VM
-| **Loại GPU VM**  | **Loại Storage**  | **Đặc điểm chính của Storage**  |
-| --- | --- | --- |
-| **Type #1**  | **Block Storage – Ephemeral Disk (NVMe)**  | - Dung lượng cố định theo gói GPU Instance<br/>- **Tối ưu cho các khối lượng công việc training hiệu năng cao**<br/>- Không phù hợp cho lưu trữ dữ liệu dài hạn<br/>- Không có tính năng backup/restore tự động<br/>- Dữ liệu sẽ không bị xóa khi bạn dừng VM |
-| **Type #2**  | **Block Storage – Persistent Disk**  | - **Storage có thể mở rộng theo nhu cầu, từ 100GB**<br/>- **Lý tưởng cho lưu trữ dữ liệu dài hạn**<br/>- Hỗ trợ backup & restore tự động<br/>- Storage được tính phí riêng biệt với chi phí GPU Instance |
+### GPU VM Type  
+| **GPU VM Type**  | **Storage Type**  | **Key Features of Storage**  |  
+| --- | --- | --- |  
+| **Type #1**  | **Block Storage – Ephemeral Disk (NVMe)**  | - Fixed capacity per GPU instance   
+  
+- **Optimized for high-performance training workloads**   
+  
+- Not suitable for long-term data   
+  
+- No automated backup/restore feature   
+  
+- Data will not be deleted when you stop VMs  |  
+| **Type #2**  | **Block Storage – Persistent Disk**  | - **Scalable, on-demand storage from 100GB**   
+  
+- **Ideal for long-term data retention**   
+  
+- Supports automated backup & restore   
+  
+- Storage is billed separately from GPU instance cost  |  
 
-### Cách hoạt động
-GPU VM hoạt động như một máy tính mạnh mẽ trên đám mây với GPU chuyên dụng cho các khối lượng công việc chuyên sâu. Bạn có thể:
-  * **Dễ dàng triển khai GPU VM** với các thế hệ GPU mới nhất chỉ trong vài phút thông qua FPT Cloud Portal.
-  * **Chạy các tác vụ AI, machine learning và xử lý dữ liệu** ở tốc độ cao với khả năng tăng tốc GPU tiên tiến.
-  * **Quản lý mọi thứ từ một cổng trực tuyến đơn giản**, không cần đội ngũ IT nội bộ.
+### How Does It Work?
+A GPU VM works like a powerful cloud-based computer with a dedicated GPU for intensive workloads. You can:
+  * **Easily deploy a GPU VM** with the latest GPU generations in minutes through the FPT Cloud Portal. 
+  * **Run AI, machine learning, and data processing tasks** at high speed with advanced GPU acceleration. 
+  * **Manage everything from a simple online portal** , with no need for in-house IT staff. 
 
-### Tại sao chọn GPU Virtual Machine?
-  * **Triển khai một cú nhấp** từ FPT Smart Cloud Portal.
-  * **Cấu hình đơn giản** về networking, storage và security.
-  * **AI training & deep learning nhanh hơn:** Các GPU thế hệ tiên tiến mang lại tốc độ và hiệu quả vượt trội, hoàn hảo cho các mô hình AI và machine learning quy mô lớn.
-  * **Tối ưu cho AI inference:** Xử lý dữ liệu và đưa ra quyết định thời gian thực nhanh hơn bao giờ hết.
+### Why GPU Virtual Machine?
+  * **One-click deployment** from the FPT Smart Cloud Portal. 
+  * **Simple configuration** of networking, storage, and security. 
+  * **Faster AI training & deep learning:** Cutting-edge GPUs deliver exceptional speed and efficiency, perfect for handling large-scale AI and machine learning models. 
+  * **Optimized for AI inference:** Process data and make real-time decisions faster than ever before.

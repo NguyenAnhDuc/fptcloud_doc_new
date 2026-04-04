@@ -1,14 +1,23 @@
 ---
 id: "sua-model"
-title: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
-description: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
-sidebar_label: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
+title: "Edit Model"
+description: "Edit the details of an existing model."
+sidebar_label: "Edit Model"
 sidebar_position: "7"
 ---
 
-# Sua Model
+# Edit Model
 
-Mục đích: chỉnh sửa lại các thông tin của Model đã tạo 
-Để chỉnh sửa 1 Model đã tạo, bạn làm theo các bước sau: Bước 1: Tại màn hình Model list, click vào title của Model mà bạn cần chỉnh sửa, màn hình đi đến trang Model detail 
+Edit the information of a model you have already created.
 
-Bước 2: Tại đây, click button Actions > chọn action Edit [![](/img/migrated/Picture12-38e4faed.png)](/img/migrated/Picture12-38e4faed.png) Bước 3: Màn hình chuyển đến trang Model detail với các thông tin để có thể chỉnh sửa [![](/img/migrated/Picture13-bbfea244.png)](/img/migrated/Picture13-bbfea244.png) Bước 4: Edit lại các thông tin mà bạn cần chỉnh sửa, click button Save để lưu lại các thông tin sau khi đã chỉnh sửa, click Cancel để hủy bỏ thao tác
+## Steps
+
+1. On the **Model list** screen, click the title of the model you want to edit. The **Model detail** screen appears.
+
+2. Click **Actions** > **Edit**.
+[![](/img/migrated/Picture12-38e4faed.png)](/img/migrated/Picture12-38e4faed.png)
+
+3. The Model detail screen switches to edit mode with fields you can modify.
+[![](/img/migrated/Picture13-bbfea244.png)](/img/migrated/Picture13-bbfea244.png)
+
+4. Edit the fields you want to update. Click **Save** to apply your changes, or **Cancel** to discard.

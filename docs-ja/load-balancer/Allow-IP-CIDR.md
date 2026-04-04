@@ -1,37 +1,50 @@
 ---
 id: "Allow-IP-CIDR"
-title: "Cấu hình Allow IP/CIDR"
-description: "**Cách hoạt động**"
-sidebar_label: "Cấu hình Allow IP/CIDR"
+title: "許可 IP/CIDR の設定"
+description: "Load Balancer へのアクセスを特定の IP アドレスまたは CIDR 範囲に制限する方法を説明します。"
+sidebar_label: "許可 IP/CIDR の設定"
 sidebar_position: "18"
 ---
 
-# Allow Ip Cidr
+# 許可 IP/CIDR の設定
 
-**Cách hoạt động**
-  * Khi một yêu cầu truy cập đến Load Balancer, hệ thống sẽ kiểm tra địa chỉ IP nguồn của yêu cầu.
-  * Nếu địa chỉ IP nguồn nằm trong dải CIDRs cho phép, yêu cầu sẽ được chấp nhận và tiếp tục đến máy chủ backend.
-  * Nếu địa chỉ IP nguồn không nằm trong dải CIDRs cho phép, yêu cầu sẽ bị từ chối và không được chuyển tiếp.
+## 仕組み
 
-**Khi nào cần cấu hình allow CIDRs đến Load Balancer**
-  * **Tăng cường bảo mật** : Ngăn chặn các kết nối không mong muốn từ đó giảm thiểu nguy cơ tấn công từ bên ngoài
-  * **Kiểm soát truy cập** : Cho phép quản lý quyền truy cập vào Load Balancer bằng cách khai báo danh sách CIDRs được cho phép
-  * **Tối ưu hiệu suất** : Giảm tải cho Load Balancer bằng cách ngăn chặn các truy cập không mong muốn
+- Load Balancer にリクエストが届くと、システムはリクエストの送信元 IP アドレスを確認します。
+- 送信元 IP が許可された CIDR 範囲内にある場合、リクエストは受け入れられてバックエンドに転送されます。
+- 送信元 IP が許可された CIDR 範囲内にない場合、リクエストは拒否されます。
 
-**Hướng dẫn cấu hình**
-**Bước 1:** Truy cập vào trang chủ Load Balancer trên FPT Cloud Portal
-**Bước 2:** Tại trang chủ Load Balancer, click chọn Load Balancer cần cấu hình.
-**Bước 3:** Tại phần thông tin chi tiết Load Balancer, chọn tab Listener.
-**Bước 4:** Chọn tên Listener cần cấu hình để vào màn Update
-**Bước 5:** Trang update Listener sẽ hiện ra, tìm đến phần Cấu hình Allow CIDRs ở cuối màn hình. 
-  * Từ đây người dùng có thể cấu hình 1 hoặc nhiều dải IP được phép truy cập. Nếu cần nhập nhiều dải IP, vui lòng nhập mỗi dòng 1 dải
-  * Ví dụ người dùng nhập:
+## 許可 CIDR を設定する場面
 
-"192.168.0.0/24
-172.16.0.0/24" 
-Có nghĩa là chỉ những địa chỉ IP thuộc 2 dải IP Range này mới có quyền truy cập.
-**Bước 6:** Nhấn nút "Update Listener" tại góc dưới bên phải của trang để hoàn tất việc cập nhật.
-**Lưu ý**
-  * Chỉ khai báo các CIDRs đáng tin cậy để tránh bị lạm dụng
-  * Sau khi thay đổi cấu hình, nên kiểm tra lại truy cập để đảm bảo dịch vụ vẫn hoạt động bình thường
-  * Nếu có sử dụng firewall khác đừng trước Load Balancer như FPT Cloud NGFW, hãy cấu hình tương ứng trên firewall
+- **セキュリティ強化**: 不要な接続をブロックし、外部からの攻撃リスクを軽減します。
+- **アクセス制御**: 許可された送信元を管理して Load Balancer へのアクセスを制御します。
+- **パフォーマンス最適化**: 不要なトラフィックをブロックして Load Balancer の負荷を軽減します。
+
+## 設定手順
+
+**手順 1:** FPT Cloud Portal でロードバランサーのホームページに移動します。
+
+**手順 2:** 設定する Load Balancer をクリックします。
+
+**手順 3:** ロードバランサーの詳細ページで **Listener** タブを選択します。
+
+**手順 4:** 設定するリスナーをクリックして更新画面を開きます。
+
+**手順 5:** 更新ページの下部にある **Allow CIDRs** セクションで、許可する IP 範囲を 1 行に 1 つずつ入力します。
+
+例：
+
+```
+192.168.0.0/24
+172.16.0.0/24
+```
+
+この例では、これら 2 つの IP 範囲に属する IP アドレスのみがアクセスを許可されます。
+
+**手順 6:** 右下の **Update Listener** をクリックして保存します。
+
+:::note
+- 信頼できる CIDR のみを宣言してください。
+- 設定変更後は、サービスが正常にアクセスできることを確認してください。
+- FPT Cloud NGFW などの他のファイアウォールが Load Balancer の前に設置されている場合は、そちらにも対応するルールを設定してください。
+:::

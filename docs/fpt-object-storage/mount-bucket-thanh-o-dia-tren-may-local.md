@@ -1,8 +1,8 @@
 ---
 id: "mount-bucket-thanh-o-dia-tren-may-local"
-title: "Mount bucket thành ổ đĩa trên máy local"
+title: "Mount Bucket Thanh O Dia Tren May Local"
 description: "Ngoài trường hợp sử dụng qua **FPT Portal** , **S3 Browser** chúng ta có thể sử dụng trực tiếp S3 bucket trên **FPT Obje"
-sidebar_label: "Mount bucket thành ổ đĩa trên máy local"
+sidebar_label: "Mount Bucket Thanh O Dia Tren May Local"
 sidebar_position: "17"
 ---
 

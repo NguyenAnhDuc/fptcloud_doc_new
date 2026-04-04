@@ -1,28 +1,40 @@
 ---
 id: "tao-model"
-title: "Mục đích: Thêm mới model vào hệ thống"
-description: "Mục đích: Thêm mới model vào hệ thống"
-sidebar_label: "Mục đích: Thêm mới model vào hệ thống"
+title: "Create Model"
+description: "Add a new model to the system."
+sidebar_label: "Create Model"
 sidebar_position: "6"
 ---
 
-# Tao Model
+# Create Model
 
-Mục đích: Thêm mới model vào hệ thống 
-Để tạo mới 1 model, bạn thao tác như sau: Bước 1: Tại màn hình dịch vụ Model Hub, click button Create đi đến màn tạo mới  
-[![](/img/migrated/Picture9-661ce3b5.png)](/img/migrated/Picture9-661ce3b5.png) [![](/img/migrated/Picture10-6db13648.png)](/img/migrated/Picture10-6db13648.png) Bước 2: Tại step 1 Basic Infomation, nhập Model title 
-Lưu ý: Model title bao gồm các ký tự a-z, A-Z, số, dấu "-", "_" . Tên model là duy nhất và không được để trống 
+Add a new model to the system.
 
-Bước 3: Nhập Description mô tả của Model 
+## Steps
 
-Bước 4: Chọn Model visibility (Private, Public hoặc Public metadata) 
+1. On the **Model Hub** service screen, click **Create** to go to the creation form.
+[![](/img/migrated/Picture9-661ce3b5.png)](/img/migrated/Picture9-661ce3b5.png)
+[![](/img/migrated/Picture10-6db13648.png)](/img/migrated/Picture10-6db13648.png)
 
-Bước 5: Upload Avatar 
+2. In **Step 1 — Basic Information**, enter the **Model title**.
 
-Bước 6: Điền thông tin Model overview mô tả tổng quan về Model 
+   > **Note:** Model title may include a–z, A–Z, digits, `-`, and `_`. The name must be unique and cannot be empty.
 
-Bước 7: Click button Next để chuyển sang step 2 sau khi đã điền đầy đủ thông tin ở step 1 [![](/img/migrated/Picture11-befcf99e.png)](/img/migrated/Picture11-befcf99e.png) Bước 8: Tại step 2 Tags, thực hiện chọn lần lượt các tag cho Framework, Architecture, Subject, Task, Others 
+3. Enter a **Description** for the model.
 
-Bước 9: Click button Next để sang step 3, hoặc button Back nếu muốn trở lại step 1 để chỉnh sửa 
+4. Select **Model visibility** (Private, Public, or Public metadata).
 
-Bước 10: Tại step 3 Review & Create, bạn review lại các thông tin đã tạo của Model, nếu đã đầy đủ và chính xác, click button Create a model để hoàn thành phần tạo mới 1 model, màn hình sẽ back lại trang model list với model mới tạo ở đầu tiên, nếu cần chỉnh sửa lại thông tin click button Back
+5. Upload an **Avatar**.
+
+6. Fill in the **Model overview** field to describe the model.
+
+7. Click **Next** to proceed to Step 2.
+[![](/img/migrated/Picture11-befcf99e.png)](/img/migrated/Picture11-befcf99e.png)
+
+8. In **Step 2 — Tags**, select tags for Framework, Architecture, Subject, Task, and Others.
+
+9. Click **Next** to proceed to Step 3, or **Back** to return to Step 1.
+
+10. In **Step 3 — Review & Create**, review all model information. Click **Create a model** to finish, or **Back** to make changes.
+
+The new model appears at the top of the model list.

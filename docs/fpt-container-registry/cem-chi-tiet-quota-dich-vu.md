@@ -1,26 +1,26 @@
 ---
 id: "cem-chi-tiet-quota-dich-vu"
-title: "Xem chi tiết quota dịch vụ"
-description: "Xem thông tin storage-limit và pull-limit của gói dịch vụ đang sử dụng."
-sidebar_label: "Xem chi tiết quota"
+title: "View service quota details"
+description: "Check the storage-limit and pull-limit of your current service plan."
+sidebar_label: "View service quota details"
 sidebar_position: "28"
 ---
 
-# Xem chi tiết quota dịch vụ
+# View service quota details
 
-FPT Container Registry cung cấp 4 gói dịch vụ với mức storage-limit, pull-limit và trạng thái khác nhau. Theo dõi quota giúp bạn chủ động nâng gói trước khi đạt giới hạn.
+FPT Container Registry offers 4 service plans with different storage-limit, pull-limit, and availability statuses. Monitoring your quota lets you proactively upgrade your plan before reaching the limit.
 
-Mặc định, gói **Basic** được cấp khi kích hoạt dịch vụ.
+By default, the **Basic** plan is assigned when you activate the service.
 
-| Gói dịch vụ | Storage-limit | Pull-limit | Trạng thái |
+| Service plan | Storage-limit | Pull-limit | Status |
 |---|---|---|---|
 | Basic | 10 GB | 50 | Available |
 | Standard | 100 GB | 200 | Not Available |
 | Premium | 500 GB | Unlimited | Not Available |
 | Advanced | 2000 GB | Unlimited | Not Available |
 
-Để xem chi tiết quota trên Portal:
+To view quota details on the Portal:
 
-Trên menu **FPT Portal**, chọn **Container Registry** > **Quota** > **View Details**.
+On the **FPT Portal** menu, select **Container Registry** > **Quota** > **View Details**.
 
-[![Màn hình xem chi tiết quota](/img/migrated/Picture85-55012791.png)](/img/migrated/Picture85-55012791.png)
+[![Quota details screen](/img/migrated/Picture85-55012791.png)](/img/migrated/Picture85-55012791.png)

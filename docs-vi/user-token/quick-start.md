@@ -1,8 +1,8 @@
 ---
 id: "quick-start"
-title: "クイックスタート"
-description: "FPT Cloud AI Studioにおけるユーザートークンの認証フロー"
-sidebar_label: "クイックスタート"
+title: "Quick Start"
+description: "1. **User Authentication**"
+sidebar_label: "Quick Start"
 sidebar_position: "3"
 ---
 

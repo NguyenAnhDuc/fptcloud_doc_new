@@ -1,17 +1,17 @@
 ---
 id: "fqas"
-title: "Câu hỏi thường gặp"
-description: "Câu hỏi thường gặp về tính năng Token trên FPT Cloud Portal"
-sidebar_label: "Câu hỏi thường gặp"
+title: "よくある質問"
+description: "FPT Cloud PortalのToken機能に関するよくある質問"
+sidebar_label: "よくある質問"
 sidebar_position: "5"
 ---
 
-# Câu hỏi thường gặp
+# よくある質問
 
-**1. Tại sao một số token không thể thu hồi được?**
+**1. 一部のTokenが失効できないのはなぜですか？**
 
-Một số token cũ được tạo trước phiên bản nâng cấp của FPT Cloud Portal không hỗ trợ tính năng thu hồi. Đối với các token này, hệ thống hiển thị tooltip: "Tokens created earlier cannot be revoked".
+FPT Cloud Portalのアップグレード前に作成された古いTokenは、失効機能をサポートしていません。これらのTokenに対してシステムはツールチップ「Tokens created earlier cannot be revoked」を表示します。
 
-**2. Token chuyển trạng thái "Expired" khi nào?**
+**2. TokenはいつExpiredステータスに変わりますか？**
 
-Token chuyển sang trạng thái "Expired" khi vượt quá thời gian hết hạn tính từ thời điểm khởi tạo. Hệ thống tự động thực hiện việc này và token không thể dùng để truy cập API sau đó.
+Tokenは作成時点から有効期限を過ぎると「Expired」ステータスに変わります。システムが自動的にこれを行い、以降そのTokenはAPIアクセスに使用できなくなります。

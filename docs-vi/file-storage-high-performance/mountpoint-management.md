@@ -1,94 +1,104 @@
 ---
 id: "mountpoint-management"
-title: "Mount point management"
-description: "In the FPT File Storage – High Performance system, a Mount Point is a logical access point that allows users to connect "
-sidebar_label: "Mount point management"
+title: "Quản lý Mount Point"
+description: "Trong hệ thống FPT File Storage – High Performance, Mount Point là điểm truy cập logic cho phép người dùng kết nối đến thư mục cụ thể trong storage pool."
+sidebar_label: "Quản lý Mount Point"
 sidebar_position: "4"
 ---
 
-# Mount point management
+# Quản lý Mount Point
 
-## **1. Mount Point Overview**
-### **What is a Mount Point?**
-In the FPT File Storage – High Performance system, a Mount Point is a logical access point that allows users to connect to a specific directory (path) within the storage pool.
-To mount data from a Bare Metal server, you need to create a Mount Point with the following configuration details:
-  * **Path** : Specific directory path in the storage system you want to access.
-  * **Access protocol** : Such as NFSv3 or NFSv4.
-  * **Access Subnet** : Only servers within the specified subnet are allowed to mount. If a server is not in this subnet list, the mount request will be denied.
+## **1. Tổng quan Mount Point**
 
-### **Role of the Mount Point**  
-| Component  | Role  |  
-| --- | --- |  
-| Mount Point  | Access point from internal network to file storage via NFSv3/NFSv4/S3.  |  
-| Client (server)  | Mounts data from file storage, shown as a local disk.  |  
-| Storage Backend (VAST)  | Underlying storage infrastructure.  |  
-| QoS Policy  | Attached to mount point to limit IOPS, throughput, etc.  |  
+### **Mount Point là gì?**
 
-### **Mount Point Structure**  
-| **Field**  | **Description**  |  
-| --- | --- |  
-| Name  | Display name in the portal  |  
-| Path  | Actual path, e.g., /ml-data  |  
-| Protocol  | Protocol: NFSv3 or NFSv4  |  
-| Subnet  | CIDR network range allowed to access  |  
-| Endpoint Range  | Connection endpoint  |  
-| QoS Policy  | Performance control policy  |  
-| NFS Alias  | Alias path shown in the OS  |  
-**Relationships with other components**
-  * **VPC & Subnet**: A Mount Point can be assigned to multiple subnets across the same or different VPCs. Only servers in the assigned subnets can access it.
-  * **QoS Policy** : Controls performance through: 
+Trong hệ thống FPT File Storage – High Performance, Mount Point là một điểm truy cập logic cho phép người dùng kết nối đến một thư mục cụ thể (path) trong pool lưu trữ.
+Để mount dữ liệu từ server Bare Metal, bạn cần tạo một Mount Point với các thông tin cấu hình gồm:
+  * **Path** : Đường dẫn thư mục cụ thể trên hệ thống lưu trữ mà bạn muốn truy cập.
+  * **Giao thức truy cập** : Ví dụ như NFSv3 hoặc NFSv4.
+  * **Subnet truy cập** : Chỉ các máy chủ thuộc subnet được chỉ định mới được phép mount. Nếu máy chủ không nằm trong danh sách subnet này, yêu cầu mount sẽ bị từ chối.
+
+### **Vai trò của Mount Point**
+
+| Thành phần | Vai trò |
+| --- | --- |
+| Mount Point | Điểm truy cập từ mạng nội bộ vào file storage thông qua NFSv3/NFSv4/S3. |
+| Client (máy chủ) | Mount dữ liệu từ file storage, hiển thị như ổ đĩa nội bộ. |
+| Storage Backend (VAST) | Hạ tầng lưu trữ. |
+| QoS Policy | Gắn với mount point để giới hạn IOPS, throughput… |
+
+### **Cấu trúc Mount Point**
+
+| **Trường** | **Mô tả** |
+| --- | --- |
+| Name | Tên hiển thị trong portal |
+| Path | Đường dẫn thực tế, ví dụ: /ml-data |
+| Protocol | Giao thức: NFSv3 hoặc NFSv4 |
+| Subnet | Dải mạng CIDR được phép truy cập |
+| Endpoint Range | Endpoint kết nối |
+| QoS Policy | Chính sách kiểm soát hiệu năng |
+| NFS Alias | Path Alias sẽ hiển thị trong OS |
+
+**Mối quan hệ với các thành phần khác**
+  * **VPC & Subnet**: Mount Point có thể gán với nhiều subnet khác nhau trong cùng/khác VPC. Chỉ máy chủ trong subnet được gán mới truy cập được.
+  * **QoS Policy** : Giới hạn hiệu năng thông qua:
     * Max Throughput (MB/s)
     * Max IOPS
     * Burst Limit
-  * **NFS Protocol** : Supports TCP and RDMA. In particular: 
-    * **TCP** : Common and easy to use.
-    * **RDMA** : High performance, low latency.
-    * **Multi-Path RDMA** : For large workloads, allows parallel connections.
+  * **NFS Protocol** : Hỗ trợ TCP và RDMA. Đặc biệt:
+    * **TCP** : Phổ biến, dễ dùng.
+    * **RDMA** : Hiệu năng cao, latency thấp.
+    * **Multi-Path RDMA** : Cho workload lớn, kết nối song song.
 
-* * *
+---
 
-## **2. Creating a Mount Point**
-### **Important Principles**
-  * **Bind to specific subnet** : Only servers in the assigned subnet can mount.
-  * **Do not create at root path ("/")** : Use subdirectories, e.g., `/project-a`, `/team1/data`.
-  * **One path – one mount point** : No duplicates allowed.
-  * **Unlimited number of mount points** : As long as paths are not duplicated.
-  * **NFSv4 requires full path export** : All parent directories in the path must also be exported.
+## **2. Tạo Mount Point**
 
-> Example: To mount `/project-a/team1/data` using NFSv4, `/project-a` and `/project-a/team1` must also be exported.
+### **Nguyên tắc quan trọng**
 
-### **Steps to Create a Mount Point on Unify Portal**
-  1. Go to the **MountPoint** tab, click **Create MountPoint**.
-  2. Fill in the information: 
-     * **Region** : Select the usage region.
-     * **VPC / Subnet** : Choose the subnet containing GPU servers.
-     * **Mount Point Name** : 3–63 characters, letters/numbers/"_", cannot start/end with a special character.
-     * **Protocol** : NFSv3 or NFSv4. 
-       * If NFSv3: You can add an NFS Alias.
-       * If NFSv4: Ensure **all parent folders in the path also use NFSv4**.
-     * **Path** : Must start with "/", not end with "/" or space, and must be unique.
-     * **Options** : Tick "Create new directory" if the path does not exist.
-     * **QoS Policy** : Select an existing one or create a new one.
-  3. Click **Create** to finish.
+  * **Gắn với subnet cụ thể** : Chỉ máy chủ thuộc subnet được gán mới có thể mount.
+  * **Không tạo tại root path ("/")** : Chỉ tạo tại các thư mục con, ví dụ: `/project-a`, `/team1/data`.
+  * **Một path – một mount point** : Không được trùng lặp.
+  * **Không giới hạn số lượng mount point** : Miễn là path không trùng nhau.
+  * **NFSv4 yêu cầu full path export** : Mọi thư mục cha trong path cũng phải được export.
 
-### **Result**
-  * **Success** : Mount Point will appear on the portal and can be mounted from servers in the subnet.
-  * **Failure** : An error will be displayed – review the entered information.
+> Ví dụ: mount `/project-a/team1/data` bằng NFSv4 thì `/project-a` và `/project-a/team1` cũng cần export.
 
-* * *
+### **Các bước tạo Mount Point trên Unify Portal**
 
-## **3. Deleting a Mount Point**
-You can delete a Mount Point when it is no longer in use, to:
-  * Revoke access.
-  * Safely disconnect between servers and the storage system.
-  * Support reconfiguration or network infrastructure changes.
+  1. Truy cập tab **MountPoint**, nhấn **Create MountPoint**.
+  2. Điền thông tin:
+     * **Region** : Chọn khu vực sử dụng.
+     * **VPC / Subnet** : Chọn subnet chứa server GPU.
+     * **Tên Mount Point** : 3–63 ký tự, chữ/số/"_", không bắt đầu/kết thúc bằng dấu đặc biệt.
+     * **Protocol** : NFSv3 hoặc NFSv4.
+       * Nếu NFSv3: Có thể thêm NFS Alias.
+       * Nếu NFSv4: Đảm bảo **tất cả thư mục cha trong path cũng dùng NFSv4**.
+     * **Path** : Bắt đầu bằng "/", không kết thúc bằng "/" hoặc khoảng trắng, không trùng path khác.
+     * **Tùy chọn** : Tick "Tạo thư mục mới" nếu path chưa tồn tại.
+     * **QoS Policy** : Chọn sẵn hoặc tạo mới.
+  3. Nhấn **Create** để hoàn tất.
 
-### **How to Do It**
-  1. Go to the **Resource** tab on Unify Portal.
-  2. Find the Mount Point to delete, choose **Action > Delete**.
-  3. Confirm the operation when prompted.
+### **Kết quả**
 
-> ⚠️ Note:
->   * Ensure all applications have unmounted before deletion.
->   * **Deleting a Mount Point does not delete the data** in the assigned directory.
->
+  * **Thành công** : Mount Point hiển thị trên portal, có thể mount từ các máy chủ thuộc subnet.
+  * **Thất bại** : Hiển thị lỗi – cần kiểm tra lại thông tin đã khai báo.
+
+---
+
+## **3. Xóa Mount Point**
+
+Bạn có thể xóa Mount Point khi không còn sử dụng, nhằm:
+  * Thu hồi quyền truy cập.
+  * Ngắt kết nối an toàn giữa máy chủ và hệ thống lưu trữ.
+  * Phục vụ tái cấu hình hoặc thay đổi hạ tầng mạng.
+
+### **Cách thực hiện**
+
+  1. Truy cập tab **Resource** trên Unify Portal.
+  2. Tại Mount Point muốn xóa, chọn **Action > Delete**.
+  3. Xác nhận thao tác khi được hỏi.
+
+> ⚠️ Lưu ý:
+>   * Đảm bảo các ứng dụng đã unmount trước khi xóa.
+>   * **Xóa Mount Point không xóa dữ liệu** trong thư mục được gán path.

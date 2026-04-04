@@ -1,27 +1,27 @@
 ---
 id: "tutorials-xoa-secret-engine"
-title: "Xóa Secret Engine"
-description: "Hướng dẫn xóa một Secret Engine không còn sử dụng"
-sidebar_label: "Xóa Secret Engine"
+title: "Secret Engineを削除する"
+description: "使用しなくなったSecret Engineを削除する方法"
+sidebar_label: "Secret Engineを削除する"
 sidebar_position: "5"
 ---
 
-# Xóa Secret Engine
+# Secret Engineを削除する
 
-Xóa Secret Engine khi không còn cần thiết để giải phóng tài nguyên. Thao tác này sẽ xóa toàn bộ Secret chứa trong Secret Engine đó.
+不要になったSecret Engineを削除してリソースを解放します。この操作により、Secret Engine内に保存されているすべてのSecretが削除されます。
 
 :::danger
-Xóa Secret Engine là thao tác không thể hoàn tác. Toàn bộ Secret bên trong sẽ bị xóa vĩnh viễn. Hãy đảm bảo đã sao lưu các thông tin cần thiết trước khi thực hiện.
+Secret Engineの削除は取り消しできません。内部のすべてのSecretが完全に削除されます。実行前に必要な情報をバックアップしてください。
 :::
 
-1. Trên **Key Vault Management**, chọn **Key Vault** chứa **Secret Engine** cần xóa.
+1. **Key Vault Management** で削除する **Secret Engine** が含まれる **Key Vault** を選択します。
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management一覧画面](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Secret** và chọn **Delete** trong phần **Action** của **Secret Engine** cần xóa.
+2. **Secret** タブで削除する **Secret Engine** のActionメニューから **Delete** をクリックします。
 
-   [![Danh sách Secret Engine với tùy chọn Delete trong Action](/img/migrated/Userguide-FPT-KeyVault-2022-8-1024x385-60cfced4.png)](/img/migrated/Userguide-FPT-KeyVault-2022-8-1024x385-60cfced4.png)
+   [![ActionメニューにDeleteオプションが表示されたSecret Engine一覧](/img/migrated/Userguide-FPT-KeyVault-2022-8-1024x385-60cfced4.png)](/img/migrated/Userguide-FPT-KeyVault-2022-8-1024x385-60cfced4.png)
 
-3. Hộp thoại xác nhận hiện ra. Chọn **Delete** để xác nhận xóa **Secret Engine**.
+3. 確認ダイアログが表示されます。**Delete** をクリックして **Secret Engine** の削除を確認します。
 
-   [![Hộp thoại xác nhận xóa Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-9-b25853dd.png)](/img/migrated/Userguide-FPT-KeyVault-2022-9-b25853dd.png)
+   [![Secret Engine削除確認ダイアログ](/img/migrated/Userguide-FPT-KeyVault-2022-9-b25853dd.png)](/img/migrated/Userguide-FPT-KeyVault-2022-9-b25853dd.png)

@@ -1,8 +1,8 @@
 ---
 id: "manage-incidents"
-title: "インシデントの管理"
+title: "Manage Incidents"
 description: "インシデント作成後の管理操作の概要。"
-sidebar_label: "インシデントの管理"
+sidebar_label: "Manage Incidents"
 sidebar_position: "18"
 ---
 

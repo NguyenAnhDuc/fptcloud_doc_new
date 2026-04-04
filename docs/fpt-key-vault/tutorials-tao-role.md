@@ -1,34 +1,34 @@
 ---
 id: "tutorials-tao-role"
-title: "Tạo Role"
-description: "Hướng dẫn tạo mới Role trong Auth Method để cấp quyền truy cập Secret"
-sidebar_label: "Tạo Role"
+title: "Create a Role"
+description: "How to create a new Role in an Auth Method to grant Secret access"
+sidebar_label: "Create a Role"
 sidebar_position: "12"
 ---
 
-# Tạo Role
+# Create a Role
 
-Role liên kết Auth Method với Policy, xác định tập hợp quyền mà ứng dụng được cấp khi xác thực thành công. Sau khi tạo Role, hệ thống cấp **Role ID** và **Secret ID** dùng để xác thực.
+A Role links an Auth Method with a Policy, defining the set of permissions granted to an application upon successful authentication. After creating a Role, the system generates a **Role ID** and **Secret ID** used for authentication.
 
-1. Trên **Access Detail**, chọn **Auth Method** cần thêm **Role**.
+1. On **Access Detail**, select the **Auth Method** to add a **Role** to.
 
-   [![Màn hình danh sách Auth Method](/img/migrated/Userguide-FPT-KeyVault-2022-25-1024x538-eeeed2db.png)](/img/migrated/Userguide-FPT-KeyVault-2022-25-1024x538-eeeed2db.png)
+   [![Auth Method list screen](/img/migrated/Userguide-FPT-KeyVault-2022-25-1024x538-eeeed2db.png)](/img/migrated/Userguide-FPT-KeyVault-2022-25-1024x538-eeeed2db.png)
 
-2. Chọn **Create**.
+2. Click **Create**.
 
-   [![Màn hình Access Detail với nút Create](/img/migrated/Userguide-FPT-KeyVault-2022-26-1024x538-35ec4a72.png)](/img/migrated/Userguide-FPT-KeyVault-2022-26-1024x538-35ec4a72.png)
+   [![Access Detail screen with Create button](/img/migrated/Userguide-FPT-KeyVault-2022-26-1024x538-35ec4a72.png)](/img/migrated/Userguide-FPT-KeyVault-2022-26-1024x538-35ec4a72.png)
 
-3. Trên màn hình **Create New Role**, nhập các thông tin cần thiết:
+3. On the **Create New Role** screen, enter the required information:
 
-   - **Role Name**: Tên Role.
-   - **Assigned Groups**: Thêm Policy đã tạo trong phần Quản lý Policy.
+   - **Role Name**: The Role name.
+   - **Assigned Groups**: Add the Policy created in Policy management.
 
-   [![Form tạo mới Role với các trường Role Name và Assigned Groups](/img/migrated/Userguide-FPT-KeyVault-2022-27-edacd088.png)](/img/migrated/Userguide-FPT-KeyVault-2022-27-edacd088.png)
+   [![Create New Role form with Role Name and Assigned Groups fields](/img/migrated/Userguide-FPT-KeyVault-2022-27-edacd088.png)](/img/migrated/Userguide-FPT-KeyVault-2022-27-edacd088.png)
 
-4. Chọn **Create**. Sau khi tạo thành công, popup chứa **Role ID** và **Secret ID** sẽ hiển thị.
+4. Click **Create**. After successful creation, a popup containing the **Role ID** and **Secret ID** appears.
 
-   [![Popup hiển thị Role ID và Secret ID sau khi tạo thành công](/img/migrated/Userguide-FPT-KeyVault-2022-28-1043058f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-28-1043058f.png)
+   [![Popup showing Role ID and Secret ID after successful creation](/img/migrated/Userguide-FPT-KeyVault-2022-28-1043058f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-28-1043058f.png)
 
 :::warning
-**Role ID** và **Secret ID** chỉ hiển thị một lần duy nhất. Hãy lưu trữ ở nơi an toàn ngay sau khi tạo.
+**Role ID** and **Secret ID** are displayed only once. Store them in a safe place immediately after creation.
 :::

@@ -1,16 +1,24 @@
 ---
 id: "update-share"
-title: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
-description: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
-sidebar_label: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
+title: "共有権限の更新"
+description: "共有済みユーザーの権限を更新します。"
+sidebar_label: "共有権限の更新"
 sidebar_position: "18"
 ---
 
-# Update Share
+# 共有権限の更新
 
-Mục đích: Cập nhật quyền của người dùng đã được chia sẻ 
-Các bước thực hiện: Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Share 
+共有済みユーザーの model へのアクセス権限を更新します。
 
-Bước 2: Click vào dấu 3 chấm cột Action > Chọn Update [![](/img/migrated/Picture33-2ec2c209.png)](/img/migrated/Picture33-2ec2c209.png) Bước 3: Hiển thị form update, thông tin được chỉnh sửa bao gồm: 
-Trường Role: được phép chỉnh sửa quyền của người dùng 
-Hình ảnh minh họa update share (invited) [![](/img/migrated/Picture34-9d41a843.png)](/img/migrated/Picture34-9d41a843.png) Hình ảnh minh họa update share (joined) [![](/img/migrated/Picture35-9dd52d7e.png)](/img/migrated/Picture35-9dd52d7e.png)
+## 手順
+
+1. model をクリックして詳細を表示し、**Share** タブを選択します。
+
+2. **Action** 列の 3 点アイコンをクリックし、**Update** を選択します。
+[![](/img/migrated/Picture33-2ec2c209.png)](/img/migrated/Picture33-2ec2c209.png)
+
+3. 更新フォームが表示されます。以下のフィールドを編集できます。
+   - **Role**: ユーザーの権限レベルを変更します。
+
+[![Update share (invited)](/img/migrated/Picture34-9d41a843.png)](/img/migrated/Picture34-9d41a843.png)
+[![Update share (joined)](/img/migrated/Picture35-9dd52d7e.png)](/img/migrated/Picture35-9dd52d7e.png)

@@ -1,8 +1,8 @@
 ---
 id: "configure-timeout"
-title: "タイムアウトの設定"
-description: "FPT Cloud ロードバランサーのリスナーにおけるタイムアウト設定の仕組みを説明します。"
-sidebar_label: "タイムアウトの設定"
+title: "Configure timeout"
+description: "How timeout settings work for Load Balancer Listeners on FPT Cloud."
+sidebar_label: "Configure timeout"
 sidebar_position: "11"
 ---
 

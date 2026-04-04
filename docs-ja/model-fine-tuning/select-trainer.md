@@ -1,8 +1,8 @@
 ---
 id: "select-trainer"
-title: "Select Trainer"
-description: "Chọn trainer phù hợp để hướng dẫn model bạn chọn cho quá trình training."
-sidebar_label: "Select Trainer"
+title: "Trainer の選択"
+description: "トレーニングに適した trainer を選択して、選択した model を学習させます。"
+sidebar_label: "Trainer の選択"
 sidebar_position: "10"
 ---
 

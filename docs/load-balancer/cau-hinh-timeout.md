@@ -1,15 +1,19 @@
 ---
 id: "cau-hinh-timeout"
-title: "Cấu hình Timeout"
-description: "Tính năng cấu hình **Timeout** cho **Load Balancer** cho phép bạn định rõ thời gian tối đa mà một kết nối hoặc yêu cầu c"
-sidebar_label: "Cấu hình Timeout"
+title: "Configure Timeout"
+description: "How timeout settings work for Load Balancer Listeners on FPT Cloud."
+sidebar_label: "Configure Timeout"
 sidebar_position: "13"
 ---
 
-# Cau Hinh Timeout
+# Configure Timeout
 
-Tính năng cấu hình **Timeout** cho **Load Balancer** cho phép bạn định rõ thời gian tối đa mà một kết nối hoặc yêu cầu có thể tồn tại trước khi bị đóng. Điều này quan trọng để quản lý tài nguyên và đảm bảo hiệu suất ổn định của hệ thống.
-**Cách hoạt động**
-  * Khi một kết nối hoặc yêu cầu được gửi đến **Load Balancer** , hệ thống bắt đầu tính toán thời gian cho phép kết nối đó tồn tại.
-  * Nếu kết nối không hoàn thành hoặc yêu cầu không được phản hồi trong khoảng thời gian này, nó sẽ bị đóng.
-  * Việc cấu hình **Timeout** giúp tránh tình trạng kết nối hoặc yêu cầu bị treo và tiêu tốn tài nguyên.
+The **Timeout** configuration for a Load Balancer defines the maximum time a connection or request can exist before it is closed. This is important for resource management and maintaining stable system performance.
+
+**How it works:**
+
+- When a connection or request is sent to the Load Balancer, the system starts counting the allowed lifetime for that connection.
+- If the connection is not completed or the request is not responded to within this time, it is closed.
+- Configuring timeout prevents connections or requests from hanging and consuming resources.
+
+Timeout is configured when creating or updating a Listener. See [Create a Listener](./create-listener.md) for details.

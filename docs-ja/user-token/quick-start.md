@@ -1,23 +1,21 @@
 ---
 id: "quick-start"
-title: "クイックスタート"
-description: "FPT Cloud AI Studioにおけるユーザートークンの認証フロー"
-sidebar_label: "クイックスタート"
-sidebar_position: 3
+title: "Quick Start"
+description: "1. **User Authentication**"
+sidebar_label: "Quick Start"
+sidebar_position: "3"
 ---
 
-# クイックスタート
+# Quick Start
 
-ユーザートークンは標準的な認証フローに従い、認証情報を安全に保ちながらAI StudioサービスがAPIリクエストを承認するために必要な身元証明を提供します。
-
-**認証の流れ:**
-
-1. **トークンを作成する** — [ai.fptcloud.com](https://ai.fptcloud.com/) のユーザートークンサービスで新しいトークンを生成します。
-2. **トークンを受け取る** — サービスが選択した有効期限（30日、60日、または90日）のアクセストークンを発行します。
-3. **APIを呼び出す** — 各APIリクエストの `Authorization` ヘッダーにアクセストークンを含めます。
-4. **トークン検証** — APIがトークンの署名を検証し、有効期限切れや取り消し済みでないかを確認します。
-5. **アクセスの許可または拒否** — トークンが有効でリクエストされたリソースへの権限を持つ場合、アクセスが許可されます。
-
-:::note
-トークンは**モデルファインチューニング**および**モデルハブ**サービスでのみ有効です。
-:::
+### **How It Works (Typical Flow)**
+  1. **User Authentication**
+→ The user create a token in User Token Service.
+  2. **Token Issuance**
+→ If valid, the service issues an **access token** (and optionally a **refresh token**).
+  3. **API Request**
+→ The client calls the target API, including the access token in the header.
+  4. **Token Validation**
+→ The API verifies the token (via signature or introspection endpoint).
+  5. **Access Granted or Denied**
+→ If the token is valid and authorized for that resource, access is granted.

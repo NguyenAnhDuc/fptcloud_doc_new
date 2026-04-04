@@ -1,8 +1,8 @@
 ---
 id: "retention-rule"
-title: "Retention rule を管理する"
+title: "Retention Rule"
 description: "不要なイメージを自動削除するための retention rule を設定する。"
-sidebar_label: "Retention rule を管理する"
+sidebar_label: "Retention Rule"
 sidebar_position: "9"
 ---
 

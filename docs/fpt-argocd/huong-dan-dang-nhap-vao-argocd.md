@@ -1,8 +1,8 @@
 ---
 id: "huong-dan-dang-nhap-vao-argocd"
-title: "Hướng dẫn đăng nhập vào ArgoCD"
+title: "Huong Dan Dang Nhap Vao Argocd"
 description: "**Cách 1:** Đăng nhập ArgoCD qua giao diện với username/password [![](/img/migrated/Picture72-2-4d518451.png)](/img/migr"
-sidebar_label: "Hướng dẫn đăng nhập vào ArgoCD"
+sidebar_label: "Huong Dan Dang Nhap Vao Argocd"
 sidebar_position: "43"
 ---
 

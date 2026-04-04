@@ -1,21 +1,21 @@
 ---
 id: "use-on-fpt-portal"
-title: "FPT Portal での Object Storage の利用"
-description: "FPT Unify Portal を通じて FPT Object Storage を利用する方法の概要です。"
-sidebar_label: "FPT Portal での利用"
-sidebar_position: "3"
+title: "Sử dụng Object Storage trên FPT Portal"
+description: "Tổng quan về cách sử dụng FPT Object Storage thông qua FPT Unify Portal."
+sidebar_label: "Sử dụng trên FPT Portal"
+sidebar_position: 3
 ---
 
-# FPT Portal での Object Storage の利用
+# Sử dụng Object Storage trên FPT Portal
 
-FPT Unify Portal は、bucket、object、permissions、bucket 設定、暗号化など FPT Object Storage のすべてのリソースを管理するための直感的なインターフェースを提供します。
+FPT Unify Portal cung cấp giao diện trực quan để quản lý toàn bộ tài nguyên FPT Object Storage, bao gồm bucket, object, permissions, cấu hình bucket và encryption.
 
-このセクションで説明するトピック:
+Các chủ đề trong phần này:
 
-- **bucket** — bucket の作成・削除・検索およびフォルダーの追加。
-- **object** — object のアップロード・ダウンロード・コピー・移動・削除。
-- **Permissions** — bucket ACL、object ACL、bucket policy の設定。
-- **Bucket Config** — versioning、static website hosting、lifecycle、CORS の設定。
-- **Encryption** — お客様提供の暗号化キーを使用した SSE-C によるデータ暗号化。
+- **Bucket** — Tạo, xóa, tìm kiếm bucket và thêm thư mục.
+- **Object** — Upload, download, copy, move và xóa object.
+- **Permissions** — Cấu hình bucket ACL, object ACL và bucket policy.
+- **Bucket Config** — Cấu hình versioning, static website hosting, lifecycle và CORS.
+- **Encryption** — Sử dụng SSE-C để mã hóa dữ liệu với khóa do khách hàng cung cấp.
 
-Object Storage Management にアクセスするには、[https://console.fptcloud.com](https://console.fptcloud.com) にログインし、Project を選択して **Object Storage** タブを選択します。
+Để truy cập Object Storage Management, đăng nhập vào [https://console.fptcloud.com](https://console.fptcloud.com), chọn Project và chọn tab **Object Storage**.

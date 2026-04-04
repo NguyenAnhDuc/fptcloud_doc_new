@@ -1,8 +1,8 @@
 ---
 id: "set-up-hyperparameters"
-title: "Set Up Hyperparameters"
-description: "Hyperparameter kiểm soát cách trọng số của model được cập nhật trong quá trình training."
-sidebar_label: "Set Up Hyperparameters"
+title: "ハイパーパラメータの設定"
+description: "ハイパーパラメータは、トレーニング中に model の重みがどのように更新されるかを制御します。"
+sidebar_label: "ハイパーパラメータの設定"
 sidebar_position: "14"
 ---
 

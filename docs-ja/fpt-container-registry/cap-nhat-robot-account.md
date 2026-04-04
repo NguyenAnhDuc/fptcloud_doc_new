@@ -1,27 +1,27 @@
 ---
 id: "cap-nhat-robot-account"
-title: "Cập nhật robot account"
-description: "Chỉnh sửa expiration time, description và permission của robot account."
-sidebar_label: "Cập nhật robot account"
+title: "Robot account を更新する"
+description: "Robot account の有効期限、説明、権限を編集する。"
+sidebar_label: "Robot account を更新する"
 sidebar_position: "21"
 ---
 
-# Cập nhật robot account
+# Robot account を更新する
 
-FPT Cloud cho phép chỉnh sửa các thông tin của robot account đã tạo khi nhu cầu sử dụng thay đổi, bao gồm thời gian hết hạn, mô tả và quyền hạn.
+FPT Cloud では、利用状況の変化に応じて作成済みの robot account の情報（有効期限、説明、権限）を編集できます。
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn cập nhật.
+1. **Robot Account** リストで更新したい robot account を選択します。
 
-   [![Chọn robot account trong danh sách](/img/migrated/Picture65-7ccf0a71.png)](/img/migrated/Picture65-7ccf0a71.png)
+   [![Robot account リストで選択](/img/migrated/Picture65-7ccf0a71.png)](/img/migrated/Picture65-7ccf0a71.png)
 
-2. Chọn **Edit** trong phần **Action**.
+2. **Action** セクションで **Edit** を選択します。
 
-   [![Nút Edit trong Action](/img/migrated/Picture66-abba460f.png)](/img/migrated/Picture66-abba460f.png)
+   [![Action の Edit ボタン](/img/migrated/Picture66-abba460f.png)](/img/migrated/Picture66-abba460f.png)
 
-3. Cập nhật thông tin trong hộp thoại: **Expiration time**, **Description** và/hoặc **Permissions**. Chọn **Edit** để lưu.
+3. ダイアログで **Expiration time**、**Description**、**Permissions** を更新し、**Edit** をクリックして保存します。
 
-   [![Hộp thoại chỉnh sửa robot account](/img/migrated/Picture67-a1ad0b6a.png)](/img/migrated/Picture67-a1ad0b6a.png)
+   [![Robot account 編集ダイアログ](/img/migrated/Picture67-a1ad0b6a.png)](/img/migrated/Picture67-a1ad0b6a.png)
 
-4. Kiểm tra thông tin sau khi cập nhật.
+4. 更新後の情報を確認します。
 
-   [![Thông tin robot account sau khi cập nhật](/img/migrated/Picture68-ebd6b02f.png)](/img/migrated/Picture68-ebd6b02f.png)
+   [![更新後の robot account 情報](/img/migrated/Picture68-ebd6b02f.png)](/img/migrated/Picture68-ebd6b02f.png)

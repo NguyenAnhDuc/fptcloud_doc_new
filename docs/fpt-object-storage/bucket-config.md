@@ -1,106 +1,106 @@
 ---
 id: "bucket-config"
-title: "bucket の設定"
-description: "FPT Object Storage での versioning、Static Website Hosting、Lifecycle、CORS の設定手順です。"
-sidebar_label: "bucket の設定"
-sidebar_position: "7"
+title: "Bucket Config"
+description: "How to configure versioning, Static Website Hosting, Lifecycle, and CORS in FPT Object Storage."
+sidebar_label: "Bucket Config"
+sidebar_position: 7
 ---
 
-# bucket の設定
+# Bucket Config
 
 ## Versioning
 
-**Versioning** は **FPT Object Storage** の機能で、object の複数バージョンを保存・管理します。この機能が有効になると、object を更新または削除するたびに新しいバージョンが作成・保存されます。必要に応じて以前のバージョンに復元できます。
+**Versioning** is a feature in **FPT Object Storage** that stores and manages multiple versions of an object. When enabled, every time you update or delete an object, a new version is created and saved. You can restore previous versions of an object whenever needed.
 
-bucket の Versioning を有効にするには:
+To enable Versioning for a bucket:
 
-1. 設定する bucket の **Action** で **Config** を選択します。
-2. **Versioning** タブを開きます。
-3. **Enable** を選択して Versioning を有効にするか、**Disable** を選択して無効にし、**Save** をクリックして変更を保存します。
+1. In the **Action** menu of the bucket to configure, select **Config**.
+2. Open the **Versioning** tab.
+3. Select **Enable** to turn on Versioning or **Disable** to turn it off, then click **Save** to save the changes.
 
 ## Static Website Hosting
 
-**Static Website Hosting** は、静的ウェブサイトのすべてのリソースを FPT Object Storage に保存できる機能です。通常のファイル保存だけでなく、HTML・CSS・JavaScript ファイルやその他の静的リソースを bucket に保存してウェブサイトとして公開できます。Static Website Hosting を有効にすると、FPT Object Storage がパブリック URL を提供します。
+**Static Website Hosting** is a feature that lets you store all resources of a static website in FPT Object Storage. Beyond ordinary file storage, you can store HTML, CSS, JavaScript files and other static resources in a bucket and serve them as a website. When Static Website Hosting is enabled, FPT Object Storage provides a public URL.
 
-**Static Website Hosting** を設定するには:
+To configure **Static Website Hosting**:
 
-1. ウェブサイトのソースコードをすべて FPT Object Storage の bucket にアップロードします。
-2. 設定する bucket の **Action** で **Config** を選択します。
-3. **Static Website Hosting** タブを開きます。
-4. **Enable Website Hosting** を選択し、必要なパラメーターを入力します。
-   - **Index Document:** ウェブサイトのトップページ名（例: `index.html`）。
-   - **Error Document:** エラーページ（404）の名前。無効な URL をリクエストした場合に表示されます（例: `404.html`）。
-5. Endpoints セクションに表示された URL でウェブサイトにアクセスします。
+1. Upload all your website source code to a bucket in FPT Object Storage.
+2. In the **Action** menu of the bucket to configure, select **Config**.
+3. Open the **Static Website Hosting** tab.
+4. Select **Enable Website Hosting** and fill in the required parameters:
+   - **Index Document:** The name of the website's home page (e.g., `index.html`).
+   - **Error Document:** The name of the error page (404), displayed when an invalid URL is requested (e.g., `404.html`).
+5. Access your website using the URL shown in the Endpoints section.
 
 ## Lifecycle Configurations
 
-Lifecycle Configurations は FPT Object Storage の機能で、bucket 内の object のライフサイクルを自動管理できます。一定期間後に object を自動削除することで、ストレージコストの削減とデータ管理の効率化に役立ちます。
+Lifecycle Configurations is a feature in FPT Object Storage that lets you automatically manage the lifecycle of objects in a bucket. Automatically deleting objects after a specified period helps reduce storage costs and manage data efficiently.
 
-通常の **Lifecycle Rule** は以下のコンポーネントで構成されます。
+A typical **Lifecycle Rule** consists of the following components:
 
-- **Scope（スコープ）:** ルールを適用する object を定義します。bucket 全体に適用するか、プレフィックス（prefix）を指定して特定のグループに適用できます。
-- **Delete current versions of objects:** スコープ内の object の現在のバージョンが削除されるタイミングを定義します。Versioning を使用しない場合、現在のバージョンの削除は object の永久削除に相当します。
-- **Permanently delete noncurrent versions of objects:** スコープ内の object の非現在バージョンが削除されるタイミングを定義します。非現在バージョンは Versioning 使用時のみ作成されます。
-- **Delete incomplete multipart uploads:** 未完了のマルチパートアップロードを削除するタイミングを定義します。不完全なアップロードをクリーンアップしてストレージ容量を解放します。
-- **Delete expired object delete markers:** 有効期限切れの delete marker（バージョンが存在しないもの）を削除します。不要なマーカーを排除して bucket を整理します。
+- **Scope:** Defines which objects the rule applies to. You can apply the rule to the entire bucket or specify a prefix to apply it to a specific group of objects.
+- **Delete current versions of objects:** Defines when the current version of objects within scope will be deleted. Without Versioning, deleting the current version permanently removes the object.
+- **Permanently delete noncurrent versions of objects:** Defines when noncurrent versions of objects within scope will be deleted. Noncurrent versions are only created when Versioning is enabled.
+- **Delete incomplete multipart uploads:** Defines when incomplete multipart uploads will be deleted, cleaning up failed uploads and freeing storage space.
+- **Delete expired object delete markers:** Removes expired delete markers (those with no remaining versions), keeping the bucket tidy.
 
-**Lifecycle Rule** は毎日 GMT 0 時（ベトナム時間 7:00）に bucket 内のすべての object をスキャンして自動実行されます。
+**Lifecycle Rules** are automatically executed daily at 0:00 GMT (07:00 Vietnam time) by scanning all objects in the bucket.
 
-### A. 新しい Lifecycle Rule の作成
+### A. Create a new Lifecycle Rule
 
-1. **Object Storage Management** 管理パネルで Lifecycle Rule を設定する bucket の **Config** を選択します。
-2. **Lifecycle Configurations** タブを開き、**Create Rule** を選択します。
-3. **Lifecycle Rule** の情報を対応するフィールドに入力します。
-   - **Rule Name:** 識別・管理しやすいルール名。
-   - **Rule Scope:** ルールを適用する object のスコープ。bucket 全体（**Full**）を選択するか、プレフィックス（**Prefix**）を指定して特定のグループに適用できます。
-   - **Delete current versions of objects:** object の現在のバージョンを削除する日数を選択します。
-   - **Permanently delete noncurrent versions of objects:** object の非現在バージョンを削除する日数を選択します。
-   - **Delete incomplete multipart uploads:** 未完了のマルチパートアップロードを削除する日数を選択します。
-   - **Delete expired object delete markers:** 有効期限切れの delete marker を削除する日数を選択します。
-4. **Save** をクリックして保存します。
+1. In the **Object Storage Management** panel, select **Config** for the bucket to configure.
+2. Open the **Lifecycle Configurations** tab, then select **Create Rule**.
+3. Enter the **Lifecycle Rule** information in the corresponding fields:
+   - **Rule Name:** A name that is easy to identify and manage.
+   - **Rule Scope:** The scope of objects the rule applies to. Select **Full** to apply to the entire bucket or specify a **Prefix** to apply to a specific group.
+   - **Delete current versions of objects:** Select the number of days after which current object versions will be deleted.
+   - **Permanently delete noncurrent versions of objects:** Select the number of days after which noncurrent versions will be deleted.
+   - **Delete incomplete multipart uploads:** Select the number of days after which incomplete multipart uploads will be deleted.
+   - **Delete expired object delete markers:** Select the number of days after which expired delete markers will be deleted.
+4. Click **Save** to save the rule.
 
-### B. Lifecycle Rule の更新
+### B. Update a Lifecycle Rule
 
-1. 更新する **Lifecycle Rule** で **Edit** を選択します。
-2. 対応するフィールドに更新情報を入力します。
-3. 情報の入力が完了したら、変更を適用するために保存します。
+1. In the **Lifecycle Rule** to update, select **Edit**.
+2. Enter the updated information in the corresponding fields.
+3. After entering all information, save the changes to apply the update.
 
-### C. Lifecycle Rule の削除
+### C. Delete a Lifecycle Rule
 
-1. 削除する **Lifecycle Rule** で **Delete** を選択します。
-2. 警告ダイアログが表示され、ルール名と操作の確認を求めます。**Delete** を選択してルールを削除します。
+1. In the **Lifecycle Rule** to delete, select **Delete**.
+2. A warning dialog will appear asking you to confirm the action. Select **Delete** to proceed.
 
-## Bucket CORS の設定
+## Configure Bucket CORS
 
-**CORS（Cross-Origin Resource Sharing）** は、異なるオリジンのウェブサイトやアプリケーションが安全にデータを操作・共有できるようにします。
+**CORS (Cross-Origin Resource Sharing)** allows websites and applications from different origins to safely interact with and share data.
 
-デフォルトでは、**FPT Object Storage** は異なるオリジンからの bucket へのすべてのリクエストをブロックします。**Bucket CORS** 機能により、特定のオリジンのウェブサイトが **Same-Origin Policy（SOP）** によるブロックなしに bucket のリソースをリクエストできるようになります。
+By default, **FPT Object Storage** blocks all requests from different origins to your bucket. The **Bucket CORS** feature allows a website from a specific origin to request resources from the bucket without being blocked by the **Same-Origin Policy (SOP)**.
 
-bucket のデータを **GET** できるオリジン（ウェブサイトまたはサーバー）を許可するには、**Bucket CORS Config** で設定する必要があります。
+To allow an origin (website or server) to **GET** data from a bucket, you need to configure it in **Bucket CORS Config**.
 
-### A. 新しい Bucket CORS Rule の作成
+### A. Create a new Bucket CORS Rule
 
-1. **Object Storage Management** 管理パネルで CORS を設定する bucket の **Config** を選択します。
-2. **Bucket CORS** タブを開き、**Create Rule** を選択します。
-3. **CORS Rule** の情報を対応するフィールドに入力します。
-   - **Rule Name:** ルール名（例: `AllowAllOrigins`）。
-   - **Allowed Origins:** CORS リクエストを許可するオリジン（ウェブサイトまたはサーバー）の一覧を入力します。すべてのオリジンを許可するには `*` を使用します。
-   - **Allowed Methods:** オリジンに許可する HTTP メソッドを 1 つ以上選択します（例: `GET`、`POST`、`PUT`）。
-   - **Max Age Seconds:** CORS ポリシーのキャッシュ時間を秒単位で入力します（例: `3600` で 1 時間キャッシュ）。
+1. In the **Object Storage Management** panel, select **Config** for the bucket to configure CORS.
+2. Open the **Bucket CORS** tab, then select **Create Rule**.
+3. Enter the **CORS Rule** information in the corresponding fields:
+   - **Rule Name:** The rule name (e.g., `AllowAllOrigins`).
+   - **Allowed Origins:** Enter the list of origins (websites or servers) allowed to make CORS requests. Use `*` to allow all origins.
+   - **Allowed Methods:** Select one or more HTTP methods to allow for the origins (e.g., `GET`, `POST`, `PUT`).
+   - **Max Age Seconds:** Enter the cache duration for the CORS policy in seconds (e.g., `3600` to cache for 1 hour).
    - **Advanced Settings:**
-     - **Expose Headers:** アプリケーションからアクセスできるレスポンスヘッダーを入力します（例: `x-amz-request-id`）。
-     - **Allowed Headers:** `Access-Control-Request-Headers` で指定されるヘッダーを入力します（例: `Content-Type`、`Authorization`）。
-4. すべての情報を入力したら、**Save** をクリックして新しい CORS 設定を bucket に適用します。
+     - **Expose Headers:** Enter response headers that you want applications to be able to access (e.g., `x-amz-request-id`).
+     - **Allowed Headers:** Enter headers specified in `Access-Control-Request-Headers` (e.g., `Content-Type`, `Authorization`).
+4. After entering all information, click **Save** to apply the new CORS configuration to the bucket.
 
-### B. Bucket CORS Rule の更新
+### B. Update a Bucket CORS Rule
 
-1. 更新する **Bucket CORS Rule** で **Edit** を選択します。
-2. **CORS Rule** の更新情報を対応するフィールドに入力します。
-3. 変更を行った後、**Save** をクリックして CORS Rule の更新を適用します。
+1. In the **Bucket CORS Rule** to update, select **Edit**.
+2. Enter the updated **CORS Rule** information in the corresponding fields.
+3. After making changes, click **Save** to apply the update.
 
-### C. Bucket CORS Rule の削除
+### C. Delete a Bucket CORS Rule
 
-1. 削除する **Bucket CORS Rule** で **Delete** を選択します。
-2. 警告ダイアログが表示され、ルール名と操作の確認を求めます。**Delete** を選択してルールを削除します。
+1. In the **Bucket CORS Rule** to delete, select **Delete**.
+2. A warning dialog will appear asking you to confirm the action. Select **Delete** to proceed.
 
-削除が確認されると、ルールは削除され、そのルールに関連する CORS リクエストは適用されなくなります。
+Once confirmed, the rule is deleted and CORS requests associated with that rule will no longer be applied.

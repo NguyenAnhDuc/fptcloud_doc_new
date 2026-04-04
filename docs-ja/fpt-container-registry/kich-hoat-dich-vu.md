@@ -1,31 +1,31 @@
 ---
 id: "kich-hoat-dich-vu"
-title: "Kích hoạt dịch vụ"
-description: "Các bước kích hoạt FPT Container Registry trên FPT Portal."
-sidebar_label: "Kích hoạt dịch vụ"
+title: "サービスをアクティベートする"
+description: "FPT Portal で FPT Container Registry をアクティベートする手順。"
+sidebar_label: "サービスをアクティベートする"
 sidebar_position: "5"
 ---
 
-# Kích hoạt dịch vụ
+# サービスをアクティベートする
 
-Sau khi xác nhận gói dịch vụ phù hợp, thực hiện các bước sau để kích hoạt FPT Container Registry.
+適切なサービスプランを確認したら、以下の手順で FPT Container Registry をアクティベートします。
 
-1. Tại màn hình **Container Registry**, chọn **Active** để kích hoạt dịch vụ.
+1. **Container Registry** 画面で **Active** をクリックしてサービスをアクティベートします。
 
-   [![Màn hình kích hoạt Container Registry](/img/migrated/Picture4-1-57ba717c.png)](/img/migrated/Picture4-1-57ba717c.png)
+   [![Container Registry アクティベート画面](/img/migrated/Picture4-1-57ba717c.png)](/img/migrated/Picture4-1-57ba717c.png)
 
-2. Tại màn hình kích hoạt, chọn gói dịch vụ muốn kích hoạt.
+2. アクティベート画面でアクティベートしたいサービスプランを選択します。
 
-   [![Chọn gói dịch vụ Container Registry](/img/migrated/Picture5-1-07c30cc9.png)](/img/migrated/Picture5-1-07c30cc9.png)
+   [![Container Registry サービスプランの選択](/img/migrated/Picture5-1-07c30cc9.png)](/img/migrated/Picture5-1-07c30cc9.png)
 
-3. Kiểm tra kết quả kích hoạt dịch vụ.
+3. サービスのアクティベート結果を確認します。
 
-   [![Kết quả kích hoạt Container Registry](/img/migrated/Picture6-1-5e1fe773.png)](/img/migrated/Picture6-1-5e1fe773.png)
+   [![Container Registry アクティベート結果](/img/migrated/Picture6-1-5e1fe773.png)](/img/migrated/Picture6-1-5e1fe773.png)
 
-4. Di chuột vào icon **ⓘ** để lấy thông tin đăng nhập, tag và push image.
+4. **ⓘ** アイコンにカーソルを合わせて、ログイン情報、tag、push image のコマンドを取得します。
 
-   [![Thông tin đăng nhập Container Registry](/img/migrated/Picture7-1-41e2a703.png)](/img/migrated/Picture7-1-41e2a703.png)
+   [![Container Registry ログイン情報](/img/migrated/Picture7-1-41e2a703.png)](/img/migrated/Picture7-1-41e2a703.png)
 
 :::note
-Người dùng không phải Tenant Owner sẽ không thấy nút **Active**. Chọn tenant có quyền owner để kích hoạt dịch vụ.
+Tenant Owner 以外のユーザーには **Active** ボタンが表示されません。owner 権限を持つ tenant を選択してサービスをアクティベートしてください。
 :::

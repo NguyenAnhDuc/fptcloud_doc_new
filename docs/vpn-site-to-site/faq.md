@@ -1,75 +1,79 @@
 ---
 id: "faq"
-title: "Câu hỏi thường gặp"
-description: "VPN là cách thức tiết kiệm chi phí, tốc độ cao và bảo mật để kết nối người dùng từ xa với mạng văn phòng. Việc kết nối V"
-sidebar_label: "Câu hỏi thường gặp"
+title: "FAQ"
+description: "VPN is a cost-effective, high-speed, and secure way to connect remote users to the office network."
+sidebar_label: "FAQ"
 sidebar_position: "39"
 ---
 
-# Faq
+# FAQ
 
-## Thiết lập ban đầu
-### Q: **Tại sao doanh nghiệp sử dụng VPN?**
-VPN là cách thức tiết kiệm chi phí, tốc độ cao và bảo mật để kết nối người dùng từ xa với mạng văn phòng. Việc kết nối VPN thường được thực hiện trên mạng Internet công cộng nên dịch vụ này sẽ có mức chi phí rẻ hơn so với kết nối trực tiếp (direct-connect) nhưng vẫn đảm bảo an toàn khi kết nối.
-* * *
-
-### Q: **Làm sao để biết VPN Site-to-Site connect đã thành công?**
-Trên giao diện quản lý, bạn cần kiểm tra các cột:
-  * **Operation Status** : phải là _Online_
-  * **Provisioning Status** : phải là _Active_
-
-_Lưu ý:_ Trang thái này chỉ phản ánh kết nối **Phase 1**.  
-Để kiểm tra **Phase 2** , hãy thực hiện lệnh ping giữa các máy thuộc dải subnet đã được cấu hình trong VPN connection.
-* * *
-
-### Q: **Thông số IKE và IPSec policies có cần giống nhau giữa 2 đầu kết nối không?**
-Có. Cấu hình các tham số của **Phase 1 (IKE)** và **Phase 2 (IPSec)** phải đồng nhất ở cả hai phía để đảm bảo thiết lập kết nối thành công.
-Xem hướng dẫn cấu hình:
-  * Đối với IKE (phase 1): [tại đây](../vpn-site-to-site/index.md)
-  * Đối với IPSec (phase 2): [tại đây](../vpn-site-to-site/index.md)
-  * Đối với DPD (VPN connection): [tại đây](../vpn-site-to-site/index.md)
+## Initial setup
+### Q: **Why do organizations use VPN?**
+VPN is a cost-effective, high-speed, and secure way to connect remote users to an office network. Because VPN connections run over the public Internet, the cost is lower than a direct connection while still ensuring security.
 
 * * *
 
-### Q: **VPN Site-to-Site có tương thích với Fortigate, Pfsense, Checkpoint... không?**
-Có. Dịch vụ hỗ trợ các thiết bị phổ biến như **Fortigate** , **Pfsense** , **Checkpoint**...  
-Bạn có thể tham khảo tài liệu cấu hình tại:
-  * Đối với Fortigate: [tại đây](../vpn-site-to-site/index.md)
-  * Đối với Pfsense: [tại đây](../vpn-site-to-site/index.md)
-  * Đối với Checkpoint: [tại đây](../vpn-site-to-site/index.md)
+### Q: **How do I know if the VPN Site-to-Site connection was successful?**
+On the management interface, check the following columns:
+  * **Operation Status**: must be _Online_
+  * **Provisioning Status**: must be _Active_
 
-## Vận hành & Kiểm tra
-### Q: **Có thể tạm ngưng kết nối VPN khi không sử dụng và bật lại khi cần không?**
-Có. Bạn có thể đặt trạng thái kết nối là _Inactive_ để tạm dừng.
-Tài liệu hướng dẫn tại đây: [link](https://www.google.com)
-* * *
-
-### Q: **Làm sao để giám sát và xem nhật ký (log) của các hoạt động VPN?**
-Bạn cần truy cập vào dịch vụ **Activity log** , lựa chọn type = "VPN" và nhập ngày muốn kiểm tra. Tài liệu hướng dẫn tại đây: [tại đây](../vpn-site-to-site/index.md)
-* * *
-
-## Xử lý sự cố
-### Q: **Kết nối VPN không thành công, tôi cần kiểm tra những gì trước?**
-  * Địa chỉ IP, khóa PSK, cấu hình IPsec 
-  * Cấu hình firewall và định tuyến 
-  * Kiểm tra log thiết bị để xác định nguyên nhân 
-  * Nếu không thể tự xử lý, vui lòng liên hệ bộ phận kỹ thuật của chúng tôi
+_Note:_ These statuses only reflect the **Phase 1** connection.
+To verify **Phase 2**, run a ping between machines within the subnet ranges configured in the VPN connection.
 
 * * *
 
-### Q: **VPN báo kết nối thành công nhưng không ping được hai bên?**
-  * Kiểm tra lại cấu hình định tuyến, security group và firewall 
-  * Xác minh xem có bị NAT hoặc trùng IP không
+### Q: **Do the IKE and IPSec policy parameters need to match on both ends of the connection?**
+Yes. The **Phase 1 (IKE)** and **Phase 2 (IPSec)** parameters must be identical on both sides to establish the connection successfully.
+See the configuration guides:
+  * For IKE (Phase 1): [here](../vpn-site-to-site/index.md)
+  * For IPSec (Phase 2): [here](../vpn-site-to-site/index.md)
+  * For DPD (VPN connection): [here](../vpn-site-to-site/index.md)
 
 * * *
 
-### Q: **VPN bị rớt kết nối, xử lý thế nào?**
-  * Kiểm tra xem đã khớp thông tin IKE/IPSec chưa 
-  * Kiểm tra chất lượng đường truyền Internet 
-  * Nếu thông tin đã khớp, đường truyền ổn định hãy liên hệ đội ngũ kỹ thuật để được hỗ trợ kiểm tra thêm
+### Q: **Is VPN Site-to-Site compatible with Fortigate, PfSense, CheckPoint, and similar devices?**
+Yes. The service supports popular devices including **Fortigate**, **PfSense**, **CheckPoint**, and others.
+Refer to the configuration guides:
+  * For Fortigate: [here](../vpn-site-to-site/index.md)
+  * For PfSense: [here](../vpn-site-to-site/index.md)
+  * For CheckPoint: [here](../vpn-site-to-site/index.md)
+
+## Operations and monitoring
+### Q: **Can I pause the VPN connection when not in use and re-enable it later?**
+Yes. You can set the connection status to _Inactive_ to suspend it.
+Documentation: [link](https://www.google.com)
 
 * * *
 
-### Q: **Tốc độ VPN chậm, làm sao để cải thiện?**
-  * Sử dụng thuật toán mã hóa nhẹ hơn (nếu phù hợp với yêu cầu bảo mật) 
-  * Nâng cấp băng thông tại các điểm kết nối chính
+### Q: **How do I monitor and view logs for VPN activity?**
+Go to the **Activity log** service, set type = "VPN", and enter the date you want to review. Documentation: [here](../vpn-site-to-site/index.md)
+
+* * *
+
+## Troubleshooting
+### Q: **The VPN connection failed. What should I check first?**
+  * IP address, PSK key, and IPSec configuration.
+  * Firewall and routing configuration.
+  * Check device logs to identify the root cause.
+  * If you cannot resolve it yourself, contact our technical support team.
+
+* * *
+
+### Q: **The VPN reports a successful connection but I cannot ping between the two sides.**
+  * Re-check the routing configuration, Security Group, and firewall settings.
+  * Verify there is no NAT interference or IP overlap.
+
+* * *
+
+### Q: **The VPN connection keeps dropping. How do I fix it?**
+  * Verify that the IKE/IPSec parameters match on both sides.
+  * Check Internet connection quality.
+  * If the parameters match and the connection is stable, contact the technical team for further assistance.
+
+* * *
+
+### Q: **VPN speed is slow. How can I improve it?**
+  * Use a lighter encryption algorithm (if it meets your security requirements).
+  * Upgrade the bandwidth at the main connection endpoints.

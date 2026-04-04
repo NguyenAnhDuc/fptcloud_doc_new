@@ -1,19 +1,19 @@
 ---
 id: "import-ssl-certificate-cho-load-balancer"
-title: "Import ssl Certificate cho Load Balancer"
-description: "Để import **SSL Certificate** , bạn thực hiện theo hướng dẫn sau:"
-sidebar_label: "Import ssl Certificate cho Load Balancer"
+title: "Load Balancer への SSL 証明書のインポート"
+description: "FPT Cloud Load Balancer で使用する SSL 証明書をインポートする方法を説明します。"
+sidebar_label: "SSL 証明書のインポート"
 sidebar_position: "25"
 ---
 
-# Import Ssl Certificate Cho Load Balancer
+# Load Balancer への SSL 証明書のインポート
 
-Để import **SSL Certificate** , bạn thực hiện theo hướng dẫn sau:
-**Bước 1:** Tại màn hình hiển thị danh sách **Load Balancer,** chọn **tab Certificate.**
-**Bước 2:** Tại đây, nhấn chọn **Import SSL Certificate.**
-Người dùng nhập các thông tin:
-  * **Name** : Tên của certificate, nên sử dụng tên có thể phân biệt được giữa các certificate , ví dụ tên certificate là domain của certificate đó.
-  * **Certificate** : Chứng chỉ số, có định dạng chuẩn PEM.
-  * **Private Key:** Khóa bí mật của chứng chỉ số đó, có định dạng chuẩn PEM.
+**手順 1:** Load Balancer の一覧画面で **Certificate** タブを選択します。
 
-**Bước 3:** Nhấn **Save** để thực hiện import **SSL Certificate** hoặc **Cancel** để huỷ bỏ.
+**手順 2:** **Import SSL Certificate** をクリックし、以下の情報を入力します：
+
+- **Name**: 証明書の名前。証明書を識別しやすい名前（例：証明書が適用されるドメイン名）を使用してください。
+- **Certificate**: 標準 PEM 形式のデジタル証明書。
+- **Private Key**: 標準 PEM 形式の証明書の秘密鍵。
+
+**手順 3:** **Save** をクリックしてインポートするか、**Cancel** で取り消します。

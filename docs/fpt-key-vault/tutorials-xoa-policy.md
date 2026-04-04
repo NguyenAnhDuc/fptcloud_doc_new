@@ -1,27 +1,27 @@
 ---
 id: "tutorials-xoa-policy"
-title: "Xóa Policy"
-description: "Hướng dẫn xóa một Policy không còn sử dụng"
-sidebar_label: "Xóa Policy"
+title: "Delete a Policy"
+description: "How to delete an unused Policy"
+sidebar_label: "Delete a Policy"
 sidebar_position: "10"
 ---
 
-# Xóa Policy
+# Delete a Policy
 
-Xóa Policy khi các quy tắc truy cập không còn phù hợp hoặc không cần thiết. Trước khi xóa, hãy kiểm tra xem Policy này có đang được gán cho bất kỳ Role nào không.
+Delete a Policy when its access rules are no longer applicable or necessary. Before deleting, check whether this Policy is currently assigned to any Role.
 
 :::danger
-Xóa Policy là thao tác không thể hoàn tác. Các Role đang sử dụng Policy này sẽ mất quyền truy cập tương ứng.
+Deleting a Policy cannot be undone. Roles that use this Policy will lose the corresponding access permissions.
 :::
 
-1. Trên **Key Vault Management**, chọn **Key Vault** chứa **Policy** cần xóa.
+1. On **Key Vault Management**, select the **Key Vault** containing the **Policy** to delete.
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management list screen](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Policies** và chọn **Delete** trong phần **Action** của Policy cần xóa.
+2. Open the **Policies** tab and click **Delete** in the **Action** menu of the Policy to delete.
 
-   [![Danh sách Policy với tùy chọn Delete trong Action](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)
+   [![Policy list with Delete option in Action menu](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)](/img/migrated/Userguide-FPT-KeyVault-2022-21-1024x538-02281a65.png)
 
-3. Hộp thoại xác nhận hiện ra. Chọn **Delete** để xác nhận xóa **Policy**.
+3. A confirmation dialog appears. Click **Delete** to confirm deleting the **Policy**.
 
-   [![Hộp thoại xác nhận xóa Policy](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)
+   [![Policy deletion confirmation dialog](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)](/img/migrated/Userguide-FPT-KeyVault-2022-22-bb0eb888.png)

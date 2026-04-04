@@ -4,6 +4,7 @@ title: "Enable VPN Site-to-Site"
 description: "Guide to enabling an inactive VPN Site-to-Site connection"
 sidebar_label: "Enable VPN Site-to-Site"
 sidebar_position: "5"
+draft: true
 ---
 
 # Enable VPN Site-to-Site

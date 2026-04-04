@@ -1,8 +1,8 @@
 ---
 id: "manage-configuration"
-title: "Configuration の管理"
-description: "FPT Smart Cloud Database Engine の設定パラメーターを管理する手順。"
-sidebar_label: "Configuration の管理"
+title: "Manage configuration"
+description: "Steps to manage database configuration parameters in FPT Smart Cloud Database Engine."
+sidebar_label: "Manage configuration"
 sidebar_position: "17"
 ---
 

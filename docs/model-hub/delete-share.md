@@ -1,16 +1,23 @@
 ---
 id: "delete-share"
 title: "Delete Share"
-description: "Mục đích: Xóa chia sẻ, Người đã được chia sẻ, không còn thấy và thao tác được với model trong hệ thống"
+description: "Remove a user's shared access to a model."
 sidebar_label: "Delete Share"
 sidebar_position: "19"
 ---
 
 # Delete Share
 
-Mục đích: Xóa chia sẻ, Người đã được chia sẻ, không còn thấy và thao tác được với model trong hệ thống 
-Các bước thực hiện: 
+Remove a user's shared access to a model. Once deleted, the user can no longer view or interact with the model.
 
-Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Share 
+## Steps
 
-Bước 2: Click vào dấu 3 chấm cột Action > Chọn Delete [![](/img/migrated/Picture36-364e845a.png)](/img/migrated/Picture36-364e845a.png) Bước 3: Hiển thị hộp thoại xác nhận, để đồng ý xóa, bạn nhập "delete" vào text box. Lúc này button Delete sẽ enable lên cho người dùng xóa. [![](/img/migrated/Picture37-044436ec.png)](/img/migrated/Picture37-044436ec.png) Bước 4: Để xóa, click button Confirm, để hủy bỏ thao tác chọn Cancel
+1. Click on a model to view its details, then select the **Share** tab.
+
+2. Click the 3-dot icon in the **Action** column, then select **Delete**.
+[![](/img/migrated/Picture36-364e845a.png)](/img/migrated/Picture36-364e845a.png)
+
+3. A confirmation dialog appears. Type `delete` in the text box to confirm. The **Delete** button becomes active.
+[![](/img/migrated/Picture37-044436ec.png)](/img/migrated/Picture37-044436ec.png)
+
+4. Click **Confirm** to delete, or **Cancel** to discard.

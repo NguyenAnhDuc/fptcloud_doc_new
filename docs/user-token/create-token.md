@@ -1,8 +1,8 @@
 ---
 id: "create-token"
-title: "Tạo token mới"
+title: "Create Token"
 description: "Hướng dẫn tạo token xác thực trên FPT Cloud Portal"
-sidebar_label: "Tạo token mới"
+sidebar_label: "Create Token"
 sidebar_position: "3"
 ---
 

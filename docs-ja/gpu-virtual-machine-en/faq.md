@@ -1,73 +1,72 @@
 ---
 id: "faq"
 title: "Faq"
-description: "Faq trên GPU Virtual Machine."
+description: "**1. What is GPU Virtual Machine?**"
 sidebar_label: "Faq"
 sidebar_position: "16"
 ---
 
 # Faq
 
-### Tổng quan
-**1. GPU Virtual Machine là gì?**
-GPU Virtual Machine hay **GPU VM** là một hệ thống biệt lập với **GPU, CPU, memory, giao diện mạng và storage** chuyên dụng riêng, được tạo từ **GPU Cluster** gồm các tài nguyên phần cứng.
-Dịch vụ này cung cấp nhiều **máy ảo được cấu hình sẵn** được thiết kế để phù hợp với yêu cầu khối lượng công việc của bạn, cung cấp các tùy chọn linh hoạt từ **1 đến 8 GPU mỗi VM**.
+### General
+**1. What is GPU Virtual Machine?**
+GPU Virtual Machine or **GPU VM** is an isolated system with its own dedicated **GPU, CPU, memory, network interface, and storage** , created from a **GPU Cluster** of hardware resources. 
+It provides a wide range of **pre-configured virtual machines** designed to align with your workload requirements, offering flexible options from **1 to 8 GPUs per VM**. 
 
-### Tính năng
-**2. Tôi có thể thay đổi kích thước GPU Instance (CPU, RAM hoặc Disk) không?**
-  * **Với Block Storage – Ephemeral Disk (NVMe):**
-GPU VM cung cấp **các flavor được cấu hình sẵn** cho GPU, CPU, RAM và Disk.
-Bạn **không thể tùy chỉnh** chúng. Vui lòng chọn cấu hình phù hợp hoặc liên hệ **FPT Cloud Support** để được hỗ trợ.
-  * **Với Block Storage – Persistent Disk:**
-GPU, CPU và RAM là **cấu hình cố định**.
-Bạn có thể **thay đổi kích thước storage** theo nhu cầu của mình, nhưng **không thấp hơn 100 GB mỗi Instance**.
+### Features
+**2. Can I resize a GPU instance (CPU, RAM, or Disk)?**
+  * **With Block Storage – Ephemeral Disk (NVMe):**  
+The GPU VM provides **pre-configured flavors** for GPU, CPU, RAM, and Disk.  
+You **cannot customize** them. Please choose an appropriate configuration or contact **FPT Cloud Support** for assistance. 
+  * **With Block Storage – Persistent Disk:**  
+GPU, CPU, and RAM are **fixed configurations**.  
+You can **resize storage** according to your needs, but **not below 100 GB per instance**. 
 
-**3. Làm thế nào để tôi cấp phát IP công cộng cho GPU Instance?**
-  * **Với Block Storage – Ephemeral Disk (NVMe):**
-Bạn chỉ có thể cấp phát **Floating IP** sau khi GPU Instance được tạo thành công. Lưu ý rằng bạn phải cấu hình IP port (port forwarding) để hoàn tất cấu hình IP. Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md)
-  * **Với Block Storage – Persistent Disk:**
-Bạn có thể cấp phát **Floating IP** trong khi tạo Instance mới hoặc sau khi Instance đã được tạo thành công.
+**3. How can I allocate a public IP to my GPU instance?**
+  * **With Block Storage – Ephemeral Disk (NVMe):**  
+You can only allocate a **Floating IP** after the GPU instance is successfully created. Notice that you have to configure the IP port (port forwarding) complete the IP configuration. Please see the detailed guide [here](../gpu-virtual-machine-en/index.md)
+  * **With Block Storage – Persistent Disk:**  
+You can allocate a **Floating IP** while creating a new instance or after the instance has been successfully created. 
 
-**4. Những chức năng nào không được hỗ trợ cho GPU Virtual Machine với Ephemeral Disk (NVMe)?**
-Các chức năng sau **không được hỗ trợ** cho GPU Virtual Machine sử dụng **Ephemeral Disk (NVMe)** với **NVIDIA Hopper (H100, H200)**:
-  * Thay đổi kích thước Instance (thêm/bỏ GPU, thay đổi kích thước CPU, RAM hoặc Disk)
-  * Snapshot
-  * Tạo template từ GPU Instance
-  * Chỉ hỗ trợ **backup instance với Veeam**.
+**4. Which functions are not supported for GPU Virtual Machines with Ephemeral Disk (NVMe)?**
+The following functions are **not supported** for GPU Virtual Machines using **Ephemeral Disk (NVMe)** with **NVIDIA Hopper (H100, H200)** : 
+  * Resize instance (add/remove GPUs, resize CPU, RAM, or Disk) 
+  * Snapshot 
+  * Create a template from GPU instance 
+  * Only **backup instance with Veeam** is supported. 
 
-**5. Những tùy chọn storage nào có sẵn cho GPU Virtual Machine?**
-Có **hai loại Block Storage**:
+**5. What storage options are available for GPU Virtual Machines?**
+There are **two types of Block Storage** : 
   1. **Ephemeral Disk (NVMe):**
-     * Dung lượng cố định theo gói GPU Instance (không thể mở rộng)
-     * Tối ưu cho **khối lượng công việc training**, không phải lưu trữ dài hạn
-     * **Không hỗ trợ backup hoặc restore tự động**
+     * Fixed capacity per GPU instance package (non-expandable) 
+     * Optimized for **training workloads** , not long-term storage 
+     * Does **not support automated backup or restore**
   2. **Persistent Disk:**
-     * Dung lượng storage có thể mở rộng theo nhu cầu
-     * Tối ưu cho **lưu giữ dữ liệu dài hạn**
-     * Có thể thiết lập **backup và restore tự động**
-     * Tính phí riêng cho mức sử dụng storage (không bao gồm chi phí GPU Instance)
+     * Scalable storage capacity on demand 
+     * Optimized for **long-term retention**
+     * Can set up **automated backup and restore**
+     * Separate charges for storage usage (excluding GPU instance cost) 
 
-Lưu ý: Dịch vụ File Storage (High-performance Tier) hiện chỉ được hỗ trợ ở khu vực Việt Nam.
+Note: File Storage (High-performance Tier) service is only supported in the Vietnam region now.
+**6. What regions are GPU Virtual Machines available?**
+GPU Virtual Machines with **NVIDIA Hopper (H100, H200)** are available in the following regions: 
+  * **Hanoi 2, Vietnam**
+  * **Tokyo, Japan**
 
-**6. GPU Virtual Machine có sẵn ở những khu vực nào?**
-GPU Virtual Machine với **NVIDIA Hopper (H100, H200)** có sẵn ở các khu vực sau:
-  * **Hà Nội 2, Việt Nam**
-  * **Tokyo, Nhật Bản**
+### Billing
+**7. How can I be charged for GPU Virtual Machines?**
+There are two billing models available: 
+  * **Reservation:**  
+Fixed price with limited resources based on demand, billed upfront (partial or full) or afterward. The billing period can be **3–9 months** or **1–5 years**. 
+  * **Pay-as-you-go (PAYG):**  
+Allows you to use resources without limits and pay afterward. Billing increments are typically by the **hour**. 
 
-### Thanh toán
-**7. Tôi sẽ bị tính phí GPU Virtual Machine như thế nào?**
-Có hai mô hình thanh toán:
-  * **Reservation:**
-Giá cố định với tài nguyên giới hạn dựa trên nhu cầu, thanh toán trước (một phần hoặc toàn bộ) hoặc sau. Thời gian thanh toán có thể là **3–9 tháng** hoặc **1–5 năm**.
-  * **Pay-as-you-go (PAYG):**
-Cho phép bạn sử dụng tài nguyên không giới hạn và thanh toán sau. Đơn vị tính phí thường là **theo giờ**.
+**8. Does FPT charge GPU Virtual Machines in the Stopped state?**
+  * **With Block Storage – Ephemeral Disk (NVMe):**  
+Yes. Instances in a **stopped** state continue to reserve the server for your use and therefore **incur charges** until you release this server.  
+If you wish to no longer accumulate charges for a server, please **DELETE INSTANCE** in the FPT Cloud portal for Customers. 
+  * **With Block Storage – Persistent Disk:**  
+No. GPU, CPU, and RAM of stopped instances are **not charged**.  
+However, **the storage** still charged until you completely delete it.
 
-**8. FPT có tính phí GPU Virtual Machine ở trạng thái Stopped không?**
-  * **Với Block Storage – Ephemeral Disk (NVMe):**
-Có. Các Instance ở trạng thái **stopped** vẫn tiếp tục dành riêng máy chủ cho bạn sử dụng và do đó **vẫn phát sinh phí** cho đến khi bạn giải phóng máy chủ này.
-Nếu bạn không muốn tiếp tục tích lũy phí cho máy chủ, vui lòng **XÓA INSTANCE** trong FPT Cloud portal dành cho Khách hàng.
-  * **Với Block Storage – Persistent Disk:**
-Không. GPU, CPU và RAM của các Instance đã dừng **không bị tính phí**.
-Tuy nhiên, **storage** vẫn bị tính phí cho đến khi bạn xóa hoàn toàn.
-
-Bạn cũng bị tính phí cho các **dịch vụ và tài nguyên** khác được gắn vào bất kỳ GPU Instance nào.
+You are also billed for other **services and resources** that are attached to any GPU instance.

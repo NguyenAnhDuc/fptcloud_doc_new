@@ -1,45 +1,45 @@
 ---
 id: "create-a-vpn-connection"
-title: "Create a VPN connection"
-description: "Guide to creating a new VPN connection on FPT Cloud Portal"
-sidebar_label: "Create a VPN connection"
+title: "Tạo VPN Connection"
+description: "Hướng dẫn tạo VPN Connection mới trên FPT Cloud Portal."
+sidebar_label: "Tạo VPN Connection"
 sidebar_position: "19"
 ---
 
-# Create a VPN connection
+# Tạo VPN Connection
 
-1. On the **VPN Connection List** screen, click **Create VPN Connection**.
+1. Tại màn hình **VPN Connection List**, nhấn **Create VPN Connection**.
 
-[![Create VPN Connection](/img/migrated/image-1744180675487-bc2332e2.png)](/img/migrated/image-1744180675487-bc2332e2.png)
+[![Tạo VPN Connection](/img/migrated/image-1744180675487-bc2332e2.png)](/img/migrated/image-1744180675487-bc2332e2.png)
 
-2. Enter the VPN Gateway information:
+2. Nhập thông tin VPN Gateway:
 
-| **Field** | **Description** |
+| **Trường** | **Mô tả** |
 | --- | --- |
-| **VPN name** | Name of the VPN connection. Use an easy-to-remember name (e.g., `vpn_to_aws`). |
-| **Description** | Short description (optional) to help distinguish between connections. |
-| **Pre-shared key** | Shared security key between both sides (can be manually defined or system-generated). |
-| **Local IP Public** | Public IP address on the FPT Cloud side. |
-| **Local private networks** | Internal network ranges to connect (enter in CIDR format; multiple entries supported). |
-| **IPSec policy** | Encryption policy for Phase 2. |
-| **IKE policy** | Encryption policy for Phase 1. |
-| **Customer gateway name** | Customer Gateway to use for this connection. |
-| **Delay** | Waiting time between DPD retry attempts (in seconds). |
-| **Max failures** | Maximum number of retry attempts before the connection is marked as failed. |
+| **VPN name** | Tên kết nối VPN. Đặt tên dễ nhớ (ví dụ: `vpn_to_aws`). |
+| **Description** | Mô tả ngắn (tùy chọn) để phân biệt các kết nối. |
+| **Pre-shared key** | Khóa bảo mật dùng chung giữa hai đầu (có thể nhập thủ công hoặc để hệ thống tạo). |
+| **Local IP Public** | Địa chỉ IP public phía FPT Cloud. |
+| **Local private networks** | Dải mạng nội bộ cần kết nối (nhập theo định dạng CIDR; hỗ trợ nhiều dải). |
+| **IPSec policy** | Chính sách mã hóa cho Phase 2. |
+| **IKE policy** | Chính sách mã hóa cho Phase 1. |
+| **Customer gateway name** | Customer Gateway sử dụng cho kết nối này. |
+| **Delay** | Thời gian chờ giữa các lần thử lại DPD (tính bằng giây). |
+| **Max failures** | Số lần thử lại tối đa trước khi đánh dấu kết nối là thất bại. |
 
 :::note
-To ensure stable connectivity, configure the **DPD Delay** and **Max Failure** parameters on the FPT Cloud side to match those on your partner device.
+Để đảm bảo kết nối ổn định, cấu hình tham số **DPD Delay** và **Max Failure** phía FPT Cloud khớp với thiết bị đối tác.
 
-Recommended values for common providers:
+Giá trị khuyến nghị cho các provider phổ biến:
 
 | Provider | Delay | Max failures |
 | --- | --- | --- |
 | AWS | 15 | 3 |
 | Fortigate | 15 | 3 |
 
-If you adjust parameters on the provider side, update the corresponding settings on FPT Cloud to maintain compatibility.
+Nếu bạn điều chỉnh tham số ở phía provider, hãy cập nhật cài đặt tương ứng trên FPT Cloud để đảm bảo tương thích.
 :::
 
-3. Click **Create VPN Connection** to complete the setup.
+3. Nhấn **Create VPN Connection** để hoàn tất.
 
-[![VPN Connection created](/img/migrated/6219884231644005829-c20fbd72.jpg)](/img/migrated/6219884231644005829-c20fbd72.jpg)
+[![VPN Connection đã tạo](/img/migrated/6219884231644005829-c20fbd72.jpg)](/img/migrated/6219884231644005829-c20fbd72.jpg)

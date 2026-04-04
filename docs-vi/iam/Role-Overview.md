@@ -1,12 +1,12 @@
 ---
 id: "role-overview"
-title: "Role overview"
+title: "Tổng quan Role"
 description: "Role là vai trò của người dùng trong tổ chức, quy định các quyền mà user có khả năng thực hiện."
-sidebar_label: "Role overview"
+sidebar_label: "Tổng quan Role"
 sidebar_position: 4
 ---
 
-# Role overview
+# Tổng quan Role
 
 Role là vai trò của người dùng trong tổ chức, quy định các quyền mà user có khả năng thực hiện.
 

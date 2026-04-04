@@ -1,40 +1,40 @@
 ---
 id: "cac-luu-y-khi-su-dung-fke"
-title: "Các lưu ý khi sử dụng FKE"
-description: "Để đảm bảo tính sẵn sàng, chọn HA Master Nodes cho các hệ thống quan trọng. Có thể chọn non-HA cho các hệ thống Dev Test"
-sidebar_label: "Các lưu ý khi sử dụng FKE"
+title: "DFKEご利用時の注意事項"
+description: "Dedicated FPT Kubernetes Engineサービスご利用時の推奨事項と注意事項。"
+sidebar_label: "DFKEご利用時の注意事項"
 sidebar_position: "29"
 ---
 
-# Các lưu ý khi sử dụng DFKE
+# DFKEご利用時の注意事項
 
-### 1. Chọn HA Master Nodes
-Để đảm bảo tính sẵn sàng, chọn HA Master Nodes cho các hệ thống quan trọng. Có thể chọn non-HA cho các hệ thống Dev Test.
+### 1. HA Master Nodesの選択
+可用性を確保するため、重要なシステムにはHA Master Nodesを選択してください。Dev/Test環境ではnon-HAを選択することもできます。
 
-### 2. Sử dụng Namespaces
-Tạo namespace để phân chia ứng dụng hoặc môi trường để dễ dàng quản lý. Tránh sử dụng các namespace được hệ thống tạo sẵn để deploy ứng dụng.
+### 2. Namespaceの使用
+アプリケーションや環境を分離して管理しやすくするためにnamespaceを作成してください。システムが事前に作成したnamespaceにはアプリケーションをデプロイしないようにしてください。
 
-### 3. Sử dụng Readiness & Liveness Probes
-Giúp đảm bảo tính sẵn sàng của ứng dụng.
-Readiness Probes đảm bảo request được điều hướng tới pod chỉ khi pod đó ở trạng thái sẵn sàng để nhận request. Các Pod thường tốn thời gian để start ứng dụng, việc đặt Readiness Probes giúp service không điều hướng request đến các Pod khi start (ứng dụng chưa ready).
-Liveness Probes đảm bảo Pod chạy ứng dụng đang ở trạng thái Running, nếu Liveness Probes fail, pod sẽ được restart.
+### 3. Readiness & Liveness Probeの使用
+アプリケーションの可用性を確保するために使用します。
+Readiness ProbeはPodがリクエストを受け入れる準備ができている場合にのみリクエストが転送されることを保証します。Podの起動には時間がかかることが多いため、Readiness Probeを設定することで起動中のPod（アプリケーションが未準備）にリクエストが転送されるのを防ぎます。
+Liveness ProbeはアプリケーションのPodがRunning状態であることを保証します。Liveness Probeが失敗した場合、Podは再起動されます。
 
-### 4. Đặt Resource Requests & Limits
-Giúp container đảm bảo đủ lượng resources để chạy và không chạy quá lượng resource cho phép. Nếu không có limits, pod có thể sử dụng nhiều resource quá tài nguyên cho phép, có thể làm Node crash.
+### 4. Resource Requests & Limitsの設定
+コンテナが実行に十分なリソースを確保し、許容量を超えないようにします。limitsを設定しない場合、Podが許容量を超えてリソースを使用し、Nodeがクラッシュする可能性があります。
 
-### 5. Sử dụng Autoscale
-Sử dụng tính năng Autoscale của FKE dựa trên Kubernetes HPA giúp ứng dụng đáp ứng nhanh khi lượng truy cập tăng cao. Khi lưu lượng sử dụng sử dụng thấp, hệ thống sẽ tự động giảm các Pod/Nodes về mức tối thiểu.
+### 5. Autoscaleの使用
+Kubernetes HPAベースのFKE Autoscale機能を使用すると、トラフィックが増加した際にアプリケーションが迅速に対応できます。使用量が少ない場合は、システムが自動的にPodとNodeを最小限に削減します。
 
-### 6. Sử dụng nhiều Pod (>=2)
-Để đảm bảo HA, nên sử dụng >=2 Pod cho mỗi service. Sử dụng anti-affinity để các replica pods nằm trên các Nodes khác nhau.
+### 6. 複数Pod（2台以上）の使用
+HAを確保するために、各サービスで2台以上のPodを使用することを推奨します。replica Podが異なるNodeに配置されるようanti-affinityを使用してください。
 
-### 7. Sử dụng Persistent Volume
-FKE hỗ trợ Block và File Storage.
-  * Block Storage là lựa chọn mặc định cho hệ thống, hỗ trợ RWO, đáp ứng performance tốt theo Storage Policy.
-  * File Storage hỗ trợ RWX sử dụng NFS. Không sử dụng File storage cho Database.
+### 7. Persistent Volumeの使用
+FKEはBlockとFile Storageをサポートしています。
+  * Block Storageはシステムのデフォルト選択肢で、RWOをサポートし、Storage Policyに応じた優れたパフォーマンスを提供します。
+  * File StorageはNFSを使用したRWXをサポートします。データベースにはFile Storageを使用しないでください。
 
-### 8. Backup
-Đặt lịch Backup Cluster theo hướng dẫn. Người sử dụng cần tự thực hiện việc backup dữ liệu trên PVC (nếu có). Có thể backup ra VM sau đó thực hiện backup VM sử dụng giải pháp FCloud Backup & Recovery.
+### 8. バックアップ
+ガイドに従ってclusterのバックアップスケジュールを設定してください。PVC上のデータのバックアップはユーザーが自ら行う必要があります。VMにバックアップしてからFCloud Backup & RecoveryソリューションでVMをバックアップすることができます。
 
 ### 9. Monitoring & Logging
-Sử dụng FMON để tích hợp monitor & log với Kubernetes cluster. Đặt cảnh báo cho hệ thống.
+FMONを使用してKubernetes clusterの監視とログを統合してください。システムのアラートを設定してください。

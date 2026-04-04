@@ -1,21 +1,21 @@
 ---
 id: "delete-k8s-cluster"
-title: "Delete a Kubernetes cluster"
-description: "Delete a Kubernetes cluster in Managed FPT Kubernetes Engine that is no longer needed."
-sidebar_label: "Delete a Kubernetes cluster"
+title: "Kubernetes cluster の削除"
+description: "不要になった Managed FPT Kubernetes Engine の cluster を削除する方法。"
+sidebar_label: "Kubernetes cluster の削除"
 sidebar_position: "8"
 ---
 
-# Delete a Kubernetes cluster
+# Kubernetes cluster の削除
 
-**Step 1:** In the FPT Cloud Portal menu, select **Kubernetes** to open the **Kubernetes Management** page.
+**ステップ 1:** FPT Cloud Portal のメニューから **Kubernetes** を選択して **Kubernetes Management** ページを開きます。
 
 [![](/img/migrated/12-20fee2a3.png)](/img/migrated/12-20fee2a3.png)
 
-**Step 2:** Click **Action** for the cluster you want to delete, then click **Delete**.
+**ステップ 2:** 削除したい cluster の **Action** をクリックし、**Delete** をクリックします。
 
 [![](/img/migrated/13-4f4d9034.png)](/img/migrated/13-4f4d9034.png)
 
-**Step 3:** Click **Delete** in the confirmation popup to confirm deletion.
+**ステップ 3:** 確認ポップアップで **Delete** をクリックして削除を確定します。
 
 [![](/img/migrated/14-8e0da3fa.png)](/img/migrated/14-8e0da3fa.png)

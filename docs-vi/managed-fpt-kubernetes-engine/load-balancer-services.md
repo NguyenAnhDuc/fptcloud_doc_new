@@ -1,25 +1,27 @@
 ---
 id: "load-balancer-services"
-title: "Load Balancer サービス"
-description: "Managed FKEでのKubernetes Load Balancer Serviceの作成方法とアノテーション設定について説明します。"
-sidebar_label: "Load Balancer サービス"
+title: "Dịch vụ Load Balancer"
+description: "Sản phẩm M-FKE được xây dựng trên Native Kubernetes và tích hợp thêm các thành phần của FPT Cloud vào Kubernetes."
+sidebar_label: "Dịch vụ Load Balancer"
 sidebar_position: "18"
 ---
 
-# Load Balancer services
+# Dịch vụ Load Balancer
 
-The **M-FKE** product is built on Native Kubernetes and incorporates additional FPT Cloud's components into Kubernetes, including the **FPT Cloud Controller Manager**. This component aims to manage worker nodes in the cluster and Load Balancer Services. 
-Users are provided various methods to expose their applications to the internet to access the applications and services. These methods include creating an ingress for the service, then creating a NodePort Service and attaching a floating IP to the VM worker node, or using a Load Balancer Service.
-FPT Cloud supports creating Load Balancer Services and automatically assigns a public IP to that load balancer. When using a Load Balancer Service, in addition to creating the default load balancer for the worker nodes, users can add optional configurations for the load balancer using annotations in the service manifest file:  
-| Key  | Value  | Default  | Meaning  |  
-| --- | --- | --- | --- |  
-| service.beta.kubernetes.io/fpt-load-balancer-type  | basic/advanced/standard/premium  | basic  | Load Balancer type (basic/advanced/standard/premium)  |  
-| service.beta.kubernetes.io/fpt-load-balancer-internal  | true/false  | False  | Does the service want to be public on the internet? If not, it will not create a floating IP attached to the load balancer.  |  
-Users can create a Load Balancer Service by adding annotations to the service configuration based on their usage needs.
-For example:
+Sản phẩm **M-FKE** được xây dựng trên Native Kubernetes và tích hợp thêm các thành phần của FPT Cloud vào Kubernetes, bao gồm **FPT Cloud Controller Manager**. Thành phần này có nhiệm vụ quản lý worker node trong cluster và các dịch vụ Load Balancer.
+Người dùng có nhiều phương thức để expose ứng dụng ra internet, bao gồm tạo ingress cho service, tạo NodePort Service và gán floating IP vào VM worker node, hoặc sử dụng Load Balancer Service.
+FPT Cloud hỗ trợ tạo Load Balancer Service và tự động gán public IP cho load balancer đó. Khi sử dụng Load Balancer Service, ngoài việc tạo load balancer mặc định cho worker node, người dùng có thể thêm cấu hình tùy chọn cho load balancer bằng cách dùng annotation trong file manifest của service:
+
+| Key | Value | Default | Ý nghĩa |
+| --- | --- | --- | --- |
+| service.beta.kubernetes.io/fpt-load-balancer-type | basic/advanced/standard/premium | basic | Loại Load Balancer (basic/advanced/standard/premium) |
+| service.beta.kubernetes.io/fpt-load-balancer-internal | true/false | False | Service có muốn public ra internet không? Nếu không, sẽ không tạo floating IP gán vào load balancer. |
+
+Người dùng có thể tạo Load Balancer Service bằng cách thêm annotation vào cấu hình service theo nhu cầu sử dụng.
+Ví dụ:
 
 ```
-CopyapiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: coffee
@@ -57,14 +59,14 @@ spec:
 ---
 ```
 
-This example creates a Load Balancer Service with the **Basic** type. After applying the manifest file for the service, a Load Balancer Service is created in the Kubernetes cluster:
+Ví dụ này tạo Load Balancer Service với loại **Basic**. Sau khi áp dụng file manifest cho service, một Load Balancer Service được tạo trong Kubernetes cluster:
 [![](/img/migrated/48-1-e461b092.png)](/img/migrated/48-1-e461b092.png)
-When the **EXTERNAL-IP** field changes from **Pending** to a public IP, the application can be accessed from the internet using that public IP or a domain associated with that public IP.
+Khi trường **EXTERNAL-IP** chuyển từ **Pending** sang một public IP, ứng dụng có thể được truy cập từ internet thông qua public IP đó hoặc domain liên kết với public IP đó.
 [![](/img/migrated/49-1-be984dc5.png)](/img/migrated/49-1-be984dc5.png)
-Users can also create an internal Load Balancer Service, which cannot be accessed from outside the cluster, serving the purpose of allowing only internal services to interact with each other:
+Người dùng cũng có thể tạo internal Load Balancer Service — loại này không thể truy cập từ bên ngoài cluster, phục vụ mục đích chỉ cho phép các service nội bộ tương tác với nhau:
 
 ```
-CopyapiVersion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: coffee
@@ -102,5 +104,5 @@ spec:
 ---
 ```
 
-When an internal Load Balancer Service is created, the **EXTERNAL-IP** field of the service is not a public IP but a private IP.
+Khi tạo internal Load Balancer Service, trường **EXTERNAL-IP** của service không phải public IP mà là private IP.
 [![](/img/migrated/51-1-cd84aa92.png)](/img/migrated/51-1-cd84aa92.png)

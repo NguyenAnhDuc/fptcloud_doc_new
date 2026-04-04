@@ -4,6 +4,7 @@ title: "Frequently asked questions"
 description: "Common questions and answers about VPN Site-to-Site on FPT Cloud"
 sidebar_label: "FAQs"
 sidebar_position: "30"
+draft: true
 ---
 
 # Frequently asked questions

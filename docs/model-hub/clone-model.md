@@ -1,19 +1,22 @@
 ---
 id: "clone-model"
-title: "Mục đích: Nhân bản 1 model giống với model đã có."
-description: "Mục đích: Nhân bản 1 model giống với model đã có."
-sidebar_label: "Mục đích: Nhân bản 1 model giống với model đã có."
+title: "Clone Model"
+description: "Duplicate an existing model."
+sidebar_label: "Clone Model"
 sidebar_position: "20"
 ---
 
 # Clone Model
 
-Mục đích: Nhân bản 1 model giống với model đã có.
-Các bước thực hiện: 
+Duplicate an existing model with the same information.
 
-Bước 1: Click vào 1 model để xem chi tiết 
+## Steps
 
-Bước 2: Click vào Actions > Chọn action Clone
-[![](/img/migrated/anh-7-d1085098.png)](/img/migrated/anh-7-d1085098.png) Bước 3: Sau khi click Clone, hiển thị màn hình clone model với các thông tin là thông tin của model gốc mà người dùng đang thực hiện clone. Tại đây, người dùng thực hiện chỉnh sửa lại Model title để đảm bảo model name là duy nhất, điền các thông tin cần thiết khác 
+1. Click on a model to view its details.
 
-Bước 4: Click Save. Hệ thống trở lại màn hình model list với model mới vừa thực hiện clone
+2. Click **Actions** > **Clone**.
+[![](/img/migrated/anh-7-d1085098.png)](/img/migrated/anh-7-d1085098.png)
+
+3. The clone model screen appears, pre-filled with the source model's information. Edit the **Model title** to ensure uniqueness, and fill in any other required fields.
+
+4. Click **Save**. The system returns to the model list, where the newly cloned model appears.

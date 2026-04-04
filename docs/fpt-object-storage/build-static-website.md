@@ -1,46 +1,46 @@
 ---
 id: "build-static-website"
-title: "FPT Object Storage で静的ウェブサイトを構築する"
-description: "FPT Object Storage の bucket を静的ウェブサイトホスティングとして設定・公開する方法です。"
-sidebar_label: "静的ウェブサイトの構築"
-sidebar_position: "16"
+title: "Build a Static Website with FPT Object Storage"
+description: "How to configure an FPT Object Storage bucket as static website hosting and publish a website."
+sidebar_label: "Build Static Website"
+sidebar_position: 16
 ---
 
-# FPT Object Storage で静的ウェブサイトを構築する
+# Build a Static Website with FPT Object Storage
 
-## 概要
+## Overview
 
-データストレージ機能に加えて、**FPT Object Storage** は bucket をウェブホスティングとして設定することもサポートしています。
+In addition to its core data storage function, **FPT Object Storage** also supports configuring a bucket as web hosting.
 
-高い安定性、非常に低コスト、シンプルな設定といった特長を持つこのウェブホスティングは、さまざまな目的で使用できます。
+With high stability, very low cost, and simple configuration, this web hosting solution can serve many purposes:
 
-- ランディングページ、Resume website、Portfolio website、Brochure website などの静的ウェブサイトの保存。
-- メインウェブサイトに障害が発生した際のエラー通知ウェブサイトの保存。
+- Hosting static websites such as landing pages, resume websites, portfolio websites, and brochure websites.
+- Hosting an error notification website when the main website experiences downtime.
 
-## 前提条件
+## Prerequisites
 
-**FPT Object Storage** サービスを使用中で、パブリック bucket を持っていること。
+You are using the **FPT Object Storage** service and have a public bucket.
 
-## 概要説明
+## Background
 
-静的ウェブサイトはサーバー側のインタラクティブ機能を持たないウェブページです。通常は HTML、CSS、JavaScript ファイルと画像・動画などのリソースのみで構成されます。FPT Object Storage を使用することで、これらのファイルを bucket に保存してウェブサイトとして機能するよう設定できます。
+A static website is a web page that has no server-side interactive features. It typically consists only of HTML, CSS, JavaScript files and resources such as images and videos. By using FPT Object Storage, you can store these files in your bucket and configure it to function as a website.
 
-設定が完了すると、FPT がドメインを提供します。このドメインを直接使用するか、別のドメインを購入して CNAME でポイントして独自ドメインを使用できます。
+Once configured, FPT will provide you with a domain. You can use this domain directly or purchase a different domain and point a CNAME record to it for a custom domain.
 
-## 手順
+## Steps
 
-以下は FPT Object Storage を使用して静的ウェブサイトを構築する基本手順です。
+The following are the basic steps to build a static website using FPT Object Storage:
 
-1. **ウェブサイトのページを準備する:** HTML、CSS、JavaScript ファイルとウェブサイトに必要なその他のリソースをすべて作成します。
+1. **Prepare the website pages:** Create all the HTML, CSS, JavaScript files and other resources required for your website.
 
-2. **パブリック bucket を作成する:** ウェブサイトに使用する bucket がパブリックであることを確認します。これにより、すべてのユーザーが bucket 内のコンテンツにアクセスできるようになります。
+2. **Create a public bucket:** Ensure that the bucket you want to use for the website is public. This allows all users to access content in the bucket.
 
-3. **ファイルを bucket にアップロードする:** FPT Portal のインターフェースまたはクライアントを使用して、準備したファイルを bucket にアップロードします。
+3. **Upload files to the bucket:** Use the FPT Portal interface or a client to upload your prepared files to the bucket.
 
-4. **ウェブホスティングを設定する:** bucket の設定でウェブホスティング設定セクションが表示されます。インデックスファイル名（通常は index.html）と 404 ファイル名（ページが見つからない場合）などのオプションを設定します。
+4. **Configure web hosting:** In the bucket settings, you will see the web hosting configuration section. Set options such as the index file name (typically `index.html`) and the 404 file name (page not found).
 
-5. **ウェブサイトにアクセスする:** 設定完了後、bucket のウェブホスティング設定に表示されているパスを使用して静的ウェブサイトにアクセスできます。
+5. **Access the website:** After configuration is complete, you can access your static website using the path shown in the bucket's web hosting settings.
 
-## まとめ
+## Summary
 
-FPT Object Storage を使用した静的ウェブサイトの構築は、シンプルでコスト効果の高いソリューションです。bucket をウェブホスティングとして機能するよう設定することで、独自のサーバーを管理することなく、コンテンツを簡単にオンラインで共有できます。
+Using FPT Object Storage to build a static website is a simple and cost-effective solution. Configuring the bucket to function as web hosting lets you easily share content online without managing your own server.

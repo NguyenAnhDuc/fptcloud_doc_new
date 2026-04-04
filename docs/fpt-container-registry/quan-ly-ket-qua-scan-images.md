@@ -1,27 +1,27 @@
 ---
 id: "quan-ly-ket-qua-scan-images"
-title: "Quản lý kết quả scan image"
-description: "Xem chi tiết lỗ hổng bảo mật được phát hiện sau khi scan image."
-sidebar_label: "Quản lý kết quả scan"
+title: "Manage image scan results"
+description: "View detailed security vulnerabilities detected after scanning an image."
+sidebar_label: "Manage image scan results"
 sidebar_position: "33"
 ---
 
-# Quản lý kết quả scan image
+# Manage image scan results
 
-Sau khi scan hoàn tất, FPT Container Registry cung cấp báo cáo chi tiết về các lỗ hổng bảo mật được phát hiện, giúp bạn đánh giá mức độ rủi ro và đưa ra biện pháp xử lý phù hợp.
+After a scan completes, FPT Container Registry provides a detailed report of detected security vulnerabilities, helping you assess risk levels and take appropriate remediation actions.
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Repository** > **Detail Repository**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Repository** > **Detail Repository**.
 
-   ![Chi tiết repository để xem kết quả scan](/img/migrated/Picture98-49e7fa22.png)
+   ![Repository details to view scan results](/img/migrated/Picture98-49e7fa22.png)
 
-2. Click vào bảng **Vulnerabilities** để xem tổng số lỗ hổng đã phát hiện.
+2. Click the **Vulnerabilities** table to view the total number of detected vulnerabilities.
 
-   ![Bảng Vulnerabilities](/img/migrated/Picture99-b3e32c1f.png)
+   ![Vulnerabilities table](/img/migrated/Picture99-b3e32c1f.png)
 
-3. Click vào **Detail Artifact** để xem chi tiết từng lỗ hổng.
+3. Click **Detail Artifact** to view details of each vulnerability.
 
-   ![Chi tiết artifact với danh sách lỗ hổng](/img/migrated/Picture100-766da985.png)
+   ![Artifact details with vulnerability list](/img/migrated/Picture100-766da985.png)
 
-4. Xem danh sách đầy đủ các lỗ hổng được phát hiện qua FPT Container Registry.
+4. Review the complete list of vulnerabilities detected by FPT Container Registry.
 
-   ![Danh sách chi tiết lỗ hổng bảo mật](/img/migrated/Picture101-55d53435.png)
+   ![Detailed security vulnerability list](/img/migrated/Picture101-55d53435.png)

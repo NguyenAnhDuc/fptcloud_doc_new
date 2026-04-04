@@ -1,17 +1,14 @@
 ---
 id: "what-is-model-fine-tuning"
 title: "What Is Model Fine Tuning"
-description: "Fine-tuning là quá trình training một base language model trên dataset để đạt hiệu suất tốt hơn trong một lĩnh vực cụ thể."
-sidebar_label: "What Is Model Fine..."
+description: "Fine-tuning is the process of training a base language model on a dataset to perform better in a specific domain or for "
+sidebar_label: "What Is Model Fine Tuning"
 sidebar_position: "3"
 ---
 
 # What Is Model Fine Tuning
 
-Fine-tuning là quá trình training một base language model trên dataset để đạt hiệu suất tốt hơn trong một lĩnh vực cụ thể hoặc cho một use case mục tiêu. Bằng cách tận dụng kiến thức nền tảng đã được nhúng vào model, fine-tuning cho phép model chuyên biệt hóa trong các tác vụ như _tự động hóa hỗ trợ khách hàng, phân loại văn bản y tế hoặc tóm tắt tài liệu pháp lý_. Cách tiếp cận này giảm đáng kể thời gian và tài nguyên cần thiết so với training model từ đầu, trong khi vẫn đảm bảo độ chính xác và mức độ phù hợp cao.
-
-Để đáp ứng nhu cầu ngày càng tăng này, **Model Fine-tuning** được FPT Smart Cloud xây dựng với tính **thân thiện với người dùng**, cho phép tùy chỉnh AI thông qua giao diện đơn giản trên **FPT AI Factory Portal**. Bạn có thể tải lên dataset, cấu hình các hyperparameter training và thiết lập infrastructure — tất cả chỉ trong vài cú nhấp chuột.
-
+Fine-tuning is the process of training a base language model on a dataset to perform better in a specific domain or for a target use case. By leveraging the foundational knowledge already embedded in the model, fine-tuning allows the model to specialize in tasks _like customer support automation, medical text classification, or legal document summarization_.This approach significantly reduces the time and resources needed compared to training a model scratch, while still delivering high accuracy and relevance.
+To meet this growing demand, **Model Fine-tuning** is built by FPT Smart Cloud to be **user-friendly** , enabling AI customization through a simple interface on the **FPT AI Factory Portal**. Users can upload their dataset, configure training hyperparameters, and set up infrastructure - all within a few clicks.
 [![Alt text](/img/migrated/Model-Fine-tuning-Overview-d9841f26.png)](/img/migrated/Model-Fine-tuning-Overview-d9841f26.png)
-
-Nhờ cách tiếp cận hợp lý này, **Model Fine-tuning** trao quyền cho các tổ chức khai thác toàn bộ tiềm năng của AI, cung cấp các giải pháp thông minh hơn, nhanh hơn và chính xác hơn được tùy chỉnh theo nhu cầu kinh doanh riêng của họ.
+Thanks to this streamlined approach, **Model Fine-tuning** empowers organizations to unlock the full potential of AI, delivering smarter, faster, and more accurate solutions tailored to their unique business needs.

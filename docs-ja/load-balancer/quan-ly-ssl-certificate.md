@@ -1,24 +1,13 @@
 ---
 id: "quan-ly-ssl-certificate"
-title: "Quan Ly Ssl Certificate"
-description: "Quan Ly Ssl Certificate"
-sidebar_label: "Quan Ly Ssl Certificate"
+title: "SSL 証明書の管理"
+description: "FPT Cloud Load Balancer で SSL 証明書を管理する方法を説明します。"
+sidebar_label: "SSL 証明書の管理"
 sidebar_position: "24"
 ---
 
-# Load Balancer
+# SSL 証明書の管理
 
-  * [ ![](/img/migrated/icon-glossary-46e0a6e7.png) Overview ](javascript: "Overview")
-  * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")
-  * [ ![](/img/migrated/quick-starts-c3998e52.png) Load Balancer (Tutorials) ](javascript: "Load Balancer \(Tutorials\)")
-  * [ ![](/img/migrated/icon-networking-f57b0b33.png) Classic Load Balancer (Tutorials) ](javascript: "Classic Load Balancer \(Tutorials\)")
-Quản lý SSL Certificate
-  1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
-  2. Load Balancer
+Load Balancer の **Certificate** タブでは、VPC 内に作成されたすべての SSL 証明書を確認・管理できます。
 
-Quản lý SSL Certificate
-  * 
-  * [ ](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fload-balancer%2F "Load Balancer")
-  * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Fload-balancer%2F "Load Balancer")
-
-* * *
+特定の SSL 証明書を選択すると、その証明書の **Name** および **Public Key** が表示されます。

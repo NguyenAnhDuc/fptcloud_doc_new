@@ -1,19 +1,19 @@
 ---
 id: "manage-topics"
-title: "topic の管理"
-description: "FPT Message Bus における topic 管理の概要。"
-sidebar_label: "topic の管理"
+title: "Quản lý topics"
+description: "Tổng quan về quản lý topic trong FPT Message Bus."
+sidebar_label: "Quản lý topics"
 sidebar_position: "9"
 ---
 
-# topic の管理
+# Quản lý topics
 
-topic は publish/subscribe モデルを使ってメッセージを配信します。publish された 1 つのメッセージが、登録されたすべての subscription に同時に配信されます。FPT Message Bus では、管理インターフェースから topic の作成、編集、メッセージの送受信、削除を行えます。
+Topic cho phép phân phối message theo mô hình publish/subscribe, trong đó một message được gửi đến nhiều subscription cùng lúc. FPT Message Bus hỗ trợ tạo, chỉnh sửa, gửi/nhận message và xóa topic từ giao diện quản lý.
 
-詳細なガイドを参照してください。
+Xem các hướng dẫn chi tiết:
 
-- [topic の作成](./create-topics.md)
-- [subscription の作成](./create-subscriptions.md)
-- [topic の編集](./edit-topics.md)
-- [topic でのメッセージ送受信](./send-receive-messages-in-topics.md)
-- [topic の削除](./delete-topics.md)
+- [Tạo topic](./tao-topics.md)
+- [Tạo subscription](./tao-subscriptions.md)
+- [Sửa topic](./sua-topic.md)
+- [Gửi và nhận messages trong topic](./gui-nhan-messages-trong-topics.md)
+- [Xóa topic](./xoa-topics.md)

@@ -1,13 +1,13 @@
 ---
 id: "why-you-should-use-gpu-in-cloud"
-title: "Why use GPU on cloud"
-description: "The majority of enterprises still utilize on-premise GPUs. The on-premise usage model has limitations, such as incurring"
-sidebar_label: "Why use GPU on cloud"
+title: "クラウドで GPU を使用する理由"
+description: "オンプレミスではなくクラウドプラットフォームで GPU を使用する利点。"
+sidebar_label: "クラウドで GPU を使用する理由"
 sidebar_position: "32"
 ---
 
-# Why use GPU on cloud
+# クラウドで GPU を使用する理由
 
-The majority of enterprises still utilize on-premise GPUs. The on-premise usage model has limitations, such as incurring upfront costs and requiring human resources for deployment, management, maintenance, and upgrades.
-On the contrary, cloud platforms' GPU instances incur costs only for the actual service usage, eliminating the need for any additional technical operations, with reasonable service fees. FPT Cloud provides all the necessary services for GPU usage and takes overall responsibility for managing GPU infrastructure. Businesses only need to care about their core business, simplifying operations and enhancing productivity.
-Apart from eliminating the complexities of managing on-premise GPUs, the GPU services on FPT Cloud save time and costs compared to investing in and maintaining on-site infrastructure. This brings benefits to enterprises by transforming the necessary capital expenditure for installing and managing those computing resources into operational costs for using GPU services in the cloud, thus lowering the barriers for businesses to build infrastructure. Additionally, the FPT Cloud platform provides an ecosystem compatible with GPU usage needs, such as data migration, integrated storage, security, and flexible scalability.
+大多数の企業は依然としてオンプレミスの GPU を利用しています。オンプレミスの利用モデルには、初期コストの発生やデプロイ、管理、保守、アップグレードのための人的リソースが必要といった制限があります。
+一方、クラウドプラットフォームの GPU インスタンスは実際のサービス使用量に応じたコストのみが発生し、追加の技術的運用は不要で、合理的なサービス料金です。FPT Cloud は GPU 使用に必要なすべてのサービスを提供し、GPU インフラの管理に全責任を負います。企業はコアビジネスに集中するだけでよく、運用を簡素化し生産性を高められます。
+オンプレミス GPU 管理の複雑さを排除するだけでなく、FPT Cloud の GPU サービスはオンサイトインフラへの投資・維持と比較して時間とコストを節約します。これにより、企業はコンピューティングリソースの設置・管理に必要な設備投資をクラウドの GPU サービス利用の運用コストへと転換でき、インフラ構築の障壁を下げるというメリットをもたらします。さらに、FPT Cloud プラットフォームはデータ移行、統合ストレージ、セキュリティ、柔軟なスケーラビリティなど、GPU 使用ニーズに対応したエコシステムを提供します。

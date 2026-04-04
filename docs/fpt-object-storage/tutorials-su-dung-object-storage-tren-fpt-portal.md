@@ -1,8 +1,8 @@
 ---
 id: "tutorials-su-dung-object-storage-tren-fpt-portal"
-title: "Sử dụng Object Storage trên FPT Portal"
+title: "Tutorials Su Dung Object Storage Tren Fpt Portal"
 description: "Tổng quan về cách sử dụng FPT Object Storage thông qua FPT Unify Portal."
-sidebar_label: "Sử dụng trên FPT Portal"
+sidebar_label: "Tutorials Su Dung Object Storage Tren Fpt Portal"
 sidebar_position: "3"
 ---
 

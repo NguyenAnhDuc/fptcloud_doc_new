@@ -1,53 +1,53 @@
 ---
 id: "manage-permissions"
-title: "permissions の管理"
-description: "FPT Object Storage での bucket ACL、object ACL、bucket policy の設定手順です。"
+title: "Quản lý permissions"
+description: "Hướng dẫn cấu hình bucket ACL, object ACL và bucket policy trong FPT Object Storage."
 sidebar_label: "Permissions"
-sidebar_position: "6"
+sidebar_position: 6
 ---
 
-# permissions の管理
+# Quản lý permissions
 
-## Bucket ACL（Access Control List）
+## Bucket ACL (Access Control List)
 
-Bucket ACL は bucket のアクセス権を管理する仕組みです。FPT Object Storage は 2 つの基本権限を定義しています。
+Bucket ACL là cơ chế quản lý quyền truy cập cho bucket. FPT Object Storage định nghĩa 2 quyền cơ bản:
 
-- **Private:** 認証済みかつ権限を付与されたユーザーのみが bucket にアクセスまたは管理できます。
-- **Public:** インターネット上の anonymous user を含むすべてのユーザーが bucket への読み取り専用アクセスを持ちます。
+- **Private:** Chỉ người dùng đã xác thực và được phân quyền mới có thể truy cập hoặc quản lý bucket.
+- **Public:** Mọi người đều có quyền truy cập read-only vào bucket, kể cả anonymous user trên Internet.
 
 :::note
-Bucket ACL は object には効力がありません。bucket 内の object をパブリックにするには、Bucket Policy または Object ACL を使用してください。
+Bucket ACL không có hiệu lực đối với object. Để làm các object trong bucket trở thành công khai, hãy sử dụng Bucket Policy hoặc Object ACL.
 :::
 
-Bucket ACL を設定するには:
+Để cấu hình Bucket ACL:
 
-1. 設定する bucket の **Action** で **Config** を選択します。
-2. **Public** または **Private** を選択します。
+1. Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
+2. Chọn **Public** hoặc **Private**.
 
-## Object ACL（Object Permission）
+## Object ACL (Object Permission)
 
-Object Permissions は、ACL の仕組みに基づいて、他のユーザーが object に対して実行できる権限を定義します。2 つの権限グループがあります。
+Object Permissions xác định quyền mà user khác có thể thực hiện đối với object, dựa trên cơ chế ACL. Có hai nhóm quyền:
 
-- **Private:** anonymous user のアクセスを制限します。認証済みかつ権限を付与されたユーザーのみが object を閲覧できます。
-- **Public:** Object URL を通じて anonymous user を含むすべてのユーザーに読み取り専用（read-only）権限を提供します。
+- **Private:** Hạn chế quyền truy cập cho anonymous user. Chỉ người dùng đã xác thực và được phân quyền mới có thể xem object.
+- **Public:** Cung cấp quyền đọc (read-only) cho mọi người, kể cả anonymous user, thông qua Object URL.
 
 :::warning
-Object Permissions は Bucket Policy の影響を受けます。Bucket Policy は Object ACL より優先されます。この 2 つの権限レイヤーを同時に使用する際は注意してください。
+Object Permissions bị ảnh hưởng bởi Bucket Policy. Bucket Policy có hiệu lực cao hơn Object ACL. Hãy cẩn thận khi sử dụng đồng thời cả 2 tầng phân quyền này.
 :::
 
-Object Permissions を設定するには:
+Để cấu hình Object Permissions:
 
-1. **Object Storage Management** で権限を変更するファイルを含む bucket を選択します。
-2. ファイルの位置に移動します。**Action** で **Edit Permission** を選択します。
-3. **Read permission** で **Public** または **Private** を選択し、**Update** をクリックして保存します。
+1. Trên **Object Storage Management**, chọn bucket chứa file cần thay đổi quyền.
+2. Di chuyển đến vị trí của file. Trong phần **Action**, chọn **Edit Permission**.
+3. Tại ô **Read permission**, chọn chế độ **Public** hoặc **Private**, sau đó nhấn **Update** để lưu.
 
-## Bucket Policy の設定
+## Cấu hình bucket policy
 
-Bucket Policy は S3 のアクセス権管理機能で、bucket 内の object にアクセスして操作できるユーザーと、実行可能なアクションについての詳細なルールを定義できます。IP アドレス、時間、アクション種別（GET、PUT、DELETE）に基づいてアクセスを許可または拒否するルールを作成できます。
+Bucket Policy là cơ chế quản lý quyền truy cập trên S3 cho phép xác định các quy tắc chi tiết về việc ai có thể truy cập và thực hiện hành động trên object trong bucket. Bạn có thể tạo quy tắc để cho phép hoặc từ chối quyền truy cập dựa trên địa chỉ IP, thời gian, loại hành động (GET, PUT, DELETE).
 
-Bucket Policy は AWS 標準の JSON 形式で記述します。AWS のポリシー作成ツールを[こちら](https://awspolicygen.s3.amazonaws.com/policygen.html)からご利用いただけます。
+Bucket Policy được viết dưới dạng JSON theo chuẩn AWS. Bạn có thể sử dụng tool tạo policy của AWS tại [đây](https://awspolicygen.s3.amazonaws.com/policygen.html).
 
-パブリック読み取りを許可する bucket policy の例:
+Ví dụ về bucket policy cho phép đọc công khai:
 
 ```json
 {
@@ -65,12 +65,12 @@ Bucket Policy は AWS 標準の JSON 形式で記述します。AWS のポリシ
 ```
 
 :::note
-- Bucket Policy は Object ACL より優先されます。
-- Bucket policy は宣言された bucket にのみ有効です。bucket をまたいで設定することはできません。
+- Bucket Policy có hiệu lực cao hơn Object ACL.
+- Bucket policy chỉ có hiệu lực ở bucket mà nó được khai báo — không thể cấu hình xuyên bucket.
 :::
 
-Bucket Policy を設定するには:
+Để khai báo Bucket Policy:
 
-1. 設定する bucket の **Action** で **Config** を選択します。
-2. 既存の policy があり経験がある場合は **JSON Editor** モードを選択します。初めての場合は **Visual Editor** を使用してください。
-3. すべての情報を入力したら、新規作成の場合は **Create**、更新の場合は **Update** をクリックします。
+1. Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
+2. Chọn chế độ **JSON Editor** nếu đã có policy sẵn và có kinh nghiệm, hoặc dùng **Visual Editor** nếu chưa quen.
+3. Sau khi khai báo đầy đủ thông tin, nhấn **Create** để tạo mới hoặc **Update** để cập nhật.

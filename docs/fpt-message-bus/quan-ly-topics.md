@@ -1,19 +1,19 @@
 ---
 id: "quan-ly-topics"
-title: "Quản lý topics"
-description: "Tổng quan về quản lý topics trong FPT Message Bus for RabbitMQ."
-sidebar_label: "Quản lý topics"
+title: "Manage topics"
+description: "Overview of topic management in FPT Message Bus for RabbitMQ."
+sidebar_label: "Manage topics"
 sidebar_position: "9"
 ---
 
-# Quản lý topics
+# Manage topics
 
-Topic cho phép phân phối message theo mô hình publish/subscribe, trong đó một message được gửi đến nhiều subscription cùng lúc. FPT Message Bus for RabbitMQ hỗ trợ tạo, chỉnh sửa, gửi/nhận message và xóa topic từ giao diện quản lý.
+Topics distribute messages using the publish/subscribe model — one published message is delivered simultaneously to all registered subscriptions. FPT Message Bus for RabbitMQ supports creating, editing, sending/receiving messages, and deleting topics from the management interface.
 
-Xem các hướng dẫn chi tiết:
+See the detailed guides:
 
-- [Tạo topic](./tao-topics.md)
-- [Tạo subscription](./tao-subscriptions.md)
-- [Sửa topic](./sua-topic.md)
-- [Gửi và nhận messages trong topic](./gui-nhan-messages-trong-topics.md)
-- [Xóa topic](./xoa-topics.md)
+- [Create a topic](./Create-topics.md)
+- [Create a subscription](./Create-Subscriptions.md)
+- [Edit a topic](./Edit-topics.md)
+- [Send and receive messages in topics](./Send-Receive-messages-in-topics.md)
+- [Delete a topic](./Delete-topics.md)

@@ -1,18 +1,20 @@
 ---
 id: "dieu-chinh-cau-hinh-coredns-trong-kubernetes-service"
-title: "Kubernetes Service での CoreDNS 設定の調整"
-description: "FPT Managed Kubernetes Engine（M-FKE）で CoreDNS の設定を調整する方法を説明します。"
-sidebar_label: "CoreDNS 設定の調整"
+title: "Adjust CoreDNS Configuration in Kubernetes"
+description: "How to adjust CoreDNS configuration in FPT Managed Kubernetes Engine using a ConfigMap."
+sidebar_label: "Adjust CoreDNS Configuration in Kubernetes"
 sidebar_position: "44"
 ---
 
-# Điều chỉnh cấu hình CoreDNS trong Kubernetes
+# Adjust CoreDNS Configuration in Kubernetes
 
-FPT Managed Kubernetes Engine (M-FKE) sử dụng Coredns để quản lý và phân giải domain cho cluster. Thành phần Coredns được quản lý bởi FPT nên người dùng không thể thay đổi Corefile của Coredns. Bài hướng dẫn này chỉ ra cách mà người dùng có thể sử dụng configmap để điều chỉnh cấu hình CoreDNS mong muốn trong M-FKE.
-**Rewrite DNS:**
-Người dùng có thể điều chỉnh CoreDNS với M-FKE để thực hiện ghi đè DNS bằng cách cấu hình configmap _coredns-custom_ trong namespace _kube-system_ như sau:
+FPT Managed Kubernetes Engine (M-FKE) uses CoreDNS to manage and resolve domains for the cluster. Since CoreDNS is managed by FPT, users cannot modify the CoreDNS Corefile directly. This guide shows how to use a ConfigMap to adjust the desired CoreDNS configuration in M-FKE.
 
-```
+## Rewrite DNS
+
+You can configure CoreDNS in M-FKE to perform DNS rewriting by configuring the `coredns-custom` ConfigMap in the `kube-system` namespace as follows:
+
+```yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -31,12 +33,14 @@ data:
     }
 ```
 
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
-**Custom forward server:**
-Nếu người dùng cần chỉ định DNS server để phân giải domain trong cluster có thể cấu hình như sau:
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration for CoreDNS.
 
-```
-CopyapiVersion: v1
+## Custom forward server
+
+If you need to specify a DNS server to resolve domains in the cluster, configure as follows:
+
+```yaml
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: coredns-custom
@@ -49,13 +53,16 @@ data:
     }
 ```
 
-Trong đó 1.1.1.1 và 2.2.2.2 là dns server mà người dùng định nghĩa. "forward . 2.2.2.2" nghĩa là CoreDNS sẽ gửi yêu cầu phân giải domain *.com tới dns server 2.2.2.2
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
-**Custom domains:**
-Nếu người dùng muốn cấu hình custom domain mà chỉ có thể phân giải nội bộ cluster, ví dụ phân giải domain puglife.local (không phải là domain hợp lệ), nếu không cấu hình coredns-custom configmap, M-FKE cluster sẽ không thể phân giải domain đó. Người dùng có thể cấu hình như sau:
+Where 1.1.1.1 and 2.2.2.2 are DNS servers you define. `forward . 2.2.2.2` means CoreDNS will send resolution requests for *.com domains to DNS server 2.2.2.2.
 
-```
-CopyapiVersion: v1
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration.
+
+## Custom domains
+
+If you want to configure a custom domain that can only be resolved internally within the cluster (for example, resolving the domain `puglife.local`, which is not a valid public domain), without a `coredns-custom` ConfigMap the M-FKE cluster will not be able to resolve it. Configure as follows:
+
+```yaml
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: coredns-custom
@@ -69,12 +76,14 @@ data:
     }
 ```
 
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
-**Stub domain:**
-CoreDNS có thể sử dụng để cấu hình stub domain như sau và hãy đảm bảo cập nhật custom domain và địa chỉ IP đúng với giá trị trong môi trường hạ tầng của người dùng:
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration.
 
-```
-CopyapiVersion: v1
+## Stub domain
+
+CoreDNS can be configured with a stub domain as follows. Make sure to update the custom domain and IP address to match the values in your infrastructure environment:
+
+```yaml
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: coredns-custom
@@ -93,12 +102,14 @@ data:
     }
 ```
 
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
-**Hosts plugin:**
-Người dùng có thể sử dụng coreDNS để khai báo thêm bản ghi DNS bằng cách:
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration.
 
-```
-CopyapiVersion: v1
+## Hosts plugin
+
+You can use CoreDNS to add custom DNS records as follows:
+
+```yaml
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: coredns-custom # this is the name of the configmap you can overwrite with your changes
@@ -113,12 +124,14 @@ data:
           }
 ```
 
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
-**Enable DNS query logging:**
-Người dùng có thể sử dụng DNS logging để hỗ trợ debug phân giải domain trong coreDNS bằng cách thêm cấu hình vào trong configmap _custom-coredns_ trong namespace _kube-system_ như sau:
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration.
 
-```
-CopyapiVersion: v1
+## Enable DNS query logging
+
+You can use DNS logging to help debug domain resolution in CoreDNS by adding the following configuration to the `coredns-custom` ConfigMap in the `kube-system` namespace:
+
+```yaml
+apiVersion: v1
 kind: ConfigMap
 metadata:
   name: coredns-custom
@@ -128,4 +141,4 @@ data:
         log
 ```
 
-Sau đó người dùng thực hiện thao tác xóa 2 pod coredns trong namespace kube-system để reload cấu hình configmap cho coredns.
+After applying, delete the 2 CoreDNS pods in the `kube-system` namespace to reload the ConfigMap configuration.

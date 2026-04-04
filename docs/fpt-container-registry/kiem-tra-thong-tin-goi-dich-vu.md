@@ -1,25 +1,25 @@
 ---
 id: "kiem-tra-thong-tin-goi-dich-vu"
-title: "Kiểm tra thông tin gói dịch vụ"
-description: "Xem các gói Container Registry có thể kích hoạt trong phần Quota Detail trên FPT Portal."
-sidebar_label: "Kiểm tra thông tin gói dịch vụ"
+title: "Check service plan information"
+description: "View available Container Registry plans in the Quota Detail section on the FPT Portal."
+sidebar_label: "Check service plan information"
 sidebar_position: "4"
 ---
 
-# Kiểm tra thông tin gói dịch vụ
+# Check service plan information
 
-FPT Cloud cung cấp nhiều gói **Container Registry** với các mức storage và pull-limit khác nhau. Kiểm tra gói phù hợp trước khi kích hoạt để tránh vượt hạn mức trong quá trình sử dụng.
+FPT Cloud offers multiple **Container Registry** plans with different storage and pull-limit tiers. Check the appropriate plan before activating to avoid exceeding your quota during use.
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **View Details**.
+1. On the **FPT Portal** menu, select **Container Registry** > **View Details**.
 
-   [![Màn hình xem thông tin gói dịch vụ Container Registry](/img/migrated/Picture2-1-87bf3377.png)](/img/migrated/Picture2-1-87bf3377.png)
+   [![Container Registry service plan information screen](/img/migrated/Picture2-1-87bf3377.png)](/img/migrated/Picture2-1-87bf3377.png)
 
-2. Portal hiển thị danh sách các gói có thể sử dụng.
+2. The Portal displays a list of available plans.
 
-   [![Danh sách gói dịch vụ Container Registry](/img/migrated/Picture3-1-52fb78d5.png)](/img/migrated/Picture3-1-52fb78d5.png)
+   [![Container Registry service plan list](/img/migrated/Picture3-1-52fb78d5.png)](/img/migrated/Picture3-1-52fb78d5.png)
 
-Mặc định, bạn có thể kích hoạt gói **Basic**.
+By default, you can activate the **Basic** plan.
 
 :::note
-Nếu cần gói dịch vụ cao hơn, hãy liên hệ Sales để được hỗ trợ nâng gói.
+If you need a higher service plan, contact Sales for assistance with upgrading.
 :::

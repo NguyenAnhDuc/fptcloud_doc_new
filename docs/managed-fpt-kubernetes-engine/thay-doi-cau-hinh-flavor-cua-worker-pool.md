@@ -1,33 +1,39 @@
 ---
 id: "thay-doi-cau-hinh-flavor-cua-worker-pool"
-title: "ワーカープールのフレーバー設定変更"
-description: "MFKE サービスでワーカープールのフレーバー設定を変更する方法を説明します。"
-sidebar_label: "ワーカープールのフレーバー設定変更"
+title: "Change Worker Pool Flavor Configuration"
+description: "How to change the flavor configuration of a worker pool in Managed FPT Kubernetes Engine."
+sidebar_label: "Change Worker Pool Flavor Configuration"
 sidebar_position: "54"
 ---
 
-# Thay đổi cấu hình flavor của worker pool
+# Change Worker Pool Flavor Configuration
 
-Dịch vụ MFKE không cho phép update cấu hình flavor của worker trong worker pool một cách trực tiếp, thay vào đó người dùng cần tạo worker pool mới với cấu hình flavor mong muốn cho worker. Điều này đã được đề cập trong mục số 9 của tài liệu FAQs dịch vụ MFKE 
-**Cách thay đổi flavor của worker pool trong dịch vụ MFKE**
-**Bước 1: Tạo worker pool mới**
-  * Tạo một worker pool mới với cấu hình flavor mà bạn mong muốn.
-  * Đảm bảo các node trong pool mới đã hoạt động ổn định và tham gia vào cluster.
+The MFKE service does not support directly updating the flavor configuration of workers in an existing worker pool. Instead, you need to create a new worker pool with the desired flavor configuration. This is covered in item 9 of the MFKE service FAQs.
 
-**Bước 2: Sau khi tạo worker pool mới, người dùng cần chuyển ứng dụng từ worker pool có cấu hình flavor cũ sang worker pool có cấu hình flavor mới**
-Việc chuyển ứng dụng này người dùng có thể tham khảo một vài cách ví dụ như sau:
-Trường hợp 1: Ứng dụng được deploy sử dụng nodeSelector
-  1. Gán label của worker pool mới giống với worker pool cũ
-  2. Sau đó, xóa worker pool cũ khỏi cluster → Các pod của ứng dụng này sẽ được tạo mới ở trên worker pool mới. Đến khi pod ứng dụng được tạo mới thành công, các pod ứng dụng trên worker pool cũ sẽ xóa đi. Khi các ứng dụng trên worker pool cũ được evict hoàn toàn, các worker trong worker pool cũ sẽ bị drain và xóa bỏ khỏi cluster.
-Trường hợp 2: Ứng dụng không dùng nodeSelector
-  3. Chạy lệnh cordon để ngăn các node trong worker pool cũ nhận pod mới.
-  4. Sau đó, thực hiện rollout restart để khởi động lại các pod ứng dụng để các mới sẽ được khởi tạo sang worker pool mới, các pod trên worker cũ sẽ bị terminate đi
-  5. Sau khi các pod ứng dụng chuyển thành công hàn toàn sang worker pood mới, người dùng thực hiện xóa worker pool cũ trên portal
-Lưu ý quá trình cluster drain và xóa bỏ worker pool cũ có thể không được thực hiện thành công tự động hoàn toàn do một vài lý do như:
+## How to change the flavor of a worker pool in MFKE
 
-  * Ứng dụng dùng Pod Disruption Budget (PDB) – giới hạn số pod có thể bị xóa cùng lúc.
-  * Ứng dụng có sử dụng Persistent Volume Claim (PVC) dạng block.
-  * Trong các trường hợp trên, bạn cần chủ động kiểm tra và evict thủ công các pod chưa bị xóa, để đảm bảo ứng dụng chuyển hết sang worker pool mới.
-Khuyến nghị
-  * Nên thực hiện thay đổi này vào giờ thấp điểm để tránh ảnh hưởng đến người dùng thật.
-  * Theo dõi trạng thái pod và ứng dụng sau khi chuyển để đảm bảo mọi thứ hoạt động ổn định.
+**Step 1: Create a new worker pool**
+  * Create a new worker pool with the flavor configuration you want.
+  * Ensure the nodes in the new pool are stable and have joined the cluster.
+
+**Step 2: After creating the new worker pool, migrate applications from the old worker pool to the new one**
+
+You can migrate applications using one of the following approaches:
+
+**Case 1: Application is deployed using nodeSelector**
+  1. Assign the same label from the old worker pool to the new worker pool.
+  2. Delete the old worker pool from the cluster. The application pods will be recreated on the new worker pool. Once the new application pods are created successfully, the application pods on the old worker pool will be deleted. When all applications on the old worker pool are fully evicted, the workers in the old pool will be drained and removed from the cluster.
+
+**Case 2: Application does not use nodeSelector**
+  1. Run the cordon command to prevent nodes in the old worker pool from accepting new pods.
+  2. Perform a rollout restart to restart the application pods so new ones are created on the new worker pool, and old pods on the old workers are terminated.
+  3. After the application pods have fully migrated to the new worker pool, delete the old worker pool from the portal.
+
+**Note:** The cluster drain and deletion of the old worker pool process may not complete automatically in some cases, such as:
+  * The application uses Pod Disruption Budget (PDB), which limits the number of pods that can be deleted at once.
+  * The application uses block Persistent Volume Claims (PVC).
+  * In these cases, you need to manually check and evict any remaining pods to ensure all applications have migrated to the new worker pool.
+
+**Recommendations:**
+  * Perform this change during off-peak hours to minimize impact on real users.
+  * Monitor pod and application status after migration to ensure everything is stable.

@@ -1,18 +1,17 @@
 ---
 id: "how-to-monitor-and-evaluate"
 title: "How To Monitor And Evaluate"
-description: "Model Fine-tuning cung cấp các số liệu và nhật ký để giúp bạn theo dõi và khắc phục sự cố khối lượng công việc."
-sidebar_label: "How To Monitor And..."
+description: "Model Fine-tuning provides metrics and logs to help you monitor and troubleshoot your workloads. To view your logs and m"
+sidebar_label: "How To Monitor And Evaluate"
 sidebar_position: "24"
 ---
 
 # How To Monitor And Evaluate
 
-Model Fine-tuning cung cấp các số liệu và nhật ký để giúp bạn theo dõi và khắc phục sự cố khối lượng công việc. Để xem nhật ký và số liệu của bạn:
+Model Fine-tuning provides metrics and logs to help you monitor and troubleshoot your workloads. To view your logs and metrics:
+  1. Open the **Pipeline list**
+  2. Open the **Execution history** , by clicking **Pipeline name** in the **Name** column.
+  3. Open the **Execution details** , by clicking **Execution name** in the **Name** column.
+  4. Navigate to **Model metrics** , **System metrics** or **Logs**.
 
-1. Mở **Danh sách Pipeline**
-2. Mở **Execution history** bằng cách nhấp vào **Tên pipeline** trong cột **Name**.
-3. Mở **Execution details** bằng cách nhấp vào **Tên execution** trong cột **Name**.
-4. Điều hướng đến **Model metrics**, **System metrics** hoặc **Logs**.
-
-Điều này cung cấp cho bạn các số liệu model và nhật ký, giúp dễ dàng theo dõi hoạt động của quá trình thực thi hoặc chẩn đoán sự cố.
+This gives you model metrics and logs, making it easy to monitor your execution's activity or diagnose issues.

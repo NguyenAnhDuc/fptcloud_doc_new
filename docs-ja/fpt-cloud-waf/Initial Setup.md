@@ -1,8 +1,8 @@
 ---
 id: "Initial Setup"
-title: "Thiết lập ban đầu"
+title: "初期設定"
 description: "Các bước cần thực hiện trước khi bắt đầu sử dụng FPT Cloud WAF lần đầu tiên."
-sidebar_label: "Thiết lập ban đầu"
+sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 

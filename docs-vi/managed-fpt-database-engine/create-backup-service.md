@@ -1,8 +1,8 @@
 ---
 id: "create-backup-service"
-title: "バックアップサービスの作成"
-description: "FPT Smart Cloud Database Engine のバックアップサービスとジョブの作成手順。"
-sidebar_label: "バックアップサービスの作成"
+title: "Create backup service"
+description: "Steps to create a backup service and backup jobs for FPT Smart Cloud Database Engine."
+sidebar_label: "Create backup service"
 sidebar_position: "12"
 ---
 

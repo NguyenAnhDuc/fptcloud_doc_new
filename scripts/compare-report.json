@@ -2,15 +2,15 @@
   "vi": {
     "total": {
       "crawled": 928,
-      "sidebar": 1516
+      "sidebar": 1503
     },
-    "matched": 763,
+    "matched": 762,
     "methods": {
-      "exact-slug": 661,
+      "exact-slug": 657,
       "fuzzy-label(75%)": 3,
-      "normalized-label": 76,
-      "fuzzy-label(60%)": 9,
-      "case-insensitive-slug": 4,
+      "normalized-label": 79,
+      "fuzzy-label(60%)": 10,
+      "case-insensitive-slug": 3,
       "fuzzy-label(91%)": 1,
       "fuzzy-label(86%)": 2,
       "fuzzy-label(71%)": 1,
@@ -18,8 +18,8 @@
       "fuzzy-label(83%)": 1,
       "fuzzy-label(73%)": 1
     },
-    "missing": 165,
-    "extra": 753,
+    "missing": 166,
+    "extra": 741,
     "missingPages": [
       {
         "slug": "global-search-phase-1",
@@ -241,6 +241,14 @@
         "slug": "xoa user groups",
         "label": "Xóa User Groups",
         "normalizedLabel": "xoa user groups",
+        "module": "IAM",
+        "moduleSlug": "iam",
+        "category": "FPT Security"
+      },
+      {
+        "slug": "iam-user-management",
+        "label": "Quản lý IAM User",
+        "normalizedLabel": "quan ly iam user",
         "module": "IAM",
         "moduleSlug": "iam",
         "category": "FPT Security"
@@ -2148,12 +2156,6 @@
         "folder": "managed-fpt-kubernetes-engine"
       },
       {
-        "slug": "initial-setup",
-        "fullId": "managed-fpt-kubernetes-engine/initial-setup",
-        "label": "Initial setup",
-        "folder": "managed-fpt-kubernetes-engine"
-      },
-      {
         "slug": "create-new-k8s-cluster",
         "fullId": "managed-fpt-kubernetes-engine/create-new-k8s-cluster",
         "label": "Create a new Kubernetes cluster",
@@ -2319,12 +2321,6 @@
         "slug": "fpt-container-registry",
         "fullId": "fpt-container-registry/fpt-container-registry",
         "label": "FPT Container Registry",
-        "folder": "fpt-container-registry"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-container-registry/initial-setup",
-        "label": "Initial Setup",
         "folder": "fpt-container-registry"
       },
       {
@@ -2892,36 +2888,6 @@
         "folder": "iam"
       },
       {
-        "slug": "overview-iam-user",
-        "fullId": "iam/overview-iam-user",
-        "label": "IAM User overview",
-        "folder": "iam"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "iam/initial-setup",
-        "label": "初期設定",
-        "folder": "iam"
-      },
-      {
-        "slug": "manage-user-groups",
-        "fullId": "iam/manage-user-groups",
-        "label": "User Group management",
-        "folder": "iam"
-      },
-      {
-        "slug": "user-group-overview",
-        "fullId": "iam/user-group-overview",
-        "label": "User Group概要",
-        "folder": "iam"
-      },
-      {
-        "slug": "Manage IAM Users",
-        "fullId": "iam/Manage IAM Users",
-        "label": "IAM",
-        "folder": "iam"
-      },
-      {
         "slug": "overview",
         "fullId": "fpt-cloud-wapples/overview",
         "label": "Tổng quan",
@@ -2949,12 +2915,6 @@
         "slug": "fpt-cloud-waf",
         "fullId": "fpt-cloud-waf/fpt-cloud-waf",
         "label": "FPT Cloud WAF",
-        "folder": "fpt-cloud-waf"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-cloud-waf/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-cloud-waf"
       },
       {
@@ -3405,12 +3365,6 @@
         "slug": "Initial-Setup",
         "fullId": "fpt-key-vault/Initial-Setup",
         "label": "Initial Setup",
-        "folder": "fpt-key-vault"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-key-vault/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-key-vault"
       },
       {
@@ -3921,12 +3875,6 @@
         "slug": "delete-acls",
         "fullId": "fpt-kafka/delete-acls",
         "label": "Xóa ACL",
-        "folder": "fpt-kafka"
-      },
-      {
-        "slug": "manage-consumer-groups",
-        "fullId": "fpt-kafka/manage-consumer-groups",
-        "label": "Quản lý consumer group",
         "folder": "fpt-kafka"
       },
       {
@@ -5112,18 +5060,6 @@
         "folder": "model-fine-tuning"
       },
       {
-        "slug": "view-pipeline-settings",
-        "fullId": "model-fine-tuning/view-pipeline-settings",
-        "label": "モデルの微調整",
-        "folder": "model-fine-tuning"
-      },
-      {
-        "slug": "audit-logs",
-        "fullId": "model-fine-tuning/audit-logs",
-        "label": "モデルの微調整",
-        "folder": "model-fine-tuning"
-      },
-      {
         "slug": "set-up-hyperparameters",
         "fullId": "model-fine-tuning/set-up-hyperparameters",
         "label": "Set Up Hyperparameters",
@@ -5866,19 +5802,19 @@
   "en": {
     "total": {
       "crawled": 928,
-      "sidebar": 1562
+      "sidebar": 1552
     },
     "matched": 682,
     "methods": {
-      "exact-slug": 663,
-      "normalized-label": 6,
+      "exact-slug": 661,
+      "normalized-label": 8,
       "fuzzy-label(60%)": 3,
       "fuzzy-label(67%)": 4,
       "fuzzy-label(75%)": 3,
       "case-insensitive-slug": 3
     },
     "missing": 246,
-    "extra": 880,
+    "extra": 870,
     "missingPages": [
       {
         "slug": "overview-fcd",
@@ -8565,12 +8501,6 @@
         "folder": "load-balancer"
       },
       {
-        "slug": "initial-setup",
-        "fullId": "load-balancer/initial-setup",
-        "label": "Initial setup",
-        "folder": "load-balancer"
-      },
-      {
         "slug": "create-load-balancer",
         "fullId": "load-balancer/create-load-balancer",
         "label": "Create a Load Balancer",
@@ -8665,12 +8595,6 @@
         "fullId": "load-balancer/classic-import-ssl-certificate",
         "label": "Import SSL certificate (Classic)",
         "folder": "load-balancer"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "create-vpc/initial-setup",
-        "label": "Thiết lập ban đầu",
-        "folder": "create-vpc"
       },
       {
         "slug": "initial-setup-en",
@@ -9645,18 +9569,6 @@
         "folder": "metal-cloud-ja"
       },
       {
-        "slug": "initial-setup",
-        "fullId": "iam/initial-setup",
-        "label": "Initial setup",
-        "folder": "iam"
-      },
-      {
-        "slug": "role-overview",
-        "fullId": "iam/role-overview",
-        "label": "Role overview",
-        "folder": "iam"
-      },
-      {
         "slug": "view-role-list",
         "fullId": "iam/view-role-list",
         "label": "View role list",
@@ -9687,12 +9599,6 @@
         "folder": "iam"
       },
       {
-        "slug": "manage-user-groups",
-        "fullId": "iam/manage-user-groups",
-        "label": "User Group management",
-        "folder": "iam"
-      },
-      {
         "slug": "user-group-overview",
         "fullId": "iam/user-group-overview",
         "label": "User Group概要",
@@ -9720,12 +9626,6 @@
         "slug": "delete-user-group",
         "fullId": "iam/delete-user-group",
         "label": "Delete a User Group",
-        "folder": "iam"
-      },
-      {
-        "slug": "Manage IAM Users",
-        "fullId": "iam/Manage IAM Users",
-        "label": "IAM",
         "folder": "iam"
       },
       {
@@ -9792,12 +9692,6 @@
         "slug": "fpt-cloud-waf",
         "fullId": "fpt-cloud-waf/fpt-cloud-waf",
         "label": "FPT Cloud WAF",
-        "folder": "fpt-cloud-waf"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-cloud-waf/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-cloud-waf"
       },
       {
@@ -10386,12 +10280,6 @@
         "slug": "Initial-Setup",
         "fullId": "fpt-key-vault/Initial-Setup",
         "label": "Initial Setup",
-        "folder": "fpt-key-vault"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-key-vault/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-key-vault"
       },
       {
@@ -12369,18 +12257,6 @@
         "folder": "model-fine-tuning"
       },
       {
-        "slug": "view-pipeline-settings",
-        "fullId": "model-fine-tuning/view-pipeline-settings",
-        "label": "モデルの微調整",
-        "folder": "model-fine-tuning"
-      },
-      {
-        "slug": "audit-logs",
-        "fullId": "model-fine-tuning/audit-logs",
-        "label": "モデルの微調整",
-        "folder": "model-fine-tuning"
-      },
-      {
         "slug": "set-up-hyperparameters",
         "fullId": "model-fine-tuning/set-up-hyperparameters",
         "label": "Set Up Hyperparameters",
@@ -13135,18 +13011,18 @@
   "ja": {
     "total": {
       "crawled": 928,
-      "sidebar": 1496
+      "sidebar": 1482
     },
-    "matched": 697,
+    "matched": 695,
     "methods": {
-      "exact-slug": 674,
+      "exact-slug": 671,
       "fuzzy-label(60%)": 3,
-      "normalized-label": 14,
+      "normalized-label": 15,
       "fuzzy-label(67%)": 3,
       "case-insensitive-slug": 3
     },
-    "missing": 231,
-    "extra": 798,
+    "missing": 233,
+    "extra": 786,
     "missingPages": [
       {
         "slug": "global-search-phase-1",
@@ -13544,6 +13420,14 @@
         "slug": "xoa user groups",
         "label": "Xóa User Groups",
         "normalizedLabel": "xoa user groups",
+        "module": "IAM",
+        "moduleSlug": "iam",
+        "category": "FPT Security"
+      },
+      {
+        "slug": "iam-user-management",
+        "label": "Quản lý IAM User",
+        "normalizedLabel": "quan ly iam user",
         "module": "IAM",
         "moduleSlug": "iam",
         "category": "FPT Security"
@@ -14091,6 +13975,14 @@
         "module": "FPT API Management",
         "moduleSlug": "fpt-api-management",
         "category": "FPT Integration"
+      },
+      {
+        "slug": "user-group-management",
+        "label": "Quản lý User Group",
+        "normalizedLabel": "quan ly user group",
+        "module": "Managed - FPT Database Engines",
+        "moduleSlug": "managed-fpt-database-engines-new",
+        "category": "FPT Database Engine"
       },
       {
         "slug": "truy-cap-giao-dien-quan-tri",
@@ -15587,12 +15479,6 @@
         "folder": "load-balancer"
       },
       {
-        "slug": "initial-setup",
-        "fullId": "load-balancer/initial-setup",
-        "label": "初期設定",
-        "folder": "load-balancer"
-      },
-      {
         "slug": "create-load-balancer",
         "fullId": "load-balancer/create-load-balancer",
         "label": "ロードバランサーの作成",
@@ -15938,12 +15824,6 @@
         "slug": "fpt-container-registry",
         "fullId": "fpt-container-registry/fpt-container-registry",
         "label": "FPT Container Registry",
-        "folder": "fpt-container-registry"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-container-registry/initial-setup",
-        "label": "初期セットアップ",
         "folder": "fpt-container-registry"
       },
       {
@@ -16469,12 +16349,6 @@
         "folder": "metal-cloud-ja"
       },
       {
-        "slug": "initial-setup",
-        "fullId": "iam/initial-setup",
-        "label": "初期設定",
-        "folder": "iam"
-      },
-      {
         "slug": "view-role-list",
         "fullId": "iam/view-role-list",
         "label": "Role一覧の表示",
@@ -16505,18 +16379,6 @@
         "folder": "iam"
       },
       {
-        "slug": "manage-user-groups",
-        "fullId": "iam/manage-user-groups",
-        "label": "User Group management",
-        "folder": "iam"
-      },
-      {
-        "slug": "user-group-overview",
-        "fullId": "iam/user-group-overview",
-        "label": "User Group概要",
-        "folder": "iam"
-      },
-      {
         "slug": "create-user-group",
         "fullId": "iam/create-user-group",
         "label": "新しいUser Groupの作成",
@@ -16538,18 +16400,6 @@
         "slug": "delete-user-group",
         "fullId": "iam/delete-user-group",
         "label": "User Groupの削除",
-        "folder": "iam"
-      },
-      {
-        "slug": "Manage IAM Users",
-        "fullId": "iam/Manage IAM Users",
-        "label": "IAM",
-        "folder": "iam"
-      },
-      {
-        "slug": "iam-user-overview",
-        "fullId": "iam/iam-user-overview",
-        "label": "IAM User概要",
         "folder": "iam"
       },
       {
@@ -16583,12 +16433,6 @@
         "folder": "iam"
       },
       {
-        "slug": "overview-ip-access",
-        "fullId": "iam/overview-ip-access",
-        "label": "IP Access overview",
-        "folder": "iam"
-      },
-      {
         "slug": "create-ip",
         "fullId": "iam/create-ip",
         "label": "新しいIP Accessレコードの作成",
@@ -16610,12 +16454,6 @@
         "slug": "fpt-cloud-waf",
         "fullId": "fpt-cloud-waf/fpt-cloud-waf",
         "label": "FPT Cloud WAF",
-        "folder": "fpt-cloud-waf"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-cloud-waf/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-cloud-waf"
       },
       {
@@ -17174,12 +17012,6 @@
         "slug": "Initial-Setup",
         "fullId": "fpt-key-vault/Initial-Setup",
         "label": "Initial Setup",
-        "folder": "fpt-key-vault"
-      },
-      {
-        "slug": "initial-setup",
-        "fullId": "fpt-key-vault/initial-setup",
-        "label": "初期設定",
         "folder": "fpt-key-vault"
       },
       {
@@ -19058,18 +18890,6 @@
         "slug": "select-dataset",
         "fullId": "model-fine-tuning/select-dataset",
         "label": "Select Dataset",
-        "folder": "model-fine-tuning"
-      },
-      {
-        "slug": "view-pipeline-settings",
-        "fullId": "model-fine-tuning/view-pipeline-settings",
-        "label": "モデルの微調整",
-        "folder": "model-fine-tuning"
-      },
-      {
-        "slug": "audit-logs",
-        "fullId": "model-fine-tuning/audit-logs",
-        "label": "モデルの微調整",
         "folder": "model-fine-tuning"
       },
       {

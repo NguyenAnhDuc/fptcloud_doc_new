@@ -1,8 +1,8 @@
 ---
 id: "migrate-bucket-data"
-title: "tương thích với AWS S3"
+title: "Migrate Bucket Data"
 description: "FPT Object Storage được phát triển theo chuẩn **tương thích với AWS S3** , cho phép người dùng dễ dàng **chuyển dữ liệu*"
-sidebar_label: "tương thích với AWS S3"
+sidebar_label: "Migrate Bucket Data"
 sidebar_position: "14"
 ---
 

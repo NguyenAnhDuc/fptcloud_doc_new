@@ -1,8 +1,8 @@
 ---
 id: "view-list-model-2"
-title: "model 一覧の表示"
-description: "各 model カードには以下が表示されます："
-sidebar_label: "model 一覧の表示"
+title: "View List Model 2"
+description: "Each model card shows:"
+sidebar_label: "View List Model 2"
 sidebar_position: "13"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "manage-proxy-host"
-title: "Proxy hostの管理"
+title: "Manage Proxy Host"
 description: "WAF DashboardにおけるProxy hostの管理概要です。作成、表示、更新、有効化/無効化、削除が含まれます。"
-sidebar_label: "Proxy hostの管理"
+sidebar_label: "Manage Proxy Host"
 sidebar_position: "11"
 ---
 

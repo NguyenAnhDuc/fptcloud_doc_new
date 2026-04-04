@@ -1,8 +1,8 @@
 ---
 id: "select-volume"
-title: "Select Volume"
-description: "Chọn loại volume phù hợp để đảm bảo hiệu suất tối ưu và phân bổ tài nguyên trong quá trình fine-tuning."
-sidebar_label: "Select Volume"
+title: "Volume の選択"
+description: "fine-tuning 中の最適なパフォーマンスとリソース割り当てを確保するために適切な volume タイプを選択します。"
+sidebar_label: "Volume の選択"
 sidebar_position: "11"
 ---
 

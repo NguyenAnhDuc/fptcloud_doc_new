@@ -1,59 +1,59 @@
 ---
 id: "quan-ly-tag-retention-rule"
-title: "Quản lý tag retention rule"
-description: "Chỉnh sửa, bật, tắt và xóa tag retention rule đã tạo."
-sidebar_label: "Quản lý tag retention rule"
+title: "Manage tag retention rules"
+description: "Edit, enable, disable, and delete existing tag retention rules."
+sidebar_label: "Manage tag retention rules"
 sidebar_position: "15"
 ---
 
-# Quản lý tag retention rule
+# Manage tag retention rules
 
-Sau khi tạo tag retention rule, bạn có thể chỉnh sửa, tạm tắt hoặc xóa quy tắc khi nhu cầu thay đổi. FPT Cloud hỗ trợ đầy đủ các thao tác quản lý qua giao diện Portal.
+After creating a tag retention rule, you can edit, temporarily disable, or delete it as your requirements change. FPT Cloud supports all management operations through the Portal interface.
 
-## Cập nhật tag retention rule
+## Update a tag retention rule
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > chọn tag retention rule muốn cập nhật > **Actions** > **Edit**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Policy** > select the tag retention rule to update > **Actions** > **Edit**.
 
-   [![Chọn Edit trong Actions](/img/migrated/Picture34-1-011e1b7c.png)](/img/migrated/Picture34-1-011e1b7c.png)
+   [![Select Edit in Actions](/img/migrated/Picture34-1-011e1b7c.png)](/img/migrated/Picture34-1-011e1b7c.png)
 
-2. Cập nhật thông tin cấu hình retention rule.
+2. Update the retention rule configuration.
 
-   [![Form chỉnh sửa retention rule](/img/migrated/Picture35-1-86268cbd.png)](/img/migrated/Picture35-1-86268cbd.png)
+   [![Retention rule edit form](/img/migrated/Picture35-1-86268cbd.png)](/img/migrated/Picture35-1-86268cbd.png)
 
-3. Kiểm tra kết quả sau khi cập nhật.
+3. Verify the result after updating.
 
-   [![Kết quả sau khi cập nhật retention rule](/img/migrated/Picture36-1-de8e7ba1.png)](/img/migrated/Picture36-1-de8e7ba1.png)
+   [![Result after updating retention rule](/img/migrated/Picture36-1-de8e7ba1.png)](/img/migrated/Picture36-1-de8e7ba1.png)
 
-## Tắt tag retention rule
+## Disable a tag retention rule
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > chọn tag retention rule muốn tắt > **Actions** > **Disable**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Policy** > select the tag retention rule to disable > **Actions** > **Disable**.
 
-   [![Chọn Disable trong Actions](/img/migrated/Picture37-24e9ec98.png)](/img/migrated/Picture37-24e9ec98.png)
+   [![Select Disable in Actions](/img/migrated/Picture37-24e9ec98.png)](/img/migrated/Picture37-24e9ec98.png)
 
-2. Kiểm tra trạng thái sau khi tắt.
+2. Verify the status after disabling.
 
-   [![Trạng thái disabled của retention rule](/img/migrated/Picture38-1-1c93acbf.png)](/img/migrated/Picture38-1-1c93acbf.png)
+   [![Disabled state of retention rule](/img/migrated/Picture38-1-1c93acbf.png)](/img/migrated/Picture38-1-1c93acbf.png)
 
-## Bật lại tag retention rule
+## Enable a tag retention rule
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > chọn tag retention rule muốn bật > **Actions** > **Enable**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Policy** > select the tag retention rule to enable > **Actions** > **Enable**.
 
-   [![Chọn Enable trong Actions](/img/migrated/Picture39-1-7345b6d1.png)](/img/migrated/Picture39-1-7345b6d1.png)
+   [![Select Enable in Actions](/img/migrated/Picture39-1-7345b6d1.png)](/img/migrated/Picture39-1-7345b6d1.png)
 
-2. Kiểm tra trạng thái sau khi bật.
+2. Verify the status after enabling.
 
-   [![Trạng thái enabled của retention rule](/img/migrated/Picture40-1-d3963172.png)](/img/migrated/Picture40-1-d3963172.png)
+   [![Enabled state of retention rule](/img/migrated/Picture40-1-d3963172.png)](/img/migrated/Picture40-1-d3963172.png)
 
-## Xóa tag retention rule
+## Delete a tag retention rule
 
 :::danger
-Xóa tag retention rule không thể hoàn tác. Các quy tắc đã xóa sẽ không còn được áp dụng cho các lần chạy tiếp theo.
+Deleting a tag retention rule cannot be undone. Deleted rules will no longer be applied to subsequent runs.
 :::
 
-1. Trên menu **FPT Portal**, chọn **Container Registry** > **Policy** > chọn tag retention rule muốn xóa > **Actions** > **Delete**.
+1. On the **FPT Portal** menu, select **Container Registry** > **Policy** > select the tag retention rule to delete > **Actions** > **Delete**.
 
-   [![Chọn Delete trong Actions](/img/migrated/Picture41-1-1a763d9c.png)](/img/migrated/Picture41-1-1a763d9c.png)
+   [![Select Delete in Actions](/img/migrated/Picture41-1-1a763d9c.png)](/img/migrated/Picture41-1-1a763d9c.png)
 
-2. Kiểm tra kết quả sau khi xóa.
+2. Verify the result after deleting.
 
-   [![Kết quả sau khi xóa retention rule](/img/migrated/Picture42-1-004f9073.png)](/img/migrated/Picture42-1-004f9073.png)
+   [![Result after deleting retention rule](/img/migrated/Picture42-1-004f9073.png)](/img/migrated/Picture42-1-004f9073.png)

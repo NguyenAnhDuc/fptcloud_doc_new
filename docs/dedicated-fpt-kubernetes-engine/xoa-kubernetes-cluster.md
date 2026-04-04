@@ -1,23 +1,23 @@
 ---
 id: "xoa-kubernetes-cluster"
-title: "Kubernetes クラスターの削除"
-description: "不要になったKubernetes クラスターを削除する方法を説明します。"
-sidebar_label: "クラスターの削除"
+title: "Delete a Kubernetes cluster"
+description: "How to delete an unwanted Kubernetes cluster in Dedicated FPT Kubernetes Engine."
+sidebar_label: "Delete a Kubernetes cluster"
 sidebar_position: "8"
 ---
 
-# Kubernetes クラスターの削除
+# Delete a Kubernetes cluster
 
-不要になった **Kubernetes Cluster** を削除するには、以下の手順に従ってください。
+To delete an unwanted **Kubernetes cluster**, follow these steps.
 
-**手順 1**: メニューで **Kubernetes** を選択します。**Kubernetes Management** ページが表示されます。
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears.
 
 [![](/img/migrated/Picture20-fd3e80d4.png)](/img/migrated/Picture20-fd3e80d4.png)
 
-**手順 2**: 一覧から削除したい **Cluster** の末尾にある **Action** を選択し、**Delete** を選択します。
+**Step 2:** In the list, select **Action** at the end of the cluster you want to delete, then choose **Delete**.
 
 [![](/img/migrated/Picture21-00e9137c.png)](/img/migrated/Picture21-00e9137c.png)
 
-**手順 3**: ポップアップの警告情報を確認し、**Delete** を選択します。
+**Step 3:** Review the warning information in the pop-up, then click **Delete**.
 
 [![](/img/migrated/Picture22-42e61e85.png)](/img/migrated/Picture22-42e61e85.png)

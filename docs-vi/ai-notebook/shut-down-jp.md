@@ -1,41 +1,41 @@
 ---
 id: "shut-down-jp"
-title: "Kernelのシャットダウン"
-description: "リソースを節約するために実行中のKernelをシャットダウンする方法。"
-sidebar_label: "Kernelのシャットダウン"
+title: "Tắt kernel"
+description: "Tắt các kernel đang chạy để tiết kiệm tài nguyên."
+sidebar_label: "Tắt kernel"
 sidebar_position: "7"
 ---
 
-# Kernelのシャットダウン
+# Tắt kernel
 
-**ステップ1:** ナビゲーションバーから「**実行中のカーネル/ノートブック**」オプション（上から2番目のアイコン）を選択します。
+**Bước 1:** Từ thanh điều hướng, chọn tùy chọn **Running Kernels/Notebooks** (biểu tượng thứ hai từ trên xuống).
 
-[![実行中のカーネル/ノートブックナビゲーション画面](/img/migrated/Screenshot-2025-11-04-at-13.33.53-e1094d92.png)](/img/migrated/Screenshot-2025-11-04-at-13.33.53-e1094d92.png)
+[![Biểu tượng Running Kernels/Notebooks trong thanh điều hướng JupyterLab](/img/migrated/Screenshot-2025-11-04-at-13.33.53-e1094d92.png)](/img/migrated/Screenshot-2025-11-04-at-13.33.53-e1094d92.png)
 
-## (1) 実行中のGPUカーネル一覧表
+## (1) Bảng GPU kernel đang chạy
 
-ラボ内で現在**実行中のすべてのGPUカーネル**の情報を表示します。
+Hiển thị thông tin về tất cả **GPU kernel đang chạy** trong lab của bạn.
 
-| **フィールド** | **説明** |
+| **Trường** | **Mô tả** |
 | --- | --- |
-| **名前** | GPUカーネルの一意の識別子 |
-| **作成時刻** | GPUカーネルが開始された日時 |
-| **アクション** | 利用可能なアクション: **すべてをシャットダウン** — ラボ内のすべての実行中のカーネルを終了します。終了後、カーネルは**カーネル履歴**セクションに表示されます。**シャットダウン** — 選択したカーネルのみを終了します。終了したカーネルは**カーネル履歴**セクションに表示されます。 |
+| **Name** | Mã định danh duy nhất của GPU kernel |
+| **Created At** | Ngày và giờ GPU kernel bắt đầu |
+| **Action** | Các hành động có thể thực hiện: **Shut Down All** — kết thúc tất cả kernel đang chạy trong lab. Sau khi kết thúc, các kernel sẽ hiển thị trong phần **Kernel History**. **Shut Down** — chỉ kết thúc kernel đã chọn. Kernel đã kết thúc sẽ hiển thị trong phần **Kernel History**. |
 
-## (2) カーネル履歴テーブル
+## (2) Bảng lịch sử kernel
 
-**終了したすべてのGPUカーネル**の情報を表示します。このテーブルは、使用時間の確認や**AI Factory Portal**の課金データとの照合に役立ちます。
+Hiển thị thông tin về tất cả **GPU kernel đã kết thúc**. Bảng này giúp bạn xác minh thời gian sử dụng kernel và đối chiếu với dữ liệu thanh toán trên **AI Factory Portal**.
 
-| **フィールド** | **説明** |
+| **Trường** | **Mô tả** |
 | --- | --- |
-| **名前** | GPUカーネルの一意の識別子 |
-| **作成日時** | GPUカーネルが開始された日時 |
-| **実行時間** | GPUカーネルの総実行時間 |
+| **Name** | Mã định danh duy nhất của GPU kernel |
+| **Created At** | Ngày và giờ GPU kernel bắt đầu |
+| **Duration** | Tổng thời gian chạy của GPU kernel |
 
-## 請求照合
+## Đối chiếu thanh toán
 
 :::note
-AI Factoryの請求情報に表示されるGPU実行時間と、AIノートブックのカーネル履歴テーブルの「実行時間」列との間に、わずかな差異（1〜10秒）が生じる場合があります。この小さな差異は、内部サービス間の通常の同期遅延によるものであり、想定内のものです。
+Bạn có thể nhận thấy sự chênh lệch nhỏ (thường 1–10 giây) giữa thời gian chạy GPU hiển thị trong **AI Factory Billing** và cột **Duration** trong bảng **Kernel History** của AI Notebook. Sự khác biệt nhỏ này là bình thường và xảy ra do độ trễ đồng bộ hóa giữa các dịch vụ nội bộ.
 :::
 
-[![課金照合画面](/img/migrated/Screenshot-2025-11-04-at-14.12.39-28c73e36.png)](/img/migrated/Screenshot-2025-11-04-at-14.12.39-28c73e36.png)
+[![Bảng lịch sử kernel hiển thị thời gian và dữ liệu đối chiếu thanh toán](/img/migrated/Screenshot-2025-11-04-at-14.12.39-28c73e36.png)](/img/migrated/Screenshot-2025-11-04-at-14.12.39-28c73e36.png)

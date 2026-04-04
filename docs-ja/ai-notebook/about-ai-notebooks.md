@@ -1,24 +1,24 @@
 ---
 id: "about-ai-notebooks"
-title: "Giới thiệu AI Notebooks"
-description: "Tổng quan về AI Notebooks — môi trường phát triển dựa trên Jupyter trên FPT AI Factory."
-sidebar_label: "Giới thiệu AI Notebooks"
+title: "AI Notebookについて"
+description: "FPT AI Factory上で動作するJupyterベースの開発環境、AI Notebookの概要。"
+sidebar_label: "AI Notebookについて"
 sidebar_position: "2"
 ---
 
-# Giới thiệu AI Notebooks
+# AI Notebookについて
 
-## AI Notebooks là gì?
+## AI Notebookとは？
 
-AI Notebooks là môi trường phát triển dựa trên Jupyter, chạy trên hạ tầng FPT AI Factory. Chỉ với một cú nhấp, bạn có thể khởi chạy máy chủ notebook được cấu hình sẵn với tài nguyên GPU/CPU và bộ nhớ lưu trữ bền vững.
+AI NotebookはFPTのAI Factoryインフラストラクチャ上で動作するJupyterベースの開発環境です。ワンクリックで、GPU/CPUリソースと永続ストレージを備えた事前設定済みのノートブックサーバーを起動できます。
 
-## Cách hoạt động
+## 仕組み
 
-Mỗi AI Notebook chạy trong một môi trường container độc lập, kết nối với hạ tầng GPU/CPU của FPT. JupyterLab được dùng làm giao diện chính để viết, chạy và trực quan hóa code trên trình duyệt.
+各AI Notebookは、FPTのGPU/CPUインフラストラクチャに接続された分離されたコンテナ化環境で実行されます。ブラウザ内でコードを記述、実行、可視化するメインインターフェースとしてJupyterLabが使用されます。
 
-## Tại sao nên dùng AI Notebooks?
+## なぜAI Notebookなのか？
 
-  1. **Triển khai 1 cú nhấp:** Khởi chạy môi trường sẵn dùng mà không cần thiết lập thủ công.
-  2. **Tăng tốc bằng GPU:** Sử dụng NVIDIA H100 (80GB VRAM) cho các tác vụ huấn luyện và suy luận đòi hỏi tính toán cao.
-  3. **Không gian làm việc bền vững:** Lưu trữ dữ liệu, mô hình và kết quả thử nghiệm có sẵn qua các phiên làm việc.
-  4. **Giá chi tiết:** Tài nguyên được tính phí dựa trên mức sử dụng thực tế (CPU, GPU, storage).
+1. **ワンクリックデプロイ:** 手動設定なしで即使用可能な環境を起動。
+2. **GPU加速:** 計算負荷の高いトレーニングと推論にNVIDIA H100（80GB VRAM）を活用。
+3. **永続ワークスペース:** データセット、モデル、実験結果を保存し、セッションをまたいで利用可能。
+4. **細分化された課金:** リソースは実際の使用量（CPU、GPU、ストレージ）に基づいて課金されます。

@@ -1,52 +1,52 @@
 ---
 id: "manage-access-keys"
-title: "access key の管理"
-description: "FPT Object Storage での Admin access key および SubUser access key の管理手順です。"
-sidebar_label: "access key の管理"
-sidebar_position: "9"
+title: "Manage Access Keys"
+description: "How to manage Admin access keys and SubUser access keys in FPT Object Storage."
+sidebar_label: "Manage Access Keys"
+sidebar_position: 9
 ---
 
-# access key の管理
+# Manage Access Keys
 
-access key と Secret Key のペアは FPT Object Storage サービスの基本的な認証方式です。SDK、API、S3 Client などのポータル以外の方法で bucket を使用するには、以下の情報が必要です。
+The access key and Secret Key pair is the primary authentication method for the FPT Object Storage service. To use the bucket through methods other than the portal — such as SDK, API, or S3 Client — you need the following information:
 
 - access key
 - Secret Key
 - endpoint
-- Region（オプション）
+- Region (optional)
 
-これらの情報はすべて FPT Unify Portal で提供されます。
+All of this information is provided in the FPT Unify Portal.
 
-この情報は大切に保管してください。Access Key タブで作成された access key はすべて Admin 権限を持つキーです。この情報が漏洩した場合、bucket 内のすべてのデータが失われる可能性があります。複数のユーザーで bucket へのアクセスを共有したり、安全でないアプリケーションにキーを保存したりする必要がある場合は、アクセスが制限された SubUser を作成し、SubUser の access key を使用してください。
+Store this information carefully. Access keys created in the Access Key tab all have Admin-level permissions. If this information is exposed, you risk losing all data in your buckets. If you need to share bucket access with multiple users or store keys in an insecure application, create SubUsers with limited access and use SubUser access keys instead.
 
-キーが漏洩した疑いがある場合は、すぐに FPT Portal にアクセスしてそのキーを削除し、その他のリスクが発生するのを防いでください。
+If you suspect a key has been compromised, go to the FPT Portal immediately and delete that key to prevent further risks.
 
-## Admin Access Key の作成
+## Create an Admin Access Key
 
-現在、各アカウントは 1 つのリージョンにつき最大 5 ペアの Admin Access Key を作成できます。5 ペア以上のキーが必要な場合は、SubUser を追加作成してください。
+Currently, each account can create a maximum of 5 pairs of Admin Access Keys per region. If you need more than 5 key pairs, create additional SubUsers.
 
-セキュリティ上の理由から、Secret Key は作成ステップでのみ 1 度だけ表示されます。bucket へのアクセス権を失わないよう、安全な場所に大切に保管してください。
+For security reasons, the Secret Key is only displayed once during creation. Store it carefully in a secure location to avoid losing bucket access.
 
-1. **Object Storage** メニューにアクセスし、**Access Key** タブを選択して **Region** を選択します。
-2. **Generate Key** ボタンをクリックします。
-3. システムが **access key** と **Secret Key** のペアを生成します。
-4. キーを安全な場所に**コピーして保存**し、**Confirm Access Key** をクリックして完了します。
-
----
-
-## Access Key の削除
-
-削除後、そのキーを使用しているすべてのアプリケーションまたはクライアントはアクセスできなくなります。
-
-1. **Object Storage** メニューにアクセスし、**Access Key** タブを選択して **Region** を選択します。
-2. 削除する access key を見つけ、操作列の **Delete** を選択します。
-3. ダイアログボックスが表示されたら削除を確認します。
+1. Go to the **Object Storage** menu, select the **Access Key** tab, and choose a **Region**.
+2. Click the **Generate Key** button.
+3. The system generates an **access key** and **Secret Key** pair.
+4. **Copy and save** the keys in a secure location, then click **Confirm Access Key** to complete.
 
 ---
 
-## endpoint 情報の取得
+## Delete an Access Key
 
-**endpoint** は FPT Object Storage への接続に使用する HTTPS アドレスです。各 **region** ごとに異なる endpoint があります。
+After deletion, all applications or clients using that key will lose access.
 
-1. **Object Storage** メニューにアクセスし、**Access Key** タブを選択して **Region** を選択します。
-2. **Endpoint** 列で対応する **URL をコピー**できます。
+1. Go to the **Object Storage** menu, select the **Access Key** tab, and choose a **Region**.
+2. Find the access key to delete and select **Delete** in the action column.
+3. Confirm the deletion when the dialog appears.
+
+---
+
+## Get endpoint information
+
+The **endpoint** is the HTTPS address used to connect to FPT Object Storage. Each **region** has a different endpoint.
+
+1. Go to the **Object Storage** menu, select the **Access Key** tab, and choose a **Region**.
+2. In the **Endpoint** column, you can **copy the corresponding URL**.

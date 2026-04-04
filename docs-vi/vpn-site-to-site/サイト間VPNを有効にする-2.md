@@ -1,25 +1,26 @@
 ---
 id: "サイト間VPNを有効にする-2"
-title: "サイト間VPNの有効化"
-description: "InactiveなVPN Site-to-Site接続を再度有効化するガイドです。"
-sidebar_label: "サイト間VPNの有効化"
+title: "Kích hoạt VPN Site-to-Site"
+description: "Hướng dẫn kích hoạt lại kết nối VPN Site-to-Site đang ở trạng thái Inactive."
+sidebar_label: "Kích hoạt VPN Site-to-Site"
 sidebar_position: "5"
+draft: true
 ---
 
-# サイト間VPNの有効化
+# Kích hoạt VPN Site-to-Site
 
-VPNがInactiveステータスの場合、有効化（Enable）して接続を復元できます。
+Khi kết nối VPN đang ở trạng thái Inactive, bạn có thể kích hoạt lại để khôi phục tunnel.
 
-1. 有効化したいVPN接続を選択し、**Actions** をクリックします。
+1. Chọn kết nối VPN muốn kích hoạt, sau đó nhấn **Actions**.
 
-   ![有効化するVPNを選択](/img/migrated/image-1742915728452-cae81a5a.png)
+   ![Chọn VPN cần kích hoạt](/img/migrated/image-1742915728452-cae81a5a.png)
 
-   ![Enableオプションのあるメニュー](/img/migrated/image-1742915757815-213397ba.png)
+   ![Menu với tùy chọn Enable](/img/migrated/image-1742915757815-213397ba.png)
 
-2. 有効化を確認します。
+2. Xác nhận thao tác kích hoạt.
 
-   ![VPN有効化の確認ダイアログ](/img/migrated/image-1742915838936-bb16d359.png)
+   ![Hộp thoại xác nhận kích hoạt VPN](/img/migrated/image-1742915838936-bb16d359.png)
 
-3. VPNステータスが **Activating** → **Active** に変わります。
+3. Trạng thái VPN chuyển từ **Activating** sang **Active**.
 
-   ![ActiveステータスのVPN](/img/migrated/image-1742916079751-7ce3789b.png)
+   ![VPN ở trạng thái Active](/img/migrated/image-1742916079751-7ce3789b.png)

@@ -1,56 +1,56 @@
 ---
 id: "openstack-portal-to-VMW"
-title: "VPN Site-to-Site configuration between OpenStack and VMware"
-description: "Guide to configuring a VPN Site-to-Site connection between FPT Cloud OpenStack and VMware Cloud"
-sidebar_label: "Configuration with VMware"
+title: "OpenStackとVMware間のVPN Site-to-Site設定"
+description: "FPT Cloud OpenStackとVMware Cloud間のVPN Site-to-Site接続を設定するガイドです。"
+sidebar_label: "VMwareとの接続設定"
 sidebar_position: "17"
 ---
 
-# VPN Site-to-Site configuration between OpenStack and VMware
+# OpenStackとVMware間のVPN Site-to-Site設定
 
-This guide uses the topology below as an example.
+このガイドでは、以下のトポロジーを例として使用します。
 
-[![Topology](/img/migrated/image-1765791265680-2f6051f0.png)](/img/migrated/image-1765791265680-2f6051f0.png)
+[![トポロジー](/img/migrated/image-1765791265680-2f6051f0.png)](/img/migrated/image-1765791265680-2f6051f0.png)
 
-## Step 1: Configure VPN Site-to-Site on FPT Cloud Portal
+## ステップ1：FPT Cloud PortalでVPN Site-to-Siteを設定する
 
-Access [https://console.fptcloud.com](https://console.fptcloud.com) and create the VPN Site-to-Site.
+[https://console.fptcloud.com](https://console.fptcloud.com) にアクセスしてVPN Site-to-Siteを作成します。
 
-**Create a Customer Gateway:**
+**Customer Gatewayを作成する：**
 
-- **Remote IP public**: Floating IP of the VMware VPN gateway
-- **Remote private network**: LAN subnet range for peering with VMware
+- **Remote IP public**：VMware VPNゲートウェイのFloating IP
+- **Remote private network**：VMwareとピアリングするLANサブネット範囲
 
 [![Customer Gateway](/img/migrated/image-1765791539886-a1399dc6.png)](/img/migrated/image-1765791539886-a1399dc6.png)
 
-**Create a VPN Connection:**
+**VPN Connectionを作成する：**
 
 :::note
-Save the **Pre-shared key** value — you will need it when configuring the VPN connection on VMware.
+**Pre-shared key** の値を保存してください — VMware側でVPN接続を設定する際に必要になります。
 :::
 
-A VPN connection has three main sections:
+VPN Connectionには3つの主要セクションがあります：
 
-- **General information** — general connection details
-- **Remote VPN Information** — encryption and customer-side configuration
-- **Dead Peer Detection** — automatic retry settings
+- **General information** — 基本的な接続情報
+- **Remote VPN Information** — 暗号化設定およびお客様側設定
+- **Dead Peer Detection** — 自動リトライ設定
 
-**Section 1: General information**
+**セクション1：General information**
 
 [![General information](/img/migrated/image-1765791650959-d54cc64b.png)](/img/migrated/image-1765791650959-d54cc64b.png)
 
-**Section 2: Remote VPN information**
+**セクション2：Remote VPN information**
 
 [![Remote VPN information](/img/migrated/image-1765791876602-bfc3ce69.png)](/img/migrated/image-1765791876602-bfc3ce69.png)
 
-If you select **Providers = "others"**, follow these steps:
+**Providers = "others"** を選択する場合は、以下の手順に従います：
 
-1. Set the provider name to `VMWare`.
-2. Fill in the IKE and IPSec parameters as follows:
+1. プロバイダー名を `VMWare` に設定します。
+2. IKEおよびIPSecパラメーターを以下のとおり入力します：
 
-**IKE:**
+**IKE：**
 
-| Parameter | Value |
+| パラメーター | 値 |
 | --- | --- |
 | Encryption algorithm | aes-256 |
 | Authorization algorithm | sha256 |
@@ -60,9 +60,9 @@ If you select **Providers = "others"**, follow these steps:
 | DH Group | GROUP_14 |
 | Phase 1 negotiation mode | main |
 
-**IPsec:**
+**IPsec：**
 
-| Parameter | Value |
+| パラメーター | 値 |
 | --- | --- |
 | Encapsulation mode | tunnel |
 | Encryption algorithm | aes-256 |
@@ -72,32 +72,32 @@ If you select **Providers = "others"**, follow these steps:
 | Perfect Forward Secrecy (PFS) | GROUP_14 |
 | Transform protocol | esp |
 
-**Section 3: Dead Peer Detection**
+**セクション3：Dead Peer Detection**
 
 [![Dead Peer Detection](/img/migrated/image-1765792370389-be62aa14.png)](/img/migrated/image-1765792370389-be62aa14.png)
 
-After filling in all information, click **Create VPN Connection**.
+すべての情報を入力したら、**Create VPN Connection** をクリックします。
 
-## Step 2: Configure VPN on VMware Cloud
+## ステップ2：VMware CloudでVPNを設定する
 
-1. Go to the VMware system and fill in the **Endpoint Configuration** fields.
+1. VMwareシステムにアクセスして **Endpoint Configuration** フィールドに入力します。
 
 [![Endpoint Configuration](/img/migrated/image-1765792537442-cfd45c7d.png)](/img/migrated/image-1765792537442-cfd45c7d.png)
 
-2. After creation, select **Customize Security Profile** to edit the IKE and IPSec policies to match the configuration from Step 1.
+2. 作成後、**Customize Security Profile** を選択して、ステップ1の設定に合わせたIKEおよびIPSecポリシーを編集します。
 
 [![Customize Security Profile](/img/migrated/image-1765792592112-2661f855.png)](/img/migrated/image-1765792592112-2661f855.png)
 
-3. Select **View statistics** to check the connection status. A status of **UP** indicates the two sites are connected successfully.
+3. **View statistics** を選択して接続ステータスを確認します。ステータスが **UP** の場合、2サイト間の接続が成功しています。
 
-[![View statistics](/img/migrated/image-1765792630730-24ebf3f1.png)](/img/migrated/image-1765792630730-24ebf3f1.png) [![Connection UP](/img/migrated/image-1765792651631-076d8ebc.png)](/img/migrated/image-1765792651631-076d8ebc.png)
+[![View statistics](/img/migrated/image-1765792630730-24ebf3f1.png)](/img/migrated/image-1765792630730-24ebf3f1.png) [![接続UP](/img/migrated/image-1765792651631-076d8ebc.png)](/img/migrated/image-1765792651631-076d8ebc.png)
 
-## Step 3: Verify the connection
+## ステップ3：接続を確認する
 
-Ping from OpenStack VM to VMware VM:
+OpenStack VMからVMware VMへのPing：
 
-[![Ping OSP to VMW](/img/migrated/image-1765792700896-cc19d07e.png)](/img/migrated/image-1765792700896-cc19d07e.png)
+[![OSPからVMWへのPing](/img/migrated/image-1765792700896-cc19d07e.png)](/img/migrated/image-1765792700896-cc19d07e.png)
 
-Ping from VMware VM to OpenStack VM:
+VMware VMからOpenStack VMへのPing：
 
-[![Ping VMW to OSP](/img/migrated/image-1765792717595-c17872cc.png)](/img/migrated/image-1765792717595-c17872cc.png)
+[![VMWからOSPへのPing](/img/migrated/image-1765792717595-c17872cc.png)](/img/migrated/image-1765792717595-c17872cc.png)

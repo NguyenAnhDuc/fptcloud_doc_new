@@ -1,20 +1,24 @@
 ---
 id: "update-version"
-title: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
-description: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
-sidebar_label: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
+title: "version の更新"
+description: "作成済みの version を編集します。"
+sidebar_label: "version の更新"
 sidebar_position: "10"
 ---
 
-# Update Version
+# version の更新
 
-Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo
+作成済みの model version を編集します。
 
-Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Version
+## 手順
 
-Bước 2: Tại danh sách các version, click vào dấu 3 chấm tại version mà bạn muốn chỉnh sửa, chọn action Edit [![](/img/migrated/anh-1-709a2381.png)](/img/migrated/anh-1-709a2381.png)
+1. model をクリックして詳細を表示し、**Version** タブを選択します。
 
-Bước 3: Hệ thống chuyển sang màn hình Edit verison để bạn có thể chỉnh sửa version
-Lưu ý: Bạn chỉ được phép chỉnh sửa Version visibility
+2. version リストで、編集したい version の 3 点アイコンをクリックし、**Edit** を選択します。
+[![](/img/migrated/anh-1-709a2381.png)](/img/migrated/anh-1-709a2381.png)
 
-Bước 4: Sau khi hoàn thành chỉnh sửa, click button Save
+3. Edit version 画面が表示されます。version の情報を編集できます。
+
+   > **注意:** 編集できるのは **Version visibility** のみです。
+
+4. 編集が完了したら、**Save** をクリックします。

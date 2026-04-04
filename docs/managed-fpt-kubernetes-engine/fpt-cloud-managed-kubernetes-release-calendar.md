@@ -1,8 +1,8 @@
 ---
 id: "fpt-cloud-managed-kubernetes-release-calendar"
-title: "FPT Cloud Managed Kubernetes リリースカレンダー"
-description: "FPT Cloud Managed Kubernetes のバージョンリリーススケジュールを示します。"
-sidebar_label: "FPT Cloud Managed Kubernetes リリースカレンダー"
+title: "FPT cloud managed kubernetes release calendar"
+description: "| Kubernetes version  | Upstream release  | FKE preview  | FKE GA  | FKE End of standard support  |"
+sidebar_label: "FPT cloud managed kubernetes release calendar"
 sidebar_position: "28"
 ---
 

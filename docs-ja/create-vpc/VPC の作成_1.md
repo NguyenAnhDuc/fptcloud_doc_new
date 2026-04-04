@@ -1,5 +1,5 @@
 ---
-id: "VPC の作成_1"
+id: "create-vpc"
 title: "VPCを作成する"
 description: "FPT Cloud Portalで新しいVPCを作成するガイドです。"
 sidebar_label: "VPCを作成する"

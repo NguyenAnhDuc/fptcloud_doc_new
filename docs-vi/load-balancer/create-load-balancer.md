@@ -1,8 +1,8 @@
 ---
 id: "create-load-balancer"
-title: "ロードバランサーの作成"
-description: "FPT Cloud でリスナーとサーバープールの設定を含むロードバランサーを作成する方法を説明します。"
-sidebar_label: "ロードバランサーの作成"
+title: "Create a Load Balancer"
+description: "How to create a Load Balancer with Listener and Server Pool configuration on FPT Cloud."
+sidebar_label: "Create a Load Balancer"
 sidebar_position: "3"
 ---
 

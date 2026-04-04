@@ -1,8 +1,8 @@
 ---
 id: "update-load-balancer"
-title: "ロードバランサーの更新"
-description: "FPT Cloud でロードバランサーの名前、説明、サイズ、パブリック IP、サブネットを更新する方法を説明します。"
-sidebar_label: "ロードバランサーの更新"
+title: "Update a Load Balancer"
+description: "How to update Load Balancer name, description, size, public IP, and subnet on FPT Cloud."
+sidebar_label: "Update a Load Balancer"
 sidebar_position: "4"
 ---
 

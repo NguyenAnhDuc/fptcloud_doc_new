@@ -1,17 +1,27 @@
 ---
 id: "view-update-organization"
-title: "Mục đích: view detail organization"
-description: "Mục đích: view detail organization"
-sidebar_label: "Mục đích: view detail organization"
+title: "View Update Organization"
+description: "View and update organization details in Model Hub."
+sidebar_label: "View Update Organization"
 sidebar_position: "23"
 ---
 
 # View Update Organization
 
-Mục đích: view detail organization
-Lưu ý: Account phải được share quyền Admin trong IAM portal mới có quyền view organization
+View and update your organization details.
 
-Bước 1: Người dùng click vào menu AI Platform > Configuration sẽ thấy hiển thị block Organizaton
+> **Note:** Your account must be granted Admin permission in the IAM portal to view the organization.
 
-Bước 2: Để xem detail, người dùng click vào button View, hiển thị popup detail với thông tin Logo, Owner email và Organization name
-![](/img/migrated/anh-13-13131bf3.png) Bước 3: Để update lại organization, người dùng click vào button Edit, hiển thị popup edit Organizaiton, tại đây, người dùng có thể chỉnh sửa thông tin Owner email và Organization name, Logo ![](/img/migrated/anh-14-5929f415.png) Bước 4: Click Save để lưu lại thay đổi hoặc Cancel để hủy bỏ thao tác
+## Steps
+
+1. Click **AI Platform** > **Configuration** in the menu. The **Organization** block appears.
+
+2. To view details, click **View**. A popup displays the organization's Logo, Owner email, and Organization name.
+
+![](/img/migrated/anh-13-13131bf3.png)
+
+3. To update the organization, click **Edit**. The Edit Organization popup appears, where you can modify the **Owner email**, **Organization name**, and **Logo**.
+
+![](/img/migrated/anh-14-5929f415.png)
+
+4. Click **Save** to apply changes, or **Cancel** to discard.

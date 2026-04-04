@@ -1,15 +1,17 @@
 ---
 id: "initial-setup"
-title: "Thiết lập ban đầu"
-description: "Để bắt đầu sử dụng dịch vụ **Model Hub** , bạn cần đăng nhập vào FPT Portal."
-sidebar_label: "Thiết lập ban đầu"
+title: "初期設定"
+description: "FPT Portal にログインして Model Hub の利用を開始します。"
+sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Initial Setup
+# 初期設定
 
-Để bắt đầu sử dụng dịch vụ **Model Hub** , bạn cần đăng nhập vào FPT Portal. 
-Hãy truy cập vào <https://console.fptcloud.com> và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ. 
-Nếu chưa có tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại <https://fptcloud.com/>. 
-Sau đó chọn chức năng Sign Up và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản. 
-Trong qua trình thao tác nếu gặp bất kỳ lỗi nào hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
+**Model Hub** サービスを利用するには、FPT Portal にログインしてください。
+
+<https://console.fptcloud.com> にアクセスし、付与された FPT Cloud のアカウントとパスワードでサインインします。使用するサービスに合った Tenant、Region、VPC を正しく選択してください。
+
+FPT Cloud アカウントをお持ちでない場合は、<https://fptcloud.com/> のホームページにアクセスしてください。**Sign Up** を選択し、案内に従って必要な情報を入力してください。その後、サポートチームがご連絡し、アカウント作成に必要な情報を確認します。
+
+操作中に問題が発生した場合は、すぐにサポートチームにお問い合わせください。

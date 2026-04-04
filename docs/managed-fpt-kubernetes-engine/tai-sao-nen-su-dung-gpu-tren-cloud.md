@@ -1,14 +1,17 @@
 ---
 id: "tai-sao-nen-su-dung-gpu-tren-cloud"
-title: "Tại sao nên sử dụng GPU trên Cloud?"
-description: "Phần lớn các doạnh nghiệp vẫn đang sử dụng GPU on-premise. Mô hình sử dụng on-premise tồn tại hạn chế như"
-sidebar_label: "Tại sao nên sử dụng GPU trên Cloud?"
+title: "Why use GPU on Cloud?"
+description: "The benefits of using GPU on cloud compared to on-premise GPU infrastructure."
+sidebar_label: "Why use GPU on Cloud?"
 sidebar_position: "40"
 ---
 
-# Tại sao nên sử dụng GPU trên Cloud
+# Why use GPU on Cloud?
 
-Phần lớn các doạnh nghiệp vẫn đang sử dụng GPU on-premise. Mô hình sử dụng on-premise tồn tại hạn chế như: tốn chi phí đầu tư và nhân sự cho việc triển khai, quản lý, bảo trì và nâng cấp. 
-Ngược lại, các phiên bản GPU do nền tảng điện toán đám mây cung cấp chỉ tốn chi phí sử dụng dịch vụ mà không cần bất kỳ hoạt động kỹ thuật nào khác, với mức phí dịch vụ hợp lý, người dùng chỉ phải chi trả khi sử dụng thực tế. 
-FPT Cloud cũng cung cấp tất cả các dịch vụ cần thiết để sử dụng GPU và chịu trách nhiệm quản lý tổng thể cơ sở hạ tầng GPU. Doanh nghiệp chỉ cần tập trung vào chuyên môn kinh doanh của mình, qua đó đơn giản hóa hoạt động kinh doanh và nâng cao năng suất. 
-Ngoài việc loại bỏ sự phức tạp trong việc quản lý GPU on-premise, dịch vụ GPU trên FPT Cloud giúp tiết kiệm thời gian, tiết kiệm chi phí so với việc đầu tư và bảo trì cơ sở hạ tầng tại chỗ. Điều này mang lại lợi ích cho các doanh nghiệp vì nó biến chi phí vốn cần thiết để lắp đặt và quản lý các tài nguyên máy tính đó thành chi phí vận hành để sử dụng các dịch vụ GPU trên đám mây, do đó hạ thấp rào cản của doanh nghiệp trong việc xây dựng cơ sở hạ tầng. Ngoài ra, nền tảng FPT Cloud cung cấp hệ sinh thái tương thích với nhu cầu sử dụng GPU như di chuyển dữ liệu, tích hợp lưu trữ, bảo mật, khả năng mở rộng linh hoạt.
+Most enterprises still use GPU on-premise. The on-premise model has limitations such as high investment costs and personnel requirements for deployment, management, maintenance, and upgrades.
+
+In contrast, GPU instances provided by cloud platforms only incur service usage costs without any additional technical operations. With reasonable service fees, users only pay for actual usage.
+
+FPT Cloud also provides all the services needed to use GPU and takes responsibility for overall GPU infrastructure management. Businesses only need to focus on their core expertise, simplifying operations and improving productivity.
+
+In addition to eliminating the complexity of managing on-premise GPU, the GPU service on FPT Cloud saves time and reduces costs compared to investing in and maintaining on-site infrastructure. This benefits businesses by converting the capital expenditure required to install and manage computing resources into operational expenditure for using cloud GPU services, thereby lowering the barrier to infrastructure development. Furthermore, the FPT Cloud platform provides an ecosystem compatible with GPU usage needs, including data migration, storage integration, security, and flexible scalability.

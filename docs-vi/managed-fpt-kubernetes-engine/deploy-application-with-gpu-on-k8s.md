@@ -1,161 +1,165 @@
 ---
 id: "deploy-application-with-gpu-on-k8s"
-title: "Deploy application with GPU on Kubernetes"
-description: "Kubernetes manages and utilizes GPU resources similar to how it manages CPU resources. Depending on the GPU specificatio"
-sidebar_label: "Deploy application with GPU on Kubernetes"
+title: "Triển khai ứng dụng sử dụng GPU trên Kubernetes"
+description: "Hướng dẫn triển khai ứng dụng có sử dụng GPU trên Kubernetes của FPT Cloud."
+sidebar_label: "Triển khai ứng dụng sử dụng GPU trên Kubernetes"
 sidebar_position: "23"
 ---
 
-# Deploy application with GPU on Kubernetes
+# Triển khai ứng dụng sử dụng GPU trên Kubernetes
 
-Kubernetes manages and utilizes GPU resources similar to how it manages CPU resources. Depending on the GPU specifications of the Worker Group, you need to configure GPU resources for applications running on Kubernetes accordingly.
-**Note:**
-  * You can define GPU limits without defining GPU requests since Kubernetes default uses limits value as requests.
-  * You can define both GPU limits and requests but these values must be equal.
-  * You can not define GPU requests without defining limits.
+Kubernetes quản lý và sử dụng tài nguyên GPU tương tự như cách quản lý tài nguyên CPU. Tùy thuộc vào thông số GPU của Worker Group, bạn cần cấu hình tài nguyên GPU cho ứng dụng chạy trên Kubernetes phù hợp.
 
-You can view the GPU specs on Kubernetes by running this command:
+**Lưu ý:**
+  * Bạn có thể khai báo GPU limit mà không cần khai báo GPU request vì Kubernetes mặc định sử dụng giá trị limit làm request.
+  * Bạn có thể khai báo cả GPU limit và request nhưng hai giá trị này phải bằng nhau.
+  * Bạn không thể khai báo GPU request mà không khai báo limit.
+
+Bạn có thể xem thông số GPU trên Kubernetes bằng lệnh:
 
 ```
-Copykubectl get node ||worker-node|| -o json | jq ‘.items[].metadata.labels‘
+kubectl get node ||worker-node|| -o json | jq '.items[].metadata.labels'
 ```
 
 [![](/img/migrated/58-1-2657a252.png)](/img/migrated/58-1-2657a252.png)
-For example, the image above shows a worker using the NVIDIA A30 GPU, with the configuration strategy set to **all-balanced** , and the status is **success**.
-You can view the GPU Instance specifications by running this command (ssh to the worker node, then execute the command):
+Ví dụ, hình trên hiển thị worker đang sử dụng NVIDIA A30 GPU, với chiến lược cấu hình là **all-balanced** và trạng thái là **success**.
+Bạn có thể xem thông số GPU Instance bằng lệnh (ssh vào worker node, sau đó chạy lệnh):
 
 ```
-Copynvidia-smi mig -lgi
+nvidia-smi mig -lgi
 ```
 
 [![](/img/migrated/59-1-bb3d5068.png)](/img/migrated/59-1-bb3d5068.png)
 
-### Example of deploying an application with GPU workload:
-  * With the strategy set to **single** , the GPU resources are declared as:
+### Ví dụ triển khai ứng dụng với GPU workload:
+  * Với strategy **single**, tài nguyên GPU được khai báo như sau:
 
 ```
-Copynvidia.com/gpu: ||gpu-count||
+nvidia.com/gpu: ||gpu-count||
 ```
 
-_Example:_
+_Ví dụ:_
 
 ```
-Copynvidia.com/gpu: 1
+nvidia.com/gpu: 1
 ```
 
-**Note** : With **strategy: single** , the GPU is divided equally into instances.
-_Example deployment with**strategy: single** GPU usage:_
+**Lưu ý:** Với **strategy: single**, GPU được chia đều thành các instance.
 
-```
-CopyapiVersion: apps/v1
+_Ví dụ deployment với **strategy: single**:_
+
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-gpu-app
+  name: example-gpu-app
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      component: gpu-app
-  template:
-    metadata:
-      labels:
-        component: gpu-app
-    spec:
-      containers:
-        – name: gpu-container
-          securityContext:
-            capabilities:
-              add:
-                – SYS_ADMIN
-          resources:
-            limits:
-              nvidia.com/gpu: 1
-          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: ["/bin/sh", "-c"]
-          args:
-            – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
+  replicas: 1
+  selector:
+    matchLabels:
+      component: gpu-app
+  template:
+    metadata:
+      labels:
+        component: gpu-app
+    spec:
+      containers:
+        - name: gpu-container
+          securityContext:
+            capabilities:
+              add:
+                - SYS_ADMIN
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
+          command: ["/bin/sh", "-c"]
+          args:
+            - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```
 
-  * With the strategy set to **mixed** , the GPU resources are declared as:
+  * Với strategy **mixed**, tài nguyên GPU được khai báo như sau:
 
 ```
-Copynvidia.com/||mig-profile||: ||gpu-count||
+nvidia.com/||mig-profile||: ||gpu-count||
 ```
 
-_Example:_
+_Ví dụ:_
 
 ```
-Copynvidia.com/mig-1g.6gb: 2
+nvidia.com/mig-1g.6gb: 2
 ```
 
-**Note** : With **strategy: mixed** , the GPU is divided into 2 instance types, so we need to explicitly define the instance type when declaring the resource.
-_Example deployment with**strategy: mixed** GPU usage:_
+**Lưu ý:** Với **strategy: mixed**, GPU được chia thành 2 loại instance, vì vậy cần khai báo rõ loại instance khi khai báo tài nguyên.
 
-```
-CopyapiVersion: apps/v1
+_Ví dụ deployment với **strategy: mixed**:_
+
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-gpu-app
+  name: example-gpu-app
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      component: gpu-app
-  template:
-    metadata:
-      labels:
-        component: gpu-app
-    spec:
-      containers:
-        – name: gpu-container
-          securityContext:
-            capabilities:
-              add:
-                – SYS_ADMIN
-          resources:
-            limits:
-              nvidia.com/mig-1g.6gb: 1
-          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: ["/bin/sh", "-c"]
-          args:
-            – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
+  replicas: 1
+  selector:
+    matchLabels:
+      component: gpu-app
+  template:
+    metadata:
+      labels:
+        component: gpu-app
+    spec:
+      containers:
+        - name: gpu-container
+          securityContext:
+            capabilities:
+              add:
+                - SYS_ADMIN
+          resources:
+            limits:
+              nvidia.com/mig-1g.6gb: 1
+          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
+          command: ["/bin/sh", "-c"]
+          args:
+            - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```
 
-  * With the strategy set to **none** , the GPU resources are declared as:
+  * Với strategy **none**, tài nguyên GPU được khai báo như sau:
 
 ```
-Copynvidia.com/gpu: 1
+nvidia.com/gpu: 1
 ```
 
-**Note** : With **strategy: none** , the GPU is fully allocated to the application pod.
-_Example deployment with**strategy: none** GPU usage:_
+**Lưu ý:** Với **strategy: none**, GPU được phân bổ toàn bộ cho pod ứng dụng.
 
-```
-CopyapiVersion: apps/v1
+_Ví dụ deployment với **strategy: none**:_
+
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-gpu-app
+  name: example-gpu-app
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      component: gpu-app
-  template:
-    metadata:
-      labels:
-        component: gpu-app
-    spec:
-      containers:
-        – name: gpu-container
-          securityContext:
-            capabilities:
-              add:
-                – SYS_ADMIN
-          resources:
-            limits:
-              nvidia.com/gpu: 1
-          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
-          command: ["/bin/sh", "-c"]
-          args:
-            – while true; do /usr/bin/dcgmproftester11 –no-dcgm-validation -t 1004 -d 300; sleep 30; done
+  replicas: 1
+  selector:
+    matchLabels:
+      component: gpu-app
+  template:
+    metadata:
+      labels:
+        component: gpu-app
+    spec:
+      containers:
+        - name: gpu-container
+          securityContext:
+            capabilities:
+              add:
+                - SYS_ADMIN
+          resources:
+            limits:
+              nvidia.com/gpu: 1
+          image: nvidia/samples:dcgmproftester-2.0.10-cuda11.0-ubuntu18.04
+          command: ["/bin/sh", "-c"]
+          args:
+            - while true; do /usr/bin/dcgmproftester11 --no-dcgm-validation -t 1004 -d 300; sleep 30; done
 ```

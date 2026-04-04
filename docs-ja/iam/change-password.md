@@ -1,20 +1,20 @@
 ---
-id: "Change password"
+id: "change-password"
 title: "パスワードの変更"
-description: "FPT PortalでIAM Userアカウントのパスワードを変更する方法。"
+description: "FPT PortalでIAM Userアカウントのパスワードを変更する手順。"
 sidebar_label: "パスワードの変更"
 sidebar_position: 21
 ---
 
 # パスワードの変更
 
-IAM userがFPT Portalに登録してログインした後、アカウントのセキュリティを確保するためにパスワードを変更することを推奨します。
+IAM userがFPT Portalへの登録とログインに成功したら、アカウントのセキュリティを確保するためにパスワードを変更することをお勧めします。
 
 1. FPT Portalの右上にあるアカウント名表示エリアをクリックし、**Change Password** を選択します。
 
 [![](/img/migrated/Userguide-FPT-IAM-2022-27-1024x285-88368ee2.png)](/img/migrated/Userguide-FPT-IAM-2022-27-1024x285-88368ee2.png)
 
-2. **Change Password** ダイアログで必要な情報を入力します：
+2. **Change Password** ダイアログボックスで、必要な情報を入力します：
    - **Current**: 現在のパスワードを入力します。
    - **New**: 新しいパスワードを入力します。
    - **Confirm**: 新しいパスワードを確認入力します。

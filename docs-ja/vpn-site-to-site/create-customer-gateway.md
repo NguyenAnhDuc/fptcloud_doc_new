@@ -1,23 +1,27 @@
 ---
 id: "create-customer-gateway"
-title: "Hướng dẫn tạo Customer gateway"
-description: "**Bước 1:** Tại màn hình hiển thị danh sách **Customer gateway,** chọn **Create Customer gateway** để thực hiện tạo**.**"
-sidebar_label: "Hướng dẫn tạo Customer gateway"
-sidebar_position: "32"
+title: "Customer Gatewayの作成"
+description: "FPT Cloud PortalでCustomer Gatewayを作成するガイドです。"
+sidebar_label: "Customer Gatewayの作成"
+sidebar_position: "23"
 ---
 
-# Create Customergw
+# Customer Gatewayの作成
 
-**Bước 1:** Tại màn hình hiển thị danh sách **Customer gateway,** chọn **Create Customer gateway** để thực hiện tạo**.** [![file](/img/migrated/image-1744270078693-640aad37.png)](/img/migrated/image-1744270078693-640aad37.png)
-**Bước 2: Người dùng nhập các thông tin sau:**  
-[![file](/img/migrated/image-1744280084299-e02eef3a.png)](/img/migrated/image-1744280084299-e02eef3a.png)  
-| **Trường**  | **Mô tả**  |  
-| --- | --- |  
-| **Customer gateway name**  | Tên của Customer gateway  |  
-| **Description**  | Mô tả Customer gateway  |  
-|  **Remote IP public**   
-  
- | Địa chỉ IP public của VPN Connection phía On-premise  |  
-| **Remote network**  | Subnet phía On-premise  |  
-| **Healthcheck IP address**  | Địa chỉ IP được sử dụng để kiểm tra tình trạng hoạt động của kết nối VPN giữa hai địa điểm  |  
-**Bước 3:** Nhấn chọn **Create Customer gateway** để thực hiện tạo hoặc **Cancel** để huỷ bỏ.
+1. **Customer Gateway** 一覧画面で **Create Customer Gateway** をクリックします。
+
+[![Customer Gatewayの作成](/img/migrated/image-1744270078693-640aad37.png)](/img/migrated/image-1744270078693-640aad37.png)
+
+2. 以下の情報を入力します：
+
+[![Customer Gatewayフォーム](/img/migrated/image-1744280084299-e02eef3a.png)](/img/migrated/image-1744280084299-e02eef3a.png)
+
+| **フィールド** | **説明** |
+| --- | --- |
+| **Customer gateway name** | Customer Gatewayの名前。 |
+| **Description** | Customer Gatewayの説明。 |
+| **Remote IP public** | オンプレミスVPN機器のパブリックIPアドレス。 |
+| **Remote network** | オンプレミスネットワークのサブネット。 |
+| **Healthcheck IP address** | 2サイト間のVPN接続ヘルスを監視するためのIPアドレス。 |
+
+3. **Create Customer Gateway** をクリックして作成するか、**Cancel** をクリックして破棄します。

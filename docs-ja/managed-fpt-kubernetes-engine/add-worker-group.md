@@ -1,38 +1,38 @@
 ---
 id: "add-worker-group"
-title: "Add a worker group"
-description: "Add a new worker group to an existing Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Add a worker group"
+title: "worker group の追加"
+description: "Managed FPT Kubernetes Engine の既存 cluster に新しい worker group を追加する方法。"
+sidebar_label: "worker group の追加"
 sidebar_position: "10"
 ---
 
-# Add a worker group
+# worker group の追加
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster you want to add a worker group to.
+**ステップ 1:** メニューから **Kubernetes** を選択して **Kubernetes Management** ページを開きます。worker group を追加したい cluster を選択します。
 
 [![](/img/migrated/15-3314db3f.png)](/img/migrated/15-3314db3f.png)
 
-**Step 2:** Click **Configure Worker Groups**.
+**ステップ 2:** **Configure Worker Groups** をクリックします。
 
 [![](/img/migrated/16-1d7abe11.png)](/img/migrated/16-1d7abe11.png)
 
-**Step 3:** Click **Add Worker Group**.
+**ステップ 3:** **Add Worker Group** をクリックします。
 
 [![](/img/migrated/17-bfaff80b.png)](/img/migrated/17-bfaff80b.png)
 
-**Step 4:** Enter the required information:
+**ステップ 4:** 必要な情報を入力します。
 
 [![](/img/migrated/18-1-76d3b20a.png)](/img/migrated/18-1-76d3b20a.png)
 
-- **Type:** Choose the CPU and memory configuration for the worker node.
-- **Container runtime:** Containerd.
-- **Storage policy:** Choose the storage policy type (corresponding to IOPS) for the worker node disk.
-- **Disk (GB):** Select the root disk capacity for the worker node.
-- **Scale min:** Minimum number of VM instances for the worker node. At least 3 nodes are recommended for production.
-- **Scale max:** Maximum number of VM instances for the worker group.
+- **Type:** worker node の CPU とメモリ設定を選択します。
+- **Container runtime:** Containerd。
+- **Storage policy:** worker node のディスクの storage policy タイプ（IOPS に対応）を選択します。
+- **Disk (GB):** worker node のルートディスク容量を選択します。
+- **Scale min:** worker node の VM instance の最小数。本番環境では最低 3 node を推奨します。
+- **Scale max:** worker group の VM instance の最大数。
 
-**Step 5:** Verify the information and click **Save** to add the worker group.
+**ステップ 5:** 情報を確認し、**Save** をクリックして worker group を追加します。
 
 [![](/img/migrated/19-1-5e45dec7.png)](/img/migrated/19-1-5e45dec7.png)
 
-The cluster scaling process takes a few minutes and the cluster status changes to **Processing**. The cluster continues to operate normally while the new worker group is being added.
+cluster のスケール処理は数分かかり、cluster のステータスが **Processing** に変わります。新しい worker group の追加中も cluster は通常通り動作します。

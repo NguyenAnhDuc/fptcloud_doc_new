@@ -1,22 +1,27 @@
 ---
 id: "IPアドレス（フローティングIP）の割り当て"
-title: "Ipアドレス（フローティングIp）の割り当て"
-description: "**ステップ1：** GPU VMを正常に作成したら、 **[Network] > [Floating IPs]**に移動します。"
-sidebar_label: "Ipアドレス（フローティングIp）の割り当て"
+title: "Cấp phát Floating IP"
+description: "Sau khi tạo GPU VM thành công, điều hướng đến Network > Floating IPs để cấp phát địa chỉ IP công cộng."
+sidebar_label: "Cấp phát Floating IP"
 sidebar_position: "7"
 ---
 
-# Ipアドレス（フローティングIp）の割り当て
+# Cấp phát Floating IP
 
-**ステップ1：** GPU VMを正常に作成したら、 **[Network] > [Floating IPs]**に移動します。
+**Bước 1:** Sau khi tạo GPU VM thành công, vào **Network** > **Floating IPs**.
+
 [![Alt text](/img/migrated/12-1-90c05a89.png)](/img/migrated/12-1-90c05a89.png)
-**ステップ2：**** 「Allocate IP address」**ボタンをクリックして、新しい** フローティングIP**を作成します。
-**ステップ3：**** 「Allocate IP address」**ポップアップウィンドウで、次のフィールドに入力します。
-  * **IPアドレス：** 利用可能なIPを**選択する** か、割り当てが許す場合は**「プールから新規割り当て」** を選択して新しいIP をリクエストします。
-  * **リソース：「インスタンス」** を選択し、新規作成した**GPU VM** を選択して、フローティングIPに関連付けます。
-  * **IPポート:インスタンスポート（22）** と同じ設定を推奨します。
-  * **インスタンスポート:22** に設定する必要があります。
-  * **タグを追加：** オプション、リソース管理を改善します。
 
-**ステップ4:** 詳細を入力したら、**「Allocate floating IP」** をクリックして確認します。新しく作成されたフローティングIPがリストに表示されます。
+**Bước 2:** Nhấp nút **Allocate IP address** để tạo Floating IP mới.
+
+**Bước 3:** Trong cửa sổ popup **Allocate IP address**, điền các trường sau.
+
+  * **IP address:** Chọn một IP khả dụng, hoặc chọn **Allocate new from pool** để yêu cầu IP mới nếu việc cấp phát cho phép.
+  * **Resource:** Chọn **Instance** và chọn **GPU VM** mới tạo để liên kết với Floating IP.
+  * **IP port:** Nên đặt giống với Instance port (22).
+  * **Instance port:** Phải đặt là **22**.
+  * **Add tag:** Tùy chọn — giúp cải thiện quản lý tài nguyên.
+
+**Bước 4:** Sau khi nhập thông tin, nhấp **Allocate floating IP** để xác nhận. Floating IP mới tạo xuất hiện trong danh sách.
+
 [![Alt text](/img/migrated/13-1-642b169c.png)](/img/migrated/13-1-642b169c.png)

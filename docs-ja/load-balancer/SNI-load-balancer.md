@@ -1,79 +1,77 @@
 ---
 id: "SNI-load-balancer"
-title: "Cấu hình SNI trên Load balancer"
-description: "Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho phép một Listener phục vụ nhiều tên miền (hos"
-sidebar_label: "Cấu hình SNI trên Load balancer"
+title: "ロードバランサーでの SNI 設定"
+description: "Load Balancer で SNI (Server Name Indication) を設定し、1 つの Listener で複数のドメインを提供する方法を説明します。"
+sidebar_label: "SNI の設定"
 sidebar_position: "19"
 ---
 
-# Sni Load Balancer
+# ロードバランサーでの SNI 設定
 
-Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho phép một Listener phục vụ nhiều tên miền (hostname) khác nhau bằng cách ánh xạ từng tên miền với một chứng chỉ SSL/TLS cụ thể. Tính năng này giúp tiết kiệm tài nguyên, hỗ trợ triển khai đa miền và tăng cường bảo mật cho các dịch vụ HTTPS.
+**SNI (Server Name Indication)** を設定すると、1 つの Listener で各ホスト名を特定の SSL/TLS 証明書にマッピングすることにより、複数のホスト名を提供できます。これによりリソースを節約し、マルチドメインのデプロイメントをサポートし、HTTPS サービスのセキュリティを向上させます。
 
-### Cách hoạt động
-  * Khi một client gửi yêu cầu HTTPS đến Load Balancer, trình duyệt hoặc ứng dụng sẽ đính kèm tên miền (SNI hostname) vào trong giai đoạn bắt tay SSL.
-  * Load Balancer sẽ đọc thông tin hostname từ SNI và chọn chứng chỉ SSL tương ứng được cấu hình sẵn cho hostname đó.
-  * Nếu hostname khớp với một SNI đã cấu hình, kết nối sẽ được thiết lập thành công với chứng chỉ đúng.
-  * Nếu hostname không khớp, Load Balancer sẽ sử dụng **Default certificate**.
+## 仕組み
 
-### Khi nào cần cấu hình SNI trên Load Balancer
-  * **Lưu trữ nhiều tên miền trên cùng một IP** : Hỗ trợ nhiều website HTTPS chạy trên một Load Balancer duy nhất.
-  * **Tiết kiệm tài nguyên** : Không cần tạo nhiều Load Balancer chỉ để phục vụ các tên miền khác nhau.
-  * **Bảo mật tên miền** : Mỗi domain có thể dùng chứng chỉ riêng biệt, giúp dễ quản lý và tuân thủ chính sách bảo mật.
+- クライアントが HTTPS リクエストを送信すると、SSL ハンドシェイク中にブラウザまたはアプリケーションがホスト名（SNI ホスト名）を含めます。
+- Load Balancer は SNI からホスト名を読み取り、対応する SSL 証明書を選択します。
+- ホスト名が設定された SNI と一致する場合、正しい証明書で接続が確立されます。
+- 一致する SNI がない場合、Load Balancer は**デフォルト証明書**を使用します。
 
-### Hướng dẫn cấu hình
-**Bước 1** : Truy cập vào trang quản lý Load Balancer trên **FPT Cloud Portal**
-**Bước 2** : Tại danh sách Load Balancer, chọn Load Balancer bạn muốn cấu hình.
-**Bước 3** : Chọn tab **Listener** , sau đó chọn Listener đang sử dụng protocol TERMINATED_HTTPS, hoặc tạo mới Listener nếu chưa có
-**Bước 4** : Chọn các chứng chỉ SSL/TLS lên 2 trường: 
-  * Default SSL/TLS certificate: Chọn chứng chỉ mặc định sử dụng cho Listener
-**Bước 5** : Nhấn "Update Listener" hoặc " Create Listener để lưu thay đổi.
-**Bước 6** : Trỏ các tên miền (hostname) về IP public của Load balancer và truy cập.
-Ngoài ra, người dùng có thể kết hợp sử dụng L7 policy để điều phối truy cập từng domain tới Pool mong muốn, cấu hình như sau:
-**Bước 1** : Tải lên đầy đủ chứng chỉ và add vào Listener như hướng dẫn trên, sau đó chọn tab L7 policy **Bước 2** : Tạo các L7 policy tại Listener:
+## SNI を設定する場面
+
+- **同じ IP で複数のドメインをホスト**: 1 つの Load Balancer で複数の HTTPS サイトを運用します。
+- **リソースの節約**: ドメインごとに別の Load Balancer を作成する必要がありません。
+- **ドメインセキュリティ**: 各ドメインが独自の証明書を使用でき、管理とセキュリティポリシーの遵守が容易になります。
+
+## 設定手順
+
+**手順 1:** **FPT Cloud Portal** のロードバランサー管理ページに移動します。
+
+**手順 2:** Load Balancer 一覧から設定する Load Balancer をクリックします。
+
+**手順 3:** **Listener** タブを選択し、**TERMINATED_HTTPS** プロトコルを使用しているリスナーを選択するか、なければ新規作成します。
+
+**手順 4:** SSL/TLS 証明書を 2 つのフィールドに設定します：
+
+- **Default SSL/TLS certificate**: Listener が使用するデフォルト証明書。
+- **SNI SSL/TLS certificate**: 1 つまたは複数の SNI 証明書。
+
+**手順 5:** **Update Listener** または **Create Listener** をクリックして保存します。
+
+**手順 6:** ドメイン名（ホスト名）を Load Balancer のパブリック IP に向け、アクセスをテストします。
+
+L7 ポリシーと組み合わせて各ドメインを異なるプールにルーティングすることもできます：
+
+**手順 1:** 証明書を Listener に設定した後、**L7 Policy** タブに移動します。
+
+**手順 2:** 各ドメイン用の L7 ポリシーを作成します。3 つのドメインの例：
 
 ```
-CopyVí dụ người dùng có 3 domain:
-* example1.com cần redirect tới Pool1
-* example2.com cần redirect tới Pool2
-* example3.com cần redirect tới Pool3
-
-Tạo 3 policy tương ứng, và action với 3 Pool khác nhau:
 Policy1:
 - Policy action: Redirect to pool
 - Redirect to: Pool1
-- Position:1
+- Position: 1
+- Rule: Type=Hostname, Compare type=Equal to, Value=example1.com, Invert=No
+
 Policy2:
 - Policy action: Redirect to pool
 - Redirect to: Pool2
-- Position:2
+- Position: 2
+- Rule: Type=Hostname, Compare type=Equal to, Value=example2.com, Invert=No
+
 Policy3:
 - Policy action: Redirect to pool
 - Redirect to: Pool3
-- Position:3
-Mỗi policy tạo 1 rule:
-Policy1 - Rule:
-- Type: Hostname
-- Compare type: Equal to
-- Value: example1.com
-- Invert: No
-Policy2 - Rule:
-- Type: Hostname
-- Compare type: Equal to
-- Value: example2.com
-- Invert: No
-Policy3 - Rule:
-- Type: Hostname
-- Compare type: Equal to
-- Value: example3.com
-- Invert: No
+- Position: 3
+- Rule: Type=Hostname, Compare type=Equal to, Value=example3.com, Invert=No
 ```
 
-**Bước 3** : Lưu lại các thay đổi và truy cập tới các domain để kiểm tra Load balancer đã redirect request đúng chưa
+**手順 3:** 保存し、各ドメインにアクセスして正しくルーティングされることを確認します。
 
-### Lưu ý
-  * **Client phải hỗ trợ SNI** : Đa số trình duyệt và công cụ hiện nay đều hỗ trợ SNI. Một số client cũ (như curl bản rất cũ hoặc thiết bị IoT) có thể không hỗ trợ.
-  * **Chứng chỉ SSL cần hợp lệ** và đúng với hostname.
-  * **Hostname phải duy nhất** : Không nên cấu hình trùng hostname với nhiều chứng chỉ.
-  * **Sử dụng wildcard:** Trong trường hợp dùng cho các subdomain, người dùng có thể chỉ cần một chứng chỉ wildcard (ví dụ: *.example.com) làm default certificate, thay vì cấu hình nhiều chứng chỉ riêng lẻ cho từng hostname.
-  * **Sử dụng L7 policy:** Nếu không có policy trùng khớp, request sẽ được điều hướng vào Pool mặc định
+:::note
+- **クライアントが SNI をサポートする必要があります**: 最新のブラウザやツールはほぼすべて SNI をサポートしています。古いクライアントはサポートしていない場合があります。
+- **SSL 証明書が有効**でホスト名と一致している必要があります。
+- **ホスト名は一意**である必要があります。同じホスト名を複数の証明書に設定しないでください。
+- **ワイルドカード証明書**: サブドメインの場合、1 つのワイルドカード証明書（例：`*.example.com`）をデフォルト証明書として使用すれば、ホスト名ごとの個別証明書は不要です。
+- **L7 ポリシーのフォールバック**: 一致するポリシーがない場合、リクエストはデフォルトプールにルーティングされます。
+:::

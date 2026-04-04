@@ -1,14 +1,14 @@
 ---
 id: "node-level-auto-scaling"
-title: "ノードレベルの自動スケーリング"
-description: "M-FKEのCluster Autoscaleによるノードレベルの自動スケーリングについて説明します。"
-sidebar_label: "ノードレベルの自動スケーリング"
+title: "Tự động scale ở cấp độ node"
+description: "Kubernetes cluster tự động tăng/giảm số lượng Worker Node trong Worker Group tùy theo mức sử dụng GPU."
+sidebar_label: "Tự động scale ở cấp độ node"
 sidebar_position: "26"
 ---
 
-# Node-level auto scaling
+# Tự động scale ở cấp độ node
 
-Similar to how Cluster Autoscale with M-FKE works, the Kubernetes cluster will automatically increase/decrease the amount of Worker Node in a Worker Group depending on the GPU usage: adding new Worker Node in a Worker Group if the application running on that worker group doesn't receive sufficient resources (GPU) from the nodes in that pool. The pending Pods will be allocated to the newly created Worker Nodes after scaling. Cluster Autoscale will also remove nodes that do not meet the utilization requirements (defaults to 50% utilization) for that node.
-More details can be found at [FPT Cloud Manged Kubernetes Autoscaler](../managed-fpt-kubernetes-engine/index.md)
-The number of nodes in a Worker Group is defined on the FPT Cloud Portal, as shown in the image below:
+Tương tự như cách Cluster Autoscale hoạt động với M-FKE, Kubernetes cluster sẽ tự động tăng/giảm số lượng Worker Node trong một Worker Group tùy theo mức sử dụng GPU: thêm Worker Node mới vào Worker Group nếu ứng dụng chạy trên worker group đó không nhận đủ tài nguyên (GPU) từ các node trong pool. Các Pod đang Pending sẽ được phân bổ sang các Worker Node mới được tạo sau khi scale. Cluster Autoscale cũng sẽ xóa các node không đáp ứng yêu cầu sử dụng (mặc định là 50%) cho node đó.
+Tham khảo thêm tại [FPT Cloud Managed Kubernetes Autoscaler](../managed-fpt-kubernetes-engine/index.md)
+Số lượng node trong một Worker Group được định nghĩa trên FPT Cloud Portal như hình dưới đây:
 [![](/img/migrated/63-1-477eea30.png)](/img/migrated/63-1-477eea30.png)

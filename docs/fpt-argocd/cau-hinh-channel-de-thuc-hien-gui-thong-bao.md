@@ -1,8 +1,8 @@
 ---
 id: "cau-hinh-channel-de-thuc-hien-gui-thong-bao"
-title: "通知チャンネルの設定"
+title: "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
 description: "ArgoCD通知用にTelegram、Slack、Emailチャンネルを追加・編集・削除する方法。"
-sidebar_label: "通知チャンネルの設定"
+sidebar_label: "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
 sidebar_position: "41"
 ---
 

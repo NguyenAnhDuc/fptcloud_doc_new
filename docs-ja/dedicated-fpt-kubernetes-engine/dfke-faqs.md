@@ -1,23 +1,30 @@
 ---
 id: "dfke-faqs"
-title: "Câu hỏi thường gặp"
-description: "**D-FKE hỗ trợ ở các regions nào?**"
-sidebar_label: "Câu hỏi thường gặp"
+title: "よくある質問（FAQ）"
+description: "Dedicated FPT Kubernetes Engineサービスに関するよくある質問。"
+sidebar_label: "よくある質問（FAQ）"
 sidebar_position: "30"
 ---
 
-# Câu hỏi thường gặp (FAQs)
+# よくある質問（FAQ）
 
-**D-FKE hỗ trợ ở các regions nào?**
-Hiện tại FPTCloud đang hỗ trợ 02 Regions là HAN (Hanoi) và SGN (Saigon/HCM). D-FKE hỗ trợ tương ứng ở cả 02 Regions trên.
-**Một cluster D-FKE có thể trải trên nhiều regions không?**
-D-FKE không hỗ trợ một cluster chạy trên nhiều regions. Bạn có thể tạo cluster trên mỗi region cho cùng một ứng dụng để thực hiện BC&DR.
-**D-FKE có hỗ trợ nhiều cấu hình VM trong một cluster không?**
-D-FKE hiện tại không hỗ trợ nhiều cầu hình VM trong một cluster. Các Worker Nodes có cấu hình giống nhau (CPU, RAM, DISK), các Master Nodes có cấu hình giống nhau (CPU, RAM, DISK). Bạn có thể tăng cấu hình Nodes trong quá trình sử dụng.
-**D-FKE hỗ trợ bao nhiêu Worker Nodes trong một cluster?**
-D-FKE mặc định giới hạn 100 Worker Nodes / Cluster. Bạn cần liên hệ với FPT Cloud để tăng giới hạn Worker Nodes nếu có nhu cầu.
-**D-FKE có tương thích với các ứng dụng Kubernetes hiện có của tôi không?**
-D-FKE sử dụng native Kubernetes nên hoàn toàn tương thích với các nên tảng Kubernetes trên các Cloud khác như AWS, Azure, GCP, DO… cũng như cluster Kubernetes được bạn cài đặt trên hạ tầng của bạn. Điều này giúp bạn dễ dàng di chuyển ứng dụng giữa FPT Cloud và DC của bạn cũng như các Cloud khác.
-**Làm thế nào để tôi có thể public ứng dụng ra bên ngoài cluster?**
-**Làm thế nào để tôi có thể giám sát hiệu năng và cấu hình cảnh báo cho cluster?**
-FPTCloud cung cấp sản phẩm FMON giúp bạn giám sát hiệu năng và cấu hình cảnh báo cho Kubernetes cluster. Ngoài ra, FMON cung cấp logging & tracing dễ dàng tích hợp với FKE.
+**D-FKEはどのregionをサポートしていますか？**
+現在FPT CloudはHAN（Hanoi）とSGN（Saigon/HCM）の2つのRegionをサポートしています。D-FKEは両方のRegionで利用可能です。
+
+**D-FKE clusterは複数のregionにまたがることができますか？**
+D-FKEは1つのclusterを複数のregionにまたがって実行することをサポートしていません。BC&DRを実施するために、同じアプリケーションに対して各regionにclusterを作成することができます。
+
+**D-FKEは1つのcluster内で複数のVM構成をサポートしていますか？**
+D-FKEは現在、1つのcluster内で複数のVM構成をサポートしていません。すべてのWorker nodeは同じ構成（CPU、RAM、Disk）を持ち、すべてのMaster nodeも同じ構成（CPU、RAM、Disk）を持ちます。利用中にnodeの構成を増やすことができます。
+
+**D-FKEは1つのclusterで何台のWorker nodeをサポートしていますか？**
+D-FKEはデフォルトでclusterあたり最大100台のWorker nodeに制限されています。必要に応じてWorker nodeの上限を増やすには、FPT Cloudにお問い合わせください。
+
+**D-FKEは私の既存のKubernetesアプリケーションと互換性がありますか？**
+D-FKEはネイティブKubernetesを使用しているため、AWS、Azure、GCP、DigitalOceanなど他のCloudのKubernetesプラットフォームや、お客様自身のインフラにインストールしたKubernetes clusterと完全に互換性があります。これにより、FPT Cloudとデータセンター、および他のCloud間でアプリケーションを簡単に移行できます。
+
+**アプリケーションをcluster外に公開するにはどうすればよいですか？**
+Service type Load Balancerを使用してアプリケーションをパブリックまたはプライベートに公開できます。詳細はService type Load Balancerガイドを参照してください。
+
+**clusterのパフォーマンス監視とアラート設定はどのようにすればよいですか？**
+FPT CloudはFMON製品を提供しており、Kubernetes clusterのパフォーマンス監視とアラート設定に役立ちます。また、FMONはFKEと簡単に連携できるloggingとtracingも提供しています。

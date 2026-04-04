@@ -4,6 +4,7 @@ title: "View VPN details"
 description: "Guide to viewing VPN Site-to-Site connection details and status"
 sidebar_label: "View VPN details"
 sidebar_position: "3"
+draft: true
 ---
 
 # View VPN details

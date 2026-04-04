@@ -1,8 +1,8 @@
 ---
 id: "business-impact"
-title: "Business Impact"
-description: "Tác động kinh doanh của việc hợp tác giữa JAIST và FPT AI Factory."
-sidebar_label: "Business Impact"
+title: "ビジネスへの影響"
+description: "JAIST と FPT AI Factory のコラボレーションがもたらしたビジネスへの影響。"
+sidebar_label: "ビジネスへの影響"
 sidebar_position: "34"
 ---
 

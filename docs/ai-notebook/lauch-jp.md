@@ -1,58 +1,58 @@
 ---
 id: "lauch-jp"
-title: "AI Notebookの起動"
-description: "FPT AI FactoryコンソールからAI Notebookを起動してアクセスする方法。"
-sidebar_label: "AI Notebookの起動"
+title: "Launch AI Notebook"
+description: "Launch and access your AI Notebook from the FPT AI Factory console."
+sidebar_label: "Launch AI Notebook"
 sidebar_position: "4"
 ---
 
-# AI Notebookの起動
+# Launch AI Notebook
 
-**ステップ1:** 左メニューから「**AI Notebook**」を選択します。ノートブックの起動には約1〜2分かかります。
+**Step 1:** From the left menu, select **AI Notebook**. It takes about 1–2 minutes for the notebook to start.
 
-[![AI Notebookメニュー選択画面](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)
+[![AI Notebook menu item in the FPT AI Factory left navigation](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)](/img/migrated/worddavdaac2e493a386a877fe5a19fab86a552-8d1e03ba.png)
 
-**ステップ2:** 準備が整うと、ブラウザが自動的に**AI Notebookランチャー**を開きます。ポップアップがブロックされている場合は、「**AI Notebookを開く**」をクリックしてランチャーに入ってください。
+**Step 2:** When it's ready, your browser will automatically open the **AI Notebook** Launcher. If the pop-up is blocked, click **Open AI Notebook** to enter the Launcher.
 
-[![AI Notebookを開くボタン](/img/migrated/image-3-1-2c056774.png)](/img/migrated/image-3-1-2c056774.png)
+[![AI Notebook open button shown after the notebook is ready](/img/migrated/image-3-1-2c056774.png)](/img/migrated/image-3-1-2c056774.png)
 
-## ランチャーの概要
+## Launcher overview
 
-ランチャーは**JupyterLab**の起点となります。新しいノートブックの作成、コンソールの起動、作業実行に使うリソースの種類（CPUまたはGPU）の選択が可能です。
+The Launcher is your starting point in **JupyterLab**. It lets you create new notebooks, open consoles, and select the type of resources (CPU or GPU) to run your work.
 
-[![JupyterLabランチャー概要画面](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)
+[![JupyterLab Launcher interface with notebook and console options](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)](/img/migrated/worddavb7138276623cb606022343836db461c8-5f6816ad.png)
 
-**1. ナビゲーションバーのクイックアクセス**
+**1. Quick access on the navigation bar**
 
-- **ファイルブラウザ:** AI Notebook環境内のファイルやフォルダを管理するワークスペースのハブです。ファイルの迅速な開く、名前変更、削除、整理が可能です。
-- **実行中のカーネル/ノートブック:** アクティブなカーネルと開いているノートブックをすべて表示します。セッションの監視、GPU/CPU使用状況の確認、アイドル状態のものを停止してリソースを解放するために使用します。
-- **目次:** ノートブックのセクションを構造化されたビューで表示します。長いノートブックをスクロールせずに見出し間を簡単に移動できます。
-- **GPUカーネル管理:** GPUカーネルを制御・監視します。GPU割り当て/使用状況を確認し、未使用のGPUカーネルをシャットダウンします。
-- **拡張機能マネージャー:** AI Notebookを拡張ツールや統合機能で強化します。Gitやコードフォーマッタなどの拡張機能をインストール、有効化、無効化して生産性を向上させます。
+- **File Browser:** Your workspace hub for managing files and folders in the AI Notebook environment. Quickly open, rename, delete, or organize your files.
+- **Running Kernels / Notebooks:** Displays all active kernels and open notebooks. Use it to monitor sessions, check GPU/CPU usage, and stop idle ones to free resources.
+- **Table of Contents:** Gives a structured view of your notebook's sections. Easily jump between headings without scrolling through long notebooks.
+- **GPU Kernel Management:** Controls and monitors GPU kernels. Check GPU allocation/usage status and shut down unused GPU kernels.
+- **Extensions Manager:** Lets you extend your AI Notebook with extra tools and integrations. Install, enable, or disable extensions like Git or code formatters to enhance productivity.
 
-**2. ノートブックとコンソールのオプション**
+**2. Notebook and console options**
 
-**ノートブックセクション:**
-インタラクティブなコードと出力環境が必要な場合に使用します。Markdown、チャート、メモを使ったコードの開発、可視化、ドキュメント化に最適です。
-異なるリソースで新しいノートブックセッションを選択できます:
+**Notebook section:**
+Use this when you want an interactive, code-plus-output environment. Ideal for developing, visualizing, and documenting code with Markdown, charts, and notes.
+Choose a new notebook session with different resources:
 
-- CPU（無料）
+- CPU (Free)
 - 1x GPU H100 SXM5
 - 2x GPU H100 SXM5
 - 4x GPU H100 SXM5
 - 8x GPU H100 SXM5
 
-**コンソールセクション:**
-クイックスクリプトの実行やコードスニペットのテストなど、軽量なコマンドラインインターフェースのみが必要な場合に使用します。同じリソースオプションでコンソールセッション（コマンドライン + コード実行）を開始します。
+**Console section:**
+Use this when you only need a lightweight, command-line interface to run quick scripts or test snippets — no rich text or visual output. Start a console session (command line + code execution) with the same resource options.
 
-**その他セクション:**
-追加ファイルを作成します:
+**Other section:**
+Create additional files like:
 
-- テキストファイル
-- マークダウンファイル
-- Pythonファイル
+- Text File
+- Markdown File
+- Python File
 
-**3. リソース選択と価格設定パネル**
+**3. Resource selection and pricing panel**
 
-- 注意: 追加費用を避けるため、未使用のランタイムは切断・削除してください。
-- 利用可能なGPU構成の詳細（CPU、RAM、VRAM、時間あたりのコスト）を表示します。
+- Reminder: Disconnect and delete unused runtimes to avoid extra costs.
+- Displays available GPU configurations with details (CPU, RAM, VRAM, cost per hour).

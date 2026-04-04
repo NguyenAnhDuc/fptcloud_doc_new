@@ -1,23 +1,23 @@
 ---
 id: "initial-setup"
-title: "初期設定"
-description: "FPT Smart Cloud Database Engine を初めて使用する前の初期設定手順。"
-sidebar_label: "初期設定"
+title: "Initial Setup"
+description: "Các bước cài đặt ban đầu trước khi sử dụng FPT Smart Cloud Database Engine lần đầu tiên."
+sidebar_label: "Initial Setup"
 sidebar_position: "2"
 ---
 
-# 初期設定
+# Cài đặt ban đầu
 
-**FPT Smart Cloud Database Engine** を初めてご利用になる場合は、以下の手順を確認・完了してから開始してください。
+Trước khi sử dụng **FPT Smart Cloud Database Engine** lần đầu tiên, hãy hoàn thành các bước sau.
 
-## FPT Cloud アカウントの作成と FPT Portal へのログイン
+## Tạo tài khoản FPT Cloud và đăng nhập FPT Portal
 
-**FPT Smart Cloud Database Engine** サービスの使用を開始するには、**FPT Portal** にログインする必要があります。
+Để bắt đầu sử dụng **FPT Smart Cloud Database Engine**, bạn cần đăng nhập vào **FPT Portal**.
 
-付与された **FPT Cloud** のアカウントとパスワードでログインしてください。サービスを使用する正しい Tenant、Region、VPC を選択します。
+Đăng nhập bằng tài khoản và mật khẩu **FPT Cloud** được cấp. Chọn đúng Tenant, Region và VPC cho dịch vụ bạn muốn sử dụng.
 
-FPT Cloud アカウントをお持ちでない場合は、<https://fptcloud.com/> にアクセスしてください。
+Nếu bạn chưa có tài khoản FPT Cloud, truy cập <https://fptcloud.com/>.
 
-**Sign Up** 機能を選択し、システムの指示に従って情報を入力してください。サポート担当者がすぐに連絡し、アカウント作成のための情報を確認します。
+Chọn chức năng **Sign Up** và điền thông tin theo hướng dẫn của hệ thống. Nhân viên hỗ trợ sẽ liên hệ ngay để xác nhận thông tin và hoàn tất việc tạo tài khoản.
 
-操作中に問題が発生した場合は、サポートチームまでお問い合わせください。
+Nếu bạn gặp sự cố trong quá trình thực hiện, liên hệ đội ngũ hỗ trợ.

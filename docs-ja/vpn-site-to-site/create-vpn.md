@@ -4,6 +4,7 @@ title: "Create VPN Site-to-Site"
 description: "Guide to creating a new VPN Site-to-Site connection on FPT Cloud Portal"
 sidebar_label: "Create VPN"
 sidebar_position: "2"
+draft: true
 ---
 
 # Create VPN Site-to-Site

@@ -1,40 +1,40 @@
 ---
 id: "encryption"
-title: "暗号化（SSE-C）"
-description: "FPT Object Storage での Server-Side Encryption with Customer-Provided Keys（SSE-C）の利用ガイドです。"
-sidebar_label: "暗号化（SSE-C）"
-sidebar_position: "8"
+title: "Encryption"
+description: "Guide to using Server-Side Encryption with Customer-Provided Keys (SSE-C) in FPT Object Storage."
+sidebar_label: "Encryption"
+sidebar_position: 8
 ---
 
-# 暗号化（SSE-C）
+# Encryption (SSE-C)
 
-## Server-Side Encryption with Customer-Provided Keys（SSE-C）
+## Server-Side Encryption with Customer-Provided Keys (SSE-C)
 
-**Server-Side Encryption with Customer-Provided Keys（SSE-C）** は **FPT Object Storage** の機能で、お客様が提供する暗号化キーを使用してデータのセキュリティを強化します。
+**Server-Side Encryption with Customer-Provided Keys (SSE-C)** is a feature in **FPT Object Storage** that enhances data security using encryption keys provided by the customer.
 
-### SSE-C の動作方法
+### How SSE-C works
 
-1. **データのアップロード:**
-   - object をアップロードする際、データとともに暗号化キーを提供する必要があります。
-   - FPT Object Storage はこの暗号化キーを使用してデータを暗号化してから保存します。
-   - 暗号化が完了すると、暗号化キーは破棄されシステムに保存されません。
+1. **Uploading data:**
+   - When you upload an object, you must provide an encryption key along with the data.
+   - FPT Object Storage uses this encryption key to encrypt the data before storing it.
+   - Once encryption is complete, the encryption key is discarded and not stored on the system.
 
-2. **データのダウンロード:**
-   - データをダウンロードする際、最初にデータの暗号化に使用した暗号化キーを提供する必要があります。
-   - FPT Object Storage はこのキーを使用してデータを復号化し、返します。
+2. **Downloading data:**
+   - When you download data, you must provide the same encryption key that was used to encrypt the data originally.
+   - FPT Object Storage uses this key to decrypt the data and return it to you.
 
-### 重要なポイント
+### Key points
 
-- **キーの管理:**
-  - お客様は暗号化キーの管理について全責任を負います。
-  - FPT Object Storage はお客様の暗号化キーを保存しません。暗号化キーを紛失した場合、そのキーで暗号化されたデータにアクセスできなくなります。
+- **Key management:**
+  - You are fully responsible for managing your encryption keys.
+  - FPT Object Storage does not store your encryption keys. If you lose your encryption key, you will not be able to access data encrypted with that key.
 
-- **セキュリティ:**
-  - SSE-C はデータ保護の追加レイヤーを提供し、厳格なセキュリティ規制の遵守を求める組織に特に有用です。
-  - お客様は暗号化キーの管理を通じて重要な object へのアクセスを完全に制御できます。
+- **Security:**
+  - SSE-C provides an additional layer of data protection, particularly useful for organizations that must comply with strict security regulations.
+  - Customers have full control over access to important objects through encryption key management.
 
-- **使用方法:**
-  - SSE-C を使用する際は、暗号化キーを自分で作成・保存・保護する必要があります。
-  - 暗号化キーを管理・保護するための適切なセキュリティプロセスを確保してください。
+- **Usage:**
+  - When using SSE-C, you must create, store, and protect your encryption keys yourself.
+  - Ensure you have appropriate security processes in place to manage and protect these encryption keys.
 
-SSE-C は **FPT Object Storage** 内の機密データを保護する効果的な方法で、お客様にデータへのアクセスとセキュリティに関する最大限の制御を提供します。
+SSE-C is an effective method for protecting sensitive data in **FPT Object Storage**, giving customers maximum control over data access and security.

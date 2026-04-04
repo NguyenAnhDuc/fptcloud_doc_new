@@ -1,31 +1,32 @@
 ---
 id: "subuser-bucket-permissions"
-title: "subuser への bucket 使用権限の付与"
-description: "Bucket Policy を使用して各 subuser に特定の bucket へのアクセス権を付与する手順です。"
-sidebar_label: "subuser への bucket 権限付与"
-sidebar_position: "19"
+title: "Grant Bucket Permissions to Subusers"
+description: "How to use Bucket Policy to grant specific bucket access to subusers in FPT Object Storage."
+sidebar_label: "Subuser Bucket Permissions"
+sidebar_position: 19
+pagination_next: null
 ---
 
-# subuser への bucket 使用権限の付与
+# Grant Bucket Permissions to Subusers
 
-## 概要
+## Overview
 
-現在 FPT Object Storage では subuser を作成できますが、subuser のロールは管理者のすべてのリソースに対して有効になります。例えば Read only ロールの subuser を作成すると、その subuser は管理者のすべての bucket に対して Read 権限を持ちます。
+FPT Object Storage supports creating subusers, but a subuser's role applies to all of the admin's resources. For example, if you create a subuser with the Read Only role, that subuser will have read access to all of the admin's buckets.
 
-各 bucket に対して権限を付与するには、Bucket Policy を使用する必要があります。
+To grant permissions on a per-bucket basis, you must use Bucket Policy.
 
-Bucket-1、Bucket-2、Bucket-3 の 3 つの bucket を SubUser-1、SubUser-2、SubUser-3 の 3 人の subuser に付与する場合、以下が **FPT Unify Portal** での詳細な設定ガイドです。
+As an example, suppose you have 3 buckets — Bucket-1, Bucket-2, Bucket-3 — and want to grant access to 3 subusers — SubUser-1, SubUser-2, SubUser-3. The following is a detailed configuration guide on **FPT Unify Portal**.
 
-## 前提条件
+## Prerequisites
 
-- FPT Cloud アカウントを持ち、Object Storage サービスが有効化されていること。
-- 同じリージョンで bucket が正常に作成されていること。
+- You have an FPT Cloud account with the Object Storage service enabled.
+- Buckets have been successfully created in the same region.
 
-## 手順の概要
+## Steps
 
-1. **subuser を None 権限で作成**して、subuser が他の bucket にアクセスできないようにします。
+1. **Create subusers with None permission** to ensure subusers cannot access other buckets.
 
-2. **特定の bucket への subuser のアクセスを開放します。** 各 bucket で以下のテンプレートに従って Bucket Policy を設定します。
+2. **Open access to specific buckets for each subuser.** For each bucket, declare a Bucket Policy using the following template:
 
 ```json
 {
@@ -46,14 +47,14 @@ Bucket-1、Bucket-2、Bucket-3 の 3 つの bucket を SubUser-1、SubUser-2、S
 }
 ```
 
-- **Version:** policy のバージョン（通常は "2012-10-17"）。
-- **Effect:** 権限（"Allow" または "Deny"）。
-- **Principal:** 特定のユーザーまたはロール。SUBUSER_ACCOUNT_ID と SUBUSER_NAME を権限を付与する subuser の情報に置き換えてください。
-- **Action:** subuser が bucket に対して実行できるアクション（ここでは "s3:*" ですべてのアクション）。
-- **Resource:** policy が適用されるリソース（ここでは bucket とその bucket 内のすべての object）。
+- **Version:** The policy version (typically "2012-10-17").
+- **Effect:** The permission type ("Allow" or "Deny").
+- **Principal:** The specific user or role. Replace SUBUSER_ACCOUNT_ID and SUBUSER_NAME with the information of the subuser to be granted access.
+- **Action:** The actions the subuser can perform on the bucket (here "s3:*" allows all actions).
+- **Resource:** The resources the policy applies to (here the bucket and all objects inside it).
 
-3. **SubUser Key を作成**してエンドユーザーに提供します。
+3. **Create SubUser Keys** and provide them to the end users.
 
-## まとめ
+## Summary
 
-以上の手順により、bucket policy を使用して FPT Object Storage 内で異なる bucket を使用する subuser の権限付与を行いました。
+With the steps above, you have used bucket policy to grant subusers access to specific buckets within FPT Object Storage.

@@ -1,36 +1,36 @@
 ---
 id: "notes-when-using-mfke"
-title: "Notes when using MFKE"
-description: "Create namespaces to divide applications or environments for easier management. Avoid using system-created namespaces fo"
-sidebar_label: "Notes when using MFKE"
+title: "Lưu ý khi sử dụng MFKE"
+description: "Các lưu ý quan trọng khi sử dụng dịch vụ Managed FPT Kubernetes Engine."
+sidebar_label: "Lưu ý khi sử dụng MFKE"
 sidebar_position: "27"
 ---
 
-# Notes when using MFKE
+# Lưu ý khi sử dụng MFKE
 
-### 1. Use Namespaces:
-Create namespaces to divide applications or environments for easier management. Avoid using system-created namespaces for deploying applications.
+### 1. Sử dụng Namespace:
+Tạo namespace để phân chia ứng dụng hoặc môi trường, giúp quản lý dễ dàng hơn. Tránh sử dụng các namespace do hệ thống tạo sẵn để triển khai ứng dụng.
 
-### 2. Use Worker Groups:
-When creating a Kubernetes cluster, at least one worker group (base) is required to host system components (connector, metrics-server, etc.). For high availability in a production environment, configure a minimum of 3 workers for the base group and use a separate worker group for applications.
+### 2. Sử dụng Worker Group:
+Khi tạo Kubernetes cluster, cần ít nhất một worker group (base) để chứa các thành phần hệ thống (connector, metrics-server, v.v.). Đối với môi trường production yêu cầu tính sẵn sàng cao, hãy cấu hình tối thiểu 3 worker cho nhóm base và sử dụng worker group riêng biệt cho ứng dụng.
 
-### 3. Use Readiness & Liveness Probes:
-Ensure application readiness. Readiness Probes ensure that requests are directed to a pod only when it is ready to receive them. Pods often take time to start the application, so setting Readiness Probes ensures that requests are not send to Pods when they are starting. Liveness Probes ensure that a pod running an application is in the "Running" state; if it fails, the pod is restarted.
+### 3. Sử dụng Readiness & Liveness Probe:
+Đảm bảo ứng dụng sẵn sàng trước khi nhận traffic. Readiness Probe đảm bảo chỉ gửi request đến pod khi pod đã sẵn sàng tiếp nhận. Pod thường cần thời gian để khởi động ứng dụng, vì vậy cài đặt Readiness Probe giúp tránh gửi request trong lúc pod đang khởi động. Liveness Probe đảm bảo pod đang chạy ứng dụng ở trạng thái "Running"; nếu thất bại, pod sẽ được khởi động lại.
 
-### 4. Set Resource Requests & Limits:
-Help containers ensure they have enough resources to run and do not exceed the allowed resource limits. Without limits, a pod might use more resources than allowed, potentially causing node crashes.
+### 4. Đặt Resource Request & Limit:
+Giúp container đảm bảo có đủ tài nguyên để chạy và không vượt quá giới hạn tài nguyên cho phép. Nếu không đặt giới hạn, pod có thể sử dụng nhiều tài nguyên hơn mức cho phép, có thể gây sập node.
 
-### 5. Use Autoscale:
-Leverage FKE's Autoscale feature based on Kubernetes HPA to allow applications to quickly respond to increased access. During low usage, the system automatically scales down pods/nodes to a minimum.
+### 5. Sử dụng Autoscale:
+Tận dụng tính năng Autoscale của FKE dựa trên Kubernetes HPA để ứng dụng có thể phản hồi nhanh khi lượng truy cập tăng. Khi ít người dùng, hệ thống tự động giảm số pod/node xuống mức tối thiểu.
 
-### 6. Use Multiple Pods (>=2):
-Ensure high availability by using at least two pods for each service. Use anti-affinity to distribute replica pods across different nodes.
+### 6. Sử dụng nhiều Pod (>=2):
+Đảm bảo tính sẵn sàng cao bằng cách sử dụng ít nhất hai pod cho mỗi service. Sử dụng anti-affinity để phân phối các replica pod trên các node khác nhau.
 
-### 7. Use Persistent Volume:
-M-FKE supports Block Storage, the default choice for the system, supporting RWO and offering good performance according to Storage Policy.
+### 7. Sử dụng Persistent Volume:
+M-FKE hỗ trợ Block Storage — lựa chọn mặc định của hệ thống, hỗ trợ RWO và có hiệu suất tốt theo Storage Policy.
 
 ### 8. Backup:
-Users should perform data backup on Persistent Volume Claims (PVC). Backup can be done to a virtual machine, and FCloud Backup & Recovery solution can be used for VM backup.
+Người dùng nên thực hiện sao lưu dữ liệu trên Persistent Volume Claim (PVC). Có thể sao lưu lên máy ảo, và sử dụng giải pháp FCloud Backup & Recovery để sao lưu VM.
 
 ### 9. Monitoring & Logging:
-Use FMON to integrate monitoring and logging with the Kubernetes cluster. Set up alerts for the system.
+Sử dụng FMON để tích hợp monitoring và logging với Kubernetes cluster. Thiết lập cảnh báo cho hệ thống.

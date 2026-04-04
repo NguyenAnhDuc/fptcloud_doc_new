@@ -1,33 +1,33 @@
 ---
 id: "tao-queues"
-title: "queue の作成"
-description: "FPT Message Bus で新しい queue を作成します。"
-sidebar_label: "queue の作成"
+title: "Create a queue"
+description: "How to create a new queue in FPT Message Bus for RabbitMQ."
+sidebar_label: "Create a queue"
 sidebar_position: "5"
 ---
 
-# Tạo queue
+# Create a queue
 
-Queue lưu trữ message cho đến khi consumer nhận. Bạn có thể cấu hình giới hạn dung lượng, thời gian tồn tại message và chính sách xử lý khi queue đầy ngay khi tạo.
+A queue stores messages until a consumer retrieves them. You can configure capacity limits, message TTL, and overflow policy at creation time.
 
-1. Từ menu **Application**, chọn **Queues** > **Create**.
+1. From the **Application** menu, select **Queues** > **Create**.
 
-   [![Màn hình danh sách queues với nút Create](/img/migrated/que_create-31f765f3.png)](/img/migrated/que_create-31f765f3.png)
+   [![Queue list screen with Create button](/img/migrated/que_create-31f765f3.png)](/img/migrated/que_create-31f765f3.png)
 
-2. Nhập các thông tin cần thiết:
+2. Enter the required information:
 
-   - **Name** (bắt buộc): Tên queue.
-   - **Max length**: Tổng số message tối đa có thể chứa trong queue.
-   - **Message TTL**: Thời gian message tồn tại từ khi được publish. Nếu vượt quá thời gian này, message sẽ bị xóa.
-   - **Overflow**: Chế độ xử lý khi queue đầy — `drop_head`, `reject_publish`, hoặc `reject_publish_DLX`.
-   - **Maximum priority**: Mức độ ưu tiên tối đa, nhập giá trị từ 0 đến 10.
+   - **Name** (required): The name of the queue.
+   - **Max length**: The maximum number of messages the queue can hold.
+   - **Message TTL**: The time a message remains valid after being published. If this time is exceeded, the message is deleted.
+   - **Overflow**: The behavior when the queue is full — `drop_head`, `reject_publish`, or `reject_publish_DLX`.
+   - **Maximum priority**: The maximum priority level, enter a value from 0 to 10.
 
-   [![Form tạo queue với các trường Name, Max length, Message TTL, Overflow](/img/migrated/que_create_1-1df0d53b.png)](/img/migrated/que_create_1-1df0d53b.png)
+   [![Create queue form with Name, Max length, Message TTL, Overflow fields](/img/migrated/que_create_1-1df0d53b.png)](/img/migrated/que_create_1-1df0d53b.png)
 
-3. Chọn **OK** để hoàn tất tạo queue.
+3. Click **OK** to finish creating the queue.
 
 :::note
-Tên queue được đặt theo quy tắc: `q.QUEUE_NAME`.
+Queue names follow the naming convention: `q.QUEUE_NAME`.
 
-Nếu chọn đồng thời **Is Quorum** và **Single active consumer**, tính năng Receive sẽ không hoạt động — chỉ nên chọn một trong hai thuộc tính.
+If you select both **Is Quorum** and **Single active consumer**, the Receive feature will not work — select only one of these two attributes.
 :::

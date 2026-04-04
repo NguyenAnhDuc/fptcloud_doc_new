@@ -1,25 +1,25 @@
 ---
 id: "huong-dan-su-dung-robot-account"
-title: "Sử dụng robot account"
-description: "Đăng nhập và thực hiện pull/push image bằng robot account."
-sidebar_label: "Sử dụng robot account"
+title: "Use a robot account"
+description: "Log in and perform pull/push operations using a robot account."
+sidebar_label: "Use a robot account"
 sidebar_position: "26"
 ---
 
-# Sử dụng robot account
+# Use a robot account
 
-Sau khi tạo robot account, bạn có thể dùng thông tin xác thực của nó để thực hiện các thao tác Docker với đúng quyền (pull/push) đã cấu hình. Robot account phù hợp để sử dụng trong pipeline CI/CD và môi trường tự động hóa.
+After creating a robot account, you can use its credentials to perform Docker operations with the configured permissions (pull/push). Robot accounts are ideal for use in CI/CD pipelines and automated environments.
 
-Sử dụng token đã sao chép từ Portal hoặc từ file export để đăng nhập:
+Use the token copied from the Portal or from an exported file to log in:
 
-[![Sử dụng token để docker login](/img/migrated/Picture83-e270d618.png)](/img/migrated/Picture83-e270d618.png)
+[![Use token for docker login](/img/migrated/Picture83-e270d618.png)](/img/migrated/Picture83-e270d618.png)
 
-Kiểm tra thông tin xác thực bằng lệnh `docker login`:
+Verify the credentials using the `docker login` command:
 
-[![Kết quả docker login với robot account](/img/migrated/Picture84-69496c13.png)](/img/migrated/Picture84-69496c13.png)
+[![docker login result with robot account](/img/migrated/Picture84-69496c13.png)](/img/migrated/Picture84-69496c13.png)
 
-Sau khi đăng nhập, sử dụng `docker pull` hoặc `docker push` để kiểm tra các quyền đã cấu hình.
+After logging in, use `docker pull` or `docker push` to verify the configured permissions.
 
 :::note
-Nếu robot account bị xóa, tắt hoặc token hết hạn, lệnh `docker login`, `docker pull` hoặc `docker push` sẽ báo lỗi "unauthorized to access repository".
+If the robot account is deleted, disabled, or the token has expired, `docker login`, `docker pull`, or `docker push` will return an "unauthorized to access repository" error.
 :::

@@ -1,8 +1,8 @@
 ---
 id: "fpt-message-bus-for-rabbitmq"
-title: "FPT Message Bus for RabbitMQ"
+title: "Fpt Message Bus For Rabbitmq"
 description: "Tổng quan tài liệu FPT Message Bus for RabbitMQ"
-sidebar_label: "FPT Message Bus for RabbitMQ"
+sidebar_label: "Fpt Message Bus For Rabbitmq"
 sidebar_position: "1"
 ---
 

@@ -1,29 +1,32 @@
 ---
 id: "cau-hinh-proxy-protocol-cho-nginx-ingress"
-title: "Managed Kubernetes Cluster での nginx-ingress の Proxy Protocol 設定"
-description: "FPT Cloud の Managed Kubernetes サービスを使用して nginx ingress gateway 経由でアプリケーションにアクセスする際のエンドユーザーのパブリック IP 情報を取得するための設定方法を説明します。"
-sidebar_label: "nginx-ingress の Proxy Protocol 設定"
+title: "Configure Proxy Protocol for Nginx Ingress"
+description: "How to configure Proxy Protocol for Nginx Ingress Controller in Managed Kubernetes to retrieve the public IP of end users."
+sidebar_label: "Configure Proxy Protocol for Nginx Ingress"
 sidebar_position: "52"
 ---
 
-# Cấu hình Proxy Protocol cho Nginx Ingress
+# Configure Proxy Protocol for Nginx Ingress
 
-Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public của người dùng cuối khi truy cập vào ứng dụng trong Kubernetes thông qua nginx ingress gateway, người dùng có thể cấu hình: 
-. Enable proxy protocol cho service **nginx-ingress-controller** bằng cách thêm annotation loadbalancer.fptcloud.com/proxy-protocol: "true" trong cấu hình của service. 
-. Cấu hình thêm các trường trong configmap **nginx-ingress-controller** trong namespace mà người dùng chọn để deploy nginx ingress controller: 
+If you are using FPT Cloud Managed Kubernetes and need to retrieve the public IP of end users when they access applications in Kubernetes through an Nginx ingress gateway, you can configure the following:
+
+1. Enable proxy protocol for the **nginx-ingress-controller** service by adding the annotation `loadbalancer.fptcloud.com/proxy-protocol: "true"` to the service configuration.
+
+2. Add the following fields to the **nginx-ingress-controller** ConfigMap in the namespace where you deploy the Nginx ingress controller:
 
 ```
-Copyallow-snippet-annotations: "true" 
+allow-snippet-annotations: "true" 
 proxy-protocol: "True" 
 real-ip-header: proxy_protocol 
 use-proxy-protocol: "true" 
 ```
 
-. Restart nginx ingress controller để ingress controller nhận cấu hình configmap mới.
-Nếu ứng dụng người dùng cần gọi tới domain ingress port 443, cần cấu hình thêm annotation cho service LB ingress nginx controller: 
+3. Restart the Nginx ingress controller to apply the new ConfigMap configuration.
+
+If your application needs to call the ingress domain on port 443, add the following annotation to the Nginx ingress controller LB service:
 
 ```
-Copyloadbalancer.fptcloud.com/enable-ingress-hostname: "true"
+loadbalancer.fptcloud.com/enable-ingress-hostname: "true"
 ```
 
-Khi sử dụng service loại LoadBalancer với tính năng proxy protocol cho LB L4, các pod trong cluster không thể kết nối tới dịch vụ thông qua ingress domain port 443, còn từ internet bên ngoài vẫn truy cập bình thường. Nguyên nhân xuất phát từ hành vi mặc định của kube-proxy: thành phần này thêm địa chỉ _IP Public_ của LoadBalancer vào iptables trên các node và ánh xạ IP đó với một interface trong worker node. Kết quả là các yêu cầu từ pod tới ingress domain bị chặn lại tại interface của node và không thể tiếp tục ra mạng public. Cấu hình ingress hostname chính là cách khắc phục vấn đề này, đảm bảo kết nối hoạt động cả từ bên trong cluster lẫn từ internet bên ngoài.
+When using a LoadBalancer service with proxy protocol for L4 LB, pods inside the cluster cannot connect to the service through the ingress domain on port 443, while access from the external internet still works normally. This occurs because kube-proxy adds the LoadBalancer's Public IP to iptables on the nodes and maps that IP to an interface on the worker node. As a result, requests from pods to the ingress domain are blocked at the node interface and cannot reach the public network. Configuring the ingress hostname resolves this issue, ensuring connectivity both from inside the cluster and from the external internet.

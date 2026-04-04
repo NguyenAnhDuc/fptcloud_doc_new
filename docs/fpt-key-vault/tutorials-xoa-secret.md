@@ -1,27 +1,27 @@
 ---
 id: "tutorials-xoa-secret"
-title: "Xóa Secret"
-description: "Hướng dẫn xóa một Secret không còn sử dụng"
-sidebar_label: "Xóa Secret"
+title: "Delete a Secret"
+description: "How to delete an unused Secret"
+sidebar_label: "Delete a Secret"
 sidebar_position: "8"
 ---
 
-# Xóa Secret
+# Delete a Secret
 
-Xóa Secret khi thông tin bí mật không còn cần thiết hoặc đã hết hạn sử dụng. Thao tác này giúp dọn dẹp và bảo mật Vault.
+Delete a Secret when the confidential information is no longer needed or has expired. This operation helps clean up and secure the Vault.
 
 :::danger
-Xóa Secret là thao tác không thể hoàn tác. Toàn bộ các version của Secret sẽ bị xóa vĩnh viễn. Hãy đảm bảo đã sao lưu các thông tin cần thiết trước khi thực hiện.
+Deleting a Secret cannot be undone. All versions of the Secret will be permanently deleted. Make sure you have backed up any necessary information before proceeding.
 :::
 
-1. Trên **Secret Engine Detail**, chọn **Secret Engine** chứa **Secret** cần xóa.
+1. On **Secret Engine Detail**, select the **Secret Engine** containing the **Secret** to delete.
 
-   [![Màn hình chi tiết Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
+   [![Secret Engine detail screen](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
 
-2. Chọn **Secret** cần xóa.
+2. Select the **Secret** to delete.
 
-   [![Danh sách Secret trong Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)
+   [![Secret list in Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)
 
-3. Trên màn hình **Edit Secret**, chọn **Delete** để xóa Secret. Xác nhận trong hộp thoại hiện ra.
+3. On the **Edit Secret** screen, click **Delete** to delete the Secret. Confirm in the dialog that appears.
 
-   [![Màn hình Edit Secret với nút Delete](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)
+   [![Edit Secret screen with Delete button](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)

@@ -1,27 +1,27 @@
 ---
 id: "tutorials-tao-secret-engine"
-title: "Tạo Secret Engine"
-description: "Hướng dẫn tạo mới Secret Engine trong một Vault Instance"
-sidebar_label: "Tạo Secret Engine"
+title: "Secret Engineを作成する"
+description: "Vault Instance内にSecret Engineを新規作成する方法"
+sidebar_label: "Secret Engineを作成する"
 sidebar_position: "4"
 ---
 
-# Tạo Secret Engine
+# Secret Engineを作成する
 
-Secret Engine là thành phần quản lý và lưu trữ các Secret trong Vault. Mỗi Secret Engine có mount point riêng và có thể chứa nhiều Secret theo cấu trúc Key/Value.
+Secret EngineはVault内でSecretを保存・管理するコンポーネントです。各Secret Engineは固有のマウントポイントを持ち、Key/Value形式の複数のSecretを格納できます。
 
-1. Trên **Key Vault Management**, chọn **Key Vault** cần thêm **Secret Engine**.
+1. **Key Vault Management** で **Secret Engine** を追加する **Key Vault** を選択します。
 
-   [![Màn hình danh sách Key Vault Management](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
+   [![Key Vault Management一覧画面](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)](/img/migrated/Userguide-FPT-KeyVault-2022-4-1024x538-3dcfc356.png)
 
-2. Mở tab **Secret** và chọn **Create**.
+2. **Secret** タブを開き、**Create** をクリックします。
 
-   [![Tab Secret với nút Create](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)
+   [![Createボタンが表示されたSecretタブ](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)](/img/migrated/Userguide-FPT-KeyVault-2022-5-1024x538-d5d3ee4b.png)
 
-3. Trên màn hình **Create New Secret Engine**, nhập các thông tin cần thiết.
+3. **Create New Secret Engine** 画面で必要な情報を入力します。
 
-   [![Form tạo mới Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)
+   [![Create New Secret Engineフォーム](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)](/img/migrated/Userguide-FPT-KeyVault-2022-6-f90980f3.png)
 
-4. Chọn **Create** để hoàn tất. Hệ thống gửi thông báo xác nhận và tiến hành tạo **Secret Engine** mới.
+4. **Create** をクリックして完了します。システムが確認メッセージを送信し、新しい **Secret Engine** を作成します。
 
-   [![Danh sách Secret Engine sau khi tạo thành công](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)
+   [![作成成功後のSecret Engine一覧](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)](/img/migrated/Userguide-FPT-KeyVault-2022-7-1024x507-73a38867.png)

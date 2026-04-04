@@ -1,35 +1,35 @@
 ---
 id: "gui-nhan-message-trong-queues"
-title: "queue でのメッセージ送受信"
-description: "FPT Message Bus で queue のメッセージを送受信します。"
-sidebar_label: "queue でのメッセージ送受信"
+title: "Send and receive messages in queues"
+description: "How to send and receive messages in a queue on FPT Message Bus for RabbitMQ."
+sidebar_label: "Send and receive messages in queues"
 sidebar_position: "7"
 ---
 
-# Gửi và nhận messages trong queue
+# Send and receive messages in queues
 
-Tính năng Preview cho phép bạn kiểm tra luồng message trực tiếp từ giao diện — hữu ích để debug và xác minh hoạt động của queue trước khi tích hợp ứng dụng.
+The Preview feature lets you test the message flow directly from the interface — useful for debugging and verifying queue behavior before integrating your application.
 
-## Gửi message
+## Send a message
 
-1. Từ menu **Application**, chọn **Queues** > chọn queue cần thao tác > **Preview**.
+1. From the **Application** menu, select **Queues** > select the queue > **Preview**.
 
-   [![Màn hình danh sách queues, chọn queue và nhấn Preview](/img/migrated/View-1-1-73852024.png)](/img/migrated/View-1-1-73852024.png)
+   [![Queue list screen, select queue and click Preview](/img/migrated/View-1-1-73852024.png)](/img/migrated/View-1-1-73852024.png)
 
-2. Trong tab **Send**, nhập nội dung message vào ô **Payload**.
+2. In the **Send** tab, enter the message content in the **Payload** field.
 
-   [![Tab Send với ô Payload để nhập nội dung message](/img/migrated/View-2-2-349ef695.png)](/img/migrated/View-2-2-349ef695.png)
+   [![Send tab with Payload field for entering message content](/img/migrated/View-2-2-349ef695.png)](/img/migrated/View-2-2-349ef695.png)
 
-   Chọn một trong hai kiểu dữ liệu:
-   - **String**: Chuỗi ký tự thông thường.
-   - **Base64**: Chuỗi ký tự được mã hóa theo bảng mã 6-bit thay thế ASCII 8-bit.
+   Select one of two data types:
+   - **String**: A standard character string.
+   - **Base64**: A character string encoded using the 6-bit replacement for 8-bit ASCII.
 
-3. Chọn **Send** để publish message vào queue.
+3. Click **Send** to publish the message to the queue.
 
-## Nhận message
+## Receive a message
 
-1. Chuyển sang tab **Receive**.
+1. Switch to the **Receive** tab.
 
-   [![Tab Receive với nút Receive để nhận message](/img/migrated/Recei-1-cf01752c.png)](/img/migrated/Recei-1-cf01752c.png)
+   [![Receive tab with Receive button](/img/migrated/Recei-1-cf01752c.png)](/img/migrated/Recei-1-cf01752c.png)
 
-2. Chọn nút **Receive** để lấy message từ queue.
+2. Click the **Receive** button to retrieve messages from the queue.

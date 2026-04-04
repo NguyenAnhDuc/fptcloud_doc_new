@@ -1,29 +1,30 @@
 ---
 id: "VPN情報の確認"
-title: "VPN情報の確認"
-description: "VPN接続の詳細情報とステータスを確認するガイドです。"
-sidebar_label: "VPN情報の確認"
+title: "View VPN details"
+description: "Guide to viewing VPN connection status and configuration details."
+sidebar_label: "View VPN details"
 sidebar_position: "3"
+draft: true
 ---
 
-# VPN情報の確認
+# View VPN details
 
-接続ステータスと構成情報を監視することで、VPNの安定稼働を確保できます。
+Monitoring connection status and configuration details helps ensure your VPN runs reliably.
 
-1. VPN管理ページで確認したいVPN名をクリックします。
+1. On the VPN management page, click the name of the VPN you want to inspect.
 
-   ![VPN一覧](/img/migrated/image-1742913956469-c8950bf1.png)
+   ![VPN list](/img/migrated/image-1742913956469-c8950bf1.png)
 
-2. **Status** タブで以下の情報を確認します：
-   - 接続情報
-   - エラー情報
-   - トラフィック
-   - 接続手順とVPNテストガイド
+2. On the **Status** tab, review the following information:
+   - Connection info
+   - Error info
+   - Traffic
+   - Connection instructions and VPN test guide
 
-   **Refresh** をクリックして最新データに同期します。
+   Click **Refresh** to sync the latest data.
 
-   ![VPN詳細 - Statusタブ](/img/migrated/image-1742914122300-0e3c8fb8.png)
+   ![VPN detail - Status tab](/img/migrated/image-1742914122300-0e3c8fb8.png)
 
-3. **Connection Info** タブで構成情報を確認します。**Download Config** をクリックして.txtファイルに保存できます。
+3. On the **Connection Info** tab, review the configuration details. Click **Download Config** to save the configuration as a .txt file.
 
-   ![VPN詳細 - Connection Infoタブ](/img/migrated/image-1742914184152-67ad6fa7.png)
+   ![VPN detail - Connection Info tab](/img/migrated/image-1742914184152-67ad6fa7.png)

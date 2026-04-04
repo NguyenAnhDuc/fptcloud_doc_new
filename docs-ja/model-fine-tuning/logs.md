@@ -1,18 +1,16 @@
 ---
 id: "logs"
 title: "Logs"
-description: "Logs cung cấp thông tin chi tiết về quá trình thực thi của một pipeline fine-tuning cụ thể."
+description: "Logs provides detailed insights into the execution of a specific fine-tuning pipeline. It helps you monitor progress, tr"
 sidebar_label: "Logs"
 sidebar_position: "27"
 ---
 
 # Logs
 
-Logs cung cấp thông tin chi tiết về quá trình thực thi của một pipeline fine-tuning cụ thể. Tính năng này giúp bạn theo dõi tiến trình, khắc phục sự cố và duy trì tính minh bạch trong các quy trình training model.
-
+Logs provides detailed insights into the execution of a specific fine-tuning pipeline. It helps you monitor progress, troubleshoot issues, and maintain transparency in the model training workflows.
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Logs-1.png)](https://fptcloud.com/wp-content/uploads/2025/02/Logs-1.png)
-
-Bạn có thể sử dụng Logs để:
-  * **Theo dõi trình tự các sự kiện** bằng dấu thời gian
-  * **Kiểm tra thông báo trạng thái** về lỗi hoặc cảnh báo
-  * **Tải xuống logs** trước khi liên hệ hỗ trợ để được giải quyết nhanh hơn.
+You can use Logs to:
+  * **Trace the sequence of events** using timestamps
+  * **Check status messages** for errors or warnings
+  * **Download logs** before contacting support for faster resolution.

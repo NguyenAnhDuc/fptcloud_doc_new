@@ -1,75 +1,82 @@
 ---
 id: "faq"
-title: "Câu hỏi thường gặp"
-description: "VPN là cách thức tiết kiệm chi phí, tốc độ cao và bảo mật để kết nối người dùng từ xa với mạng văn phòng. Việc kết nối V"
-sidebar_label: "Câu hỏi thường gặp"
+title: "よくある質問"
+description: "VPN Site-to-Siteサービスに関するよくある質問と回答。"
+sidebar_label: "よくある質問"
 sidebar_position: "39"
 ---
 
-# Faq
+# よくある質問
 
-## Thiết lập ban đầu
-### Q: **Tại sao doanh nghiệp sử dụng VPN?**
-VPN là cách thức tiết kiệm chi phí, tốc độ cao và bảo mật để kết nối người dùng từ xa với mạng văn phòng. Việc kết nối VPN thường được thực hiện trên mạng Internet công cộng nên dịch vụ này sẽ có mức chi phí rẻ hơn so với kết nối trực tiếp (direct-connect) nhưng vẫn đảm bảo an toàn khi kết nối.
-* * *
+## 初期設定
 
-### Q: **Làm sao để biết VPN Site-to-Site connect đã thành công?**
-Trên giao diện quản lý, bạn cần kiểm tra các cột:
-  * **Operation Status** : phải là _Online_
-  * **Provisioning Status** : phải là _Active_
-
-_Lưu ý:_ Trang thái này chỉ phản ánh kết nối **Phase 1**.  
-Để kiểm tra **Phase 2** , hãy thực hiện lệnh ping giữa các máy thuộc dải subnet đã được cấu hình trong VPN connection.
-* * *
-
-### Q: **Thông số IKE và IPSec policies có cần giống nhau giữa 2 đầu kết nối không?**
-Có. Cấu hình các tham số của **Phase 1 (IKE)** và **Phase 2 (IPSec)** phải đồng nhất ở cả hai phía để đảm bảo thiết lập kết nối thành công.
-Xem hướng dẫn cấu hình:
-  * Đối với IKE (phase 1): [tại đây](../vpn-site-to-site/index.md)
-  * Đối với IPSec (phase 2): [tại đây](../vpn-site-to-site/index.md)
-  * Đối với DPD (VPN connection): [tại đây](../vpn-site-to-site/index.md)
+### Q: **企業がVPNを使用する理由は何ですか？**
+VPNは、リモートユーザーをオフィスネットワークに接続するための、コスト効率が高く、高速で安全な手段です。VPN接続は通常パブリックインターネット上で行われるため、ダイレクト接続よりも低コストでありながら、安全な接続を維持できます。
 
 * * *
 
-### Q: **VPN Site-to-Site có tương thích với Fortigate, Pfsense, Checkpoint... không?**
-Có. Dịch vụ hỗ trợ các thiết bị phổ biến như **Fortigate** , **Pfsense** , **Checkpoint**...  
-Bạn có thể tham khảo tài liệu cấu hình tại:
-  * Đối với Fortigate: [tại đây](../vpn-site-to-site/index.md)
-  * Đối với Pfsense: [tại đây](../vpn-site-to-site/index.md)
-  * Đối với Checkpoint: [tại đây](../vpn-site-to-site/index.md)
+### Q: **VPN Site-to-Siteの接続が成功したか確認する方法は？**
+管理画面で以下の項目を確認してください：
+  * **Operation Status**: _Online_ であること
+  * **Provisioning Status**: _Active_ であること
 
-## Vận hành & Kiểm tra
-### Q: **Có thể tạm ngưng kết nối VPN khi không sử dụng và bật lại khi cần không?**
-Có. Bạn có thể đặt trạng thái kết nối là _Inactive_ để tạm dừng.
-Tài liệu hướng dẫn tại đây: [link](https://www.google.com)
-* * *
-
-### Q: **Làm sao để giám sát và xem nhật ký (log) của các hoạt động VPN?**
-Bạn cần truy cập vào dịch vụ **Activity log** , lựa chọn type = "VPN" và nhập ngày muốn kiểm tra. Tài liệu hướng dẫn tại đây: [tại đây](../vpn-site-to-site/index.md)
-* * *
-
-## Xử lý sự cố
-### Q: **Kết nối VPN không thành công, tôi cần kiểm tra những gì trước?**
-  * Địa chỉ IP, khóa PSK, cấu hình IPsec 
-  * Cấu hình firewall và định tuyến 
-  * Kiểm tra log thiết bị để xác định nguyên nhân 
-  * Nếu không thể tự xử lý, vui lòng liên hệ bộ phận kỹ thuật của chúng tôi
+_注意:_ この状態は **Phase 1** の接続のみを反映しています。
+**Phase 2** を確認するには、VPN Connectionで設定したSubnetに属するマシン間でpingを実行してください。
 
 * * *
 
-### Q: **VPN báo kết nối thành công nhưng không ping được hai bên?**
-  * Kiểm tra lại cấu hình định tuyến, security group và firewall 
-  * Xác minh xem có bị NAT hoặc trùng IP không
+### Q: **IKEおよびIPSecポリシーのパラメーターは両端で同一にする必要がありますか？**
+はい。接続を正常に確立するには、**Phase 1 (IKE)** および **Phase 2 (IPSec)** の設定パラメーターが両側で一致している必要があります。
+設定ガイド：
+  * IKE (Phase 1) の設定: [こちら](../vpn-site-to-site/index.md)
+  * IPSec (Phase 2) の設定: [こちら](../vpn-site-to-site/index.md)
+  * DPD (VPN Connection) の設定: [こちら](../vpn-site-to-site/index.md)
 
 * * *
 
-### Q: **VPN bị rớt kết nối, xử lý thế nào?**
-  * Kiểm tra xem đã khớp thông tin IKE/IPSec chưa 
-  * Kiểm tra chất lượng đường truyền Internet 
-  * Nếu thông tin đã khớp, đường truyền ổn định hãy liên hệ đội ngũ kỹ thuật để được hỗ trợ kiểm tra thêm
+### Q: **VPN Site-to-SiteはFortigate、Pfsense、Checkpointなどと互換性がありますか？**
+はい。**Fortigate**、**Pfsense**、**Checkpoint** などの一般的な機器をサポートしています。
+設定ドキュメント：
+  * Fortigateの場合: [こちら](../vpn-site-to-site/index.md)
+  * Pfsenseの場合: [こちら](../vpn-site-to-site/index.md)
+  * Checkpointの場合: [こちら](../vpn-site-to-site/index.md)
+
+## 運用とテスト
+
+### Q: **使用しないときにVPN接続を一時停止し、必要なときに再開できますか？**
+はい。接続ステータスを _Inactive_ に設定することで一時停止できます。
+詳細はこちら: [リンク](https://www.google.com)
 
 * * *
 
-### Q: **Tốc độ VPN chậm, làm sao để cải thiện?**
-  * Sử dụng thuật toán mã hóa nhẹ hơn (nếu phù hợp với yêu cầu bảo mật) 
-  * Nâng cấp băng thông tại các điểm kết nối chính
+### Q: **VPNのアクティビティログを監視・確認するにはどうすればよいですか？**
+**Activity log** サービスにアクセスし、type = "VPN" を選択して確認したい日付を入力してください。詳細はこちら: [こちら](../vpn-site-to-site/index.md)
+
+* * *
+
+## トラブルシューティング
+
+### Q: **VPN接続が失敗した場合、最初に確認すべき項目は？**
+  * IPアドレス、PSKキー、IPsec設定
+  * ファイアウォールとルーティングの設定
+  * 機器のログを確認して原因を特定
+  * 自己解決が困難な場合は、テクニカルサポートにお問い合わせください
+
+* * *
+
+### Q: **VPNが接続成功と表示されるが、両側でpingが通らない場合は？**
+  * ルーティング設定、Security group、ファイアウォールを再確認してください
+  * NATや重複IPが発生していないか確認してください
+
+* * *
+
+### Q: **VPN接続が切断された場合の対処方法は？**
+  * IKE/IPSecの情報が一致しているか確認してください
+  * インターネット回線の品質を確認してください
+  * 情報が一致していて回線も安定している場合は、テクニカルチームにサポートを依頼してください
+
+* * *
+
+### Q: **VPNの速度が遅い場合、改善する方法は？**
+  * セキュリティ要件に適合する範囲で、より軽量な暗号化アルゴリズムを使用する
+  * 主要な接続拠点の帯域幅をアップグレードする

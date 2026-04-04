@@ -1,16 +1,16 @@
 ---
 id: "tu-dong-nang-cap-version"
-title: "バージョン自動アップグレード機能"
-description: "Managed Kubernetes Cluster のバージョン自動アップグレード機能について説明します。"
-sidebar_label: "バージョン自動アップグレード機能"
+title: "Auto Upgrade Version feature"
+description: "The Auto Upgrade Version feature automatically upgrades the Kubernetes version of a Managed Kubernetes cluster when the current version reaches end of standard support."
+sidebar_label: "Auto Upgrade Version feature"
 sidebar_position: "25"
 ---
 
-# Tính năng tự động nâng cấp phiên bản
+# Auto Upgrade Version feature
 
-Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version) cho phép tự động nâng cấp phiên bản Kubernetes của cluster khi phiên bản hiện tại đến hạn kết thúc hỗ trợ tiêu chuẩn.
+The Auto Upgrade Version feature automatically upgrades the Kubernetes version of a cluster when the current version reaches its end of standard support date.
 
-Xem thêm tài liệu liên quan:
+See related documentation:
 
-- [Tổng quan quy trình quản lý phiên bản Kubernetes trên FPTCloud](./gioi-thieu-chung-ve-quy-trinh-quan-ly-version.md)
-- [Hướng dẫn chi tiết sử dụng tính năng auto upgrade version](./huong-dan-chi-tiet-su-dung-auto-upgrade.md)
+- [Overview of the Kubernetes version management process on FPT Cloud](./gioi-thieu-chung-ve-quy-trinh-quan-ly-version.md)
+- [Detailed guide to using the auto upgrade version feature](./huong-dan-chi-tiet-su-dung-auto-upgrade.md)

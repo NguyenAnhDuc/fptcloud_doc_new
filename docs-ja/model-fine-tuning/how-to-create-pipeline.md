@@ -1,8 +1,8 @@
 ---
 id: "how-to-create-pipeline"
-title: "How To Create Pipeline"
-description: "Hướng dẫn từng bước tạo pipeline fine-tuning trên FPT AI Factory."
-sidebar_label: "How To Create Pipeline"
+title: "pipeline の作成方法"
+description: "FPT AI Factory で fine-tuning pipeline を作成するためのステップバイステップガイド。"
+sidebar_label: "pipeline の作成方法"
 sidebar_position: "8"
 ---
 

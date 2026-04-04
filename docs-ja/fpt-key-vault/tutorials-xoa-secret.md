@@ -1,27 +1,27 @@
 ---
 id: "tutorials-xoa-secret"
-title: "Xóa Secret"
-description: "Hướng dẫn xóa một Secret không còn sử dụng"
-sidebar_label: "Xóa Secret"
+title: "Secretを削除する"
+description: "使用しなくなった、または期限切れのSecretを削除する方法"
+sidebar_label: "Secretを削除する"
 sidebar_position: "8"
 ---
 
-# Xóa Secret
+# Secretを削除する
 
-Xóa Secret khi thông tin bí mật không còn cần thiết hoặc đã hết hạn sử dụng. Thao tác này giúp dọn dẹp và bảo mật Vault.
+不要になった機密情報や有効期限が切れたSecretを削除します。この操作はVaultをクリーンかつセキュアに保つために役立ちます。
 
 :::danger
-Xóa Secret là thao tác không thể hoàn tác. Toàn bộ các version của Secret sẽ bị xóa vĩnh viễn. Hãy đảm bảo đã sao lưu các thông tin cần thiết trước khi thực hiện.
+Secretの削除は取り消しできません。Secretのすべてのバージョンが完全に削除されます。実行前に必要な情報をバックアップしてください。
 :::
 
-1. Trên **Secret Engine Detail**, chọn **Secret Engine** chứa **Secret** cần xóa.
+1. **Secret Engine Detail** で削除する **Secret** が含まれる **Secret Engine** を選択します。
 
-   [![Màn hình chi tiết Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
+   [![Secret Engine詳細画面](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)](/img/migrated/Userguide-FPT-KeyVault-2022-10-1024x538-794c4794.png)
 
-2. Chọn **Secret** cần xóa.
+2. 削除する **Secret** を選択します。
 
-   [![Danh sách Secret trong Secret Engine](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)
+   [![Secret Engine内のSecret一覧](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)](/img/migrated/Userguide-FPT-KeyVault-2022-14-1024x538-d907beb1.png)
 
-3. Trên màn hình **Edit Secret**, chọn **Delete** để xóa Secret. Xác nhận trong hộp thoại hiện ra.
+3. **Edit Secret** 画面で **Delete** をクリックしてSecretを削除します。表示されるダイアログで確認します。
 
-   [![Màn hình Edit Secret với nút Delete](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)
+   [![Deleteボタンが表示されたEdit Secret画面](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)](/img/migrated/Userguide-FPT-KeyVault-2022-15-d8251b2f.png)

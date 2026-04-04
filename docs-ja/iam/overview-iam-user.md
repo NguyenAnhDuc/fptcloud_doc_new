@@ -1,24 +1,24 @@
 ---
 id: "overview-iam-user"
-title: "IAM User overview"
-description: "IAM User là người dùng được mời thêm vào Tenant, có thể đã có hoặc chưa có tài khoản FPT Cloud."
-sidebar_label: "IAM User overview"
+title: "IAM User概要"
+description: "IAM UserはTenantに招待されたユーザーで、FPT Cloudアカウントを持っている場合と持っていない場合があります。"
+sidebar_label: "IAM User概要"
 sidebar_position: "18"
 ---
 
-# IAM User overview
+# IAM User概要
 
-IAM User là người dùng được mời thêm vào Tenant, có thể là người dùng đã có tài khoản FPT Cloud/SSO hoặc chưa có.
+IAM UserはTenantに招待されたユーザーで、FPT Cloud/SSOアカウントを持っている場合と持っていない場合があります。
 
-- Nếu user được mời đã có tài khoản, sau khi xác nhận họ có thể truy cập ngay vào VPC được cấp quyền.
-- Nếu chưa có tài khoản, họ sẽ được hướng dẫn khởi tạo tài khoản FPT Cloud mới.
-- Nếu IAM User muốn sử dụng riêng một Tenant mới, hãy liên hệ bộ phận hỗ trợ để được cấp quota Tenant.
+- 招待されたuserがすでにアカウントを持っている場合、確認後すぐに権限付与されたVPCにアクセスできます。
+- アカウントを持っていない場合、新しいFPT Cloudアカウントを作成するよう案内されます。
+- IAM Userが独自の新しいTenantを使用したい場合は、サポートチームに連絡してTenantクォータの割り当てを依頼してください。
 
-Để thay đổi role hoặc ngắt quyền truy cập của một IAM User, hãy chỉnh sửa User Group chứa user đó:
+IAM Userのroleを変更するかアクセス権を削除するには、そのuserが属するUser Groupを編集します：
 
-- Để ngắt quyền truy cập: xóa user khỏi User Group — user sẽ không còn quyền truy cập vào Tenant đó.
-- Để thay đổi quyền sang role khác: gán role mới cho User Group.
+- アクセス権を削除する場合: User Groupからuserを削除 — userはそのTenantへのアクセス権を失います。
+- 別のroleに変更する場合: User Groupに新しいroleを割り当てます。
 
 :::warning
-Việc thay đổi role cho một User Group sẽ ảnh hưởng đến tất cả user khác trong User Group đó. Nếu chỉ muốn đổi role của một user cụ thể, hãy tạo một User Group mới chỉ chứa user đó.
+User Groupのroleを変更すると、そのUser Group内の他のすべてのuserに影響します。特定のuserだけroleを変更したい場合は、そのuserだけを含む新しいUser Groupを作成してください。
 :::

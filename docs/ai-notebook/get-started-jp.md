@@ -1,24 +1,24 @@
 ---
 id: "get-started-jp"
-title: "AI Notebookについて"
-description: "FPT AI Factory上で動作するJupyterベースの開発環境、AI Notebookの概要。"
-sidebar_label: "AI Notebookについて"
+title: "About AI Notebooks"
+description: "Overview of AI Notebooks — a Jupyter-based development environment on FPT AI Factory."
+sidebar_label: "About AI Notebooks"
 sidebar_position: "2"
 ---
 
-# AI Notebookについて
+# About AI Notebooks
 
-## AI Notebookとは？
+## What is AI Notebooks?
 
-AI NotebookはFPTのAI Factoryインフラストラクチャ上で動作するJupyterベースの開発環境です。ワンクリックで、GPU/CPUリソースと永続ストレージを備えた事前設定済みのノートブックサーバーを起動できます。
+AI Notebooks is a Jupyter-based development environment running on FPT's AI Factory infrastructure. With one click, you can launch a pre-configured notebook server with GPU/CPU resources and persistent storage.
 
-## 仕組み
+## How does it work?
 
-各AI Notebookは、FPTのGPU/CPUインフラストラクチャに接続された分離されたコンテナ化環境で実行されます。ブラウザ内でコードを記述、実行、可視化するメインインターフェースとしてJupyterLabが使用されます。
+Each AI Notebook runs in an isolated, containerized environment connected to FPT's GPU/CPU infrastructure. JupyterLab is used as the main interface for writing, running, and visualizing code in the browser.
 
-## なぜAI Notebookなのか？
+## Why AI Notebooks?
 
-1. **ワンクリックデプロイ:** 手動設定なしで即使用可能な環境を起動。
-2. **GPU加速:** 計算負荷の高いトレーニングと推論にNVIDIA H100（80GB VRAM）を活用。
-3. **永続ワークスペース:** データセット、モデル、実験結果を保存し、セッションをまたいで利用可能。
-4. **細分化された課金:** リソースは実際の使用量（CPU、GPU、ストレージ）に基づいて課金されます。
+1. **1-Click deployment:** Launch a ready-to-use environment without manual setup.
+2. **GPU-accelerated:** Use NVIDIA H100 (80GB VRAM) for compute-intensive training and inference.
+3. **Persistent workspace:** Store datasets, models, and experiments that remain available across sessions.
+4. **Granular pricing:** Resources are billed based on actual usage (CPU, GPU, storage).

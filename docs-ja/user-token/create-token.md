@@ -1,33 +1,33 @@
 ---
 id: "create-token"
-title: "Tạo token mới"
-description: "Hướng dẫn tạo token xác thực trên FPT Cloud Portal"
-sidebar_label: "Tạo token mới"
+title: "Tokenの作成"
+description: "FPT Cloud Portalで認証Tokenを作成する手順"
+sidebar_label: "Tokenの作成"
 sidebar_position: "3"
 ---
 
-# Tạo token mới
+# 新規Tokenの作成
 
-Token xác thực cho phép truy cập API và dịch vụ FPT Cloud mà không cần dùng mật khẩu. Mỗi token có thời hạn sử dụng cố định và chỉ hiển thị một lần duy nhất sau khi tạo, vì vậy cần lưu lại ngay sau khi khởi tạo.
+認証Tokenを使用することで、パスワードを使わずにFPT CloudのAPIおよびサービスにアクセスできます。各Tokenには固定の有効期限があり、作成後に一度だけ表示されます。作成直後に必ずTokenをコピーして保存してください。
 
-1. Truy cập trang **Token** trên FPT Cloud Portal và chọn **Create token**.
+1. FPT Cloud Portalで**Token**ページにアクセスし、**Create token**を選択します。
 
-   [![Màn hình trang Token với nút Create token](/img/migrated/image-1731024975251-9874a41d.png)](/img/migrated/image-1731024975251-9874a41d.png)
+   [![Create tokenボタンが表示されたTokenページ](/img/migrated/image-1731024975251-9874a41d.png)](/img/migrated/image-1731024975251-9874a41d.png)
 
-2. Nhập các thông tin cần thiết:
-   - **Tên token**: Tối đa 50 ký tự, bao gồm chữ cái, số, `-`, `_`, `.` và khoảng trắng. Cho phép đặt trùng tên.
-   - **Thời gian hết hạn**: Chọn thời hạn từ danh sách hệ thống cung cấp.
+2. 必要な情報を入力します。
+   - **Token名**: 最大50文字。英字、数字、`-`、`_`、`.`およびスペースを使用可能。重複した名前も許可されます。
+   - **有効期限**: システムが提供するリストから有効期限を選択します。
 
-   [![Form nhập thông tin tạo token với trường tên và thời gian hết hạn](/img/migrated/image-1731024985103-48bcc2ab.png)](/img/migrated/image-1731024985103-48bcc2ab.png)
+   [![Token名と有効期限フィールドが表示されたToken作成フォーム](/img/migrated/image-1731024985103-48bcc2ab.png)](/img/migrated/image-1731024985103-48bcc2ab.png)
 
-3. Nhấn **Create** để khởi tạo token.
+3. **Create**を押してTokenを作成します。
 
-4. Hệ thống tạo token và hiển thị trên màn hình. Sao chép token ngay lập tức trước khi nhấn **Done**.
+4. システムがTokenを生成し、画面に表示します。**Done**を押す前にTokenをすぐにコピーしてください。
 
-   [![Màn hình hiển thị token vừa được tạo với nút copy](/img/migrated/image-1731024996987-252d326d.png)](/img/migrated/image-1731024996987-252d326d.png)
+   [![コピーボタンが表示された作成済みTokenの画面](/img/migrated/image-1731024996987-252d326d.png)](/img/migrated/image-1731024996987-252d326d.png)
 
-   [![Xác nhận token đã được sao chép thành công](/img/migrated/image-1731025005016-e209b46c.png)](/img/migrated/image-1731025005016-e209b46c.png)
+   [![Tokenのコピー完了確認画面](/img/migrated/image-1731025005016-e209b46c.png)](/img/migrated/image-1731025005016-e209b46c.png)
 
 :::warning
-Sau khi nhấn **Done**, hệ thống đóng cửa sổ và không thể xem lại token. FPT Cloud Portal không lưu trữ token của khách hàng.
+**Done**を押すと、システムはウィンドウを閉じ、Tokenを再度確認することはできません。FPT Cloud Portalはお客様のTokenを保存しません。
 :::

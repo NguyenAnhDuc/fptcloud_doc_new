@@ -1,26 +1,34 @@
 ---
 id: "chinh-sua-label-taint-cho-worker-group"
-title: "ワーカーグループの label/taint 設定変更"
-description: "ワーカーグループの label と taint を編集する手順を説明します。"
-sidebar_label: "ワーカーグループの label/taint 設定変更"
+title: "Edit Labels and Taints for Worker Group"
+description: "How to edit labels and taints for a worker group in Managed FPT Kubernetes Engine."
+sidebar_label: "Edit Labels and Taints for Worker Group"
 sidebar_position: "14"
 ---
 
-# Chỉnh sửa label/taint cho worker group
+# Edit Labels and Taints for Worker Group
 
-**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**. Chọn Cluster muốn chỉnh sửa Label/Taint. 
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears. Select the Cluster you want to edit Labels/Taints for.
 [![](/img/migrated/Picture26-e8646f3c.png)](/img/migrated/Picture26-e8646f3c.png)
-**Bước 2** : Chọn **Node Pools** > **Edit Workers**
+
+**Step 2:** Select **Node Pools** > **Edit Workers**.
 [![](/img/migrated/Picture2-3-c348126c.png)](/img/migrated/Picture2-3-c348126c.png)
-**Bước 3** : Nhập **Labels** và **Taints** muốn thêm vào worker group và click button **Save**. 
+
+**Step 3:** Enter the **Labels** and **Taints** you want to add to the worker group and click **Save**.
 [![](/img/migrated/Picture28-4f201b20.png)](/img/migrated/Picture28-4f201b20.png)
 [![](/img/migrated/Picture29-db44e41c.png)](/img/migrated/Picture29-db44e41c.png)
 [![](/img/migrated/Picture3-3-ae58b9db.png)](/img/migrated/Picture3-3-ae58b9db.png)
-Quá trình chỉnh sửa Labels và Taints sẽ thực hiện trong vòng vài phút, Status của Cluster sẽ chuyển sang **Processing** , trong khi thực hiện người sử dụng không thể thao tác chỉnh sửa Cluster cho đến khi quá trình hoàn tất.
 
-# Cô lập workload hệ thống và workload ứng dụng
-Để workload ứng dụng không làm ảnh hưởng đến sự hoạt động của cluster, tính năng **Reserve this worker group for system workloads only** cho phép người dùng dành riêng Worker Group Base để chạy System Pods, đồng thời ngăn Application Pods được schedule vào worker group này. 
-⚠️ Lưu ý: Tính năng chỉ áp dụng cho các cluster có từ 2 worker group trở lên. 
-Khi tạo mới cluster, tại bước cấu hình Worker Group Base, bật tùy chọn "Reserve this worker group for system workloads only". Khi tính năng này được bật, các node trong Worker Group Base sẽ được gán taint **CriticalAddonsOnly=true:NoSchedule** , đồng nghĩa với việc Application Pods sẽ không được schedule vào Worker Group Base, trừ khi chúng được cấu hình toleration phù hợp. 
-Trong trường hợp cluster đang hoạt động và Worker Group Base tồn tại các Application pods, việc bật tính năng này lên sẽ không làm ảnh hưởng đến các application pods trên. Những pods mới được tạo mà không có toleration sẽ không được schedule vào Worker Group Base. 
-Trong trường hợp người dùng xóa các Worker Group và cluster chỉ còn lại 1 Worker Group duy nhất, hệ thống sẽ tự động disable tùy chọn này cho đến khi có thêm Worker Group mới.
+The process of editing Labels and Taints takes a few minutes. The cluster status changes to **Processing** during this time, and you cannot make other changes to the cluster until the process completes.
+
+# Isolate system workloads from application workloads
+
+To prevent application workloads from affecting cluster operations, the **Reserve this worker group for system workloads only** feature lets you dedicate the Base Worker Group to running System Pods while preventing Application Pods from being scheduled into this worker group.
+
+**Note:** This feature only applies to clusters with 2 or more worker groups.
+
+When creating a new cluster, enable the "Reserve this worker group for system workloads only" option in the Base Worker Group configuration step. When this feature is enabled, nodes in the Base Worker Group are assigned the taint **CriticalAddonsOnly=true:NoSchedule**, meaning Application Pods will not be scheduled into the Base Worker Group unless they are configured with the appropriate toleration.
+
+If the cluster is already running and the Base Worker Group contains Application Pods, enabling this feature will not affect those existing Application Pods. Newly created Pods without the appropriate toleration will not be scheduled into the Base Worker Group.
+
+If you delete all other Worker Groups and only the Base Worker Group remains, the system automatically disables this option until a new Worker Group is added.

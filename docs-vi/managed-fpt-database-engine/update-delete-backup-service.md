@@ -1,8 +1,8 @@
 ---
 id: "update-delete-backup-service"
-title: "バックアップサービスの更新と削除"
-description: "FPT Smart Cloud Database Engine のバックアップサービスを更新または削除する手順。"
-sidebar_label: "バックアップサービスの更新と削除"
+title: "Update and delete backup service"
+description: "Steps to update or delete a backup service in FPT Smart Cloud Database Engine."
+sidebar_label: "Update and delete backup service"
 sidebar_position: "14"
 ---
 

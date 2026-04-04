@@ -1,11 +1,11 @@
 ---
 id: "overview-policy"
-title: "Giới thiệu"
+title: "Overview Policy"
 description: "FPT Smart Cloud giới thiệu tính năng Policy Management giúp đảm bảo các tiêu chuẩn của tổ chức được thực thi một cách hiệu quả."
-sidebar_label: "Giới thiệu"
+sidebar_label: "Overview Policy"
 sidebar_position: "2"
 ---
 
-# Giới thiệu
+# Introduction
 
-FPT Smart Cloud giới thiệu tính năng **Policy Management** giúp đảm bảo các tiêu chuẩn của tổ chức được thực thi một cách hiệu quả. Chức năng này sẽ đánh giá các tài nguyên và hành động dựa trên các đặc điểm của chúng so với các quy tắc kinh doanh (business rule) đã được xác định trước đó. Người dùng có thể tắt các Policy để bỏ qua nó, nhưng chúng tôi rất khuyến khích bạn kích hoạt lại Policy sau đó để đảm bảo an toàn cho hệ thống.
+FPT Cloud introduces **Policy Management** to ensure organizational standards are enforced effectively. This feature evaluates resources and actions based on their characteristics against pre-defined business rules. Users can disable policies to bypass them, but we strongly recommend re-enabling policies afterward to maintain system security.

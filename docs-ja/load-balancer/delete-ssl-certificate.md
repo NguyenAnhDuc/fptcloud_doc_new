@@ -6,8 +6,8 @@ sidebar_label: "SSL 証明書の削除"
 sidebar_position: 22
 ---
 
-# Delete an SSL certificate
+# SSL 証明書の削除
 
-**Step 1:** In the SSL certificate list, click the **trash icon** for the certificate you want to delete.
+**手順 1:** SSL 証明書一覧で削除する証明書の**ゴミ箱アイコン**をクリックします。
 
-**Step 2:** A confirmation dialog appears. Click **Delete SSL Certificate** to confirm, or **Cancel** to discard.
+**手順 2:** 確認ダイアログが表示されます。**Delete SSL Certificate** をクリックして削除を確定するか、**Cancel** で取り消します。

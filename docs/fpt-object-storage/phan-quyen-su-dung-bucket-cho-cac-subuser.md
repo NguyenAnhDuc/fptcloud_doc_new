@@ -1,8 +1,8 @@
 ---
 id: "phan-quyen-su-dung-bucket-cho-cac-subuser"
-title: "Phân quyền sử dụng bucket cho các subuser"
+title: "Phan Quyen Su Dung Bucket Cho Cac Subuser"
 description: "Hiện tại FPT Object Storage đã hỗ trợ bạn tạo các SubUser, tuy nhiên role của SubUser sẽ hiệu lực với toàn bộ tài nguyên"
-sidebar_label: "Phân quyền sử dụng bucket cho các subuser"
+sidebar_label: "Phan Quyen Su Dung Bucket Cho Cac Subuser"
 sidebar_position: "19"
 ---
 

@@ -1,46 +1,42 @@
 ---
 id: "gpu-fpt-cloud-k8s"
-title: "GPU service on FPT Kubernetes Engine"
-description: "FPT Cloud provides Kubernetes with NVIDIA GPU support, featuring the following key functionalities:"
-sidebar_label: "GPU service on FPT Kubernetes Engine"
+title: "FPT Kubernetes Engine 上の GPU サービス"
+description: "FPT Cloud は NVIDIA GPU サポートを備えた Kubernetes を提供し、柔軟な GPU 設定と自動管理機能を特徴としています。"
+sidebar_label: "FPT Kubernetes Engine 上の GPU サービス"
 sidebar_position: "35"
 ---
 
-# GPU service on FPT Kubernetes Engine
+# FPT Kubernetes Engine 上の GPU サービス
 
-FPT Cloud provides Kubernetes with NVIDIA GPU support, featuring the following key functionalities:
-  * Flexible GPU configuration with the option to choose GPU types and GPU memory for each Worker Group.
-  * Automatic GPU resource management and allocation in Kubernetes with NVIDIA Operator.
-  * Visualization and monitoring of GPUs through NVIDIA DCGM (Data Center GPU Manager).
-  * Automatic scaling of Containers/Nodes with Autoscaler based on increasing/decreasing GPU resource demands from applications.
-  * Support for GPU sharing using the Multi-Instance mechanism, optimizing resource utilization and GPU usage cost.
+FPT Cloud は NVIDIA GPU サポートを備えた Kubernetes を提供し、以下の主要機能を備えています：
+  * 各 Worker Group に GPU タイプと GPU メモリを選択できる柔軟な GPU 設定。
+  * NVIDIA Operator による Kubernetes での GPU リソースの自動管理と割り当て。
+  * NVIDIA DCGM（Data Center GPU Manager）を通じた GPU の可視化と監視。
+  * アプリケーションの GPU リソース需要の増減に基づいた Autoscaler による Container/Node の自動スケーリング。
+  * Multi-Instance メカニズムによる GPU sharing のサポートで、リソース利用率と GPU 使用コストを最適化。
 
-FPT Cloud utilizes the NVIDIA GPU Operator to provide an automated tool for managing all the necessary software components to use GPUs on Kubernetes (K8s). The GPU Operator allows users to utilize GPU resources in a K8s cluster similar to how they use CPUs.
-The software components include:
-  * NVIDIA Drivers (CUDA, MIG, ...)
+FPT Cloud は NVIDIA GPU Operator を使用して、Kubernetes（K8s）上で GPU を使用するために必要なすべてのソフトウェアコンポーネントを管理する自動化ツールを提供します。GPU Operator により、ユーザーは K8s クラスターで CPU を使用するように GPU リソースを活用できます。
+ソフトウェアコンポーネントには以下が含まれます：
+  * NVIDIA Drivers（CUDA、MIG、...）
   * NVIDIA Device Plugin
   * NVIDIA Container Toolkit
   * NVIDIA GPU Feature Discovery
-  * NVIDIA Data Center GPU Manager (Monitoring)
+  * NVIDIA Data Center GPU Manager（Monitoring）
 
-The K8s Operator automatically configures Multi-Instance GPU (MIG) for workers. To achieve MIG configuration, workers need to be labeled according to profiles supported by Nvidia. MIG configurations are listed in the Configmap default-mig-parted-config on K8s in the 'gpu-operator' namespace.
+K8s Operator は worker の Multi-Instance GPU（MIG）を自動設定します。MIG 設定を実現するには、worker を Nvidia がサポートするプロファイルに従ってラベル付けする必要があります。MIG 設定は K8s の 'gpu-operator' namespace 内の Configmap default-mig-parted-config に一覧表示されています。
 [![](/img/migrated/67-efeaa017.png)](/img/migrated/67-efeaa017.png)
-MIG on Kubernetes is designed as a controller. It monitors changes to the label 'nvidia.com/mig.config' on the worker, then applies the MIG configuration requested by the user. When the label changes, MIG first stops all GPU pods, including the device plugin, GFD (GPU Feature Discovery), and DCGM exporter. It then stops all systemd services on GPU workers if the driver is pre-installed. These services are listed in the configmap named 'default-gpu-clients.' Finally, MIG reapplies the MIG configuration and restarts the GPU pods (and potentially GPU systemd services on GPU workers if needed). Enabling MIG mode requires restarting the worker.
-FPT Cloud currently supports the Nvidia A30 GPU card and supports the following MIG profiles-labels:  
-|  **No.**  |  **GPU A30 Profile**  |  **Strategy**  |  **Number instance**  |  **Instance resource**  |  
-| --- | --- | --- | --- | --- |  
-| 1   | all-1g.6gb   | single   | 4   | 1g.6gb   |  
-| 2   | all-2g.12gb   | single   | 2   | 2g.12gb   |  
-| 3  | all-balanced   | mixed   | 2   | 1g.6gb   |  
-| 4   | all-balanced  | mixed  | 1  | 2g.12gb   |  
-| 5   | none (no label)   | none   | 0   | 0 (Entire)   |  
-Example:
-With the A30 GPU card, you can configure a single strategy with the label 'all-1g.6gb.' This label signifies that the Operator will divide the A30 GPU on the worker into 4x MIG devices with 1 logical GPU resource (equivalent to ¼ of the physical GPU) and 6GB of GPU RAM. This MIG configuration applies to all labeled cards on the worker.
-FPT Cloud uses Nvidia GPU Telemetry integrated with kube-prometheus-stack as a monitoring and supervision tool for GPU usage on K8s. The monitoring tool includes a collector, a time-series database for storing metrics, and visualization through popular open-source applications such as Prometheus and Grafana. Prometheus also incorporates Alertmanager for creating and managing alerts. It is deployed alongside kube-state-metrics and node_exporter to display cluster-level metrics for Kubernetes API objects and node-level metrics, such as GPU usage.
-GPU Telemetry architecture model in use: [![](/img/migrated/68-33f96824.png)](/img/migrated/68-33f96824.png)
-To collect GPU telemetry in Kubernetes, Nvidia recommends using dcgm-exporter. Dcgm-exporter displays GPU metrics for Prometheus and can provide visualizations through Grafana. It is designed to leverage the KubeletPodResources API and display GPU metrics in a format that Prometheus can collect. The tool includes a ServiceMonitor to expose endpoints.
-Nvidia DCGM GPU Dashboard:
+FPT Cloud は現在 Nvidia A30 GPU カードをサポートし、以下の MIG プロファイルとラベルをサポートしています：
+
+| **No.** | **GPU A30 Profile** | **Strategy** | **インスタンス数** | **インスタンスリソース** |
+| --- | --- | --- | --- | --- |
+| 1 | all-1g.6gb | single | 4 | 1g.6gb |
+| 2 | all-2g.12gb | single | 2 | 2g.12gb |
+| 3 | all-balanced | mixed | 2 | 1g.6gb |
+| 4 | all-balanced | mixed | 1 | 2g.12gb |
+| 5 | none（ラベルなし） | none | 0 | 0（全体） |
+
+例：
+A30 GPU カードで、ラベル 'all-1g.6gb' の single strategy を設定できます。このラベルは、Operator が worker 上の A30 GPU を 4x MIG デバイス（1 論理 GPU リソース＝物理 GPU の ¼ に相当）と 6GB GPU RAM に分割することを意味します。この MIG 設定は worker 上のラベル付きカードすべてに適用されます。
+FPT Cloud は Nvidia GPU Telemetry と kube-prometheus-stack を統合して K8s 上の GPU 使用を監視・管理するツールとして使用しています。監視ツールには collector、メトリクス保存用の time-series database、Prometheus や Grafana などの一般的なオープンソースアプリケーションによる可視化が含まれます。
+Nvidia DCGM GPU Dashboard：
 [![](/img/migrated/69-7bd2daa5.png)](/img/migrated/69-7bd2daa5.png)
-Conclusion: Is using GPU on Kubernetes a good solution for AI workloads? Certainly, as there are increasingly open-source extensions for Kubernetes like KNative, Istio, Kubeflow, and KFSServing that aid in running AI workloads on Kubernetes, accelerating and simplifying the deployment of AI and machine learning on Kubernetes, eliminating complexity, and facilitating deployment and management at scale.
-Kubernetes is becoming a central technology in AI deployment today. From data and models to prototypes and finally production, the process has been rationalized and simplified significantly by libraries like PyTorch, TensorFlow, and Keras. These frameworks can also be applied in detail, if necessary, to develop custom components or to integrate and fine-tune existing models using transfer learning. Container technology allows results to be packaged into an image with all the requirements and dependencies of the application, and it can be executed almost anywhere without speed limitations. In the final step, deployment, maintenance, and scalable expansion become extremely straightforward and powerful with Kubernetes.
-The combination of GPU on K8s is essential to improve performance and processing speed for AI applications. The GPU services on Kubernetes by FPT Cloud bring efficiency in terms of quality and time savings, especially for financial institutions dealing with large volumes of data.

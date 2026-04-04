@@ -1,75 +1,75 @@
 ---
 id: "manage-objects"
-title: "object の管理"
-description: "FPT Object Storage での object のアップロード・ダウンロード・コピー・移動・削除の手順です。"
-sidebar_label: "object の管理"
-sidebar_position: "5"
+title: "Quản lý object"
+description: "Hướng dẫn upload, download, copy, move và xóa object trong FPT Object Storage."
+sidebar_label: "Quản lý object"
+sidebar_position: 5
 ---
 
-# object の管理
+# Quản lý object
 
-FPT Object Storage の各 object はデータファイルを表します。システムはファイル形式に制限を設けておらず、テキスト・画像・音声・動画からアプリケーション固有の形式まで、あらゆる種類のファイルを保存できます。
+Mỗi object trong FPT Object Storage đại diện cho một file dữ liệu. Hệ thống không áp đặt giới hạn về định dạng file — bạn có thể lưu trữ mọi loại file từ văn bản, hình ảnh, âm thanh, video đến các file định dạng riêng của ứng dụng.
 
-- **メタデータとタグ:** 各 object にはコンテンツを説明するメタデータとタグを付加でき、管理・検索が容易になります。
-- **アクセス権の制御:** 各 object へのアクセス権は ACL または bucket policy で制御できます。
-- **Versioning:** FPT Object Storage は object の複数バージョンの保存をサポートしており、必要に応じて以前のバージョンの保持・復元が可能です。
+- **Metadata và tags:** Mỗi object có thể kèm theo metadata và tags để mô tả nội dung, giúp quản lý và tìm kiếm dễ dàng hơn.
+- **Kiểm soát quyền truy cập:** Quyền truy cập đối với từng object có thể được kiểm soát qua ACL hoặc bucket policy.
+- **Versioning:** FPT Object Storage hỗ trợ lưu nhiều phiên bản cho các object, cho phép giữ lại và phục hồi các phiên bản trước khi cần.
 
-## bucket への新しい object のアップロード
+## Upload object mới vào bucket
 
-**FPT Unify Portal** は 1 回のアップロードで最大 100 GB までサポートしています。それより大きなファイルをアップロードする場合は、S3 Client Tool や S3 SDK/CLI をご使用ください。
-
-:::note
-既存のファイルと同名のファイルをアップロードすると、上書き警告が表示されます。versioning が無効の場合、ファイルは古いファイルを上書きします。versioning が有効の場合、システムは新しいバージョンを作成します。
-:::
-
-1. **Object Storage Management** で、ファイルを追加する位置に移動し、**Upload object** を選択します。
-2. デバイスからファイルを選択し、**Upload** を選択します。
-
-## object のダウンロード
-
-1. **Object Storage Management** でダウンロードするファイルの位置に移動します。
-2. ファイル名をクリックすると、システムが自動的にファイルをデバイスにダウンロードします。
-
-## Presigned URL の生成
-
-Presigned URL は一時的なアクセスリンクで、bucket の権限設定を変更することなく、特定の object への共有アクセスを可能にします。有効期限が設定され、指定した時間後に自動的に無効になります。
-
-1. **Object Storage Management** で Presigned URL を作成するファイルの位置に移動します。
-2. object の **Action** で **Generate Presigned URL** を選択します。
-3. URL の有効期限（数分から数日）を選択し、**Generate** をクリックします。
-4. 表示された URL をコピーして共有します。有効期限が切れると URL は無効になります。
-
-## object のコピー
-
-object のコピーにより、元のデータを変更または消失させることなく FPT Object Storage 内でデータを複製できます。
-
-1. **Object Storage Management** でコピーするファイルの位置に移動します。
-2. object の **Action** で **Copy** を選択します。
-3. 移動先の **bucket** と必要に応じて **Folder** を選択し、**Confirm** を選択します。
-
-## object の移動
-
-object の移動は、object をある位置から別の位置に移動するプロセスです。新しい位置に object をコピーした後、元の位置から削除します。
-
-1. **Object Storage Management** で移動するファイルの位置に移動します。
-2. object の **Action** で **Move** を選択します。
-3. 移動先の **bucket** と必要に応じて **Folder** を選択し、**Confirm** を選択します。
-
-## object の URL のコピー
-
-object の URL を取得してウェブサイトへのリンクに使用したり共有したりできます。object を GET するには、object またはそれを含む bucket がパブリックモードである必要があります。
-
-1. **Object Storage Management** でファイルの位置に移動します。
-2. **Action** で **Copy URL** を選択します。
-
-## object の削除
+**FPT Unify Portal** hỗ trợ upload tối đa 100 GB cho mỗi lần upload. Nếu cần upload file lớn hơn, hãy sử dụng S3 Client Tool, S3 SDK/CLI.
 
 :::note
-versioning が有効でない場合、object を削除すると永久に削除され復元できません。versioning が有効の場合、システムは完全に削除するかわりに「delete marker」を作成します。以前のバージョンは引き続き存在し、復元できます。
-
-ポータルからの削除操作は 50 GB 未満のファイルにのみ適しています。
+Nếu file trùng tên với file đã tồn tại, bạn sẽ nhận cảnh báo ghi đè. Nếu versioning chưa bật, file sẽ ghi đè lên file cũ. Nếu versioning đã bật, hệ thống sẽ tạo một phiên bản mới.
 :::
 
-1. **Object Storage Management** で削除するファイルの位置に移動します。
-2. **Action** で **Delete** を選択します。
-3. 警告ダイアログで削除操作を確認します。
+1. Trên **Object Storage Management**, di chuyển đến vị trí cần thêm file và chọn **Upload object**.
+2. Chọn file từ thiết bị và chọn **Upload**.
+
+## Download object
+
+1. Di chuyển đến vị trí của file cần tải xuống trên **Object Storage Management**.
+2. Nhấn vào tên file — hệ thống sẽ tự động tải file về thiết bị.
+
+## Generate presigned URL
+
+Presigned URL là một liên kết truy cập tạm thời, giúp chia sẻ quyền truy cập vào một object cụ thể mà không cần thay đổi cấu hình quyền của bucket. Liên kết có thời hạn sử dụng và tự động hết hạn sau thời gian được chỉ định.
+
+1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần tạo presigned URL.
+2. Ở phần **Action** của object, chọn **Generate Presigned URL**.
+3. Chọn thời gian hết hạn cho URL (từ vài phút đến vài ngày), sau đó nhấn **Generate**.
+4. Sao chép và chia sẻ URL được hiển thị. Sau khi hết hạn, URL sẽ không còn hiệu lực.
+
+## Copy object
+
+Copy object cho phép sao chép dữ liệu trong FPT Object Storage mà không làm thay đổi hoặc mất dữ liệu gốc.
+
+1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần copy.
+2. Ở phần **Action** của object, chọn **Copy**.
+3. Chọn đích đến bao gồm **Bucket** và **Folder** mới nếu cần, sau đó chọn **Confirm**.
+
+## Move object
+
+Move object là quá trình di chuyển object từ vị trí này sang vị trí khác. Quá trình này sao chép object đến vị trí mới rồi xóa object khỏi vị trí ban đầu.
+
+1. Trên **Object Storage Management**, di chuyển đến vị trí của file cần di chuyển.
+2. Ở phần **Action** của object, chọn **Move**.
+3. Chọn đích đến bao gồm **Bucket** và **Folder** mới nếu cần, sau đó chọn **Confirm**.
+
+## Copy URL của object
+
+Bạn có thể lấy URL của object để chia sẻ hoặc gắn link vào website. Để GET được object, object hoặc bucket chứa nó phải ở chế độ Public.
+
+1. Trên **Object Storage Management**, di chuyển đến vị trí file.
+2. Ở phần **Action**, chọn **Copy URL**.
+
+## Xóa object
+
+:::note
+Nếu versioning không được bật, khi xóa object thì object đó sẽ bị xóa vĩnh viễn và không thể phục hồi. Nếu versioning được bật, hệ thống sẽ tạo ra một "delete marker" thay vì xóa hoàn toàn — các phiên bản trước đó vẫn tồn tại và có thể phục hồi.
+
+Thao tác xóa qua portal chỉ phù hợp cho các file có dung lượng dưới 50 GB.
+:::
+
+1. Trên **Object Storage Management**, di chuyển đến vị trí file cần xóa.
+2. Ở phần **Action**, chọn **Delete**.
+3. Xác nhận thao tác xóa trong hộp thoại cảnh báo.

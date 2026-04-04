@@ -1,8 +1,8 @@
 ---
 id: "xay-dung-mot-website-tinh-bang-fpt-object-storage"
-title: "Xây dựng một website tĩnh bằng FPT Object Storage"
+title: "Xay Dung Mot Website Tinh Bang Fpt Object Storage"
 description: "Ngoài chức năng đơn thuần là lưu trữ dữ liệu, **FPT Object Storage** còn hỗ trợ cấu hình bucket thành một web hosting."
-sidebar_label: "Xây dựng một website tĩnh bằng FPT Object Storage"
+sidebar_label: "Xay Dung Mot Website Tinh Bang Fpt Object Storage"
 sidebar_position: "16"
 ---
 

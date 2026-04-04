@@ -8,11 +8,11 @@ sidebar_position: 23
 
 # IP Access
 
-Control system access by allowing only users with configured IP addresses on FPT Cloud.
+FPT Cloudで設定済みIPアドレスを持つユーザーのみがシステムにアクセスできるよう制御します。
 
-This section covers:
+このセクションの内容:
 
-- [IP Access overview](./overview-ip-access.md) — How IP access control works
-- [Create an IP access record](./create-ip-access.md) — Add a new IP rule
-- [Delete an IP access record](./delete-ip-access.md) — Remove an IP rule
-- [Check IP access activity logs](./ip-access-activity-log.md) — Review access history
+- [IP Access概要](./overview-ip-access.md) — IPアクセス制御の仕組み
+- [IP Accessレコードの作成](./create-ip-access.md) — 新しいIPルールの追加
+- [IP Accessレコードの削除](./delete-ip-access.md) — IPルールの削除
+- [IP Accessアクティビティログの確認](./ip-access-activity-log.md) — アクセス履歴の確認

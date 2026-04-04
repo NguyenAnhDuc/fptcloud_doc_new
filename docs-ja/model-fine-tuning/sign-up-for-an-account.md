@@ -1,8 +1,8 @@
 ---
 id: "sign-up-for-an-account"
-title: "Sign Up For An Account"
-description: "Tạo tài khoản FPT Cloud tại https://ai.fptcloud.com/ hoặc https://ai.fptcloud.jp/."
-sidebar_label: "Sign Up For An..."
+title: "アカウントのサインアップ"
+description: "https://ai.fptcloud.com/ または https://ai.fptcloud.jp/ で FPT Cloud アカウントを作成します。"
+sidebar_label: "アカウントのサインアップ"
 sidebar_position: "6"
 ---
 

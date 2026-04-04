@@ -1,8 +1,8 @@
 ---
 id: "checkpoint-fpt-ngfw"
-title: "Checkpoint Fpt Ngfw"
-description: "Checkpoint Fpt Ngfw"
-sidebar_label: "Checkpoint Fpt Ngfw"
+title: "CheckPoint – FPT NGFW"
+description: "CheckPoint Firewall là sản phẩm Next-Generation Firewall phục vụ việc bảo vệ hệ thống mạng."
+sidebar_label: "Tổng quan"
 sidebar_position: 1
 ---
 

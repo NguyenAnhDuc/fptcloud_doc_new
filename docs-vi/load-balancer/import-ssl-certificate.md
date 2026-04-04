@@ -1,8 +1,8 @@
 ---
 id: "import-ssl-certificate"
-title: "SSL 証明書のインポート"
-description: "FPT Cloud ロードバランサーの HTTPS リスナーで使用するための SSL 証明書をインポートする方法を説明します。"
-sidebar_label: "SSL 証明書のインポート"
+title: "Import an SSL certificate"
+description: "How to import an SSL certificate for use with HTTPS Listeners on FPT Cloud Load Balancer."
+sidebar_label: "Import SSL certificate"
 sidebar_position: "21"
 ---
 

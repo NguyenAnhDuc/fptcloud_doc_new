@@ -1,51 +1,55 @@
 ---
 id: "setting-up-gpu-telemetry"
-title: "GPU テレメトリーの設定"
-description: "FPT CloudのNVIDIA GPU TelemetryとPrometheus/Grafanaを使用したGPUメトリクスの監視設定について説明します。"
-sidebar_label: "GPU テレメトリーの設定"
+title: "Thiết lập GPU Telemetry"
+description: "FPT Cloud sử dụng NVIDIA GPU Telemetry với kube-prometheus-stack để giám sát Kubernetes cluster có GPU."
+sidebar_label: "Thiết lập GPU Telemetry"
 sidebar_position: "24"
 ---
 
-# Setting up GPU telemetry
+# Thiết lập GPU Telemetry
 
-FPT Cloud utilizes **NVIDIA GPU Telemetry** with **kube-prometheus-stack** as a monitoring toolkit for Kubernetes cluster with GPU. The toolkit consists of collectors, a Time-series Database to store metrics, and a visualizer to visualize data. The toolkit uses widely-known open-sourced tools such as Prometheus and Grafana. Prometheus also includes Alertmanager to create and manage alerts. Prometheus is deployed alongside **kube-state-metrics** and **node_exporter** to collect cluster-level metrics such as Kubernetes API resources and node-level metrics such as GPU utilization.
-  * To view GPU’s custom metrics, run this command:
+FPT Cloud sử dụng **NVIDIA GPU Telemetry** với **kube-prometheus-stack** làm bộ công cụ giám sát cho Kubernetes cluster có GPU. Bộ công cụ bao gồm collector, Time-series Database để lưu trữ metric và công cụ visualization để trực quan hóa dữ liệu. Bộ công cụ sử dụng các ứng dụng mã nguồn mở phổ biến như Prometheus và Grafana. Prometheus cũng tích hợp Alertmanager để tạo và quản lý cảnh báo. Prometheus được triển khai cùng với **kube-state-metrics** và **node_exporter** để thu thập metric ở cấp độ cluster cho Kubernetes API resource và metric ở cấp độ node như mức sử dụng GPU.
 
-```
-Copykubectl get –raw /apis/custom.metrics.k8s.io/v1beta1 | jq –r . | grep DCGM
-```
-
-  * Access **Prometheus** to view GPU DCGM’s metrics:
-
-_To forward Prometheus’ service, run this command:_
+  * Để xem custom metric của GPU, chạy lệnh:
 
 ```
-Copykubectl port-forward service/kube-prometheus-stack-1679-prometheus 9090:63090
+kubectl get --raw /apis/custom.metrics.k8s.io/v1beta1 | jq -r . | grep DCGM
 ```
 
-_Where 9090 is Prometheus’ service port, 63090 is local port on your client. Prometheus is now accessible locally at<http://localhost:63090/>_
-On the Prometheus interface, navigate to **Metrics Explorer** to view GPU DCGM’s metrics:
+  * Truy cập **Prometheus** để xem metric DCGM của GPU:
+
+_Để forward service Prometheus, chạy lệnh:_
+
+```
+kubectl port-forward service/kube-prometheus-stack-1679-prometheus 9090:63090
+```
+
+_Trong đó 9090 là port service Prometheus, 63090 là port local trên client. Prometheus hiện có thể truy cập tại <http://localhost:63090/>_
+
+Trên giao diện Prometheus, điều hướng đến **Metrics Explorer** để xem metric DCGM của GPU:
 [![](/img/migrated/60-1-ff845f40.png)](/img/migrated/60-1-ff845f40.png)
 [![](/img/migrated/61-1-1d992b1d.png)](/img/migrated/61-1-1d992b1d.png)
-  * Access Grafana Dashboard
 
-_To forward Grafana’s service, run this command:_
+  * Truy cập Grafana Dashboard
 
-```
-Copykubectl port-forward service/kube-prometheus-stack-1679050354-grafana 80:63080
-```
-
-_Where 80 is Grafana’s service port, 63080 is local port on your client. Grafana is now accessible locally at<http://localhost:63080/>_
-The default username and password for logging into Grafana are:
+_Để forward service Grafana, chạy lệnh:_
 
 ```
-CopyUser: admin
+kubectl port-forward service/kube-prometheus-stack-1679050354-grafana 80:63080
+```
+
+_Trong đó 80 là port service Grafana, 63080 là port local trên client. Grafana hiện có thể truy cập tại <http://localhost:63080/>_
+
+Tên đăng nhập và mật khẩu mặc định của Grafana:
+
+```
+User: admin
 Password: prom-operator
 ```
 
-  * Import Grafana Dashboard for GPU metrics:
+  * Import Grafana Dashboard cho metric GPU:
 
-To import the Dashboard, navigate to Grafana > **Dashboards** > **Manage** > **Import**.
-To use FPT Cloud’s GPU Dashboard, copy this [FPT Cloud GPU Dashboard json](https://raw.githubusercontent.com/fci-xplat/fke-config/main/fptcloud-gpu-dashboard.json) dashboard as text or import JSON file > **Load**.
-FPT Cloud’s GPU Dashboard:
+Để import Dashboard, điều hướng đến Grafana > **Dashboards** > **Manage** > **Import**.
+Để sử dụng GPU Dashboard của FPT Cloud, sao chép [FPT Cloud GPU Dashboard json](https://raw.githubusercontent.com/fci-xplat/fke-config/main/fptcloud-gpu-dashboard.json) dưới dạng text hoặc import file JSON > **Load**.
+GPU Dashboard của FPT Cloud:
 [![](/img/migrated/62-1-1442fef9.png)](/img/migrated/62-1-1442fef9.png)

@@ -1,29 +1,29 @@
 ---
 id: "disable-cluster-autoscale"
-title: "Cluster Autoscale の無効化"
-description: "Managed FKE クラスターでCluster Autoscaleを無効化する方法を説明します。"
-sidebar_label: "Cluster Autoscale の無効化"
+title: "Tắt tính năng Cluster Autoscale"
+description: "Hướng dẫn tắt tính năng Cluster Autoscale trên cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Tắt tính năng Cluster Autoscale"
 sidebar_position: "15"
 ---
 
-# Disable cluster autoscale
+# Tắt tính năng Cluster Autoscale
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster on which you want to disable Cluster Autoscale.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn tắt tính năng Cluster Autoscale.
 
 [![](/img/migrated/30-1-afd6524b.png)](/img/migrated/30-1-afd6524b.png)
 
-**Step 2:** Click **Configure Worker Groups**.
+**Bước 2:** Chọn **Configure Worker Groups**.
 
 [![](/img/migrated/31-1-f850853b.png)](/img/migrated/31-1-f850853b.png)
 
-**Step 3:** Set the minimum and maximum number of workers to the same value.
+**Bước 3:** Đặt số lượng worker tối thiểu và tối đa bằng nhau.
 
 [![](/img/migrated/32-1-dd7a83a3.png)](/img/migrated/32-1-dd7a83a3.png)
 
 :::note
-When the minimum and maximum worker count in a worker pool are equal, Cluster Autoscale is automatically disabled.
+Khi số lượng worker tối thiểu và tối đa trong một worker pool bằng nhau, tính năng Cluster Autoscale sẽ được tắt tự động.
 :::
 
-**Step 4:** Verify the information and click **Save**.
+**Bước 4:** Kiểm tra lại thông tin và chọn **Save**.
 
 [![](/img/migrated/33-1-ea1e7929.png)](/img/migrated/33-1-ea1e7929.png)

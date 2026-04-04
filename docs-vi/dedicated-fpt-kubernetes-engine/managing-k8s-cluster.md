@@ -1,19 +1,19 @@
 ---
 id: "managing-k8s-cluster"
-title: "Kubernetes クラスターの管理"
-description: "Dedicated FPT Kubernetes Engine でのKubernetes クラスターの管理方法について説明します。"
-sidebar_label: "Kubernetes クラスターの管理"
+title: "Quản lý Kubernetes cluster"
+description: "Hướng dẫn quản lý vòng đời đầy đủ của Kubernetes cluster trên Dedicated FPT Kubernetes Engine."
+sidebar_label: "Quản lý Kubernetes cluster"
 sidebar_position: "3"
 ---
 
-# Managing Kubernetes clusters
+# Quản lý Kubernetes cluster
 
-Dedicated FPT Kubernetes Engine (D-FKE) supports full lifecycle management of Kubernetes clusters. This section covers the following operations:
+Dedicated FPT Kubernetes Engine (D-FKE) hỗ trợ quản lý toàn bộ vòng đời của Kubernetes cluster. Phần này bao gồm các thao tác sau:
 
-- Create a new Kubernetes cluster
-- List created clusters
-- Access cluster detail information
-- Get cluster access information
-- Delete a Kubernetes cluster
-- Stop a Kubernetes cluster
-- Start a Kubernetes cluster
+- Tạo mới Kubernetes cluster
+- Xem danh sách cluster đã tạo
+- Truy cập thông tin chi tiết của cluster
+- Lấy thông tin truy cập cluster
+- Xóa Kubernetes cluster
+- Dừng Kubernetes cluster
+- Khởi động Kubernetes cluster

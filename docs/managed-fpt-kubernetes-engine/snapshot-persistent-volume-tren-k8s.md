@@ -1,19 +1,21 @@
 ---
 id: "snapshot-persistent-volume-tren-k8s"
-title: "Kubernetes 上の Persistent Volume のスナップショット機能"
-description: "M-FKE Kubernetes クラスター上で Persistent Volume のスナップショットを作成する方法を説明します。"
-sidebar_label: "Persistent Volume のスナップショット機能"
+title: "Snapshot Persistent Volume on Kubernetes"
+description: "How to create snapshots of Persistent Volumes in Managed FPT Kubernetes Engine."
+sidebar_label: "Snapshot Persistent Volume on Kubernetes"
 sidebar_position: "46"
 ---
 
-# Snapshot Persistent Volume trên K8s
+# Snapshot Persistent Volume on Kubernetes
 
-* Tính năng snapshot persistent volume (PV) giúp người dùng có thể tạo snapshot của một PV trên M-FKE kubernetes cluster bằng cách cấu hình và triển khai file yaml định nghĩa pvc mong muốn snapshot. Sau khi resource snapshot trong kubernetes cluster được tạo ra, một bản snapshot tương ứng sẽ được tạo mới ở VPC. Việc snapshot volume trên MFKE được thực hiện bởi thành phần VolumeSnapshotClass, người dùng chỉ cần định nghĩa tên của pvc cần snapshot. Người dùng cũng có thể chủ động lập lịch snapshot PV định kì bằng cách tạo script liên tục call api tạo snapshot trong kubernetes. Tài liệu tham khảo tính năng snapshot volume trên kubernetes [](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)
-  * Trong kubernetes, volume snapshot là một bản copy point-in-time của nội dùng PV trong cluster. Người dùng có thể sử dụng snapshot để backup dữ liệu của cluster hoặc copy dữ liệu tới các resource khác mà không cần tạo mới volume.
-  * Trước tiên người dùng cần cấu hình VolumeSnapshotClass nếu trong cluster chưa tồn tại VolumeSnapshotClass nào:
+The snapshot persistent volume (PV) feature lets you create a snapshot of a PV in an M-FKE Kubernetes cluster by configuring and applying a YAML file that defines the desired PVC snapshot. Once the snapshot resource is created in the Kubernetes cluster, a corresponding snapshot is created in the VPC. Snapshots in MFKE are performed by the VolumeSnapshotClass component — you only need to specify the name of the PVC to snapshot. You can also schedule periodic PV snapshots by creating a script that continuously calls the Kubernetes API to create snapshots. See the Kubernetes documentation for reference: <https://kubernetes.io/docs/concepts/storage/volume-snapshots/>
 
-```
-CopyapiVersion: snapshot.storage.k8s.io/v1
+In Kubernetes, a volume snapshot is a point-in-time copy of the contents of a PV in the cluster. You can use snapshots to back up cluster data or copy data to other resources without creating a new volume.
+
+First, configure a VolumeSnapshotClass if none exists in the cluster:
+
+```yaml
+apiVersion: snapshot.storage.k8s.io/v1
 kind: VolumeSnapshotClass
 metadata:
   name: csi-cinder-snapclass
@@ -26,11 +28,12 @@ parameters:
   force-create: "true"
 ```
 
-Trong đó _[type-storage-policy]_ là loại storage policy người dùng sử dụng, có thể lấy thông tin này ở trường parametes/type trong cấu hình storageClass default.
-Người dùng cần có một volume đang được sử dụng trong cluster (được tạo bởi PVC). Giả sử cấu hình của PVC như sau:
+Where `[type-storage-policy]` is the storage policy type you are using. You can find this value in the `parameters/type` field of the default StorageClass configuration.
 
-```
-CopyapiVersion: v1
+You need a volume currently in use in the cluster (created by a PVC). Assume the PVC configuration is as follows:
+
+```yaml
+apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: test-pvc
@@ -43,10 +46,10 @@ spec:
       storage: 20Gi
 ```
 
-Người dùng tạo một bản snapshot volume bằng cách định nghĩa VolumeSnapshot trong kubernetes:
+Create a volume snapshot by defining a VolumeSnapshot in Kubernetes:
 
-```
-CopyapiVersion: snapshot.storage.k8s.io/v1
+```yaml
+apiVersion: snapshot.storage.k8s.io/v1
 kind: VolumeSnapshot
 metadata:
   name: new-snapshot-test
@@ -57,14 +60,15 @@ spec:
     persistentVolumeClaimName: test-pvc
 ```
 
-Trong đó 
-  * _volumeSnapshotClassName_ được cung cấp mặc định bởi FPTCloud, người dùng có thể sử dụng _volumeSnapshotClassName_ theo cấu hình nhu cầu mong muốn.
-  * _persistentVolumeClaimName_ là tên PVC mong muốn tạo snapshot.
+Where:
+  * `volumeSnapshotClassName` is provided by default by FPT Cloud. You can use any `volumeSnapshotClassName` that matches your requirements.
+  * `persistentVolumeClaimName` is the name of the PVC you want to snapshot.
 
-Sau khi tạo xong snapshot trong kubernetes, người dùng kiểm tra lại snapshot trên tab snapshot ở mục **Compute Engine** trên **Unify Portal** :
+After creating the snapshot in Kubernetes, verify it in the **Snapshot** tab under **Compute Engine** on the **Unify Portal**:
 [![](/img/migrated/Picture1-6-9ab1ccda.png)](/img/migrated/Picture1-6-9ab1ccda.png)
-và kiểm tra trong kubernetes bằng câu lệnh:
 
-```
-Copykubectl get volumesnapshots.snapshot.storage.k8s.io -n default
+And verify in Kubernetes with:
+
+```bash
+kubectl get volumesnapshots.snapshot.storage.k8s.io -n default
 ```

@@ -1,8 +1,8 @@
 ---
 id: "huong-dan-su-dung-grafana"
-title: "Hướng dẫn sử dụng Grafana"
-description: "Tổng quan về hướng dẫn sử dụng Grafana trên FPT Cloud bao gồm khởi tạo workspace, truy cập và tích hợp dashboard template."
-sidebar_label: "Tổng quan"
+title: "Grafana user guide"
+description: ""
+sidebar_label: "Overview"
 sidebar_position: "1"
 ---
 

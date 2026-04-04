@@ -1,25 +1,26 @@
 ---
 id: "サイト間VPNの無効化 -1"
-title: "サイト間VPNの無効化"
-description: "アクティブなVPN Site-to-Site接続を一時的に無効化するガイドです。"
-sidebar_label: "サイト間VPNの無効化"
+title: "Disable VPN Site-to-Site"
+description: "Guide to temporarily disabling an active VPN Site-to-Site connection."
+sidebar_label: "Disable VPN Site-to-Site"
 sidebar_position: "4"
+draft: true
 ---
 
-# サイト間VPNの無効化
+# Disable VPN Site-to-Site
 
-アクティブなVPN接続を一時的に停止する必要がある場合、無効化（Disable）できます。
+Disabling a VPN connection temporarily suspends traffic without deleting the configuration, allowing you to re-enable it later.
 
-1. 無効化したいVPN接続を選択し、**Actions** をクリックします。
+1. Select the VPN connection you want to disable, then click **Actions**.
 
-   ![無効化するVPNを選択](/img/migrated/image-1742914755851-61f54aeb.png)
+   ![Select VPN to disable](/img/migrated/image-1742914755851-61f54aeb.png)
 
-   ![Disableオプションのあるメニュー](/img/migrated/image-1742914775322-d0534db7.png)
+   ![Menu with Disable option](/img/migrated/image-1742914775322-d0534db7.png)
 
-2. 無効化を確認します。
+2. Confirm the disable action.
 
-   ![VPN無効化の確認ダイアログ](/img/migrated/image-1742914854120-1ac6827f.png)
+   ![VPN disable confirmation dialog](/img/migrated/image-1742914854120-1ac6827f.png)
 
-3. VPNステータスが **Deactivating** → **Inactive** に変わります。
+3. The VPN status changes from **Deactivating** to **Inactive**.
 
-   ![InactiveステータスのVPN](/img/migrated/image-1742914960934-2edb42de.png)
+   ![VPN with Inactive status](/img/migrated/image-1742914960934-2edb42de.png)

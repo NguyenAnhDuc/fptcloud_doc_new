@@ -1,27 +1,27 @@
 ---
 id: "Initial Setup"
-title: "Thiết lập ban đầu"
-description: "Các bước chuẩn bị trước khi bắt đầu sử dụng FPT Key Vault lần đầu tiên"
-sidebar_label: "Thiết lập ban đầu"
+title: "初期設定"
+description: "FPT Key Vaultを初めて使用する前の準備手順"
+sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Thiết lập ban đầu
+# 初期設定
 
-Trước khi sử dụng FPT Key Vault, bạn cần có tài khoản FPT Cloud và đăng nhập vào FPT Portal. Bước này đảm bảo bạn có quyền truy cập đúng Tenant, Region và VPC để khởi tạo dịch vụ.
+FPT Key Vaultを使用する前に、FPT Cloudアカウントが必要であり、FPT Portalにログインする必要があります。このステップにより、サービスを初期化するための正しいTenant、Region、VPCへのアクセス権限が確保されます。
 
-## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## FPT Cloudアカウントの作成とFPT Portalへのログイン
 
-Nếu chưa có tài khoản FPT Cloud, truy cập [https://fptcloud.com/](https://fptcloud.com/), chọn **Sign Up** và nhập các thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận và tạo tài khoản.
+FPT Cloudアカウントをお持ちでない場合は、[https://fptcloud.com/](https://fptcloud.com/) にアクセスし、**Sign Up** をクリックして必要な情報を入力してください。サポートチームが連絡を取り、アカウントを確認・作成します。
 
-Sau khi có tài khoản, thực hiện các bước sau:
+アカウントを取得したら、次の手順に従ってください:
 
-1. Truy cập [FPT Cloud Portal](https://console.fptcloud.com).
-2. Nhập email và mật khẩu, chọn **Sign In**.
-3. Chọn đúng **Tenant**, **Region** và **VPC** cần sử dụng dịch vụ.
+1. [FPT Cloud Portal](https://console.fptcloud.com) にアクセスします。
+2. メールアドレスとパスワードを入力し、**Sign In** をクリックします。
+3. サービスに使用する正しい **Tenant**、**Region**、**VPC** を選択します。
 
 :::note
-Nếu gặp bất kỳ lỗi nào trong quá trình thao tác, hãy liên hệ đội ngũ Support để được hỗ trợ kịp thời.
+操作中にエラーが発生した場合は、Supportチームに連絡して即時サポートを受けてください。
 :::
 
-Sau khi hoàn tất các bước trên, bạn đã sẵn sàng để khởi tạo **Key Vault** trên hệ thống FPT Cloud.
+上記の手順を完了すると、FPT Cloudで **Key Vault** を作成する準備が整います。

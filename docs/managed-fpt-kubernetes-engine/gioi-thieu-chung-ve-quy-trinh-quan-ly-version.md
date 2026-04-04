@@ -1,19 +1,19 @@
 ---
 id: "gioi-thieu-chung-ve-quy-trinh-quan-ly-version"
-title: "FPTCloud における Kubernetes バージョン管理プロセスの概要"
-description: "FPTCloud の Kubernetes バージョン管理プロセスについて説明します。"
-sidebar_label: "FPTCloud における Kubernetes バージョン管理プロセスの概要"
+title: "Version Management Overview"
+description: "Overview of FPT Cloud's Kubernetes version management process and support lifecycle."
+sidebar_label: "Version Management Overview"
 sidebar_position: "26"
 ---
 
-# Giới thiệu chung về quy trình quản lý version
+# Version Management Overview
 
-* FPTCloud release và update các kubernetes version theo tiêu chuẩn của cộng đồng Kubernetes Open Source Software (OSS). 
-  * Định dạng phiên bản của kubernetes là x.y.z trong đó x là major version, major version được tăng từ (x.y) lên (x+1.y), y là minor version, các Deprecated APIs sẽ được xóa bỏ với minor version mới, minor version được tăng từ 1.y lên (1.y+1), ví dụ version 1.25 là minor release theo sau của 1.25. z là patch release, các bản vá, cập nhật với mục đích fix bug hay vá các lỗ hổng bảo mật của minor version sẽ được cập nhật qua patch release. 
-  * FPTCloud hỗ trợ quản lý 4 Kubernetes minor version ổn định nhất cùng một thời điểm, trong đó version cao nhất trong 4 version này sẽ được chọn làm version mặc định (default). Các version ổn định này đã kiểm thử kĩ càng và sẵn sàng cho việc chạy production. Các version cũ sẽ được đánh nhãn deprecated cho đến ngày end of life được quy định bởi FPTCloud trong bảng release note. 
-  * Bên cạnh đó FPTCloud cũng hỗ trợ các version Kubernetes mới được hỗ trợ bởi cộng đồng theo Kubernetes OSS. Các version mới này được để tag Beta, đang trong quá trình hoàn thiện từ những bài kiểm thử nội bộ và ý kiến phản hồi của trải nghiệm người dùng. Khi đủ điều kiện sẵn sàng cho production, các version này sẽ bỏ tag Beta và trở thành version Stable hoặc GA (Generic Available). 
-  * Các version cũ (end of standard support bởi cộng đồng Kubernetes và FPT Cloud) sẽ không còn được hỗ trợ về kỹ thuật. Các tính năng mới liên quan đến các bản fix của Kubernetes hay các tính năng mới của cloud provider sẽ không được cập nhật ở version end-of-life. Các lỗ hổng và rủi ro về security cũng sẽ không được cập nhật hay khắc phục ở các version này. Lưu ý: các version cũ sẽ không còn được FPT Cloud hỗ trợ và đảm bảo SLA 
-  * Các version Kubernetes đối với cluster thông thường sẽ có sự khác biệt với version Kubernetes cho cluster sử dụng GPU (thông thường version default của cluster GPU sẽ thấp hơn cluster thông thường 1 minor version). 
-  * Image version cho worker OS sẽ được patch liên tục để giải quyết ngăn chặn các lỗ hổng về Security, hiện tại FPTCloud đang sử dụng image OS ubuntu 22.04 cho worker node trong Kubernetes cluster. 
-  * Mỗi version trước thời điểm end of standard support 2 tháng sẽ được đưa vào trạng thái maintenance và hiển thị thông qua giao diện portal. Các cluster đang chạy với version sắp end-of-life sẽ được thông báo trước một tháng qua phương thức gửi Email cho user VPC owner 1 lần/ngày để người dùng chủ động nâng cấp version hoặc cấu hình cho tính năng auto upgrade version để cluster được tự động upgrade khi version tới thời điểm end of standard support. Trong khoảng thời gian này nếu người dùng chủ động nâng cấp version, dịch vụ kubernetes sẽ không gửi mail cho user VPC owner nữa. 
-  * Đối với các cluster được cấu hình auto upgrade version sẽ được gửi email thông báo thời gian nâng cấp cụ thể cho user VPC owner trước 3 ngày so với ngày sẽ tự động nâng cấp.
+* FPT Cloud releases and updates Kubernetes versions according to the standards of the Kubernetes Open Source Software (OSS) community.
+  * The Kubernetes version format is x.y.z, where x is the major version (incremented from x.y to x+1.y), y is the minor version (Deprecated APIs are removed with each new minor version, incremented from 1.y to 1.y+1; for example, version 1.25 is the minor release following 1.24), and z is the patch release (bug fixes and security patches for a minor version are delivered via patch releases).
+  * FPT Cloud supports managing the 4 most stable Kubernetes minor versions at any given time. The highest of these 4 versions is selected as the default version. These stable versions have been thoroughly tested and are ready for production use. Older versions are labeled as deprecated until the end-of-life date specified by FPT Cloud in the release notes.
+  * FPT Cloud also supports new Kubernetes versions supported by the community under Kubernetes OSS. These new versions are tagged as Beta, currently being refined through internal testing and user feedback. Once ready for production, they are promoted from Beta to Stable or GA (Generally Available).
+  * Older versions (end of standard support by both the Kubernetes community and FPT Cloud) will no longer receive technical support. New features related to Kubernetes fixes or new cloud provider capabilities will not be updated for end-of-life versions. Security vulnerabilities and risks will also not be patched or mitigated for these versions. Note: FPT Cloud will no longer support or guarantee SLA for end-of-life versions.
+  * Kubernetes versions for standard clusters may differ from those for GPU clusters (typically the default version for GPU clusters is one minor version lower than for standard clusters).
+  * Worker OS image versions are continuously patched to address and prevent security vulnerabilities. FPT Cloud currently uses Ubuntu 22.04 OS images for worker nodes in Kubernetes clusters.
+  * Each version enters maintenance status 2 months before its end of standard support date, which is displayed through the portal interface. Clusters running versions approaching end-of-life will be notified 1 month in advance by email to the VPC owner user (once per day) so users can proactively upgrade or configure the auto upgrade version feature for automatic cluster upgrade when the version reaches its end of standard support date. If the user proactively upgrades during this period, the Kubernetes service will stop sending emails to the VPC owner.
+  * For clusters configured with auto upgrade version, an email notification with the specific upgrade schedule will be sent to the VPC owner user 3 days before the automatic upgrade date.

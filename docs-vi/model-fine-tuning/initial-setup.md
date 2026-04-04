@@ -1,8 +1,8 @@
 ---
 id: "initial-setup"
-title: "初期設定"
+title: "Initial Setup"
 description: "* **FPT クラウドアカウントの作成:** <https://id.fptcloud.com/> にアクセスし、[サインアップ]をクリックして、アカウント登録するために必要な情報を入力します。"
-sidebar_label: "初期設定"
+sidebar_label: "Initial Setup"
 sidebar_position: "5"
 ---
 

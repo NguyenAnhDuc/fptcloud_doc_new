@@ -1,40 +1,40 @@
 ---
 id: "cac-luu-y-khi-su-dung-fke"
-title: "Các lưu ý khi sử dụng FKE"
-description: "Để đảm bảo tính sẵn sàng, chọn HA Master Nodes cho các hệ thống quan trọng. Có thể chọn non-HA cho các hệ thống Dev Test"
-sidebar_label: "Các lưu ý khi sử dụng FKE"
+title: "Notes when using DFKE"
+description: "Recommendations and notes for using the Dedicated FPT Kubernetes Engine service."
+sidebar_label: "Notes when using DFKE"
 sidebar_position: "29"
 ---
 
-# Các lưu ý khi sử dụng DFKE
+# Notes when using DFKE
 
-### 1. Chọn HA Master Nodes
-Để đảm bảo tính sẵn sàng, chọn HA Master Nodes cho các hệ thống quan trọng. Có thể chọn non-HA cho các hệ thống Dev Test.
+### 1. Choose HA Master Nodes
+To ensure availability, select HA Master Nodes for critical systems. Non-HA may be selected for Dev/Test environments.
 
-### 2. Sử dụng Namespaces
-Tạo namespace để phân chia ứng dụng hoặc môi trường để dễ dàng quản lý. Tránh sử dụng các namespace được hệ thống tạo sẵn để deploy ứng dụng.
+### 2. Use namespaces
+Create namespaces to separate applications or environments for easier management. Avoid deploying applications in system-created namespaces.
 
-### 3. Sử dụng Readiness & Liveness Probes
-Giúp đảm bảo tính sẵn sàng của ứng dụng.
-Readiness Probes đảm bảo request được điều hướng tới pod chỉ khi pod đó ở trạng thái sẵn sàng để nhận request. Các Pod thường tốn thời gian để start ứng dụng, việc đặt Readiness Probes giúp service không điều hướng request đến các Pod khi start (ứng dụng chưa ready).
-Liveness Probes đảm bảo Pod chạy ứng dụng đang ở trạng thái Running, nếu Liveness Probes fail, pod sẽ được restart.
+### 3. Use Readiness & Liveness Probes
+These help ensure application availability.
+Readiness Probes ensure that requests are only routed to a Pod when it is ready to receive them. Since Pods often take time to start, setting Readiness Probes prevents the service from routing requests to Pods that are still starting (application not ready).
+Liveness Probes ensure that the Pod running the application is in a Running state. If a Liveness Probe fails, the Pod is restarted.
 
-### 4. Đặt Resource Requests & Limits
-Giúp container đảm bảo đủ lượng resources để chạy và không chạy quá lượng resource cho phép. Nếu không có limits, pod có thể sử dụng nhiều resource quá tài nguyên cho phép, có thể làm Node crash.
+### 4. Set Resource Requests & Limits
+This ensures containers have enough resources to run without exceeding the allowed amount. Without limits, a Pod may consume more resources than permitted and cause the Node to crash.
 
-### 5. Sử dụng Autoscale
-Sử dụng tính năng Autoscale của FKE dựa trên Kubernetes HPA giúp ứng dụng đáp ứng nhanh khi lượng truy cập tăng cao. Khi lưu lượng sử dụng sử dụng thấp, hệ thống sẽ tự động giảm các Pod/Nodes về mức tối thiểu.
+### 5. Use Autoscale
+Use FKE's Autoscale feature based on Kubernetes HPA to help your application respond quickly when traffic increases. When usage is low, the system automatically reduces Pods/Nodes to the minimum.
 
-### 6. Sử dụng nhiều Pod (>=2)
-Để đảm bảo HA, nên sử dụng >=2 Pod cho mỗi service. Sử dụng anti-affinity để các replica pods nằm trên các Nodes khác nhau.
+### 6. Use multiple Pods (>=2)
+To ensure HA, use at least 2 Pods per service. Use anti-affinity to spread replica Pods across different Nodes.
 
-### 7. Sử dụng Persistent Volume
-FKE hỗ trợ Block và File Storage.
-  * Block Storage là lựa chọn mặc định cho hệ thống, hỗ trợ RWO, đáp ứng performance tốt theo Storage Policy.
-  * File Storage hỗ trợ RWX sử dụng NFS. Không sử dụng File storage cho Database.
+### 7. Use Persistent Volumes
+FKE supports Block and File Storage.
+  * Block Storage is the default choice for the system, supports RWO, and provides good performance according to Storage Policy.
+  * File Storage supports RWX using NFS. Do not use File Storage for databases.
 
 ### 8. Backup
-Đặt lịch Backup Cluster theo hướng dẫn. Người sử dụng cần tự thực hiện việc backup dữ liệu trên PVC (nếu có). Có thể backup ra VM sau đó thực hiện backup VM sử dụng giải pháp FCloud Backup & Recovery.
+Schedule Cluster backups according to the guide. Users must back up data on PVCs themselves (if any). Data can be backed up to a VM and then backed up using the FCloud Backup & Recovery solution.
 
 ### 9. Monitoring & Logging
-Sử dụng FMON để tích hợp monitor & log với Kubernetes cluster. Đặt cảnh báo cho hệ thống.
+Use FMON to integrate monitoring and logging with the Kubernetes cluster. Set up alerts for the system.

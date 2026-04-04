@@ -157,48 +157,92 @@ for (const [key, langDocs] of Object.entries(idIndex)) {
 
   if (missingLangs.length === 0) continue; // All 3 exist
 
-  // Find best source (longest content)
-  let bestDoc = null;
-  for (const [lang, doc] of Object.entries(langDocs)) {
-    if (!bestDoc || doc.bytes > bestDoc.bytes) bestDoc = doc;
-  }
+  // Find best source per target language
+  // Priority: EN→VI (use EN), VI→EN (use VI), EN→JA (use EN), JA→EN (use EN or VI)
+  // NEVER copy JA titles/labels to EN/VI or vice versa
+  const SOURCE_PRIORITY = {
+    en: ['vi', 'ja'], // For missing EN: prefer VI source, then JA (content only, not titles)
+    vi: ['en', 'ja'], // For missing VI: prefer EN source, then JA (content only)
+    ja: ['en', 'vi'], // For missing JA: prefer EN source, then VI
+  };
 
-  if (bestDoc.bytes < MIN_BYTES) { skipped++; continue; }
-
-  // If 2 versions exist, merge content
-  let finalBody = bestDoc.body;
-  if (presentLangs.length === 2) {
-    const [docA, docB] = Object.values(langDocs);
-    finalBody = mergeContent(docA.body, docB.body);
-    if (finalBody !== bestDoc.body) merged++;
-  }
+  // Detect Japanese content in frontmatter
+  const JA_PATTERN = /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]/;
 
   // Create file in each missing language
   for (const targetLang of missingLangs) {
-    const actualSection = getActualSection(bestDoc.normSection, targetLang);
+    // Pick best source for this specific target language
+    let sourceDoc = null;
+    for (const prefLang of SOURCE_PRIORITY[targetLang]) {
+      if (langDocs[prefLang] && langDocs[prefLang].bytes >= MIN_BYTES) {
+        sourceDoc = langDocs[prefLang];
+        break;
+      }
+    }
+    // Fallback: any available source with enough content
+    if (!sourceDoc) {
+      for (const [lang, doc] of Object.entries(langDocs)) {
+        if (doc.bytes >= MIN_BYTES && (!sourceDoc || doc.bytes > sourceDoc.bytes)) {
+          sourceDoc = doc;
+        }
+      }
+    }
+
+    if (!sourceDoc || sourceDoc.bytes < MIN_BYTES) { skipped++; continue; }
+
+    // Don't skip based on title language — instead, fix the title for target language
+
+    // If 2 versions exist, merge content (use longer body)
+    let finalBody = sourceDoc.body;
+    if (presentLangs.length === 2) {
+      const [docA, docB] = Object.values(langDocs);
+      finalBody = mergeContent(docA.body, docB.body);
+      if (finalBody !== sourceDoc.body) merged++;
+    }
+
+    const actualSection = getActualSection(sourceDoc.normSection, targetLang);
     const targetDir = path.join(DOC_DIRS[targetLang], actualSection);
 
-    // Ensure directory exists
     if (!fs.existsSync(targetDir)) {
       fs.mkdirSync(targetDir, { recursive: true });
     }
 
-    // Build filename — use docId as filename for consistency
-    const targetFileName = bestDoc.docId + '.md';
+    const targetFileName = sourceDoc.docId + '.md';
     const targetPath = path.join(targetDir, targetFileName);
 
-    // Skip if file already exists (shouldn't happen but safety check)
     if (fs.existsSync(targetPath)) continue;
 
-    // Build frontmatter — copy from source, keep same docId
+    // Build frontmatter — ensure title/label match target language
+    // Rule: never put JA title in EN/VI, never put VI title in JA/EN, never put EN title in... (EN is OK for all)
+    const VI_PATTERN = /[àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợùúủũụưứừửữựỳýỷỹỵđ]/i;
+    let title = sourceDoc.fm.title || sourceDoc.docId;
+    let sidebarLabel = sourceDoc.fm.sidebar_label || title;
+
+    const titleIsJA = JA_PATTERN.test(title);
+    const titleIsVI = VI_PATTERN.test(title);
+
+    // Use docId as safe fallback title if source language doesn't match target
+    const safeFallback = sourceDoc.docId.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+    if (targetLang === 'en' && (titleIsJA || titleIsVI)) {
+      title = safeFallback;
+      sidebarLabel = safeFallback;
+    } else if (targetLang === 'vi' && titleIsJA) {
+      title = safeFallback;
+      sidebarLabel = safeFallback;
+    } else if (targetLang === 'ja' && titleIsVI) {
+      title = safeFallback;
+      sidebarLabel = safeFallback;
+    }
+
     const newFm = {
-      id: bestDoc.docId,
-      title: bestDoc.fm.title || bestDoc.docId,
-      description: bestDoc.fm.description || '',
-      sidebar_label: bestDoc.fm.sidebar_label || bestDoc.fm.title || bestDoc.docId,
+      id: sourceDoc.docId,
+      title,
+      description: sourceDoc.fm.description || '',
+      sidebar_label: sidebarLabel,
     };
-    if (bestDoc.fm.sidebar_position) {
-      newFm.sidebar_position = bestDoc.fm.sidebar_position;
+    if (sourceDoc.fm.sidebar_position) {
+      newFm.sidebar_position = sourceDoc.fm.sidebar_position;
     }
 
     const newContent = buildFrontmatter(newFm) + '\n\n' + finalBody + '\n';

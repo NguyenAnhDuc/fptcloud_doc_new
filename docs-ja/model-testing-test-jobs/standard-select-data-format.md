@@ -1,8 +1,8 @@
 ---
 id: "standard-select-data-format"
-title: "Standard Select Data Format"
-description: "Standard Select Data Format — Model Testing上の機能。"
-sidebar_label: "Standard Select Data Format"
+title: "標準データフォーマットの選択"
+description: "test suite = standardを選択した場合のみデータフォーマットを選択します。"
+sidebar_label: "標準データフォーマットの選択"
 sidebar_position: "11"
 ---
 
@@ -122,7 +122,7 @@ Copy[
 
 ### c/ ShareGPT_Image
 **ShareGPT_Image** is an extension of the ShareGPT multi-turn chat format, designed specifically for multi-modal training — that is, training models that handle both text and images in conversations.
-It’s used in fine-tuning vision-language models (VLMs), which need to process images alongside natural language.
+It's used in fine-tuning vision-language models (VLMs), which need to process images alongside natural language.
 The structure includes:
   * A list of **chat turns** under `"message"` (same as ShareGPT).
   * A field called `"image"` or `"image_path"` that points to the image used in the conversation (using format png, jpg, jpeg)

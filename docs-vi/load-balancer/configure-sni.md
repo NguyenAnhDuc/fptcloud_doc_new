@@ -1,8 +1,8 @@
 ---
 id: "configure-sni"
-title: "ロードバランサーでの SNI の設定"
-description: "FPT Cloud で単一の HTTPS リスナーで複数のドメインを提供するための SNI (Server Name Indication) の設定方法を説明します。"
-sidebar_label: "SNI の設定"
+title: "Configure SNI on a Load Balancer"
+description: "How to configure Server Name Indication (SNI) to serve multiple domains on a single HTTPS Listener in FPT Cloud."
+sidebar_label: "Configure SNI"
 sidebar_position: "17"
 ---
 

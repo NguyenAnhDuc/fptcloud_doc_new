@@ -1,8 +1,8 @@
 ---
 id: "create-version"
-title: "バージョンの作成"
-description: "**目的**：model のトレーニング情報をシステムに保存するためのバージョンを作成します。"
-sidebar_label: "バージョンの作成"
+title: "Create a version"
+description: "**Purpose** : Create a version to save the training information of a model into the system."
+sidebar_label: "Create a version"
 sidebar_position: "18"
 ---
 

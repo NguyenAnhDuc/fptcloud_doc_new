@@ -1,8 +1,8 @@
 ---
 id: "setting-agert"
-title: "agent インストールパッケージの作成と agent のインストール"
-description: "Trellix agent インストールパッケージを作成し、Windows、Linux、または macOS サーバーに展開する手順。"
-sidebar_label: "agent インストールパッケージの作成"
+title: "Setting Agert"
+description: "Hướng dẫn tạo gói cài đặt Trellix agent và triển khai trên máy chủ Windows, Linux hoặc macOS."
+sidebar_label: "Setting Agert"
 sidebar_position: "3"
 ---
 

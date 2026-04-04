@@ -1,12 +1,12 @@
 ---
 id: "overview-ip-access"
-title: "IP Access overview"
+title: "Tổng quan IP Access"
 description: "IP Access kiểm soát truy cập hệ thống theo địa chỉ IP được cấu hình."
-sidebar_label: "IP Access overview"
+sidebar_label: "Tổng quan IP Access"
 sidebar_position: 24
 ---
 
-# IP Access overview
+# Tổng quan IP Access
 
 Tính năng IP Access kiểm soát truy cập hệ thống, chỉ cho phép người dùng đăng nhập từ các địa chỉ IP đã được cấu hình. Các tài khoản người dùng không thuộc danh sách IP được cấp phép sẽ không thể truy cập vào hệ thống.
 

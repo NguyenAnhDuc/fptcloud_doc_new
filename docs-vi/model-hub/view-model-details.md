@@ -1,8 +1,8 @@
 ---
 id: "view-model-details"
-title: "model 詳細の表示"
-description: "model には以下のコンポーネントが含まれます："
-sidebar_label: "model 詳細の表示"
+title: "View Model Details"
+description: "A model includes the following components: [![file](/img/migrated/image-1757330874098-15240c3e.png)](/img/migrated/image"
+sidebar_label: "View Model Details"
 sidebar_position: "14"
 ---
 

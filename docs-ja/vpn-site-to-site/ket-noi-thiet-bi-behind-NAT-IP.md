@@ -1,137 +1,102 @@
 ---
 id: "ket-noi-thiet-bi-behind-NAT-IP"
-title: "Hướng dẫn kết nối thiết bị Behind NAT IP"
-description: "**NAT IP (Network Address Translation) là gì?**"
-sidebar_label: "Hướng dẫn kết nối thiết bị Behind NAT IP"
+title: "NAT背後のデバイス接続（詳細版）"
+description: "VPN Site-to-SiteサービスでNAT背後のデバイスを接続する詳細ガイドです。"
+sidebar_label: "NAT背後のデバイス接続（詳細版）"
 sidebar_position: "31"
 ---
 
-# Ket Noi Thiet Bi Behind Nat Ip
+# NAT背後のデバイス接続（詳細版）
 
-**NAT IP (Network Address Translation) là gì?**
-NAT (Network Address Translation) IP là cơ chế dịch địa chỉ IP, nó nằm trên router hoặc firewall, dùng để biến đổi địa chỉ IP private trong mạng nội bộ thành IP public khi ra Internet, và ngược lại. 
-**Tính năng Kết nối thiết bị Behind NAT IP của dịch vụ VPN Site-to-Site**
-Trong một số trường hợp, thiết bị VPN của khách hàng không được gắn trực tiếp địa chỉ IP Public, mà chỉ sử dụng IP Private bên trong mạng nội bộ (ví dụ đặt sau modem hoặc router của nhà mạng). Tính năng Behind NAT IP của dịch vụ VPN Site-to-Site cho phép thiết bị Behind NAT vẫn có thể khởi tạo và duy trì kết nối VPN tunnel ra ngoài Internet.   
+**NAT IP（Network Address Translation）とは？**
+NAT（Network Address Translation）IPは、ルーターやファイアウォール上に存在するIPアドレス変換の仕組みです。内部ネットワークのプライベートIPアドレスをインターネット接続時のパブリックIPに変換し、その逆も行います。
 
-**Hướng dẫn cách kết nối thiết bị Behind NAT IP**
-**Bước 1:** Ở menu chọn **Network** , chọn tab **VPN Site-to-Site.**
-Tại đây sẽ quản lý các VPN Connection, quý khách hàng chọn **Create VPN connection**
+**VPN Site-to-SiteサービスのBehind NAT IP接続機能について**
+場合によっては、お客様のVPNデバイスにパブリックIPが直接割り当てられておらず、内部ネットワーク内のプライベートIPのみを使用していることがあります（例：ISPのモデムやルーターの背後に配置されているケース）。VPN Site-to-SiteサービスのBehind NAT IP機能により、NATの背後にあるデバイスでもインターネットへのVPNトンネル接続を開始・維持できます。
+
+**NAT背後のデバイスを接続する方法**
+
+**ステップ1:** メニューから **Network** を選択し、**VPN Site-to-Site** タブを選択します。
+ここでVPN Connectionを管理できます。**Create VPN connection** を選択してください。
 [![file](/img/migrated/image-1761623133375-dcad4485.png)](/img/migrated/image-1761623133375-dcad4485.png)
-Chọn khởi tạo VPN Gateway Sau khi đã có VPN Gateway, chọn 
+VPN Gatewayを作成し、VPN Gatewayが準備できたら選択します。
 [![file](/img/migrated/image-1761623371500-e8802c4d.png)](/img/migrated/image-1761623371500-e8802c4d.png)
-**Bước 2** : Quý khách thực hiện nhập thông tin cấu hình: 
+
+**ステップ2**: 設定情報を入力します：
 [![file](/img/migrated/image-1761623466253-b14ecf97.png)](/img/migrated/image-1761623466253-b14ecf97.png)
-Thông số của VPN Connection sẽ bao gồm 3 mục chính: 
-  * **General Information** (chứa các thông tin chung của kết nối VPN) 
-  * **Remote VPN Information** (chứa các thông tin mã hóa và thông tin của quý khách hàng) 
-  * **Dead Peer Detection** (số lần hệ thống tự động retry kết nối khi bị vấn đề) 
-  * **Advanced Information** (chứa thông tin advanced để kết nối với các thiết bị Behind NAT của quý khách hàng) 
+VPN Connectionのパラメーターには4つの主要セクションがあります：
+  * **General Information**（VPN接続の基本情報）
+  * **Remote VPN Information**（暗号化情報およびお客様情報）
+  * **Dead Peer Detection**（問題発生時の自動リトライ回数）
+  * **Advanced Information**（NAT背後のデバイス接続用の詳細情報）
 
-**Phần 1: General information** [![file](/img/migrated/image-1761623466253-b14ecf97.png)](/img/migrated/image-1761623466253-b14ecf97.png)  
-| **Trường**  | **Mô tả**  |  
-| --- | --- |  
-| **VPN name**  | Tên của VPN Connection  |  
-| **Description**  | Mô tả VPN Connection  |  
-| **Pre-shared key**  | Khoá bảo mật giữa hai thiết bị.  
-Quý khách có thể thiết lập key mới bằng cách nhấn **Refresh Key** và sao chép key bằng cách click **Copy**.  |  
-| **Local IP public**  | IP public được cấp từ hệ thống FPT Cloud  |  
-| **Local private networks**  | Dải Network tài nguyên trên FPT Cloud  |  
-**Phần 2: Remote VPN Information** [![file](/img/migrated/image-1761623732743-9a4ca0c9.png)](/img/migrated/image-1761623732743-9a4ca0c9.png)
-  * **Customer gateway name là thông tin cấu hình ở đầu còn lại kết nối, ở bước này cần chọn đúng Customer Gateway muốn kết nối**
+**セクション1: General information** [![file](/img/migrated/image-1761623466253-b14ecf97.png)](/img/migrated/image-1761623466253-b14ecf97.png)
 
-  
-| **Trường**  | **Mô tả**  |  
-| --- | --- |  
-| **Customer gateway**  |   |  
-| Customer gateway  | Là thông tin cấu hình ở đầu còn lại kết nối, ở bước này cần chọn đúng Customer Gateway muốn kết nối   
-  
-Nếu bạn chưa có Customer Gateway, vui lòng click [tại đây](../vpn-site-to-site/index.md) để xem hướng dẫn khởi tạo  |  
-| Providers  | Danh sách các nhà cung cấp kết nối VPN tới FCI.  |  
-| **IKE Policy**  |   |  
-| Authorization algorithm  | Thuật toán được sử dụng để xác thực dữ liệu trong quá trình thiết lập kết nối VPN.  
-  
-Các giá trị: sha1, sha256, sha384, sha512, aes-xcbc   
-  
-Nên sử dụng ‘sha256’ để cân bằng bảo mật và hiệu suất_  |  
-| Encryption algorithm  | Mã hóa quá trình đàm phán khóa bảo mật.  
-  
-Các giá trị: aes-128, aes-192, aes-256, aes-128-gcm-8, aes-128-gcm-12, aes-128-gcm-16, aes-192-gcm-8, aes-192-gcm-12, aes-192-gcm-16, aes-256-gcm-8, aes-256-gcm-12, aes-256-gcm-16'   
-  
-FCI khuyến nghị nên sử dụng **aes-256** để cân bằng tốt giữa bảo mật và hiệu suất   
-  
-Nếu quý khách hàng sử dụng **ikev1** , vui lòng không chọn các thuật toán gcm vì việc này sẽ gây ra ảnh hưởng khi kết nối dịch vụ VPN  |  
-| IKE version  | Các phiên bản IKE hỗ trợ.  
-Danh sách các giá trị: ikev1, ikev2   
-  
-FCI khuyến nghị nên sử dụng **ikev2** cho hầu hết các thiết bị firewall khi kết nối.   
-Nếu quý khách hàng sử dụng thiết bị Cisco đời cũ và chỉ support ikev1, vui lòng chọn ikev1 để khởi tạo kết nối  |  
-| Lifetime units  | Đơn vị đo thời gian tồn tại của kết nối IKE  
-  
-Mặc định là second  |  
-| Lifetime value  | Giá trị thời gian sống (lifetime) cụ thể của phase 1  |  
-| DH Group  | Nhóm thuật toán Diffie-Hellman dùng để tạo khoá trao đổi ban đầu   
-Các giá trị: group_1, group_2, group_5, group_14, group_15, group_16, group_17, group_18, group_19 group_20, group_21.  |  
-| Phase 1 negotiation mode  | Cách thức mà hai thiết bị sẽ thiết lập kết nối bảo mật trong giai đoạn 1 của IKE.  
-  
-Các giá trị: main, aggressive (default main)  |  
-| **IPSec Policy**  |   |  
-| Authorization algorithm  | Thuật toán được sử dụng để xác thực dữ liệu trong quá trình thiết lập kết nối VPN.  
-  
-Các giá trị: sha1, sha256, sha384, sha512, aes-xcbc  
-  
- _Nên sử dụng ‘sha256’ để cân bằng bảo mật và hiệu suất_  |  
-| Encapsulation mode  | Chế độ mà dữ liệu sẽ được mã hóa và đóng gói trước khi truyền tải.  
-  
-Mặc định là tunnel.  |  
-| Encryption algorithm  | Mã hóa dữ liệu thực tế được truyền qua VPN  
-  
-Các giá trị: aes-128, aes-192,aes-256'  
-  
-Nên sử dụng **aes-256** để cân bằng bảo mật và hiệu suất  |  
-| Lifetime units  | Mặc định là second  |  
-| Lifetime value  | Khoảng thời gian mà một phiên kết nối IPSec được cho phép tồn tại trước khi phải được tái thiết lập.  |  
-| Perfect forward secrecy  | Tùy chọn đảm bảo bảo mật khoá phiên (PFS - thường đi kèm DH Group).  
-  
-Các giá trị: off, group_1, group_2, group_5, group_14, group_15, group_16, group_17, group_18, group_19 group_20, group_21   
-_Nên sử dụng ‘group _14’ để cân bằng bảo mật_  |  
-| Transform protocol  | Giao thức được sử dụng để xác định cách thức mã hóa và xác thực trong IPSec.  
-  
-Các giá trị: esp, ah  |  
-**Về thông tin Providers**
-  * Hiện tại FCI có hỗ trợ cấu hình sẵn cho các providers như: AWS, Fortigate, Palo Alto. Để có được kết nối tối ưu nhất FCI khuyến nghị quý khách hàng sử dụng các thông số này. 
+| **フィールド** | **説明** |
+| --- | --- |
+| **VPN name** | VPN Connectionの名前 |
+| **Description** | VPN Connectionの説明 |
+| **Pre-shared key** | 両デバイス間のセキュリティキー。**Refresh Key** をクリックして新しいキーを生成し、**Copy** をクリックしてコピーできます。 |
+| **Local IP public** | FPT Cloudシステムから割り当てられたパブリックIP |
+| **Local private networks** | FPT Cloud上のリソースネットワーク範囲 |
 
-  
-| **Thông số cấu hình**  | **AWS**  | **Fortigate**  | **Palo Alto**  |  
-| --- | --- | --- | --- |  
-| **IKE Info**  |   |   |   |  
-| IKE version  | ikev2  | ikev2  | ikev2  |  
-| Encryption algorithm  | aes-256  | aes-256  | aes-256  |  
-| Authorization algorithm  | sha256  | sha256  | sha256  |  
-| DH Group  | group14  | group14 - group19  | group14 – group20  |  
-| Lifetime value  | 28800s  | 28800s  | 28800s  |  
-| Phase 1 negotiation mode  | main  | main  | main  |  
-| **IPSec Info**  |   |   |   |  
-| Encryption algorithm  | aes-256  | aes-256  | aes-256  |  
-| Authorization algorithm  | sha256  | sha256  | sha256  |  
-| Perfect forward secrecy  | group14  | group14 (hoặc group19)  | group19  |  
-| Lifetime value  | 3600s  | 3600s  | 3600s  |  
-| Encapsulation mode  | tunnel  | tunnel  | tunnel  |  
-| Transform protocol  | esp  | esp  | esp  |  
-  * Đối với trường hợp Providers không thuộc danh sách trên, quý khách hàng vui lòng điền các thông tin IKE và IPsec phù hợp với cấu hình kết nối 
+**セクション2: Remote VPN Information** [![file](/img/migrated/image-1761623732743-9a4ca0c9.png)](/img/migrated/image-1761623732743-9a4ca0c9.png)
+  * **Customer gateway nameは接続先端の設定情報です。このステップで接続したいCustomer Gatewayを正しく選択してください。**
 
-**Phần 3: Dead Peer Detection** [![file](/img/migrated/image-1761623789897-f3b0b9ef.png)](/img/migrated/image-1761623789897-f3b0b9ef.png)  
-| Trường  | Mô tả  |  
-| --- | --- |  
-| **Delay (s)**  | Thời gian (giây) giữa mỗi lần gửi **DPD probe** để kiểm tra kết nối.   
-  
-**Mặc định:** 30s  |  
-| **Max failures**  | Số lần kiểm tra thất bại tối đa trước khi xác định **peer đã chết** và reset kết nối.   
-  
-**Mặc định:** 10  |  
-**Phần 4: Advanced Information** [![file](/img/migrated/image-1761625699218-95fcf249.png)](/img/migrated/image-1761625699218-95fcf249.png)  
-| Trường  | Mô tả  |  
-| --- | --- |  
-| **Peer ID**  | Định danh (địa chỉ IP gốc) của thiết bị VPN khách hàng trong quá trình thiết lập VPN (IKE negotiation).   
-  
-Mặc định hệ thống sẽ lấy **Customer Gateway IP**. Nếu quý khách có sử dụng **NAT IP** , vui lòng kiểm tra lại **địa chỉ IP gốc (trước khi bị NAT)** và điền thông tin vào trường **Peer ID** này.  |  
-Sau khi điền đầy đủ thông tin cho VPN Connection, Quý khách tiến hành chọn **Create VPN Connection** hoặc **Cancel** để hủy bỏ.
+| **フィールド** | **説明** |
+| --- | --- |
+| **Customer gateway** | |
+| Customer gateway | 接続先のCustomer Gatewayを選択します。Customer Gatewayがない場合は[こちら](../vpn-site-to-site/index.md)を参照してください。 |
+| Providers | FCIへのVPN接続プロバイダーのリスト |
+| **IKE Policy** | |
+| Authorization algorithm | データ認証アルゴリズム。値: sha1, sha256, sha384, sha512, aes-xcbc。「sha256」を推奨します。 |
+| Encryption algorithm | キー交渉プロセスの暗号化。値: aes-128, aes-192, aes-256, aes-128-gcm-8〜aes-256-gcm-16。FCIは **aes-256** を推奨します。**ikev1** 使用時はgcmアルゴリズムを選択しないでください。 |
+| IKE version | サポートするIKEバージョン。値: ikev1, ikev2。FCIはほとんどのファイアウォール機器に **ikev2** を推奨します。古いCisco機器でikev1のみサポートの場合はikev1を選択してください。 |
+| Lifetime units | IKE接続の存続期間の単位。デフォルト: second |
+| Lifetime value | Phase 1の具体的なライフタイム値 |
+| DH Group | 初期鍵交換に使用するDiffie-Hellmanグループ。値: group_1, group_2, group_5, group_14〜group_21 |
+| Phase 1 negotiation mode | IKEのPhase 1でセキュア接続を確立する方式。値: main, aggressive（デフォルト: main） |
+| **IPSec Policy** | |
+| Authorization algorithm | データ認証アルゴリズム。「sha256」を推奨します。 |
+| Encapsulation mode | データの暗号化とカプセル化のモード。デフォルト: tunnel |
+| Encryption algorithm | 転送データの暗号化。値: aes-128, aes-192, aes-256。**aes-256** を推奨します。 |
+| Lifetime units | デフォルト: second |
+| Lifetime value | IPSecセッションが再確立前に存続できる時間 |
+| Perfect forward secrecy | セッションキーのセキュリティオプション（PFS）。「group_14」を推奨します。 |
+| Transform protocol | IPSecの暗号化・認証方式を定義するプロトコル。値: esp, ah |
+
+**Providersについて**
+  * 現在FCIはAWS、Fortigate、Palo Altoのプリセット設定をサポートしています。最適な接続のためにこれらのパラメーターを使用することを推奨します。
+
+| **設定パラメーター** | **AWS** | **Fortigate** | **Palo Alto** |
+| --- | --- | --- | --- |
+| **IKE Info** | | | |
+| IKE version | ikev2 | ikev2 | ikev2 |
+| Encryption algorithm | aes-256 | aes-256 | aes-256 |
+| Authorization algorithm | sha256 | sha256 | sha256 |
+| DH Group | group14 | group14 - group19 | group14 – group20 |
+| Lifetime value | 28800s | 28800s | 28800s |
+| Phase 1 negotiation mode | main | main | main |
+| **IPSec Info** | | | |
+| Encryption algorithm | aes-256 | aes-256 | aes-256 |
+| Authorization algorithm | sha256 | sha256 | sha256 |
+| Perfect forward secrecy | group14 | group14（またはgroup19） | group19 |
+| Lifetime value | 3600s | 3600s | 3600s |
+| Encapsulation mode | tunnel | tunnel | tunnel |
+| Transform protocol | esp | esp | esp |
+  * 上記リスト以外のプロバイダーの場合は、接続設定に合ったIKEとIPsecの情報を入力してください。
+
+**セクション3: Dead Peer Detection** [![file](/img/migrated/image-1761623789897-f3b0b9ef.png)](/img/migrated/image-1761623789897-f3b0b9ef.png)
+
+| フィールド | 説明 |
+| --- | --- |
+| **Delay (s)** | 接続確認の **DPD probe** を送信する間隔（秒）。**デフォルト:** 30s |
+| **Max failures** | 接続失敗と判定するまでの最大失敗回数。**デフォルト:** 10 |
+
+**セクション4: Advanced Information** [![file](/img/migrated/image-1761625699218-95fcf249.png)](/img/migrated/image-1761625699218-95fcf249.png)
+
+| フィールド | 説明 |
+| --- | --- |
+| **Peer ID** | VPN確立時（IKEネゴシエーション）のお客様VPNデバイスの識別子（元のIPアドレス）。デフォルトではシステムが **Customer Gateway IP** を使用します。**NAT IP** を使用している場合は、**NATされる前の元のIPアドレス** を確認して **Peer ID** フィールドに入力してください。 |
+
+VPN Connectionのすべての情報を入力したら、**Create VPN Connection** を選択するか、**Cancel** でキャンセルしてください。

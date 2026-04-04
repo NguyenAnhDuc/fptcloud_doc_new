@@ -1,97 +1,100 @@
 ---
 id: "load-balancer-services"
-title: "Service Type Load-Balancer"
-description: "D-FKEでのService type Load Balancerの作成方法と、パブリック・プライベートLBの設定について説明します。"
-sidebar_label: "Service Type Load-Balancer"
+title: "Service Type Load Balancer"
+description: "D-FKE hỗ trợ tạo Service type Load Balancer giúp người dùng dễ dàng public ứng dụng ra ngoài cluster. Hệ thống hỗ trợ cả public và private LB."
+sidebar_label: "Service Type Load Balancer"
 sidebar_position: "23"
 ---
 
-# Load Balancer services
+# Dịch vụ Load Balancer
 
-D-FKE supports creating Load Balancer Service to help users expose their applications outside the cluster. The system supports both public and private LB.
-  * **Public LB** : By default, LB svc is created as public, meaning the service is assigned a Public IP so it can be accessed from the internet.
-  * **Private LB** : The service is assigned a Private IP so it can only be accessed internally. Public IP is not assigned so it cannot be accessed from the internet.
+D-FKE hỗ trợ tạo **Service type Load Balancer** giúp người dùng dễ dàng public ứng dụng ra ngoài cluster. Hệ thống hỗ trợ cả public và private LB.
+  * **Public LB:** Mặc định, svc type LB khi được tạo sẽ ở dạng public, nghĩa là service được gán Public IP để có thể truy cập từ internet.
+  * **Private LB:** Service được gán Private IP để chỉ có thể truy cập nội bộ. Không được gán Public IP nên không thể truy cập từ internet.
 
 ### A. Public LB
-Load Balancer Service expose the application to the internet. This service type requires an available Public IP to allocate.
-_Example manifest file:_
+Service type LoadBalancer dạng Public cho phép truy cập từ internet. Dạng này yêu cầu có Public IP khả dụng để cấp phát.
 
-```
+_Ví dụ file manifest:_
+
+```yaml
 apiVersion: v1
 kind: Service
-metadata:  
-  name: web  
-  namespace: default
-spec:  
-  selector:    
-    app: web  
-  ports:    
-    – protocol: TCP      
-      name: http      
-      port: 80      
-      targetPort: 80    
-    – protocol: TCP      
-      name: https      
-      port: 443      
-      targetPort: 443  
-  type: LoadBalancer 
+metadata:  
+  name: web  
+  namespace: default
+spec:  
+  selector:    
+    app: web  
+  ports:    
+    - protocol: TCP      
+      name: http      
+      port: 80      
+      targetPort: 80    
+    - protocol: TCP      
+      name: https      
+      port: 443      
+      targetPort: 443  
+  type: LoadBalancer 
 ```
 
 ### B. Private LB
-Load Balancer Service is only expose privately, with the purpose of using for internal access, not publicly from the internet. This service type does not require an available Public IP to allocate.
-_Example manifest file:_
+Service type LoadBalancer dạng Private chỉ cho phép truy cập nội bộ, không thể truy cập từ internet. Dạng này không yêu cầu Public IP khả dụng.
 
-```
-CopyapiVersion: v1
+_Ví dụ file manifest:_
+
+```yaml
+apiVersion: v1
 kind: Service
-metadata:  
-  annotations:
-    service.beta.kubernetes.io/fpt-load-balancer-internal: "true"
-  name: web  
-  namespace: default
-spec:  
-  selector:    
-    app: web  
-  ports:    
-    – protocol: TCP      
-      name: http      
-      port: 80      
-      targetPort: 80    
-    – protocol: TCP      
-      name: https      
-      port: 443      
-      targetPort: 443  
-  type: LoadBalancer 
+metadata:  
+  annotations:
+    service.beta.kubernetes.io/fpt-load-balancer-internal: "true"
+  name: web  
+  namespace: default
+spec:  
+  selector:    
+    app: web  
+  ports:    
+    - protocol: TCP      
+      name: http      
+      port: 80      
+      targetPort: 80    
+    - protocol: TCP      
+      name: https      
+      port: 443      
+      targetPort: 443  
+  type: LoadBalancer 
 ```
 
-  * To list created services:
+  * Để xem danh sách service đã tạo:
 
-```
-Copykubectl get svc 
-```
-
-  * To edit the Load Balancer's Internal IP:
-
-```
-Copykubectl edit cm fptcloud-ccm-configmap -n kube-system
+```bash
+kubectl get svc 
 ```
 
-```
-Copyloadbalancer:
-      oneArm:
-        startIP: "169.254.64.1"
-        endIP: "169.254.127.254" 
+  * Để chỉnh sửa dải Internal IP của Load Balancer:
+
+```bash
+kubectl edit cm fptcloud-ccm-configmap -n kube-system
 ```
 
-Enter the IP range you want the system to automatically allocate to the LB's Virtual IP:
-  * **startIP** : starting IP of Subnet.
-_Example: startIP: "10.100.1.2"_
-  * **endIP** : Ending IP of Subnet.
-_Example: endIP: "10.100.1.253"_
-
-_**Note** : This IP range must not overlap with subnets created on the system._
-Then, do a rollout to apply the new configuration:
-
+```yaml
+loadbalancer:
+      oneArm:
+        startIP: "169.254.64.1"
+        endIP: "169.254.127.254" 
 ```
-Copykubectl rollout restart deployment fptcloud-ccm -n kube-system 
+
+Nhập dải IP bạn muốn hệ thống tự động cấp cho Virtual IP của LB:
+  * **startIP**: IP bắt đầu của subnet.
+_Ví dụ: startIP: "10.100.1.2"_
+  * **endIP**: IP kết thúc của subnet.
+_Ví dụ: endIP: "10.100.1.253"_
+
+_**Lưu ý**: Dải IP này không được trùng với các subnet đã tạo trên hệ thống._
+
+Sau đó thực hiện rollout để áp dụng cấu hình mới:
+
+```bash
+kubectl rollout restart deployment fptcloud-ccm -n kube-system 
 ```

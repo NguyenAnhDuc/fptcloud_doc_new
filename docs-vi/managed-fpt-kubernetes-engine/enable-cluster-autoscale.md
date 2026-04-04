@@ -1,27 +1,27 @@
 ---
 id: "enable-cluster-autoscale"
-title: "Cluster Autoscale の有効化"
-description: "Managed FKE クラスターでCluster Autoscaleを有効化する方法を説明します。"
-sidebar_label: "Cluster Autoscale の有効化"
+title: "Bật tính năng Cluster Autoscale"
+description: "Hướng dẫn bật tính năng Cluster Autoscale trên cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Bật tính năng Cluster Autoscale"
 sidebar_position: "14"
 ---
 
-# Enable cluster autoscale
+# Bật tính năng Cluster Autoscale
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster on which you want to enable Cluster Autoscale.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn bật tính năng Cluster Autoscale.
 
 [![](/img/migrated/27-1-baec35bd.png)](/img/migrated/27-1-baec35bd.png)
 
-**Step 2:** Click **Configure Worker Groups**.
+**Bước 2:** Chọn **Configure Worker Groups**.
 
 [![](/img/migrated/28-1-b4b32aec.png)](/img/migrated/28-1-b4b32aec.png)
 
-**Step 3:** Adjust the minimum and maximum number of workers based on your sizing requirements.
+**Bước 3:** Điều chỉnh số lượng worker tối thiểu và tối đa theo nhu cầu sử dụng.
 
 [![](/img/migrated/29-1-67174b85.png)](/img/migrated/29-1-67174b85.png)
 
 :::note
-When the maximum worker count is greater than the minimum worker count, Cluster Autoscale is automatically enabled.
+Khi số lượng worker tối đa lớn hơn số lượng worker tối thiểu, tính năng Cluster Autoscale sẽ được bật tự động.
 :::
 
-**Step 4:** Verify the information and click **Save** to enable Cluster Autoscale.
+**Bước 4:** Kiểm tra lại thông tin và chọn **Save** để bật tính năng Cluster Autoscale.

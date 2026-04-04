@@ -1,60 +1,60 @@
 ---
 id: "manage-bucket"
-title: "bucket の管理"
-description: "FPT Object Storage で bucket の作成・削除・空にする操作およびフォルダーの追加を行う手順です。"
-sidebar_label: "bucket の管理"
-sidebar_position: "4"
+title: "Quản lý bucket"
+description: "Hướng dẫn tạo, xóa, làm rỗng bucket và thêm thư mục trong FPT Object Storage."
+sidebar_label: "Quản lý bucket"
+sidebar_position: 4
 ---
 
-# bucket の管理
+# Quản lý bucket
 
-**bucket** は FPT Object Storage における論理的なストレージ単位で、データファイル・画像・動画・ドキュメントなどの object を格納するために使用します。bucket の一覧を確認するには、[Object Storage Management](https://console.fptcloud.com/) にアクセスし、Project を選択して **Buckets** タブを選択します。
+**Bucket** là một đơn vị lưu trữ mang tính logical trên FPT Object Storage, dùng để chứa các object như file dữ liệu, ảnh, video và tài liệu. Để xem danh sách các bucket, truy cập [Object Storage Management](https://console.fptcloud.com/), chọn Project và chọn tab **Buckets**.
 
-- **複数の bucket を作成:** 各 FPT Object Storage アカウントはニーズに応じてデータを整理するための複数の bucket を作成できます。
-- **ACL とアクセス権の設定:** 各 bucket にはアクセス制御のための個別の ACL（Access Control List）設定を行えます。
-- **ファイル種類の制限なし:** 制限なく任意の種類のファイルをアップロードできます。
+- **Tạo nhiều bucket:** Mỗi tài khoản FPT Object Storage có thể tạo nhiều bucket để tổ chức dữ liệu theo nhu cầu.
+- **Cấu hình ACL và quyền truy cập:** Mỗi bucket có thể có cấu hình ACL (Access Control List) riêng để kiểm soát quyền truy cập.
+- **Không giới hạn loại file:** Bạn có thể tải lên bất kỳ loại file nào mà không bị giới hạn.
 
-## bucket の作成
+## Tạo bucket
 
-1. [https://console.fptcloud.com](https://console.fptcloud.com) の **Object Storage Management** にアクセスし、**Buckets** タブを選択します。
-2. **Create Bucket** をクリックします。
-3. 新しい **bucket** 名を入力し、リストから **Region** を選択します。**Advanced setting** では以下の設定が可能です。
-   - **Bucket ACL** を選択します: アクセス権管理のため **Public** または **Private**。
-   - **Bucket Versioning** を選択します: object のバージョン管理のため **Disable** または **Enable**。
-4. 完了すると、新しい bucket が **Object Storage Management** に表示されます。
+1. Truy cập **Object Storage Management** tại [https://console.fptcloud.com](https://console.fptcloud.com) và chọn tab **Buckets**.
+2. Nhấn **Create Bucket**.
+3. Nhập tên **Bucket** mới và chọn **Region** từ danh sách. Trong phần **Advanced setting**, bạn có thể:
+   - Chọn **Bucket ACL**: **Public** hoặc **Private** để quản lý quyền truy cập.
+   - Chọn **Bucket Versioning**: **Disable** hoặc **Enable** để quản lý các phiên bản của object.
+4. Sau khi hoàn thành, bucket mới sẽ hiển thị trong **Object Storage Management**.
 
-## bucket の削除
+## Xóa bucket
 
 :::warning
-bucket を削除すると、内部のすべての object が削除され、復元できません。
+Thao tác xóa bucket sẽ xóa toàn bộ các object bên trong và không thể phục hồi.
 :::
 
-1. **Object Storage Management** にアクセスし、**Buckets** タブを選択します。
-2. 削除する bucket の **Action** で **Delete** を選択します。
-3. 警告ダイアログで削除操作を確認します。
+1. Truy cập **Object Storage Management**, chọn tab **Buckets**.
+2. Trong phần **Action** của bucket cần xóa, chọn **Delete**.
+3. Xác nhận thao tác xóa trong hộp thoại cảnh báo.
 
-## bucket を空にする（Empty bucket）
+## Empty bucket
 
-Empty Bucket 機能は、Permission や Policy などの設定情報を保持したまま、bucket 内のすべてのデータを削除します。
+Tính năng Empty Bucket giúp xóa toàn bộ dữ liệu của bucket trong khi giữ nguyên các thông tin cấu hình như Permission, Policy.
 
 :::note
-処理時間は object の数によって異なります。object が 1000 件を超える bucket の場合は、Delete Bucket 機能の使用をご検討ください。
+Thời gian xử lý phụ thuộc vào số lượng object. Hãy cân nhắc dùng tính năng Delete Bucket nếu bucket có trên 1000 object.
 :::
 
-1. **Empty Bucket** アクションを選択します。
-2. 警告ポップアップで削除操作を確認します。
+1. Chọn action **Empty Bucket**.
+2. Xác nhận thao tác xóa trong popup cảnh báo.
 
-## bucket 内への新しいフォルダーの追加
+## Thêm thư mục mới trong bucket
 
-Object Storage の非構造化モデルでは、従来の意味での **フォルダー** という概念はありません。**bucket** と **object** のみが存在します。ただし FPT Portal では、同じパスの object をフォルダーとしてグループ化して表示します。
+Trong mô hình Object Storage phi cấu trúc, không có khái niệm **Folder** như truyền thống. Thay vào đó chỉ có **Bucket** và **Object**. Tuy nhiên FPT Portal hiển thị theo cấu trúc thư mục để dễ sử dụng — các object cùng path sẽ được gom nhóm thành một folder.
 
-例えば、**bucket_name/folder-1/object-1.txt** と **bucket_name/folder-1/object-2.txt** という 2 つの object がある場合、FPT Portal はそれらを **folder-1** フォルダー内に表示します。
+Ví dụ, nếu có 2 object với path **bucket_name/folder-1/object-1.txt** và **bucket_name/folder-1/object-2.txt**, FPT Portal sẽ hiển thị chúng trong thư mục **folder-1**.
 
-1. **Object Storage Management** にアクセスします。
-2. フォルダーを追加する位置に移動し、**New folder** を選択します。
-3. 新しいフォルダー名を入力して **Create** を選択します。
+1. Truy cập **Object Storage Management**.
+2. Di chuyển đến vị trí cần thêm thư mục và chọn **New folder**.
+3. Nhập tên thư mục mới và chọn **Create**.
 
-## bucket の検索
+## Tìm kiếm bucket
 
-1. **Search** ボックスに検索内容を入力します。
-2. **Enter** キーを押して bucket 名で検索します。
+1. Nhập nội dung cần tìm vào ô **Search**.
+2. Nhấn **Enter** để tìm kiếm theo tên bucket.

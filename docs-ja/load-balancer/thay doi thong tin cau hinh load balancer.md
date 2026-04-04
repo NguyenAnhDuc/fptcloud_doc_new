@@ -1,19 +1,25 @@
 ---
 id: "thay doi thong tin cau hinh load balancer"
-title: "Thay đổi thông tin cấu hình Load Balancer"
-description: "Bạn có thể thay đổi thông tin cấu hình và gói sử dụng của **Load Balancer** đã tạo tại trang **Load Balancer details.**"
-sidebar_label: "Thay đổi thông tin cấu hình Load Balancer"
+title: "ロードバランサーの設定情報の変更"
+description: "FPT Cloud Load Balancer の設定情報とパッケージを変更する方法を説明します。"
+sidebar_label: "ロードバランサーの設定情報の変更"
 sidebar_position: "31"
 ---
 
-# Thay Doi Thong Tin Cau Hinh Load Balancer
+# ロードバランサーの設定情報の変更
 
-Bạn có thể thay đổi thông tin cấu hình và gói sử dụng của **Load Balancer** đã tạo tại trang **Load Balancer details.**
+作成済みの Load Balancer の設定情報とパッケージは **Load Balancer details** ページから変更できます。
 
-### Thay đổi cài đặt của Load Balancer
-**Bước 1** : Truy cập vào trang **Load Balancer details** bằng cách chọn tên **Load Balancer** tương ứng trên bảng quản trị **Load Balancer Management**.
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)**
-**Bước 2** :Mở tab **Setting** , trong phần **Edit load balancer** chọn **Update settings.**
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-13-1024-ee1d924b.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-13-1024-ee1d924b.png)**
-**Bước 3:** Nhập các thông tin mới vào popup **Update Settings Load Balancer** và chọn **Update Settings**
-**[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-14-23b73b59.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-14-23b73b59.png)**
+## Load Balancer の設定変更
+
+**手順 1:** Load Balancer Management の一覧から対応する Load Balancer 名を選択し、**Load Balancer details** ページにアクセスします。
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-4-1024x-511c9674.png)
+
+**手順 2:** **Setting** タブを開き、**Edit load balancer** セクションで **Update settings** を選択します。
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-13-1024-ee1d924b.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-13-1024-ee1d924b.png)
+
+**手順 3:** **Update Settings Load Balancer** ポップアップに新しい情報を入力し、**Update Settings** をクリックします。
+
+[![](/img/migrated/Userguide-FPT-Load-Balancer-2022-14-23b73b59.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-14-23b73b59.png)

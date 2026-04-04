@@ -1,8 +1,8 @@
 ---
 id: "execution-details"
-title: "Execution Details"
-description: "Trang Execution details cung cấp tổng quan toàn diện về một job fine-tuning."
-sidebar_label: "Execution Details"
+title: "実行詳細"
+description: "Execution details ページは、fine-tuning ジョブの包括的な概要を提供します。"
+sidebar_label: "実行詳細"
 sidebar_position: "23"
 ---
 

@@ -1,21 +1,28 @@
 ---
 id: "tao-verison"
-title: "Tao Verison"
-description: "Tạo phiên bản có mục đích giúp lưu thông tin 1 phiên bản trainning của model vào hệ thống."
-sidebar_label: "Tao Verison"
+title: "version の作成"
+description: "model のトレーニングチェックポイントを新しい version として保存します。"
+sidebar_label: "version の作成"
 sidebar_position: "9"
 ---
 
-# Tao Verison
+# version の作成
 
-Tạo phiên bản có mục đích giúp lưu thông tin 1 phiên bản trainning của model vào hệ thống. 
-Để tạo mới phiên bản, bạn thao tác như sau: 
+model のトレーニングチェックポイントをシステムに新しい version として保存します。
 
-Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Version 
+## 手順
 
-Bước 2: Click button New version để mở form tạo mới  
-[![](/img/migrated/Picture16-20ac1db9.png)](/img/migrated/Picture16-20ac1db9.png) Bước 3: Hiển thị form tạo mới phiên bản, người dùng nhập các thông tin: 
-  * Version: là mã phiên bản 
+1. model をクリックして詳細を表示し、**Version** タブを選択します。
 
-Lưu ý: Mã phiên bản bao gồm a-z, A-Z, số, dấu "-", "_", ".", nhận tối đa 20 kí tự. Mã phiên bản là duy nhất đối với một model. 
-  * Version visibility: Trạng thái của phiên bản, bao gồm: Private, Public [![](/img/migrated/Picture17-c9655dec.png)](/img/migrated/Picture17-c9655dec.png) Bước 4: Nhấn Create để tạo
+2. **New version** をクリックして作成フォームを開きます。
+[![](/img/migrated/Picture16-20ac1db9.png)](/img/migrated/Picture16-20ac1db9.png)
+
+3. version の情報を入力します。
+   - **Version**: version コード。
+
+   > **注意:** version コードには a–z、A–Z、数字、`-`、`_`、`.` が使用でき、最大 20 文字です。version コードは model 内で一意である必要があります。
+
+   - **Version visibility**: version のステータス — Private または Public。
+[![](/img/migrated/Picture17-c9655dec.png)](/img/migrated/Picture17-c9655dec.png)
+
+4. **Create** をクリックして新しい version を保存します。

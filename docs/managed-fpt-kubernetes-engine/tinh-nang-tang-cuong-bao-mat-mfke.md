@@ -1,22 +1,22 @@
 ---
 id: "tinh-nang-tang-cuong-bao-mat-mfke"
-title: "M-FKE のセキュリティ強化機能"
-description: "FPT Cloud Managed Kubernetes Engine（M-FKE）のセキュリティ強化機能の概要を説明します。"
-sidebar_label: "M-FKE のセキュリティ強化機能"
+title: "Security enhancement features for M-FKE"
+description: "Overview of the security enhancement features available in FPT Cloud Managed Kubernetes Engine."
+sidebar_label: "Security enhancement features for M-FKE"
 sidebar_position: "29"
 ---
 
-# Tính năng tăng cường bảo mật cho M-FKE
+# Security enhancement features for M-FKE
 
-FPT Cloud Managed Kubernetes Engine (M-FKE) cung cấp nhiều tính năng tăng cường bảo mật cho cluster.
+FPT Cloud Managed Kubernetes Engine (M-FKE) provides multiple security enhancement features for clusters.
 
-Các tính năng bảo mật hiện có:
+Available security features:
 
-- **[Benchmark Security](./tinh-nang-benchmark-cluster.md)**: Đánh giá cấu hình kubelet của worker node dựa trên tiêu chuẩn CIS (Center for Internet Security).
-- **[Runtime Security](./tinh-nang-runtime-security-cluster.md)**: Phát hiện hành vi bất thường trong Kubernetes cluster theo thời gian thực bằng Falco. Bạn có thể nhận cảnh báo qua Telegram hoặc Gmail.
-- **[Workload Scan](./tinh-nang-workload-scan.md)**: Quét lỗ hổng bảo mật trong container image, đánh giá cấu hình RBAC và tạo báo cáo kiểm tra cấu hình bằng Trivy.
-- **[Audit Log](./audit-log-vn.md)**: Ghi lại tất cả API request và thao tác gửi đến kube-apiserver, hỗ trợ phân tích bảo mật và tuân thủ quy định.
+- **[Benchmark Security](./tinh-nang-benchmark-cluster.md)**: Evaluates worker node kubelet configuration against CIS (Center for Internet Security) standards.
+- **[Runtime Security](./tinh-nang-runtime-security-cluster.md)**: Detects anomalous behavior in Kubernetes clusters in real time using Falco. You can receive alerts via Telegram or Gmail.
+- **[Workload Scan](./tinh-nang-workload-scan.md)**: Scans for security vulnerabilities in container images, evaluates RBAC configuration, and generates configuration audit reports using Trivy.
+- **[Audit Log](./audit-log-vn.md)**: Records all API requests and operations sent to the kube-apiserver, supporting security analysis and compliance.
 
 :::note
-Tất cả các tính năng tăng cường bảo mật chỉ khả dụng sau khi cluster được tạo thành công (trạng thái Succeeded/Running).
+All security enhancement features are only available after the cluster is successfully created (status: Succeeded/Running).
 :::

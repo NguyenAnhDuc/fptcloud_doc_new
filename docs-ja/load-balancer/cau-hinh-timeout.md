@@ -1,15 +1,19 @@
 ---
 id: "cau-hinh-timeout"
-title: "Cấu hình Timeout"
-description: "Tính năng cấu hình **Timeout** cho **Load Balancer** cho phép bạn định rõ thời gian tối đa mà một kết nối hoặc yêu cầu c"
-sidebar_label: "Cấu hình Timeout"
+title: "タイムアウトの設定"
+description: "FPT Cloud Load Balancer のリスナーにおけるタイムアウト設定の仕組みを説明します。"
+sidebar_label: "タイムアウトの設定"
 sidebar_position: "13"
 ---
 
-# Cau Hinh Timeout
+# タイムアウトの設定
 
-Tính năng cấu hình **Timeout** cho **Load Balancer** cho phép bạn định rõ thời gian tối đa mà một kết nối hoặc yêu cầu có thể tồn tại trước khi bị đóng. Điều này quan trọng để quản lý tài nguyên và đảm bảo hiệu suất ổn định của hệ thống.
-**Cách hoạt động**
-  * Khi một kết nối hoặc yêu cầu được gửi đến **Load Balancer** , hệ thống bắt đầu tính toán thời gian cho phép kết nối đó tồn tại.
-  * Nếu kết nối không hoàn thành hoặc yêu cầu không được phản hồi trong khoảng thời gian này, nó sẽ bị đóng.
-  * Việc cấu hình **Timeout** giúp tránh tình trạng kết nối hoặc yêu cầu bị treo và tiêu tốn tài nguyên.
+Load Balancer の**タイムアウト**設定は、接続またはリクエストが閉じられる前に存在できる最大時間を定義します。これはリソース管理とシステムの安定したパフォーマンス維持のために重要です。
+
+**仕組み：**
+
+- Load Balancer に接続またはリクエストが送信されると、システムはその接続の許容存続時間のカウントを開始します。
+- この時間内に接続が完了しない、またはリクエストへの応答がない場合、接続は閉じられます。
+- タイムアウトの設定により、接続やリクエストがハングしてリソースを消費し続ける状況を防ぎます。
+
+タイムアウトはリスナーの作成または更新時に設定します。詳細は[リスナーの作成](./create-listener.md)を参照してください。

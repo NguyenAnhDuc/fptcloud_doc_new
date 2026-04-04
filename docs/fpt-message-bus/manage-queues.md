@@ -1,18 +1,18 @@
 ---
 id: "manage-queues"
-title: "queue の管理"
-description: "FPT Message Bus における queue 管理の概要。"
-sidebar_label: "queue の管理"
+title: "Manage queues"
+description: "Overview of queue management in FPT Message Bus."
+sidebar_label: "Manage queues"
 sidebar_position: "4"
 ---
 
-# queue の管理
+# Manage queues
 
-queue は consumer が取得するまでメッセージを保存する仕組みです。FPT Message Bus では、管理インターフェースから直接 queue の作成、表示、メッセージの送受信、削除を行えます。
+A queue stores messages until a consumer retrieves them. With FPT Message Bus, you can create, view, send/receive messages, and delete queues directly from the management interface.
 
-詳細なガイドを参照してください。
+See the detailed guides:
 
-- [queue の作成](./create-queues.md)
-- [queue の表示](./view-queues.md)
-- [queue でのメッセージ送受信](./send-receive-messages-in-queues.md)
-- [queue の削除](./delete-queues.md)
+- [Create a queue](./create-queues.md)
+- [View a queue](./view-queues.md)
+- [Send and receive messages in queues](./send-receive-messages-in-queues.md)
+- [Delete a queue](./delete-queues.md)

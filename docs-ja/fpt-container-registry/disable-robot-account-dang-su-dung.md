@@ -1,23 +1,23 @@
 ---
 id: "disable-robot-account-dang-su-dung"
-title: "Tắt robot account đang sử dụng"
-description: "Tạm thời vô hiệu hóa robot account mà không xóa."
-sidebar_label: "Tắt robot account"
+title: "Robot account を無効化する"
+description: "削除せずに robot account を一時的に無効化する。"
+sidebar_label: "Robot account を無効化する"
 sidebar_position: "22"
 ---
 
-# Tắt robot account đang sử dụng
+# Robot account を無効化する
 
-Khi cần tạm dừng quyền truy cập của một robot account mà không muốn xóa, bạn có thể tắt (disable) account đó. Robot account bị tắt sẽ không thể xác thực cho đến khi được bật lại.
+Robot account を削除せずにアクセスを一時停止したい場合は、account を無効化（disable）できます。無効化された robot account は、再び有効化されるまで認証できません。
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn tắt, sau đó chọn **ACTION DISABLE**.
+1. **Robot Account** リストで無効化したい robot account を選択し、**ACTION DISABLE** を選択します。
 
-   [![Chọn ACTION DISABLE](/img/migrated/Picture69-5d9785b0.png)](/img/migrated/Picture69-5d9785b0.png)
+   [![ACTION DISABLE を選択](/img/migrated/Picture69-5d9785b0.png)](/img/migrated/Picture69-5d9785b0.png)
 
-2. Trong hộp thoại xác nhận, nhập **DISABLE** để thực hiện.
+2. 確認ダイアログで **DISABLE** と入力して実行します。
 
-   [![Nhập DISABLE để xác nhận](/img/migrated/Picture70-e994d833.png)](/img/migrated/Picture70-e994d833.png)
+   [![DISABLE を入力して確認](/img/migrated/Picture70-e994d833.png)](/img/migrated/Picture70-e994d833.png)
 
-3. Kiểm tra trạng thái **Enabled State** sau khi tắt.
+3. 無効化後の **Enabled State** を確認します。
 
-   [![Trạng thái disabled của robot account](/img/migrated/Picture71-071816c7.png)](/img/migrated/Picture71-071816c7.png)
+   [![Robot account の disabled 状態](/img/migrated/Picture71-071816c7.png)](/img/migrated/Picture71-071816c7.png)

@@ -1,46 +1,46 @@
 ---
 id: "quick-start-jp"
-title: "クイックスタート"
-description: "FPT AI FactoryでAI Notebookを始めるためのクイックスタートガイド。"
-sidebar_label: "クイックスタート"
+title: "Quick start"
+description: "Get started with AI Notebooks on FPT AI Factory."
+sidebar_label: "Quick start"
 sidebar_position: "3"
 ---
 
-# クイックスタート
+# Quick start
 
-### ステップ1: アカウントを作成する
+### Step 1: Create an account
 
-1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) にアクセスし、**FPT ID** を使用してサインアップするか、**Google** アカウントで続行してください。
-2. FPT ID を使用する場合は、**FPT Smart Cloud** からの確認メールでアカウントを確認してください。
+1. Go to [https://ai.fptcloud.com/](https://ai.fptcloud.com/), sign up using **FPT ID** or continue with **Google**.
+2. Verify your account via confirmation email from **FPT Smart Cloud** if using FPT ID.
 
-### ステップ2: アカウントにログインする
+### Step 2: Log in to your account
 
-1. [https://ai.fptcloud.com/](https://ai.fptcloud.com/) に戻り、ログインしてください。
+1. Return to [https://ai.fptcloud.com/](https://ai.fptcloud.com/) and log in.
 
-### ステップ3: AI Notebookを起動する
+### Step 3: Launch AI Notebook
 
-1. 左メニューから「**AI Notebook**」を選択してください。
-2. ノートブックの起動には約**1〜2分**かかります。
-3. 詳細なガイドは[こちら](./lauch-jp.md)をご覧ください。
+1. From the left menu, select **AI Notebook**.
+2. Wait about **1–2 minutes** for the notebook to start.
+3. Check out the detailed guide [here](./lauch-jp.md).
 
-### ステップ4: アカウントにクレジットを追加する
+### Step 4: Add credit to account
 
-1. 左メニューの「**アカウント**」セクションから「**請求**」を選択してください。
-2. 「**クレジットを追加**」をクリックし、金額と支払い情報を入力して完了します。
-3. FPT発行のバウチャーをお持ちの場合は、「**バウチャーを追加**」セクションで有効なコードを入力し、クレジットを交換してください。
+1. On the left menu, under **Account** section, select **Billing**.
+2. Click **Add Credit** and enter an amount and payment information.
+3. If you have a voucher from FPT, apply your valid code under **Add Voucher** to redeem credits.
 
-### ステップ5: AI Notebookを作成する
+### Step 5: Create AI Notebook
 
-1. ランチャーから、CPU/GPUに接続するノートブックを作成できます。
-2. 詳細なガイドは[こちら](./create-jp.md)をご覧ください。
+1. From the **Launcher**, you can choose to create a notebook that connects to CPU/GPU.
+2. Check out the detailed guide [here](./create-jp.md).
 
-### ステップ6: ノートブックを新規/既存カーネルに接続する
+### Step 6: Connect notebook to a new/existing kernel
 
-1. 新しいカーネルを起動するには、**カーネル設定メニュー**の「**その他のカーネルを起動**」から目的のカーネルを選択してください。
-2. 既存カーネルに接続するには、**カーネル設定メニュー**の「**実行中のカーネル**」から目的のカーネルを選択してください。
-3. 詳細なガイドは[こちら](./switch.md)をご覧ください。
+1. To start a new kernel, select the kernel you want from **Start Other Kernels** in the **kernel configuration menu**.
+2. To connect your notebook to an existing kernel, select the kernel you want from **Running Kernels** in the **kernel configuration menu**.
+3. Check out the detailed guide [here](./switch.md).
 
-### ステップ7: カーネルをシャットダウンする
+### Step 7: Shut down kernel
 
-1. **実行中のカーネル/ノートブック**（ナビゲーションバー上から2番目のアイコン）に移動します。
-2. 詳細なガイドは[こちら](./shut-down-jp.md)をご覧ください。
+1. Navigate to **Running Kernels/Notebooks** (second icon from the top in the navigation bar).
+2. Check out the detailed guide [here](./shut-down-jp.md).

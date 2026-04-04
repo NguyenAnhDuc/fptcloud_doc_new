@@ -1,19 +1,19 @@
 ---
 id: "get-cluster-access-information"
-title: "Get cluster access information"
-description: "Download the kubeconfig file to access your Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Get cluster access information"
+title: "Lấy thông tin truy cập cluster"
+description: "Hướng dẫn tải file kubeconfig để truy cập cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Lấy thông tin truy cập cluster"
 sidebar_position: "7"
 ---
 
-# Get cluster access information
+# Lấy thông tin truy cập cluster
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster for which you want access information.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn lấy thông tin truy cập.
 
 [![](/img/migrated/10-1b870f1f.png)](/img/migrated/10-1b870f1f.png)
 
-**Step 2:** In the **Advanced Config** > **Configuration** section, download the `.kubeconfig` file to log in to the cluster using kubectl or other tools.
+**Bước 2:** Tại mục **Advanced Config** > **Configuration**, tải file `.kubeconfig` để đăng nhập cluster thông qua kubectl hoặc các công cụ khác.
 
 [![](/img/migrated/11-fa42218b.png)](/img/migrated/11-fa42218b.png)
 
-M-FKE uses native Kubernetes, so you can interact with the cluster using kubectl, dashboard tools, and other standard Kubernetes tools.
+M-FKE sử dụng native Kubernetes, vì vậy bạn có thể tương tác với cluster bằng kubectl, các công cụ dashboard và các công cụ Kubernetes tiêu chuẩn khác.

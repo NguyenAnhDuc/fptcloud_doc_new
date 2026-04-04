@@ -1,8 +1,8 @@
 ---
 id: "concept"
-title: "モデルの微調整"
+title: "Concept"
 description: "全ての資料"
-sidebar_label: "モデルの微調整"
+sidebar_label: "Concept"
 sidebar_position: "2"
 ---
 

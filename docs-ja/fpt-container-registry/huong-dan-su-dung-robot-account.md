@@ -1,25 +1,25 @@
 ---
 id: "huong-dan-su-dung-robot-account"
-title: "Sử dụng robot account"
-description: "Đăng nhập và thực hiện pull/push image bằng robot account."
-sidebar_label: "Sử dụng robot account"
+title: "Robot account を使用する"
+description: "Robot account で docker login を行い、pull/push を実行する。"
+sidebar_label: "Robot account を使用する"
 sidebar_position: "26"
 ---
 
-# Sử dụng robot account
+# Robot account を使用する
 
-Sau khi tạo robot account, bạn có thể dùng thông tin xác thực của nó để thực hiện các thao tác Docker với đúng quyền (pull/push) đã cấu hình. Robot account phù hợp để sử dụng trong pipeline CI/CD và môi trường tự động hóa.
+Robot account を作成したら、その認証情報を使用して、設定した権限（pull/push）に従って Docker 操作を実行できます。Robot account は CI/CD パイプラインや自動化環境での使用に適しています。
 
-Sử dụng token đã sao chép từ Portal hoặc từ file export để đăng nhập:
+Portal からコピーしたトークン、またはエクスポートしたファイルのトークンを使用してログインします:
 
-[![Sử dụng token để docker login](/img/migrated/Picture83-e270d618.png)](/img/migrated/Picture83-e270d618.png)
+[![トークンを使用した docker login](/img/migrated/Picture83-e270d618.png)](/img/migrated/Picture83-e270d618.png)
 
-Kiểm tra thông tin xác thực bằng lệnh `docker login`:
+`docker login` コマンドで認証情報を確認します:
 
-[![Kết quả docker login với robot account](/img/migrated/Picture84-69496c13.png)](/img/migrated/Picture84-69496c13.png)
+[![Robot account での docker login 結果](/img/migrated/Picture84-69496c13.png)](/img/migrated/Picture84-69496c13.png)
 
-Sau khi đăng nhập, sử dụng `docker pull` hoặc `docker push` để kiểm tra các quyền đã cấu hình.
+ログイン後、`docker pull` または `docker push` を使用して、設定した権限を確認します。
 
 :::note
-Nếu robot account bị xóa, tắt hoặc token hết hạn, lệnh `docker login`, `docker pull` hoặc `docker push` sẽ báo lỗi "unauthorized to access repository".
+Robot account が削除・無効化されているか、トークンが失効している場合、`docker login`、`docker pull`、`docker push` は "unauthorized to access repository" エラーを返します。
 :::

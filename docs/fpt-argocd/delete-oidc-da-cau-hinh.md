@@ -1,8 +1,8 @@
 ---
 id: "delete-oidc-da-cau-hinh"
-title: "OIDC configの削除"
+title: "Delete Oidc Da Cau Hinh"
 description: "ArgoCDの設定済みOIDC Scopeを削除する方法。"
-sidebar_label: "OIDC configの削除"
+sidebar_label: "Delete Oidc Da Cau Hinh"
 sidebar_position: "37"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "snapshot-và-restore-pvc-trên-k8s-fpt"
-title: "Snapshot và restore persistent volume trong Kubernetes"
+title: "Snapshot Và Restore Pvc TrêN K8s Fpt"
 description: "Tổng quan về tính năng snapshot và restore PVC trong FPT Cloud Managed Kubernetes."
-sidebar_label: "Snapshot và restore PVC"
+sidebar_label: "Snapshot Và Restore Pvc TrêN K8s Fpt"
 sidebar_position: "45"
 ---
 

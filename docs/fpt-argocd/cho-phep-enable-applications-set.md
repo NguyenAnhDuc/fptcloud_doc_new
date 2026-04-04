@@ -1,21 +1,21 @@
 ---
 id: "cho-phep-enable-applications-set"
-title: "ApplicationSetのenable"
-description: "ArgoCDのApplicationSet機能を有効にする方法。"
-sidebar_label: "ApplicationSetのenable"
+title: "Enable ApplicationSet"
+description: "How to enable the ApplicationSet feature in ArgoCD"
+sidebar_label: "Enable ApplicationSet"
 sidebar_position: "38"
 ---
 
-# ApplicationSetのenable
+# Enable ApplicationSet
 
-デフォルトでは、ApplicationSetは無効になっています。この機能を有効にするには：
+By default, ApplicationSet is disabled. To enable this feature:
 
-1. **Application Set** 画面で **Enable Application Set** をクリックします。
+1. On the **Application Set** screen, click **Enable Application Set**.
 
 [![](/img/migrated/Picture34-3-bfe959d4.png)](/img/migrated/Picture34-3-bfe959d4.png)
 
-2. Enable後の結果：
+2. Result after enabling:
 
 [![](/img/migrated/Picture35-3-b7912479.png)](/img/migrated/Picture35-3-b7912479.png)
 
-Enable後、ApplicationSetを使用してアプリケーションをデプロイできます。ApplicationSetを使用したデプロイの詳細はDemoセクションを参照してください。
+After enabling, you can deploy applications using ApplicationSet. See the Demo section for instructions on deploying with ApplicationSet.

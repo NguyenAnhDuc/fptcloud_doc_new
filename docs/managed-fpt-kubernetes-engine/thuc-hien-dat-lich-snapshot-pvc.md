@@ -1,28 +1,30 @@
 ---
 id: "thuc-hien-dat-lich-snapshot-pvc"
-title: "Kubernetes 上での PVC スナップショットのスケジュール設定"
-description: "FPTCloud は、Kubernetes の CronJob を使用して PVC スナップショットのスケジュールを設定するオプションを提供します。"
-sidebar_label: "PVC スナップショットのスケジュール設定"
+title: "Schedule PVC Snapshots"
+description: "How to schedule automatic PVC snapshots using CronJob in Managed FPT Kubernetes Engine."
+sidebar_label: "Schedule PVC Snapshots"
 sidebar_position: "48"
 ---
 
-# Thực hiện đặt lịch snapshot PVC
+# Schedule PVC Snapshots
 
-Bên cạnh tính năng Snapshot PV trên Kubernetes, FPTCloud cung cấp thêm cho khách hàng lựa chọn thực hiện đặt lịch Snapshot thông qua CronJob trên Kubernetes. 
-**1. Cài đặt Lịch Cronjob Snapshot PV**
-**Bước 1** : Khách hàng cần cung cấp quyền trong cụm Kubernetes cho Cronjob với việc apply ClusterRoleBinding và ServiceAccount tương ứng: 
+In addition to the PV Snapshot feature on Kubernetes, FPT Cloud provides the option to schedule snapshots via CronJob on Kubernetes.
 
-```
-CopyapiVersion: v1 
+## 1. Set up a CronJob Schedule for PVC Snapshots
+
+**Step 1:** Grant the CronJob the necessary permissions in the Kubernetes cluster by applying the corresponding ServiceAccount:
+
+```yaml
+apiVersion: v1 
 kind: ServiceAccount 
 metadata: 
   name: snapshot-sa 
   namespace: default #or any other namespace that you want to deploy the cronjob 
 ```
 
-**Bước 2** : Khách hàng apply ClusterRoleBinding với để cấp quyền tới các SA mà khách hàng vừa tạo, lưu ý rằng subjects cần phải có đủ các SA ở các namespace tương ứng mà người dùng vừa tạo ở trên: 
+**Step 2:** Apply a ClusterRoleBinding to grant permissions to the ServiceAccount you just created. Note that `subjects` must include all ServiceAccounts in the corresponding namespaces you created above:
 
-```
+```yaml
 apiVersion: rbac.authorization.k8s.io/v1  
 kind: ClusterRoleBinding  
 metadata:  
@@ -40,16 +42,15 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io 
 ```
 
-✓ Người dùng có thể check lại ClusterRoleBinding bằng cách dùng câu lệnh:
+You can verify the ClusterRoleBinding with:
 
-```
-Copykubectl get clusterrolebinding grant-snapshot-sa-admin -oyaml
+```bash
+kubectl get clusterrolebinding grant-snapshot-sa-admin -oyaml
 ```
 
-**Bước 3** : Áp dụng CronJob để đặt lịch tự động Snapshot PVC theo format sau: 
+**Step 3:** Apply a CronJob to automatically schedule PVC snapshots using the following format:
 
-```
-Copy
+```yaml
 apiVersion: batch/v1 
 kind: CronJob 
 metadata: 
@@ -57,7 +58,7 @@ metadata:
   namespace: default #or any other namespace that you want to deploy the cronjob, but must be in the same namespace with ServiceAccount and ClusterRoleBinding 
 spec: 
   schedule: "0 * * * *" #Adjust this (minute hour day(month) month day(week)) 
-    timeZone: "Asia/Saigon" 
+  timeZone: "Asia/Saigon" 
   jobTemplate: 
     spec: 
       template: 
@@ -74,32 +75,32 @@ spec:
           restartPolicy: OnFailure 
 ```
 
-**2. Xóa lịch Cronjob cho Snapshot PV**
-Nếu như không còn nhu cầu đặt lịch cho việc tự động Snapchot cho PVC, người dùng có thể đơn giản xóa đi Cronjob tương ứng đã khởi tạo. 
-Ví dụ:
+## 2. Remove the CronJob schedule for PVC Snapshots
 
-```
-Copy
+If you no longer need to schedule automatic snapshots for a PVC, simply delete the corresponding CronJob that was created.
+
+Example output when listing snapshots:
+
+```bash
 kubectl get volumesnapshots.snapshot.storage.k8s.io -A 
-
-NAMESPACE   NAME                             READYTOUSE   SOURCEPVC     SOURCESNAPSHOTCONTENT   RESTORESIZE   SNAPSHOTCLASS          SNAPSHOTCONTENT                                    CREATIONTIME   AGE 
-
-example     wp-pv-claim-example-2412020736   true         wp-pv-claim                           20Gi          csi-cinder-snapclass   snapcontent-045fe85e-7471-4bfb-9a55-2ed2ed2263dd   64m            64m 
-
-example     wp-pv-claim-example-2412020836   true         wp-pv-claim                           20Gi          csi-cinder-snapclass   snapcontent-fd1333bc-70f6-417f-a91d-10349aa0647d   4m11s          4m11s 
-
 ```
 
-Ở đây, wp-pv-claim-default-2412020736 có ý nghĩa: 
-  * wp-pv-claim: tên PVC 
-  * default: tên namespace 
-  * 2412020733: 24(năm), 12 (tháng), 02 (ngày), 07 (giờ), 36 (phút) (UTC +0) 
+```
+NAMESPACE   NAME                             READYTOUSE   SOURCEPVC     SOURCESNAPSHOTCONTENT   RESTORESIZE   SNAPSHOTCLASS          SNAPSHOTCONTENT                                    CREATIONTIME   AGE 
+example     wp-pv-claim-example-2412020736   true         wp-pv-claim                           20Gi          csi-cinder-snapclass   snapcontent-045fe85e-7471-4bfb-9a55-2ed2ed2263dd   64m            64m 
+example     wp-pv-claim-example-2412020836   true         wp-pv-claim                           20Gi          csi-cinder-snapclass   snapcontent-fd1333bc-70f6-417f-a91d-10349aa0647d   4m11s          4m11s 
+```
 
-**Lưu ý:**
-Chỉ có thể set một CronJob cho một PVC, vì vậy nếu người dùng mong muốn có thể đặt lịch cho nhiều PVC một lúc, hay tạo nhiều lịch cho một PVC, vui lòng tạo nhiều CronJob tương ứng với mong muốn của người dùng. 
-Khi đến thời điểm 1 Job mới được chạy, một pod sẽ được tạo ra để tự động hóa việc tạo Snapshot cho PVC, người dùng có thể kiểm tra bằng các lệnh như: 
-  * kubectl get volumesnapshots.snapshot.storage.k8s.io -n 
-  * kubectl get jobs.batch -n 
-  * v.v 
+The snapshot name `wp-pv-claim-example-2412020736` means:
+  * `wp-pv-claim`: PVC name
+  * `example`: namespace name
+  * `2412020736`: 24 (year), 12 (month), 02 (day), 07 (hour), 36 (minute) (UTC+0)
 
-Trong image cung cấp của FPTCloud không có tính năng Retention, vậy nên khách hàng cần chủ động vào xóa các bản Snapshot của mình, tránh bị đầy disk storage quota.
+**Notes:**
+Only one CronJob can be set per PVC. If you want to schedule multiple PVCs at once or create multiple schedules for one PVC, create multiple CronJobs accordingly.
+
+When a new Job runs, a pod is created to automate the PVC snapshot creation. You can verify with commands such as:
+  * `kubectl get volumesnapshots.snapshot.storage.k8s.io -n <namespace>`
+  * `kubectl get jobs.batch -n <namespace>`
+
+The FPT Cloud-provided image does not include a Retention feature, so you must manually delete your snapshots to avoid filling up your disk storage quota.

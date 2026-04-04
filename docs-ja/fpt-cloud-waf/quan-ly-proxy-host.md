@@ -1,19 +1,19 @@
 ---
 id: "quan-ly-proxy-host"
-title: "Quản lý proxy host"
-description: "Tổng quan về quản lý proxy host trong WAF Dashboard, bao gồm tạo, xem, cập nhật, bật/tắt và xóa."
-sidebar_label: "Quản lý proxy host"
+title: "Proxy Hostの管理"
+description: "WAF DashboardにおけるProxy Hostの管理概要（作成、確認、更新、有効化/無効化、削除を含む）。"
+sidebar_label: "Proxy Hostの管理"
 sidebar_position: "11"
 ---
 
-# Quản lý proxy host
+# Proxy Hostの管理
 
-Proxy host là thành phần trung tâm của WAF, chuyển tiếp request của người dùng cuối qua máy chủ WAF đến Web Server, đồng thời áp dụng các tập luật bảo mật.
+Proxy HostはWAFの中核コンポーネントであり、エンドユーザーのリクエストをWAFサーバー経由でWeb Serverに転送し、セキュリティルールセットを適用します。
 
-Các thao tác quản lý proxy host bao gồm:
+Proxy Hostの管理操作には以下が含まれます。
 
-- [Tạo mới proxy host](tao-moi-proxy-host.md)
-- [Xem thông tin chi tiết proxy host](xem-thong-tin-chi-tiet-proxy-host.md)
-- [Cập nhật thông tin proxy host](cap-nhat-thong-tin-cho-proxy-host.md)
-- [Bật/tắt proxy host](battat-proxy-host.md)
-- [Xóa proxy host](xoa-proxy-host.md)
+- [Proxy Hostの新規作成](tao-moi-proxy-host.md)
+- [Proxy Host詳細情報の確認](xem-thong-tin-chi-tiet-proxy-host.md)
+- [Proxy Host情報の更新](cap-nhat-thong-tin-cho-proxy-host.md)
+- [Proxy Hostの有効化/無効化](battat-proxy-host.md)
+- [Proxy Hostの削除](xoa-proxy-host.md)

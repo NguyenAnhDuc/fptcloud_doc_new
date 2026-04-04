@@ -3,7 +3,7 @@ id: "select-data-format"
 title: "Select Data Format"
 description: "**1. データとは何ですか?**"
 sidebar_label: "Select Data Format"
-sidebar_position: 9
+sidebar_position: "9"
 ---
 
 # Select Data Format

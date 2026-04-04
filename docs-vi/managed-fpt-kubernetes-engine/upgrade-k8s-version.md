@@ -1,25 +1,25 @@
 ---
 id: "upgrade-k8s-version"
-title: "Upgrade Kubernetes version"
-description: "Upgrade the Kubernetes version of a Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Upgrade Kubernetes version"
+title: "Nâng cấp phiên bản Kubernetes"
+description: "Hướng dẫn nâng cấp phiên bản Kubernetes cho cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Nâng cấp phiên bản Kubernetes"
 sidebar_position: "12"
 ---
 
-# Upgrade Kubernetes version
+# Nâng cấp phiên bản Kubernetes
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster whose Kubernetes version you want to upgrade.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn nâng cấp phiên bản Kubernetes.
 
 [![](/img/migrated/24-1-4f6944fa.png)](/img/migrated/24-1-4f6944fa.png)
 
-**Step 2:** In the **General information** > **Version** section, click the settings icon.
+**Bước 2:** Tại mục **General information** > **Version**, chọn icon cài đặt.
 
 [![](/img/migrated/25-1-dcc21c83.png)](/img/migrated/25-1-dcc21c83.png)
 
-**Step 3:** Choose the desired version and click **Upgrade**.
+**Bước 3:** Chọn phiên bản muốn nâng cấp và chọn **Upgrade**.
 
 [![](/img/migrated/26-1-84cc9b69.png)](/img/migrated/26-1-84cc9b69.png)
 
 :::note
-Only version upgrades are supported; downgrading is not possible. To avoid issues, upgrade versions sequentially in order.
+Chỉ có thể nâng cấp phiên bản, không thể hạ cấp. Để tránh phát sinh vấn đề, hãy nâng cấp phiên bản lần lượt theo thứ tự.
 :::

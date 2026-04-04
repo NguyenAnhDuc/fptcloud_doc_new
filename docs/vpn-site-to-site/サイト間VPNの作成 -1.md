@@ -1,36 +1,37 @@
 ---
 id: "サイト間VPNの作成 -1"
-title: "サイト間VPNの作成"
-description: "FPT Cloud Portalで新しいVPN Site-to-Site接続を作成するガイドです。"
-sidebar_label: "サイト間VPNの作成"
+title: "Create VPN Site-to-Site"
+description: "Guide to creating a new VPN Site-to-Site connection on FPT Cloud Portal."
+sidebar_label: "Create VPN Site-to-Site"
 sidebar_position: "2"
+draft: true
 ---
 
-# サイト間VPNの作成
+# Create VPN Site-to-Site
 
-VPN Site-to-Site接続を作成すると、オンプレミスネットワークとFPT Cloudリソース間のセキュアなトンネルが確立されます。
+Creating a VPN Site-to-Site connection establishes a secure tunnel between your on-premises network and FPT Cloud resources.
 
-1. **Networking** → **VPN** タブを選択します。
+1. Select **Networking** → **VPN** tab.
 
-   ![VPN管理ページ](/img/migrated/image-1742899330143-080379db.png)
+   ![VPN management page](/img/migrated/image-1742899330143-080379db.png)
 
-2. **Create** をクリックします。
+2. Click **Create**.
 
-   ![Create VPNボタン](/img/migrated/image-1742899367880-bb010d83.png)
+   ![Create VPN button](/img/migrated/image-1742899367880-bb010d83.png)
 
-3. **Config** ページで必要な情報を入力します：
+3. On the **Config** page, enter the required information:
 
-   | フィールド | 説明 | 制限 |
+   | Field | Description | Constraints |
    |---|---|---|
-   | **Name** | VPN Site-to-Site名 | 最大32文字。文字、数字、アンダースコア、ダッシュ、スペース、ドットのみ |
-   | **Description** | VPN接続の説明 | 最大100文字 |
-   | **Security Profile** | 接続セキュリティの種類 | |
-   | **Authentication mode** | 認証方法 | 現在Certificate認証は未サポート |
-   | **Pre-shared key** | 各ピアの秘密鍵 | 8-32文字：A-Z、a-z、0-9、_、. |
-   | **Edge gateway** | ネットワーク接続を処理するエッジゲートウェイ | リストから選択 |
-   | **Local endpoint IP Address** | FPT CloudシステムのパブリックIP | 他のVPCやサービスに未割当のIP |
-   | **Local endpoint Networks** | クラウド上のネットワーク | 他のVPN接続やRemote endpoint Networksと重複不可 |
-   | **Remote endpoint IP Address** | オンプレミス側のパブリックIP | IPv4アドレス |
-   | **Remote endpoint Networks** | オンプレミス側のネットワーク | Local endpoint Networksと重複不可 |
+   | **Name** | Name of the VPN Site-to-Site | Up to 32 characters. Letters, numbers, underscores, dashes, spaces, and dots only. |
+   | **Description** | Description of the VPN connection | Up to 100 characters |
+   | **Security Profile** | Connection security type | |
+   | **Authentication mode** | Authentication method | Certificate authentication is not currently supported. |
+   | **Pre-shared key** | Shared secret key for both peers | 8–32 characters: A–Z, a–z, 0–9, `_`, `.` |
+   | **Edge gateway** | Edge gateway handling network connectivity | Select from list |
+   | **Local endpoint IP Address** | Public IP of the FPT Cloud system | IP not assigned to any other VPC or service |
+   | **Local endpoint Networks** | Networks on the cloud side | Must not overlap with other VPN connections or Remote endpoint Networks |
+   | **Remote endpoint IP Address** | Public IP of the on-premises device | IPv4 address |
+   | **Remote endpoint Networks** | Networks on the on-premises side | Must not overlap with Local endpoint Networks |
 
-   ![VPN設定フォーム](/img/migrated/image-1742899430155-89b24257.png)
+   ![VPN configuration form](/img/migrated/image-1742899430155-89b24257.png)

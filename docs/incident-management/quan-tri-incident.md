@@ -1,8 +1,8 @@
 ---
 id: "quan-tri-incident"
-title: "Quản trị incident"
+title: "Quan Tri Incident"
 description: "Tổng quan về các tính năng quản trị incident"
-sidebar_label: "Quản trị incident"
+sidebar_label: "Quan Tri Incident"
 sidebar_position: "18"
 ---
 

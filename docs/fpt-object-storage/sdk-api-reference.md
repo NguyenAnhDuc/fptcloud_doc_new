@@ -1,26 +1,26 @@
 ---
 id: "sdk-api-reference"
-title: "SDK・API リファレンス"
-description: "FPT Object Storage を各種プログラミング言語の SDK から利用するための接続設定ガイドです。"
-sidebar_label: "SDK・API リファレンス"
-sidebar_position: "13"
+title: "SDK & API Reference"
+description: "Guide to connecting FPT Object Storage using popular programming language SDKs."
+sidebar_label: "SDK & API Reference"
+sidebar_position: 13
 ---
 
-# SDK・API リファレンス
+# SDK & API Reference
 
-FPT Object Storage は AWS S3 標準をベースに開発されています。そのため、AWS S3 向けに開発されたすべてのツールとライブラリを使用して FPT Object Storage と連携できます。以下は代表的なプログラミング言語の接続設定サンプルガイドです。
+FPT Object Storage is built on the AWS S3 standard. As a result, you can use any tool or library developed for AWS S3 to integrate with FPT Object Storage. The following are sample connection configuration guides for common programming languages.
 
 ## Python
 
-Python では **boto3** ライブラリを使用できます。これは Amazon の Python 向け公式ライブラリです。
+With Python, you can use the **boto3** library — Amazon's official Python library.
 
-**インストール**
+**Installation**
 
 ```bash
 pip install boto3
 ```
 
-**接続の初期化**
+**Initialize the connection**
 
 ```python
 import boto3
@@ -44,51 +44,51 @@ s3client = boto3.client(
 )
 ```
 
-`"ACCESS_KEY_ID"`、`"SECRET_KEY_ID"`、`"ENDPOINT"` は FPT Unify Portal の[こちらのガイド](../fpt-object-storage/index.md)に従って取得してください。
+Refer to the guide for obtaining `"ACCESS_KEY_ID"`, `"SECRET_KEY_ID"`, and `"ENDPOINT"` from the FPT Unify Portal [here](../fpt-object-storage/index.md).
 
-**基本的な使用例**
+**Basic usage examples**
 
 ```python
-# 新しい bucket を作成
+# Create a new bucket
 s3client.create_bucket(Bucket=bucket_name)
 
-# bucket を削除
+# Delete a bucket
 s3client.delete_bucket(Bucket=bucket_name)
 
-# 新しい object を作成
+# Create a new object
 s3client.put_object(Bucket=bucket_name, Key=object_key, Body=content)
 
-# object の内容を読み取る
+# Read object content
 response = s3client.get_object(Bucket=bucket_name, Key=object_key)
 object_content = response['Body'].read().decode('utf-8')
 print(object_content)
 
-# object を削除
+# Delete an object
 s3client.delete_object(Bucket=bucket_name, Key=object_key)
 ```
 
-**完全なドキュメント**
+**Full documentation**
 
-参照: <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>
+Reference: <https://boto3.amazonaws.com/v1/documentation/api/latest/index.html>
 
 ## Java
 
-Java で FPT Object Storage を使用するには、AWS SDK for Java、MinIO、s3proxy などのサポートライブラリを使用できます。
+To use FPT Object Storage with Java, you can use support libraries such as AWS SDK for Java, MinIO, or s3proxy.
 
-以下は最も広く使われるライブラリの一つである AWS SDK for Java の使用ガイドです。
+The following is a guide for using AWS SDK for Java — one of the most widely used libraries.
 
-**インストール**
+**Installation**
 
 ```xml
-<!-- Maven プロジェクトを作成し、pom.xml に以下の dependency を追加します -->
+<!-- Create a Maven project and add the following dependency to pom.xml -->
 <dependency>
     <groupId>software.amazon.awssdk</groupId>
     <artifactId>s3</artifactId>
-    <version>2.17.42</version> <!-- 最新バージョンを使用してください -->
+    <version>2.17.42</version> <!-- Use the latest version -->
 </dependency>
 ```
 
-**接続の初期化**
+**Initialize the connection**
 
 ```java
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
@@ -109,6 +109,6 @@ S3Client s3 = S3Client.builder()
     .build();
 ```
 
-**完全なドキュメント**
+**Full documentation**
 
-参照: <https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html>
+Reference: <https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/home.html>

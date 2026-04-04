@@ -1,8 +1,8 @@
 ---
 id: "model-metrics"
-title: "Model Metrics"
-description: "Lưu ý: Model metrics chỉ được bật khi execution pipeline đang ở trạng thái Running và giai đoạn Training."
-sidebar_label: "Model Metrics"
+title: "モデルメトリクス"
+description: "注意: Model metrics は execution pipeline が Running 状態かつ Training フェーズのときのみ有効です。"
+sidebar_label: "モデルメトリクス"
 sidebar_position: "25"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "quan-ly-mountpoint"
-title: "MountPoint の管理"
-description: "FPT File Storage – High Performance における MountPoint の作成、管理、削除手順。"
-sidebar_label: "MountPoint の管理"
+title: "Quan Ly Mountpoint"
+description: "Trong hệ thống FPT File Storage – High Performance, Mount Point là một điểm truy cập logic cho phép người dùng kết nối đ"
+sidebar_label: "Quan Ly Mountpoint"
 sidebar_position: "4"
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "tutorials-encryption"
-title: "Cách Hoạt Động Của SSE-C"
+title: "Tutorials Encryption"
 description: "**Server-Side Encryption with Customer-Provided Keys (SSE-C)** là một tính năng trong **FPT Object Storage** giúp tăng c"
-sidebar_label: "Cách Hoạt Động Của SSE-C"
+sidebar_label: "Tutorials Encryption"
 sidebar_position: "8"
 ---
 

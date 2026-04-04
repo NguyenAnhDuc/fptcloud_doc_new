@@ -1,19 +1,19 @@
 ---
 id: "snapshot-va-restore-pvc-tren-k8s-fpt"
-title: "K8s FPT 上での PVC のスナップショットとリストア"
-description: "FPT Cloud Managed Kubernetes における PVC のスナップショットとリストア機能の概要を説明します。"
-sidebar_label: "PVC のスナップショットとリストア"
+title: "Snapshot và restore PVC trên K8s FPT"
+description: "Tổng quan về tính năng snapshot và restore Persistent Volume Claim (PVC) trên FPT Cloud Managed Kubernetes."
+sidebar_label: "Snapshot và restore PVC trên K8s FPT"
 sidebar_position: "45"
 ---
 
-# K8s FPT 上での PVC のスナップショットとリストア
+# Snapshot và restore PVC trên K8s FPT
 
-FPT Cloud Managed Kubernetes Engine（M-FKE）では、Persistent Volume Claim（PVC）のスナップショット作成とリストア機能を提供しています。
+FPT Cloud Managed Kubernetes Engine (M-FKE) cung cấp tính năng tạo snapshot và restore Persistent Volume Claim (PVC).
 
-以下の関連ドキュメントを参照してください。
+Tham khảo các tài liệu liên quan sau:
 
-- **[Persistent Volume のスナップショット機能](./snapshot-persistent-volume.md)**: Kubernetes 上で PV のスナップショットを作成する方法を説明します。VolumeSnapshotClass と VolumeSnapshot の設定方法が含まれます。
-- **[スナップショットからの volume リストア機能](./restore-persistent-volume.md)**: 既存のスナップショットから PV データをリストアする方法を説明します。
-- **[PVC スナップショットのスケジュール設定](./schedule-pvc-snapshot.md)**: CronJob を使用して PVC スナップショットを定期的に自動作成する方法を説明します。
-- **[PVC スナップショット削除スケジュールの設定](./schedule-delete-pvc-snapshot.md)**: CronJob を使用して古い PVC スナップショットを自動削除する方法を説明します。
-- **[Backup & Restore 機能](./backup-restore.md)**: FPT Cloud Portal の UI を使用して PVC のバックアップと復元を管理する方法を説明します。
+- **[Tính năng snapshot Persistent Volume](./snapshot-persistent-volume-tren-k8s.md)**: Hướng dẫn tạo snapshot PV trên Kubernetes. Bao gồm cách cấu hình VolumeSnapshotClass và VolumeSnapshot.
+- **[Tính năng restore volume từ snapshot](./restore-persistent-volume-tren-k8s.md)**: Hướng dẫn restore dữ liệu PV từ snapshot có sẵn.
+- **[Đặt lịch snapshot PVC](./thuc-hiem-dat-lich-snapshot-pvc.md)**: Hướng dẫn sử dụng CronJob để tự động tạo snapshot PVC định kỳ.
+- **[Đặt lịch xóa snapshot PVC](./thuc-hien-dat-lich-xoa-pvc-snapshot.md)**: Hướng dẫn sử dụng CronJob để tự động xóa snapshot PVC cũ.
+- **[Tính năng Backup & Restore](./backup-restore-vn.md)**: Hướng dẫn quản lý backup và restore PVC bằng giao diện UI trên FPT Cloud Portal.

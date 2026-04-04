@@ -1,8 +1,8 @@
 ---
 id: "clone-du-lieu-giua-hai-bucket-khac-nhau"
-title: "Clone dữ liệu giữa hai bucket khác nhau"
+title: "Clone Du Lieu Giua Hai Bucket Khac Nhau"
 description: "Trong trường hợp chuyển môi trường S3 từ nhà cung cấp khác đến S3 của FPT Smart Cloud hoặc sử dụng song song giữa 2 môi "
-sidebar_label: "Clone dữ liệu giữa hai bucket khác nhau"
+sidebar_label: "Clone Du Lieu Giua Hai Bucket Khac Nhau"
 sidebar_position: "18"
 ---
 

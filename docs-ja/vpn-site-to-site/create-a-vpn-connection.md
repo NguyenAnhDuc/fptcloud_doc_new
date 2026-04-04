@@ -1,45 +1,45 @@
 ---
 id: "create-a-vpn-connection"
-title: "Create a VPN connection"
-description: "Guide to creating a new VPN connection on FPT Cloud Portal"
-sidebar_label: "Create a VPN connection"
+title: "VPN Connectionの作成"
+description: "FPT Cloud PortalでVPN Connectionを新規作成するガイドです。"
+sidebar_label: "VPN Connectionの作成"
 sidebar_position: "19"
 ---
 
-# Create a VPN connection
+# VPN Connectionの作成
 
-1. On the **VPN Connection List** screen, click **Create VPN Connection**.
+1. **VPN Connection List** 画面で **Create VPN Connection** をクリックします。
 
-[![Create VPN Connection](/img/migrated/image-1744180675487-bc2332e2.png)](/img/migrated/image-1744180675487-bc2332e2.png)
+[![VPN Connectionの作成](/img/migrated/image-1744180675487-bc2332e2.png)](/img/migrated/image-1744180675487-bc2332e2.png)
 
-2. Enter the VPN Gateway information:
+2. VPN Gateway情報を入力します：
 
-| **Field** | **Description** |
+| **フィールド** | **説明** |
 | --- | --- |
-| **VPN name** | Name of the VPN connection. Use an easy-to-remember name (e.g., `vpn_to_aws`). |
-| **Description** | Short description (optional) to help distinguish between connections. |
-| **Pre-shared key** | Shared security key between both sides (can be manually defined or system-generated). |
-| **Local IP Public** | Public IP address on the FPT Cloud side. |
-| **Local private networks** | Internal network ranges to connect (enter in CIDR format; multiple entries supported). |
-| **IPSec policy** | Encryption policy for Phase 2. |
-| **IKE policy** | Encryption policy for Phase 1. |
-| **Customer gateway name** | Customer Gateway to use for this connection. |
-| **Delay** | Waiting time between DPD retry attempts (in seconds). |
-| **Max failures** | Maximum number of retry attempts before the connection is marked as failed. |
+| **VPN name** | VPN Connectionの名前。覚えやすい名前を使用してください（例：`vpn_to_aws`）。 |
+| **Description** | 接続を区別するための短い説明（任意）。 |
+| **Pre-shared key** | 両側で共有するセキュリティキー（手動で設定またはシステムで自動生成）。 |
+| **Local IP Public** | FPT Cloud側のパブリックIPアドレス。 |
+| **Local private networks** | 接続する内部ネットワーク範囲（CIDR形式で入力；複数登録可）。 |
+| **IPSec policy** | Phase 2の暗号化ポリシー。 |
+| **IKE policy** | Phase 1の暗号化ポリシー。 |
+| **Customer gateway name** | この接続に使用するCustomer Gateway。 |
+| **Delay** | DPDリトライ間の待機時間（秒単位）。 |
+| **Max failures** | 接続が失敗とみなされるまでの最大リトライ回数。 |
 
 :::note
-To ensure stable connectivity, configure the **DPD Delay** and **Max Failure** parameters on the FPT Cloud side to match those on your partner device.
+安定した接続を確保するため、FPT Cloud側の **DPD Delay** と **Max Failure** パラメーターをパートナーデバイスの設定と一致させてください。
 
-Recommended values for common providers:
+一般的なプロバイダーの推奨値：
 
 | Provider | Delay | Max failures |
 | --- | --- | --- |
 | AWS | 15 | 3 |
 | Fortigate | 15 | 3 |
 
-If you adjust parameters on the provider side, update the corresponding settings on FPT Cloud to maintain compatibility.
+プロバイダー側でパラメーターを変更した場合は、FPT Cloud側の設定も更新して互換性を維持してください。
 :::
 
-3. Click **Create VPN Connection** to complete the setup.
+3. **Create VPN Connection** をクリックしてセットアップを完了します。
 
-[![VPN Connection created](/img/migrated/6219884231644005829-c20fbd72.jpg)](/img/migrated/6219884231644005829-c20fbd72.jpg)
+[![VPN Connection作成完了](/img/migrated/6219884231644005829-c20fbd72.jpg)](/img/migrated/6219884231644005829-c20fbd72.jpg)

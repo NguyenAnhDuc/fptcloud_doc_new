@@ -1,8 +1,8 @@
 ---
 id: "update-delete-backup-job"
-title: "バックアップジョブの更新と削除"
+title: "Update Delete Backup Job"
 description: "FPT Smart Cloud Database Engine のバックアップジョブのスケジュールを更新または削除する手順。"
-sidebar_label: "バックアップジョブの更新と削除"
+sidebar_label: "Update Delete Backup Job"
 sidebar_position: "13"
 ---
 

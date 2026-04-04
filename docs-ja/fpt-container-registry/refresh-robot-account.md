@@ -1,31 +1,31 @@
 ---
 id: "refresh-robot-account"
-title: "Refresh robot account"
-description: "Tạo lại secret cho robot account khi token bị mất hoặc cần thay mới."
-sidebar_label: "Refresh robot account"
+title: "Robot account の secret をリフレッシュする"
+description: "トークンを紛失した場合やセキュリティ上の理由でリセットが必要な場合に robot account の secret を再生成する。"
+sidebar_label: "Robot account の secret をリフレッシュする"
 sidebar_position: "25"
 ---
 
-# Refresh robot account
+# Robot account の secret をリフレッシュする
 
-Token của robot account chỉ hiển thị một lần khi tạo. Khi token bị mất hoặc cần thay thế vì lý do bảo mật, FPT Cloud cho phép tạo lại secret mà không cần xóa và tạo mới robot account.
+Robot account のトークンは作成時に一度だけ表示されます。トークンを紛失した場合やセキュリティ上の理由で交換が必要な場合、FPT Cloud では robot account を削除・再作成せずに secret を再生成できます。
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn refresh, sau đó chọn **ACTION REFRESH SECRET**.
+1. **Robot Account** リストでリフレッシュしたい robot account を選択し、**ACTION REFRESH SECRET** を選択します。
 
-   [![Chọn ACTION REFRESH SECRET](/img/migrated/Picture79-c15b2ebd.png)](/img/migrated/Picture79-c15b2ebd.png)
+   [![ACTION REFRESH SECRET を選択](/img/migrated/Picture79-c15b2ebd.png)](/img/migrated/Picture79-c15b2ebd.png)
 
-2. Chọn một trong hai cách refresh secret:
+2. 以下の 2 つの方法のいずれかで secret をリフレッシュします:
 
-   **Cách 1 - Tự động:** Hệ thống tự tạo secret mới. Sao chép hoặc **Export to File** để lưu secret.
+   **方法 1 - 自動:** システムが新しい secret を自動生成します。secret をコピーするか、**Export to File** で保存します。
 
-   [![Tự động refresh secret](/img/migrated/Picture80-b745cd4f.png)](/img/migrated/Picture80-b745cd4f.png)
+   [![Secret の自動リフレッシュ](/img/migrated/Picture80-b745cd4f.png)](/img/migrated/Picture80-b745cd4f.png)
 
-   [![Hộp thoại lưu secret mới](/img/migrated/Picture81-1d68b601.png)](/img/migrated/Picture81-1d68b601.png)
+   [![新しい secret の保存ダイアログ](/img/migrated/Picture81-1d68b601.png)](/img/migrated/Picture81-1d68b601.png)
 
-   **Cách 2 - Thủ công:** Tự nhập secret tùy chỉnh.
+   **方法 2 - 手動:** カスタム secret を自分で入力します。
 
-   [![Cấu hình secret thủ công](/img/migrated/Picture82-b708581c.png)](/img/migrated/Picture82-b708581c.png)
+   [![手動による secret の設定](/img/migrated/Picture82-b708581c.png)](/img/migrated/Picture82-b708581c.png)
 
 :::warning
-Sau khi refresh, hãy cập nhật secret mới vào tất cả pipeline và hệ thống đang sử dụng robot account này.
+リフレッシュ後は、この robot account を使用しているすべてのパイプラインとシステムで新しい secret に更新してください。
 :::

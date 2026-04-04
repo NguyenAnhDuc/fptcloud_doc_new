@@ -1,8 +1,8 @@
 ---
 id: "japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server"
-title: "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
+title: "Japan Su Dung File Storage High Performance Tren Baremetal Gpu Server"
 description: "Dịch vụ File Storage - High Performance hiện đã sẵn sàng cho hạ tầng Baremetal tại khu vực Nhật Bản. Để yêu cầu sử dụng,"
-sidebar_label: "Sử dụng File Storage - High Performance trên Baremetal (GPU Server)"
+sidebar_label: "Japan Su Dung File Storage High Performance Tren Baremetal Gpu Server"
 sidebar_position: "8"
 ---
 

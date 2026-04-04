@@ -1,8 +1,8 @@
 ---
 id: "object-storage"
-title: "Giới thiệu về FPT Object Storage"
+title: "Object Storage"
 description: "FPT Object Storage là dịch vụ lưu trữ đám mây dành cho dữ liệu phi cấu trúc, tương thích hoàn toàn với giao thức Amazon S3."
-sidebar_label: "Giới thiệu"
+sidebar_label: "Object Storage"
 sidebar_position: "1"
 ---
 

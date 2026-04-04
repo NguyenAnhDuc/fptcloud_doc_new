@@ -1,8 +1,8 @@
 ---
 id: "sign-up-for-an-account"
-title: "アカウントの登録"
-description: "* ウェブブラウザで FPT AI Factory にアクセスします（<https://ai.fptcloud.com/>）"
-sidebar_label: "アカウントの登録"
+title: "Sign Up For An Account"
+description: "* Navigate to FPT AI Factory in your web browser (<https://ai.fptcloud.com/>)"
+sidebar_label: "Sign Up For An..."
 sidebar_position: "7"
 ---
 

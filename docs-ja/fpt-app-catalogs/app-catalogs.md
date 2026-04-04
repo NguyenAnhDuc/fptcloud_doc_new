@@ -1,29 +1,29 @@
 ---
 id: "app-catalogs"
-title: "FPT App Catalogs"
-description: "Sử dụng FPT App Catalogs để triển khai và quản lý ứng dụng trên Kubernetes."
-sidebar_label: "FPT App Catalogs"
+title: "App Catalogs"
+description: "FPT App Catalogsを使用して、Kubernetes上のアプリケーションをデプロイ・管理します。"
+sidebar_label: "App Catalogs"
 sidebar_position: "1"
 ---
 
 # FPT App Catalogs
 
-FPT Smart Cloud chính thức ra mắt dịch vụ FPT App Catalog trên giao diện portal. Với dịch vụ này, bạn có thể sử dụng App Catalog để deploy ứng dụng thông qua nền tảng Kubernetes. Bên cạnh đó, bạn có thể dễ dàng quản lý App Catalog, tìm kiếm chart để deploy, quản lý các applications Helm chart, quản lý cluster,... thông qua giao diện portal.
+FPT Smart CloudはポータルインターフェースにてFPT App Catalogsサービスを正式にリリースしました。このサービスを使用することで、App CatalogをKubernetorプラットフォーム経由でアプリケーションをdeployできます。また、ポータルインターフェースからApp Catalogの管理、deployするchartの検索、Helm chartアプリケーションの管理、clusterの管理なども簡単に行えます。
 
-## Nội dung
+## コンテンツ
 
-- [Thiết lập ban đầu](./initial-setup)
-- [Tạo mới App Catalog](./tao-moi-app-catalogs)
-- [Xem thông tin chi tiết App Catalog](./xem-thong-tin-chi-tiet-app-catalog)
-- [Kết nối cluster tới App Catalog Management](./ket-noi-cluster-toi-app-catalog-management)
-- [Quản lý App Catalogs](./quan-ly-app-catalogs)
-- [Tìm kiếm App Catalog trong repository](./search-app-catalogs-trong-repository)
-- [Deploy App Catalog tới cluster](./deploy-app-catalogs-toi-cluster)
-- [Quản lý applications đã được deploy](./quan-ly-applications-da-duoc-deploy)
-- [Filter apps đã deploy theo cluster](./filter-apps-da-duoc-deploy-theo-cluster)
-- [Xem chi tiết app đã deploy](./xem-chi-tiet-app-da-deploy)
-- [Thay đổi cấu hình của applications](./thay-doi-cau-hinh-cua-applications)
-- [Rollback app về cấu hình cũ](./rollback-app-ve-cau-hinh-cu)
-- [Upgrade applications tới version mới nhất](./upgrade-applications-toi-version-moi-nhat)
-- [Uninstall applications](./uninstall-applications-neu-muon-xoa-bo)
-- [Xóa App Catalog Management](./xoa-app-catalog-management)
+- [初期設定](./initial-setup)
+- [App Catalogの新規作成](./tao-moi-app-catalogs)
+- [App Catalog詳細情報の確認](./xem-thong-tin-chi-tiet-app-catalog)
+- [clusterをApp Catalog Managementに接続](./ket-noi-cluster-toi-app-catalog-management)
+- [App Catalogsの管理](./quan-ly-app-catalogs)
+- [repositoryでApp Catalogを検索](./search-app-catalogs-trong-repository)
+- [App CatalogをclusterにDeploy](./deploy-app-catalogs-toi-cluster)
+- [deployされたアプリケーションの管理](./quan-ly-applications-da-duoc-deploy)
+- [deployされたappsをcluster別にフィルター](./filter-apps-da-duoc-deploy-theo-cluster)
+- [deployされたappsの詳細確認](./xem-chi-tiet-app-da-deploy)
+- [アプリケーションの設定変更](./thay-doi-cau-hinh-cua-applications)
+- [appを旧設定にRollback](./rollback-app-ve-cau-hinh-cu)
+- [アプリケーションを最新バージョンにUpgrade](./upgrade-applications-toi-version-moi-nhat)
+- [アプリケーションのUninstall](./uninstall-applications-neu-muon-xoa-bo)
+- [App Catalog Managementの削除](./xoa-app-catalog-management)

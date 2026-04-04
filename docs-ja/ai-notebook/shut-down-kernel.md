@@ -1,43 +1,43 @@
 ---
 id: "shut-down-kernel"
-title: "Tắt kernel"
-description: "Tắt kernel đang chạy để tiết kiệm tài nguyên."
-sidebar_label: "Tắt kernel"
+title: "Kernelのシャットダウン"
+description: "リソースを節約するために実行中のKernelをシャットダウンする方法。"
+sidebar_label: "Kernelのシャットダウン"
 sidebar_position: "7"
 ---
 
-# Shut down kernel
+# Kernelのシャットダウン
 
-**Step 1:** Navigate to Running Kernels/Notebooks. From the navigation bar, select the **Running Kernels/Notebooks** option (second icon from the top).
+**ステップ1:** ナビゲーションバーから「**Running Kernels/Notebooks**」オプション（上から2番目のアイコン）を選択します。
 
-[![Running Kernels/Notebooks icon in the JupyterLab navigation bar](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)
+[![実行中のカーネル/ノートブックナビゲーション画面](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)](/img/migrated/Screenshot-2025-11-04-at-13.33.53-8b5ebeba.png)
 
-## Running GPU kernel table
+## 実行中のGPUカーネル一覧表
 
-Displays information about all **currently running GPU kernels** in your lab.
+ラボ内で現在**実行中のすべてのGPUカーネル**の情報を表示します。
 
-| Field | Description |
+| フィールド | 説明 |
 | --- | --- |
-| **Name** | Unique identifier of the GPU kernel |
-| **Created At** | Date and time when the GPU kernel started |
-| **Action** | Available actions: **Shut Down All** terminates all running kernels in your lab. Once terminated, the kernels will appear in the **Kernel History** section. **Shut Down** terminates only the selected kernel. The terminated kernel will appear in the **Kernel History** section. |
+| **Name** | GPUカーネルの一意の識別子 |
+| **Created At** | GPUカーネルが開始された日時 |
+| **Action** | 利用可能なアクション: **Shut Down All** — ラボ内のすべての実行中のカーネルを終了します。終了後、カーネルは**Kernel History**セクションに表示されます。**Shut Down** — 選択したカーネルのみを終了します。終了したカーネルは**Kernel History**セクションに表示されます。 |
 
-## Kernel history table
+## カーネル履歴テーブル
 
-Displays information about all **terminated GPU kernels**.
+**終了したすべてのGPUカーネル**の情報を表示します。
 
-This table helps you verify kernel usage duration and cross-check it with billing data on the **AI Factory Portal**.
+このテーブルは、使用時間の確認や**AI Factory Portal**の課金データとの照合に役立ちます。
 
-| Field | Description |
+| フィールド | 説明 |
 | --- | --- |
-| **Name** | Unique identifier of the GPU kernel |
-| **Created At** | Date and time when the GPU kernel started |
-| **Duration** | Total runtime of the GPU kernel |
+| **Name** | GPUカーネルの一意の識別子 |
+| **Created At** | GPUカーネルが開始された日時 |
+| **Duration** | GPUカーネルの総実行時間 |
 
-## Billing reconciliation
+## 請求照合
 
 :::note
-You may notice a slight difference (typically 1–10 seconds) between the GPU runtime displayed in **AI Factory Billing** and the **Duration** column in the **Kernel History** table of AI Notebook. This minor variation is expected and occurs due to normal synchronization delays between internal services.
+AI Factoryの請求情報に表示されるGPU実行時間と、AIノートブックのカーネル履歴テーブルの「Duration」列との間に、わずかな差異（1〜10秒）が生じる場合があります。この小さな差異は、内部サービス間の通常の同期遅延によるものであり、想定内のものです。
 :::
 
-[![Kernel history table showing duration and billing reconciliation data](/img/migrated/Screenshot-2025-11-04-at-14.12.39-862af5d2.png)](/img/migrated/Screenshot-2025-11-04-at-14.12.39-862af5d2.png)
+[![課金照合画面](/img/migrated/Screenshot-2025-11-04-at-14.12.39-862af5d2.png)](/img/migrated/Screenshot-2025-11-04-at-14.12.39-862af5d2.png)

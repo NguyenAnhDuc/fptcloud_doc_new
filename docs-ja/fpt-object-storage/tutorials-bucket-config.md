@@ -1,117 +1,108 @@
 ---
 id: "tutorials-bucket-config"
-title: "A. Tạo Lifecycle Rule mới"
-description: "**Versioning** là tính năng trong **FPT Object Storage** giúp lưu và quản lý nhiều phiên bản của một object. Khi tính nă"
-sidebar_label: "A. Tạo Lifecycle Rule mới"
+title: "Tutorials Bucket Config"
+description: "**Versioning** is a feature that allows you to store and manage multiple versions of an object on **FPT Object Storage**"
+sidebar_label: "Tutorials Bucket Config"
 sidebar_position: "7"
 ---
 
-# Tutorials Bucket Config
+# Bucket configuration
 
 ## Versioning
-**Versioning** là tính năng trong **FPT Object Storage** giúp lưu và quản lý nhiều phiên bản của một object. Khi tính năng này được bật, mỗi lần bạn cập nhật hoặc xóa object, một phiên bản mới sẽ được tạo ra và lưu trữ lại. Điều này cho phép bạn lưu trữ và khôi phục các phiên bản trước đó của object nếu cần thiết.
-Để bật tính năng Versioning cho một bucket, bạn thực hiện các bước sau:
-**Bước 1:** Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
-**Bước 2:** Mở tab **Versioning**.
-**Bước 3:** Chọn **Enable** để bật tính năng Versioning hoặc **Disable** để tắt tính năng này, sau đó nhấn **Save** để lưu các thay đổi.
+**Versioning** is a feature that allows you to store and manage multiple versions of an object on **FPT Object Storage**. When versioning is enabled, a new version is created and stored every time you act (update or delete) on an object. You can use this feature to store and restore all versions of objects within a bucket.
+> Currently, FPT Portal does not allow the management of non-current versions. You can use SDK or clients to utilize this feature entirely.
+To enable this feature for a bucket, follow these steps:
+  1. In the **Action** section of the bucket you want to configure, select **Config**.
+  2. Open the **Versioning** tab.
+  3. Choose **Enable** or **Disable** , and click **Save**.
+
+[![file](/img/migrated/image-1690878460360-f2b9444f.bin)](/img/migrated/image-1690878460360-f2b9444f.bin)
 
 ## Static Website Hosting
-**Static Website Hosting** là một tính năng cho phép bạn lưu trữ toàn bộ resource của một trang web tĩnh trên FPT Object Storage. Thay vì chỉ lưu trữ các tệp tin như bình thường, bạn có thể sử dụng bucket để lưu các file HTML, CSS, JavaScript cùng các tài nguyên tĩnh khác và cung cấp nó cho người dùng ở dạng website. Khi kích hoạt Static Website Hosting cho một bucket, FPT Object Storage sẽ cung cấp cho bạn một URL công khai. Bạn có thể sử dụng URL này để truy cập và chia sẻ trang web của mình giống như với các dịch vụ web hosting khác.
-Để cấu hình **Static Website Hosting** trong FPT Object Storage, thực hiện các bước sau:
-**Bước 1:** Upload toàn bộ mã nguồn của trang web lên bucket trong FPT Object Storage.
-**Bước 2:** Trong phần **Action** của bucket cần cấu hình, chọn **Config**.
-**Bước 3:** Mở tab **Static Website Hosting**.
-**Bước 4:** Chọn **Enable Website Hosting** và điền các thông số cần thiết:
-  * **Index Document:** Tên của trang chủ của website (ví dụ: `index.html`).
-  * **Error Document:** Tên của trang lỗi (404), sẽ hiển thị nếu người dùng yêu cầu một URL không hợp lệ (ví dụ: `404.html`).
+**Static Website Hosting** is a feature that allows you to store the entire resources of a static website on FPT Object Storage. Instead of just storing regular files, you can use a bucket to store HTML, CSS, and JavaScript files, along with other static assets, and serve it as a website to users.
+When you activate the **Static Website Hosting** feature for a bucket, FPT Object Storage provides you with a public URL. You can use this URL to access and share your website with users, similar to a web hosting service.
+To create and configure **Static Website Hosting** in FPT Object Storage, follow these steps:
+  1. Upload the entire website source to the S3 bucket.
 
-**Bước 5:** Truy cập trang web của bạn bằng URL được cung cấp trong phần Endpoints.
+[![file](/img/migrated/image-1690878472743-bec06fb0.bin)](/img/migrated/image-1690878472743-bec06fb0.bin)
+  2. In the **Action** section of the bucket you want to configure, select **Config**.
+
+[![file](/img/migrated/image-1690878478348-287eafbb.bin)](/img/migrated/image-1690878478348-287eafbb.bin)
+  3. Open the **Static Website Hosting** tab.
+  4. Choose ENABLE WEBSITE HOSTING and fill in the necessary information: 
+     * **Index Document:** The homepage of the website.
+     * **Error Document:** The 404 page will be displayed if a user requests an invalid URL.
+
+[![file](/img/migrated/image-1690878502807-6753e26c.bin)](/img/migrated/image-1690878502807-6753e26c.bin)
+> Access via Endpoints. To be accessible, files in the bucket must be in a Public state.
 
 ## Lifecycle Configurations
-Lifecycle Configurations là tính năng trong FPT Object Storage cho phép bạn tự động quản lý vòng đời của các đối tượng trong bucket. Tính năng này đặc biệt hữu ích cho việc tự động xóa các object sau một thời gian nhất định, giúp tiết kiệm chi phí lưu trữ và quản lý dữ liệu hiệu quả.
-Một **Lifecycle Rule** thông thường bao gồm các thành phần sau:
-  * **Scope (Phạm vi):** Xác định các object mà rule sẽ áp dụng. Bạn có thể áp dụng rule cho toàn bộ bucket hoặc chỉ định tiền tố (prefix) để áp dụng cho một nhóm đối tượng cụ thể.
-  * **Delete current versions of objects:** Xác định thời điểm khi current version của các object trong phạm vi sẽ bị xóa. Nếu bạn không sử dụng Versioning, việc xóa current version sẽ tương ứng với việc xóa vĩnh viễn object.
-  * **Permanently delete noncurrent versions of objects:** Xác định thời điểm khi non-current version của các object trong phạm vi sẽ bị xóa. Non-current versions chỉ được tạo ra khi sử dụng Versioning, do đó nếu bạn không sử dụng Versioning, phần này có thể không cần thiết.
-  * **Delete incomplete multipart uploads:** Xác định thời điểm xóa các multipart uploads chưa hoàn thành. Điều này giúp dọn dẹp các uploads không hoàn chỉnh và giải phóng không gian lưu trữ.
-  * **Delete expired object delete markers:** Xóa các delete markers đã hết hạn (không còn version nào). Điều này giúp loại bỏ các marker không còn cần thiết, giữ cho bucket của bạn gọn gàng hơn.
+**Lifecycle Configurations** is a feature that allows you to manage the objects' lifecycle within a bucket automatically. This feature is most effective for automatically deleting objects after a certain period.
+You can create multiple Lifecycle Rules for a bucket, where each rule applies to a group of objects, or use a single rule for the entire bucket. A typical Lifecycle Rule consists of the following components:
+  * **Scope:** Scope determines which objects the rule will apply to. You can use it for the entire bucket or specify a prefix to apply it to a specific group of objects.
+  * **Delete current versions of objects:** Specifies when recent versions of objects within the scope will be deleted. If you are not using versioning, deleting current versions will permanently delete the object.
+  * **Permanently delete non-current versions of objects:** Specifies when non-current versions of objects within the scope will be deleted. Non-current versions are only created when using versioning, so you don't need to worry about this if you're not using versioning.
+  * **Delete incomplete multipart uploads:** Specifies when to delete incomplete multipart uploads.
+  * **Delete expired object delete markers:** Deletes expired delete markers (when there are no older versions of an object).
 
-**Lifecycle Configurations** giúp bạn quản lý dữ liệu trong bucket một cách tự động, giảm bớt công việc quản lý thủ công và tối ưu hóa chi phí lưu trữ.
-**Lifecycle Rule** trong **FPT Object Storage** sẽ tự động được thực thi theo cách sau:
-  * **Quá trình chạy tự động:** Rule sẽ được thực thi tự động bằng cách quét toàn bộ các đối tượng trong bucket vào lúc 0h GMT mỗi ngày (07h00 giờ Việt Nam).
-  * **Hành động thực hiện:** Các hành động đã được cấu hình trong rule sẽ được áp dụng đối với các object đáp ứng điều kiện của rule.
+With Lifecycle Configurations, you can automatically manage the objects' lifecycle in a bucket, helping you save storage costs and efficiently organize data management.
+> Some high-risk actions have been removed from the FPT Portal, such as **Permanently delete file on a particular date, Transitions Class,...** If you still need these actions, use S3 Clients to configure them.
 
-Điều này giúp tự động quản lý vòng đời của các đối tượng mà không cần can thiệp thủ công hàng ngày.
+### A. Create a New Lifecycle Rule
+  1. In the **Object Storage Management** dashboard, select **Config** for the bucket you want to configure a Lifecycle Rule for.
+  2. Open the **Lifecycle Configurations** tab, and choose **Create Rule**.
 
-### A. Tạo Lifecycle Rule mới
-Để cấu hình **Lifecycle Configurations** cho một bucket trong **FPT Object Storage** , bạn thực hiện các bước sau:
-**Bước 1:** Trên bảng quản trị **Object Storage Management** , chọn **Config** ở bucket cần cấu hình Lifecycle Rule.
-**Bước 2:** Mở tab **Lifecycle Configurations** , sau đó chọn **Create Rule**.
-**Bước 3:** Nhập thông tin của **Lifecycle Rule** vào các trường tương ứng:
-  * **Rule Name:** Tên của Rule để dễ nhận diện và quản lý.
-  * **Rule Scope:** Phạm vi các đối tượng mà quy tắc sẽ áp dụng. Bạn có thể: 
-    * Áp dụng quy tắc cho toàn bộ bucket (**Full**).
-    * Chỉ định tiền tố (**Prefix**) để áp dụng cho một nhóm đối tượng cụ thể trong bucket.
+[![file](/img/migrated/image-1690878525886-3ec93b29.bin)](/img/migrated/image-1690878525886-3ec93b29.bin)
+  3. Enter the information for the **Lifecycle Rule** in the corresponding fields:
+     * **Rule Name:** Name of the Rule.
+     * **Rule Scope:** The scope of objects to which the rule will apply. You can apply the rule to the entire bucket (**Full**) or specify a prefix to apply it to a specific group of objects within the bucket.  
+| Action  | Description  |  
+| --- | --- |  
+| Delete current versions of objects  | Select the number of days after which current versions of objects will be deleted.  |  
+| Permanently delete non-current versions of objects  | Select the number of days after which non-current versions of objects will be deleted.  |  
+| Delete incomplete multipart uploads  | Select the days after which incomplete multipart uploads will be deleted.  |  
+| Delete expired object delete markers  | Select the days after which expired object delete markers will be deleted.  |  
 
-Tiếp theo, bạn có thể cấu hình các hành động khác của Lifecycle Rule như xóa các phiên bản hiện tại, xóa các phiên bản không còn, xóa các multipart uploads chưa hoàn thành, và xóa các delete markers đã hết hạn, tùy thuộc vào nhu cầu của bạn.
-  * **Delete current versions of objects:** Chọn số ngày sẽ xóa các current versions của objects.
-  * **Permanently delete noncurrent versions of objects:** Chọn số ngày sẽ xóa các noncurrent versions của objects.
-  * **Delete incomplete multipart uploads:** Chọn số ngày sẽ xóa các incomplete multipart uploads.
-  * **Delete expired object delete markers:** Chọn số ngày sẽ xóa các expired object delete markers.
+[![file](/img/migrated/image-1690878549463-f737e355.bin)](/img/migrated/image-1690878549463-f737e355.bin)
+>   * In FPT Object Storage, if you have enabled versioning, the system creates a delete marker when an object is deleted instead of immediately removing it. A delete marker is a unique entity created to indicate that the object has been deleted. Creating a delete marker helps track the deletion history and recover data in the future if needed.
+>   * Delete markers become Expired delete markers when all older versions of the object have been deleted, leaving only one delete feature in the version list.
+> 
 
-**Bước 4:** Nhấn Save để lưu
-Trong **FPT Object Storage** , khi tính năng **Versioning** đã được bật, việc xóa một đối tượng không dẫn đến việc xóa vĩnh viễn ngay lập tức. Thay vào đó, hệ thống sẽ tạo một **delete marker**.
-**Delete marker** là một thực thể đặc biệt được sử dụng để đánh dấu rằng đối tượng đã bị xóa. Điều này giúp hệ thống theo dõi lịch sử xóa và cho phép khôi phục dữ liệu nếu cần trong tương lai.
-Khi tất cả các phiên bản cũ hơn của đối tượng đã bị xóa và chỉ còn lại delete marker trong danh sách phiên bản, delete marker sẽ chuyển thành **Expired delete markers**. Đây là dấu hiệu cho thấy không còn phiên bản nào của đối tượng còn tồn tại trong bucket, và delete marker đã hết hạn.
+### B. Update a Lifecycle Rule
+  1. For the Lifecycle Rule you want to update, select **Edit**.
+  2. Enter the updated information for the **Lifecycle Rule**.
 
-### B. Update Lifecycle Rule
-Để cập nhật một **Lifecycle Rule** trong **FPT Object Storage** , thực hiện các bước sau:
-**Bước 1:** Tại **Lifecycle Rule** cần cập nhật, chọn **Edit**.
-**Bước 2:** Nhập các thông tin cần cập nhật cho **Lifecycle Rule** vào các trường tương ứng.
-Sau khi hoàn tất việc nhập thông tin, lưu các thay đổi để áp dụng cập nhật.
+[![file](/img/migrated/image-1690878563119-6836f9aa.bin)](/img/migrated/image-1690878563119-6836f9aa.bin)
 
-### C. Delete Lifecycle Rule
-Để xóa một **Lifecycle Rule** trong **FPT Object Storage** , thực hiện các bước sau:
-**Bước 1:** Tại **Lifecycle Rule** cần xóa, chọn **Delete**.
-**Bước 2:** Một hộp thoại cảnh báo sẽ hiển thị, hiển thị tên rule và yêu cầu bạn xác nhận hành động. Chọn **Delete** để tiến hành xóa rule.
+### C. Delete a Lifecycle Rule
+  1. For the Lifecycle Rule you want to delete, select **Delete**.
+  2. A confirmation dialog will appear, displaying the rule name and requesting user confirmation. Select **Delete** to proceed with deletion.
 
-## Cấu hình Bucket CORS
-**CORS (Cross-Origin Resource Sharing)** cho phép các trang web và ứng dụng từ các nguồn khác nhau tương tác và chia sẻ dữ liệu một cách an toàn.
-Mặc định, **FPT Object Storage** sẽ chặn tất cả các yêu cầu từ các origin khác nhau đến bucket của bạn. Tính năng **Bucket CORS** cho phép một trang web từ một origin cụ thể có thể yêu cầu tài nguyên từ bucket mà không bị chặn bởi **Same-Origin Policy (SOP)**.
-Khi một trang web hoặc ứng dụng cố gắng truy cập tài nguyên từ FPT Object Storage, trình duyệt sẽ gửi một yêu cầu **Cross-Origin (CORS request)** đến server FPT Object Storage. Server phải đáp ứng yêu cầu này bằng cách gửi các HTTP headers chứa chính sách CORS. Trình duyệt sau đó kiểm tra các headers này để xác định xem việc truy cập có được phép hay không.
-Để cho phép một origin (website hoặc server) có thể **GET** dữ liệu từ bucket, bạn cần cấu hình chúng trong **Bucket CORS Config**.
+[![file](/img/migrated/image-1690878572255-c3c07f59.bin)](/img/migrated/image-1690878572255-c3c07f59.bin)
 
-### A. Tạo Bucket CORS Rule mới
-Để tạo một **CORS Rule** mới cho bucket trong **FPT Object Storage** , thực hiện các bước sau:
-**Bước 1:** Trên bảng quản trị **Object Storage Management** , chọn **Config** ở bucket cần cấu hình CORS.
-**Bước 2:** Mở tab **Bucket CORS** , sau đó chọn **Create Rule**.
-**Bước 3:** Nhập thông tin của **CORS Rule** vào các trường tương ứng:
-  * **Rule Name:** Tên của Rule. (Ví dụ: `AllowAllOrigins`)
-  * **Allowed Origins:** Nhập danh sách các origin (website hoặc server) được phép thực hiện CORS request. Sử dụng `` để cho phép tất cả các origins.
-  * **Allowed Methods:** Chọn một hoặc nhiều phương thức HTTP mà bạn cho phép các origins thực thi. (Ví dụ: `GET`, `POST`, `PUT`)
-  * **Max Age Seconds:** Nhập thời gian lưu cache cho chính sách CORS trong giây. (Ví dụ: `3600` để lưu cache trong 1 giờ)
-  * **Advanced Settings:**
-    * **Expose Headers:** Nhập một hoặc nhiều headers trong phản hồi mà bạn muốn khách hàng có thể truy cập từ ứng dụng của họ. (Ví dụ: `x-amz-request-id`)
-    * **Allowed Headers:** Nhập các tiêu đề được chỉ định trong `Access-Control-Request-Headers`. (Ví dụ: `Content-Type`, `Authorization`)
+## Bucket CORS Configuration
+CORS (Cross-Origin Resource Sharing) allows websites to interact with each other and share data securely.
+By default, FPT Object Storage blocks requests from all origins (websites, servers) to the bucket. The Bucket CORS feature allows a website from a specific origin to request resources from the bucket without being blocked by the Same-Origin Policy (SOP).
+When a website attempts to access resources from FPT Object Storage, the browser sends a Cross-Origin request (CORS request) to the FPT Object Storage server. The server must respond to this request with access-related information by sending HTTP headers containing CORS policies. The browser then checks these headers to determine if the access is permitted.
+To allow an origin (website, server) to GET data from the bucket, you must declare them in the Bucket CORS Config.
 
-Sau khi nhập đầy đủ thông tin, nhấn **Save** để áp dụng cấu hình CORS mới cho bucket.
+### A. Create a New Bucket CORS Rule
+**Step 1** : In the **Object Storage Management** dashboard, select **Config** for the bucket you want to configure CORS for.
+**Step 2** : Open the **Bucket CORS** tab and select **Create Rule**. [![file](/img/migrated/image-1690878600710-ceaaf32b.bin)](/img/migrated/image-1690878600710-ceaaf32b.bin)
+**Step 3** : Enter information for the **CORS Rule** in the respective fields:  
+| Action  | Description  |  
+| --- | --- |  
+| Rule Name  | Name of the Rule  |  
+| Allowed Origins  | Origins permitted for CORS requests. Use * to allow all Origins.  |  
+| Allowed Methods  | You allow Origins to execute one or more HTTP methods.  |  
+| Max Age Seconds  | Cache duration.  |  
+| Advanced setting  |  **Expose Headers:** You want clients to access one or more response headers from their applications. **Allowed Headers:** Headers specified in Access-Control-Request-Headers.  |  
+[![file](/img/migrated/image-1690878634754-850e3175.bin)](/img/migrated/image-1690878634754-850e3175.bin)
 
 ### B. Update Bucket CORS Rule
-Để cập nhật một **Bucket CORS Rule** hiện có trong **FPT Object Storage** , thực hiện các bước sau:
-**Bước 1:** Ở **Bucket CORS Rule** cần cập nhật, chọn **Edit**.
-**Bước 2:** Nhập các thông tin cập nhật của **CORS Rule** vào các trường tương ứng:
-  * **Rule Name:** Cập nhật tên của Rule nếu cần thiết.
-  * **Allowed Origins:** Điều chỉnh danh sách các origins được phép thực hiện CORS request. Sử dụng `` để cho phép tất cả các origins hoặc nhập danh sách cụ thể.
-  * **Allowed Methods:** Thay đổi một hoặc nhiều phương thức HTTP mà bạn cho phép các origins thực thi.
-  * **Max Age Seconds:** Điều chỉnh thời gian lưu cache cho chính sách CORS trong giây.
-  * **Advanced Settings:**
-    * **Expose Headers:** Cập nhật các headers trong phản hồi mà bạn muốn khách hàng có thể truy cập từ ứng dụng của họ.
-    * **Allowed Headers:** Thay đổi các tiêu đề được chỉ định trong `Access-Control-Request-Headers`.
-
-Sau khi thực hiện các thay đổi, nhấn **Save** để áp dụng các cập nhật cho CORS Rule.
+**Step 1** : Select **Edit** for the Bucket CORS Rule you want to update. [![file](/img/migrated/image-1690878652366-d9f59dca.bin)](/img/migrated/image-1690878652366-d9f59dca.bin)
+**Step 2** : Enter the updated information for the **CORS Rule**. [![file](/img/migrated/image-1690878664970-7ca99e5c.bin)](/img/migrated/image-1690878664970-7ca99e5c.bin)
 
 ### C. Delete Bucket CORS Rule
-Để xóa một **Bucket CORS Rule** trong **FPT Object Storage** , thực hiện các bước sau:
-**Bước 1:** Ở **Bucket CORS Rule** cần xóa, chọn **Delete**.
-**Bước 2:** Một hộp thoại cảnh báo sẽ hiển thị, hiển thị tên của rule và yêu cầu bạn xác nhận hành động. Chọn **Delete** để tiến hành xóa rule.
-Sau khi xác nhận, rule sẽ bị xóa và các yêu cầu CORS liên quan đến rule đó sẽ không còn được áp dụng.
+**Step 1** : Select **Delete** for the Bucket CORS Rule you want to delete. [![file](/img/migrated/image-1690878676159-f5a68bcf.bin)](/img/migrated/image-1690878676159-f5a68bcf.bin)
+**Step 2** : A confirmation dialog will appear, displaying the rule's name and asking for user confirmation. Select **Delete** to proceed with the deletion. [![file](/img/migrated/image-1690878688236-1dd6bf04.bin)](/img/migrated/image-1690878688236-1dd6bf04.bin)

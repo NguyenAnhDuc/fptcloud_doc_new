@@ -1,56 +1,56 @@
 ---
 id: "openstack-portal-to-VMW"
-title: "VPN Site-to-Site configuration between OpenStack and VMware"
-description: "Guide to configuring a VPN Site-to-Site connection between FPT Cloud OpenStack and VMware Cloud"
-sidebar_label: "Configuration with VMware"
+title: "Cấu hình VPN Site-to-Site giữa OpenStack và VMware"
+description: "Hướng dẫn cấu hình kết nối VPN Site-to-Site giữa FPT Cloud OpenStack và VMware Cloud."
+sidebar_label: "Cấu hình với VMware"
 sidebar_position: "17"
 ---
 
-# VPN Site-to-Site configuration between OpenStack and VMware
+# Cấu hình VPN Site-to-Site giữa OpenStack và VMware
 
-This guide uses the topology below as an example.
+Hướng dẫn này sử dụng topology dưới đây làm ví dụ.
 
 [![Topology](/img/migrated/image-1765791265680-2f6051f0.png)](/img/migrated/image-1765791265680-2f6051f0.png)
 
-## Step 1: Configure VPN Site-to-Site on FPT Cloud Portal
+## Bước 1: Cấu hình VPN Site-to-Site trên FPT Cloud Portal
 
-Access [https://console.fptcloud.com](https://console.fptcloud.com) and create the VPN Site-to-Site.
+Truy cập [https://console.fptcloud.com](https://console.fptcloud.com) và tạo VPN Site-to-Site.
 
-**Create a Customer Gateway:**
+**Tạo Customer Gateway:**
 
-- **Remote IP public**: Floating IP of the VMware VPN gateway
-- **Remote private network**: LAN subnet range for peering with VMware
+- **Remote IP public**: Floating IP của VPN gateway VMware
+- **Remote private network**: Dải LAN subnet để kết nối với VMware
 
 [![Customer Gateway](/img/migrated/image-1765791539886-a1399dc6.png)](/img/migrated/image-1765791539886-a1399dc6.png)
 
-**Create a VPN Connection:**
+**Tạo VPN Connection:**
 
 :::note
-Save the **Pre-shared key** value — you will need it when configuring the VPN connection on VMware.
+Lưu lại giá trị **Pre-shared key** — bạn sẽ cần khi cấu hình kết nối VPN trên VMware.
 :::
 
-A VPN connection has three main sections:
+VPN Connection có 3 phần chính:
 
-- **General information** — general connection details
-- **Remote VPN Information** — encryption and customer-side configuration
-- **Dead Peer Detection** — automatic retry settings
+- **General information** — thông tin chung về kết nối
+- **Remote VPN Information** — cấu hình mã hóa và thông tin phía khách hàng
+- **Dead Peer Detection** — cài đặt tự động thử lại
 
-**Section 1: General information**
+**Phần 1: General information**
 
 [![General information](/img/migrated/image-1765791650959-d54cc64b.png)](/img/migrated/image-1765791650959-d54cc64b.png)
 
-**Section 2: Remote VPN information**
+**Phần 2: Remote VPN information**
 
 [![Remote VPN information](/img/migrated/image-1765791876602-bfc3ce69.png)](/img/migrated/image-1765791876602-bfc3ce69.png)
 
-If you select **Providers = "others"**, follow these steps:
+Nếu bạn chọn **Providers = "others"**, thực hiện theo các bước sau:
 
-1. Set the provider name to `VMWare`.
-2. Fill in the IKE and IPSec parameters as follows:
+1. Đặt tên provider là `VMWare`.
+2. Điền các tham số IKE và IPSec như sau:
 
 **IKE:**
 
-| Parameter | Value |
+| Tham số | Giá trị |
 | --- | --- |
 | Encryption algorithm | aes-256 |
 | Authorization algorithm | sha256 |
@@ -62,7 +62,7 @@ If you select **Providers = "others"**, follow these steps:
 
 **IPsec:**
 
-| Parameter | Value |
+| Tham số | Giá trị |
 | --- | --- |
 | Encapsulation mode | tunnel |
 | Encryption algorithm | aes-256 |
@@ -72,32 +72,32 @@ If you select **Providers = "others"**, follow these steps:
 | Perfect Forward Secrecy (PFS) | GROUP_14 |
 | Transform protocol | esp |
 
-**Section 3: Dead Peer Detection**
+**Phần 3: Dead Peer Detection**
 
 [![Dead Peer Detection](/img/migrated/image-1765792370389-be62aa14.png)](/img/migrated/image-1765792370389-be62aa14.png)
 
-After filling in all information, click **Create VPN Connection**.
+Sau khi điền đầy đủ thông tin, nhấn **Create VPN Connection**.
 
-## Step 2: Configure VPN on VMware Cloud
+## Bước 2: Cấu hình VPN trên VMware Cloud
 
-1. Go to the VMware system and fill in the **Endpoint Configuration** fields.
+1. Truy cập hệ thống VMware và điền thông tin vào các trường **Endpoint Configuration**.
 
 [![Endpoint Configuration](/img/migrated/image-1765792537442-cfd45c7d.png)](/img/migrated/image-1765792537442-cfd45c7d.png)
 
-2. After creation, select **Customize Security Profile** to edit the IKE and IPSec policies to match the configuration from Step 1.
+2. Sau khi tạo, chọn **Customize Security Profile** để chỉnh sửa các chính sách IKE và IPSec cho khớp với cấu hình ở Bước 1.
 
 [![Customize Security Profile](/img/migrated/image-1765792592112-2661f855.png)](/img/migrated/image-1765792592112-2661f855.png)
 
-3. Select **View statistics** to check the connection status. A status of **UP** indicates the two sites are connected successfully.
+3. Chọn **View statistics** để kiểm tra trạng thái kết nối. Trạng thái **UP** cho biết hai site đã kết nối thành công.
 
-[![View statistics](/img/migrated/image-1765792630730-24ebf3f1.png)](/img/migrated/image-1765792630730-24ebf3f1.png) [![Connection UP](/img/migrated/image-1765792651631-076d8ebc.png)](/img/migrated/image-1765792651631-076d8ebc.png)
+[![View statistics](/img/migrated/image-1765792630730-24ebf3f1.png)](/img/migrated/image-1765792630730-24ebf3f1.png) [![Kết nối UP](/img/migrated/image-1765792651631-076d8ebc.png)](/img/migrated/image-1765792651631-076d8ebc.png)
 
-## Step 3: Verify the connection
+## Bước 3: Kiểm tra kết nối
 
-Ping from OpenStack VM to VMware VM:
+Ping từ OpenStack VM đến VMware VM:
 
-[![Ping OSP to VMW](/img/migrated/image-1765792700896-cc19d07e.png)](/img/migrated/image-1765792700896-cc19d07e.png)
+[![Ping OSP đến VMW](/img/migrated/image-1765792700896-cc19d07e.png)](/img/migrated/image-1765792700896-cc19d07e.png)
 
-Ping from VMware VM to OpenStack VM:
+Ping từ VMware VM đến OpenStack VM:
 
-[![Ping VMW to OSP](/img/migrated/image-1765792717595-c17872cc.png)](/img/migrated/image-1765792717595-c17872cc.png)
+[![Ping VMW đến OSP](/img/migrated/image-1765792717595-c17872cc.png)](/img/migrated/image-1765792717595-c17872cc.png)

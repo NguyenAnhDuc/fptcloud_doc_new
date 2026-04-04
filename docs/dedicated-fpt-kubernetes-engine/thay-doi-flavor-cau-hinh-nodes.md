@@ -1,25 +1,25 @@
 ---
 id: "thay-doi-flavor-cau-hinh-nodes"
-title: "Nodes のフレーバー（構成）の変更"
-description: "Kubernetes クラスターのMaster NodesとWorker NodesのCPU・RAMフレーバー（構成）を変更する方法を説明します。"
-sidebar_label: "Nodes 構成の変更"
+title: "Change node configuration"
+description: "How to change the CPU/RAM flavor of Master Nodes and Worker Nodes in a Kubernetes cluster."
+sidebar_label: "Change node configuration"
 sidebar_position: "13"
 ---
 
-# Nodes のフレーバー（構成）の変更
+# Change node configuration
 
-**手順 1**: メニューで **Kubernetes** を選択します。**Kubernetes Management** ページが表示されます。
+**Step 1:** From the menu, select **Kubernetes**. The **Kubernetes Management** page appears.
 
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)
 
-**手順 2**: 一覧からノード構成を変更したい **Cluster** を選択します。
+**Step 2:** Select the **Cluster** whose node configuration you want to change.
 
 [![](/img/migrated/Picture31-f3d03b46.png)](/img/migrated/Picture31-f3d03b46.png)
 
-**手順 3**: **Node Pools** タブを選択します。**Master Nodes** または **Worker Nodes** の CPU・RAM フレーバー（構成）を変更するには、対応する config の Setting アイコンを選択します。
+**Step 3:** Select the **Node Pools** tab. To change the CPU/RAM flavor for **Master Nodes** or **Worker Nodes**, click the Setting icon for the corresponding config.
 
 [![](/img/migrated/Picture38-8bd4ea56.png)](/img/migrated/Picture38-8bd4ea56.png)
 
-**手順 4**: 希望する構成を選択し、**Change** を選択して変更を適用します。
+**Step 4:** Select the desired configuration, then click **Change** to apply.
 
 [![](/img/migrated/Picture39-a10b5f0b.png)](/img/migrated/Picture39-a10b5f0b.png)

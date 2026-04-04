@@ -1,20 +1,21 @@
 ---
 id: "enable-hsts-to-http-listener"
-title: "Enable HSTS to HTTPS Listener"
-description: "HSTS (HTTP Strict Transport Security) là một chính sách bảo mật giúp ngăn chặn các cuộc tấn công man-in-the-middle"
-sidebar_label: "Enable HSTS to HTTPS Listener"
+title: "Enable HSTS on HTTPS Listener"
+description: "How to enable HTTP Strict Transport Security (HSTS) on an HTTPS Listener in FPT Load Balancer."
+sidebar_label: "Enable HSTS on HTTPS Listener"
 sidebar_position: "17"
 ---
 
-# Enable Hsts To Http Listener
+# Enable HSTS on HTTPS Listener
 
-**HSTS (HTTP Strict Transport Security)** là một chính sách bảo mật giúp ngăn chặn các cuộc tấn công "man-in-the-middle" bằng cách yêu cầu trình duyệt luôn sử dụng kết nối an toàn (HTTPS) khi giao tiếp với máy chủ. 
-Tính năng **"Enable HSTS to HTTPS Listener"** của **FPT Load Balancer** cho ép bạn tăng cường bảo mật cho ứng dụng của mình bằng cách yêu cầu trình duyệt chỉ giao tiếp qua HTTPS. 
-Người dùng **Enable HSTS** để sử dụng tính năng: 
-  * **HSTS max age:** Nhập số nguyên, giới hạn 256 ký tự, không nhập số âm. Mặc định là 31536000. 
+**HSTS (HTTP Strict Transport Security)** is a security policy that prevents man-in-the-middle attacks by requiring browsers to always use a secure connection (HTTPS) when communicating with the server.
 
-Thời lượng (tính bằng giây) trong đó HSTS policy sẽ được trình duyệt thực hiện. Giúp xác định trong bao lâu trình duyệt sẽ nhớ rằng một trang web chỉ được truy cập thông qua HTTPS. 
-  * **Include Subdomain:** Cấu hình HSTS có apply cho tất cả các subdomain không hay chỉ apply cho domain này. 
-  * **Preload:** Domain có được đưa vào danh sách preload của web browser hay không. 
+The **Enable HSTS** feature of **FPT Load Balancer** strengthens application security by requiring browsers to communicate only via HTTPS.
 
-Nhấn chọn **Create Listener** để tiến hành tạo hoặc **Cancel** để huỷ bỏ.
+Enable **HSTS** and configure the following:
+
+- **HSTS max age**: Enter an integer, maximum 256 characters, no negative values. Default: 31,536,000. This is the duration (in seconds) for which the browser enforces the HSTS policy — how long the browser remembers that a site must only be accessed via HTTPS.
+- **Include Subdomain**: Whether the HSTS policy applies to all subdomains or only to this domain.
+- **Preload**: Whether the domain is included in the browser's preload list.
+
+Click **Create Listener** to create, or **Cancel** to discard.

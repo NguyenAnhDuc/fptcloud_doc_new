@@ -1,14 +1,14 @@
 ---
 id: "overview-user-group"
-title: "User Group overview"
-description: "User Group là nhóm người dùng có vai trò giống nhau, được gán chung Roles và Permission."
-sidebar_label: "User Group overview"
+title: "User Group概要"
+description: "User Groupは同じ役割を持つユーザーグループで、共通のRolesとPermissionが割り当てられます。"
+sidebar_label: "User Group概要"
 sidebar_position: "11"
 ---
 
-# User Group overview
+# User Group概要
 
-User Group là đối tượng đại diện cho một nhóm người dùng có vai trò giống nhau. Tất cả IAM user trong cùng User Group sẽ được gán chung Roles & Permission của User Group đó.
+User Groupは同じ役割を持つユーザーグループを表すオブジェクトです。同じUser Group内のすべてのIAM userには、そのUser GroupのRoles & Permissionが共通して割り当てられます。
 
-- Việc này giúp tiết kiệm thời gian quản lý quyền: thay vì cấp hoặc cập nhật quyền lần lượt cho từng IAM user, bạn chỉ cần cập nhật một lần vào User Group.
-- Một User Group có thể chứa nhiều IAM user và một IAM user có thể nằm trong nhiều User Group.
+- これにより権限管理の時間を節約できます。各IAM userに個別に権限を付与・更新する代わりに、User Groupを一度更新するだけで済みます。
+- 1つのUser Groupには複数のIAM userを含めることができ、1人のIAM userは複数のUser Groupに所属できます。

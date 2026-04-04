@@ -1,23 +1,23 @@
 ---
 id: "initial-setup"
-title: "Thiết lập ban đầu"
-description: "Các bước chuẩn bị trước khi sử dụng tính năng tạo VPC."
-sidebar_label: "Thiết lập ban đầu"
-sidebar_position: "2"
+title: "Initial Setup"
+description: "Preparation steps before using the VPC creation feature."
+sidebar_label: "Initial Setup"
+sidebar_position: 2
 ---
 
-# Thiết lập ban đầu
+# Initial setup
 
-Nếu đây là lần đầu tiên bạn sử dụng, hãy kiểm tra và hoàn thành các bước sau:
+If this is your first time, complete the following steps before getting started.
 
-## Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+## Create an FPT Cloud account and sign in to FPT Portal
 
-1. Truy cập [https://console.fptcloud.com](https://console.fptcloud.com/) và đăng nhập bằng tài khoản FPT Cloud đã được cấp.
+1. Go to [https://console.fptcloud.com](https://console.fptcloud.com/) and sign in with your FPT Cloud credentials.
 
-2. Chọn đúng **Tenant**, **Region**, **VPC** cần sử dụng.
+2. Select the appropriate **Tenant**, **Region**, and **VPC**.
 
-Nếu chưa có tài khoản FPT Cloud, truy cập [https://fptcloud.com/](https://fptcloud.com/), chọn **Sign Up** và nhập thông tin theo hướng dẫn. Bộ phận hỗ trợ sẽ liên hệ để xác nhận và tạo tài khoản.
+If you do not have an FPT Cloud account, go to [https://fptcloud.com/](https://fptcloud.com/), select **Sign Up**, and fill in the required information. The support team will contact you to confirm account creation.
 
 :::note
-Nếu gặp bất kỳ lỗi nào trong quá trình thao tác, liên hệ đội ngũ Support để được hỗ trợ.
+If you encounter any errors during operation, contact the support team for assistance.
 :::

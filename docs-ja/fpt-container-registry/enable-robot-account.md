@@ -1,23 +1,23 @@
 ---
 id: "enable-robot-account"
-title: "Bật lại robot account"
-description: "Kích hoạt lại robot account đã bị tắt."
-sidebar_label: "Bật lại robot account"
+title: "Robot account を有効化する"
+description: "無効化された robot account を再び有効化する。"
+sidebar_label: "Robot account を有効化する"
 sidebar_position: "23"
 ---
 
-# Bật lại robot account
+# Robot account を有効化する
 
-Khi cần khôi phục quyền truy cập cho robot account đã bị tắt, thực hiện các bước sau. Tùy chọn **Enable** chỉ hiển thị với account đang ở trạng thái disabled.
+無効化された robot account のアクセスを復元するには、以下の手順を実行します。**Enable** オプションは、disabled 状態の account にのみ表示されます。
 
-1. Trong danh sách **Robot Account**, chọn robot account muốn bật lại, sau đó chọn **ACTION ENABLE**.
+1. **Robot Account** リストで有効化したい robot account を選択し、**ACTION ENABLE** を選択します。
 
-   [![Chọn ACTION ENABLE](/img/migrated/Picture72-22b86e1b.png)](/img/migrated/Picture72-22b86e1b.png)
+   [![ACTION ENABLE を選択](/img/migrated/Picture72-22b86e1b.png)](/img/migrated/Picture72-22b86e1b.png)
 
-2. Trong hộp thoại xác nhận, nhập **ENABLE** để thực hiện.
+2. 確認ダイアログで **ENABLE** と入力して実行します。
 
-   [![Nhập ENABLE để xác nhận](/img/migrated/Picture73-973e765b.png)](/img/migrated/Picture73-973e765b.png)
+   [![ENABLE を入力して確認](/img/migrated/Picture73-973e765b.png)](/img/migrated/Picture73-973e765b.png)
 
-3. Kiểm tra trạng thái **Enabled State** sau khi bật lại.
+3. 有効化後の **Enabled State** を確認します。
 
-   [![Trạng thái enabled của robot account](/img/migrated/Picture74-e9f34e4e.png)](/img/migrated/Picture74-e9f34e4e.png)
+   [![Robot account の enabled 状態](/img/migrated/Picture74-e9f34e4e.png)](/img/migrated/Picture74-e9f34e4e.png)

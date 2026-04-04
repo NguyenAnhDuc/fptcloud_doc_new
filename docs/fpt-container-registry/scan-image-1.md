@@ -1,44 +1,29 @@
 ---
 id: "scan-image-1"
-title: "イメージをスキャンする"
-description: "FPT Portal からコンテナイメージの脆弱性スキャンを実行する。"
-sidebar_label: "イメージをスキャンする"
-sidebar_position: "10"
+title: "Scan an image"
+description: "Steps to scan an artifact in a repository for security vulnerabilities."
+sidebar_label: "Scan an image"
+sidebar_position: "31"
 ---
 
-# イメージをスキャンする
+# Scan an image
 
-FPT Container Registry には、コンテナイメージの脆弱性スキャン機能が統合されています。定期的なスキャンにより、本番環境へのデプロイ前に CVE（共通脆弱性識別子）を早期に発見できます。
+Vulnerability scanning identifies CVEs (Common Vulnerabilities and Exposures) in images before deploying to production.
 
-## スキャンを実行する
+1. On the **FPT Portal** menu, select **Container Registry** > **Repository** > **Detail Repository**.
 
-1. サイドバーメニューで **Container Registry** > **Repository** > **Detail Repository** を選択します。
+   [![Repository details for scanning](/img/migrated/Picture90-097f05eb.png)](/img/migrated/Picture90-097f05eb.png)
 
-   [![スキャン対象のリポジトリ詳細](/img/migrated/Picture90-097f05eb.png)](/img/migrated/Picture90-097f05eb.png)
+2. Select the artifact you want to scan to display the **SCAN** button.
 
-2. スキャンしたい artifact を選択して **SCAN** ボタンを表示します。
+   [![Select artifact to display SCAN button](/img/migrated/Picture91-3e24672e.png)](/img/migrated/Picture91-3e24672e.png)
 
-   [![Artifact を選択して SCAN ボタンを表示](/img/migrated/Picture91-3e24672e.png)](/img/migrated/Picture91-3e24672e.png)
+3. Click **SCAN** to start scanning the image.
 
-3. **SCAN** をクリックしてスキャンを開始します。
+   [![SCAN button](/img/migrated/Picture92-c39690de.png)](/img/migrated/Picture92-c39690de.png)
 
-   [![スキャン実行中の状態](/img/migrated/Picture93-55409ce3.png)](/img/migrated/Picture93-55409ce3.png)
+   [![Scanning in progress](/img/migrated/Picture93-55409ce3.png)](/img/migrated/Picture93-55409ce3.png)
 
-4. スキャン完了後、結果を確認します。
+4. Verify the result after the scan completes.
 
-   [![スキャン結果](/img/migrated/Picture94-fd252260.png)](/img/migrated/Picture94-fd252260.png)
-
-## スキャン結果を確認する
-
-1. **Detail Repository** で **Vulnerabilities** テーブルをクリックして検出された脆弱性の数を確認します。
-
-2. **Detail Artifact** をクリックして各脆弱性の詳細を表示します。
-
-   [![脆弱性の詳細一覧](/img/migrated/Picture101-55d53435.png)](/img/migrated/Picture101-55d53435.png)
-
-## スキャンを停止する
-
-実行中のスキャンをキャンセルする場合:
-
-1. **Detail Repository** でスキャン中の artifact を選択して **STOP SCAN** ボタンを表示します。
-2. **STOP SCAN** をクリックしてスキャンを停止します。
+   [![Image scan result](/img/migrated/Picture94-fd252260.png)](/img/migrated/Picture94-fd252260.png)

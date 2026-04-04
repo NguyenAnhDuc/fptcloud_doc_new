@@ -1,29 +1,29 @@
 ---
 id: "change-worker-groups-configuration"
-title: "Change worker group configuration"
-description: "Modify the configuration of a worker group in a Managed FPT Kubernetes Engine cluster."
-sidebar_label: "Change worker group configuration"
+title: "Thay đổi cấu hình worker group"
+description: "Hướng dẫn thay đổi cấu hình worker group trong cluster Managed FPT Kubernetes Engine."
+sidebar_label: "Thay đổi cấu hình worker group"
 sidebar_position: "11"
 ---
 
-# Change worker group configuration
+# Thay đổi cấu hình worker group
 
-**Step 1:** In the menu, select **Kubernetes** to open the **Kubernetes Management** page. Select the cluster whose worker group configuration you want to modify.
+**Bước 1:** Ở menu chọn **Kubernetes** để mở trang **Kubernetes Management**. Chọn cluster muốn thay đổi cấu hình worker group.
 
 [![](/img/migrated/20-1-24780232.png)](/img/migrated/20-1-24780232.png)
 
-**Step 2:** Click **Configure Worker Groups**.
+**Bước 2:** Chọn **Configure Worker Groups**.
 
 [![](/img/migrated/21-1-daece880.png)](/img/migrated/21-1-daece880.png)
 
-**Step 3:** Adjust the parameters as needed.
+**Bước 3:** Điều chỉnh các thông số theo nhu cầu.
 
 [![](/img/migrated/22-1-a6f5fed9.png)](/img/migrated/22-1-a6f5fed9.png)
 
-**Step 4:** Verify the information and click **Save** to apply the worker group configuration.
+**Bước 4:** Kiểm tra lại thông tin và chọn **Save** để áp dụng cấu hình worker group.
 
 [![](/img/migrated/23-1-48952793.png)](/img/migrated/23-1-48952793.png)
 
-The cluster update process begins. You cannot edit the cluster during this time.
+Quá trình cập nhật cluster bắt đầu. Bạn không thể chỉnh sửa cluster trong thời gian này.
 
-When modifying worker group parameters, the system first creates new worker nodes with the desired configuration. Once the new nodes are ready, the old nodes are removed and pods are migrated to the new worker nodes.
+Khi thay đổi cấu hình worker group, hệ thống sẽ tạo worker node mới với cấu hình mong muốn trước. Sau khi node mới sẵn sàng, các node cũ sẽ bị xóa và pod được di chuyển sang worker node mới.

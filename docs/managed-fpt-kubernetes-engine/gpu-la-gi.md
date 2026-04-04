@@ -1,16 +1,19 @@
 ---
 id: "gpu-la-gi"
-title: "GPU là gì?"
-description: "GPU là gì?"
-sidebar_label: "GPU là gì?"
+title: "What is a GPU?"
+description: "An overview of GPUs and why they are increasingly used with Kubernetes for AI workloads."
+sidebar_label: "What is a GPU?"
 sidebar_position: "39"
 ---
 
-# GPU là gì
+# What is a GPU?
 
-GPU là gì? 
-Graphics processing units – GPU, là bộ vi xử lý sử dụng khả năng xử lý song song và băng thông bộ nhớ cao để thực hiện các tác vụ chuyên biệt như tăng tốc tạo đồ họa, tính toán đồng thời. GPU trở nên thiết yếu đối với các ứng dụng như trò chơi điện tử, xử lý hình ảnh 3D, chỉnh sửa video, khai thác tiền điện tử và học máy. GPU nhanh hơn và hiệu quả hơn CPU nhiều trong việc xử lý các phép tính toán số lượng lớn. 
-Đặt vấn đề: Nhu cầu sử dụng GPU trên Kubernetes 
-Cùng với sự phát triển của công nghệ, đặc biệt là các mô hình học sâu (Deep Learning), nhu cầu sử dụng GPU ngày càng tăng cao khi các hãng công nghệ đầu tư mạnh vào AI. Với sự ra đời của ChatGPT và các công cụ xử lý ngôn ngữ/hình ảnh/video khác chủ yếu dựa vào khả năng xử lý của AI, GPU cho thấy thế mạnh của mình, đây cũng chính là lý do tại sao các công ty công nghệ lớn muốn sử dụng [GPU](https://www.thegioimaychu.vn/blog/thuat-ngu/gpu/?utm_source=tmblog&utm_medium=inlinekwd) để đáp ứng các yêu cầu AI đang phát triển của họ. 
-GPU nhanh hơn nhiều so với CPU trong Deep Learning, vì giai đoạn training tốn nhiều tài nguyên. Trong kiến trúc của GPU, vi xử lý có nhiều core và băng thông bộ nhớ cao nên quá trình deep learning hiệu quả hơn nhiều so với CPU. 
-Kết hợp với GPU, Kubernetes là giải pháp phù hợp cho AI, ngày càng có nhiều data scientists lựa chọn Kubernetes để tối ưu hóa việc đào tạo và triển khai mô hình AI, bởi các lý do sau: tự động triển khai, dễ dàng mở rộng quy mô, cộng đồng phát triển đông đảo và hỗ trợ nhiều tính năng.
+A Graphics Processing Unit (GPU) is a processor that uses parallel processing capability and high memory bandwidth to perform specialized tasks such as accelerating graphics rendering and simultaneous computation. GPUs have become essential for applications such as gaming, 3D image processing, video editing, cryptocurrency mining, and machine learning. GPUs are significantly faster and more efficient than CPUs when processing large volumes of numerical calculations.
+
+## The need for GPUs in Kubernetes
+
+With the advancement of technology, especially deep learning models, the demand for GPU usage has grown rapidly as technology companies invest heavily in AI. With the emergence of ChatGPT and other language/image/video processing tools that primarily rely on AI processing capability, GPUs have demonstrated their strength. This is why major technology companies want to use GPUs to meet their growing AI requirements.
+
+GPUs are much faster than CPUs in deep learning because the training phase is highly resource-intensive. The GPU architecture, with its many cores and high memory bandwidth, makes the deep learning process significantly more efficient than with CPUs.
+
+Combined with GPUs, Kubernetes is a suitable solution for AI. An increasing number of data scientists are choosing Kubernetes to optimize the training and deployment of AI models for the following reasons: automated deployment, easy scaling, a large and active community, and support for many features.

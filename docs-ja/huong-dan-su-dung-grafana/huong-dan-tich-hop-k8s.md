@@ -1,59 +1,44 @@
 ---
 id: "huong-dan-tich-hop-k8s"
-title: "K8s 統合ガイド"
-description: "FPT Cloud 上の Kubernetes クラスターに対する Monitoring の統合および統合解除ガイド。"
-sidebar_label: "K8s の統合"
-sidebar_position: 9
+title: "Huong Dan Tich Hop K8s"
+description: ""
+sidebar_label: "Huong Dan Tich Hop K8s"
+sidebar_position: "9"
 ---
 
-# K8s 統合ガイド
+# Kubernetes integration guide
 
-## ステップ 1: Monitoring 機能へのアクセス
+## Step 1: Access the Monitoring feature
 
-- Console ポータルでクラスターの詳細画面にアクセスします。
-- Monitoring タブを選択します。
+- On the Console Portal, go to the detail page of a cluster.
+- Select the **Monitoring** tab.
 
-システムが Monitoring 統合画面を表示します。
+The system displays the Monitoring integration screen.
 
-[![Alt text](/img/migrated/Screenshot_20-99aa1fa8.png)](/img/migrated/Screenshot_20-99aa1fa8.png)
+[![](/img/migrated/Screenshot_20-99aa1fa8.png)](/img/migrated/Screenshot_20-99aa1fa8.png)
 
-## ステップ 2: 統合 / 統合解除
+## Step 2: Integrate or disintegrate
 
-### 1. 統合（Integrate）
+### Integrate
 
-クラスターの metrics/logs 収集を有効にします。
+Enable metrics and logs collection for the cluster.
 
-- Monitoring 画面で、統合したいワークスペースに対応する **"Integrate"** アクションを選択します。
+- On the Monitoring screen, select the **Integrate** action for the workspace to integrate.
+- Confirm the action in the confirmation dialog to complete.
+- After successful integration, the Integrated Status changes to **Enabled** and the FPT Monitoring system begins collecting the corresponding metrics.
 
-<ảnh minh họa đang cập nhật>
+### Disintegrate
 
-- 確認ダイアログで操作を確認して完了します。
+Disable metrics and logs collection for the cluster.
 
-<ảnh minh họa đang cập nhật>
+- On the Monitoring screen, select the **Disintegrate** action for the workspace to stop monitoring.
+- Confirm the action in the confirmation dialog to complete.
+- After successful disintegration, the Integrated Status changes to **Disabled** and the FPT Monitoring system stops collecting metrics.
 
-- 統合が成功すると、Integrated Status が **"Enabled"** に変わり、FPT Monitoring システムが対応する指標の収集を開始します。
+## Step 3: Access the Grafana dashboard and view monitoring data
 
-<ảnh minh họa đang cập nhật>
+- After successful integration (Integrated Status = "Enabled"), click the Dashboard URL.
+- Then integrate the corresponding dashboard templates — see [3.1. Integrate dashboard template](./tich-hop-dashboard-template.md).
+- Open the integrated dashboard to view monitoring information.
 
-### 2. 統合解除（Disintegrate）
-
-データベースクラスターの metrics/logs 収集を無効にします。
-
-- Monitoring 画面で、監視を解除したいワークスペースに対応する **"Disintegrate"** アクションを選択します。
-- 確認ダイアログで操作を確認して完了します。
-- 統合解除が成功すると、Integrated Status が **"Disabled"** に変わり、FPT Monitoring システムが対応する指標の収集を停止します。
-
-<ảnh minh họa đang cập nhật>
-
-## ステップ 3: Grafana dashboard へのアクセスと監視情報の確認
-
-- 監視の統合が成功した後（Integrated Status = "Enabled"）、Dashboard URL をクリックします。
-
-<ảnh minh họa đang cập nhật>
-
-- 次に対応する dashboard template を統合します。詳細は **3.1. Dashboard Template の統合** をご参照ください。
-- 統合した dashboard を開いて Monitoring 情報を確認します。
-
-*イメージ図*
-
-[![Alt text](/img/migrated/Screenshot_21-31d7364e.png)](/img/migrated/Screenshot_21-31d7364e.png)
+[![](/img/migrated/Screenshot_21-31d7364e.png)](/img/migrated/Screenshot_21-31d7364e.png)
