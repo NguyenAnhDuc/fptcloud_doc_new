@@ -31,6 +31,14 @@ const LANGS = [
   { code: 'ja', dir: 'docs-ja', label: 'Japanese' },
 ];
 
+// ── Baseline noise from web page chrome (nav, sidebar, footer, etc.) ──
+// Estimated from minimum values across all 876 crawled pages.
+// Every web page renders shared UI that inflates word/image/heading counts.
+const WEB_BASELINE = {
+  words: 750,
+  images: 52,
+};
+
 // ── Parse CLI args ─────────────────────────────────────────────────
 
 const args = process.argv.slice(2);
@@ -192,23 +200,50 @@ function normalize(str) {
     .trim();
 }
 
-function compareFingerprints(crawled, local, slug) {
+/**
+ * Filter out chrome/nav headings from crawled fingerprint.
+ * The web SPA renders the module name (e.g. "Cloud Server", "FPT Data Platform")
+ * as an h1 on every page — this is page chrome, not doc content.
+ *
+ * Strategy: compare each h1 against the module name. If it matches (exact or
+ * fuzzy normalize), it's chrome and should be excluded.
+ */
+function filterChromeHeadings(headings, moduleName) {
+  const normModule = normalize(moduleName || '');
+  return headings.filter(h => {
+    // Only filter h1-level chrome headings
+    if (h.level !== 1) return true;
+    const normText = normalize(h.text);
+    // Exact match with module name
+    if (normText === normModule) return false;
+    // Module name is contained in heading or vice versa (handles dashes/spaces)
+    if (normModule && (normText.includes(normModule) || normModule.includes(normText))) return false;
+    return true;
+  });
+}
+
+function compareFingerprints(crawled, local, slug, moduleName) {
   const cf = crawled;
   const lf = local;
 
+  // Apply baseline adjustment: subtract shared chrome noise from web fingerprint
+  const adjWords = Math.max(0, cf.wordCount - WEB_BASELINE.words);
+  const adjImages = Math.max(0, cf.imageCount - WEB_BASELINE.images);
+  const adjHeadings = filterChromeHeadings(cf.headings, moduleName);
+
   const issues = [];
 
-  // 1. Heading count
-  const headingDiff = lf.headings.length - cf.headings.length;
-  if (cf.headings.length > 0 && lf.headings.length === 0) {
-    issues.push({ type: 'NO_HEADINGS', severity: 'HIGH', detail: `Crawled has ${cf.headings.length} headings, local has 0` });
+  // 1. Heading count (using adjusted headings)
+  const headingDiff = lf.headings.length - adjHeadings.length;
+  if (adjHeadings.length > 0 && lf.headings.length === 0) {
+    issues.push({ type: 'NO_HEADINGS', severity: 'HIGH', detail: `Web content has ${adjHeadings.length} headings, local has 0` });
   } else if (Math.abs(headingDiff) > 3) {
-    issues.push({ type: 'HEADING_COUNT_DIFF', severity: 'MEDIUM', detail: `Crawled: ${cf.headings.length}, Local: ${lf.headings.length} (diff: ${headingDiff > 0 ? '+' : ''}${headingDiff})` });
+    issues.push({ type: 'HEADING_COUNT_DIFF', severity: 'MEDIUM', detail: `Web: ${adjHeadings.length}, Local: ${lf.headings.length} (diff: ${headingDiff > 0 ? '+' : ''}${headingDiff})` });
   }
 
-  // 2. Missing headings (crawled headings not found in local)
+  // 2. Missing headings (adjusted crawled headings not found in local)
   const localHeadingTexts = new Set(lf.headings.map(h => normalize(h.text)));
-  const missingHeadings = cf.headings.filter(h => {
+  const missingHeadings = adjHeadings.filter(h => {
     const norm = normalize(h.text);
     if (localHeadingTexts.has(norm)) return false;
     // Fuzzy: check if any local heading contains the crawled heading text
@@ -222,41 +257,40 @@ function compareFingerprints(crawled, local, slug) {
     issues.push({
       type: 'MISSING_HEADINGS',
       severity: missingHeadings.length > 2 ? 'HIGH' : 'LOW',
-      detail: `${missingHeadings.length} headings from crawled not found in local`,
+      detail: `${missingHeadings.length} headings from web not found in local`,
       headings: missingHeadings.map(h => `h${h.level}: ${h.text}`).slice(0, 10),
     });
   }
 
-  // 3. Image count
-  const imgDiff = lf.imageCount - cf.imageCount;
-  if (cf.imageCount > 0 && lf.imageCount === 0) {
-    issues.push({ type: 'NO_IMAGES', severity: 'HIGH', detail: `Crawled has ${cf.imageCount} images, local has 0` });
-  } else if (cf.imageCount > 0 && imgDiff < -2) {
-    issues.push({ type: 'FEWER_IMAGES', severity: 'MEDIUM', detail: `Crawled: ${cf.imageCount}, Local: ${lf.imageCount} (missing ${Math.abs(imgDiff)})` });
+  // 3. Image count (using adjusted count)
+  const imgDiff = lf.imageCount - adjImages;
+  if (adjImages > 3 && lf.imageCount === 0) {
+    issues.push({ type: 'NO_IMAGES', severity: 'HIGH', detail: `Web content has ~${adjImages} images, local has 0` });
+  } else if (adjImages > 3 && imgDiff < -2) {
+    issues.push({ type: 'FEWER_IMAGES', severity: 'MEDIUM', detail: `Web: ~${adjImages}, Local: ${lf.imageCount} (missing ~${Math.abs(imgDiff)})` });
   }
 
-  // 4. Table count
+  // 4. Table count (tables are not inflated by chrome — keep as-is)
   const tableDiff = lf.tableCount - cf.tableCount;
   if (cf.tableCount > 0 && lf.tableCount === 0) {
-    issues.push({ type: 'NO_TABLES', severity: 'MEDIUM', detail: `Crawled has ${cf.tableCount} tables, local has 0` });
+    issues.push({ type: 'NO_TABLES', severity: 'MEDIUM', detail: `Web has ${cf.tableCount} tables, local has 0` });
   } else if (cf.tableCount > 0 && tableDiff < -1) {
-    issues.push({ type: 'FEWER_TABLES', severity: 'LOW', detail: `Crawled: ${cf.tableCount}, Local: ${lf.tableCount}` });
+    issues.push({ type: 'FEWER_TABLES', severity: 'LOW', detail: `Web: ${cf.tableCount}, Local: ${lf.tableCount}` });
   }
 
-  // 5. Code block count
-  const codeDiff = lf.codeBlockCount - cf.codeBlockCount;
+  // 5. Code block count (not inflated by chrome — keep as-is)
   if (cf.codeBlockCount > 0 && lf.codeBlockCount === 0) {
-    issues.push({ type: 'NO_CODE_BLOCKS', severity: 'MEDIUM', detail: `Crawled has ${cf.codeBlockCount} code blocks, local has 0` });
+    issues.push({ type: 'NO_CODE_BLOCKS', severity: 'MEDIUM', detail: `Web has ${cf.codeBlockCount} code blocks, local has 0` });
   }
 
-  // 6. Word count difference
-  if (cf.wordCount > 50) {
-    const pctDiff = ((lf.wordCount - cf.wordCount) / cf.wordCount * 100);
+  // 6. Word count difference (using adjusted count)
+  if (adjWords > 50) {
+    const pctDiff = ((lf.wordCount - adjWords) / adjWords * 100);
     if (pctDiff < -threshold) {
       issues.push({
         type: 'WORD_COUNT_LOW',
         severity: pctDiff < -60 ? 'HIGH' : 'MEDIUM',
-        detail: `Crawled: ${cf.wordCount} words, Local: ${lf.wordCount} words (${pctDiff.toFixed(0)}%)`,
+        detail: `Web: ~${adjWords} words (raw ${cf.wordCount} - ${WEB_BASELINE.words} baseline), Local: ${lf.wordCount} words (${pctDiff.toFixed(0)}%)`,
       });
     }
   }
@@ -265,10 +299,13 @@ function compareFingerprints(crawled, local, slug) {
     slug,
     crawled: {
       headings: cf.headings.length,
+      headingsAdj: adjHeadings.length,
       images: cf.imageCount,
+      imagesAdj: adjImages,
       tables: cf.tableCount,
       codeBlocks: cf.codeBlockCount,
       words: cf.wordCount,
+      wordsAdj: adjWords,
     },
     local: {
       headings: lf.headings.length,
@@ -342,7 +379,7 @@ function main() {
       }
 
       const localFp = extractMdFingerprint(localContent);
-      const comparison = compareFingerprints(fp, localFp, slug);
+      const comparison = compareFingerprints(fp, localFp, slug, pg.module);
       comparison.module = pg.module;
       comparison.category = pg.category;
       comparison.label = pg.label;
