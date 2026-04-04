@@ -524,939 +524,794 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "cloud-server/Initial-Setup",
-              label:  "Thiết lập ban đầu"
+              id:  "cloud-server/Initial-Setup"
             },
             {
               type:  "category",
-              label:  "Tạo một máy ảo",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "cloud-server/quick-starts-tao-mot-may-ao",
-                  label:  "Tạo một máy ảo"
+                  type:  "category",
+                  label:  "Tạo một máy ảo",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quick-starts-tao-mot-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/create-vm-iso"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/create-vm-iso",
-                  label:  "Lưu ý khi tạo máy ảo từ file ISO"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/clone-instance",
-              label:  "Nhân bản máy ảo"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/quick-starts-tatbat-may-ao",
-              label:  "Tắt/Bật máy ảo"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao",
-              label:  "Khởi động lại máy ảo"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/quick-starts-xoa-may-ao",
-              label:  "Xóa máy ảo"
-            },
-            {
-              type:  "category",
-              label:  "Quản lý máy ảo",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/quan-ly-may-ao",
-                  label:  "Quản lý máy ảo"
+                  id:  "cloud-server/clone-instance"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi",
-                  label:  "Khởi tạo một máy ảo mới"
+                  id:  "cloud-server/quick-starts-tatbat-may-ao"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows",
-                  label:  "Kết nối vào máy ảo Windows"
+                  id:  "cloud-server/quick-starts-khoi-dong-lai-may-ao"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux",
-                  label:  "Kết nối vào máy ảo Linux"
+                  id:  "cloud-server/lock-unlock-instance-deletion"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/attach-a-network-card-to-the-virtual-machine",
-                  label:  "Gắn thêm card mạng (NIC) vào máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/remove-the-network-card-from-the-virtual-machine",
-                  label:  "Gỡ card mạng (NIC) khỏi máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao",
-                  label:  "Tra cứu thông tin máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu",
-                  label:  "Thay đổi cấu hình máy chủ"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot",
-                  label:  "Backup máy chủ với Snapshot"
+                  id:  "cloud-server/quick-starts-xoa-may-ao"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Quản lý GPU với Portal Console",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "cloud-server/GPU",
-                  label:  "Quản lý GPU với Portal Console"
+                  type:  "category",
+                  label:  "Quản lý máy ảo",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quan-ly-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-khoi-tao-mot-may-ao-moi"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-windows"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-ket-noi-vao-may-ao-linux"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/attach-a-network-card-to-the-virtual-machine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/remove-the-network-card-from-the-virtual-machine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý GPU với Portal Console",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/GPU"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/gpu-general"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/gpu-specific"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý GPU Server với HPC Portal",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quan-ly-gpu-voi-hpc-portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-quick-start"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-change-package"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-fixed-rental"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-snapshot-backup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-hardware-fixation"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-rest-machine"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-schedule-shutdown"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-clone-image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-level-2-password"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/hpc-delete-image"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Block Storage",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/block-storage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tao-storage-disk"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/gan-storage-disk-vao-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/go-storage-disk-khoi-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/edit-storage-disk"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/xoa-storage-disk"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/gpu-general",
-                  label:  "Quản lý GPU với Console Portal"
+                  id:  "cloud-server/profile-ssh-key"
+                },
+                {
+                  type:  "category",
+                  label:  "Token",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "user-token/user-token"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "user-token/overview"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "user-token/create-token"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "user-token/revoke-token"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "user-token/fqas"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Custom Images",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/custom-images-overview"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tai-len-custom-image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/xoa-custom-image"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Instance Template",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-quan-ly-instance-template"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-tao-instance-tu-template"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-xoa-template"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "NAT Instance",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/nat_instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/overview-nat-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/Initial-Setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/use-nat-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/setting-nat-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nat_instance/question"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý NIC (Network Interface Card)",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "nic/nic"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/create-card-NIC- Primary"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/disable-NIC-card"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/enable-NIC-card"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/add-card-NIC- new"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/convert-card"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/edit-ip-address"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/change-address-MAC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "nic/delete-card-NIC"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Networking",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/network-all"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/networking-overview"
+                    },
+                    {
+                      type:  "category",
+                      label:  "Gateway",
+                      collapsed:  true,
+                      items:  [
+                        {
+                          type:  "doc",
+                          id:  "gateway/gateway"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/huong-dan"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/quan-ly-danh-sach-gateway"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/quan-ly-route-1-gateway"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/quan-ly-nat-tung-gateway"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/quan-ly-no-nat-rule-theo-gateway"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "gateway/tinh-nang-khac"
+                        }
+                      ]
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quan-ly-floating-ip"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/Quản lý Subnets"
+                    },
+                    {
+                      type:  "category",
+                      label:  "Allow Address Pair",
+                      collapsed:  true,
+                      items:  [
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/allow-address-pair"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/initial-setup"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/create-address-pair"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/create-address-pair-on-instance-management"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/delete-address-pair"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/activity-log"
+                        },
+                        {
+                          type:  "doc",
+                          id:  "allow-address-pair/question-1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Security Group",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quan-ly-security-group"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/security-group-filter"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/security-group-priority-rule"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Terraform",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "terraform/terraform"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "terraform/overview-terraform"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "terraform/set-up"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "terraform/document-terraform"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "terraform/command-terraform"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Instance Group (Affinity & Anti-Affinity)",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "affinity-anti-affinity/affinity-anti-affinity"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "affinity-anti-affinity/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "affinity-anti-affinity/create-instance-group"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "affinity-anti-affinity/add-instance-instance-group"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "affinity-anti-affinity/delete-instance-group"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Notification Bell",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "notification-bell/notification-bell"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "notification-bell/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "notification-bell/show-notification"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "notification-bell/see-notification-bell"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý Project",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/project-structure"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/quan-ly-project"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/select-project-when-creating-VPC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/header-project"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/gpu-specific",
-                  label:  "Quản lý GPU cho dịch vụ Specific"
+                  id:  "cloud-server/new-quota"
+                },
+                {
+                  type:  "category",
+                  label:  "Auto Schedule",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/auto-schedule-to-on-off-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/manage-version-schedules"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/create-new-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/view-detail-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/delete-instance-schedule"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/use-instance-schedules-for-virtual-machines"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/attach-schedule-to-instance"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "auto-schedule-to-on-off-instance/detach-schedule-to-instance"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Lịch snapshot máy ảo",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/schedule-snapshotVM"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/create-schedule-snapshotVM"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/viewschedule-snapshotVM"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/editschedule-snapshotVM"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/deleteschedule-snapshotVM"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Lịch snapshot ổ đĩa",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/schedule-snapshotstorage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/createschedule-snapshotstorage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/viewschedule-snapshotstorage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/editschedule-snapshotstorage"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/deleteschedule-snapshotstorage"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Lock & Unlock Instance Deletion",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "lock-unlock-instance-deletion/lock-unlock-instance-deletion"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "lock-unlock-instance-deletion/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "lock-unlock-instance-deletion/lock-instance-deletion"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "lock-unlock-instance-deletion/unlock-instance-deletion"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Change Network Config",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "change-network-config/change-network-config"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "change-network-config/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "change-network-config/change-static-IP-in-Ubuntu-server"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "change-network-config/change-static-IP-in-window-server"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "change-network-config/change-statis-IP-in-CentOS"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Relation Management",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "relation-management/relation-management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/initial-setup"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/tao-work-space"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/truy-cap-dich-vu"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/tag-management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/component-management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/relation-management-detail"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/datasource-relation-management"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/dashboard"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "relation-management/alert"
+                    }
+                  ]
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Quản lý GPU Server với HPC Portal",
+              label:  "Các câu hỏi thường gặp (FAQs)",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "cloud-server/quan-ly-gpu-voi-hpc-portal",
-                  label:  "Quản lý GPU Server với HPC Portal"
+                  id:  "cloud-server/question-2"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/hpc-quick-start",
-                  label:  "Hướng dẫn nhanh"
+                  id:  "cloud-server/question-1"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/hpc-change-package",
-                  label:  "Đổi cấu hình máy"
+                  id:  "cloud-server/question-"
                 },
                 {
                   type:  "doc",
-                  id:  "cloud-server/hpc-fixed-rental",
-                  label:  "Đặt thời gian thuê cố định"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-snapshot-backup",
-                  label:  "Sao lưu image"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-hardware-fixation",
-                  label:  "Cố định máy vật lý"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-rest-machine",
-                  label:  "Khởi động lại máy"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-schedule-shutdown",
-                  label:  "Đặt lịch tắt máy"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-clone-image",
-                  label:  "Clone image"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-level-2-password",
-                  label:  "Đặt mật khẩu cấp 2"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/hpc-delete-image",
-                  label:  "Xóa image"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Block Storage",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/block-storage",
-                  label:  "Block Storage"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tao-storage-disk",
-                  label:  "Tạo Storage Disk"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/gan-storage-disk-vao-may-ao",
-                  label:  "Gắn Storage Disk vào máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows",
-                  label:  "Cấu hình ổ đĩa cho máy ảo chạy Windows"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/go-storage-disk-khoi-may-ao",
-                  label:  "Gỡ Storage Disk khỏi máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/edit-storage-disk",
-                  label:  "Chỉnh sửa Storage Disk"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/xoa-storage-disk",
-                  label:  "Xóa Storage Disk"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/profile-ssh-key",
-              label:  "SSH Key"
-            },
-            {
-              type:  "category",
-              label:  "Custom Images",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/custom-images-overview",
-                  label:  "Custom Images Overview"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tai-len-custom-image",
-                  label:  "Tải lên Custom Image"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/xoa-custom-image",
-                  label:  "Xóa Custom Image"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Instance Template",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-quan-ly-instance-template",
-                  label:  "Quản lý Instance Template"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-khoi-tao-template-tu-may-ao",
-                  label:  "Khởi tạo template từ máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao",
-                  label:  "Quản lý template trên Custom Images"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-tao-instance-tu-template",
-                  label:  "Tạo Instance từ template"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/tutorials-xoa-template",
-                  label:  "Xóa template"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/nat-instance",
-              label:  "NAT Instance"
-            },
-            {
-              type:  "category",
-              label:  "Networking",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/network-all",
-                  label:  "Tổng quan Networking"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/networking-overview",
-                  label:  "Chi tiết Networking"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/quan-ly-floating-ip",
-                  label:  "Quản lý Floating IP"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/Quản lý Subnets",
-                  label:  "Quản lý Subnets"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Security Group",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/quan-ly-security-group",
-                  label:  "Quản lý Security Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/security-group-filter",
-                  label:  "Filter Security Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/security-group-priority-rule",
-                  label:  "Quản lý Priority Rule"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/overview-bell",
-              label:  "Notification Bell"
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Project",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/project-structure",
-                  label:  "Quản lý Project"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/quan-ly-project",
-                  label:  "Quản lý Project chi tiết"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/select-project-when-creating-VPC",
-                  label:  "Chọn Project khi tạo VPC"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/header-project",
-                  label:  "Thay đổi giao diện header"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/new-quota",
-              label:  "Dịch vụ PAYG"
-            },
-            {
-              type:  "category",
-              label:  "Lịch snapshot máy ảo",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/schedule-snapshotVM",
-                  label:  "Lịch snapshot máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/create-schedule-snapshotVM",
-                  label:  "Tạo lịch snapshot máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/viewschedule-snapshotVM",
-                  label:  "Xem chi tiết"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/editschedule-snapshotVM",
-                  label:  "Chỉnh sửa"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/deleteschedule-snapshotVM",
-                  label:  "Xóa lịch snapshot máy ảo"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Lịch snapshot ổ đĩa",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "cloud-server/schedule-snapshotstorage",
-                  label:  "Lịch snapshot ổ đĩa"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/createschedule-snapshotstorage",
-                  label:  "Tạo lịch snapshot ổ đĩa"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/viewschedule-snapshotstorage",
-                  label:  "Xem chi tiết"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/editschedule-snapshotstorage",
-                  label:  "Chỉnh sửa"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/deleteschedule-snapshotstorage",
-                  label:  "Xóa lịch snapshot ổ đĩa"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/question-2",
-              label:  "FAQ: Tùy chỉnh rule Security Group"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/question-1",
-              label:  "FAQ: Hiệu chỉnh Address Pair"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/question-",
-              label:  "FAQ: NAT Instance"
-            },
-            {
-              type:  "doc",
-              id:  "cloud-server/cloud-server",
-              label:  "Tổng quan"
-            },
-            {
-              type:  "category",
-              label:  "Affinity Anti Affinity",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "affinity-anti-affinity/affinity-anti-affinity",
-                  label:  "Tổng quan"
-                },
-                {
-                  type:  "doc",
-                  id:  "affinity-anti-affinity/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "affinity-anti-affinity/create-instance-group",
-                  label:  "Khởi tạo Instance Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "affinity-anti-affinity/add-instance-instance-group",
-                  label:  "Gắn Instance vào Instance Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "affinity-anti-affinity/delete-instance-group",
-                  label:  "Xóa Instance Group"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Allow Address Pair",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/allow-address-pair",
-                  label:  "Allow Address Pair"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/create-address-pair",
-                  label:  "Tạo address pair"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/create-address-pair-on-instance-management",
-                  label:  "Tạo address pair trong Instance Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/delete-address-pair",
-                  label:  "Xóa address pair"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/activity-log",
-                  label:  "Activity Log"
-                },
-                {
-                  type:  "doc",
-                  id:  "allow-address-pair/question-1",
-                  label:  "Thay đổi cấu hình address pair"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Auto Schedule To On Off Instance",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/auto-schedule-to-on-off-instance",
-                  label:  "Auto schedule bật/tắt instance"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/manage-version-schedules",
-                  label:  "Quản lý instance schedules"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/create-new-instance",
-                  label:  "Tạo một instance schedule mới"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/view-detail-instance",
-                  label:  "Xem chi tiết một instance schedule"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/delete-instance-schedule",
-                  label:  "Xóa một instance schedule"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/use-instance-schedules-for-virtual-machines",
-                  label:  "Sử dụng instance schedule cho máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/attach-schedule-to-instance",
-                  label:  "Gắn máy ảo vào instance schedule"
-                },
-                {
-                  type:  "doc",
-                  id:  "auto-schedule-to-on-off-instance/detach-schedule-to-instance",
-                  label:  "Gỡ máy ảo khỏi instance schedule"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Change Network Config",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "change-network-config/change-network-config",
-                  label:  "Thay đổi cấu hình mạng"
-                },
-                {
-                  type:  "doc",
-                  id:  "change-network-config/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "change-network-config/change-static-IP-in-Ubuntu-server",
-                  label:  "Đặt IP tĩnh trên Ubuntu Server"
-                },
-                {
-                  type:  "doc",
-                  id:  "change-network-config/change-static-IP-in-window-server",
-                  label:  "Đặt IP tĩnh trên Windows Server"
-                },
-                {
-                  type:  "doc",
-                  id:  "change-network-config/change-statis-IP-in-CentOS",
-                  label:  "Đặt IP tĩnh trên CentOS"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-portal/fpt-cloud-portal",
-              label:  "FPT Cloud Portal"
-            },
-            {
-              type:  "category",
-              label:  "Gateway",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "gateway/gateway",
-                  label:  "Gateway"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/huong-dan",
-                  label:  "Hướng dẫn truy cập"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/quan-ly-danh-sach-gateway",
-                  label:  "Quản lý danh sách Gateway"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/quan-ly-route-1-gateway",
-                  label:  "Quản lý Route"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/quan-ly-nat-tung-gateway",
-                  label:  "Quản lý NAT Rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/quan-ly-no-nat-rule-theo-gateway",
-                  label:  "Quản lý NO NAT Rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "gateway/tinh-nang-khac",
-                  label:  "Tính năng khác"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Lock Unlock Instance Deletion",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "lock-unlock-instance-deletion/lock-unlock-instance-deletion",
-                  label:  "Khóa & mở khóa xóa máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "lock-unlock-instance-deletion/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "lock-unlock-instance-deletion/lock-instance-deletion",
-                  label:  "Khóa xóa máy ảo"
-                },
-                {
-                  type:  "doc",
-                  id:  "lock-unlock-instance-deletion/unlock-instance-deletion",
-                  label:  "Mở khóa xóa máy ảo"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Nat Instance",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "nat_instance/nat_instance",
-                  label:  "NAT Instance"
-                },
-                {
-                  type:  "doc",
-                  id:  "nat_instance/overview-nat-instance",
-                  label:  "Tổng quan NAT Instance"
-                },
-                {
-                  type:  "doc",
-                  id:  "nat_instance/Initial-Setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "nat_instance/use-nat-instance",
-                  label:  "Tính năng chỉ áp dụng cho người dùng mua dịch vụ loại General"
-                },
-                {
-                  type:  "doc",
-                  id:  "nat_instance/setting-nat-instance",
-                  label:  "Cấu hình NAT Instance"
-                },
-                {
-                  type:  "doc",
-                  id:  "nat_instance/question",
-                  label:  "NAT Instance có thể được sử dụng như một instance thông thường không?"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Nic",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "nic/nic",
-                  label:  "Network Interface Card (NIC)"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/create-card-NIC- Primary",
-                  label:  "Khởi tạo card NIC Primary"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/disable-NIC-card",
-                  label:  "Disable card NIC"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/enable-NIC-card",
-                  label:  "Enable card NIC"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/add-card-NIC- new",
-                  label:  "Thêm card NIC mới"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/convert-card",
-                  label:  "Chuyển card thành Primary"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/edit-ip-address",
-                  label:  "Chỉnh sửa địa chỉ IP"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/change-address-MAC",
-                  label:  "Thay đổi địa chỉ MAC"
-                },
-                {
-                  type:  "doc",
-                  id:  "nic/delete-card-NIC",
-                  label:  "Xóa card NIC"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Notification Bell",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "notification-bell/notification-bell",
-                  label:  "Notification Bell"
-                },
-                {
-                  type:  "doc",
-                  id:  "notification-bell/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "notification-bell/show-notification",
-                  label:  "Xem biểu tượng chuông thông báo"
-                },
-                {
-                  type:  "doc",
-                  id:  "notification-bell/see-notification-bell",
-                  label:  "Xem danh sách thông báo"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Relation Management",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "relation-management/relation-management",
-                  label:  "Relation Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/initial-setup",
-                  label:  "Thiết lập ban đầu"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal",
-                  label:  "Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/tao-work-space",
-                  label:  "Tao Work Space"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/truy-cap-dich-vu",
-                  label:  "Các bước thực hiện như sau:"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/tag-management",
-                  label:  "Tag Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/component-management",
-                  label:  "Component Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/relation-management-detail",
-                  label:  "1, Tạo relation"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/datasource-relation-management",
-                  label:  "Datasource Relation Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/dashboard",
-                  label:  "Bảng điều khiển"
-                },
-                {
-                  type:  "doc",
-                  id:  "relation-management/alert",
-                  label:  "Alert"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Terraform",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "terraform/terraform",
-                  label:  "Terraform"
-                },
-                {
-                  type:  "doc",
-                  id:  "terraform/overview-terraform",
-                  label:  "Tổng quan Terraform"
-                },
-                {
-                  type:  "doc",
-                  id:  "terraform/set-up",
-                  label:  "Hướng dẫn cài đặt"
-                },
-                {
-                  type:  "doc",
-                  id:  "terraform/document-terraform",
-                  label:  "Tài liệu Terraform"
-                },
-                {
-                  type:  "doc",
-                  id:  "terraform/command-terraform",
-                  label:  "Script tài nguyên Terraform"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "User Token",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "user-token/user-token",
-                  label:  "Token"
-                },
-                {
-                  type:  "doc",
-                  id:  "user-token/overview",
-                  label:  "Tổng quan"
-                },
-                {
-                  type:  "doc",
-                  id:  "user-token/create-token",
-                  label:  "Tạo token mới"
-                },
-                {
-                  type:  "doc",
-                  id:  "user-token/quick-start",
-                  label:  "Quick Start"
-                },
-                {
-                  type:  "doc",
-                  id:  "user-token/revoke-token",
-                  label:  "Thu hồi token"
-                },
-                {
-                  type:  "doc",
-                  id:  "user-token/fqas",
-                  label:  "Câu hỏi thường gặp"
+                  id:  "cloud-server/cloud-server"
                 }
               ]
             }

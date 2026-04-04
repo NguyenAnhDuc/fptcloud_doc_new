@@ -1,559 +1,558 @@
-slug,module,category,localFile,high,medium,low,total_issues,issue_types,web_words_adj,doc_words,word_gap_pct,web_imgs_adj,doc_imgs
-quan-ly-floating-ip,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-floating-ip.md,3,1,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1171,187,84%,13,0
-cac-luu-y-khi-su-dung-fke,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/cac-luu-y-khi-su-dung-fke.md,3,1,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",548,61,89%,5,0
-gateway,Cloud Server,FPT Cloud Server,cloud-server/gateway.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1715,17,99%,21,0
-quan-ly-security-group,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-security-group.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1590,35,98%,21,0
-microservices-architecture-on-fke,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/microservices-architecture-on-fke.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1612,59,96%,6,0
-Initial-Setup,Cloud Server,FPT Cloud Server,cloud-guard/Initial-Setup.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1533,40,97%,14,0
-SDK-API-Reference,FPT Object Storage,FPT Storage,fpt-object-storage/SDK-API-Reference.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1903,432,77%,4,0
-gpu-sharing,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/gpu-sharing.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1335,87,93%,7,0
-db-proxy,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-proxy.md,2,2,1,5,"HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1231,11,99%,12,0
-hpc-quick-start,Cloud Server,FPT Cloud Server,cloud-server/hpc-quick-start.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1124,32,97%,12,0
-mysql-troubleshooting,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/mysql-troubleshooting.md,2,2,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",2105,1108,47%,8,0
-service-type-load-balancer,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/service-type-load-balancer.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1035,48,95%,5,0
-security-group-priority-rule,Cloud Server,FPT Cloud Server,cloud-server/security-group-priority-rule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",950,22,98%,8,0
-change-network-config,Cloud Server,FPT Cloud Server,cloud-server/change-network-config.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",992,65,93%,26,0
-hpc-fixed-rental,Cloud Server,FPT Cloud Server,cloud-server/hpc-fixed-rental.md,2,1,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, WORD_COUNT_LOW",998,73,93%,7,0
-security-group-filter,Cloud Server,FPT Cloud Server,cloud-server/security-group-filter.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",938,27,97%,6,0
-allow-address-pair,Cloud Server,FPT Cloud Server,allow-address-pair/allow-address-pair.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",983,79,92%,26,0
-file-storage-high-performance,Managed GPU Cluster (Kubernetes),AI Infrastructure,file-storage-high-performance/file-storage-high-performance.md,2,2,0,4,"NO_CODE_BLOCKS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",906,11,99%,13,0
-connect-checkpoint-r8120,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-checkpoint-r8120.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1148,261,77%,32,26
-new-quota,Cloud Server,FPT Cloud Server,cloud-server/new-quota.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",897,21,98%,7,0
-connect-fci-aws-transitgw,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-aws-transitgw.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1205,358,70%,28,22
-khoi-tao-listener,Load Balancer,FPT Network,load-balancer/khoi-tao-listener.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",989,172,83%,4,0
-japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server,File Storage - High Performance,FPT Storage,file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",936,126,87%,4,0
-khoi-tao-server-pool,Load Balancer,FPT Network,load-balancer/khoi-tao-server-pool.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",1010,220,78%,4,0
-Version-policy,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/Version-policy.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",855,65,92%,8,0
-networking-overview,Cloud Server,FPT Cloud Server,cloud-server/networking-overview.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",781,7,99%,5,0
-overview-nic,Cloud Server,FPT Cloud Server,cloud-server/overview-nic.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",775,17,98%,5,0
-NIC-overview-1,Cloud Server,FPT Cloud Server,cloud-server/NIC-overview-1.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",774,18,98%,5,0
-connect-strongswan,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-strongswan.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",886,170,81%,10,4
-tutorials-object,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-object.md,2,1,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1038,331,68%,4,6
-header-project,Cloud Server,FPT Cloud Server,cloud-server/header-project.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",709,7,99%,10,0
-network-all,Cloud Server,FPT Cloud Server,cloud-server/network-all.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",783,83,89%,5,0
-connect-vyos-1.5,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-vyos-1.5.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",829,134,84%,10,4
-schedule-overview,Cloud Server,FPT Cloud Server,cloud-server/schedule-overview.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",693,6,99%,5,0
-SNI-load-balancer,Load Balancer,FPT Network,load-balancer/SNI-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",842,157,81%,4,0
-chinh-sua-listener,Load Balancer,FPT Network,load-balancer/chinh-sua-listener.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",876,194,78%,4,0
-quan-ly-project,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-project.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",689,8,99%,9,0
-instance-schedule,Cloud Server,FPT Cloud Server,cloud-server/instance-schedule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",691,10,99%,5,0
-instance-group,Cloud Server,FPT Cloud Server,cloud-server/instance-group.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",681,12,98%,5,0
-hpc-snapshot-backup,Cloud Server,FPT Cloud Server,cloud-server/hpc-snapshot-backup.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",704,38,95%,9,0
-overview-affinity,Cloud Server,FPT Cloud Server,cloud-server/overview-affinity.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",677,15,98%,5,0
-GPU,Cloud Server,FPT Cloud Server,cloud-server/GPU.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",682,21,97%,5,0
-Initial-setup,Managed - FPT Kubernetes Engine,FPT Container,fpt-jenkins-ci/Initial-setup.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",683,26,96%,8,0
-convert-card,Cloud Server,FPT Cloud Server,cloud-server/convert-card.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",680,27,96%,10,0
-edit-ip-address,Cloud Server,FPT Cloud Server,cloud-server/edit-ip-address.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",685,38,94%,10,0
-change-address-MAC,Cloud Server,FPT Cloud Server,cloud-server/change-address-MAC.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",672,26,96%,9,0
-hpc-hardware-fixation,Cloud Server,FPT Cloud Server,cloud-server/hpc-hardware-fixation.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",670,27,96%,8,0
-hpc-change-package,Cloud Server,FPT Cloud Server,cloud-server/hpc-change-package.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",661,21,97%,7,0
-question-,Cloud Server,FPT Cloud Server,cloud-server/question-.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",631,9,99%,5,0
-edit-instance-group-specific,Cloud Server,FPT Cloud Server,cloud-server/edit-instance-group-specific.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",630,11,98%,7,0
-benchmark-sysbench,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/benchmark-sysbench.md,2,2,1,5,"FEWER_TABLES, HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, WORD_COUNT_LOW",1098,485,56%,8,0
-best-practice-upgrade-fke-cluster-version,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version.md,2,1,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, WORD_COUNT_LOW",763,163,79%,5,0
-hpc-level-2-password,Cloud Server,FPT Cloud Server,cloud-server/hpc-level-2-password.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",616,17,97%,7,0
-hpc-clone-image,Cloud Server,FPT Cloud Server,cloud-server/hpc-clone-image.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",612,15,98%,6,0
-delete-card-NIC,Cloud Server,FPT Cloud Server,cloud-server/delete-card-NIC.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",620,31,95%,10,0
-FQAs,Cloud Server,FPT Cloud Server,cloud-server/FQAs.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",609,24,96%,5,0
-question-1,Cloud Server,FPT Cloud Server,allow-address-pair/question-1.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",596,11,98%,5,0
-tutorials-quan-ly-instance-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-quan-ly-instance-template.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",587,9,98%,5,0
-schedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/schedule-snapshotVM.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",586,8,99%,5,0
-enable-NIC-card,Cloud Server,FPT Cloud Server,cloud-server/enable-NIC-card.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",588,25,96%,9,0
-overview-bell,Cloud Server,FPT Cloud Server,cloud-server/overview-bell.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",572,9,98%,5,0
-hpc-delete-image,Cloud Server,FPT Cloud Server,cloud-server/hpc-delete-image.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",570,16,97%,7,0
-quan-ly-gpu-voi-hpc-portal,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-gpu-voi-hpc-portal.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",573,26,95%,5,0
-project-structure,Cloud Server,FPT Cloud Server,cloud-server/project-structure.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",553,6,99%,5,0
-disable-NIC-card,Cloud Server,FPT Cloud Server,cloud-server/disable-NIC-card.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",574,28,95%,9,0
-question-2,Cloud Server,FPT Cloud Server,cloud-server/question-2.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",583,46,92%,5,0
-select-project-when-creating-VPC,Cloud Server,FPT Cloud Server,cloud-server/select-project-when-creating-VPC.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",535,7,99%,6,0
-schedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/schedule-snapshotstorage.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",525,8,98%,5,0
-token,Cloud Server,FPT Cloud Server,cloud-server/token.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",532,16,97%,5,0
-FAQ,Fortigate - FPT NGFW,FPT Security,ai_marketplace/FAQ.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",557,47,92%,4,0
-quan-ly-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-may-ao.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",519,16,97%,5,0
-custom-images-overview,Cloud Server,FPT Cloud Server,cloud-server/custom-images-overview.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",518,15,97%,5,0
-overviews-vpn,VPN Site-to-Site,FPT Network,vpn-site-to-site/overviews-vpn.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",531,28,95%,6,0
-khoi-tao-canh-bao-load-balancer,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-load-balancer.md,2,1,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",696,207,70%,8,3
-chinh-sua-cau-hinh-health-check,Load Balancer,FPT Network,load-balancer/chinh-sua-cau-hinh-health-check.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",633,146,77%,4,0
-fde-glossary,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/fde-glossary.md,2,1,0,3,"MISSING_HEADINGS, NO_IMAGES, WORD_COUNT_LOW",1081,611,43%,8,0
-quan-ly-mountpoint,File Storage - High Performance,FPT Storage,file-storage-high-performance/quan-ly-mountpoint.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",713,250,65%,4,0
-resize-load-balancer,Load Balancer,FPT Network,load-balancer/resize-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",465,35,92%,4,0
-dfke-faqs,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/dfke-faqs.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",453,33,93%,5,0
-access-logs,Load Balancer,FPT Network,load-balancer/access-logs.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",493,77,84%,4,0
-migrate-bucket-data,FPT Object Storage,FPT Storage,fpt-object-storage/migrate-bucket-data.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",561,150,73%,4,0
-guide-dashboard-overview,FPT AppSec,FPT Security Platform,fpt-appsec/guide-dashboard-overview.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",491,82,83%,10,7
-persistent-storage,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/persistent-storage.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",496,89,82%,6,0
-khoi-tao-canh-bao-vpn,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-vpn.md,2,1,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",549,146,73%,8,3
-Allow-IP-CIDR,Load Balancer,FPT Network,load-balancer/Allow-IP-CIDR.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",493,103,79%,4,0
-best-practice-manual-scaling,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/best-practice-manual-scaling.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",555,166,70%,5,0
-maintenance,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/maintenance.md,2,2,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",783,403,49%,8,0
-db-manage-operate,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-manage-operate.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",571,207,64%,8,0
-vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server,File Storage - High Performance,FPT Storage,file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server.md,2,2,1,5,"HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",443,96,78%,4,0
-them-external-member,Load Balancer,FPT Network,load-balancer/them-external-member.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",417,74,82%,4,0
-faq,FPT Cloud Desktop,FPT Cloud Server,ai-notebook/faq.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",363,22,94%,4,0
-auto-repair-nodes,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/auto-repair-nodes.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",485,145,70%,5,0
-theo-doi-bieu-do-load-balancer,Load Balancer,FPT Network,load-balancer/theo-doi-bieu-do-load-balancer.md,2,2,0,4,"NO_CODE_BLOCKS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",420,88,79%,4,0
-network-connectivity,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/network-connectivity.md,2,2,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",672,341,49%,8,0
-tutorials-quan-ly-subuser,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-quan-ly-subuser.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",515,191,63%,4,0
-enable-hsts-to-http-listener,Load Balancer,FPT Network,load-balancer/enable-hsts-to-http-listener.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",366,46,87%,4,0
-tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",471,161,66%,4,0
-reporting,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/reporting.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",328,19,94%,8,0
-thay-doi-cau-hinh-k8s-cluster,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/thay-doi-cau-hinh-k8s-cluster.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",322,23,93%,5,0
-redirect-http-request-sang-https,Load Balancer,FPT Network,load-balancer/redirect-http-request-sang-https.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",299,8,97%,4,0
-khoi-tao-canh-bao-virtual-machine,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-virtual-machine.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",365,74,80%,5,0
-quan-ly-kubernetes-cluster,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/quan-ly-kubernetes-cluster.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",314,25,92%,5,0
-redirect-prefix,Load Balancer,FPT Network,load-balancer/redirect-prefix.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",321,51,84%,4,0
-clickhouse-use-ha,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/clickhouse-use-ha.md,2,2,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",449,185,59%,8,0
-db-engine-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-engine-service.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",395,134,66%,8,0
-cau-hinh-timeout,Load Balancer,FPT Network,load-balancer/cau-hinh-timeout.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",273,14,95%,4,0
-phan-quyen-su-dung-bucket-cho-cac-subuser,FPT Object Storage,FPT Storage,fpt-object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",385,132,66%,4,0
-database-engine-version,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/database-engine-version.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",341,91,73%,8,0
-quan-ly-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-retention-rule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",261,19,93%,5,0
-cap-nhat-load-balancer,Load Balancer,FPT Network,load-balancer/cap-nhat-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",255,44,83%,4,0
-khoi-tao-canh-bao-object-storage,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-object-storage.md,2,3,0,5,"FEWER_IMAGES, MISSING_HEADINGS, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",269,59,78%,8,3
-import-ssl-certificate-cho-load-balancer,Load Balancer,FPT Network,load-balancer/import-ssl-certificate-cho-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",243,37,85%,4,0
-authenticate-certificate-mode,VPN Site-to-Site,FPT Network,vpn-site-to-site/authenticate-certificate-mode.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",224,30,87%,6,0
-kiem-tra-trang-thai-target,FPT Cloud VA,FPT Security,fpt-va/kiem-tra-trang-thai-target.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",202,27,87%,4,0
-kich-hoat-dich-vu-fpt-container-registry,FPT Container Registry,FPT Container,fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,22,89%,5,0
-xoa-ssl-certificate,Load Balancer,FPT Network,load-balancer/xoa-ssl-certificate.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",179,9,95%,4,0
-thay-doi-profile-cho-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/thay-doi-profile-cho-group.md,2,1,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",180,22,88%,4,3
-quan-ly-ssl-certificate,Load Balancer,FPT Network,load-balancer/quan-ly-ssl-certificate.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",139,18,87%,4,0
-quan-ly-repositories-tren-fpt-portal,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-repositories-tren-fpt-portal.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",153,36,76%,5,0
-huong-dan-su-dung-tren-docker-cli,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-su-dung-tren-docker-cli.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",148,36,76%,5,0
-quan-ly-goi-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-goi-dich-vu.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",150,38,75%,5,0
-analytics,FPT API Management,FPT Integration,fpt-api-management/analytics.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",156,57,63%,4,0
-quan-ly-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-robot-account.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",144,52,64%,5,0
-network-filters,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network-filters.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",127,37,71%,6,0
-quan-ly-proxy-host,FPT Cloud WAF,FPT Security,fpt-cloud-waf/quan-ly-proxy-host.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",100,12,88%,5,0
-ip-access,IAM,FPT Security,iam/ip-access.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",86,17,80%,4,0
-role-management,IAM,FPT Security,iam/role-management.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",83,17,80%,4,0
-slurm-on-fpt-cloud,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/slurm-on-fpt-cloud.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",3435,307,91%,6,4
-cicd-guideline,FPT AppSec,FPT Security Platform,fpt-appsec/cicd-guideline.md,1,1,1,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",2425,468,81%,4,1
-huong-dan-su-dung-cac-che-do-gpu-sharing,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-cac-che-do-gpu-sharing.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",1772,268,85%,8,7
-create-policy,Policy Management,FPT Cloud Server,fpt-key-vault/create-policy.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1497,28,98%,7,3
-multi-nodes-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/multi-nodes-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",1574,107,93%,2,0
-tutorials-khoi-tao-mot-may-ao-moi,Cloud Server,FPT Cloud Server,cloud-server/tutorials-khoi-tao-mot-may-ao-moi.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1420,95,93%,13,6
-workspace-scmasset,FPT AppSec,FPT Security Platform,fpt-appsec/workspace-scmasset.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1702,378,78%,27,24
-tutorials-backup-may-chu-voi-snapshot,Cloud Server,FPT Cloud Server,cloud-server/tutorials-backup-may-chu-voi-snapshot.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1495,183,88%,26,21
-quan-ly-backup-job,Backup,FPT Cloud Backup & DR,backup/quan-ly-backup-job.md,1,0,0,1,WORD_COUNT_LOW,1322,141,89%,3,0
-quick-starts-tao-mot-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-tao-mot-may-ao.md,1,4,0,5,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",1251,94,92%,21,12
-cai-dat-cluster-kubernetes-su-dung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/cai-dat-cluster-kubernetes-su-dung-gpu.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",1552,397,74%,9,8
-tao-target,FPT Cloud VA,FPT Security,fpt-va/tao-target.md,1,2,0,3,"FEWER_IMAGES, NO_CODE_BLOCKS, WORD_COUNT_LOW",1259,138,89%,9,2
-connect-behind-NAT,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-behind-NAT.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1382,293,79%,13,7
-ket-noi-thiet-bi-behind-NAT-IP,VPN Site-to-Site,FPT Network,vpn-site-to-site/ket-noi-thiet-bi-behind-NAT-IP.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1378,296,79%,13,7
-tutorials-ket-noi-vao-may-ao-linux,Cloud Server,FPT Cloud Server,cloud-server/tutorials-ket-noi-vao-may-ao-linux.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1077,70,94%,13,8
-gpu-general,Cloud Server,FPT Cloud Server,cloud-server/gpu-general.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1085,101,91%,12,7
-gpu-specific,Cloud Server,FPT Cloud Server,cloud-server/gpu-specific.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1077,99,91%,7,2
-attach-a-network-card-to-the-virtual-machine,Cloud Server,FPT Cloud Server,cloud-server/attach-a-network-card-to-the-virtual-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",997,40,96%,11,6
-finetune-llm-models,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/finetune-llm-models.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",975,67,93%,2,0
-edit-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/edit-vpn-connection.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1127,235,79%,10,4
-terraform,Cloud Server,FPT Cloud Server,cloud-server/terraform.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",994,104,90%,27,25
-vgpu-for-container,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/vgpu-for-container.md,1,0,0,1,WORD_COUNT_LOW,1087,206,81%,7,5
-create-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/create-vpn-connection.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1134,274,76%,11,5
-cau-hinh-o-dia-cho-may-ao-chay-windows,Cloud Server,FPT Cloud Server,cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",905,57,94%,17,7
-tutorials-ket-noi-vao-may-ao-windows,Cloud Server,FPT Cloud Server,cloud-server/tutorials-ket-noi-vao-may-ao-windows.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",868,52,94%,10,5
-single-gpu-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/single-gpu-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",879,71,92%,2,0
-tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",862,58,93%,12,5
-profile-ssh-key,Cloud Server,FPT Cloud Server,cloud-server/profile-ssh-key.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",852,50,94%,10,1
-khoi-tao-load-balancer,Load Balancer,FPT Network,load-balancer/khoi-tao-load-balancer.md,1,2,0,3,"FEWER_IMAGES, NO_CODE_BLOCKS, WORD_COUNT_LOW",982,180,82%,5,1
-connect-fci-aws-virtualgw,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-aws-virtualgw.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1165,364,69%,32,26
-tutorials-thay-doi-thong-tin-cau-hinh-may-chu,Cloud Server,FPT Cloud Server,cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",847,55,94%,10,5
-multi-gpus-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/multi-gpus-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",866,76,91%,2,0
-workspace-crasset,FPT AppSec,FPT Security Platform,fpt-appsec/workspace-crasset.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1020,235,77%,7,4
-tutorials-bucket-config,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-bucket-config.md,1,1,0,2,"MISSING_HEADINGS, WORD_COUNT_LOW",1963,1191,39%,4,14
-create-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/create-instance-group.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",822,55,93%,10,3
-create-vm-iso,Cloud Server,FPT Cloud Server,cloud-server/create-vm-iso.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",784,25,97%,6,1
-hpc-rest-machine,Cloud Server,FPT Cloud Server,cloud-server/hpc-rest-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",775,26,97%,6,1
-khoi-tao-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-profile.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",791,56,93%,6,5
-lock-unlock-instance-deletion,Cloud Server,FPT Cloud Server,cloud-server/lock-unlock-instance-deletion.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",771,36,95%,9,4
-huong-dan-tich-hop-argocd-images-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-tich-hop-argocd-images-updater.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",815,85,90%,21,19
-parameter,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/parameter.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",781,56,93%,10,2
-create-db,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/create-db.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",2145,1437,33%,10,2
-nat-instance,Cloud Server,FPT Cloud Server,cloud-server/nat-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",725,29,96%,21,4
-gpu-time-sharing,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/gpu-time-sharing.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",785,92,88%,7,5
-khoi-tao-managed-gpu-cluster-moi,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",870,182,79%,9,7
-createschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/createschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",712,37,95%,8,3
-create-schedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/create-schedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",712,38,95%,8,3
-create-new-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/create-new-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",726,56,92%,8,3
-clone-instance,Cloud Server,FPT Cloud Server,cloud-server/clone-instance.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",726,57,92%,9,4
-quick-starts-khoi-dong-lai-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-khoi-dong-lai-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",679,14,98%,7,2
-tai-len-custom-image,Cloud Server,FPT Cloud Server,cloud-server/tai-len-custom-image.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",739,74,90%,10,5
-db-connect,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-connect.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",2076,1417,32%,11,3
-hpc-schedule-shutdown,Cloud Server,FPT Cloud Server,cloud-server/hpc-schedule-shutdown.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",650,15,98%,6,1
-add-instance-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/add-instance-instance-group.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",665,36,95%,7,2
-retry-timeout-rule,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/retry-timeout-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",766,140,82%,7,2
-gan-storage-disk-vao-may-ao,Cloud Server,FPT Cloud Server,cloud-server/gan-storage-disk-vao-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",667,44,93%,7,2
-quick-starts-xoa-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-xoa-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",648,26,96%,10,5
-detach-schedule-to-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/detach-schedule-to-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",641,21,97%,6,1
-quick-starts-tatbat-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-tatbat-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",645,30,95%,6,1
-block-storage,Cloud Server,FPT Cloud Server,cloud-server/block-storage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",662,47,93%,7,2
-view-detail-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/view-detail-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",637,25,96%,8,3
-delete-instance-schedule,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/delete-instance-schedule.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",633,22,97%,7,2
-delete-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/delete-instance-group.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",636,28,96%,7,2
-Migration-cho-SQLServer,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/Migration-cho-SQLServer.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",648,49,92%,23,15
-SSO-qua-FCDClient-cu,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/SSO-qua-FCDClient-cu.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",655,58,91%,12,7
-tao-report,FPT Reporting,FPT Monitoring,reporting/tao-report.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",812,215,74%,11,9
-accountpassword-qua-FCDClient-moi,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/accountpassword-qua-FCDClient-moi.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",730,138,81%,16,12
-remove-the-network-card-from-the-virtual-machine,Cloud Server,FPT Cloud Server,cloud-server/remove-the-network-card-from-the-virtual-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",610,20,97%,8,3
-create-token,Cloud Server,FPT Cloud Server,cloud-server/create-token.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",637,49,92%,9,3
-tutorials-tao-instance-tu-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-tao-instance-tu-template.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",614,28,95%,7,2
-deleteschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/deleteschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",602,18,97%,7,2
-tutorials-quan-ly-template-duoc-tao-tu-may-ao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",611,29,95%,7,2
-connect-pfsense,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-pfsense.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",739,159,78%,15,9
-deleteschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/deleteschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",597,18,97%,7,2
-xoa-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/xoa-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",604,30,95%,7,2
-attach-schedule-to-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/attach-schedule-to-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",592,18,97%,7,2
-viewschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/viewschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",580,9,98%,7,2
-viewschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/viewschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",580,9,98%,7,2
-go-storage-disk-khoi-may-ao,Cloud Server,FPT Cloud Server,cloud-server/go-storage-disk-khoi-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",593,28,95%,7,2
-tutorials-khoi-tao-template-tu-may-ao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-khoi-tao-template-tu-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",585,22,96%,8,3
-edit-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/edit-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",610,50,92%,7,2
-vertical-scaling,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/vertical-scaling.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",1556,996,36%,13,5
-editschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/editschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",574,16,97%,7,2
-editschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/editschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",574,16,97%,7,2
-tao-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/tao-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",611,57,91%,8,3
-huong-dan-cau-hinh-notifications-de-nhan-thong-bao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",635,86,86%,28,26
-them-moi-tag-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/them-moi-tag-retention-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",725,179,75%,14,9
-xoa-custom-image,Cloud Server,FPT Cloud Server,cloud-server/xoa-custom-image.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",575,30,95%,7,2
-khoi-tao-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-policy.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",678,137,80%,9,8
-aspm_v1.3.0,FPT AppSec,FPT Security Platform,fpt-appsec/aspm_v1.3.0.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",598,57,90%,4,1
-cau-hinh-channel-de-thuc-hien-gui-thong-bao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",646,110,83%,29,27
-backup-mgmt,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/backup-mgmt.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1111,575,48%,12,4
-trien-khai-ung-dung-su-dung-gpu-tren-kubernetes,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/trien-khai-ung-dung-su-dung-gpu-tren-kubernetes.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",574,40,93%,2,1
-cluster-autoscale,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/cluster-autoscale.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",675,142,79%,17,12
-connect-fci-vmware,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-vmware.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",689,162,76%,19,13
-revoke-token,Cloud Server,FPT Cloud Server,cloud-server/revoke-token.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",547,22,96%,8,3
-iam,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/iam.md,1,1,2,4,"FEWER_TABLES, MISSING_HEADINGS, NO_IMAGES, WORD_COUNT_LOW",1037,512,51%,8,0
-service-load-balancer-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/service-load-balancer-managed-gpu-cluster.md,1,0,1,2,"MISSING_HEADINGS, WORD_COUNT_LOW",613,91,85%,2,0
-create-schedule,FPT AppSec,FPT Security Platform,fpt-appsec/create-schedule.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",591,70,88%,17,14
-tutorials-xoa-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-xoa-template.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",532,18,97%,6,1
-resource,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/resource.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1106,604,45%,11,3
-huong-dan-cau-hinh-auto-scale-su-dung-keda-va-prometheus,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-keda-va-prometheus.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",559,60,89%,2,1
-scale-tu-dong-theo-lich-trinh,FPT Autoscale,FPT Cloud Server,fpt-autoscale/scale-tu-dong-theo-lich-trinh.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",610,134,78%,11,10
-login-console,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/login-console.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",511,40,92%,6,1
-report-export,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/report-export.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",1351,882,35%,12,4
-huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",482,43,91%,5,4
-backup-job-mgmt,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/backup-job-mgmt.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1121,682,39%,9,1
-on-off-pitr,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/on-off-pitr.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",749,311,58%,12,4
-accountpassword-qua-FCDClient-cu,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/accountpassword-qua-FCDClient-cu.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",493,58,88%,11,7
-guide-harbor,FPT AppSec,FPT Security Platform,fpt-appsec/guide-harbor.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",586,151,74%,17,14
-notification,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/notification.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1226,792,35%,12,7
-mps-gpu-sharing,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/mps-gpu-sharing.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",477,44,91%,4,2
-huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",448,16,96%,9,7
-guide-fcr,FPT AppSec,FPT Security Platform,fpt-appsec/guide-fcr.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",572,143,75%,15,12
-huong-dan-su-dung-autoscaler-voi-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-autoscaler-voi-gpu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",441,14,97%,3,2
-them-worker-group,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/them-worker-group.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",525,125,76%,10,5
-quan-ly-tag-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-tag-retention-rule.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",506,106,79%,14,9
-aspm_v1.2.1,FPT AppSec,FPT Security Platform,fpt-appsec/aspm_v1.2.1.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",448,48,89%,4,1
-huong-dan-tich-hop-oidc-de-quan-ly-account,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",441,43,90%,14,12
-backup-volume,Backup,FPT Cloud Backup & DR,backup/backup-volume.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",486,89,82%,3,0
-enable-disable-admin-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-admin-user.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",435,38,91%,11,9
-push-s3,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/push-s3.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1077,680,37%,14,6
-scale-thu-cong,FPT Autoscale,FPT Cloud Server,fpt-autoscale/scale-thu-cong.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",458,65,86%,8,7
-guide-github,FPT AppSec,FPT Security Platform,fpt-appsec/guide-github.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",511,122,76%,19,16
-tong-quan-dich-vu-GPU,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/tong-quan-dich-vu-GPU.md,1,0,0,1,WORD_COUNT_LOW,625,237,62%,1,0
-driver-installation-self-install,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/driver-installation-self-install.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",428,43,90%,1,0
-trien-khai-ung-dung-tren-worker-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/trien-khai-ung-dung-tren-worker-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",402,22,95%,5,3
-restore-db,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/restore-db.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",935,557,40%,11,3
-clone-vm-tu-cac-restore-point,Backup,FPT Cloud Backup & DR,backup/clone-vm-tu-cac-restore-point.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",429,54,87%,3,0
-db-operation,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-operation.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",698,326,53%,9,1
-lay-thong-tin-truy-cap-cluster,Managed - FPT Kubernetes Engine,FPT Container,fpt-managed-gpu-cluster/lay-thong-tin-truy-cap-cluster.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",402,31,92%,7,2
-enable-disable-anonymous-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-anonymous-user.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",410,39,90%,10,8
-monitor-infrastructure-platform,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-infrastructure-platform.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",472,103,78%,14,12
-huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal.md,1,0,0,1,WORD_COUNT_LOW,523,154,71%,14,12
-nang-cap-k8s-version,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/nang-cap-k8s-version.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",395,27,93%,8,3
-huong-dan-deploy-applications-qua-helm-chart-repo,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",378,13,97%,10,8
-huong-dan-su-dung-applicationset-de-deploy,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-su-dung-applicationset-de-deploy.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",386,25,94%,9,7
-huong-dan-cau-hinh-nodes-build-tren-jenkins,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-cau-hinh-nodes-build-tren-jenkins.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",423,71,83%,12,10
-xoa-kubernetes-cluster,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/xoa-kubernetes-cluster.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",377,27,93%,8,3
-khoi-tao-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",380,36,91%,7,6
-huong-dan-su-dung-gpu-telemetry,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-gpu-telemetry.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",375,34,91%,4,3
-huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",366,26,93%,11,9
-log,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/log.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",371,37,90%,7,2
-register-account,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/register-account.md,1,3,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",623,290,53%,9,1
-thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",349,22,94%,11,9
-guide-issue-by-team,FPT AppSec,FPT Security Platform,fpt-appsec/guide-issue-by-team.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",370,45,88%,4,1
-quan-ly-member,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-member.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",433,117,73%,20,17
-huong-dan-tao-jobs-tren-jenkins-chay-tren-fpt-cloud-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-tao-jobs-tren-jenkins-chay-tren-fpt-cloud-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",381,67,82%,16,14
-delete-oidc-da-cau-hinh,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/delete-oidc-da-cau-hinh.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",334,20,94%,6,4
-guide-asset-by-team,FPT AppSec,FPT Security Platform,fpt-appsec/guide-asset-by-team.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",342,30,91%,4,1
-gioi-thieu-Organization,FPT AppSec,FPT Security Platform,fpt-appsec/gioi-thieu-Organization.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",349,37,89%,5,2
-khoi-tao-mot-alert-moi-threat-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-mot-alert-moi-threat-alert.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",398,88,78%,7,2
-deactive-db-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/deactive-db-service.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",415,105,75%,9,1
-active-db-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/active-db-service.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",415,108,74%,9,1
-quan-ly-retention-run,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-retention-run.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",413,107,74%,16,11
-quan-ly-account-tren-argocd,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/quan-ly-account-tren-argocd.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",309,6,98%,2,0
-deployment-model,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/deployment-model.md,1,2,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",538,235,56%,8,0
-cho-phep-enable-applications-set,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cho-phep-enable-applications-set.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",312,13,96%,4,2
-tinh-nang-chuyen-worker-base-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/tinh-nang-chuyen-worker-base-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",337,39,88%,5,3
-quan-ly-teams-org,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-teams-org.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",425,130,69%,16,13
-guide-gitlabserver,FPT AppSec,FPT Security Platform,fpt-appsec/guide-gitlabserver.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",386,92,76%,11,8
-guide-change-status-issue-list,FPT AppSec,FPT Security Platform,fpt-appsec/guide-change-status-issue-list.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",306,15,95%,8,5
-huong-dan-deploy-applications-qua-argocd-cli,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",299,9,97%,5,3
-update-admin-password,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/update-admin-password.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",303,15,95%,5,3
-guide-gitlab,FPT AppSec,FPT Security Platform,fpt-appsec/guide-gitlab.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",362,79,78%,10,7
-tutorials-permissions,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-permissions.md,1,1,0,2,"MISSING_HEADINGS, NO_TABLES",950,668,30%,4,4
-thay-doi-worker-group-su-sung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/thay-doi-worker-group-su-sung-gpu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",335,54,84%,3,2
-update-cau-hinh-oidc,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/update-cau-hinh-oidc.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",296,15,95%,5,3
-manual-scale,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/manual-scale.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",376,96,74%,9,4
-maintenance-window,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/maintenance-window.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",732,453,38%,10,2
-tao-moi-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/tao-moi-recipient.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",361,86,76%,10,5
-enable-disable-argocd-images-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-argocd-images-updater.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",285,14,95%,4,2
-change-password,FPT ArgoCD,FPT DevSecOps Services,iam/change-password.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",297,26,91%,4,3
-them-moi-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/them-moi-mot-credential.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",394,125,68%,23,21
-cau-hinh-lap-lich-chay-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",326,59,82%,10,5
-quan-ly-mem-team,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-mem-team.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",362,95,74%,12,8
-cau-hinh-sonarqube-servers,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-sonarqube-servers.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",373,107,71%,15,13
-schedule-detail,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-detail.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",323,57,82%,6,3
-enable-disable-account,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-account.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",268,5,98%,3,1
-them-bot-member-cho-server-pool,Load Balancer,FPT Network,load-balancer/them-bot-member-cho-server-pool.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",329,68,79%,7,3
-them-moi-mot-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/them-moi-mot-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",316,55,83%,11,9
-view-bills,Bills,Billing,billing/view-bills.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",328,68,79%,3,1
-Backup-Initial-Setup,Backup,FPT Cloud Backup & DR,backup/Backup-Initial-Setup.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",285,27,91%,3,0
-manage-admin-account-enable-disable-anonymous-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/manage-admin-account-enable-disable-anonymous-user.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",266,12,95%,2,0
-enable-disable-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/enable-disable-vpn-connection.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",366,113,69%,12,6
-cem-chi-tiet-quota-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/cem-chi-tiet-quota-dich-vu.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",306,53,83%,6,1
-edit-webhook-secret,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/edit-webhook-secret.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",261,9,97%,4,2
-delete-webhook-secret,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/delete-webhook-secret.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",260,11,96%,4,2
-cau-hinh-notifications,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-notifications.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",317,68,79%,2,0
-huong-dan-dang-nhap-vao-argocd,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-dang-nhap-vao-argocd.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",302,53,82%,5,3
-xem-danh-sach-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/xem-danh-sach-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",338,89,74%,6,4
-cau-hinh-image-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-image-updater.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",307,60,80%,2,0
-cau-hinh-webhook,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-webhook.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",324,78,76%,2,0
-khoi-tao-mot-alert-moi-activity-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-mot-alert-moi-activity-alert.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",289,44,85%,7,2
-kiem-tra-thong-tin-goi-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",271,29,89%,7,2
-cap-nhat-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/cap-nhat-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",269,29,89%,9,4
-cau-hinh-oidc-phuc-vu-sso-config,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",275,36,87%,2,0
-tutorials-bucket,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-bucket.md,1,2,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",598,364,39%,4,7
-restore-lai-vm-tu-cac-restore-point,Backup,FPT Cloud Backup & DR,backup/restore-lai-vm-tu-cac-restore-point.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",252,21,92%,3,0
-chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",263,32,88%,7,5
-recipient-teams,FPT Cloud Guard,FPT Monitoring,cloud-guard/recipient-teams.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",325,95,71%,7,2
-kich-hoat-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/kich-hoat-dich-vu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",258,31,88%,9,4
-add-them-worker-group,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/add-them-worker-group.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",295,68,77%,6,4
-guide-change-status-issue-detail,FPT AppSec,FPT Security Platform,fpt-appsec/guide-change-status-issue-detail.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",236,11,95%,6,3
-kiem-tra-thong-tin-backup-va-restore-cua-vm,Backup,FPT Cloud Backup & DR,backup/kiem-tra-thong-tin-backup-va-restore-cua-vm.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",249,27,89%,3,0
-Version-List,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/Version-List.md,1,1,0,2,"NO_IMAGES, WORD_COUNT_LOW",600,381,36%,8,0
-huong-dan-dang-nhap-vao-fpt-cloud-jenkins-ci,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-dang-nhap-vao-fpt-cloud-jenkins-ci.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",271,53,80%,6,4
-huong-dan-su-dung-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-su-dung-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",246,29,88%,7,2
-tai-file-cau-hinh-vpn,VPN Site-to-Site,FPT Network,vpn-site-to-site/tai-file-cau-hinh-vpn.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",259,43,83%,8,2
-refresh-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/refresh-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",272,57,79%,9,4
-action-management,VPN Site-to-Site,FPT Network,vpn-site-to-site/action-management.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",225,11,95%,6,6
-tinh-nang-manual-scale-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/tinh-nang-manual-scale-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",248,35,86%,6,4
-edit-security-profile,VPN Site-to-Site,FPT Network,vpn-site-to-site/edit-security-profile.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",234,23,90%,8,2
-view-bill-charges-by-resource,Bills,Billing,billing/view-bill-charges-by-resource.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",239,28,88%,9,7
-guide-workspace,FPT AppSec,FPT Security Platform,fpt-appsec/guide-workspace.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",229,19,92%,5,2
-tag-va-push-image-len-fpt-container-registry,FPT Container Registry,FPT Container,fpt-container-registry/tag-va-push-image-len-fpt-container-registry.md,1,3,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",266,59,78%,7,2
-tang-them-worker-group-su-dung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/tang-them-worker-group-su-dung-gpu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",251,45,82%,5,4
-huong-dan-nang-goi-dich-vu-dang-su-dung,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",225,22,90%,9,4
-kiem-tra-trang-thai-cua-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/kiem-tra-trang-thai-cua-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",211,10,95%,6,1
-pull-docker-image-tu-fpt-container-registry-ve-local,FPT Container Registry,FPT Container,fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local.md,1,3,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",267,68,75%,10,5
-quan-ly-role,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-role.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",228,29,87%,7,4
-cap-nhat-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cap-nhat-mot-credential.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",293,96,67%,15,13
-tai-sao-djoi-luc-toi-thay-so-luong-restore-point-tren-he-thong-nhieu-hon-so-luong-lastest-backup-to-keep-dja-khai-bao,Backup,FPT Cloud Backup & DR,backup/tai-sao-djoi-luc-toi-thay-so-luong-restore-point-tren-he-thong-nhieu-hon-so-luong-lastest-backup-to-keep-dja-khai-bao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",201,6,97%,3,0
-quan-ly-ket-qua-scan-images,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-ket-qua-scan-images.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",217,27,88%,9,4
-dashboard-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/dashboard-ket-qua-quet.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",240,52,78%,5,2
-bat-tat-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/bat-tat-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",206,18,91%,7,2
-incremental-backup-la-gi-va-loi-ich-khi-su-dung,Backup,FPT Cloud Backup & DR,backup/incremental-backup-la-gi-va-loi-ich-khi-su-dung.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",190,2,99%,3,0
-xoa-image-hoac-artifact-trong-repositories,FPT Container Registry,FPT Container,fpt-container-registry/xoa-image-hoac-artifact-trong-repositories.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",254,67,74%,13,8
-guide-integration,FPT AppSec,FPT Security Platform,fpt-appsec/guide-integration.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",210,23,89%,5,2
-buy-virtual-machines,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-virtual-machines.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",211,26,88%,11,4
-xoa-mot-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/xoa-mot-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",229,44,81%,9,4
-xem-thong-tin-chi-tiet-jenkins-CI-instance,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xem-thong-tin-chi-tiet-jenkins-CI-instance.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",217,32,85%,6,4
-enable-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/enable-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",212,29,86%,8,3
-lay-cookie,FPT Cloud VA,FPT Security,fpt-va/lay-cookie.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",263,80,70%,9,6
-scale-worker-nodes,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/scale-worker-nodes.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",228,46,80%,10,5
-auto-blocking-filter,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/auto-blocking-filter.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",261,79,70%,7,1
-download-access-log,IAM,FPT Security,iam/download-access-log.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",212,31,85%,5,1
-cai-dat-team,FPT AppSec,FPT Security Platform,fpt-appsec/cai-dat-team.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",212,31,85%,8,5
-schedule-edit,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-edit.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,14,93%,6,3
-chinh-sua-thong-tin-org,FPT AppSec,FPT Security Platform,fpt-appsec/chinh-sua-thong-tin-org.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",218,38,83%,9,6
-change-removable-drive-capacity,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/change-removable-drive-capacity.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",209,30,86%,11,4
-setting-agert,Trellix Customer Guide,Support,trellix-customer-guide/setting-agert.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",254,75,70%,8,7
-disable-robot-account-dang-su-dung,FPT Container Registry,FPT Container,fpt-container-registry/disable-robot-account-dang-su-dung.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",206,28,86%,8,3
-docker-login,FPT Container Registry,FPT Container,fpt-container-registry/docker-login.md,1,3,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",216,39,82%,8,3
-toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud,Backup,FPT Cloud Backup & DR,backup/toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",183,6,97%,3,0
-nang-cap-goi-dich-vu,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/nang-cap-goi-dich-vu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",196,21,89%,5,3
-tao-moi-fpt-jenkinsCI,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/tao-moi-fpt-jenkinsCI.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",215,42,80%,6,4
-quan-ly-team,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-team.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,22,89%,6,3
-stop-scan,FPT Container Registry,FPT Container,fpt-container-registry/stop-scan.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,23,88%,8,3
-fqas-2,Request Resource,Support,billing/fqas-2.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",175,3,98%,4,1
-view-detail,FPT Reporting,FPT Monitoring,reporting/view-detail.md,1,0,0,1,WORD_COUNT_LOW,233,63,73%,4,2
-schedule-delete,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-delete.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",175,8,95%,5,2
-cap-nhat-thong-tin-cau-hinh-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cap-nhat-thong-tin-cau-hinh-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",196,30,85%,6,4
-lay-header,FPT Cloud VA,FPT Security,fpt-va/lay-header.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",222,57,74%,9,6
-monitor-ip,DdoS Protection,FPT Security,ddos-protection/monitor-ip.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",207,44,79%,12,10
-buy-storage-disk,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",192,30,84%,11,4
-create-organization,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/create-organization.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",174,15,91%,9,2
-fqas-5,Request Resource,Support,end-user-request-resource/fqas-5.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",170,12,93%,3,0
-xoa-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/xoa-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",184,26,86%,5,3
-billing-permission,Bills,Billing,billing/billing-permission.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",197,40,80%,8,6
-mo-remote-registry-window,FPT Cloud VA,FPT Security,fpt-va/mo-remote-registry-window.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",213,57,73%,7,4
-xoa-agent-khi-khong-muon-su-dung,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-agent-khi-khong-muon-su-dung.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",190,34,82%,7,5
-view-request-resource,Request Resource,Support,end-user-request-resource/view-request-resource.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",168,12,93%,6,3
-xem-lich-su-backup-and-recovery,Backup,FPT Cloud Backup & DR,backup/xem-lich-su-backup-and-recovery.md,1,0,0,1,WORD_COUNT_LOW,200,46,77%,3,0
-view-bill-charges-by-service,Bills,Billing,billing/view-bill-charges-by-service.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",178,24,87%,5,3
-upgrade-version,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/upgrade-version.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",180,29,84%,6,4
-xem-danh-sach-workspaces,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/xem-danh-sach-workspaces.md,1,0,0,1,WORD_COUNT_LOW,197,47,76%,3,1
-cau-hinh-telegram-bots,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-telegram-bots.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",189,39,79%,7,5
-xoa-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-profile.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",162,14,91%,4,3
-cau-hinh-email-notifications,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-email-notifications.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",175,28,84%,5,3
-create-request-resource,Request Resource,Support,end-user-request-resource/create-request-resource.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",156,10,94%,7,4
-xoa-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-policy.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",158,13,92%,4,3
-backup-report,Backup,FPT Cloud Backup & DR,backup/backup-report.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",170,27,84%,3,0
-xoa-jenkins-instance-khi-khong-muon-su-dung,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-jenkins-instance-khi-khong-muon-su-dung.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",156,23,85%,5,3
-download-bills,Bills,Billing,billing/download-bills.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",142,9,94%,4,2
-buy-Public-IP,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-Public-IP.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",166,34,80%,11,4
-xem-chi-tiet-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/xem-chi-tiet-ket-qua-quet.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",168,36,79%,5,2
-detail-dasboard,FPT AppSec,FPT Security Platform,fpt-appsec/detail-dasboard.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",135,3,98%,3,3
-xem-danh-sach-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/xem-danh-sach-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",162,32,80%,6,1
-view-billing-by-monthly-reconciliation,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-billing-by-monthly-reconciliation.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",142,13,91%,8,1
-xoa-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-mot-credential.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",161,32,80%,8,6
-initial-setup,Tagging,FPT Cloud Server,affinity-anti-affinity/initial-setup.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",158,30,81%,0,0
-xem-danh-sach-repositories,FPT Container Registry,FPT Container,fpt-container-registry/xem-danh-sach-repositories.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",175,47,73%,6,1
-fqas-3,Request Resource,Support,billing/fqas-3.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",139,11,92%,3,0
-install-veeam-agent-for-windows,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/install-veeam-agent-for-windows.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",187,61,67%,14,10
-proxy-ip,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/proxy-ip.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,70,64%,13,7
-fcmon-dashboard-template,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/fcmon-dashboard-template.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",172,47,73%,6,4
-xoa-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/xoa-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",139,16,88%,7,2
-deposit-money-via-VNPay,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/deposit-money-via-VNPay.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",135,13,90%,10,3
-xoa-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",133,11,92%,5,4
-Recipient-la-gi,FPT Cloud Guard,FPT Monitoring,cloud-guard/Recipient-la-gi.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",132,10,92%,6,1
-monitor-applications,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-applications.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",146,26,82%,4,2
-scan-image,FPT Container Registry,FPT Container,fpt-container-registry/scan-image.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",171,52,70%,5,5
-quan-ly-fpt-cloud-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-fpt-cloud-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",136,19,86%,2,0
-configuration-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/configuration-tab.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",193,77,60%,3,1
-change-virtual-machine-configuration,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/change-virtual-machine-configuration.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",129,16,88%,10,3
-delete-ip-access,IAM,FPT Security,iam/delete-ip-access.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",123,10,92%,6,2
-monitor-public-endpoints,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-public-endpoints.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",126,13,90%,2,0
-quan-tri-user,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quan-tri-user.md,1,0,0,1,WORD_COUNT_LOW,155,43,72%,3,1
-detinations-sever,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detinations-sever.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",170,59,65%,9,3
-recharge-via-gift-code,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/recharge-via-gift-code.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",125,15,88%,9,2
-tutorials-tao-auth-method,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-auth-method.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",159,49,69%,8,4
-chinh-sua-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/chinh-sua-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",132,23,83%,7,2
-toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong,Backup,FPT Cloud Backup & DR,backup/toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",150,41,73%,3,0
-xoa-target,FPT Cloud VA,FPT Security,fpt-va/xoa-target.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",136,28,79%,5,2
-access-control,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/access-control.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",138,31,78%,9,3
-home-page-portal,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/home-page-portal.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",116,12,90%,8,1
-create-veeam-recovery-media,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/create-veeam-recovery-media.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",150,47,69%,7,5
-user-management-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/user-management-tab.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",136,34,75%,3,1
-quan-ly-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-credential.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",133,31,77%,2,0
-detection-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-logs.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",115,14,88%,7,1
-quota-and-package-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quota-and-package-tab.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",134,33,75%,4,2
-chinh-sua-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/chinh-sua-recipient.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",118,17,86%,7,2
-xoa-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/xoa-recipient.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",113,13,88%,7,2
-network-filters-scheduling,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network-filters-scheduling.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",119,20,83%,9,3
-create-ddos,DdoS Protection,FPT Security,ddos-protection/create-ddos.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",138,39,72%,5,3
-tutorials-tao-policy,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-policy.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",132,33,75%,8,4
-try-example-workload,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/try-example-workload.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",117,19,84%,2,0
-tao-object,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-object.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",139,42,70%,9,6
-tutorials-tao-secret-tren-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-secret-tren-secret-engine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",133,37,72%,8,4
-install-veeam-agent-for-linux,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/install-veeam-agent-for-linux.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",145,50,66%,10,8
-xuat-bao-cao,FPT Cloud VA,FPT Security,fpt-va/xuat-bao-cao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",113,19,83%,6,3
-thay-doi-cau-hinh-k8s,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/thay-doi-cau-hinh-k8s.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",107,13,88%,2,0
-quan-ly-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",102,9,91%,2,2
-giam-sat-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/giam-sat-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",128,36,72%,3,2
-truy-cap-vao-dashboard,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/truy-cap-vao-dashboard.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",115,23,80%,3,1
-view-performed-transactions,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",97,6,94%,8,1
-xay-dung-mot-website-tinh-bang-fpt-object-storage,FPT Object Storage,FPT Storage,fpt-object-storage/xay-dung-mot-website-tinh-bang-fpt-object-storage.md,1,1,0,2,"NO_IMAGES, NO_TABLES",541,451,17%,4,0
-xem-chi-tiet-workspace,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/xem-chi-tiet-workspace.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",107,17,84%,3,1
-dang-ky,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/dang-ky.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",98,10,90%,8,1
-demo,FPT Jenkins CI,FPT DevSecOps Services,fpt-argocd/demo.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",120,32,73%,2,0
-overview,SSO - Single sign-on,FPT Cloud Server,ai-factory-billing/overview.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",106,19,82%,2,0
-scan-now,FPT Cloud VA,FPT Security,fpt-va/scan-now.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",169,82,51%,5,0
-graphical-analysis,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/graphical-analysis.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",90,4,96%,7,1
-tutorials-tao-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-secret-engine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",118,32,73%,8,4
-static-route,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/static-route.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",137,52,62%,11,8
-tutorials-khoi-tao-vault-instance,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-khoi-tao-vault-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",111,26,77%,7,3
-update-target,FPT Cloud VA,FPT Security,fpt-va/update-target.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",108,24,78%,5,2
-fqas-4,Request Resource,Support,end-user-request-resource/fqas-4.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",120,39,68%,3,0
-xem-ket-qua-quet-cu,FPT Cloud VA,FPT Security,fpt-va/xem-ket-qua-quet-cu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",87,8,91%,4,1
-dang-nhap,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/dang-nhap.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",84,6,93%,8,1
-tutorials-tao-role,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-role.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",128,50,61%,8,4
-doi-ten-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/doi-ten-profile.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",85,9,89%,4,3
-detection-log-analysis,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-log-analysis.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",86,12,86%,8,2
-tutorials-encryption,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-encryption.md,1,1,0,2,"NO_IMAGES, NO_TABLES",438,365,17%,4,0
-website-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/website-logs.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",82,10,88%,7,1
-quan-ly-cau-hinh,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-cau-hinh.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",97,25,74%,2,0
-alerting,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/alerting.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",81,10,88%,3,1
-explore-data,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/explore-data.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",80,10,88%,3,1
-xem-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/xem-ket-qua-quet.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",73,5,93%,3,0
-fqas-1,Request Resource,Support,end-user-request-resource/fqas-1.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",104,38,63%,3,0
-security-patch,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/security-patch.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",78,13,83%,9,3
-detection-status,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-status.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",70,6,91%,7,1
-audit-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/audit-logs.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",67,3,96%,7,1
-x-forwarder-for,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/x-forwarder-for.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",81,17,79%,7,1
-url-filter-settings,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/url-filter-settings.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",66,4,94%,7,1
-tutorials-xoa-secret,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-secret.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",87,25,71%,7,3
-dieu-tra-log,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/dieu-tra-log.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",93,34,63%,8,5
-kich-hoat-dich-vu-fcmon,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/kich-hoat-dich-vu-fcmon.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",87,28,68%,2,0
-use-sso,SSO - Single sign-on,FPT Cloud Server,sso-single-sign-on/use-sso.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",82,24,71%,6,4
-quan-ly-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-group.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",68,10,85%,1,0
-user-defined-pattern,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/user-defined-pattern.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,4,94%,7,1
-cau-hinh-network-interfaces,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/cau-hinh-network-interfaces.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",88,30,66%,5,2
-self-diagnostics,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/self-diagnostics.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",59,2,97%,7,1
-load-balancing,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/load-balancing.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",60,4,93%,7,1
-config-sso,SSO - Single sign-on,FPT Cloud Server,sso-single-sign-on/config-sso.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",68,13,81%,2,0
-report-scheduling,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/report-scheduling.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",58,4,93%,8,2
-privacy-filtering,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/privacy-filtering.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,10,84%,7,1
-malicious-ip,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/malicious-ip.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",57,5,91%,7,1
-intergration,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/intergration.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,10,84%,11,5
-update-hotfix,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/update-hotfix.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",81,29,64%,8,5
-truc-quan-hoa-du-lieu,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/truc-quan-hoa-du-lieu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",62,10,84%,2,0
-network,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",65,14,78%,10,4
-quan-ly-workspace,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quan-ly-workspace.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",62,12,81%,2,0
-tutorials-xoa-policy,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-policy.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",74,25,66%,7,3
-truy-cap-giao-dien-quan-tri,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/truy-cap-giao-dien-quan-tri.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",60,14,77%,5,2
-service-status,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/service-status.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",66,21,68%,7,1
-cau-hinh-static-routes,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/cau-hinh-static-routes.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",73,28,62%,5,2
-quan-ly-target,FPT Cloud VA,FPT Security,fpt-va/quan-ly-target.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",58,15,74%,3,0
-system,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/system.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",52,11,79%,11,5
-backup-restore,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/backup-restore.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",51,15,71%,7,7
-install-policy,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/install-policy.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",59,23,61%,7,4
-overview-policy,Policy Management,FPT Cloud Server,policy-management/overview-policy.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",71,45,37%,4,0
-dang-nhap-voi-account-password,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/dang-nhap-voi-account-password.md,1,1,0,2,"NO_IMAGES, NO_TABLES",33,8,76%,4,0
-ssl-profile,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/ssl-profile.md,1,3,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",65,40,38%,6,0
-region-nhat-ban,File Storage - High Performance,FPT Storage,file-storage-high-performance/region-nhat-ban.md,1,1,0,2,"NO_IMAGES, NO_TABLES",30,11,63%,4,0
-tutorials-su-dung-object-storage-tren-fpt-portal,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal.md,1,1,0,2,"NO_IMAGES, NO_TABLES",69,54,22%,4,0
-Overview,FPT Cloud Guard,FPT Monitoring,cloud-guard/Overview.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES",65,58,11%,5,0
-dang-nhap-voi-tai-khoan-SSO,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO.md,1,1,0,2,"NO_IMAGES, NO_TABLES",11,11,0%,4,0
-region-viet-nam,File Storage - High Performance,FPT Storage,file-storage-high-performance/region-viet-nam.md,1,1,0,2,"NO_IMAGES, NO_TABLES",10,15,-50%,4,0
-report-schedule,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/report-schedule.md,0,2,1,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",1583,1073,32%,11,3
-kafka-user,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/kafka-user.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1250,798,36%,8,3
-view-db-list,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/view-db-list.md,0,2,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",760,375,51%,10,2
-db-view-detail,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-view-detail.md,0,2,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",738,379,49%,10,2
-subnet,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/subnet.md,0,3,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",1024,705,31%,9,1
-policy-settings,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/policy-settings.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",422,214,49%,14,8
-restore-file-and-folder-for-linux,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-file-and-folder-for-linux.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",248,105,58%,11,9
-tao-security-profile,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/tao-security-profile.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",263,121,54%,18,18
-quan-ly-blades,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/quan-ly-blades.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",234,107,54%,20,17
-restore-linux-vm-from-cloud-repository,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",265,140,47%,18,16
-tao-rule-nat,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-rule-nat.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",212,88,58%,19,16
-restore-file-and-folder-for-windows,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-file-and-folder-for-windows.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",192,77,60%,9,7
-client-task,Trellix Customer Guide,Support,trellix-customer-guide/client-task.md,0,1,0,1,WORD_COUNT_LOW,196,83,58%,3,2
-tao-firewall-policy,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/tao-firewall-policy.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",184,89,52%,8,5
-restore-window-vm-from-cloud-repository,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-window-vm-from-cloud-repository.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",158,70,56%,2,0
-quan-ly-account,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/quan-ly-account.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",127,55,57%,11,8
-view-log,Trellix Customer Guide,Support,trellix-customer-guide/view-log.md,0,3,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",106,44,58%,8,7
-network-interface,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/network-interface.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",123,69,44%,20,17
-tao-rule-firewall,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-rule-firewall.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",93,40,57%,12,9
-test-send-email,FPT Reporting,FPT Monitoring,reporting/test-send-email.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",77,31,60%,3,1
-quan-ly-system-user-user-profile,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/quan-ly-system-user-user-profile.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",95,50,47%,6,3
-tutorials-xoa-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-secret-engine.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",79,34,57%,7,3
-managing-alarms,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/managing-alarms.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",72,29,60%,6,4
-user-group-management,IAM,FPT Security,managed-fpt-database-engines-new/user-group-management.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",90,50,44%,4,1
-hien-thi-logs-traffic,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/hien-thi-logs-traffic.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",69,34,51%,5,2
-truy-cap-smartconsole,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/truy-cap-smartconsole.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",43,9,79%,6,3
-tich-hop-dich-vu,FPT Reporting,FPT Monitoring,reporting/tich-hop-dich-vu.md,0,1,0,1,NO_TABLES,38,6,84%,2,0
-report,Trellix Customer Guide,Support,managed-fpt-database-engine/report.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",76,46,39%,3,0
-delete-policy,Policy Management,FPT Cloud Server,fpt-key-vault/delete-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",47,18,62%,6,2
-truy-cap-gaia-portal,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/truy-cap-gaia-portal.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",34,8,76%,6,3
-xoa-firewall-policy,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/xoa-firewall-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",39,15,62%,4,1
-edit-report,FPT Reporting,FPT Monitoring,reporting/edit-report.md,0,1,0,1,NO_TABLES,37,15,59%,3,1
-cau-hinh-dns,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/cau-hinh-dns.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",35,14,60%,5,2
-quan-ly-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-policy.md,0,1,0,1,NO_TABLES,44,29,34%,1,0
-feature-visibility,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/feature-visibility.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",24,11,54%,4,1
-huong-dan-tren-smartconsole,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/huong-dan-tren-smartconsole.md,0,1,0,1,NO_TABLES,17,5,71%,3,0
-quan-ly-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-profile.md,0,1,0,1,NO_TABLES,35,26,26%,1,0
-delete-report,FPT Reporting,FPT Monitoring,reporting/delete-report.md,0,1,0,1,NO_TABLES,19,12,37%,4,2
-huong-dan-tren-gaia-portal,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/huong-dan-tren-gaia-portal.md,0,1,0,1,NO_TABLES,17,32,-88%,3,0
-khai-bao-thong-tin-tren-apimanager-application,FPT API Management,FPT Integration,fpt-api-management/khai-bao-thong-tin-tren-apimanager-application.md,0,1,0,1,NO_TABLES,26,45,-73%,3,0
-monitoring,VPN Site-to-Site,FPT Network,managed-fpt-database-engine/monitoring.md,0,2,0,2,"HEADING_COUNT_DIFF, NO_TABLES",371,454,-22%,9,12
+slug,module,category,localFile,high,medium,low,total_issues,issue_types,web_words_adj,doc_words,word_gap_pct,web_imgs_adj,doc_imgs,aggregated,agg_files
+quan-ly-floating-ip,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-floating-ip.md,3,1,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",653,187,71%,13,0,,
+cac-luu-y-khi-su-dung-fke,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/cac-luu-y-khi-su-dung-fke.md,3,1,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",368,61,83%,5,0,,
+SDK-API-Reference,FPT Object Storage,FPT Storage,fpt-object-storage/SDK-API-Reference.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1834,432,76%,4,0,,
+microservices-architecture-on-fke,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/microservices-architecture-on-fke.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1298,59,95%,6,0,,
+quan-ly-security-group,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-security-group.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1072,35,97%,21,0,,
+Initial-Setup,Cloud Server,FPT Cloud Server,cloud-guard/Initial-Setup.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1015,40,96%,14,0,,
+gpu-sharing,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/gpu-sharing.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1021,87,91%,7,0,,
+db-proxy,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-proxy.md,2,2,1,5,"HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",903,11,99%,12,0,,
+japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server,File Storage - High Performance,FPT Storage,file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",936,126,87%,4,0,,
+khoi-tao-listener,Load Balancer,FPT Network,load-balancer/khoi-tao-listener.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",859,172,80%,4,0,,
+service-type-load-balancer,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/service-type-load-balancer.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",721,48,93%,5,0,,
+connect-checkpoint-r8120,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-checkpoint-r8120.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",933,261,72%,32,26,,
+mysql-troubleshooting,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/mysql-troubleshooting.md,2,2,0,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",1777,1108,38%,8,0,,
+khoi-tao-server-pool,Load Balancer,FPT Network,load-balancer/khoi-tao-server-pool.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",880,220,75%,4,0,,
+tutorials-object,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-object.md,2,1,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",969,331,66%,4,6,,
+connect-fci-aws-transitgw,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-aws-transitgw.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",990,358,64%,28,22,,
+hpc-quick-start,Cloud Server,FPT Cloud Server,cloud-server/hpc-quick-start.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",606,32,95%,12,0,,
+SNI-load-balancer,Load Balancer,FPT Network,load-balancer/SNI-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",712,157,78%,4,0,,
+chinh-sua-listener,Load Balancer,FPT Network,load-balancer/chinh-sua-listener.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",746,194,74%,4,0,,
+connect-strongswan,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-strongswan.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",671,170,75%,10,4,,
+FAQ,Fortigate - FPT NGFW,FPT Security,ai_marketplace/FAQ.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",533,47,91%,4,0,,
+connect-vyos-1.5,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-vyos-1.5.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",614,134,78%,10,4,,
+quan-ly-mountpoint,File Storage - High Performance,FPT Storage,file-storage-high-performance/quan-ly-mountpoint.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",713,250,65%,4,0,,
+Version-policy,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/Version-policy.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",527,65,88%,8,0,,
+khoi-tao-canh-bao-load-balancer,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-load-balancer.md,2,1,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",631,207,67%,8,3,,
+best-practice-upgrade-fke-cluster-version,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version.md,2,1,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, WORD_COUNT_LOW",583,163,72%,5,0,,
+security-group-priority-rule,Cloud Server,FPT Cloud Server,cloud-server/security-group-priority-rule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",432,22,95%,8,0,,
+hpc-fixed-rental,Cloud Server,FPT Cloud Server,cloud-server/hpc-fixed-rental.md,2,1,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, WORD_COUNT_LOW",480,73,85%,7,0,,
+security-group-filter,Cloud Server,FPT Cloud Server,cloud-server/security-group-filter.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",420,27,94%,6,0,,
+new-quota,Cloud Server,FPT Cloud Server,cloud-server/new-quota.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",379,21,94%,7,0,,
+chinh-sua-cau-hinh-health-check,Load Balancer,FPT Network,load-balancer/chinh-sua-cau-hinh-health-check.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",503,146,71%,4,0,,
+vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server,File Storage - High Performance,FPT Storage,file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server.md,2,2,1,5,"HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",443,96,78%,4,0,,
+Initial-setup,Managed - FPT Kubernetes Engine,FPT Container,fpt-jenkins-ci/Initial-setup.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",369,26,93%,8,0,,
+migrate-bucket-data,FPT Object Storage,FPT Storage,fpt-object-storage/migrate-bucket-data.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",492,150,70%,4,0,,
+khoi-tao-canh-bao-vpn,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-vpn.md,2,1,0,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",484,146,70%,8,3,,
+faq,FPT Cloud Desktop,FPT Cloud Server,ai-notebook/faq.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",352,22,94%,4,0,,
+resize-load-balancer,Load Balancer,FPT Network,load-balancer/resize-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",335,35,90%,4,0,,
+overviews-vpn,VPN Site-to-Site,FPT Network,vpn-site-to-site/overviews-vpn.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",316,28,91%,6,0,,
+access-logs,Load Balancer,FPT Network,load-balancer/access-logs.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",363,77,79%,4,0,,
+benchmark-sysbench,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/benchmark-sysbench.md,2,2,1,5,"FEWER_TABLES, HEADING_COUNT_DIFF, MISSING_HEADINGS, NO_IMAGES, WORD_COUNT_LOW",770,485,37%,8,0,,
+guide-dashboard-overview,FPT AppSec,FPT Security Platform,fpt-appsec/guide-dashboard-overview.md,2,2,0,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",356,82,77%,10,7,,
+Allow-IP-CIDR,Load Balancer,FPT Network,load-balancer/Allow-IP-CIDR.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",363,103,72%,4,0,,
+networking-overview,Cloud Server,FPT Cloud Server,cloud-server/networking-overview.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",263,7,97%,5,0,,
+overview-nic,Cloud Server,FPT Cloud Server,cloud-server/overview-nic.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",257,17,93%,5,0,,
+dfke-faqs,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/dfke-faqs.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",273,33,88%,5,0,,
+NIC-overview-1,Cloud Server,FPT Cloud Server,cloud-server/NIC-overview-1.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",256,18,93%,5,0,,
+khoi-tao-canh-bao-virtual-machine,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-virtual-machine.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",300,74,75%,5,0,,
+them-external-member,Load Balancer,FPT Network,load-balancer/them-external-member.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",287,74,74%,4,0,,
+theo-doi-bieu-do-load-balancer,Load Balancer,FPT Network,load-balancer/theo-doi-bieu-do-load-balancer.md,2,2,0,4,"NO_CODE_BLOCKS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",290,88,70%,4,0,,
+enable-hsts-to-http-listener,Load Balancer,FPT Network,load-balancer/enable-hsts-to-http-listener.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",236,46,81%,4,0,,
+header-project,Cloud Server,FPT Cloud Server,cloud-server/header-project.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",191,7,96%,10,0,,
+network-all,Cloud Server,FPT Cloud Server,cloud-server/network-all.md,2,1,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",265,83,69%,5,0,,
+schedule-overview,Cloud Server,FPT Cloud Server,cloud-server/schedule-overview.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",175,6,97%,5,0,,
+quan-ly-project,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-project.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",171,8,95%,9,0,,
+instance-schedule,Cloud Server,FPT Cloud Server,cloud-server/instance-schedule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",173,10,94%,5,0,,
+redirect-http-request-sang-https,Load Balancer,FPT Network,load-balancer/redirect-http-request-sang-https.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",169,8,95%,4,0,,
+instance-group,Cloud Server,FPT Cloud Server,cloud-server/instance-group.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",163,12,93%,5,0,,
+hpc-snapshot-backup,Cloud Server,FPT Cloud Server,cloud-server/hpc-snapshot-backup.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",186,38,80%,9,0,,
+khoi-tao-canh-bao-object-storage,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-canh-bao-object-storage.md,2,3,0,5,"FEWER_IMAGES, MISSING_HEADINGS, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",204,59,71%,8,3,,
+overview-affinity,Cloud Server,FPT Cloud Server,cloud-server/overview-affinity.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",159,15,91%,5,0,,
+GPU,Cloud Server,FPT Cloud Server,cloud-server/GPU.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",164,21,87%,5,0,,
+fde-glossary,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/fde-glossary.md,2,0,0,2,"MISSING_HEADINGS, NO_IMAGES",753,611,19%,8,0,,
+redirect-prefix,Load Balancer,FPT Network,load-balancer/redirect-prefix.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",191,51,73%,4,0,,
+convert-card,Cloud Server,FPT Cloud Server,cloud-server/convert-card.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",162,27,83%,10,0,,
+edit-ip-address,Cloud Server,FPT Cloud Server,cloud-server/edit-ip-address.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",167,38,77%,10,0,,
+cau-hinh-timeout,Load Balancer,FPT Network,load-balancer/cau-hinh-timeout.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",143,14,90%,4,0,,
+change-address-MAC,Cloud Server,FPT Cloud Server,cloud-server/change-address-MAC.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",154,26,83%,9,0,,
+hpc-hardware-fixation,Cloud Server,FPT Cloud Server,cloud-server/hpc-hardware-fixation.md,2,2,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",152,27,82%,8,0,,
+thay-doi-profile-cho-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/thay-doi-profile-cho-group.md,2,1,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",145,22,85%,4,3,,
+hpc-change-package,Cloud Server,FPT Cloud Server,cloud-server/hpc-change-package.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",143,21,85%,7,0,,
+kiem-tra-trang-thai-target,FPT Cloud VA,FPT Security,fpt-va/kiem-tra-trang-thai-target.md,2,0,0,2,"NO_IMAGES, WORD_COUNT_LOW",144,27,81%,4,0,,
+question-,Cloud Server,FPT Cloud Server,cloud-server/question-.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",113,9,92%,5,0,,
+edit-instance-group-specific,Cloud Server,FPT Cloud Server,cloud-server/edit-instance-group-specific.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",112,11,90%,7,0,,
+quan-ly-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-retention-rule.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",117,19,84%,5,0,,
+hpc-level-2-password,Cloud Server,FPT Cloud Server,cloud-server/hpc-level-2-password.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",98,17,83%,7,0,,
+cap-nhat-load-balancer,Load Balancer,FPT Network,load-balancer/cap-nhat-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",125,44,65%,4,0,,
+hpc-clone-image,Cloud Server,FPT Cloud Server,cloud-server/hpc-clone-image.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",94,15,84%,6,0,,
+import-ssl-certificate-cho-load-balancer,Load Balancer,FPT Network,load-balancer/import-ssl-certificate-cho-load-balancer.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",113,37,67%,4,0,,
+delete-card-NIC,Cloud Server,FPT Cloud Server,cloud-server/delete-card-NIC.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",102,31,70%,10,0,,
+FQAs,Cloud Server,FPT Cloud Server,cloud-server/FQAs.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",91,24,74%,5,0,,
+question-1,Cloud Server,FPT Cloud Server,allow-address-pair/question-1.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",78,11,86%,5,0,,
+tutorials-quan-ly-instance-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-quan-ly-instance-template.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",69,9,87%,5,0,,
+schedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/schedule-snapshotVM.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",68,8,88%,5,0,,
+maintenance,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/maintenance.md,2,1,0,3,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES",455,403,11%,8,0,,
+enable-NIC-card,Cloud Server,FPT Cloud Server,cloud-server/enable-NIC-card.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",70,25,64%,9,0,,
+overview-bell,Cloud Server,FPT Cloud Server,cloud-server/overview-bell.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",54,9,83%,5,0,,
+hpc-delete-image,Cloud Server,FPT Cloud Server,cloud-server/hpc-delete-image.md,2,1,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",52,16,69%,7,0,,
+network-connectivity,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/network-connectivity.md,2,1,0,3,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES",344,341,1%,8,0,,
+clickhouse-use-ha,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/clickhouse-use-ha.md,2,1,0,3,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES",121,185,-53%,8,0,,
+slurm-on-fpt-cloud,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/slurm-on-fpt-cloud.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",3333,307,91%,6,4,,
+cicd-guideline,FPT AppSec,FPT Security Platform,fpt-appsec/cicd-guideline.md,1,1,1,3,"FEWER_IMAGES, MISSING_HEADINGS, WORD_COUNT_LOW",2290,468,80%,4,1,,
+create-policy,Policy Management,FPT Cloud Server,fpt-key-vault/create-policy.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1450,28,98%,7,3,,
+multi-nodes-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/multi-nodes-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",1472,107,93%,2,0,,
+huong-dan-su-dung-cac-che-do-gpu-sharing,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-cac-che-do-gpu-sharing.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",1521,268,82%,8,7,,
+workspace-scmasset,FPT AppSec,FPT Security Platform,fpt-appsec/workspace-scmasset.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",1567,378,76%,27,24,,
+tao-target,FPT Cloud VA,FPT Security,fpt-va/tao-target.md,1,2,0,3,"FEWER_IMAGES, NO_CODE_BLOCKS, WORD_COUNT_LOW",1201,138,89%,9,2,,
+quan-ly-backup-job,Backup,FPT Cloud Backup & DR,backup/quan-ly-backup-job.md,1,0,0,1,WORD_COUNT_LOW,1172,141,88%,3,0,,
+gateway,Cloud Server,FPT Cloud Server,cloud-server/gateway.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",1197,250,79%,21,15,Yes,8
+cai-dat-cluster-kubernetes-su-dung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/cai-dat-cluster-kubernetes-su-dung-gpu.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",1301,397,69%,9,8,,
+connect-behind-NAT,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-behind-NAT.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1167,293,75%,13,7,,
+ket-noi-thiet-bi-behind-NAT-IP,VPN Site-to-Site,FPT Network,vpn-site-to-site/ket-noi-thiet-bi-behind-NAT-IP.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",1163,296,75%,13,7,,
+tutorials-khoi-tao-mot-may-ao-moi,Cloud Server,FPT Cloud Server,cloud-server/tutorials-khoi-tao-mot-may-ao-moi.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",902,95,89%,13,6,,
+finetune-llm-models,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/finetune-llm-models.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",873,67,92%,2,0,,
+tutorials-backup-may-chu-voi-snapshot,Cloud Server,FPT Cloud Server,cloud-server/tutorials-backup-may-chu-voi-snapshot.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",977,183,81%,26,21,,
+vgpu-for-container,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/vgpu-for-container.md,1,0,0,1,WORD_COUNT_LOW,985,206,79%,7,5,,
+single-gpu-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/single-gpu-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",777,71,91%,2,0,,
+tutorials-bucket-config,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-bucket-config.md,1,1,0,2,"MISSING_HEADINGS, WORD_COUNT_LOW",1894,1191,37%,4,14,,
+khoi-tao-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-profile.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",756,56,93%,6,5,,
+multi-gpus-example,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/multi-gpus-example.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",764,76,90%,2,0,,
+edit-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/edit-vpn-connection.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",912,235,74%,10,4,,
+khoi-tao-load-balancer,Load Balancer,FPT Network,load-balancer/khoi-tao-load-balancer.md,1,2,0,3,"FEWER_IMAGES, NO_CODE_BLOCKS, WORD_COUNT_LOW",852,180,79%,5,1,,
+workspace-crasset,FPT AppSec,FPT Security Platform,fpt-appsec/workspace-crasset.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",885,235,73%,7,4,,
+create-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/create-vpn-connection.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",919,274,70%,11,5,,
+quick-starts-tao-mot-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-tao-mot-may-ao.md,1,4,0,5,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",733,94,87%,21,12,,
+gpu-time-sharing,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/gpu-time-sharing.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",683,92,87%,7,5,,
+SSO-qua-FCDClient-cu,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/SSO-qua-FCDClient-cu.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",644,58,91%,12,7,,
+connect-fci-aws-virtualgw,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-aws-virtualgw.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",950,364,62%,32,26,,
+khoi-tao-managed-gpu-cluster-moi,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",768,182,76%,9,7,,
+accountpassword-qua-FCDClient-moi,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/accountpassword-qua-FCDClient-moi.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",719,138,81%,16,12,,
+tao-report,FPT Reporting,FPT Monitoring,reporting/tao-report.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",793,215,73%,11,9,,
+khoi-tao-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-policy.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",643,137,79%,9,8,,
+tutorials-ket-noi-vao-may-ao-linux,Cloud Server,FPT Cloud Server,cloud-server/tutorials-ket-noi-vao-may-ao-linux.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",559,70,87%,13,8,,
+huong-dan-tich-hop-argocd-images-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-tich-hop-argocd-images-updater.md,1,1,0,2,"HEADING_COUNT_DIFF, WORD_COUNT_LOW",555,85,85%,21,19,,
+gpu-general,Cloud Server,FPT Cloud Server,cloud-server/gpu-general.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",567,101,82%,12,7,,
+gpu-specific,Cloud Server,FPT Cloud Server,cloud-server/gpu-specific.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",559,99,82%,7,2,,
+retry-timeout-rule,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/retry-timeout-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",586,140,76%,7,2,,
+scale-tu-dong-theo-lich-trinh,FPT Autoscale,FPT Cloud Server,fpt-autoscale/scale-tu-dong-theo-lich-trinh.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",575,134,77%,11,10,,
+attach-a-network-card-to-the-virtual-machine,Cloud Server,FPT Cloud Server,cloud-server/attach-a-network-card-to-the-virtual-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",479,40,92%,11,6,,
+accountpassword-qua-FCDClient-cu,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/accountpassword-qua-FCDClient-cu.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",482,58,88%,11,7,,
+service-load-balancer-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/service-load-balancer-managed-gpu-cluster.md,1,0,1,2,"MISSING_HEADINGS, WORD_COUNT_LOW",511,91,82%,2,0,,
+aspm_v1.3.0,FPT AppSec,FPT Security Platform,fpt-appsec/aspm_v1.3.0.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",463,57,88%,4,1,,
+them-moi-tag-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/them-moi-tag-retention-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",581,179,69%,14,9,,
+parameter,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/parameter.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",453,56,88%,10,2,,
+create-schedule,FPT AppSec,FPT Security Platform,fpt-appsec/create-schedule.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",456,70,85%,17,14,,
+create-db,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/create-db.md,1,1,0,2,"FEWER_IMAGES, MISSING_HEADINGS",1817,1437,21%,10,2,,
+connect-pfsense,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-pfsense.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",524,159,70%,15,9,,
+scale-thu-cong,FPT Autoscale,FPT Cloud Server,fpt-autoscale/scale-thu-cong.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",423,65,85%,8,7,,
+db-connect,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-connect.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",1748,1417,19%,11,3,,
+mps-gpu-sharing,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/mps-gpu-sharing.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",375,44,88%,4,2,,
+cau-hinh-o-dia-cho-may-ao-chay-windows,Cloud Server,FPT Cloud Server,cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",387,57,85%,17,7,,
+connect-fci-vmware,VPN Site-to-Site,FPT Network,vpn-site-to-site/connect-fci-vmware.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",474,162,66%,19,13,,
+khoi-tao-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/khoi-tao-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",345,36,90%,7,6,,
+monitor-infrastructure-platform,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-infrastructure-platform.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",410,103,75%,14,12,,
+guide-harbor,FPT AppSec,FPT Security Platform,fpt-appsec/guide-harbor.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",451,151,67%,17,14,,
+tutorials-ket-noi-vao-may-ao-windows,Cloud Server,FPT Cloud Server,cloud-server/tutorials-ket-noi-vao-may-ao-windows.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",350,52,85%,10,5,,
+guide-fcr,FPT AppSec,FPT Security Platform,fpt-appsec/guide-fcr.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",437,143,67%,15,12,,
+huong-dan-cau-hinh-notifications-de-nhan-thong-bao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",375,86,77%,28,26,,
+tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",344,58,83%,12,5,,
+profile-ssh-key,Cloud Server,FPT Cloud Server,cloud-server/profile-ssh-key.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",334,50,85%,10,1,,
+trien-khai-ung-dung-su-dung-gpu-tren-kubernetes,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/trien-khai-ung-dung-su-dung-gpu-tren-kubernetes.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",323,40,88%,2,1,,
+trien-khai-ung-dung-tren-worker-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/trien-khai-ung-dung-tren-worker-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",300,22,93%,5,3,,
+cau-hinh-channel-de-thuc-hien-gui-thong-bao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-channel-de-thuc-hien-gui-thong-bao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",386,110,72%,29,27,,
+tutorials-thay-doi-thong-tin-cau-hinh-may-chu,Cloud Server,FPT Cloud Server,cloud-server/tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",329,55,83%,10,5,,
+huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal.md,1,0,0,1,WORD_COUNT_LOW,426,154,64%,14,12,,
+Migration-cho-SQLServer,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/Migration-cho-SQLServer.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",320,49,85%,23,15,,
+aspm_v1.2.1,FPT AppSec,FPT Security Platform,fpt-appsec/aspm_v1.2.1.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",313,48,85%,4,1,,
+quan-ly-tag-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-tag-retention-rule.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",362,106,71%,14,9,,
+tutorials-quan-ly-subuser,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-quan-ly-subuser.md,1,2,1,4,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",446,191,57%,4,0,,
+huong-dan-cau-hinh-nodes-build-tren-jenkins,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-cau-hinh-nodes-build-tren-jenkins.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",326,71,78%,12,10,,
+guide-github,FPT AppSec,FPT Security Platform,fpt-appsec/guide-github.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",376,122,68%,19,16,,
+create-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/create-instance-group.md,1,2,1,4,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",304,55,82%,10,3,,
+huong-dan-cau-hinh-auto-scale-su-dung-keda-va-prometheus,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-keda-va-prometheus.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",308,60,81%,2,1,,
+backup-volume,Backup,FPT Cloud Backup & DR,backup/backup-volume.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",336,89,74%,3,0,,
+khoi-tao-mot-alert-moi-threat-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-mot-alert-moi-threat-alert.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",333,88,74%,7,2,,
+create-vm-iso,Cloud Server,FPT Cloud Server,cloud-server/create-vm-iso.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",266,25,91%,6,1,,
+tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",402,161,60%,4,0,,
+vertical-scaling,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/vertical-scaling.md,1,1,0,2,"FEWER_IMAGES, MISSING_HEADINGS",1228,996,19%,13,5,,
+hpc-rest-machine,Cloud Server,FPT Cloud Server,cloud-server/hpc-rest-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",257,26,90%,6,1,,
+clone-vm-tu-cac-restore-point,Backup,FPT Cloud Backup & DR,backup/clone-vm-tu-cac-restore-point.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",279,54,81%,3,0,,
+cluster-autoscale,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/cluster-autoscale.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",361,142,61%,17,12,,
+huong-dan-tao-jobs-tren-jenkins-chay-tren-fpt-cloud-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-tao-jobs-tren-jenkins-chay-tren-fpt-cloud-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",284,67,76%,16,14,,
+tutorials-permissions,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-permissions.md,1,1,0,2,"MISSING_HEADINGS, NO_TABLES",881,668,24%,4,4,,
+tao-moi-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/tao-moi-recipient.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",296,86,71%,10,5,,
+best-practice-manual-scaling,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/best-practice-manual-scaling.md,1,3,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",375,166,56%,5,0,,
+backup-mgmt,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/backup-mgmt.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",783,575,27%,12,4,,
+tinh-nang-chuyen-worker-base-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/tinh-nang-chuyen-worker-base-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",235,39,83%,5,3,,
+guide-issue-by-team,FPT AppSec,FPT Security Platform,fpt-appsec/guide-issue-by-team.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",235,45,81%,4,1,,
+huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",231,43,81%,5,4,,
+phan-quyen-su-dung-bucket-cho-cac-subuser,FPT Object Storage,FPT Storage,fpt-object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",316,132,58%,4,0,,
+quan-ly-member,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-member.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",298,117,61%,20,17,,
+khoi-tao-mot-alert-moi-activity-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/khoi-tao-mot-alert-moi-activity-alert.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",224,44,80%,7,2,,
+nat-instance,Cloud Server,FPT Cloud Server,cloud-server/nat-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",207,29,86%,21,4,,
+guide-asset-by-team,FPT AppSec,FPT Security Platform,fpt-appsec/guide-asset-by-team.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",207,30,86%,4,1,,
+gioi-thieu-Organization,FPT AppSec,FPT Security Platform,fpt-appsec/gioi-thieu-Organization.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",214,37,83%,5,2,,
+huong-dan-su-dung-autoscaler-voi-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-autoscaler-voi-gpu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",190,14,93%,3,2,,
+resource,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/resource.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",778,604,22%,11,3,,
+huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",188,16,91%,9,7,,
+cau-hinh-sonarqube-servers,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-sonarqube-servers.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",276,107,61%,15,13,,
+tutorials-bucket,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-bucket.md,1,2,0,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",529,364,31%,4,7,,
+recipient-teams,FPT Cloud Guard,FPT Monitoring,cloud-guard/recipient-teams.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",260,95,63%,7,2,,
+them-moi-mot-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/them-moi-mot-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",219,55,75%,11,9,,
+lock-unlock-instance-deletion,Cloud Server,FPT Cloud Server,cloud-server/lock-unlock-instance-deletion.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",253,91,64%,9,6,Yes,5
+quan-ly-retention-run,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-retention-run.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",269,107,60%,16,11,,
+auto-repair-nodes,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/auto-repair-nodes.md,1,3,0,4,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",305,145,52%,5,0,,
+guide-gitlabserver,FPT AppSec,FPT Security Platform,fpt-appsec/guide-gitlabserver.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",251,92,63%,11,8,,
+createschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/createschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",194,37,81%,8,3,,
+create-schedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/create-schedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",194,38,80%,8,3,,
+guide-change-status-issue-list,FPT AppSec,FPT Security Platform,fpt-appsec/guide-change-status-issue-list.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",171,15,91%,8,5,,
+create-new-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/create-new-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",208,56,73%,8,3,,
+clone-instance,Cloud Server,FPT Cloud Server,cloud-server/clone-instance.md,1,3,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",208,57,73%,9,4,,
+view-detail,FPT Reporting,FPT Monitoring,reporting/view-detail.md,1,0,0,1,WORD_COUNT_LOW,214,63,71%,4,2,,
+guide-gitlab,FPT AppSec,FPT Security Platform,fpt-appsec/guide-gitlab.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",227,79,65%,10,7,,
+quick-starts-khoi-dong-lai-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-khoi-dong-lai-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",161,14,91%,7,2,,
+tai-len-custom-image,Cloud Server,FPT Cloud Server,cloud-server/tai-len-custom-image.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",221,74,67%,10,5,,
+xem-danh-sach-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/xem-danh-sach-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",236,89,62%,6,4,,
+login-console,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/login-console.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",183,40,78%,6,1,,
+report-export,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/report-export.md,1,1,0,2,"FEWER_IMAGES, MISSING_HEADINGS",1023,882,14%,12,4,,
+huong-dan-tich-hop-oidc-de-quan-ly-account,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",181,43,76%,14,12,,
+enable-disable-admin-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-admin-user.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",175,38,78%,11,9,,
+kiem-tra-trang-thai-cua-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/kiem-tra-trang-thai-cua-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",146,10,93%,6,1,,
+driver-installation-self-install,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/driver-installation-self-install.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",177,43,76%,1,0,,
+auto-blocking-filter,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/auto-blocking-filter.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",211,79,63%,7,1,,
+them-bot-member-cho-server-pool,Load Balancer,FPT Network,load-balancer/them-bot-member-cho-server-pool.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",199,68,66%,7,3,,
+schedule-detail,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-detail.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",188,57,70%,6,3,,
+dashboard-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/dashboard-ket-qua-quet.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",182,52,71%,5,2,,
+chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/chinh-sua-label-taint-cho-worker-group-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",161,32,80%,7,5,,
+lay-cookie,FPT Cloud VA,FPT Security,fpt-va/lay-cookie.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",205,80,61%,9,6,,
+add-them-worker-group,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/add-them-worker-group.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",193,68,65%,6,4,,
+cau-hinh-lap-lich-chay-retention-rule,FPT Container Registry,FPT Container,fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",182,59,68%,10,5,,
+bat-tat-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/bat-tat-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",141,18,87%,7,2,,
+huong-dan-dang-nhap-vao-fpt-cloud-jenkins-ci,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/huong-dan-dang-nhap-vao-fpt-cloud-jenkins-ci.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",174,53,70%,6,4,,
+view-bills,Bills,Billing,billing/view-bills.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",186,68,63%,3,1,,
+hpc-schedule-shutdown,Cloud Server,FPT Cloud Server,cloud-server/hpc-schedule-shutdown.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",132,15,89%,6,1,,
+xoa-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-profile.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",127,14,89%,4,3,,
+add-instance-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/add-instance-instance-group.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",147,36,76%,7,2,,
+enable-disable-anonymous-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-anonymous-user.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",150,39,74%,10,8,,
+backup-job-mgmt,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/backup-job-mgmt.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",793,682,14%,9,1,,
+tinh-nang-manual-scale-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/tinh-nang-manual-scale-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",146,35,76%,6,4,,
+xoa-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-policy.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",123,13,89%,4,3,,
+on-off-pitr,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/on-off-pitr.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",421,311,26%,12,4,,
+cem-chi-tiet-quota-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/cem-chi-tiet-quota-dich-vu.md,1,1,0,2,"FEWER_IMAGES, WORD_COUNT_LOW",162,53,67%,6,1,,
+Backup-Initial-Setup,Backup,FPT Cloud Backup & DR,backup/Backup-Initial-Setup.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",135,27,80%,3,0,,
+lay-header,FPT Cloud VA,FPT Security,fpt-va/lay-header.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",164,57,65%,9,6,,
+notification,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/notification.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",898,792,12%,12,7,,
+gan-storage-disk-vao-may-ao,Cloud Server,FPT Cloud Server,cloud-server/gan-storage-disk-vao-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",149,44,70%,7,2,,
+huong-dan-deploy-applications-qua-helm-chart-repo,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",118,13,89%,10,8,,
+quick-starts-xoa-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-xoa-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",130,26,80%,10,5,,
+detach-schedule-to-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/detach-schedule-to-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",123,21,83%,6,1,,
+buy-virtual-machines,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-virtual-machines.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",127,26,80%,11,4,,
+huong-dan-su-dung-applicationset-de-deploy,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-su-dung-applicationset-de-deploy.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",126,25,80%,9,7,,
+kiem-tra-thong-tin-goi-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",127,29,77%,7,2,,
+download-access-log,IAM,FPT Security,iam/download-access-log.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",129,31,76%,5,1,,
+mo-remote-registry-window,FPT Cloud VA,FPT Security,fpt-va/mo-remote-registry-window.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",155,57,63%,7,4,,
+quick-starts-tatbat-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quick-starts-tatbat-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",127,30,76%,6,1,,
+block-storage,Cloud Server,FPT Cloud Server,cloud-server/block-storage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",144,47,67%,7,2,,
+cap-nhat-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/cap-nhat-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",125,29,77%,9,4,,
+change-removable-drive-capacity,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/change-removable-drive-capacity.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",125,30,76%,11,4,,
+view-detail-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/view-detail-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",119,25,79%,8,3,,
+initial-setup,Tagging,FPT Cloud Server,affinity-anti-affinity/initial-setup.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",123,30,76%,0,0,,
+delete-instance-schedule,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/delete-instance-schedule.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",115,22,81%,7,2,,
+persistent-storage,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/persistent-storage.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",182,89,51%,6,0,,
+delete-instance-group,Cloud Server,FPT Cloud Server,affinity-anti-affinity/delete-instance-group.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",118,28,76%,7,2,,
+huong-dan-su-dung-gpu-telemetry,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/huong-dan-su-dung-gpu-telemetry.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",124,34,73%,4,3,,
+guide-change-status-issue-detail,FPT AppSec,FPT Security Platform,fpt-appsec/guide-change-status-issue-detail.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",101,11,89%,6,3,,
+xem-danh-sach-workspaces,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/xem-danh-sach-workspaces.md,1,0,0,1,WORD_COUNT_LOW,135,47,65%,3,1,,
+xem-thong-tin-chi-tiet-jenkins-CI-instance,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xem-thong-tin-chi-tiet-jenkins-CI-instance.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",120,32,73%,6,4,,
+xoa-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/xoa-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",98,11,89%,5,4,,
+kich-hoat-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/kich-hoat-dich-vu.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",114,31,73%,9,4,,
+restore-lai-vm-tu-cac-restore-point,Backup,FPT Cloud Backup & DR,backup/restore-lai-vm-tu-cac-restore-point.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",102,21,79%,3,0,,
+tao-object,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-object.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",122,42,66%,9,6,,
+huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",106,26,75%,11,9,,
+buy-storage-disk,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",108,30,72%,11,4,,
+nang-cap-goi-dich-vu,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/nang-cap-goi-dich-vu.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",99,21,79%,5,3,,
+tao-moi-fpt-jenkinsCI,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/tao-moi-fpt-jenkinsCI.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",118,42,64%,6,4,,
+create-organization,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/create-organization.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",90,15,83%,9,2,,
+guide-workspace,FPT AppSec,FPT Security Platform,fpt-appsec/guide-workspace.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",94,19,80%,5,2,,
+xem-chi-tiet-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/xem-chi-tiet-ket-qua-quet.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",110,36,67%,5,2,,
+huong-dan-su-dung-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-su-dung-robot-account.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",102,29,72%,7,2,,
+analytics,FPT API Management,FPT Integration,fpt-api-management/analytics.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",130,57,56%,4,0,,
+remove-the-network-card-from-the-virtual-machine,Cloud Server,FPT Cloud Server,cloud-server/remove-the-network-card-from-the-virtual-machine.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",92,20,78%,8,3,,
+kiem-tra-thong-tin-backup-va-restore-cua-vm,Backup,FPT Cloud Backup & DR,backup/kiem-tra-thong-tin-backup-va-restore-cua-vm.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",99,27,73%,3,0,,
+cap-nhat-thong-tin-cau-hinh-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cap-nhat-thong-tin-cau-hinh-agent.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",99,30,70%,6,4,,
+push-s3,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/push-s3.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",749,680,9%,14,6,,
+view-bill-charges-by-resource,Bills,Billing,billing/view-bill-charges-by-resource.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",97,28,71%,9,7,,
+tutorials-tao-instance-tu-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-tao-instance-tu-template.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",96,28,71%,7,2,,
+fqas-2,Request Resource,Support,billing/fqas-2.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",71,3,96%,4,1,,
+thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",89,22,75%,11,9,,
+deleteschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/deleteschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",84,18,79%,7,2,,
+tutorials-quan-ly-template-duoc-tao-tu-may-ao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-quan-ly-template-duoc-tao-tu-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",93,29,69%,7,2,,
+quan-ly-role,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-role.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",93,29,69%,7,4,,
+deleteschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/deleteschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",79,18,77%,7,2,,
+huong-dan-nang-goi-dich-vu-dang-su-dung,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",81,22,73%,9,4,,
+xoa-agent-khi-khong-muon-su-dung,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-agent-khi-khong-muon-su-dung.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",93,34,63%,7,5,,
+monitor-applications,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-applications.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",84,26,69%,4,2,,
+xoa-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/xoa-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",74,16,78%,7,2,,
+giam-sat-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/giam-sat-group.md,1,1,1,3,"MISSING_HEADINGS, NO_TABLES, WORD_COUNT_LOW",93,36,61%,3,2,,
+lay-thong-tin-truy-cap-cluster,Managed - FPT Kubernetes Engine,FPT Container,fpt-managed-gpu-cluster/lay-thong-tin-truy-cap-cluster.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",88,31,65%,7,2,,
+access-control,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/access-control.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",88,31,65%,9,3,,
+Recipient-la-gi,FPT Cloud Guard,FPT Monitoring,cloud-guard/Recipient-la-gi.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",67,10,85%,6,1,,
+xoa-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/xoa-storage-disk.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",86,30,65%,7,2,,
+attach-schedule-to-instance,Cloud Server,FPT Cloud Server,auto-schedule-to-on-off-instance/attach-schedule-to-instance.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",74,18,76%,7,2,,
+xoa-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/xoa-managed-gpu-cluster.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",82,26,68%,5,3,,
+nang-cap-k8s-version,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/nang-cap-k8s-version.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",81,27,67%,8,3,,
+upgrade-version,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/upgrade-version.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",83,29,65%,6,4,,
+delete-oidc-da-cau-hinh,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/delete-oidc-da-cau-hinh.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",74,20,73%,6,4,,
+fqas-5,Request Resource,Support,end-user-request-resource/fqas-5.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",66,12,82%,3,0,,
+viewschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/viewschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,9,85%,7,2,,
+viewschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/viewschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,9,85%,7,2,,
+view-request-resource,Request Resource,Support,end-user-request-resource/view-request-resource.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",64,12,81%,6,3,,
+guide-integration,FPT AppSec,FPT Security Platform,fpt-appsec/guide-integration.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",75,23,69%,5,2,,
+detection-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-logs.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",65,14,78%,7,1,,
+monitor-public-endpoints,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/monitor-public-endpoints.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",64,13,80%,2,0,,
+xoa-target,FPT Cloud VA,FPT Security,fpt-va/xoa-target.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",78,28,64%,5,2,,
+cau-hinh-email-notifications,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-email-notifications.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",78,28,64%,5,3,,
+restore-db,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/restore-db.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",607,557,8%,11,3,,
+network-filters-scheduling,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network-filters-scheduling.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",69,20,71%,9,3,,
+go-storage-disk-khoi-may-ao,Cloud Server,FPT Cloud Server,cloud-server/go-storage-disk-khoi-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",75,28,63%,7,2,,
+quan-ly-ket-qua-scan-images,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-ket-qua-scan-images.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",73,27,63%,9,4,,
+schedule-edit,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-edit.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",60,14,77%,6,3,,
+view-billing-by-monthly-reconciliation,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-billing-by-monthly-reconciliation.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",58,13,78%,8,1,,
+tutorials-khoi-tao-template-tu-may-ao,Cloud Server,FPT Cloud Server,cloud-server/tutorials-khoi-tao-template-tu-may-ao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",67,22,67%,8,3,,
+tai-sao-djoi-luc-toi-thay-so-luong-restore-point-tren-he-thong-nhieu-hon-so-luong-lastest-backup-to-keep-dja-khai-bao,Backup,FPT Cloud Backup & DR,backup/tai-sao-djoi-luc-toi-thay-so-luong-restore-point-tren-he-thong-nhieu-hon-so-luong-lastest-backup-to-keep-dja-khai-bao.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",51,6,88%,3,0,,
+chinh-sua-alert,FPT Cloud Guard,FPT Monitoring,cloud-guard/chinh-sua-alert.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",67,23,66%,7,2,,
+db-operation,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-operation.md,1,1,0,2,"FEWER_IMAGES, MISSING_HEADINGS",370,326,12%,9,1,,
+create-request-resource,Request Resource,Support,end-user-request-resource/create-request-resource.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",52,10,81%,7,4,,
+editschedule-snapshotVM,Cloud Server,FPT Cloud Server,cloud-server/editschedule-snapshotVM.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",56,16,71%,7,2,,
+editschedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/editschedule-snapshotstorage.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",56,16,71%,7,2,,
+xoa-ssl-certificate,Load Balancer,FPT Network,load-balancer/xoa-ssl-certificate.md,1,1,0,2,"NO_IMAGES, NO_TABLES",49,9,82%,4,0,,
+network-filters,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network-filters.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",77,37,52%,6,0,,
+cho-phep-enable-applications-set,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cho-phep-enable-applications-set.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",52,13,75%,4,2,,
+deposit-money-via-VNPay,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/deposit-money-via-VNPay.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",51,13,75%,10,3,,
+quan-ly-team,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-team.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",60,22,63%,6,3,,
+xuat-bao-cao,FPT Cloud VA,FPT Security,fpt-va/xuat-bao-cao.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",55,19,65%,6,3,,
+chinh-sua-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/chinh-sua-recipient.md,1,2,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",53,17,68%,7,2,,
+xoa-jenkins-instance-khi-khong-muon-su-dung,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-jenkins-instance-khi-khong-muon-su-dung.md,1,1,0,2,"NO_TABLES, WORD_COUNT_LOW",59,23,61%,5,3,,
+db-manage-operate,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-manage-operate.md,1,0,0,1,NO_IMAGES,243,207,15%,8,0,,
+quan-ly-gpu-voi-hpc-portal,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-gpu-voi-hpc-portal.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",55,26,53%,5,0,,
+project-structure,Cloud Server,FPT Cloud Server,cloud-server/project-structure.md,1,1,0,2,"NO_IMAGES, NO_TABLES",35,6,83%,5,0,,
+kich-hoat-dich-vu-fpt-container-registry,FPT Container Registry,FPT Container,fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",51,22,57%,5,0,,
+scan-now,FPT Cloud VA,FPT Security,fpt-va/scan-now.md,1,1,0,2,"NO_IMAGES, NO_TABLES",111,82,26%,5,0,,
+disable-NIC-card,Cloud Server,FPT Cloud Server,cloud-server/disable-NIC-card.md,1,2,0,3,"NO_IMAGES, NO_TABLES, WORD_COUNT_LOW",56,28,50%,9,0,,
+xay-dung-mot-website-tinh-bang-fpt-object-storage,FPT Object Storage,FPT Storage,fpt-object-storage/xay-dung-mot-website-tinh-bang-fpt-object-storage.md,1,1,0,2,"NO_IMAGES, NO_TABLES",472,451,4%,4,0,,
+question-2,Cloud Server,FPT Cloud Server,cloud-server/question-2.md,1,1,0,2,"NO_IMAGES, NO_TABLES",65,46,29%,5,0,,
+region-nhat-ban,File Storage - High Performance,FPT Storage,file-storage-high-performance/region-nhat-ban.md,1,1,0,2,"NO_IMAGES, NO_TABLES",30,11,63%,4,0,,
+dang-nhap-voi-account-password,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/dang-nhap-voi-account-password.md,1,1,0,2,"NO_IMAGES, NO_TABLES",22,8,64%,4,0,,
+select-project-when-creating-VPC,Cloud Server,FPT Cloud Server,cloud-server/select-project-when-creating-VPC.md,1,1,0,2,"NO_IMAGES, NO_TABLES",17,7,59%,6,0,,
+register-account,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/register-account.md,1,2,0,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",295,290,2%,9,1,,
+tutorials-encryption,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-encryption.md,1,1,0,2,"NO_IMAGES, NO_TABLES",369,365,1%,4,0,,
+schedule-snapshotstorage,Cloud Server,FPT Cloud Server,cloud-server/schedule-snapshotstorage.md,1,1,0,2,"NO_IMAGES, NO_TABLES",7,8,-14%,5,0,,
+token,Cloud Server,FPT Cloud Server,cloud-server/token.md,1,1,0,2,"NO_IMAGES, NO_TABLES",14,16,-14%,5,0,,
+region-viet-nam,File Storage - High Performance,FPT Storage,file-storage-high-performance/region-viet-nam.md,1,1,0,2,"NO_IMAGES, NO_TABLES",10,15,-50%,4,0,,
+quan-ly-ssl-certificate,Load Balancer,FPT Network,load-balancer/quan-ly-ssl-certificate.md,1,1,0,2,"NO_IMAGES, NO_TABLES",9,18,-100%,4,0,,
+dang-nhap-voi-tai-khoan-SSO,FPT Cloud Desktop,FPT Cloud Server,fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,11,0%,4,0,,
+quan-ly-proxy-host,FPT Cloud WAF,FPT Security,fpt-cloud-waf/quan-ly-proxy-host.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,12,0%,5,0,,
+ip-access,IAM,FPT Security,iam/ip-access.md,1,1,0,2,"NO_IMAGES, NO_TABLES",3,17,-467%,4,0,,
+quan-ly-may-ao,Cloud Server,FPT Cloud Server,cloud-server/quan-ly-may-ao.md,1,1,0,2,"NO_IMAGES, NO_TABLES",1,16,-1500%,5,0,,
+custom-images-overview,Cloud Server,FPT Cloud Server,cloud-server/custom-images-overview.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,15,0%,5,0,,
+thay-doi-cau-hinh-k8s-cluster,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/thay-doi-cau-hinh-k8s-cluster.md,1,1,0,2,"NO_IMAGES, NO_TABLES",8,23,-188%,5,0,,
+role-management,IAM,FPT Security,iam/role-management.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,17,0%,4,0,,
+overview-policy,Policy Management,FPT Cloud Server,policy-management/overview-policy.md,1,1,0,2,"NO_IMAGES, NO_TABLES",24,45,-88%,4,0,,
+authenticate-certificate-mode,VPN Site-to-Site,FPT Network,vpn-site-to-site/authenticate-certificate-mode.md,1,1,0,2,"NO_IMAGES, NO_TABLES",9,30,-233%,6,0,,
+quan-ly-kubernetes-cluster,Managed - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/quan-ly-kubernetes-cluster.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,25,0%,5,0,,
+ssl-profile,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/ssl-profile.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES",15,40,-167%,6,0,,
+deployment-model,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/deployment-model.md,1,1,1,3,"MISSING_HEADINGS, NO_IMAGES, NO_TABLES",210,235,-12%,8,0,,
+quan-ly-repositories-tren-fpt-portal,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-repositories-tren-fpt-portal.md,1,1,0,2,"NO_IMAGES, NO_TABLES",9,36,-300%,5,0,,
+huong-dan-su-dung-tren-docker-cli,FPT Container Registry,FPT Container,fpt-container-registry/huong-dan-su-dung-tren-docker-cli.md,1,1,0,2,"NO_IMAGES, NO_TABLES",4,36,-800%,5,0,,
+quan-ly-goi-dich-vu,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-goi-dich-vu.md,1,1,0,2,"NO_IMAGES, NO_TABLES",6,38,-533%,5,0,,
+maintenance-window,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/maintenance-window.md,1,1,0,2,"FEWER_IMAGES, MISSING_HEADINGS",404,453,-12%,10,2,,
+quan-ly-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/quan-ly-robot-account.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,52,0%,5,0,,
+tutorials-su-dung-object-storage-tren-fpt-portal,FPT Object Storage,FPT Storage,fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal.md,1,1,0,2,"NO_IMAGES, NO_TABLES",0,54,0%,4,0,,
+Overview,FPT Cloud Guard,FPT Monitoring,cloud-guard/Overview.md,1,2,0,3,"HEADING_COUNT_DIFF, NO_IMAGES, NO_TABLES",0,58,0%,5,0,,
+db-engine-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-engine-service.md,1,0,0,1,NO_IMAGES,67,134,-100%,8,0,,
+database-engine-version,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/database-engine-version.md,1,1,0,2,"NO_IMAGES, NO_TABLES",13,91,-600%,8,0,,
+Version-List,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/Version-List.md,1,0,0,1,NO_IMAGES,272,381,-40%,8,0,,
+file-storage-high-performance,Managed GPU Cluster (Kubernetes),AI Infrastructure,file-storage-high-performance/file-storage-high-performance.md,1,1,0,2,"HEADING_COUNT_DIFF, NO_IMAGES",804,1591,-98%,13,0,Yes,16
+change-network-config,Cloud Server,FPT Cloud Server,cloud-server/change-network-config.md,0,4,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",474,207,56%,26,21,Yes,6
+terraform,Cloud Server,FPT Cloud Server,cloud-server/terraform.md,0,3,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",476,223,53%,27,43,Yes,6
+report-schedule,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/report-schedule.md,0,1,1,2,"FEWER_IMAGES, MISSING_HEADINGS",1255,1073,15%,11,3,,
+them-moi-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/them-moi-mot-credential.md,0,3,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",297,125,58%,23,21,,
+quan-ly-teams-org,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-teams-org.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",290,130,55%,16,13,,
+policy-settings,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/policy-settings.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",372,214,42%,14,8,,
+tong-quan-dich-vu-GPU,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/tong-quan-dich-vu-GPU.md,0,1,0,1,WORD_COUNT_LOW,374,237,37%,1,0,,
+quan-ly-mem-team,FPT AppSec,FPT Security Platform,fpt-appsec/quan-ly-mem-team.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",227,95,58%,12,8,,
+kafka-user,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/kafka-user.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",922,798,13%,8,3,,
+allow-address-pair,Cloud Server,FPT Cloud Server,allow-address-pair/allow-address-pair.md,0,3,0,3,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES",465,344,26%,26,21,Yes,8
+tao-security-profile,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/tao-security-profile.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",239,121,49%,18,18,,
+quan-ly-blades,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/quan-ly-blades.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",217,107,51%,20,17,,
+tao-rule-nat,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-rule-nat.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",195,88,55%,19,16,,
+setting-agert,Trellix Customer Guide,Support,trellix-customer-guide/setting-agert.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",178,75,58%,8,7,,
+manual-scale,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/manual-scale.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",196,96,51%,9,4,,
+cap-nhat-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cap-nhat-mot-credential.md,0,3,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",196,96,51%,15,13,,
+them-worker-group,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/them-worker-group.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",211,125,41%,10,5,,
+proxy-ip,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/proxy-ip.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",145,70,52%,13,7,,
+refresh-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/refresh-robot-account.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",128,57,55%,9,4,,
+tao-firewall-policy,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/tao-firewall-policy.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",160,89,44%,8,5,,
+restore-file-and-folder-for-linux,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-file-and-folder-for-linux.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",176,105,40%,11,9,,
+create-token,Cloud Server,FPT Cloud Server,cloud-server/create-token.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",119,49,59%,9,3,,
+static-route,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/static-route.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",120,52,57%,11,8,,
+tag-va-push-image-len-fpt-container-registry,FPT Container Registry,FPT Container,fpt-container-registry/tag-va-push-image-len-fpt-container-registry.md,0,4,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",122,59,52%,7,2,,
+fcmon-dashboard-template,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/fcmon-dashboard-template.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",110,47,57%,6,4,,
+detinations-sever,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detinations-sever.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",120,59,51%,9,3,,
+view-db-list,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/view-db-list.md,0,1,0,1,FEWER_IMAGES,432,375,13%,10,2,,
+pull-docker-image-tu-fpt-container-registry-ve-local,FPT Container Registry,FPT Container,fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local.md,0,4,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",123,68,45%,10,5,,
+quan-ly-account,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/quan-ly-account.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",110,55,50%,11,8,,
+configuration-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/configuration-tab.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",131,77,41%,3,1,,
+install-veeam-agent-for-windows,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/install-veeam-agent-for-windows.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",115,61,47%,14,10,,
+restore-linux-vm-from-cloud-repository,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-linux-vm-from-cloud-repository.md,0,1,0,1,NO_TABLES,193,140,27%,18,16,,
+cau-hinh-telegram-bots,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/cau-hinh-telegram-bots.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",92,39,58%,7,5,,
+quan-tri-user,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quan-tri-user.md,0,1,0,1,WORD_COUNT_LOW,93,43,54%,3,1,,
+buy-Public-IP,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/buy-Public-IP.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",82,34,59%,11,4,,
+cai-dat-team,FPT AppSec,FPT Security Platform,fpt-appsec/cai-dat-team.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",77,31,60%,8,5,,
+chinh-sua-thong-tin-org,FPT AppSec,FPT Security Platform,fpt-appsec/chinh-sua-thong-tin-org.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",83,38,54%,9,6,,
+xoa-image-hoac-artifact-trong-repositories,FPT Container Registry,FPT Container,fpt-container-registry/xoa-image-hoac-artifact-trong-repositories.md,0,4,0,4,"FEWER_IMAGES, HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",110,67,39%,13,8,,
+restore-file-and-folder-for-windows,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-file-and-folder-for-windows.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",120,77,36%,9,7,,
+quan-ly-account-tren-argocd,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/quan-ly-account-tren-argocd.md,0,1,0,1,NO_TABLES,49,6,88%,2,0,,
+edit-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/edit-storage-disk.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",92,50,46%,7,2,,
+dieu-tra-log,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/dieu-tra-log.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",76,34,55%,8,5,,
+doi-ten-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/doi-ten-profile.md,0,1,0,1,NO_TABLES,50,9,82%,4,3,,
+xoa-mot-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/xoa-mot-robot-account.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",85,44,48%,9,4,,
+user-management-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/user-management-tab.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",74,34,54%,3,1,,
+enable-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/enable-robot-account.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",68,29,57%,8,3,,
+quota-and-package-tab,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quota-and-package-tab.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",72,33,54%,4,2,,
+enable-disable-vpn-connection,VPN Site-to-Site,FPT Network,vpn-site-to-site/enable-disable-vpn-connection.md,0,2,1,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",151,113,25%,12,6,,
+incremental-backup-la-gi-va-loi-ich-khi-su-dung,Backup,FPT Cloud Backup & DR,backup/incremental-backup-la-gi-va-loi-ich-khi-su-dung.md,0,1,0,1,NO_TABLES,40,2,95%,3,0,,
+network-interface,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/network-interface.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",106,69,35%,20,17,,
+client-task,Trellix Customer Guide,Support,trellix-customer-guide/client-task.md,0,1,0,1,WORD_COUNT_LOW,120,83,31%,3,2,,
+tao-storage-disk,Cloud Server,FPT Cloud Server,cloud-server/tao-storage-disk.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",93,57,39%,8,3,,
+xoa-kubernetes-cluster,Managed - FPT Kubernetes Engine,FPT Container,managed-fpt-kubernetes-engine/xoa-kubernetes-cluster.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",63,27,57%,8,3,,
+graphical-analysis,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/graphical-analysis.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",40,4,90%,7,1,,
+tao-rule-firewall,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/tao-rule-firewall.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",76,40,47%,12,9,,
+tutorials-tao-auth-method,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-auth-method.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",85,49,42%,8,4,,
+update-hotfix,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/update-hotfix.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",64,29,55%,8,5,,
+xoa-recipient,FPT Cloud Guard,FPT Monitoring,cloud-guard/xoa-recipient.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",48,13,73%,7,2,,
+disable-robot-account-dang-su-dung,FPT Container Registry,FPT Container,fpt-container-registry/disable-robot-account-dang-su-dung.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",62,28,55%,8,3,,
+cau-hinh-network-interfaces,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/cau-hinh-network-interfaces.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",64,30,53%,5,2,,
+docker-login,FPT Container Registry,FPT Container,fpt-container-registry/docker-login.md,0,4,0,4,"FEWER_IMAGES, NO_CODE_BLOCKS, NO_TABLES, WORD_COUNT_LOW",72,39,46%,8,3,,
+xoa-mot-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/xoa-mot-credential.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",64,32,50%,8,6,,
+schedule-delete,FPT AppSec,FPT Security Platform,fpt-appsec/schedule-delete.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",40,8,80%,5,2,,
+create-veeam-recovery-media,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/create-veeam-recovery-media.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",78,47,40%,7,5,,
+db-view-detail,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/db-view-detail.md,0,1,0,1,FEWER_IMAGES,410,379,8%,10,2,,
+thay-doi-worker-group-su-sung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/thay-doi-worker-group-su-sung-gpu.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",84,54,36%,3,2,,
+delete-ip-access,IAM,FPT Security,iam/delete-ip-access.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",40,10,75%,6,2,,
+truy-cap-vao-dashboard,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/truy-cap-vao-dashboard.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",53,23,57%,3,1,,
+huong-dan-deploy-applications-qua-argocd-cli,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli.md,0,1,0,1,NO_TABLES,39,9,77%,5,3,,
+change-virtual-machine-configuration,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/change-virtual-machine-configuration.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",45,16,64%,10,3,,
+stop-scan,FPT Container Registry,FPT Container,fpt-container-registry/stop-scan.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",51,23,55%,8,3,,
+xem-chi-tiet-workspace,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/xem-chi-tiet-workspace.md,0,1,0,1,NO_TABLES,45,17,62%,3,1,,
+update-admin-password,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/update-admin-password.md,0,1,0,1,NO_TABLES,43,15,65%,5,3,,
+xoa-custom-image,Cloud Server,FPT Cloud Server,cloud-server/xoa-custom-image.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",57,30,47%,7,2,,
+test-send-email,FPT Reporting,FPT Monitoring,reporting/test-send-email.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",58,31,47%,3,1,,
+toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud,Backup,FPT Cloud Backup & DR,backup/toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud.md,0,1,0,1,NO_TABLES,33,6,82%,3,0,,
+recharge-via-gift-code,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/recharge-via-gift-code.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",41,15,63%,9,2,,
+update-target,FPT Cloud VA,FPT Security,fpt-va/update-target.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",50,24,52%,5,2,,
+monitor-ip,DdoS Protection,FPT Security,ddos-protection/monitor-ip.md,0,3,0,3,"HEADING_COUNT_DIFF, NO_TABLES, WORD_COUNT_LOW",69,44,36%,12,10,,
+tutorials-tao-policy,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-policy.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",58,33,43%,8,4,,
+detection-log-analysis,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-log-analysis.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",36,12,67%,8,2,,
+fqas-3,Request Resource,Support,billing/fqas-3.md,0,1,0,1,NO_TABLES,35,11,69%,3,0,,
+quan-ly-group,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-group.md,0,1,0,1,NO_TABLES,33,10,70%,1,0,,
+install-veeam-agent-for-linux,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/install-veeam-agent-for-linux.md,0,2,0,2,"NO_TABLES, WORD_COUNT_LOW",73,50,32%,10,8,,
+website-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/website-logs.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",32,10,69%,7,1,,
+truy-cap-giao-dien-quan-tri,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/truy-cap-giao-dien-quan-tri.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",36,14,61%,5,2,,
+tutorials-tao-secret-tren-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-secret-tren-secret-engine.md,0,3,0,3,"FEWER_IMAGES, NO_TABLES, WORD_COUNT_LOW",59,37,37%,8,4,,
+xem-ket-qua-quet-cu,FPT Cloud VA,FPT Security,fpt-va/xem-ket-qua-quet-cu.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",29,8,72%,4,1,,
+cau-hinh-static-routes,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/cau-hinh-static-routes.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",49,28,43%,5,2,,
+quan-ly-system-user-user-profile,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/quan-ly-system-user-user-profile.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",71,50,30%,6,3,,
+update-cau-hinh-oidc,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/update-cau-hinh-oidc.md,0,1,0,1,NO_TABLES,36,15,58%,5,3,,
+home-page-portal,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/home-page-portal.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",32,12,62%,8,1,,
+quan-ly-fpt-cloud-agent,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-fpt-cloud-agent.md,0,1,0,1,NO_TABLES,39,19,51%,2,0,,
+overview,SSO - Single sign-on,FPT Cloud Server,ai-factory-billing/overview.md,0,1,0,1,NO_TABLES,38,19,50%,2,0,,
+install-policy,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/install-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",42,23,45%,7,4,,
+truy-cap-smartconsole,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/truy-cap-smartconsole.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",26,9,65%,6,3,,
+restore-window-vm-from-cloud-repository,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/restore-window-vm-from-cloud-repository.md,0,1,0,1,NO_TABLES,86,70,19%,2,0,,
+security-patch,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/security-patch.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",28,13,54%,9,3,,
+billing-permission,Bills,Billing,billing/billing-permission.md,0,1,0,1,NO_TABLES,55,40,27%,8,6,,
+detection-status,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/detection-status.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",20,6,70%,7,1,,
+audit-logs,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/audit-logs.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",17,3,82%,7,1,,
+x-forwarder-for,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/x-forwarder-for.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",31,17,45%,7,1,,
+tich-hop-dich-vu,FPT Reporting,FPT Monitoring,reporting/tich-hop-dich-vu.md,0,1,0,1,NO_TABLES,19,6,68%,2,0,,
+url-filter-settings,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/url-filter-settings.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",16,4,75%,7,1,,
+tutorials-tao-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-secret-engine.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",44,32,27%,8,4,,
+view-bill-charges-by-service,Bills,Billing,billing/view-bill-charges-by-service.md,0,1,0,1,NO_TABLES,36,24,33%,5,3,,
+hien-thi-logs-traffic,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/hien-thi-logs-traffic.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",45,34,24%,5,2,,
+tutorials-khoi-tao-vault-instance,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-khoi-tao-vault-instance.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",37,26,30%,7,3,,
+enable-disable-argocd-images-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-argocd-images-updater.md,0,1,0,1,NO_TABLES,25,14,44%,4,2,,
+change-password,FPT ArgoCD,FPT DevSecOps Services,iam/change-password.md,0,1,0,1,NO_TABLES,37,26,30%,4,3,,
+xem-ket-qua-quet,FPT Cloud VA,FPT Security,fpt-va/xem-ket-qua-quet.md,0,1,0,1,NO_TABLES,15,5,67%,3,0,,
+truy-cap-gaia-portal,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/truy-cap-gaia-portal.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",17,8,53%,6,3,,
+alerting,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/alerting.md,0,1,0,1,NO_TABLES,19,10,47%,3,1,,
+user-defined-pattern,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/user-defined-pattern.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",12,4,67%,7,1,,
+explore-data,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/explore-data.md,0,1,0,1,NO_TABLES,18,10,44%,3,1,,
+view-performed-transactions,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",13,6,54%,8,1,,
+revoke-token,Cloud Server,FPT Cloud Server,cloud-server/revoke-token.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",29,22,24%,8,3,,
+self-diagnostics,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/self-diagnostics.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",9,2,78%,7,1,,
+load-balancing,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/load-balancing.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",10,4,60%,7,1,,
+log,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/log.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",43,37,14%,7,2,,
+quan-ly-credential,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-credential.md,0,1,0,1,NO_TABLES,36,31,14%,2,0,,
+dang-ky,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/dang-ky.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",14,10,29%,8,1,,
+report-scheduling,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/report-scheduling.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",8,4,50%,8,2,,
+cau-hinh-dns,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/cau-hinh-dns.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",18,14,22%,5,2,,
+tutorials-tao-role,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-tao-role.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",54,50,7%,8,4,,
+edit-report,FPT Reporting,FPT Monitoring,reporting/edit-report.md,0,1,0,1,NO_TABLES,18,15,17%,3,1,,
+enable-disable-account,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/enable-disable-account.md,0,1,0,1,NO_TABLES,8,5,38%,3,1,,
+scale-worker-nodes,Dedicated - FPT Kubernetes Engine,FPT Container,dedicated-fpt-kubernetes-engine/scale-worker-nodes.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",48,46,4%,10,5,,
+privacy-filtering,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/privacy-filtering.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",12,10,17%,7,1,,
+malicious-ip,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/malicious-ip.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",7,5,29%,7,1,,
+intergration,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/intergration.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",12,10,17%,11,5,,
+tai-file-cau-hinh-vpn,VPN Site-to-Site,FPT Network,vpn-site-to-site/tai-file-cau-hinh-vpn.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",44,43,2%,8,2,,
+network,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/network.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",15,14,7%,10,4,,
+xoa-firewall-policy,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/xoa-firewall-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",15,15,0%,4,1,,
+action-management,VPN Site-to-Site,FPT Network,vpn-site-to-site/action-management.md,0,1,0,1,NO_TABLES,10,11,-10%,6,6,,
+kich-hoat-dich-vu-fcmon,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/kich-hoat-dich-vu-fcmon.md,0,1,0,1,NO_TABLES,25,28,-12%,2,0,,
+detail-dasboard,FPT AppSec,FPT Security Platform,fpt-appsec/detail-dasboard.md,0,1,0,1,NO_TABLES,0,3,0%,3,3,,
+tutorials-xoa-template,Cloud Server,FPT Cloud Server,cloud-server/tutorials-xoa-template.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",14,18,-29%,6,1,,
+edit-security-profile,VPN Site-to-Site,FPT Network,vpn-site-to-site/edit-security-profile.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",19,23,-21%,8,2,,
+try-example-workload,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/try-example-workload.md,0,1,0,1,NO_TABLES,15,19,-27%,2,0,,
+service-status,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/service-status.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",16,21,-31%,7,1,,
+huong-dan-tren-smartconsole,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/huong-dan-tren-smartconsole.md,0,1,0,1,NO_TABLES,0,5,0%,3,0,,
+dang-nhap,FPT Cloud Portal – Pay As You Go,FPT Cloud Server,fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/dang-nhap.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",0,6,0%,8,1,,
+manage-admin-account-enable-disable-anonymous-user,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/manage-admin-account-enable-disable-anonymous-user.md,0,1,0,1,NO_TABLES,6,12,-100%,2,0,,
+backup-report,Backup,FPT Cloud Backup & DR,backup/backup-report.md,0,1,0,1,NO_TABLES,20,27,-35%,3,0,,
+edit-webhook-secret,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/edit-webhook-secret.md,0,1,0,1,NO_TABLES,1,9,-800%,4,2,,
+thay-doi-cau-hinh-k8s,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/thay-doi-cau-hinh-k8s.md,0,1,0,1,NO_TABLES,5,13,-160%,2,0,,
+system,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/system.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",2,11,-450%,11,5,,
+demo,FPT Jenkins CI,FPT DevSecOps Services,fpt-argocd/demo.md,0,1,0,1,NO_TABLES,23,32,-39%,2,0,,
+subnet,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/subnet.md,0,2,1,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",696,705,-1%,9,1,,
+download-bills,Bills,Billing,billing/download-bills.md,0,1,0,1,NO_TABLES,0,9,0%,4,2,,
+quan-ly-managed-gpu-cluster,Managed GPU Cluster (Kubernetes),AI Infrastructure,fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster.md,0,1,0,1,NO_TABLES,0,9,0%,2,2,,
+use-sso,SSO - Single sign-on,FPT Cloud Server,sso-single-sign-on/use-sso.md,0,1,1,2,"MISSING_HEADINGS, NO_TABLES",14,24,-71%,6,4,,
+truc-quan-hoa-du-lieu,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/truc-quan-hoa-du-lieu.md,0,1,0,1,NO_TABLES,0,10,0%,2,0,,
+feature-visibility,Fortigate - FPT NGFW,FPT Security,fortigate-fpt-ngfw/feature-visibility.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",0,11,0%,4,1,,
+delete-webhook-secret,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/delete-webhook-secret.md,0,1,0,1,NO_TABLES,0,11,0%,4,2,,
+cau-hinh-notifications,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-notifications.md,0,1,0,1,NO_TABLES,57,68,-19%,2,0,,
+huong-dan-dang-nhap-vao-argocd,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/huong-dan-dang-nhap-vao-argocd.md,0,1,0,1,NO_TABLES,42,53,-26%,5,3,,
+delete-report,FPT Reporting,FPT Monitoring,reporting/delete-report.md,0,1,0,1,NO_TABLES,0,12,0%,4,2,,
+quan-ly-workspace,FPT Cloud Monitoring,FPT Monitoring,fpt-cloud-monitoring/quan-ly-workspace.md,0,1,0,1,NO_TABLES,0,12,0%,2,0,,
+tutorials-xoa-secret,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-secret.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",13,25,-92%,7,3,,
+config-sso,SSO - Single sign-on,FPT Cloud Server,sso-single-sign-on/config-sso.md,0,1,0,1,NO_TABLES,0,13,0%,2,0,,
+cau-hinh-image-updater,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-image-updater.md,0,1,0,1,NO_TABLES,47,60,-28%,2,0,,
+xem-danh-sach-robot-account,FPT Container Registry,FPT Container,fpt-container-registry/xem-danh-sach-robot-account.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",18,32,-78%,6,1,,
+backup-restore,FPT Cloud WAPPLES,FPT Security,fpt-cloud-wapples/backup-restore.md,0,1,0,1,NO_TABLES,1,15,-1400%,7,7,,
+cau-hinh-webhook,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-webhook.md,0,1,0,1,NO_TABLES,64,78,-22%,2,0,,
+view-log,Trellix Customer Guide,Support,trellix-customer-guide/view-log.md,0,2,0,2,"HEADING_COUNT_DIFF, NO_TABLES",30,44,-47%,8,7,,
+quan-ly-target,FPT Cloud VA,FPT Security,fpt-va/quan-ly-target.md,0,1,0,1,NO_TABLES,0,15,0%,3,0,,
+xem-danh-sach-repositories,FPT Container Registry,FPT Container,fpt-container-registry/xem-danh-sach-repositories.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",31,47,-52%,6,1,,
+delete-policy,Policy Management,FPT Cloud Server,fpt-key-vault/delete-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",0,18,0%,6,2,,
+deactive-db-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/deactive-db-service.md,0,2,1,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",87,105,-21%,9,1,,
+quan-ly-policy,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-policy.md,0,1,0,1,NO_TABLES,9,29,-222%,1,0,,
+cau-hinh-oidc-phuc-vu-sso-config,FPT ArgoCD,FPT DevSecOps Services,fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config.md,0,1,0,1,NO_TABLES,15,36,-140%,2,0,,
+active-db-service,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/active-db-service.md,0,2,1,3,"FEWER_IMAGES, MISSING_HEADINGS, NO_TABLES",87,108,-24%,9,1,,
+fqas-4,Request Resource,Support,end-user-request-resource/fqas-4.md,0,1,0,1,NO_TABLES,16,39,-144%,3,0,,
+scan-image,FPT Container Registry,FPT Container,fpt-container-registry/scan-image.md,0,2,0,2,"HEADING_COUNT_DIFF, NO_TABLES",27,52,-93%,5,5,,
+tutorials-xoa-policy,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-policy.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",0,25,0%,7,3,,
+quan-ly-cau-hinh,FPT Jenkins CI,FPT DevSecOps Services,fpt-jenkins-ci/quan-ly-cau-hinh.md,0,1,0,1,NO_TABLES,0,25,0%,2,0,,
+quan-ly-profile,FPT Autoscale,FPT Cloud Server,fpt-autoscale/quan-ly-profile.md,0,1,0,1,NO_TABLES,0,26,0%,1,0,,
+managing-alarms,FPT Backup As a Service,FPT Cloud Backup & DR,fpt-backup-as-a-service/managing-alarms.md,0,1,0,1,NO_TABLES,0,29,0%,6,4,,
+tutorials-xoa-secret-engine,FPT Key Vault,FPT DevSecOps Services,fpt-key-vault/tutorials-xoa-secret-engine.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",5,34,-580%,7,3,,
+huong-dan-tren-gaia-portal,CheckPoint - FPT NGFW,FPT Security,checkpoint-fpt-ngfw/huong-dan-tren-gaia-portal.md,0,1,0,1,NO_TABLES,0,32,0%,3,0,,
+fqas-1,Request Resource,Support,end-user-request-resource/fqas-1.md,0,1,0,1,NO_TABLES,0,38,0%,3,0,,
+create-ddos,DdoS Protection,FPT Security,ddos-protection/create-ddos.md,0,1,0,1,NO_TABLES,0,39,0%,5,3,,
+toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong,Backup,FPT Cloud Backup & DR,backup/toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong.md,0,1,0,1,NO_TABLES,0,41,0%,3,0,,
+user-group-management,IAM,FPT Security,managed-fpt-database-engines-new/user-group-management.md,0,2,0,2,"FEWER_IMAGES, NO_TABLES",7,50,-614%,4,1,,
+tang-them-worker-group-su-dung-gpu,FPT Kubernetes Engine with GPU,FPT Container,fpt-kubernetes-engine-with-gpu/tang-them-worker-group-su-dung-gpu.md,0,1,0,1,NO_TABLES,0,45,0%,5,4,,
+khai-bao-thong-tin-tren-apimanager-application,FPT API Management,FPT Integration,fpt-api-management/khai-bao-thong-tin-tren-apimanager-application.md,0,1,0,1,NO_TABLES,0,45,0%,3,0,,
+report,Trellix Customer Guide,Support,managed-fpt-database-engine/report.md,0,1,0,1,NO_TABLES,0,46,0%,3,0,,
+monitoring,VPN Site-to-Site,FPT Network,managed-fpt-database-engine/monitoring.md,0,2,0,2,"HEADING_COUNT_DIFF, NO_TABLES",156,454,-191%,9,12,,
+reporting,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engines-new/reporting.md,0,1,0,1,HEADING_COUNT_DIFF,0,414,0%,8,15,Yes,9
+iam,Managed - FPT Database Engines,FPT Database Engine,managed-fpt-database-engine/iam.md,0,1,1,2,"FEWER_TABLES, HEADING_COUNT_DIFF",709,1130,-59%,8,40,Yes,27

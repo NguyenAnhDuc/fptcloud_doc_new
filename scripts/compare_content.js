@@ -32,12 +32,30 @@ const LANGS = [
 ];
 
 // ── Baseline noise from web page chrome (nav, sidebar, footer, etc.) ──
-// Estimated from minimum values across all 876 crawled pages.
-// Every web page renders shared UI that inflates word/image/heading counts.
-const WEB_BASELINE = {
-  words: 750,
-  images: 52,
-};
+// The web SPA renders shared UI (nav, sidebar, footer) that inflates
+// word/image counts. The noise varies by module — larger modules have
+// heavier sidebars. We compute per-module baselines dynamically.
+const WEB_BASELINE_IMAGES = 52; // minimum images across all pages (global)
+
+/**
+ * Compute per-module word count baselines from crawled data.
+ * The baseline for each module = minimum word count across all its pages,
+ * since even the simplest page includes the full chrome noise.
+ */
+function computeModuleBaselines(crawledPages) {
+  const moduleWords = new Map(); // module → [wordCounts]
+  for (const pg of crawledPages) {
+    const mod = pg.module || '__unknown__';
+    if (!moduleWords.has(mod)) moduleWords.set(mod, []);
+    moduleWords.get(mod).push(pg.fingerprint?.wordCount || 0);
+  }
+
+  const baselines = new Map();
+  for (const [mod, counts] of moduleWords) {
+    baselines.set(mod, Math.min(...counts));
+  }
+  return baselines;
+}
 
 // ── Parse CLI args ─────────────────────────────────────────────────
 
@@ -188,6 +206,115 @@ function buildFileIndex(docsDir) {
   return index;
 }
 
+// ── Build directory index for content aggregation ──────────────────
+// Maps directory names to all .md files inside them.
+// When a web page renders content from multiple doc files (SPA pattern),
+// we aggregate fingerprints from the matching directory.
+
+function buildDirIndex(docsDir) {
+  const dirIndex = new Map(); // dirName → [filePath, ...]
+  const baseDir = path.join(ROOT, docsDir);
+
+  let entries;
+  try { entries = fs.readdirSync(baseDir, { withFileTypes: true }); }
+  catch { return dirIndex; }
+
+  for (const entry of entries) {
+    if (!entry.isDirectory() || entry.name.startsWith('.')) continue;
+    const dirPath = path.join(baseDir, entry.name);
+    const mdFiles = [];
+
+    function collectMd(dir) {
+      let items;
+      try { items = fs.readdirSync(dir, { withFileTypes: true }); }
+      catch { return; }
+      for (const item of items) {
+        const full = path.join(dir, item.name);
+        if (item.isDirectory()) {
+          collectMd(full);
+        } else if (item.name.endsWith('.md') || item.name.endsWith('.mdx')) {
+          mdFiles.push(full);
+        }
+      }
+    }
+
+    collectMd(dirPath);
+    if (mdFiles.length > 0) {
+      dirIndex.set(entry.name, mdFiles);
+    }
+  }
+
+  return dirIndex;
+}
+
+/**
+ * Merge multiple markdown fingerprints into one aggregate.
+ * Used when a single web page corresponds to multiple local doc files.
+ */
+function mergeFingerprints(fingerprints) {
+  const merged = {
+    headings: [],
+    imageCount: 0,
+    tableCount: 0,
+    codeBlockCount: 0,
+    wordCount: 0,
+    paragraphCount: 0,
+    listItemCount: 0,
+  };
+
+  for (const fp of fingerprints) {
+    merged.headings.push(...fp.headings);
+    merged.imageCount += fp.imageCount;
+    merged.tableCount += fp.tableCount;
+    merged.codeBlockCount += fp.codeBlockCount;
+    merged.wordCount += fp.wordCount;
+    merged.paragraphCount += fp.paragraphCount;
+    merged.listItemCount += fp.listItemCount;
+  }
+
+  return merged;
+}
+
+/**
+ * Find related directory for a slug and aggregate content.
+ *
+ * The FPT Cloud web SPA renders all sub-page content on a single page.
+ * For example, web page ?doc=gateway shows content from:
+ *   - cloud-server/gateway.md (intro)
+ *   - gateway/quan-ly-danh-sach-gateway.md
+ *   - gateway/quan-ly-route-1-gateway.md
+ *   - gateway/quan-ly-nat-tung-gateway.md
+ *   - ... etc.
+ *
+ * This function finds related directories and returns an aggregated
+ * fingerprint that combines the primary file with all related files.
+ */
+function getAggregatedFingerprint(primaryContent, slug, dirIndex) {
+  const primaryFp = extractMdFingerprint(primaryContent);
+
+  // Look for a directory named after the slug
+  const relatedFiles = dirIndex.get(slug);
+  if (!relatedFiles || relatedFiles.length === 0) {
+    return { fingerprint: primaryFp, aggregated: false, fileCount: 1 };
+  }
+
+  // Aggregate: primary file + all files from the related directory
+  const allFps = [primaryFp];
+  for (const filePath of relatedFiles) {
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      allFps.push(extractMdFingerprint(content));
+    } catch { /* skip unreadable files */ }
+  }
+
+  return {
+    fingerprint: mergeFingerprints(allFps),
+    aggregated: true,
+    fileCount: allFps.length,
+    relatedDir: slug,
+  };
+}
+
 // ── Comparison logic ───────────────────────────────────────────────
 
 function normalize(str) {
@@ -222,13 +349,14 @@ function filterChromeHeadings(headings, moduleName) {
   });
 }
 
-function compareFingerprints(crawled, local, slug, moduleName) {
+function compareFingerprints(crawled, local, slug, moduleName, moduleBaseline) {
   const cf = crawled;
   const lf = local;
 
-  // Apply baseline adjustment: subtract shared chrome noise from web fingerprint
-  const adjWords = Math.max(0, cf.wordCount - WEB_BASELINE.words);
-  const adjImages = Math.max(0, cf.imageCount - WEB_BASELINE.images);
+  // Apply baseline adjustment: subtract per-module chrome noise from web fingerprint
+  const wordBaseline = moduleBaseline || 750;
+  const adjWords = Math.max(0, cf.wordCount - wordBaseline);
+  const adjImages = Math.max(0, cf.imageCount - WEB_BASELINE_IMAGES);
   const adjHeadings = filterChromeHeadings(cf.headings, moduleName);
 
   const issues = [];
@@ -290,7 +418,7 @@ function compareFingerprints(crawled, local, slug, moduleName) {
       issues.push({
         type: 'WORD_COUNT_LOW',
         severity: pctDiff < -60 ? 'HIGH' : 'MEDIUM',
-        detail: `Web: ~${adjWords} words (raw ${cf.wordCount} - ${WEB_BASELINE.words} baseline), Local: ${lf.wordCount} words (${pctDiff.toFixed(0)}%)`,
+        detail: `Web: ~${adjWords} words (raw ${cf.wordCount} - ${wordBaseline} baseline), Local: ${lf.wordCount} words (${pctDiff.toFixed(0)}%)`,
       });
     }
   }
@@ -336,6 +464,8 @@ function main() {
   console.log(`Word count diff threshold: ${threshold}%\n`);
 
   const selectedLangs = LANGS.filter(l => !langFilter || l.code === langFilter);
+  const moduleBaselines = computeModuleBaselines(crawledPages);
+  console.log(`Module baselines computed for ${moduleBaselines.size} modules\n`);
   const fullReport = {};
 
   for (const lang of selectedLangs) {
@@ -344,7 +474,8 @@ function main() {
     console.log('└──────────────────────────────────────────────────────────────────┘\n');
 
     const fileIndex = buildFileIndex(lang.dir);
-    console.log(`  File index: ${fileIndex.size} entries\n`);
+    const dirIndex = buildDirIndex(lang.dir);
+    console.log(`  File index: ${fileIndex.size} entries, Dir index: ${dirIndex.size} directories\n`);
 
     const results = [];
     let matched = 0;
@@ -368,7 +499,7 @@ function main() {
 
       matched++;
 
-      // Extract local fingerprint
+      // Extract local fingerprint (with directory aggregation)
       let localContent;
       try {
         localContent = fs.readFileSync(localEntry.filePath, 'utf-8');
@@ -378,12 +509,19 @@ function main() {
         continue;
       }
 
-      const localFp = extractMdFingerprint(localContent);
-      const comparison = compareFingerprints(fp, localFp, slug, pg.module);
+      const aggResult = getAggregatedFingerprint(localContent, slug, dirIndex);
+      const localFp = aggResult.fingerprint;
+      const modBaseline = moduleBaselines.get(pg.module) || 750;
+      const comparison = compareFingerprints(fp, localFp, slug, pg.module, modBaseline);
       comparison.module = pg.module;
       comparison.category = pg.category;
       comparison.label = pg.label;
       comparison.localFile = localEntry.relativePath;
+      if (aggResult.aggregated) {
+        comparison.aggregated = true;
+        comparison.aggregatedFileCount = aggResult.fileCount;
+        comparison.relatedDir = aggResult.relatedDir;
+      }
       results.push(comparison);
 
       // Aggregate issues
