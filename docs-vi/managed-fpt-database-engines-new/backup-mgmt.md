@@ -6,7 +6,7 @@ sidebar_label: "Quản lý dịch vụ Backup"
 sidebar_position: 27
 ---
 
-# Backup Mgmt
+# Quản lý dịch vụ Backup
 
 Mục này hướng dẫn người dùng các bước chi tiết để thực hiện các nghiệp vụ liên quan đến dịch vụ Backup, bao gồm kích hoạt, điều chỉnh và huỷ dịch vụ Backup.
 

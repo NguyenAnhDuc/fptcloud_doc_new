@@ -6,7 +6,7 @@ sidebar_label: "Quản lý Job Backup"
 sidebar_position: 28
 ---
 
-# Backup Job Mgmt
+# Quản lý Job Backup
 
 Mục này hướng dẫn người dùng các bước chi tiết để thực hiện các nghiệp vụ liên quan đến quản lý backup job, bao gồm tạo job Full Backup, tạo job Differential Backup, chạy, cập nhật và xoá backup job.
 

@@ -7,7 +7,7 @@ sidebar_position: 41
 pagination_next: null
 ---
 
-# Cau Hinh Channel De Thuc Hien Gui Thong Bao
+# Cấu hình channel để thực hiện gửi thông báo
 
 FPT Cloud cho phép thêm mới/ chỉnh sửa thông tin cấu hình các channel như sau:
 **_A. Telegram_**

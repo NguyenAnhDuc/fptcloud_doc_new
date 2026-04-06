@@ -1,12 +1,12 @@
 ---
 id: "clone-model"
-title: "Mục đích: Nhân bản 1 model giống với model đã có."
+title: Nhân bản Model
 description: "Mục đích: Nhân bản 1 model giống với model đã có."
-sidebar_label: "Mục đích: Nhân bản 1 model giống với model đã có."
+sidebar_label: Nhân bản Model
 sidebar_position: 20
 ---
 
-# Clone Model
+# Nhân bản Model
 
 Mục đích: Nhân bản 1 model giống với model đã có.
 Các bước thực hiện: 

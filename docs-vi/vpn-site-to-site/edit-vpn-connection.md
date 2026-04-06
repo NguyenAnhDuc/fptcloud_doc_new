@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn chỉnh sửa VPN Connection"
 sidebar_position: 27
 ---
 
-# Edit Vpn Connection
+# Hướng dẫn chỉnh sửa VPN Connection
 
 Để chỉnh sửa VPN Connection, quý khách hàng cần thao tác theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn Network, chọn tab **VPN Site-to-Site**.

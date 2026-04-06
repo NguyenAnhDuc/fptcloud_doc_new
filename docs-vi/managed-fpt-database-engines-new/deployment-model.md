@@ -6,7 +6,7 @@ sidebar_label: "Mô hình triển khai"
 sidebar_position: 6
 ---
 
-# Deployment Model
+# Mô hình triển khai
 
 Mục này mô tả các mô hình triển khai database được hỗ trợ trong dịch vụ FPT Database Engine, giúp người dùng lựa chọn kiến trúc phù hợp với yêu cầu về tính sẵn sàng, hiệu năng và chi phí.
 

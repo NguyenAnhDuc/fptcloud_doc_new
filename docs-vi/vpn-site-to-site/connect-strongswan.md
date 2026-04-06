@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình VPN Site-to-Site với strongSwan"
 sidebar_position: 17
 ---
 
-# RSA private key for this host, authenticating it to any other host
+# Cấu hình VPN Site-to-Site với strongSwan
 
 Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-site của FPT Smart Cloud. 
   * [Bước 1: Build strongSwan](../vpn-site-to-site/index.md)

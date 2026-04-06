@@ -6,7 +6,7 @@ sidebar_label: "アカウントのサインアップ"
 sidebar_position: "6"
 ---
 
-# Sign Up For An Account
+# アカウントのサインアップ
 
 ### 1. For the PAYG user
 Create an FPT Cloud account at <https://ai.fptcloud.com/> or <https://ai.fptcloud.jp/>, click **Sign up** and fill in the required information to register an account. Then, check your email for instructions from FPT Smart Cloud (noreply@fptcloud.com) to complete the registration and verify your account.

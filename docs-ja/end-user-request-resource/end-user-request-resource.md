@@ -6,7 +6,7 @@ sidebar_label: "End User Request Resource"
 sidebar_position: "1"
 ---
 
-# Resource Request
+# End User Request Resource
 
   * [ ![](/img/migrated/settings-d31fa71f.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-2645685c.png) Quick Starts ](javascript: "Quick Starts")

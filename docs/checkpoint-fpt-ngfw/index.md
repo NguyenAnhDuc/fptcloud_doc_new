@@ -1,6 +1,6 @@
 ---
 id: "checkpoint-fpt-ngfw"
-title: "CheckPoint - FPT NGFW"
+title: "CheckPoint – FPT NGFW"
 sidebar_label: "Overview"
 sidebar_position: 1
 ---

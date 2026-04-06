@@ -6,7 +6,7 @@ sidebar_label: "Service Type Load-Balancer"
 sidebar_position: 23
 ---
 
-# Service type Load Balancer
+# Service Type Load-Balancer
 
 D-FKE hỗ trợ tạo **Service type Load Balancer** giúp user có thể dễ dàng public ứng dụng ra ngoài cluster. Hệ thống hỗ trợ cả public và private LB.
   * **Public LB:** Mặc định svc type LB khi được tạo dưới dạng public, service được gán Public IP để có thể truy cập từ internet.

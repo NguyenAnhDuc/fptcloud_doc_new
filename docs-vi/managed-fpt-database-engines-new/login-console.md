@@ -6,7 +6,7 @@ sidebar_label: "Truy cập FPT Console Portal"
 sidebar_position: 10
 ---
 
-# Login Console
+# Truy cập FPT Console Portal
 
 Để sử dụng dịch vụ FPT Database Engine trên FPT Console Portal, bạn cần đăng nhập bằng thông tin tài khoản đã đăng ký.
 

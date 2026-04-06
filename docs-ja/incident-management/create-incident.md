@@ -6,7 +6,7 @@ sidebar_label: "インシデントの作成"
 sidebar_position: 15
 ---
 
-# Create Incident
+# インシデントの作成
 
 You can create a new incident in two ways, either directly from the system through the **Declare Incident** feature, or via an **Incoming Webhook**.
 

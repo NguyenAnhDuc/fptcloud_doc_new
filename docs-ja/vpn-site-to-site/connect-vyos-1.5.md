@@ -6,7 +6,7 @@ sidebar_label: "Vyos 1.5デバイスの接続"
 sidebar_position: "18"
 ---
 
-# Connect Vyos 1.5
+# Vyos 1.5デバイスの接続
 
 この記事では、FPT Smart CloudのVPN Site-to-SiteサービスにVPN_S2S接続するルーターデバイスの構築方法を説明します。
   * [ステップ1: Cloud向けVyos1.5の構築](../vpn-site-to-site/index.md)

@@ -6,7 +6,7 @@ sidebar_label: "Đăng nhập"
 sidebar_position: 3
 ---
 
-# Dang Nhap
+# Đăng nhập
 
 Sau khi bạn đã hoàn thành việc tạo tài khoản, để đăng nhập vào trang Portal và sử dụng dịch vụ **Model Hub** , bạn vui lòng hoàn thành các bước như hướng dẫn sau: 
 

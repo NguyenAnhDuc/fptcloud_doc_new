@@ -1,12 +1,12 @@
 ---
 id: "setting-agert"
-title: "Create an agent installation package and install the agent"
+title: Set Up Agent Installation Package and Install Agent
 description: "Create a Trellix agent installation package and deploy it on Windows, Linux, or macOS servers."
-sidebar_label: "Create an agent installation package"
+sidebar_label: Set Up Agent Installation Package and Install Agent
 sidebar_position: 3
 ---
 
-# Create an agent installation package and install the agent
+# Set Up Agent Installation Package and Install Agent
 
 The agent is a software component installed on each server that needs protection, allowing the Trellix server to remotely monitor and deploy security policies. Windows, Linux, and macOS are supported.
 

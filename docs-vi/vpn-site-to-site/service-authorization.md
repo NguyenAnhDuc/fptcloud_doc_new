@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn phân quyền sử dụng dịch vụ"
 sidebar_position: 35
 ---
 
-# Service Authorization
+# Hướng dẫn phân quyền sử dụng dịch vụ
 
 Để thực hiện phân quyền cho user khác sử dụng dịch vụ **VPN Site to Site** trong cùng project, Quý khách thao tác theo các bước sau:
 **Bước 1:** Login bằng tài khoản quản lý trên trang console của FCI tại đường link: <https://console.fptcloud.com/>

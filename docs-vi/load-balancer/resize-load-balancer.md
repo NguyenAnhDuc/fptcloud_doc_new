@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi gói Load Balancer (Resize)"
 sidebar_position: 8
 ---
 
-# Resize Load Balancer
+# Thay đổi gói Load Balancer (Resize)
 
 Tính năng **"Thay Đổi gói Load Balancer (Resize)"** là một phần quan trọng trong việc quản lý **Load Balancer.** Nó cho phép bạn tùy chỉnh các gói dịch vụ phù hợp với nhu cầu sử dụng cả về mặt tài chính lẫn vận hành của Load Balancer như: 
   * **Cải thiện hiệu suất:** Tính năng resize giúp đảm bảo rằng ứng dụng của bạn luôn có đủ tài nguyên để xử lý lưu lượng truy cập. 

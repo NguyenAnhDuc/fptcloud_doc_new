@@ -6,7 +6,7 @@ sidebar_position: "15"
 description: "Hướng dẫn chỉnh sửa webhook secret đã được tạo"
 ---
 
-# Cập nhật webhook secret
+# Edit Webhook Secret
 
 1. Chọn **Edit** tại webhook secret cần cập nhật.
 

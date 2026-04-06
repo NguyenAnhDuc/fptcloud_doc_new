@@ -6,7 +6,7 @@ sidebar_label: "Tính năng snapshot Persistent Volume trên kubernetes"
 sidebar_position: 46
 ---
 
-# Snapshot Persistent Volume trên K8s
+# Tính năng snapshot Persistent Volume trên kubernetes
 
 * Tính năng snapshot persistent volume (PV) giúp người dùng có thể tạo snapshot của một PV trên M-FKE kubernetes cluster bằng cách cấu hình và triển khai file yaml định nghĩa pvc mong muốn snapshot. Sau khi resource snapshot trong kubernetes cluster được tạo ra, một bản snapshot tương ứng sẽ được tạo mới ở VPC. Việc snapshot volume trên MFKE được thực hiện bởi thành phần VolumeSnapshotClass, người dùng chỉ cần định nghĩa tên của pvc cần snapshot. Người dùng cũng có thể chủ động lập lịch snapshot PV định kì bằng cách tạo script liên tục call api tạo snapshot trong kubernetes. Tài liệu tham khảo tính năng snapshot volume trên kubernetes [](https://kubernetes.io/docs/concepts/storage/volume-snapshots/)
   * Trong kubernetes, volume snapshot là một bản copy point-in-time của nội dùng PV trong cluster. Người dùng có thể sử dụng snapshot để backup dữ liệu của cluster hoặc copy dữ liệu tới các resource khác mà không cần tạo mới volume.

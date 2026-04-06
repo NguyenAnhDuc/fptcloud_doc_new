@@ -1,12 +1,12 @@
 ---
 id: "cap-nhat-load-balancer"
-title: "Update Load Balancer"
+title: Cập nhật Load Balancer
 description: "Để cập nhật **Load Balancer** , trong phần **Action** của **Load Balancer** cần cập nhật chọn **Update Load Balancer.**"
-sidebar_label: "Update Load Balancer"
+sidebar_label: Cập nhật Load Balancer
 sidebar_position: 5
 ---
 
-# Cap Nhat Load Balancer
+# Cập nhật Load Balancer
 
 Để cập nhật **Load Balancer** , trong phần **Action** của **Load Balancer** cần cập nhật chọn **Update Load Balancer.**
 Tại đây người dùng được cập nhật các thông tin:

@@ -1,12 +1,12 @@
 ---
 id: "docker-cli"
-title: "FPT Container Registry"
-sidebar_label: "FPT Container Registry"
+title: Sử dụng Docker CLI
+sidebar_label: Sử dụng Docker CLI
 sidebar_position: "4"
 description: "FPT Container Registry"
 ---
 
-# Docker CLI
+# Sử dụng Docker CLI
 
 Use Docker CLI to interact with FPT Container Registry — login, tag, push, and pull images.
 

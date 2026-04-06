@@ -6,7 +6,7 @@ sidebar_label: "Mount bucket thành ổ đĩa trên máy local"
 sidebar_position: 17
 ---
 
-# Mount Bucket Thanh O Dia Tren May Local
+# Mount bucket thành ổ đĩa trên máy local
 
 ## Mount bucket với Windows
 Ngoài trường hợp sử dụng qua **FPT Portal** , **S3 Browser** chúng ta có thể sử dụng trực tiếp S3 bucket trên **FPT Object Storage** như một ổ đĩa của máy tính sử dụng hệ điều hành Windows thông qua công cụ TntDrive qua các bước sau:

@@ -6,7 +6,7 @@ sidebar_label: "VPCの作成"
 sidebar_position: 2
 ---
 
-# Create a VPC
+# VPCの作成
 
 You must sign in with Tenant Owner permission to create a new VPC.
 

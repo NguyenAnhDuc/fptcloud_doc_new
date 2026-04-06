@@ -1,12 +1,12 @@
 ---
 id: "VPNアクティビティの確認"
-title: "VPNアクティビティの確認"
-sidebar_label: "VPNアクティビティの確認"
+title: "Xem Activity log VPN"
+sidebar_label: "Xem Activity log VPN"
 sidebar_position: "9"
 description: "Activity LogでVPNアクティビティ履歴を確認するガイドです。"
 ---
 
-# VPN Activity logの確認
+# Xem Activity log VPN
 
 実行された全てのVPNアクションはActivity Logに記録されます。必要に応じて追跡・確認できます。
 

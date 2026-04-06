@@ -1,12 +1,12 @@
 ---
 id: "tutorials-su-dung-object-storage-tren-fpt-portal"
-title: "Tutorials Su Dung Object Storage Tren Fpt Portal"
+title: Use Object Storage on FPT Portal
 description: "Tổng quan về cách sử dụng FPT Object Storage thông qua FPT Unify Portal."
-sidebar_label: "Tutorials Su Dung Object Storage Tren Fpt Portal"
+sidebar_label: Use Object Storage on FPT Portal
 sidebar_position: "3"
 ---
 
-# Sử dụng Object Storage trên FPT Portal
+# Use Object Storage on FPT Portal
 
 FPT Unify Portal cung cấp giao diện trực quan để quản lý toàn bộ tài nguyên FPT Object Storage, bao gồm bucket, object, permissions, cấu hình bucket và encryption.
 

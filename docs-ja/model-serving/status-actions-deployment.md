@@ -6,7 +6,7 @@ sidebar_label: "ステータスとアクション"
 sidebar_position: "11"
 ---
 
-# Deployment status and actions
+# ステータスとアクション
 
 Deployment Statuses:  
 | **Status**  | **Description**  |  

@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn đăng nhập vào ArgoCD"
 sidebar_position: 43
 ---
 
-# Huong Dan Dang Nhap Vao Argocd
+# Hướng dẫn đăng nhập vào ArgoCD
 
 **Cách 1:** Đăng nhập ArgoCD qua giao diện với username/password [![](/img/migrated/Picture72-2-4d518451.png)](/img/migrated/Picture72-2-4d518451.png) **Cách 2:** Đăng nhập ArgoCD với argocd cli
   * Trong mục Documentations > Dowload cli tool [![](/img/migrated/Picture73-2-e0b0b838.png)](/img/migrated/Picture73-2-e0b0b838.png)

@@ -1,8 +1,8 @@
 ---
 id: "Khoi-tao-Database-Engine"
-title: "Khoi tao Database Engine"
+title: Khởi tạo Database Engine
 description: "**Bước 1:** Trên **Menu** chọn mục **Database Engine** >**Create.**"
-sidebar_label: "Khoi tao Database Engine"
+sidebar_label: Khởi tạo Database Engine
 sidebar_position: 9
 ---
 

@@ -6,7 +6,7 @@ sidebar_label: "Thiết lập ban đầu"
 sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
 Để bắt đầu sử dụng dịch vụ **Model Hub** , bạn cần đăng nhập vào FPT Portal. 
 Hãy truy cập vào <https://console.fptcloud.com> và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ. 

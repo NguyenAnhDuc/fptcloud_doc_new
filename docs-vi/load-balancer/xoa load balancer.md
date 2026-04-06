@@ -7,7 +7,7 @@ sidebar_position: 32
 pagination_next: null
 ---
 
-# Xoa Load Balancer
+# Xóa Load Balancer
 
 Nếu không còn nhu cầu sử dụng, bạn có thể xóa **Load Balancer** khỏi **VPC** để tiết kiệm tài nguyên và tránh phát sinh chi phí.
 **Bước 1** : Trên bảng quản trị **Load Balancer Management** , trong phần **Action** của LB cần xóa, chọn **Delete**.

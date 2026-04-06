@@ -1,12 +1,12 @@
 ---
 id: "connect-fci-vmware"
-title: "FCI-VMware接続"
+title: FCI-VMware VPN接続の設定
 description: "UnifyポータルでVMWとOPSの2つのプラットフォームのVPNaaSを接続するガイドです。"
-sidebar_label: "FCI-VMware接続"
+sidebar_label: FCI-VMware VPN接続の設定
 sidebar_position: "22"
 ---
 
-# FCI-VMware接続
+# FCI-VMware VPN接続の設定
 
 この記事では、UnifyポータルでVMWとOPSの2つのプラットフォームのVPNaaSを接続する方法を説明します。
   * [ステップ1: OpenstackでのVPN_AASの設定](../vpn-site-to-site/index.md)

@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn chỉnh sửa Customer gateway"
 sidebar_position: 33
 ---
 
-# Edit Customergw
+# Hướng dẫn chỉnh sửa Customer gateway
 
 **_Lưu ý: Chỉ chỉnh sửa được Customer gateway khi CGW không được gán vào VPN connection_**
 Để chỉnh sửa **Customer gateway** , người dùng thao tác theo hướng dẫn sau:

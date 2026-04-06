@@ -7,7 +7,7 @@ sidebar_position: 19
 pagination_next: null
 ---
 
-# Phan Quyen Su Dung Bucket Cho Cac Subuser
+# Phân quyền sử dụng bucket cho các subuser
 
 ## Giới thiệu
 Hiện tại FPT Object Storage đã hỗ trợ bạn tạo các SubUser, tuy nhiên role của SubUser sẽ hiệu lực với toàn bộ tài nguyên của Admin. Ví dụ bạn tạo một SubUser với role Read only thì SubUser đấy sẽ có quyền read đối với toàn bộ bucket của Admin.

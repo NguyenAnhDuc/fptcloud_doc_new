@@ -6,7 +6,7 @@ sidebar_label: "初期設定"
 sidebar_position: "2"
 ---
 
-# Initial setup
+# 初期設定
 
 If this is your first time using **FPT Cloud WAF**, complete the following steps before you begin.
 

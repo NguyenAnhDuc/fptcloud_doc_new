@@ -6,6 +6,6 @@ sidebar_label: "同時に複数のリクエストを作成できますか？"
 sidebar_position: 5
 ---
 
-# Can I create multiple requests at the same time?
+# 同時に複数のリクエストを作成できますか？
 
 Customers can create multiple requests at the same time. The requests will be sent to FCI and processed in order of priority based on the time they were created.

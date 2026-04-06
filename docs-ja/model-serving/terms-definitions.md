@@ -6,7 +6,7 @@ sidebar_label: "用語と定義"
 sidebar_position: "4"
 ---
 
-# Terms and definitions
+# 用語と定義
 
 | **Terms**  | **Definitions**  |  
 | --- | --- |  

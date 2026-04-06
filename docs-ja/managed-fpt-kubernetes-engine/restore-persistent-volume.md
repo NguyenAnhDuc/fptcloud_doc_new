@@ -6,7 +6,7 @@ sidebar_label: "スナップショットからの volume リストア機能"
 sidebar_position: 47
 ---
 
-# Kubernetes 上でのスナップショットからの volume リストア機能
+# Kubernetes 上でのスナップショットからの volume のリストア機能
 
 MFKE の volume リストア機能を使用すると、既存の PV スナップショットを使って PV のデータをリストアできます。データのリストア操作は Kubernetes のネイティブな方法で行われます。ユーザーは既存のスナップショットに基づいて PVC を設定し、その後アプリケーションの PVC または volumeMount の設定を新しく作成した PVC に変更するだけです。Kubernetes の volume リストア機能の参考ドキュメント: https://kubernetes.io/docs/concepts/storage/volume-pvc-datasource
 

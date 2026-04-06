@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Workload Managed Kubernetes Cluster"
 sidebar_position: 32
 ---
 
-# Tính năng Workload Scan
+# Tính năng Workload Managed Kubernetes Cluster
 
 **1. Giới thiệu chung tính năng Workload Security**
 **1.1. Configuration Auditing Overview**

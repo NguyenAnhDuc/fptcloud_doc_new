@@ -1,12 +1,12 @@
 ---
 id: "quan-ly-ssl-certificate"
-title: "Quan Ly Ssl Certificate"
+title: Quản lý SSL Certificate
 description: "Quan Ly Ssl Certificate"
-sidebar_label: "Quan Ly Ssl Certificate"
+sidebar_label: Quản lý SSL Certificate
 sidebar_position: 24
 ---
 
-# Load Balancer
+# Quản lý SSL Certificate
 
   * [ ![](/img/migrated/icon-glossary-46e0a6e7.png) Overview ](javascript: "Overview")
   * [ ![](/img/migrated/settings-800de3d1.png) Initial Setup ](javascript: "Initial Setup")

@@ -1,12 +1,12 @@
 ---
 id: "upload-file"
-title: "Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng"
+title: Tải lên tệp
 description: "Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng"
-sidebar_label: "Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng"
+sidebar_label: Tải lên tệp
 sidebar_position: 12
 ---
 
-# Upload File
+# Tải lên tệp
 
 Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng 
 Các bước thực hiện: 

@@ -1,12 +1,12 @@
 ---
 id: "Phan-quyen-tinh-nang-Database"
-title: "Phan Quyen Tinh Nang Database"
-sidebar_label: "Phan Quyen Tinh Nang Database"
+title: Assign Database Feature Permissions
+sidebar_label: Assign Database Feature Permissions
 sidebar_position: "6"
 description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
 ---
 
-# Phân quyền tính năng database
+# Assign Database Feature Permissions
 
 Cho phép tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup và các tính năng khác.
 

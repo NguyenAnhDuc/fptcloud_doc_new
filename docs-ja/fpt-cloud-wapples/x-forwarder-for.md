@@ -1,11 +1,11 @@
 ---
 id: "x-forwarder-for"
-title: "X-Forwarded-For"
-sidebar_label: "X-Forwarded-For"
+title: X-Forwarded-For ヘッダーの設定
+sidebar_label: X-Forwarded-For ヘッダーの設定
 sidebar_position: 19
 ---
 
-# X Forwarded For
+# X-Forwarded-For ヘッダーの設定
 
 以下の機能が含まれています。
 

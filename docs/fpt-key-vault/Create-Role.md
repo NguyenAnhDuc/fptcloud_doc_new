@@ -6,7 +6,7 @@ sidebar_position: "16"
 description: "Secretアクセス権限を付与するAuth Method内のRoleを新規作成する方法"
 ---
 
-# Roleを作成する
+# Create Role
 
 RoleはAuth MethodとPolicyを紐付け、認証成功時にアプリケーションが受け取る権限セットを定義します。Role作成後、システムは認証に使用する **Role ID** と **Secret ID** を生成します。
 

@@ -1,5 +1,5 @@
 ---
-id: "delete-oidc-config"
+id: "delete-oidc-da-cau-hinh"
 title: "Delete OIDC configuration"
 description: "Guide to deleting the OIDC configuration from an ArgoCD instance"
 sidebar_label: "Delete OIDC configuration"

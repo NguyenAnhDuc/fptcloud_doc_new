@@ -1,12 +1,12 @@
 ---
 id: "backup-restore-cluster"
-title: "Backup and Restore Cluster"
+title: Backup và Restore Cluster
 description: "Để backup k8s cluster, thực hiện backup master nodes sử dụng dịch vụ **Backup & Recovery**."
-sidebar_label: "Backup and Restore Cluster"
+sidebar_label: Backup và Restore Cluster
 sidebar_position: 25
 ---
 
-# Backup và restore cluster
+# Backup và Restore Cluster
 
 Để backup k8s cluster, thực hiện backup master nodes sử dụng dịch vụ **Backup & Recovery**.
 **Bước 1** : Ở menu chọn **Backup & Recovery**, hệ thống sẽ hiển thị trang **Backup & Recovery**.

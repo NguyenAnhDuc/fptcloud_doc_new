@@ -6,7 +6,7 @@ sidebar_label: "Issue listでのIssueステータス変更ガイド"
 sidebar_position: 27
 ---
 
-# Issue listでのIssueステータス変更ガイド
+# Issue list画面でのIssueステータス変更ガイド
 
 手順1. asset listの画面でいずれかのassetを選択し、Issueタブに移動します。各issueカードにissueのステータスが表示されます。
 [![anhfsec](/img/migrated/i1-c8b75478.png)](/img/migrated/i1-c8b75478.png)

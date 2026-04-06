@@ -6,7 +6,7 @@ sidebar_label: "Cài đặt"
 sidebar_position: 13
 ---
 
-# Set up connection information
+# Cài đặt
 
 FPT Object Storage là một sản phẩm được phát triển dựa trên tiêu chuẩn AWS S3. Vì vậy bạn có thể sử dụng tất cả các công cụ và thư viện đã được phát triển cho AWS S3 để tương tác với FPT Object Storage. Dưới đây là hướng dẫn cài đặt và config kết nối mẫu của một số ngôn ngữ thông dụng.
 

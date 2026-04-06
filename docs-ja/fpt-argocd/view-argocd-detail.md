@@ -1,8 +1,8 @@
 ---
 id: "view-argocd-detail"
-title: "ArgoCD インスタンスの詳細を確認する"
+title: ArgoCD インスタンスの詳細確認とログイン
 description: "初期化済みのArgoCD instanceの詳細確認とログイン方法"
-sidebar_label: "ArgoCD詳細を確認する"
+sidebar_label: ArgoCD インスタンスの詳細確認とログイン
 sidebar_position: "5"
 ---
 

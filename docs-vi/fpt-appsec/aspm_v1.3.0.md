@@ -1,12 +1,12 @@
 ---
 id: "aspm_v1.3.0"
-title: "1. Mô tả"
+title: ASPM v1.3.0
 description: "Trong xu hướng tự động hóa quy trình DevSecOps nhằm nâng cao hiệu quả vận hành và kiểm soát bảo mật liên tục, việc quản "
-sidebar_label: "1. Mô tả"
+sidebar_label: ASPM v1.3.0
 sidebar_position: 2
 ---
 
-# Aspm_V1.3.0
+# ASPM v1.3.0
 
 Trong xu hướng tự động hóa quy trình DevSecOps nhằm nâng cao hiệu quả vận hành và kiểm soát bảo mật liên tục, việc quản lý lịch quét (scan schedule) đóng vai trò quan trọng trong việc đảm bảo hệ thống được giám sát định kỳ và chính xác. FPT Smart Cloud giới thiệu bản nâng cấp mới của FSP (FPT Security Platform) AppSec Service với tính năng **Schedule Management** , giúp người dùng dễ dàng tạo, theo dõi và quản lý lịch quét bảo mật theo nhu cầu. 
 **1. Mô tả**

@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình proxy protocol cho istio-ingress với Managed Kuber
 sidebar_position: 51
 ---
 
-# Cấu hình Proxy Protocol cho Istio Ingress
+# Cấu hình proxy protocol cho istio-ingress với Managed Kubernetes cluster
 
 Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public của người dùng cuối khi truy cập vào ứng dụng trong Kubernetes thông qua istio gateway, người dùng có thể cấu hình: 
 Enable proxy protocol cho service istio-ingressgateway bằng cách thêm annotation _loadbalancer.fptcloud.com/proxy-protocol: "true"_ trong cấu hình của service. 

@@ -6,7 +6,7 @@ sidebar_label: "Sử dụng FPT Object Storage làm media server"
 sidebar_position: 15
 ---
 
-# Su Dung Fpt Object Storage Lam Media Server Luu Tru Va Phan Phoi Media File Cho Websiteweb Application
+# Sử dụng FPT Object Storage làm media server
 
 ## Giới thiệu
 **FPT Object Storage** là dịch vụ lưu trữ dữ liệu đối tượng được cung cấp bởi **FPT Smart Cloud** , hỗ trợ giao thức tương đương với AWS S3 (Simple Storage Service). Với một số đặc điểm nổi bật như lưu trữ không giới hạn, bảo mật và tính sẵn sàng cao mà giá cả lại phải chăng. **FPT Object Storage** là một lựa chọn cực kỳ phù hợp để làm kho lưu trữ media cho các trang website/web application có nhu cầu truy suất dữ liệu cao và liên tục.

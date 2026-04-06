@@ -7,7 +7,7 @@ sidebar_position: 8
 pagination_next: null
 ---
 
-# Select option 2
+# Sử dụng File Storage - High Performance trên Baremetal (GPU Server)
 
 ## Tổng quan
 Dịch vụ File Storage - High Performance hiện đã sẵn sàng cho hạ tầng Baremetal tại khu vực Nhật Bản. Để yêu cầu sử dụng, vui lòng liên hệ sale hoặc hỗ trợ kỹ thuật và cung cấp các thông tin sau:

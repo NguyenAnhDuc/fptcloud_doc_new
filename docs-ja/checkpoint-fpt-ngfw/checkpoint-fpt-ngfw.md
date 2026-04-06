@@ -6,7 +6,7 @@ sidebar_label: "Checkpoint Fpt Ngfw"
 sidebar_position: "1"
 ---
 
-# CheckPoint – FPT NGFW
+# Checkpoint Fpt Ngfw
 
 ![CheckPoint FPT NGFW](/img/migrated/icon-networking-f57b0b33.png)
 

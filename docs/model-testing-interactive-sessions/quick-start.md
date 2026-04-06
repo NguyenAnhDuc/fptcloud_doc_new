@@ -6,7 +6,7 @@ sidebar_label: "Quick Start"
 sidebar_position: "5"
 ---
 
-# Model Testing – Interactive Sessions
+# Quick Start
 
 ## Quick Start
 

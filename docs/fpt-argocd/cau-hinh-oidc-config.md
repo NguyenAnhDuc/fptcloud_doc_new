@@ -1,12 +1,12 @@
 ---
 id: "cau-hinh-oidc-config"
-title: "Cau Hinh Oidc Config"
+title: Configure OIDC
 description: "ArgoCDでSSO/Keycloak統合用の新しいOIDC configを追加する方法。"
-sidebar_label: "Cau Hinh Oidc Config"
+sidebar_label: Configure OIDC
 sidebar_position: "35"
 ---
 
-# OIDC configの設定
+# Configure OIDC
 
 OIDCをenableにした後、新しいOIDC configを追加してKeycloakとのSSO統合を設定します。
 

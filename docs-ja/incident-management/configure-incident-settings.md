@@ -6,7 +6,7 @@ sidebar_label: "Settings の設定"
 sidebar_position: 11
 ---
 
-# Configure Incident Settings
+# Settings の設定
 
 The FMON Incident Management system offers various custom settings that enable you to tailor incident attributes according to your response requirements and team workflow. You can configure settings for:
   * Label management

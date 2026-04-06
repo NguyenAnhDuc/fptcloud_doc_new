@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Server Pool"
 sidebar_position: 21
 ---
 
-# Khoi Tao Server Pool
+# Khởi tạo Server Pool
 
 **Server pool** (nhóm máy chủ) là tập hợp các máy chủ backend,chịu trách nhiệm phân phối lưu lượng truy cập đến các máy chủ backend để cải thiện hiệu suất, tính khả dụng và độ tin cậy của dịch vụ.
 **1.Tạo Server pool**

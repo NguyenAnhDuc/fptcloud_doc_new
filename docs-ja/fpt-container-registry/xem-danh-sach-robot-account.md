@@ -6,7 +6,7 @@ sidebar_position: "20"
 description: "Xem toàn bộ robot account đã tạo trên FPT Portal."
 ---
 
-# Xem danh sách robot account
+# Xem Danh Sach Robot Account
 
 FPT Cloud hiển thị toàn bộ robot account đã tạo trên Portal, giúp bạn theo dõi trạng thái và quản lý quyền truy cập của từng account.
 

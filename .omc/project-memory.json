@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775282487184,
+  "lastScanned": 1775442085198,
   "projectRoot": "/root/codes/fptcloud_doc_new",
   "techStack": {
     "languages": [
@@ -68,7 +68,7 @@
       "path": "blog",
       "purpose": null,
       "fileCount": 5,
-      "lastAccessed": 1775282487171,
+      "lastAccessed": 1775442085186,
       "keyFiles": [
         "2019-05-28-first-blog-post.md",
         "2019-05-29-long-blog-post.md",
@@ -81,7 +81,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 8,
-      "lastAccessed": 1775282487172,
+      "lastAccessed": 1775442085187,
       "keyFiles": [
         "404.html",
         "_redirects",
@@ -90,11 +90,18 @@
         "search-index-docs-ja-current.json"
       ]
     },
+    "crawled-web": {
+      "path": "crawled-web",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775442085192,
+      "keyFiles": []
+    },
     "docs": {
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 1,
-      "lastAccessed": 1775282487178,
+      "lastAccessed": 1775442085193,
       "keyFiles": [
         "index.md"
       ]
@@ -103,14 +110,14 @@
       "path": "docs-en",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775282487181,
+      "lastAccessed": 1775442085194,
       "keyFiles": []
     },
     "docs-ja": {
       "path": "docs-ja",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775282487181,
+      "lastAccessed": 1775442085196,
       "keyFiles": [
         "index.md"
       ]
@@ -119,7 +126,7 @@
       "path": "docs-vi",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775282487181,
+      "lastAccessed": 1775442085196,
       "keyFiles": [
         "index.md"
       ]
@@ -127,8 +134,8 @@
     "scripts": {
       "path": "scripts",
       "purpose": "Build/utility scripts",
-      "fileCount": 41,
-      "lastAccessed": 1775282487182,
+      "fileCount": 51,
+      "lastAccessed": 1775442085196,
       "keyFiles": [
         "analyze-unmatched-deep.js",
         "analyze-unmatched-docs.js",
@@ -141,14 +148,14 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1775282487182,
+      "lastAccessed": 1775442085196,
       "keyFiles": []
     },
     "static": {
       "path": "static",
       "purpose": "Static files",
       "fileCount": 2,
-      "lastAccessed": 1775282487182,
+      "lastAccessed": 1775442085196,
       "keyFiles": [
         "_redirects"
       ]
@@ -157,28 +164,28 @@
       "path": "build/assets",
       "purpose": "Static assets",
       "fileCount": 0,
-      "lastAccessed": 1775282487182,
+      "lastAccessed": 1775442085197,
       "keyFiles": []
     },
     "build/docs": {
       "path": "build/docs",
       "purpose": "Documentation",
       "fileCount": 0,
-      "lastAccessed": 1775282487182,
+      "lastAccessed": 1775442085197,
       "keyFiles": []
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1775282487183,
+      "lastAccessed": 1775442085198,
       "keyFiles": []
     },
     "src/pages": {
       "path": "src/pages",
       "purpose": "Page components",
       "fileCount": 3,
-      "lastAccessed": 1775282487183,
+      "lastAccessed": 1775442085198,
       "keyFiles": [
         "index.js",
         "index.module.css",
@@ -189,20 +196,20 @@
   "hotPaths": [
     {
       "path": "sidebars.js",
-      "accessCount": 67,
-      "lastAccessed": 1775329035284,
+      "accessCount": 159,
+      "lastAccessed": 1775481488121,
       "type": "directory"
     },
     {
       "path": "sidebars-vi.js",
-      "accessCount": 56,
-      "lastAccessed": 1775329028598,
+      "accessCount": 122,
+      "lastAccessed": 1775481418766,
       "type": "directory"
     },
     {
       "path": "fptcloud-docs-style-guide.md",
-      "accessCount": 25,
-      "lastAccessed": 1775325542822,
+      "accessCount": 31,
+      "lastAccessed": 1775458572927,
       "type": "file"
     },
     {
@@ -219,14 +226,14 @@
     },
     {
       "path": "src/docusaurus/langMappingPlugin.js",
-      "accessCount": 6,
-      "lastAccessed": 1775212337638,
+      "accessCount": 7,
+      "lastAccessed": 1775448574203,
       "type": "file"
     },
     {
       "path": "scripts/generate-lang-mapping.js",
-      "accessCount": 4,
-      "lastAccessed": 1775212958753,
+      "accessCount": 6,
+      "lastAccessed": 1775448592467,
       "type": "file"
     },
     {

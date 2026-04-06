@@ -6,7 +6,7 @@ sidebar_label: "システムメトリクス"
 sidebar_position: "26"
 ---
 
-# System Metrics
+# システムメトリクス
 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/System-metrics.png)](https://fptcloud.com/wp-content/uploads/2025/02/System-metrics.png)
 **System metrics** are collected to monitor the hardware and infrastructure performance during model training and evaluation. These metrics help identify resource bottlenecks, optimize hardware utilization, and ensure stable and efficient training processes.  

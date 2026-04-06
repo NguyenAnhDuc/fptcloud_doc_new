@@ -7,7 +7,7 @@ sidebar_position: 24
 pagination_next: null
 ---
 
-# Connect Behind Nat
+# Cấu hình VPN Site-to-Site với các thiết bị NAT IP
 
 **NAT IP (Network Address Translation) là gì?**
 **NAT (Network Address Translation) IP** là cơ chế dịch địa chỉ IP, nó nằm trên router hoặc firewall, dùng để biến đổi địa chỉ IP private trong mạng nội bộ thành IP public khi ra Internet, và ngược lại. 

@@ -6,7 +6,7 @@ sidebar_position: "8"
 description: "Secret Engine内にSecretを新規作成する方法"
 ---
 
-# Secret EngineにSecretを作成する
+# Create Secret In Secret Engine
 
 SecretはSecret Engine内でKey/Valueペアとして機密情報を保存する単位です。各SecretはバージョニングをサポートしているためKey/Valueペアを複数格納でき、変更履歴を追跡できます。
 

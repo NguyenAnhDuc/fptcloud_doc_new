@@ -6,7 +6,7 @@ sidebar_label: "残高のチャージ"
 sidebar_position: 8
 ---
 
-# Top Up Balance
+# 残高のチャージ
 
 * Navigate to **Account** > **Billing** in the left menu
   * Follow the detailed guide: [Add credits](../ai-factory-billing/index.md)

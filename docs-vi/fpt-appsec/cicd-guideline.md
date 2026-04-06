@@ -7,7 +7,7 @@ sidebar_position: 23
 pagination_next: null
 ---
 
-# Shared script for code & secret scans
+# Guideline: Tích hợp Scanning API của FSP Core Service vào CI/CD Pipelines
 
 **Guideline: Tích hợp Scanning API của FSP Core Service vào CI/CD Pipelines**
 Hướng dẫn này sẽ hướng dẫn bạn cách tích hợp các endpoint quét dịch vụ lõi FSP vào quy trình CI/CD của mình, cho phép tự động quét mã nguồn, quét bí mật và quét bảo mật hình ảnh container trên mỗi lần thay đổi.

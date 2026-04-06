@@ -1,8 +1,8 @@
 ---
 id: "Quan-ly-Process-Monitoring"
-title: "Quan ly Process Monitoring"
+title: Quản lý Process Monitoring
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Monitoring**"
-sidebar_label: "Quan ly Process Monitoring"
+sidebar_label: Quản lý Process Monitoring
 sidebar_position: 18
 ---
 

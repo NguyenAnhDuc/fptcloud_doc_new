@@ -6,7 +6,7 @@ sidebar_label: "Xem danh sách cơ sở dữ liệu"
 sidebar_position: 20
 ---
 
-# View Db List
+# Xem danh sách cơ sở dữ liệu
 
 Chức năng **Xem danh sách cơ sở dữ liệu** cung cấp cái nhìn tổng quan về toàn bộ các cụm cơ sở dữ liệu đang vận hành trong môi trường FPT Database Engine, cho phép người dùng theo dõi nhanh trạng thái (status), cấu hình (configuration) và thực hiện các tác vụ quản trị (management operations) trên từng cơ sở dữ liệu.
 Để truy cập danh sách các cụm cơ sở dữ liệu, người dùng đăng nhập vào FPT Cloud Portal. Từ menu chính, chọn **Database Platform > All Databases** hoặc lựa chọn menu tương ứng với nhóm cơ sở dữ liệu theo nhu cầu sử dụng, bao gồm:

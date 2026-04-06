@@ -6,7 +6,7 @@ sidebar_label: "Nâng cấp K8s version"
 sidebar_position: 17
 ---
 
-# Nâng cấp Kubernetes version
+# Nâng cấp K8s version
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)

@@ -6,7 +6,7 @@ sidebar_label: "Revoke Token"
 sidebar_position: "4"
 ---
 
-# Thu hồi token
+# Revoke Token
 
 Thu hồi token giúp vô hiệu hóa quyền truy cập API ngay lập tức khi token không còn cần thiết hoặc bị lộ. Thao tác này không thể hoàn tác sau khi xác nhận.
 

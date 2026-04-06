@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Listener"
 sidebar_position: 12
 ---
 
-# Khoi Tao Listener
+# Khởi tạo Listener
 
 **Listener** là thành phần quan trọng lắng nghe các yêu cầu từ client và điều hướng chúng đến các máy chủ đích phù hợp, bao gồm các thông tin về giao thức, cổng dịch vụ cùng các thông số chi tiết khác. Nó cho phép bạn cấu hình cách **Load Balancer** lắng nghe và định tuyến lưu lượng truy cập đến các ứng dụng hoặc dịch vụ cụ thể trên máy chủ backend.
 **1.** **Tạo Listener**

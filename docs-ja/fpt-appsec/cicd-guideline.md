@@ -7,7 +7,7 @@ sidebar_position: 23
 pagination_next: null
 ---
 
-# コードおよびSecretスキャン用の共有スクリプト
+# ガイドライン: FSP Core ServiceのScanning APIをCI/CDパイプラインに統合する
 
 **ガイドライン: FSP Core ServiceのScanning APIをCI/CDパイプラインに統合する**
 このガイドでは、FSP Core ServiceのスキャンエンドポイントをCI/CDパイプラインに統合する方法を説明します。これにより、変更のたびにソースコードスキャン、Secretスキャン、コンテナイメージのセキュリティスキャンを自動化できます。

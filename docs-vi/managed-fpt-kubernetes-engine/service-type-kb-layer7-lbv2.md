@@ -6,7 +6,7 @@ sidebar_label: "Sử dụng service type Loadbalancer Layer 7 (LBv2)"
 sidebar_position: 53
 ---
 
-# Service type Layer 7 Load Balancer
+# Sử dụng service type Loadbalancer Layer 7 (LBv2)
 
 FPT Cloud cung cấp cho khách hàng giải pháp sử dụng Loadbalancer Layer 7 với việc sử dụng Cert SSL của khách hàng tự cung cấp. 
 **1. Khởi tạo Cert**

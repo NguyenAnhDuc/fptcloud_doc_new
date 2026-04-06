@@ -1,12 +1,12 @@
 ---
 id: "thay-doi-cau-hinh-k8s-cluster"
-title: "Thay Doi Cau Hinh K8s Cluster"
-sidebar_label: "Thay Doi Cau Hinh K8s Cluster"
+title: Change K8s Cluster Configuration
+sidebar_label: Change K8s Cluster Configuration
 sidebar_position: "10"
 description: "Tổng quan về các thay đổi cấu hình có thể thực hiện trên Kubernetes cluster trong M-FKE."
 ---
 
-# Thay đổi cấu hình K8s cluster
+# Change K8s Cluster Configuration
 
 Bạn có thể thực hiện các thay đổi cấu hình sau trên Kubernetes cluster hiện có:
 

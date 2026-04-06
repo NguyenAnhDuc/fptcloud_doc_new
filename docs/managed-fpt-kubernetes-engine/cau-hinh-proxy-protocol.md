@@ -1,12 +1,12 @@
 ---
 id: "cau-hinh-proxy-protocol"
-title: "Cau Hinh Proxy Protocol"
-sidebar_label: "Cau Hinh Proxy Protocol"
+title: Configure Proxy Protocol
+sidebar_label: Configure Proxy Protocol
 sidebar_position: "50"
 description: "Các tuỳ chọn cấu hình Proxy Protocol trong Managed Kubernetes cluster."
 ---
 
-# Cấu hình proxy protocol
+# Configure Proxy Protocol
 
 Tài liệu hướng dẫn cấu hình Proxy Protocol trong Managed Kubernetes cluster.
 

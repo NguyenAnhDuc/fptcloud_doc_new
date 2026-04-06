@@ -1,16 +1,16 @@
 ---
 id: "key-features"
-title: "Key Features"
-description: "* **プロンプト テスト：** プロンプトを送信し、モデルの完了を観察します。"
-sidebar_label: "Key Features"
+title: "主な機能"
+description: "モデルテストの主な機能"
+sidebar_label: "主な機能"
 sidebar_position: 3
 ---
 
-# Key Features
+# 主な機能
 
-* **プロンプト テスト：** プロンプトを送信し、モデルの完了を観察します。
-  * **システム/ユーザーメッセージのカスタマイズ：** 役割を定義し、会話コンテキストを制御します。
-  * **パラメータチューニング:** 温度、トップP、ストップシーケンス、出力長などの設定を調整します。
-  * **画像入力 (VLM)：** Vision-Language Models の .jpg ファイルまたは .jpeg ファイルをアップロードします。
-  * **完了履歴：** 過去結果を表示、比較、管理します。
-  * **セッション管理：** テストセッションを簡単に開始、続行、または削除します。
+- **Promptテスト:** Promptを送信し、モデルのcompletionを確認します。
+- **System/user messageのカスタマイズ:** 役割を定義し、会話のコンテキストを制御します。
+- **パラメータチューニング:** temperature、top P、stop sequence、出力長などの設定を調整します。
+- **画像入力（VLM）:** Vision-Language Models用に.jpgまたは.jpegファイルをアップロードします。
+- **Completion履歴:** 過去の結果を表示、比較、管理します。
+- **Session管理:** Interactive sessionを簡単に開始、継続、または削除します。

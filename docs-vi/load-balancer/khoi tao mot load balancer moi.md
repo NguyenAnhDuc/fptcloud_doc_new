@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo một Load Balancer mới"
 sidebar_position: 28
 ---
 
-# Khoi Tao Mot Load Balancer Moi
+# Khởi tạo một Load Balancer mới
 
 **Bước 1** : Truy cập trang **Load Balancer** **Management** , chọn **Creat**.
 [![](/img/migrated/Userguide-FPT-Load-Balancer-2022-1-1024x-f04d52f1.png)](/img/migrated/Userguide-FPT-Load-Balancer-2022-1-1024x-f04d52f1.png)

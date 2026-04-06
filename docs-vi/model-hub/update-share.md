@@ -1,12 +1,12 @@
 ---
 id: "update-share"
-title: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
+title: Cập nhật quyền chia sẻ
 description: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
-sidebar_label: "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
+sidebar_label: Cập nhật quyền chia sẻ
 sidebar_position: 18
 ---
 
-# Update Share
+# Cập nhật quyền chia sẻ
 
 Mục đích: Cập nhật quyền của người dùng đã được chia sẻ 
 Các bước thực hiện: Bước 1: Click vào 1 model để xem chi tiết > Chọn tab Share 

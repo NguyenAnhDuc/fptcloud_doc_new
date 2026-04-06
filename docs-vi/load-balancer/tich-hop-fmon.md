@@ -7,7 +7,7 @@ sidebar_position: 10
 pagination_next: null
 ---
 
-# Tich Hop Fmon
+# Tích hợp Metric/Access logs Load Balancer với FPT Monitoring (FMON)
 
 Là tính năng được tích hợp với dịch vụ FPT Monitoring (FMON) giúp người dùng có thể đẩy Access logs hoặc Metric của Load Balancer về các Workspace Monitoring nhằm xem và phân tích log/metric dễ dàng qua giao diện trực quan của Grafana đặc biệt khi cần troubleshoot các sự cố liên quan Để tích hợp Access logs/Metric Load Balancer với FMON, VPC khách hàng cần có sẵn workspace monitor của FMON với quota phù hợp với nhu cầu lưu trữ. Sau đó thực hiện các bước như sau:
 **Bước 1** : Chọn xem chi tiết Load Balancer cần tích hợp > Integration Tại đây sẽ hiển thị danh sách các Monitoring workspace của VPC có thể sử dụng để tích hợp Metric/Logs LB [![file](/img/migrated/image-1767671757981-67c451b9.png)](/img/migrated/image-1767671757981-67c451b9.png)

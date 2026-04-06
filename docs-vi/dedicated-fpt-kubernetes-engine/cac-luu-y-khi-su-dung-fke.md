@@ -6,7 +6,7 @@ sidebar_label: "Các lưu ý khi sử dụng FKE"
 sidebar_position: 29
 ---
 
-# Các lưu ý khi sử dụng DFKE
+# Các lưu ý khi sử dụng FKE
 
 ### 1. Chọn HA Master Nodes
 Để đảm bảo tính sẵn sàng, chọn HA Master Nodes cho các hệ thống quan trọng. Có thể chọn non-HA cho các hệ thống Dev Test.

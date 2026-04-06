@@ -6,7 +6,7 @@ sidebar_position: "13"
 description: "Giới thiệu về tính năng Git webhook trong ArgoCD để phát hiện thay đổi repository"
 ---
 
-# Cấu hình webhook
+# Cau Hinh Webhook
 
 ArgoCD tự động kiểm tra thay đổi trong Git repository mỗi 3 phút. Ngoài ra, ArgoCD hỗ trợ Git webhook notifications từ GitHub, GitLab, Bitbucket, Bitbucket Server và Gogs để phát hiện và đồng bộ thay đổi ngay lập tức khi có commit mới.
 

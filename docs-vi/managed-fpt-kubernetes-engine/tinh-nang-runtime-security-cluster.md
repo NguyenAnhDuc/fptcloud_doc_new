@@ -6,7 +6,7 @@ sidebar_label: "Tính năng Runtime Security cho Managed Kubernetes Cluster"
 sidebar_position: 31
 ---
 
-# Tính năng Runtime Security cluster
+# Tính năng Runtime Security cho Managed Kubernetes Cluster
 
 **1. Giới thiệu chung tính năng Runtime Security**
 Để đảm bảo bảo về an toàn bảo mật thông tin cho FPT Cloud Managed Kubernetes cluster, FPT Cloud phát triển tính năng cho phép tích hợp công cụ hỗ trợ Runtime Security cung cấp khả năng phát hiện các hành động bất thường trong K8S cluster có thể gây rủi ro cho lớp runtime và kernel của worker node.

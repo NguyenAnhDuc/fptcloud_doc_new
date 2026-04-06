@@ -1,12 +1,12 @@
 ---
 id: "delete-k8s-cluster"
-title: "Xoa Kubernetes Cluster"
+title: Xoá Kubernetes Cluster
 description: "Với các **Kubernetes Cluster** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:"
-sidebar_label: "Xoa Kubernetes Cluster"
+sidebar_label: Xoá Kubernetes Cluster
 sidebar_position: 8
 ---
 
-# Xoá Kubernetes cluster
+# Xoá Kubernetes Cluster
 
 Với các **Kubernetes Cluster** không còn nhu cầu sử dụng, bạn có thể xóa theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.

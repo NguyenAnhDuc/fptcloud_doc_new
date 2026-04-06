@@ -138,7 +138,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "sso-single-sign-on/sso-single-sign-on",
-                  label:  "SSO"
+                  label:  "SSO (Single Sign-On)"
                 }
               ]
             }
@@ -333,7 +333,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ choose-the-form-of-PAYG-and-verify-the-phon- number",
-                  label:  "Select PAYG and Verify Phone Number"
+                  label:  "Select PAYG and Verify Your Phone Number"
                 }
               ]
             }
@@ -367,7 +367,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/SSO-qua-FCDClient-cu",
-                      label:  "旧FCDClient経由"
+                      label:  "旧FCDClient経由でSSOログイン"
                     }
                   ]
                 },
@@ -384,12 +384,12 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-moi",
-                      label:  "新しいFCDClient経由（推奨）"
+                      label:  "新しいFCDClient経由でAccount/Passwordログイン"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
-                      label:  "旧FCDClient経由"
+                      label:  "旧FCDClient経由でAccount/Passwordログイン"
                     }
                   ]
                 }
@@ -1364,7 +1364,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal",
-                      label:  "Tutorials Su Dung Object Storage Tren Fpt Portal"
+                      label:  "FPT Portal での Object Storage の使用"
                     },
                     {
                       type:  "doc",
@@ -1396,12 +1396,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-object-storage/tutorials-quan-ly-access-key-cua-object-storage-tren-fpt-portal",
-                  label:  "Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal"
+                  label:  "FPT Portal での Object Storage Access Key の管理"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-object-storage/tutorials-quan-ly-subuser",
-                  label:  "Tutorials Quan Ly Subuser"
+                  label:  "FPT Object Storage の SubUser 管理"
                 },
                 {
                   type:  "doc",
@@ -1443,7 +1443,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-object-storage/phan-quyen-su-dung-bucket-cho-cac-subuser",
-                  label:  "Phan Quyen Su Dung Bucket Cho Cac Subuser"
+                  label:  "SubUser への bucket 使用権限の付与"
                 }
               ]
             },
@@ -1490,12 +1490,12 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "file-storage-high-performance/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
-                      label:  "Baremetal (GPU Server) での利用"
+                      label:  "Baremetal (GPU Server) での File Storage – High Performance の利用"
                     },
                     {
                       type:  "doc",
                       id:  "file-storage-high-performance/Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)",
-                      label:  "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
+                      label:  "Kubernetes (K8S Cluster) で File Storage – High Performance を使用する"
                     }
                   ]
                 },
@@ -1512,7 +1512,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "file-storage-high-performance/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server",
-                      label:  "Baremetal (GPU Server) での利用 (日本)"
+                      label:  "Baremetal (GPU Server) での File Storage – High Performance の利用 (日本リージョン)"
                     }
                   ]
                 }
@@ -2038,7 +2038,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/khoi-tạo-kubernetes-cluster-moi",
-                      label:  "Khoi TạO Kubernetes Cluster Moi"
+                      label:  "Khoi TạO Kubernetes Cluster Moi"
                     },
                     {
                       type:  "doc",
@@ -2467,7 +2467,7 @@ module.exports = {
             },
             {
               type:  "category",
-              label:  "Quản lý Repositories trên FPT Portal",
+              label:  "FPT Portal でのリポジトリ管理",
               collapsed:  true,
               items:  [
                 {
@@ -2605,11 +2605,6 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-container-registry/scan-image-1",
-                  label:  "イメージをスキャンする"
-                },
-                {
-                  type:  "doc",
                   id:  "fpt-container-registry/stop-scan",
                   label:  "スキャンを停止する"
                 },
@@ -2619,10 +2614,6 @@ module.exports = {
                   label:  "スキャン結果を管理する"
                 }
               ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-container-registry/scan-image-1"
             }
           ]
         },
@@ -2773,7 +2764,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version",
-                  label:  "ベストプラクティス: バージョンアップグレード"
+                  label:  "FKE clusterバージョンアップグレードのベストプラクティス"
                 },
                 {
                   type:  "doc",
@@ -2803,70 +2794,6 @@ module.exports = {
                   label:  "よくある質問（FAQ）"
                 }
               ]
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/Initial-Setup"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/xem-danh-sach-kubernetes-cluster-da-tao"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/truy-cap-thong-tin-chi-tiet-cua-cluster"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/lay-thong-tin-truy-cap-cluster"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/xoa-kubernetes-cluster"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/stop-kubernetes-cluster"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/start-kubernetes-cluster"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nodes"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/thay-doi-flavor-cau-hinh-nfs"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nodes"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/tang-storage-size-cua-nfs"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/them-nfs-persistent-storage"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/AutoScale"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/dfke-advanced-firewall"
-            },
-            {
-              type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/backup-and-restore-cluster"
             }
           ]
         }
@@ -3146,7 +3073,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-wapples/x-forwarder-for",
-                      label:  "X-Forwarded-For"
+                      label:  "X-Forwarded-For ヘッダーの設定"
                     },
                     {
                       type:  "doc",
@@ -3400,17 +3327,17 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-va/lay-header",
-                      label:  "6. scan target 作成時の Web Header 取得"
+                      label:  "6. scan target 作成時の Web ページ Header の取得方法"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-va/lay-cookie",
-                      label:  "7. scan target 作成時の Web Cookie 取得"
+                      label:  "7. scan target 作成時の Web ページ Cookie の取得方法"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-va/mo-remote-registry-window",
-                      label:  "8. Windows Remote Registry の有効化（SMB 用）"
+                      label:  "8. SMB を使用するための Windows Remote Registry の有効化"
                     }
                   ]
                 },
@@ -3684,7 +3611,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal",
-              label:  "アカウント作成とログイン"
+              label:  "アカウントの作成と FPT Portal へのログイン"
             },
             {
               type:  "doc",
@@ -3694,17 +3621,17 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/truy-cap-tinh-nang",
-              label:  "機能へのアクセス"
+              label:  "IP アクセス制御機能にアクセスする"
             },
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/quan-li-danh-sach-whitelisted-ip",
-              label:  "ホワイトリストの管理"
+              label:  "ホワイトリスト IP 一覧を管理する"
             },
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/xem-danh-sach-whitelisted-ip",
-              label:  "ホワイトリストの表示"
+              label:  "ホワイトリスト IP 一覧を表示する"
             },
             {
               type:  "doc",
@@ -3719,7 +3646,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/retry-ip",
-              label:  "IP の再試行"
+              label:  "失敗した IP 操作を再試行する"
             },
             {
               type:  "doc",
@@ -3918,7 +3845,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/huong-dan-su-dung-grafana",
-                  label:  "Overview"
+                  label:  "Grafana user guide"
                 },
                 {
                   type:  "doc",
@@ -3933,22 +3860,22 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-template",
-                  label:  "Template の統合"
+                  label:  "Dashboard Template および Alert rule template の統合"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-dashboard-template",
-                  label:  "Dashboard の統合"
+                  label:  "Dashboard Template の統合"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-alert-rule-template",
-                  label:  "Alert Rule の統合"
+                  label:  "Alert Rule Template の統合"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-monitoring-kubernetes",
-                  label:  "Monitoring K8S"
+                  label:  "Monitoring Kubernetes の統合"
                 },
                 {
                   type:  "doc",
@@ -3978,12 +3905,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-monitoring-database",
-                  label:  "Monitoring Database"
+                  label:  "Monitoring Database の統合"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/huong-dan-tich-hop-database",
-                  label:  "Database の統合"
+                  label:  "Database 統合ガイド"
                 },
                 {
                   type:  "doc",
@@ -4008,7 +3935,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/usage",
-                  label:  "使用量の確認"
+                  label:  "Grafana の使用量確認"
                 },
                 {
                   type:  "doc",
@@ -4047,7 +3974,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "cloud-guard/khoi-tao-canh-bao-virtual-machine",
-                      label:  "Virtual Machine のアラートを作成する"
+                      label:  "Virtual Machine (VM) のアラートを作成する"
                     },
                     {
                       type:  "doc",
@@ -4143,12 +4070,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-advisor/cloud-advisor-introduction",
-                  label:  "Cloud Advisor"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-advisor/cloud-advisor-introduction",
-                  label:  "紹介"
+                  label:  "Cloud Advisorの紹介"
                 },
                 {
                   type:  "doc",
@@ -4277,7 +4199,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "incident-management/create-incident-via-webhook",
-              label:  "Incoming webhook経由で作成"
+              label:  "Incoming webhookでインシデントを作成する"
             },
             {
               type:  "doc",
@@ -4341,7 +4263,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-backup-as-a-service/Chi tiết dịch vụ",
-              label:  "Chi TiếT DịCh Vụ"
+              label:  "サービス詳細"
             },
             {
               type:  "category",
@@ -4430,7 +4352,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "backup/xem-lich-su-backup-and-recovery",
-                  label:  "バックアップ＆リカバリー履歴"
+                  label:  "バックアップ＆リカバリー履歴を表示する"
                 },
                 {
                   type:  "doc",
@@ -4457,22 +4379,22 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "backup/toi-duoc-ho-tro-nhung-gi-khi-thue-may-chu-va-dung-dich-vu-backup-tren-fpt-cloud",
-                  label:  "バックアップのサポート内容は？"
+                  label:  "FPT Cloudでサーバーをレンタルしてバックアップサービスを使用する場合、どのようなサポートが受けられますか？"
                 },
                 {
                   type:  "doc",
                   id:  "backup/incremental-backup-la-gi-va-loi-ich-khi-su-dung",
-                  label:  "増分バックアップとは？"
+                  label:  "増分バックアップとは何か、そのメリットは？"
                 },
                 {
                   type:  "doc",
                   id:  "backup/tai-sao-djoi-luc-toi-thay-so-luong-restore-point-tren-he-thong-nhieu-hon-so-luong-lastest-backup-to-keep-dja-khai-bao",
-                  label:  "リストアポイントが設定より多いのはなぜ？"
+                  label:  "設定したLatest Backup to Keepより多くのリストアポイントが表示されるのはなぜですか？"
                 },
                 {
                   type:  "doc",
                   id:  "backup/toi-muon-tim-hieu-ve-backup-fpt-cloud-co-chinh-sach-dung-thu-khong",
-                  label:  "バックアップのトライアルポリシーはありますか？"
+                  label:  "バックアップについて学びたいのですが、FPT Cloudにはトライアルポリシーがありますか？"
                 },
                 {
                   type:  "doc",
@@ -4726,7 +4648,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-jenkins-ci/huong-dan-tao-jobs-tren-jenkins-chay-tren-fpt-cloud-agent",
-                      label:  "FPT Cloud Agent でジョブを作成"
+                      label:  "FPT Cloud Agent を使用した Jenkins ジョブの作成"
                     },
                     {
                       type:  "doc",
@@ -4736,14 +4658,14 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-jenkins-ci/huong-dan-tao-jenkins-pipeline-ci-cd-tich-hop-cac-tinh-nang-tren-portal",
-                      label:  "Jenkins CI/CD パイプラインの作成"
+                      label:  "Portal 連携 Jenkins CI/CD パイプラインの作成"
                     }
                   ]
                 },
                 {
                   type:  "doc",
                   id:  "fpt-jenkins-ci/fpt-jenkins-ci",
-                  label:  "Overview"
+                  label:  "FPT Jenkins CI"
                 }
               ]
             }
@@ -4751,23 +4673,63 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "チュートリアル",
+          label:  "FPT ArgoCD",
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "fpt-argocd/check-service-package-info",
+              label:  "サービスパッケージ情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/create-fpt-argocd",
+              label:  "FPT ArgoCDインスタンスの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/view-argocd-detail",
+              label:  "詳細の確認とログイン"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/add-cluster-to-argocd",
+              label:  "Kubernetesクラスターの接続"
+            },
+            {
               type:  "category",
-              label:  "Cấu hình Image Updater",
+              label:  "Image Updaterの設定",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
                   id:  "fpt-argocd/cau-hinh-image-updater",
-                  label:  "Cau Hinh Image Updater"
+                  label:  "Image Updaterの設定"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/enable-disable-images-updater",
                   label:  "Image Updaterの有効化/無効化"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-log-level",
+                  label:  "ログレベルの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-secrets",
+                  label:  "シークレットの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-registry-secrets",
+                  label:  "レジストリシークレットの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/manage-container-registry",
+                  label:  "コンテナレジストリの管理"
                 }
               ]
             },
@@ -4779,7 +4741,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-argocd/cau-hinh-webhook",
-                  label:  "Cau Hinh Webhook"
+                  label:  "Webhookの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/add-webhook-secret",
+                  label:  "Webhook secretの追加"
                 },
                 {
                   type:  "doc",
@@ -4794,14 +4761,44 @@ module.exports = {
               ]
             },
             {
+              type:  "doc",
+              id:  "fpt-argocd/configure-build-options-kustomize",
+              label:  "Kustomizeビルドオプションの設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-timereconcile",
+              label:  "TimeReconcileの設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-rbac",
+              label:  "RBACポリシーの設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/configure-whitelist-ip",
+              label:  "ホワイトリストIPの設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-argocd/upgrade-service-package",
+              label:  "サービスパッケージのアップグレード"
+            },
+            {
               type:  "category",
-              label:  "Account on ArgoCDの管理",
+              label:  "ArgoCD上のアカウント管理",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
                   id:  "fpt-argocd/quan-ly-account-tren-argocd",
-                  label:  "ArgoCDアカウント管理"
+                  label:  "ArgoCD上のアカウント管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/create-account",
+                  label:  "アカウントの作成"
                 },
                 {
                   type:  "doc",
@@ -4810,14 +4807,29 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-argocd/manage-admin-account",
+                  label:  "Adminアカウントの管理"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-argocd/update-admin-password",
                   label:  "Adminパスワードの更新"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/edit-capabilities",
+                  label:  "Capabilitiesの編集"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/change-password",
+                  label:  "パスワードの変更"
                 }
               ]
             },
             {
               type:  "category",
-              label:  "Manage Admin account, Enable/disable Anonymous User",
+              label:  "Admin/Anonymousユーザー管理",
               collapsed:  true,
               items:  [
                 {
@@ -4845,39 +4857,39 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
-                  label:  "Cau Hinh Oidc Phuc Vu Sso Config"
+                  label:  "SSO用OIDC設定"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-oidc-config",
-                  label:  "OIDC configの設定"
+                  id:  "fpt-argocd/enable-disable-oidc",
+                  label:  "OIDCの有効化/無効化"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/update-oidc-config",
-                  label:  "OIDC configの更新"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/delete-oidc-da-cau-hinh",
-                  label:  "OIDC設定の削除"
+                  label:  "OIDC設定の更新"
                 }
               ]
             },
             {
               type:  "doc",
               id:  "fpt-argocd/enable-applications-set",
-              label:  "ApplicationSetのenable"
+              label:  "ApplicationSetの有効化"
             },
             {
               type:  "category",
-              label:  "Notificationsの設定",
+              label:  "通知の設定",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
                   id:  "fpt-argocd/cau-hinh-notifications",
-                  label:  "Cau Hinh Notifications"
+                  label:  "通知の設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-disable-notifications",
+                  label:  "通知のenable/disable"
                 },
                 {
                   type:  "doc",
@@ -4899,55 +4911,50 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                  label:  "Huong Dan Dang Nhap Vao Argocd"
+                  label:  "ArgoCDへのログイン"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                  label:  "manifestでアプリケーションをデプロイ"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao",
-                  label:  "作成済みwebhook secretを使ったWebhookの設定"
+                  label:  "manifestを使用してアプリケーションをデプロイする"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                  label:  "Kustomizeビルドオプションでデプロイ"
+                  label:  "Kustomizeとビルドオプションを使用してアプリケーションをデプロイする"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                  label:  "Helmチャートリポジトリでデプロイ"
+                  label:  "Helmチャートリポジトリを使用してアプリケーションをデプロイする"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                  label:  "ArgoCD CLIでデプロイ"
+                  label:  "ArgoCD CLIでアプリケーションをデプロイする"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                  label:  "ApplicationSetでデプロイ"
+                  label:  "ApplicationSetを使用してアプリケーションをデプロイする"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                  label:  "通知の設定"
+                  label:  "通知を受け取るためにNotificationsを設定する"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                  label:  "アカウント管理のためにOIDCを統合"
+                  label:  "アカウント管理のためにOIDCを統合する"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                  label:  "ArgoCD Image Updaterを統合"
+                  label:  "ArgoCD Image Updaterを統合する"
                 }
               ]
-            }
+            },
           ]
         }
       ]
@@ -5397,11 +5404,6 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/Manage-Queues",
-              label:  "queue の管理"
-            },
-            {
-              type:  "doc",
               id:  "fpt-message-bus/quan-ly-queues",
               label:  "Quan Ly Queues"
             },
@@ -5449,11 +5451,6 @@ module.exports = {
               type:  "doc",
               id:  "fpt-message-bus/Manage-topics",
               label:  "Manage Topics"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-message-bus/Manage-topics",
-              label:  "topic の管理"
             },
             {
               type:  "doc",
@@ -5689,7 +5686,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "managed-fpt-database-engine/DB-proxy",
-                  label:  "DB proxy"
+                  label:  "DB Proxy"
                 },
                 {
                   type:  "doc",
@@ -6021,7 +6018,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "trellix-customer-guide/setting-agert",
-              label:  "agent インストールパッケージの作成"
+              label:  "agent インストールパッケージの作成と agent のインストール"
             },
             {
               type:  "doc",
@@ -6453,12 +6450,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-appsec/guide-change-status-issue-list",
-                  label:  "Issue listでのIssueステータス変更ガイド"
+                  label:  "Issue list画面でのIssueステータス変更ガイド"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-appsec/guide-change-status-issue-detail",
-                  label:  "Issue detailでのIssueステータス管理ガイド"
+                  label:  "Issue detail画面でのIssueステータス管理ガイド"
                 }
               ]
             },
@@ -6691,7 +6688,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "ai-factory-billing/low-balance-threshold-alert",
-              label:  "低残高アラート"
+              label:  "低残高しきい値アラート"
             },
             {
               type:  "doc",
@@ -7164,7 +7161,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-fine-tuning/fine-tune-the-gemma-3-27B-instruct-model-for-financial-tasks",
-              label:  "Fine Tune The Gemma..."
+              label:  "Fine Tune The Gemma 3 27B Instruct Model For Financial Tasks"
             },
             {
               type:  "doc",
@@ -7540,7 +7537,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-testing-interactive-sessions/model-testing-interactive-sessions",
-              label:  "Model Testing – Interactive..."
+              label:  "Model Testing – Interactive Sessions"
             },
             {
               type:  "doc",
@@ -7712,7 +7709,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-testing-test-jobs/how-to-manage-job",
-              label:  "How To Manage Job"
+              label:  "テストジョブの管理方法"
             },
             {
               type:  "doc",
@@ -7750,6 +7747,37 @@ module.exports = {
               label:  "Faq"
             }
           ]
+        },
+        {
+          type:  "category",
+          label:  "Model Testing",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "model-testing/model-testing"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/definition"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/key-features"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/create-an-interactive-session"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/test-models-response"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/completion-history"
+            }
+          ]
         }
       ]
     },
@@ -7771,7 +7799,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-container/quick-start",
-          label:  "Sign Up for an..."
+          label:  "Sign Up for an Account"
         },
         {
           type:  "doc",
@@ -7856,7 +7884,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-container/vllm-use-cases-gpt-oss",
-          label:  "Vllm Use Cases Gpt..."
+          label:  "Vllm Use Cases Gpt Oss"
         },
         {
           type:  "doc",
@@ -7866,7 +7894,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-container/code-server-use-cases",
-          label:  "Load fine-tuned model and..."
+          label:  "Load fine-tuned model and tokenizer"
         },
         {
           type:  "doc",
@@ -7938,7 +7966,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-virtual-machine-en/GPU-VM -インスタンス-の-作成",
-          label:  "Gpu Vm インスタンス の..."
+          label:  "Gpu Vm  インスタンス の 作成"
         },
         {
           type:  "doc",
@@ -8040,7 +8068,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "managed-gpu-cluster-kubernetes-ja/新-し-い- Managed-GPU -ク-ラ-ス-タ-ー-を-起-動",
-          label:  "新 し い Managed..."
+          label:  "新 し い  Managed Gpu  ク ラ ス タ ー を 起 動"
         },
         {
           type:  "doc",
@@ -8090,7 +8118,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "managed-gpu-cluster-kubernetes-ja/Ollama と Open WebUI を使用した DeepSeek-R1 モデルのデプロイ",
-          label:  "Ollama と Open Webui..."
+          label:  "Ollama と Open Webui を使用した Deepseek R1 モデルのデプロイ"
         }
       ]
     },
@@ -8168,38 +8196,614 @@ module.exports = {
     },
     {
       type:  "category",
-      label:  "Model Testing",
+      label:  "FPT Data Platform",
       collapsed:  true,
       items:  [
         {
           type:  "doc",
-          id:  "model-testing/model-testing",
-          label:  "モデルテスト"
+          id:  "fpt-data-platform/initial-setup/initial-setup",
+          label:  "初期設定"
         },
         {
-          type:  "doc",
-          id:  "model-testing/definition",
-          label:  "モデルテスト"
+          type:  "category",
+          label:  "ワークスペース",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/gioi-thieu-workspace",
+              label:  "Workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/tao-workspace",
+              label:  "Workspaceの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/xem-thong-tin-workspace",
+              label:  "Workspace情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/xoa-workspace",
+              label:  "Workspaceの削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/keystore-management",
+              label:  "Keystore Management"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/certificate-manager",
+              label:  "Certificate Manager"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/monitoring",
+              label:  "Monitoring"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/key-features",
-          label:  "Key Features"
+          type:  "category",
+          label:  "CDCサービス",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/cdc-service",
+              label:  "CDC Service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-cdc-service",
+              label:  "CDC Serviceの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-cdc-service",
+              label:  "CDC Service詳細の表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/postgresql-source-connector",
+              label:  "PostgreSQL Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mongoDB-source-connector",
+              label:  "MongoDB Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/sql-server-source-connector",
+              label:  "SQL Server Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mysql-source-connector",
+              label:  "MySQL Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mariadb-source-connector",
+              label:  "MariaDB Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/oracle-source-connector",
+              label:  "Oracle Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/clickhouse-logs-sink-connector",
+              label:  "ClickHouse (Logs) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mongodb-sink-connector",
+              label:  "MongoDB Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/postgresql-sink-connector",
+              label:  "PostgreSQL Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/opensearch-sink-connector",
+              label:  "OpenSearch Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/sql-server-sink-connector",
+              label:  "SQL Server Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mysql-sink-connector",
+              label:  "MySQL Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mariadb-sink-connector",
+              label:  "MariaDB Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/iceberg-sink-connector",
+              label:  "Iceberg Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/clickhouse-replication-sink-connector",
+              label:  "Clickhouse (Replication) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/s3-sink-connector",
+              label:  "S3 Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/elasticsearch-sink-connector",
+              label:  "Elasticsearch Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/iceberg-logs-sink-connector",
+              label:  "Iceberg (logs) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/redis-sink-connector",
+              label:  "Redis Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-connector-source-kafka",
+              label:  "Create connector source Kafka"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-connector-source-s3",
+              label:  "Create connector source S3"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-connector",
+              label:  "View details connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/hanh-dong-voi-connector",
+              label:  "connector に対するアクション"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xoa-connector",
+              label:  "Delete connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-snapshot",
+              label:  "View details snapshot"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/trang-thai-snapshot",
+              label:  "ステータス Snapshot"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/hanh-dong-voi-snapshot",
+              label:  "Snapshot に対するアクション"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xoa-cdc-service",
+              label:  "CDC Serviceの削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/kafka-mm2",
+              label:  "Kafka MM2"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/create-an-interactive-session",
-          label:  "モデルテストサービスにアクセスし、「インタラクティブセッション」を選択し、「新しいセッションを作成」をクリックします [![file](/img/migrated/image-1746688925988.21.46-ae14f354.png)](/img/migrated/image-1746688925988.21.46-ae14f354.png)"
+          type:  "category",
+          label:  "Apache Superset",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/cai-dat-superset",
+              label:  "Apache Superset"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/tao-superset",
+              label:  "Apache Supersetの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/xem-thong-tin-superset",
+              label:  "Apache Superset情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/xoa-superset",
+              label:  "Apache Supersetの削除"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/test-models-response",
-          label:  "Test Models Response"
+          type:  "category",
+          label:  "JupyterHub",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/jupyterhub-guide",
+              label:  "Jupyterhub"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/tao-Jupyterhub",
+              label:  "JupyterHub の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/xem-thong-tin-juperterhub",
+              label:  "JupyterHub の詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/xoa-jupyterhub",
+              label:  "JupyterHub の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/them-nguoi-dung",
+              label:  "ユーザーの追加"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/tao-profile",
+              label:  "Profile の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/phan-quyen-nguoi-dung-su-dung-profile",
+              label:  "ユーザープロファイルの権限割り当て"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/dbt",
+              label:  "JupyterHubでdbtプロジェクトを実行する"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/completion-history",
-          label:  "Completion History"
+          type:  "category",
+          label:  "Ranger",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/guide-ranger",
+              label:  "Ranger"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/tao-ranger",
+              label:  "Ranger の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/xem-ranger",
+              label:  "Ranger の詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/cau-hinh-va-quan-ly-query-engine",
+              label:  "Query Engine 管理のアクセスと設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/tag-sync",
+              label:  "Tag Sync (OpenMetadata & Ranger Integration)"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/xoa-ranger",
+              label:  "Ranger の削除"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Hive Metastore",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/hive-metastore",
+              label:  "Hive Metastore"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/tao-hive-metastore",
+              label:  "Hive Metastoreの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/xem-thong-tin-hive-metastore",
+              label:  "Hive Metastore情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/xoa-hive-metastore",
+              label:  "Hive Metastoreの削除"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "クエリエンジン",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/query-engine",
+              label:  "Query Engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/tao-query-engine",
+              label:  "Query Engine の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/xem-thong-tin-query-engine",
+              label:  "Query Engine の詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/xoa-query-engine",
+              label:  "Query Engine の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-connectors",
+              label:  "Connectors の管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-users",
+              label:  "Users の管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-Policies",
+              label:  "Policies の管理"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Nessie",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/guide-nessie",
+              label:  "Nessie"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/tao-nessie",
+              label:  "Nessieの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/xem-thong-tin-nessie",
+              label:  "Nessie情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/xoa-nessie",
+              label:  "Nessieの削除"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Flink",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/apache-flink",
+              label:  "Apache Flink"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/tao-apache-flink",
+              label:  "Apache Flinkの作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/xem-thong-tin-apache-flink",
+              label:  "Apache Flink情報の確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/xoa-apache-flink",
+              label:  "Apache Flinkの削除"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "オーケストレーション",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/userguide-airflow",
+              label:  "Orchestration"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/tao-airflow",
+              label:  "Orchestration の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/xem-thong-tin-orchestration",
+              label:  "Orchestration 詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/xoa-orchestration",
+              label:  "Orchestration の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-dbt",
+              label:  "Airflow と dbt ガイド"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-my-workspace",
+              label:  "Airflow & My Workspace ガイド"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-job-submit",
+              label:  "Airflow & Job Submit ガイド"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-secert-backends",
+              label:  "Secret Backends ガイド"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-workflow",
+              label:  "Airflow Workflow ガイド"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "インジェストサービス",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/cai-dat-ingestion-service",
+              label:  "Ingestion service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/tao-ingestion",
+              label:  "Ingestion の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/xem-thong-tin-ingestion",
+              label:  "Ingestion 詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/xoa-ingestion",
+              label:  "Ingestion の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/chinh-sua-ingestion",
+              label:  "Ingestion の編集"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "プロセッシングサービス",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/processing-service",
+              label:  "Processing service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/tao-processing-service",
+              label:  "Processing service の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/xem-thong-tin-processing-service",
+              label:  "Processing service 詳細表示"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/xoa-processing-service",
+              label:  "Processing service の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/quan-ly-compute",
+              label:  "Compute の管理"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/quan-ly-image-cua-compute",
+              label:  "Compute イメージの管理"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Open Metadata",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/open-metadata",
+              label:  "Open Metadata"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/tao-open-metadata-service",
+              label:  "Open Metadata service の作成"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/xem-thong-tin-open-metadata-service",
+              label:  "Open Metadata service の詳細確認"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/cap-nhat-open-metadata",
+              label:  "Open Metadata の更新"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/xoa-open-metadata",
+              label:  "Open Metadata service の削除"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/huong-dan-su-dung-open-metadata",
+              label:  "Open Metadata 利用ガイド"
+            }
+          ]
         }
       ]
     }

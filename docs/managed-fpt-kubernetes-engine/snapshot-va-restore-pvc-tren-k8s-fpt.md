@@ -1,8 +1,8 @@
 ---
 id: "snapshot-va-restore-pvc-tren-k8s-fpt"
-title: "Snapshot and Restore PVC on Kubernetes"
+title: Snapshot and Restore Persistent Volume on Kubernetes
 description: "Overview of the PVC snapshot and restore feature in FPT Cloud Managed Kubernetes."
-sidebar_label: "Snapshot and Restore PVC on Kubernetes"
+sidebar_label: Snapshot and Restore Persistent Volume on Kubernetes
 sidebar_position: "45"
 ---
 

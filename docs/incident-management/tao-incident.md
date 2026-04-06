@@ -1,12 +1,12 @@
 ---
 id: "tao-incident"
-title: "Tao Incident"
-sidebar_label: "Tao Incident"
+title: Create Incident
+sidebar_label: Create Incident
 sidebar_position: "15"
 description: "Tổng quan về các cách tạo incident trong hệ thống"
 ---
 
-# Tạo incident
+# Create Incident
 
 Bạn có thể tạo incident theo hai cách:
 

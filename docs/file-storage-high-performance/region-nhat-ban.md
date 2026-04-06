@@ -1,12 +1,12 @@
 ---
 id: "region-nhat-ban"
-title: "Region Nhat Ban"
-sidebar_label: "Region Nhat Ban"
+title: Japan Region
+sidebar_label: Japan Region
 sidebar_position: "7"
 description: "日本リージョンの File Storage – High Performance 概要。"
 ---
 
-# 日本リージョン
+# Japan Region
 
 日本リージョンの File Storage – High Performance では、Lustre ファイルシステムを使用した高性能ストレージへのアクセスが可能です。
 

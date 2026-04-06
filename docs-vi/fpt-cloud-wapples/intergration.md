@@ -1,12 +1,12 @@
 ---
 id: "intergration"
-title: "Các thông tin cấu hình tích hợp với 3rd party"
+title: Cấu hình tích hợp với 3rd party
 description: "Các thông tin cấu hình tích hợp với 3rd party"
-sidebar_label: "Các thông tin cấu hình tích hợp với 3rd party"
+sidebar_label: Cấu hình tích hợp với 3rd party
 sidebar_position: 41
 ---
 
-# Intergration
+# Cấu hình tích hợp với 3rd party
 
 Các thông tin cấu hình tích hợp với 3rd party
   * SNMP Trap [![file](/img/migrated/image-1714117164466-135b04f1.png)](/img/migrated/image-1714117164466-135b04f1.png)

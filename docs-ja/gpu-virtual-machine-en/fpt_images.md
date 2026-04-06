@@ -6,7 +6,7 @@ sidebar_label: "Fpt Images"
 sidebar_position: "4"
 ---
 
-# Fpt_Images
+# Fpt Images
 
 **FPT Image** is a custom image built by **FPT** that you can use to **get started quickly with any of the GPU VMs available**.  
 This image comes with several components needed for **AI workloads** and selects **Ubuntu** as the **Operating System (OS).**

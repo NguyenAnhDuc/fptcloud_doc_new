@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo và vận hành cơ sở dữ liệu"
 sidebar_position: 19
 ---
 
-# Db Manage Operate
+# Khởi tạo và vận hành cơ sở dữ liệu
 
 Nhóm chức năng **Khởi tạo và vận hành cơ sở dữ liệu** cho phép người dùng khởi tạo, cấu hình, vận hành và xoá các cơ sở dữ liệu trong môi trường FPT Database Engine.
 Các thao tác trong nhóm này áp dụng ở cấp database resource và yêu cầu người dùng được gán các quyền IAM tương ứng.

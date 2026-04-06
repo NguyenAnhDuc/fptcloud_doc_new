@@ -1,8 +1,8 @@
 ---
 id: "Tao-backups-service"
-title: "Tao Backups Service"
+title: Tạo Backup Service
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Backups.**"
-sidebar_label: "Tao Backups Service"
+sidebar_label: Tạo Backup Service
 sidebar_position: 12
 ---
 

@@ -6,7 +6,7 @@ sidebar_label: "Volume の選択"
 sidebar_position: "11"
 ---
 
-# Select Volume
+# Volume の選択
 
 Choosing the right volume type ensures optimal performance and resource allocation during model fine-tuning. 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Volume.png)](https://fptcloud.com/wp-content/uploads/2025/02/Volume.png)

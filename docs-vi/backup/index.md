@@ -6,7 +6,7 @@ sidebar_label: "Sao lưu"
 sidebar_position: 1
 ---
 
-# Backup
+# Sao lưu
 
   * [ ![](/img/migrated/icon-glossary-46e0a6e7.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-0257e14b.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

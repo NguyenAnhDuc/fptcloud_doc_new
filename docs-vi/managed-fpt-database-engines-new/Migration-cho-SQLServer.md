@@ -1,12 +1,12 @@
 ---
 id: "Migration-cho-SQLServer"
-title: "Migration cho SQL Server"
+title: Migration cho SQL Server
 description: "**1. Export Data Tier Application via SSMS tool**"
-sidebar_label: "Migration cho SQL Server"
+sidebar_label: Migration cho SQL Server
 sidebar_position: 46
 ---
 
-# Migration Cho Sqlserver
+# Migration cho SQL Server
 
 **1. Export Data Tier Application via SSMS tool**
 Connect to a SQL instance and expand databases in the object explorer. Right-click on a database in SSMS and you get data-tier application options as shown below.

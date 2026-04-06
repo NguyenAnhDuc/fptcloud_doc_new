@@ -1,12 +1,12 @@
 ---
 id: "connect-fci-aws-virtualgw"
-title: "I. Cấu hình VPN Site-to-Site trên AWS"
+title: Cấu hình VPN Site-to-Site với AWS (Virtual Gateway)
 description: "Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng AWS và OPS trên Unify portal"
-sidebar_label: "I. Cấu hình VPN Site-to-Site trên AWS"
+sidebar_label: Cấu hình VPN Site-to-Site với AWS (Virtual Gateway)
 sidebar_position: 21
 ---
 
-# Connect Fci Aws Virtualgw
+# Cấu hình VPN Site-to-Site với AWS (Virtual Gateway)
 
 Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng AWS và OPS trên Unify portal 
   * [I. Cấu hình VPN Site-to-Site trên AWS](../vpn-site-to-site/index.md)

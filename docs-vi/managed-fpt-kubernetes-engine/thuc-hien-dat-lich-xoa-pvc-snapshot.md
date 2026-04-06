@@ -7,7 +7,7 @@ sidebar_position: 49
 pagination_next: null
 ---
 
-# Thực hiện đặt lịch xoá PVC snapshot
+# Thực hiện đặt lịch xóa Snapshot PVC trên Kubernetes
 
 FPTCloud cung cấp thêm cho khách hàng lựa chọn đặt lịch xóa các Snapshot PVC dựa trên tên PVC, namespace tương ứng, và khoảng thời gian mong muốn xóa, được tính theo giờ (hours), hoặc ngày (days). 
 **Cài đặt lịch Cronjob Cleanup Snapshot PVC**

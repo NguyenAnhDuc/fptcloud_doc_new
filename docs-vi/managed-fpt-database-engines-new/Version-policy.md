@@ -6,7 +6,7 @@ sidebar_label: "Chính sách version"
 sidebar_position: 4
 ---
 
-# Version Policy
+# Chính sách version
 
 FPT Database Engine áp dụng chính sách phiên bản database engine linh hoạt cho các loại cơ sở dữ liệu được cung cấp, nhằm đảm bảo:
   * Hệ thống luôn vận hành trên các phiên bản ổn định và được hỗ trợ.

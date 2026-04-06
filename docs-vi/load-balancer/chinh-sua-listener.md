@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình L7 policy cho Listener"
 sidebar_position: 14
 ---
 
-# Chinh Sua Listener
+# Cấu hình L7 policy cho Listener
 
 **L7 Policies** là các thành phần quan trọng giúp kiểm soát và định tuyến lưu lượng truy cập đến các máy chủ backend. **L7 Policies** tập hợp các **L7 Rule** kết hợp với nhau như một chính sách định tuyến lớp 7 cho các yêu cầu HTTP/HTTPS theo quy tắc chỉ định.**L7 Policies** là bộ quy tắc bao gồm hai thành phần chính:
   * **Điều kiện** : Điều kiện kiểm tra các request đến.

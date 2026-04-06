@@ -6,7 +6,7 @@ sidebar_label: "Introduction to FPT Database Engine"
 sidebar_position: 1
 ---
 
-# Managed – FPT Database Engines
+# Introduction to FPT Database Engine
 
 ## Introduction to FPT Database Engine
 

@@ -6,7 +6,7 @@ sidebar_label: "トラフィック設定"
 sidebar_position: "10"
 ---
 
-# Traffic setting configuration
+# トラフィック設定
 
 [![Alt text](/img/migrated/14-28f62d74.png)](/img/migrated/14-28f62d74.png)  
 | **Information**  | **Description**  | **Available Actions**  |  

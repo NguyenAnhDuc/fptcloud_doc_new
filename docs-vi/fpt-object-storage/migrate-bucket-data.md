@@ -1,12 +1,12 @@
 ---
 id: "migrate-bucket-data"
-title: "tương thích với AWS S3"
+title: Di chuyển dữ liệu giữa các Bucket
 description: "FPT Object Storage được phát triển theo chuẩn **tương thích với AWS S3** , cho phép người dùng dễ dàng **chuyển dữ liệu*"
-sidebar_label: "tương thích với AWS S3"
+sidebar_label: Di chuyển dữ liệu giữa các Bucket
 sidebar_position: 14
 ---
 
-# Migrate Bucket Data
+# Di chuyển dữ liệu giữa các Bucket
 
 FPT Object Storage được phát triển theo chuẩn **tương thích với AWS S3** , cho phép người dùng dễ dàng **chuyển dữ liệu** từ bất kỳ nhà cung cấp Object Storage nào sang hệ thống của FPT một cách nguyên vẹn.
 Tính năng **Migrate Bucket Data** được thiết kế để đơn giản hóa quy trình chuyển dữ liệu. Người dùng chỉ cần khai báo các thông tin cần thiết, hệ thống sẽ tự động thực hiện phần còn lại.

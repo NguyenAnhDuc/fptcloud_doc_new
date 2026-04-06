@@ -6,7 +6,7 @@ sidebar_label: "Floating IP管理"
 sidebar_position: 69
 ---
 
-# Floating IP Management
+# Floating IP管理
 
 A Floating IP holds a public IP address and routes inbound internet traffic to an instance. To make an instance accessible from the internet, you need to attach a Floating IP to it.
 

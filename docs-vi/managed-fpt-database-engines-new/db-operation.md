@@ -6,7 +6,7 @@ sidebar_label: "Vận hành cơ sở dữ liệu"
 sidebar_position: 24
 ---
 
-# Db Operation
+# Vận hành cơ sở dữ liệu
 
 Mục này giúp bạn biết cách vận hành các cơ sở dữ liệu trên FPT Cloud Portal. Bạn có thể thực hiện các thao tác start, stop, restart và delete phù hợp với trạng thái vòng đời của cluster.
 

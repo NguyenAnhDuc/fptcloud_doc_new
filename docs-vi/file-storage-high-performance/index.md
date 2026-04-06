@@ -6,7 +6,7 @@ sidebar_label: "File Storage High Performance"
 sidebar_position: 1
 ---
 
-# File Storage – High Performance
+# File Storage High Performance
 
   * [ ![](/img/migrated/settings-131ed42a.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-b1e86145.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

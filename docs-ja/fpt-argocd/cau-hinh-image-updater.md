@@ -1,12 +1,12 @@
 ---
 id: "cau-hinh-image-updater"
-title: "Cau Hinh Image Updater"
-sidebar_label: "Cau Hinh Image Updater"
+title: "Image Updaterの設定"
+sidebar_label: "Image Updaterの設定"
 sidebar_position: "7"
 description: "Giới thiệu về ArgoCD Image Updater và các thao tác cấu hình hỗ trợ"
 ---
 
-# Cấu hình Image Updater
+# Cau Hinh Image Updater
 
 ArgoCD Image Updater là công cụ tự động cập nhật container image cho các ứng dụng Kubernetes được quản lý bởi ArgoCD.
 

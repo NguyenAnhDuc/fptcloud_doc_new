@@ -1,12 +1,12 @@
 ---
 id: "add-share"
-title: "Mục đích: Chia sẻ model cho User khác không cùng Tenant"
+title: Chia sẻ Model
 description: "Mục đích: Chia sẻ model cho User khác không cùng Tenant"
-sidebar_label: "Mục đích: Chia sẻ model cho User khác không cùng Tenant"
+sidebar_label: Chia sẻ Model
 sidebar_position: 15
 ---
 
-# Add Share
+# Chia sẻ Model
 
 Mục đích: Chia sẻ model cho User khác không cùng Tenant 
 Các bước thực hiện: 

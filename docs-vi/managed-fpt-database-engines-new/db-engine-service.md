@@ -6,7 +6,7 @@ sidebar_label: "Quản lý dịch vụ FPT Database Engine"
 sidebar_position: 16
 ---
 
-# Db Engine Service
+# Quản lý dịch vụ FPT Database Engine
 
 Nhóm chức năng **Quản lý dịch vụ FPT Database Engine** đóng vai trò quan trọng trong việc kiểm soát khả năng sử dụng dịch vụ database trong môi trường FPT Cloud, cho phép quản trị viên kích hoạt (activate) hoặc huỷ kích hoạt (deactivate) dịch vụ FPT Database Engine trong phạm vi VPC. Các thao tác trong nhóm này ảnh hưởng đến toàn bộ khả năng sử dụng database, do đó chỉ nên được cấp cho các vai trò quản trị cấp cao như Tenant Admin hoặc Cloud Platform Admin. Việc phân quyền đúng đối tượng giúp đảm bảo an toàn, ổn định và tuân thủ cho hệ thống DBaaS.
 **Quyền cần thiết:**  

@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình VPN Site-to-Site với Palo Alto"
 sidebar_position: 15
 ---
 
-# Connect Palo Alto
+# Cấu hình VPN Site-to-Site với Palo Alto
 
 **Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud.**
   * [Bước 1: Cấu hình cho VPN Site-to-Site](../vpn-site-to-site/index.md)

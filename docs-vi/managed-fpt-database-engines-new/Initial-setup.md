@@ -1,12 +1,12 @@
 ---
 id: "Initial-setup"
-title: "Yêu cầu thiết lập ban đầu"
+title: Yêu cầu thiết lập ban đầu
 description: "Trước khi sử dụng dịch vụ FPT Database Engine trên FPT Console Portal, người dùng cần đảm bảo các điều kiện sau:"
-sidebar_label: "Yêu cầu thiết lập ban đầu"
+sidebar_label: Yêu cầu thiết lập ban đầu
 sidebar_position: 9
 ---
 
-# Initial Setup
+# Yêu cầu thiết lập ban đầu
 
 Trước khi sử dụng dịch vụ FPT Database Engine trên FPT Console Portal, người dùng cần đảm bảo các điều kiện sau:
   * Đã ký hợp đồng sử dụng dịch vụ và được cấp phát sẵn các tài nguyên sau: 

@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo cơ sở dữ liệu"
 sidebar_position: 21
 ---
 
-# Create Db
+# Khởi tạo cơ sở dữ liệu
 
 Chức năng **Khởi tạo cơ sở dữ liệu** cho phép triển khai nhanh các cơ sở dữ liệu khác nhau trên nền tảng FPT Database Engine mà không cần cấu hình chi tiết hạ tầng vật lý. Việc khởi tạo một cụm cơ sở dữ liệu mới yêu cầu bạn nhập các cấu hình liên quan đến loại engine, network, định danh cluster, và các dịch vụ bổ sung như backup và auto-scaling. Hướng dẫn chi tiết mô tả ngay dưới đây.
 

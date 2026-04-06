@@ -7,7 +7,7 @@ sidebar_position: 26
 pagination_next: null
 ---
 
-# Xoa Ssl Certificate
+# Xoá SSL Certificate
 
 Để xoá **SSL Certificate,** bạn làm theo hướng dẫn sau:
 **Bước 1:** Tại màn hình hiển thị **SSL Certificate,** người dùng nhấn chọn icon thùng rác để xóa **SSL Certificate.**

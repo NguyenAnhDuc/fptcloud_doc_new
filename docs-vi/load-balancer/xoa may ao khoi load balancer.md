@@ -6,7 +6,7 @@ sidebar_label: "Xóa máy ảo khỏi Load Balancer"
 sidebar_position: 30
 ---
 
-# Xoa May Ao Khoi Load Balancer
+# Xóa máy ảo khỏi Load Balancer
 
 Nếu muốn xóa máy ảo khỏi **Load Balancer** bạn thao tác theo hướng dẫn sau:
 **Bước 1** : Truy cập vào trang **Load Balancer details** bằng cách chọn tên **Load Balancer** tương ứng trên bảng quản trị **Load Balancer Management**.

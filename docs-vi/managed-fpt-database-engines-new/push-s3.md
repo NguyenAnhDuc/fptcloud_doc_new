@@ -7,7 +7,7 @@ sidebar_position: 31
 pagination_next: null
 ---
 
-# Push S3
+# Đẩy dữ liệu backup lên S3
 
 Chức năng **Đẩy dữ liệu backup lên S3** cho phép người dùng đẩy các file sao lưu của cơ sở dữ liệu lên kho lưu trữ S3 tương thích, phục vụ các mục đích như lưu trữ dài hạn, sao lưu ngoài hệ thống hoặc tiêu thụ dữ liệu bên ngoài. Tính năng này hữu ích cho kịch bản phục hồi sau thảm họa, kiểm toán hoặc nhân rộng dữ liệu sang hệ thống khác.
 Hiện tại, FPT đang cung cấp tính năng này cho các loại engine: PostgreSQL, MySQL, MariaDB, SQLServer, Redis, MongoDB, TimescaleDB.

@@ -7,7 +7,7 @@ sidebar_position: 43
 pagination_next: null
 ---
 
-# Dịch vụ GPU trên Kubernetes
+# Dịch vụ GPU trên K8s FPT Cloud
 
 FPT Cloud cung cấp Kubernetes sử dụng GPU NVIDIA có các tính năng chính sau: 
   * Cấu hình GPU linh hoạt với loại GPU, bộ nhớ GPU tùy chọn cho từng Worker Group.

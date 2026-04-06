@@ -1,12 +1,12 @@
 ---
 id: "chi-tiet-model"
-title: "Mục đích: Xem chi tiết model"
+title: Chi tiết Model
 description: "Mục đích: Xem chi tiết model"
-sidebar_label: "Mục đích: Xem chi tiết model"
+sidebar_label: Chi tiết Model
 sidebar_position: 5
 ---
 
-# Chi Tiet Model
+# Chi tiết Model
 
 Mục đích: Xem chi tiết model 
 Một model bao gồm các thành phần sau: 

@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn deploy applications qua argocd cli"
 sidebar_position: 48
 ---
 
-# Huong Dan Deploy Applications Qua Argocd Cli
+# Hướng dẫn deploy applications qua argocd cli
 
 **Bước 1:** Đăng nhập vào argocd thông qua cli theo hướng dẫn tại mục 5.8.1 trong Document.
 **Bước 2:** Chuẩn bị file yaml để deploy applications với git repo

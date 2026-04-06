@@ -6,7 +6,7 @@ sidebar_label: "Quản lý Access Key"
 sidebar_position: 9
 ---
 
-# Tutorials Quan Ly Access Key Cua Object Storage Tren Fpt Portal
+# Quản lý Access Key
 
 Cặp Access Key và Private Key là phương thức xác thực cơ bản của dịch vụ FPT Object Storage. Để sử dụng bucket thông qua các phương thức khác Portal như SDK, API, S3 Client. Bạn cần có các thông tin sau:
   * Access Key

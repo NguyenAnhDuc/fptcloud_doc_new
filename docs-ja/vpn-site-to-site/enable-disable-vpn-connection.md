@@ -7,7 +7,7 @@ sidebar_position: "21"
 draft: true
 ---
 
-# Enable/disable VPN connection
+# Enable Disable Vpn Connection
 
 ## Disable a VPN connection
 

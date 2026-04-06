@@ -6,7 +6,7 @@ sidebar_label: "Issue detailでのIssueステータス管理ガイド"
 sidebar_position: 28
 ---
 
-# Issue detailでのIssueステータス管理ガイド
+# Issue detail画面でのIssueステータス管理ガイド
 
 手順1: あるassetのIssue list画面で、いずれかのissueの「Details」をクリックして詳細ページに移動します。
 [![anhfsec](/img/migrated/i6-e0741810.png)](/img/migrated/i6-e0741810.png)

@@ -6,7 +6,7 @@ sidebar_label: "モデルメトリクス"
 sidebar_position: "25"
 ---
 
-# Model Metrics
+# モデルメトリクス
 
 **Notice:** Model metrics are enabled only when the execution pipeline is in the **Running** status and at the **Training** stage.
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Model-metrics-1.png)](https://fptcloud.com/wp-content/uploads/2025/02/Model-metrics-1.png)

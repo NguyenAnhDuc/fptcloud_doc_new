@@ -6,7 +6,7 @@ sidebar_label: "A. Tổng quan"
 sidebar_position: 27
 ---
 
-# Auto Repair nodes
+# A. Tổng quan
 
 **A. Tổng quan**
 Bài viết này sẽ giới thiệu và giải thích về cách hoạt động của tính năng node auto-repair trong sản phẩm D-FKE của FPTCloud.

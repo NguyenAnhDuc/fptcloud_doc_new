@@ -133,7 +133,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "sso-single-sign-on/use-sso",
-                  label:  "Sử dụng SSO"
+                  label:  "Sử dụng tính năng SSO"
                 },
                 {
                   type:  "doc",
@@ -367,7 +367,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/SSO-qua-FCDClient-cu",
-                      label:  "Qua FCDClient cũ (luồng cũ)"
+                      label:  "SSO qua FCDClient cũ (luồng cũ)"
                     }
                   ]
                 },
@@ -384,12 +384,12 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-moi",
-                      label:  "Qua FCDClient mới (khuyên dùng)"
+                      label:  "Account/Password qua FCDClient mới"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
-                      label:  "Qua FCDClient cũ (luồng cũ)"
+                      label:  "Account/Password qua FCDClient cũ (luồng cũ)"
                     }
                   ]
                 }
@@ -1364,7 +1364,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-object-storage/tutorials-su-dung-object-storage-tren-fpt-portal",
-                      label:  "Sử dụng trên FPT Portal"
+                      label:  "Sử dụng Object Storage trên FPT Portal"
                     },
                     {
                       type:  "doc",
@@ -1379,17 +1379,17 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-object-storage/tutorials-permissions",
-                      label:  "Permissions"
+                      label:  "Quản lý permissions"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-object-storage/tutorials-bucket-config",
-                      label:  "A. Tạo Lifecycle Rule mới"
+                      label:  "Hướng dẫn cấu hình Bucket"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-object-storage/tutorials-encryption",
-                      label:  "Cách Hoạt Động Của SSE-C"
+                      label:  "Mã hóa dữ liệu Object Storage (SSE-C)"
                     }
                   ]
                 },
@@ -1401,7 +1401,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-object-storage/tutorials-quan-ly-subuser",
-                  label:  "Quản Lý SubUser Trên..."
+                  label:  "Quản Lý SubUser Trên FPT Object Storage"
                 },
                 {
                   type:  "doc",
@@ -1421,7 +1421,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-object-storage/migrate-bucket-data",
-                  label:  "tương thích với AWS S3"
+                  label:  "Di chuyển dữ liệu giữa các Bucket"
                 }
               ]
             },
@@ -1497,7 +1497,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "file-storage-high-performance/Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)",
-                      label:  "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
+                      label:  "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
                     }
                   ]
                 },
@@ -1509,7 +1509,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "file-storage-high-performance/region-nhat-ban",
-                      label:  "Region Nhat Ban"
+                      label:  "Region Nhật Bản"
                     },
                     {
                       type:  "doc",
@@ -1651,7 +1651,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "vpn-site-to-site/connect-fci-aws-virtualgw",
-                      label:  "I. Cấu hình VPN Site-to-Site trên AWS"
+                      label:  "Cấu hình VPN Site-to-Site với AWS (Virtual Gateway)"
                     },
                     {
                       type:  "doc",
@@ -1779,7 +1779,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "load-balancer/cap-nhat-load-balancer",
-                      label:  "Update Load Balancer"
+                      label:  "Cập nhật Load Balancer"
                     },
                     {
                       type:  "doc",
@@ -1885,7 +1885,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "load-balancer/quan-ly-ssl-certificate",
-                      label:  "Quan Ly Ssl Certificate"
+                      label:  "Quản lý SSL Certificate"
                     },
                     {
                       type:  "doc",
@@ -1977,7 +1977,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "create-vpc/create-vpc-en",
-                  label:  "Tạo VPC"
+                  label:  "Khởi tạo VPC"
                 },
                 {
                   type:  "doc",
@@ -1988,11 +1988,6 @@ module.exports = {
                   type:  "doc",
                   id:  "create-vpc/view-activity-en",
                   label:  "Xem Activity log và trạng thái tác vụ"
-                },
-                {
-                  type:  "doc",
-                  id:  "create-vpc/create-vpc-en",
-                  label:  "Khởi tạo VPC"
                 }
               ]
             }
@@ -2058,7 +2053,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/xoa-kubernetes-cluster",
-                      label:  "Xoa Kubernetes Cluster"
+                      label:  "Xoá Kubernetes Cluster"
                     }
                   ]
                 },
@@ -2090,7 +2085,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/chinh-sua-label-taint-cho-worker-group",
-                      label:  "Chỉnh sửa label/taint cho..."
+                      label:  "Chỉnh sửa label/taint cho worker group"
                     },
                     {
                       type:  "doc",
@@ -2152,7 +2147,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/tu-dong-nang-cap-version",
-                      label:  "Tự động nâng cấp phiên bản"
+                      label:  "Tính năng tự động nâng cấp phiên bản"
                     },
                     {
                       type:  "doc",
@@ -2280,7 +2275,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "managed-fpt-kubernetes-engine/snapshot-và-restore-pvc-trên-k8s-fpt",
-                      label:  "Snapshot và restore PVC"
+                      label:  "Snapshot và restore persistent volume trong Kubernetes"
                     },
                     {
                       type:  "doc",
@@ -2420,7 +2415,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
-                  label:  "Kích hoạt dịch vụ Container Registry"
+                  label:  "Kích hoạt dịch vụ FPT Container Registry"
                 },
                 {
                   type:  "doc",
@@ -2442,7 +2437,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
-                  label:  "Sử dụng Docker CLI"
+                  label:  "Sử dụng Docker CLI với FPT Container Registry"
                 },
                 {
                   type:  "doc",
@@ -2452,12 +2447,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
-                  label:  "Tag và push image"
+                  label:  "Tag và push image lên FPT Container Registry"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
-                  label:  "Pull Docker image về local"
+                  label:  "Pull Docker image từ FPT Container Registry về local"
                 }
               ]
             },
@@ -2469,7 +2464,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
-                  label:  "Quản lý repositories"
+                  label:  "Quản lý repositories trên FPT Portal"
                 },
                 {
                   type:  "doc",
@@ -2479,7 +2474,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
-                  label:  "Xóa image hoặc artifact"
+                  label:  "Xóa image hoặc artifact trong repositories"
                 }
               ]
             },
@@ -2543,7 +2538,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
-                  label:  "Tắt robot account"
+                  label:  "Tắt robot account đang sử dụng"
                 },
                 {
                   type:  "doc",
@@ -2580,7 +2575,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
-                  label:  "Xem chi tiết quota"
+                  label:  "Xem chi tiết quota dịch vụ"
                 },
                 {
                   type:  "doc",
@@ -2607,12 +2602,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/stop-scan",
-                  label:  "Dừng scan"
+                  label:  "Dừng scan image"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
-                  label:  "Quản lý kết quả scan"
+                  label:  "Quản lý kết quả scan image"
                 }
               ]
             }
@@ -2666,17 +2661,17 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/delete-k8s-cluster",
-                      label:  "Xoa Kubernetes Cluster"
+                      label:  "Xoá Kubernetes Cluster"
                     },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/stop-k8s-cluster",
-                      label:  "Bạn có thể tắt các Cluster đang hoạt động theo hướng dẫn sau:"
+                      label:  "Dừng Kubernetes cluster"
                     },
                     {
                       type:  "doc",
                       id:  "dedicated-fpt-kubernetes-engine/start-k8s-cluster",
-                      label:  "Với các Cluster đã tắt trước đó, bạn có thể bật lại theo hướng dẫn sau:"
+                      label:  "Khởi động lại Kubernetes cluster"
                     }
                   ]
                 },
@@ -2740,7 +2735,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/best-practice-manual-scaling",
-                  label:  "Chi tiết quá trình manual scale in của hệ thống:"
+                  label:  "Hướng dẫn manual scaling"
                 },
                 {
                   type:  "doc",
@@ -2755,17 +2750,17 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/advanced-firewall",
-                  label:  "1. Tổng quan sản phẩm Kubenetes tích hợp Firewall"
+                  label:  "Advanced Firewall"
                 },
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/backup-restore-cluster",
-                  label:  "Backup and Restore Cluster"
+                  label:  "Backup và Restore Cluster"
                 },
                 {
                   type:  "doc",
                   id:  "dedicated-fpt-kubernetes-engine/best-practice-upgrade-fke-cluster-version",
-                  label:  "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
+                  label:  "Hướng dẫn upgrade FKE cluster version"
                 },
                 {
                   type:  "doc",
@@ -2879,6 +2874,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "iam/view-list-user-group",
+                      label:  "Xem danh sách User Group"
+                    },
+                    {
+                      type:  "doc",
                       id:  "iam/view-detail-user-group",
                       label:  "Xem chi tiết User Group"
                     },
@@ -2943,6 +2943,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "iam/create-ip-access",
+                      label:  "Khởi tạo record IP access mới"
+                    },
+                    {
+                      type:  "doc",
                       id:  "iam/delete-ip-access",
                       label:  "Xóa record IP access"
                     },
@@ -2958,21 +2963,6 @@ module.exports = {
                     }
                   ]
                 },
-                {
-                  type:  "doc",
-                  id:  "iam/iam",
-                  label:  "Tổng quan"
-                },
-                {
-                  type:  "doc",
-                  id:  "iam/view-list-user-group",
-                  label:  "Xem danh sách User Group"
-                },
-                {
-                  type:  "doc",
-                  id:  "iam/create-ip-access",
-                  label:  "Khởi tạo record IP access mới"
-                }
               ]
             }
           ]
@@ -3098,7 +3088,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-wapples/x-forwarder-for",
-                      label:  "Bao gồm các chức năng"
+                      label:  "Cấu hình X-Forwarded-For Header"
                     },
                     {
                       type:  "doc",
@@ -3164,17 +3154,17 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/backup-restore",
-                  label:  "Backup Restore"
+                  label:  "Backup và Restore"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/intergration",
-                  label:  "Các thông tin cấu hình tích hợp với 3rd party"
+                  label:  "Cấu hình tích hợp với 3rd party"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/network",
-                  label:  "Các phương thức quản trị mạng truy cập inbound và outbound của Wapple"
+                  label:  "Quản trị mạng truy cập"
                 },
                 {
                   type:  "doc",
@@ -3540,7 +3530,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "ddos-protection/monitor-ip",
-                  label:  "Giám sát IP được bảo vệ"
+                  label:  "Giám sát các IP đang được bảo vệ"
                 },
                 {
                   type:  "doc",
@@ -3685,7 +3675,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-monitoring-ip-access-control/quan-li-danh-sach-whitelisted-ip",
-              label:  "Quan Li Danh Sach..."
+              label:  "Quan Li Danh Sach Whitelisted Ip"
             },
             {
               type:  "doc",
@@ -3919,27 +3909,27 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-template",
-                  label:  "Tích hợp Template"
+                  label:  "Tích hợp Dashboard Template và Alert rule template"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-dashboard-template",
-                  label:  "Tích hợp Dashboard"
+                  label:  "Tích hợp Dashboard Template"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-alert-rule-template",
-                  label:  "Tích hợp Alert Rule"
+                  label:  "Tích hợp Alert Rule Template"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-monitoring-kubernetes",
-                  label:  "Monitoring K8S"
+                  label:  "Tích hợp Monitoring Kubernetes"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/huong-dan-tich-hop-k8s",
-                  label:  "Tích hợp K8s"
+                  label:  "Hướng dẫn tích hợp K8s"
                 },
                 {
                   type:  "doc",
@@ -3964,12 +3954,12 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/tich-hop-monitoring-database",
-                  label:  "Monitoring Database"
+                  label:  "Tích hợp Monitoring Database"
                 },
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/huong-dan-tich-hop-database",
-                  label:  "Tích hợp Database"
+                  label:  "Hướng dẫn tích hợp Database"
                 },
                 {
                   type:  "doc",
@@ -3994,7 +3984,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "huong-dan-su-dung-grafana/usage",
-                  label:  "Kiểm tra sử dụng"
+                  label:  "Kiểm tra lượng sử dụng Grafana"
                 },
                 {
                   type:  "doc",
@@ -4129,12 +4119,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-advisor/cloud-advisor-introduction",
-                  label:  "Cloud Advisor"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-advisor/cloud-advisor-introduction",
-                  label:  "Giới thiệu"
+                  label:  "Giới thiệu Cloud Advisor"
                 },
                 {
                   type:  "doc",
@@ -4154,7 +4139,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-advisor/cloud-advisor-fault-tolerance",
-                  label:  "Fault tolerance"
+                  label:  "Các vấn đề fault tolerance"
                 }
               ]
             }
@@ -4737,7 +4722,7 @@ module.exports = {
         },
         {
           type:  "category",
-          label:  "Hướng dẫn chi tiết (Tutorials)",
+          label:  "FPT ArgoCD",
           collapsed:  true,
           items:  [
             {
@@ -4815,7 +4800,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-argocd/Edit-webhook-secret",
-                  label:  "Cập nhật webhook secret"
+                  label:  "Edit Webhook Secret"
                 },
                 {
                   type:  "doc",
@@ -4857,7 +4842,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-argocd/quan-ly-account-tren-argocd",
-                  label:  "Quản lý tài khoản ArgoCD"
+                  label:  "Quản lý tài khoản trên ArgoCD"
                 },
                 {
                   type:  "doc",
@@ -4878,6 +4863,16 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-argocd/update-admin-password",
                   label:  "Cập nhật mật khẩu admin"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/edit-capabilities",
+                  label:  "Chỉnh sửa capabilities"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/change-password",
+                  label:  "Thay đổi mật khẩu"
                 }
               ]
             },
@@ -4920,18 +4915,8 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-oidc-config",
-                  label:  "Cấu hình OIDC config"
-                },
-                {
-                  type:  "doc",
                   id:  "fpt-argocd/update-oidc-config",
                   label:  "Cập nhật cấu hình OIDC"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/delete-oidc-config",
-                  label:  "Xóa cấu hình OIDC"
                 }
               ]
             },
@@ -4984,11 +4969,6 @@ module.exports = {
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-webhook-with-secret",
-                  label:  "Thực hiện cấu hình Webhook với webhook secret đã được tạo"
-                },
-                {
-                  type:  "doc",
                   id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
                   label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
                 },
@@ -5023,7 +5003,7 @@ module.exports = {
                   label:  "Hướng dẫn tích hợp Argo CD Images Updater"
                 }
               ]
-            }
+            },
           ]
         }
       ]
@@ -5108,7 +5088,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-api-management/declaring-information",
-                  label:  "Declaring information on ApiManager"
+                  label:  "Declaring information on ApiManager Application"
                 }
               ]
             }
@@ -5489,11 +5469,6 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-message-bus/Manage-Queues",
-              label:  "Quản lý queues"
-            },
-            {
-              type:  "doc",
               id:  "fpt-message-bus/quan-ly-queues",
               label:  "Quản lý queues"
             },
@@ -5541,11 +5516,6 @@ module.exports = {
               type:  "doc",
               id:  "fpt-message-bus/Manage-topics",
               label:  "Manage Topics"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-message-bus/Manage-topics",
-              label:  "Quản lý topics"
             },
             {
               type:  "doc",
@@ -5781,7 +5751,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "managed-fpt-database-engine/DB-proxy",
-                  label:  "DB Proxy overview"
+                  label:  "DB Proxy"
                 },
                 {
                   type:  "doc",
@@ -6024,12 +5994,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "managed-fpt-database-engines-new/db-proxy",
-              label:  "Quyền cần thiết:"
+              label:  "DB Proxy"
             },
             {
               type:  "doc",
               id:  "managed-fpt-database-engines-new/vertical-scaling",
-              label:  "Quyền cần thiết:"
+              label:  "Vertical Scaling"
             },
             {
               type:  "doc",
@@ -6039,7 +6009,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "managed-fpt-database-engines-new/notification",
-              label:  "1. Cấu hình nhận thông báo từ FPT Database Engine"
+              label:  "Notification"
             },
             {
               type:  "doc",
@@ -6084,7 +6054,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "managed-fpt-database-engines-new/clickhouse-use-ha",
-              label:  "Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm ClickHouse?"
+              label:  "ClickHouse - Sử dụng High Availability (HA)"
             }
           ]
         }
@@ -6113,7 +6083,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "trellix-customer-guide/setting-agert",
-              label:  "Tạo gói cài đặt agent"
+              label:  "Tạo gói cài đặt agent và cài đặt agent"
             },
             {
               type:  "doc",
@@ -6408,12 +6378,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-appsec/aspm_v1.3.0",
-              label:  "1. Mô tả"
+              label:  "ASPM v1.3.0"
             },
             {
               type:  "doc",
               id:  "fpt-appsec/aspm_v1.2.1",
-              label:  "1. Mô tả"
+              label:  "ASPM v1.2.1"
             }
           ]
         },
@@ -6641,7 +6611,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/quan-ly-managed-gpu-cluster",
-                  label:  "Quan Ly Managed Gpu Cluster"
+                  label:  "Quản lý Managed GPU Cluster"
                 },
                 {
                   type:  "doc",
@@ -6651,7 +6621,7 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/xem-danh-sach-managed-gpu-cluster",
-                  label:  "Xem Danh Sach Managed..."
+                  label:  "Xem Danh Sach Managed Gpu Cluster"
                 },
                 {
                   type:  "doc",
@@ -6693,19 +6663,19 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "fpt-managed-gpu-cluster/tinh-nang-chuyen-worker-base-managed-gpu-cluster",
-                  label:  "Tinh Nang Chuyen Worker..."
+                  label:  "Tinh Nang Chuyen Worker Base Managed Gpu Cluster"
                 }
               ]
             },
             {
               type:  "doc",
               id:  "fpt-managed-gpu-cluster/service-load-balancer-managed-gpu-cluster",
-              label:  "Service Load Balancer Managed..."
+              label:  "Service Load Balancer Managed Gpu Cluster"
             },
             {
               type:  "doc",
               id:  "fpt-managed-gpu-cluster/trien-khai-ung-dung-tren-worker-managed-gpu-cluster",
-              label:  "Trien Khai Ung Dung..."
+              label:  "Trien Khai Ung Dung Tren Worker Managed Gpu Cluster"
             },
             {
               type:  "doc",
@@ -6806,7 +6776,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "ai-factory-billing/how-to-create-an-user-token",
-              label:  "How To Create An..."
+              label:  "How To Create An User Token"
             },
             {
               type:  "doc",
@@ -6876,7 +6846,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "ai-factory-billing/billing-faq",
-              label:  "Câu hỏi thường gặp"
+              label:  "Câu hỏi thường gặp về billing"
             }
           ]
         },
@@ -6958,7 +6928,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "ai-notebook/faq",
-              label:  "FAQ"
+              label:  "Câu hỏi thường gặp"
             }
           ]
         },
@@ -7050,7 +7020,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "ai_marketplace/sign-in",
-              label:  "Sign In"
+              label:  "Đăng nhập"
             }
           ]
         },
@@ -7109,7 +7079,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-fine-tuning/what-is-model-fine-tuning",
-              label:  "What Is Model Fine..."
+              label:  "What Is Model Fine Tuning"
             },
             {
               type:  "doc",
@@ -7119,7 +7089,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-fine-tuning/when-to-use-model-fine-tuning",
-              label:  "When To Use Model..."
+              label:  "When To Use Model Fine Tuning"
             },
             {
               type:  "doc",
@@ -7134,7 +7104,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-fine-tuning/sign-up-for-an-account",
-              label:  "Sign Up For An..."
+              label:  "Sign Up For An Account"
             },
             {
               type:  "doc",
@@ -7264,7 +7234,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-fine-tuning/how-to-monitor-and-evaluate",
-              label:  "How To Monitor And..."
+              label:  "How To Monitor And Evaluate"
             },
             {
               type:  "doc",
@@ -7371,7 +7341,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/chi-tiet-model",
-              label:  "Mục đích: Xem chi tiết model"
+              label:  "Chi tiết Model"
             },
             {
               type:  "doc",
@@ -7386,17 +7356,17 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/tao-model",
-              label:  "Mục đích: Thêm mới model vào hệ thống"
+              label:  "Tạo Model"
             },
             {
               type:  "doc",
               id:  "model-hub/sign-up-for-an-account",
-              label:  "Sign Up For An..."
+              label:  "Sign Up For An Account"
             },
             {
               type:  "doc",
               id:  "model-hub/sua-model",
-              label:  "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
+              label:  "Chỉnh sửa Model"
             },
             {
               type:  "doc",
@@ -7406,7 +7376,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/xoa-model",
-              label:  "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
+              label:  "Xoá Model"
             },
             {
               type:  "doc",
@@ -7426,12 +7396,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/update-version",
-              label:  "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
+              label:  "Cập nhật phiên bản"
             },
             {
               type:  "doc",
               id:  "model-hub/delete-version",
-              label:  "Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống"
+              label:  "Xoá phiên bản"
             },
             {
               type:  "doc",
@@ -7446,7 +7416,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/upload-file",
-              label:  "Mục đích: Tải lên bổ sung tệp ở tất cả các định dạng"
+              label:  "Tải lên tệp"
             },
             {
               type:  "doc",
@@ -7461,7 +7431,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/delete-file",
-              label:  "Mục đích: Xoá các tệp tương ứng với version"
+              label:  "Xoá tệp"
             },
             {
               type:  "doc",
@@ -7471,7 +7441,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/add-share",
-              label:  "Mục đích: Chia sẻ model cho User khác không cùng Tenant"
+              label:  "Chia sẻ Model"
             },
             {
               type:  "doc",
@@ -7486,7 +7456,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/share-detail-invited",
-              label:  "Các bước thực hiện:"
+              label:  "Chi tiết chia sẻ (Được mời)"
             },
             {
               type:  "doc",
@@ -7496,7 +7466,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/share-detail-joined",
-              label:  "Các bước thực hiện:"
+              label:  "Chi tiết chia sẻ (Đã tham gia)"
             },
             {
               type:  "doc",
@@ -7506,7 +7476,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/update-share",
-              label:  "Mục đích: Cập nhật quyền của người dùng đã được chia sẻ"
+              label:  "Cập nhật quyền chia sẻ"
             },
             {
               type:  "doc",
@@ -7521,7 +7491,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/clone-model",
-              label:  "Mục đích: Nhân bản 1 model giống với model đã có."
+              label:  "Nhân bản Model"
             },
             {
               type:  "doc",
@@ -7551,12 +7521,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/view-update-organization",
-              label:  "Mục đích: view detail organization"
+              label:  "Xem và cập nhật Organization"
             },
             {
               type:  "doc",
               id:  "model-hub/model-deployment",
-              label:  "Mục đích: Kích hoạt, bỏ kích hoạt chức năng deployment của model"
+              label:  "Triển khai Model"
             },
             {
               type:  "doc",
@@ -7571,7 +7541,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-hub/chi-tiet-model-catalog",
-              label:  "Mục đích: Xem chi tiết model"
+              label:  "Chi tiết Model Catalog"
             },
             {
               type:  "doc",
@@ -7628,7 +7598,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-serving/status-actions-deployment",
-              label:  "Trạng thái và hành động"
+              label:  "Trạng thái và hành động của deployment"
             },
             {
               type:  "doc",
@@ -7757,7 +7727,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-testing-test-jobs/overview",
-              label:  "Model Testing – Test..."
+              label:  "Model Testing – Test Jobs"
             },
             {
               type:  "doc",
@@ -7767,12 +7737,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-testing-test-jobs/when-to-use-model-testing-test-jobs",
-              label:  "Khi nào nên sử dụng Model..."
+              label:  "Khi nào nên sử dụng Model Testing - Test Jobs"
             },
             {
               type:  "doc",
               id:  "model-testing-test-jobs/quick-start",
-              label:  "Model Testing – Test..."
+              label:  "Model Testing – Test Jobs"
             },
             {
               type:  "doc",
@@ -7857,7 +7827,7 @@ module.exports = {
             {
               type:  "doc",
               id:  "model-testing-test-jobs/how-to-evaluate-model",
-              label:  "Model Testing – Test..."
+              label:  "Model Testing – Test Jobs"
             },
             {
               type:  "doc",
@@ -7868,6 +7838,37 @@ module.exports = {
               type:  "doc",
               id:  "model-testing-test-jobs/faq",
               label:  "Câu hỏi thường gặp"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Model Testing",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "model-testing/model-testing"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/definition"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/key-features"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/create-an-interactive-session"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/test-models-response"
+            },
+            {
+              type:  "doc",
+              id:  "model-testing/completion-history"
             }
           ]
         }
@@ -7976,7 +7977,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-container/vllm-use-cases-gpt-oss",
-          label:  "Vllm Use Cases Gpt..."
+          label:  "Vllm Use Cases Gpt Oss"
         },
         {
           type:  "doc",
@@ -7986,7 +7987,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "gpu-container/code-server-use-cases",
-          label:  "Load fine-tuned model and..."
+          label:  "Load fine-tuned model and tokenizer"
         },
         {
           type:  "doc",
@@ -8210,7 +8211,7 @@ module.exports = {
         {
           type:  "doc",
           id:  "managed-gpu-cluster-kubernetes-ja/Ollama と Open WebUI を使用した DeepSeek-R1 モデルのデプロイ",
-          label:  "Triển khai mô hình DeepSeek-R1..."
+          label:  "Triển khai mô hình DeepSeek-R1 bằng Ollama và Open WebUI"
         }
       ]
     },
@@ -8288,38 +8289,614 @@ module.exports = {
     },
     {
       type:  "category",
-      label:  "Model Testing",
+      label:  "FPT Data Platform",
       collapsed:  true,
       items:  [
         {
           type:  "doc",
-          id:  "model-testing/model-testing",
-          label:  "Kiểm thử mô hình"
+          id:  "fpt-data-platform/initial-setup/initial-setup",
+          label:  "Initial Setup"
         },
         {
-          type:  "doc",
-          id:  "model-testing/definition",
-          label:  "Định nghĩa"
+          type:  "category",
+          label:  "Workspace",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/gioi-thieu-workspace",
+              label:  "Workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/tao-workspace",
+              label:  "Tạo workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/xem-thong-tin-workspace",
+              label:  "Xem thông tin workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/xoa-workspace",
+              label:  "Xóa workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/keystore-management",
+              label:  "Keystore Management"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/certificate-manager",
+              label:  "Certificate Manager"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/workspace/monitoring",
+              label:  "Monitoring"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/key-features",
-          label:  "Tính năng chính"
+          type:  "category",
+          label:  "CDC Service",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/cdc-service",
+              label:  "CDC Service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-cdc-service",
+              label:  "Tạo CDC Service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-cdc-service",
+              label:  "Xem thông tin CDC Service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/postgresql-source-connector",
+              label:  "PostgreSQL Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mongoDB-source-connector",
+              label:  "MongoDB Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/sql-server-source-connector",
+              label:  "SQL Server Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mysql-source-connector",
+              label:  "MySQL Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mariadb-source-connector",
+              label:  "MariaDB Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/oracle-source-connector",
+              label:  "Oracle Source Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/clickhouse-logs-sink-connector",
+              label:  "ClickHouse (Logs) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mongodb-sink-connector",
+              label:  "MongoDB Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/postgresql-sink-connector",
+              label:  "PostgreSQL Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/opensearch-sink-connector",
+              label:  "OpenSearch Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/sql-server-sink-connector",
+              label:  "SQL Server Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mysql-sink-connector",
+              label:  "MySQL Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/mariadb-sink-connector",
+              label:  "MariaDB Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/iceberg-sink-connector",
+              label:  "Iceberg Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/clickhouse-replication-sink-connector",
+              label:  "Clickhouse (Replication) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/s3-sink-connector",
+              label:  "S3 Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/elasticsearch-sink-connector",
+              label:  "Elasticsearch Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/iceberg-logs-sink-connector",
+              label:  "Iceberg (logs) Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/redis-sink-connector",
+              label:  "Redis Sink Connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-connector-source-kafka",
+              label:  "Tạo connector source Kafka"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/tao-connector-source-s3",
+              label:  "Tạo connector source S3"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-connector",
+              label:  "Xem thông tin connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/hanh-dong-voi-connector",
+              label:  "Hành động với connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xoa-connector",
+              label:  "Xóa connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xem-thong-tin-snapshot",
+              label:  "Xem thông tin snapshot"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/trang-thai-snapshot",
+              label:  "Trạng thái Snapshot"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/hanh-dong-voi-snapshot",
+              label:  "Hành động với Snapshot"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/xoa-cdc-service",
+              label:  "Xóa CDC Service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/cdc-service/kafka-mm2",
+              label:  "Kafka MM2"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/create-an-interactive-session",
-          label:  "Tạo interactive session"
+          type:  "category",
+          label:  "Apache Superset",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/cai-dat-superset",
+              label:  "Apache Superset"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/tao-superset",
+              label:  "Tạo superset"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/xem-thong-tin-superset",
+              label:  "Xem thông tin superset"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/superset/xoa-superset",
+              label:  "Xóa superset"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/test-models-response",
-          label:  "Kiểm thử phản hồi mô hình"
+          type:  "category",
+          label:  "JupyterHub",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/jupyterhub-guide",
+              label:  "Jupyterhub"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/tao-Jupyterhub",
+              label:  "Tạo Jupyterhub"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/xem-thong-tin-juperterhub",
+              label:  "Xem thông tin JuperterHub"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/xoa-jupyterhub",
+              label:  "Xóa Jupyterhub"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/them-nguoi-dung",
+              label:  "Thêm người dùng"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/tao-profile",
+              label:  "Tạo Profile"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/phan-quyen-nguoi-dung-su-dung-profile",
+              label:  "Phân quyền người dùng sử dụng profile"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/jupyterhub/dbt",
+              label:  "Chạy dbt project trên JupyterHub"
+            }
+          ]
         },
         {
-          type:  "doc",
-          id:  "model-testing/completion-history",
-          label:  "Lịch sử completion"
+          type:  "category",
+          label:  "Ranger",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/guide-ranger",
+              label:  "Ranger"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/tao-ranger",
+              label:  "Tạo Ranger"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/xem-ranger",
+              label:  "Xem thông tin Ranger"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/cau-hinh-va-quan-ly-query-engine",
+              label:  "Truy cập và cấu hình quản lý Query Engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/tag-sync",
+              label:  "Tag Sync (OpenMetadata & Ranger Integration)"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ranger/xoa-ranger",
+              label:  "Xóa Ranger"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Hive Metastore",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/hive-metastore",
+              label:  "Hive Metastore"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/tao-hive-metastore",
+              label:  "Tạo Hive Metastore"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/xem-thong-tin-hive-metastore",
+              label:  "Xem thông tin Hive Metastore"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/hive-metastore/xoa-hive-metastore",
+              label:  "Xóa Hive Metastore"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Query Engine",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/query-engine",
+              label:  "Query Engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/tao-query-engine",
+              label:  "Tạo Query engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/xem-thong-tin-query-engine",
+              label:  "Xem thông tin Query Engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/xoa-query-engine",
+              label:  "Xóa Query Engine"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-connectors",
+              label:  "Quản lý Connectors"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-users",
+              label:  "Quản lý Users"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/query-engine/quan-ly-Policies",
+              label:  "Quản lý Policies"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Nessie",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/guide-nessie",
+              label:  "Nessie"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/tao-nessie",
+              label:  "Tạo Nessie"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/xem-thong-tin-nessie",
+              label:  "Xem thông tin Nessie"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/nessie/xoa-nessie",
+              label:  "Xoá Nessie"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Flink",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/apache-flink",
+              label:  "Apache Flink"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/tao-apache-flink",
+              label:  "Tạo Apache Flink"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/xem-thong-tin-apache-flink",
+              label:  "Xem thông tin Apache Flink"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/flink/xoa-apache-flink",
+              label:  "Xóa Apache Flink"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Orchestration",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/userguide-airflow",
+              label:  "Orchestration"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/tao-airflow",
+              label:  "Tạo Orchestration"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/xem-thong-tin-orchestration",
+              label:  "Xem thông tin Orchestration"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/xoa-orchestration",
+              label:  "Xóa Orchestration"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-dbt",
+              label:  "Hướng dẫn Airflow & dbt"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-my-workspace",
+              label:  "Hướng dẫn Airflow & My Workspace"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-job-submit",
+              label:  "Hướng dẫn Airflow & Job Submit"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-secert-backends",
+              label:  "Hướng dẫn Secret backends"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/orchestration/huong-dan-airflow-workflow",
+              label:  "Hướng dẫn Airflow Workflow"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Ingestion Service",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/cai-dat-ingestion-service",
+              label:  "Ingestion service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/tao-ingestion",
+              label:  "Tạo Ingestion"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/xem-thong-tin-ingestion",
+              label:  "Xem thông tin Ingestion"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/xoa-ingestion",
+              label:  "Xóa Ingestion"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/ingestion/chinh-sua-ingestion",
+              label:  "Chỉnh sửa thông tin Ingestion"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Processing Service",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/processing-service",
+              label:  "Processing service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/tao-processing-service",
+              label:  "Tạo Processing service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/xem-thong-tin-processing-service",
+              label:  "Xem thông tin Processing service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/xoa-processing-service",
+              label:  "Xóa Processing service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/quan-ly-compute",
+              label:  "Quản lý Compute"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/processing/quan-ly-image-cua-compute",
+              label:  "Quản lý Image của Compute"
+            }
+          ]
+        },
+        {
+          type:  "category",
+          label:  "Open Metadata",
+          collapsed:  true,
+          items:  [
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/open-metadata",
+              label:  "Open Metadata"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/tao-open-metadata-service",
+              label:  "Tạo Open Metadata service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/xem-thong-tin-open-metadata-service",
+              label:  "Xem thông tin Open Metadata service"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/cap-nhat-open-metadata",
+              label:  "Cập nhật Open Metadata"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/xoa-open-metadata",
+              label:  "Xóa Open Metadata"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/open-metadata/huong-dan-su-dung-open-metadata",
+              label:  "Hướng dẫn sử dụng Open Metadata"
+            }
+          ]
         }
       ]
     }

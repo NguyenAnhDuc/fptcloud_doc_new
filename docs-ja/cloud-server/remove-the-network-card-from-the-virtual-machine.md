@@ -1,8 +1,8 @@
 ---
 id: "remove-the-network-card-from-the-virtual-machine"
-title: "仮想マシンからのNIC削除"
+title: 仮想マシンからのNIC（ネットワークカード）の削除
 description: "対応するSubnetへの接続が不要になった際に仮想マシンからネットワークカードを削除する方法。"
-sidebar_label: "仮想マシンからのNIC削除"
+sidebar_label: 仮想マシンからのNIC（ネットワークカード）の削除
 sidebar_position: 15
 ---
 

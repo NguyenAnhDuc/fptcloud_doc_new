@@ -6,7 +6,7 @@ sidebar_label: "Các loại Backup"
 sidebar_position: 26
 ---
 
-# Backup Restore
+# Các loại Backup
 
 Tính năng **Backup & Restore** trên FPT Database Engine giúp bảo vệ dữ liệu trước các rủi ro như xoá nhầm, lỗi dữ liệu hoặc sự cố hệ thống. Nền tảng hỗ trợ sao lưu tự động, khôi phục dữ liệu từ các bản sao lưu và khôi phục dữ liệu về một thời điểm cụ thể (Point-in-Time Recovery) đối với một số database engine được hỗ trợ.
 

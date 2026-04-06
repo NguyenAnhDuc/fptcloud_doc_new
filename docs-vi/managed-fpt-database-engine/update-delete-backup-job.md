@@ -1,12 +1,12 @@
 ---
 id: "update-delete-backup-job"
-title: "Update Delete Backup Job"
+title: Cập nhật và xóa Backup Job
 description: "FPT Smart Cloud Database Engine のバックアップジョブのスケジュールを更新または削除する手順。"
-sidebar_label: "Update Delete Backup Job"
+sidebar_label: Cập nhật và xóa Backup Job
 sidebar_position: "13"
 ---
 
-# Update and delete backup jobs
+# Cập nhật và xóa Backup Job
 
 After creating a Full or Diff backup job, you can update or delete the backup job schedule.
 

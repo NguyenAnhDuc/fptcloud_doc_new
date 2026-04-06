@@ -6,7 +6,7 @@ sidebar_position: "15"
 description: "Tổng quan về các cách tạo incident trong hệ thống"
 ---
 
-# Tạo incident
+# Tao Incident
 
 Bạn có thể tạo incident theo hai cách:
 

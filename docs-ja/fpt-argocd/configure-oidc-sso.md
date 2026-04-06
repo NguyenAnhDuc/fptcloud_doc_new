@@ -6,7 +6,7 @@ sidebar_label: "SSO用のOIDC設定"
 sidebar_position: 33
 ---
 
-# Configure OIDC SSO
+# SSO用のOIDC設定
 
 FPT ArgoCD supports configuring OIDC SSO to allow users to authenticate using an external identity provider.
 

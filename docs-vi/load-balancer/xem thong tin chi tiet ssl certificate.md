@@ -7,7 +7,7 @@ sidebar_position: 35
 pagination_next: null
 ---
 
-# Xem Thong Tin Chi Tiet Ssl Certificate
+# Xem thông tin chi tiết SSL Certificate
 
 Bạn có thể xem lại toàn bộ **SSL Certificate** đã tạo trong VPC tại mục **Manage SSL Certificate for Load balancer**.
 [![file](/img/migrated/image-1712808075335-de5bd0cf.png)](/img/migrated/image-1712808075335-de5bd0cf.png)

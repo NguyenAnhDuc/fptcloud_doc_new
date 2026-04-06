@@ -6,7 +6,7 @@ sidebar_label: "Theo dõi biểu đồ giám sát Load Balancer"
 sidebar_position: 6
 ---
 
-# Theo Doi Bieu Do Load Balancer
+# Theo dõi biểu đồ giám sát Load Balancer
 
 Để theo dõi biểu đồ giám sát **Load Balancer** , trong màn hình hiển thị danh sách **Load Balancer** , nhấn chọn **Load Balancer** mà bạn muốn xem biểu đồ.
 Tại tab **Monitor** , người dùng theo dõi trạng thái của **Load Balancer** , có các đồ thị biểu diễn trạng thái của từng **Listener, nhóm Server** theo thời gian thực.

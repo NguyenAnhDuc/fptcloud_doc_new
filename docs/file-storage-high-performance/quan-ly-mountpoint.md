@@ -1,12 +1,12 @@
 ---
 id: "quan-ly-mountpoint"
-title: "Quan Ly Mountpoint"
+title: Manage Mount Point
 description: "Trong hệ thống FPT File Storage – High Performance, Mount Point là một điểm truy cập logic cho phép người dùng kết nối đ"
-sidebar_label: "Quan Ly Mountpoint"
+sidebar_label: Manage Mount Point
 sidebar_position: "4"
 ---
 
-# Quản lý Mount Point
+# Manage Mount Point
 
 ## **1. Tổng quan Mount Point**
 ### **Mount Point là gì?**

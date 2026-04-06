@@ -7,7 +7,7 @@ sidebar_position: 52
 pagination_next: null
 ---
 
-# Cấu hình Proxy Protocol cho Nginx Ingress
+# Cấu hình proxy protocol cho nginx-ingress với Managed Kubernetes cluster
 
 Trong trường hợp người dùng sử dụng dịch vụ Managed Kubernetes của FPT Cloud và có nhu cầu lấy được thông tin IP public của người dùng cuối khi truy cập vào ứng dụng trong Kubernetes thông qua nginx ingress gateway, người dùng có thể cấu hình: 
 . Enable proxy protocol cho service **nginx-ingress-controller** bằng cách thêm annotation loadbalancer.fptcloud.com/proxy-protocol: "true" trong cấu hình của service. 

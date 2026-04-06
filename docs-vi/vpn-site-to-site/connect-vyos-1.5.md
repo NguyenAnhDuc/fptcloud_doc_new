@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình VPN Site-to-Site với Vyos 1.5"
 sidebar_position: 18
 ---
 
-# Connect Vyos 1.5
+# Cấu hình VPN Site-to-Site với Vyos 1.5
 
 Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud. 
   * [Bước 1: Build Vyos1.5 for Cloud](../vpn-site-to-site/index.md)

@@ -6,7 +6,7 @@ sidebar_label: "紹介"
 sidebar_position: 2
 ---
 
-# Introduction to Cloud Advisor
+# Cloud Advisorの紹介
 
 FPT Cloud Advisor is a tool that helps you:
 

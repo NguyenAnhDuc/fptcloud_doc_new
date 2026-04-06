@@ -6,7 +6,7 @@ sidebar_label: "Thêm External member cho Load Balancer"
 sidebar_position: 7
 ---
 
-# Them External Member
+# Thêm External member cho Load Balancer
 
 Tính năng thêm **External member** của Load Balancer cho phép bạn thêm các endpoint bên ngoài vào pool server. Endpoint bên ngoài có thể là một máy chủ, dịch vụ hoặc ứng dụng khác đang chạy trên mạng. Việc thêm **External member** giúp bạn mở rộng khả năng xử lý của Load Balancer, tận dụng các tài nguyên bên ngoài và nâng cao hiệu quả hoạt động của hệ thống. 
 Để thêm **External member** cho Load Balancer, người dùng thao tác theo hướng dẫn sau: 

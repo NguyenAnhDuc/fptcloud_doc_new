@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình Timeout"
 sidebar_position: 13
 ---
 
-# Cau Hinh Timeout
+# Cấu hình Timeout
 
 Tính năng cấu hình **Timeout** cho **Load Balancer** cho phép bạn định rõ thời gian tối đa mà một kết nối hoặc yêu cầu có thể tồn tại trước khi bị đóng. Điều này quan trọng để quản lý tài nguyên và đảm bảo hiệu suất ổn định của hệ thống.
 **Cách hoạt động**

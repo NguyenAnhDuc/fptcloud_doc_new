@@ -6,7 +6,7 @@ sidebar_position: "6"
 description: "Hướng dẫn sử dụng File Storage – High Performance trên Kubernetes cluster."
 ---
 
-# Sử dụng File Storage – High Performance trên Kubernetes (K8S Cluster)
+# Sử dụng File Storage High Performance trên Kubernetes K8S Cluster
 
 Để sử dụng File Storage – High Performance trên Kubernetes cluster, vui lòng liên hệ đội ngũ hỗ trợ hoặc tham khảo hướng dẫn cấu hình mới nhất.
 

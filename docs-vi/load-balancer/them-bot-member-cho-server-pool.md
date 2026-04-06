@@ -6,7 +6,7 @@ sidebar_label: "Thêm/bớt member cho Server pool"
 sidebar_position: 22
 ---
 
-# Them Bot Member Cho Server Pool
+# Thêm/bớt member cho Server pool
 
 **Member** là thành viên trong một nhóm máy chủ **(Server pool)** trên **Load Balancer** , và chúng chịu trách nhiệm phục vụ các yêu cầu từ người dùng hoặc các thiết bị khác thông qua **Load Balancer.**
 **Server pool member** đã được tạo cùng **Load Balancer** khi tạo **Load Balancer.**

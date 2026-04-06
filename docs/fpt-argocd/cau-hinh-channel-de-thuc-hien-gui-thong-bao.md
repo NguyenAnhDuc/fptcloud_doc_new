@@ -1,12 +1,12 @@
 ---
 id: "cau-hinh-channel-de-thuc-hien-gui-thong-bao"
-title: "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
+title: Configure Notification Channel
 description: "ArgoCD通知用にTelegram、Slack、Emailチャンネルを追加・編集・削除する方法。"
-sidebar_label: "Cau Hinh Channel De Thuc Hien Gui Thong Bao"
+sidebar_label: Configure Notification Channel
 sidebar_position: "41"
 ---
 
-# 通知チャンネルの設定
+# Configure Notification Channel
 
 FPT Cloudでは、以下の通知チャンネルの追加・編集が可能です。
 

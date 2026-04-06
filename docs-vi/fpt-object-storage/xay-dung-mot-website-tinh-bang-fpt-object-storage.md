@@ -6,7 +6,7 @@ sidebar_label: "Xây dựng một website tĩnh bằng FPT Object Storage"
 sidebar_position: 16
 ---
 
-# Xay Dung Mot Website Tinh Bang Fpt Object Storage
+# Xây dựng một website tĩnh bằng FPT Object Storage
 
 ## Giới thiệu
 Ngoài chức năng đơn thuần là lưu trữ dữ liệu, **FPT Object Storage** còn hỗ trợ cấu hình bucket thành một web hosting.

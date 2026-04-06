@@ -6,6 +6,6 @@ sidebar_position: "6"
 description: "Hướng dẫn login, tag và push/pull image qua Docker CLI."
 ---
 
-# Sử dụng Docker CLI với FPT Container Registry
+# Huong Dan Su Dung Tren Docker Cli
 
 Phần này hướng dẫn cách thực hiện các thao tác cơ bản với FPT Container Registry thông qua Docker CLI, bao gồm đăng nhập, tag và push/pull image.

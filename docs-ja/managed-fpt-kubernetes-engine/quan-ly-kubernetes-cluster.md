@@ -6,7 +6,7 @@ sidebar_position: "3"
 description: "Tổng quan về các thao tác quản lý Kubernetes cluster trong Managed FPT Kubernetes Engine."
 ---
 
-# Quản lý Kubernetes cluster
+# Quan Ly Kubernetes Cluster
 
 Managed FPT Kubernetes Engine hỗ trợ các thao tác quản lý cluster sau:
 

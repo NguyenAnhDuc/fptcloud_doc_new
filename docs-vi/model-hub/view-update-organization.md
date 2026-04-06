@@ -1,12 +1,12 @@
 ---
 id: "view-update-organization"
-title: "Mục đích: view detail organization"
+title: Xem và cập nhật Organization
 description: "Mục đích: view detail organization"
-sidebar_label: "Mục đích: view detail organization"
+sidebar_label: Xem và cập nhật Organization
 sidebar_position: 23
 ---
 
-# View Update Organization
+# Xem và cập nhật Organization
 
 Mục đích: view detail organization
 Lưu ý: Account phải được share quyền Admin trong IAM portal mới có quyền view organization

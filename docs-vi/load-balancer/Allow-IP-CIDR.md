@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình Allow IP/CIDR"
 sidebar_position: 18
 ---
 
-# Allow Ip Cidr
+# Cấu hình Allow IP/CIDR
 
 **Cách hoạt động**
   * Khi một yêu cầu truy cập đến Load Balancer, hệ thống sẽ kiểm tra địa chỉ IP nguồn của yêu cầu.

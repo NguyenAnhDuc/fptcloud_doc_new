@@ -6,7 +6,7 @@ sidebar_label: "Kết nối cơ sở dữ liệu"
 sidebar_position: 23
 ---
 
-# Db Connect
+# Kết nối cơ sở dữ liệu
 
 Mục này hướng dẫn cách kết nối tới cơ sở dữ liệu được triển khai trên FPT Database Engine thông qua các phương thức kết nối được hỗ trợ và các khuyến nghị vận hành.
 Sau khi tạo cụm cơ sở dữ liệu thành công trên FPT Database Engine, người dùng có thể kết nối bằng các công cụ quản trị, driver ứng dụng, hoặc client tiêu chuẩn. Khả năng kết nối phụ thuộc vào cấu hình mạng, chính sách bảo mật, và thông tin xác thực database.

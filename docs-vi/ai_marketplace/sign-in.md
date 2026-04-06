@@ -1,8 +1,8 @@
 ---
 id: "sign-in"
-title: "Sign In"
+title: Đăng nhập
 description: "Hướng dẫn đăng nhập và tạo tài khoản trên FPT AI Marketplace."
-sidebar_label: "Sign In"
+sidebar_label: Đăng nhập
 sidebar_position: "99"
 ---
 

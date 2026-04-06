@@ -355,7 +355,9 @@ function compareFingerprints(crawled, local, slug, moduleName, moduleBaseline) {
 
   // Apply baseline adjustment: subtract per-module chrome noise from web fingerprint
   const wordBaseline = moduleBaseline || 750;
-  const adjWords = Math.max(0, cf.wordCount - wordBaseline);
+  // Subtract per-module baseline + ~25 words for Previous/Next nav links on every page
+  const NAV_NOISE_WORDS = 25;
+  const adjWords = Math.max(0, cf.wordCount - wordBaseline - NAV_NOISE_WORDS);
   const adjImages = Math.max(0, cf.imageCount - WEB_BASELINE_IMAGES);
   const adjHeadings = filterChromeHeadings(cf.headings, moduleName);
 

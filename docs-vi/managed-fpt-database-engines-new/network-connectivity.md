@@ -6,7 +6,7 @@ sidebar_label: "Kết nối mạng và khả năng truy cập"
 sidebar_position: 7
 ---
 
-# Network Connectivity
+# Kết nối mạng và khả năng truy cập
 
 Mục này mô tả cách ứng dụng kết nối đến database trong môi trường DBaaS, bao gồm endpoint, mô hình truy cập và các cơ chế kiểm soát bảo mật mạng.
 

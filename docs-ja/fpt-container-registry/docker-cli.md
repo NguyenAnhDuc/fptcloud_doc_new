@@ -6,7 +6,7 @@ sidebar_position: "4"
 description: "FPT Container Registry"
 ---
 
-# Docker CLI
+# FPT Container Registry
 
 Use Docker CLI to interact with FPT Container Registry — login, tag, push, and pull images.
 

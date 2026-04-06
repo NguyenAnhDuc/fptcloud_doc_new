@@ -1,12 +1,12 @@
 ---
 id: "thuc-hien-cau-hinh-webhook-voi-webhook-secret-da-duoc-tao"
-title: "Thuc Hien Cau Hinh Webhook Voi Webhook Secret Da Duoc Tao"
+title: Configure Webhook with Webhook Secret
 description: "作成済みのWebhook secretを使用してGitLabのWebhookを設定する方法。"
-sidebar_label: "Thuc Hien Cau Hinh Webhook Voi Webhook Secret Da Duoc Tao"
+sidebar_label: Configure Webhook with Webhook Secret
 sidebar_position: "45"
 ---
 
-# Webhook secretを使用したWebhookの設定
+# Configure Webhook with Webhook Secret
 
 **ステップ1:** GitLabでWebhookを設定する
 

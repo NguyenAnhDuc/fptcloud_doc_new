@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình VPN Site-to-Site với PfSense"
 sidebar_position: 16
 ---
 
-# Connect Pfsense
+# Cấu hình VPN Site-to-Site với PfSense
 
 **Bài viết này hướng dẫn cách build thiết bị Pfsense** để kết nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud.
   * [Bước 1: Build Pfsense for Cloud](../vpn-site-to-site/index.md)

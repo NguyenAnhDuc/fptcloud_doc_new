@@ -6,7 +6,7 @@ sidebar_position: "3"
 description: "FPT Cloud PortalでVault Instanceを新規作成する方法"
 ---
 
-# Vault Instanceを作成する
+# Create Vault Instance
 
 Vault Instanceは、すべてのSecret Engine、Secret、セキュリティ設定を格納するFPT Key Vaultの基本単位です。Secret管理操作を行う前にVault Instanceを作成してください。
 

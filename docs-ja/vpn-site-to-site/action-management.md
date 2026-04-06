@@ -6,7 +6,7 @@ sidebar_label: "VPN Connectionの管理"
 sidebar_position: "25"
 ---
 
-# VPN Site-to-Site
+# VPN Connectionの管理
 
   * [ ![](/img/migrated/360_F_556902040_mNrTEGg5i4S83J9C5mvYwWKD-c401176e.jpg) Overviews ](javascript: "Overviews")
   * [ ![](/img/migrated/initial-setup-714537aa.png) Initial Setup ](javascript: "Initial Setup")

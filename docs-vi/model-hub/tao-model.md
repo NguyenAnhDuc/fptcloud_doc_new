@@ -1,12 +1,12 @@
 ---
 id: "tao-model"
-title: "Mục đích: Thêm mới model vào hệ thống"
+title: Tạo Model
 description: "Mục đích: Thêm mới model vào hệ thống"
-sidebar_label: "Mục đích: Thêm mới model vào hệ thống"
+sidebar_label: Tạo Model
 sidebar_position: 6
 ---
 
-# Tao Model
+# Tạo Model
 
 Mục đích: Thêm mới model vào hệ thống 
 Để tạo mới 1 model, bạn thao tác như sau: Bước 1: Tại màn hình dịch vụ Model Hub, click button Create đi đến màn tạo mới  

@@ -1,12 +1,12 @@
 ---
 id: "Quan-ly-Backups"
-title: "Quan Ly Backups"
-sidebar_label: "Quan Ly Backups"
+title: Manage Backups
+sidebar_label: Manage Backups
 sidebar_position: "11"
 description: "Tổng quan về quản lý backup cho FPT Smart Cloud Database Engine."
 ---
 
-# Quản lý backup
+# Manage Backups
 
 Phần này hướng dẫn các thao tác quản lý backup cho Database Engine.
 

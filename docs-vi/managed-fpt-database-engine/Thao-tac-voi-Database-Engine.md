@@ -1,8 +1,8 @@
 ---
 id: "Thao-tac-voi-Database-Engine"
-title: "Thao tac voi Database Engine"
+title: Thao tác với Database Engine
 description: "**Bước 1:** Xem danh sách database cluster"
-sidebar_label: "Thao tac voi Database Engine"
+sidebar_label: Thao tác với Database Engine
 sidebar_position: 10
 ---
 

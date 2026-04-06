@@ -1,8 +1,8 @@
 ---
 id: "Cap-nhat-va-xoa-Backup-Service"
-title: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
+title: Cập nhật và xóa Backup Service
 description: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
-sidebar_label: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
+sidebar_label: Cập nhật và xóa Backup Service
 sidebar_position: 14
 ---
 

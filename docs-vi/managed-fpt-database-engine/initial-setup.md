@@ -1,8 +1,8 @@
 ---
 id: "initial-setup"
-title: "Initial Setup"
+title: Cài đặt ban đầu
 description: "Các bước cài đặt ban đầu trước khi sử dụng FPT Smart Cloud Database Engine lần đầu tiên."
-sidebar_label: "Initial Setup"
+sidebar_label: Cài đặt ban đầu
 sidebar_position: "2"
 ---
 

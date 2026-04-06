@@ -6,7 +6,7 @@ sidebar_label: "Sử dụng File Storage - High Performance trên Baremetal (GPU
 sidebar_position: 5
 ---
 
-# Create Mount Point
+# Sử dụng File Storage - High Performance trên Baremetal (GPU Server)
 
 ## **1. Tổng quan**
 Sau khi request cấp phát dịch vụ được chấp nhận, bạn sẽ nhận được các thông tin để sử dụng File Storage trên Baremetal.

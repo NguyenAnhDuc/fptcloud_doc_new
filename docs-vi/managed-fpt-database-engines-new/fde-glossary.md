@@ -6,7 +6,7 @@ sidebar_label: "Thuật ngữ chung về Cloud & DBaaS"
 sidebar_position: 2
 ---
 
-# Fde Glossary
+# Thuật ngữ chung về Cloud & DBaaS
 
 Mục này cung cấp các định nghĩa và giải thích rõ ràng về các thuật ngữ và khái niệm chính thường được sử dụng trong nền tảng FPT Database Engine. Dù bạn là người mới bắt đầu hay đã có kinh nghiệm, việc hiểu rõ các thuật ngữ này sẽ giúp bạn tận dụng tối đa các tính năng và khả năng mà dịch vụ của chúng tôi mang lại.
 

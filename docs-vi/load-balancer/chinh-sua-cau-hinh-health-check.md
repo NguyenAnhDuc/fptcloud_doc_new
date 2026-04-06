@@ -7,7 +7,7 @@ sidebar_position: 23
 pagination_next: null
 ---
 
-# Chinh Sua Cau Hinh Health Check
+# Chỉnh sửa cấu hình Health check
 
 **Health check** (kiểm tra sức khỏe) là một tính năng quan trọng của **Load Balancer** được sử dụng để đảm bảo tính khả dụng và hiệu suất của các máy chủ. **Health check** cho phép **Load Balancer** phát hiện máy chủ hoặc dịch vụ nào đang hoạt động cùng với việc tự động loại bỏ các máy chủ hoặc dịch vụ không khả dụng khỏi **Load Balancer.**
 **Cách thức hoạt động:**

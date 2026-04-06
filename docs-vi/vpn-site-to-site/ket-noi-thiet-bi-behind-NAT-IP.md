@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn kết nối thiết bị Behind NAT IP"
 sidebar_position: 31
 ---
 
-# Ket Noi Thiet Bi Behind Nat Ip
+# Hướng dẫn kết nối thiết bị Behind NAT IP
 
 **NAT IP (Network Address Translation) là gì?**
 NAT (Network Address Translation) IP là cơ chế dịch địa chỉ IP, nó nằm trên router hoặc firewall, dùng để biến đổi địa chỉ IP private trong mạng nội bộ thành IP public khi ra Internet, và ngược lại. 

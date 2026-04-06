@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn tạo Customer gateway"
 sidebar_position: 32
 ---
 
-# Create Customergw
+# Hướng dẫn tạo Customer gateway
 
 **Bước 1:** Tại màn hình hiển thị danh sách **Customer gateway,** chọn **Create Customer gateway** để thực hiện tạo**.** [![file](/img/migrated/image-1744270078693-640aad37.png)](/img/migrated/image-1744270078693-640aad37.png)
 **Bước 2: Người dùng nhập các thông tin sau:**  

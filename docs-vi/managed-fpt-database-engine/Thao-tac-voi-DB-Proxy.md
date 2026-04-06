@@ -1,8 +1,8 @@
 ---
 id: "manage-db-proxy"
-title: "Thao tac voi db Proxy"
+title: Thao tác với DB Proxy
 description: "**Bước 1:** Xem danh sách DB Proxy"
-sidebar_label: "Thao tac voi db Proxy"
+sidebar_label: Thao tác với DB Proxy
 sidebar_position: 22
 pagination_next: null
 ---

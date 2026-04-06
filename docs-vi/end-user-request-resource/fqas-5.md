@@ -7,7 +7,7 @@ sidebar_position: 9
 pagination_next: null
 ---
 
-# Fqas 5
+# Vì sao tôi không thể chọn submit để gửi ticket?
 
 Bạn hãy kiểm tra các thông tin sau: 
   * Các trường thông tin Title, Request type phải được điền đầy đủ. 

@@ -1,12 +1,12 @@
 ---
 id: "Cap-nhat-va-xoa-Backup-Service"
-title: "Cap Nhat Va Xoa Backup Service"
+title: Update and Delete Backup Service
 description: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
-sidebar_label: "Cap Nhat Va Xoa Backup Service"
+sidebar_label: Update and Delete Backup Service
 sidebar_position: "14"
 ---
 
-# Cập nhật và xóa Backup Service
+# Update and Delete Backup Service
 
 Trường hợp quý khách muốn cập nhật hoặc xóa Backup service.
 **Lưu ý:** Delete backup service sẽ ngay tập tức ngừng 2 job backup đang có cho tới khi được enable trở lại.

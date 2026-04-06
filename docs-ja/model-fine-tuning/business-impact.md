@@ -6,7 +6,7 @@ sidebar_label: "ビジネスへの影響"
 sidebar_position: "34"
 ---
 
-# Business Impact
+# ビジネスへの影響
 
 * **Infrastructure Efficiency:** By leveraging the FPT AI Factory platform, JAIST completely eliminated the overhead of managing a complex, large-scale GPU infrastructure. This allowed their team of researchers to dedicate their time and expertise to model development and core research challenges rather than MLOps and job orchestration.
   * **Accelerated Research & Development:** The powerful, scalable infrastructure and streamlined workflow provided by FPT AI Studio enabled JAIST to rapidly iterate through experiments. The ability to systematically test hundreds of data combinations and execute multi-stage pre-training on hundreds of billions of tokens significantly accelerated their path to developing a high-performing Japanese LLM.

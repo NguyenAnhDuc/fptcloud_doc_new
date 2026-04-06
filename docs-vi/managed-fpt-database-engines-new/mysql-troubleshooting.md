@@ -6,7 +6,7 @@ sidebar_label: "Danh mục lỗi"
 sidebar_position: 45
 ---
 
-# Mysql Troubleshooting
+# Danh mục lỗi
 
 ## Giới thiệu
 Trang **MySQL Troubleshooting** cung cấp hướng dẫn nhanh giúp bạn xác định và xử lý các lỗi thường gặp khi sử dụng dịch vụ MySQL trên FPT Cloud. Nội dung tập trung vào những vấn đề phổ biến như lỗi kết nối, lỗi cấu hình, sự cố hiệu năng, lỗi backup/restore và các tình huống đặc thù của MySQL.

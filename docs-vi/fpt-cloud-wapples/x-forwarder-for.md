@@ -1,12 +1,12 @@
 ---
 id: "x-forwarder-for"
-title: "Bao gồm các chức năng"
+title: Cấu hình X-Forwarded-For Header
 description: "Bao gồm các chức năng"
-sidebar_label: "Bao gồm các chức năng"
+sidebar_label: Cấu hình X-Forwarded-For Header
 sidebar_position: 19
 ---
 
-# X Forwarder For
+# Cấu hình X-Forwarded-For Header
 
 Bao gồm các chức năng
   * Block X-Forwarded-For IP: thực hiện block các ip không có X-Forwarded-For header

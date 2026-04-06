@@ -6,7 +6,7 @@ sidebar_label: "クラスター一覧の表示"
 sidebar_position: 5
 ---
 
-# 作成済み Kubernetes クラスターの一覧表示
+# 作成済みKubernetes クラスターの一覧表示
 
 **Kubernetes Management** ページで作成済みの Kubernetes クラスターの一覧を確認・管理できます。
 

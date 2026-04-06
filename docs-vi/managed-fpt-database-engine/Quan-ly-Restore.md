@@ -1,8 +1,8 @@
 ---
 id: "manage-restore"
-title: "1 Tạo Restore Point"
+title: Quản lý Restore
 description: "**1 Tạo Restore Point**"
-sidebar_label: "1 Tạo Restore Point"
+sidebar_label: Quản lý Restore
 sidebar_position: 15
 ---
 

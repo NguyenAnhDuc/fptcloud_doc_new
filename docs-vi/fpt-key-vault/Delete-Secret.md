@@ -6,7 +6,7 @@ sidebar_position: "10"
 description: "使用しなくなった、または期限切れのSecretを削除する方法"
 ---
 
-# Secretを削除する
+# Delete Secret
 
 不要になった機密情報や有効期限が切れたSecretを削除します。VaultをクリーンかつセキュアにするためにSecretを管理してください。
 

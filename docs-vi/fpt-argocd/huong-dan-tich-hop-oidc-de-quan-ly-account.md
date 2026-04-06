@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn tích hợp OIDC để quản lý account trên A
 sidebar_position: 51
 ---
 
-# Huong Dan Tich Hop Oidc De Quan Ly Account
+# Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD
 
 Trong phần này sẽ hướng dẫn người dùng tích hợp KeyCloak với ArgoCD để xác thực người dùng ứng dụng. Cần tạo một client trong KeyCloak và cấu hình ArgoCD sử dụng KeyCloak trong việc xác thực, sử dụng các nhóm được cấu hình trong KeyCloak để xác định các quyền user được sử dụng trong ArgoCD.
 **Bước 1** : Tạo một Client trong KeyCloak

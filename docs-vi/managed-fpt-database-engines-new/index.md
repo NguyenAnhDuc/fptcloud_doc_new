@@ -6,7 +6,7 @@ sidebar_label: "Giới thiệu về FPT Database Engine"
 sidebar_position: 1
 ---
 
-# Managed – FPT Database Engines
+# Giới thiệu về FPT Database Engine
 
   * [ ![](/img/migrated/917117-2dbd42e3.png) Glossary ](javascript: "Glossary")
   * [ ![](/img/migrated/4996664-200-fdb9153b.png) Concepts ](javascript: "Concepts")

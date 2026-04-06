@@ -7,7 +7,7 @@ sidebar_position: 81
 pagination_next: null
 ---
 
-# Delete an Instance Group
+# Instance Groupの削除
 
 Delete an Instance Group when it is no longer required.
 

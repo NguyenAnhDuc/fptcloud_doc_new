@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Kubernetes Cluster mới"
 sidebar_position: 4
 ---
 
-# Khoi TạO Kubernetes Cluster Moi
+# Khởi tạo Kubernetes Cluster mới
 
 **Lưu ý:** Một số điều kiện bắt buộc để thực hiện thao tác này:
   * Quota CPU, RAM, Storage, Instance phải đủ cho cấu hình mong muốn của Cluster.

@@ -1,0 +1,1715 @@
+[
+  {
+    "module": "affinity-anti-affinity",
+    "total_pages": 5,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 5,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "ai-factory-billing",
+    "total_pages": 19,
+    "vi": 19,
+    "en": 19,
+    "ja": 19,
+    "full_3lang": 19,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "ai-notebook",
+    "total_pages": 16,
+    "vi": 15,
+    "en": 15,
+    "ja": 15,
+    "full_3lang": 14,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "ai-notebook"
+    ]
+  },
+  {
+    "module": "ai_marketplace",
+    "total_pages": 24,
+    "vi": 17,
+    "en": 17,
+    "ja": 17,
+    "full_3lang": 10,
+    "missing_en": [],
+    "missing_ja": [
+      "balance",
+      "contact-us",
+      "home-page",
+      "my-account",
+      "overview",
+      "product-information",
+      "sign-in"
+    ],
+    "missing_vi": [
+      "AI マーケットプレイス",
+      "お問い合わせ",
+      "サインイン",
+      "ホームページ",
+      "マイアカウント",
+      "残高",
+      "製品情報"
+    ]
+  },
+  {
+    "module": "allow-address-pair",
+    "total_pages": 8,
+    "vi": 7,
+    "en": 7,
+    "ja": 7,
+    "full_3lang": 6,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "allow-address-pair"
+    ]
+  },
+  {
+    "module": "auto-schedule-to-on-off-instance",
+    "total_pages": 9,
+    "vi": 9,
+    "en": 9,
+    "ja": 9,
+    "full_3lang": 9,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "backup",
+    "total_pages": 13,
+    "vi": 13,
+    "en": 13,
+    "ja": 13,
+    "full_3lang": 13,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "billing",
+    "total_pages": 9,
+    "vi": 9,
+    "en": 9,
+    "ja": 9,
+    "full_3lang": 9,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "budget-alert",
+    "total_pages": 20,
+    "vi": 7,
+    "en": 7,
+    "ja": 7,
+    "full_3lang": 0,
+    "missing_en": [
+      "Chỉnh sửa Budget Alert",
+      "Cài đặt ngăn chặn tạo resource Compute-Network mới khi đã đạt ngưỡng ngân sách",
+      "Khởi tạo Bugdet Alert",
+      "Tạm dừng cảnh báo của 1 Budget Alert",
+      "Xem thông tin cost và lịch sử cảnh báo",
+      "Xóa Budget Alert"
+    ],
+    "missing_ja": [
+      "Chỉnh sửa Budget Alert",
+      "Cài đặt ngăn chặn tạo resource Compute-Network mới khi đã đạt ngưỡng ngân sách",
+      "Khởi tạo Bugdet Alert",
+      "Tạm dừng cảnh báo của 1 Budget Alert",
+      "Xem thông tin cost và lịch sử cảnh báo",
+      "Xóa Budget Alert",
+      "index"
+    ],
+    "missing_vi": [
+      "budget-alert",
+      "delete-budget-alert",
+      "edit-budget-alert",
+      "initiating-a-budget-alert",
+      "pause-budget-alert",
+      "setting-budget-alert",
+      "view-cost-information",
+      "コスト情報とアラート履歴の確認_2",
+      "予算しきい値に達した後の新規コンピューティング／ネットワークリソースの作成制限_6",
+      "予算アラートの作成_1",
+      "予算アラートの削除_5",
+      "予算アラートの無効化_3",
+      "予算アラートの編集_4"
+    ]
+  },
+  {
+    "module": "change-network-config",
+    "total_pages": 5,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 5,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "checkpoint-fpt-ngfw",
+    "total_pages": 17,
+    "vi": 16,
+    "en": 16,
+    "ja": 16,
+    "full_3lang": 15,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "checkpoint-fpt-ngfw"
+    ]
+  },
+  {
+    "module": "cloud-advisor",
+    "total_pages": 6,
+    "vi": 6,
+    "en": 6,
+    "ja": 6,
+    "full_3lang": 6,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "cloud-guard",
+    "total_pages": 18,
+    "vi": 18,
+    "en": 18,
+    "ja": 18,
+    "full_3lang": 18,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "cost-explorer",
+    "total_pages": 13,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 0,
+    "missing_en": [
+      "cost-explorer-dimension-resource-type",
+      "cost-explorer-dimension-service",
+      "fqas-2",
+      "question-1"
+    ],
+    "missing_ja": [
+      "cost-explorer-dimension-resource-type",
+      "cost-explorer-dimension-service",
+      "fqas-2",
+      "index",
+      "question-1"
+    ],
+    "missing_vi": [
+      "View-dashboards-and-specific-costs-by-service",
+      "Why-cant-I-watch-Cost-Explore",
+      "cost-explorer",
+      "customer-filter",
+      "questions-2",
+      "サービス別のダッシュボード＆コストの確認_1",
+      "フィルタをカスタマイズして期間／リソース グループ別のコストを確認_2",
+      "質問-2"
+    ]
+  },
+  {
+    "module": "create-vpc",
+    "total_pages": 12,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 0,
+    "missing_en": [
+      "activitylog-bell",
+      "create-vpc",
+      "rename-vpc"
+    ],
+    "missing_ja": [
+      "activitylog-bell",
+      "create-vpc",
+      "index",
+      "initial-setup",
+      "rename-vpc"
+    ],
+    "missing_vi": [
+      "VPC の作成_1",
+      "create-vpc-en",
+      "rename-vpc-en",
+      "view-activity-en",
+      "アクティビティログの表示_2",
+      "アクティビティログ＆直近タスクステータスの記録_3",
+      "初期設定_1"
+    ]
+  },
+  {
+    "module": "data-hub",
+    "total_pages": 4,
+    "vi": 4,
+    "en": 4,
+    "ja": 4,
+    "full_3lang": 4,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "ddos-protection",
+    "total_pages": 4,
+    "vi": 4,
+    "en": 4,
+    "ja": 4,
+    "full_3lang": 4,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "dedicated-fpt-kubernetes-engine",
+    "total_pages": 55,
+    "vi": 38,
+    "en": 54,
+    "ja": 38,
+    "full_3lang": 21,
+    "missing_en": [],
+    "missing_ja": [
+      "AutoScale",
+      "Initial-Setup",
+      "backup-and-restore-cluster",
+      "dfke-advanced-firewall",
+      "khoi-tao-kubernetes-cluster-moi",
+      "lay-thong-tin-truy-cap-cluster",
+      "nang-cap-k8s-version",
+      "start-kubernetes-cluster",
+      "stop-kubernetes-cluster",
+      "tang-storage-size-cua-nfs",
+      "tang-storage-size-cua-nodes",
+      "thay-doi-flavor-cau-hinh-nfs",
+      "thay-doi-flavor-cau-hinh-nodes",
+      "them-nfs-persistent-storage",
+      "truy-cap-thong-tin-chi-tiet-cua-cluster",
+      "xem-danh-sach-kubernetes-cluster-da-tao",
+      "xoa-kubernetes-cluster"
+    ],
+    "missing_vi": [
+      "access-clusters-detail-information",
+      "add-nfs-storage",
+      "advanced-firewall",
+      "auto-scale",
+      "backup-restore-cluster",
+      "change-nfs-server-configuration",
+      "change-nodes-configuration",
+      "create-new-k8s-cluster",
+      "delete-k8s-cluster",
+      "get-cluster-access-information",
+      "increase-storage-size-of-nfs-server",
+      "increase-storage-size-of-nodes",
+      "initial-setup",
+      "list-created-clusters",
+      "start-k8s-cluster",
+      "stop-k8s-cluster",
+      "upgrade-k8s-version"
+    ]
+  },
+  {
+    "module": "end-user-request-resource",
+    "total_pages": 10,
+    "vi": 9,
+    "en": 9,
+    "ja": 9,
+    "full_3lang": 8,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "end-user-request-resource"
+    ]
+  },
+  {
+    "module": "file-storage-high-performance",
+    "total_pages": 16,
+    "vi": 15,
+    "en": 15,
+    "ja": 15,
+    "full_3lang": 14,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "file-storage-high-performance"
+    ]
+  },
+  {
+    "module": "fortigate-fpt-ngfw",
+    "total_pages": 11,
+    "vi": 11,
+    "en": 11,
+    "ja": 11,
+    "full_3lang": 11,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "fpt-api-gateway",
+    "total_pages": 5,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 5,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "fpt-api-management",
+    "total_pages": 20,
+    "vi": 12,
+    "en": 12,
+    "ja": 12,
+    "full_3lang": 4,
+    "missing_en": [
+      "dang-ky-dich-vu-api-management-tren-fpt-portal",
+      "huong-dan-nhanh-quick-starts",
+      "huong-dan-su-dung-cho-api-consumer",
+      "quan-ly-api-site",
+      "quan-ly-consumers",
+      "quan-ly-products",
+      "quan-ly-rest-apis"
+    ],
+    "missing_ja": [
+      "dang-ky-dich-vu-api-management-tren-fpt-portal",
+      "huong-dan-nhanh-quick-starts",
+      "huong-dan-su-dung-cho-api-consumer",
+      "index",
+      "quan-ly-api-site",
+      "quan-ly-consumers",
+      "quan-ly-products",
+      "quan-ly-rest-apis"
+    ],
+    "missing_vi": [
+      "consumer-api-usage-guide",
+      "fpt-api-management",
+      "manage-rest-apis",
+      "managing-consumers",
+      "managing-products",
+      "managing-sites",
+      "quick-starts",
+      "registering-on-fpt-portal"
+    ]
+  },
+  {
+    "module": "fpt-app-catalogs",
+    "total_pages": 32,
+    "vi": 19,
+    "en": 19,
+    "ja": 19,
+    "full_3lang": 5,
+    "missing_en": [
+      "deploy-app-catalogs-toi-cluster",
+      "filter-apps-da-duoc-deploy-theo-cluster",
+      "fpt-app-catalogs",
+      "ket-noi-cluster-toi-app-catalog-management",
+      "rollback-app-ve-cau-hinh-cu",
+      "search-app-catalogs-trong-repository",
+      "tao-moi-app-catalogs",
+      "thay-doi-cau-hinh-cua-applications",
+      "uninstall-applications-neu-muon-xoa-bo",
+      "upgrade-applications-toi-version-moi-nhat",
+      "xem-chi-tiet-app-da-deploy",
+      "xem-thong-tin-chi-tiet-app-catalog",
+      "xoa-app-catalog-management"
+    ],
+    "missing_ja": [
+      "deploy-app-catalogs-toi-cluster",
+      "filter-apps-da-duoc-deploy-theo-cluster",
+      "index",
+      "ket-noi-cluster-toi-app-catalog-management",
+      "rollback-app-ve-cau-hinh-cu",
+      "search-app-catalogs-trong-repository",
+      "tao-moi-app-catalogs",
+      "thay-doi-cau-hinh-cua-applications",
+      "uninstall-applications-neu-muon-xoa-bo",
+      "upgrade-applications-toi-version-moi-nhat",
+      "xem-chi-tiet-app-da-deploy",
+      "xem-thong-tin-chi-tiet-app-catalog",
+      "xoa-app-catalog-management"
+    ],
+    "missing_vi": [
+      "add-cluster-to-app-catalogs-management",
+      "app-catalogs",
+      "change-applications-configuration",
+      "create-a-new-fpt-app-catalogs",
+      "delete-an-app-catalogs-mangement",
+      "deploy-app-catalogs-to-cluster",
+      "filter-deployed-appplications-by-cluster",
+      "rollback-an-application-to-the-old-configuration",
+      "search-app-catalogs-from-a-repository",
+      "uninstall-applications",
+      "upgrade-applications-to-the-latest-version",
+      "view-app-catalog-details",
+      "view-deployed-applications-details"
+    ]
+  },
+  {
+    "module": "fpt-appsec",
+    "total_pages": 33,
+    "vi": 32,
+    "en": 32,
+    "ja": 32,
+    "full_3lang": 31,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-appsec"
+    ]
+  },
+  {
+    "module": "fpt-argocd",
+    "total_pages": 85,
+    "vi": 59,
+    "en": 64,
+    "ja": 64,
+    "full_3lang": 37,
+    "missing_en": [
+      "add-cluster-toi-argocd",
+      "add-moi-webhook-secret",
+      "cau-hinh-build-option-cho-kustomize",
+      "cau-hinh-log-level",
+      "cau-hinh-rbac",
+      "cau-hinh-timereconcile",
+      "cau-hinh-whitelist-ip",
+      "delete-oidc-da-cau-hinh",
+      "enable-disable-argocd-images-updater",
+      "enable-disable-chuc-nang-cau-hinh-oidc",
+      "enable-disable-notificaions",
+      "kiem-tra-thong-tin-goi-dich-vu",
+      "mange-admin-account",
+      "nang-goi-dich-vu-dang-su-dung",
+      "quan-ly-container-registry",
+      "quan-ly-registry-secret",
+      "quan-ly-secret",
+      "tao-moi-account-tren-portal",
+      "tao-moi-fpt-argocd",
+      "xem-thong-tin-chi-tiet-argocd"
+    ],
+    "missing_ja": [
+      "add-cluster-toi-argocd",
+      "add-moi-webhook-secret",
+      "cau-hinh-build-option-cho-kustomize",
+      "cau-hinh-log-level",
+      "cau-hinh-oidc-config",
+      "cau-hinh-rbac",
+      "cau-hinh-timereconcile",
+      "cau-hinh-whitelist-ip",
+      "enable-disable-chuc-nang-cau-hinh-oidc",
+      "enable-disable-notificaions",
+      "index",
+      "kiem-tra-thong-tin-goi-dich-vu",
+      "mange-admin-account",
+      "nang-goi-dich-vu-dang-su-dung",
+      "quan-ly-container-registry",
+      "quan-ly-registry-secret",
+      "quan-ly-secret",
+      "tao-moi-account-tren-portal",
+      "tao-moi-fpt-argocd",
+      "xem-thong-tin-chi-tiet-argocd"
+    ],
+    "missing_vi": [
+      "add-cluster-to-argocd",
+      "add-webhook-secret",
+      "check-service-package-info",
+      "configure-build-options-kustomize",
+      "configure-log-level",
+      "configure-notification-channels",
+      "configure-oidc-config",
+      "configure-rbac",
+      "configure-timereconcile",
+      "configure-webhook-with-secret",
+      "configure-whitelist-ip",
+      "create-account",
+      "create-fpt-argocd",
+      "delete-oidc-config",
+      "enable-applications-set",
+      "enable-disable-images-updater",
+      "enable-disable-notifications",
+      "enable-disable-oidc",
+      "fpt-argocd",
+      "manage-admin-account",
+      "manage-container-registry",
+      "manage-registry-secrets",
+      "manage-secrets",
+      "update-oidc-config",
+      "upgrade-service-package",
+      "view-argocd-detail"
+    ]
+  },
+  {
+    "module": "fpt-autoscale",
+    "total_pages": 16,
+    "vi": 15,
+    "en": 15,
+    "ja": 15,
+    "full_3lang": 14,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-autoscale"
+    ]
+  },
+  {
+    "module": "fpt-backup-as-a-service",
+    "total_pages": 11,
+    "vi": 10,
+    "en": 10,
+    "ja": 10,
+    "full_3lang": 9,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-backup-as-a-service"
+    ]
+  },
+  {
+    "module": "fpt-cloud-desktop",
+    "total_pages": 9,
+    "vi": 8,
+    "en": 8,
+    "ja": 8,
+    "full_3lang": 7,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-cloud-desktop"
+    ]
+  },
+  {
+    "module": "fpt-cloud-monitoring",
+    "total_pages": 19,
+    "vi": 18,
+    "en": 18,
+    "ja": 18,
+    "full_3lang": 17,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-cloud-monitoring"
+    ]
+  },
+  {
+    "module": "fpt-cloud-portal",
+    "total_pages": 2,
+    "vi": 1,
+    "en": 1,
+    "ja": 1,
+    "full_3lang": 0,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-cloud-portal"
+    ]
+  },
+  {
+    "module": "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+    "total_pages": 16,
+    "vi": 15,
+    "en": 15,
+    "ja": 15,
+    "full_3lang": 14,
+    "missing_en": [],
+    "missing_ja": [
+      "choose-the-form-of-PAYG-and-verify-the-phon- number"
+    ],
+    "missing_vi": [
+      " choose-the-form-of-PAYG-and-verify-the-phon- number"
+    ]
+  },
+  {
+    "module": "fpt-cloud-waf",
+    "total_pages": 48,
+    "vi": 23,
+    "en": 23,
+    "ja": 23,
+    "full_3lang": 5,
+    "missing_en": [
+      "battat-proxy-host",
+      "cap-nhat-thong-tin-cho-proxy-host",
+      "cau-hinh-ket-noi-may-chu-waf",
+      "chinh-sua-may-chu-waf",
+      "monitor-waf-voi-dashboard-overview",
+      "quan-ly-404-host",
+      "quan-ly-access-list",
+      "quan-ly-redirection-host",
+      "quan-ly-security-rule-sets",
+      "quan-ly-ssl-certificates",
+      "tao-moi-proxy-host",
+      "them-moi-stream-host",
+      "tutorials-dang-nhap-waf-dashboard",
+      "tutorials-them-moi-may-chu-waf",
+      "xem-thong-tin-chi-tiet-proxy-host",
+      "xoa-may-chu-waf",
+      "xoa-proxy-host"
+    ],
+    "missing_ja": [
+      "battat-proxy-host",
+      "cap-nhat-thong-tin-cho-proxy-host",
+      "cau-hinh-ket-noi-may-chu-waf",
+      "chinh-sua-may-chu-waf",
+      "monitor-waf-voi-dashboard-overview",
+      "quan-ly-404-host",
+      "quan-ly-access-list",
+      "quan-ly-nguoi-dung-cua-waf-dashboard",
+      "quan-ly-redirection-host",
+      "quan-ly-security-rule-sets",
+      "quan-ly-ssl-certificates",
+      "tao-moi-proxy-host",
+      "them-moi-stream-host",
+      "tutorials-dang-nhap-waf-dashboard",
+      "tutorials-them-moi-may-chu-waf",
+      "xem-thong-tin-chi-tiet-proxy-host",
+      "xoa-may-chu-waf",
+      "xoa-proxy-host"
+    ],
+    "missing_vi": [
+      "add-stream-host",
+      "configure-waf-server-connection",
+      "create-proxy-host",
+      "delete-proxy-host",
+      "delete-waf-server",
+      "edit-waf-server",
+      "enable-disable-proxy-host",
+      "manage-404-host",
+      "manage-access-list",
+      "manage-redirection-host",
+      "manage-security-rule-set",
+      "manage-security-rule-sets",
+      "manage-ssl-certificate",
+      "manage-ssl-certificates",
+      "manage-stream-host",
+      "manage-waf-dashboard-users",
+      "monitor-waf-dashboard-overview",
+      "monitor-waf-server-with-dashboard-overview",
+      "tutorials-add-waf-server",
+      "tutorials-create-a-new-waf-server",
+      "tutorials-log-in-to-waf-dashboard",
+      "tutorials-log-in-waf-dashboard",
+      "update-information-of-the-WAF-server",
+      "update-proxy-host",
+      "view-proxy-host-detail"
+    ]
+  },
+  {
+    "module": "fpt-cloud-wapples",
+    "total_pages": 31,
+    "vi": 30,
+    "en": 30,
+    "ja": 30,
+    "full_3lang": 29,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-cloud-wapples"
+    ]
+  },
+  {
+    "module": "fpt-container-registry",
+    "total_pages": 45,
+    "vi": 41,
+    "en": 41,
+    "ja": 40,
+    "full_3lang": 36,
+    "missing_en": [],
+    "missing_ja": [
+      "deleting-an-image-or-artifact-in-a-repository",
+      "pulling-docker-image-from-fpt-container-registry-to-local",
+      "scan-image-1",
+      "tagging-and-pushing-images-to-fpt-container-registry",
+      "tao-moi-robot-account"
+    ],
+    "missing_vi": [
+      "managing-repositories",
+      "pulling-docker-image",
+      "robot-account",
+      "tagging-and-pushing-images"
+    ]
+  },
+  {
+    "module": "fpt-event-gateway",
+    "total_pages": 19,
+    "vi": 19,
+    "en": 19,
+    "ja": 19,
+    "full_3lang": 19,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "fpt-jenkins-ci",
+    "total_pages": 26,
+    "vi": 25,
+    "en": 25,
+    "ja": 25,
+    "full_3lang": 24,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-jenkins-ci"
+    ]
+  },
+  {
+    "module": "fpt-kafka",
+    "total_pages": 21,
+    "vi": 20,
+    "en": 20,
+    "ja": 20,
+    "full_3lang": 19,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-kafka"
+    ]
+  },
+  {
+    "module": "fpt-key-vault",
+    "total_pages": 38,
+    "vi": 28,
+    "en": 28,
+    "ja": 28,
+    "full_3lang": 18,
+    "missing_en": [],
+    "missing_ja": [
+      "Create-Auth-Method",
+      "Create-Policy",
+      "Create-Role",
+      "Create-Secret-Engine",
+      "Create-Secret-in-Secret-Engine",
+      "Create-Vault-Instance",
+      "Delete-Policy",
+      "Delete-Secret",
+      "Delete-Secret-Engine",
+      "View-and-Update-Secret-information"
+    ],
+    "missing_vi": [
+      "create-auth-method",
+      "create-policy",
+      "create-role",
+      "create-secret",
+      "create-secret-engine",
+      "create-vault-instance",
+      "delete-policy",
+      "delete-secret",
+      "delete-secret-engine",
+      "view-update-secret"
+    ]
+  },
+  {
+    "module": "fpt-kubernetes-engine-with-gpu",
+    "total_pages": 13,
+    "vi": 12,
+    "en": 12,
+    "ja": 12,
+    "full_3lang": 11,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "fpt-kubernetes-engine-with-gpu"
+    ]
+  },
+  {
+    "module": "fpt-managed-gpu-cluster",
+    "total_pages": 24,
+    "vi": 24,
+    "en": 24,
+    "ja": 24,
+    "full_3lang": 24,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "fpt-message-bus",
+    "total_pages": 40,
+    "vi": 23,
+    "en": 23,
+    "ja": 23,
+    "full_3lang": 11,
+    "missing_en": [
+      "fpt-message-bus",
+      "gui-nhan-messages-trong-topics",
+      "huong-dan-nhanh-quick-starts",
+      "sua-topic",
+      "tao-subscriptions",
+      "tao-topics",
+      "xoa-topics"
+    ],
+    "missing_ja": [
+      "gui-nhan-message-trong-queues",
+      "gui-nhan-messages-trong-topics",
+      "huong-dan-nhanh-quick-starts",
+      "index",
+      "sua-topic",
+      "tao-queues",
+      "tao-subscriptions",
+      "tao-topics",
+      "xem-queues",
+      "xoa-queues",
+      "xoa-topics"
+    ],
+    "missing_vi": [
+      "Create-Subscriptions",
+      "Create-topics",
+      "Delete-topics",
+      "Edit-topics",
+      "Quick-Starts",
+      "Send-Receive-messages-in-topics",
+      "create-queues",
+      "create-subscriptions",
+      "create-topics",
+      "delete-queues",
+      "delete-topics",
+      "edit-topics",
+      "fpt-message-bus-for-rabbitmq",
+      "quick-starts",
+      "send-receive-messages-in-queues",
+      "send-receive-messages-in-topics",
+      "view-queues"
+    ]
+  },
+  {
+    "module": "fpt-monitoring-ip-access-control",
+    "total_pages": 12,
+    "vi": 12,
+    "en": 12,
+    "ja": 12,
+    "full_3lang": 12,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "fpt-object-storage",
+    "total_pages": 30,
+    "vi": 22,
+    "en": 23,
+    "ja": 22,
+    "full_3lang": 17,
+    "missing_en": [
+      "tutorials-su-dung-object-storage-tren-s3-client",
+      "tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client"
+    ],
+    "missing_ja": [
+      "clone-du-lieu-giua-hai-bucket-khac-nhau",
+      "mount-bucket-thanh-o-dia-tren-may-local",
+      "su-dung-fpt-object-storage-lam-media-server-luu-tru-va-phan-phoi-media-file-cho-websiteweb-application",
+      "tutorials-su-dung-object-storage-tren-s3-client",
+      "tutorials-tich-hop-fpt-object-storage-voi-cac-s3-client"
+    ],
+    "missing_vi": [
+      "clone-bucket-data",
+      "integrate-s3-clients",
+      "mount-bucket-local",
+      "object-storage",
+      "tutorials-integrate-fpt-object-storage-with-s3-client",
+      "tutorials-using-object-storage-on-s3-browser",
+      "use-as-media-server",
+      "use-with-s3-browser"
+    ]
+  },
+  {
+    "module": "fpt-va",
+    "total_pages": 16,
+    "vi": 16,
+    "en": 16,
+    "ja": 16,
+    "full_3lang": 16,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "gateway",
+    "total_pages": 8,
+    "vi": 7,
+    "en": 7,
+    "ja": 7,
+    "full_3lang": 6,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "gateway"
+    ]
+  },
+  {
+    "module": "global-search",
+    "total_pages": 2,
+    "vi": 2,
+    "en": 2,
+    "ja": 2,
+    "full_3lang": 2,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "gpu-container",
+    "total_pages": 26,
+    "vi": 25,
+    "en": 25,
+    "ja": 25,
+    "full_3lang": 24,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "gpu-container"
+    ]
+  },
+  {
+    "module": "gpu-virtual-machine-en",
+    "total_pages": 26,
+    "vi": 25,
+    "en": 25,
+    "ja": 25,
+    "full_3lang": 24,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "gpu-virtual-machine-en"
+    ]
+  },
+  {
+    "module": "huong-dan-su-dung-grafana",
+    "total_pages": 21,
+    "vi": 20,
+    "en": 20,
+    "ja": 20,
+    "full_3lang": 19,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "huong-dan-su-dung-grafana"
+    ]
+  },
+  {
+    "module": "iac-old",
+    "total_pages": 2,
+    "vi": 2,
+    "en": 2,
+    "ja": 2,
+    "full_3lang": 2,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "iam",
+    "total_pages": 48,
+    "vi": 26,
+    "en": 26,
+    "ja": 26,
+    "full_3lang": 6,
+    "missing_en": [
+      "IAM-User-Overview",
+      "Role-Overview",
+      "User Group-Overview",
+      "activity-log-ip-access",
+      "cau hinh 2fa",
+      "chinh sua role va permission",
+      "chinh sua user group",
+      "create-ip",
+      "invite iam user moi",
+      "ip-access-overview",
+      "khoi tao account va truy cap vao vpc da duoc moi",
+      "khoi tao role va phan quyen cho role",
+      "khoi tao user group moi",
+      "thay doi mat khau",
+      "xem chi tiet role",
+      "xem chi tiet user group",
+      "xem danh sach role",
+      "xoa role",
+      "xoa user groups"
+    ],
+    "missing_ja": [
+      "IAM-User-Overview",
+      "Role-Overview",
+      "User Group-Overview",
+      "activity-log-ip-access",
+      "cau hinh 2fa",
+      "chinh sua role va permission",
+      "chinh sua user group",
+      "create-ip",
+      "invite iam user moi",
+      "ip-access-overview",
+      "khoi tao account va truy cap vao vpc da duoc moi",
+      "khoi tao role va phan quyen cho role",
+      "khoi tao user group moi",
+      "thay doi mat khau",
+      "view-list-user-group",
+      "xem chi tiet role",
+      "xem chi tiet user group",
+      "xem danh sach role",
+      "xoa role",
+      "xoa user groups"
+    ],
+    "missing_vi": [
+      "change-password",
+      "configure-2fa",
+      "create-account-access-vpc",
+      "create-ip-access",
+      "create-role",
+      "create-user-group",
+      "delete-role",
+      "delete-user-group",
+      "edit-role",
+      "edit-role-and-permissions",
+      "edit-user-group",
+      "invite-iam-user",
+      "ip-access-activity-log",
+      "overview-iam-user",
+      "overview-ip-access",
+      "overview-user-group",
+      "role-overview",
+      "view-detail-user-group",
+      "view-role-detail",
+      "view-role-list",
+      "view-user-group-detail",
+      "view-user-group-list"
+    ]
+  },
+  {
+    "module": "incident-management",
+    "total_pages": 37,
+    "vi": 29,
+    "en": 29,
+    "ja": 29,
+    "full_3lang": 21,
+    "missing_en": [
+      "cau-hinh-integrations",
+      "create-by-incoming-webhook",
+      "incident-management-overview",
+      "jira",
+      "thay-doi-muc-do-anh-huong-incident",
+      "thay-doi-trang-thai-incident",
+      "truc-quan-du-lieu-incident",
+      "xem-chi-tiet-incident"
+    ],
+    "missing_ja": [
+      "cau-hinh-integrations",
+      "create-by-incoming-webhook",
+      "jira",
+      "thay-doi-muc-do-anh-huong-incident",
+      "thay-doi-trang-thai-incident",
+      "truc-quan-du-lieu-incident",
+      "xem-chi-tiet-incident"
+    ],
+    "missing_vi": [
+      "atlassian-jira",
+      "change-the-incident-severity",
+      "change-the-incident-status",
+      "configure-integrations",
+      "create-incident-via-webhook",
+      "incident-data-visualization",
+      "incident-management",
+      "view-incident-detail"
+    ]
+  },
+  {
+    "module": "load-balancer",
+    "total_pages": 47,
+    "vi": 46,
+    "en": 46,
+    "ja": 46,
+    "full_3lang": 45,
+    "missing_en": [
+      "tich-hop-fmon"
+    ],
+    "missing_ja": [
+      "tich-hop-fmon"
+    ],
+    "missing_vi": [
+      "integrate-with-fmon"
+    ]
+  },
+  {
+    "module": "lock-unlock-instance-deletion",
+    "total_pages": 4,
+    "vi": 4,
+    "en": 4,
+    "ja": 4,
+    "full_3lang": 4,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "managed-fpt-database-engine",
+    "total_pages": 86,
+    "vi": 78,
+    "en": 78,
+    "ja": 78,
+    "full_3lang": 70,
+    "missing_en": [
+      "Khoi-tao-DB-Proxy",
+      "Provision-Database-Engine",
+      "Quan-ly-Restore",
+      "Roles",
+      "Thao-tac-voi-DB-Proxy",
+      "tao-security-groups",
+      "tạo-floating-IP",
+      "tạo-subnets"
+    ],
+    "missing_ja": [
+      "Khoi-tao-DB-Proxy",
+      "Provision-Database-Engine",
+      "Quan-ly-Restore",
+      "Roles",
+      "Thao-tac-voi-DB-Proxy",
+      "tao-security-groups",
+      "tạo-floating-IP",
+      "tạo-subnets"
+    ],
+    "missing_vi": [
+      "create-db-proxy",
+      "create-floating-ip",
+      "create-security-groups",
+      "create-subnets",
+      "manage-db-proxy",
+      "manage-restore",
+      "provision-database-engine",
+      "roles"
+    ]
+  },
+  {
+    "module": "managed-fpt-database-engines-new",
+    "total_pages": 47,
+    "vi": 47,
+    "en": 47,
+    "ja": 47,
+    "full_3lang": 47,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "managed-fpt-kubernetes-engine",
+    "total_pages": 120,
+    "vi": 85,
+    "en": 85,
+    "ja": 77,
+    "full_3lang": 42,
+    "missing_en": [
+      "xem-danh-sach-kubernetes-cluster-da-tao"
+    ],
+    "missing_ja": [
+      "Initial-setup",
+      "audit-log-vn",
+      "backup-restore-vn",
+      "bat-tat-node-auto-repair",
+      "cac-luu-y-khi-su-dung-m-fke",
+      "cau-hinh-proxy-protocol",
+      "cau-hinh-proxy-protocol-cho-istio-ingress",
+      "cau-hinh-proxy-protocol-cho-nginx-ingress",
+      "chinh-sua-label-taint-cho-worker-group",
+      "chuyen-worker-group-base",
+      "danh-tag-cho-vm",
+      "dich-vu-gpu-tren-k8s",
+      "dieu-chinh-cau-hinh-coredns-trong-kubernetes-service",
+      "fpt-cloud-managed-kubernetes-release-calendar",
+      "gioi-thieu-chung-ve-quy-trinh-quan-ly-version",
+      "gpu-la-gi",
+      "huong-dan-chi-tiet-su-dung-auto-upgrade",
+      "khoi-tao-kubernetes-cluster-moi",
+      "mfke-faqs",
+      "restore-persistent-volume-tren-k8s",
+      "scale-in-chi-dinh-node",
+      "service-type-kb-layer7-lbv2",
+      "snapshot-persistent-volume-tren-k8s",
+      "snapshot-va-restore-pvc-tren-k8s-fpt",
+      "tai-sao-nen-su-dung-gpu-tren-cloud",
+      "tai-sao-nen-su-dung-gpu-tren-kubernetes",
+      "thay-doi-cau-hinh-flavor-cua-worker-pool",
+      "thay-doi-cau-hinh-internal-subnet-load-balancer",
+      "thay-doi-cau-hinh-k8s-cluster",
+      "thay-doi-cluster-endponit-access",
+      "thuc-hien-dat-lich-snapshot-pvc",
+      "thuc-hien-dat-lich-xoa-pvc-snapshot",
+      "tinh-nang-benchmark-cluster",
+      "tinh-nang-dat-lich-hibernate-wake-up",
+      "tinh-nang-hibernate-wakeup",
+      "tinh-nang-rotate-kubeconfig",
+      "tinh-nang-runtime-security-cluster",
+      "tinh-nang-tang-cuong-bao-mat-mfke",
+      "tinh-nang-workload-scan",
+      "trien-khai-ung-dung-tren-worker-pool",
+      "truy-cap-thong-tin-chi-tiet-cua-cluster",
+      "tu-dong-nang-cap-version",
+      "xem-danh-sach-kubernetes-cluster-da-tao"
+    ],
+    "missing_vi": [
+      "audit-log",
+      "auto-upgrade-guide",
+      "auto-upgrade-version",
+      "backup-restore",
+      "benchmark-cluster",
+      "change-base-worker-group",
+      "change-cluster-endpoint-access",
+      "change-lb-internal-subnet",
+      "change-worker-pool-flavor",
+      "configure-coredns",
+      "configure-proxy-protocol",
+      "enable-disable-auto-repair",
+      "gpu-service-on-k8s",
+      "hibernate-wakeup",
+      "hibernate-wakeup-schedule",
+      "list-created-cluster",
+      "managed-fpt-kubernetes-engine",
+      "proxy-protocol-istio-ingress",
+      "proxy-protocol-nginx-ingress",
+      "release-calendar",
+      "restore-persistent-volume",
+      "rotate-kubeconfig",
+      "runtime-security",
+      "scale-in-specific-node",
+      "schedule-delete-pvc-snapshot",
+      "schedule-pvc-snapshot",
+      "security-enhancement",
+      "service-type-layer7-lb",
+      "snapshot-persistent-volume",
+      "snapshot-restore-pvc",
+      "tag-vms",
+      "version-management-overview",
+      "why-use-gpu-on-cloud",
+      "why-use-gpu-on-k8s",
+      "workload-scan"
+    ]
+  },
+  {
+    "module": "managed-gpu-cluster-kubernetes-ja",
+    "total_pages": 15,
+    "vi": 14,
+    "en": 14,
+    "ja": 14,
+    "full_3lang": 13,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "managed-gpu-cluster-kubernetes-ja"
+    ]
+  },
+  {
+    "module": "metal-cloud-ja",
+    "total_pages": 14,
+    "vi": 13,
+    "en": 13,
+    "ja": 13,
+    "full_3lang": 12,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "metal-cloud-ja"
+    ]
+  },
+  {
+    "module": "model-fine-tuning",
+    "total_pages": 48,
+    "vi": 47,
+    "en": 47,
+    "ja": 47,
+    "full_3lang": 46,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "model-fine-tuning"
+    ]
+  },
+  {
+    "module": "model-hub",
+    "total_pages": 52,
+    "vi": 51,
+    "en": 51,
+    "ja": 51,
+    "full_3lang": 50,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "model-hub"
+    ]
+  },
+  {
+    "module": "model-serving",
+    "total_pages": 12,
+    "vi": 12,
+    "en": 12,
+    "ja": 12,
+    "full_3lang": 12,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "model-testing",
+    "total_pages": 6,
+    "vi": 6,
+    "en": 6,
+    "ja": 6,
+    "full_3lang": 6,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "model-testing-interactive-sessions",
+    "total_pages": 18,
+    "vi": 17,
+    "en": 17,
+    "ja": 17,
+    "full_3lang": 16,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "model-testing-interactive-sessions"
+    ]
+  },
+  {
+    "module": "model-testing-test-jobs",
+    "total_pages": 24,
+    "vi": 24,
+    "en": 24,
+    "ja": 24,
+    "full_3lang": 24,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "nat_instance",
+    "total_pages": 7,
+    "vi": 6,
+    "en": 6,
+    "ja": 6,
+    "full_3lang": 5,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "nat_instance"
+    ]
+  },
+  {
+    "module": "nic",
+    "total_pages": 10,
+    "vi": 10,
+    "en": 10,
+    "ja": 10,
+    "full_3lang": 10,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "notification-bell",
+    "total_pages": 5,
+    "vi": 4,
+    "en": 4,
+    "ja": 4,
+    "full_3lang": 3,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "notification-bell"
+    ]
+  },
+  {
+    "module": "policy-management",
+    "total_pages": 18,
+    "vi": 10,
+    "en": 10,
+    "ja": 10,
+    "full_3lang": 2,
+    "missing_en": [],
+    "missing_ja": [
+      "apply-policy",
+      "create-overview-policy",
+      "create-policy",
+      "delete-policy",
+      "disable-policy",
+      "edit-policy",
+      "enable-policy",
+      "initial-setup"
+    ],
+    "missing_vi": [
+      "ポリシーを有効にする_07",
+      "ポリシーを無効にする_06",
+      "ポリシー削除_05",
+      "ポリシー管理の作成_03",
+      "ポリシー管理の迅速な作成-01",
+      "ポリシー管理の適用_02",
+      "ポリシー編集_04",
+      "初期設定"
+    ]
+  },
+  {
+    "module": "relation-management",
+    "total_pages": 11,
+    "vi": 11,
+    "en": 11,
+    "ja": 11,
+    "full_3lang": 11,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": []
+  },
+  {
+    "module": "reporting",
+    "total_pages": 9,
+    "vi": 8,
+    "en": 8,
+    "ja": 8,
+    "full_3lang": 7,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "reporting"
+    ]
+  },
+  {
+    "module": "sso-single-sign-on",
+    "total_pages": 5,
+    "vi": 4,
+    "en": 4,
+    "ja": 4,
+    "full_3lang": 3,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "sso-single-sign-on"
+    ]
+  },
+  {
+    "module": "terraform",
+    "total_pages": 6,
+    "vi": 5,
+    "en": 5,
+    "ja": 5,
+    "full_3lang": 4,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "terraform"
+    ]
+  },
+  {
+    "module": "trellix-customer-guide",
+    "total_pages": 11,
+    "vi": 7,
+    "en": 7,
+    "ja": 7,
+    "full_3lang": 3,
+    "missing_en": [
+      "client-task",
+      "report",
+      "truy-cap-giao-dien-quan-tri",
+      "view-log"
+    ],
+    "missing_ja": [],
+    "missing_vi": [
+      "Access the administration interface",
+      "Viewing Logs",
+      "client-task-mapping",
+      "report-guide"
+    ]
+  },
+  {
+    "module": "user-token",
+    "total_pages": 7,
+    "vi": 6,
+    "en": 6,
+    "ja": 6,
+    "full_3lang": 5,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "user-token"
+    ]
+  },
+  {
+    "module": "vpn-site-to-site",
+    "total_pages": 74,
+    "vi": 55,
+    "en": 55,
+    "ja": 55,
+    "full_3lang": 36,
+    "missing_en": [
+      "Create-VPN-S2S-connection",
+      "VPN-S2S-check-activity-logs",
+      "connect-fci-fortigate",
+      "connect-palo-alto",
+      "create-customergw",
+      "delete-VPN-S2S-connection",
+      "delete-customergw",
+      "disable-VPN-S2S-connection",
+      "download-config-VPN-S2S",
+      "edit-VPN-S2S-information",
+      "edit-customergw",
+      "enable-VPN-S2S-connection",
+      "logging",
+      "monitoring",
+      "service-authorization",
+      "set_alert",
+      "view-VPN-detail-information",
+      "xoa-vpn-connection"
+    ],
+    "missing_ja": [
+      "Create-VPN-S2S-connection",
+      "VPN-S2S-check-activity-logs",
+      "connect-fci-fortigate",
+      "connect-palo-alto",
+      "create-customergw",
+      "delete-VPN-S2S-connection",
+      "delete-customergw",
+      "disable-VPN-S2S-connection",
+      "download-config-VPN-S2S",
+      "edit-VPN-S2S-information",
+      "edit-customergw",
+      "enable-VPN-S2S-connection",
+      "index",
+      "logging",
+      "monitoring",
+      "service-authorization",
+      "set_alert",
+      "view-VPN-detail-information",
+      "xoa-vpn-connection"
+    ],
+    "missing_vi": [
+      "VPN-Activity",
+      "VPN-Site-to-Site-Configuration-with-Fortigate-guide",
+      "VPN-Site-to-Site-Configuration-with-Palo-Alto-guide",
+      "create-customer-gateway",
+      "create-vpn",
+      "delete-customer-gateway",
+      "delete-vpn",
+      "delete-vpn-connection",
+      "disable-VPN-Site-to-Site",
+      "download-config-",
+      "edit-customer-gateway",
+      "edit-vpn",
+      "enable-vpn-s2S",
+      "monitoring-service-through-logging-feature-guide",
+      "monitoring-service-through-monitoring-feature-guide",
+      "permission-access-guide",
+      "setting-up-alerts-via-the-cloud-guard-service-guide",
+      "view-vpn-",
+      "vpn-site-to-site"
+    ]
+  },
+  {
+    "module": "zalo-ticket-support",
+    "total_pages": 2,
+    "vi": 1,
+    "en": 1,
+    "ja": 1,
+    "full_3lang": 0,
+    "missing_en": [],
+    "missing_ja": [
+      "index"
+    ],
+    "missing_vi": [
+      "zalo-ticket-support"
+    ]
+  },
+  {
+    "module": "タグ-付け",
+    "total_pages": 15,
+    "vi": 0,
+    "en": 0,
+    "ja": 15,
+    "full_3lang": 0,
+    "missing_en": [],
+    "missing_ja": [],
+    "missing_vi": [
+      "index",
+      "インスタンス管理 _1",
+      "カスタム画像_4",
+      "サブネット_6",
+      "ストレージディスク_2",
+      "スナップショット_3",
+      "セキュリティグループ_7",
+      "タグの編集",
+      "タグリソースの管理",
+      "タグ作成",
+      "フローティングIP _5",
+      "ロードバランサー",
+      "作成したタグの削除",
+      "初期設定",
+      "請求のタグ付け"
+    ]
+  }
+]

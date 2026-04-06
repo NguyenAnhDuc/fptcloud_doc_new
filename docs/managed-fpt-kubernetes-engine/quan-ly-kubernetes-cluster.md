@@ -1,12 +1,12 @@
 ---
 id: "quan-ly-kubernetes-cluster"
-title: "Quan Ly Kubernetes Cluster"
-sidebar_label: "Quan Ly Kubernetes Cluster"
+title: Manage Kubernetes Cluster
+sidebar_label: Manage Kubernetes Cluster
 sidebar_position: "3"
 description: "Tổng quan về các thao tác quản lý Kubernetes cluster trong Managed FPT Kubernetes Engine."
 ---
 
-# Quản lý Kubernetes cluster
+# Manage Kubernetes Cluster
 
 Managed FPT Kubernetes Engine hỗ trợ các thao tác quản lý cluster sau:
 

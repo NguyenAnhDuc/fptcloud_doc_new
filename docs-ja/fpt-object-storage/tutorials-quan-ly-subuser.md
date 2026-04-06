@@ -1,8 +1,8 @@
 ---
 id: "tutorials-quan-ly-subuser"
-title: "SubUser の管理"
+title: FPT Object Storage の SubUser 管理
 description: "FPT Object Storage では、アクセスが制限された SubUser を作成してセキュリティを強化し、データへのアクセスをより効果的に管理できます。"
-sidebar_label: "SubUser の管理"
+sidebar_label: FPT Object Storage の SubUser 管理
 sidebar_position: "10"
 ---
 

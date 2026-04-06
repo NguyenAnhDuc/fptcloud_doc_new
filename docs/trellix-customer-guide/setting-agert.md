@@ -1,12 +1,12 @@
 ---
 id: "setting-agert"
-title: "Setting Agert"
+title: "Set Up Agent Installation Package"
 description: "Hướng dẫn tạo gói cài đặt Trellix agent và triển khai trên máy chủ Windows, Linux hoặc macOS."
-sidebar_label: "Setting Agert"
+sidebar_label: "Set Up Agent Installation Package"
 sidebar_position: "3"
 ---
 
-# Tạo gói cài đặt agent và cài đặt agent
+# Set Up Agent Installation Package and Install Agent
 
 Agent là thành phần phần mềm được cài đặt trên từng máy chủ cần bảo vệ, cho phép server Trellix giám sát và triển khai chính sách bảo mật từ xa. Hỗ trợ Windows, Linux và macOS.
 

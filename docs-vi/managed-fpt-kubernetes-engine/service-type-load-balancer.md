@@ -6,7 +6,7 @@ sidebar_label: "Service Type Load-Balancer"
 sidebar_position: 21
 ---
 
-# Service type Load Balancer
+# Service Type Load-Balancer
 
 Sản phẩm Managed FKE được phát triển từ Kubernetes Native và tích hợp thêm thêm các thành phần cloud provider vào Kubernetes trong đó có thành phần FPT Cloud Controller Manager. Thành phần này nhằm mục đích quản lý các worker nodes trong cluster và các service dạng Load Balancer. Người dùng có thể có nhiều cách để expose một ứng dụng của mình ra bên ngoài internet để khách hàng của người dùng đó có thể truy cập vào ứng dụng, dịch vụ. Các cách đó có thể bao gồm việc tạo ingress cho service, hoặc tạo service dạng node port và gắn floating cho VM worker node, hoặc có thể sử dụng service dạng Load Balancer. 
 FPTCloud hỗ trợ người dùng tạo service dạng load balancer với các option đi kèm annotation trong cấu hình của service:   

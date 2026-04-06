@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-canh-bao-virtual-machine"
-title: "Virtual Machine のアラートを作成する"
-sidebar_label: "Virtual Machine のアラートを作成する"
+title: Virtual Machine (VM) のアラートを作成する
+sidebar_label: Virtual Machine (VM) のアラートを作成する
 sidebar_position: 4
 ---
 

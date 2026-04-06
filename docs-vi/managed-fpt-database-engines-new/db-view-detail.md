@@ -6,7 +6,7 @@ sidebar_label: "Xem thông tin cơ sở dữ liệu"
 sidebar_position: 22
 ---
 
-# Db View Detail
+# Xem thông tin cơ sở dữ liệu
 
 Chức năng **Xem thông tin chi tiết của cụm cơ sở dữ liệu** cho phép người dùng:
   * Theo dõi trạng thái vận hành của cụm cơ sở dữ liệu.

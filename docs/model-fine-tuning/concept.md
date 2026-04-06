@@ -6,7 +6,7 @@ sidebar_label: "Concept"
 sidebar_position: "2"
 ---
 
-# モデルの微調整
+# Concept
 
 全ての資料
 FPTクラウドサーバー 

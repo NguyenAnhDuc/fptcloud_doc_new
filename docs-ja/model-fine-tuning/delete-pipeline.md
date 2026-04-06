@@ -6,7 +6,7 @@ sidebar_label: "pipeline の削除"
 sidebar_position: "21"
 ---
 
-# Delete Pipeline
+# pipeline の削除
 
 **Notice:** Deleting a pipeline permanently all data in temporary storage and persistent storage. Be sure you've saved any data you want to access again.
   1. Open the **Pipeline list**

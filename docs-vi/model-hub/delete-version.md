@@ -1,12 +1,12 @@
 ---
 id: "delete-version"
-title: "Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống"
+title: Xoá phiên bản
 description: "Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống"
-sidebar_label: "Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống"
+sidebar_label: Xoá phiên bản
 sidebar_position: 11
 ---
 
-# Delete Version
+# Xoá phiên bản
 
 Xóa phiên bản là xoá thông tin và các tệp của phiên bản trong hệ thống 
 Để xóa phiên bản, bạn thao tác như sau: 

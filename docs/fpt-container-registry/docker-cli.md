@@ -1,8 +1,8 @@
 ---
 id: "docker-cli"
-title: "FPT Container Registry"
+title: Docker CLI
 description: "FPT Container Registry"
-sidebar_label: "FPT Container Registry"
+sidebar_label: Docker CLI
 sidebar_position: 4
 ---
 

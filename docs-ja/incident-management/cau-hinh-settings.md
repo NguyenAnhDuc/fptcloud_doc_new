@@ -6,7 +6,7 @@ sidebar_position: "11"
 description: "Hướng dẫn cấu hình các thuộc tính của incident"
 ---
 
-# Cấu hình settings
+# Cau Hinh Settings
 
 FMON Incident Management cung cấp các cài đặt tùy chỉnh giúp bạn định nghĩa các thuộc tính của sự cố phù hợp với quy trình làm việc của nhóm. Bạn có thể cấu hình:
 

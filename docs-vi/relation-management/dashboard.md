@@ -6,7 +6,7 @@ sidebar_label: "Bảng điều khiển"
 sidebar_position: 11
 ---
 
-# Dashboard
+# Bảng điều khiển
 
 Để tạo một dashboard, người dùng thực hiện như sau:
 **Bước 1** : Vào Home >> Dashboard >> New dashboard

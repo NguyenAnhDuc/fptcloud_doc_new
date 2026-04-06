@@ -6,7 +6,7 @@ sidebar_label: "Tại sao nên sử dụng GPU Kubernetes?"
 sidebar_position: 41
 ---
 
-# Tại sao nên sử dụng GPU trên Kubernetes
+# Tại sao nên sử dụng GPU Kubernetes?
 
 Kubernetes hiện tại đã hỗ trợ GPU, giúp dễ dàng cấu hình và sử dụng tài nguyên GPU để tăng tốc xử lý cho các workloads như data science, machine learning và đặc biệt là deep learning. Kubernetes cung cấp GPU như một loại tài nguyên, device plug-ins cho phép Pod truy cập vào các tính năng phần cứng chuyên dụng như GPU và hiển thị chúng dưới dạng tài nguyên có thể lập lịch (schedule). GPU kế thừa được toàn bộ ưu điểm của K8s : 
   * – Containerization: Container có tính lighweith không cần hệ điều hành đầy đủ và thay vào đó chạy với shared OS kernel, nên các container nhỏ gọn, nhanh và di động hơn so với các máy ảo truyền thống.

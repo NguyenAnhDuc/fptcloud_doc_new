@@ -1,12 +1,12 @@
 ---
 id: "quan-tri-incident"
-title: "Quan Tri Incident"
+title: Manage Incidents
 description: "Tổng quan về các tính năng quản trị incident"
-sidebar_label: "Quan Tri Incident"
+sidebar_label: Manage Incidents
 sidebar_position: "18"
 ---
 
-# Quản trị incident
+# Manage Incidents
 
 Phần này hướng dẫn các thao tác quản trị incident sau khi đã tạo, bao gồm:
 

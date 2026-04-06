@@ -7,7 +7,7 @@ sidebar_position: 19
 pagination_next: null
 ---
 
-# Sni Load Balancer
+# Cấu hình SNI trên Load balancer
 
 Tính năng cấu hình **SNI (Server Name Indication)** trên Load Balancer cho phép một Listener phục vụ nhiều tên miền (hostname) khác nhau bằng cách ánh xạ từng tên miền với một chứng chỉ SSL/TLS cụ thể. Tính năng này giúp tiết kiệm tài nguyên, hỗ trợ triển khai đa miền và tăng cường bảo mật cho các dịch vụ HTTPS.
 

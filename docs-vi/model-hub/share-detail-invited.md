@@ -1,12 +1,12 @@
 ---
 id: "share-detail-invited"
-title: "Các bước thực hiện:"
+title: Chi tiết chia sẻ (Được mời)
 description: "Các bước thực hiện:"
-sidebar_label: "Các bước thực hiện:"
+sidebar_label: Chi tiết chia sẻ (Được mời)
 sidebar_position: 16
 ---
 
-# Share Detail Invited
+# Chi tiết chia sẻ (Được mời)
 
 Các bước thực hiện: 
 

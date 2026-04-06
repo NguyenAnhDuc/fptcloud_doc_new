@@ -6,7 +6,7 @@ sidebar_label: "Create Token"
 sidebar_position: "3"
 ---
 
-# Tạo token mới
+# Create Token
 
 Token xác thực cho phép truy cập API và dịch vụ FPT Cloud mà không cần dùng mật khẩu. Mỗi token có thời hạn sử dụng cố định và chỉ hiển thị một lần duy nhất sau khi tạo, vì vậy cần lưu lại ngay sau khi khởi tạo.
 

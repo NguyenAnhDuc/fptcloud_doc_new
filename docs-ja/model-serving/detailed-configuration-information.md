@@ -6,7 +6,7 @@ sidebar_label: "詳細設定"
 sidebar_position: "9"
 ---
 
-# Detailed configuration
+# 詳細設定
 
 **1. Model Configuration Information**
 Go to AI Platform → Model Serving → Deployment → Deployment Name → Model Settings

@@ -1,13 +1,13 @@
 ---
 id: "chi-tiet-model-catalog"
-title: "Mục đích: Xem chi tiết model"
+title: Chi tiết Model Catalog
 description: "Mục đích: Xem chi tiết model"
-sidebar_label: "Mục đích: Xem chi tiết model"
+sidebar_label: Chi tiết Model Catalog
 sidebar_position: 27
 pagination_next: null
 ---
 
-# Chi Tiet Model Catalog
+# Chi tiết Model Catalog
 
 Mục đích: Xem chi tiết model 
 Một model trong Model catalog sẽ bao gồm những phần sau:

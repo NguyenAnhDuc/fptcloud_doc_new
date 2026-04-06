@@ -1,12 +1,12 @@
 ---
 id: "db-proxy"
-title: "Quyền cần thiết:"
+title: DB Proxy
 description: "**Database Proxy** (DB Proxy) là lớp trung gian giữa ứng dụng và máy chủ cơ sở dữ liệu, giúp quản lý và điều phối các kế"
-sidebar_label: "Quyền cần thiết:"
+sidebar_label: DB Proxy
 sidebar_position: 35
 ---
 
-# Db Proxy
+# DB Proxy
 
 **Database Proxy** (DB Proxy) là lớp trung gian giữa ứng dụng và máy chủ cơ sở dữ liệu, giúp quản lý và điều phối các kết nối, thực hiện cân bằng tải và chuyển hướng kết nối đến database node phù hợp mà không cần thay đổi mã nguồn ứng dụng hoặc cấu hình database, từ đó nâng cao tính sẵn sàng cao cho hệ thống.
 Hiện tại, FPT Database Engine **hỗ trợ DB Proxy cho** các loại engine: **MySQL, PostgreSQL, MariaDB** và chỉ **khả dụng khi cơ sở dữ liệu được triển khai theo mô hình High Availability** (HA).

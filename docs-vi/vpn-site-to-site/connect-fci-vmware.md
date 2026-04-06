@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack
 sidebar_position: 22
 ---
 
-# Connect Fci Vmware
+# Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack và VMware
 
 Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng VMW và OPS trên Unify portal 
   * [Bước 1: Cấu hình VPN_AAS trên Openstack](../vpn-site-to-site/index.md)

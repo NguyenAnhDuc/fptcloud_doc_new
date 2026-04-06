@@ -1,12 +1,12 @@
 ---
 id: "xem-danh-sach-repositories"
-title: "Xem Danh Sach Repositories"
-sidebar_label: "Xem Danh Sach Repositories"
+title: View Repository List
+sidebar_label: View Repository List
 sidebar_position: "11"
 description: "Xem danh sách repository đã push lên FPT Container Registry."
 ---
 
-# Xem danh sách repositories
+# View Repository List
 
 Sau khi push image lên registry, tất cả repository sẽ được hiển thị trên Portal để bạn dễ dàng theo dõi và quản lý.
 

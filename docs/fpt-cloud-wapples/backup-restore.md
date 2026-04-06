@@ -1,11 +1,11 @@
 ---
 id: "backup-restore"
-title: "Backup Restore"
-sidebar_label: "Backup Restore"
+title: Backup and Restore
+sidebar_label: Backup and Restore
 sidebar_position: "40"
 ---
 
-# FPT Cloud WAPPLES
+# Backup and Restore
 
   * [ ![](/img/migrated/dashboard-12e0b64f.png) Dashboard ](javascript: "Dashboard")
   * [ ![](/img/migrated/DataAnalysis-4a97fa5c.png) Data Analysis ](javascript: "Data Analysis")

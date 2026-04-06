@@ -6,7 +6,7 @@ sidebar_label: "SDK によるファイルのアップロードとダウンロー
 sidebar_position: 21
 ---
 
-# Upload and download files by SDK
+# SDK によるファイルのアップロードとダウンロード
 
 AI Marketplace 
 AI Studio 

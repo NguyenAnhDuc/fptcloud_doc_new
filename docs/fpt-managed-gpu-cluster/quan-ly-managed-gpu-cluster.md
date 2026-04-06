@@ -1,11 +1,11 @@
 ---
 id: "quan-ly-managed-gpu-cluster"
-title: "Quan Ly Managed Gpu Cluster"
-sidebar_label: "Quan Ly Managed Gpu Cluster"
+title: Manage GPU Cluster
+sidebar_label: Manage GPU Cluster
 sidebar_position: "3"
 ---
 
-# Managed GPU Cluster の管理
+# Manage GPU Cluster
 
 Managed GPU Cluster を管理します。
 

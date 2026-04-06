@@ -1,8 +1,8 @@
 ---
 id: "vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server"
-title: "Vn Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+title: Create Mount Point
 description: "Sau khi request cấp phát dịch vụ được chấp nhận, bạn sẽ nhận được các thông tin để sử dụng File Storage trên Baremetal."
-sidebar_label: "Vn Su Dung File Storage High Performance Tren Baremetal Gpu Server"
+sidebar_label: Create Mount Point
 sidebar_position: "5"
 ---
 

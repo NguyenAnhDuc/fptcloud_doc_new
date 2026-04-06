@@ -6,7 +6,7 @@ sidebar_label: "Tutorials Object"
 sidebar_position: "5"
 ---
 
-# Upload objects to a bucket
+# Tutorials Object
 
 FPT Unify Portal supports a maximum upload size of 100GB per upload. If you need to upload a larger file, please use the S3 tool or S3 CLI.
 If the file you are about to upload has the same name as an existing file in the folder, you will receive an overwrite warning. If versioning is not enabled, these files will overwrite the existing file in the bucket. If versioning is enabled, the system will create a new version.

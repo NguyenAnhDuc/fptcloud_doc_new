@@ -6,7 +6,7 @@ sidebar_label: "1. 概要"
 sidebar_position: 3
 ---
 
-# Aspm_V1.2.1
+# 1. 概要
 
 組織がセキュリティリスク管理と運用プロセスの最適化をますます重視する中、issueのライフサイクルを追跡・管理する機能が重要なニーズとなっています。FPT Smart Cloudは、**Issue Life Cycle Management** 機能を搭載したFSP（FPT Security Platform）AppSec Serviceの新バージョンを発表しました。この機能により、ユーザーはissueのステータスをより包括的かつ透明性高く管理できます。
 **1. 概要**

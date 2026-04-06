@@ -7,7 +7,7 @@ sidebar_position: 14
 pagination_next: null
 ---
 
-# User Group Management
+# Quản lý User Group
 
 Chức năng **Quản lý User Group** cho phép tập hợp nhiều người dùng vào một nhóm và gán cho nhóm đó role phù hợp. Tính năng này là một phần của IAM trên FPT Cloud Portal, giúp sắp xếp người dùng theo vai trò, giảm công việc quản trị và đảm bảo các quyền truy cập được ứng dụng nhất quán trong môi trường DBaaS.
 Để tạo một một nhóm người dùng mới, thực hiện các bước sau:

@@ -4,7 +4,7 @@ title: "通知の有効化/無効化"
 sidebar_label: "通知の有効化/無効化"
 ---
 
-# Enable/disable notifications
+# 通知の有効化/無効化
 
 1. Tại màn hình **Notifications**, nhấn **Enable Notifications**.
 

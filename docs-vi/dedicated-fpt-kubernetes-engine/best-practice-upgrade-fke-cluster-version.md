@@ -1,8 +1,8 @@
 ---
 id: "best-practice-upgrade-fke-cluster-version"
-title: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
+title: Hướng dẫn upgrade FKE cluster version
 description: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
-sidebar_label: "Dịch vụ D-FKE hỗ trợ upgrade version cụm Kubernetes trên Portal Console."
+sidebar_label: Hướng dẫn upgrade FKE cluster version
 sidebar_position: 26
 ---
 

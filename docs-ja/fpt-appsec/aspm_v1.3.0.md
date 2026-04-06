@@ -6,7 +6,7 @@ sidebar_label: "1. 概要"
 sidebar_position: 2
 ---
 
-# Aspm_V1.3.0
+# 1. 概要
 
 DevSecOpsプロセスの自動化によって運用効率と継続的なセキュリティ管理を向上させる流れの中、スキャンスケジュール管理はシステムが定期的かつ正確に監視されることを保証する上で重要な役割を担っています。FPT Smart Cloudは、**Schedule Management** 機能を搭載したFSP（FPT Security Platform）AppSec Serviceの新バージョンを発表しました。この機能により、ユーザーはセキュリティスキャンスケジュールを簡単に作成、追跡、管理できます。
 **1. 概要**

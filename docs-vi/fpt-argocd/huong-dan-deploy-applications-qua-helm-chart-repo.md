@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn deploy applications qua helm chart repo"
 sidebar_position: 47
 ---
 
-# Huong Dan Deploy Applications Qua Helm Chart Repo
+# Hướng dẫn deploy applications qua helm chart repo
 
 **Bước 1:** Cấu hình repository helm chart Cấu hình helm repository, trường hợp helm chart public có thể không cần cấu hình helm repo, tuy nhiên nếu helm chart private cần cấu hình helm repo để ArgoCD có thể get repository deploy ứng dụng.
 Ví dụ add helm repository của xplat tới ArgoCD

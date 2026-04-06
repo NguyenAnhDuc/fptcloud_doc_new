@@ -6,7 +6,7 @@ sidebar_label: "FCIについて"
 sidebar_position: "5"
 ---
 
-# About FCI
+# FCIについて
 
 FPT Smart Cloud (FCI) – a member of the FPT Group, provides leading Artificial Intelligence (AI) and Cloud Computing solutions in Vietnam. FCI was established with the mission to offer a world-class AI & Cloud platform, creating a breakthrough in business operations. FPT Smart Cloud aims to become a leading provider of Cloud and AI services, leveraging a solid technology foundation, a diverse product ecosystem, and global connectivity. List of products and services in the FPT Smart Cloud ecosystem:
   * Infrastructure-as-a-Service

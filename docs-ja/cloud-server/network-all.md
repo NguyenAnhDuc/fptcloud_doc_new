@@ -6,7 +6,7 @@ sidebar_label: "ネットワーキング概要"
 sidebar_position: 66
 ---
 
-# Networking Overview
+# ネットワーキング概要
 
 The FPT Cloud (FCI) networking system provides a comprehensive solution for enterprises — enabling you to build and manage network infrastructure from traditional models to Virtual Private Cloud (VPC) or the No-gateway model.
 

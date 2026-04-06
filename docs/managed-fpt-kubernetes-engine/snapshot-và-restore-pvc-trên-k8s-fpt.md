@@ -1,12 +1,12 @@
 ---
 id: "snapshot-và-restore-pvc-trên-k8s-fpt"
-title: "Snapshot Và Restore Pvc TrêN K8s Fpt"
+title: Snapshot and Restore Persistent Volume on Kubernetes
 description: "Tổng quan về tính năng snapshot và restore PVC trong FPT Cloud Managed Kubernetes."
-sidebar_label: "Snapshot Và Restore Pvc TrêN K8s Fpt"
+sidebar_label: Snapshot and Restore Persistent Volume on Kubernetes
 sidebar_position: "45"
 ---
 
-# Snapshot và restore persistent volume trong Kubernetes
+# Snapshot and Restore Persistent Volume on Kubernetes
 
 FPT Cloud Managed Kubernetes Engine (M-FKE) hỗ trợ tạo snapshot và restore Persistent Volume Claim (PVC).
 

@@ -6,7 +6,7 @@ sidebar_label: "標準データフォーマットの選択"
 sidebar_position: "11"
 ---
 
-# Standard Select Data Format
+# 標準データフォーマットの選択
 
 Only select data format when you choose **test suite = standard**  
 | Supported data format  | Supported file format  | Supported file size  |  

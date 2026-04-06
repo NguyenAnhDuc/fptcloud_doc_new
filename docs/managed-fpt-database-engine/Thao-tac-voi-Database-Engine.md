@@ -1,12 +1,12 @@
 ---
 id: "Thao-tac-voi-Database-Engine"
-title: "Thao tac voi Database Engine"
+title: Work with Database Engine
 description: "**Bước 1:** Xem danh sách database cluster"
-sidebar_label: "Thao tac voi Database Engine"
+sidebar_label: Work with Database Engine
 sidebar_position: "10"
 ---
 
-# Thao tác với Database Engine
+# Work with Database Engine
 
 **Bước 1:** Xem danh sách database cluster
 · Status = **Running** : Database Engine đã tạo thành công

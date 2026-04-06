@@ -6,7 +6,7 @@ sidebar_label: "Phân tích chi phí"
 sidebar_position: 1
 ---
 
-# Cost Explorer
+# Phân tích chi phí
 
 Cost Explorer giúp bạn phân tích và theo dõi chi phí dịch vụ trên FPT Cloud theo nhiều chiều — theo dịch vụ, theo loại tài nguyên, theo VPC hoặc theo tag. Tính năng này đặc biệt hữu ích khi bạn cần kiểm soát chi phí cloud và tối ưu hóa ngân sách.
 

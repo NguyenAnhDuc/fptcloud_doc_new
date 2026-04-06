@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cài đặt GPU Driver trên Kubernetes"
 sidebar_position: 10
 ---
 
-# Copyright 2023 FPT Cloud - PaaS
+# Hướng dẫn cài đặt GPU Driver trên Kubernetes
 
 Người dùng có thể tự cài đặt GPU Driver mong muốn trên cụm FPT Kubernetes Engine tích hợp GPU.
 Các bước thực hiện như sau:

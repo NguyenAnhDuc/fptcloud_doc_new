@@ -6,7 +6,7 @@ sidebar_label: "model バージョンの作成"
 sidebar_position: 17
 ---
 
-# Create a model version
+# model バージョンの作成
 
 AI Marketplace 
 AI Studio 

@@ -4,7 +4,7 @@ title: "OIDC設定の有効化/無効化"
 sidebar_label: "OIDC有効化/無効化"
 ---
 
-# Enable/disable OIDC
+# OIDC設定の有効化/無効化
 
 1. Tại màn hình **Security & Access** > **OIDC Scope**, nhấn **Enable OIDC Config**.
 

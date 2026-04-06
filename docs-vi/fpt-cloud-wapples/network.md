@@ -1,12 +1,12 @@
 ---
 id: "network"
-title: "Các phương thức quản trị mạng truy cập inbound và outbound của Wapple"
+title: Quản trị mạng truy cập
 description: "Các phương thức quản trị mạng truy cập inbound và outbound của Wapple"
-sidebar_label: "Các phương thức quản trị mạng truy cập inbound và outbound của Wapple"
+sidebar_label: Quản trị mạng truy cập
 sidebar_position: 42
 ---
 
-# Network
+# Quản trị mạng truy cập
 
 Các phương thức quản trị mạng truy cập inbound và outbound của Wapple
   * Management Route [![file](/img/migrated/image-1714117198891-6f8acc4a.png)](/img/migrated/image-1714117198891-6f8acc4a.png)

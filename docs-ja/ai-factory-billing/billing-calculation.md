@@ -6,7 +6,7 @@ sidebar_label: "課金計算"
 sidebar_position: 9
 ---
 
-# Billing calculation
+# 課金計算
 
 We now support using credits for these services: 
   1. GPU Container

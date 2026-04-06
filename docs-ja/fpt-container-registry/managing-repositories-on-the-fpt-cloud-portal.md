@@ -6,7 +6,7 @@ sidebar_position: "8"
 description: "FPT Container Registry"
 ---
 
-# Managing repositories on FPT Cloud Portal
+# FPT Container Registry
 
 Manage container image repositories, scan images, and configure retention rules on FPT Portal.
 

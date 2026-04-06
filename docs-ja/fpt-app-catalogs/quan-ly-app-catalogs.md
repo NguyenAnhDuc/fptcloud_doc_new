@@ -6,6 +6,6 @@ sidebar_position: "6"
 description: "Quản lý App Catalog theo repository và deploy chart tới cluster."
 ---
 
-# Quản lý App Catalogs
+# Quan Ly App Catalogs
 
 App Catalogs cho phép quản lý app catalog theo repository. FPT Cloud hỗ trợ deploy các app catalogs thuộc repository chart của bitnami, grafana và chart do FPT cloud quản lý. Khách hàng có thể tìm kiếm chart và deploy chart tới cluster đã được thêm vào app catalog.

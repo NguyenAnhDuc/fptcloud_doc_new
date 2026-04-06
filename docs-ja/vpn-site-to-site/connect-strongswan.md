@@ -6,7 +6,7 @@ sidebar_label: "StrongSwanデバイスの接続"
 sidebar_position: "17"
 ---
 
-# RSA private key for this host, authenticating it to any other host
+# StrongSwanデバイスの接続
 
 この記事では、FPT Smart CloudのVPN Site-to-SiteサービスにVPN_S2S接続するルーターデバイスの構築方法を説明します。
   * [ステップ1: strongSwanの構築](../vpn-site-to-site/index.md)

@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cài đặt cảnh báo thông qua dịch vụ Cl
 sidebar_position: 36
 ---
 
-# Set_Alert
+# Hướng dẫn cài đặt cảnh báo thông qua dịch vụ Cloud Guard
 
 **Tích hợp dịch vụ Cloud Guard để thiết lập ngưỡng cảnh báo cho VPN** là chức năng cho phép người dùng cài đặt các ngưỡng giám sát (threshold) cho dịch vụ VPN. Khi hệ thống đạt hoặc vượt ngưỡng đã cấu hình, Cloud Guard sẽ gửi thông báo cảnh báo đến người dùng qua các kênh được thiết lập (Email, Telegram,...). 
 Để thực hiện chức năng, Quý khách thao tác theo hướng dẫn sau: 

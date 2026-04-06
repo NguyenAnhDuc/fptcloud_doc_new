@@ -6,7 +6,7 @@ sidebar_label: "デプロイメント一覧"
 sidebar_position: "6"
 ---
 
-# Deployment list
+# デプロイメント一覧
 
 **Step 1:** Go to **AI Platform → Model Serving → Deployment**
 [![Alt text](/img/migrated/10-4142972a.png)](/img/migrated/10-4142972a.png) The information is displayed in a table format, listing all Deployment clusters  

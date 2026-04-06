@@ -6,7 +6,7 @@ sidebar_label: "方法1: Allow Address Pair管理画面から削除する"
 sidebar_position: 5
 ---
 
-# Allow Address Pairの削除
+# 方法1: Allow Address Pair管理画面から削除する
 
 ## 方法1: Allow Address Pair管理画面から削除する
 

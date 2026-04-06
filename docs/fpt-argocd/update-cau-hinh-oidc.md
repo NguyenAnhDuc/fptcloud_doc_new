@@ -1,12 +1,12 @@
 ---
 id: "update-cau-hinh-oidc"
-title: "Update Cau Hinh Oidc"
+title: Update OIDC Configuration
 description: "ArgoCDの既存のOIDC設定を編集する方法。"
-sidebar_label: "Update Cau Hinh Oidc"
+sidebar_label: Update OIDC Configuration
 sidebar_position: "36"
 ---
 
-# OIDC configの更新
+# Update OIDC Configuration
 
 1. **Security & Access** > **OIDC Scope** 画面で、更新するOIDC configの **Edit** をクリックします。
 

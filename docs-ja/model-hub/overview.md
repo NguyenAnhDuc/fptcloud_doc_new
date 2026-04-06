@@ -6,7 +6,7 @@ sidebar_label: "概要"
 sidebar_position: 2
 ---
 
-# Overview
+# 概要
 
 AI Marketplace 
 AI Studio 

@@ -1,8 +1,8 @@
 ---
 id: "Quan-ly-Resource"
-title: "Quan ly Resource"
+title: Quản lý Resource
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Resource**"
-sidebar_label: "Quan ly Resource"
+sidebar_label: Quản lý Resource
 sidebar_position: 16
 ---
 

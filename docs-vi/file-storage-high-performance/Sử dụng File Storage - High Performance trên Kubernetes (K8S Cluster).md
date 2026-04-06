@@ -1,12 +1,12 @@
 ---
 id: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
-title: "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
+title: Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)
 description: "Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)"
-sidebar_label: "Sử DụNg File Storage   High Performance TrêN Kubernetes (K8S Cluster)"
+sidebar_label: Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)
 sidebar_position: "6"
 ---
 
-# File Storage – High Performance
+# Sử dụng File Storage - High Performance trên Kubernetes (K8S Cluster)
 
   * [ ![](/img/migrated/settings-131ed42a.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-b1e86145.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

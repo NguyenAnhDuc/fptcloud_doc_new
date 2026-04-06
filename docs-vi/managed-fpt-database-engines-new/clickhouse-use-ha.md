@@ -1,13 +1,13 @@
 ---
 id: "clickhouse-use-ha"
-title: "Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm ClickHouse?"
+title: ClickHouse - Sử dụng High Availability (HA)
 description: "**A:**"
-sidebar_label: "Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm ClickHouse?"
+sidebar_label: ClickHouse - Sử dụng High Availability (HA)
 sidebar_position: 47
 pagination_next: null
 ---
 
-# Clickhouse Use Ha
+# ClickHouse - Sử dụng High Availability (HA)
 
 ### Q1. Điều gì xảy ra khi bật High Availability (HA) cho cụm ClickHouse?
 **A:**

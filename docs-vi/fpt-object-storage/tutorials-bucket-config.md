@@ -1,12 +1,12 @@
 ---
 id: "tutorials-bucket-config"
-title: "A. Tạo Lifecycle Rule mới"
+title: Hướng dẫn cấu hình Bucket
 description: "**Versioning** là tính năng trong **FPT Object Storage** giúp lưu và quản lý nhiều phiên bản của một object. Khi tính nă"
-sidebar_label: "A. Tạo Lifecycle Rule mới"
+sidebar_label: Hướng dẫn cấu hình Bucket
 sidebar_position: 7
 ---
 
-# Tutorials Bucket Config
+# Hướng dẫn cấu hình Bucket
 
 ## Versioning
 **Versioning** là tính năng trong **FPT Object Storage** giúp lưu và quản lý nhiều phiên bản của một object. Khi tính năng này được bật, mỗi lần bạn cập nhật hoặc xóa object, một phiên bản mới sẽ được tạo ra và lưu trữ lại. Điều này cho phép bạn lưu trữ và khôi phục các phiên bản trước đó của object nếu cần thiết.

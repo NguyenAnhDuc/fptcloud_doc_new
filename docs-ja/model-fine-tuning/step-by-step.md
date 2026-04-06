@@ -6,7 +6,7 @@ sidebar_label: "ステップバイステップ"
 sidebar_position: "7"
 ---
 
-# Step By Step
+# ステップバイステップ
 
 After signing in to the FPT AI Factory Portal at at <https://ai.fptcloud.com/> or <https://ai.fptcloud.jp/>, follow the instruction below:
 

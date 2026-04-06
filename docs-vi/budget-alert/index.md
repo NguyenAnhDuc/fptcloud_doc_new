@@ -6,7 +6,7 @@ sidebar_label: "Cảnh báo ngân sách"
 sidebar_position: 1
 ---
 
-# Budget Alert
+# Cảnh báo ngân sách
 
 Budget Alert giúp bạn triển khai hệ thống cảnh báo ngân sách chủ động — theo dõi chi phí theo thời gian thực và nhận thông báo khi ngân sách đạt ngưỡng đã thiết lập. Tính năng này đặc biệt hữu ích khi bạn cần kiểm soát chi phí cloud theo kỳ ngày, tháng, quý hoặc năm.
 

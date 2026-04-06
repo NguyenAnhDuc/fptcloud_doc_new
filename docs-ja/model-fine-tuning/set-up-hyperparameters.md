@@ -6,7 +6,7 @@ sidebar_label: "ハイパーパラメータの設定"
 sidebar_position: "14"
 ---
 
-# Set Up Hyperparameters
+# ハイパーパラメータの設定
 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Hyperparameters.png)](https://fptcloud.com/wp-content/uploads/2025/02/Hyperparameters.png)
 Hyperparameters control how the model’s weights are updated during the training process. To make configuration easier, we categorize hyperparameters into **5 distinct groups** based on their function and relevance:

@@ -1,8 +1,8 @@
 ---
 id: "best-practice-manual-scaling"
-title: "Chi tiết quá trình manual scale in của hệ thống:"
+title: Hướng dẫn manual scaling
 description: "✨ D-FKE hỗ trợ manual scale in/scale out worker nodes, cho phép người dùng tăng/giảm số lượng worker theo nhu cầu thủ cô"
-sidebar_label: "Chi tiết quá trình manual scale in của hệ thống:"
+sidebar_label: Hướng dẫn manual scaling
 sidebar_position: 21
 ---
 

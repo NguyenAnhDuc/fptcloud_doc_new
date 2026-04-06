@@ -6,7 +6,7 @@ sidebar_label: "完了"
 sidebar_position: "16"
 ---
 
-# Finish
+# 完了
 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Finish.png)](https://fptcloud.com/wp-content/uploads/2025/02/Finish.png)
 Finally, you must enter a unique name pipeline (e.g., ft.pipeline_20250905235412) that satisfies the following conditions:

@@ -1,12 +1,12 @@
 ---
 id: "xoa-model"
-title: "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
+title: Xoá Model
 description: "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
-sidebar_label: "Mục đích: xóa 1 model khỏi danh sách các model đã tạo"
+sidebar_label: Xoá Model
 sidebar_position: 8
 ---
 
-# Xoa Model
+# Xoá Model
 
 Mục đích: xóa 1 model khỏi danh sách các model đã tạo 
 Để xóa model, bạn thực hiện theo các bước sau: Bước 1: Tại màn hình Model list, click vào title của Model mà bạn muốn xóa, màn hình đi đến màn Model detail 

@@ -1,8 +1,8 @@
 ---
 id: "notification"
-title: "1. Cấu hình nhận thông báo từ FPT Database Engine"
+title: Notification
 description: "Chức năng **Notification** giúp người dùng cấu hình nhận các thông báo về các sự kiện và trạng thái dịch vụ quan trọng l"
-sidebar_label: "1. Cấu hình nhận thông báo từ FPT Database Engine"
+sidebar_label: Notification
 sidebar_position: 38
 ---
 

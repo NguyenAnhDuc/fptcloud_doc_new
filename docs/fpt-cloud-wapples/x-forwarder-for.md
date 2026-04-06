@@ -1,12 +1,12 @@
 ---
 id: "x-forwarder-for"
-title: "X-Forwarded-For"
+title: X-Forwarded-For Header Configuration
 description: "Block or detect IPs based on the presence of the X-Forwarded-For header"
-sidebar_label: "X-Forwarded-For"
+sidebar_label: X-Forwarded-For Header Configuration
 sidebar_position: 19
 ---
 
-# X-Forwarded-For
+# X-Forwarded-For Header Configuration
 
 Includes the following features:
 

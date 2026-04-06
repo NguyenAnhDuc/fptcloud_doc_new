@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn sử dụng applicationset để deploy"
 sidebar_position: 49
 ---
 
-# Huong Dan Su Dung Applicationset De Deploy
+# Hướng dẫn sử dụng applicationset để deploy
 
 Để sử dụng chức năng liên quan đến applications set, sử dụng command để deploy và check applications Đăng nhập tới argocd server sử dụng cli
 

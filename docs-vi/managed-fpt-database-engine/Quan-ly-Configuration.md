@@ -1,8 +1,8 @@
 ---
 id: "Quan-ly-Configuration"
-title: "Quan ly Configuration"
+title: Quản lý Configuration
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Configuration**"
-sidebar_label: "Quan ly Configuration"
+sidebar_label: Quản lý Configuration
 sidebar_position: 17
 ---
 

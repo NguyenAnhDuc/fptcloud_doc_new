@@ -6,7 +6,7 @@ sidebar_label: "Bật/tắt PITR"
 sidebar_position: 29
 ---
 
-# On Off Pitr
+# Bật/tắt PITR
 
 Chức năng **Point-in-Time Recovery (PITR)** cho phép người dùng khôi phục cơ sở dữ liệu về một thời điểm cụ thể trong quá khứ, giúp đảm bảo tính liên tục và độ tin cậy của dữ liệu.
 Hiện tại, **FPT Cloud hỗ trợ PITR cho engine PostgreSQL**. Phần hướng dẫn này cung cấp các bước chi tiết để bật hoặc tắt chức năng PITR cho PostgreSQL.

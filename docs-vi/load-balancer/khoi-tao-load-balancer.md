@@ -6,7 +6,7 @@ sidebar_label: "Khởi tạo Load Balancer"
 sidebar_position: 4
 ---
 
-# Khoi Tao Load Balancer
+# Khởi tạo Load Balancer
 
 **Bước 1:** Ở menu chọn **Load Balancer > Load Balancer**, chọn **Create Load Balancer**
 **Bước 2:** Nhập thông tin cấu hình **Load Balancer** tại màn tạo mới

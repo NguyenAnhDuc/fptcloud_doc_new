@@ -6,7 +6,7 @@ sidebar_label: "Overview"
 sidebar_position: "2"
 ---
 
-# Model Testing – Interactive Sessions
+# Overview
 
 **Model Testing – Interactive Sessions** là dịch vụ trong FPT AI Factory Portal cho phép bạn kiểm thử và evaluate các model AI đã fine-tune trong môi trường tương tác trực tiếp dạng chat.
 

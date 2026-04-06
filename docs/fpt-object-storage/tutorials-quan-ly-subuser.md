@@ -1,12 +1,12 @@
 ---
 id: "tutorials-quan-ly-subuser"
-title: "Tutorials Quan Ly Subuser"
+title: Manage SubUsers on FPT Object Storage
 description: "**SubUser** là người dùng con được tạo trong FPT Object Storage với quyền truy cập giới hạn, giúp tăng cường bảo mật và "
-sidebar_label: "Tutorials Quan Ly Subuser"
+sidebar_label: Manage SubUsers on FPT Object Storage
 sidebar_position: "10"
 ---
 
-# Quản Lý SubUser Trên FPT Object Storage
+# Manage SubUsers on FPT Object Storage
 
 **SubUser** là người dùng con được tạo trong FPT Object Storage với quyền truy cập giới hạn, giúp tăng cường bảo mật và kiểm soát truy cập dữ liệu hiệu quả hơn.
 Tuỳ theo nhu cầu sử dụng, quản trị viên có thể gán cho SubUser các **role** với mức độ truy cập khác nhau.

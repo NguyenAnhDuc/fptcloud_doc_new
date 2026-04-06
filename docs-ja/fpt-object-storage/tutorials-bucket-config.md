@@ -6,7 +6,7 @@ sidebar_label: "Tutorials Bucket Config"
 sidebar_position: "7"
 ---
 
-# Bucket configuration
+# Tutorials Bucket Config
 
 ## Versioning
 **Versioning** is a feature that allows you to store and manage multiple versions of an object on **FPT Object Storage**. When versioning is enabled, a new version is created and stored every time you act (update or delete) on an object. You can use this feature to store and restore all versions of objects within a bucket.

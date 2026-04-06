@@ -6,7 +6,7 @@ sidebar_label: "Cap Nhat va xoa Backup job"
 sidebar_position: "13"
 ---
 
-# Cập nhật và xóa Backup Job
+# Cap Nhat va xoa Backup job
 
 Sau khi tạo một Full backup job hay Diff backup job, quý khách có thể cập nhật hoặc xóa lịch chạy một backup job
 **Bước 1** : Tại tab Fully backup job hoặc Diff backup job, chọn **Update job**

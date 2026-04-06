@@ -6,7 +6,7 @@ sidebar_label: "Đăng ký tài khoản FPT Console Portal"
 sidebar_position: 11
 ---
 
-# Register Account
+# Đăng ký tài khoản FPT Console Portal
 
 Để bắt đầu sử dụng FPT Console Portal, bạn cần đăng ký một tài khoản mới. Hãy làm theo các bước dưới đây để hoàn tất quá trình đăng ký.
 

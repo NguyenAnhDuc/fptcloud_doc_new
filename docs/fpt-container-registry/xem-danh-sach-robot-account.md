@@ -1,12 +1,12 @@
 ---
 id: "xem-danh-sach-robot-account"
-title: "Xem Danh Sach Robot Account"
-sidebar_label: "Xem Danh Sach Robot Account"
+title: View Robot Account List
+sidebar_label: View Robot Account List
 sidebar_position: "20"
 description: "Xem toàn bộ robot account đã tạo trên FPT Portal."
 ---
 
-# Xem danh sách robot account
+# View Robot Account List
 
 FPT Cloud hiển thị toàn bộ robot account đã tạo trên Portal, giúp bạn theo dõi trạng thái và quản lý quyền truy cập của từng account.
 

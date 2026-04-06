@@ -7,7 +7,7 @@ sidebar_position: 18
 pagination_next: null
 ---
 
-# Deactive Db Service
+# Huỷ kích hoạt dịch vụ FPT Database Engine
 
 Việc huỷ kích hoạt dịch vụ FPT Database Engine sẽ ngừng toàn bộ khả năng tạo và quản lý cơ sở dữ liệu trong phạm vi VPC đã chọn. **Thao tác này chỉ có thể thực hiện khi không còn cơ sở dữ liệu nào tồn tại trong VPC**. Các bước thực hiện như sau:
 

@@ -6,7 +6,7 @@ sidebar_label: "model の共有"
 sidebar_position: 25
 ---
 
-# Share a model
+# model の共有
 
 AI Marketplace 
 AI Studio 

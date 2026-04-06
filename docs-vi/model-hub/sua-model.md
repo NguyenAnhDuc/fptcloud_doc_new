@@ -1,12 +1,12 @@
 ---
 id: "sua-model"
-title: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
+title: Chỉnh sửa Model
 description: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
-sidebar_label: "Mục đích: chỉnh sửa lại các thông tin của Model đã tạo"
+sidebar_label: Chỉnh sửa Model
 sidebar_position: 7
 ---
 
-# Sua Model
+# Chỉnh sửa Model
 
 Mục đích: chỉnh sửa lại các thông tin của Model đã tạo 
 Để chỉnh sửa 1 Model đã tạo, bạn làm theo các bước sau: Bước 1: Tại màn hình Model list, click vào title của Model mà bạn cần chỉnh sửa, màn hình đi đến trang Model detail 

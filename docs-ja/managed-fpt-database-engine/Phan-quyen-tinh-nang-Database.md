@@ -6,7 +6,7 @@ sidebar_position: "6"
 description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
 ---
 
-# Phân quyền tính năng database
+# Phan Quyen Tinh Nang Database
 
 Cho phép tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup và các tính năng khác.
 

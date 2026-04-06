@@ -6,7 +6,7 @@ sidebar_label: "pipeline の作成方法"
 sidebar_position: "8"
 ---
 
-# How To Create Pipeline
+# pipeline の作成方法
 
 ### Step 1
   * **Select Base Model:**

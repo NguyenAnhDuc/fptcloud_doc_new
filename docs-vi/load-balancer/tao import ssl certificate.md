@@ -6,7 +6,7 @@ sidebar_label: "Tạo/Import SSL Certificate"
 sidebar_position: 34
 ---
 
-# Tao Import Ssl Certificate
+# Tạo/Import SSL Certificate
 
 **Bước 1** : Truy cập trang **Manage SSL Certificate for Load balancer** , chọn chức năng **Import SSL Certificate**.
 [![file](/img/migrated/image-1712807252615-cef0c042.png)](/img/migrated/image-1712807252615-cef0c042.png)

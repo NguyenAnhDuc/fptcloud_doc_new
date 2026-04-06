@@ -6,7 +6,7 @@ sidebar_label: "インフラのセットアップ"
 sidebar_position: "15"
 ---
 
-# Set Up Infrastructure
+# インフラのセットアップ
 
 We support both single-node and multi-node configurations, with a maximum of 16 nodes:
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Infrastructure.png)](https://fptcloud.com/wp-content/uploads/2025/02/Infrastructure.png)

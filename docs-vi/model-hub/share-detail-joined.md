@@ -1,12 +1,12 @@
 ---
 id: "share-detail-joined"
-title: "Các bước thực hiện:"
+title: Chi tiết chia sẻ (Đã tham gia)
 description: "Các bước thực hiện:"
-sidebar_label: "Các bước thực hiện:"
+sidebar_label: Chi tiết chia sẻ (Đã tham gia)
 sidebar_position: 17
 ---
 
-# Share Detail Joined
+# Chi tiết chia sẻ (Đã tham gia)
 
 Các bước thực hiện: 
 

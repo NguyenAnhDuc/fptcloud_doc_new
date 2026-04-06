@@ -6,7 +6,7 @@ sidebar_label: "ダッシュボード"
 sidebar_position: 5
 ---
 
-# FPT AppSec
+# ダッシュボード
 
   * [ ![](/img/migrated/images-331b7b32.png) リリースノート ](javascript: "リリースノート")
   * [ ![](/img/migrated/settings-f58a338e.png) 初期設定 ](javascript: "初期設定")

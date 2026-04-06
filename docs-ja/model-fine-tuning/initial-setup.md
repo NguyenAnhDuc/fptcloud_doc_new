@@ -6,7 +6,7 @@ sidebar_label: "初期設定"
 sidebar_position: 5
 ---
 
-# Initial Setup
+# 初期設定
 
 ### 1. For the user to sign a contract
   * **FPT クラウドアカウントの作成:** <https://id.fptcloud.com/> にアクセスし、[サインアップ]をクリックして、アカウント登録するために必要な情報を入力します。 

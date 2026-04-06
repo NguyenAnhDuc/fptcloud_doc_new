@@ -1,8 +1,8 @@
 ---
 id: "attach-a-network-card-to-the-virtual-machine"
-title: "仮想マシンへのNIC追加"
+title: 仮想マシンへのNIC（ネットワークカード）の追加
 description: "複数のSubnetに接続するために仮想マシンにネットワークカードを追加する方法。"
-sidebar_label: "仮想マシンへのNIC追加"
+sidebar_label: 仮想マシンへのNIC（ネットワークカード）の追加
 sidebar_position: 14
 ---
 

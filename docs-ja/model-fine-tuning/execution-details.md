@@ -6,7 +6,7 @@ sidebar_label: "実行詳細"
 sidebar_position: "23"
 ---
 
-# Execution Details
+# 実行詳細
 
 The Execution details page provides a comprehensive overview of a fine-tuning job. It includes metadata, configuration settings, and model output information.
 ![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Execution-Details.png)

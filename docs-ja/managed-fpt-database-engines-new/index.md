@@ -6,7 +6,7 @@ sidebar_label: "FPT Database Engineの概要"
 sidebar_position: 1
 ---
 
-# Managed – FPT Database Engines
+# FPT Database Engineの概要
 
 ## FPT Database Engineの概要
 

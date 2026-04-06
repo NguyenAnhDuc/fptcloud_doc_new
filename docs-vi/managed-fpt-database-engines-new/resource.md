@@ -6,7 +6,7 @@ sidebar_label: "Quản lý tài nguyên cụm cơ sở dữ liệu"
 sidebar_position: 32
 ---
 
-# Resource
+# Quản lý tài nguyên cụm cơ sở dữ liệu
 
 Tài nguyên của cụm cơ sở dữ liệu bao gồm Flavor (CPU – RAM) và dung lượng ổ đĩa dữ liệu (Data Disk Size).
 Chức năng **Quản lý tài nguyên cụm cơ sở dữ liệu** cho phép người dùng theo dõi và điều chỉnh các tài nguyên được cấp cho một cụm cơ sở dữ liệu, bao gồm CPU – RAM (Flavor), dung lượng ổ đĩa dữ liệu, và chính sách lưu trữ (Storage Policy), nhằm đáp ứng yêu cầu về hiệu năng và dung lượng trong quá trình vận hành.

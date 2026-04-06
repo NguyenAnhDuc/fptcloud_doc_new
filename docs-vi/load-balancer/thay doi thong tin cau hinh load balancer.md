@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi thông tin cấu hình Load Balancer"
 sidebar_position: 31
 ---
 
-# Thay Doi Thong Tin Cau Hinh Load Balancer
+# Thay đổi thông tin cấu hình Load Balancer
 
 Bạn có thể thay đổi thông tin cấu hình và gói sử dụng của **Load Balancer** đã tạo tại trang **Load Balancer details.**
 

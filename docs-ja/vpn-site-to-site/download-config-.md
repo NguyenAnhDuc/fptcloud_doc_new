@@ -4,7 +4,7 @@ title: "Download Config "
 sidebar_label: "Download Config "
 ---
 
-# Download VPN configuration
+# Download Config 
 
 Click **Download Config** to download the VPN configuration file. This file contains the configuration information needed for installing the VPN on the local side.
 

@@ -6,6 +6,6 @@ sidebar_label: "Router Groupの管理"
 sidebar_position: 11
 ---
 
-# Manage Router Group
+# Router Groupの管理
 
 This section covers managing **Router Groups** for **FPT Event Gateway**, including creating, viewing, updating, and deleting Router Group entries.

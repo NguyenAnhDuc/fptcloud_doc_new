@@ -1,8 +1,8 @@
 ---
 id: "vertical-scaling"
-title: "Quyền cần thiết:"
+title: Vertical Scaling
 description: "Chức năng **Vertical Scaling** cho phép tự động điều chỉnh tài nguyên của cơ sở dữ liệu bao gồm vCPU, RAM và Storage the"
-sidebar_label: "Quyền cần thiết:"
+sidebar_label: Vertical Scaling
 sidebar_position: 36
 ---
 

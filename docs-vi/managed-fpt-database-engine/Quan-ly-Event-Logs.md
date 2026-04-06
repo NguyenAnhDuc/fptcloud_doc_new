@@ -1,8 +1,8 @@
 ---
 id: "Quan-ly-Event-Logs"
-title: "Quan ly Event Logs"
+title: Quản lý Event Logs
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Event Logs**"
-sidebar_label: "Quan ly Event Logs"
+sidebar_label: Quản lý Event Logs
 sidebar_position: 19
 ---
 

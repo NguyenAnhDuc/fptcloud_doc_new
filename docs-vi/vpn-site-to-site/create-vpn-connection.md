@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn khởi tạo VPN Connection"
 sidebar_position: 26
 ---
 
-# Create Vpn Connection
+# Hướng dẫn khởi tạo VPN Connection
 
 Để khởi tạo VPN Connection, quý khách hàng cần thao tác theo hướng dẫn sau:
 **Bước 1** : Ở menu chọn Network, chọn tab **VPN Site-to-Site**.

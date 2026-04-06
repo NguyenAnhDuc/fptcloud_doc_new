@@ -6,7 +6,7 @@ sidebar_label: "Huong Dan Tich Hop K8s"
 sidebar_position: "9"
 ---
 
-# Kubernetes integration guide
+# Huong Dan Tich Hop K8s
 
 ## Step 1: Access the Monitoring feature
 

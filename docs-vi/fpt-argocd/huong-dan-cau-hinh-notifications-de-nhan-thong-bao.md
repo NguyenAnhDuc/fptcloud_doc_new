@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn cấu hình notifications để nhận thông bá
 sidebar_position: 50
 ---
 
-# Huong Dan Cau Hinh Notifications De Nhan Thong Bao
+# Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi
 
 **_1. Telegram_**
 Để thực hiện cấu hình thông báo tới telegram thực hiện các bước sau: Bước 1: Lấy API token sử dụng @Botfather. Sử dụng ứng dụng Telegram, tìm kiếm @BotFather

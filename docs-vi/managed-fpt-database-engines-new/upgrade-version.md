@@ -7,7 +7,7 @@ sidebar_position: 25
 pagination_next: null
 ---
 
-# Upgrade Version
+# Nâng cấp phiên bản cho cơ sở dữ liệu
 
 Tính năng **Nâng cấp phiên bản cho cơ sở dữ liệu** trong FPT Database Engine **hiện cho phép** người dùng **nâng cấp cơ sở dữ liệu thuộc loại MariaDB từ phiên bản hiện tại lên MariaDB 10.9**. Việc nâng cấp giúp bạn tận dụng các cải tiến về hiệu năng, bảo mật và tính năng mới của phiên bản cao hơn.
 

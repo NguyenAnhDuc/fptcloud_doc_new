@@ -5,7 +5,7 @@ sidebar_label: "WAPPLESのインバウンド・アウトバウンドネットワ
 sidebar_position: 42
 ---
 
-# Network
+# WAPPLESのインバウンド・アウトバウンドネットワーク管理
 
 WAPPLESのインバウンドおよびアウトバウンドのネットワークアクセスを管理する方法は以下のとおりです。
 

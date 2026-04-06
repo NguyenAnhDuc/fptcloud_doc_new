@@ -6,7 +6,7 @@ sidebar_label: "サードパーティとの統合設定情報"
 sidebar_position: 41
 ---
 
-# Integration
+# サードパーティとの統合設定情報
 
 サードパーティとの統合設定情報です。
   * SNMP Trap [![file](/img/migrated/image-1714117164466-135b04f1.png)](/img/migrated/image-1714117164466-135b04f1.png)

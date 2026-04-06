@@ -1,8 +1,8 @@
 ---
 id: "overview-affinity"
-title: "AffinityとAnti-Affinityの概要"
+title: AffinityとAnti-Affinityの概要
 description: "Affinity、Anti-Affinity、Soft Affinity、Soft Anti-Affinityポリシーについて学びます。"
-sidebar_label: "概要"
+sidebar_label: AffinityとAnti-Affinityの概要
 sidebar_position: 77
 ---
 

@@ -6,7 +6,7 @@ sidebar_label: "Trainer の選択"
 sidebar_position: "10"
 ---
 
-# Select Trainer
+# Trainer の選択
 
 Select the appropriate trainer - which guides the model you select for training. 
 [![Alt text](https://fptcloud.com/wp-content/uploads/2025/02/Trainer.png)](https://fptcloud.com/wp-content/uploads/2025/02/Trainer.png)

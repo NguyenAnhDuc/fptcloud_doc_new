@@ -6,7 +6,7 @@ sidebar_position: "14"
 description: "FPT Key VaultのAuth Method管理の概要"
 ---
 
-# Auth Method管理
+# Auth Method Management
 
 Auth MethodはアプリケーションまたはユーザーがVaultで認証してSecretのアクセストークンを取得する方法を定義します。FPT Key VaultはAppRole Auth Methodをサポートしており、マシン間認証に適しています。このセクションでAuth MethodとRoleの作成を行います。
 

@@ -6,7 +6,7 @@ sidebar_position: "4"
 description: "Tổng quan về quản lý queues trong FPT Message Bus for RabbitMQ."
 ---
 
-# Quản lý queues
+# Quan Ly Queues
 
 Queue là hàng đợi lưu trữ message cho đến khi consumer nhận. FPT Message Bus for RabbitMQ cho phép bạn tạo, xem, gửi/nhận message và xóa queue trực tiếp từ giao diện quản lý.
 

@@ -6,7 +6,7 @@ sidebar_position: "5"
 description: "Vault Instance内にSecret Engineを新規作成する方法"
 ---
 
-# Secret Engineを作成する
+# Create Secret Engine
 
 Secret EngineはVault内でSecretを保存・管理するコンポーネントです。各Secret Engineは固有のマウントポイントを持ち、Key/Value形式の複数のSecretを格納できます。
 

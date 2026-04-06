@@ -7,7 +7,7 @@ sidebar_position: 52
 pagination_next: null
 ---
 
-# Huong Dan Tich Hop Argocd Images Updater
+# Hướng dẫn tích hợp Argo CD Images Updater
 
 Trong phần này sẽ hướng dẫn người dùng deploy ứng dụng trên ArgoCD sử dụng Images Updater. Để sử dụng tính năng Argo CD Images updater, người dùng thực hiện enable service thông qua portal, thực hiện cấu hình các thông tin để xác thực cần dùng như secret/secret registry/Container registry theo hướng dẫn tại mục 5.5
 Chuẩn bị:

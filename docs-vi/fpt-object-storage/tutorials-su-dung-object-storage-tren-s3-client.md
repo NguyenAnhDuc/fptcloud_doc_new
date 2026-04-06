@@ -6,7 +6,7 @@ sidebar_label: "Sử dụng Object Storage trên S3 Browser"
 sidebar_position: 11
 ---
 
-# Tutorials Su Dung Object Storage Tren S3 Client
+# Sử dụng Object Storage trên S3 Browser
 
 Ngoài việc sử dụng trực tiếp trên FPT Portal, bạn có thể đăng nhập và sử dụng trên tất cả các S3-SDK hoặc S3-Client khác theo chuẩn AWS S3.
 Dưới đây là hướng dẫn sử dụng trên **S3 Browser** , một client cơ bản với GUI trực quan, dễ dàng tiếp cận nhất. FPT Cloud khuyến khích bạn nên sử dụng ứng dụng này vì nó là phần mềm miễn phí, phổ biến và hỗ trợ đầy đủ chức năng.

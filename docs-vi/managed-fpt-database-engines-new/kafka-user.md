@@ -6,7 +6,7 @@ sidebar_label: "Apache Kafka - Quản lý Kafka ACL"
 sidebar_position: 34
 ---
 
-# Kafka User
+# Apache Kafka - Quản lý Kafka ACL
 
 Kafka user cho phép các ứng dụng và dịch vụ xác thực vào Kafka cluster thông qua các cơ chế SASL. Kafka user được quản lý ở cấp độ cụm trong FPT Database Engine và thường được sử dụng bởi producer, consumer và Kafka Connect.
 Tính năng **Quản lý Kafka user** là tính năng **chỉ áp dụng cho engine Kafka** , cho phép quản trị viên xem, tạo và cập nhật Kafka user. Tính năng này thường được sử dụng để:

@@ -1,8 +1,8 @@
 ---
 id: "how-to-manage-job"
-title: "How To Manage Job"
+title: テストジョブの管理方法
 description: "How To Manage Job — Model Testing上の機能。"
-sidebar_label: "How To Manage Job"
+sidebar_label: テストジョブの管理方法
 sidebar_position: "17"
 ---
 

@@ -6,7 +6,7 @@ sidebar_label: "Thực hiện cấu hình Webhook với webhook secret đã đư
 sidebar_position: 45
 ---
 
-# Thuc Hien Cau Hinh Webhook Voi Webhook Secret Da Duoc Tao
+# Thực hiện cấu hình Webhook với webhook secret đã được tạo
 
 **Bước 1:** Cấu hình webhook trên Gitlab
 Vào **Gitlab Repository** > **Settings** > **Webhooks:** [![](/img/migrated/Picture84-2-d82f0925.png)](/img/migrated/Picture84-2-d82f0925.png)  

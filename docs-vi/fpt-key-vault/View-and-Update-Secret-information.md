@@ -6,7 +6,7 @@ sidebar_position: "9"
 description: "SecretのKey/Value値を表示・更新する方法"
 ---
 
-# Secret情報を表示・更新する
+# View And Update Secret Information
 
 PortalインターフェースからいつでもSecret値を表示・編集できます。変更を保存するたびに新しいバージョンが作成され、更新履歴が保持されます。
 

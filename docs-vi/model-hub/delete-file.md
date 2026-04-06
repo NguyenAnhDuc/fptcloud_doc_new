@@ -1,12 +1,12 @@
 ---
 id: "delete-file"
-title: "Mục đích: Xoá các tệp tương ứng với version"
+title: Xoá tệp
 description: "Mục đích: Xoá các tệp tương ứng với version"
-sidebar_label: "Mục đích: Xoá các tệp tương ứng với version"
+sidebar_label: Xoá tệp
 sidebar_position: 14
 ---
 
-# Delete File
+# Xoá tệp
 
 Mục đích: Xoá các tệp tương ứng với version 
 Các bước thực hiện: 

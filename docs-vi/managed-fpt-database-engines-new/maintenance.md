@@ -6,7 +6,7 @@ sidebar_label: "Bảo trì dịch vụ"
 sidebar_position: 8
 ---
 
-# Maintenance
+# Bảo trì dịch vụ
 
 **Bảo trì định kỳ** là một phần **bắt buộc** của dịch vụ FPT Database Engine, nhằm duy trì trạng thái hoạt động lành mạnh cho cơ sở dữ liệu. Đây là thành phần cốt lõi của dịch vụ quản lý và **không phải là tính năng tùy chọn**.
 Thông qua bảo trì định kỳ, hệ thống đảm bảo:

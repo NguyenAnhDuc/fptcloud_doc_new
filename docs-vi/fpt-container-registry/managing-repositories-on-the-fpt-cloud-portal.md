@@ -1,12 +1,12 @@
 ---
 id: "managing-repositories-on-the-fpt-cloud-portal"
-title: "FPT Container Registry"
-sidebar_label: "FPT Container Registry"
+title: Quản lý Repositories trên FPT Cloud Portal
+sidebar_label: Quản lý Repositories trên FPT Cloud Portal
 sidebar_position: "8"
 description: "FPT Container Registry"
 ---
 
-# Managing repositories on FPT Cloud Portal
+# Quản lý Repositories trên FPT Cloud Portal
 
 Manage container image repositories, scan images, and configure retention rules on FPT Portal.
 

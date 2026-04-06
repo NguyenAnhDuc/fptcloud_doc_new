@@ -6,7 +6,7 @@ sidebar_position: "15"
 description: "アプリケーションをVaultに認証させるAuth Methodを新規作成する方法"
 ---
 
-# Auth Methodを作成する
+# Create Auth Method
 
 Auth MethodはアプリケーションまたはユーザーがVaultで認証してSecretのアクセストークンを取得する方法を定義します。FPT Key VaultはAppRoleタイプをサポートしており、マシン間認証に適しています。
 

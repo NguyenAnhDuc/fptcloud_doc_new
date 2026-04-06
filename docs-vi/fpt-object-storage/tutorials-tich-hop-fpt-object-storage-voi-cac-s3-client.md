@@ -6,7 +6,7 @@ sidebar_label: "Tích hợp FPT Object Storage với các S3-Client"
 sidebar_position: 12
 ---
 
-# Tutorials Tich Hop Fpt Object Storage Voi Cac S3 Client
+# Tích hợp FPT Object Storage với các S3-Client
 
 FPT Object Storage hỗ trợ tích hợp vào các S3-SDK hoặc S3-Client tuân theo chuẩn AWS S3. Điều này cho phép bạn sử dụng các công cụ và thư viện phổ biến để tương tác với dữ liệu trên bucket của mình.
 

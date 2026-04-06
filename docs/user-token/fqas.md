@@ -1,12 +1,12 @@
 ---
 id: "fqas"
-title: "Fqas"
+title: Frequently Asked Questions
 description: "Câu hỏi thường gặp về tính năng Token trên FPT Cloud Portal"
-sidebar_label: "Fqas"
+sidebar_label: Frequently Asked Questions
 sidebar_position: "5"
 ---
 
-# Câu hỏi thường gặp
+# Frequently Asked Questions
 
 **1. Tại sao một số token không thể thu hồi được?**
 

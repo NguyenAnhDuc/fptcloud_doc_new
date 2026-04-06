@@ -6,7 +6,7 @@ sidebar_label: "Hướng dẫn deploy một applications với kustomize sử d�
 sidebar_position: 46
 ---
 
-# Huong Dan Deploy Mot Appliations Voi Kustomize Su Dung Build Options
+# Hướng dẫn deploy một applications với kustomize sử dụng build options
 
 Tương tự với việc deploy một applications với manifest, để deploy một ứng dụng sử dụng kustomize cần thực hiện các bước tương tự như mục 5.8.2 trong Documentations.
 **Bước 1:** Chuẩn bị một Repository để deploy ứng dụng. Trong phần demo này, deploy một số ứng dụng lên k8s bao gồm: thành phần ỉngress controller, argocd-rollout và applications

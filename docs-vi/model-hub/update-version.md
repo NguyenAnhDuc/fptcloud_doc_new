@@ -1,12 +1,12 @@
 ---
 id: "update-version"
-title: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
+title: Cập nhật phiên bản
 description: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
-sidebar_label: "Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo"
+sidebar_label: Cập nhật phiên bản
 sidebar_position: 10
 ---
 
-# Update Version
+# Cập nhật phiên bản
 
 Mục đích: Cho phép người dùng chỉnh sửa lại 1 version đã tạo
 

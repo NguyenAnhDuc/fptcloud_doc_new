@@ -6,7 +6,7 @@ sidebar_label: "CheckPoint R81.20デバイスの接続"
 sidebar_position: "19"
 ---
 
-# Connect Checkpoint R8120
+# CheckPoint R81.20デバイスの接続
 
 **この記事では、FPT Smart CloudのVPN Site-to-SiteサービスにVPN_S2S接続するルーターデバイスの構築方法を説明します。**
   * [ステップ1: Cloud向けCheckPointの構築](../vpn-site-to-site/index.md)

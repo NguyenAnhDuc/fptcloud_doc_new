@@ -6,7 +6,7 @@ sidebar_label: "デプロイメント設定"
 sidebar_position: "8"
 ---
 
-# Deployment configuration
+# デプロイメント設定
 
 Go to AI Platform --> Model Serving --> Deployment --> Deployment Name --> Deployment Settings
 [![Alt text](/img/migrated/13-de89c5f6.png)](/img/migrated/13-de89c5f6.png)  

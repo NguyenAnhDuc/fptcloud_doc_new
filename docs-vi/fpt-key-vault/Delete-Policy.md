@@ -6,7 +6,7 @@ sidebar_position: "13"
 description: "使用しなくなったPolicyを削除する方法"
 ---
 
-# Policyを削除する
+# Delete Policy
 
 アクセスルールが不要になったPolicyを削除します。削除前に、このPolicyが現在アクティブなRoleに割り当てられていないことを確認してください。
 

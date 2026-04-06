@@ -6,7 +6,7 @@ sidebar_label: "Khôi phục cơ sở dữ liệu"
 sidebar_position: 30
 ---
 
-# Restore Db
+# Khôi phục cơ sở dữ liệu
 
 Chức năng **Restore** và **Point-in-Time Recovery (PITR)** cho phép người dùng phục hồi cơ sở dữ liệu từ các bản sao lưu hoặc khôi phục cơ sở dữ liệu về một thời điểm cụ thể trong quá khứ. Các hướng dẫn trong mục này giúp người dùng thực hiện quá trình khôi phục dữ liệu một cách chính xác, an toàn và hiệu quả, đồng thời đảm bảo tính toàn vẹn của dữ liệu.
 Khi thực hiện **Restore** hoặc **PITR** , hệ thống sẽ **tạo một database cluster mới** và **không ghi đè lên cluster hiện tại**.

@@ -6,7 +6,7 @@ sidebar_label: "Clone dữ liệu giữa hai bucket khác nhau"
 sidebar_position: 18
 ---
 
-# Clone Du Lieu Giua Hai Bucket Khac Nhau
+# Clone dữ liệu giữa hai bucket khác nhau
 
 Trong trường hợp chuyển môi trường S3 từ nhà cung cấp khác đến S3 của FPT Smart Cloud hoặc sử dụng song song giữa 2 môi trường S3, chúng ta có thể sử dụng công cụ **Rclone** hoặc **s3sync** để giúp quá trình clone dữ liệu được tiến hành thuận tiện hơn. Đặt trường hợp ta đang sử dụng S3 Site01 và có ý định sẽ chuyển qua S3 Site02 và muốn clone dữ liệu từ bucket ở Site01 qua Site02. Để thực hiện điều này, FPT Smart Cloud hướng dẫn thực hiện trên các hệ điều hành như sau:
 

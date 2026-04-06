@@ -6,7 +6,7 @@ sidebar_label: "初期設定"
 sidebar_position: "3"
 ---
 
-# Initial setup
+# 初期設定
 
 **_If this is your first time using FPT Model Serving, first check and complete the following tasks:_**
   1. **Create an FPT Cloud account and log in to FPT Portal**

@@ -6,7 +6,7 @@ sidebar_label: "セキュリティプロファイルの編集"
 sidebar_position: "9"
 ---
 
-# Edit Security Profile
+# セキュリティプロファイルの編集
 
 Change the connection Security Profile for an existing VPN.
 

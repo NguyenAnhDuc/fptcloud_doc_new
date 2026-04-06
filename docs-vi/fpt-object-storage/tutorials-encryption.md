@@ -1,13 +1,13 @@
 ---
 id: "tutorials-encryption"
-title: "Cách Hoạt Động Của SSE-C"
+title: Mã hóa dữ liệu Object Storage (SSE-C)
 description: "**Server-Side Encryption with Customer-Provided Keys (SSE-C)** là một tính năng trong **FPT Object Storage** giúp tăng c"
-sidebar_label: "Cách Hoạt Động Của SSE-C"
+sidebar_label: Mã hóa dữ liệu Object Storage (SSE-C)
 sidebar_position: 8
 pagination_next: null
 ---
 
-# Tutorials Encryption
+# Mã hóa dữ liệu Object Storage (SSE-C)
 
 ## Server-Side Encryption with Customer-Provided Keys (SSE-C)
 **Server-Side Encryption with Customer-Provided Keys (SSE-C)** là một tính năng trong **FPT Object Storage** giúp tăng cường bảo mật dữ liệu của bạn bằng cách sử dụng các khóa mã hóa do khách hàng cung cấp. Dưới đây là cách hoạt động và các điểm quan trọng của tính năng này:

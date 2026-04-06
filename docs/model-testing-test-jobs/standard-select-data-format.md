@@ -1,12 +1,12 @@
 ---
 id: "standard-select-data-format"
-title: "Standard Select Data Format"
+title: Standard - Select Data Format
 description: "Only select data format when you choose **test suite = standard**"
-sidebar_label: "Standard Select Data Format"
+sidebar_label: Standard - Select Data Format
 sidebar_position: "11"
 ---
 
-# Standard - Chọn Định dạng Dữ liệu
+# Standard - Select Data Format
 
 Chỉ chọn định dạng dữ liệu khi bạn chọn **test suite = standard**  
 | Định dạng dữ liệu hỗ trợ  | Định dạng file hỗ trợ  | Kích thước file hỗ trợ  |  

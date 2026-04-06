@@ -6,7 +6,7 @@ sidebar_position: "6"
 description: "使用しなくなったSecret Engineを削除する方法"
 ---
 
-# Secret Engineを削除する
+# Delete Secret Engine
 
 不要になったSecret Engineを削除してリソースを解放します。この操作により、Secret Engine内に保存されているすべてのSecretが削除されます。
 

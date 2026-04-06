@@ -6,7 +6,7 @@ sidebar_label: "Cấu hình VPN Site-to-Site với CheckPoint R81.20"
 sidebar_position: 19
 ---
 
-# Connect Checkpoint R8120
+# Cấu hình VPN Site-to-Site với CheckPoint R81.20
 
 **Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud.**
   * [Bước 1: Build CheckPoint for Cloud](../vpn-site-to-site/index.md)

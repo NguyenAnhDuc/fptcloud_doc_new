@@ -6,7 +6,7 @@ sidebar_label: "Thay đổi Flavor (cấu hình) Nodes"
 sidebar_position: 13
 ---
 
-# Thay đổi flavor cấu hình nodes
+# Thay đổi Flavor (cấu hình) Nodes
 
 **Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**.
 [![](/img/migrated/Picture30-c657a04c.png)](/img/migrated/Picture30-c657a04c.png)
