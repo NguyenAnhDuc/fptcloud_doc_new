@@ -8,20 +8,14 @@ sidebar_position: 91
 
 # Instance Scheduleの詳細確認
 
-## 詳細の確認
+**手順1**: **Instance Schedule Management** パネルでInstance Schedule名をクリックし、**Instance Schedule Detail** ページにアクセスします。
 
-1. **Instance Schedule Management** でスケジュール名をクリックします。
+![Instance Scheduleの選択](images/view-detail-instance/img-001.png)
 
-   [![スケジュールの選択](/img/migrated/image-1695609011987-33ef2b1d.png)](/img/migrated/image-1695609011987-33ef2b1d.png)
+**手順2**: **Overview** セクションでInstance Scheduleの詳細情報を確認します。表示される項目は、Name、Description、Start & Stop time、Start & End date、Frequency、およびアタッチされているインスタンス名です。
 
-2. **Overview** タブには、Name、description、start/stop time、start/end date、frequency、アタッチされたインスタンスの一覧が表示されます。
+![Overviewタブ](images/view-detail-instance/img-002.png)
 
-   [![Overviewタブ](/img/migrated/image-1695609025652-03872f17.png)](/img/migrated/image-1695609025652-03872f17.png)
+**手順3**: **Attached instances** セクションでInstance Scheduleの詳細情報を確認します。アタッチされているインスタンスの一覧と、各インスタンスの固有情報（Instance name、Instance status、Latest start time & status、Latest stop time & status）が表示されます。
 
-3. **Attached instances** タブには、インスタンス名、ステータス、最新の起動・停止時刻を含むインスタンスの一覧が表示されます。
-
-   [![Attached instancesタブ](/img/migrated/image-1695609035976-7b5310a1.png)](/img/migrated/image-1695609035976-7b5310a1.png)
-
-## 次のステップ
-
-- [ScheduleへのInstanceのアタッチ](./attach-schedule-to-instance.md)
+![Attached Instancesタブ](images/view-detail-instance/img-003.png)

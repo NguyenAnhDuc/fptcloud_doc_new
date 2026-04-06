@@ -1,22 +1,17 @@
 ---
 id: "deleteschedule-snapshotVM"
-title: "Delete an Instance Snapshot Schedule"
-description: "Delete an instance snapshot schedule when it is no longer needed."
-sidebar_label: "Delete Instance Snapshot Schedule"
+title: "Deleteschedule Snapshotvm"
+sidebar_label: "Delete a virtual machine snapshot schedule"
 sidebar_position: 99
-pagination_next: null
 ---
 
-# Delete an Instance Snapshot Schedule
+Delete a virtual machine snapshot schedule
 
-:::danger
-Deleting a schedule cannot be undone.
-:::
 
-1. In the **Instance snapshot schedule** tab, click **Action** → **Delete**.
+**Step 1:** On the Instance snapshot schedule tab, select the schedule name in the action section and choose Delete.
 
-   [![Action Delete menu](/img/migrated/image-1766044656234-60e74535.png)](/img/migrated/image-1766044656234-60e74535.png)
+![file](images/deleteschedule-snapshotVM/img-001.png)
 
-2. Type **delete**, then click **Delete schedule**.
+**Step 2:** A warning dialog will appear, displaying the schedule name and asking the user to confirm. Type the word "delete" and click **Delete schedule** to proceed. The system will then completely remove the schedule, and any virtual machines that are currently attached (if any) will be released and retain their current status.
 
-   [![Confirm delete](/img/migrated/image-1766044682783-06bae7dc.png)](/img/migrated/image-1766044682783-06bae7dc.png)
+![file](images/deleteschedule-snapshotVM/img-002.png)

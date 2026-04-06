@@ -1,20 +1,11 @@
 ---
 id: "instance-schedule"
-title: "インスタンスの自動起動・停止スケジュール"
-description: "FPT Cloud Serverでインスタンスを自動的に起動・停止するスケジュールを作成します。"
-sidebar_label: "インスタンス起動・停止スケジュール"
+title: "Instance Schedule"
+sidebar_label: "仮想マシンの自動スケジュール（ON/OFF）"
 sidebar_position: 88
 ---
 
-# インスタンスの自動起動・停止スケジュール
+Auto schedule to on-off Instance
 
-Instance Scheduleを使用すると、スケジュールに従ってインスタンスを自動的に起動・停止できます。24時間365日稼働が不要なインスタンスのコストを削減できます。
 
-## ガイド
-
-- [Instance Scheduleの概要](./schedule-overview.md)
-- [新しいInstance Scheduleの作成](./create-new-instance.md)
-- [Instance Scheduleの詳細確認](./view-detail-instance.md)
-- [ScheduleへのInstanceのアタッチ](./attach-schedule-to-instance.md)
-- [ScheduleからのInstanceのデタッチ](./detach-schedule-to-instance.md)
-- [Instance Scheduleの削除](./delete-instance-schedule.md)
+スケジュール内のすべての仮想マシンのシャットダウン・起動アクションが完了するまで、選択したstart timeまたはstop timeから最大15分かかる場合があります。そのため、すべての仮想マシンを特定の時刻までに確実にオン・オフする必要がある場合は、必要な時刻より少なくとも15分早くスケジュールを設定し、各スケジュールの間隔を少なくとも15分空けてください。スケジュールは一度作成すると、時刻・頻度などのタイミング設定は編集できません。変更できるのはスケジュールに割り当て・解除する仮想マシンの情報のみです。そのため、スケジュールを変更したい場合は、現在のスケジュールを削除して新しいスケジュールを作成してください。システムでは、選択したstart time・stop timeの少なくとも1時間前にスケジュールを作成する必要があります。1時間のduration内では、シャットダウンまたは起動のいずれか1つのアクションのみ設定できます。

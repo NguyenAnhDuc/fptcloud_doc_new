@@ -1,78 +1,74 @@
 ---
 id: "tutorials-ket-noi-vao-may-ao-linux"
 title: "Kết nối vào máy ảo Linux"
-description: "Kết nối vào máy ảo Linux qua Web Console, SSH Client hoặc PuTTY/Bitvise."
 sidebar_label: "Kết nối vào máy ảo Linux"
 sidebar_position: 13
 ---
 
 # Kết nối vào máy ảo Linux
 
-Khi máy ảo Linux (Ubuntu, CentOS, Debian) được tạo thành công, bạn có thể truy cập qua **Web Console** (mặc định) hoặc **SSH Client** / **PuTTY** / **Bitvise** (nếu máy ảo có Floating IP).
 
-## Kết nối bằng Web Console
+Khi một máy ảo nhân Linux (Ubuntu, CentOS, Debian) được tạo thành công trên FPT Portal, người dùng mặc định có thể dùng Web Console được cung cấp sẵn để truy cập.
 
-Web Console hỗ trợ điều khiển tất cả máy ảo Linux trên FPT Cloud, kể cả máy chưa có Public IP.
+Ngoài ra người dùng còn có thể đăng nhập từ bên ngoài bằng các SSH Client hoặc phần mềm bên thứ 3 như PuTTY, Bitvise.
 
-1. Tại **Instance Management**, chọn máy ảo cần kết nối, nhấn **Actions** → **Console**.
+## Kết nối vào máy ảo Linux bằng Web Console
+**Web Console** hỗ trợ điều khiển tất cả các máy ảo **Linux** trên **FPT Cloud**, kể cả máy ảo chưa được gắn với **Public IP**.
 
-   [![Menu Actions với tùy chọn Console](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)
+Ở menu chọn **Instance Management**, trong phần **Actions** của máy ảo cần kết nối, chọn **Console**.
 
-Trình duyệt mở cửa sổ mới chứa màn hình máy chủ.
+![Userguide FPT Cloud Server 2022 22](images/tutorials-ket-noi-vao-may-ao-linux/img-001.png)
 
-[![Màn hình Web Console Linux](/img/migrated/Userguide-FPT-Cloud-Server-2022-28-6638a596.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-28-6638a596.png)
+Ngay lập tức trình duyệt sẽ mở 1 cửa sổ mới chứa màn hình của máy chủ, từ màn hình này người dùng có thể toàn quyền điều khiển và thao tác với máy chủ đang kết nối.
 
-## Cấu hình kết nối từ xa qua SSH
+![Userguide FPT Cloud Server 2022 28](images/tutorials-ket-noi-vao-may-ao-linux/img-002.png)
 
-Để kết nối bằng SSH Client, máy ảo cần có **Floating IP** và đã mở **port SSH** qua Security Group.
+## Cấu hình để kết nối tới máy ảo Linux từ xa
+Để kết nối vào các máy ảo nhân **Linux** (**Ubuntu**, **CentOS**,..) bằng **SSH Client**, **Bitvise**, **PuTTY**,... Máy ảo cần được gắn **Floating IP** và đã mở port **SSH** cho **SSH Connection**. **FPT Cloud** hỗ trợ mở port cho máy ảo bằng cách gắn một **Security Group**.
 
-1. Khởi tạo máy ảo Linux, gắn **Floating IP** và khởi chạy.
+**Bước 1**: Khởi tạo 1 máy ảo hệ điều hành **Linux**, gắn **Floating IP** theo hướng dẫn ở phần [**Quản lý Floating IP**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-floating-ip>) và khởi chạy.
 
-   [![Máy ảo Linux với Floating IP](/img/migrated/Userguide-FPT-Cloud-Server-2022-29-1024x-5490201f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-29-1024x-5490201f.png)
+![Userguide FPT Cloud Server 2022 29](images/tutorials-ket-noi-vao-may-ao-linux/img-003.png)
 
-2. Gắn **Security Group** đã mở port SSH vào máy ảo.
+**Bước 2**: Gắn vào máy ảo một **Security Group** đã mở port **SSH**, nếu chưa có **Security Group** có thể tạo mới theo hướng dẫn ở phần [**Quản lý Security Group**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>)
 
-   [![Security Group với port SSH](/img/migrated/image-1744794012514-cdf8c2ce.png)](/img/migrated/image-1744794012514-cdf8c2ce.png)
+![file](images/tutorials-ket-noi-vao-may-ao-linux/img-004.png)
 
-3. Kết nối bằng SSH Client với **Floating IP**, **Port SSH**, file **SSH Key** hoặc **Password**.
+**Bước 3**: Sau khi cấu hình thành công, người dùng có thể connect vào máy ảo từ các SSH Client bằng các thông tin: **Floating IP**, **Port SSH**, file **SSH Key** hoặc **Password.**
 
-## Kết nối bằng SSH Client (CMD/PowerShell)
+Nếu vẫn không thể kết nối được, người dùng nên kiểm tra lại máy ảo đã bật chưa, Floating IP có chính xác không và mở lại port **SSH** theo các hướng dẫn ở phần [**Quản lý Security Group**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>).
 
-1. Mở **CMD** hoặc **PowerShell** trên Windows.
+## Kết nối với máy ảo Linux bằng SSH Client
+Người dùng có thể dùng các SSH client có sẵn trên Windows như **cmd.exe**, **PowerShell** để SSH vào máy ảo.
 
-2. Kết nối bằng Password:
+**Bước 1:** Mở **CMD** hoặc **Power Shell** trên Windows.
 
-   ```bash
-   ssh <USERNAME>@<FLOATING_IP>
-   ```
+**Bước 2:** Nếu người dùng kết nối bằng **Password**, hãy sử dụng câu lệnh sau:
 
-   [![Kết nối SSH bằng Password](/img/migrated/Userguide-FPT-Cloud-Server-2022-32-88cbc1e0.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-32-88cbc1e0.png)
+`ssh <>@<>`
 
-   Kết nối bằng SSH Key:
+![Userguide FPT Cloud Server 2022 32](images/tutorials-ket-noi-vao-may-ao-linux/img-005.png)
 
-   ```bash
-   cd <ĐƯỜNG_DẪN_THƯ_MỤC_CHỨA_FILE_PEM>
-   ssh -i "<TÊN_FILE_KEY>" <USERNAME>@<FLOATING_IP>
-   ```
+Nếu kết nối thông qua cặp SSH Key, đầu tiên người dùng cần di chuyển đến thư mục chứa file **SSH key** bằng lệnh cd :
 
-   [![Di chuyển đến thư mục chứa SSH Key](/img/migrated/Userguide-FPT-Cloud-Server-2022-33-bf7c47a3.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-33-bf7c47a3.png)
+`cd <<Đường dẫn đến thư mục chứa file pem>>`
 
-3. Nếu lần đầu kết nối, nhập **yes** khi được nhắc xác minh Host fingerprint.
+![Userguide FPT Cloud Server 2022 33](images/tutorials-ket-noi-vao-may-ao-linux/img-006.png)
 
-   [![Xác minh Host fingerprint](/img/migrated/Userguide-FPT-Cloud-Server-2022-34-2185365d.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-34-2185365d.png)
+Sau đó kết nối đến máy ảo bằng câu lệnh:
 
-Kết nối thành công.
+`ssh -i "<>" << Username >>@<>`
 
-[![Kết nối SSH thành công](/img/migrated/Userguide-FPT-Cloud-Server-2022-35-35e7f42a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-35-35e7f42a.png)
+**Bước 3:** Nếu đây là lần đầu tiên kết nối đến máy ảo, người dùng sẽ được nhắc nhở xác minh **Hosts fingerprint**. Để đồng ý và tiếp tục kết nối, nhập **“yes”**
 
-:::tip
-Nếu gặp lỗi **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!**, xóa Host fingerprint đã lưu:
+![Userguide FPT Cloud Server 2022 34](images/tutorials-ket-noi-vao-may-ao-linux/img-007.png)
 
-```bash
-ssh-keygen -R "<FLOATING_IP>"
-```
-:::
+Đã kết nối thành công vào máy chủ bằng SSH client.
 
-## Bước tiếp theo
+![Userguide FPT Cloud Server 2022 35](images/tutorials-ket-noi-vao-may-ao-linux/img-008.png)
 
-- [Gắn thêm card mạng (NIC) vào máy ảo](./attach-a-network-card-to-the-virtual-machine.md)
+**Lưu ý:** Nếu người dùng gặp lỗi **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!**
+Hãy dùng câu lệnh sau để xóa Hosts fingerprint đã lưu trước đó và thao tác lại từ đầu
+`ssh-keygen -R "<>"`
+
+vào máy ảo")

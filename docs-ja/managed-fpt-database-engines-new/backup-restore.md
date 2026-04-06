@@ -1,65 +1,53 @@
 ---
 id: "backup-restore"
-title: "バックアップの種類"
-description: "FPT Database EngineのBackup & Restore機能は、誤削除、データエラー、システム障害などのリスクからデータを保護します。"
-sidebar_label: "バックアップの種類"
+title: "Các loại Backup"
+description: "Tính năng **Backup & Restore** trên FPT Database Engine giúp bảo vệ dữ liệu trước các rủi ro như xoá nhầm, lỗi dữ liệu h"
+sidebar_label: "Các loại Backup"
 sidebar_position: 26
 ---
 
-# バックアップの種類
+# Các loại Backup
 
-FPT Database Engineの**Backup & Restore**機能は、誤削除、データエラー、システム障害などのリスクからデータを保護します。プラットフォームは、自動バックアップ、バックアップからのデータ復元、およびサポートされているデータベースエンジン向けのPoint-in-Time Recoveryをサポートしています。
+Tính năng **Backup & Restore** trên FPT Database Engine giúp bảo vệ dữ liệu trước các rủi ro như xoá nhầm, lỗi dữ liệu hoặc sự cố hệ thống. Nền tảng hỗ trợ sao lưu tự động, khôi phục dữ liệu từ các bản sao lưu và khôi phục dữ liệu về một thời điểm cụ thể (Point-in-Time Recovery) đối với một số database engine được hỗ trợ.
 
-### バックアップ
+### Backup
+Backup là quá trình tạo bản sao dữ liệu của cơ sở dữ liệu tại một thời điểm xác định. Các bản backup được sử dụng để khôi phục dữ liệu khi xảy ra sự cố hoặc lỗi vận hành. Cơ chế backup được thiết kế nhằm bảo vệ dữ liệu, hỗ trợ khôi phục khi xảy ra sự cố và đáp ứng các yêu cầu về tuân thủ và bảo mật trong môi trường cloud.
+Chức năng Backup cho phép bạn thiết lập, vận hành và giám sát các hoạt động sao lưu cho cơ sở dữ liệu. Bạn có thể:
+  * Bật hoặc tắt dịch vụ backup cho cơ sở dữ liệu
+  * Quản lý lịch sao lưu (backup job)
+  * Theo dõi trạng thái thực thi thông qua giao diện quản lý tập trung.
 
-バックアップは、特定の時点でのデータベースデータのコピーを作成するプロセスです。バックアップは、インシデントや運用エラーが発生した際のデータ復元に使用されます。バックアップの仕組みは、データを保護し、障害発生時の復旧をサポートし、クラウド環境でのコンプライアンスとセキュリティ要件を満たすよう設計されています。
+Tính năng Backup khả dụng cho tất cả các loại engine do FPT cung cấp.
 
-バックアップ機能により、データベースのバックアップ活動の設定、運用、監視が可能です。以下のことができます。
+### Các loại Backup
+FPT Database Engine hỗ trợ 2 loại backup sau:
+  * **Full Backup** : Sao lưu toàn bộ dữ liệu của cơ sở dữ liệu.
+  * **Diff (Incremental) backup** : Sao lưu các thay đổi kể từ lần backup gần nhất, giúp giảm thời gian và dung lượng lưu trữ.
 
-- データベースのバックアップサービスを有効化/無効化する。
-- バックアップスケジュール（バックアップジョブ）を管理する。
-- 集中管理インターフェースを通じて実行状況を監視する。
+### Lưu trữ Backup
+Các bản backup được lưu trữ trên hệ thống storage độc lập, tách biệt hoàn toàn với database cluster nhằm đảm bảo độ bền dữ liệu (durability) và tính sẵn sàng khôi phục khi database cluster gặp sự cố.
 
-バックアップ機能は、FPTが提供するすべてのエンジンタイプで利用可能です。
+### Backup Retention
+Backup retention xác định số lượng bản full backup được giữ lại trong hệ thống. Khi vượt quá số lượng retention đã cấu hình, các bản backup cũ nhất sẽ được tự động xóa.
 
-### バックアップの種類
+### Restore
+Restore cho phép bạn khôi phục database từ một bản backup hiện có. Quá trình restore tạo một database mới dựa trên dữ liệu tại thời điểm backup được chọn.
 
-FPT Database Engineは以下の2種類のバックアップをサポートしています。
+### Point-in-Time Recovery (PITR)
+Point-in-Time Recovery cho phép khôi phục cơ sở dữ liệu về một thời điểm cụ thể trong quá khứ. PITR hoạt động bằng cách kết hợp full backup định kỳ và transaction logs / archived logs được ghi nhận liên tục. Cơ chế này đảm bảo khả năng khôi phục chính xác và tin cậy.
+Chức năng này đặc biệt hữu ích khi bạn cần khôi phục dữ liệu từ một thời điểm chính xác, chẳng hạn như khi phát hiện ra lỗi hoặc sự cố trong quá trình hoạt động của hệ thống. **Hiện tại, chức năng này chỉ được hỗ trợ cho PostgreSQL.**
+Việc kết hợp giữa backup và PITR giúp tăng cường khả năng bảo vệ dữ liệu, đảm bảo tính sẵn sàng cao và cung cấp khả năng khôi phục linh hoạt cho các kịch bản vận hành thực tế.
 
-- **Full Backup**：データベースデータ全体をバックアップします。
-- **Diff（増分）Backup**：直近のバックアップ以降の変更のみをバックアップし、時間とストレージ使用量を削減します。
-
-### バックアップストレージ
-
-バックアップは、データベースクラスターとは完全に分離された独立したストレージシステムに保存されます。これにより、データベースクラスターに問題が発生した場合でも、データの耐久性と復元の可用性が確保されます。
-
-### バックアップの保持
-
-バックアップ保持は、システムに保持するフルバックアップのコピー数を定義します。設定された保持数を超えると、最も古いバックアップが自動的に削除されます。
-
-### リストア
-
-リストアにより、既存のバックアップからデータベースを復元できます。リストアプロセスは、選択したバックアップ時点のデータに基づいて新しいデータベースを作成します。
-
-### Point-in-Time Recovery（PITR）
-
-Point-in-Time Recoveryにより、過去の特定の時点にデータベースを復元できます。PITRは、定期的なフルバックアップと継続的に記録されるトランザクションログ/アーカイブログを組み合わせることで機能します。このメカニズムにより、正確で信頼性の高い復旧が保証されます。
-
-この機能は、システム運用中に障害やインシデントが発見された場合など、正確な時点からデータを復旧する必要がある場合に特に役立ちます。**現在、この機能はPostgreSQLのみでサポートされています。**
-
-バックアップとPITRを組み合わせることで、データ保護が強化され、高可用性が確保され、実際の運用シナリオに対して柔軟な復旧機能が提供されます。
-
-### 必要な権限
-
-| 権限名 | 操作種別 | 説明 |
-| --- | --- | --- |
-| manageDatabase:ListBackup | 閲覧 | データベースのバックアップ情報を表示する権限。 |
-| manageDatabase:EnableBackup | 作成 | データベースのBackup & Restore機能を有効化する権限。 |
-| manageDatabase:DeleteBackup | 編集 | データベースのBackup & Restore機能を無効化する権限。 |
-| manageDatabase:CreateJobBackup | 作成 | データベースのバックアップジョブを作成する権限。 |
-| manageDatabase:ViewJobBackup | 閲覧 | バックアップジョブの詳細を表示する権限。 |
-| manageDatabase:RunNowJobBackup | 作成 | データベースのバックアップスナップショットを手動で作成する権限。 |
-| manageDatabase:EditJobBackup | 編集 | バックアップジョブを編集する権限。 |
-| manageDatabase:DeleteJobBackup | 削除 | バックアップジョブを削除する権限。 |
-| manageDatabase:ListRestore | 閲覧 | 利用可能なリストアポイントの一覧を表示する権限。 |
-| manageDatabase:Restore | 作成 | バックアップからデータベースを復元する、または特定の時点に復元する権限。 |
+### Quyền cần thiết  
+| Tên quyền  | Loại thao tác  | Mô tả  |  
+| --- | --- | --- |  
+| manageDatabase:ListBackup  | View  | Quyền xem thông tin Backup cơ sở dữ liệu.  |  
+| manageDatabase:EnableBackup  | Create  | Quyền kích hoạt chức năng Backup & Restore cho cơ sở dữ liệu.  |  
+| manageDatabase:DeleteBackup  | Edit  | Quyền vô hiệu hóa chức năng Backup & Restore cho cơ sở dữ liệu.  |  
+| manageDatabase:CreateJobBackup  | Create  | Quyền tạo job backup cho cơ sở dữ liệu.  |  
+| manageDatabase:ViewJobBackup  | View  | Quyền xem chi tiết job backup.  |  
+| manageDatabase:RunNowJobBackup  | Create  | Quyền tạo snapshot backup thủ công cho cơ sở dữ liệu.  |  
+| manageDatabase:EditJobBackup  | Edit  | Quyền chỉnh sửa job backup.  |  
+| manageDatabase:DeleteJobBackup  | Delete  | Quyền xoá job backup.  |  
+| manageDatabase:ListRestore  | View  | Quyền xem danh sách bản backup có thể restore.  |  
+| manageDatabase:Restore  | Create  | Quyền khôi phục database từ bản backup hoặc khôi phục theo thời điểm cụ thể.  |

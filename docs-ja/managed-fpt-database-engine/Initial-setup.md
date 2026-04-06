@@ -1,24 +1,19 @@
 ---
 id: "Initial-setup"
-title: "Initial setup"
-description: "Before using the FPT Database Engine service on the FPT Console Portal, users need to ensure the following prerequisites"
-sidebar_label: "Initial setup"
-sidebar_position: "9"
+title: "Thiết lập ban đầu"
+description: "Nếu đây là lần đầu tiên bạn sử dụng **FPT Smart Cloud Database Engine** , trước tiên hãy kiểm tra và hoàn thành các công"
+sidebar_label: "Thiết lập ban đầu"
+sidebar_position: 2
 ---
 
-# Initial setup
+# Thiết lập ban đầu
 
-Before using the FPT Database Engine service on the FPT Console Portal, users need to ensure the following prerequisites are met:
-  * A signed service agreement and pre-provisioned resources: 
-    * Project / Tenant
-    * Virtual Network (VPC)
-    * Network
-  * An active account on the FPT Console Portal.
-  * Appropriate access permissions (RBAC) for Database Engine services.
+Nếu đây là lần đầu tiên bạn sử dụng **FPT Smart Cloud Database Engine** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:[Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](../managed-fpt-database-engine/index.md)
+Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để khởi tạo **Database Engine** trên hệ thống FPT Cloud.
 
-If you **do not have a Project / Tenant / VPC** , please contact the FPT Smart Cloud Sales team to sign a service agreement. You can find the contact information at [FPT Smart Cloud Contact](https://fptcloud.com/en/contact/).
-If you **do not have an account on the FPT Console Portal** , please sign up an account following the instructions in section [Register an account](../managed-fpt-database-engine/index.md)
-If you already **have an account on the FPT Console Porta** l, please access the FPT Console Portal following the instructions in section [Accessing FPT Console Portal](../managed-fpt-database-engine/index.md)
-If you **do not have the appropriate access rights** , you will need to request the system administrator to grant the necessary access rights. Access control instructions can be found in section [FPT Database Engine Right Management](../managed-fpt-database-engine/index.md)
-If you **have not created a subnet for database provisioning** , please follow the instructions in section [Subnet Management](../managed-fpt-database-engine/index.md) for database provisioning.
-After completing the initial setup steps, you can proceed with section "7. Tutorials".
+### 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+Để bắt đầu sử dụng dịch vụ **FPT Smart Cloud Database Engine,** bạn cần đăng nhập vào **FPT Portal**.
+Hãy truy cập vào và đăng nhập bằng tài khoản/mật khẩu **FPT Cloud** đã được cấp. Chọn đúng Tenant, Region, VPC cần sử dụng dịch vụ.
+Nếu chưa có tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại <https://fptcloud.com/>.
+Sau đó chọn chức năng **Sign Up** và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
+Trong quá trình thao tác nếu gặp bất kỳ lỗi nào hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.

@@ -1,51 +1,50 @@
 ---
 id: "tutorials-thay-doi-thong-tin-cau-hinh-may-chu"
-title: "仮想マシン構成の変更"
-description: "FPT Cloud Serverで仮想マシンのRAM/CPUリサイズ、名前変更、パスワードリセットを行う方法。"
-sidebar_label: "仮想マシン構成の変更"
+title: "Tutorials Thay Doi Thong Tin Cau Hinh May Chu"
+sidebar_label: "サーバー設定の変更"
 sidebar_position: 17
 ---
 
-# 仮想マシン構成の変更
+サーバー情報および設定の変更
 
-FPT Cloud Serverでは仮想マシンの構成を柔軟に変更できます — RAM/CPUのリサイズ、名前変更、パスワードリセットに対応しています。
 
-## 構成のリサイズ
+## 1\. Resize
+**Resize**は、既存の仮想マシンのRAMとCPU設定を変更する機能です。
 
-リサイズにより、作成済み仮想マシンのRAM/CPU構成を変更できます。リサイズ中は仮想マシンが一時停止し、完了後に自動的に再起動します。
+Resizeの処理中、仮想マシンは一時的にシャットダウンされ、処理完了後に自動的に再起動されます。
 
-:::tip
-**Hot-add** 機能を有効にすると、将来的に仮想マシンをシャットダウンせずにリサイズできます。
-:::
+将来のResizeで仮想マシンをシャットダウンしたくない場合は、**Hot-add**機能を有効にしてください。**Hot-add**が有効になっている場合、仮想マシンは再起動せずに新しい設定で通常通り動作し続けることができます。
 
-1. **Instance Management** で **Actions** → **Resize VM** を選択します。
+**ステップ1**: メニューで**Instance Management**を選択します。設定を変更するサーバーの**Actions**セクションで、**Resize VM**を選択します。
 
-   [![Resize VMオプションのあるActionsメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)
+![Userguide FPT Cloud Server 2022 41](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-001.png)
 
-2. 既存テンプレートから新しい構成を選択するか、**Custom** でカスタム構成を作成します。**Resize** をクリックして確認します。
+**ステップ2**: 仮想マシンの新しいサイズを選択します。利用可能なテンプレートから選択するか、**Custom**でカスタム設定を定義できます。
 
-   [![Resize VMダイアログ](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)
+![Userguide FPT Cloud Server 2022 42](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-002.png)
 
-## 仮想マシンの名前変更（Rename）
+情報を入力した後、**Resize**をクリックして確認します。
 
-1. **Instance Management** で **Actions** → **Rename** を選択します。
+システムは利用可能なリソースを確認し、仮想マシンに新しい設定を適用して、処理結果をお知らせします。
 
-   [![RenameオプションのあるActionsメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)
+### 2\. Rename
+ユーザーは**Rename**機能を使用して、既存の仮想マシンの名前を変更できます。
 
-2. 新しい名前を入力し、**Rename** をクリックします。
+**ステップ1**: メニューで**Instance Management**を選択します。名前を変更するサーバーの**Actions**セクションで、**Rename**を選択します。
 
-   [![Renameダイアログ](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)
+![Userguide FPT Cloud Server 2022 43](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-003.png)
 
-## パスワードのリセット（Reset Password）
+**ステップ2:** 仮想マシンの新しい名前を入力し、**Rename**をクリックします。
 
-パスワード認証方式を使用している仮想マシンでは、rootアカウントのパスワードをリセットできます。
+![Userguide FPT Cloud Server 2022 44](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-004.png)
 
-1. **Instance Management** で **Actions** → **Reset Password** を選択します。
+システムは仮想マシンに新しい名前を適用し、処理結果をお知らせします。
 
-   [![Reset PasswordオプションのあるActionsメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)
+## 3\. Reset Password
+認証方式として**Password**を使用して作成された仮想マシンについて、**FPT Cloud**では**FPT Portal**上で直接**root**アカウントの**パスワード**をリセットできます。
 
-2. **Reset Password** をクリックします。システムが新しいパスワードをメールで送信します。
+**ステップ1**: メニューで**Instance Management**を選択します。パスワードを変更するサーバーの**Actions**セクションで、**Reset Password**を選択します。
 
-## 次のステップ
+![Userguide FPT Cloud Server 2022 45](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-005.png)
 
-- [Snapshotによるバックアップ](./tutorials-backup-may-chu-voi-snapshot.md)
+**ステップ2:** **Reset Password**をクリックします。システムはユーザーのメールアドレスに新しいパスワードを送信します。

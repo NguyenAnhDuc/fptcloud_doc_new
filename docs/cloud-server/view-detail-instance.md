@@ -1,27 +1,21 @@
 ---
 id: "view-detail-instance"
-title: "View Instance Schedule Details"
+title: "View Instance Schedule details"
 description: "View information and status of an Instance Schedule."
-sidebar_label: "View Details"
+sidebar_label: "View details"
 sidebar_position: 91
 ---
 
-# View Instance Schedule Details
+# View Instance Schedule details
 
-## View Details
+**Step 1**: Access the **Instance Schedule Detail** page by clicking the Instance Schedule name in the **Instance Schedule Management** panel.
 
-1. In **Instance Schedule Management**, click the schedule name.
+![Select Instance Schedule](images/view-detail-instance/img-001.png)
 
-   [![Select schedule](/img/migrated/image-1695609011987-33ef2b1d.png)](/img/migrated/image-1695609011987-33ef2b1d.png)
+**Step 2**: View and review the Instance Schedule details in the **Overview** section, which includes: Name, Description, Start & Stop time, Start & End date, Frequency, and the names of attached instances.
 
-2. The **Overview** tab shows: Name, description, start/stop time, start/end date, frequency, and attached instance list.
+![Overview tab](images/view-detail-instance/img-002.png)
 
-   [![Overview tab](/img/migrated/image-1695609025652-03872f17.png)](/img/migrated/image-1695609025652-03872f17.png)
+**Step 3**: View and review the Instance Schedule details in the **Attached instances** section, which includes: the list of attached instances and specific information for each instance such as Instance name, Instance status, Latest start time & status, and Latest stop time & status.
 
-3. The **Attached instances** tab shows: Instance list with instance name, status, and latest start/stop time.
-
-   [![Attached instances tab](/img/migrated/image-1695609035976-7b5310a1.png)](/img/migrated/image-1695609035976-7b5310a1.png)
-
-## Next steps
-
-- [Attach an Instance to a Schedule](./attach-schedule-to-instance.md)
+![Attached Instances tab](images/view-detail-instance/img-003.png)

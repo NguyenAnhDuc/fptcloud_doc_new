@@ -1,12 +1,12 @@
 ---
 id: "tag-management"
-title: "Tag Management"
+title: "Quản lý Tag"
 description: "**1, Create tag**"
-sidebar_label: "Tag Management"
+sidebar_label: "Quản lý Tag"
 sidebar_position: 7
 ---
 
-# Tag Management
+# Quản lý Tag
 
 **1, Create tag**
 Định nghĩa: Tag là một tên định danh cho một luồng nghiệp vụ hoặc một business.

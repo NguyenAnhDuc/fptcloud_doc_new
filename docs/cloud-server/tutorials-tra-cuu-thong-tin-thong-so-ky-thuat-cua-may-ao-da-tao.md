@@ -1,50 +1,49 @@
 ---
 id: "tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao"
-title: "View virtual machine details"
-description: "View detailed information, monitor resources, and review the activity history of a created virtual machine."
-sidebar_label: "View virtual machine details"
+title: "Tutorials Tra Cuu Thong Tin Thong So Ky Thuat Cua May Ao Da Tao"
+sidebar_label: "Look Up Virtual Machine Information"
 sidebar_position: 16
 ---
 
-# View virtual machine details
+Look Up Technical Specifications of a Created Virtual Machine
 
-The Instance Detail page lets you view all information about your virtual machine — from configuration and status to activity history and resource usage.
 
-## View detailed information
+**Step 1**: In the menu, select **Instance Management**, then click on a specific virtual machine.
 
-1. In **Instance Management**, click the name of the virtual machine you want to inspect.
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-001.png)
 
-   [![Select a virtual machine in Instance Management](/img/migrated/Userguide-FPT-Cloud-Server-2022-36-1024x-8734718d.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-36-1024x-8734718d.png)
+**Step 2**: Review the detailed information of the virtual machine, including **Host name**, configuration (**RAM**, **CPU**, **Storage**), **Operating systems**, **Private IP** address, **Public IP** address (if available), and operating status (off/on/suspended).
 
-2. Review the detailed information: **Hostname**, configuration (RAM, CPU, Storage), **Operating System**, **Private IP**, **Public IP** (if available), and operational status.
+![Userguide FPT Cloud Server 2022 37](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-002.png)
 
-   [![Instance Detail page](/img/migrated/Userguide-FPT-Cloud-Server-2022-37-1024x-a8e782ec.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-37-1024x-a8e782ec.png)
+Additionally, on the **Instance details** page, users can configure and monitor other details via sub-menus such as:
 
-On the Instance Detail page, you can also:
+  * **Allocate floating IP**: Assign a Public IP to the virtual machine to enable internet access.
+  * **Instance Monitoring**: Monitor the activity, CPU usage, RAM usage, and disk read/write speed of the virtual machine by hour/day/week.
+  * **Instance storage**: Monitor and manage **local storage** disks and external **storage disks** attached to the **virtual machine**.
+  * **Activity Log**: Track and audit the history of actions performed by all users on this virtual machine.
 
-- **Allocate Floating IP**: Assign a Public IP to the virtual machine.
-- **Instance Monitoring**: Track CPU usage, RAM usage, and disk read/write speed.
-- **Instance Storage**: Manage local storage and attached storage disks.
-- **Activity Log**: Monitor the history of all user actions on the virtual machine.
 
-[![Tabs in Instance Detail](/img/migrated/Userguide-FPT-Cloud-Server-2022-38-1024x-b9c09c62.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-38-1024x-b9c09c62.png)
+![Userguide FPT Cloud Server 2022 38](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-003.png)
 
-## View activity history (Activity Log)
+## 1\. View Activity Log
+**Activity Log** displays the complete activity history of the virtual machine. The information shown includes the name of the user who performed the action, the action name, and the timestamp.
 
-Activity Log displays the full history of all actions: username, action name, and timestamp.
+**Step 1**: Access the **Instance details** page by clicking the virtual machine name in the **Instance Management** dashboard.
 
-1. Go to **Instance Detail**, then select the **Activity log** tab.
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-004.png)
 
-   [![Activity Log tab](/img/migrated/Userguide-FPT-Cloud-Server-2022-39-1024x-bba7cc1a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-39-1024x-bba7cc1a.png)
+**Step 2:** Select the **Activity log** tab.
 
-## Monitor the Instance (Monitor)
+![Userguide FPT Cloud Server 2022 39](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-005.png)
 
-Monitor displays real-time metrics: Instance vCPU Usage, Instance vCPU Contention, and other metrics.
+## 2\. Access Instance Monitor
+**Monitor** displays the key statuses and technical parameters of the virtual machine.
 
-1. Go to **Instance Detail**, then select the **Monitor** tab.
+**Step 1**: Access the **Instance details** page by clicking the virtual machine name in the **Instance Management** dashboard.
 
-   [![Monitor tab](/img/migrated/Userguide-FPT-Cloud-Server-2022-40-1024x-cdc66ccc.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-40-1024x-cdc66ccc.png)
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-006.png)
 
-## Next steps
+**Step 2:** Select **Monitor**. This section displays real-time data for all Instance parameters such as **Instance vCPU Usage**, **Instance vCPU Contention**, and more.
 
-- [Change server configuration](./tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md)
+![Userguide FPT Cloud Server 2022 40](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-007.png)

@@ -1,43 +1,41 @@
 ---
 id: "FAQ"
 title: "FAQ"
-description: "Frequently asked questions about Fortigate – FPT NGFW."
 sidebar_label: "FAQ"
 sidebar_position: 11
-pagination_next: null
 ---
 
-# FAQ
+FAQ
 
-## What is Fortigate?
 
-FortiGate (Fortinet Firewall) is a multi-layer next-generation firewall device from Fortinet. FortiGate integrates leading security features to provide a comprehensive solution for information security and protection of internal networks at organizations and enterprises of all sizes.
+## 1\. What is FortiGate?
 
-Fortinet Firewall delivers high-speed security, blocks viruses, and stops threats to your data center and network systems. FortiGate also supports web filtering, continuously inspecting packets exchanged between devices on the network, and provides visibility that helps administrators easily monitor, detect, and respond to unauthorized intrusions.
+FortiGate, or Fortinet Firewall, is a next-generation multi-layer security appliance from Fortinet in the form of a firewall. FortiGate integrates best-in-class features to provide a comprehensive solution for information security and protecting internal network systems at businesses and organizations of all sizes.
+Fortinet Firewall gives users high-speed security capabilities, virus prevention, and blocks threats to your data center and network systems. FortiGate also supports web filtering, continuously inspecting packets exchanged between devices in the network, and offers visibility to help administrators easily monitor, detect, and promptly resolve unauthorized intrusions.
 
-## Why use FortiGate?
+## 2\. Why should you use FortiGate?
 
-Key advantages of FortiGate compared to standard firewalls:
+Let us review the outstanding features of the FortiGate product compared to conventional firewall appliances, to find the answer to the question "Why should you use FortiGate?".
 
-- **Comprehensive visibility and protection**: FortiGate integrates Ransomware and Command & Control blocking, SSL (including TLS 1.3) technology for secure encryption, and automated threat protection.
-- **FortiGuard support**: Integrates and simultaneously runs IPS, web and video filtering, and DNS security services to reduce cost and manage all risks.
-- **Proxy integration**: Provides seamless user experience and device security with Zero Trust Network Access (ZTNA).
-- **Advanced security**: Prevents unauthorized access, segments traffic, and applies clear packet filtering.
-- **Automated network management**: Provides traffic visibility, detailed and intuitive policy control, and scalable security and network management.
+  * **Comprehensive visibility and protection:** FortiGate integrates features such as Ransomware and Command & Control prevention, SSL technology (including TLS 1.3) for secure encryption, and automatic threat protection.
+  * **FortiGuard support:** FortiGate is supported by FortiGuard with the ability to consolidate and simultaneously run IPS, web & video filtering, and DNS security services to reduce costs and manage all risks.
+  * **Proxy integration:** FortiGate provides a seamless user experience and secure protection for employee devices with the Zero Trust Network Access (ZTNA) feature.
+  * **Advanced security:** Advanced security solutions help prevent unauthorized access, access segmentation, and clear packet filtering.
+  * **Automated network management:** Maintain control with network traffic visibility, detailed and intuitive policy control, helping to expand security and network management capabilities.
 
-## How do I back up and restore Fortigate firewall configuration?
+
+## 3\. How do I back up and restore Firewall configuration?
 
 **FortiGate** supports simple and convenient configuration backup and restore.
-
 Log in to the system and select **System configuration**.
 
-[![System configuration menu](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)
+![Userguide Fortigate FPT NGFW 2022 37](images/FAQ/img-001.png)
 
-- To save the current configuration, click **Backup**.
-- To restore a saved configuration, click **Restore**, browse to the configuration file, and click **OK**. Restart the system after restoring.
+To save the current system configuration, select **Backup**.
 
-## Where can I find more configuration documentation?
+To restore a saved configuration, click the **Restore** button. Click Browse to navigate to the location of the configuration file, then press **OK**. After restoring, it is recommended to restart the system.
 
-Visit the Fortinet Documents Library at [https://docs.fortinet.com/](https://docs.fortinet.com/) for additional Fortigate documentation.
+## 4\. Where can I find additional configuration guides?
 
-[Reference documentation](https://docs.fortinet.com/document/fortigate/7.0.6/administration-guide/954635)
+Visit the **Fortinet** Documents Library at <https://docs.fortinet.com/> to view additional FortiGate documentation.
+[Reference documentation](<https://docs.fortinet.com/document/fortigate/7.0.6/administration-guide/954635>)

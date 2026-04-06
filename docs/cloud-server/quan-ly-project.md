@@ -1,20 +1,53 @@
 ---
 id: "quan-ly-project"
-title: "Project Management Details"
-description: "View and manage Projects within your Tenant."
+title: "Quan Ly Project"
 sidebar_label: "Project Management Details"
 sidebar_position: 83
 ---
 
-# Project Management Details
+Project Management
 
-Manage all Projects within your Tenant — view project lists, create new projects, and control resource assignments per project.
 
-:::tip
-Use Projects to group resources by team, environment (dev/staging/prod), or business unit for cleaner cost tracking and access control.
-:::
+Permission: In phase 1, only the Tenant Owner has permission to manage Projects.
 
-## Next steps
+### 1\. Manage Projects
+  * Users can view the list of Projects in the system
 
-- [Select a Project When Creating a VPC](./select-project-when-creating-VPC.md)
-- [Change the Header Interface](./header-project.md)
+
+![file](images/quan-ly-project/img-001.png)
+
+### 2\. Create a Project
+The Tenant Owner can create a Project on the Unify Portal.
+
+**Step 1**: On the **Project Management** page, click **Create Project**
+
+**Step 2**: Enter the project information
+
+  * Name: The name of the project
+
+  * Description: Enter a description for the project
+
+  * Select VPC (when a VPC is selected, VPCs that already belong to another project will be moved to the project being created)
+
+
+**Step 3**: Click **Create project**
+
+The system will save the project information and redirect the user to the Project Management page.
+
+![file](images/quan-ly-project/img-002.png)
+
+### 3\. Edit a project
+  * The Tenant Owner can edit project information
+
+
+![file](images/quan-ly-project/img-003.png)
+
+### 4\. Delete a project
+  * The Tenant Owner can delete projects created from the Unify Portal
+
+    * Only projects with no VPCs can be deleted
+
+    * The default project cannot be deleted — only its information can be edited
+
+
+![file](images/quan-ly-project/img-004.png)

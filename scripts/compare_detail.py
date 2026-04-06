@@ -130,6 +130,37 @@ def build_docsvi_dir_index() -> dict[str, Path]:
     return index
 
 
+def build_docsvi_id_index() -> dict[str, list[Path]]:
+    """Map frontmatter id -> list of file paths for ALL .md files in docs-vi.
+
+    Returns a multi-map because multiple modules can have files with the same
+    id/filename (e.g. FAQ.md, Initial-setup.md, backup-restore.md).
+
+    This handles cases where:
+    - web slug is URL-encoded but file id is decoded
+    - web slug differs from filename
+    - file is in a different module directory
+    """
+    from urllib.parse import unquote
+    index: dict[str, list[Path]] = defaultdict(list)
+    for md in DOCS_VI_ROOT.rglob("*.md"):
+        try:
+            content = md.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+        m = re.search(r'^id:\s*"?([^"\n]+)"?', content, re.MULTILINE)
+        if m:
+            fid = m.group(1).strip()
+            index[fid].append(md)
+            decoded = unquote(fid)
+            if decoded != fid:
+                index[decoded].append(md)
+        # Also index by filename (without extension)
+        fname = md.stem
+        index[fname].append(md)
+    return index
+
+
 def collect_md_files_in_dir(dir_path: Path) -> list[Path]:
     """Recursively collect all .md files under a directory."""
     return list(dir_path.rglob("*.md"))
@@ -193,7 +224,64 @@ def load_report_mapping() -> dict[str, str | None]:
 # Aggregate local doc content for a page
 # ---------------------------------------------------------------------------
 
-def get_local_files(slug: str, local_file: str | None, dir_index: dict[str, Path]) -> list[Path]:
+def _norm_slug_words(slug: str) -> set[str]:
+    """Extract meaningful words from a slug, stripping common prefixes."""
+    words = set(slug.lower().replace("–", "-").split("-"))
+    # Strip noise words that appear in many module names
+    words.discard("fpt")
+    words.discard("")
+    return words
+
+
+def _pick_best_match(
+    candidates: list[Path],
+    module_slug: str,
+) -> Path | None:
+    """From a list of candidate paths, pick the one whose parent dir best
+    matches the crawled module slug.  Falls back to first candidate."""
+    if not candidates:
+        return None
+    if len(candidates) == 1:
+        return candidates[0]
+    # Normalise module slug for comparison (lowercase, strip special chars)
+    mod_norm = module_slug.lower().replace(" ", "-").replace("–", "-")
+    # Exact match first
+    for c in candidates:
+        parent = c.parent.name.lower()
+        if parent == mod_norm:
+            return c
+    # Prefix/suffix match
+    for c in candidates:
+        parent = c.parent.name.lower()
+        if mod_norm.startswith(parent) or parent.startswith(mod_norm):
+            return c
+    # Substring match
+    for c in candidates:
+        parent = c.parent.name.lower()
+        if parent in mod_norm or mod_norm in parent:
+            return c
+    # Word-overlap match (handles "managed-gpu-cluster-kubernetes" vs "fpt-managed-gpu-cluster")
+    mod_words = _norm_slug_words(module_slug)
+    best_score = 0
+    best_candidate = candidates[0]
+    for c in candidates:
+        parent_words = _norm_slug_words(c.parent.name)
+        overlap = len(mod_words & parent_words)
+        total = len(mod_words | parent_words)
+        score = overlap / total if total else 0
+        if score > best_score:
+            best_score = score
+            best_candidate = c
+    return best_candidate
+
+
+def get_local_files(
+    slug: str,
+    local_file: str | None,
+    dir_index: dict[str, Path],
+    id_index: dict[str, list[Path]] | None = None,
+    module_slug: str = "",
+) -> list[Path]:
     """Return list of local .md file paths relevant to this slug."""
     files: list[Path] = []
 
@@ -201,14 +289,34 @@ def get_local_files(slug: str, local_file: str | None, dir_index: dict[str, Path
     if local_file:
         primary = DOCS_VI_ROOT / local_file
         if primary.exists():
-            files.append(primary)
+            # Verify the mapped file is in the right module
+            parent = primary.parent.name.lower()
+            mod_norm = module_slug.lower().replace(" ", "-").replace("–", "-")
+            mod_words = _norm_slug_words(module_slug)
+            parent_words = _norm_slug_words(primary.parent.name)
+            word_overlap = len(mod_words & parent_words) / len(mod_words | parent_words) if (mod_words | parent_words) else 0
+            if parent == mod_norm or mod_norm in parent or parent in mod_norm or word_overlap >= 0.4 or not module_slug:
+                files.append(primary)
+
+    # Fallback: search by frontmatter id with module-aware selection
+    if not files and id_index:
+        from urllib.parse import unquote
+        candidates_list: list[str] = [slug, unquote(slug)]
+        for candidate in candidates_list:
+            if candidate in id_index:
+                best = _pick_best_match(id_index[candidate], module_slug)
+                if best:
+                    files.append(best)
+                    break
 
     # Check if slug matches a docs-vi subdirectory (directory aggregation)
-    if slug in dir_index:
-        dir_files = collect_md_files_in_dir(dir_index[slug])
-        for f in dir_files:
-            if f not in files:
-                files.append(f)
+    decoded_slug = __import__('urllib.parse', fromlist=['unquote']).unquote(slug)
+    for s in [slug, decoded_slug]:
+        if s in dir_index:
+            dir_files = collect_md_files_in_dir(dir_index[s])
+            for f in dir_files:
+                if f not in files:
+                    files.append(f)
 
     return files
 
@@ -286,6 +394,7 @@ def process_page(
     local_file: str | None,
     dir_index: dict[str, Path],
     module_baseline: int = 0,
+    id_index: dict[str, list[Path]] | None = None,
 ) -> dict:
     """Produce a per-page analysis record."""
 
@@ -297,8 +406,9 @@ def process_page(
     # Adjust web words: subtract per-module baseline + nav noise
     web_fp["words_adj"] = max(0, web_fp["words"] - module_baseline - NAV_NOISE_WORDS)
 
-    # Local files
-    local_files = get_local_files(slug, local_file, dir_index)
+    # Local files — pass module_slug for module-aware matching
+    module_slug = crawled_info.get("module_slug", "")
+    local_files = get_local_files(slug, local_file, dir_index, id_index, module_slug)
     aggregated = len(local_files) > 1 or (local_file is not None and slug in dir_index)
 
     if not local_files:
@@ -447,6 +557,10 @@ def main() -> None:
     dir_index = build_docsvi_dir_index()
     print(f"  Found {len(dir_index)} docs-vi directories")
 
+    print("Building docs-vi id index...")
+    id_index = build_docsvi_id_index()
+    print(f"  Found {len(id_index)} doc IDs")
+
     # Compute per-module baselines (min web word count per module)
     module_words: dict[str, list[int]] = defaultdict(list)
     for slug, info in crawled_index.items():
@@ -463,7 +577,7 @@ def main() -> None:
     for slug, crawled_info in sorted(crawled_index.items()):
         local_file = report_mapping.get(slug)
         baseline = module_baselines.get(crawled_info["module"], 0)
-        record = process_page(slug, crawled_info, local_file, dir_index, baseline)
+        record = process_page(slug, crawled_info, local_file, dir_index, baseline, id_index)
         pages.append(record)
         processed += 1
         if processed % 100 == 0:

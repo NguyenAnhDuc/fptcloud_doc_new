@@ -1,39 +1,39 @@
 ---
 id: "faq"
-title: "よくある質問（FAQs）"
-description: "FPT Cloud Desktopに関するよくある質問"
-sidebar_label: "よくある質問（FAQs）"
+title: "Câu hỏi thường gặp (FAQs)"
+description: "Các câu hỏi thường gặp về FPT Cloud Desktop"
+sidebar_label: "Câu hỏi thường gặp (FAQs)"
 sidebar_position: 12
 pagination_next: null
 ---
 
-# よくある質問（FAQs）
+# Câu hỏi thường gặp (FAQs)
 
-#### Q: FCDとは何ですか？
+#### Q: FCD là gì?
 
-FCDはFPT Cloud Desktopの略称で、FPT Smart Cloudが開発したクラウドベースのバーチャルデスクトップサービスです。
+FCD là viết tắt của FPT Cloud Desktop, dịch vụ ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển.
 
-#### Q: FCDに接続するにはどのようなデバイスが必要ですか？
+#### Q: Thiết bị kết nối phù hợp để sử dụng FCD là gì?
 
-バーチャルデスクトップへの接続に使用するデバイス（Local Device）には以下が含まれます：
+Thiết bị kết nối đến máy tính ảo (Local Device) bao gồm:
 
-- デスクトップPC、ノートパソコン、ThinClient、またはMiniPC
-- 二段階認証用のスマートフォン
+- Máy tính bàn (PC), máy tính xách tay (Laptop) hoặc ThinClient, MiniPC
+- Điện thoại thông minh (Smartphone) để xác thực hai lớp
 
-いずれのデバイスもインターネットまたはLAN接続が必要です。
+Các thiết bị trên cần có kết nối Internet hoặc mạng LAN.
 
-#### Q: FCDバーチャルデスクトップのスペックをアップグレードできますか？
+#### Q: Có thể nâng cấp cấu hình máy tính ảo FCD được không?
 
-はい、組織のポリシーに依存します。アップグレード可能なスペックには、CPUコア数、RAM（メモリ）、ディスクストレージ容量が含まれます。
+Có thể, tuỳ theo chính sách của từng công ty. Cấu hình có thể nâng cấp bao gồm: Core CPU, RAM (Memory) và dung lượng ổ đĩa (Disk).
 
-#### Q: FCDに新しいアプリケーションをインストールできますか？
+#### Q: Có thể cài đặt các ứng dụng mới vào FCD được không?
 
-組織のIT管理者からバーチャルデスクトップの管理者（Administrator）権限が付与されている場合、デフォルトリスト以外のアプリケーションをインストールできます。管理者権限がない場合は、IT Adminにお問い合わせください。
+Nếu bạn được cấp quyền Quản trị viên của máy tính ảo (Administrator), bạn có thể cài đặt các ứng dụng ngoài danh sách mặc định. Nếu không có quyền Quản trị viên, bạn cần liên hệ IT Admin để được hỗ trợ.
 
-#### Q: データはどこに保存されますか？どのように、どのくらいの期間保存されますか？
+#### Q: Tệp dữ liệu của tôi ở đâu? Chúng được lưu trữ như thế nào và trong bao lâu?
 
-データはFPT Cloud Desktopシステムに安全に保存されます。選択したOSのDesktopフォルダおよびDocumentsフォルダでファイルにアクセスできます。バーチャルデスクトップの回収申請が承認された場合、組織のポリシーに従ってユーザーアカウントは無効化・削除されます。
+Dữ liệu của bạn được lưu trữ bảo mật tại hệ thống FPT Cloud Desktop. Bạn có thể truy cập các tệp trên thư mục Desktop và Documents trong hệ điều hành đã chọn. Tài khoản người dùng sẽ bị vô hiệu hóa và xóa theo quy định của tổ chức khi có yêu cầu thu hồi máy ảo được cấp phát cho bạn.
 
-#### Q: 1人のユーザーが同時に複数のデバイスからログインできますか？
+#### Q: Một người dùng có thể đăng nhập từ nhiều thiết bị cùng một lúc không?
 
-1人のユーザーは複数のデバイスからログインできますが、任意の時点でバーチャルデスクトップにアクセスできるのは1台のデバイスのみです。
+Một người dùng có thể đăng nhập từ nhiều thiết bị, nhưng chỉ một thiết bị có thể truy cập máy ảo vào một thời điểm.

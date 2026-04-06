@@ -1,51 +1,50 @@
 ---
 id: "tutorials-thay-doi-thong-tin-cau-hinh-may-chu"
-title: "Change VM configuration"
-description: "Resize RAM/CPU, rename, and reset password for virtual machines on FPT Cloud Server."
-sidebar_label: "Change VM configuration"
+title: "Tutorials Thay Doi Thong Tin Cau Hinh May Chu"
+sidebar_label: "Change server configuration"
 sidebar_position: 17
 ---
 
-# Change VM configuration
+Change server information and configuration
 
-FPT Cloud Server allows you to flexibly change your VM configuration — including resizing RAM/CPU, renaming, and resetting the password.
 
-## Resize configuration
+## 1\. Resize
+**Resize** is a feature that allows you to change the RAM and CPU configuration of an existing virtual machine.
 
-Resize lets you change the RAM-CPU configuration of an existing VM. During resize, the VM will temporarily shut down and restart automatically after completion.
+During the Resize process, the virtual machine will be temporarily shut down and will automatically restart once the process is complete.
 
-:::tip
-Enable the **Hot-add** feature to resize without shutting down the VM in the future.
-:::
+If you do not want the virtual machine to shut down during a future Resize, enable the **Hot-add** feature. When **Hot-add** is activated, the virtual machine can continue operating normally with the new configuration without requiring a reboot.
 
-1. In **Instance Management**, select **Actions** → **Resize VM**.
+**Step 1**: In the menu, select **Instance Management**. In the **Actions** section of the server whose configuration you want to change, select **Resize VM**.
 
-   [![Actions menu with Resize VM option](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)
+![Userguide FPT Cloud Server 2022 41](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-001.png)
 
-2. Select a new configuration from an existing template or create a custom configuration under **Custom**. Click **Resize** to confirm.
+**Step 2**: Select the new size for the virtual machine. You can choose from an available template or define a custom configuration under **Custom**.
 
-   [![Resize VM dialog](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)
+![Userguide FPT Cloud Server 2022 42](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-002.png)
 
-## Rename VM
+After filling in the information, click **Resize** to confirm.
 
-1. In **Instance Management**, select **Actions** → **Rename**.
+The system will verify available resources, apply the new configuration to the virtual machine, and notify you of the result.
 
-   [![Actions menu with Rename option](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)
+### 2\. Rename
+Users can rename an existing virtual machine using the **Rename** function.
 
-2. Enter the new name and click **Rename**.
+**Step 1**: In the menu, select **Instance Management**. In the **Actions** section of the server you want to rename, select **Rename**.
 
-   [![Rename dialog](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)
+![Userguide FPT Cloud Server 2022 43](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-003.png)
 
-## Reset Password
+**Step 2:** Enter the new name for the virtual machine and click **Rename.**
 
-For VMs using password authentication, you can reset the root account password.
+![Userguide FPT Cloud Server 2022 44](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-004.png)
 
-1. In **Instance Management**, select **Actions** → **Reset Password**.
+The system will apply the new name to the virtual machine and notify you of the result.
 
-   [![Actions menu with Reset Password option](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)
+## 3\. Reset Password
+For virtual machines created with **Password** as the authentication method, **FPT Cloud** allows users to reset the **Password** for the **root** account directly on the **FPT Portal**.
 
-2. Click **Reset Password**. The system sends a new password to your email.
+**Step 1**: In the menu, select **Instance Management**. In the **Actions** section of the server whose password you want to change, select **Reset Password**.
 
-## Next steps
+![Userguide FPT Cloud Server 2022 45](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-005.png)
 
-- [Backup VM with Snapshot](./tutorials-backup-may-chu-voi-snapshot.md)
+**Step 2:** Click **Reset Password**. The system will send the new password to the user's email address.

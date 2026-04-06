@@ -1,51 +1,81 @@
 ---
 id: "cau-hinh-o-dia-cho-may-ao-chay-windows"
-title: "Windows Instance のディスクを設定する"
-description: "Windows Instance に Storage Disk をアタッチした後のディスク設定手順。"
-sidebar_label: "Windows Instance のディスクを設定する"
+title: "Cau Hinh O Dia Cho May Ao Chay Windows"
+sidebar_label: "Windows仮想マシンのストレージディスク設定"
 sidebar_position: 37
 ---
 
-# Windows Instance のディスクを設定する
+Windows仮想マシンのストレージディスク設定
 
-FPT Cloud Portal で Storage Disk をアタッチすると、Linux Instance は新しいディスクを自動的に認識します。Windows Instance の場合は、ディスクの管理で手動設定が必要です。
 
-## ディスクの設定
+**FPT Portal**で仮想マシンに**Storage Disk**を接続した後、Linuxマシンは新しいディスクを自動的に検出します。Windowsマシンの場合は、ユーザーが仮想マシンにリモート接続してディスクの設定を完了する必要があります。
 
-1. Windows Instance に接続します。
+**ステップ1:** 仮想マシンにアクセスします。
 
-2. **ディスクの管理**を開きます。**Windows + R** を押し、`diskmgmt.msc` と入力して **Enter** を押します。
+**ステップ2:** 以下のいずれかの方法で**Windows**の**Disk Management**を開きます：
 
-   [![ディスクの管理を開く](/img/migrated/Userguide-FPT-Cloud-Server-2022-62-12b5cc80.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-62-12b5cc80.png)
+  * **Windows + R**キーを押し、**diskmgmt.msc**と入力して**Enter**を押します。
 
-3. ディスクの管理に、**オフライン**状態の新しいディスクが表示されます。
+  * **スタート**ボタンをクリックし、検索ボックスに**diskmgmt.msc**と入力して**Disk Management**を選択します。
 
-   [![オフライン状態の新しいディスク](/img/migrated/Userguide-FPT-Cloud-Server-2022-63-8bb2c4a2.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-63-8bb2c4a2.png)
 
-4. ディスクアイコンを右クリックし、**オンライン**を選択します。
+![Userguide FPT Cloud Server 2022 62](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-001.png)
 
-   [![ディスクのオンライン選択](/img/migrated/Userguide-FPT-Cloud-Server-2022-64-9b1d70d8.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-64-9b1d70d8.png)
+**ステップ3:** **Disk Management**には仮想マシン上のすべてのハードドライブが表示されます。新たに接続されたディスクは**Offline**ステータスで表示されます。
 
-5. ディスクが**オンライン**かつ**初期化されていない**状態に変わります。右クリックして**ディスクの初期化**を選択します。
+![Userguide FPT Cloud Server 2022 63](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-002.png)
 
-   [![ディスクの初期化を選択](/img/migrated/Userguide-FPT-Cloud-Server-2022-65-e709db22.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-65-e709db22.png)
+**ステップ4:** ディスクアイコンを右クリックし、**Disk**メニューから**Online**を選択します。
 
-6. 適切な**パーティション スタイル**を選択し、**OK** をクリックします。
+![Userguide FPT Cloud Server 2022 64](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-003.png)
 
-   [![パーティション スタイルの選択](/img/migrated/Userguide-FPT-Cloud-Server-2022-66-9e4f3cf7.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-66-9e4f3cf7.png)
+**ステップ5:** ディスクが**Online**および**Not Initialized**ステータスに変わります。ディスクアイコンを右クリックし、**Initialize Disk**を選択します。
 
-7. ディスクの未割り当て領域を右クリックし、**新しいシンプル ボリューム**を選択します。
+![Userguide FPT Cloud Server 2022 65](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-004.png)
 
-   [![新しいシンプル ボリュームの選択](/img/migrated/Userguide-FPT-Cloud-Server-2022-67-b8dd64a9.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-67-b8dd64a9.png)
+**ステップ6**: 適切な**パーティションスタイル**を選択して**OK**をクリックします。
 
-8. ウィザードに従って **次へ** をクリックします。
+![Userguide FPT Cloud Server 2022 66](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-005.png)
 
-   [![新しいシンプル ボリューム ウィザード](/img/migrated/Userguide-FPT-Cloud-Server-2022-68-4a3afeda.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-68-4a3afeda.png)
+**ステップ7:** ディスクの未割り当て領域を右クリックし、**New Simple Volume**を選択します。
 
-9. **シンプル ボリューム サイズ (MB)** フィールドにディスクサイズを入力し、**次へ** をクリックしてウィザードを完了します。
+![Userguide FPT Cloud Server 2022 67](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-006.png)
 
-新しいディスクが Windows Instance で使用可能になりました。
+**ステップ8:** 表示された**New Simple Volume Wizard**で**Next**をクリックします。
 
-## 次のステップ
+![Userguide FPT Cloud Server 2022 68](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-007.png)
 
-- [Storage Disk を Instance からデタッチする](./go-storage-disk-khoi-may-ao.md)
+**ステップ9:** **Simple volume size in MB**フィールドに希望のディスクサイズを入力し、**Next**をクリックします。
+
+![Userguide FPT Cloud Server 2022 69](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-008.png)
+
+**ステップ10:** **Assign the following drive letter**セクションでドライブ文字を選択し、**Next**をクリックします。
+
+![Userguide FPT Cloud Server 2022 70](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-009.png)
+
+**ステップ11:** **Format this volume with the following settings**を選択し、以下の情報を入力します：
+
+  * **File System:** 最速のフォーマット処理のためNTFS形式を選択します。必要に応じて他の形式を選択することもできます。
+  * **Allocation unit size:** Defaultを選択します。
+  * **Volume label:** ディスクの名前を入力します。
+
+
+**Next**をクリックして次のステップに進みます。
+
+![Userguide FPT Cloud Server 2022 71](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-010.png)
+
+**ステップ12:** **Finish**をクリックして完了します。
+
+![Userguide FPT Cloud Server 2022 72](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-011.png)
+
+接続されたストレージから、Windows仮想マシンに新しいディスクが正常に設定されました。
+
+![Userguide FPT Cloud Server 2022 73](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-012.png)
+
+通常の方法でステップ1からステップ6を完了できない場合は、代わりに以下のCMDコマンドを使用できます：
+スタート > cmd（管理者として実行）
+
+---
+Diskpart > list disk > select disk > online disk > attributes disk clear readonly > Exit
+
+その後、上記の手順に従ってステップ7から続けます。

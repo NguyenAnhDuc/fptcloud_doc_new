@@ -1,33 +1,38 @@
 ---
 id: "create-schedule-snapshotVM"
 title: "Tạo lịch snapshot máy ảo"
-description: "Tạo lịch tự động snapshot máy ảo theo tần suất Daily hoặc Weekly."
 sidebar_label: "Tạo lịch snapshot máy ảo"
 sidebar_position: 96
 ---
 
 # Tạo lịch snapshot máy ảo
 
-## Tạo lịch
 
-1. Chọn **Compute Engine** → **Schedule Management**, chọn tab **Instance snapshot schedule**.
+Để tạo mời một Lịch snapshot máy ảo bạn thao tác như sau
 
-   [![Tab Instance snapshot schedule](/img/migrated/image-1766044251626-e224453b.png)](/img/migrated/image-1766044251626-e224453b.png)
+**Bước 1:** Ở menu chọn Compute Engine > Schedule Management, chọn tab Instance snapshot schedule
 
-2. Nhập thông tin:
-   - **Name**: Tên lịch.
-   - **Time**: Chọn thời gian (ít nhất 2h sau thời điểm hiện tại).
-   - **Start date** *(tùy chọn)*: Ngày bắt đầu.
-   - **End date** *(tùy chọn)*: Ngày kết thúc.
-   - **Frequency**: Daily (hàng ngày) hoặc Weekly (chọn ngày trong tuần).
-   - **Applied Instance**: Máy ảo gắn vào lịch.
+![file](images/create-schedule-snapshotVM/img-001.png)
 
-   [![Hộp thoại Create Schedule](/img/migrated/image-1766044359045-49bb8a07.png)](/img/migrated/image-1766044359045-49bb8a07.png)
+**Bước 2:** Nhập các thông tin theo yêu cầu của hệ thống
 
-:::note
-Mỗi máy ảo chỉ được gắn vào 1 lịch snapshot cùng lúc.
-:::
+  * Name: tên lịch
 
-3. Nhấn **Create Schedule**.
+  * Time: chỉ có chọn time sau ít nhất 2h kể từ thời điểm chỉnh sửa để đảm bảo lịch chạy chính xác
 
-   [![Lịch đã tạo](/img/migrated/image-1766044391396-79f5a3e3.png)](/img/migrated/image-1766044391396-79f5a3e3.png)
+  * Start date: ngày bắt đầu lặp lịch snapshot, nếu bỏ trống thì tính từ thời điểm tạo lịch thành công
+
+  * End date: ngày kết thúc lịch snapshot, nếu bỏ trống thì lịch không có giới hạn
+
+  * Frequency: tần suất cho việc thực hiện hành động snapshot
+
+  *     * Daily: lịch chạy theo giờ mỗi ngày
+  *     * Weekly: lịch chạy theo tuần, bạn có thể chọn ngày trong tuần
+  * Applied Instance: Các máy ảo được gắn vào lịch (Lưu ý: mỗi máy ảo cùng lúc chỉ được cho phép gắn với 1 lịch)
+
+
+![file](images/create-schedule-snapshotVM/img-002.png)
+
+**Bước 3:** Chọn Create Schedule. Hệ thống sẽ tiền hành khởi tạo và thông báo kết quả. Nếu thành công, lịch mới sẽ được hiển thị ở trang Instance snapshot schedule
+
+![file](images/create-schedule-snapshotVM/img-003.png)

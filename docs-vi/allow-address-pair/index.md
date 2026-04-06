@@ -1,12 +1,12 @@
 ---
 id: "allow-address-pair"
-title: "Allow Address Pair"
+title: "Tổng quan Allow Address Pair"
 description: "Allow Address Pair là tính năng cho phép thêm cặp địa chỉ IP và MAC vào interface của instance, hỗ trợ cấu hình High Availability."
-sidebar_label: "Allow Address Pair"
+sidebar_label: "Tổng quan Allow Address Pair"
 sidebar_position: 1
 ---
 
-# Allow Address Pair
+# Tổng quan Allow Address Pair
 
 ## Giới thiệu
 

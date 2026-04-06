@@ -1,20 +1,32 @@
 ---
 id: "edit-instance-group-specific"
-title: "Instance Groupの編集"
-description: "Instance Groupの名前またはポリシーを変更します。"
-sidebar_label: "Instance Groupの編集"
+title: "Edit Instance Group Specific"
+sidebar_label: "Instance Group の編集"
 sidebar_position: 79
 ---
 
-# Instance Groupの編集
+Instance Group の編集
 
-既存のInstance Groupの名前または配置ポリシーをいつでも更新できます。
 
-:::note
-Instance Groupのポリシーを変更すると、すでにグループに追加されているインスタンスの配置に影響する場合があります。
-:::
+_この機能は Specific サービスタイプのユーザーにのみ適用されます。_
 
-## 次のステップ
+**ステップ 1**. メニューで **Compute Engine** > **Instance Group** を選択し、対象の Instance Group の **Edit** をクリックします。
 
-- [Instance GroupへのInstanceの追加](./add-instance-instance-group.md)
-- [Instance Groupの削除](./delete-instance-group.md)
+![file](images/edit-instance-group-specific/img-001.png)
+
+**ステップ 2**. Instance Group の情報を編集します。**Update** をクリックして変更を保存します。
+
+  * **Name**: Instance 名を変更します
+
+  * **Policy**: デフォルトでは、ユーザーは Policy を編集できません
+
+  * **Instances**: リストから Instance を変更します
+
+
+![file](images/edit-instance-group-specific/img-002.png)
+
+**注意:**
+
+  * **ユーザーはポリシー情報を編集できません**
+
+  * **Instance Group の Instance を変更することはできますが、グループ内に常に最低 2 つの Instance が存在する必要があります**

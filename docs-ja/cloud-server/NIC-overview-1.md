@@ -1,28 +1,24 @@
 ---
 id: "NIC-overview-1"
-title: "NIC（ネットワークインターフェースカード）の管理"
-description: "NICカードはクラウド上のネットワークリソースに仮想マシンを接続し、高性能なデータ転送を提供します。"
-sidebar_label: "NICの管理"
+title: "Nic Overview 1"
+sidebar_label: "NIC管理"
 sidebar_position: 55
 ---
 
-# NIC（ネットワークインターフェースカード）の管理
+NIC（Network Interface Card）管理
 
-NIC（Network Interface Card）は仮想マシンをクラウド上のネットワークリソースに接続する重要なコンポーネントであり、高性能で信頼性の高いデータ転送を実現します。
 
-:::warning
-これはネットワークシステム管理の知識を持つユーザー向けの高度な機能です。設定変更後は必ずテストを行い、カードが正常に動作していることを確認してください。
-:::
+### 製品概要：
 
-## チュートリアル
+  * クラウドプラットフォーム上のNIC（Network Interface Card）は、仮想マシンとクラウド上のリソースを接続するための重要なコンポーネントです。NICは高性能で信頼性の高い接続とデータ転送を提供します。その柔軟性と拡張性により、NICはネットワークインフラの構築・管理において重要な役割を果たし、クラウドベースのアプリケーションやサービスのための柔軟で拡張可能なネットワーク環境を実現します。
 
-- [NIC概要](./overview-nic.md)
-- [Primary NICカードを作成する](./create-card-NIC-%20Primary.md)
-- [NICを無効化する](./disable-NIC-card.md)
-- [NICを有効化する](./enable-NIC-card.md)
-- [新しいNICカードを追加する](./add-card-NIC-%20new.md)
-- [カードをPrimaryに変換する](./convert-card.md)
-- [IP Addressを編集する](./edit-ip-address.md)
-- [MACアドレスを変更する](./change-address-MAC.md)
-- [NICを削除する](./delete-card-NIC.md)
-- [Network Configを変更する](./change-network-config.md)
+
+### NICを設定する前に注意すべき事項：
+
+  * これはコンピュータネットワークシステムの構築・管理に関する一定の知識を持つユーザー向けの高度な機能です。
+
+  * ネットワーク接続の設定：NICのネットワーク接続を特定し、仮想マシンがネットワークリソースに効率的にアクセス・通信できるようにしてください。
+
+  * IP設定：仮想マシンがネットワークに接続できるよう、NICのIPアドレス、サブネットマスク、ゲートウェイ、DNSを設定してください。
+
+  * テストの実施：NICを設定した後、カードが正常に動作し、仮想マシンやネットワークに問題が生じないことを確認するためにテストを実施してください。

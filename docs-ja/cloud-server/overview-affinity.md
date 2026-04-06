@@ -1,20 +1,17 @@
 ---
 id: "overview-affinity"
-title: AffinityとAnti-Affinityの概要
-description: "Affinity、Anti-Affinity、Soft Affinity、Soft Anti-Affinityポリシーについて学びます。"
-sidebar_label: AffinityとAnti-Affinityの概要
+title: "Overview Affinity"
+sidebar_label: "概要"
 sidebar_position: 77
 ---
 
-# AffinityとAnti-Affinityの概要
+概要
 
-FPT Cloudは、物理ホスト上のインスタンス配置に関して4つのポリシーをサポートしています：
 
-- **Affinity**：同じグループ内のインスタンスを同じホストに配置します。インスタンス間のレイテンシを削減します。
-- **Anti-Affinity**：同じグループ内のインスタンスを異なるホストに配置します。高可用性を向上させます。
-- **Soft Affinity**：同じホストへの配置を優先しますが、強制はしません。
-- **Soft Anti-Affinity**：異なるホストへの配置を優先しますが、強制はしません。
+  * Affinity（アフィニティ）と Anti-Affinity（アンチアフィニティ）は、仮想マシンを物理ホストに配置する際の重要な概念です。現在、システムは Soft Affinity / Anti-Affinity Instance Group のみをサポートしています。
 
-## 次のステップ
+    * **Soft Affinity**: アフィニティ Instance Group 内のすべての仮想マシンを同じホストに配置します。システム全体のパフォーマンス向上を目的として使用されることが多いです。
 
-- [新しいInstance Groupの作成](./create-instance-group.md)
+    * **Soft Anti-Affinity**: アンチアフィニティ Instance Group 内の仮想マシンをそれぞれ異なるホストに配置します。収容可能なホストがなくなった場合、Instance はランダムな場所に配置されます。
+
+  * これを実現するために、ユーザーは Affinity または Anti-Affinity ポリシーを持つ Instance Group を作成できます。仮想マシンを起動する際に、Instance Group の情報をヒントとして渡すことで、希望するポリシーに従って仮想マシンを配置できます。

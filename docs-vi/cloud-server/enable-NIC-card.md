@@ -1,12 +1,12 @@
 ---
 id: "enable-NIC-card"
-title: "Enable Network Interface Card"
+title: "Bật Network Interface Card"
 description: "Bật lại card NIC để kết nối mạng."
-sidebar_label: "Enable Network Interface Card"
+sidebar_label: "Bật Network Interface Card"
 sidebar_position: 59
 ---
 
-# Enable Network Interface Card
+# Bật Network Interface Card
 
 Bạn có thể bật lại card NIC đã bị tắt trước đó để khôi phục kết nối mạng qua giao diện đó.
 

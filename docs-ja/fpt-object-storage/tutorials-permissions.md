@@ -1,77 +1,88 @@
 ---
 id: "tutorials-permissions"
-title: "Edit object permissions (ACL)"
-description: "In **FPT Object Storage** , Object Permissions determine **who** is allowed to perform **actions** on **objects** within"
-sidebar_label: "Edit object permissions (ACL)"
-sidebar_position: "6"
+title: "Tutorials Permissions"
+sidebar_label: "Tutorials Permissions"
+sidebar_position: 6
 ---
 
-# Edit object permissions (ACL)
+パーミッション
 
-In **FPT Object Storage** , Object Permissions determine **who** is allowed to perform **actions** on **objects** within a bucket.
-You can use the **Edit Object Permissions** feature to adjust permissions for individual objects. This feature is built on the ACL mechanism, and Object ACL has three basic permissions:
-  * **READ:** Allows reading the content of an object.
-  * **WRITE:** Allows writing data to an object.
-  * **READ_ACP (Access Control Policy):** Allows reading the ACL information of an object.
 
-With the **Edit Object Permissions** feature on the FPT Portal, there are two main permission groups: Public and Private.
-  * **Private:** Restricts access to Anonymous Users. Only authenticated and authorized users can view the object.
-  * **Public:** Objects will always have Read-Only permission, even for anonymous users. At this point, the object can be accessed from anywhere using just the URL.
+## バケット**アクセスコントロールリスト**（Bucket ACL）
 
-> **Note:** Bucket Policy also affects objects in addition to object permissions. Bucket Policy takes precedence over Object ACL. Be cautious when using both permission levels simultaneously.
-> For example, if the bucket policy has a public rule, then all objects will be shared (only GET) for all anonymous users, regardless of whether the Object ACL of those objects is set to public or not.
-**Step 1:** In the **Object Storage Management** table, select the bucket containing the file you want to modify permissions for.
-**Step 2:** Navigate to the file's location, and in the **Action** section, choose **Edit Permission.**
-[![file](/img/migrated/image-1690858053759-049e0946.bin)](/img/migrated/image-1690858053759-049e0946.bin)
-**Step 3:** Select the display mode in the **Read permission** box, then choose **Update.**
-[![file](/img/migrated/image-1690858061046-6112eb1e.bin)](/img/migrated/image-1690858061046-6112eb1e.bin)
+Bucket ACLはバケットのアクセス制御メカニズムです。バケットとその中のオブジェクトに対して、誰が閲覧、書き込み、または管理の権限を持つかを制御できます。
 
-# Bucket Permissions (Bucket ACL)
-Bucket permissions (ACL) allow you to manage access rights to a bucket. There are two basic permissions defined: Public and Private.
-  * **Public:** Listing all objects in the bucket will be displayed to everyone, including Anonymous Users on the Internet. All they need is the bucket link, and they will have the right to list all objects.
-  * **Private:** Restricts access to Anonymous Users. Only authenticated and authorized users can view the list of objects in the bucket.
+FPT Object StorageではPublicとPrivateの2つの基本権限が定義されています。
 
-> **Note:**
->   * For security reasons, FPT Cloud recommends using Bucket Policy to manage access permissions for buckets. The ACL feature will be removed from the Unify Portal soon.
->   * Bucket ACL does not apply to objects. Use the Bucket Policy or Object ACL feature to make objects public in a bucket.
-> 
+  * **Private：** 認証・認可済みのユーザーのみがバケットにアクセスまたは管理できます。
+  * **Public：** インターネット上の匿名ユーザーを含む誰もがバケットへの読み取り専用アクセスを持ちます。バケットURLさえあれば、バケット内のオブジェクト一覧をすべて閲覧できます。ただし、Bucket ACLは個別のオブジェクトには適用されません。バケット内のオブジェクトを公開するには、Bucket PolicyまたはObject ACL機能を使用する必要があります。
 
-To configure Bucket permissions (ACL), follow these steps:
-**Step 1:** In the **Action** section of the bucket to be configured, select **Config.**
-**Step 2:** Choose **Public** or **Private.**
-If you want to change permissions for all subfolders and objects inside the bucket simultaneously, check **Apply for all subfolders and objects.**
-> **Note:** Processing time will depend on the number of objects. The more objects, the longer the processing time.
-[![file](/img/migrated/image-1690878437407-662f85da.bin)](/img/migrated/image-1690878437407-662f85da.bin)
 
-# Configure Bucket Policy
-Bucket Policy is a feature that allows you to manage access rights to a specific bucket. It provides a tool for users to set permissions for sub-users and other users.
-Bucket Policy is written in JSON format following AWS standards. You can use the AWS policy generator tool here: [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
-You can allow or deny (**Effect**) actions (**Action**) on a resource (**Resource**) for a specific set of principals (**Principal**). By defining access rights in a bucket policy, you can control who can access and operate on data within your bucket.
-Here is an example of a bucket policy:
+Bucket ACLを設定するには、以下の手順で操作します。
 
-```
-Copy{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "AllowPublicRead",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": ["s3:GetObject"],
-      "Resource": "arn:aws:s3:::example-bucket/*"
+**ステップ1：** 設定するバケットの**Action**セクションで**Config**を選択します。
+
+**ステップ2：** **Public**または**Private**を選択します。
+
+## オブジェクト**アクセスコントロールリスト**（Object Permission）
+
+**FPT Object Storage**の**Object Permissions**は、他のユーザーがオブジェクトに対して実行できるアクションを定義します。個々のオブジェクトの権限を調整するには、ACLメカニズムに基づいてFPT Unify Portalの**Edit Object Permissions**機能を使用できます。主な権限グループは2つあります。
+
+  * **Private：** 匿名ユーザーのアクセスを制限します。認証・認可済みのユーザーのみがオブジェクトを閲覧できます。
+  * **Public：** Object URLを通じて、匿名ユーザーを含むすべての人に読み取り専用アクセスを提供します。
+
+
+Object Permissionsは**Bucket Policy**の影響も受けることに注意してください。Bucket PolicyはObject ACLより優先されます。両方の権限レイヤーを同時に使用する場合は注意が必要です。
+
+Bucket Policyですべてのオブジェクトが公開と指定されている場合、個々のオブジェクトのACL権限に関わらず、すべてのオブジェクトが公開（読み取り専用）でアクセス可能になります。
+
+FPT Object Storageで**Object Permissions**を設定するには、以下の手順で操作します。
+
+**ステップ1：** **Object Storage Management**ダッシュボードで、権限を変更したいファイルが含まれているバケットを選択します。
+
+**ステップ2：** バケット内のファイルの場所に移動します。**Action**セクションで**Edit Permission**をクリックします。
+
+**ステップ3：** **Read permission**フィールドで希望の表示モード（PublicまたはPrivate）を選択し、**Update**をクリックして変更を保存します。
+
+## Bucket Policyの設定
+
+Bucket PolicyはS3互換のアクセス管理メカニズムで、バケット内のオブジェクトへのアクセスや操作を行えるユーザーと実行可能なアクションについて、詳細なルールを定義できます。IPアドレス、時間、アクションタイプ（GET、PUT、DELETEなど）に基づいてアクセスを許可または拒否するルールを作成できます。
+
+Bucket Policyは、他の組織とバケットを共有したり、データを保護したりする際に役立ちます。他のサービスや特定のユーザー/サブユーザーからのアクセスを許可するポリシーを設定できます。サブユーザーや他のユーザーに権限を設定するツールを提供します。
+
+Bucket PolicyはAWS標準に従ったJSON形式で記述します。[こちら](<https://awspolicygen.s3.amazonaws.com/policygen.html>)のAWSポリシージェネレーターツールを使用してFPT Object Storageに適用できます。
+
+以下はバケットポリシーの例です。
+[code]
+    Copy{
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowPublicRead",
+          "Effect": "Allow",
+          "Principal": "*",
+          "Action": ["s3:GetObject"],
+          "Resource": "arn:aws:s3:::example-bucket/*"
+        }
+      ]
     }
-  ]
-}
-```
 
-In the example above, the policy allows all users (Principal: "*") to have read permissions (Action: s3:GetObject) for objects (Resource) within the bucket named "example-bucket." This means that the "example-bucket" bucket is set to public, and everyone has the right to get objects from this bucket.
-**Bucket Policy is a powerful tool for managing access permissions to data within a bucket. However, it's essential to be cautious when configuring bucket policies to ensure that only authorized users can access data within the bucket.**
+[/code]
 
-```
-Copy> - Bucket Policy takes precedence over Object ACL. For security, you should be careful when using both permission layers simultaneously.
-> - Bucket policies are only effective within the bucket they are declared for and cannot be configured across buckets. For example, if you have bucket-1 and bucket-2, you cannot define rules for bucket-2 in the Bucket Policy of bucket-1 and vice versa.
-```
+上記の例では、ポリシーによりすべてのユーザー（_Principal: "*"_）が「example-bucket」という名前のバケット内のすべてのオブジェクト（_Resource*_）を読み取る（_Action: s3:GetObject_）権限が付与されます。これはexample-bucketが公開モードになり、誰でもバケット内のオブジェクトを取得できることを意味します。
 
-To configure a Bucket Policy for a bucket, follow these steps:
-**Step 1:** In the **Action** section of the bucket you want to configure, select **Config**.
-**Step 2:** Enter a valid policy in the Editor and choose **Save**. [![file](/img/migrated/image-1690878422700-6408f17f.bin)](/img/migrated/image-1690878422700-6408f17f.bin)
+Bucket Policyはバケット内のデータへのアクセスを管理する強力なツールです。ただし、承認されたユーザーのみがバケット内のデータにアクセスできるよう、バケットポリシーの設定には十分な注意が必要です。
+
+重要な注意事項：
+
+  * Bucket PolicyはObject ACLより優先されます。両方の権限レイヤーを同時に使用する場合は注意が必要です。
+  * バケットポリシーは宣言されたバケットにのみ適用され、バケットをまたいで設定することはできません。例えば、bucket-1とbucket-2がある場合、bucket-1のBucket Policyでbucket-2のルールを宣言することはできませんし、その逆も同様です。
+
+
+バケットのBucket Policyを設定するには、以下の手順で操作します。
+
+**ステップ1：** 設定するバケットの**Action**セクションで**Config**を選択します。
+
+**ステップ2：** すでにJSON形式のポリシーをお持ちでBucket Policyの使用経験がある場合は**JSON Editor**モードを選択します。そうでない場合は**Visual Editor**を使用してください。
+
+**ステップ3：** 必要な情報をすべて入力したら、新規作成の場合は**Create**、更新の場合は**Update**をクリックします。

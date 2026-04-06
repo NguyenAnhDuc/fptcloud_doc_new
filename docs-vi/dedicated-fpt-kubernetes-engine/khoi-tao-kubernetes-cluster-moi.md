@@ -1,65 +1,110 @@
 ---
-id: "create-new-k8s-cluster"
-title: "Khởi tạo Kubernetes cluster mới"
-description: "Hướng dẫn tạo mới một Kubernetes cluster trên dịch vụ Dedicated FPT Kubernetes Engine."
-sidebar_label: "Khởi tạo Kubernetes cluster mới"
-sidebar_position: 4
+id: "khoi-tao-kubernetes-cluster-moi"
+title: "Khoi Tao Kubernetes Cluster Moi"
+sidebar_label: "Khoi Tao Kubernetes Cluster Moi"
 ---
 
-# Khởi tạo Kubernetes cluster mới
+Khởi tạo Kubernetes Cluster mới
 
-:::note
-Một số điều kiện bắt buộc trước khi thực hiện:
-- Quota CPU, RAM, Storage, Instance phải đủ cho cấu hình mong muốn của cluster.
-- 01 Public IP available: sử dụng cho Kubernetes API và Ingress.
-- 01 VM Network: network sử dụng cho Kubernetes Nodes, cần tạo subnet có Static IP Pool.
-:::
 
-1. Trên menu chọn **Kubernetes**, sau đó chọn **Create**.
-[![](/img/migrated/Picture1-f7c686bf.png)](/img/migrated/Picture1-f7c686bf.png)
-2. Nhập tên và chọn version cho cluster, sau đó nhấn **Next**.
-[![](/img/migrated/Picture2-ea3a672d.png)](/img/migrated/Picture2-ea3a672d.png)
-   - **Name:** Nhập tên cluster.
-   - **Version:** Chọn version của cluster.
-3. Cấu hình Node Pools theo nhu cầu, sau đó chọn **Next**.
-[![](/img/migrated/Picture3-f4c4f789.png)](/img/migrated/Picture3-f4c4f789.png)
+**Lưu ý:** Một số điều kiện bắt buộc để thực hiện thao tác này:
 
-   **Storage Policy & Load Balancer:**
-   - **Policy:** Chọn Storage Policy sử dụng cho disk của các VM trong cluster.
-   - **LB Size:** Cấu hình Load Balancer (Standard / Advanced / Premium).
+  * Quota CPU, RAM, Storage, Instance phải đủ cho cấu hình mong muốn của Cluster.
+  * 01 Public IP Available: Sử dụng cho Kubernetes API và Ingress.
+  * 01 VM Network: Network được sử dụng cho Kubernetes Nodes. Cần tạo Subnet có **Static IP Pool** theo hướng dẫn tại đây.
 
-   **Master Node Configuration:**
-   - **Type:** Chọn cấu hình CPU và Memory cho Master Node.
-   - **Disk (GB):** Chọn dung lượng root disk cho Master Node.
-   - **High Availability:** Disable (1 master node) hoặc Enable (3 master nodes).
 
-   **Worker Node Configuration:**
-   - **Type:** Chọn cấu hình CPU và Memory cho Worker Node.
-   - **Disk (GB):** Chọn dung lượng root disk cho Worker Node.
-   - **Quantity:** Số Worker Node cho cluster.
-   - **Autoscale:** Bật/tắt tính năng autoscale; nếu bật, nhập Scale Min và Scale Max.
+**Bước 1:** Trên menu chọn **Kubernetes** > Chọn **Create.**
 
-   **Nodes Credentials:**
-   - **SSH Key:** Key sử dụng để đăng nhập vào VM Node (user root).
+![](images/khoi-tao-kubernetes-cluster-moi/img-001.png)
 
-4. Cấu hình Advanced cho cluster, sau đó nhấn **Next**.
-[![](/img/migrated/Screenshot_52-aef22d51.png)](/img/migrated/Screenshot_52-aef22d51.png)
+  **Bước 2:** Nhập tên và chọn version cho cluster sau đó bấm **Next**:
 
-   **NFS Storage:**
-   - Tích chọn **Enable NFS Persistent Storage** để deploy NFS Persistent Storage cùng với cluster.
-   - **Disk (GB):** Dung lượng của NFS Storage.
+![](images/khoi-tao-kubernetes-cluster-moi/img-002.png)
 
-   **Firewall Configuration:**
-   - Tích chọn **Enable Firewall** để cấu hình Edge IP, Public IP, Private IP cùng với cluster.
+  * **Name:** Nhập tên Cluster.
+  * **Version:** Chọn version của Cluster.
 
-   **Advance Config:**
-   - **Pod Network:** Network sử dụng cho Pod trong cluster.
-   - **Service Network:** Network sử dụng cho Service trong cluster.
-   - **Network Node Prefix:** Subnet prefix cho Pod trong Node.
-   - **Max Pod per Node:** Số Pod tối đa trên mỗi Kubernetes Node.
-   - **Nodes DNS:** DNS sử dụng cho Nodes và Kubernetes cluster.
 
-5. Xem lại tóm tắt cấu hình.
-[![](/img/migrated/Picture4-db8dfc98.png)](/img/migrated/Picture4-db8dfc98.png)
-6. Chọn **Create a Kubernetes**. Hệ thống sẽ xác nhận, kiểm tra tài nguyên và tiến hành khởi tạo cluster.
-[![](/img/migrated/Picture5-6a395f6a.png)](/img/migrated/Picture5-6a395f6a.png)
+**Bước 3:** Cấu hình Node Pools theo nhu cầu sau đó chọn Next.
+
+![](images/khoi-tao-kubernetes-cluster-moi/img-003.png)
+
+**Storage Policy & Load Balancer: **
+
+  * **Policy:** Chọn Storage Policy sử dụng cho Disk của các VM trong Kubernetes Cluster.
+
+  * **LB Size:** Cấu hình của Load Balancer.
+
+
+  1. Standard: Max 2000 CCU, 4000 http req/s, bandwidth 100Mbps.
+
+  2. Advanced: Max 4000 CCU, 8000 http req/s, bandwidth 100Mbps.
+
+  3. Premium: Max 8000 CCU, 16000 http req/s, bandwidth 100Mbps.
+
+
+**Master Node Configuration:**
+
+  * **Type:** Chọn cấu hình (CPU & Memory) cho Master Node.
+
+  * **Disk (GB):** Chọn dung lượng root disk cho Master Node.
+
+  * **High Availability:**
+
+
+  1. Disable: Quantity (1) tương ứng là số VM instance Master Node cho cụm k8s là 01.
+
+  2. Enable: Quantity (3) tương ứng là số VM instance Master Node cho cụm K8s là 03.
+
+
+**Worker Node Configuration:**
+
+  * **Type:** Chọn cấu hình (CPU & Memory) cho các Worker Node.
+
+  * **Disk (GB):** Chọn dung lượng root disk cho các Worker Node.
+
+  * **Quantity:** Số Worker Node cho cụm K8s.
+
+  * **Autoscale:** Bật/Tắt tính năng autoscale cho Cluster, nếu bật hãy nhập các thông số Scale Min (số lượng node còn lại khi scale down xuống) và Scale max (số lượng node tối đa có thể scale up lên).
+
+
+**Nodes Credentials:**
+
+  * **SSH Key:** Key sử dụng để đăng nhập vào VM Node (user root). Nếu chưa có bạn có thể tạo theo hướng dẫn tại đây.
+
+
+**Bước 4:** Cấu hình Advanced cho cụm cluster sau đó bấm **Next**.
+
+![](images/khoi-tao-kubernetes-cluster-moi/img-004.png)
+
+**NFS Storage:**
+
+  * Check box **Enable NFS Presistent Storage**: Chọn để deploy **NFS Persistent Storage** cùng với **Kubernetes Cluster**.
+
+  * **Disk (GB)**: Dung lượng của NFS Storage. Lưu ý sizing phù hợp, việc thay đổi dung lượng disk sẽ thực hiện manual bởi người sử dụng.
+
+  * **Firewall Configuration**: Các cài đặt dành cho người dùng nâng cao, chọn icon để hiển thị. Nếu bạn không hiểu rõ các tham số này, hãy để mặc định.
+
+  * Check box **Enable Firewall**: Chọn để cấu hình Edge IP, Public IP, Private IP cùng với Kubernetes Cluster.
+
+  * **Advance Config**: Các cài đặt dành cho người dùng nâng cao, chọn icon để hiển thị. Nếu bạn không hiểu rõ các tham số này, hãy để mặc định.
+
+  * **Pod Network**: Network sử dụng cho Pod trong cluster.
+
+  * **Service Network**: Network sử dụng cho Service trong cluster.
+
+  * **Network Node Prefix**: Subnet Prefix cho Pod trong Node
+
+  * **Max Pod per Node**: Số Pod tối đa trên mỗi Kubernetes Node.
+
+  * **Nodes DNS**: DNS được sử dụng cho Nodes và Kubernetes Cluster. User nhập DNS mong muốn để sử dụng hệ thống DNS nội bộ của user.
+
+
+**Bước 5:** Chọn **Next**. Hệ thống sẽ hiển thị màn hình xác nhận lại toàn bộ thông tin đã nhập, kiểm tra tài nguyên và tiến hành quá trình khởi tạo Kubernetes Cluster dựa vào cấu hình đã chọn.
+
+![](images/khoi-tao-kubernetes-cluster-moi/img-005.png)
+
+**Bước 6:** Chọn **Create a Kubernetes**. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo Kubernetes Cluster dựa vào cấu hình đã chọn.
+
+![](images/khoi-tao-kubernetes-cluster-moi/img-006.png)

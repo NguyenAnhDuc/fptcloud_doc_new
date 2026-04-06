@@ -1,39 +1,35 @@
 ---
 id: "Initial-setup"
-title: "Initial Setup"
-description: "Steps to complete before using FPT Kubernetes Engine for the first time."
-sidebar_label: "Initial Setup"
-sidebar_position: "2"
+title: "Thiết lập ban đầu"
+description: "Nếu đây là lần đầu tiên bạn sử dụng **FPT** **Kubernetes Engine** , trước tiên hãy kiểm tra và hoàn thành các công việc "
+sidebar_label: "Thiết lập ban đầu"
+sidebar_position: 2
 ---
 
-# Initial Setup
+# Thiết lập ban đầu
 
-If this is your first time using **FPT Kubernetes Engine**, check and complete the following steps first:
+Nếu đây là lần đầu tiên bạn sử dụng **FPT** **Kubernetes Engine** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:
 
-### 1. Create an FPT Cloud account and log in to FPT Portal
-To register for an FPT Cloud account, visit the homepage at <https://fptcloud.com/>.
-Select **Sign Up** and enter the required information as instructed. Our support team will contact you to confirm your details and create your account.
-To log in to FPT Portal, go to <https://console.fptcloud.com/>.
-After logging in with the provided credentials, select the correct Tenant, Region, and VPC.
-If you are unsure about this information or the system returns an error after 3 attempts, contact our Support team immediately.
+### 1. Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
+Để đăng ký tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại <https://fptcloud.com/>.
+Sau đó chọn chức năng **Sign Up** và nhập các thông tin theo hướng dẫn của hệ thống. Bạn sẽ được bộ phận hỗ trợ liên hệ ngay sau đó và xác nhận các thông tin để tạo tài khoản.
+Để đăng nhập vào FPT Portal, bạn hãy truy cập vào <https://console.fptcloud.com/>.
+Sau khi đăng nhập bằng tài khoản và mật khẩu đã được cấp, chọn đúng Tenant, Region, VPC.
+Nếu không chắc chắn về các thông tin trên hoặc hệ thống phản hồi lỗi sau 3 lần thử thì hãy liên hệ ngay cho đội ngũ Support của chúng tôi để được hỗ trợ.
 
-### 2. Create Subnets with Static Pool
-Kubernetes clusters only work with Subnets that have the Static Pool option enabled. Create a Subnet with Static Pool as follows:
-
-**Step 1:** Under **Network**, select the **Subnets** tab.
+### 2. Tạo Subnets với Static Pool
+Kubernetes Cluster chỉ hoạt động với Subnets đã bật tùy chọn Static Pool, vì vậy bạn cần tạo một Subnets với Static Pool theo hướng dẫn sau:
+**Bước 1:** Ở phần **Network** chọn tab **Subnets**
 [![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.35.34-7d3142bd.png)](/img/migrated/Screenshot-2025-01-10-at-10.35.34-7d3142bd.png)
+**Bước 2** : Chọn **Create Subnet** ở trang **Subnets Management**
+[![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png)](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png) **Bước 3:** Nhập các thông tin sau:
+  * **Name:** Nhập Tên gợi nhớ của Subnet
+  * **CIDR:** Nhập **CIDR** hợp lệ
+  * Tích chọn vào tùy chọn **Advanced settings**
+  * **Static IP Pool:** Nhập 1 dải IP hợp lệ được lấy từ CIDR.
 
-**Step 2:** Click **Create Subnet** on the **Subnets Management** page.
-[![Subnet K8s](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png)](/img/migrated/Screenshot-2025-01-10-at-10.39.58-b09ab0a1.png)
-
-**Step 3:** Enter the following information:
-  * **Name:** Enter a memorable name for the Subnet.
-  * **CIDR:** Enter a valid CIDR.
-  * Check the **Advanced settings** option.
-  * **Static IP Pool:** Enter a valid IP range taken from the CIDR.
-
-Click **Save** to create the new Subnet. The system will process and display the result.
+Chọn **Save** để tạo Subnet mới. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
 [![Userguide K8s 3](/img/migrated/Initial-setup-3-9bccff9a.png)](/img/migrated/Initial-setup-3-9bccff9a.png)
 
-### 3. Request FKE service activation and resource quota
-If this is your first time using FPT Cloud, some services may not yet be enabled for your account. Contact our support team and provide your desired configuration details. We will provision the necessary resources such as RAM, CPU, Storage, Public IP, etc. for you to use the FKE service.
+### 3. Yêu cầu kích hoạt dịch vụ FKE và cấp quota tài nguyên
+Nếu đây là lần đầu tiên sử dụng FPT Cloud, một số dịch vụ có thể chưa được mở cho tài khoản của bạn. Hãy liên hệ với đội ngũ hỗ trợ của chúng tôi và cung cấp các thông tin về cấu hình bạn mong muốn. Chúng tôi sẽ cấp cho bạn các tài nguyên cần thiết như Ram + CPU, Storage, Public IP,… để bạn sử dụng dịch vụ FKE.

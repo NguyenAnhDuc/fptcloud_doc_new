@@ -1,40 +1,52 @@
 ---
 id: "upgrade-version"
 title: "Upgrade Version"
-description: "The **Upgrade Database Engine Version** feature in FPT Database Engine **allows** users to **upgrade a MariaDB database "
 sidebar_label: "Upgrade Version"
-sidebar_position: "25"
 ---
 
-# Upgrade Version
+Nâng cấp phiên bản cho cơ sở dữ liệu
 
-The **Upgrade Database Engine Version** feature in FPT Database Engine **allows** users to **upgrade a MariaDB database from the current version to MariaDB 10.9**. Upgrading enables you to take advantage of performance improvements, enhanced security, and new features in the higher version.
 
-### Scope & Limitation
-  * MariaDB only: Databases other than MariaDB will not display this feature.
-  * Supported version: Only upgrades to MariaDB 10.9 are supported.
-  * Downgrades or upgrades to other versions are not supported.
+Tính năng **Nâng cấp phiên bản cho cơ sở dữ liệu** trong FPT Database Engine **hiện cho phép** người dùng **nâng cấp cơ sở dữ liệu thuộc loại MariaDB từ phiên bản hiện tại lên MariaDB 10.9**. Việc nâng cấp giúp bạn tận dụng các cải tiến về hiệu năng, bảo mật và tính năng mới của phiên bản cao hơn.
 
-### Prerequisites
-  * Ensure you have IAM permissions to manage and update the database cluster.
-  * All applications or services connected to the database should be disconnected.
-  * Create a full backup before upgrading so you can recover if needed.
-  * Verify that your applications support the target version.
+### Phạm vi & Giới hạn
 
-### Detailed instructions
-#### Step 1: Open the Database Overview page
-Log in to the FPT Cloud Portal and navigate to **Database List**. Choose MariaDB that you want to upgrade from your list of clusters. On the cluster’s **Overview** page, you can see the current version and an **Upgrade** icon next to it.
-[![](/img/migrated/view-upgrade-action-scaled-4bc6cce2.png)](/img/migrated/view-upgrade-action-scaled-4bc6cce2.png)
+  * Chỉ áp dụng cho MariaDB. Các database không phải MariaDB sẽ không hiển thị chức năng này.
+  * Chỉ hỗ trợ upgrade lên MariaDB 10.9.
+  * Không hỗ trợ downgrade hoặc upgrade sang phiên bản khác.
 
-#### Step 2: Upgrade version
-On the **Overview** page, click the **Upgrade** icon next to the version information. A dialog opens showing the current version and the target version(s) available.
-[![](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)
-Select the target version and enter the confirmation keyword in the input field. Select **"Upgrade"** to start the upgrade process.
-During the operation, the database cluster status changes to **"Updating"**. Do not attempt to connect or make changes while the update is in progress. The cluster will automatically restart as part of the upgrade.
-After the upgrade completes successfully, the status returns to **"Running"** , and the database is upgraded to the new version.
 
-#### Important Considerations
-  * **Irreversible** : Version upgrades cannot be undone; ensure backups are complete.
-  * **Disconnect Clients** : All application connections must be stopped before upgrading.
-  * **Service Impact** : The database cluster will be restarted, causing temporary downtime.
-  * If the upgrade fails, use a backup to restore the previous state.
+### Điều kiện tiên quyết
+
+  * Đảm bảo bạn có quyền IAM để quản lý và cập nhật cluster.
+  * Ngắt kết nối tất cả các ứng dụng đang kết nối với cơ sở dữ liệu.
+  * Thực hiện full backup trước khi upgrade để phục hồi khi cần.
+  * Kiểm tra ứng dụng tương thích với phiên bản mục tiêu.
+
+
+### Hướng dẫn chi tiết
+
+#### Bước 1: Truy cập trang Xem chi tiết cơ sở dữ liệu
+
+Đăng nhập vào FPT Cloud Portal và đi tới trang **Database List**. Chọn cụm MariaDB bạn muốn cập nhật. Trên trang **Overview** của cluster, bạn sẽ thấy phiên bản hiện tại và icon **Upgrade** ở bên cạnh.
+
+![](images/upgrade-version/img-001.png)
+
+#### Bước 2: Thực hiện ugrade phiên bản
+
+Trên trang **Overview** , tìm và nhấp vào biểu tượng **Upgrade** bên cạnh thông tin phiên bản. Một hộp thoại sẽ mở ra hiển thị phiên bản hiện tại và phiên bản mục tiêu có thể cập nhật.
+
+![](images/upgrade-version/img-002.png)
+
+Chọn version cần nâng cấp và nhập từ khóa xác nhận vào trường nhập liệu. Nhấn **Upgrade** để bắt đầu quá trình nâng cấp.
+
+Trong quá trình thực hiện, trạng thái của database cluster sẽ chuyển sang **“Updating”**. Không cố gắng kết nối hoặc thay đổi khi cập nhật đang diễn ra. Cụm sẽ tự động khởi động lại trong quá trình cập nhật.
+
+Khi hoàn tất upgrade, trạng thái sẽ trở về **“Running”** và cơ sở dữ liệu đã được nâng cấp lên phiên bản mới.
+
+### Lưu ý quan trọng
+
+  * **Không thể hoàn tác**: Việc cập nhật phiên bản không thể quay lại; hãy đảm bảo bản sao lưu hoàn chỉnh.
+  * **Ngắt kết nối**: Tất cả kết nối ứng dụng phải được dừng trước khi nâng cấp.
+  * **Ảnh hưởng dịch vụ:** Cluster sẽ khởi động lại, gây gián đoạn tạm thời.
+  * Nếu cập nhật thất bại, sử dụng bản sao lưu để phục hồi trạng thái trước đó.

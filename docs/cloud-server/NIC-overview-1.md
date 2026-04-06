@@ -1,28 +1,24 @@
 ---
 id: "NIC-overview-1"
-title: "Managing NIC (Network Interface Card)"
-description: "NIC cards connect virtual machines to cloud network resources — providing high-performance data transfer."
-sidebar_label: "Managing NIC"
+title: "Nic Overview 1"
+sidebar_label: "NIC Management"
 sidebar_position: 55
 ---
 
-# Managing NIC (Network Interface Card)
+NIC (Network Interface Card) Management
 
-A NIC (Network Interface Card) is a key component that connects your virtual machine to network resources on the Cloud — delivering high-performance, reliable data transfer.
 
-:::warning
-This is an advanced feature intended for users with knowledge of network system administration. Always test your configuration after making changes to confirm the card is working correctly.
-:::
+### Product Overview:
 
-## Tutorials
+  * A NIC (Network Interface Card) on the Cloud platform is an essential component for connecting virtual machines and resources on the Cloud. NIC provides high-performance and reliable connectivity and data transmission. With its flexibility and scalability, NIC plays an important role in building and managing network infrastructure, while creating a flexible and extensible network environment for Cloud-based applications and services.
 
-- [NIC Overview](./overview-nic.md)
-- [Create a Primary NIC card](./create-card-NIC-%20Primary.md)
-- [Disable NIC](./disable-NIC-card.md)
-- [Enable NIC](./enable-NIC-card.md)
-- [Add a new NIC card](./add-card-NIC-%20new.md)
-- [Convert a card to Primary](./convert-card.md)
-- [Edit IP Address](./edit-ip-address.md)
-- [Change MAC address](./change-address-MAC.md)
-- [Delete NIC](./delete-card-NIC.md)
-- [Change Network Config](./change-network-config.md)
+
+### Important considerations before configuring a NIC:
+
+  * This is an advanced feature intended only for users with a certain level of knowledge in building and managing computer network systems.
+
+  * Network connection setup: Identify the network connection for the NIC to ensure the virtual machine can communicate and access network resources efficiently.
+
+  * IP configuration: Configure the IP address, subnet mask, gateway, and DNS for the NIC so that the virtual machine can connect to the network.
+
+  * Testing: After configuring the NIC, perform tests to ensure the card operates correctly and does not cause issues in the virtual machine or network.

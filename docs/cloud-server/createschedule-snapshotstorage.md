@@ -1,32 +1,36 @@
 ---
 id: "createschedule-snapshotstorage"
-title: "Create a Storage Disk Snapshot Schedule"
-description: "Create an automatic storage disk snapshot schedule with Daily or Weekly frequency."
-sidebar_label: "Create Storage Disk Snapshot Schedule"
+title: "Createschedule Snapshotstorage"
+sidebar_label: "Create a disk snapshot schedule"
 sidebar_position: 101
 ---
 
-# Create a Storage Disk Snapshot Schedule
+Create a disk snapshot schedule
 
-## Create a Schedule
 
-1. Go to **Compute Engine** → **Schedule Management** and select the **Storage snapshot schedule** tab.
+To create a new disk snapshot schedule, follow these steps. **Step 1:** In the menu, select Compute Engine > Schedule Management, then select the Storage snapshot schedule tab.
 
-   [![Storage snapshot schedule tab](/img/migrated/image-1766044844669-47ffb5e0.png)](/img/migrated/image-1766044844669-47ffb5e0.png)
+![file](images/createschedule-snapshotstorage/img-001.png)
 
-2. Enter the required information:
-   - **Name**: Schedule name.
-   - **Time**: Select a time (at least 2 hours after the current time).
-   - **Start date** / **End date** *(optional)*.
-   - **Frequency**: Daily or Weekly.
-   - **Applied Storage**: Storage disk to attach to the schedule.
+Step 2: Enter the required information as prompted by the system:
 
-   [![Create Schedule dialog](/img/migrated/image-1766044938913-12b00e98.png)](/img/migrated/image-1766044938913-12b00e98.png)
+  * Name: schedule name
 
-:::note
-Each storage disk can only be attached to one snapshot schedule at a time.
-:::
+  * Time: you may only select a time at least 2 hours from the current time of editing to ensure the schedule runs correctly
 
-3. Click **Create Schedule**.
+  * Start date: the date the snapshot schedule begins repeating; if left blank, it starts from the moment the schedule is successfully created
 
-   [![Created schedule](/img/migrated/image-1766044968475-8510c5bd.png)](/img/migrated/image-1766044968475-8510c5bd.png)
+  * End date: the date the snapshot schedule ends; if left blank, the schedule has no expiration
+
+  * Frequency: the frequency at which the snapshot action is performed
+
+  *     * Daily: schedule runs hourly each day
+  *     * Weekly: schedule runs weekly; you can select specific days of the week
+  * Applied Storage: the disks attached to the schedule (Note: each disk can only be attached to one schedule at a time)
+
+
+![file](images/createschedule-snapshotstorage/img-002.png)
+
+**Step 3:** Click Create Schedule. The system will proceed to initialize the schedule and notify you of the result. If successful, the new schedule will appear on the Storage snapshot schedule page.
+
+![file](images/createschedule-snapshotstorage/img-003.png)

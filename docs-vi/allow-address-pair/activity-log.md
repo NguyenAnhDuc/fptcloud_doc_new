@@ -1,12 +1,12 @@
 ---
 id: "activity-log"
-title: "Activity Log"
+title: "Nhật ký hoạt động"
 description: "Các hành động thành công đều được ghi nhận tại Activity Log."
-sidebar_label: "Activity Log"
+sidebar_label: "Nhật ký hoạt động"
 sidebar_position: 6
 ---
 
-# Activity Log
+# Nhật ký hoạt động
 
 Các hành động thành công đều được ghi nhận tại Activity Log.
 

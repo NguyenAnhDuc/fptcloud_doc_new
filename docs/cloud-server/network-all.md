@@ -1,23 +1,16 @@
 ---
 id: "network-all"
-title: "Networking Overview"
-description: "FPT Cloud's networking system provides a comprehensive solution for enterprises — from traditional networks to VPC."
+title: "Network All"
 sidebar_label: "Networking Overview"
 sidebar_position: 66
 ---
 
-# Networking Overview
+Networking
 
-The FPT Cloud (FCI) networking system provides a comprehensive solution for enterprises — enabling you to build and manage network infrastructure from traditional models to Virtual Private Cloud (VPC) or the No-gateway model.
 
-:::note
-With the No-gateway model, you can set up your own system and manage it through a server acting as a router (for example, a Check-point firewall). IPs are assigned directly to the server and traffic is routed through the firewall.
-:::
+### Networking Overview
+The FPT Smart Cloud (FCI) networking system delivers a comprehensive solution for enterprises, enabling flexible and secure construction and management of cloud network infrastructure. With Virtual Private Cloud (VPC) as the foundation, the system supports internal resource connectivity, network segmentation via Subnets, and external access through Floating IP. Security tools such as Security Groups provide resource control and protection, while Identity & Access Management (IAM) ensures proper user authorization. Secure connectivity between on-premise networks and the cloud is maintained via VPN Site-to-Site, and Load Balancer efficiently distributes traffic to ensure high performance for enterprise services and applications.
 
-## Guides
+The current FCI architecture is designed to accommodate diverse requirements, from traditional network systems to building virtual private networks, or even specific models such as No-gateway.
 
-- [Networking Details](./networking-overview.md)
-- [Gateway](./gateway.md)
-- [Floating IP Management](./quan-ly-floating-ip.md)
-- [Subnet Management](./Quản%20lý%20Subnets.md)
-- [Allow Address Pair](./allow-address-pair.md)
+_With the No-gateway model, customers can set up their own system and manage it through a server acting as a router, such as a Check-point firewall. In this configuration, IPs are assigned directly to the server, and all traffic is routed through Check-point without passing through the gateway provided by FCI._

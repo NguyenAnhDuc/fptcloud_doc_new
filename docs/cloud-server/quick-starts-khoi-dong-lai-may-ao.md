@@ -1,25 +1,23 @@
 ---
 id: "quick-starts-khoi-dong-lai-may-ao"
-title: "Reboot virtual machine"
-description: "Reboot a virtual machine to improve its operation when it encounters errors."
-sidebar_label: "Reboot virtual machine"
+title: "Quick Starts Khoi Dong Lai May Ao"
+sidebar_label: "Reboot a virtual machine"
 sidebar_position: 7
 ---
 
-# Reboot virtual machine
+Reboot a virtual machine
 
-Rebooting restarts all processes on the virtual machine, improving performance when the system is running slowly or encountering errors.
 
-## Reboot virtual machine
+**Reboot** is the action of restarting the system to improve the operational status of the server.
 
-1. In the **Instance Management** dashboard, select **Action** for the server you want to reboot.
+During operation, programs running on the virtual machine may encounter errors for various reasons. If these errors occur too frequently, the system may malfunction and slow down. In such cases, you need to reboot the machine to restart those programs and restore the virtual machine to proper working order.
 
-   [![Instance Action menu](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)
+**FPT Cloud** supports rebooting your virtual machine directly from the **FPT Portal** interface. To use this feature, follow the steps below:
 
-2. Select **Reboot**. The system performs the reboot and displays the processing status.
+**Step 1**: On the **Instance Management** dashboard, select **Action** at the end of the row for the server you want to reboot.
 
-   [![Reboot option in the Action menu](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)
+![Userguide FPT Cloud Server 2022 14](images/quick-starts-khoi-dong-lai-may-ao/img-001.png)
 
-## Next steps
+**Step 2**: Select the **Reboot** function. The system will then perform the reboot and notify you of the processing status.
 
-- [Lock and unlock VM deletion](./lock-unlock-instance-deletion.md)
+![Userguide FPT Cloud Server 2022 15](images/quick-starts-khoi-dong-lai-may-ao/img-002.png)

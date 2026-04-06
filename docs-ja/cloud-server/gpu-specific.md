@@ -1,54 +1,61 @@
 ---
 id: "gpu-specific"
-title: "SpecificサービスのGPU管理"
-description: "FPT CloudのSpecificサービスタイプでGPUの追加、新規GPU Serverの作成、GPU の削除を行います。"
-sidebar_label: "SpecificサービスのGPU管理"
+title: "GPU Specific"
+sidebar_label: "Specific サービス向け GPU 管理"
 sidebar_position: 22
-pagination_next: null
 ---
 
-# SpecificサービスのGPU管理
+Specific サービスタイプ向け Console Portal での GPU 管理
 
-このガイドでは、Specificサービスタイプ向けのGPU管理について説明します。既存インスタンスへのGPU追加、新規GPU Serverの作成、GPUの削除が含まれます。
 
-## 既存インスタンスへのGPU追加
+## 1. 既存の仮想マシンに GPU を追加する
+以前に作成した仮想マシンにGPUを追加するには、以下の手順に従ってください。
 
-:::note
-GPU追加前にインスタンスを **Power off** する必要があります。最小構成：8 vCPU – 24 GB RAM。
+**ステップ 1**: メニューで **Instance Management** を選択します。**Actions** セクションで **Add GPU** を選択します。
+
+![file](images/gpu-specific/img-001.png)
+
+
+:::warning
+マシンにGPUカードを追加する前に、サーバーをシャットダウンしてください。
 :::
 
-1. **Instance Management** で **Actions** → **Add GPU** を選択します。
 
-   [![Add GPUオプションがあるActionsメニュー](/img/migrated/image-1705028237983-e4b7aeed.png)](/img/migrated/image-1705028237983-e4b7aeed.png)
+**ステップ 2**: 対応するリストから **GPU** 設定を選択し、**Update** をクリックします。
 
-2. リストから **GPU** 設定を選択し、**Update** をクリックします。
+この機能を使用するには、仮想マシンが最低でも8 vCPU – 24 GB RAMの設定を満たしている必要があります。
 
-## 新規GPU Serverの作成
+## 2. 新しい GPU 仮想マシンを作成する
+  * この操作を実行するには、ユーザーにGPUクォータが割り当てられている必要があります。VPCのGPU使用クォータが不足すると、新しいGPU Serverを作成する際にエラー通知が表示されます。
 
-:::note
-- アカウントにGPUクォータが割り当てられている必要があります。VPCのクォータが不足している場合、新規GPU Server作成時にエラーが返されます。
-- 最小構成：8 vCPU – 24 GB RAM。
-:::
+  * 作成後、システムはすぐに仮想マシンにGPUを追加します。ユーザーは仮想マシンのコンソールにアクセスしてGPU情報を確認できます。
 
-1. **Compute Engine** → **Instance Management** を選択し、**Create instance** をクリックします。
+  * GPU Serverを作成するための最小設定は8 vCPU – 24 GB RAMです。
 
-   [![Instance Management画面](/img/migrated/image-1712739862804-d5b7552c.png)](/img/migrated/image-1712739862804-d5b7552c.png)
 
-2. インスタンスを設定します：
-   - **Instance Type**：**GPU** を選択します。
-   - **GPU type**：適切なGPUタイプを選択します。
-   - **Image**：適切なOSを選択します。
-   - **Resource type**：リストから設定を選択します。
-   - **Local Storage**：ディスクサイズを調整します（最小40 GB）。
-   - **Subnet** と **Private IP**：自動割り当てまたはカスタマイズします。
-   - **インスタンス名**：インスタンス名を入力します。
-   - **Authentication type**：Standard（Password）またはSSH Keyを選択します。
+**ステップ 1**: メニューで **Compute Engine** > **Instance Management** を選択し、**Create instance** をクリックします。
 
-3. **Create Instance** をクリックします。
+![file](images/gpu-specific/img-002.png)
 
-作成後、システムが即座にGPUをインスタンスに接続します。コンソールを開いてGPU情報を確認できます。
+**ステップ 2**: 以下のオプションで必要に応じて仮想マシンを設定します。
 
-## インスタンスからのGPU削除
+  * **Instance Type**: GPUを選択します。
+  * **GPU type:** リストから適切なGPUタイプを選択します。
+  * **Image:** ニーズに合ったメインOSを選択します。各OSグループには異なるバージョンが含まれます。デフォルトは最新バージョンです。
+  * **Resource type**: リストから仮想マシンに適した設定を選択します。
+  * **Local Storage**: マシンにディスクを追加し、容量を増減するか、デフォルトの容量（最低40 GB）を使用します。
+  * **Subnet & Private IP**: VPCのネットワークに基づいてSubnetとプライベートIPを自動割り当てします。ユーザーは必要に応じて変更できます。
+  * **Instance name**: 管理しやすい仮想マシン名を入力します。これは仮想マシンのホスト名にもなります。
+  * **Authentication type**: Standard（Username/Password）またはSSH key。SSH Keyを選択した場合、システムは最新のSSH keyを使用します（変更可能）。Standardメソッドを使用する場合、ユーザーはパスワードを安全に保管してください。
 
-1. **Instance Management** で **Actions** → **Remove GPU** を選択します。
-2. 内容を確認し、**Update** をクリックします。
+
+**ステップ 3**: **Create Instance** をクリックして仮想マシンを作成します。システムは確認を表示し、リソースを確認して、選択した設定に基づいて新しい仮想マシンの初期化処理を進めます。
+
+初期化が成功すると、新しく作成した仮想マシンを確認し、管理ダッシュボードで情報を確認できます。各仮想マシンには名前、設定（RAM、CPU、GPU、Storage）、IPアドレス、動作状態（オフ/オン/Suspended）が一覧に表示されます。
+
+## 3. 仮想マシンから GPU を取り外す
+仮想マシンに **GPU** を追加済みで、使用する必要がなくなった場合は、以下の手順で **GPU** を取り外すことができます。
+
+**ステップ 1**: メニューで **Instance Management** を選択します。**GPU** を取り外す仮想マシンの **Actions** セクションで **Remove GPU** を選択します。
+
+**ステップ 2:** **GPU** 削除情報を確認し、**Update** をクリックします。

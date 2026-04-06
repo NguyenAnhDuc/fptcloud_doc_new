@@ -1,22 +1,17 @@
 ---
 id: "deleteschedule-snapshotVM"
-title: "インスタンスSnapshotスケジュールの削除"
-description: "不要になったインスタンスSnapshotスケジュールを削除します。"
-sidebar_label: "インスタンスSnapshotスケジュールの削除"
+title: "Deleteschedule Snapshotvm"
+sidebar_label: "仮想マシンの Snapshot スケジュールの削除"
 sidebar_position: 99
-pagination_next: null
 ---
 
-# インスタンスSnapshotスケジュールの削除
+仮想マシンの Snapshot スケジュールの削除
 
-:::danger
-スケジュールの削除は元に戻せません。
-:::
 
-1. **Instance snapshot schedule** タブで **Action** → **Delete** をクリックします。
+**ステップ 1:** Instance snapshot schedule タブで、アクション欄のスケジュール名を選択し、Delete を選択します。
 
-   [![Action Deleteメニュー](/img/migrated/image-1766044656234-60e74535.png)](/img/migrated/image-1766044656234-60e74535.png)
+![file](images/deleteschedule-snapshotVM/img-001.png)
 
-2. **delete** と入力し、**Delete schedule** をクリックします。
+**ステップ 2:** 警告ダイアログが表示され、スケジュール名が示されてユーザーに確認を求めます。「delete」と入力し、**Delete schedule** をクリックして削除を実行します。その後、システムはスケジュールを完全に削除し、現在アタッチされている仮想マシン（存在する場合）は解放され、現在のステータスを保持したまま維持されます。
 
-   [![削除の確認](/img/migrated/image-1766044682783-06bae7dc.png)](/img/migrated/image-1766044682783-06bae7dc.png)
+![file](images/deleteschedule-snapshotVM/img-002.png)

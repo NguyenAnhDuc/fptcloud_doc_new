@@ -1,53 +1,66 @@
 ---
 id: "backup-restore"
-title: "Backup and restore"
-description: "The**Backup & Restore** feature on FPT Database Engine helps protect data against risks such as accidental deletion, dat"
-sidebar_label: "Backup and restore"
-sidebar_position: "26"
+title: "Backup Restore"
+sidebar_label: "Backup Restore"
 ---
 
-# Backup and restore
+Backup & Restore
 
-The**Backup & Restore** feature on FPT Database Engine helps protect data against risks such as accidental deletion, data corruption, or system failures. The platform supports automatic backups, data restoration from backup files, and Point-in-Time Recovery for selected supported database engines.
+
+FPT Database Engineの**Backup & Restore**機能は、誤削除、データエラー、システム障害などのリスクからデータを保護します。プラットフォームは、自動バックアップ、バックアップからのデータ復元、およびサポートされているデータベースエンジン向けのPoint-in-Time Recoveryをサポートしています。
 
 ### Backup
-A backup is a snapshot of database data taken at a specific point in time. Backups are used to restore data in case of operational errors or failures. The backup mechanism is designed to protect data, enable recovery in the event of failures, and meet compliance and security requirements in a cloud environment.
-The Backup feature allows you to configure, operate, and monitor backup operations for databases. You can:
-  * Enable or disable backups for a database cluster.
-  * Manage backup jobs.
-  * Monitor backup status through the management interface.
 
-Backups are available for all database engines provided by FPT.
+Backupは、特定の時点でのデータベースデータのコピーを作成するプロセスです。バックアップは、インシデントや運用エラーが発生した際にデータを復元するために使用されます。バックアップメカニズムは、データを保護し、インシデント発生時の復旧をサポートし、クラウド環境でのコンプライアンスおよびセキュリティ要件を満たすように設計されています。
 
-### Backup types
-FPT Database Engine supports the following backup types:
-  * **Full backup** : Backs up the entire database cluster.
-  * **Diff (Incremental) backup** : Backs up only the data changes since the last backup, reducing storage usage and backup duration.
+Backup機能を使用すると、データベースのバックアップ活動の設定、運用、監視が行えます。次のことが可能です。
 
-### Backup storage
-Backups are stored on dedicated storage, isolated from the database cluster. This design ensures: data durability, high availability, and reliable recovery in the event of cluster failures.
+  * データベースのバックアップサービスの有効化または無効化
+  * バックアップスケジュール（バックアップジョブ）の管理
+  * 一元管理インターフェースを通じた実行状況の監視。
 
-### Backup retention
-Backup retention defines the number of full backups retained. When the retention limit is exceeded, the oldest backups are automatically deleted.
+
+Backup機能はFPTが提供するすべてのエンジンタイプで利用可能です。
+
+### バックアップタイプ
+
+FPT Database Engineは以下の2種類のバックアップをサポートしています。
+
+  * **Full Backup**: データベースデータ全体をバックアップします。
+  * **Diff（増分）バックアップ**: 最近のバックアップ以降の変更のみをバックアップし、バックアップ時間とストレージ容量を削減します。
+
+
+### バックアップストレージ
+
+バックアップはデータベースクラスターとは完全に分離された独立したストレージシステムに保存され、データの耐久性とデータベースクラスターに問題が発生した際の復旧可用性を確保します。
+
+### バックアップ保持期間
+
+バックアップ保持期間は、システムに保持されるフルバックアップの数を決定します。設定された保持数を超えると、最も古いバックアップが自動的に削除されます。
 
 ### Restore
-Restore allows you to recover a database from an existing backup. The restore operation creates a new database based on the selected backup.
 
-### Point-in-Time Recovery (PITR)
-Point-in-Time Recovery allows you to restore a database to a specific point in time. PITR is supported by combining periodic full backups and continuously archived transaction logs. This approach enables restoring a database to any valid point within the retention period.
-PITR is especially useful for accidental data deletion, application errors and unintended data or configuration changes. **Currently, this feature is supported for PostgreSQL only.**
-The combination of backup and PITR enhances data protection, ensures high availability, and provides flexible recovery capabilities for real-world operational scenarios.
+Restoreを使用すると、既存のバックアップからデータベースを復旧できます。リストアプロセスは、選択したバックアップ時点のデータに基づいて新しいデータベースを作成します。
 
-### Required Permissions  
-| Permission  | Action Type  | Description  |  
-| --- | --- | --- |  
-| manageDatabase:ListBackup  | View  | Allows viewing backup service information.  |  
-| manageDatabase:EnableBackup  | Create  | Allows enabling Backup & Restore for a database.  |  
-| manageDatabase:DeleteBackup  | Edit  | Allows disabling Backup & Restore for a database.  |  
-| manageDatabase:CreateJobBackup  | Create  | Allows creating backup jobs for a database.  |  
-| manageDatabase:ViewJobBackup  | View  | Allows viewing backup job details.  |  
-| manageDatabase:RunNowJobBackup  | Create  | Allows triggering an on-demand backup snapshot for a database.  |  
-| manageDatabase:EditJobBackup  | Edit  | Allows editing backup jobs.  |  
-| manageDatabase:DeleteJobBackup  | Delete  | Allows deleting backup jobs.  |  
-| manageDatabase:ListRestore  | View  | Allows viewing available restore points.  |  
-| manageDatabase:Restore  | Create  | Allows restoring a database from backup or recover to a point in time.  |
+### Point-in-Time Recovery（PITR）
+
+Point-in-Time Recoveryは、過去の特定の時点にデータベースを復元する機能です。PITRは、定期的なフルバックアップと継続的に記録されたトランザクションログ/アーカイブログを組み合わせることで機能します。このメカニズムにより、正確で信頼性の高い復旧が保証されます。
+
+この機能は、システム運用中にエラーやインシデントが発見された場合など、正確な時点のデータを復元する必要がある場合に特に有効です。**現在、この機能はPostgreSQL、MySQL、MariaDBでサポートされています。**
+
+バックアップとPITRの組み合わせにより、データ保護が強化され、高可用性が確保され、実際の運用シナリオに対応した柔軟な復旧機能が提供されます。
+
+### 必要な権限
+
+権限名 | 操作タイプ | 説明
+---|---|---
+manageDatabase:ListBackup | View | データベースのBackup情報を表示する権限。
+manageDatabase:EnableBackup | Create | データベースのBackup & Restore機能を有効化する権限。
+manageDatabase:DeleteBackup | Edit | データベースのBackup & Restore機能を無効化する権限。
+manageDatabase:CreateJobBackup | Create | データベースのバックアップジョブを作成する権限。
+manageDatabase:ViewJobBackup | View | バックアップジョブの詳細を表示する権限。
+manageDatabase:RunNowJobBackup | Create | データベースの手動バックアップスナップショットを作成する権限。
+manageDatabase:EditJobBackup | Edit | バックアップジョブを編集する権限。
+manageDatabase:DeleteJobBackup | Delete | バックアップジョブを削除する権限。
+manageDatabase:ListRestore | View | リストア可能なバックアップのリストを表示する権限。
+manageDatabase:Restore | Create | バックアップからデータベースを復元するか、特定の時点に復元する権限。

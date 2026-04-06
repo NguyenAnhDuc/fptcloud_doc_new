@@ -1,25 +1,23 @@
 ---
 id: "quick-starts-khoi-dong-lai-may-ao"
-title: "仮想マシンの再起動"
-description: "エラー発生時の動作改善のために仮想マシンを再起動（Reboot）します。"
+title: "Quick Starts Khoi Dong Lai May Ao"
 sidebar_label: "仮想マシンの再起動"
 sidebar_position: 7
 ---
 
-# 仮想マシンの再起動
+仮想マシンの再起動
 
-Rebootを実行すると仮想マシン上のプログラムが再起動され、システムの動作が遅い場合やエラーが発生している場合のパフォーマンスが改善されます。
 
-## 仮想マシンの再起動
+**Reboot（再起動）** とは、サーバーの動作状態を改善するためにシステムを再起動する操作です。
 
-1. **Instance Management** 管理画面で、再起動したいサーバーの **Action** を選択します。
+仮想マシンの稼働中、何らかの原因でプログラムにエラーが発生することがあります。これらのエラーが頻繁に発生すると、システムが正常に動作しなくなり、処理が遅くなることがあります。そのような場合は、マシンを再起動してプログラムを再起動し、仮想マシンが正常に動作するよう回復させる必要があります。
 
-   [![InstanceのActionメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-14-1024x-12e7479a.png)
+**FPT Cloud** では、**FPT Portal** インターフェースから直接仮想マシンを再起動できます。この機能を使用するには、以下の手順に従ってください。
 
-2. **Reboot** を選択します。システムが再起動を実行し、処理状況を通知します。
+**ステップ 1**: **Instance Management** ダッシュボードで、再起動したいサーバーの行末にある **Action** を選択します。
 
-   [![ActionメニューのRebootオプション](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-15-1024x-c8aaa7c7.png)
+![Userguide FPT Cloud Server 2022 14](images/quick-starts-khoi-dong-lai-may-ao/img-001.png)
 
-## 次のステップ
+**ステップ 2**: **Reboot** 機能を選択します。システムが再起動を実行し、処理状況を通知します。
 
-- [仮想マシンの削除ロックとロック解除](./lock-unlock-instance-deletion.md)
+![Userguide FPT Cloud Server 2022 15](images/quick-starts-khoi-dong-lai-may-ao/img-002.png)

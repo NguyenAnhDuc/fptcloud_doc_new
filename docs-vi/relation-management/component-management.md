@@ -1,12 +1,12 @@
 ---
 id: "component-management"
-title: "Component Management"
+title: "Quản lý Component"
 description: "**1, Create component**"
-sidebar_label: "Component Management"
+sidebar_label: "Quản lý Component"
 sidebar_position: 8
 ---
 
-# Component Management
+# Quản lý Component
 
 **1, Create component**
 Định nghĩa: Component là các thành phần bên trong luồng nghiệp vụ hoặc một business.

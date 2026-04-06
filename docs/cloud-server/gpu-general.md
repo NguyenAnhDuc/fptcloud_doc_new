@@ -1,75 +1,107 @@
 ---
 id: "gpu-general"
-title: "Managing GPU with Console Portal"
-description: "Create GPU-enabled instances, add/remove GPU, and resize GPU configuration on FPT Cloud Portal."
-sidebar_label: "Managing GPU with Console Portal"
+title: "Gpu General"
+sidebar_label: "Manage GPU with Console Portal"
 sidebar_position: 21
 ---
 
-# Managing GPU with Console Portal
+Manage GPU with Console Portal
 
-You can create GPU-enabled instances, add GPU to existing instances, remove GPU, or resize GPU configuration directly on FPT Cloud Portal.
 
-## Create a GPU-Enabled Instance
+## 1\. Create a Virtual Machine with GPU
+Users can create a virtual machine with GPU.
 
-1. In **Instance Management**, click **Create instance**.
+**Step 1**: On the **Instance Management** screen, select **Create instance**.
 
-   [![Instance Management screen](/img/migrated/image-1744799866857-2ea8b0f3.png)](/img/migrated/image-1744799866857-2ea8b0f3.png)
+![file](images/gpu-general/img-001.png)
 
-2. Select **GPU** and choose the GPU card type you need.
+**Step 2**: Select GPU and the GPU card type to use.
 
-   [![Select GPU type](/img/migrated/image-1744799912482-215598f9.png)](/img/migrated/image-1744799912482-215598f9.png)
+![file](images/gpu-general/img-002.png)
 
-3. Fill in the remaining details and click **Create Instance**.
+**Step 3**: Enter the remaining instance information.
 
-   [![Confirm GPU Instance creation](/img/migrated/image-1744799934410-03d823e6.png)](/img/migrated/image-1744799934410-03d823e6.png)
+**Step 4**: Click **Create Instance**.
 
-GPU information is updated on the Instance Detail screen.
+![file](images/gpu-general/img-003.png)
 
-[![Instance Detail with GPU information](/img/migrated/image-1744799982286-e3f4b4f1.png)](/img/migrated/image-1744799982286-e3f4b4f1.png)
+**Step 5**: Verify the information. The information is updated on the Instance detail screen.
 
-## Add GPU to an Instance
+![file](images/gpu-general/img-004.png)
 
-:::note
-You must **Power off** the instance before adding GPU (status must be "Stopped"). This feature is disabled when the instance is in "Running" or "Pending" status.
+## 2\. Add GPU to an Instance in Instance Management
+**Step 1**: On the **Instance management** screen, select the virtual machine to which you want to add a GPU.
+:::warning
+* Users must **Power off** the virtual machine before adding a GPU (status must be "Stopped").
 :::
 
-1. In **Instance Management**, select the instance you want to add GPU to.
+  * For machines in other states such as "Running" or "Pending", the feature will be **disabled**.
 
-   [![Select instance](/img/migrated/image-1744799997207-f8405b2c.png)](/img/migrated/image-1744799997207-f8405b2c.png)
 
-2. Select **Actions** → **Add GPU**.
+![file](images/gpu-general/img-005.png)
 
-   [![Actions menu with Add GPU option](/img/migrated/image-1744800019053-f556d42e.png)](/img/migrated/image-1744800019053-f556d42e.png)
+**Step 2**: Select **Actions**, then select **Add GPU**.
 
-3. Choose the appropriate **GPU type** from the list, then click **Add GPU**.
+![file](images/gpu-general/img-006.png)
 
-4. Verify the information on the Instance Detail screen.
+**Step 3**: Select the **GPU type** to add to the instance.
 
-   [![Instance Detail after adding GPU](/img/migrated/image-1744800059691-eba5d618.png)](/img/migrated/image-1744800059691-eba5d618.png)
+  * The system displays a list of compatible **GPU types** for the user to choose from.
 
-## Remove GPU from an Instance
+    * **Current**: the current instance configuration
 
-:::note
-You must **Power off** the instance before removing GPU.
+    * **Type**: only GPU resource types can be selected (standard configurations are not available in the list)
+
+
+**Step 4**: Click the **Add GPU** button.
+
+  * The system updates the information and adds the GPU to the instance.
+
+
+**Step 5**: Verify the information. The information is updated on the Instance detail screen.
+
+![file](images/gpu-general/img-007.png)
+
+## 3\. Remove GPU from a Virtual Machine
+**Step 1**: On the **Instance management** screen, select the virtual machine from which you want to remove the GPU.
+:::warning
+* Users must **power off** the virtual machine before removing the GPU (status must be "Stopped").
 :::
 
-1. In **Instance Management**, select the instance, then click **Remove GPU**.
-2. Select a standard **resource type** (without GPU) from the list.
-3. Click **Remove GPU**. The system removes the GPU and moves the Instance to the selected resource type.
+  * For machines in other states such as "Running" or "Pending", the feature will be **disabled**.
 
-## Resize GPU
 
-:::note
-You must **Power off** the instance before resizing.
+**Step 2**: Click the **Remove GPU** button.
+
+**Step 3**: Select the **resource type**:
+
+  * **Current**: the current GPU instance configuration
+
+  * **Type**: only standard resource types can be selected (GPU configurations are not available in the list)
+
+
+**Step 4**: Click the **Remove GPU** button.
+
+**Step 5**: The system will remove the GPU and convert the instance to the selected resource type. The updated configuration information will be reflected on the **Instance management** screen.
+
+## 4\. Resize GPU Parameters of an Instance
+**Step 1**: On the **Instance management** screen, select the virtual machine whose GPU you want to resize.
+:::warning
+* Users must **power off** the virtual machine before resizing the GPU (status must be "Stopped").
 :::
 
-1. In **Instance Management**, select the instance, then click **Resize**.
-2. Choose the **template** and **resource type**:
-   - An Instance with GPU can only be resized to a GPU type.
-   - An Instance without GPU can only be resized to a non-GPU type. Use **Add GPU** to switch to a GPU type.
-3. Click **Resize Instance**.
+  * For machines in other states such as "Running" or "Pending", the feature will be **disabled**.
 
-## Next Steps
 
-- [Managing GPU for Specific Service](./gpu-specific.md)
+**Step 2**: Click the **Resize** button.
+
+**Step 3**: Select a **template** and a **resource type** (if the instance is a GPU instance, it can only be resized to a GPU type; if it is a standard instance, it can only be resized to a standard type).
+
+  * For instances with GPU, the instance can only be resized to a GPU type.
+
+  * For instances without GPU, the instance can only be resized to a non-GPU type. If users want to resize to a GPU type, they can use the Add GPU feature instead.
+
+
+**Step 4**: Click the **Resize Instance** button.
+
+**Step 5**: Verify the information. The information is updated on the **Instance Management** list screen and in the **Instance** detail page.

@@ -1,30 +1,32 @@
 ---
 id: "hpc-rest-machine"
 title: "Khởi động lại máy"
-description: "Khởi động lại GPU Server trên HPC Portal khi gặp sự cố kết nối."
 sidebar_label: "Khởi động lại máy"
 sidebar_position: 29
 ---
 
 # Khởi động lại máy
 
-Trong quá trình sử dụng, bạn có thể gặp sự cố như màn hình đen, không thể kết nối tới remote server hoặc máy chủ bị treo. Nếu đợi 2-3 phút rồi kết nối lại vẫn không khắc phục được, bạn cần khởi động lại máy.
 
-## Khởi động lại
+Sau khi khởi động máy, bạn kết nối tới máy thông qua Remote Desktop Connection file – RDP file. Tuy nhiên trong quá trình sử dụng bạn có thể gặp 1 vài sự cố như là màn hình đen, không thể kết nối tới remote server hoặc máy chủ bị treo. Cách xử lý trong trường hợp này là đợi trong vòng 2-3 phút, sau đó connect lại máy. Nếu như sau đó vẫn không khắc phục được bạn bắt buộc phải khởi động lại máy để tiếp tục sử dụng.
 
-1. Tại màn hình **Hosts** trên HPC Portal, chọn image → **Reset machine**.
-2. Tại hộp thoại xác nhận, nhấn **Reset**.
+Để khởi động lại máy, thực hiện các bước sau:
 
-   [![Hộp thoại xác nhận Reset machine](/img/migrated/reset-1a4b229d.jpg)](/img/migrated/reset-1a4b229d.jpg)
+  1. Tại màn hình Hosts ở HPC Portal, chọn image > Reset machine
 
-3. Đợi vài phút, sau đó tải lại file RDP và kết nối lại.
+
+Một hộp thoại xác nhận được mở ra, chọn Reset để tiến hành khởi động lại máy
+
+![reset](images/hpc-rest-machine/img-001.jpg)
+
+  2. Đợi một vài phút sau khi reset máy thành công, bạn tiếp tục tải lại file RDP và thực hiện kết nối tới máy lại
+
 
 :::warning
-- Reset machine tương tự bấm nút restart trên máy chủ vật lý khi máy không phản hồi.
-- Cân nhắc trước khi sử dụng vì có thể gây mất dữ liệu.
-- Nếu sau khi reset vẫn không kết nối được, liên hệ quản trị viên để hỗ trợ.
+– Tính năng Reset machine tương tự với khi bạn bấm nút restart đối với máy chủ vật lý khi máy không phản hồi
 :::
 
-## Bước tiếp theo
 
-- [Đặt lịch tắt máy](./hpc-schedule-shutdown.md)
+– Tính năng hữu dụng trong trường hợp bạn không thể remote tới máy ngay sau khi boot máy thành công. Trong trường hợp reset máy xong vẫn chưa connect lại được với máy hãy liên hệ với quản trị viên của chúng tôi để hỗ trợ ngay.
+
+– Cân nhắc trước khi sử dụng tính năng trong quá trình sử dụng máy vì có thể gây mất mát dữ liệu

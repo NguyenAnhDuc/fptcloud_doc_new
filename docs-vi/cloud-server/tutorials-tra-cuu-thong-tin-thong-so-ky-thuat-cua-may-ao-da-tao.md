@@ -1,50 +1,51 @@
 ---
 id: "tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao"
-title: "Tra cứu thông tin máy ảo"
-description: "Xem thông tin chi tiết, giám sát tài nguyên và lịch sử hoạt động của máy ảo đã tạo."
-sidebar_label: "Tra cứu thông tin máy ảo"
+title: "Tra cứu thông tin thông số kỹ thuật máy ảo"
+sidebar_label: "Tra cứu thông tin thông số kỹ thuật máy ảo"
 sidebar_position: 16
 ---
 
-# Tra cứu thông tin máy ảo
+# Tra cứu thông tin thông số kỹ thuật máy ảo
 
-Trang Instance Detail giúp bạn xem toàn bộ thông tin máy ảo — từ cấu hình, trạng thái đến lịch sử hoạt động và mức sử dụng tài nguyên.
 
-## Xem thông tin chi tiết
+**Bước 1**: Ở menu chọn **Instance Management**, sau đó nhấn chọn vào một máy ảo cụ thể
 
-1. Tại **Instance Management**, nhấn chọn tên máy ảo cần tra cứu.
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-001.png)
 
-   [![Chọn máy ảo trong Instance Management](/img/migrated/Userguide-FPT-Cloud-Server-2022-36-1024x-8734718d.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-36-1024x-8734718d.png)
+**Bước 2**: Kiểm tra thông tin chi tiết của máy ảo bao gồm **Host name**, cấu hình (**Ram**, **CPU**, **Storage**), **Operating systems**, địa chỉ **Private IP**, địa chỉ **Public IP** (nếu có), trạng thái hoạt động (tắt/bật/suspended).
 
-2. Kiểm tra thông tin chi tiết: **Hostname**, cấu hình (RAM, CPU, Storage), **Operating System**, **Private IP**, **Public IP** (nếu có), trạng thái hoạt động.
+![Userguide FPT Cloud Server 2022 37](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-002.png)
 
-   [![Trang Instance Detail](/img/migrated/Userguide-FPT-Cloud-Server-2022-37-1024x-a8e782ec.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-37-1024x-a8e782ec.png)
+Ngoài ra, trong trang **Instance details**, người dùng còn có thể cấu hình, theo dõi chi tiết các thông tin khác trên sub menu như:
 
-Trong trang Instance Detail, bạn còn có thể:
+  * **Allocate floating IP**: Gán một Public IP cho máy ảo để có thể đi ra ngoài mạng internet.
+  * **Instance Monitoring**: Theo dõi tiến trình hoạt động, mức độ sử dụng tài nguyên CPU, RAM, tốc độ đọc/ghi của ổ cứng máy ảo theo giờ/ngày/tuần.
+  * **Instance storage**: Theo dõi, chỉnh sửa các ổ cứng **local storage** và các **storage disk** gắn ngoài của **máy ảo**.
+  * **Activity Log**: Theo dõi, giám sát lịch sử tác động của tất cả user khác đối với máy ảo này.
 
-- **Allocate Floating IP**: Gán Public IP cho máy ảo.
-- **Instance Monitoring**: Theo dõi mức sử dụng CPU, RAM, tốc độ đọc/ghi ổ cứng.
-- **Instance Storage**: Quản lý local storage và storage disk gắn ngoài.
-- **Activity Log**: Giám sát lịch sử tác động của tất cả user đối với máy ảo.
 
-[![Các tab trong Instance Detail](/img/migrated/Userguide-FPT-Cloud-Server-2022-38-1024x-b9c09c62.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-38-1024x-b9c09c62.png)
+![Userguide FPT Cloud Server 2022 38](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-003.png)
 
-## Xem lịch sử hoạt động (Activity Log)
+## 1\. Xem lịch sử hoạt động (Activity log)
+**Activity Log** sẽ hiển thị toàn bộ lịch sử hoạt động của máy ảo đấy. Các thông tin sẽ hiển thị gồm Tên user tạo ra hành động, tên hành động và thời gian.
 
-Activity Log hiển thị toàn bộ lịch sử hoạt động: tên user, tên hành động và thời gian.
+**Bước 1**: Truy cập vào trang **Instance details** bằng cách chọn tên máy ảo trên bảng quản trị **Instance Management**.
 
-1. Truy cập **Instance Detail**, chọn tab **Activity log**.
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-004.png)
 
-   [![Tab Activity Log](/img/migrated/Userguide-FPT-Cloud-Server-2022-39-1024x-bba7cc1a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-39-1024x-bba7cc1a.png)
+**Bước 2:** Chọn tab **Activity log.**
 
-## Giám sát Instance (Monitor)
+![Userguide FPT Cloud Server 2022 39](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-005.png)
 
-Monitor hiển thị realtime các thông số: Instance vCPU Usage, Instance vCPU Contention và các metric khác.
+## 2\. Truy cập Monitor giám sát Instance
+**Monitor** sẽ hiển thị các trạng thái, thông số kỹ thuật quan trọng của máy ảo
 
-1. Truy cập **Instance Detail**, chọn tab **Monitor**.
+**Bước 1**: Truy cập vào trang **Instance details** bằng cách chọn tên máy ảo trên bảng quản trị **Instance Management**.
 
-   [![Tab Monitor](/img/migrated/Userguide-FPT-Cloud-Server-2022-40-1024x-cdc66ccc.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-40-1024x-cdc66ccc.png)
+![Userguide FPT Cloud Server 2022 36](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-006.png)
 
-## Bước tiếp theo
+**Bước 2:** Chọn mục **Monitor.** Ở đây sẽ hiển thị realtime toàn bộ các thông số của Instance như **Instance vCPU Usage**, **Instance vCPU Contention,…**
 
-- [Thay đổi cấu hình máy chủ](./tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md)
+![Userguide FPT Cloud Server 2022 40](images/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao/img-007.png)
+
+khỏi máy ảo")

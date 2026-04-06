@@ -1,78 +1,84 @@
 ---
 id: "SSO-qua-FCDClient-cu"
-title: "SSO qua FCDClient cũ (luồng cũ)"
-description: "Hướng dẫn đăng nhập SSO qua FCDClient cũ đã cài đặt trước đó"
-sidebar_label: "Qua FCDClient cũ (luồng cũ)"
+title: "Sso Qua Fcdclient Cu"
+sidebar_label: "Sso Qua Fcdclient Cu"
 sidebar_position: 7
-pagination_next: null
 ---
 
-# SSO qua FCDClient cũ (luồng cũ)
+Truy cập qua FCDClient cũ (luồng cũ)
 
-Dành cho người dùng đang sử dụng FCDClient cũ đã cài đặt trước đó.
 
-:::warning
-Việc truy cập bằng FCDClient cũ trên PC và laptop sẽ bị dừng hỗ trợ **sau ngày 31/03/2026**. Truy cập bằng các thiết bị khác vẫn được hỗ trợ cho đến khi có thông báo mới. Bạn nên chủ động cài đặt FCDClient mới để tránh bị gián đoạn công việc.
-:::
+Dành cho người dùng đang sử dụng FCDClient cũ đã cài đặt trước đó
 
-## 1. Truy cập vào trang chủ dịch vụ với URL phù hợp
+**Lưu ý:**
+
+  * Việc truy cập bằng FCDClient cũ trên PC, laptop sẽ bị dừng hỗ trợ **sau ngày 31/03/2026.** Truy cập bằng các thiết bị khác vẫn sẽ được hỗ trợ cho đến khi cho thông báo mới. Người dùng chủ động cài đặt FCDClient mới để tránh bị gián đoạn công việc
+  * Thao tác truy cập qua luồng cũ tương tự như [Hướng dẫn truy cập qua Web Browser](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-web-browserr> "Hướng dẫn truy cập qua Web Browser"), chỉ khác là tại bước truy cập chọn máy ảo, người dùng chọn phương thức truy cập qua FCDClient
+
+
+**1.Truy cập vào Homepage dịch vụ với URL phù hợp**
 
 Các định dạng URL hợp lệ:
 
-- URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp)
-- URL đã chứa authentication code hợp lệ (định dạng `code.domain`). Ví dụ: `pil783454741.pilotfcd.online`
-- URL mặc định của dịch vụ
+  * URL riêng của doanh nghiệp/tổ chức dùng cho FCD (quản trị viên khách hàng cung cấp cho người dùng)
+  * URL đã chứa authentication code hợp lệ (định dạng code.domain). Ví dụ: pil783454741.pilotfcd.online
+  * URL mặc định của dịch vụ
 
-:::note
-Thông tin URL này do quản trị viên khách hàng cung cấp.
-:::
 
-Truy cập đường link dịch vụ bằng trình duyệt web, chọn **Access through FPT Cloud Desktop Client**.
+**Thông tin URL này do quản trị viên khách hàng cung cấp**
 
-[![Màn hình chọn phương thức truy cập FPT Cloud Desktop](/img/migrated/image-1767859575680-f5ed3897.png)](/img/migrated/image-1767859575680-f5ed3897.png)
+Truy cập đường link dịch vụ bằng trình duyệt web, chọn **Access through FPT Cloud Desktop Client**
 
-## 2. Đăng nhập vào Authenticator (Server) phù hợp
+![file](images/SSO-qua-FCDClient-cu/img-001.png)
 
-**Nếu bạn truy cập bằng URL đã chứa authentication code hợp lệ** (ví dụ: `pil783454741.pilotfcd.online`):
+**2.Đăng nhập vào Authenticator (Server) phù hợp**
 
-- Đăng nhập bằng tài khoản SSO tương ứng (ví dụ: tài khoản Microsoft), nhập OTP tương ứng theo SSO. Đăng nhập Authenticator (Server) thành công.
+Nếu người dùng **truy cập bằng URL đã chứa authentication code hợp lệ** (ví dụ URL chứa code hợp lệ: pil783454741.pilotfcd.online)
 
-[![Màn hình đăng nhập SSO](/img/migrated/image-1767953411678-b06915c9.png)](/img/migrated/image-1767953411678-b06915c9.png)
+  * Chỉ cần đăng nhập bằng tài khoản SSO tương ứng (ví dụ Đăng nhập bằng tài khoản Microsoft), nhập OTP tương ứng theo SSO => Đăng nhập Authenticator (Server) thành công ![file](images/SSO-qua-FCDClient-cu/img-002.png)
 
----
 
-**Nếu bạn tải xuống FCDClient từ URL mặc định của dịch vụ:**
+Nếu người dùng tải xuống Client từ URL mặc định của dịch vụ:
 
-1. Nhập Authentication Code (do quản trị viên khách hàng cung cấp). Ví dụ: `pil783454741`.
+  * Nhập thông tin Authentication Code (thông tin do quản trị viên khách hàng quản lý) (Ví dụ Authentication Code hợp lệ: pil783454741)
 
-[![Nhập Authentication Code](/img/migrated/image-1767863050735-fee7cee6.png)](/img/migrated/image-1767863050735-fee7cee6.png)
 
-2. Đăng nhập bằng tài khoản SSO (ví dụ: tài khoản Microsoft), nhập OTP tương ứng theo SSO. Đăng nhập Authenticator (Server) thành công.
+![file](images/SSO-qua-FCDClient-cu/img-003.png)
 
-[![Màn hình đăng nhập SSO thành công](/img/migrated/image-1767953411678-b06915c9.png)](/img/migrated/image-1767953411678-b06915c9.png)
+  * Đăng nhập bằng tài khoản SSO tương ứng (ví dụ Đăng nhập bằng tài khoản Microsoft), nhập OTP tương ứng theo SSO => Đăng nhập Authenticator (Server) thành công ![file](images/SSO-qua-FCDClient-cu/img-004.png)
 
-:::note
-**Nếu hệ thống hiển thị mã QR xác thực 2 lớp:**
 
-1. Tải và cài đặt ứng dụng **Microsoft Authenticator** trên điện thoại tại App Store hoặc Google Play.
+**3.Truy cập vào máy ảo** Tại màn hình danh sách các máy ảo, chọn truy cập vào máy ảo mong muốn. **Lưu ý:** tại bước này người dùng chọn option truy cập qua FCDClient.
 
-[![Màn hình hiển thị mã QR xác thực](/img/migrated/image-1767860622852-f00b8ad2.png)](/img/migrated/image-1767860622852-f00b8ad2.png)
+  * Nếu người dùng đang cài đặt FCDClient cũ: Hệ thống sẽ mở FCDClient cũ để truy cập máy ảo Người dùng nhập thông tin đăng nhập vào máy ảo nếu hệ thống yêu cầu => Truy cập máy ảo thành công
+  *     * Nếu người dùng đã cài đặt FCDClient mới: Hệ thống sẽ ưu tiên mở FCDClient, người dùng cần thực hiện lại các thao tác truy cập tương tự [Bước 2: Truy cập máy ảo qua FCDClient mới](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "Bước 2: Truy cập máy ảo qua FCDClient mới")
 
-2. Mở ứng dụng Authenticator và quét mã QR.
 
-[![Quét mã QR bằng Microsoft Authenticator](/img/migrated/image-1767860691470-919c5b65.png)](/img/migrated/image-1767860691470-919c5b65.png)
+![file](images/SSO-qua-FCDClient-cu/img-005.png)
 
-3. Ứng dụng đồng bộ và hiển thị mã OTP. Nhập mã OTP và chọn **Submit**. Đăng nhập Authenticator (Server) thành công.
-:::
+  * Nhập thông tin tài khoản tương ứng theo Server muốn đăng nhập
 
-## 3. Truy cập vào máy ảo
 
-Tại màn hình danh sách máy ảo, chọn máy ảo bạn muốn truy cập.
+**Lưu ý:** Nếu có hiển thị mã QR Xác thực 2 lớp: Tải và cài đặt **ứng dụng xác thực Microsoft Authenticator** trên Điện thoại tại Apple Store hoặc CH Play/ Google Play
 
-:::note
-Tại bước này, chọn option truy cập qua FCDClient.
-:::
+![file](images/SSO-qua-FCDClient-cu/img-006.png)
 
-Nếu bạn đang cài đặt FCDClient cũ: Hệ thống sẽ mở FCDClient cũ để truy cập máy ảo. Nhập thông tin đăng nhập vào máy ảo nếu hệ thống yêu cầu. Truy cập máy ảo thành công.
+Mở ứng dụng Authenticator và thực hiện quét (scan) QR Code
 
-[![Màn hình truy cập máy ảo qua FCDClient cũ](/img/migrated/image-1767865288885-77987978.png)](/img/migrated/image-1767865288885-77987978.png)
+![file](images/SSO-qua-FCDClient-cu/img-007.png)
+
+  * Ứng dụng thực hiện đồng bộ và hiển thị OTP để thực hiện Đăng nhập vào FCD.
+  * Nhập mã OTP và chọn **Submit** => Đăng nhập Authenticator (Server) thành công
+
+
+**3.Truy cập vào máy ảo**
+
+Tại màn hình danh sách các máy ảo, chọn truy cập vào máy ảo mong muốn.
+
+**Lưu ý:** tại bước này người dùng chọn option truy cập qua FCDClient.
+
+  * Nếu người dùng đang cài đặt FCDClient cũ: Hệ thống sẽ mở FCDClient cũ để truy cập máy ảo Người dùng nhập thông tin đăng nhập vào máy ảo nếu hệ thống yêu cầu => Truy cập máy ảo thành công
+  * Nếu người dùng đã cài đặt FCDClient mới: Hệ thống sẽ ưu tiên mở FCDClient, người dùng cần thực hiện lại các thao tác truy cập tương tự [Bước 2: Truy cập máy ảo qua FCDClient mới](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "Bước 2: Truy cập máy ảo qua FCDClient mới")
+
+
+![file](images/SSO-qua-FCDClient-cu/img-008.png)

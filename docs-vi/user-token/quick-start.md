@@ -1,12 +1,12 @@
 ---
 id: "quick-start"
-title: "Quick Start"
+title: "Bắt đầu nhanh"
 description: "1. **User Authentication**"
-sidebar_label: "Quick Start"
+sidebar_label: "Bắt đầu nhanh"
 sidebar_position: "3"
 ---
 
-# Quick Start
+# Bắt đầu nhanh
 
 ### **How It Works (Typical Flow)**
   1. **User Authentication**

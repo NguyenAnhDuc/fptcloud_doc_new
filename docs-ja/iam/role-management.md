@@ -1,16 +1,16 @@
 ---
 id: "role-management"
-title: "Role管理"
-description: "FPT IAMでのRole管理ガイド。一覧表示、作成、編集、削除を含む。"
-sidebar_label: "Role管理"
+title: "Quản lý Role"
+description: "Hướng dẫn quản lý Role trong FPT IAM, bao gồm xem danh sách, khởi tạo, chỉnh sửa và xóa role."
+sidebar_label: "Quản lý Role"
 sidebar_position: 3
 ---
 
-# Role管理
+# Quản lý Role
 
-Role管理機能により、Tenant ownerはFPT IAMシステム内のRoleを確認、作成、編集、削除できます。FPT IAMは2種類のRoleをサポートします：
+Tính năng Quản lý Role cho phép Tenant owner xem, tạo mới, chỉnh sửa và xóa các Role trong hệ thống FPT IAM. FPT IAM hỗ trợ 2 loại Role:
 
-- **Basic Role**: Super AdminとReadonly — 編集・削除不可。
-- **Custom Role**: カスタム権限セットを持つユーザー作成のRole。
+- **Basic Role**: Super Admin và Readonly — không thể chỉnh sửa hoặc xóa.
+- **Custom Role**: Do người dùng tự tạo với bộ quyền tùy chỉnh.
 
-詳細な手順はこのページのサブセクションを参照してください。
+Xem các hướng dẫn chi tiết trong mục con của trang này.

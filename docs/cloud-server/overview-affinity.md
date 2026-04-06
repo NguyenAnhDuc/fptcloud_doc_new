@@ -1,20 +1,17 @@
 ---
 id: "overview-affinity"
-title: "Introduction to Affinity and Anti-Affinity"
-description: "Learn about Affinity, Anti-Affinity, Soft Affinity, and Soft Anti-Affinity policies."
-sidebar_label: "Introduction"
+title: "Overview Affinity"
+sidebar_label: "Overview"
 sidebar_position: 77
 ---
 
-# Introduction to Affinity and Anti-Affinity
+Overview
 
-FPT Cloud supports four instance placement policies on physical hosts:
 
-- **Affinity**: Instances in the same group are placed on the same host — reducing latency between them.
-- **Anti-Affinity**: Instances in the same group are placed on different hosts — increasing high availability.
-- **Soft Affinity**: Prefers placing instances on the same host, but does not enforce it.
-- **Soft Anti-Affinity**: Prefers placing instances on different hosts, but does not enforce it.
+  * Affinity and anti-affinity are two important concepts related to the placement of virtual machines on physical hosts. Currently, the system only supports Soft Affinity / Anti-Affinity instance groups.
 
-## Next steps
+    * **Soft Affinity**: Directs all virtual machines in an affinity instance group to the same host. Typically used to improve overall system performance.
 
-- [Create a New Instance Group](./create-instance-group.md)
+    * **Soft Anti-Affinity**: Directs virtual machines in an anti-affinity instance group to different hosts. If no available host can accommodate the Instance, it will be assigned a random location.
+
+  * To achieve this, users can create instance groups with an affinity or anti-affinity policy. When launching a virtual machine, users can pass instance group information as a hint to place the virtual machine according to the desired policy.

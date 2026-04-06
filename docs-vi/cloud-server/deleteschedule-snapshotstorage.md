@@ -1,22 +1,17 @@
 ---
 id: "deleteschedule-snapshotstorage"
 title: "Xóa lịch snapshot ổ đĩa"
-description: "Xóa lịch snapshot ổ đĩa khi không còn nhu cầu."
 sidebar_label: "Xóa lịch snapshot ổ đĩa"
 sidebar_position: 104
-pagination_next: null
 ---
 
 # Xóa lịch snapshot ổ đĩa
 
-:::danger
-Xóa lịch không thể khôi phục.
-:::
 
-1. Tại tab **Storage snapshot schedule**, chọn **Action** → **Delete**.
+**Bước 1:** Trên tab Storage snapshot schedule, chọn tên của lịch phần action, chọn Delete
 
-   [![Menu Action Delete](/img/migrated/image-1766045198605-b5baee8c.png)](/img/migrated/image-1766045198605-b5baee8c.png)
+![file](images/deleteschedule-snapshotstorage/img-001.png)
 
-2. Nhập **delete**, nhấn **Delete schedule**.
+Bước 2: Một hộp thoại cảnh báo sẽ hiện lên, hiển thị tên schedule và yêu cầu người dùng xác nhận. Gõ chữ delete và chọn Delete schedule để tiến hành xóa, sau đó hệ thống sẽ xóa hoàn toàn schedule và các máy ảo đang attach (nếu có) thì sẽ được giải phóng & giữ nguyên status nó đang đứng.
 
-   [![Xác nhận xóa](/img/migrated/image-1766045228117-02dc5687.png)](/img/migrated/image-1766045228117-02dc5687.png)
+![file](images/deleteschedule-snapshotstorage/img-002.png)

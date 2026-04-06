@@ -1,19 +1,17 @@
 ---
 id: "instance-group"
-title: "Instance Group Management — Affinity and Anti-Affinity"
-description: "Use Instance Groups to control the placement of instances on physical hosts."
+title: "Instance Group"
 sidebar_label: "Instance Group — Affinity & Anti-Affinity"
 sidebar_position: 76
 ---
 
-# Instance Group Management — Affinity and Anti-Affinity
+Managing Instance Groups with Affinity & Anti-Affinity Policies
 
-Instance Groups let you control the placement of instances on physical hosts — ensuring that instances in the same group are placed on the same host (Affinity) or on different hosts (Anti-Affinity) to optimize performance and availability.
 
-## Guides
+  * Affinity and anti-affinity are two important concepts related to the placement of virtual machines on physical hosts. Currently, the system only supports Soft Affinity / Anti-Affinity instance groups.
 
-- [Introduction to Affinity and Anti-Affinity](./overview-affinity.md)
-- [Create a New Instance Group](./create-instance-group.md)
-- [Edit an Instance Group](./edit-instance-group-specific.md)
-- [Add an Instance to an Instance Group](./add-instance-instance-group.md)
-- [Delete an Instance Group](./delete-instance-group.md)
+    * **Soft Affinity**: Directs all virtual machines in an affinity instance group to the same host. Typically used to improve overall system performance.
+
+    * **Soft Anti-Affinity**: Directs virtual machines in an anti-affinity instance group to different hosts. If no available host can accommodate the Instance, it will be assigned a random location.
+
+  * To achieve this, users can create instance groups with an affinity or anti-affinity policy. When launching a virtual machine, users can pass instance group information as a hint to place the virtual machine according to the desired policy.

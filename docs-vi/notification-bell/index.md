@@ -1,12 +1,12 @@
 ---
 id: "notification-bell"
-title: "Notification Bell"
+title: "Tổng quan Notification Bell"
 description: "Nhận thông báo theo thời gian thực về các thay đổi tài nguyên và sự kiện hệ thống trên FPT Cloud."
-sidebar_label: "Notification Bell"
+sidebar_label: "Tổng quan Notification Bell"
 sidebar_position: 1
 ---
 
-# Notification Bell
+# Tổng quan Notification Bell
 
 ## Giới thiệu
 

@@ -14,7 +14,7 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "タグ-付け/initial-setup",
+              id:  "tagging/initial-setup",
               label:  "初期設定"
             },
             {
@@ -24,17 +24,17 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "タグ-付け/create-tag-new",
+                  id:  "tagging/create-tag-new",
                   label:  "タグの作成"
                 },
                 {
                   type:  "doc",
-                  id:  "タグ-付け/edit-tag",
+                  id:  "tagging/edit-tag",
                   label:  "タグの編集"
                 },
                 {
                   type:  "doc",
-                  id:  "タグ-付け/delete-tag",
+                  id:  "tagging/delete-tag",
                   label:  "タグの削除"
                 }
               ]
@@ -51,59 +51,59 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
-                      id:  "タグ-付け/resource-1",
+                      id:  "tagging/resource-1",
                       label:  "リソースのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-instance",
+                      id:  "tagging/tags-instance",
                       label:  "Instanceのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-storage-disk",
+                      id:  "tagging/tags-storage-disk",
                       label:  "Storage Diskのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-snapshot",
+                      id:  "tagging/tags-snapshot",
                       label:  "Snapshotのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-custom-image",
+                      id:  "tagging/tags-custom-image",
                       label:  "Custom Imageのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-floating-ip",
+                      id:  "tagging/tags-floating-ip",
                       label:  "Floating IPのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-subnet",
+                      id:  "tagging/tags-subnet",
                       label:  "Subnetのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tags-security-group",
+                      id:  "tagging/tags-security-group",
                       label:  "Security Groupのタグ管理"
                     },
                     {
                       type:  "doc",
-                      id:  "タグ-付け/tagg-lb",
+                      id:  "tagging/tagg-lb",
                       label:  "Load Balancerのタグ管理"
                     }
                   ]
                 },
                 {
                   type:  "doc",
-                  id:  "タグ-付け/tagging-billing",
+                  id:  "tagging/tagging-billing",
                   label:  "タグ別請求"
                 },
                 {
                   type:  "doc",
-                  id:  "タグ-付け/tagging",
+                  id:  "tagging/tagging",
                   label:  "タグ付けの概要"
                 }
               ]
@@ -221,6 +221,11 @@ module.exports = {
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+              label:  "概要"
+            },
+            {
               type:  "category",
               label:  "登録・ログイン",
               collapsed:  true,
@@ -242,6 +247,11 @@ module.exports = {
               label:  "個人・組織情報の登録",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ choose-the-form-of-PAYG-and-verify-the-phon- number",
+                  label:  "PAYGの形式を選択し電話番号を確認"
+                },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/create-organization",
@@ -324,16 +334,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions",
                   label:  "取引履歴の確認"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
-                  label:  "Fpt Cloud Portal Pay As You Gofpt Cloud Portal Pay As You Go"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/ choose-the-form-of-PAYG-and-verify-the-phon- number",
-                  label:  "Select PAYG and Verify Your Phone Number"
                 }
               ]
             }
@@ -344,6 +344,11 @@ module.exports = {
           label:  "FPT Cloud Desktop",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "fpt-cloud-desktop/fpt-cloud-desktop",
+              label:  "FPT Cloud Desktopとは"
+            },
             {
               type:  "doc",
               id:  "fpt-cloud-desktop/initial-setup",
@@ -363,6 +368,16 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO",
                       label:  "SSOアカウントでログイン"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-FCDClient-moi",
+                      label:  "Bước 1: Cài đặt FCDClient mới"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-web-browser",
+                      label:  "Webブラウザ経由でSSO"
                     },
                     {
                       type:  "doc",
@@ -388,6 +403,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-desktop/accountpassword-qua-web-browser",
+                      label:  "Webブラウザ経由でAccount/Password"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
                       label:  "旧FCDClient経由でAccount/Passwordログイン"
                     }
@@ -404,11 +424,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-desktop/faq",
                   label:  "よくある質問（FAQs）"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/fpt-cloud-desktop",
-                  label:  "What is FPT Cloud Desktop?"
                 }
               ]
             }
@@ -505,6 +520,16 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-autoscale/attach-policy-vao-group",
+                  label:  "グループにポリシーをアタッチ"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-autoscale/detach-policy-khoi-group",
+                  label:  "グループからポリシーをデタッチ"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-autoscale/xoa-policy",
                   label:  "Policyの削除"
                 },
@@ -522,6 +547,11 @@ module.exports = {
           label:  "Cloud Server",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "cloud-server/cloud-server",
+              label:  "FPT Cloud Server 概要"
+            },
             {
               type:  "doc",
               id:  "cloud-server/Initial-Setup"
@@ -613,6 +643,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-xoa-may-ao",
+                      label:  "Tutorials Xoa May Ao"
                     }
                   ]
                 },
@@ -1308,10 +1343,6 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-server/question-"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/cloud-server"
                 }
               ]
             }
@@ -1331,6 +1362,11 @@ module.exports = {
               type:  "doc",
               id:  "global-search/global-search-usage",
               label:  "グローバル検索の使い方"
+            },
+            {
+              type:  "doc",
+              id:  "global-search/global-search-phase-1",
+              label:  "グローバル検索"
             }
           ]
         }
@@ -1596,6 +1632,11 @@ module.exports = {
               type:  "doc",
               id:  "vpn-site-to-site/authenticate-certificate-mode",
               label:  "証明書認証"
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/common-config",
+              label:  "Common Config"
             },
             {
               type:  "category",
@@ -1874,6 +1915,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "load-balancer/xoa load balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/ssl-load-balancer",
+                      label:  "SSL Load Balancer"
                     }
                   ]
                 },
@@ -2945,6 +2991,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "iam/download-access-log"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "iam/xem%20danh%20sach%20user%20group",
+                      label:  "Xem Danh Sach User Group"
                     }
                   ]
                 }
@@ -2971,6 +3022,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/detection-status",
                   label:  "Detection Status"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/system-status",
+                  label:  "システムステータス"
                 },
                 {
                   type:  "doc",
@@ -3020,6 +3076,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/website-logs",
                   label:  "Website Logs"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/export-list",
+                  label:  "エクスポート一覧"
                 }
               ]
             },
@@ -3087,8 +3148,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/web-access-management",
+                      label:  "Webアクセス管理"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/url-filter-settings",
                       label:  "URL Filter Settings"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/detection-exceptions",
+                      label:  "検出例外"
                     }
                   ]
                 },
@@ -3104,8 +3175,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/error-handling",
+                      label:  "エラーハンドリング"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/privacy-filtering",
                       label:  "Privacy Filtering"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/snort",
+                      label:  "Snort設定"
                     },
                     {
                       type:  "doc",
@@ -3122,9 +3203,26 @@ module.exports = {
               ]
             },
             {
-              type:  "doc",
-              id:  "fpt-cloud-wapples/report-scheduling",
-              label:  "Report Scheduling"
+              type:  "category",
+              label:  "レポート",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-scheduling",
+                  label:  "レポートスケジューリング"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-generation",
+                  label:  "レポート生成"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-list",
+                  label:  "レポート一覧"
+                }
+              ]
             },
             {
               type:  "category",
@@ -3138,8 +3236,33 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-cloud-wapples/accounts",
+                  label:  "アカウント管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/audit-level",
+                  label:  "監査レベル"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/smtp",
+                  label:  "SMTP設定"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-cloud-wapples/backup-restore",
                   label:  "Backup Restore"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/backup-list",
+                  label:  "バックアップ一覧"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/automatic-backup",
+                  label:  "自動バックアップ"
                 },
                 {
                   type:  "doc",
@@ -3174,6 +3297,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-cloud-waf/Initial Setup",
               label:  "初期設定"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+              label:  "WAFサーバーの追加"
             },
             {
               type:  "category",
@@ -3271,6 +3399,11 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-cloud-waf/view-proxy-host-detail"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+              label:  "Dang Nhap Waf Dashboard"
             }
           ]
         },
@@ -3768,6 +3901,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-monitoring/add-data-tab",
+                      label:  "Add Data Tab"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-monitoring/user-management-tab",
                       label:  "User Management タブ"
                     },
@@ -3775,6 +3913,11 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-monitoring/quota-and-package-tab",
                       label:  "Quota and Package タブ"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-monitoring/user-guide-tab",
+                      label:  "User Guide Tab"
                     }
                   ]
                 },
@@ -4461,6 +4604,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xem-va-cap-nhat-gia-tri-secret",
+                      label:  "Tutorials Xem Va Cap Nhat Gia Tri Secret"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-key-vault/tutorials-xoa-secret",
                       label:  "Secretを削除する"
                     }
@@ -5017,7 +5165,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-api-management/managing-sites"
+              id:  "fpt-api-management/quan-ly-api-site"
             },
             {
               type:  "doc",
@@ -8385,6 +8533,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-data-platform/cdc-service/xoa-connector",
               label:  "Delete connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/xem-th%C3%B4ng-tin-snapshot",
+              label:  "Xem Thông Tin Snapshot"
             },
             {
               type:  "doc",

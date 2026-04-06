@@ -1,58 +1,65 @@
 ---
 id: "attach-a-network-card-to-the-virtual-machine"
-title: 仮想マシンへのNIC（ネットワークカード）の追加
-description: "複数のSubnetに接続するために仮想マシンにネットワークカードを追加する方法。"
-sidebar_label: 仮想マシンへのNIC（ネットワークカード）の追加
+title: "Attach A Network Card To The Virtual Machine"
+sidebar_label: "仮想マシンへのネットワークカード（NIC）の追加"
 sidebar_position: 14
 ---
 
-# 仮想マシンへのNIC（ネットワークカード）の追加
+仮想マシンへのネットワークカード（NIC）の追加
 
-1台の仮想マシンに最大10枚のネットワークカードを追加できます — これにより仮想マシンをVPC内の複数のSubnetに接続できます。
 
-## ネットワークカードの追加
+1台の仮想マシンに最大10枚のネットワークカードを追加できます。仮想マシンにネットワークカードを追加するには、次の手順に従ってください：
 
-1. **Compute Engine** → **Instance Management** を選択し、Subnetを追加する仮想マシンを選んで **Instance Detail** ページを開きます。
+**ステップ1**: メニューから**Compute Engine** > **Instance Management**を選択します。**Subnet**を追加したい仮想マシンを選択して、**Instance Detail**ページに移動します。
 
-   [![Instance Detailページ](/img/migrated/image-1712722975848-d937e282.png)](/img/migrated/image-1712722975848-d937e282.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-001.png)
 
-2. **Network Interface** タブを開き、**Add NIC** をクリックします。
+**ステップ2**: **Network Interface**タブを開きます。システムは仮想マシンに現在接続されているネットワークカードの一覧と、各カードが接続されている**Subnet**の情報を表示します。**Add NIC**を選択します。
 
-   [![Add NICボタンのあるNetwork Interfaceタブ](/img/migrated/image-1744793401110-f9e5bd81.png)](/img/migrated/image-1744793401110-f9e5bd81.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-002.png)
 
-3. 追加するVPC内の **Subnet** を選択し、**Add NIC** をクリックして確認します。
+**ステップ3**: 仮想マシンに接続する**VPC**内の**Subnet**を選択します。**Add NIC**を選択して確認します。
 
-   [![NICのSubnet選択ダイアログ](/img/migrated/image-1712723037304-4919d058.png)](/img/migrated/image-1712723037304-4919d058.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-003.png)
 
-新しいネットワークカードが **Network** テーブルに表示されます。
+システムがリクエストを処理し、結果を表示します。
 
-[![追加された新しいネットワークカード](/img/migrated/image-1744793530914-729a9887.png)](/img/migrated/image-1744793530914-729a9887.png)
+成功した場合、新しいネットワークカードが**Network**テーブルに表示されます。
 
-:::note
-通常、WindowsおよびLinuxの仮想マシンは新しいネットワークカードを自動的に認識します。LinuxでNICが表示されない場合は、仮想マシンを再起動してください。
-:::
+![file](images/attach-a-network-card-to-the-virtual-machine/img-004.png)
 
-### Linux上での手動設定（必要な場合）
+FPT PortalでNICを追加した後、WindowsおよびLinuxの仮想マシンは通常、新しいネットワークカードを自動的に検出するため、手動での設定は不要です。
 
-現在のIPアドレスを確認：
+ただし、Linuxユーザーが仮想マシン上で何らかの操作を行っている場合や、OSのエラーが発生している場合は、ネットワークカードが表示されないことがあります。マシンを再起動して設定を適用してください。それでも解決しない場合は、以下の手順に従って手動で設定してください：
 
-```bash
-ip a
+### 現在のIPアドレスの確認
+マシンの現在のIPアドレスを確認するには、Linuxユーザーは次のいずれかのコマンドを使用できます：
+```
+$ ip a
 ```
 
-[![IPアドレスの確認](/img/migrated/image-1712723100683-b482495f.png)](/img/migrated/image-1712723100683-b482495f.png)
-
-静的IPの設定（Ubuntu 20.04はnetplanを使用）：
-
-```bash
-ls /etc/netplan
-sudo cp /etc/netplan/01-network-manager-all.yaml 01-network-manager-all.yaml.bak
+または：
+```
+$ ip addr
 ```
 
-インターフェース名、IPアドレス、ゲートウェイ、DNSを適切に設定してnetplan設定ファイルを編集します。
+![file](images/attach-a-network-card-to-the-virtual-machine/img-005.png)
 
-[![netplan設定](/img/migrated/image-1712723133085-6dc03fdb.png)](/img/migrated/image-1712723133085-6dc03fdb.png)
+### 静的IPアドレスの設定
+Ubuntu 20.04はデフォルトのネットワークマネージャーとしてnetplanを使用しています。netplanの設定ファイルは/etc/netplanディレクトリに保存されています。次のコマンドを使用して、そのディレクトリ内の設定ファイルを確認できます：
+```
+$ ls /etc/netplan
+```
 
-## 次のステップ
+コマンドは.yaml拡張子を持つ設定ファイルの名前を返します。以下の例では01-network-manager-all.yamlです。
 
-- [仮想マシンからのNIC（ネットワークカード）の削除](./remove-the-network-card-from-the-virtual-machine.md)
+このファイルに変更を加える前に、必ずバックアップを作成してください。cpコマンドを使用します：
+```
+$ sudo cp /etc/netplan/01-network-manager-all.yaml 01-network-manager-all.yaml.ba
+```
+
+注意：設定ファイルの名前が01-network-manager-all.yamlでない場合があります。コマンドでは正しい設定ファイル名を使用してください。
+
+次に、インターフェース名、IPアドレス、ゲートウェイ、DNS情報をネットワーク要件に合わせて置き換えながら、以下の行を追加します。
+
+![file](images/attach-a-network-card-to-the-virtual-machine/img-006.png)

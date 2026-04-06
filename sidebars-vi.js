@@ -46,7 +46,7 @@ module.exports = {
               items:  [
                 {
                   type:  "category",
-                  label:  "Manage tag to Resource",
+                  label:  "Quản lý tag cho tài nguyên",
                   collapsed:  true,
                   items:  [
                     {
@@ -221,6 +221,11 @@ module.exports = {
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+              label:  "Tổng quan"
+            },
+            {
               type:  "category",
               label:  "Đăng ký, đăng nhập",
               collapsed:  true,
@@ -329,11 +334,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions",
                   label:  "Xem transaction đã thực hiện"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
-                  label:  "FPT Cloud Portal – Pay As You Go"
                 }
               ]
             }
@@ -344,6 +344,11 @@ module.exports = {
           label:  "FPT Cloud Desktop",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "fpt-cloud-desktop/fpt-cloud-desktop",
+              label:  "FPT Cloud Desktop là gì?"
+            },
             {
               type:  "doc",
               id:  "fpt-cloud-desktop/initial-setup",
@@ -363,6 +368,16 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO",
                       label:  "Đăng nhập với tài khoản SSO"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-FCDClient-moi",
+                      label:  "Bước 1: Cài đặt FCDClient mới"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-web-browser",
+                      label:  "SSO qua Web Browser"
                     },
                     {
                       type:  "doc",
@@ -388,6 +403,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-desktop/accountpassword-qua-web-browser",
+                      label:  "Account/Password qua Web Browser"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
                       label:  "Account/Password qua FCDClient cũ (luồng cũ)"
                     }
@@ -404,11 +424,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-desktop/faq",
                   label:  "Câu hỏi thường gặp (FAQs)"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/fpt-cloud-desktop",
-                  label:  "FPT Cloud Desktop là gì?"
                 }
               ]
             }
@@ -505,6 +520,16 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-autoscale/attach-policy-vao-group",
+                  label:  "Gắn Policy vào Group"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-autoscale/detach-policy-khoi-group",
+                  label:  "Gỡ Policy khỏi Group"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-autoscale/xoa-policy",
                   label:  "Xóa Policy"
                 },
@@ -522,6 +547,11 @@ module.exports = {
           label:  "Cloud Server",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "cloud-server/cloud-server",
+              label:  "Tổng quan FPT Cloud Server"
+            },
             {
               type:  "doc",
               id:  "cloud-server/Initial-Setup"
@@ -613,6 +643,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-xoa-may-ao",
+                      label:  "Tutorials Xoa May Ao"
                     }
                   ]
                 },
@@ -1308,10 +1343,6 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-server/question-"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/cloud-server"
                 }
               ]
             }
@@ -1330,7 +1361,12 @@ module.exports = {
             {
               type:  "doc",
               id:  "global-search/global-search-usage",
-              label:  "Using Global Search"
+              label:  "Sử dụng Tìm kiếm toàn cục"
+            },
+            {
+              type:  "doc",
+              id:  "global-search/global-search-phase-1",
+              label:  "Tìm kiếm toàn cục"
             }
           ]
         }
@@ -1607,6 +1643,11 @@ module.exports = {
               type:  "doc",
               id:  "vpn-site-to-site/authenticate-certificate-mode",
               label:  "Xác thực bằng Certificate"
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/common-config",
+              label:  "Common Config"
             },
             {
               type:  "category",
@@ -1935,6 +1976,11 @@ module.exports = {
                       type:  "doc",
                       id:  "load-balancer/xoa load balancer",
                       label:  "Xóa Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/ssl-load-balancer",
+                      label:  "SSL Load Balancer"
                     }
                   ]
                 },
@@ -2640,7 +2686,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "dedicated-fpt-kubernetes-engine/create-new-k8s-cluster",
+                      id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi",
                       label:  "Khởi tạo Kubernetes cluster mới"
                     },
                     {
@@ -2960,6 +3006,11 @@ module.exports = {
                       type:  "doc",
                       id:  "iam/download-access-log",
                       label:  "Tải danh sách lịch sử truy cập"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "iam/xem%20danh%20sach%20user%20group",
+                      label:  "Xem Danh Sach User Group"
                     }
                   ]
                 },
@@ -2986,6 +3037,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/detection-status",
                   label:  "Detection Status"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/system-status",
+                  label:  "System Status"
                 },
                 {
                   type:  "doc",
@@ -3035,6 +3091,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/website-logs",
                   label:  "Website Logs"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/export-list",
+                  label:  "Export List"
                 }
               ]
             },
@@ -3102,8 +3163,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/web-access-management",
+                      label:  "Web Access Management"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/url-filter-settings",
                       label:  "URL Filter Settings"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/detection-exceptions",
+                      label:  "Detection Exceptions"
                     }
                   ]
                 },
@@ -3119,8 +3190,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/error-handling",
+                      label:  "Error Handling"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/privacy-filtering",
                       label:  "Privacy Filtering"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/snort",
+                      label:  "Snort"
                     },
                     {
                       type:  "doc",
@@ -3137,9 +3218,26 @@ module.exports = {
               ]
             },
             {
-              type:  "doc",
-              id:  "fpt-cloud-wapples/report-scheduling",
-              label:  "Report Scheduling"
+              type:  "category",
+              label:  "Report",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-scheduling",
+                  label:  "Report Scheduling"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-generation",
+                  label:  "Report Generation"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-list",
+                  label:  "Report List"
+                }
+              ]
             },
             {
               type:  "category",
@@ -3153,8 +3251,33 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-cloud-wapples/accounts",
+                  label:  "Accounts"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/audit-level",
+                  label:  "Audit Level"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/smtp",
+                  label:  "SMTP"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-cloud-wapples/backup-restore",
                   label:  "Backup và Restore"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/backup-list",
+                  label:  "Backup List"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/automatic-backup",
+                  label:  "Automatic Backup"
                 },
                 {
                   type:  "doc",
@@ -3189,6 +3312,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-cloud-waf/Initial Setup",
               label:  "Thiết lập ban đầu"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+              label:  "Thêm mới máy chủ WAF"
             },
             {
               type:  "doc",
@@ -3318,6 +3446,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-proxy-host",
                   label:  "Manage Proxy Host"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+                  label:  "Dang Nhap Waf Dashboard"
                 }
               ]
             }
@@ -3817,6 +3950,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-monitoring/add-data-tab",
+                      label:  "Add Data Tab"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-monitoring/user-management-tab",
                       label:  "User Management tab"
                     },
@@ -3824,6 +3962,11 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-monitoring/quota-and-package-tab",
                       label:  "Quản lý thông tin package và resource quota Khách hàng đang sử dụng."
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-monitoring/user-guide-tab",
+                      label:  "User Guide Tab"
                     }
                   ]
                 },
@@ -4510,6 +4653,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xem-va-cap-nhat-gia-tri-secret",
+                      label:  "Tutorials Xem Va Cap Nhat Gia Tri Secret"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-key-vault/tutorials-xoa-secret",
                       label:  "Xóa Secret"
                     }
@@ -5060,7 +5208,7 @@ module.exports = {
                     },
                     {
                       type:  "doc",
-                      id:  "fpt-api-management/managing-sites",
+                      id:  "fpt-api-management/quan-ly-api-site",
                       label:  "Quản lý API Site"
                     },
                     {
@@ -8478,6 +8626,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-data-platform/cdc-service/xoa-connector",
               label:  "Xóa connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/xem-th%C3%B4ng-tin-snapshot",
+              label:  "Xem Thông Tin Snapshot"
             },
             {
               type:  "doc",

@@ -1,19 +1,27 @@
 ---
 id: "add-instance-instance-group"
-title: "Instance GroupへのInstanceの追加"
-description: "Affinityポリシーを適用するためにInstance GroupにInstanceを追加します。"
-sidebar_label: "InstanceをGroupに追加"
+title: "Add Instance Instance Group"
+sidebar_label: "Add Instance Instance Group"
 sidebar_position: 80
 ---
 
-# Instance GroupへのInstanceの追加
+仮想マシンをInstance Groupにアタッチする
 
-選択したAffinityまたはAnti-Affinity配置ポリシーを適用するために、Instance GroupにInstanceを追加します。
 
-:::note
-Instanceは同時に1つのInstance Groupにのみ所属できます。
-:::
+_この機能はGeneralおよびSpecificサービスタイプを使用するユーザーに適用されます。_
 
-## 次のステップ
+ユーザーが仮想マシンを起動する際、希望するポリシーに従って仮想マシンを配置するためのヒントとして、Instance Groupの情報を渡すことができます。
 
-- [Instance Groupの削除](./delete-instance-group.md)
+これを行うには、以下の簡単な手順に従ってください。
+
+**注意：各Instance GroupにアタッチできるInstanceは最大10件です。**
+
+**ステップ1**: メニューで**Instance Management** > **Create instance**を選択します。**Instance Group**セクションで、仮想マシンを配置したいInstance Groupの**Name**を選択します。
+
+![file](images/add-instance-instance-group/img-001.png)
+
+**ステップ2**: **Create instance**をクリックします。システムが初期化を行い、結果を通知します。
+
+成功した場合、Instance Groupの情報がInstance Detailページに表示されます。
+
+![file](images/add-instance-instance-group/img-002.png)

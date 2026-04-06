@@ -1,78 +1,71 @@
 ---
 id: "tutorials-ket-noi-vao-may-ao-linux"
-title: "Linux仮想マシンへの接続"
-description: "Web Console、SSHクライアント、またはPuTTY/BitviseでLinux仮想マシンに接続する方法。"
+title: "Tutorials Ket Noi Vao May Ao Linux"
 sidebar_label: "Linux仮想マシンへの接続"
 sidebar_position: 13
 ---
 
-# Linux仮想マシンへの接続
+Linux仮想マシンへの接続
 
-Linux仮想マシン（Ubuntu、CentOS、Debian）が正常に作成されたら、**Web Console**（デフォルト）または **SSHクライアント** / **PuTTY** / **Bitvise**（仮想マシンにFloating IPがある場合）でアクセスできます。
 
-## Web Consoleによる接続
+FPT PortalでLinuxカーネルの仮想マシン（Ubuntu、CentOS、Debian）が正常に作成されると、ユーザーはデフォルトで提供されているWebコンソールを使用してアクセスできます。
 
-Web ConsoleはFPT Cloud上のすべてのLinux仮想マシンの操作をサポートしており、Public IPがない仮想マシンも利用できます。
+また、PuTTYやBitviseなどのSSHクライアントやサードパーティソフトウェアを使って外部からログインすることも可能です。
 
-1. **Instance Management** で接続する仮想マシンを選択し、**Actions** → **Console** をクリックします。
+## WebコンソールでLinux仮想マシンに接続する
+**Webコンソール**は、**FPT Cloud**上のすべての**Linux**仮想マシンの操作をサポートしており、**Public IP**が割り当てられていない仮想マシンも含まれます。
 
-   [![ConsoleオプションのあるActionsメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)
+メニューから**Instance Management**を選択し、接続したい仮想マシンの**Actions**セクションで**Console**を選択します。
 
-ブラウザが新しいウィンドウを開き、サーバー画面が表示されます。
+![Userguide FPT Cloud Server 2022 22](images/tutorials-ket-noi-vao-may-ao-linux/img-001.png)
 
-[![Web Console Linux画面](/img/migrated/Userguide-FPT-Cloud-Server-2022-28-6638a596.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-28-6638a596.png)
+ブラウザはすぐにサーバーの画面を含む新しいウィンドウを開きます。この画面から、ユーザーは接続中のサーバーを完全に制御・操作できます。
 
-## SSH経由のリモート接続設定
+![Userguide FPT Cloud Server 2022 28](images/tutorials-ket-noi-vao-may-ao-linux/img-002.png)
 
-SSHクライアントで接続するには、仮想マシンに **Floating IP** があり、Security Groupで **SSHポート** が開放されている必要があります。
+## Linux仮想マシンへのリモート接続の設定
+**SSHクライアント**、**Bitvise**、**PuTTY**などを使って**Linux**仮想マシン（**Ubuntu**、**CentOS**など）に接続するには、仮想マシンに**Floating IP**を割り当て、**SSH接続**用に**SSH**ポートを開放する必要があります。**FPT Cloud**では、**Security Group**を割り当てることで仮想マシンのポートを開放できます。
 
-1. Linux仮想マシンを作成し、**Floating IP** を割り当てて起動します。
+**ステップ1**: **Linux** OSの仮想マシンを作成し、[**Floating IP管理**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-floating-ip>)の手順に従って**Floating IP**を割り当て、起動します。
 
-   [![Floating IPのあるLinux仮想マシン](/img/migrated/Userguide-FPT-Cloud-Server-2022-29-1024x-5490201f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-29-1024x-5490201f.png)
+![Userguide FPT Cloud Server 2022 29](images/tutorials-ket-noi-vao-may-ao-linux/img-003.png)
 
-2. SSHポートを開放した **Security Group** を仮想マシンに割り当てます。
+**ステップ2**: **SSH**ポートが開放された**Security Group**を仮想マシンに割り当てます。該当する**Security Group**がない場合は、[**Security Group管理**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>)の手順に従って新規作成できます。
 
-   [![SSHポートのSecurity Group](/img/migrated/image-1744794012514-cdf8c2ce.png)](/img/migrated/image-1744794012514-cdf8c2ce.png)
+![file](images/tutorials-ket-noi-vao-may-ao-linux/img-004.png)
 
-3. **Floating IP**、**SSHポート**、**SSH Key** ファイルまたは **パスワード** を使ってSSHクライアントで接続します。
+**ステップ3**: 設定が完了したら、**Floating IP**、**SSHポート**、**SSH Key**ファイル、または**パスワード**を使用してSSHクライアントから仮想マシンに接続できます。
 
-## SSHクライアント（CMD/PowerShell）による接続
+それでも接続できない場合は、仮想マシンが起動しているか、Floating IPが正しいかを確認し、[**Security Group管理**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>)の手順に従って**SSH**ポートを再度開放してください。
 
-1. WindowsでCMDまたはPowerShellを開きます。
+## SSHクライアントでLinux仮想マシンに接続する
+ユーザーはWindowsで利用可能な**cmd.exe**や**PowerShell**などのSSHクライアントを使って仮想マシンにSSH接続できます。
 
-2. パスワードで接続：
+**ステップ1:** Windowsで**CMD**または**PowerShell**を開きます。
 
-   ```bash
-   ssh <USERNAME>@<FLOATING_IP>
-   ```
+**ステップ2:** **パスワード**で接続する場合は、次のコマンドを使用します：
 
-   [![パスワードでのSSH接続](/img/migrated/Userguide-FPT-Cloud-Server-2022-32-88cbc1e0.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-32-88cbc1e0.png)
+`ssh <>@<>`
 
-   SSH Keyで接続：
+![Userguide FPT Cloud Server 2022 32](images/tutorials-ket-noi-vao-may-ao-linux/img-005.png)
 
-   ```bash
-   cd <PEMファイルが格納されているディレクトリのパス>
-   ssh -i "<キーファイル名>" <USERNAME>@<FLOATING_IP>
-   ```
+SSH Keyペアで接続する場合は、まずcdコマンドで**SSH key**ファイルが含まれるディレクトリに移動します：
 
-   [![SSH Keyが格納されているディレクトリへ移動](/img/migrated/Userguide-FPT-Cloud-Server-2022-33-bf7c47a3.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-33-bf7c47a3.png)
+`cd <<pemファイルが含まれるディレクトリへのパス>>`
 
-3. 初回接続時は、Hostフィンガープリントの確認を求められたら **yes** と入力します。
+![Userguide FPT Cloud Server 2022 33](images/tutorials-ket-noi-vao-may-ao-linux/img-006.png)
 
-   [![Hostフィンガープリントの確認](/img/migrated/Userguide-FPT-Cloud-Server-2022-34-2185365d.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-34-2185365d.png)
+次のコマンドで仮想マシンに接続します：
 
-接続が成功しました。
+`ssh -i "<>" << Username >>@<>`
 
-[![SSH接続成功](/img/migrated/Userguide-FPT-Cloud-Server-2022-35-35e7f42a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-35-35e7f42a.png)
+**ステップ3:** 仮想マシンへの初回接続時は、**Hostsフィンガープリント**の確認を求められます。接続を承認して続行するには**"yes"**と入力します。
 
-:::tip
-**WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!** エラーが発生した場合は、保存されているHostフィンガープリントを削除してください：
+![Userguide FPT Cloud Server 2022 34](images/tutorials-ket-noi-vao-may-ao-linux/img-007.png)
 
-```bash
-ssh-keygen -R "<FLOATING_IP>"
-```
-:::
+SSHクライアントでサーバーへの接続が成功しました。
 
-## 次のステップ
+![Userguide FPT Cloud Server 2022 35](images/tutorials-ket-noi-vao-may-ao-linux/img-008.png)
 
-- [仮想マシンへのNIC（ネットワークカード）の追加](./attach-a-network-card-to-the-virtual-machine.md)
+**注意:** **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!** というエラーが発生した場合は、次のコマンドで以前に保存されたHostsフィンガープリントを削除し、最初からやり直してください：
+`ssh-keygen -R "<>"`

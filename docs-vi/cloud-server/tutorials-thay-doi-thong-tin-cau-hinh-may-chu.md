@@ -1,51 +1,50 @@
 ---
 id: "tutorials-thay-doi-thong-tin-cau-hinh-may-chu"
-title: "Thay đổi cấu hình máy chủ"
-description: "Resize cấu hình RAM-CPU, đổi tên và reset password cho máy ảo trên FPT Cloud Server."
-sidebar_label: "Thay đổi cấu hình máy chủ"
+title: "Thay đổi thông tin cấu hình máy chủ"
+sidebar_label: "Thay đổi thông tin cấu hình máy chủ"
 sidebar_position: 17
 ---
 
-# Thay đổi cấu hình máy chủ
+# Thay đổi thông tin cấu hình máy chủ
 
-FPT Cloud Server cho phép bạn thay đổi cấu hình máy ảo linh hoạt — bao gồm resize RAM/CPU, đổi tên và reset password.
 
-## Resize cấu hình
+## 1\. Resize
+**Resize** là chức năng giúp thay đổi cấu hình Ram-CPU của một máy ảo đã tạo.
 
-Resize giúp thay đổi cấu hình RAM-CPU của máy ảo đã tạo. Trong quá trình resize, máy ảo sẽ tạm tắt và tự khởi động lại sau khi hoàn tất.
+Trong quá trình Resize, máy ảo sẽ tạm thời được tắt và tự khởi động lại sau khi quá trình hoàn tất.
 
-:::tip
-Bật tính năng **Hot-add** để resize mà không cần tắt máy ảo trong tương lai.
-:::
+Ngoài ra nếu không muốn tắt máy ảo khi Resize trong tương lai, hãy bật tính năng **Hot-add**. Trong trường hợp tính năng **Hot-add** đã được kích hoạt, máy ảo vẫn có thể hoạt động bình thường với cấu hình mới mà không cần thiết phải reboot.
 
-1. Tại **Instance Management**, chọn **Actions** → **Resize VM**.
+**Bước 1**: Ở menu chọn **Instance Management**, trong phần **Actions** của máy chủ cần thay đổi cấu hình, chọn **Resize VM**.
 
-   [![Menu Actions với tùy chọn Resize VM](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-41-1024x-3163067f.png)
+![Userguide FPT Cloud Server 2022 41](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-001.png)
 
-2. Chọn cấu hình mới theo template có sẵn hoặc tạo cấu hình tùy chọn ở phần **Custom**. Nhấn **Resize** để xác nhận.
+**Bước 2**: Chọn kích thước mới cho máy ảo, có thể chọn theo template có sẵn hoặc tự chọn cấu hình riêng ở phần **Custom**.
 
-   [![Hộp thoại Resize VM](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-42-6016416a.png)
+![Userguide FPT Cloud Server 2022 42](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-002.png)
 
-## Đổi tên máy ảo (Rename)
+Sau khi điền thông tin, nhấn **Resize** để xác nhận.
 
-1. Tại **Instance Management**, chọn **Actions** → **Rename**.
+Hệ thống sẽ tiến hành kiểm tra tài nguyên, thay đổi cấu hình máy ảo và thông báo kết quả xử lý
 
-   [![Menu Actions với tùy chọn Rename](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-43-1024x-f181b90f.png)
+### 2\. Rename
+Người dùng có thể đổi tên của máy ảo đã tạo bằng chức năng **Rename**.
 
-2. Nhập tên mới, nhấn **Rename**.
+**Bước 1**: Ở menu chọn **Instance Management**, trong phần **Actions** của máy chủ cần đổi tên, chọn **Rename**.
 
-   [![Hộp thoại Rename](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-44-517e8929.png)
+![Userguide FPT Cloud Server 2022 43](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-003.png)
 
-## Reset Password
+**Bước 2:** Nhập tên mới cho máy ảo và chọn **Rename.**
 
-Với máy ảo sử dụng phương thức xác thực Password, bạn có thể reset password cho tài khoản root.
+![Userguide FPT Cloud Server 2022 44](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-004.png)
 
-1. Tại **Instance Management**, chọn **Actions** → **Reset Password**.
+Hệ thống sẽ tiến hành thay đổi tên cho máy ảo và thông báo kết quả xử lý.
 
-   [![Menu Actions với tùy chọn Reset Password](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-45-1024x-17f8c10f.png)
+## 3\. Reset Password
+Với các máy ảo được tạo với phương thức xác thực là **Password**, **FPT Cloud** hỗ trợ người dùng reset lại **Password** cho tài khoản **root** ngay trên **FPT Portal**.
 
-2. Nhấn **Reset Password**. Hệ thống gửi mật khẩu mới về email của bạn.
+**Bước 1**: Ở menu chọn **Instance Management**, trong phần **Actions** của máy chủ cần thay đổi password chọn **Reset Password**.
 
-## Bước tiếp theo
+![Userguide FPT Cloud Server 2022 45](images/tutorials-thay-doi-thong-tin-cau-hinh-may-chu/img-005.png)
 
-- [Backup máy chủ với Snapshot](./tutorials-backup-may-chu-voi-snapshot.md)
+**Bước 2:** Chọn **Reset Password**. Hệ thống sẽ gửi mật khẩu mới về email của người dùng.

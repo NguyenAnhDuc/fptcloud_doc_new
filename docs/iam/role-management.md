@@ -1,20 +1,16 @@
 ---
 id: "role-management"
-title: "Role management"
-description: "Manage roles and permissions to control user access in FPT Cloud."
-sidebar_label: "Role management"
+title: "Quản lý Role"
+description: "Hướng dẫn quản lý Role trong FPT IAM, bao gồm xem danh sách, khởi tạo, chỉnh sửa và xóa role."
+sidebar_label: "Quản lý Role"
 sidebar_position: 3
 ---
 
-# Role management
+# Quản lý Role
 
-Manage roles and permissions to control user access within your organization on FPT Cloud.
+Tính năng Quản lý Role cho phép Tenant owner xem, tạo mới, chỉnh sửa và xóa các Role trong hệ thống FPT IAM. FPT IAM hỗ trợ 2 loại Role:
 
-This section covers:
+- **Basic Role**: Super Admin và Readonly — không thể chỉnh sửa hoặc xóa.
+- **Custom Role**: Do người dùng tự tạo với bộ quyền tùy chỉnh.
 
-- [Role overview](./role-overview.md) — What roles are and how they work
-- [View role list](./view-role-list.md) — Browse existing roles
-- [Create a role](./create-role.md) — Create a new role and assign permissions
-- [View role details](./view-role-detail.md) — Check role configuration
-- [Edit roles and permissions](./edit-role-and-permissions.md) — Modify existing roles
-- [Delete a role](./delete-role.md) — Remove a role from the system
+Xem các hướng dẫn chi tiết trong mục con của trang này.

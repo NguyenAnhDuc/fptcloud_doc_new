@@ -1,63 +1,46 @@
 ---
 id: "role-management"
-title: "Role management"
-description: "Role is a core component of the IAM module on FPT Cloud Portal."
-sidebar_label: "Role management"
+title: "Quản lý Role"
+description: "Role là một thành phần cốt lõi của mô-đun IAM trên FPT Cloud Portal. Chức năng **Quản lý Role** cho phép quản trị hệ thố"
+sidebar_label: "Quản lý Role"
 sidebar_position: 13
 ---
 
-# Role management
+# Quản lý Role
 
-Role is a core component of the IAM module on FPT Cloud Portal. The **Role management** feature allows system administrators to define and assign roles with specific access permissions for users of the FPT Database Engine service.
+Role là một thành phần cốt lõi của mô-đun IAM trên FPT Cloud Portal. Chức năng **Quản lý Role** cho phép quản trị hệ thống định nghĩa và gán các vai trò với tập quyền truy cập (permissions) cụ thể cho người dùng khi sử dụng dịch vụ FPT Database Engine.
+Việc sử dụng role giúp tăng cường bảo mật thông qua kiểm soát truy cập chi tiết, áp dụng nguyên tắc phân quyền tối thiểu, đồng thời hỗ trợ tách biệt quyền hạn theo từng nhu cầu và mô hình vận hành.
+Các bước dưới đây cung cấp hướng dẫn chi tiết để tạo mới một Role và gán các quyền truy cập (permissions) tương ứng cho role đó.
 
-Using roles enhances security through detailed access control, applies the principle of least privilege, and supports separation of permissions according to different operational needs and models.
+### Bước 1: Truy cập trang Quản lý role
+Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn **IAM** > **Roles**. Giao diện **Role Management** sẽ hiển thị danh sách role hiện có, cùng các tùy chọn để tạo mới, chỉnh sửa hoặc xoá một role.
 
-The steps below provide detailed guidance for creating a new Role and assigning corresponding access permissions to it.
-
-### Step 1: Access the role management page
-
-Log in to FPT Cloud Portal. After logging in successfully, from the main menu, select **IAM** > **Roles**. The **Role Management** interface will display the list of existing roles, along with options to create new, edit, or delete a role.
-
-### Step 2: Create a new role
-
-In the **Role Management** page, click **Create role**. The create new role screen appears as follows:
-
+### Bước 2: Tạo role mới
+Trong trang **Role Management** , nhấn **Create role**. Màn hình tạo role mới hiển thị như sau:
 [![](/img/migrated/create-role-46051a0f.png)](/img/migrated/create-role-46051a0f.png)
+Nhập các thông tin cơ bản:
+  * **Role name** : Tên dùng để định danh role trong hệ thống IAM, dài tối đa 100 ký tự, bao gồm các ký tự: chữ cái, chữ số, dấu gạch dưới (_), dấu gạch ngang (-), dấu cách và dấu chấm (.). Bắt buộc nhập.
+  * **Description** : Mô tả mục đích sử dụng, phạm vi quyền hoặc nhóm người dùng được áp dụng. Trường này giúp việc quản trị và audit trở nên rõ ràng hơn.
+  * **Permissions** : Danh sách các quyền được gán cho Role. 
+    * **Permission 1** : Hiển thị một quyền đã được thêm vào role. Nhấn **See more** để xem chi tiết quyền và chỉnh sửa cấu hình quyền.
+    * **+ Permission** : Nhấn nút này để thêm quyền mới vào role. Bạn có thể chọn quyền theo từng chức năng.
+Thao tác cấu hình cho một Permission xem chi tiết tại bước 3.
 
-Enter basic information:
-
-- **Role name**: The name used to identify the role in the IAM system, up to 100 characters, including: letters, numbers, underscores (_), hyphens (-), spaces, and periods (.). Required.
-- **Description**: A description of the purpose, permission scope, or user group to which it applies. This field makes administration and auditing clearer.
-- **Permissions**: The list of permissions assigned to the Role.
-  - **Permission 1**: Displays a permission already added to the role. Click **See more** to view permission details and edit the permission configuration.
-  - **+ Permission**: Click this button to add a new permission to the role. You can select permissions by function.
-
-For permission configuration details, see Step 3.
-
-### Step 3: Configure permissions for the role
-
-Click **See more** to display the information fields for a permission:
-
+### Bước 3: Cấu hình quyền cho role
+Nhấn **See more** để hiển thị các thông tin cần nhập cho một permission:
 [![](/img/migrated/see-more-permission-faeb2c18.png)](/img/migrated/see-more-permission-faeb2c18.png)
-
-- **Service Type**: Select the service type corresponding to the permissions or business functions you want to assign. The FPT Database Engine service uses 2 main service types: _"ManageDatabase"_ and _"FDE"_.
-  - **ManageDatabase**: Provides permissions for standard database management activities, including viewing information, provisioning, operating databases, and managing add-on services.
-  - **FDE**: Provides permissions for sensitive database-related operations, such as viewing or managing the admin account password.
-
-After selecting a service type, the system automatically displays all corresponding actions in the **Action** section and updates the permission name according to the selected service type.
-
-- **Action**: Specifies the actions the role is permitted to perform. Click **See more** to view and select the actions assigned to the role. Actions not selected will not be granted and will be blocked by the system.
-- **Resource**: Specifies the resources the role is permitted to access. Click **See more** to view and select the resources assigned to the role. Resources not selected will not be granted and will be blocked by the system. There are 2 options:
-  - **All**: Grants access to all resources. When this option is selected, the system defaults to granting the role access to all resources.
-  - **Specific**: Grants access to specific selected resources. **Note**: With this option, when assigning the **permission to block viewing the admin password** (Service Type is "FDE" and action "FDE:hide_admin_password"), you need to select the databases to be restricted in the **Select resource** field. Only the selected databases will have their password viewing restricted; databases not selected will allow password viewing.
+  * **Service Type** : Chọn loại dịch vụ tương ứng với các quyền hoặc nghiệp vụ bạn muốn gán. Dịch vụ FPT Database Engine sử dụng 2 service type chính là _"ManageDatabase"_ và _"FDE"_. 
+    * **ManageDatabase** : Cung cấp quyền cho các hoạt động quản lý cơ sở dữ liệu tiêu chuẩn, bao gồm xem thông tin, khởi tạo, vận hành cơ sở dữ liệu và quản lý các dịch vụ add-on.
+    * **FDE** : Cung cấp quyền cho các thao tác nhạy cảm liên quan đến cơ sở dữ liệu, chẳng hạn như xem hoặc quản lý thông tin mật khẩu của tài khoản quản trị cơ sở dữ liệu.
+Sau khi bạn chọn một service type, hệ thống sẽ tự động hiển thị toàn bộ các hành động (actions) tương ứng trong mục **Action** , đồng thời cập nhật tên permission theo service type đã chọn.
+  * **Action** : Xác định các hành động mà role được phép thực hiện. Nhấn **See more** để xem và chọn các hành động được gán cho role. Các hành động không được chọn sẽ không được cấp quyền và sẽ bị hệ thống chặn.
+  * **Resource** : Xác định các tài nguyên mà role được phép truy cập. Nhấn **See more** để xem và chọn các tài nguyên được gán cho role. Các tài nguyên không được chọn sẽ không được cấp quyền và sẽ bị hệ thống chặn. Có 2 lựa chọn: 
+    * **All** : Cho phép truy cập tất cả các tài nguyên. Khi chọn tùy chọn này, hệ thống mặc định role có quyền truy cập toàn bộ tài nguyên.
+    * **Specific** : Phân quyền truy cập theo từng tài nguyên cụ thể được chọn trong danh sách. **Lưu ý** : Với tùy chọn này, khi phân quyền **chặn xem mật khẩu tài khoản quản trị** (Service Type là "FDE" và action "FDE:hide_admin_password"), bạn cần chọn các cơ sở dữ liệu cần chặn trong trường **Select resource**. Chỉ những cơ sở dữ liệu được chọn mới bị giới hạn xem mật khẩu, các cơ sở dữ liệu không được chọn sẽ cho phép xem mật khẩu.
 
 [![](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)](/img/migrated/resource-specified-hide-pass-ad74aea0.webp)
-
-After entering all the information, select **Create role** to complete the role creation process.
-
-After successful creation, the new role will appear in the management list with **Active** status and be ready to grant permissions to users. For permission granting instructions, please refer to the [User Group management](../managed-fpt-database-engines-new/index.md) section.
-
-When needed, you can perform the following operations on a created role:
-
-- **Edit role**: This feature allows you to modify the name, description, and permissions of a role when access requirements or security policies change. To use this feature, on the **Role Management** page, select **Edit role** corresponding to the role to be edited. Make changes and click **Save** to save.
-- **Delete role**: This feature allows you to remove roles that are no longer in use, keeping the access permission management system clean and accurate. On the **Role Management** page, select **Delete** corresponding to the role to be deleted. Confirm the action in the warning dialog to complete. **Warning**: **Deleting a role will affect the access permissions of users and user groups currently assigned that role**. After the role is deleted, the related permissions will be immediately revoked, potentially disrupting management and operation of cloud and DBaaS resources. Ensure the role is no longer assigned to any User Group or User before deleting.
+Sau khi nhập đầy đủ thông tin, chọn **Create role** để hoàn tất quá trình tạo role.
+Sau khi tạo thành công, role mới sẽ xuất hiện trong danh sách quản lý với trạng thái **Active** và sẵn sàng để cấp quyền cho người dùng. Hướng dẫn cấp quyền vui lòng tham khảo tại mục [Quản lý User Group](../managed-fpt-database-engines-new/index.md).
+Khi cần thiết, bạn có thể thực hiện các thao tác sau với role đã tạo:
+  * **Chỉnh sửa role** : Chức năng này cho phép bạn sửa đổi tên, mô tả và quyền của role khi có thay đổi về yêu cầu truy cập hoặc chính sách bảo mật. Để sử dụng chức năng này, trên trang **Role Management** , chọn hành động **Edit role** tương ứng với role cần chỉnh sửa. Thực hiện thay đổi và nhấn **Save** để lưu lại.
+  * **Xóa role** : Chức năng này cho phép xoá bỏ role không còn sử dụng, giúp hệ thống quản lý quyền truy cập gọn gàng và chính xác hơn. Trên trang **Role Management** , chọn **Delete** tương ứng với role cần xóa. Xác nhận thao tác trong hộp thoại cảnh báo để hoàn tất. **Lưu ý** : Việc **xoá một role sẽ ảnh hưởng đến quyền truy cập của người dùng và nhóm người dùng đang được gán role đó**. Sau khi role bị xoá, các quyền liên quan sẽ bị thu hồi ngay lập tức, có thể gây gián đoạn trong việc quản lý và vận hành các tài nguyên cloud và DBaaS. Hãy đảm bảo rằng role này không còn được gán cho bất kỳ User Group hoặc User nào trước khi thực hiện xoá.

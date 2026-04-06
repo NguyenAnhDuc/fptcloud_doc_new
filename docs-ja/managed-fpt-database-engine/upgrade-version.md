@@ -1,40 +1,52 @@
 ---
 id: "upgrade-version"
 title: "Upgrade Version"
-description: "The **Upgrade Database Engine Version** feature in FPT Database Engine **allows** users to **upgrade a MariaDB database "
 sidebar_label: "Upgrade Version"
-sidebar_position: "25"
 ---
 
-# Upgrade Version
+データベースのバージョンアップグレード
 
-The **Upgrade Database Engine Version** feature in FPT Database Engine **allows** users to **upgrade a MariaDB database from the current version to MariaDB 10.9**. Upgrading enables you to take advantage of performance improvements, enhanced security, and new features in the higher version.
 
-### Scope & Limitation
-  * MariaDB only: Databases other than MariaDB will not display this feature.
-  * Supported version: Only upgrades to MariaDB 10.9 are supported.
-  * Downgrades or upgrades to other versions are not supported.
+FPT Database Engineの**データベースバージョンアップグレード**機能では、**現在MariaDBデータベースを現在のバージョンからMariaDB 10.9にアップグレード**することができます。アップグレードにより、上位バージョンのパフォーマンス改善、セキュリティ強化、新機能を活用できます。
 
-### Prerequisites
-  * Ensure you have IAM permissions to manage and update the database cluster.
-  * All applications or services connected to the database should be disconnected.
-  * Create a full backup before upgrading so you can recover if needed.
-  * Verify that your applications support the target version.
+### 対象範囲と制限事項
 
-### Detailed instructions
-#### Step 1: Open the Database Overview page
-Log in to the FPT Cloud Portal and navigate to **Database List**. Choose MariaDB that you want to upgrade from your list of clusters. On the cluster’s **Overview** page, you can see the current version and an **Upgrade** icon next to it.
-[![](/img/migrated/view-upgrade-action-scaled-4bc6cce2.png)](/img/migrated/view-upgrade-action-scaled-4bc6cce2.png)
+  * MariaDBにのみ適用されます。MariaDB以外のデータベースにはこの機能は表示されません。
+  * MariaDB 10.9へのアップグレードのみサポートしています。
+  * ダウングレードや他のバージョンへのアップグレードはサポートされていません。
 
-#### Step 2: Upgrade version
-On the **Overview** page, click the **Upgrade** icon next to the version information. A dialog opens showing the current version and the target version(s) available.
-[![](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)](/img/migrated/upgrade-version-mariadb-scaled-9e7d5cfb.png)
-Select the target version and enter the confirmation keyword in the input field. Select **"Upgrade"** to start the upgrade process.
-During the operation, the database cluster status changes to **"Updating"**. Do not attempt to connect or make changes while the update is in progress. The cluster will automatically restart as part of the upgrade.
-After the upgrade completes successfully, the status returns to **"Running"** , and the database is upgraded to the new version.
 
-#### Important Considerations
-  * **Irreversible** : Version upgrades cannot be undone; ensure backups are complete.
-  * **Disconnect Clients** : All application connections must be stopped before upgrading.
-  * **Service Impact** : The database cluster will be restarted, causing temporary downtime.
-  * If the upgrade fails, use a backup to restore the previous state.
+### 前提条件
+
+  * クラスターの管理と更新を行うIAM権限があることを確認してください。
+  * データベースに接続しているすべてのアプリケーションの接続を切断してください。
+  * 必要な場合に復旧できるよう、アップグレード前に完全バックアップを実施してください。
+  * アプリケーションがターゲットバージョンと互換性があることを確認してください。
+
+
+### 詳細手順
+
+#### ステップ1：データベース詳細ページへのアクセス
+
+FPT Cloud Portalにログインし、**Database List**ページに移動します。アップグレードしたいMariaDBクラスターを選択します。クラスターの**Overview**ページで、現在のバージョンとその横に**Upgrade**アイコンが表示されます。
+
+![](images/upgrade-version/img-001.png)
+
+#### ステップ2：バージョンアップグレードの実行
+
+**Overview**ページで、バージョン情報の横にある**Upgrade**アイコンを見つけてクリックします。現在のバージョンとアップグレード可能なターゲットバージョンを示すダイアログボックスが開きます。
+
+![](images/upgrade-version/img-002.png)
+
+アップグレード先のバージョンを選択し、入力フィールドに確認キーワードを入力します。**Upgrade**をクリックしてアップグレードプロセスを開始します。
+
+処理中、データベースクラスターのステータスは**「Updating」**に変わります。更新が進行中の間は、クラスターへの接続や変更を試みないでください。クラスターは更新中に自動的に再起動します。
+
+アップグレードが完了すると、ステータスは**「Running」**に戻り、データベースは新しいバージョンにアップグレードされています。
+
+### 重要な注意事項
+
+  * **元に戻せません**：バージョンアップグレードはロールバックできません。完全なバックアップがあることを確認してください。
+  * **接続の切断**：アップグレード前にすべてのアプリケーション接続を停止する必要があります。
+  * **サービスへの影響：** クラスターは再起動し、一時的な中断が発生します。
+  * アップグレードが失敗した場合は、バックアップを使用して以前の状態に復元してください。

@@ -1,22 +1,27 @@
 ---
 id: "overview-nic"
-title: "NIC Overview"
-description: "Introduction to NIC on FPT Cloud and important notes before configuration."
+title: "Overview Nic"
 sidebar_label: "Overview"
 sidebar_position: 56
 ---
 
-# NIC Overview
+Overview
 
-A NIC (Network Interface Card) on FPT Cloud connects your virtual machine to network resources — providing high-performance, flexible, and scalable data transfer.
 
-## Prerequisites
+### Product Overview:
 
-- This is an advanced feature intended for users with knowledge of network systems.
-- Identify the network to connect the NIC card to, ensuring the virtual machine can communicate and access resources effectively.
-- Configure the correct IP address, subnet mask, gateway, and DNS.
-- Test the configuration after setup to ensure it does not cause any issues.
+  * A NIC (Network Interface Card) on the Cloud platform is an essential component for connecting virtual machines and resources on the Cloud. NIC provides high-performance and reliable connectivity and data transmission. With its flexibility and scalability, NIC plays an important role in building and managing network infrastructure, while creating a flexible and extensible network environment for Cloud-based applications and services.
 
-## Next steps
 
-- [Create a Primary NIC card](./create-card-NIC-%20Primary.md)
+### Important considerations before configuring a NIC:
+
+  * This is an advanced feature intended only for users with a certain level of knowledge in building and managing computer network systems.
+
+  * Network connection setup: Identify the network connection for the NIC to ensure the virtual machine can communicate and access network resources efficiently.
+
+  * IP configuration: Configure the IP address, subnet mask, gateway, and DNS for the NIC so that the virtual machine can connect to the network.
+
+  * Testing: After configuring the NIC, perform tests to ensure the card operates correctly and does not cause issues in the virtual machine or network.
+
+
+")

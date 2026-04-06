@@ -1,49 +1,48 @@
 ---
 id: "hpc-fixed-rental"
-title: "Set Fixed Rental Period"
-description: "Save costs by setting a Fixed Rental period for GPU Server on HPC Portal."
+title: "Hpc Fixed Rental"
 sidebar_label: "Set Fixed Rental Period"
 sidebar_position: 26
 ---
 
-# Set Fixed Rental Period
+Set Fixed Rental Period
 
-Fixed Rental lets you save significantly on costs when you need continuous GPU Server usage for long-term projects — compared to standard hourly rental.
 
-## Discount Tiers
+The Fixed Rental feature on the HPC Portal is highly recommended when you have large projects that require the machine to run for days, weeks, or even months. This feature allows you to save significantly on costs compared to standard hourly rental. The discount tiers available on the HPC Portal are as follows:
 
-| Period | Savings |
-|--------|---------|
-| **6 hours** | 6% compared to hourly rate |
-| **Day** (1 day) | 8% compared to hourly rate |
-| **Week** (1 week) | 10% compared to hourly rate |
-| **Month** (1 month) | 20% compared to hourly rate |
+– **6 hours**: Rent a machine continuously for 6 hours to save **6%** in cost compared to hourly rental
 
-:::note
-Fixed Rental does not accumulate machine uptime — the system charges for and defaults the machine to run continuously for the selected period.
-:::
+– **Day**: Rent a machine continuously for 1 day to save **8%** in cost compared to hourly rental
 
-:::tip
-Example: Your project needs 8 hours. Select a 6-hour Fixed Rental and configure **Keep machine running** to continue for the remaining 2 hours — the most cost-optimized approach.
-:::
+– **Week**: Rent a machine continuously for 1 week to save **10%** in cost compared to hourly rental
 
-## Set Up Fixed Rental
+– **Month**: Rent a machine continuously for 1 month to save **20%** in cost compared to hourly rental
 
-1. Go to **Hosts** → **Fixed rental** to open the setup dialog.
-2. Select at least 1 image, configure the **Rental period** and **Number of machines**, review the discount amount, and click **Confirm**.
+**Note:** The Fixed Rental feature does not accumulate machine uptime. The system charges based on the assumption that the machine runs continuously for the selected duration.
 
-## Action After Expiry
+Example: If your project takes 8 hours to complete, to optimize and minimize costs, you should select a **Fixed rental** for 6 hours and set **Keep machine running** after the Fixed rental expires to continue for the remaining 2 hours.
 
-Select **Image** → **Setting** and choose:
+  1. To set Fixed Rental for a machine, follow these steps:
 
-- **Keep the machine running**: After expiry, the machine continues running and is billed at the hourly rate.
-- **Shutdown machine**: The system automatically shuts down the machine when the period expires.
 
-## Renewal and Termination
+Go to Hosts > Fixed rental to open the Fixed Rental setup dialog.
 
-- **Renew**: Select **Image** → **Renewal** and configure as you did during initial setup.
-- **Terminate**: Select **Image** → **Deactivate**.
+Select at least 1 image to apply Fixed Rental to, configure the Fixed Rental settings such as Rental period and Number of machines, review the discounted amount for the machine, and click **Confirm**.
 
-## Next Steps
+![8LzJfpQSTt4FgAAAAASUVORK5CYII=](images/hpc-fixed-rental/img-001.png)
 
-- [Snapshot Backup](./hpc-snapshot-backup.md)
+Alternatively, you can select a specific image first and then set up Fixed Rental for the machine by selecting Action > Fixed rental as follows:
+
+![](images/hpc-fixed-rental/img-002.png)
+
+
+  2. After setting up Fixed Rental for the machine, you can configure the Action after expired by selecting **Image > Setting** and choosing:
+
+
+– Keep the machine running: After the fixed rental period expires, the system will continue running the machine and charge it on an hourly basis. Please ensure your account balance is sufficient to keep the machine running and avoid interrupting your work.
+
+– Shutdown machine: After the fixed rental period expires, the system will automatically shut down the machine.
+
+  3. Renew the fixed rental period after expiration by selecting **Image > Renewal** and configuring the same settings as the initial Fixed Rental setup.
+
+  4. End the fixed rental by selecting **Image > Deactivate**.

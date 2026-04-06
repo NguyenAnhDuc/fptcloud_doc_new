@@ -221,6 +221,11 @@ module.exports = {
           collapsed:  true,
           items:  [
             {
+              type:  "doc",
+              id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+              label:  "Overview"
+            },
+            {
               type:  "category",
               label:  "Registration & Login",
               collapsed:  true,
@@ -329,11 +334,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/view-performed-transactions",
                   label:  "View Transaction History"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
-                  label:  "FPT Cloud Portal – Pay As You Go"
                 }
               ]
             }
@@ -344,6 +344,11 @@ module.exports = {
           label:  "FPT Cloud Desktop",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "fpt-cloud-desktop/fpt-cloud-desktop",
+              label:  "What is FPT Cloud Desktop?"
+            },
             {
               type:  "doc",
               id:  "fpt-cloud-desktop/initial-setup",
@@ -363,6 +368,16 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-desktop/dang-nhap-voi-tai-khoan-SSO",
                       label:  "Log in with SSO account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-FCDClient-moi",
+                      label:  "Bước 1: Cài đặt FCDClient mới"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-desktop/SSO-qua-web-browser",
+                      label:  "SSO via Web Browser"
                     },
                     {
                       type:  "doc",
@@ -388,6 +403,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-desktop/accountpassword-qua-web-browser",
+                      label:  "Account/Password via Web Browser"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-desktop/accountpassword-qua-FCDClient-cu",
                       label:  "Account/Password via legacy FCDClient"
                     }
@@ -404,11 +424,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-desktop/faq",
                   label:  "Frequently asked questions (FAQs)"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/fpt-cloud-desktop",
-                  label:  "What is FPT Cloud Desktop?"
                 }
               ]
             }
@@ -505,6 +520,16 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-autoscale/attach-policy-vao-group",
+                  label:  "Attach Policy to Group"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-autoscale/detach-policy-khoi-group",
+                  label:  "Detach Policy from Group"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-autoscale/xoa-policy",
                   label:  "Delete Policy"
                 },
@@ -522,6 +547,11 @@ module.exports = {
           label:  "Cloud Server",
           collapsed:  true,
           items:  [
+            {
+              type:  "doc",
+              id:  "cloud-server/cloud-server",
+              label:  "FPT Cloud Server Overview"
+            },
             {
               type:  "doc",
               id:  "cloud-server/Initial-Setup"
@@ -613,6 +643,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "cloud-server/tutorials-backup-may-chu-voi-snapshot"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "cloud-server/tutorials-xoa-may-ao",
+                      label:  "Tutorials Xoa May Ao"
                     }
                   ]
                 },
@@ -1308,10 +1343,6 @@ module.exports = {
                 {
                   type:  "doc",
                   id:  "cloud-server/question-"
-                },
-                {
-                  type:  "doc",
-                  id:  "cloud-server/cloud-server"
                 }
               ]
             }
@@ -1331,6 +1362,11 @@ module.exports = {
               type:  "doc",
               id:  "global-search/global-search-usage",
               label:  "Using Global Search"
+            },
+            {
+              type:  "doc",
+              id:  "global-search/global-search-phase-1",
+              label:  "Global Search"
             }
           ]
         }
@@ -1596,6 +1632,11 @@ module.exports = {
               type:  "doc",
               id:  "vpn-site-to-site/authenticate-certificate-mode",
               label:  "Certificate Authentication"
+            },
+            {
+              type:  "doc",
+              id:  "vpn-site-to-site/common-config",
+              label:  "Common Config"
             },
             {
               type:  "category",
@@ -1874,6 +1915,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "load-balancer/xoa load balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/ssl-load-balancer",
+                      label:  "SSL Load Balancer"
                     }
                   ]
                 },
@@ -2802,7 +2848,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "dedicated-fpt-kubernetes-engine/create-new-k8s-cluster"
+              id:  "dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi"
             },
             {
               type:  "doc",
@@ -3010,6 +3056,11 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "iam/download-access-log"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "iam/xem%20danh%20sach%20user%20group",
+                      label:  "Xem Danh Sach User Group"
                     }
                   ]
                 }
@@ -3036,6 +3087,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/detection-status",
                   label:  "Detection Status"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/system-status",
+                  label:  "System Status"
                 },
                 {
                   type:  "doc",
@@ -3085,6 +3141,11 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-cloud-wapples/website-logs",
                   label:  "Website Logs"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/export-list",
+                  label:  "Export List"
                 }
               ]
             },
@@ -3152,8 +3213,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/web-access-management",
+                      label:  "Web Access Management"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/url-filter-settings",
                       label:  "URL Filter Settings"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/detection-exceptions",
+                      label:  "Detection Exceptions"
                     }
                   ]
                 },
@@ -3169,8 +3240,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-wapples/error-handling",
+                      label:  "Error Handling"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-wapples/privacy-filtering",
                       label:  "Privacy Filtering"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-wapples/snort",
+                      label:  "Snort"
                     },
                     {
                       type:  "doc",
@@ -3187,9 +3268,26 @@ module.exports = {
               ]
             },
             {
-              type:  "doc",
-              id:  "fpt-cloud-wapples/report-scheduling",
-              label:  "Report Scheduling"
+              type:  "category",
+              label:  "Report",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-scheduling",
+                  label:  "Report Scheduling"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-generation",
+                  label:  "Report Generation"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/report-list",
+                  label:  "Report List"
+                }
+              ]
             },
             {
               type:  "category",
@@ -3203,8 +3301,33 @@ module.exports = {
                 },
                 {
                   type:  "doc",
+                  id:  "fpt-cloud-wapples/accounts",
+                  label:  "Accounts"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/audit-level",
+                  label:  "Audit Level"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/smtp",
+                  label:  "SMTP"
+                },
+                {
+                  type:  "doc",
                   id:  "fpt-cloud-wapples/backup-restore",
                   label:  "Backup and Restore"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/backup-list",
+                  label:  "Backup List"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-wapples/automatic-backup",
+                  label:  "Automatic Backup"
                 },
                 {
                   type:  "doc",
@@ -3239,6 +3362,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-cloud-waf/Initial Setup",
               label:  "Initial setup"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+              label:  "Add New WAF Server"
             },
             {
               type:  "category",
@@ -3336,6 +3464,11 @@ module.exports = {
             {
               type:  "doc",
               id:  "fpt-cloud-waf/view-proxy-host-detail"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+              label:  "Dang Nhap Waf Dashboard"
             }
           ]
         },
@@ -3833,6 +3966,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-cloud-monitoring/add-data-tab",
+                      label:  "Add Data Tab"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-cloud-monitoring/user-management-tab",
                       label:  "User Management tab"
                     },
@@ -3840,6 +3978,11 @@ module.exports = {
                       type:  "doc",
                       id:  "fpt-cloud-monitoring/quota-and-package-tab",
                       label:  "Quota and Package tab"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-monitoring/user-guide-tab",
+                      label:  "User Guide Tab"
                     }
                   ]
                 },
@@ -4521,6 +4664,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "fpt-key-vault/tutorials-xem-va-cap-nhat-gia-tri-secret",
+                      label:  "Tutorials Xem Va Cap Nhat Gia Tri Secret"
+                    },
+                    {
+                      type:  "doc",
                       id:  "fpt-key-vault/tutorials-xoa-secret",
                       label:  "Delete a Secret"
                     }
@@ -5077,7 +5225,7 @@ module.exports = {
             },
             {
               type:  "doc",
-              id:  "fpt-api-management/managing-sites"
+              id:  "fpt-api-management/quan-ly-api-site"
             },
             {
               type:  "doc",
@@ -8439,6 +8587,11 @@ module.exports = {
               type:  "doc",
               id:  "fpt-data-platform/cdc-service/xoa-connector",
               label:  "Delete connector"
+            },
+            {
+              type:  "doc",
+              id:  "fpt-data-platform/xem-th%C3%B4ng-tin-snapshot",
+              label:  "Xem Thông Tin Snapshot"
             },
             {
               type:  "doc",

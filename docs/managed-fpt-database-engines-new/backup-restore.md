@@ -1,65 +1,53 @@
 ---
 id: "backup-restore"
-title: "Backup types"
-description: "The Backup & Restore feature on FPT Database Engine protects data against risks such as accidental deletion, data errors, or system failures."
-sidebar_label: "Backup types"
+title: "Các loại Backup"
+description: "Tính năng **Backup & Restore** trên FPT Database Engine giúp bảo vệ dữ liệu trước các rủi ro như xoá nhầm, lỗi dữ liệu h"
+sidebar_label: "Các loại Backup"
 sidebar_position: 26
 ---
 
-# Backup types
+# Các loại Backup
 
-The **Backup & Restore** feature on FPT Database Engine protects data against risks such as accidental deletion, data errors, or system failures. The platform supports automated backup, data restoration from backups, and Point-in-Time Recovery for supported database engines.
+Tính năng **Backup & Restore** trên FPT Database Engine giúp bảo vệ dữ liệu trước các rủi ro như xoá nhầm, lỗi dữ liệu hoặc sự cố hệ thống. Nền tảng hỗ trợ sao lưu tự động, khôi phục dữ liệu từ các bản sao lưu và khôi phục dữ liệu về một thời điểm cụ thể (Point-in-Time Recovery) đối với một số database engine được hỗ trợ.
 
 ### Backup
+Backup là quá trình tạo bản sao dữ liệu của cơ sở dữ liệu tại một thời điểm xác định. Các bản backup được sử dụng để khôi phục dữ liệu khi xảy ra sự cố hoặc lỗi vận hành. Cơ chế backup được thiết kế nhằm bảo vệ dữ liệu, hỗ trợ khôi phục khi xảy ra sự cố và đáp ứng các yêu cầu về tuân thủ và bảo mật trong môi trường cloud.
+Chức năng Backup cho phép bạn thiết lập, vận hành và giám sát các hoạt động sao lưu cho cơ sở dữ liệu. Bạn có thể:
+  * Bật hoặc tắt dịch vụ backup cho cơ sở dữ liệu
+  * Quản lý lịch sao lưu (backup job)
+  * Theo dõi trạng thái thực thi thông qua giao diện quản lý tập trung.
 
-Backup is the process of creating a copy of database data at a specific point in time. Backups are used to restore data when incidents or operational errors occur. The backup mechanism is designed to protect data, support recovery in case of failure, and meet compliance and security requirements in cloud environments.
+Tính năng Backup khả dụng cho tất cả các loại engine do FPT cung cấp.
 
-The Backup feature allows you to set up, operate, and monitor backup activities for your database. You can:
+### Các loại Backup
+FPT Database Engine hỗ trợ 2 loại backup sau:
+  * **Full Backup** : Sao lưu toàn bộ dữ liệu của cơ sở dữ liệu.
+  * **Diff (Incremental) backup** : Sao lưu các thay đổi kể từ lần backup gần nhất, giúp giảm thời gian và dung lượng lưu trữ.
 
-- Enable or disable the backup service for a database.
-- Manage backup schedules (backup jobs).
-- Monitor execution status through a centralized management interface.
+### Lưu trữ Backup
+Các bản backup được lưu trữ trên hệ thống storage độc lập, tách biệt hoàn toàn với database cluster nhằm đảm bảo độ bền dữ liệu (durability) và tính sẵn sàng khôi phục khi database cluster gặp sự cố.
 
-The Backup feature is available for all engine types provided by FPT.
-
-### Backup types
-
-FPT Database Engine supports 2 types of backup:
-
-- **Full Backup**: Backs up the entire database data.
-- **Diff (Incremental) Backup**: Backs up changes since the most recent backup, reducing time and storage usage.
-
-### Backup storage
-
-Backups are stored on an independent storage system, completely separate from the database cluster, to ensure data durability and availability for restoration when the database cluster encounters an issue.
-
-### Backup retention
-
-Backup retention defines the number of full backup copies retained in the system. When the configured retention count is exceeded, the oldest backups are automatically deleted.
+### Backup Retention
+Backup retention xác định số lượng bản full backup được giữ lại trong hệ thống. Khi vượt quá số lượng retention đã cấu hình, các bản backup cũ nhất sẽ được tự động xóa.
 
 ### Restore
-
-Restore allows you to recover a database from an existing backup. The restore process creates a new database based on the data at the time of the selected backup.
+Restore cho phép bạn khôi phục database từ một bản backup hiện có. Quá trình restore tạo một database mới dựa trên dữ liệu tại thời điểm backup được chọn.
 
 ### Point-in-Time Recovery (PITR)
+Point-in-Time Recovery cho phép khôi phục cơ sở dữ liệu về một thời điểm cụ thể trong quá khứ. PITR hoạt động bằng cách kết hợp full backup định kỳ và transaction logs / archived logs được ghi nhận liên tục. Cơ chế này đảm bảo khả năng khôi phục chính xác và tin cậy.
+Chức năng này đặc biệt hữu ích khi bạn cần khôi phục dữ liệu từ một thời điểm chính xác, chẳng hạn như khi phát hiện ra lỗi hoặc sự cố trong quá trình hoạt động của hệ thống. **Hiện tại, chức năng này chỉ được hỗ trợ cho PostgreSQL.**
+Việc kết hợp giữa backup và PITR giúp tăng cường khả năng bảo vệ dữ liệu, đảm bảo tính sẵn sàng cao và cung cấp khả năng khôi phục linh hoạt cho các kịch bản vận hành thực tế.
 
-Point-in-Time Recovery allows restoring the database to a specific point in time in the past. PITR works by combining periodic full backups with continuously recorded transaction logs / archived logs. This mechanism ensures accurate and reliable recovery.
-
-This feature is especially useful when you need to recover data from a precise moment, such as when a fault or incident is discovered during system operation. **Currently, this feature is only supported for PostgreSQL.**
-
-Combining backup and PITR enhances data protection, ensures high availability, and provides flexible recovery capabilities for real-world operational scenarios.
-
-### Required permissions
-
-| Permission name | Operation type | Description |
-| --- | --- | --- |
-| manageDatabase:ListBackup | View | Permission to view database Backup information. |
-| manageDatabase:EnableBackup | Create | Permission to activate the Backup & Restore feature for a database. |
-| manageDatabase:DeleteBackup | Edit | Permission to deactivate the Backup & Restore feature for a database. |
-| manageDatabase:CreateJobBackup | Create | Permission to create a backup job for a database. |
-| manageDatabase:ViewJobBackup | View | Permission to view backup job details. |
-| manageDatabase:RunNowJobBackup | Create | Permission to manually create a backup snapshot for a database. |
-| manageDatabase:EditJobBackup | Edit | Permission to edit a backup job. |
-| manageDatabase:DeleteJobBackup | Delete | Permission to delete a backup job. |
-| manageDatabase:ListRestore | View | Permission to view the list of available restore points. |
-| manageDatabase:Restore | Create | Permission to restore a database from a backup or to a specific point in time. |
+### Quyền cần thiết  
+| Tên quyền  | Loại thao tác  | Mô tả  |  
+| --- | --- | --- |  
+| manageDatabase:ListBackup  | View  | Quyền xem thông tin Backup cơ sở dữ liệu.  |  
+| manageDatabase:EnableBackup  | Create  | Quyền kích hoạt chức năng Backup & Restore cho cơ sở dữ liệu.  |  
+| manageDatabase:DeleteBackup  | Edit  | Quyền vô hiệu hóa chức năng Backup & Restore cho cơ sở dữ liệu.  |  
+| manageDatabase:CreateJobBackup  | Create  | Quyền tạo job backup cho cơ sở dữ liệu.  |  
+| manageDatabase:ViewJobBackup  | View  | Quyền xem chi tiết job backup.  |  
+| manageDatabase:RunNowJobBackup  | Create  | Quyền tạo snapshot backup thủ công cho cơ sở dữ liệu.  |  
+| manageDatabase:EditJobBackup  | Edit  | Quyền chỉnh sửa job backup.  |  
+| manageDatabase:DeleteJobBackup  | Delete  | Quyền xoá job backup.  |  
+| manageDatabase:ListRestore  | View  | Quyền xem danh sách bản backup có thể restore.  |  
+| manageDatabase:Restore  | Create  | Quyền khôi phục database từ bản backup hoặc khôi phục theo thời điểm cụ thể.  |

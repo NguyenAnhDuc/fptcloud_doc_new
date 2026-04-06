@@ -1,66 +1,89 @@
 ---
 id: "FAQ"
-title: "一般"
-description: "Metal Cloud とは、ユーザーが FPT から GPU コンポーネントを内蔵した物理サーバーをレンタルするクラウドサービスの一種であります。このサーバー* はユーザー専用であり、他のテナントと共有されません。"
-sidebar_label: "一般"
+title: "Tổng quan"
+description: "Câu hỏi thường gặp về Metal Cloud"
+sidebar_label: "Tổng quan"
 sidebar_position: 13
 pagination_next: null
 ---
 
-# 一般
+# Tổng quan
 
-### Metal Cloud とは
-Metal Cloud とは、ユーザーが FPT から GPU コンポーネントを内蔵した物理サーバーをレンタルするクラウドサービスの一種であります。このサーバー* はユーザー専用であり、他のテナントと共有されません。
-仮想化レイヤーや抽象化レイヤーを使用せずにハードウェアを完全に制御しながらサーバーにアクセスできるため、計算集約型のワークロードのパフォーマンスを最大限に高めることができます。
+### Metal Cloud là gì
 
-### Metal Cloud はクラウドサーバー(仮想マシン) インスタンスとどう違うのですか?
-Metal Cloud は、ノイジーな隣人のいない専用サーバーへの直接アクセスを提供します。
-仮想化されたクラウド環境に展開されたクラウドサーバーインスタンスと比較して、Bare Metal GPU サーバーは、基盤となる物理サーバーへの無制限のアクセスを許可するため、これらのサーバーは、最もリソースを集中的に使用するワークロードにも適しています。
+Metal Cloud là dịch vụ cloud cho phép bạn thuê máy chủ vật lý tích hợp GPU từ FPT. Máy chủ này dành riêng cho bạn và không chia sẻ với tenant khác.
 
-### Metal Cloud はどのように運用しますか?
-Metal Cloud は、アプリケーションをインストールして実行できる GPU コンポーネントを備えた物理的な専用サーバーを提供します。
-このセットアップは、AI/ML モデルのトレーニングやカスタム オーケストレーションなどの要求の厳しいワークロードに対応する安定した高性能なインフラストラクチャが必要な場合に特に役立ちます。
+Bạn có thể truy cập server với toàn quyền kiểm soát phần cứng mà không cần lớp ảo hóa hay trừu tượng hóa, giúp tối đa hiệu năng cho các workload tính toán chuyên sâu.
 
-### Bare Metal GPU サーバーはどのくらいの期間で作成できますか?
-FPT images を使用すると、約 20 分後に正常にデプロイされると予想されます。
-カスタムイメージのサイズや、同時に作成されるサーバーの数が多すぎると、デプロイ時間が長くなる場合があります。
+### Metal Cloud khác gì so với Cloud Server (Virtual Machine) instance?
 
-### Metal Cloud はどのような高度なユースケースをサポートしていますか?
-  * AI/ML ワークロード:特に大規模データ処理向けのモデルトレーニング、微調整、推論
-  * カスタムオーケストレーション:コンテナ化された環境向けの Kubernetes、ワークロード管理向けの Slurm、複雑なアプリケーション向けのその他のカスタムセットアップなどのテクノロジー
-  * 高性能コンピューティング（HPC）シミュレーション、科学計算、リアルタイムデータ処理など、専用のリソースを必要とするアプリケーション
+Metal Cloud cung cấp quyền truy cập trực tiếp vào server chuyên dụng mà không có "noisy neighbor".
 
-# 機能
-### Metal Cloud は現在どの機能をサポートしていますか?
-Metal Cloud は、幅広いクラウド機能をサポートしています。
-  * AI 用 FPTimages を含むオペレーティングシステムイメージ
-  * スタートアップスクリプト
-  * SSH キーの事前ロードまたはパスワードの設定
-  * ネットワーキング：セキュリティのための追加 IP、サブネット、ネットワーク ACL
+So với Cloud Server instance được triển khai trong môi trường cloud ảo hóa, Bare Metal GPU Server cho phép truy cập không giới hạn vào physical server nền, do đó các server này phù hợp cho cả những workload tốn nhiều tài nguyên nhất.
 
-近い将来、さらに多くの機能が追加される予定ですので、お楽しみに!
+### Metal Cloud hoạt động như thế nào?
 
-### Metal Cloud にはどのようなストレージオプションが利用できますか?
-Bare Metal GPU サーバーでは、1 つの NVMe ローカルストレージが利用できます。
-  * ブロックストレージサービスはサポートされていません
-  * ファイルストレージ(高パフォーマンス層)サービスがサポートされています
+Metal Cloud cung cấp server vật lý chuyên dụng có GPU mà bạn có thể cài đặt và chạy ứng dụng.
 
-### Bare Metal Cloud はRAID をサポートしていますか?
-はい、ローカルストレージは、ハードウェア RAID コントローラを使用して、FPT クラウドポータル GUI の RAID 0、RAID 1 機能をサポートします。
-今後、さらなる RAID オプションが追加される予定です。
+Thiết lập này đặc biệt hữu ích khi bạn cần cơ sở hạ tầng ổn định, hiệu năng cao để đáp ứng các workload đòi hỏi cao như huấn luyện mô hình AI/ML hoặc orchestration tùy chỉnh.
 
-### Metal Cloud はどの地域で利用できますか?
-Metal Cloud は、ベトナムのハノイ 2 および日本の東京リージョンでご利用いただけます。
+### Bare Metal GPU Server mất bao lâu để tạo?
 
-# 請求
-### Metal Cloud にどのように料金を請求されますか?
-  1. 予約：需要に基づいてリソースが制限され、前払い（一部または全額）または後払いで固定価格となります。請求期間は、月（3〜9）または年（1〜5）の期間になります。
-  2. 従量課金制 (PAYG) :最初は無制限のリソースを利用し、後で支払うことができます。請求額は通常、日単位または時間単位で増分されます。
+Khi dùng FPT images, dự kiến triển khai thành công sau khoảng 20 phút.
 
-### FPT は停止状態のBare Metal GPU サーバーに料金を請求しますか?
-はい、「停止」状態のインスタンスは引き続きサーバーをお客様の利用のために予約するため、このサーバーをリリースするまで料金が発生します。サーバーの料金をこれ以上請求したくない場合は、顧客向け FPT クラウド ポータルでサーバーを削除してください。
-Bare Metal GPUGPU サーバーに接続されているその他のサービスやリソースに対しても課金されます。
+Nếu kích thước custom image lớn hoặc có quá nhiều server được tạo cùng lúc, thời gian triển khai có thể lâu hơn.
 
-### Metal Cloud の課金は、クラウドサーバー(仮想マシン) インスタンスの課金とどう違うのですか?
-主な違いは、Bare Metal GPU サーバーの電源をオフにしても、課金サイクルには影響がないことです。
-つまり、時間単位で課金されるサーバーは、サーバーの電源がオフでもオンでも、通常の料金で課金されます。サーバーが削除された場合にのみ課金が停止します。
+### Metal Cloud hỗ trợ những use case nâng cao nào?
+
+- **AI/ML workload:** Huấn luyện, fine-tuning và inference mô hình, đặc biệt cho xử lý dữ liệu quy mô lớn.
+- **Orchestration tùy chỉnh:** Các công nghệ như Kubernetes cho môi trường container hóa, Slurm cho quản lý workload, và các thiết lập tùy chỉnh khác cho ứng dụng phức tạp.
+- **High Performance Computing (HPC):** Simulation, tính toán khoa học, xử lý dữ liệu real-time và các ứng dụng cần tài nguyên chuyên dụng.
+
+# Tính năng
+
+### Metal Cloud hiện hỗ trợ những tính năng nào?
+
+Metal Cloud hỗ trợ nhiều tính năng cloud:
+
+- OS image bao gồm FPT images cho AI.
+- Startup script.
+- Nạp sẵn SSH key hoặc thiết lập mật khẩu.
+- Networking: IP bổ sung, subnet, Network ACL để bảo mật.
+
+Nhiều tính năng hơn sẽ được thêm vào trong tương lai gần, hãy đón chờ!
+
+### Metal Cloud cung cấp những tùy chọn lưu trữ nào?
+
+Bare Metal GPU Server có sẵn 1 NVMe local storage.
+
+- Dịch vụ block storage không được hỗ trợ.
+- Dịch vụ file storage (lớp hiệu năng cao) được hỗ trợ.
+
+### Bare Metal Cloud có hỗ trợ RAID không?
+
+Có, local storage hỗ trợ tính năng RAID 0 và RAID 1 trên GUI FPT Cloud Portal bằng hardware RAID controller.
+
+Thêm tùy chọn RAID sẽ được bổ sung trong tương lai.
+
+### Metal Cloud khả dụng ở những vùng nào?
+
+Metal Cloud khả dụng ở vùng Hà Nội 2 (Việt Nam) và Tokyo (Nhật Bản).
+
+# Thanh toán
+
+### Metal Cloud tính phí như thế nào?
+
+1. **Đặt chỗ:** Tài nguyên bị giới hạn theo nhu cầu với giá cố định, thanh toán trước (một phần hoặc toàn bộ) hoặc sau. Kỳ thanh toán theo tháng (3-9) hoặc năm (1-5).
+2. **Pay-as-you-go (PAYG):** Bạn sử dụng tài nguyên không giới hạn ban đầu rồi thanh toán sau. Số tiền thanh toán thường tăng theo ngày hoặc giờ.
+
+### FPT có tính phí Bare Metal GPU Server ở trạng thái dừng không?
+
+Có, instance ở trạng thái "dừng" vẫn đang dự trữ server cho bạn, do đó phí sẽ phát sinh cho đến khi bạn giải phóng server này. Nếu bạn không muốn bị tính phí thêm cho server, hãy xóa server trên FPT Cloud Portal dành cho khách hàng.
+
+Bạn cũng sẽ bị tính phí cho các dịch vụ và tài nguyên khác được gắn với Bare Metal GPU Server.
+
+### Thanh toán Metal Cloud khác gì so với Cloud Server (Virtual Machine) instance?
+
+Điểm khác biệt chính là việc tắt nguồn Bare Metal GPU Server không ảnh hưởng đến chu kỳ thanh toán.
+
+Điều này có nghĩa là server được tính phí theo giờ sẽ bị tính phí bình thường dù server đang bật hay tắt. Thanh toán chỉ dừng khi server bị xóa.

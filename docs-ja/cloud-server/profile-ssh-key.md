@@ -1,34 +1,48 @@
 ---
 id: "profile-ssh-key"
-title: "SSH Key管理"
-description: "FPT Cloud PortalでSSH Keyの作成、インポート、管理を行います。"
+title: "Profile Ssh Key"
 sidebar_label: "SSH Key"
 sidebar_position: 41
 ---
 
-# SSH Key管理
+SSH Keyプロファイル
 
-SSH KeyはLinuxサーバーに推奨される認証方式で、パスワードよりも安全です。
 
-## SSH Keyの作成・インポート
+### 1\. SSH Keyプロファイルの作成/インポート
+**ステップ1:** メニューから**Compute Engine** > **SSH Management**を選択します。**Import SSH key**を選択します。
 
-1. **Compute Engine** → **SSH Management** に移動し、**Import SSH key** をクリックします。
+![file](images/profile-ssh-key/img-001.png)
 
-   [![SSH Management画面](/img/migrated/image-1698634601692-83a32b71.png)](/img/migrated/image-1698634601692-83a32b71.png)
+**ステップ2:** SSH Keyの作成に必要な情報を入力します：
 
-2. 必要な情報を入力します：
-   - **Name**：SSH Key名。
-   - **Public Key**：既存の公開鍵を入力するか、**Generate new key pair** を選択します。
+  * **Name:** SSH Keyの名前。
+  * **Public Key**: システムがPrivate Keyを生成するために使用するPublic Key。すでにPublic Keyをお持ちの場合は、Public Keyフィールドに入力してください。お持ちでない場合は、**Generate new key pair**を選択します。システムが有効な**Public Key**を自動的に生成します。
 
-   サポートされる形式：`ssh-rsa`、`ecdsa-sha2-nistp256`、`ecdsa-sha2-nistp384`、`ecdsa-sha2-nistp521`、`ssh-ed25519`。
 
-3. **Save** をクリックします。システムがSSH Keyを作成し、`.pem` ファイルを自動的にダウンロードします。
+現在サポートされているSSH keyの形式：'ssh-rsa'、'ecdsa-sha2-nistp256'、'ecdsa-sha2-nistp384'、'ecdsa-sha2-nistp521'、'ssh-ed25519'。
 
-:::danger
-秘密鍵 `.pem` ファイルは一度しか提供されません。安全な場所に保管してください。
-:::
+**ステップ3:** すべての情報を入力したら、**Save**をクリックします。システムは**SSH Key**ペアを作成し、**< >.pem**形式のキーファイルを自動的にダウンロードします。
 
-## SSH Keyの削除
+**注意:** Private Keyファイル**< >.pem**はステップ3で一度だけ提供されます。サーバーへのアクセスを失わないよう、安全な場所に保管してください。
 
-1. **SSH Management** で **Actions** → **Delete** をクリックします。
-2. 削除を確認します。
+### 2\. SSH Keyプロファイルの詳細表示
+ユーザーは**Manage SSH Key Profiles**から、**VPC**内で作成したすべての**SSH Keyプロファイル**を確認できます。
+
+![Userguide FPT Cloud Server 2022 80](images/profile-ssh-key/img-002.png)
+
+特定の**SSH Keyプロファイル**を選択すると、システムは**Name**と**Public Key**を表示します。
+
+![file](images/profile-ssh-key/img-003.png)
+
+### 3\. SSH Keyプロファイルの削除
+**Manage SSH Key Profiles**から**SSH Keyプロファイル**を削除するには、次の手順を実行します：
+
+**ステップ1:** 削除する**SSH Keyプロファイル**を選択し、**Detail**ポップアップを開きます。
+
+![Userguide FPT Cloud Server 2022 82](images/profile-ssh-key/img-004.png)
+
+**ステップ2:** **削除**アイコンをクリックします。システムはすぐに**SSH Keyプロファイル**を削除し、処理結果を表示します。
+
+![file](images/profile-ssh-key/img-005.png)
+
+**注意:** この操作は**Manage SSH Key Profiles**から**SSH Keyプロファイル**を削除するだけです。この**SSH Key**を使用して作成された仮想マシンには影響しません。ユーザーは以前にダウンロードした**Private Key**ファイルを引き続き使用して仮想マシンに接続できます。

@@ -1,47 +1,41 @@
 ---
 id: "tutorials-ket-noi-vao-may-ao-windows"
-title: "Windows仮想マシンへの接続"
-description: "Web ConsoleまたはRemote Desktop Connection（RDC）を使ってWindows仮想マシンに接続する方法。"
+title: "Tutorials Ket Noi Vao May Ao Windows"
 sidebar_label: "Windows仮想マシンへの接続"
 sidebar_position: 12
 ---
 
-# Windows仮想マシンへの接続
+Windows仮想マシンへの接続
 
-Windows仮想マシンが正常に作成されたら、**Web Console**（デフォルト）または **Remote Desktop Connection**（仮想マシンにFloating IPがある場合）でアクセスできます。
 
-## Web Consoleによる接続
+**Windows**仮想マシンが**FPT Portal**で正常に作成されると、ユーザーはデフォルトで組み込みの**Web Console**を使用してアクセスできます。また、サーバーにPublic IPが割り当てられている場合は、**Remote Desktop Connection**を使用して外部からログインすることもできます。
 
-Web ConsoleはFPT Cloud上のすべてのWindows仮想マシンの操作をサポートしており、Public IPがない仮想マシンも利用できます。
+## Web ConsoleでWindows仮想マシンに接続する
+**Web Console**は、**Public IP**が割り当てられていない仮想マシンを含む、**FPT Cloud**上のすべての**Windows**仮想マシンの制御をサポートします。
 
-1. **Instance Management** で接続する仮想マシンを選択し、**Actions** → **Console** をクリックします。
+メニューで**Instance Management**を選択します。接続する仮想マシンの**Actions**セクションで、**Console**を選択します。
 
-   [![ConsoleオプションのあるActionsメニュー](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-22-1024x-8e9a3fe1.png)
+![Userguide FPT Cloud Server 2022 22](images/tutorials-ket-noi-vao-may-ao-windows/img-001.png)
 
-ブラウザが新しいウィンドウを開き、サーバー画面が表示されます。ここから完全に操作できます。
+ブラウザはすぐにサーバーの画面を表示する新しいウィンドウを開きます。この画面から、ユーザーは接続されたサーバーを完全に制御して操作することができます。
 
-[![Web Console Windows画面](/img/migrated/Userguide-FPT-Cloud-Server-2022-23-297x3-27ea7392.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-23-297x3-27ea7392.png)
+![Userguide FPT Cloud Server 2022 23](images/tutorials-ket-noi-vao-may-ao-windows/img-002.png)
 
-## Remote Desktop Connectionによる接続
+## Remote Desktop ConnectionでWindowsサーバーに接続する
+**RDC**（**Remote Desktop Connection**）で接続するには、仮想マシンに**Floating IP**が割り当てられており、RDP接続のためにポート3389が開いている必要があります。**FPT Cloud**は**Security Group**を割り当てることで仮想マシンのポートを開くことをサポートしています。
 
-RDCを使用するには、仮想マシンに **Floating IP** があり、Security Groupで **ポート3389** がRDP接続用に開放されている必要があります。
+**接続を設定するには、以下の手順に従ってください：**
 
-1. Windows仮想マシンを作成し、**Floating IP** を割り当てて起動します。
+**ステップ1**: **Windows** OSの仮想マシンを作成し、[**インスタンスへのFloating IPの割り当て**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-floating-ip>)の手順に従って**Floating IP**を割り当て、起動します。
 
-   [![Floating IPのあるWindows仮想マシン](/img/migrated/Userguide-FPT-Cloud-Server-2022-24-1024x-d7f8ec18.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-24-1024x-d7f8ec18.png)
+![Userguide FPT Cloud Server 2022 24](images/tutorials-ket-noi-vao-may-ao-windows/img-003.png)
 
-2. RDPポート3389を開放した **Security Group** を仮想マシンに割り当てます。
+**ステップ2**: RDPポート3389が開いている**Security Group**を仮想マシンに割り当てます。そのような**Security Group**が存在しない場合は、[**Security Groupの管理**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>)の手順に従って新規作成できます。
 
-   [![RDPポート3389のSecurity Group](/img/migrated/Userguide-FPT-Cloud-Server-2022-26-1024x-d2598fa0.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-26-1024x-d2598fa0.png)
+![Userguide FPT Cloud Server 2022 26](images/tutorials-ket-noi-vao-may-ao-windows/img-004.png)
 
-3. Floating IPとポート3389でRemote Desktop Connectionを使って接続します。
+**ステップ3**: 設定が完了したら、以下のパラメータを使用してRemote Desktop Connectionで仮想マシンに接続できます：
 
-   [![Remote Desktop Connectionで接続](/img/migrated/Userguide-FPT-Cloud-Server-2022-27-258x3-461bd875.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-27-258x3-461bd875.png)
+![Userguide FPT Cloud Server 2022 27](images/tutorials-ket-noi-vao-may-ao-windows/img-005.png)
 
-:::tip
-接続できない場合は以下を確認してください：仮想マシンが起動しているか、Floating IPが正しいか、Security GroupでポートA3389が開放されているか。
-:::
-
-## 次のステップ
-
-- [Linux仮想マシンへの接続](./tutorials-ket-noi-vao-may-ao-linux.md)
+**Remote Desktop Connection**で接続できないと報告された場合、ユーザーは仮想マシンが起動していることを確認し、**Floating IP**が正しいかどうかを確認し、[**Security Groupの管理**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>)の手順に従ってポート3389を再度開いてください。

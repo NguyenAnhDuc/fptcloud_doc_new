@@ -1,20 +1,11 @@
 ---
 id: "instance-schedule"
-title: "Automatic Instance Start/Stop Scheduling"
-description: "Create schedules to automatically start and stop instances on FPT Cloud Server."
-sidebar_label: "Instance Start/Stop Schedule"
+title: "Instance Schedule"
+sidebar_label: "Instance on/off schedule"
 sidebar_position: 88
 ---
 
-# Automatic Instance Start/Stop Scheduling
+Auto schedule to on-off Instance
 
-Instance Schedule lets you automatically start and stop instances on a timed schedule — saving costs when instances do not need to run 24/7.
 
-## Guides
-
-- [Instance Schedule Overview](./schedule-overview.md)
-- [Create a New Instance Schedule](./create-new-instance.md)
-- [View Instance Schedule Details](./view-detail-instance.md)
-- [Attach an Instance to a Schedule](./attach-schedule-to-instance.md)
-- [Detach an Instance from a Schedule](./detach-schedule-to-instance.md)
-- [Delete an Instance Schedule](./delete-instance-schedule.md)
+It may take up to 15 minutes after the selected start time or stop time for all shutdown/startup actions in a Schedule to complete. Therefore, if you need all of your virtual machines to be turned on or off no later than a specific time, set the schedule at least 15 minutes earlier than required, and ensure each schedule is at least 15 minutes apart. Once a schedule is created, its time, frequency, and other timing settings cannot be edited — only the virtual machines attached to or detached from the schedule can be changed. Therefore, if you want to modify a schedule, delete the current one and create a new one. The system only allows you to create a schedule at least 1 hour before the start time or stop time you select. Within any 1-hour duration window, the system only allows you to configure one action — either shutdown or startup.

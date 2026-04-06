@@ -1,31 +1,31 @@
 ---
 id: "create-instance-group"
-title: "Instance Groupの作成"
-description: "AffinityまたはAnti-Affinityポリシーで新しいInstance Groupを作成するガイド。"
-sidebar_label: "Instance Groupの作成"
+title: "Khởi tạo Instance Group"
+description: "Hướng dẫn tạo mới một Instance Group với chính sách Affinity hoặc Anti-Affinity."
+sidebar_label: "Khởi tạo Instance Group"
 sidebar_position: 3
 ---
 
-# Instance Groupの作成
+# Khởi tạo Instance Group
 
-Soft Affinity または Soft Anti-Affinity ポリシーで新しい Instance Group を作成できます。
+Bạn có thể tạo một Instance Group mới với chính sách Soft Affinity hoặc Soft Anti-Affinity.
 
 :::warning
-Instance Group は作成後に編集できません。変更が必要な場合は、現在のグループを削除して新しいグループを作成してください。
+Instance Group sau khi tạo không thể chỉnh sửa. Nếu cần thay đổi, hãy xóa nhóm hiện tại và tạo nhóm mới.
 :::
 
-1. **Compute Engine** → **Instance Group** → **Create Instance Group** を選択します。
+1. Chọn **Compute Engine** → **Instance Group** → **Create Instance Group**.
 
-   ![Instance Group管理画面](/img/migrated/image-1705024581953-a55d4346.png)
+   ![Màn hình Instance Group Management](/img/migrated/image-1705024581953-a55d4346.png)
 
-2. 必要な情報を入力します:
-   - **Name**: Instance Group 名。
-   - **Policy**: **Soft Affinity** または **Soft Anti-Affinity** を選択。
+2. Điền các thông tin:
+   - **Name**: tên Instance Group.
+   - **Policy**: chọn **Soft Affinity** hoặc **Soft Anti-Affinity**.
 
-   ![Instance Group作成フォーム](/img/migrated/image-1705024842925-f64a0e6f.png)
+   ![Form tạo Instance Group](/img/migrated/image-1705024842925-f64a0e6f.png)
 
-3. **Create Instance Group** をクリックします。
+3. Nhấn **Create Instance Group**.
 
-新しい Instance Group が **Instance Group Management** リストに表示されます。
+Instance Group mới hiển thị trong danh sách **Instance Group Management**.
 
-![Instance Groupの作成完了](/img/migrated/image-1705024897223-9b650495.png)
+![Instance Group đã tạo thành công](/img/migrated/image-1705024897223-9b650495.png)

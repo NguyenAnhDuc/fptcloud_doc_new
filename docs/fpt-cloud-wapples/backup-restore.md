@@ -1,11 +1,12 @@
 ---
 id: "backup-restore"
-title: Backup and Restore
-sidebar_label: Backup and Restore
+title: Backup và Restore
+description: ""
+sidebar_label: Backup và Restore
 sidebar_position: "40"
 ---
 
-# Backup and Restore
+# Backup và Restore
 
   * [ ![](/img/migrated/dashboard-12e0b64f.png) Dashboard ](javascript: "Dashboard")
   * [ ![](/img/migrated/DataAnalysis-4a97fa5c.png) Data Analysis ](javascript: "Data Analysis")

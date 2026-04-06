@@ -1,75 +1,107 @@
 ---
 id: "gpu-general"
-title: "Console PortalでのGPU管理"
-description: "FPT Cloud PortalでGPU搭載インスタンスの作成、GPU の追加・削除、GPUサイズ変更を行います。"
-sidebar_label: "Console PortalでのGPU管理"
+title: "Gpu General"
+sidebar_label: "コンソールポータルでのGPU管理"
 sidebar_position: 21
 ---
 
-# Console PortalでのGPU管理
+コンソールポータルでのGPU管理
 
-FPT Cloud Portal上で、GPU搭載インスタンスの作成、既存インスタンスへのGPU追加、GPUの削除、またはGPU設定のサイズ変更を直接行うことができます。
 
-## GPU搭載インスタンスの作成
+## 1\. GPUを持つ仮想マシンの作成
+ユーザーはGPUを搭載した仮想マシンを作成できます。
 
-1. **Instance Management** で **Create instance** をクリックします。
+**ステップ1**: **Instance Management**画面で**Create instance**を選択します。
 
-   [![Instance Management画面](/img/migrated/image-1744799866857-2ea8b0f3.png)](/img/migrated/image-1744799866857-2ea8b0f3.png)
+![file](images/gpu-general/img-001.png)
 
-2. **GPU** を選択し、使用するGPUカードのタイプを選択します。
+**ステップ2**: GPUおよび使用するGPUカードの種類を選択します。
 
-   [![GPUタイプの選択](/img/migrated/image-1744799912482-215598f9.png)](/img/migrated/image-1744799912482-215598f9.png)
+![file](images/gpu-general/img-002.png)
 
-3. 残りの情報を入力し、**Create Instance** をクリックします。
+**ステップ3**: インスタンスのその他の情報を入力します。
 
-   [![GPU Instanceの作成確認](/img/migrated/image-1744799934410-03d823e6.png)](/img/migrated/image-1744799934410-03d823e6.png)
+**ステップ4**: **Create Instance**をクリックします。
 
-GPU情報はInstance Detail画面で確認できます。
+![file](images/gpu-general/img-003.png)
 
-[![GPU情報が表示されたInstance Detail](/img/migrated/image-1744799982286-e3f4b4f1.png)](/img/migrated/image-1744799982286-e3f4b4f1.png)
+**ステップ5**: 情報を確認します。情報はInstance detail画面に更新されます。
 
-## インスタンスへのGPU追加
+![file](images/gpu-general/img-004.png)
 
-:::note
-GPU追加前にインスタンスを **Power off** する必要があります（ステータスが「Stopped」であること）。インスタンスが「Running」または「Pending」状態の場合、この機能は無効になります。
+## 2\. Instance ManagementでインスタンスにGPUを追加する
+**ステップ1**: **Instance management**画面で、GPUを追加したい仮想マシンを選択します。
+:::warning
+* GPUを追加する前に、仮想マシンを**Power off**する必要があります（ステータスが「Stopped」であること）。
 :::
 
-1. **Instance Management** でGPUを追加するインスタンスを選択します。
+  * 「Running」や「Pending」などの他の状態にあるマシンでは、この機能は**無効**になります。
 
-   [![インスタンスの選択](/img/migrated/image-1744799997207-f8405b2c.png)](/img/migrated/image-1744799997207-f8405b2c.png)
 
-2. **Actions** → **Add GPU** を選択します。
+![file](images/gpu-general/img-005.png)
 
-   [![Add GPUオプションがあるActionsメニュー](/img/migrated/image-1744800019053-f556d42e.png)](/img/migrated/image-1744800019053-f556d42e.png)
+**ステップ2**: **Actions**を選択し、**Add GPU**を選択します。
 
-3. リストから適切な **GPU type** を選択し、**Add GPU** をクリックします。
+![file](images/gpu-general/img-006.png)
 
-4. Instance Detail画面で情報を確認します。
+**ステップ3**: インスタンスに追加する**GPUタイプ**を選択します。
 
-   [![GPU追加後のInstance Detail](/img/migrated/image-1744800059691-eba5d618.png)](/img/migrated/image-1744800059691-eba5d618.png)
+  * システムは選択可能な互換性のある**GPUタイプ**の一覧を表示します。
 
-## インスタンスからのGPU削除
+    * **Current**: 現在のインスタンス設定
 
-:::note
-GPU削除前にインスタンスを **Power off** する必要があります。
+    * **Type**: GPUリソースタイプのみ選択可能（標準設定はリストに表示されません）
+
+
+**ステップ4**: **Add GPU**ボタンをクリックします。
+
+  * システムが情報を更新し、インスタンスにGPUを追加します。
+
+
+**ステップ5**: 情報を確認します。情報はInstance detail画面に更新されます。
+
+![file](images/gpu-general/img-007.png)
+
+## 3\. 仮想マシンからGPUを取り外す
+**ステップ1**: **Instance management**画面で、GPUを取り外したい仮想マシンを選択します。
+:::warning
+* GPUを取り外す前に、仮想マシンを**power off**する必要があります（ステータスが「Stopped」であること）。
 :::
 
-1. **Instance Management** でインスタンスを選択し、**Remove GPU** をクリックします。
-2. リストから通常の **resource type**（GPUなし）を選択します。
-3. **Remove GPU** をクリックします。システムがGPUを削除し、インスタンスを選択したリソースタイプに移行します。
+  * 「Running」や「Pending」などの他の状態にあるマシンでは、この機能は**無効**になります。
 
-## GPUのサイズ変更
 
-:::note
-サイズ変更前にインスタンスを **Power off** する必要があります。
+**ステップ2**: **Remove GPU**ボタンをクリックします。
+
+**ステップ3**: **リソースタイプ**を選択します：
+
+  * **Current**: 現在のGPUインスタンス設定
+
+  * **Type**: 標準リソースタイプのみ選択可能（GPU設定はリストに表示されません）
+
+
+**ステップ4**: **Remove GPU**ボタンをクリックします。
+
+**ステップ5**: システムはGPUを取り外し、インスタンスを選択したリソースタイプに変換します。インスタンスの新しい設定情報は**Instance management**画面に更新されます。
+
+## 4\. インスタンスのGPUパラメーターをリサイズする
+**ステップ1**: **Instance management**画面で、GPUをリサイズしたい仮想マシンを選択します。
+:::warning
+* GPUをリサイズする前に、仮想マシンを**power off**する必要があります（ステータスが「Stopped」であること）。
 :::
 
-1. **Instance Management** でインスタンスを選択し、**Resize** をクリックします。
-2. **template** と **resource type** を選択します：
-   - GPUありのインスタンスはGPUタイプにのみサイズ変更できます。
-   - GPUなしのインスタンスはGPUなしタイプにのみサイズ変更できます。GPUタイプに切り替えるには **Add GPU** を使用してください。
-3. **Resize Instance** をクリックします。
+  * 「Running」や「Pending」などの他の状態にあるマシンでは、この機能は**無効**になります。
 
-## 次のステップ
 
-- [Specificサービス向けGPU管理](./gpu-specific.md)
+**ステップ2**: **Resize**ボタンをクリックします。
+
+**ステップ3**: **テンプレート**と**リソースタイプ**を選択します（インスタンスがGPUインスタンスの場合はGPUタイプにのみリサイズ可能、標準インスタンスの場合は標準タイプにのみリサイズ可能です）。
+
+  * GPUを搭載したインスタンスは、GPUタイプにのみリサイズできます。
+
+  * GPUを搭載していないインスタンスは、非GPUタイプにのみリサイズできます。GPUタイプにリサイズしたい場合は、代わりにAdd GPU機能を使用してください。
+
+
+**ステップ4**: **Resize Instance**ボタンをクリックします。
+
+**ステップ5**: 情報を確認します。情報は**Instance Management**一覧画面および**Instance**詳細ページに更新されます。

@@ -1,25 +1,25 @@
 ---
 id: "add-instance-instance-group"
-title: "InstanceをInstance Groupに追加"
-description: "新しいInstanceを作成する際にInstance Groupに割り当てるガイド。"
-sidebar_label: "InstanceをInstance Groupに追加"
+title: "Gắn Instance vào Instance Group"
+description: "Hướng dẫn gắn máy ảo vào Instance Group khi tạo Instance mới."
+sidebar_label: "Gắn Instance vào Instance Group"
 sidebar_position: 4
 ---
 
-# InstanceをInstance Groupに追加
+# Gắn Instance vào Instance Group
 
-新しい仮想マシンを作成する際に、Affinity または Anti-Affinity ポリシーを適用するために Instance Group に割り当てることができます。
+Khi tạo máy ảo mới, bạn có thể gắn máy ảo vào một Instance Group để áp dụng chính sách Affinity hoặc Anti-Affinity.
 
 :::note
-各 Instance Group には最大10個の Instance を含めることができます。
+Mỗi Instance Group chứa tối đa 10 Instance.
 :::
 
-1. **Create Instance** 画面の **Instance Group** セクションで、Instance Group 名を選択します。
+1. Trên màn hình **Create Instance**, trong phần **Instance Group**, chọn tên Instance Group muốn gắn.
 
-   ![Instance作成時のInstance Group選択](/img/migrated/image-1705025405311-fa794fe3.png)
+   ![Chọn Instance Group khi tạo Instance](/img/migrated/image-1705025405311-fa794fe3.png)
 
-2. **Create Instance** をクリックします。
+2. Nhấn **Create Instance**.
 
-Instance Group の情報が **Instance Detail** ページに表示されます。
+Thông tin Instance Group hiển thị trên trang **Instance Detail**.
 
-![Instance GroupにInstanceが割り当て済み](/img/migrated/image-1705025498532-8edf7a7b.png)
+![Instance đã gắn vào Instance Group](/img/migrated/image-1705025498532-8edf7a7b.png)

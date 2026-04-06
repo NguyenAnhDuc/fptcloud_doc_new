@@ -1,33 +1,41 @@
 ---
 id: "FAQ"
-title: "よくある質問"
-description: "FortiGate（Firewall Fortinet）は Fortinet が提供する次世代マルチレイヤセキュリティデバイスです。"
-sidebar_label: "よくある質問"
+title: "FAQ"
+sidebar_label: "FAQ"
 sidebar_position: 11
-pagination_next: null
 ---
 
-# FAQ
+FAQ
 
-## Fortigate とは何ですか？
-FortiGate（Firewall Fortinet）は、Fortinet が提供する次世代マルチレイヤセキュリティデバイスです。Fortigate には、企業や組織のあらゆる規模において情報セキュリティとネットワークを包括的に保護するためのトップクラスの機能が統合されています。  
-Firewall Fortinet は、高速なセキュリティ保護、ウイルス防止、データセンターおよびネットワークシステムへの脅威のブロックをユーザーに提供します。Fortigate は Web フィルタリング機能も備えており、ネットワーク内のデバイス間でやり取りされるパケットを継続的に検査します。また、管理者が不正アクセスをリアルタイムで監視・検出・解決できるよう可視性をサポートしています。
 
-## なぜ FortiGate を使用すべきですか？
-通常のファイアウォールデバイスと比較した Fortigate 製品の優れた機能を確認し、「なぜ Fortigate を使用すべきか」という問いへの答えを見つけましょう。
-  * **包括的な可視性と保護：** FortiGate には、Ransomware・Command & Control のブロック、SSL テクノロジー（TLS 1.3 を含む）による安全な暗号化設定、脅威に対する自動保護などの機能が統合されています。
-  * **FortiGuard サポート：** Fortigate は FortiGuard をサポートしており、IPS、Web・動画フィルタリング、DNS セキュリティを統合して同時実行し、コスト削減とリスク管理を実現します。
-  * **Proxy 統合：** FortiGate は、Zero Trust Network Access（ZTNA）機能により、シームレスなユーザー体験と従業員デバイスの安全なセキュリティを提供します。
-  * **高度なセキュリティ：** 高度なセキュリティソリューションにより、不正アクセスの防止、アクセスの分離、明確なパケットフィルタリングを実現します。
-  * **自動化されたネットワーク管理：** ネットワークトラフィックの可視化、詳細かつ直感的なポリシー制御を通じて制御を維持し、セキュリティとネットワーク管理の拡張性を高めます。
+## 1\. FortiGateとは何ですか？
 
-## Firewall の設定をバックアップ・復元するにはどうすればよいですか？
-**FortiGate** は、設定のバックアップと復元をシンプルかつ便利に行える機能をサポートしています。  
-システムにログインし、**System configuration** を選択します。
-[![Userguide Fortigate FPT NGFW 2022 37](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)](/img/migrated/Userguide-Fortigate-FPT-NGFW-2022-37-34b5a5bf.png)
-現在のシステム設定を保存するには **Backup** を選択します。
-保存済みの設定を復元するには **Restore** ボタンをクリックします。設定ファイルの保存場所を Browse で選択し、**OK** を押します。復元完了後はシステムを再起動することを推奨します。
+FortiGate（Fortinet Firewall）は、Fortinetが提供する次世代多層セキュリティアプライアンスです。FortiGateは、あらゆる規模の企業・組織における情報セキュリティと内部ネットワークシステムの保護に対して包括的なソリューションを提供するために、トップクラスの機能を統合しています。
+Fortinet Firewallは、高速なセキュリティ機能、ウイルス防止、データセンターおよびネットワークシステムへの脅威をブロックする機能をユーザーに提供します。FortiGateはWebフィルタリングもサポートしており、ネットワーク内のデバイス間で交換されるパケットを継続的に検査し、管理者が不正な侵入を容易に監視、検出、迅速に対処できるよう可視性を提供します。
 
-## 設定・インストールガイドはどこで確認できますか？
-**Fortinet** のドキュメントライブラリページ（<https://docs.fortinet.com/>）にアクセスすると、Fortigate のその他のドキュメントを参照できます。  
-[参考ドキュメント](https://docs.fortinet.com/document/fortigate/7.0.6/administration-guide/954635)
+## 2\. なぜFortiGateを使用すべきなのですか？
+
+一般的なファイアウォールアプライアンスと比較したFortiGate製品の優れた機能を確認し、「なぜFortiGateを使用すべきなのか」という質問への答えを見つけましょう。
+
+  * **包括的な可視性と保護：** FortiGateは、ランサムウェアおよびCommand & Control防止、安全な暗号化のためのSSLテクノロジー（TLS 1.3を含む）、自動脅威保護などの機能を統合しています。
+  * **FortiGuardサポート：** FortiGateはFortiGuardによってサポートされており、IPS、Webおよびビデオフィルタリング、DNSセキュリティサービスを統合して同時に実行し、コストを削減してすべてのリスクを管理する機能を提供します。
+  * **プロキシ統合：** FortiGateは、Zero Trust Network Access（ZTNA）機能により、従業員のデバイスにシームレスなユーザーエクスペリエンスと安全な保護を提供します。
+  * **高度なセキュリティ：** 高度なセキュリティソリューションにより、不正アクセスの防止、アクセスのセグメント化、明確なパケットフィルタリングが可能です。
+  * **自動化されたネットワーク管理：** ネットワークトラフィックの可視性でコントロールを維持し、詳細かつ直感的なポリシー制御により、セキュリティとネットワーク管理能力の拡張を支援します。
+
+
+## 3\. Firewallの設定をバックアップおよびリストアするにはどうすればよいですか？
+
+**FortiGate**はシンプルで便利な設定のバックアップとリストアをサポートしています。
+システムにログインし、**System configuration**を選択します。
+
+![Userguide Fortigate FPT NGFW 2022 37](images/FAQ/img-001.png)
+
+現在のシステム設定を保存するには、**Backup**を選択します。
+
+保存済みの設定をリストアするには、**Restore**ボタンをクリックします。Browseをクリックして設定ファイルの保存場所に移動し、**OK**を押します。リストア後はシステムを再起動することをお勧めします。
+
+## 4\. 追加の設定ガイドはどこで確認できますか？
+
+<https://docs.fortinet.com/> にある**Fortinet**のDocuments Libraryにアクセスして、FortiGateの追加ドキュメントをご覧ください。
+[参考ドキュメント](<https://docs.fortinet.com/document/fortigate/7.0.6/administration-guide/954635>)

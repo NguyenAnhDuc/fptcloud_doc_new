@@ -1,39 +1,39 @@
 ---
 id: "faq"
-title: "Frequently asked questions (FAQs)"
-description: "Frequently asked questions about FPT Cloud Desktop"
-sidebar_label: "Frequently asked questions (FAQs)"
+title: "Câu hỏi thường gặp (FAQs)"
+description: "Các câu hỏi thường gặp về FPT Cloud Desktop"
+sidebar_label: "Câu hỏi thường gặp (FAQs)"
 sidebar_position: 12
 pagination_next: null
 ---
 
-# Frequently asked questions (FAQs)
+# Câu hỏi thường gặp (FAQs)
 
-#### Q: What is FCD?
+#### Q: FCD là gì?
 
-FCD stands for FPT Cloud Desktop, a cloud-based virtual desktop service developed by FPT Smart Cloud.
+FCD là viết tắt của FPT Cloud Desktop, dịch vụ ảo hóa máy tính trên Cloud do FPT Smart Cloud phát triển.
 
-#### Q: What devices can I use to connect to FCD?
+#### Q: Thiết bị kết nối phù hợp để sử dụng FCD là gì?
 
-Devices used to connect to the virtual desktop (Local Device) include:
+Thiết bị kết nối đến máy tính ảo (Local Device) bao gồm:
 
-- Desktop PC, laptop, ThinClient, or MiniPC
-- Smartphone for two-factor authentication
+- Máy tính bàn (PC), máy tính xách tay (Laptop) hoặc ThinClient, MiniPC
+- Điện thoại thông minh (Smartphone) để xác thực hai lớp
 
-All devices require an Internet or LAN connection.
+Các thiết bị trên cần có kết nối Internet hoặc mạng LAN.
 
-#### Q: Can I upgrade the configuration of my FCD virtual desktop?
+#### Q: Có thể nâng cấp cấu hình máy tính ảo FCD được không?
 
-Yes, depending on your organization's policy. Upgradeable configurations include: CPU cores, RAM (Memory), and disk storage capacity.
+Có thể, tuỳ theo chính sách của từng công ty. Cấu hình có thể nâng cấp bao gồm: Core CPU, RAM (Memory) và dung lượng ổ đĩa (Disk).
 
-#### Q: Can I install new applications on FCD?
+#### Q: Có thể cài đặt các ứng dụng mới vào FCD được không?
 
-If your organization's IT management has granted you Administrator rights on the virtual desktop, you can install applications beyond the default list. Without Administrator rights, contact your IT Admin for assistance.
+Nếu bạn được cấp quyền Quản trị viên của máy tính ảo (Administrator), bạn có thể cài đặt các ứng dụng ngoài danh sách mặc định. Nếu không có quyền Quản trị viên, bạn cần liên hệ IT Admin để được hỗ trợ.
 
-#### Q: Where is my data? How is it stored and for how long?
+#### Q: Tệp dữ liệu của tôi ở đâu? Chúng được lưu trữ như thế nào và trong bao lâu?
 
-Your data is stored securely in the FPT Cloud Desktop system. You can access your files in the Desktop and Documents folders within your chosen operating system. Your user account will be disabled and deleted according to your organization's policy when a virtual desktop reclaim request is approved.
+Dữ liệu của bạn được lưu trữ bảo mật tại hệ thống FPT Cloud Desktop. Bạn có thể truy cập các tệp trên thư mục Desktop và Documents trong hệ điều hành đã chọn. Tài khoản người dùng sẽ bị vô hiệu hóa và xóa theo quy định của tổ chức khi có yêu cầu thu hồi máy ảo được cấp phát cho bạn.
 
-#### Q: Can a single user log in from multiple devices at the same time?
+#### Q: Một người dùng có thể đăng nhập từ nhiều thiết bị cùng một lúc không?
 
-A single user can log in from multiple devices, but only one device can access the virtual desktop at any given time.
+Một người dùng có thể đăng nhập từ nhiều thiết bị, nhưng chỉ một thiết bị có thể truy cập máy ảo vào một thời điểm.

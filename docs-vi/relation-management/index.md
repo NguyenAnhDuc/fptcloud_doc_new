@@ -1,12 +1,12 @@
 ---
 id: "relation-management"
-title: "Relation Management"
+title: "Tổng quan Relation Management"
 description: "Relation Management"
-sidebar_label: "Relation Management"
+sidebar_label: "Tổng quan Relation Management"
 sidebar_position: 1
 ---
 
-# Relation management
+# Tổng quan Relation Management
 
   * [ ![](/img/migrated/settings-3-e684e7b5.png) Initial Setup ](javascript: "Initial Setup")
   * [ ![](/img/migrated/icon-networking-2-24c3615d.png) Hướng dẫn chi tiết (Tutorials) ](javascript: "Hướng dẫn chi tiết \(Tutorials\)")

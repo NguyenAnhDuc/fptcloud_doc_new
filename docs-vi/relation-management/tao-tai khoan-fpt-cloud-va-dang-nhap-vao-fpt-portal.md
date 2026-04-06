@@ -1,12 +1,12 @@
 ---
 id: "tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal"
-title: "Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal"
+title: "Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal"
 description: "Để bắt đầu sử dụng dịch vụ **Relation management** bạn cần đăng nhập vào **FPT Portal.**"
-sidebar_label: "Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal"
+sidebar_label: "Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal"
 sidebar_position: 3
 ---
 
-# Tao Tai Khoan Fpt Cloud Va Dang Nhap Vao Fpt Portal
+# Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal
 
 Để bắt đầu sử dụng dịch vụ **Relation management** bạn cần đăng nhập vào **FPT Portal.**
 Hãy truy cập vào **<https://console.fptcloud.com>** và đăng nhập bằng tài khoản/mật khẩu FPT Cloud đã được cấp. Chọn đúng **Tenant, Region, VPC** cần sử dụng dịch vụ. Nếu chưa có tài khoản FPT Cloud, bạn hãy truy cập trang chủ tại **[https://fptcloud.com](https://fptcloud.com/)**.

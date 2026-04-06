@@ -1,16 +1,32 @@
 ---
 id: "header-project"
-title: "Change the Header Interface"
-description: "Customize the header display to show Project information."
-sidebar_label: "Change Header Interface"
+title: "Header Project"
+sidebar_label: "Change header interface"
 sidebar_position: 85
-pagination_next: null
 ---
 
-# Change the Header Interface
+Change header interface
 
-Customize the FPT Cloud Portal header to display the active Project — making it easy to identify which Project context you are currently working in.
 
-:::tip
-Displaying the Project name in the header helps prevent accidentally creating resources in the wrong Project.
-:::
+Permission: Users who currently have access to a VPC will see the list containing that VPC.
+
+![file](images/header-project/img-001.png)
+
+### 1\. Hide username information — users can click the dropdown icon to view personal information
+![file](images/header-project/img-002.png)
+
+### 2\. Move the Tenant filter from the top-left to the top-right, next to the user's avatar.
+![file](images/header-project/img-003.png)
+
+![file](images/header-project/img-004.png)
+
+### 3\. Display the support menu as a list of icons — hovering over an icon will show its information
+![file](images/header-project/img-005.png)
+
+### 4\. Add Project filter
+  * By default, the system displays All projects
+
+  * Users can select a project to filter the VPCs listed below
+
+
+Note: The system does not display projects that have no VPCs in the header list

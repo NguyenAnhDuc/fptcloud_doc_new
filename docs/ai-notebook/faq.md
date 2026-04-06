@@ -1,24 +1,24 @@
 ---
 id: "faq"
-title: "FAQ"
-description: "Frequently asked questions about AI Notebooks on FPT AI Factory."
+title: "Câu hỏi thường gặp"
+description: "Các câu hỏi thường gặp về AI Notebooks trên FPT AI Factory."
 sidebar_label: "FAQ"
 sidebar_position: 8
 pagination_next: null
 ---
 
-# FAQ
+# Câu hỏi thường gặp
 
-## What are the idle rules in AI Notebook?
+## Quy tắc nhàn rỗi trong AI Notebook là gì?
 
-To help you save resources and avoid unexpected charges, AI Notebook automatically manages idle sessions. The following rules apply:
-  * **GPU kernel idle timeout:** A GPU kernel is considered idle after 30 minutes of no activity (no code execution). When this happens, the kernel will be automatically disconnected.
-  * **Lab idle timeout:** The lab environment is considered idle after 1 hour of no user interaction (no typing, clicking, or switching tabs). Once idle, the lab will be automatically deleted to free up resources.
-  * **Data safety:** If your lab is deleted due to idleness, all saved files remain securely stored in persistent storage and can be accessed later. Remember to **save your files** before closing the browser to ensure that no unsaved work is lost.
+Để giúp bạn tiết kiệm tài nguyên và tránh chi phí phát sinh ngoài ý muốn, AI Notebook tự động quản lý các phiên nhàn rỗi. Các quy tắc sau áp dụng:
+  * **Timeout GPU kernel nhàn rỗi:** GPU kernel được coi là nhàn rỗi sau 30 phút không có hoạt động (không có lệnh nào được thực thi). Khi điều này xảy ra, kernel sẽ tự động bị ngắt kết nối.
+  * **Timeout lab nhàn rỗi:** Môi trường lab được coi là nhàn rỗi sau 1 giờ không có tương tác của người dùng (không gõ phím, không nhấp chuột, không chuyển tab). Sau khi nhàn rỗi, lab sẽ tự động bị xóa để giải phóng tài nguyên.
+  * **An toàn dữ liệu:** Nếu lab của bạn bị xóa do nhàn rỗi, tất cả file đã lưu vẫn được bảo quản an toàn trong bộ nhớ lưu trữ bền vững và có thể truy cập sau. Hãy **lưu file** trước khi đóng trình duyệt để đảm bảo không mất dữ liệu chưa lưu.
 
-## How long does it take to start CPU and GPU flavors?
+## Thời gian khởi động CPU và GPU flavor là bao lâu?
 
-  * **GPU flavor:** Startup typically takes **45 seconds to 1 minute**.
-  * **CPU flavor:** Startup typically takes **around 15 seconds**.
+  * **GPU flavor:** Thường mất **45 giây đến 1 phút** để khởi động.
+  * **CPU flavor:** Thường mất **khoảng 15 giây** để khởi động.
 
-_Actual startup time may vary depending on system load and network conditions._
+_Thời gian khởi động thực tế có thể thay đổi tùy theo tải hệ thống và điều kiện mạng._

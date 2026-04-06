@@ -1,58 +1,61 @@
 ---
 id: "gpu-specific"
-title: "Managing GPU for Specific Service"
-description: "Add GPU, create new GPU Servers, and remove GPU for the Specific service type on FPT Cloud."
-sidebar_label: "Managing GPU for Specific Service"
+title: "GPU Specific"
+sidebar_label: "GPU Management for Specific Service"
 sidebar_position: 22
-pagination_next: null
 ---
 
-# Managing GPU for Specific Service
+GPU Management with Console Portal for the Specific Service Type
 
-This guide covers GPU management for the Specific service type — including adding GPU to existing instances, creating new GPU Servers, and removing GPU.
 
-## Add GPU to an Existing Instance
+## 1. Add a GPU to an Existing Virtual Machine
+To attach an additional GPU to a previously created virtual machine, follow these steps:
 
-:::note
-You must **Power off** the instance before adding GPU. Minimum configuration: 8 vCPU – 24 GB RAM.
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section, select **Add GPU.**
+
+![file](images/gpu-specific/img-001.png)
+
+
+:::warning
+Shut down the server before adding a GPU card to the machine.
 :::
 
-1. In **Instance Management**, select **Actions** → **Add GPU**.
 
-   [![Actions menu with Add GPU option](/img/migrated/image-1705028237983-e4b7aeed.png)](/img/migrated/image-1705028237983-e4b7aeed.png)
+**Step 2**: Select the **GPU** configuration from the corresponding list and click **Update**.
 
-2. Select the **GPU** configuration from the list, then click **Update**.
+The virtual machine must meet a minimum configuration of 8 vCPU – 24 GB RAM to use this feature.
 
-## Create a New GPU Server
+## 2. Create a New GPU Virtual Machine
+  * Users need to be allocated GPU quota to perform this action. When the VPC has run out of GPU usage quota, users will receive an error notification when creating a new GPU Server.
 
-:::note
-- GPU quota must be provisioned for your account. If the VPC has no remaining quota, the system returns an error when creating a new GPU Server.
-- Minimum configuration: 8 vCPU – 24 GB RAM.
-:::
+  * After creation, the system will immediately add the GPU to the virtual machine. Users can access the virtual machine console to verify the GPU information.
 
-1. Select **Compute Engine** → **Instance Management**, then click **Create instance**.
+  * The minimum configuration to create a GPU Server is 8 vCPU – 24 GB RAM.
 
-   [![Instance Management screen](/img/migrated/image-1712739862804-d5b7552c.png)](/img/migrated/image-1712739862804-d5b7552c.png)
 
-2. Configure the instance:
-   - **Instance Type**: Select **GPU**.
-   - **GPU type**: Choose the appropriate GPU type.
-   - **Image**: Choose the appropriate OS.
-   - **Resource type**: Select a configuration from the list.
-   - **Local Storage**: Adjust disk size (minimum 40 GB).
-   - **Subnet** and **Private IP**: Auto-assign or customize.
-   - **Instance name**: Enter the instance name.
-   - **Authentication type**: Standard (Password) or SSH Key.
+**Step 1**: In the menu, select **Compute Engine** > **Instance Management**, then click **Create instance**.
 
-3. Click **Create Instance**.
+![file](images/gpu-specific/img-002.png)
 
-After creation, the system immediately attaches GPU to the instance. You can open the console to verify the GPU information.
+**Step 2**: Configure the virtual machine according to your needs with the following options:
 
-## Remove GPU from an Instance
+  * **Instance Type**: Select GPU.
+  * **GPU type:** Select the appropriate GPU type from the list.
+  * **Image:** Select the main OS that suits your needs. Each OS group includes different versions. The default is the latest version.
+  * **Resource type**: Select the appropriate configuration for the virtual machine from the list.
+  * **Local Storage**: Add a disk to the machine, increase or decrease capacity, or use the default capacity (minimum 40 GB).
+  * **Subnet & Private IP**: Auto-assign Subnet and private IP based on the VPC network. Users can change this if desired.
+  * **Instance name**: Enter the virtual machine name for easy management. This will also be the hostname of the virtual machine.
+  * **Authentication type**: Standard (Username/Password) or SSH key. If SSH Key is selected, the system will use the most recent SSH key (can be changed). If using the Standard method, users should remember and keep the password secure.
 
-1. In **Instance Management**, select **Actions** → **Remove GPU**.
-2. Verify the details and click **Update**.
 
-## Next Steps
+**Step 3**: Click **Create Instance** to create the virtual machine. The system will display a confirmation, verify resources, and proceed with the initialization of the new virtual machine based on the selected configuration.
 
-- [Managing GPU Server with HPC Portal](./quan-ly-gpu-voi-hpc-portal.md)
+After successful initialization, users can see the newly created virtual machine and check its information on the management dashboard. Each virtual machine will display complete information about its name, configuration (RAM, CPU, GPU, Storage), IP address, and operating status (Off/On/Suspended) on the panel.
+
+## 3. Remove a GPU from a Virtual Machine
+If you have previously attached a **GPU** to a virtual machine and no longer need it, you can remove the **GPU** with the following steps:
+
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section for the virtual machine from which you want to remove the **GPU**, select **Remove GPU**.
+
+**Step 2:** Confirm the **GPU** removal information and click **Update.**

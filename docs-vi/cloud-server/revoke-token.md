@@ -1,12 +1,12 @@
 ---
 id: "revoke-token"
-title: "Revoke Token"
+title: "Thu hồi token"
 description: "Thu hồi Token đã tạo khi không còn cần sử dụng."
-sidebar_label: "Revoke Token"
+sidebar_label: "Thu hồi token"
 sidebar_position: 44
 ---
 
-# Revoke Token
+# Thu hồi token
 
 Khi Token không còn cần sử dụng hoặc nghi ngờ bị lộ, bạn nên revoke ngay để đảm bảo bảo mật.
 

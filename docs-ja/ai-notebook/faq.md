@@ -1,24 +1,24 @@
 ---
 id: "faq"
-title: "よくある質問"
-description: "FPT AI NotebookについてのFAQ（よくある質問）。"
-sidebar_label: "よくある質問"
-sidebar_position: "8"
+title: "Câu hỏi thường gặp"
+description: "Các câu hỏi thường gặp về AI Notebooks trên FPT AI Factory."
+sidebar_label: "FAQ"
+sidebar_position: 8
+pagination_next: null
 ---
 
-# よくある質問
+# Câu hỏi thường gặp
 
-## AI Notebookのアイドル状態に関するルールは何ですか？
+## Quy tắc nhàn rỗi trong AI Notebook là gì?
 
-リソースの節約と予期せぬ課金回避のため、AI Notebookはアイドル状態のセッションを自動的に管理します。以下のルールが適用されます:
+Để giúp bạn tiết kiệm tài nguyên và tránh chi phí phát sinh ngoài ý muốn, AI Notebook tự động quản lý các phiên nhàn rỗi. Các quy tắc sau áp dụng:
+  * **Timeout GPU kernel nhàn rỗi:** GPU kernel được coi là nhàn rỗi sau 30 phút không có hoạt động (không có lệnh nào được thực thi). Khi điều này xảy ra, kernel sẽ tự động bị ngắt kết nối.
+  * **Timeout lab nhàn rỗi:** Môi trường lab được coi là nhàn rỗi sau 1 giờ không có tương tác của người dùng (không gõ phím, không nhấp chuột, không chuyển tab). Sau khi nhàn rỗi, lab sẽ tự động bị xóa để giải phóng tài nguyên.
+  * **An toàn dữ liệu:** Nếu lab của bạn bị xóa do nhàn rỗi, tất cả file đã lưu vẫn được bảo quản an toàn trong bộ nhớ lưu trữ bền vững và có thể truy cập sau. Hãy **lưu file** trước khi đóng trình duyệt để đảm bảo không mất dữ liệu chưa lưu.
 
-- **GPUカーネルアイドルタイムアウト:** GPUカーネルは、30分間操作がない（コード実行がない）状態が続くとアイドル状態と見なされます。この場合、カーネルは自動的に切断されます。
-- **ラボのアイドルタイムアウト:** ラボ環境は、ユーザー操作（入力、クリック、タブ切り替え）が1時間ない場合にアイドル状態と見なされます。アイドル状態になると、ラボはリソースを解放するために自動的に削除されます。
-- **データ保護:** アイドル状態によるラボ削除時、保存済みファイルは永続ストレージに安全に保管され、後からアクセス可能です。ブラウザを閉じる前に必ず**ファイルを保存**して、未保存の作業が失われないようにしてください。
+## Thời gian khởi động CPU và GPU flavor là bao lâu?
 
-## CPUおよびGPUフレーバーの起動にはどのくらい時間がかかりますか？
+  * **GPU flavor:** Thường mất **45 giây đến 1 phút** để khởi động.
+  * **CPU flavor:** Thường mất **khoảng 15 giây** để khởi động.
 
-- **GPUフレーバー:** 起動には通常**45秒から1分**かかります。
-- **CPUフレーバー:** 起動には通常**約15秒**かかります。
-
-_実際の起動時間は、システムの負荷やネットワーク状況によって異なる場合があります。_
+_Thời gian khởi động thực tế có thể thay đổi tùy theo tải hệ thống và điều kiện mạng._

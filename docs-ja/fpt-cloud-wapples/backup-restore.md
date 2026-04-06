@@ -1,11 +1,12 @@
 ---
 id: "backup-restore"
-title: "Backup Restore"
-sidebar_label: "Backup Restore"
+title: Backup và Restore
+description: ""
+sidebar_label: Backup và Restore
 sidebar_position: "40"
 ---
 
-# Backup Restore
+# Backup và Restore
 
   * [ ![](/img/migrated/dashboard-12e0b64f.png) Dashboard ](javascript: "Dashboard")
   * [ ![](/img/migrated/DataAnalysis-4a97fa5c.png) Data Analysis ](javascript: "Data Analysis")
@@ -23,5 +24,5 @@ Backup/Restore
   * [ ](https://twitter.com/share?text=&url=https%3A%2F%2Ffptcloud.com%2Fdocuments%2Ffpt-cloud-wapples%2F "FPT Cloud WAPPLES")
 
 * * *
-Chạy backup khôi phục phần mềm
+Chạy backup restore phần mềm
 [![file](/img/migrated/image-1714117156958-01924c49.png)](/img/migrated/image-1714117156958-01924c49.png)

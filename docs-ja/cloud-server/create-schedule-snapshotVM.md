@@ -1,33 +1,38 @@
 ---
 id: "create-schedule-snapshotVM"
-title: "インスタンスSnapshotスケジュールの作成"
-description: "DailyまたはWeeklyの頻度でインスタンスの自動Snapshotスケジュールを作成します。"
-sidebar_label: "インスタンスSnapshotスケジュールの作成"
+title: "Create Schedule Snapshotvm"
+sidebar_label: "仮想マシンSnapshotスケジュールの作成"
 sidebar_position: 96
 ---
 
-# インスタンスSnapshotスケジュールの作成
+仮想マシンSnapshotスケジュールの作成
 
-## スケジュールの作成
 
-1. **Compute Engine** → **Schedule Management** に移動し、**Instance snapshot schedule** タブを選択します。
+新しい仮想マシンSnapshotスケジュールを作成するには、以下の手順に従ってください。
 
-   [![Instance snapshot scheduleタブ](/img/migrated/image-1766044251626-e224453b.png)](/img/migrated/image-1766044251626-e224453b.png)
+**ステップ1：** メニューでCompute Engine > Schedule Managementを選択し、「Instance snapshot schedule」タブを選択します。
 
-2. 必要な情報を入力します：
-   - **Name**：スケジュール名。
-   - **Time**：時刻を選択します（現在時刻から少なくとも2時間後）。
-   - **Start date** *（任意）*：開始日。
-   - **End date** *（任意）*：終了日。
-   - **Frequency**：Daily（毎日）またはWeekly（曜日を選択）。
-   - **Applied Instance**：スケジュールにアタッチするインスタンス。
+![file](images/create-schedule-snapshotVM/img-001.png)
 
-   [![Create Scheduleダイアログ](/img/migrated/image-1766044359045-49bb8a07.png)](/img/migrated/image-1766044359045-49bb8a07.png)
+**ステップ2：** システムの要求に従って必要な情報を入力します：
 
-:::note
-各インスタンスは同時に1つのSnapshotスケジュールにのみアタッチできます。
-:::
+  * Name：スケジュール名
 
-3. **Create Schedule** をクリックします。
+  * Time：スケジュールが正確に実行されるよう、編集時点から少なくとも2時間後の時刻のみ選択できます
 
-   [![作成されたスケジュール](/img/migrated/image-1766044391396-79f5a3e3.png)](/img/migrated/image-1766044391396-79f5a3e3.png)
+  * Start date：Snapshotスケジュールが繰り返し開始される日付。空白の場合は、スケジュールが正常に作成された時点から開始されます
+
+  * End date：Snapshotスケジュールが終了する日付。空白の場合は、スケジュールに有効期限はありません
+
+  * Frequency：Snapshot操作が実行される頻度
+
+  *     * Daily：毎日時間単位で実行されるスケジュール
+  *     * Weekly：週単位で実行されるスケジュール。曜日を選択できます
+  * Applied Instance：スケジュールに割り当てられた仮想マシン（注意：各仮想マシンは同時に1つのスケジュールにのみ割り当てることができます）
+
+
+![file](images/create-schedule-snapshotVM/img-002.png)
+
+**ステップ3：** 「Create Schedule」をクリックします。システムはスケジュールの初期化を開始し、結果をお知らせします。成功した場合、新しいスケジュールはInstance snapshot scheduleページに表示されます。
+
+![file](images/create-schedule-snapshotVM/img-003.png)

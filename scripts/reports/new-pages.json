@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "%20choose-the-form-of-PAYG-and-verify-the-phon-%20number",
+    "module": "FPT Cloud Portal – Pay As You Go",
+    "module_slug": "fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go",
+    "id": "%20choose-the-form-of-PAYG-and-verify-the-phon-%20number",
+    "title": " Choose The Form Of Payg And Verify The Phon  Number",
+    "file": "docs-vi/fpt-cloud-portal-pay-as-you-gofpt-cloud-portal-pay-as-you-go/%20choose-the-form-of-PAYG-and-verify-the-phon-%20number.md"
+  },
+  {
+    "slug": "SSO-qua-FCDClient-moi",
+    "module": "FPT Cloud Desktop",
+    "module_slug": "fpt-cloud-desktop",
+    "id": "SSO-qua-FCDClient-moi",
+    "title": "Bước 1: Cài đặt FCDClient mới",
+    "file": "docs-vi/fpt-cloud-desktop/SSO-qua-FCDClient-moi.md"
+  },
+  {
+    "slug": "SSO-qua-web-browser",
+    "module": "FPT Cloud Desktop",
+    "module_slug": "fpt-cloud-desktop",
+    "id": "SSO-qua-web-browser",
+    "title": "Sso Qua Web Browser",
+    "file": "docs-vi/fpt-cloud-desktop/SSO-qua-web-browser.md"
+  },
+  {
+    "slug": "accountpassword-qua-web-browser",
+    "module": "FPT Cloud Desktop",
+    "module_slug": "fpt-cloud-desktop",
+    "id": "accountpassword-qua-web-browser",
+    "title": "Accountpassword Qua Web Browser",
+    "file": "docs-vi/fpt-cloud-desktop/accountpassword-qua-web-browser.md"
+  },
+  {
+    "slug": "add-data-tab",
+    "module": "FPT Cloud Monitoring",
+    "module_slug": "fpt-cloud-monitoring",
+    "id": "add-data-tab",
+    "title": "Add Data Tab",
+    "file": "docs-vi/fpt-cloud-monitoring/add-data-tab.md"
+  },
+  {
+    "slug": "attach-policy-vao-group",
+    "module": "FPT Autoscale",
+    "module_slug": "fpt-autoscale",
+    "id": "attach-policy-vao-group",
+    "title": "Attach Policy Vao Group",
+    "file": "docs-vi/fpt-autoscale/attach-policy-vao-group.md"
+  },
+  {
+    "slug": "common-config",
+    "module": "VPN Site-to-Site",
+    "module_slug": "vpn-site-to-site",
+    "id": "common-config",
+    "title": "Common Config",
+    "file": "docs-vi/vpn-site-to-site/common-config.md"
+  },
+  {
+    "slug": "create-ip-",
+    "module": "IAM",
+    "module_slug": "iam",
+    "id": "create-ip-",
+    "title": "Create Ip ",
+    "file": "docs-vi/iam/create-ip-.md"
+  },
+  {
+    "slug": "dang-nhap-waf-dashboard",
+    "module": "FPT Cloud WAF",
+    "module_slug": "fpt-cloud-waf",
+    "id": "dang-nhap-waf-dashboard",
+    "title": "Dang Nhap Waf Dashboard",
+    "file": "docs-vi/fpt-cloud-waf/dang-nhap-waf-dashboard.md"
+  },
+  {
+    "slug": "detach-policy-khoi-group",
+    "module": "FPT Autoscale",
+    "module_slug": "fpt-autoscale",
+    "id": "detach-policy-khoi-group",
+    "title": "Detach Policy Khoi Group",
+    "file": "docs-vi/fpt-autoscale/detach-policy-khoi-group.md"
+  },
+  {
+    "slug": "global-search-phase-1",
+    "module": "Global Search",
+    "module_slug": "global-search",
+    "id": "global-search-phase-1",
+    "title": "Global Search Phase 1",
+    "file": "docs-vi/global-search/global-search-phase-1.md"
+  },
+  {
+    "slug": "overview-fcd",
+    "module": "FPT Cloud Desktop",
+    "module_slug": "fpt-cloud-desktop",
+    "id": "overview-fcd",
+    "title": "Overview Fcd",
+    "file": "docs-vi/fpt-cloud-desktop/overview-fcd.md"
+  },
+  {
+    "slug": "ssl-load-balancer",
+    "module": "Load Balancer",
+    "module_slug": "load-balancer",
+    "id": "ssl-load-balancer",
+    "title": "Ssl Load Balancer",
+    "file": "docs-vi/load-balancer/ssl-load-balancer.md"
+  },
+  {
+    "slug": "them-moi-may-chu-waf",
+    "module": "FPT Cloud WAF",
+    "module_slug": "fpt-cloud-waf",
+    "id": "them-moi-may-chu-waf",
+    "title": "Them Moi May Chu Waf",
+    "file": "docs-vi/fpt-cloud-waf/them-moi-may-chu-waf.md"
+  },
+  {
+    "slug": "tutorials-xem-va-cap-nhat-gia-tri-secret",
+    "module": "FPT Key Vault",
+    "module_slug": "fpt-key-vault",
+    "id": "tutorials-xem-va-cap-nhat-gia-tri-secret",
+    "title": "Tutorials Xem Va Cap Nhat Gia Tri Secret",
+    "file": "docs-vi/fpt-key-vault/tutorials-xem-va-cap-nhat-gia-tri-secret.md"
+  },
+  {
+    "slug": "tutorials-xoa-may-ao",
+    "module": "Cloud Server",
+    "module_slug": "cloud-server",
+    "id": "tutorials-xoa-may-ao",
+    "title": "Tutorials Xoa May Ao",
+    "file": "docs-vi/cloud-server/tutorials-xoa-may-ao.md"
+  },
+  {
+    "slug": "user-guide-tab",
+    "module": "FPT Cloud Monitoring",
+    "module_slug": "fpt-cloud-monitoring",
+    "id": "user-guide-tab",
+    "title": "User Guide Tab",
+    "file": "docs-vi/fpt-cloud-monitoring/user-guide-tab.md"
+  },
+  {
+    "slug": "xem%20danh%20sach%20user%20group",
+    "module": "IAM",
+    "module_slug": "iam",
+    "id": "xem%20danh%20sach%20user%20group",
+    "title": "Xem Danh Sach User Group",
+    "file": "docs-vi/iam/xem%20danh%20sach%20user%20group.md"
+  },
+  {
+    "slug": "xem-th%C3%B4ng-tin-snapshot",
+    "module": "FPT Data Platform",
+    "module_slug": "fpt-data-platform",
+    "id": "xem-th%C3%B4ng-tin-snapshot",
+    "title": "Xem Thông Tin Snapshot",
+    "file": "docs-vi/fpt-data-platform/xem-th%C3%B4ng-tin-snapshot.md"
+  }
+]

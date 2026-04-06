@@ -1,139 +1,133 @@
 ---
 id: "tutorials-backup-may-chu-voi-snapshot"
-title: "Snapshotによるバックアップ"
-description: "FPT Cloud Serverで仮想マシンとStorage DiskのSnapshotを作成、管理、復元する方法。"
-sidebar_label: "Snapshotによるバックアップ"
+title: "Snapshot でサーバーをバックアップする"
+sidebar_label: "Snapshot でサーバーをバックアップする"
 sidebar_position: 18
 ---
 
-# Snapshotによるバックアップ
+Snapshot でサーバーをバックアップする
 
-Snapshotは特定の時点での仮想マシンの状態を素早く記録します — 障害やデータ損失が発生した際にシステムを復元するのに役立ちます。
 
-:::tip
-複数の時点で定期的に保存する必要がある場合は、FPT Backupサービスをご検討ください。
-:::
+**Snapshot** とは、特定の時点での仮想マシンの現在の状態をキャプチャするアクションで、その時点でのシステム全体のコンテンツを含むコピーを生成します。
 
-## 仮想マシンのSnapshot
+複数の時点での定期的なストレージが必要な場合は、FPT Backupサービスをご参照ください。
 
-### Snapshotの作成
+ユーザーはシステムが最も安定して動作している時点を選んで **Snapshot** を作成できます。その後、システム内のソフトウェアに回復不能な障害が発生したり、重要なデータが誤って削除されたりした場合でも、Snapshotを作成した時点に仮想マシンを復元するだけで問題を解決できます。
 
-1. **Instance Management** で **Actions** → **Snapshot** → **Create snapshot** を選択します。
+## 仮想マシンからの Snapshot の初期化と管理
+### 1. Snapshot を作成する
+**ステップ 1**: メニューで **Instance Management** を選択します。Snapshotを作成する仮想マシンの **Actions** セクションで、**Snapshot** > **Create snapshot** を選択します。
 
-   [![Create snapshotオプションのあるActionsメニュー](/img/migrated/image-1712656669900-805aff75.png)](/img/migrated/image-1712656669900-805aff75.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-001.png)
 
-2. **Create instance snapshot** ダイアログが表示されます。**Create snapshot** をクリックします。
+**ステップ 2**: **Create snapshot** をクリックして **Create instance snapshot** モーダルを表示します。
 
-   [![Create instance snapshotダイアログ](/img/migrated/image-1734595203830-4982aec6.png)](/img/migrated/image-1734595203830-4982aec6.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-002.png)
 
-Snapshotが **Snapshots** 画面に表示されます。
+**ステップ 3**: **Create snapshot** をクリックしてSnapshotを作成します。Snapshot作成を確認後、システムはリソースを確認し、Snapshotイメージを作成して処理結果を報告します。
 
-[![作成されたSnapshot](/img/migrated/image-1734595376651-974ca75e.png)](/img/migrated/image-1734595376651-974ca75e.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-003.png)
 
-### SnapshotからInstanceを作成
+### 2. Snapshot から仮想マシンを起動する
+**ステップ 1**: メニューで **Snapshot** を選択します。Snapshotの **Actions** セクションで **Launch as Instance** を選択します。
 
-1. **Snapshot** で **Actions** → **Launch as Instance** を選択します。
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-004.png)
 
-   [![Launch as InstanceオプションのあるActionsメニュー](/img/migrated/image-1734595412087-f0bc6c13.png)](/img/migrated/image-1734595412087-f0bc6c13.png)
+**ステップ 2**: Snapshotから **Create instance** モーダルが表示されます。
 
-2. SnapshotからのInstanceを作成する **Create instance** ダイアログが表示されます。設定を行い **Create** をクリックします。
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-005.png)
 
-   [![SnapshotからのCreate instanceダイアログ](/img/migrated/image-1712653436496-23f6c725.png)](/img/migrated/image-1712653436496-23f6c725.png)
+**ステップ 3**: Snapshotから仮想マシンが正常に作成されます。システムは **Instance Management** 画面に仮想マシンを表示します。
 
-新しい仮想マシンが **Instance Management** に表示されます。
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-006.png)
 
-[![Snapshotから作成された仮想マシン](/img/migrated/image-1734595491154-0444976f.png)](/img/migrated/image-1734595491154-0444976f.png)
+### 3. 作成した Snapshot を削除する
+**ステップ 1**: メニューで **Snapshot** を選択します。Snapshotの **Actions** セクションで **Delete Image** を選択します。
 
-### Snapshotの削除
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-007.png)
 
-1. **Snapshot** で **Actions** → **Delete Image** を選択します。
+**ステップ 2**: **Delete snapshot** をクリックします。
 
-   [![Delete ImageオプションのあるActionsメニュー](/img/migrated/image-1734595518655-0f965a42.png)](/img/migrated/image-1734595518655-0f965a42.png)
+削除を確認後、システムはイメージを削除してSnapshotリソースをVPCに返却します。Snapshotの削除が完了するとユーザーに通知されます。
 
-2. **Delete snapshot** をクリックして確認します。仮想マシンに接続されたストレージディスクのSnapshotも削除する場合は **Delete all volume snapshots attached to this image** にチェックを入れます。
+「_Delete all volume snapshots attached to this image_」チェックボックスをオンにした場合、その仮想マシンにアタッチされたStorage Diskから作成されたSnapshotも削除されます。
 
-   [![Snapshot削除確認ダイアログ](/img/migrated/image-1712653461557-c3a5551d.png)](/img/migrated/image-1712653461557-c3a5551d.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-008.png)
 
-## Storage DiskのSnapshot
+## Storage Disk からの Snapshot の初期化と管理
+### 1. Snapshot を作成する
+**ステップ 1**: メニューで **Storage Disk** を選択します。Snapshotを作成する仮想マシンの **Actions** セクションで、**Snapshot** > **Create volume snapshot** を選択します。
 
-### Snapshotの作成
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-009.png)
 
-1. **Storage Disk** で **Actions** → **Snapshot** → **Create volume snapshot** を選択します。
+**ステップ 2**: **Create volume snapshot** をクリックして作成します。
 
-   [![Create volume snapshotオプションのあるActionsメニュー](/img/migrated/image-1734595578696-e2a9d562.png)](/img/migrated/image-1734595578696-e2a9d562.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-010.png)
 
-2. **Create volume snapshot** をクリックします。
+**ステップ 3**: Snapshotが正常に作成され、**Storage snapshot** セクションの **Snapshots** 画面に表示されます。
 
-   [![Create volume snapshotダイアログ](/img/migrated/image-1744797304260-c56185cf.png)](/img/migrated/image-1744797304260-c56185cf.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-011.png)
 
-Snapshotが **Snapshots** の **Storage snapshot** セクションに表示されます。
+### 2. 既存の Snapshot から Storage Disk を作成する
+**ステップ 1**: メニューで **Snapshot** を選択します。Snapshotの **Actions** セクションで **Create storage disk** を選択します。
 
-[![作成されたStorage snapshot](/img/migrated/image-1734595691770-9cda8337.png)](/img/migrated/image-1734595691770-9cda8337.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-012.png)
 
-### SnapshotからStorage Diskを作成
+**ステップ 2**: **Create storage disk** をクリックして作成します。
 
-1. **Snapshot** で **Actions** → **Create storage disk** を選択します。
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-013.png)
 
-   [![Create storage diskオプションのあるActionsメニュー](/img/migrated/image-1734595729279-9bdc6a8e.png)](/img/migrated/image-1734595729279-9bdc6a8e.png)
+### 3. Storage Disk から作成した Snapshot を削除する
+**ステップ 1**: メニューで **Snapshot** を選択します。Snapshotの **Actions** セクションで **Delete Snapshot** を選択します。
 
-2. **Create storage disk** をクリックします。
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-014.png)
 
-   [![Create storage diskダイアログ](/img/migrated/image-1712653495975-03166cff.png)](/img/migrated/image-1712653495975-03166cff.png)
+**ステップ 2**: **Delete snapshot** をクリックして削除を進めます。
 
-### Storage DiskのSnapshotの削除
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-015.png)
 
-1. **Snapshot** で **Actions** → **Delete Snapshot** を選択します。
+## Specific サービスタイプの Snapshot の初期化と管理
+### 1. 仮想マシンの Snapshot を作成する
+**ステップ 1**: メニューで **Instance Management** を選択します。Snapshotを作成する仮想マシンの **Actions** セクションで **Create snapshot** を選択します。
 
-   [![Delete SnapshotオプションのあるActionsメニュー](/img/migrated/image-1734595780158-c6454938.png)](/img/migrated/image-1734595780158-c6454938.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-016.png)
 
-2. **Delete snapshot** をクリックします。
+**ステップ 2**: 確認ポップアップで **Create** をクリックしてSnapshot作成を進めます。
 
-   [![Storage snapshot削除確認ダイアログ](/img/migrated/image-1712653549274-050d524e.png)](/img/migrated/image-1712653549274-050d524e.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-017.png)
 
-## SpecificサービスのSnapshot
+Snapshot作成を確認後、システムはリソースを確認し、Snapshotイメージを作成して処理結果を報告します。
 
-### Snapshotの作成
+Snapshotの作成には平均約30分かかります。マシンタイプと仮想マシン上の現在のデータによって異なります。Snapshot作成が完了するとユーザーに通知されます。
 
-1. **Instance Management** で **Actions** → **Create snapshot** を選択します。
+注意: 各Instanceには1つのSnapshotを作成して保存できます。最新のSnapshotはそのInstanceの以前のSnapshotを上書きします。
 
-   [![Create snapshot（Specific）オプションのあるActionsメニュー](/img/migrated/image-1734595898541-1f53740c.png)](/img/migrated/image-1734595898541-1f53740c.png)
+### 2. Snapshot から仮想マシンを復元する
+注意: この操作は、Snapshotが正常に作成されたInstanceにのみ適用できます。作業前に対象のInstanceにSnapshotがあることを確認してください。
 
-2. **Create** をクリックして確認します。
+**ステップ 1**: メニューで **Instance Management** を選択します。復元する仮想マシンの **Actions** セクションで **Restore snapshot** を選択します。
 
-   [![Snapshot作成確認ダイアログ](/img/migrated/image-1712818258855-797847d8.png)](/img/migrated/image-1712818258855-797847d8.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-018.png)
 
-:::note
-各Instanceに保存できるSnapshotは1つのみです。新しいSnapshotは古いSnapshotを上書きします。作成には機種やデータ量に応じて約30分かかります。
-:::
+**ステップ 2**: 確認ポップアップで **Restore instance** をクリックして復元を進めます。
 
-### SnapshotからInstanceを復元
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-019.png)
 
-1. **Instance Management** で **Actions** → **Restore snapshot** を選択します。
+復元を確認後、システムはSnapshotデータを確認してから仮想マシンを復元します。仮想マシンの復元には平均約30分かかります。マシンタイプと現在のデータによって異なります。このプロセス中、仮想マシンがシャットダウンされる場合があり、復元が完了するまでユーザーは操作できません。
 
-   [![Restore snapshotオプションのあるActionsメニュー](/img/migrated/image-1734596025787-1725e2ff.png)](/img/migrated/image-1734596025787-1725e2ff.png)
+復元プロセスが完了し仮想マシンが再起動されるとユーザーに通知されます。
 
-2. **Restore instance** をクリックして確認します。
+### 3. Instance Snapshot を削除する
+注意: この操作は、Snapshotが正常に作成されたInstanceにのみ適用できます。作業前に対象のInstanceにSnapshotがあることを確認してください。削除されたSnapshotは復元できません。
 
-   [![復元確認ダイアログ](/img/migrated/image-1712818286728-db082ce3.png)](/img/migrated/image-1712818286728-db082ce3.png)
+この操作を実行する際は十分に注意してください。
 
-:::warning
-復元中（約30分）は仮想マシンが一時停止することがあり、完了するまで操作できない場合があります。
-:::
+**ステップ 1**: メニューで **Instance Management** を選択します。イメージを削除する仮想マシンの **Actions** セクションで **Delete snapshot** を選択します。
 
-### Snapshotの削除（Specific）
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-020.png)
 
-1. **Instance Management** で **Actions** → **Delete snapshot** を選択します。
+**ステップ 2:** **Delete snapshot** をクリックします。
 
-   [![Delete snapshotオプションのあるActionsメニュー](/img/migrated/image-1734596064066-5bcf4544.png)](/img/migrated/image-1734596064066-5bcf4544.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-021.png)
 
-2. **Delete snapshot** をクリックします。
-
-   [![Snapshot削除確認ダイアログ](/img/migrated/image-1712818777331-c575dc0c.png)](/img/migrated/image-1712818777331-c575dc0c.png)
-
-:::danger
-削除されたSnapshotは復元できません。
-:::
-
-## 次のステップ
-
-- [仮想マシンの削除](./tutorials-xoa-may-ao.md)
+削除を確認後、システムはイメージを削除してSnapshotリソースをVPCに返却します。Snapshotの削除が完了するとユーザーに通知されます。

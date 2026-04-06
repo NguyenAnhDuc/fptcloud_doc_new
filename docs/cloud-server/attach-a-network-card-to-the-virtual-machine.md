@@ -1,58 +1,65 @@
 ---
 id: "attach-a-network-card-to-the-virtual-machine"
-title: "Attach a network card (NIC) to the virtual machine"
-description: "Attach a network card to the virtual machine to connect to multiple Subnets."
-sidebar_label: "Attach a network card (NIC) to the virtual machine"
+title: "Attach A Network Card To The Virtual Machine"
+sidebar_label: "Attach a Network Card (NIC) to a Virtual Machine"
 sidebar_position: 14
 ---
 
-# Attach a network card (NIC) to the virtual machine
+Attach a Network Card (NIC) to a Virtual Machine
 
-You can attach up to 10 network cards to a single virtual machine — allowing the machine to connect to multiple Subnets within the VPC.
 
-## Attach a network card
+You can attach up to 10 network cards to a single virtual machine. To attach an additional network card to a virtual machine, follow these steps:
 
-1. Select **Compute Engine** → **Instance Management**, then select the virtual machine you want to attach a Subnet to, opening the **Instance Detail** page.
+**Step 1**: In the menu, select **Compute Engine** > **Instance Management**. Select the virtual machine to which you want to attach a **Subnet** to go to the **Instance Detail** page.
 
-   [![Instance Detail page](/img/migrated/image-1712722975848-d937e282.png)](/img/migrated/image-1712722975848-d937e282.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-001.png)
 
-2. Open the **Network Interface** tab. Click **Add NIC**.
+**Step 2**: Open the **Network Interface** tab. The system will display the list of network cards currently attached to the virtual machine, along with information about the **Subnet** each card is connected to. Select **Add NIC**.
 
-   [![Network Interface tab with Add NIC button](/img/migrated/image-1744793401110-f9e5bd81.png)](/img/migrated/image-1744793401110-f9e5bd81.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-002.png)
 
-3. Select the **Subnet** within the VPC you want to attach, then click **Add NIC** to confirm.
+**Step 3**: Select the **Subnet** within the **VPC** to attach to the virtual machine. Select **Add NIC** to confirm.
 
-   [![Subnet selection dialog for NIC](/img/migrated/image-1712723037304-4919d058.png)](/img/migrated/image-1712723037304-4919d058.png)
+![file](images/attach-a-network-card-to-the-virtual-machine/img-003.png)
 
-The new network card appears in the **Network** table.
+The system will process the request and display the result.
 
-[![New network card attached](/img/migrated/image-1744793530914-729a9887.png)](/img/migrated/image-1744793530914-729a9887.png)
+If successful, the new network card will appear in the **Network** table.
 
-:::note
-Typically, Windows and Linux virtual machines will automatically detect the new network card. If the network card does not appear on Linux, restart the virtual machine.
-:::
+![file](images/attach-a-network-card-to-the-virtual-machine/img-004.png)
 
-### Manual configuration on Linux (if needed)
+After adding the NIC in the FPT Portal, Windows and Linux virtual machines will typically detect the new network card automatically, and no manual configuration is required.
 
-View current IP addresses:
+However, in some cases — if the Linux user is performing an operation on the virtual machine or if there is an OS error — the network card may not appear. Restart the machine to apply the configuration. If the issue persists, configure it manually using the following instructions:
 
-```bash
-ip a
+### View Current IP Address
+To view the current IP address of the machine, Linux users can use one of the following commands:
+```
+$ ip a
 ```
 
-[![View IP addresses](/img/migrated/image-1712723100683-b482495f.png)](/img/migrated/image-1712723100683-b482495f.png)
-
-Set a static IP (Ubuntu 20.04 uses netplan):
-
-```bash
-ls /etc/netplan
-sudo cp /etc/netplan/01-network-manager-all.yaml 01-network-manager-all.yaml.bak
+Or:
+```
+$ ip addr
 ```
 
-Edit the netplan configuration file with the appropriate interface name, IP address, gateway, and DNS.
+![file](images/attach-a-network-card-to-the-virtual-machine/img-005.png)
 
-[![Netplan configuration](/img/migrated/image-1712723133085-6dc03fdb.png)](/img/migrated/image-1712723133085-6dc03fdb.png)
+### Set a Static IP Address
+Ubuntu 20.04 uses netplan as the default network manager. The netplan configuration file is stored in the /etc/netplan directory. You can find the configuration file listed in that directory using the following command:
+```
+$ ls /etc/netplan
+```
 
-## Next steps
+The command will return the name of the configuration file with a .yaml extension — in the example below, it is 01-network-manager-all.yaml.
 
-- [Remove a network card (NIC) from the virtual machine](./remove-the-network-card-from-the-virtual-machine.md)
+Before making any changes to this file, make sure to create a backup. Use the cp command to do so:
+```
+$ sudo cp /etc/netplan/01-network-manager-all.yaml 01-network-manager-all.yaml.ba
+```
+
+Note: The configuration file may have a name other than 01-network-manager-all.yaml. Use the correct configuration file name in all commands.
+
+Then, add the following lines, replacing the interface name, IP address, gateway, and DNS information to match your network requirements.
+
+![file](images/attach-a-network-card-to-the-virtual-machine/img-006.png)

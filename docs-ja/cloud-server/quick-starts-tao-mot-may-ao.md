@@ -1,88 +1,139 @@
 ---
 id: "quick-starts-tao-mot-may-ao"
-title: "仮想マシンの作成"
-description: "FPT Cloud Server上でCPU、RAM、Storage、Networkを設定して新しい仮想マシンを作成します。"
-sidebar_label: "仮想マシンの作成"
+title: "仮想マシンを作成する"
+sidebar_label: "仮想マシンを作成する"
 sidebar_position: 3
 ---
 
-# 仮想マシンの作成
+仮想マシンを作成する
 
-仮想マシン（Instance）を作成することで、WebアプリケーションのデプロイメントBから機械学習まで、さまざまなワークロードをクラウド上で迅速に実行できます。
 
-## 前提条件
+**ステップ 1**: メニューで **Compute Engine** > **Instance Management** を選択し、**Create instance** をクリックします。
 
-- ✅ [初期設定](./Initial-Setup.md) が完了していること。
-- ✅ VPC内に稼働中のSubnetが存在すること。
+![file](images/quick-starts-tao-mot-may-ao/img-001.png)
 
-## 仮想マシンの作成
+新しいダイアログボックスが表示され、次のステップをガイドします。
 
-1. メニューから **Compute Engine** → **Instance Management** を選択し、**Create instance** をクリックします。
+![Userguide FPT Cloud Server 2022 18](images/quick-starts-tao-mot-may-ao/img-002.png)
 
-   [![Create instanceボタンがあるInstance Management画面](/img/migrated/image-1712739862804-d5b7552c.png)](/img/migrated/image-1712739862804-d5b7552c.png)
+**ステップ 2**: 以下のオプションで必要に応じて仮想マシンを設定します。
 
-   仮想マシン作成ダイアログが表示されます。
+### 設定情報
+**Instance Type**: ユーザーはニーズに最も適したマシンタイプを選択できます。現在、GeneralとGPUの2つの一般的なタイプがあります。
 
-   [![Create instanceダイアログ](/img/migrated/Userguide-FPT-Cloud-Server-2022-18-1024x-f0c8f0c9.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-18-1024x-f0c8f0c9.png)
+  * **General** は基本的なニーズに対応するマシンタイプです。
 
-2. 以下の項目に従って仮想マシンを設定します。
+  * **GPU** は高性能コンピューティング（High Performance Computing）、Machine Learningなどのニーズに対応します。
 
-### Configuration
 
-- **Instance Type**: 用途に合ったシリーズを選択します。基本的な用途には **General**、高性能用途には **GPU** を選択します。
+![file](images/quick-starts-tao-mot-may-ao/img-003.png)
 
-  [![Instance Typeの選択](/img/migrated/image-1724657781979-ab2ee565.png)](/img/migrated/image-1724657781979-ab2ee565.png)
+**Image:** ニーズに合ったメインOSを選択します。各OSグループには異なるバージョンが含まれます。デフォルトは最新バージョンです。独自のISOファイルをアップロードするか、以前に初期化したテンプレートから仮想マシンを作成することでカスタマイズできます。
 
-- **Image**: 適切なOSを選択します。各OSグループには複数のバージョンがあります。Custom Image、ISO、またはSnapshotから仮想マシンを作成することもできます。
+**general の場合**
 
-  [![GeneralのImage選択](/img/migrated/image-1724661980458-423745c9.png)](/img/migrated/image-1724661980458-423745c9.png)
+  * OSから仮想マシンを作成する場合
 
-- **Resource type**: CPU・RAMの構成を選択するか、カスタム構成を作成します。
 
-  [![Resource typeの選択](/img/migrated/image-1724662047559-1be6927b.png)](/img/migrated/image-1724662047559-1be6927b.png)
+![file](images/quick-starts-tao-mot-may-ao/img-004.png)
 
-### Storage Disk
+  * Imageから仮想マシンを作成する場合: カスタムイメージまたはISOイメージを選択できます（注意事項の詳細: Link）
 
-- **Storage Policy**: Storageの種類を選択します。
-- **Size**: ディスクサイズを選択します。
 
-  [![Storageの設定](/img/migrated/image-1724662063044-c293e47c.png)](/img/migrated/image-1724662063044-c293e47c.png)
+![file](images/quick-starts-tao-mot-may-ao/img-005.png)
 
-### Network
+  * Snapshot/NAT Instanceから仮想マシンを作成する場合
 
-- **Subnet** および **Private IP**: 仮想マシンのネットワークを選択します。Private IPを手動入力するか、システムに自動生成させることができます。
-- **Security Group** *(省略可)*: トラフィックを制御するSecurity Groupを選択します。
 
-  [![Networkの設定](/img/migrated/image-1724662077573-14ea2c24.png)](/img/migrated/image-1724662077573-14ea2c24.png)
+![file](images/quick-starts-tao-mot-may-ao/img-006.png)
 
-### Authentication
+![file](images/quick-starts-tao-mot-may-ao/img-007.png)
 
-- **SSH Key**: システムが最新のSSH Keyを自動選択します（変更可能）。
+**specific の場合**
 
-  [![SSH Keyの選択](/img/migrated/image-1724662090638-f8be1084.png)](/img/migrated/image-1724662090638-f8be1084.png)
+![file](images/quick-starts-tao-mot-may-ao/img-008.png)
 
-- **Password**: Standard方式を選択した場合は、パスワードを記録して安全に保管してください。
+**Resource type**: マシンタイプごとにCPUとRAMの設定が異なります。カスタム設定を作成することもできます。
 
-  [![Passwordの入力](/img/migrated/image-1724662104611-d3e63623.png)](/img/migrated/image-1724662104611-d3e63623.png)
+![file](images/quick-starts-tao-mot-may-ao/img-009.png)
 
-### Advanced
+### Storage Disk 情報
+**Storage**: 仮想マシンにアタッチされるStorageには以下が含まれます。
 
-  [![Advancedの設定](/img/migrated/image-1724662116137-16450e30.png)](/img/migrated/image-1724662116137-16450e30.png)
+  * **Storage Policy**: Storageの種類
 
-- **Instance group** *(省略可)*: 物理ホスト上での仮想マシンの配置を設定するために選択します。
-- **Instanceの名前**: 仮想マシンの名前を入力します。これが仮想マシンのホスト名になります。
-- **User data** *(省略可)*: 起動時に自動設定を行うcloud-initスクリプトを含めます。
+  * **Size**: Storageのサイズ
 
-3. **Create Instance** をクリックします。
 
-   [![Instance作成の確認](/img/migrated/image-1724664453215-c36b4dde.png)](/img/migrated/image-1724664453215-c36b4dde.png)
+![file](images/quick-starts-tao-mot-may-ao/img-010.png)
 
-新しい仮想マシンが管理画面に表示され、名前、構成（RAM、CPU、Storage）、IPアドレス、稼働状態が確認できます。
+### ネットワーク情報
+SubnetおよびPrivate IP、Floating IP、Security groupなどのAdvanced情報が含まれます。
 
-[![作成後のInstanceリスト](/img/migrated/Userguide-FPT-Cloud-Server-2022-21-1024x-e04e8c2e.png)](/img/migrated/Userguide-FPT-Cloud-Server-2022-21-1024x-e04e8c2e.png)
+  * **Subnet** & **Private IP**: 仮想マシンが動作に必要なリソースとネットワークサービスに接続できるようにネットワークを選択します。これにより、仮想マシンはネットワーク上の他のデバイスと通信し、インターネットなどの外部リソースにアクセスできます。仮想マシンのプライベートIPアドレスを入力するか、このフィールドを空白のままにすると選択したSubnetに基づいてシステムが自動生成します。
 
-## 次のステップ
+  * **Security Group**: 仮想マシンへのトラフィックを制御するためにSecurity Groupを選択します。このフィールドは空白のままにして後で設定することもできます。
 
-- [ISOファイルからのVM作成時の注意事項](./create-vm-iso.md)
-- [Windows仮想マシンへの接続](./tutorials-ket-noi-vao-may-ao-windows.md)
-- [Linux仮想マシンへの接続](./tutorials-ket-noi-vao-may-ao-linux.md)
+
+![file](images/quick-starts-tao-mot-may-ao/img-011.png)
+
+### 認証情報
+**Authentication type**: **SSH key** または **Password**
+
+  * SSH Keyを選択した場合、システムは最新のSSH keyを使用します（変更可能）。
+
+
+![file](images/quick-starts-tao-mot-may-ao/img-012.png)
+
+  * Standardメソッドを使用する場合、ユーザーはパスワードを安全な場所に記憶・保管してください。
+
+
+![file](images/quick-starts-tao-mot-may-ao/img-013.png)
+
+### Advanced 情報
+![file](images/quick-starts-tao-mot-may-ao/img-014.png)
+
+  * **Instance group**: 物理ホスト上での仮想マシンの配置を設定するために、Instance groupをオプションで選択できます。
+
+  * **Instance name**: 管理しやすい仮想マシン名を入力します。これは仮想マシンのホスト名にもなります。
+
+  * **User data**: cloud-init scriptを含む場所です。仮想マシンの起動時にcloud-initはクラウドから提供されたメタデータを読み込み、それに基づいてシステムを初期化します。cloud-initは通常、ネットワーク、ストレージ、SSH keys、およびシステムの他の部分のセットアップに使用されます。注意: WindowsオペレーティングシステムでInitializeした仮想マシンの場合、cloud-initのスクリプトを実行するには再起動が必要です。
+
+
+**cloud-init scriptのサンプル**: このサンプルスクリプトで、システムはユーザー「testcloudinit」をパスワード「Abc123」で、ユーザー「testcloudinit2」をパスワード「abc@123Abc123」で自動作成します。
+[code]
+    Copy#cloud-config
+    users:
+    - name: testcloudinit
+      sudo: ALL=(ALL) NOPASSWD:ALL
+      lock_passwd: false
+      shell: /bin/bash
+      passwd: $6$rounds=4096$V6anciWl30$xKbcljqks1gUkMiM80pyKzhvyhn7U1n.jXcGCUfkUlX.rnllUWKUrmDEzekhhhP8aERSylRuC7gfDhJ32Xv0A1
+    - name: testcloudinit2
+      groups: sudo
+      lock_passwd: false
+      shell: /bin/bash
+      plain_text_passwd: abc@123Abc123
+    - hostname: testcloudinit
+
+[/code]
+
+Windowsの注意: Cloud base initスクリプト形式を使用します。
+
+**サンプルスクリプト:**
+[code]
+    Copy#cloud-config
+    users:
+    - name: testcloudinit
+      primary_group: Administrators
+      groups: Administrators
+      passwd: abc@123Abc123
+[/code]
+
+**ステップ 3**: **Create Instance** をクリックして仮想マシンを作成します。システムは確認を表示し、リソースを確認して、選択した設定に基づいて新しい仮想マシンの初期化処理を進めます。
+
+![file](images/quick-starts-tao-mot-may-ao/img-015.png)
+
+初期化が成功すると、新しく作成した仮想マシンを確認し、管理ダッシュボードで情報を確認できます。各仮想マシンには名前、設定（RAM、CPU、Storage）、IPアドレス、動作状態（オフ/オン/Suspended）が一覧に表示されます。
+
+**![Userguide FPT Cloud Server 2022 21](images/quick-starts-tao-mot-may-ao/img-016.png)**

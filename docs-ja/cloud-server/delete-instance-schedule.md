@@ -9,18 +9,16 @@ pagination_next: null
 
 # Instance Scheduleの削除
 
-:::danger
-スケジュールの削除は元に戻せません。実行中のスケジュールは削除できません。
+:::warning
+スケジュールが現在実行中の場合、この操作は実行できません。Instance Scheduleの削除は元に戻すことができません。
 :::
 
-## スケジュールの削除
+**手順1**: **Instance Schedule Management** パネルで、**Action** の中から **Delete** をクリックします。
 
-1. **Instance Schedule Management** で **Action** → **Delete** をクリックします。
+![Deleteスケジュールの選択](images/delete-instance-schedule/img-001.png)
 
-   [![Action Deleteメニュー](/img/migrated/image-1695609049584-8754accf.png)](/img/migrated/image-1695609049584-8754accf.png)
+**手順2**: 確認ダイアログが表示され、スケジュール名と確認の入力を求めるメッセージが示されます。**delete** と入力し、**Delete schedule** をクリックして削除を実行します。
 
-2. **delete** と入力し、**Delete schedule** をクリックします。
+![スケジュール削除の確認](images/delete-instance-schedule/img-002.png)
 
-   [![スケジュール削除の確認](/img/migrated/image-1695609061103-74aa2b28.png)](/img/migrated/image-1695609061103-74aa2b28.png)
-
-アタッチされていたインスタンスは解放され、現在の状態を維持します。
+システムはスケジュールを完全に削除します。アタッチされているインスタンスが存在する場合は解放され、現在の状態が維持されます。

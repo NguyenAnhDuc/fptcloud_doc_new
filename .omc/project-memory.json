@@ -196,20 +196,20 @@
   "hotPaths": [
     {
       "path": "sidebars.js",
-      "accessCount": 159,
-      "lastAccessed": 1775481488121,
+      "accessCount": 191,
+      "lastAccessed": 1775495811260,
       "type": "directory"
     },
     {
       "path": "sidebars-vi.js",
-      "accessCount": 122,
-      "lastAccessed": 1775481418766,
+      "accessCount": 181,
+      "lastAccessed": 1775495809314,
       "type": "directory"
     },
     {
       "path": "fptcloud-docs-style-guide.md",
-      "accessCount": 31,
-      "lastAccessed": 1775458572927,
+      "accessCount": 36,
+      "lastAccessed": 1775492640479,
       "type": "file"
     },
     {

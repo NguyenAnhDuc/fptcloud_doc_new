@@ -8,20 +8,14 @@ sidebar_position: 91
 
 # Xem chi tiết Instance Schedule
 
-## Xem chi tiết
+**Bước 1**: Truy cập vào trang **Instance Schedule Detail** bằng cách chọn tên Instance Schedule trên bảng quản trị **Instance Schedule Management**.
 
-1. Tại **Instance Schedule Management**, nhấn chọn tên Schedule.
+![Chọn Instance Schedule](images/view-detail-instance/img-001.png)
 
-   [![Chọn Schedule](/img/migrated/image-1695609011987-33ef2b1d.png)](/img/migrated/image-1695609011987-33ef2b1d.png)
+**Bước 2**: Xem và kiểm tra thông tin chi tiết của Instance Schedule trong mục **Overview** bao gồm: Name, Description, Start & Stop time, Start & End date, Frequency, tên các máy ảo gắn kèm.
 
-2. Tab **Overview**: Name, description, start/stop time, start/end date, frequency, danh sách máy ảo.
+![Tab Overview](images/view-detail-instance/img-002.png)
 
-   [![Tab Overview](/img/migrated/image-1695609025652-03872f17.png)](/img/migrated/image-1695609025652-03872f17.png)
+**Bước 3**: Xem và kiểm tra thông tin chi tiết của Instance Schedule trong mục **Attached instances** gồm: danh sách các máy ảo đính kèm và thông tin cụ thể của từng máy ảo như Instance name, Instance status, Latest start time & status, Latest stop time & status.
 
-3. Tab **Attached instances**: Danh sách máy ảo kèm instance name, status, latest start/stop time.
-
-   [![Tab Attached instances](/img/migrated/image-1695609035976-7b5310a1.png)](/img/migrated/image-1695609035976-7b5310a1.png)
-
-## Bước tiếp theo
-
-- [Gắn máy ảo vào Schedule](./attach-schedule-to-instance.md)
+![Tab Attached Instances](images/view-detail-instance/img-003.png)

@@ -1,13 +1,13 @@
 ---
 id: "allow-address-pair"
-title: "Allow Address Pair"
+title: "Tổng quan Allow Address Pair"
 description: "Thêm cặp IP-MAC vào card NIC để hỗ trợ HA và cấu hình mạng nâng cao."
-sidebar_label: "Allow Address Pair"
+sidebar_label: "Tổng quan Allow Address Pair"
 sidebar_position: 71
 pagination_next: null
 ---
 
-# Allow Address Pair
+# Tổng quan Allow Address Pair
 
 Mặc định, máy ảo cặp địa chỉ MAC và IP để chống giả mạo. Allow Address Pair cho phép thêm cặp IP (hoặc CIDR) và MAC vào card NIC — hữu ích cho cấu hình HA (High Availability).
 

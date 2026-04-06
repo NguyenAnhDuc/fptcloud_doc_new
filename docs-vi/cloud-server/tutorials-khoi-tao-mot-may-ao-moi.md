@@ -1,87 +1,108 @@
 ---
 id: "tutorials-khoi-tao-mot-may-ao-moi"
 title: "Khởi tạo một máy ảo mới"
-description: "Hướng dẫn chi tiết khởi tạo máy ảo mới trên FPT Cloud Server với đầy đủ cấu hình."
 sidebar_label: "Khởi tạo một máy ảo mới"
 sidebar_position: 11
 ---
 
 # Khởi tạo một máy ảo mới
 
-Hướng dẫn chi tiết từng bước khởi tạo máy ảo mới trên FPT Cloud Server — bao gồm cấu hình Instance Type, Image, Storage, Network và Authentication.
 
-## Điều kiện tiên quyết
+**Bước 1**: Ở menu chọn **Compute Engine** > **Instance Management**, chọn **Create instance**.
 
-- ✅ Đã hoàn thành [Thiết lập ban đầu](./Initial-Setup.md).
-- ✅ Có Subnet đang hoạt động trong VPC.
+![](images/tutorials-khoi-tao-mot-may-ao-moi/img-001.png)
 
-## Tạo máy ảo
+**Bước 2**: Cấu hình máy ảo theo nhu cầu với các lựa chọn sau:
 
-1. Chọn **Compute Engine** → **Instance Management** từ menu, nhấn **Create instance**.
+  * **Instance Type**: Người dùng có thể tự chọn một dòng máy phù hợp nhất với nhu cầu. Hiện tại có 2 loại phổ biến là General và GPU.
 
-   [![Màn hình Instance Management](/img/migrated/Screenshot_19-1024x464-45a4bfd7.png)](/img/migrated/Screenshot_19-1024x464-45a4bfd7.png)
+    * **General** là dòng máy đáp ứng tốt cho các nhu cầu cơ bản
+    * **GPU** phục vụ các nhu cầu cần hiệu suất cao (High performance computing), Machine Learning,…
+  * **Image:** Chọn OS chính phù hợp với nhu cầu. Mỗi nhóm OS sẽ gồm các phiên bản khác nhau. Mặc định là phiên bản mới nhất.Người dùng có thể tùy biến theo nhu cầu bằng cách upload các file iso của mình hoặc tạo máy ảo từ những template đã khởi tạo
 
-2. Cấu hình máy ảo:
-   - **Instance Type**: Chọn **General** (nhu cầu cơ bản) hoặc **GPU** (hiệu suất cao, Machine Learning).
-   - **Image**: Chọn OS phù hợp. Bạn có thể upload file ISO hoặc tạo từ template đã có.
-   - **Resource type**: Chọn cấu hình CPU, RAM hoặc tạo cấu hình tùy chọn.
-   - **Storage**: Chọn **Storage Policy** (loại storage) và **Size** (kích thước).
-   - **Instance group** *(tùy chọn)*: Cấu hình vị trí đặt máy ảo trên host vật lý.
-   - **Subnet** và **Private IP**: Chọn network cho máy ảo. Có thể nhập Private IP hoặc để hệ thống tự sinh.
-   - **Security Group** *(tùy chọn)*: Chọn Security Group kiểm soát traffic.
-   - **Tên instance**: Nhập tên máy ảo — đây cũng là hostname.
-   - **Authentication type**: Chọn **SSH Key** hoặc **Standard** (Password).
-   - **User data** *(tùy chọn)*: Chứa [cloud-init script](https://cloudinit.readthedocs.io/en/latest/reference/examples.html) để tự động cấu hình khi khởi động.
+  * **Resource type**: Mỗi dòng máy sẽ cấu hình CPU, RAM khác nhau, hoặc người dùng có thể tự tạo một cấu hình tùy chọn.
 
-   [![Hộp thoại Create instance](/img/migrated/Screenshot_20-1-1024x546-bf37ac18.png)](/img/migrated/Screenshot_20-1-1024x546-bf37ac18.png)
+  * **Storage**: Storage gắn vào máy ảo gồm:
 
-   [![Cấu hình Network và Authentication](/img/migrated/Screenshot_21-1-1024x676-96e3971b.png)](/img/migrated/Screenshot_21-1-1024x676-96e3971b.png)
+    * **Storage Policy**: Loại Storage
 
-   [![Cấu hình Advanced](/img/migrated/Screenshot_22-1-1024x537-9a27a8d4.png)](/img/migrated/Screenshot_22-1-1024x537-9a27a8d4.png)
+    * **Size**: Kích thước Storage
 
-**Cloud-init script mẫu cho Linux:**
+  * **Instance group**: Người dùng có thể tùy chọn Instance group để cấu hình về vị trí đặt máy ảo trên host vật lý.
 
-```yaml
-#cloud-config
-users:
-- name: testcloudinit
-  sudo: ALL=(ALL) NOPASSWD:ALL
-  lock_passwd: false
-  shell: /bin/bash
-  passwd: $6$rounds=4096$V6anciWl30$xKbcljqks1gUkMiM80pyKzhvyhn7U1n.jXcGCUfkUlX.rnllUWKUrmDEzekhhhP8aERSylRuC7gfDhJ32Xv0A1
-- name: testcloudinit2
-  groups: sudo
-  lock_passwd: false
-  shell: /bin/bash
-  plain_text_passwd: abc@123Abc123
-- hostname: testcloudinit
-```
+  * **Subnet & Private IP**: Người dùng lựa chọn network để đảm bảo rằng máy ảo có kết nối đến các tài nguyên và dịch vụ mạng cần thiết cho hoạt động của nó. Điều này cho phép máy ảo giao tiếp với các thiết bị khác trên mạng và truy cập vào các tài nguyên bên ngoài như internet. Người dùng có thể nhập địa chỉ IP private cho máy ảo hoặc hệ thống sẽ tự sinh ra theo subnet đã lựa chọn (nếu để trống trường này)
 
-**Cloud-init script mẫu cho Windows:**
+  * **Security Group**: Người dùng lựa chọn security group để kiểm soát traffic ra vào máy ảo. Người dùng có thể để trống trường này và cấu hình sau.
 
-```yaml
-#cloud-config
-users:
-- name: testcloudinit
-  primary_group: Administrators
-  groups: Administrators
-  passwd: abc@123Abc123
-```
+  * **Tên instance**: Nhập tên máy ảo sao cho dễ quản lý nhất. Đây cũng sẽ là tên host name của máy ảo sau này.
 
-:::note
-Nếu máy ảo khởi tạo bằng Windows, cần reboot lại để khởi chạy các script từ cloud-init.
-:::
+  * **Authentication type**: **Standard** (Username/Password) hoặc **SSH key**.
 
-3. Nhấn **Create Instance**.
+    * Nếu chọn SSH Key, hệ thống sẽ chọn SSH key mới nhất (có thể thay đổi).
 
-   [![Xác nhận tạo Instance](/img/migrated/Screenshot_24-1-1024x656-a594dc63.png)](/img/migrated/Screenshot_24-1-1024x656-a594dc63.png)
+    * Nếu sử dụng phương thức Standard, người dùng cần lưu ý ghi nhớ và bảo mật mật khẩu ở nơi an toàn.
 
-Máy ảo mới hiển thị trên bảng quản trị với thông tin tên, cấu hình, IP address và trạng thái.
+  * **User data**: Nơi chứa [**cloud-init script**](<https://cloudinit.readthedocs.io/en/latest/reference/examples.html>). Khi máy ảo khởi động, cloud-init sẽ đọc các metadata được cung cấp từ cloud, và khởi tạo hệ thống dựa trên chúng. Cloud-init thường được dùng với mục đích setup network, storage, SSH keys, và nhiều phần khác của hệ thống. Lưu ý: Nếu máy ảo khởi tạo bằng hệ điều hành window, cần reboot lại để khởi chạy các script từ cloud-init.
 
-[![Danh sách Instance sau khi tạo](/img/migrated/Screenshot_25-1024x522-c45b80c7.png)](/img/migrated/Screenshot_25-1024x522-c45b80c7.png)
 
-## Bước tiếp theo
+**Cloud-init script mẫu**: Với đoạn script mẫu, hệ thống sẽ tự khởi tạo user “testcloudinit” với password “Abc123“ và user “testcloudinit2” với password “abc@123Abc123"
+[code]
+    Copy#cloud-config
+    users:
+    - name: testcloudinit
+      sudo: ALL=(ALL) NOPASSWD:ALL
+      lock_passwd: false
+      shell: /bin/bash
+      passwd: $6$rounds=4096$V6anciWl30$xKbcljqks1gUkMiM80pyKzhvyhn7U1n.jXcGCUfkUlX.rnllUWKUrmDEzekhhhP8aERSylRuC7gfDhJ32Xv0A1
+    - name: testcloudinit2
+      groups: sudo
+      lock_passwd: false
+      shell: /bin/bash
+      plain_text_passwd: abc@123Abc123
+    - hostname: testcloudinit
 
-- [Lưu ý khi tạo máy ảo từ file ISO](./create-vm-iso.md)
-- [Kết nối vào máy ảo Windows](./tutorials-ket-noi-vao-may-ao-windows.md)
-- [Kết nối vào máy ảo Linux](./tutorials-ket-noi-vao-may-ao-linux.md)
+[/code]
+
+**Lưu ý với window sẽ sử dụng script dạng Cloud base init. Script mẫu:**
+[code]
+    Copy#cloud-config
+    users:
+    - name: testcloudinit
+      primary_group: Administrators
+      groups: Administrators
+      passwd: abc@123Abc123
+[/code]
+
+![](images/tutorials-khoi-tao-mot-may-ao-moi/img-002.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-003.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-004.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-005.png)
+
+**Bước 3**: Nhấn chọn **Create Instance** để thực hiện khởi tạo máy ảo. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo máy ảo mới dựa vào cấu hình đã chọn.
+
+![](images/tutorials-khoi-tao-mot-may-ao-moi/img-006.png)
+
+Sau khi khởi tạo thành công, người dùng có thể thấy máy ảo mới tạo và kiểm tra thông tin trên bảng quản trị. Mỗi máy ảo sẽ được hiển thị thông tin đầy đủ về tên, cấu hình (Ram, CPU, Storage), địa chỉ IP address, trạng thái hoạt động (Tắt/Bật/Suspended) trên bảng.
+
+![](images/tutorials-khoi-tao-mot-may-ao-moi/img-007.png)
+
+## Lưu ý khi tạo máy ảo từ file ISO.
+Hiện tại hệ thống Unify Portal hỗ trợ khách hàng tạo máy ảo từ file ISO
+
+**1) Các lưu ý khi tạo máy ảo từ file ISO**
+
+  * Khi tạo máy ảo từ file ISO, hệ thống sẽ tự động tạo thêm một ổ đĩa để boot cho ổ Root, không xóa ổ đĩa này khi đang tạo máy ảo.
+
+  * Khách hàng cần để trống dung lượng ổ đĩa tối thiểu bằng hoặc lớn hơn dung lượng file ISO, hệ thống sẽ làm tròn đến hàng đơn vị (Ví dụ: file 0.5 GB -> cần 1GB, file 1.5 GB -> cần 2 GB, file 2 GB cần tối thiểu 2 GB)
+
+
+**Lưu ý: Xóa ổ đĩa tạm sau khi tạo máy từ file ISO**
+
+  * Người dùng xóa ổ đĩa boot sau khi đã tạo máy thành công. (cần Un-mount ổ đĩa khỏi máy ảo trước khi xóa)
+
+
+**2) Hỗ trợ tính năng sử dụng disk bus SATA cho ổ Root**
+
+  * Hệ thống mặc định sử dụng disk bus Virtio cho ổ Root. Tuy nhiên, đối với một số file ISO cũ không được Virtio hỗ trợ, người dùng cần chuyển sang chế độ SATA bằng cách chọn vào ô checkbox tương ứng.
+
+  * Lưu ý rằng việc sử dụng disk bus SATA có thể làm giảm hiệu suất của ổ đĩa, vì vậy chỉ nên sử dụng tính năng này khi file ISO của bạn không tương thích với Virtio. Vui lòng tham khảo hướng dẫn từ nhà sản xuất để chọn chế độ phù hợp.
+
+
+![](images/tutorials-khoi-tao-mot-may-ao-moi/img-008.png)

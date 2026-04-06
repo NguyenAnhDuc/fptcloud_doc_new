@@ -1,139 +1,133 @@
 ---
 id: "tutorials-backup-may-chu-voi-snapshot"
-title: "Backup VM with Snapshot"
-description: "Create, manage, and restore Snapshots for virtual machines and Storage Disks on FPT Cloud Server."
-sidebar_label: "Backup VM with Snapshot"
+title: "Back Up a Server with Snapshot"
+sidebar_label: "Back Up a Server with Snapshot"
 sidebar_position: 18
 ---
 
-# Backup VM with Snapshot
+Back Up a Server with Snapshot
 
-A Snapshot captures the state of a virtual machine at a specific point in time — helping you restore the system when encountering issues or data loss.
 
-:::tip
-For periodic backups at multiple points in time, consider the FPT Backup service.
-:::
+A **Snapshot** is an action that captures the current state of a virtual machine at a specific point in time, producing copies that contain the entire system contents at that moment.
 
-## Snapshot from VM
+If you need periodic storage at multiple points in time, please refer to the FPT Backup service.
 
-### Create a Snapshot
+Users can choose the moment when the system is running most stably to create a **Snapshot**. Later, if any software in the system fails and cannot be recovered, or important data is accidentally deleted, users simply need to restore the virtual machine to the point in time when the Snapshot was created to resolve the issue.
 
-1. In **Instance Management**, select **Actions** → **Snapshot** → **Create snapshot**.
+## Initialize and Manage Snapshots from a Virtual Machine
+### 1. Create a Snapshot
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section for the virtual machine you want to snapshot, select **Snapshot** > **Create snapshot**.
 
-   [![Actions menu with Create snapshot option](/img/migrated/image-1712656669900-805aff75.png)](/img/migrated/image-1712656669900-805aff75.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-001.png)
 
-2. The **Create instance snapshot** dialog appears. Click **Create snapshot**.
+**Step 2**: Click **Create snapshot** to display the **Create instance snapshot** modal.
 
-   [![Create instance snapshot dialog](/img/migrated/image-1734595203830-4982aec6.png)](/img/migrated/image-1734595203830-4982aec6.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-002.png)
 
-The Snapshot appears on the **Snapshots** screen.
+**Step 3**: Click **Create snapshot** to create the snapshot. After confirming the snapshot creation, the system will verify resources, create the snapshot image, and report the processing result.
 
-[![Snapshot created successfully](/img/migrated/image-1734595376651-974ca75e.png)](/img/migrated/image-1734595376651-974ca75e.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-003.png)
 
-### Create a VM from Snapshot
+### 2. Launch a Virtual Machine from a Snapshot
+**Step 1**: In the menu, select **Snapshot**. Under the **Actions** section for the snapshot, select **Launch as Instance**.
 
-1. In **Snapshot**, select **Actions** → **Launch as Instance**.
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-004.png)
 
-   [![Actions menu with Launch as Instance option](/img/migrated/image-1734595412087-f0bc6c13.png)](/img/migrated/image-1734595412087-f0bc6c13.png)
+**Step 2**: The **Create instance** modal from snapshot will appear.
 
-2. Configure and click **Create** in the **Create instance** dialog.
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-005.png)
 
-   [![Create instance from Snapshot dialog](/img/migrated/image-1712653436496-23f6c725.png)](/img/migrated/image-1712653436496-23f6c725.png)
+**Step 3**: The virtual machine is created successfully from the snapshot. The system displays the virtual machine on the **Instance Management** screen.
 
-The new VM appears in **Instance Management**.
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-006.png)
 
-[![VM created from Snapshot](/img/migrated/image-1734595491154-0444976f.png)](/img/migrated/image-1734595491154-0444976f.png)
+### 3. Delete a Created Snapshot
+**Step 1**: In the menu, select **Snapshot**. Under the **Actions** section for the snapshot, select **Delete Image**.
 
-### Delete a Snapshot
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-007.png)
 
-1. In **Snapshot**, select **Actions** → **Delete Image**.
+**Step 2**: Click **Delete snapshot**.
 
-   [![Actions menu with Delete Image option](/img/migrated/image-1734595518655-0f965a42.png)](/img/migrated/image-1734595518655-0f965a42.png)
+After confirming the deletion, the system will delete the image and return the snapshot resources to the VPC. Users will be notified when the snapshot deletion is complete.
 
-2. Click **Delete snapshot** to confirm. Check **Delete all volume snapshots attached to this image** to also delete snapshots from attached storage disks.
+If the user checks the "_Delete all volume snapshots attached to this image_" checkbox, snapshots created from storage disks attached to that virtual machine will also be deleted.
 
-   [![Delete Snapshot confirmation dialog](/img/migrated/image-1712653461557-c3a5551d.png)](/img/migrated/image-1712653461557-c3a5551d.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-008.png)
 
-## Snapshot from Storage Disk
+## Initialize and Manage Snapshots from a Storage Disk
+### 1. Create a Snapshot
+**Step 1**: In the menu, select **Storage Disk**. Under the **Actions** section for the virtual machine you want to snapshot, select **Snapshot** > **Create volume snapshot**.
 
-### Create a Snapshot
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-009.png)
 
-1. In **Storage Disk**, select **Actions** → **Snapshot** → **Create volume snapshot**.
+**Step 2**: Click **Create volume snapshot** to create.
 
-   [![Actions menu with Create volume snapshot option](/img/migrated/image-1734595578696-e2a9d562.png)](/img/migrated/image-1734595578696-e2a9d562.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-010.png)
 
-2. Click **Create volume snapshot**.
+**Step 3**: The snapshot is created successfully and displayed on the **Snapshots** screen under the **Storage snapshot** section.
 
-   [![Create volume snapshot dialog](/img/migrated/image-1744797304260-c56185cf.png)](/img/migrated/image-1744797304260-c56185cf.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-011.png)
 
-The Snapshot appears in **Snapshots** under **Storage snapshot**.
+### 2. Create a Storage Disk from an Existing Snapshot
+**Step 1**: In the menu, select **Snapshot**. Under the **Actions** section for the snapshot, select **Create storage disk**.
 
-[![Storage snapshot created](/img/migrated/image-1734595691770-9cda8337.png)](/img/migrated/image-1734595691770-9cda8337.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-012.png)
 
-### Create Storage Disk from Snapshot
+**Step 2**: Click **Create storage disk** to create.
 
-1. In **Snapshot**, select **Actions** → **Create storage disk**.
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-013.png)
 
-   [![Actions menu with Create storage disk option](/img/migrated/image-1734595729279-9bdc6a8e.png)](/img/migrated/image-1734595729279-9bdc6a8e.png)
+### 3. Delete a Snapshot Created from a Storage Disk
+**Step 1**: In the menu, select **Snapshot**. Under the **Actions** section for the snapshot, select **Delete Snapshot**.
 
-2. Click **Create storage disk**.
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-014.png)
 
-   [![Create storage disk dialog](/img/migrated/image-1712653495975-03166cff.png)](/img/migrated/image-1712653495975-03166cff.png)
+**Step 2**: Click **Delete snapshot** to proceed with deletion.
 
-### Delete Storage Disk Snapshot
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-015.png)
 
-1. In **Snapshot**, select **Actions** → **Delete Snapshot**.
+## Initialize and Manage Snapshots for the Specific Service Type
+### 1. Create a Snapshot for a Virtual Machine
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section for the virtual machine you want to snapshot, select **Create snapshot**.
 
-   [![Actions menu with Delete Snapshot option](/img/migrated/image-1734595780158-c6454938.png)](/img/migrated/image-1734595780158-c6454938.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-016.png)
 
-2. Click **Delete snapshot**.
+**Step 2**: Click **Create** in the confirmation popup to proceed with the snapshot creation.
 
-   [![Delete Storage snapshot confirmation](/img/migrated/image-1712653549274-050d524e.png)](/img/migrated/image-1712653549274-050d524e.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-017.png)
 
-## Snapshot for Specific service
+After confirming the snapshot creation, the system will verify resources, create the snapshot image, and report the processing result.
 
-### Create a Snapshot
+On average, creating a snapshot takes approximately 30 minutes, depending on the machine type and the current data on the virtual machine. Users will be notified when the snapshot creation is complete.
 
-1. In **Instance Management**, select **Actions** → **Create snapshot**.
+Note: Each instance can have 1 snapshot created and stored. The most recently created snapshot will overwrite the previously created snapshot for that instance.
 
-   [![Actions menu with Create snapshot (Specific)](/img/migrated/image-1734595898541-1f53740c.png)](/img/migrated/image-1734595898541-1f53740c.png)
+### 2. Restore a Virtual Machine from a Snapshot
+Note: This operation can only be performed on instances that have successfully created a snapshot. Please verify that the required instance has a snapshot before proceeding.
 
-2. Click **Create** to confirm.
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section for the virtual machine you want to restore, select **Restore snapshot**.
 
-   [![Create Snapshot confirmation dialog](/img/migrated/image-1712818258855-797847d8.png)](/img/migrated/image-1712818258855-797847d8.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-018.png)
 
-:::note
-Each Instance can store only 1 Snapshot. A new Snapshot overwrites the previous one. The process takes approximately 30 minutes depending on the machine type and data.
-:::
+**Step 2**: Click **Restore instance** in the confirmation popup to proceed with the restoration.
 
-### Restore VM from Snapshot
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-019.png)
 
-1. In **Instance Management**, select **Actions** → **Restore snapshot**.
+After confirming the restoration, the system will restore the virtual machine after verifying the snapshot data. On average, restoring a virtual machine from a snapshot takes approximately 30 minutes, depending on the machine type and the current data. During this process, the virtual machine may be shut down and users will be unable to interact with it until the restoration is complete.
 
-   [![Actions menu with Restore snapshot option](/img/migrated/image-1734596025787-1725e2ff.png)](/img/migrated/image-1734596025787-1725e2ff.png)
+Users will be notified when the restore process is complete and the virtual machine is back online.
 
-2. Click **Restore instance** to confirm.
+### 3. Delete an Instance Snapshot
+Note: This operation can only be performed on instances that have successfully created a snapshot. Please verify that the required instance has a snapshot before proceeding. Deleted snapshots cannot be recovered.
 
-   [![Restore confirmation dialog](/img/migrated/image-1712818286728-db082ce3.png)](/img/migrated/image-1712818286728-db082ce3.png)
+Please exercise caution when performing this operation.
 
-:::warning
-During restoration (approximately 30 minutes), the VM may be shut down and you cannot operate it until the process completes.
-:::
+**Step 1**: In the menu, select **Instance Management**. Under the **Actions** section for the virtual machine whose image you want to delete, select **Delete snapshot**.
 
-### Delete Snapshot (Specific)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-020.png)
 
-1. In **Instance Management**, select **Actions** → **Delete snapshot**.
+**Step 2:** Click **Delete snapshot**.
 
-   [![Actions menu with Delete snapshot option](/img/migrated/image-1734596064066-5bcf4544.png)](/img/migrated/image-1734596064066-5bcf4544.png)
+![file](images/tutorials-backup-may-chu-voi-snapshot/img-021.png)
 
-2. Click **Delete snapshot**.
-
-   [![Delete Snapshot confirmation dialog](/img/migrated/image-1712818777331-c575dc0c.png)](/img/migrated/image-1712818777331-c575dc0c.png)
-
-:::danger
-Deleted Snapshots cannot be recovered.
-:::
-
-## Next steps
-
-- [Delete a virtual machine](./tutorials-xoa-may-ao.md)
+After confirming the deletion, the system will delete the image and return the snapshot resources to the VPC. Users will be notified when the snapshot deletion is complete.

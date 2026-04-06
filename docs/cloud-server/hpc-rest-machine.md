@@ -1,30 +1,32 @@
 ---
 id: "hpc-rest-machine"
-title: "Reset Machine"
-description: "Reset a GPU Server on HPC Portal when you encounter connection issues."
-sidebar_label: "Reset Machine"
+title: "Hpc Rest Machine"
+sidebar_label: "Reset machine"
 sidebar_position: 29
 ---
 
-# Reset Machine
+Reset machine
 
-During use, you may encounter issues such as a black screen, inability to connect to the remote server, or a frozen machine. If waiting 2–3 minutes and reconnecting does not resolve the issue, you need to reset the machine.
 
-## Reset
+After starting the machine, you connect to it via a Remote Desktop Connection file – RDP file. However, during use you may encounter issues such as a black screen, inability to connect to the remote server, or the server becoming unresponsive. The recommended approach in this case is to wait 2–3 minutes and then reconnect. If the issue persists, you must reset the machine to continue using it.
 
-1. On the **Hosts** screen in HPC Portal, select the image → **Reset machine**.
-2. In the confirmation dialog, click **Reset**.
+To reset the machine, follow these steps:
 
-   [![Reset machine confirmation dialog](/img/migrated/reset-1a4b229d.jpg)](/img/migrated/reset-1a4b229d.jpg)
+  1. On the Hosts screen in HPC Portal, select the image > Reset machine
 
-3. Wait a few minutes, then download the RDP file again and reconnect.
+
+A confirmation dialog will appear. Select Reset to proceed with restarting the machine.
+
+![reset](images/hpc-rest-machine/img-001.jpg)
+
+  2. Wait a few minutes after the machine resets successfully, then download the RDP file again and reconnect to the machine.
+
 
 :::warning
-- Resetting the machine is equivalent to pressing the restart button on a physical server when the machine is unresponsive.
-- Use this feature carefully as it may result in data loss.
-- If the machine still cannot be connected after reset, contact your administrator for support.
+– The Reset machine feature is equivalent to pressing the restart button on a physical server when the machine is unresponsive.
 :::
 
-## Next Steps
 
-- [Schedule Shutdown](./hpc-schedule-shutdown.md)
+– This feature is useful when you are unable to remote into the machine immediately after it has booted successfully. If you still cannot reconnect after resetting the machine, please contact our administrator for immediate assistance.
+
+– Consider carefully before using this feature during active use of the machine, as it may result in data loss.

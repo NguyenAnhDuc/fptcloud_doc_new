@@ -1,35 +1,35 @@
 ---
 id: "FAQ"
-title: "FAQ"
-description: "Frequently asked questions about AI Marketplace."
-sidebar_label: "FAQ"
+title: "Câu hỏi thường gặp"
+description: "Các câu hỏi thường gặp về AI Marketplace."
+sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: 16
 pagination_next: null
 ---
 
-# FAQ
+# Câu hỏi thường gặp
 
-### 1. How can I create an API key and use it with models?
+### 1. Tôi có thể tạo API key và dùng nó với các mô hình như thế nào?
 
-You can create an API key under **My Account → My API Keys**.
-This key is required to call models via the inference API.
-
----
-
-### 2. How is model usage pricing calculated?
-
-Pricing is based on the number of **input and output tokens**.
-You can check details under **Product Information → Pricing** or in **Billing Management** inside My Account.
+Bạn có thể tạo API key tại **My Account → My API Keys**.
+Key này cần thiết để gọi các mô hình qua inference API.
 
 ---
 
-### 3. What are the rate limits for model usage?
+### 2. Giá sử dụng mô hình được tính như thế nào?
 
-Each model has its own rate limit (e.g., requests per second or tokens per second).
-You can view this information in **Product Information → Rate Limit**.
+Giá được tính dựa trên số lượng **input token và output token**.
+Bạn có thể xem chi tiết tại **Product Information → Pricing** hoặc trong **Billing Management** bên trong My Account.
 
 ---
 
-### 4. Does the Marketplace support autoscaling for model endpoints?
+### 3. Rate limit khi sử dụng mô hình là bao nhiêu?
 
-Yes. Endpoints can be configured with autoscaling based on traffic load, optimizing costs while maintaining stability during traffic spikes.
+Mỗi mô hình có rate limit riêng (ví dụ: số yêu cầu mỗi giây hoặc số token mỗi giây).
+Bạn có thể xem thông tin này tại **Product Information → Rate Limit**.
+
+---
+
+### 4. Marketplace có hỗ trợ autoscaling cho các model endpoint không?
+
+Có. Các endpoint có thể được cấu hình autoscaling dựa trên lưu lượng truy cập, tối ưu chi phí trong khi vẫn duy trì ổn định khi lưu lượng tăng đột biến.

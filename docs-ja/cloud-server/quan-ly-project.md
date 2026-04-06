@@ -1,20 +1,53 @@
 ---
 id: "quan-ly-project"
-title: "Project管理の詳細"
-description: "テナント内のProjectの一覧を確認し、管理します。"
-sidebar_label: "Project管理の詳細"
+title: "Quan Ly Project"
+sidebar_label: "プロジェクト管理の詳細"
 sidebar_position: 83
 ---
 
-# Project管理の詳細
+プロジェクト管理
 
-テナント内のすべてのProjectを管理します。プロジェクトリストの確認、新規プロジェクトの作成、プロジェクトごとのリソース割り当ての制御が可能です。
 
-:::tip
-チーム、環境（dev/staging/prod）、またはビジネスユニット別にリソースをグループ化するためにProjectを使用すると、コスト追跡とアクセス制御がより簡単になります。
-:::
+権限: フェーズ 1 では、テナントオーナーのみがプロジェクトを管理する権限を持ちます。
 
-## 次のステップ
+### 1\. プロジェクトの管理
+  * ユーザーはシステム上のプロジェクトの一覧を表示できます
 
-- [VPC作成時のProject選択](./select-project-when-creating-VPC.md)
-- [ヘッダーインターフェースの変更](./header-project.md)
+
+![file](images/quan-ly-project/img-001.png)
+
+### 2\. プロジェクトの作成
+テナントオーナーは Unify Portal でプロジェクトを作成できます。
+
+**ステップ 1**: **プロジェクト管理** ページで、**Create Project** をクリックします
+
+**ステップ 2**: プロジェクト情報を入力します
+
+  * 名前: プロジェクトの名前
+
+  * 説明: プロジェクトの説明を入力します
+
+  * VPC を選択します (VPC を選択すると、他のプロジェクトに属している VPC は作成中のプロジェクトに移動されます)
+
+
+**ステップ 3**: **Create project** をクリックします
+
+システムはプロジェクト情報を保存し、ユーザーをプロジェクト管理ページにリダイレクトします。
+
+![file](images/quan-ly-project/img-002.png)
+
+### 3\. プロジェクトの編集
+  * テナントオーナーはプロジェクト情報を編集できます
+
+
+![file](images/quan-ly-project/img-003.png)
+
+### 4\. プロジェクトの削除
+  * テナントオーナーは Unify Portal から作成したプロジェクトを削除できます
+
+    * VPC が存在しないプロジェクトのみ削除できます
+
+    * デフォルトプロジェクトは削除できません — 情報の編集のみ可能です
+
+
+![file](images/quan-ly-project/img-004.png)

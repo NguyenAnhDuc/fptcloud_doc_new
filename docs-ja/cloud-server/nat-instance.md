@@ -1,35 +1,61 @@
 ---
 id: "nat-instance"
-title: "NAT Instance"
-description: "isolated networkのインスタンスがインターネットにアクセスできるようにNAT Instanceを設定します。"
+title: "Nat Instance"
 sidebar_label: "NAT Instance"
 sidebar_position: 54
 ---
 
-# NAT Instance
+NAT Instance
 
-NAT Instanceにより、isolated network内のインスタンスがインターネットにアクセスできるようになります。ソフトウェアのインストールやオンプレミス環境への接続に利用できます。
 
-## NAT Instanceのセットアップ
+この機能は、隔離されたネットワーク（isolated network）内のInstanceが、ソフトウェアのインストールやオンプレミス環境への接続など、外部のインターネットシステムにアクセスできるようにするものです。
 
-1. FCIが提供するイメージからNAT Instanceを作成します。
+NAT Instanceの設定手順は以下の通りです：
 
-   [![NAT Instanceイメージの選択](/img/migrated/image-1719483610635-8c2b0ddb.png)](/img/migrated/image-1719483610635-8c2b0ddb.png)
+**ステップ1**：FCIが提供するイメージからNAT Instanceを作成します。
 
-   [![NAT Instanceの設定](/img/migrated/image-1744796146357-3f0ad3a4.png)](/img/migrated/image-1744796146357-3f0ad3a4.png)
+![file](images/nat-instance/img-001.png)
 
-:::warning
-SubnetフィールドにはインターネットアクセスができるSubnetを選択する必要があります。
-:::
+![file](images/nat-instance/img-002.png)
 
-   [![Subnetの選択](/img/migrated/image-1744796019571-e2a7f4b2.png)](/img/migrated/image-1744796019571-e2a7f4b2.png)
+**注意：subnetフィールドでは、インターネットにアクセスできるSubnetを選択してください。**
 
-2. NAT Instanceに **Floating IP** をアタッチします（作成時にアタッチ済みの場合は省略）。
+![file](images/nat-instance/img-003.png)
 
-   [![Floating IPのアタッチ](/img/migrated/image-1719483638728-722a763b.png)](/img/migrated/image-1719483638728-722a763b.png)
+**ステップ2**：NAT InstanceにFloating IPを割り当てます。初期化ステップでInstanceにすでにFloating IPが割り当てられている場合は、この操作は不要です。
 
-3. isolated network内のインスタンスのデフォルトゲートウェイをNAT InstanceのNICに向けるよう設定します。
+![file](images/nat-instance/img-004.png)
 
-:::note
-1つのNAT Instanceは最大9つのisolated networkをサポートできます（routed network用のプライマリNICを除く）。
-:::
+![file](images/nat-instance/img-005.png)
+
+![file](images/nat-instance/img-006.png)
+
+**ステップ3**：NAT Instanceにsecurity groupを割り当てます。隔離されたネットワーク内のInstanceがインターネットにアクセスするために必要なルールを開いてください（pingテスト用にICMPポートを追加で開くこともできます）。初期化ステップでInstanceがすでにsecurity groupに割り当てられている場合は、この操作は不要です。
+
+![file](images/nat-instance/img-007.png)
+
+![file](images/nat-instance/img-008.png)
+
+**ステップ4**：インターネットアクセスが必要なInstanceの隔離されたSubnetと同じSubnetに属するNetwork Interface Card（NIC）を追加します。
+
+![file](images/nat-instance/img-009.png)
+
+![file](images/nat-instance/img-010.png)
+
+![file](images/nat-instance/img-011.png)
+
+**ステップ5**：隔離されたネットワークに属するNICに対してアドレスペア0.0.0.0/0を許可します。
+
+![file](images/nat-instance/img-012.png)
+
+![file](images/nat-instance/img-013.png)
+
+**ステップ6**：隔離されたネットワーク内のInstanceにアクセスし、ゲートウェイをNAT InstanceのNICのIPに変更します。この例では、FCIはWindows OSのInstanceを使用しています。
+
+![file](images/nat-instance/img-014.png)
+
+![file](images/nat-instance/img-015.png)
+
+![file](images/nat-instance/img-016.png)
+
+")

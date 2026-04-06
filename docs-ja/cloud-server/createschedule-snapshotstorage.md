@@ -1,32 +1,36 @@
 ---
 id: "createschedule-snapshotstorage"
-title: "ストレージディスクSnapshotスケジュールの作成"
-description: "DailyまたはWeeklyの頻度でストレージディスクの自動Snapshotスケジュールを作成します。"
-sidebar_label: "ストレージディスクSnapshotスケジュールの作成"
+title: "Createschedule Snapshotstorage"
+sidebar_label: "ディスクSnapshotスケジュールの作成"
 sidebar_position: 101
 ---
 
-# ストレージディスクSnapshotスケジュールの作成
+ディスクSnapshotスケジュールの作成
 
-## スケジュールの作成
 
-1. **Compute Engine** → **Schedule Management** に移動し、**Storage snapshot schedule** タブを選択します。
+新しいディスクSnapshotスケジュールを作成するには、以下の手順に従ってください。**ステップ1：** メニューでCompute Engine > Schedule Managementを選択し、「Storage snapshot schedule」タブを選択します。
 
-   [![Storage snapshot scheduleタブ](/img/migrated/image-1766044844669-47ffb5e0.png)](/img/migrated/image-1766044844669-47ffb5e0.png)
+![file](images/createschedule-snapshotstorage/img-001.png)
 
-2. 必要な情報を入力します：
-   - **Name**：スケジュール名。
-   - **Time**：時刻を選択します（現在時刻から少なくとも2時間後）。
-   - **Start date** / **End date** *（任意）*。
-   - **Frequency**：DailyまたはWeekly。
-   - **Applied Storage**：スケジュールにアタッチするストレージディスク。
+ステップ2：システムの要求に従って必要な情報を入力します：
 
-   [![Create Scheduleダイアログ](/img/migrated/image-1766044938913-12b00e98.png)](/img/migrated/image-1766044938913-12b00e98.png)
+  * Name：スケジュール名
 
-:::note
-各ストレージディスクは同時に1つのSnapshotスケジュールにのみアタッチできます。
-:::
+  * Time：スケジュールが正確に実行されるよう、編集時点から少なくとも2時間後の時刻のみ選択できます
 
-3. **Create Schedule** をクリックします。
+  * Start date：Snapshotスケジュールが繰り返し開始される日付。空白の場合は、スケジュールが正常に作成された時点から開始されます
 
-   [![作成されたスケジュール](/img/migrated/image-1766044968475-8510c5bd.png)](/img/migrated/image-1766044968475-8510c5bd.png)
+  * End date：Snapshotスケジュールが終了する日付。空白の場合は、スケジュールに有効期限はありません
+
+  * Frequency：Snapshot操作が実行される頻度
+
+  *     * Daily：毎日時間単位で実行されるスケジュール
+  *     * Weekly：週単位で実行されるスケジュール。曜日を選択できます
+  * Applied Storage：スケジュールに割り当てられたディスク（注意：各ディスクは同時に1つのスケジュールにのみ割り当てることができます）
+
+
+![file](images/createschedule-snapshotstorage/img-002.png)
+
+**ステップ3：** 「Create Schedule」をクリックします。システムはスケジュールの初期化を開始し、結果をお知らせします。成功した場合、新しいスケジュールはStorage snapshot scheduleページに表示されます。
+
+![file](images/createschedule-snapshotstorage/img-003.png)

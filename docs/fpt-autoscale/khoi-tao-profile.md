@@ -1,91 +1,120 @@
 ---
 id: "khoi-tao-profile"
-title: "Create Profile"
-description: "Guide to creating an Autoscale Profile on FPT Autoscale."
-sidebar_label: "Create Profile"
+title: "Khoi Tao Profile"
+sidebar_label: "Khoi Tao Profile"
 sidebar_position: 3
 ---
 
-# Create Profile
+Create a Profile
 
-## Step 1: Go to Autoscaling > Autoscale Profile. Click **Create profile**.
 
-[![create profile button](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)](/img/migrated/Screenshot-2024-09-30-141746-e33a4741.png)
+## **Step 1**: Go to **Autoscaling > Autoscale Profile**. Click **Create profile**.
 
-## Step 2: Configure the technical parameters.
+![create profile button](images/khoi-tao-profile/img-001.png)
 
-[![create profile page](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)](/img/migrated/screencapture-console-fptcloud-000823-IN-44f85951.png)
+## **Step 2**: Configure the technical parameters.
 
-**General information**
+![create profile page](images/khoi-tao-profile/img-002.png)
 
-Enter a profile name that is easy to manage. The name must not exceed 80 characters and may include Latin letters, numbers, underscores, hyphens, and periods.
+**General Information**
+
+Enter a profile name that is easy to manage. The name must not exceed 80 characters and may include Latin letters, numbers, underscores, hyphens, and dots.
 
 **Image**
 
-The available OS Families include: Ubuntu, Windows, CentOS, and Debian. Each OS group contains multiple distributions.
+Currently, the available OS Families include: Ubuntu, Windows, CentOS, and Debian. Each OS group contains multiple distributions.
 
-The Custom group is commonly preferred and contains images that have been customized and configured by users for their specific needs.
+The **Custom** group is typically the preferred choice — it contains images that have been customized and configured by users to suit their specific needs. Images in this group can be obtained by:
+
+  * Uploading a file from your local machine ([learn more](<https://fptcloud.com/documents/cloud-server/?doc=tai-len-custom-image> "Upload Custom Image"))
+  * Creating an Instance Template from an existing server ([learn more](<https://fptcloud.com/documents/cloud-server/?doc=tutorials-quan-ly-instance-template> "Manage Instance Template"))
+
 
 **Credentials**
 
-Supported authentication methods:
+Supported authentication methods include:
 
-- Password.
-- None: Select _None_ if no authentication is required when accessing the instance.
+  * **SSH:** Requires an SSH key created in advance within the VPC ([learn more](<https://fptcloud.com/documents/cloud-server/?doc=profile-ssh-key> "Profile SSH Key")).
+  * **Password.**
+  * **None:** If access and authentication are not required, select _None_ to skip authentication entirely.
 
-If the image belongs to the Custom group, the authentication method is already configured within the image and does not need to be changed.
+
+If the selected image belongs to the Custom group, it is assumed that the authentication method has already been configured within the image and no further changes are needed.
 
 **Resource**
 
-- CPU & RAM: Select appropriate specifications from the available options.
-- Storage: Select the disk type and capacity. The default is Premium-SSD with a minimum of 40 GB.
+CPU & RAM: Select the appropriate specifications based on the provided instance types.
 
-:::note
-The minimum recommended capacity is based on the selected image specifications. Reducing disk capacity below the image requirement may cause unexpected errors.
+Storage: Choose the disk type and capacity to suit your needs. The default is Premium-SSD with a minimum of 40 GB.
+
+
+:::warning
+The specific minimum capacity is suggested based on the selected image's requirements. Reducing disk size below the image's minimum requirement may cause unexpected errors.
 :::
+
 
 **Network**
 
-Select the appropriate subnet and security group within the VPC. The subnet and security group must be created before creating the profile.
+Select the appropriate subnet and security group within the VPC. The subnet and security group must be created in advance. If they do not exist yet, create them first:
+
+  * Subnet ([learn more](<https://fptcloud.com/documents/cloud-server/?doc=Qu%E1%BA%A3n%20l%C3%BD%20Subnets> "Manage Subnets"))
+  * Security group ([learn more](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group> "Manage Security Group"))
+
 
 **Advanced setting**
 
-Enter a [cloud-init](https://cloudinit.readthedocs.io/en/latest/topics/examples.html) script if needed. When a node starts, cloud-init reads metadata from the cloud and initializes the system based on it. Cloud-init is commonly used to set up networking, storage, SSH public keys, and other system components.
+Enter a [cloud-init](<https://cloudinit.readthedocs.io/en/latest/topics/examples.html> "Cloud config examples") script if needed. When a node starts, cloud-init reads the metadata provided by the cloud and initializes the system accordingly. Cloud-init is commonly used to set up networking, storage, SSH public keys, and other system components.
 
-Example: The sample script below installs the required packages, clones a static website from GitHub, and starts the nginx server. To view the result, assign a Floating IP to the node and access the website through that Floating IP.
+Example: With the following sample script, nodes in the group will install the required packages, clone a static website from GitHub, and start the nginx server. To verify the result, allocate a Floating IP to the node and access the website via that Floating IP.
+[code]
+    Copy
+    # Update apt database on first boot (run 'apt-get update').
+    # Note, if packages are given, or package_upgrade is true, then
+    # update will be done independent of this setting.
+    package_update: true
 
-```yaml
-# Update apt database on first boot
-package_update: true
+    # if packages are specified, this package_update will be set to true
+    # packages may be supplied as a single package name or as a list
+    # with the format [, ] wherein the specific
+    # package version will be installed.
+    packages:
+    - nginx
+    - git
 
-packages:
-  - nginx
-  - git
+    # runcmd contains a list of either lists or a string
+    # each item will be executed in order at rc.local like level with
+    # output to the console
+    # - runcmd only runs during the first boot
+    # - if the item is a list, the items will be properly executed as if
+    # passed to execve(3) (with the first arg as the command).
+    # - if the item is a string, it will be simply written to the file and
+    # will be interpreted by 'sh'
+    runcmd:
+    - systemctl enable nginx
+    - systemctl start nginx
+    - git clone https://github.com/cloudacademy/static-website-example.git
+    - cp -r ./static-website-example/* /var/www/html/
+    - rm -r ./static-website-example
+[/code]
 
-runcmd:
-  - systemctl enable nginx
-  - systemctl start nginx
-  - git clone https://github.com/cloudacademy/static-website-example.git
-  - cp -r ./static-website-example/* /var/www/html/
-  - rm -r ./static-website-example
-```
 
 :::warning
-Avoid including sensitive information in scripts such as passwords, tokens, secret keys, or personal data.
+Avoid including sensitive information in the script such as passwords, tokens, secret keys, or personal data.
 :::
 
-## Step 3: Click **Create profile** to confirm.
 
-After successful creation, the profile appears in the list of existing profiles.
+## **Step 3**: Click **Create profile** to confirm.
 
-[![list profiles after create](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)](/img/migrated/Screenshot-2024-09-30-172521-27261ff1.png)
+After creation, the profile appears in the list of existing profiles.
 
-View profile details by clicking the profile name in the list:
+![list profiles after create](images/khoi-tao-profile/img-003.png)
 
-[![click to view profile details](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)](/img/migrated/Screenshot-2024-10-01-164339-e3a959ae.png)
+You can view the profile details by clicking on the profile name in the list:
 
-[![profile detail page](/img/migrated/screencapture-console-fptcloud-000823-IN-5d746d0a.png)](/img/migrated/screencapture-console-fptcloud-000823-IN-5d746d0a.png)
+![click to view profile details](images/khoi-tao-profile/img-004.png)
 
-:::note
-Modifying the technical specifications of a profile is not currently supported, in order to ensure configuration reference consistency. However, you can rename a profile at any time.
-:::
+![profile detail page](images/khoi-tao-profile/img-005.png)
+
+## Notes
+
+Modifying the technical parameters of a profile is not currently supported — this ensures configuration consistency when referencing the profile. However, you can rename the profile at any time.

@@ -1,78 +1,84 @@
 ---
 id: "SSO-qua-FCDClient-cu"
-title: "旧FCDClient経由でSSOログイン"
-description: "デバイスにインストール済みの旧FCDClient経由でSSOログインするガイド"
-sidebar_label: "旧FCDClient経由"
+title: "Sso Qua Fcdclient Cu"
+sidebar_label: "Sso Qua Fcdclient Cu"
 sidebar_position: 7
-pagination_next: null
 ---
 
-# 旧FCDClient経由でSSOログイン
+旧FCDClientを使用したアクセス（旧フロー）
 
-以前インストールした旧FCDClientをまだ使用しているユーザー向けのガイドです。
 
-:::warning
-PCおよびノートパソコンでの旧FCDClientによるアクセスのサポートは**2026年3月31日以降**に終了します。その他のデバイスからのアクセスは別途通知があるまで引き続きサポートされます。業務の中断を避けるため、新しいFCDClientへの移行を早めに行ってください。
-:::
+以前インストールした旧FCDClientをご使用中のユーザー向けです。
 
-## 1. 正しいURLでサービスのホームページを開く
+**注意：**
+
+  * PC・ラップトップでの旧FCDClientによるアクセスは**2026年3月31日以降**にサポートが終了します。その他のデバイスでのアクセスは新たな通知があるまで引き続きサポートされます。業務の中断を避けるため、ユーザーは積極的に新しいFCDClientをインストールしてください。
+  * 旧フローでのアクセス操作は[Webブラウザによるアクセスガイド](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-web-browserr> "Webブラウザによるアクセスガイド")と同様ですが、仮想マシン選択ステップでFCDClientアクセス方法を選択する点のみ異なります。
+
+
+**1. 適切なURLでサービスホームページにアクセスする**
 
 有効なURL形式：
 
-- 組織専用のFCD URL（カスタマー管理者が提供）
-- 有効な認証コードを含むURL（形式：`code.domain`）。例：`pil783454741.pilotfcd.online`
-- サービスのデフォルトURL
+  * FCD用の企業・組織専用URL（顧客管理者がユーザーに提供）
+  * 有効な認証コードを既に含むURL（形式：code.domain）。例：pil783454741.pilotfcd.online
+  * サービスのデフォルトURL
 
-:::note
-URLはカスタマー管理者から提供されます。
-:::
 
-Webブラウザでサービスリンクを開き、**Access through FPT Cloud Desktop Client** を選択します。
+**このURL情報は顧客管理者が提供します。**
 
-[![FPT Cloud Desktopアクセス方法選択画面](/img/migrated/image-1767859575680-f5ed3897.png)](/img/migrated/image-1767859575680-f5ed3897.png)
+Webブラウザでサービスリンクにアクセスし、**Access through FPT Cloud Desktop Client**を選択します。
 
-## 2. Authenticator（Server）にサインインする
+![file](images/SSO-qua-FCDClient-cu/img-001.png)
 
-**有効な認証コードを含むURLでアクセスしている場合**（例：`pil783454741.pilotfcd.online`）：
+**2. 適切なAuthenticator（Server）にログインする**
 
-- SSOアカウント（例：Microsoftアカウント）でサインインし、対応するOTPを入力します。Authenticator（Server）へのログインが完了します。
+ユーザーが**有効な認証コードを既に含むURLでアクセスする場合**（例：有効なコードを含むURL：pil783454741.pilotfcd.online）：
 
-[![SSOログイン画面](/img/migrated/image-1767953411678-b06915c9.png)](/img/migrated/image-1767953411678-b06915c9.png)
+  * 対応するSSOアカウントでログインするだけです（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](images/SSO-qua-FCDClient-cu/img-002.png)
 
----
 
-**サービスのデフォルトURLからFCDClientをダウンロードした場合：**
+ユーザーがサービスのデフォルトURLからClientをダウンロードする場合：
 
-1. 認証コードを入力します（カスタマー管理者が提供）。例：`pil783454741`。
+  * Authentication Code情報を入力します（顧客管理者が管理する情報）（有効なAuthentication Codeの例：pil783454741）
 
-[![認証コード入力画面](/img/migrated/image-1767863050735-fee7cee6.png)](/img/migrated/image-1767863050735-fee7cee6.png)
 
-2. SSOアカウント（例：Microsoftアカウント）でサインインし、対応するOTPを入力します。Authenticator（Server）へのログインが完了します。
+![file](images/SSO-qua-FCDClient-cu/img-003.png)
 
-[![SSOログイン成功画面](/img/migrated/image-1767953411678-b06915c9.png)](/img/migrated/image-1767953411678-b06915c9.png)
+  * 対応するSSOアカウントでログインします（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](images/SSO-qua-FCDClient-cu/img-004.png)
 
-:::note
-**二段階認証のQRコードが表示された場合：**
 
-1. App StoreまたはGoogle Playから **Microsoft Authenticator** アプリをダウンロードしてインストールします。
+**3. 仮想マシンへのアクセス** 仮想マシンリスト画面で、アクセスしたい仮想マシンを選択します。**注意：** このステップでは、FCDClientアクセスオプションを選択します。
 
-[![二段階認証QRコード画面](/img/migrated/image-1767860622852-f00b8ad2.png)](/img/migrated/image-1767860622852-f00b8ad2.png)
+  * ユーザーが旧FCDClientをインストールしている場合：システムは旧FCDClientを開いて仮想マシンにアクセスします。システムが求めた場合は仮想マシンへのログイン情報を入力します => 仮想マシンへのアクセス成功。
+  *     * ユーザーが新しいFCDClientをインストールしている場合：システムはFCDClientを優先して開きます。ユーザーは[ステップ2：新しいFCDClientで仮想マシンへアクセスする](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "ステップ2：新しいFCDClientで仮想マシンへアクセスする")と同様のアクセス手順を再実施する必要があります。
 
-2. Authenticatorアプリを開いてQRコードをスキャンします。
 
-[![Microsoft AuthenticatorでQRコードをスキャン](/img/migrated/image-1767860691470-919c5b65.png)](/img/migrated/image-1767860691470-919c5b65.png)
+![file](images/SSO-qua-FCDClient-cu/img-005.png)
 
-3. アプリが同期してOTPを表示します。OTPを入力して **Submit** をクリックします。Authenticator（Server）へのログインが完了します。
-:::
+  * ログインしたいServerに対応するアカウント情報を入力します。
 
-## 3. バーチャルデスクトップにアクセスする
 
-バーチャルデスクトップ一覧画面で、アクセスしたいバーチャルデスクトップを選択します。
+**注意：** 2段階認証のQRコードが表示された場合：Apple StoreまたはCH Play/Google Playからスマートフォンに**Microsoft Authenticator**アプリをダウンロードしてインストールしてください。
 
-:::note
-このステップでは、FCDClient経由でアクセスするオプションを選択します。
-:::
+![file](images/SSO-qua-FCDClient-cu/img-006.png)
 
-旧FCDClientがインストールされている場合：システムが旧FCDClientを開いてバーチャルデスクトップにアクセスします。求められた場合はバーチャルデスクトップのログイン情報を入力します。バーチャルデスクトップへのアクセスが完了します。
+Authenticatorアプリを開いてQRコードをスキャンします。
 
-[![旧FCDClient経由でのバーチャルデスクトップアクセス](/img/migrated/image-1767865288885-77987978.png)](/img/migrated/image-1767865288885-77987978.png)
+![file](images/SSO-qua-FCDClient-cu/img-007.png)
+
+  * アプリが同期を行い、FPT Cloud Desktopへのログイン用OTPを表示します。
+  * OTPを入力して**Submit**をクリックします => Authenticator（Server）ログイン成功。
+
+
+**3. 仮想マシンへのアクセス**
+
+仮想マシンリスト画面で、アクセスしたい仮想マシンを選択します。
+
+**注意：** このステップでは、FCDClientアクセスオプションを選択します。
+
+  * ユーザーが旧FCDClientをインストールしている場合：システムは旧FCDClientを開いて仮想マシンにアクセスします。システムが求めた場合は仮想マシンへのログイン情報を入力します => 仮想マシンへのアクセス成功。
+  * ユーザーが新しいFCDClientをインストールしている場合：システムはFCDClientを優先して開きます。ユーザーは[ステップ2：新しいFCDClientで仮想マシンへアクセスする](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "ステップ2：新しいFCDClientで仮想マシンへアクセスする")と同様のアクセス手順を再実施する必要があります。
+
+
+![file](images/SSO-qua-FCDClient-cu/img-008.png)

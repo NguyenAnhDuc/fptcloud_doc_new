@@ -1,23 +1,16 @@
 ---
 id: "network-all"
-title: "ネットワーキング概要"
-description: "FPT Cloudのネットワークシステムは、従来型ネットワークからVPCまで企業向けの包括的なソリューションを提供します。"
-sidebar_label: "ネットワーキング概要"
+title: "Network All"
+sidebar_label: "ネットワーク概要"
 sidebar_position: 66
 ---
 
-# ネットワーキング概要
+Networking
 
-The FPT Cloud (FCI) networking system provides a comprehensive solution for enterprises — enabling you to build and manage network infrastructure from traditional models to Virtual Private Cloud (VPC) or the No-gateway model.
 
-:::note
-With the No-gateway model, you can set up your own system and manage it through a server acting as a router (for example, a Check-point firewall). IPs are assigned directly to the server and traffic is routed through the firewall.
-:::
+### ネットワーク概要
+FPT Smart Cloud（FCI）のネットワークシステムは、企業向けの包括的なソリューションを提供し、クラウドネットワークインフラの柔軟かつ安全な構築・管理を可能にします。Virtual Private Cloud（VPC）を基盤として、このシステムは内部リソースの接続、Subnetによるネットワーク分割、およびFloating IPを通じた外部アクセスをサポートします。Security Groupなどのセキュリティツールがリソースの制御と保護を提供し、Identity & Access Management（IAM）がユーザーの適切な権限管理を保証します。VPN Site-to-Siteによってオンプレミスネットワークとクラウド間の安全な接続が維持され、Load Balancerがトラフィックを効率的に分散させ、企業のサービスおよびアプリケーションの高いパフォーマンスを確保します。
 
-## Guides
+現在のFCIアーキテクチャは、従来のネットワークシステムから仮想プライベートネットワークの構築、さらにはNo-gatewayのような特定モデルまで、多様な要件に対応するよう設計されています。
 
-- [Networking Details](./networking-overview.md)
-- [Gateway](./gateway.md)
-- [Floating IP Management](./quan-ly-floating-ip.md)
-- [Subnet Management](./Quản%20lý%20Subnets.md)
-- [Allow Address Pair](./allow-address-pair.md)
+_No-gatewayモデルでは、お客様は独自のシステムを構築し、Check-pointファイアウォールなどのルーターとして機能するサーバーを通じて管理することができます。この構成では、IPがサーバーに直接割り当てられ、すべてのトラフィックはFCIが提供するゲートウェイを経由せずにCheck-pointを通じてルーティングされます。_

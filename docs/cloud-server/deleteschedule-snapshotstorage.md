@@ -1,22 +1,17 @@
 ---
 id: "deleteschedule-snapshotstorage"
-title: "Delete a Storage Disk Snapshot Schedule"
-description: "Delete a storage disk snapshot schedule when it is no longer needed."
-sidebar_label: "Delete Storage Disk Snapshot Schedule"
+title: "Deleteschedule Snapshotstorage"
+sidebar_label: "Delete a storage disk snapshot schedule"
 sidebar_position: 104
-pagination_next: null
 ---
 
-# Delete a Storage Disk Snapshot Schedule
+Delete a storage disk snapshot schedule
 
-:::danger
-Deleting a schedule cannot be undone.
-:::
 
-1. In the **Storage snapshot schedule** tab, click **Action** → **Delete**.
+**Step 1:** On the Storage snapshot schedule tab, select the schedule name in the action section and choose Delete.
 
-   [![Action Delete menu](/img/migrated/image-1766045198605-b5baee8c.png)](/img/migrated/image-1766045198605-b5baee8c.png)
+![file](images/deleteschedule-snapshotstorage/img-001.png)
 
-2. Type **delete**, then click **Delete schedule**.
+**Step 2:** A warning dialog will appear, displaying the schedule name and asking the user to confirm. Type the word "delete" and click **Delete schedule** to proceed. The system will then completely remove the schedule, and any virtual machines that are currently attached (if any) will be released and retain their current status.
 
-   [![Confirm delete](/img/migrated/image-1766045228117-02dc5687.png)](/img/migrated/image-1766045228117-02dc5687.png)
+![file](images/deleteschedule-snapshotstorage/img-002.png)

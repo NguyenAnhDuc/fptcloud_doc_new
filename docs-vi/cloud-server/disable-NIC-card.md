@@ -1,12 +1,12 @@
 ---
 id: "disable-NIC-card"
-title: "Disable Network Interface Card"
+title: "Tắt Network Interface Card"
 description: "Tắt card NIC để ngừng kết nối mạng qua card đó."
-sidebar_label: "Disable Network Interface Card"
+sidebar_label: "Tắt Network Interface Card"
 sidebar_position: 58
 ---
 
-# Disable Network Interface Card
+# Tắt Network Interface Card
 
 Bạn có thể tắt tạm thời card NIC trên máy ảo để ngừng kết nối mạng qua giao diện đó mà không cần xóa card.
 

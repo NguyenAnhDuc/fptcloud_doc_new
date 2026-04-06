@@ -1,43 +1,54 @@
 ---
 id: "faq"
 title: "Faq"
-description: "Faq — Model Testing上の機能。"
+description: "Các câu hỏi thường gặp về Model Testing – Interactive Sessions."
 sidebar_label: "Faq"
 sidebar_position: "17"
+pagination_next: null
 ---
 
 # Faq
 
-### 1. What is Model Testing - Interactive Sessions?
-Model Testing - Interactive Sessions is a service in the FPT AI Factory Portal that allows users to **test and validate fine-tuned AI models** in real-world scenarios through a chat-like interface.
+### 1. Model Testing – Interactive Sessions là gì?
 
-### 2. When should I use Model Testing - Interactive Sessions?
-Use them when you want to:
-  * Simulate real user interactions
-  * Evaluate tone, style, and contextual relevance
-  * Identify edge cases or unexpected behaviors before deployment.
+Model Testing – Interactive Sessions là dịch vụ trong FPT AI Factory Portal cho phép bạn **kiểm thử và xác thực các model AI đã fine-tune** trong các tình huống thực tế thông qua giao diện dạng chat.
 
-### 3. What model can be used in Model Testing - Interactive Sessions?
-Only model that meet these criteria:
-  * **Model type:** LLM (text-only) or VLM (text + image)
-  * **Model size:** greater than 0
-  * **Learning stage** : Must be Instruction-tuned
+### 2. Khi nào nên sử dụng Model Testing – Interactive Sessions?
 
-### 4. How do I create a session?
-  1. Go to **Model Testing -- > Interactive Sessions**
-  2. Click **Create New Session**
-  3. Fill in session name, description, select model, and set session stop.
-  4. Submit the session
+Bạn nên sử dụng khi muốn:
 
-### 5. Can I restart a stopped session?
-No. Once stopped, a session cannot be restarted. You must create a new one.
+* Mô phỏng các tương tác người dùng thực tế.
+* Evaluate giọng điệu, phong cách và tính phù hợp ngữ cảnh.
+* Xác định các trường hợp ngoại lệ hoặc hành vi không mong muốn trước khi triển khai.
 
-### 6. What is the Playground?
-The Playground is where you:
-  * Chat with the model
-  * Adjust parameters (temperature, top-p, output length, add stop sequence)
-  * Refine messages and evaluate responses.
+### 3. Model nào có thể sử dụng trong Model Testing – Interactive Sessions?
 
-### 7. How do I integrate the model via API?
-  1. Click **Get API Endpoint** in the Playground.
-  2. Copy sample code to send requests.
+Chỉ các model đáp ứng các tiêu chí sau:
+
+* **Loại model:** LLM (chỉ văn bản) hoặc VLM (văn bản + hình ảnh)
+* **Kích thước model:** lớn hơn 0
+* **Giai đoạn học:** Phải là Instruction-tuned
+
+### 4. Làm thế nào để tạo một session?
+
+1. Đi đến **Model Testing --> Interactive Sessions**.
+2. Nhấp **Create New Session**.
+3. Điền tên session, mô tả, chọn model và thiết lập session stop.
+4. Gửi session.
+
+### 5. Tôi có thể khởi động lại một session đã dừng không?
+
+Không. Sau khi dừng, một session không thể khởi động lại. Bạn phải tạo một session mới.
+
+### 6. Playground là gì?
+
+Playground là nơi bạn:
+
+* Trò chuyện với model.
+* Điều chỉnh các tham số (temperature, top-p, output length, thêm stop sequence).
+* Tinh chỉnh tin nhắn và evaluate phản hồi.
+
+### 7. Làm thế nào để integrate model qua API?
+
+1. Nhấp **Get API Endpoint** trong Playground.
+2. Sao chép sample code để gửi requests.

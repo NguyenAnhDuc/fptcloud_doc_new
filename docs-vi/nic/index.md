@@ -1,12 +1,12 @@
 ---
 id: "nic"
-title: "Network Interface Card (NIC)"
+title: "Tổng quan NIC"
 description: "Giới thiệu tổng quan về Network Interface Card (NIC) trên FPT Cloud."
-sidebar_label: "Network Interface Card (NIC)"
+sidebar_label: "Tổng quan NIC"
 sidebar_position: 1
 ---
 
-# Network Interface Card (NIC)
+# Tổng quan NIC
 
 ## Tổng quan
 
