@@ -42,7 +42,7 @@ Người dùng có thể thiết lập key mới bằng cách nhấn chọn **Re
 | **Customer gateway**  |   |  
 | Customer gateway  | Là thông tin cấu hình ở đầu còn lại kết nối, ở bước này cần chọn đúng Customer Gateway muốn kết nối   
   
-Nếu bạn chưa có Customer Gateway, vui lòng click [tại đây](../vpn-site-to-site/index.md) để xem hướng dẫn khởi tạo  |  
+Nếu bạn chưa có Customer Gateway, vui lòng click [tại đây](/docs/vi/fpt-network/vpn-site-to-site/)/ để xem hướng dẫn khởi tạo  |  
 | Providers  | Danh sách các nhà cung cấp kết nối VPN tới FCI.  |  
 | **IKE Policy**  |   |  
 | Authorization algorithm  | Thuật toán được sử dụng để xác thực dữ liệu trong quá trình thiết lập kết nối VPN.  

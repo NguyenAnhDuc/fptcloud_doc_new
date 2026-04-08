@@ -9,8 +9,8 @@ sidebar_position: 1
 # Initial setup
 
 To get started with FPT Object Storage, users need to complete the following tasks:
-  1. [Create an FPT Cloud account and log in.](../fpt-object-storage/index.md)
-  2. [Request Object Storage service quota.](../fpt-object-storage/index.md)
+  1. [Create an FPT Cloud account and log in.](/docs/en/fpt-storage/fpt-object-storage/)/
+  2. [Request Object Storage service quota.](/docs/en/fpt-storage/fpt-object-storage/)/
 
 ## Create an FPT Cloud Account and Log In
 To register for an FPT Cloud account, please visit the [FPT Cloud homepage](https://fptcloud.com/).

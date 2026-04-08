@@ -24,8 +24,8 @@ Các thao tác trong nhóm này áp dụng ở cấp database resource và yêu 
 | FDE:hide_admin_pw  | View  | Quyền chặn xem mật khẩu quản trị của cơ sở dữ liệu.  |  
 | manageDatabase:Delete  | Delete  | Quyền xóa cơ sở dữ liệu.  |  
 Để quản lý và vận hành cơ sở dữ liệu, vui lòng tham khảo hướng dẫn chi tiết tại các mục:
-  * [Xem danh sách cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Hiển thị danh sách các cơ sở dữ liệu bạn có quyền truy cập, bao gồm trạng thái, cấu hình và các thông tin quan trọng.
-  * [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Khởi tạo một cơ sở dữ liệu mới bằng cách lựa chọn hệ quản trị, phiên bản, flavor và các cấu hình cần thiết khác.
-  * [Kết nối cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Tìm hiểu cách lấy thông tin kết nối và kết nối tới cơ sở dữ liệu từ ứng dụng hoặc các công cụ client.
-  * [Vận hành cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md): Thực hiện các thao tác vận hành phổ biến như khởi động, dừng, khởi động lại, quản lý cấu hình và theo dõi cơ sở dữ liệu.
+  * [Xem danh sách cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/: Hiển thị danh sách các cơ sở dữ liệu bạn có quyền truy cập, bao gồm trạng thái, cấu hình và các thông tin quan trọng.
+  * [Khởi tạo cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/: Khởi tạo một cơ sở dữ liệu mới bằng cách lựa chọn hệ quản trị, phiên bản, flavor và các cấu hình cần thiết khác.
+  * [Kết nối cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/: Tìm hiểu cách lấy thông tin kết nối và kết nối tới cơ sở dữ liệu từ ứng dụng hoặc các công cụ client.
+  * [Vận hành cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/: Thực hiện các thao tác vận hành phổ biến như khởi động, dừng, khởi động lại, quản lý cấu hình và theo dõi cơ sở dữ liệu.
   * "7.2.5. Nâng cấp phiên bản cơ sở dữ liệu": Nâng cấp phiên bản hệ quản trị cơ sở dữ liệu để sử dụng các tính năng mới, cải tiến hiệu năng và bản vá bảo mật.

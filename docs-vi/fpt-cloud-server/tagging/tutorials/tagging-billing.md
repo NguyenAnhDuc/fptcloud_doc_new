@@ -11,4 +11,4 @@ pagination_next: null
 
 Tagging Billing giúp bạn theo dõi chi phí theo từng nhóm tài nguyên đã gắn tag — đặc biệt hữu ích khi cần phân bổ chi phí theo dự án, phòng ban hoặc môi trường.
 
-Bạn có thể xem chi phí phân tích theo tag tại: [**Cost Explorer**](../../cost-explorer/index.md).
+Bạn có thể xem chi phí phân tích theo tag tại: [**Cost Explorer**](/docs/vi/billing/cost-explorer/)/.

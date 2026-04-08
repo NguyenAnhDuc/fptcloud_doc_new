@@ -9,9 +9,9 @@ sidebar_position: "22"
 # Connect FCI to VMware
 
 This guide explains how to connect VPNaaS between the VMware and OPS platforms on the Unify portal.
-  * [Step 1: Configure VPN on OpenStack](../vpn-site-to-site/index.md)
-  * [Step 2: Configure VPN on VMware Cloud](../vpn-site-to-site/index.md)
-  * [Step 3: Verify the connection](../vpn-site-to-site/index.md)
+  * [Step 1: Configure VPN on OpenStack](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 2: Configure VPN on VMware Cloud](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 3: Verify the connection](/docs/en/fpt-network/vpn-site-to-site/)/
 
 Ensure the following prerequisites are met:
   * VPNaaS on OPS configured on the Unify Portal

@@ -10,7 +10,7 @@ sidebar_position: 5
 
 D-FKE は worker node の手動スケールイン/スケールアウトをサポートしており、ユーザーが必要に応じて worker の数を手動で増減できます。
 
-Portal コンソールでの手動スケールイン/スケールアウト手順: [こちら](../dedicated-fpt-kubernetes-engine/index.md) のユーザーガイドを参照してください。
+Portal コンソールでの手動スケールイン/スケールアウト手順: [こちら](/docs/ja/fpt-container/dedicated-fpt-kubernetes-engine/)/ のユーザーガイドを参照してください。
 
 ## 手動スケールインの処理フロー詳細
 
@@ -54,4 +54,4 @@ Portal コンソールでの手動スケールイン/スケールアウト手順
 - 1 回の手動スケールアウトで追加する node 数を少なくし、1 回あたり 10 node 以下にすることを推奨します。
 
 **処理がタイムアウトした場合:**
-- retry アクションを押して処理を再実行できます。詳細は[こちら](../dedicated-fpt-kubernetes-engine/index.md)を参照してください。
+- retry アクションを押して処理を再実行できます。詳細は[こちら](/docs/ja/fpt-container/dedicated-fpt-kubernetes-engine/)/を参照してください。

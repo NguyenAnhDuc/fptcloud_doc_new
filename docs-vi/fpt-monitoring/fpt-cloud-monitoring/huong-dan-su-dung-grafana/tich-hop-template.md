@@ -12,8 +12,8 @@ Phần này hướng dẫn cách tích hợp Dashboard Template và Alert rule t
 
 ## Tích hợp Dashboard Template
 
-Xem chi tiết tại: [Tích hợp Dashboard Template](../huong-dan-su-dung-grafana/index.md)
+Xem chi tiết tại: [Tích hợp Dashboard Template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
 
 ## Tích hợp Alert rule template
 
-Xem chi tiết tại: [Tích hợp Alert rule template](../huong-dan-su-dung-grafana/index.md)
+Xem chi tiết tại: [Tích hợp Alert rule template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/

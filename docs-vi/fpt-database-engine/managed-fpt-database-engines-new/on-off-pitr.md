@@ -12,7 +12,7 @@ Chức năng **Point-in-Time Recovery (PITR)** cho phép người dùng khôi ph
 Hiện tại, **FPT Cloud hỗ trợ PITR cho engine PostgreSQL**. Phần hướng dẫn này cung cấp các bước chi tiết để bật hoặc tắt chức năng PITR cho PostgreSQL.
 
 ### 1. Bật PITR
-Người dùng có thể bật chức năng PITR cho PostgreSQL ngay khi kích hoạt dịch vụ Backup (tham khảo chi tiết tại mục [Kích hoạt dịch vụ Backup](../managed-fpt-database-engines-new/index.md)) hoặc bật sau khi dịch vụ Backup đã được kích hoạt theo hướng dẫn bên dưới.
+Người dùng có thể bật chức năng PITR cho PostgreSQL ngay khi kích hoạt dịch vụ Backup (tham khảo chi tiết tại mục [Kích hoạt dịch vụ Backup](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/) hoặc bật sau khi dịch vụ Backup đã được kích hoạt theo hướng dẫn bên dưới.
 
 #### Điều kiện tiên quyết:
 Để kích hoạt PITR, cơ sở dữ liệu bắt buộc phải có ít nhất một job backup full đã được tạo. Vui lòng cấu hình job backup full trước khi tiếp tục bật PITR.

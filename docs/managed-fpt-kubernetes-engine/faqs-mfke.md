@@ -25,7 +25,7 @@ M-FKE defaults to a maximum limit of 100 Worker Nodes per Worker Group and 10 Wo
 M-FKE uses native Kubernetes, making it fully compatible with Kubernetes platforms on other clouds such as AWS, Azure, GCP, DO, as well as Kubernetes clusters you install on your infrastructure. This facilitates easy migration of applications between FPT Cloud, your data center, and other clouds.
 
 ### How can I expose my application outside the cluster?
-There are several ways to expose your application outside the cluster for customer use. One simple method is to use the [Load Balancer Services](../managed-fpt-kubernetes-engine/index.md) as instructed.
+There are several ways to expose your application outside the cluster for customer use. One simple method is to use the [Load Balancer Services](/docs/en/fpt-container/managed-fpt-kubernetes-engine/)/ as instructed.
 
 ### How can I monitor performance and configure alerts for the cluster?
 FPT Cloud provides the FMON product to help you monitor performance and configure alerts for the Kubernetes cluster. Additionally, FMON offers logging and tracing for easy integration with FKE.

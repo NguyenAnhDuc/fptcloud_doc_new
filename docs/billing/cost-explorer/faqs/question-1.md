@@ -16,7 +16,7 @@ Contact FCI Sale Support to set up service pricing and enable billing data displ
 
 **2. Your account does not have the Tenant Owner role.**
 
-Ask a Tenant Owner in your organization to grant IAM permissions following the guide at [Grant billing permissions](../billing/index.md).
+Ask a Tenant Owner in your organization to grant IAM permissions following the guide at [Grant billing permissions](/docs/en/billing/)/.
 
 **3. Your account has sufficient billing view permissions but no data appears.**
 

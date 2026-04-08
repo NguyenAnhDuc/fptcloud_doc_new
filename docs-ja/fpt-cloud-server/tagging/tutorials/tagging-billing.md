@@ -11,4 +11,4 @@ pagination_next: null
 
 タグ別請求を使用すると、割り当てたtagに基づいてリソースグループごとのコストを追跡できます。プロジェクト、部門、環境別にコストを配分する際に特に便利です。
 
-tagごとのコスト分析は [**Cost Explorer**](../../cost-explorer/index.md) で確認できます。
+tagごとのコスト分析は [**Cost Explorer**](/docs/ja/billing/cost-explorer/)/ で確認できます。

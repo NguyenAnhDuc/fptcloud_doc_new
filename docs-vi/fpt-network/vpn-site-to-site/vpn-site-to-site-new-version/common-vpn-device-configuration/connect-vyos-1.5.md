@@ -9,9 +9,9 @@ sidebar_position: 4
 # Cấu hình VPN Site-to-Site với Vyos 1.5
 
 Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud. 
-  * [Bước 1: Build Vyos1.5 for Cloud](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình cho VPN Site-to-Site](../vpn-site-to-site/index.md)
-  * [Bước 3: Cấu hình cho Vyos](../vpn-site-to-site/index.md)
+  * [Bước 1: Build Vyos1.5 for Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 2: Cấu hình cho VPN Site-to-Site](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 3: Cấu hình cho Vyos](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Cần đảm bảo các điều kiện sau:
   * VPNAAS trên trang Portal

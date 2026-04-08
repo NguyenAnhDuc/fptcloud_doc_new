@@ -16,12 +16,12 @@ Chức năng **Vertical Scaling** cho phép tự động điều chỉnh tài ng
 | manageDatabase:Configuration  | Edit  | Quyền thay đổi cấu hình cơ sở dữ liệu (parameter, cấu hình scaling, ...)  |  
 
 ### 1. Kích hoạt dịch vụ Vertical Scaling
-Để kích hoạt dịch vụ Vertical Scaling, bạn có thể thực hiện trực tiếp trong bước cấu hình dịch vụ bổ sung (Additional Service) khi khởi tạo cơ sở dữ liệu (xem chi tiết tại mục [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md)) hoặc kích hoạt sau khi cơ sở dữ liệu đã được khởi tạo thành công theo hướng dẫn dưới đây.
+Để kích hoạt dịch vụ Vertical Scaling, bạn có thể thực hiện trực tiếp trong bước cấu hình dịch vụ bổ sung (Additional Service) khi khởi tạo cơ sở dữ liệu (xem chi tiết tại mục [Khởi tạo cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/) hoặc kích hoạt sau khi cơ sở dữ liệu đã được khởi tạo thành công theo hướng dẫn dưới đây.
 
 #### Điều kiện tiên quyết:
 Để kích hoạt Vertical Scaling, bạn bắt buộc phải bật dịch vụ Notification và hoàn tất cấu hình danh sách Email hoặc Telegram để nhận cảnh báo liên quan đến hoạt động scale. Nếu Notification chưa được cấu hình, hệ thống sẽ hiển thị hộp thoại yêu cầu cấu hình trước khi tiếp tục.
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
-Nhấn **Go to Notification** để chuyển đến tab **Notification** và thực hiện cấu hình theo hướng dẫn tại mục [Notification](../managed-fpt-database-engines-new/index.md).
+Nhấn **Go to Notification** để chuyển đến tab **Notification** và thực hiện cấu hình theo hướng dẫn tại mục [Notification](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/.
 
 #### Bước 1: Truy cập chức năng Vertical Scaling
 Thực hiện đăng nhập vào FPT Cloud Portal. Sau khi đăng nhập thành công, từ menu chính, chọn "**Database Platform** " > "**All Databases** ". Nhấn vào ID của database cluster cần quản lý > chuyển sang tab **Vertical Scaling** để truy cập trang quản lý cấu hình Vertical Scaling. Nếu dịch vụ chưa được kích hoạt, màn hình **Vertical Scaling** sẽ hiển thị trạng thái ban đầu (**Inactive**).

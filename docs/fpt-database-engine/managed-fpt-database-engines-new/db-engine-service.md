@@ -19,4 +19,4 @@ The **FPT Database Engine service management** function group plays an important
 
 **Activating / Deactivating the FPT Database Engine service:**
 
-To manage the FPT Database Engine service, please refer to the detailed instructions in the [Activate FPT Database Engine](../managed-fpt-database-engines-new/index.md) and [Deactivate FPT Database Engine](../managed-fpt-database-engines-new/index.md) sections.
+To manage the FPT Database Engine service, please refer to the detailed instructions in the [Activate FPT Database Engine](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ and [Deactivate FPT Database Engine](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ sections.

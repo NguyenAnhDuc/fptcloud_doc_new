@@ -9,10 +9,10 @@ sidebar_position: 5
 # Cấu hình VPN Site-to-Site với CheckPoint R81.20
 
 **Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud.**
-  * [Bước 1: Build CheckPoint for Cloud](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình cho VPN Site-to-Site](../vpn-site-to-site/index.md)
-  * [Bước 3: Cấu hình cho CheckPoint](../vpn-site-to-site/index.md)
-  * [Bước 4: Debug- Tracert](../vpn-site-to-site/index.md)
+  * [Bước 1: Build CheckPoint for Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 2: Cấu hình cho VPN Site-to-Site](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 3: Cấu hình cho CheckPoint](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 4: Debug- Tracert](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Cần đảm bảo các điều kiện sau: 
   * VPN Site-to-Site trên trang portal

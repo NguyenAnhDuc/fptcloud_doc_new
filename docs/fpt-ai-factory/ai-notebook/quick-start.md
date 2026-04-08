@@ -28,18 +28,18 @@ sidebar_position: 5
   1. On the left menu, under **Account** section, select **Billing**
   2. Click **Add Credit** and enter an amount and payment information.
   3. If you have a voucher from FPT, apply your valid code under **Add Voucher** to redeem credits.
-  4. Check out the detailed guide [here](../ai-factory-billing/index.md)
+  4. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-factory-billing/)/
 
 ## Step 5: Create AI Notebook
 
   1. From the **Launcher**, you can choose to create a notebook that connects to CPU/GPU.
-  2. Check out the detailed guide [here](../ai-notebook/index.md)
+  2. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/)/
 
 ## Step 6: Connect notebook to a new/existing kernel
 
   1. To start a new kernel, select the kernel you want from **Start Other Kernels** in the **kernel configuration menu**.
   2. To connect your notebook to an existing kernel, select the kernel you want from **Running Kernels** in the **kernel configuration menu**.
-  3. Check out the detailed guide [here](../ai-notebook/index.md)
+  3. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/)/
 
 ## Step 7: Shut down kernel
 

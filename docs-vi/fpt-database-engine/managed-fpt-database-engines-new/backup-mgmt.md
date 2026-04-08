@@ -11,7 +11,7 @@ sidebar_position: 27
 Mục này hướng dẫn người dùng các bước chi tiết để thực hiện các nghiệp vụ liên quan đến dịch vụ Backup, bao gồm kích hoạt, điều chỉnh và huỷ dịch vụ Backup.
 
 ### 1. Kích hoạt dịch vụ Backup
-Để kích hoạt dịch vụ Backup, bạn có thể thực hiện trực tiếp trong bước cấu hình dịch vụ bổ sung (Additional Service) khi khởi tạo cơ sở dữ liệu (xem chi tiết tại mục [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md) hoặc kích hoạt sau khi cỡ sở dữ liệu đã được khởi tạo theo hướng dẫn dưới đây.
+Để kích hoạt dịch vụ Backup, bạn có thể thực hiện trực tiếp trong bước cấu hình dịch vụ bổ sung (Additional Service) khi khởi tạo cơ sở dữ liệu (xem chi tiết tại mục [Khởi tạo cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/ hoặc kích hoạt sau khi cỡ sở dữ liệu đã được khởi tạo theo hướng dẫn dưới đây.
 
 #### Điều kiện tiên quyết
 Điều kiện cần để kích hoạt dịch vụ Backup là phải bật dịch vụ **Notification** và hoàn tất cấu hình danh sách email hoặc Telegram dùng để nhận cảnh báo liên quan đến hoạt động backup trước. Nếu chưa cấu hình Notification sẽ hiển thị hộp thoại như sau:

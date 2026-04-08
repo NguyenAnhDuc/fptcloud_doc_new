@@ -51,7 +51,7 @@ FPT Database Engine cung cấp các cơ chế để người dùng chủ động
   * Chỉnh sửa Maintenance Window sau khi cluster đã được triển khai.
   * Theo dõi các Pending Maintenance Events (sự kiện bảo trì sắp diễn ra).
 
-Hướng dẫn chi tiết xem tại mục [Maintenance Window](../managed-fpt-database-engines-new/index.md).
+Hướng dẫn chi tiết xem tại mục [Maintenance Window](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/.
 
 #### Bảo trì khẩn cấp:
 Trong một số trường hợp đặc biệt, chẳng hạn như vá lỗi bảo mật nghiêm trọng hoặc cập nhật quan trọng, hệ thống có thể tiến hành bảo trì khẩn cấp ngoài Maintenance Window để đảm bảo an toàn dữ liệu và vận hành ổn định.

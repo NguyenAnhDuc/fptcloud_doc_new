@@ -55,7 +55,7 @@ Copyssh-ed25519 AAAAC4NzaC1lZDI1JTE5AAAAIGP+L8hnjIcBqUb8NRrDiC32FuJBvRA0m8jLShzg
 
 ### 6. Advanced Settings (Optional)
 This section includes: 
-a. **Persistent Disk** : specify the amount of storage that users need to store training weights, models, etc. Read more about Storage [here](../gpu-container/index.md)
+a. **Persistent Disk** : specify the amount of storage that users need to store training weights, models, etc. Read more about Storage [here](/docs/en/gpu-container/)/
 b. **Environment Variables** : key-value pairs injected into the container at runtime.
 c. **Startup Command** : command and arguments to run at the start of container. 
 

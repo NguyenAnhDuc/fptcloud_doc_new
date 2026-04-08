@@ -33,7 +33,7 @@ This feature helps minimize impact on business operations and improve service st
 
 #### Steps
 
-When creating a new cluster, users can select the maintenance window during the **Additional Service** configuration step (see [Creating a database](../managed-fpt-database-engines-new/index.md) for details) and the system will apply the configuration from the first operation.
+When creating a new cluster, users can select the maintenance window during the **Additional Service** configuration step (see [Creating a database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details) and the system will apply the configuration from the first operation.
 
 During use, users can update the maintenance time window using the steps below:
 
@@ -69,4 +69,4 @@ Scheduled maintenance events will be displayed in the **Pending Maintenance Even
 
 Users should regularly monitor the maintenance schedule to proactively plan operations and minimize impact on services.
 
-The system will send email notifications before maintenance activities occur. Currently two notification points are supported: 7 days before and 1 day before. To configure the email list for receiving maintenance notifications, access the **Notification** tab and adjust the settings for the **Maintenance** service (see [Notification](../managed-fpt-database-engines-new/index.md) for details).
+The system will send email notifications before maintenance activities occur. Currently two notification points are supported: 7 days before and 1 day before. To configure the email list for receiving maintenance notifications, access the **Notification** tab and adjust the settings for the **Maintenance** service (see [Notification](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details).

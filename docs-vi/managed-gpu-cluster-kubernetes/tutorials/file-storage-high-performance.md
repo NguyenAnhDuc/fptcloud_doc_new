@@ -9,9 +9,9 @@ sidebar_position: 5
 # Lưu ý điều kiện để sử dụng High Performance Storage bao gồm :
 
 **Lưu ý điều kiện để sử dụng High Performance Storage bao gồm** : 
-  1. Các điều kiện bắt buộc để khởi tạo Managed GPU cluster (Active service, quota metal cloud, ssh key, internal subnet LB, ...). Tham khảo trong tài liệu khởi tạo Managed GPU Cluster [tại đây](../fpt-managed-gpu-cluster/index.md).
+  1. Các điều kiện bắt buộc để khởi tạo Managed GPU cluster (Active service, quota metal cloud, ssh key, internal subnet LB, ...). Tham khảo trong tài liệu khởi tạo Managed GPU Cluster [tại đây](/docs/vi/managed-gpu-cluster-kubernetes/tutorials/fpt-managed-gpu-cluster/)/.
   2. Đảm bảo service File Storage – High Performance đã được enable và cấp quota trong tenant.
-  3. Cần có MountPoint nào thuộc network của Metal cloud muốn sử dụng, di chuyển đến tab File Storage – High Performance để tạo MountPoint mới theo hướng dẫn [tại đây](../file-storage-high-performance/index.md)
+  3. Cần có MountPoint nào thuộc network của Metal cloud muốn sử dụng, di chuyển đến tab File Storage – High Performance để tạo MountPoint mới theo hướng dẫn [tại đây](/docs/vi/fpt-storage/file-storage-high-performance/)/
 **Enable dịch vụ File Storage – High Performance với Managed GPU cluster trên giao diện FPTcloud Unify Portal.**
 
 ➤ 1.1. Tích hợp với Managed GPU cluster tạo mới: 

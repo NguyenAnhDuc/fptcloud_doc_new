@@ -11,7 +11,7 @@ sidebar_position: "8"
 1. IPアドレスを変更したいNICカードを選択します。
 
 :::warning
-この操作はKubernetesやLoad Balancerなどのサービスに影響を与える可能性があります。実行前に十分に検討してください。変更後は、OSの設定ファイルでネットワーク設定を更新する必要があります。参照: [How to change Config file](../change-network-config/index.md)
+この操作はKubernetesやLoad Balancerなどのサービスに影響を与える可能性があります。実行前に十分に検討してください。変更後は、OSの設定ファイルでネットワーク設定を更新する必要があります。参照: [How to change Config file](/docs/ja/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/
 :::
 
 [![NICカードの選択](/img/migrated/image-1691383107122-1741e5c6.png)](/img/migrated/image-1691383107122-1741e5c6.png)

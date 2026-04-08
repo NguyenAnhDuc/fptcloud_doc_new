@@ -10,9 +10,9 @@ sidebar_position: 5
 
 **High Performance Storageを使用するための前提条件：**
 
-1. Managed GPU clusterを初期化するための必須条件（サービスのアクティベーション、Metal Cloudクォータ、SSHキー、Internal LBサブネットなど）を満たす必要があります。Managed GPU Cluster初期化ガイドは[こちら](../fpt-managed-gpu-cluster/index.md)を参照してください。
+1. Managed GPU clusterを初期化するための必須条件（サービスのアクティベーション、Metal Cloudクォータ、SSHキー、Internal LBサブネットなど）を満たす必要があります。Managed GPU Cluster初期化ガイドは[こちら](/docs/ja/managed-gpu-cluster-kubernetes/tutorials/fpt-managed-gpu-cluster/)/を参照してください。
 2. File Storage – High PerformanceサービスがテナントでEnableになり、クォータが割り当てられていること。
-3. 使用したいMetal Cloudネットワークに属するMountPointが存在すること。File Storage – High Performanceタブに移動して、[こちら](../file-storage-high-performance/index.md)のガイドに従って新しいMountPointを作成してください。
+3. 使用したいMetal Cloudネットワークに属するMountPointが存在すること。File Storage – High Performanceタブに移動して、[こちら](/docs/ja/fpt-storage/file-storage-high-performance/)/のガイドに従って新しいMountPointを作成してください。
 
 **FPTcloud Unify Portal上でManaged GPU ClusterとFile Storage – High Performanceを統合する。**
 

@@ -11,7 +11,7 @@ sidebar_position: 21
 Chức năng **Khởi tạo cơ sở dữ liệu** cho phép triển khai nhanh các cơ sở dữ liệu khác nhau trên nền tảng FPT Database Engine mà không cần cấu hình chi tiết hạ tầng vật lý. Việc khởi tạo một cụm cơ sở dữ liệu mới yêu cầu bạn nhập các cấu hình liên quan đến loại engine, network, định danh cluster, và các dịch vụ bổ sung như backup và auto-scaling. Hướng dẫn chi tiết mô tả ngay dưới đây.
 
 ### Bước 1: Mở màn hình tạo cơ sở dữ liệu
-Truy cập trang danh sách cơ sở dữ liệu tương ứng với loại cơ sở dữ liệu cần tạo (chi tiết xem mục [Xem danh sách cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md), chọn **Create a Database Engine** hoặc **Create** để bắt đầu quá trình khởi tạo một cơ sở dữ liệu mới. Màn hình **Create New Database** sẽ được mở, cho phép bạn cấu hình các thông số cần thiết để định nghĩa và triển khai cơ sở dữ liệu trong môi trường FPT Database Engine. Tiến trình triển khai gồm 3 bước:
+Truy cập trang danh sách cơ sở dữ liệu tương ứng với loại cơ sở dữ liệu cần tạo (chi tiết xem mục [Xem danh sách cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/, chọn **Create a Database Engine** hoặc **Create** để bắt đầu quá trình khởi tạo một cơ sở dữ liệu mới. Màn hình **Create New Database** sẽ được mở, cho phép bạn cấu hình các thông số cần thiết để định nghĩa và triển khai cơ sở dữ liệu trong môi trường FPT Database Engine. Tiến trình triển khai gồm 3 bước:
   * Step 1 – Database Configuration
   * Step 2 – Additional Service Configuration
   * Step 3 – Review & Create
@@ -125,5 +125,5 @@ Sau khi xác nhận:
   * Người dùng sẽ được chuyển về màn hình danh sách, trong đó cơ sở dữ liệu vừa tạo sẽ hiển thị ở trạng thái **"Processing"** ở đầu danh sách.
 
 Quá trình khởi tạo thường kéo dài 5–7 phút. Khi hoàn tất, cơ sở dữ liệu sẽ chuyển sang trạng thái **"Running"** và sẵn sàng để sử dụng. **Lưu ý** : Nếu quá trình khởi tạo thất bại, vui lòng xóa database bị lỗi và thực hiện khởi tạo lại.
-Để kết nối tới cơ sở dữ liệu vừa tạo, xem hướng dẫn tại mục [Kết nối cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md).
+Để kết nối tới cơ sở dữ liệu vừa tạo, xem hướng dẫn tại mục [Kết nối cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/.
 Để vận hành cơ sở dữ liệu, xem hướng dẫn tại mục "7.2.4. Vận hành cơ sở dữ liệu".

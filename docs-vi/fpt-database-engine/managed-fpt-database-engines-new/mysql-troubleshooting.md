@@ -14,8 +14,8 @@ Mỗi mục đều trình bày dấu hiệu nhận biết, nguyên nhân và cá
 Mục tiêu của tài liệu là giúp bạn vận hành MySQL ổn định, an toàn và hiệu quả hơn, đồng thời giảm thời gian gián đoạn khi xảy ra sự cố.
 
 ## Danh mục lỗi
-[1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…](../managed-fpt-database-engines-new/index.md)
-[2. Server Crash: Lỗi crash MySQL khi sử dụng combo index trên cột JSON](../managed-fpt-database-engines-new/index.md)
+[1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/
+[2. Server Crash: Lỗi crash MySQL khi sử dụng combo index trên cột JSON](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/
 
 ### 1. Backup Error: "Please run OPTIMIZE TABLE on all listed tables…"
 #### 1.1. Dấu hiệu nhận biết

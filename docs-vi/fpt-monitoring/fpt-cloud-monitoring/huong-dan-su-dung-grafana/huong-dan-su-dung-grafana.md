@@ -12,14 +12,14 @@ sidebar_position: 1
 
 ### Initial Setup
 
-- [Initial Setup](../huong-dan-su-dung-grafana/index.md)
+- [Initial Setup](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
 
 ### Hướng dẫn chi tiết (Tutorials)
 
-- [1. Khởi tạo workspace](../huong-dan-su-dung-grafana/index.md)
-- [2. Truy cập Grafana](../huong-dan-su-dung-grafana/index.md)
-- [3. Tích hợp Dashboard Template và Alert rule template](../huong-dan-su-dung-grafana/index.md)
-  - [3.1. Tích hợp Dashboard Template](../huong-dan-su-dung-grafana/index.md)
-  - [3.2. Tích hợp Alert rule template](../huong-dan-su-dung-grafana/index.md)
-- [4. Hướng dẫn tích hợp Monitoring Kubernetes](../huong-dan-su-dung-grafana/index.md)
-  - [4.1. Hướng dẫn tích hợp](../huong-dan-su-dung-grafana/index.md)
+- [1. Khởi tạo workspace](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+- [2. Truy cập Grafana](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+- [3. Tích hợp Dashboard Template và Alert rule template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+  - [3.1. Tích hợp Dashboard Template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+  - [3.2. Tích hợp Alert rule template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+- [4. Hướng dẫn tích hợp Monitoring Kubernetes](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
+  - [4.1. Hướng dẫn tích hợp](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/

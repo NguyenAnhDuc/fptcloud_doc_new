@@ -8,7 +8,7 @@ sidebar_position: 5
 
 # Best practices for manual scaling
 
-D-FKE supports manual scale-in and scale-out of worker nodes. For portal console instructions, see the [user guide](../dedicated-fpt-kubernetes-engine/index.md).
+D-FKE supports manual scale-in and scale-out of worker nodes. For portal console instructions, see the [user guide](/docs/en/fpt-container/dedicated-fpt-kubernetes-engine/)/.
 
 ## Manual scale-in process detail
 
@@ -52,4 +52,4 @@ D-FKE supports manual scale-in and scale-out of worker nodes. For portal console
 - Split scale-out operations into smaller batches — perform no more than 10 nodes per manual scale-out.
 
 **If the process times out:**
-- Press the retry action to re-run the process. See [here](../dedicated-fpt-kubernetes-engine/index.md) for details.
+- Press the retry action to re-run the process. See [here](/docs/en/fpt-container/dedicated-fpt-kubernetes-engine/)/ for details.

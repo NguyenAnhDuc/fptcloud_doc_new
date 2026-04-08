@@ -13,7 +13,7 @@ This feature allows the system to automatically assign a new MAC address to a NI
 1. Select the NIC card whose MAC address you want to reset.
 
 :::warning
-This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](../change-network-config/index.md).
+This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](/docs/en/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Select NIC card for MAC reset](/img/migrated/image-1691395036893-7a3595d7.png)](/img/migrated/image-1691395036893-7a3595d7.png)

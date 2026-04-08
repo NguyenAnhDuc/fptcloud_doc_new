@@ -9,9 +9,9 @@ sidebar_position: 8
 # Cấu hình kết nối VPN Site-to-Site giữa Portal OpenStack và VMware
 
 Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng VMW và OPS trên Unify portal 
-  * [Bước 1: Cấu hình VPN_AAS trên Openstack](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình VPN_AAS trên VMWare Cloud](../vpn-site-to-site/index.md)
-  * [Bước 3: Kiểm tra kết nối](../vpn-site-to-site/index.md)
+  * [Bước 1: Cấu hình VPN_AAS trên Openstack](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 2: Cấu hình VPN_AAS trên VMWare Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 3: Kiểm tra kết nối](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Cần đảm bảo các điều kiện sau:
   * VPNAAS OPS trên trang Portal Unify

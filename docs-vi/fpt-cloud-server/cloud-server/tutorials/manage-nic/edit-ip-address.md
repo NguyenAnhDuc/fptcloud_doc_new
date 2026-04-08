@@ -11,7 +11,7 @@ sidebar_position: 8
 1. Chọn card NIC cần thay đổi địa chỉ IP.
 
 :::warning
-Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](../change-network-config/index.md).
+Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](/docs/vi/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Chọn card NIC cần thay đổi IP](/img/migrated/image-1691383107122-1741e5c6.png)](/img/migrated/image-1691383107122-1741e5c6.png)

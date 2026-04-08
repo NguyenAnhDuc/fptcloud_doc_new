@@ -41,7 +41,7 @@ s3client = boto3.client(
 
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -97,7 +97,7 @@ S3Client s3Client = S3Client.builder()
     .build();
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -161,7 +161,7 @@ AmazonS3Client client = new AmazonS3Client(
 );
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -265,7 +265,7 @@ $options = [
 $s3Client = new Aws\S3\S3Client($options);
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -337,7 +337,7 @@ const s3 = new AWS.S3()
 
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -440,7 +440,7 @@ AWS.config.update({
 })
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```
@@ -521,7 +521,7 @@ newSession := session.New(s3Config)
 Client = s3.New(newSession)
 ```
 
-Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](../fpt-object-storage/index.md).
+Trong đó "ACCESS_KEY_ID", "SECRET_KEY_ID" và "ENDPOINT" được lấy từ FPT Unify Portal theo hướng dẫn tại [link này](/docs/en/fpt-storage/fpt-object-storage/)/.
 **Một số ví dụ cơ bản**
 
 ```

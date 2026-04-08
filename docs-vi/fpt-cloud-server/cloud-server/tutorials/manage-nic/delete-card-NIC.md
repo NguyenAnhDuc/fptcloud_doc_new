@@ -24,6 +24,6 @@ Tính năng xóa card NIC áp dụng cho card thông thường. Đối với car
 
 [![Hệ thống đang xử lý](/img/migrated/image-1691389227628-40693d15.png)](/img/migrated/image-1691389227628-40693d15.png)
 
-4. Card được xóa thành công và Instance sẽ không thể kết nối qua card này. Để đảm bảo thông tin đồng bộ, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](../change-network-config/index.md).
+4. Card được xóa thành công và Instance sẽ không thể kết nối qua card này. Để đảm bảo thông tin đồng bộ, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](/docs/vi/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 
 [![Card NIC đã xóa thành công](/img/migrated/image-1691389236762-c118e8e1.png)](/img/migrated/image-1691389236762-c118e8e1.png)

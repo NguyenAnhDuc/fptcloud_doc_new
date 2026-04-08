@@ -12,7 +12,7 @@ sidebar_position: 27
 
 ### 1. バックアップサービスの有効化
 
-バックアップサービスを有効化するには、データベース初期化時のAdditional Service設定ステップで直接行う（詳細は[データベースの作成](../managed-fpt-database-engines-new/index.md)を参照）か、データベースが初期化された後に以下の手順で有効化することができます。
+バックアップサービスを有効化するには、データベース初期化時のAdditional Service設定ステップで直接行う（詳細は[データベースの作成](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）か、データベースが初期化された後に以下の手順で有効化することができます。
 
 #### 前提条件
 

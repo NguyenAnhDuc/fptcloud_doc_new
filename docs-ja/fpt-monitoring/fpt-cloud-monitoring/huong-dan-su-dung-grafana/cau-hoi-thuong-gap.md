@@ -17,4 +17,4 @@ pagination_next: null
 
 Monitoring をしばらく使用した後に metric/logs が Grafana Dashboard に表示されなくなった場合、現在ご利用の FMON プランのワークスペースが time series/logs のクォータを使い切った可能性があります。
 
-使用済みの time series/logs の量を確認するには、**[7. コンソールポータルで usage（timeseries、log、trace）の状態を確認する方法](../huong-dan-su-dung-grafana/index.md)** をご参照ください。
+使用済みの time series/logs の量を確認するには、**[7. コンソールポータルで usage（timeseries、log、trace）の状態を確認する方法](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/** をご参照ください。

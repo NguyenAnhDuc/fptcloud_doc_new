@@ -46,7 +46,7 @@ Tắt thu thập metrics/logs cho database cluster.
 ## Bước 3: Truy cập dashboard Grafana và xem thông tin monitoring
 
 - Sau khi tích hợp giám sát thành công (Integrated Status = "Enabled"), click vào Dashboard URL để đi tới trang Grafana
-- Sau đó tích hợp các dashboard template tương ứng, tham khảo hướng dẫn tại mục [**3.1. Tích hợp Dashboard Template**](../huong-dan-su-dung-grafana/index.md)
+- Sau đó tích hợp các dashboard template tương ứng, tham khảo hướng dẫn tại mục [**3.1. Tích hợp Dashboard Template**](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
 - Mở dashboard đã tích hợp và xem thông tin monitor
 
 [![Alt text](/img/migrated/Screenshot_34-e8f6a87c.png)](/img/migrated/Screenshot_34-e8f6a87c.png)

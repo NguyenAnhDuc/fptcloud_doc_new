@@ -28,18 +28,18 @@ sidebar_position: 5
   1. Trong menu bên trái, mục **Account**, chọn **Billing**.
   2. Nhấn **Add Credit**, nhập số tiền và thông tin thanh toán.
   3. Nếu có voucher từ FPT, nhập mã hợp lệ trong phần **Add Voucher** để đổi credit.
-  4. Xem hướng dẫn chi tiết [tại đây](../ai-factory-billing/index.md)
+  4. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-factory-billing/)/
 
 ## Bước 5: Tạo AI Notebook
 
   1. Từ **Launcher**, bạn có thể chọn tạo notebook kết nối với CPU hoặc GPU.
-  2. Xem hướng dẫn chi tiết [tại đây](../ai-notebook/index.md)
+  2. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/)/
 
 ## Bước 6: Kết nối notebook với kernel mới hoặc hiện có
 
   1. Để khởi động kernel mới, chọn kernel mong muốn trong **Start Other Kernels** ở **kernel configuration menu**.
   2. Để kết nối notebook với kernel hiện có, chọn kernel mong muốn trong **Running Kernels** ở **kernel configuration menu**.
-  3. Xem hướng dẫn chi tiết [tại đây](../ai-notebook/index.md)
+  3. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/)/
 
 ## Bước 7: Tắt kernel
 

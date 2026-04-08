@@ -9,8 +9,8 @@ sidebar_position: "21"
 # FCI-AWS接続（Virtual Private Gateway）
 
 この記事では、UnifyポータルでAWSとOPSの2つのプラットフォームのVPNaaSを接続する方法を説明します。
-  * [I. AWSでのVPN Site-to-Site設定](../vpn-site-to-site/index.md)
-  * [II. FCI CloudでのVPN Site-to-Site設定](../vpn-site-to-site/index.md)
+  * [I. AWSでのVPN Site-to-Site設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [II. FCI CloudでのVPN Site-to-Site設定](/docs/ja/fpt-network/vpn-site-to-site/)/
 
 この例では、以下のトポロジーのパラメーターでVPN Site-to-Site接続を作成します：[![file](/img/migrated/image-1744187648981-6cf9e3e4.png)](/img/migrated/image-1744187648981-6cf9e3e4.png)
 

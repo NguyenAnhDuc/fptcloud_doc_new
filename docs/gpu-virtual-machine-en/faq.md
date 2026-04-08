@@ -25,7 +25,7 @@ Bạn có thể **thay đổi kích thước storage** theo nhu cầu của mìn
 
 **3. Làm thế nào để tôi cấp phát IP công cộng cho GPU Instance?**
   * **Với Block Storage – Ephemeral Disk (NVMe):**
-Bạn chỉ có thể cấp phát **Floating IP** sau khi GPU Instance được tạo thành công. Lưu ý rằng bạn phải cấu hình IP port (port forwarding) để hoàn tất cấu hình IP. Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md)
+Bạn chỉ có thể cấp phát **Floating IP** sau khi GPU Instance được tạo thành công. Lưu ý rằng bạn phải cấu hình IP port (port forwarding) để hoàn tất cấu hình IP. Xem hướng dẫn chi tiết [tại đây](/docs/en/gpu-virtual-machine-en/)/
   * **Với Block Storage – Persistent Disk:**
 Bạn có thể cấp phát **Floating IP** trong khi tạo Instance mới hoặc sau khi Instance đã được tạo thành công.
 

@@ -28,7 +28,7 @@ Tính năng giúp giảm thiểu ảnh hưởng đến hoạt động kinh doanh
   * Gửi thông báo trước khi bảo trì.
 
 #### Thao tác thực hiện:
-Khi tạo mới cluster, người dùng có thể chọn maintenance window tại bước cấu hình **Additional Service** (chi tiết xem tại mục [Khởi tạo cơ sở dữ liệu](../managed-fpt-database-engines-new/index.md)) và hệ thống sẽ áp dụng cấu hình ngay từ lần vận hành đầu tiên.
+Khi tạo mới cluster, người dùng có thể chọn maintenance window tại bước cấu hình **Additional Service** (chi tiết xem tại mục [Khởi tạo cơ sở dữ liệu](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/) và hệ thống sẽ áp dụng cấu hình ngay từ lần vận hành đầu tiên.
 Trong quá trình sử dụng, người dùng có thể cập nhật lại khung thời gian bảo trì theo các thao tác dưới đây:
 **Bước 1: Truy cập chức năng**
 Đăng nhập vào FPT Cloud Portal. Từ menu chính, chọn **Database Platform** → **All Database**. Trên trang Database list, chọn Cluster ID của cụm bạn muốn cấu hình maintenance window. Chọn tab **Maintennace** để mở màn hình quản lý cấu hình maintenance window.
@@ -50,4 +50,4 @@ Các sự kiện bảo trì đã được lên lịch sẽ được hiển thị
   * **Apply At** : Thời điểm bắt đầu thực hiện bảo trì.
 
 Người dùng nên thường xuyên theo dõi lịch bảo trì để chủ động lập kế hoạch vận hành và giảm thiểu ảnh hưởng đến dịch vụ.
-Hệ thống sẽ gửi thông báo qua email trước khi diễn ra hoạt động bảo trì. Hiện tại hỗ trợ hai mốc thông báo: trước 7 ngày và trước 1 ngày. Để cấu hình danh sách email nhận thông báo bảo trì, người dùng truy cập tab **Notification** và điều chỉnh thiết lập cho dịch vụ **Maintenance** (tham khảo chi tiết tại mục [Notification](../managed-fpt-database-engines-new/index.md)).
+Hệ thống sẽ gửi thông báo qua email trước khi diễn ra hoạt động bảo trì. Hiện tại hỗ trợ hai mốc thông báo: trước 7 ngày và trước 1 ngày. Để cấu hình danh sách email nhận thông báo bảo trì, người dùng truy cập tab **Notification** và điều chỉnh thiết lập cho dịch vụ **Maintenance** (tham khảo chi tiết tại mục [Notification](/docs/vi/fpt-database-engine/managed-fpt-database-engines-new/)/).

@@ -18,7 +18,7 @@ sidebar_position: 36
 
 ### 1. 垂直スケーリングサービスの有効化
 
-垂直スケーリングサービスを有効化するには、データベース初期化時のAdditional Service設定ステップで直接行う（詳細は[データベースの作成](../managed-fpt-database-engines-new/index.md)を参照）か、データベースが正常に初期化された後に以下の手順で有効化することができます。
+垂直スケーリングサービスを有効化するには、データベース初期化時のAdditional Service設定ステップで直接行う（詳細は[データベースの作成](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）か、データベースが正常に初期化された後に以下の手順で有効化することができます。
 
 #### 前提条件
 
@@ -26,7 +26,7 @@ sidebar_position: 36
 
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
 
-**Go to Notification**をクリックして**Notification**タブに移動し、[Notification](../managed-fpt-database-engines-new/index.md)セクションの手順に従って設定を行います。
+**Go to Notification**をクリックして**Notification**タブに移動し、[Notification](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/セクションの手順に従って設定を行います。
 
 #### ステップ1：垂直スケーリング機能へのアクセス
 

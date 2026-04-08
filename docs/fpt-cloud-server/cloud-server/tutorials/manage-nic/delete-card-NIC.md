@@ -24,6 +24,6 @@ You can delete a standard NIC card when it is no longer needed. Deleting the pri
 
 [![System processing](/img/migrated/image-1691389227628-40693d15.png)](/img/migrated/image-1691389227628-40693d15.png)
 
-4. The card is deleted successfully. The Instance can no longer connect to the network through this card. To keep network settings in sync, update the network configuration in the operating system configuration file. See: [How to change Config file](../change-network-config/index.md).
+4. The card is deleted successfully. The Instance can no longer connect to the network through this card. To keep network settings in sync, update the network configuration in the operating system configuration file. See: [How to change Config file](/docs/en/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 
 [![NIC card deleted successfully](/img/migrated/image-1691389236762-c118e8e1.png)](/img/migrated/image-1691389236762-c118e8e1.png)

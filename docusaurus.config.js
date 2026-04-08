@@ -123,9 +123,9 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'English', to: '/docs/en/' },
-              { label: 'Tiếng Việt', to: '/docs/vi/' },
-              { label: '日本語', to: '/docs/ja/' },
+              { label: 'English', to: '/docs/en/intro/' },
+              { label: 'Tiếng Việt', to: '/docs/vi/intro/' },
+              { label: '日本語', to: '/docs/ja/intro/' },
             ],
           },
         ],

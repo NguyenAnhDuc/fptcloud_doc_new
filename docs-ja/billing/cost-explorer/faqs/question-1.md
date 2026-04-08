@@ -16,7 +16,7 @@ FCI Sale Supportに連絡してサービス料金の設定とPortalへのbilling
 
 **2. アカウントにTenant Ownerロールがない場合**
 
-組織内のTenant Owner権限を持つ担当者に、IAM権限の付与を依頼してください。手順については[billing閲覧権限の設定](../billing/index.md)をご参照ください。
+組織内のTenant Owner権限を持つ担当者に、IAM権限の付与を依頼してください。手順については[billing閲覧権限の設定](/docs/ja/billing/)/をご参照ください。
 
 **3. アカウントに十分なbilling閲覧権限があるがデータが表示されない場合**
 

@@ -24,6 +24,6 @@ sidebar_position: "10"
 
 [![システム処理中](/img/migrated/image-1691389227628-40693d15.png)](/img/migrated/image-1691389227628-40693d15.png)
 
-4. カードが正常に削除されました。このカードを通じてInstanceはネットワークに接続できなくなります。ネットワーク設定を同期させるために、OSの設定ファイルでネットワーク情報を更新してください。参照: [How to change Config file](../change-network-config/index.md)
+4. カードが正常に削除されました。このカードを通じてInstanceはネットワークに接続できなくなります。ネットワーク設定を同期させるために、OSの設定ファイルでネットワーク情報を更新してください。参照: [How to change Config file](/docs/ja/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/
 
 [![NICカードが正常に削除された状態](/img/migrated/image-1691389236762-c118e8e1.png)](/img/migrated/image-1691389236762-c118e8e1.png)

@@ -18,7 +18,7 @@ _Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organiz
 [![anhfsec](/img/migrated/fcr2-1-53c9d4c2.png)](/img/migrated/fcr2-1-53c9d4c2.png)
 **Bước 3** : Chọn VPC cần tích hợp
 [![anhfsec](/img/migrated/infcr3-ddd75d32.png)](/img/migrated/infcr3-ddd75d32.png)
-**Bước 4** : Sau khi chọn VPC, nếu bạn đã có Robot Account, điền **Robot Account Name** , nếu bạn chưa có Robot Account, hãy xem phần hướng dẫn [tại đây](../fpt-container-registry/index.md).
+**Bước 4** : Sau khi chọn VPC, nếu bạn đã có Robot Account, điền **Robot Account Name** , nếu bạn chưa có Robot Account, hãy xem phần hướng dẫn [tại đây](/docs/vi/fpt-container/fpt-container-registry/)/.
 [![anhfsec](/img/migrated/infcr4-55fd52f8.png)](/img/migrated/infcr4-55fd52f8.png)
 **Bước 5** : Điền **tên** và **secret** của Robot Account 
 [![anhfsec](/img/migrated/lala1-d546663c.png)](/img/migrated/lala1-d546663c.png)

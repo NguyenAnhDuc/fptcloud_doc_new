@@ -65,7 +65,7 @@ _Lưu ý:_ _Danh sách mặc định được sắp xếp theo Score giảm dầ
   * Vul References: danh sách CWE liên quan (<=3 CWE hiển thị đầy đủ, >3 hiển thị "+MORE")
   * Score: điểm ưu tiên (0–10), làm tròn 1 chữ số thập phân
   * Issue Status: trạng thái hiện tại (Open, Ignored, False Positive, Acceptable Risk, …)
-  * Note Status: nút thay đổi trạng thái (disable nếu không được phép, link hướng dẫn [tại đây](../fpt-appsec/index.md))
+  * Note Status: nút thay đổi trạng thái (disable nếu không được phép, link hướng dẫn [tại đây](/docs/vi/fpt-appsec/)/)
   * Details: mở chi tiết issue
   * Code Block: đoạn code chứa lỗi, highlight dòng lỗi và ±4 dòng context
   * Issue Suggest Summary: gợi ý xử lý

@@ -9,9 +9,9 @@ sidebar_position: 6
 # Cấu hình kết nối VPN Site-to-Site giữa FCI Cloud và AWS (Transit-Gateway)
 
 **Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng AWS và OPS trên Unify portal**
-  * [I. Cấu hình VPN Site-to-Site trên FCI Cloud](../vpn-site-to-site/index.md)
-  * [II. Cấu hình VPN Site-to-Site trên AWS](../vpn-site-to-site/index.md)
-  * [III. Chỉnh sửa cấu hình VPN Site-to-Site trên FCI Cloud với IP mới của VPN AWS](../vpn-site-to-site/index.md)
+  * [I. Cấu hình VPN Site-to-Site trên FCI Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [II. Cấu hình VPN Site-to-Site trên AWS](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [III. Chỉnh sửa cấu hình VPN Site-to-Site trên FCI Cloud với IP mới của VPN AWS](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Trong ví dụ này chúng ta sẽ tạo kết nối VPN Site-to-Site với các thông số như trong topology bên dưới:
 [![file](/img/migrated/image-1744187555434-7059bf1d.png)](/img/migrated/image-1744187555434-7059bf1d.png)

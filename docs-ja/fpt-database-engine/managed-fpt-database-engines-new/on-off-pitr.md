@@ -14,7 +14,7 @@ sidebar_position: 29
 
 ### 1. PITRの有効化
 
-ユーザーはバックアップサービスの有効化時にPostgreSQLのPITR機能を有効にすること（詳細は[バックアップサービスの有効化](../managed-fpt-database-engines-new/index.md)を参照）、またはバックアップサービスが有効化された後に以下の手順で有効にすることができます。
+ユーザーはバックアップサービスの有効化時にPostgreSQLのPITR機能を有効にすること（詳細は[バックアップサービスの有効化](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）、またはバックアップサービスが有効化された後に以下の手順で有効にすることができます。
 
 #### 前提条件
 

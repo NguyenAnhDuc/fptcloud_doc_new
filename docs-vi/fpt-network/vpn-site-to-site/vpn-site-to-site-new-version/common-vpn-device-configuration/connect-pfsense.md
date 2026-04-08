@@ -9,9 +9,9 @@ sidebar_position: 2
 # Cấu hình VPN Site-to-Site với PfSense
 
 **Bài viết này hướng dẫn cách build thiết bị Pfsense** để kết nối VPN_S2S với dịch vụ VPN Site-to-Site của FPT Smart Cloud.
-  * [Bước 1: Build Pfsense for Cloud](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình cho VPN Site-to-Site](../vpn-site-to-site/index.md)
-  * [Bước 3: Cấu hình cho Pfsense](../vpn-site-to-site/index.md)
+  * [Bước 1: Build Pfsense for Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 2: Cấu hình cho VPN Site-to-Site](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 3: Cấu hình cho Pfsense](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Cần đảm bảo các điều kiện sau:
   * VPNAAS trên trang Portal

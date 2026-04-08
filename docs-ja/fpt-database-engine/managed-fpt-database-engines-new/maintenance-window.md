@@ -33,7 +33,7 @@ sidebar_position: 37
 
 #### 手順
 
-新しいクラスターを作成する際、ユーザーは**Additional Service**設定ステップでメンテナンスウィンドウを選択できます（詳細は[データベースの作成](../managed-fpt-database-engines-new/index.md)を参照）。システムは最初の操作から設定を適用します。
+新しいクラスターを作成する際、ユーザーは**Additional Service**設定ステップでメンテナンスウィンドウを選択できます（詳細は[データベースの作成](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）。システムは最初の操作から設定を適用します。
 
 使用中、ユーザーは以下の手順でメンテナンス時間枠を更新できます。
 
@@ -69,4 +69,4 @@ FPT Cloud Portalにログインします。メインメニューから**Database
 
 ユーザーはメンテナンススケジュールを定期的に監視して、運用を積極的に計画し、サービスへの影響を最小化する必要があります。
 
-システムはメンテナンスアクティビティが行われる前にメール通知を送信します。現在、7日前と1日前の2つの通知ポイントがサポートされています。メンテナンス通知を受け取るメールリストを設定するには、**Notification**タブにアクセスし、**Maintenance**サービスの設定を調整します（詳細は[Notification](../managed-fpt-database-engines-new/index.md)を参照）。
+システムはメンテナンスアクティビティが行われる前にメール通知を送信します。現在、7日前と1日前の2つの通知ポイントがサポートされています。メンテナンス通知を受け取るメールリストを設定するには、**Notification**タブにアクセスし、**Maintenance**サービスの設定を調整します（詳細は[Notification](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）。

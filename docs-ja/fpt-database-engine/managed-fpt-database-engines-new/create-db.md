@@ -12,7 +12,7 @@ sidebar_position: 21
 
 ### ステップ1：データベース作成画面を開く
 
-作成するデータベースタイプに対応するデータベース一覧ページにアクセスし（詳細は[データベース一覧の表示](../managed-fpt-database-engines-new/index.md)を参照）、**Create a Database Engine**または**Create**を選択してプロビジョニングプロセスを開始します。**Create New Database**画面が開き、FPT Database Engine環境でデータベースを定義・デプロイするために必要なパラメーターを設定できます。デプロイメントプロセスは3つのステップで構成されます。
+作成するデータベースタイプに対応するデータベース一覧ページにアクセスし（詳細は[データベース一覧の表示](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/を参照）、**Create a Database Engine**または**Create**を選択してプロビジョニングプロセスを開始します。**Create New Database**画面が開き、FPT Database Engine環境でデータベースを定義・デプロイするために必要なパラメーターを設定できます。デプロイメントプロセスは3つのステップで構成されます。
 
 - ステップ1 – Database Configuration
 - ステップ2 – Additional Service Configuration
@@ -96,4 +96,4 @@ sidebar_position: 21
 
 プロビジョニングプロセスは通常5〜7分かかります。完了すると、データベースは**「Running」**ステータスに移行し、使用可能になります。**注意**：プロビジョニングプロセスが失敗した場合は、失敗したデータベースを削除して再プロビジョニングしてください。
 
-新しく作成したデータベースへの接続については、[データベースへの接続](../managed-fpt-database-engines-new/index.md)セクションの手順をご参照ください。
+新しく作成したデータベースへの接続については、[データベースへの接続](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/セクションの手順をご参照ください。

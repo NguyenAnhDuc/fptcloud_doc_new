@@ -28,18 +28,18 @@ sidebar_position: "3"
 1. 左メニューの「**Account**」セクションから「**Billing**」を選択してください。
 2. 「**Add Credit**」をクリックし、金額と支払い情報を入力して完了します。
 3. FPT発行のバウチャーをお持ちの場合は、「**Add Voucher**」セクションで有効なコードを入力し、クレジットを交換してください。
-4. 詳細なガイドは[こちら](../ai-factory-billing/index.md)をご覧ください。
+4. 詳細なガイドは[こちら](/docs/ja/fpt-ai-factory/ai-factory-billing/)/をご覧ください。
 
 ## ステップ5: AI Notebookを作成する
 
 1. **Launcher** から、CPU/GPUに接続するノートブックを作成できます。
-2. 詳細なガイドは[こちら](../ai-notebook/index.md)をご覧ください。
+2. 詳細なガイドは[こちら](/docs/ja/fpt-ai-factory/ai-notebook/)/をご覧ください。
 
 ## ステップ6: ノートブックを新規/既存カーネルに接続する
 
 1. 新しいカーネルを起動するには、**カーネル設定メニュー**の「**Start Other Kernels**」から目的のカーネルを選択してください。
 2. 既存カーネルに接続するには、**カーネル設定メニュー**の「**Running Kernels**」から目的のカーネルを選択してください。
-3. 詳細なガイドは[こちら](../ai-notebook/index.md)をご覧ください。
+3. 詳細なガイドは[こちら](/docs/ja/fpt-ai-factory/ai-notebook/)/をご覧ください。
 
 ## ステップ7: カーネルをシャットダウンする
 

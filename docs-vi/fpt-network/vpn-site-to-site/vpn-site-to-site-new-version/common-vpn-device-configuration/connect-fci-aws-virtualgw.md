@@ -9,8 +9,8 @@ sidebar_position: 7
 # Cấu hình VPN Site-to-Site với AWS (Virtual Gateway)
 
 Bài viết này hướng dẫn kết nối VPNaaS của 2 nền tảng AWS và OPS trên Unify portal 
-  * [I. Cấu hình VPN Site-to-Site trên AWS](../vpn-site-to-site/index.md)
-  * [II. Cấu hình VPN Site-to-Site trên FCI Cloud](../vpn-site-to-site/index.md)
+  * [I. Cấu hình VPN Site-to-Site trên AWS](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [II. Cấu hình VPN Site-to-Site trên FCI Cloud](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Trong ví dụ này chúng ta sẽ tạo kết nối VPN Site-to-Site với các thông số như trong topology bên dưới: [![file](/img/migrated/image-1744187648981-6cf9e3e4.png)](/img/migrated/image-1744187648981-6cf9e3e4.png)
 

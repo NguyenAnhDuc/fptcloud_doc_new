@@ -9,4 +9,4 @@ description: "* Navigate to **Account** > **Billing** in the left menu"
 # Top Up Balance
 
 * Navigate to **Account** > **Billing** in the left menu
-  * Follow the detailed guide: [Add credits](../ai-factory-billing/index.md)
+  * Follow the detailed guide: [Add credits](/docs/vi/fpt-ai-factory/ai-factory-billing/)/

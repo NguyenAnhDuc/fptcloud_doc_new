@@ -35,8 +35,8 @@ Các bước cơ bản:
 ### A. Tạo bucket mới.
 Bucket là một đơn vị lưu trữ mang tính logical trên S3. Một bucket sẽ có nhiệm vụ chứa các file/folder mà người dùng upload lên. Bạn cần tạo một bucket để chứa dữ liệu media của toàn bộ website.
 **Bước 1:** Di chuyển đến Object Storage Management trên FPT Portal hoặc mở S3 Client đang sử dụng.
-**Bước 2:** Chọn Create Bucket và nhập tên Bucket cần tạo. [**Hướng dẫn thao tác trên FPT Portal.**](../fpt-object-storage/index.md)  
-[**Hướng dẫn thao tác trên S3 Client.**](../fpt-object-storage/index.md)
+**Bước 2:** Chọn Create Bucket và nhập tên Bucket cần tạo. [**Hướng dẫn thao tác trên FPT Portal.**](/docs/en/fpt-storage/fpt-object-storage/)/  
+[**Hướng dẫn thao tác trên S3 Client.**](/docs/en/fpt-storage/fpt-object-storage/)/
 **Bước 3:** Cấu hình bảo mật cho Bucket. Mặc định tất cả những ai có cặp key và Endpoint đều có thể Sửa hoặc Xóa các object bên trong bucket. Trang web wordpress cần được bảo mật cẩn thận, tránh hacker chiếm đoạt key dẫn đến mất dữ liệu trong bucket. Hãy sử dụng các tính năng nâng cao được FPT Cloud cung cấp sẵn để tăng thêm bảo mật cho bucket:
   * **Versioning:** Tự động lưu trữ lại các phiên bản thay đổi của đối tượng.
   * **Bucket Policy:** Tạo một Policy để giới hạn IP có thể truy cập dữ liệu trong bucket hoặc giới hạn đuôi file có thể tải lên.

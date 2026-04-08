@@ -12,8 +12,8 @@ sidebar_position: 4
 
 ## Dashboard Template の統合
 
-詳細は次をご参照ください: [Dashboard Template の統合](../huong-dan-su-dung-grafana/index.md)
+詳細は次をご参照ください: [Dashboard Template の統合](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/
 
 ## Alert rule template の統合
 
-詳細は次をご参照ください: [Alert rule template の統合](../huong-dan-su-dung-grafana/index.md)
+詳細は次をご参照ください: [Alert rule template の統合](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/

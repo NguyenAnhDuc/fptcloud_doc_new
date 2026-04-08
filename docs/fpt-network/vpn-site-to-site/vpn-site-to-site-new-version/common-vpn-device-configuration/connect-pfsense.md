@@ -9,9 +9,9 @@ sidebar_position: "16"
 # Connect PfSense
 
 **This guide explains how to build a PfSense device** to connect VPN S2S with the FPT Smart Cloud VPN Site-to-Site service.
-  * [Step 1: Build PfSense for Cloud](../vpn-site-to-site/index.md)
-  * [Step 2: Configure VPN Site-to-Site](../vpn-site-to-site/index.md)
-  * [Step 3: Configure PfSense](../vpn-site-to-site/index.md)
+  * [Step 1: Build PfSense for Cloud](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 2: Configure VPN Site-to-Site](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 3: Configure PfSense](/docs/en/fpt-network/vpn-site-to-site/)/
 
 Ensure the following prerequisites are met:
   * VPNaaS on the Portal

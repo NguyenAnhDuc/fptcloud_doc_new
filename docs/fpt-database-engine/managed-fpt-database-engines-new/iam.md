@@ -96,4 +96,4 @@ Permissions for the FPT Database Engine service are categorized by business/func
 
 ### Configuring FPT Database Engine service access permissions
 
-To configure access permissions and declare user groups, please refer to the details in the [Role management](../managed-fpt-database-engines-new/index.md) and [User Group management](../managed-fpt-database-engines-new/index.md) sections.
+To configure access permissions and declare user groups, please refer to the details in the [Role management](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ and [User Group management](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ sections.

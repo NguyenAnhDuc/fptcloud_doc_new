@@ -46,7 +46,7 @@ sidebar_position: 14
 ## ステップ 3: Grafana dashboard へのアクセスと監視情報の確認
 
 - 監視の統合が成功した後（Integrated Status = "Enabled"）、Dashboard URL をクリックして Grafana ページに移動します。
-- 次に対応する dashboard template を統合します。詳細は [**3.1. Dashboard Template の統合**](../huong-dan-su-dung-grafana/index.md) をご参照ください。
+- 次に対応する dashboard template を統合します。詳細は [**3.1. Dashboard Template の統合**](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/)/ をご参照ください。
 - 統合した dashboard を開いて監視情報を確認します。
 
 [![Alt text](/img/migrated/Screenshot_34-e8f6a87c.png)](/img/migrated/Screenshot_34-e8f6a87c.png)

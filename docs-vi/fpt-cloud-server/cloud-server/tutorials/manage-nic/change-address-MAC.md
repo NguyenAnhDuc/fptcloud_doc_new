@@ -13,7 +13,7 @@ Tính năng này cho phép hệ thống tự động cấp địa chỉ MAC mớ
 1. Chọn card NIC cần reset địa chỉ MAC. Tính năng này áp dụng cho cả card Primary và card thường.
 
 :::warning
-Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](../change-network-config/index.md).
+Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](/docs/vi/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Chọn card NIC cần reset MAC](/img/migrated/image-1691395036893-7a3595d7.png)](/img/migrated/image-1691395036893-7a3595d7.png)

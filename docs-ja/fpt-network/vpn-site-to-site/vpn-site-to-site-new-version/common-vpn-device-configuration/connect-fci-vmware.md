@@ -9,9 +9,9 @@ sidebar_position: "22"
 # FCI-VMware VPN接続の設定
 
 この記事では、UnifyポータルでVMWとOPSの2つのプラットフォームのVPNaaSを接続する方法を説明します。
-  * [ステップ1: OpenstackでのVPN_AASの設定](../vpn-site-to-site/index.md)
-  * [ステップ2: VMWare CloudでのVPN_AASの設定](../vpn-site-to-site/index.md)
-  * [ステップ3: 接続の確認](../vpn-site-to-site/index.md)
+  * [ステップ1: OpenstackでのVPN_AASの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ2: VMWare CloudでのVPN_AASの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ3: 接続の確認](/docs/ja/fpt-network/vpn-site-to-site/)/
 
 以下の条件を確認してください：
   * UnifyポータルのVPNAAS OPS

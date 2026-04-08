@@ -20,7 +20,7 @@ From this page, users can view a list of all Storage Disks created within the VP
 
 ### Create Storage Disks
 To create a Storage disk in FPT Cloud, first identify the type of disk you need: 
-  * **Root disk** is automatically created along with the virtual machine. References: [Create a GPU VM](../gpu-virtual-machine-en/index.md)
+  * **Root disk** is automatically created along with the virtual machine. References: [Create a GPU VM](/docs/ja/gpu-virtual-machine-en/)/
   * **External disk** can be created independently and attached to a virtual machine later. 
 
 You can create an External disk using either of the following methods: 

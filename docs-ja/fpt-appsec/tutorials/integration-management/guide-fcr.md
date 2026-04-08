@@ -18,7 +18,7 @@ _権限の詳細は[こちら](/docs/ja/fpt-appsec/tutorials/organization-manage
 [![anhfsec](/img/migrated/fcr2-1-53c9d4c2.png)](/img/migrated/fcr2-1-53c9d4c2.png)
 **手順3** : 連携するVPCを選択します。
 [![anhfsec](/img/migrated/infcr3-ddd75d32.png)](/img/migrated/infcr3-ddd75d32.png)
-**手順4** : VPCを選択後、Robot Accountをお持ちの場合は **Robot Account Name** を入力します。Robot Accountをお持ちでない場合は、[こちら](../fpt-container-registry/index.md)のガイドをご参照ください。
+**手順4** : VPCを選択後、Robot Accountをお持ちの場合は **Robot Account Name** を入力します。Robot Accountをお持ちでない場合は、[こちら](/docs/ja/fpt-container/fpt-container-registry/)/のガイドをご参照ください。
 [![anhfsec](/img/migrated/infcr4-55fd52f8.png)](/img/migrated/infcr4-55fd52f8.png)
 **手順5** : Robot Accountの **名前** と **secret** を入力します。
 [![anhfsec](/img/migrated/lala1-d546663c.png)](/img/migrated/lala1-d546663c.png)

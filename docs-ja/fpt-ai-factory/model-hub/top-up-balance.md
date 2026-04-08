@@ -9,4 +9,4 @@ sidebar_position: 15
 # 残高のチャージ
 
 * Navigate to **Account** > **Billing** in the left menu
-  * Follow the detailed guide: [Add credits](../ai-factory-billing/index.md)
+  * Follow the detailed guide: [Add credits](/docs/ja/fpt-ai-factory/ai-factory-billing/)/

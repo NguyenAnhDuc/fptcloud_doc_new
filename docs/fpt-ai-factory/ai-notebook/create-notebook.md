@@ -26,7 +26,7 @@ sidebar_position: 9
 
 ## Create a notebook connected to GPU
 
-**Step 1:** Before you start, make sure your account has enough credits to cover at least one hour of GPU cost. Check out the detailed guide [here](../ai-notebook/index.md).
+**Step 1:** Before you start, make sure your account has enough credits to cover at least one hour of GPU cost. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/)/.
 
 **Step 2:** Choose notebook with **preferred GPU (3)**
 

@@ -9,4 +9,4 @@ description: "Once your balance has sufficient credits, you can immediately begi
 # Start Using Services
 
 Once your balance has sufficient credits, you can immediately begin using AI Factory services. Credits will be automatically deducted based on your usage. 
-For details on how Model Hub is billed, refer to the [billing calculation guide](../ai-factory-billing/index.md).
+For details on how Model Hub is billed, refer to the [billing calculation guide](/docs/vi/fpt-ai-factory/ai-factory-billing/)/.

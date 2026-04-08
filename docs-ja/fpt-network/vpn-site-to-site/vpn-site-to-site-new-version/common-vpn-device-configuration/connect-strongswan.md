@@ -9,9 +9,9 @@ sidebar_position: "17"
 # StrongSwanデバイスの接続
 
 この記事では、FPT Smart CloudのVPN Site-to-SiteサービスにVPN_S2S接続するルーターデバイスの構築方法を説明します。
-  * [ステップ1: strongSwanの構築](../vpn-site-to-site/index.md)
-  * [ステップ2: VPN_AASの設定](../vpn-site-to-site/index.md)
-  * [ステップ3: StrongSwanの設定](../vpn-site-to-site/index.md)
+  * [ステップ1: strongSwanの構築](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ2: VPN_AASの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ3: StrongSwanの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
 
 以下の条件を確認してください：
   * PortalページのVPNAAS

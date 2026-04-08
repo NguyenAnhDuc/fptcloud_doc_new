@@ -30,8 +30,8 @@ sidebar_position: 19
 
 データベースを管理・運用するには、以下のセクションの詳細な手順をご参照ください。
 
-- [データベース一覧の表示](../managed-fpt-database-engines-new/index.md)：アクセス権限のあるデータベースの一覧（ステータス、設定、重要情報を含む）を表示します。
-- [データベースの作成](../managed-fpt-database-engines-new/index.md)：エンジン、バージョン、フレーバー、その他の必要な設定を選択して新しいデータベースをプロビジョニングします。
-- [データベースへの接続](../managed-fpt-database-engines-new/index.md)：アプリケーションやクライアントツールからデータベースへの接続情報の取得方法と接続方法を学びます。
-- [データベース運用](../managed-fpt-database-engines-new/index.md)：起動、停止、再起動、設定管理、監視などの一般的な運用タスクを実行します。
+- [データベース一覧の表示](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/：アクセス権限のあるデータベースの一覧（ステータス、設定、重要情報を含む）を表示します。
+- [データベースの作成](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/：エンジン、バージョン、フレーバー、その他の必要な設定を選択して新しいデータベースをプロビジョニングします。
+- [データベースへの接続](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/：アプリケーションやクライアントツールからデータベースへの接続情報の取得方法と接続方法を学びます。
+- [データベース運用](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/：起動、停止、再起動、設定管理、監視などの一般的な運用タスクを実行します。
 - 「データベースバージョンのアップグレード」：新機能、パフォーマンス改善、セキュリティパッチを利用するためにデータベースエンジンバージョンをアップグレードします。

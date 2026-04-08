@@ -40,7 +40,7 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
 
 ## Issueの情報確認
 ### 3.1. Issue Listの表示
-[SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+[SCM assets](/docs/ja/fpt-appsec/)/のガイドと同様です。
 
 ### 3.2. Issueの情報確認
   * Issue List画面では、各issueがIssue Info Card形式で以下の情報とともに表示されます。
@@ -87,10 +87,10 @@ _注意: asset sourceの種類（FPT Container Registry/Harbor）が **Integrati
     * Activity: issueのステータス変更履歴
 
 ## Assetの再スキャン
-[SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+[SCM assets](/docs/ja/fpt-appsec/)/のガイドと同様です。
 
 ## Assetの無効化/有効化
-[SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+[SCM assets](/docs/ja/fpt-appsec/)/のガイドと同様です。
 
 ## Assetの削除
-[SCM assets](../fpt-appsec/index.md)のガイドと同様です。
+[SCM assets](/docs/ja/fpt-appsec/)/のガイドと同様です。

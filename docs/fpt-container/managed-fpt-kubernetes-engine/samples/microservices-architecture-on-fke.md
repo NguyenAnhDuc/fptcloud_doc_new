@@ -73,7 +73,7 @@ _For example_ , if you set the replica to 05 and expect that at any given time o
   * **File Storage** supports RWX using NFS. **Do not** use File Storage for Databases.
 
 ### 10. Backup:
-  * Set a [Backup Job (Dedicated)](../dedicated-fpt-kubernetes-engine/index.md) as instructed. Users need to perform data backup on PVC (if any). You can back up to a VM and then perform VM backup using the **FPT Cloud Backup & Recovery** solution.
+  * Set a [Backup Job (Dedicated)](/docs/en/fpt-container/dedicated-fpt-kubernetes-engine/)/ as instructed. Users need to perform data backup on PVC (if any). You can back up to a VM and then perform VM backup using the **FPT Cloud Backup & Recovery** solution.
 
 ### 11. Monitoring & Logging:
   * Use FMON to integrate monitoring & logging with the Kubernetes cluster. Set alerts for the system.

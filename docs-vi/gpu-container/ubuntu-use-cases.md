@@ -18,7 +18,7 @@ Use case này liên quan đến việc tạo môi trường từ xa từ templat
 ### Bước 2: Kết nối container qua SSH
 
 Để kết nối qua SSH, sao chép lệnh và dán vào terminal của bạn. Bạn có thể sử dụng bất kỳ ứng dụng terminal nào như Command Prompt, PowerShell, hoặc terminal tích hợp trong VS Code. Use case này sẽ dùng VSCode. [![Alt text](/img/migrated/Screenshot-2025-07-04-174741-230551f8.png)](/img/migrated/Screenshot-2025-07-04-174741-230551f8.png)
-Xem hướng dẫn chi tiết [tại đây](../gpu-container/index.md) để có hướng dẫn đầy đủ.
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-container/)/ để có hướng dẫn đầy đủ.
 
 ### Bước 3: Thiết lập môi trường
   1. Cài đặt python3

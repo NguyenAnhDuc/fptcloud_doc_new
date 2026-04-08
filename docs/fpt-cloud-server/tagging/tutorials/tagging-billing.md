@@ -11,4 +11,4 @@ pagination_next: null
 
 Tagging Billing helps you track costs by resource group based on assigned tags — especially useful when allocating costs by project, department, or environment.
 
-You can view cost analytics by tag at: [**Cost Explorer**](../../cost-explorer/index.md).
+You can view cost analytics by tag at: [**Cost Explorer**](/docs/en/billing/cost-explorer/)/.

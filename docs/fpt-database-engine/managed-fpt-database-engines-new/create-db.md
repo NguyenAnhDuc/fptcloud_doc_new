@@ -12,7 +12,7 @@ The **Create database** feature allows you to quickly deploy various databases o
 
 ### Step 1: Open the database creation screen
 
-Access the database list page corresponding to the type of database to be created (see [View database list](../managed-fpt-database-engines-new/index.md) for details), select **Create a Database Engine** or **Create** to begin the provisioning process. The **Create New Database** screen will open, allowing you to configure the parameters needed to define and deploy the database in the FPT Database Engine environment. The deployment process consists of 3 steps:
+Access the database list page corresponding to the type of database to be created (see [View database list](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), select **Create a Database Engine** or **Create** to begin the provisioning process. The **Create New Database** screen will open, allowing you to configure the parameters needed to define and deploy the database in the FPT Database Engine environment. The deployment process consists of 3 steps:
 
 - Step 1 – Database Configuration
 - Step 2 – Additional Service Configuration
@@ -96,4 +96,4 @@ After confirmation:
 
 The provisioning process typically takes 5–7 minutes. When complete, the database will transition to **"Running"** status and be ready to use. **Note**: If the provisioning process fails, please delete the failed database and re-provision.
 
-To connect to the newly created database, see the instructions in the [Connect to database](../managed-fpt-database-engines-new/index.md) section.
+To connect to the newly created database, see the instructions in the [Connect to database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ section.

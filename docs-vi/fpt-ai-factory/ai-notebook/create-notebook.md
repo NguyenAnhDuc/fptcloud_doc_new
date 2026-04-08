@@ -26,7 +26,7 @@ sidebar_position: 9
 
 ## Tạo notebook kết nối với GPU
 
-**Bước 1:** Trước khi bắt đầu, đảm bảo tài khoản của bạn có đủ credit để trả ít nhất một giờ sử dụng GPU. Xem hướng dẫn chi tiết [tại đây](../ai-notebook/index.md).
+**Bước 1:** Trước khi bắt đầu, đảm bảo tài khoản của bạn có đủ credit để trả ít nhất một giờ sử dụng GPU. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/)/.
 
 **Bước 2:** Chọn notebook với **GPU ưa thích (3)**
 

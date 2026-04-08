@@ -64,7 +64,7 @@ FPT Database Engine provides mechanisms for users to proactively manage maintena
 - Modifying the Maintenance Window after the cluster has been deployed.
 - Monitoring Pending Maintenance Events (upcoming maintenance events).
 
-For detailed instructions, see the [Maintenance Window](../managed-fpt-database-engines-new/index.md) section.
+For detailed instructions, see the [Maintenance Window](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ section.
 
 #### Emergency maintenance
 

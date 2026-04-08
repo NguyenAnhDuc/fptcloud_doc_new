@@ -19,7 +19,7 @@ FPT Cloud hỗ trợ chuyển đổi card NIC thông thường thành card Prima
 2. Xác nhận chuyển card thường sang card Primary.
 
 :::warning
-Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](../change-network-config/index.md).
+Hành động này có thể ảnh hưởng đến các dịch vụ như Kubernetes, Load Balancer. Hãy cân nhắc kỹ trước khi thực hiện. Sau khi thay đổi, bạn cần cập nhật thông tin network trong file config của hệ điều hành. Xem hướng dẫn: [How to change Config file](/docs/vi/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Xác nhận chuyển đổi](/img/migrated/image-1691382948749-d9b6edea.png)](/img/migrated/image-1691382948749-d9b6edea.png)

@@ -9,7 +9,7 @@ sidebar_position: 5
 # Hướng dẫn manual scaling
 
 ✨ D-FKE hỗ trợ manual scale in/scale out worker nodes, cho phép người dùng tăng/giảm số lượng worker theo nhu cầu thủ công. 
-✨ Hướng dẫn manual scale in/scale out trên portal console: tham khảo user guide [tại đây](../dedicated-fpt-kubernetes-engine/index.md)
+✨ Hướng dẫn manual scale in/scale out trên portal console: tham khảo user guide [tại đây](/docs/vi/fpt-container/dedicated-fpt-kubernetes-engine/)/
 ➤ **Chi tiết quá trình manual scale in của hệ thống:**
 1️⃣ **Pre-scale**
   * Hệ thống setup môi trường để cluster scale 
@@ -49,4 +49,4 @@ sidebar_position: 5
   * Chia nhỏ số node mỗi lần manual scale out, mỗi lần manual scale out nên thực hiện với =< 10 node.
 
 3️⃣ **Khi tiến trình bị timeout**
-  * Có thể nhấn action retry để thực hiện quá trình lại một lần nữa. Chi tiết có hướng dẫn [tại đây](../dedicated-fpt-kubernetes-engine/index.md)
+  * Có thể nhấn action retry để thực hiện quá trình lại một lần nữa. Chi tiết có hướng dẫn [tại đây](/docs/vi/fpt-container/dedicated-fpt-kubernetes-engine/)/

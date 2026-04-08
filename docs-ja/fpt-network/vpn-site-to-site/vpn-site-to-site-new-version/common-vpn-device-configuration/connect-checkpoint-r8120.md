@@ -9,10 +9,10 @@ sidebar_position: "19"
 # CheckPoint R81.20デバイスの接続
 
 **この記事では、FPT Smart CloudのVPN Site-to-SiteサービスにVPN_S2S接続するルーターデバイスの構築方法を説明します。**
-  * [ステップ1: Cloud向けCheckPointの構築](../vpn-site-to-site/index.md)
-  * [ステップ2: VPN Site-to-Siteの設定](../vpn-site-to-site/index.md)
-  * [ステップ3: CheckPointの設定](../vpn-site-to-site/index.md)
-  * [ステップ4: デバッグ - Tracert](../vpn-site-to-site/index.md)
+  * [ステップ1: Cloud向けCheckPointの構築](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ2: VPN Site-to-Siteの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ3: CheckPointの設定](/docs/ja/fpt-network/vpn-site-to-site/)/
+  * [ステップ4: デバッグ - Tracert](/docs/ja/fpt-network/vpn-site-to-site/)/
 
 以下の条件を確認してください：
   * PortalページのVPN Site-to-Site

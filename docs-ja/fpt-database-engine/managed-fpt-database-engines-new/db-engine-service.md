@@ -19,4 +19,4 @@ sidebar_position: 16
 
 **FPT Database Engineサービスの有効化／無効化：**
 
-FPT Database Engineサービスを管理するには、[FPT Database Engineの有効化](../managed-fpt-database-engines-new/index.md)および[FPT Database Engineの無効化](../managed-fpt-database-engines-new/index.md)セクションの詳細な手順をご参照ください。
+FPT Database Engineサービスを管理するには、[FPT Database Engineの有効化](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/および[FPT Database Engineの無効化](/docs/ja/fpt-database-engine/managed-fpt-database-engines-new/)/セクションの詳細な手順をご参照ください。

@@ -9,9 +9,9 @@ sidebar_position: "20"
 # Connect FCI to AWS via Transit Gateway
 
 **This guide explains how to connect VPNaaS between the AWS and OPS platforms on the Unify portal.**
-  * [I. Configure VPN Site-to-Site on FCI Cloud](../vpn-site-to-site/index.md)
-  * [II. Configure VPN Site-to-Site on AWS](../vpn-site-to-site/index.md)
-  * [III. Update VPN Site-to-Site configuration on FCI Cloud with the new AWS VPN IP](../vpn-site-to-site/index.md)
+  * [I. Configure VPN Site-to-Site on FCI Cloud](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [II. Configure VPN Site-to-Site on AWS](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [III. Update VPN Site-to-Site configuration on FCI Cloud with the new AWS VPN IP](/docs/en/fpt-network/vpn-site-to-site/)/
 
 In this example, we will create a VPN Site-to-Site connection using the parameters shown in the topology below:
 [![file](/img/migrated/image-1744187555434-7059bf1d.png)](/img/migrated/image-1744187555434-7059bf1d.png)

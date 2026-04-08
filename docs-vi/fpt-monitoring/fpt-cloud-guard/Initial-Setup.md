@@ -9,7 +9,7 @@ sidebar_position: 2
 # Thiết lập ban đầu
 
 Nếu đây là lần đầu tiên bạn sử dụng **FPT Cloud Guard – Alert** , trước tiên hãy kiểm tra và hoàn thành các công việc sau:
-  * [Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](../cloud-guard/index.md)
+  * [Tạo tài khoản FPT Cloud và đăng nhập vào FPT Portal](/docs/vi/fpt-monitoring/fpt-cloud-guard/tutorials/cloud-guard/)/
 
 Sau khi thực hiện các thao tác trên, bạn đã sẵn sàng để khởi tạo **Alert** trên hệ thống FPT Cloud.
 

@@ -26,7 +26,7 @@ See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/q
 
 [![anhfsec](/img/migrated/infcr3-ddd75d32.png)](/img/migrated/infcr3-ddd75d32.png)
 
-**Step 4:** After selecting the VPC, if you already have a Robot Account, enter the **Robot Account Name**. If you do not have a Robot Account yet, refer to the [FPT Container Registry guide](../fpt-container-registry/index.md).
+**Step 4:** After selecting the VPC, if you already have a Robot Account, enter the **Robot Account Name**. If you do not have a Robot Account yet, refer to the [FPT Container Registry guide](/docs/en/fpt-container/fpt-container-registry/)/.
 
 [![anhfsec](/img/migrated/infcr4-55fd52f8.png)](/img/migrated/infcr4-55fd52f8.png)
 

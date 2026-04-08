@@ -9,9 +9,9 @@ sidebar_position: 3
 # Cấu hình VPN Site-to-Site với strongSwan
 
 Bài viết này hướng dẫn build thiết bị Router để đấu nối VPN_S2S với dịch vụ VPN Site-to-site của FPT Smart Cloud. 
-  * [Bước 1: Build strongSwan](../vpn-site-to-site/index.md)
-  * [Bước 2: Cấu hình cho VPN_AAS](../vpn-site-to-site/index.md)
-  * [Bước 3: Cấu hình cho StrongSwan](../vpn-site-to-site/index.md)
+  * [Bước 1: Build strongSwan](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 2: Cấu hình cho VPN_AAS](/docs/vi/fpt-network/vpn-site-to-site/)/
+  * [Bước 3: Cấu hình cho StrongSwan](/docs/vi/fpt-network/vpn-site-to-site/)/
 
 Cần đảm bảo các điều kiện sau:
   * VPNAAS trên trang Portal
