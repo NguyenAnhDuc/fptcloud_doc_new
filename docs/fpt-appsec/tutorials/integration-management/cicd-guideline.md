@@ -47,9 +47,9 @@ Initiates a source code scan for a specific repository and commit.
 
 | Name | Type | Required | Description |
 | --- | --- | --- | --- |
-| team_code | string | Yes | FSEC team code. See [here](/docs/en/fpt-appsec/tutorials/team-management/cai-dat-team/) |
+| team_code | string | Yes | FSEC team code. See [here](/docs/fpt-appsec/tutorials/team-management/cai-dat-team/) |
 | git_repo_url | string | Yes | Git repository URL |
-| access_key | string | Yes | Access key issued by FSEC. See [here](/docs/en/fpt-appsec/tutorials/integration-management/guide-gitlabserver/) |
+| access_key | string | Yes | Access key issued by FSEC. See [here](/docs/fpt-appsec/tutorials/integration-management/guide-gitlabserver/) |
 | branch | string | Yes | Branch name to scan |
 | commit | string | No | Commit SHA to scan |
 

@@ -36,4 +36,4 @@ The virtual machine is now unlocked and can be deleted normally.
 
 ## Next steps
 
-- [Delete a virtual machine](/docs/en/fpt-cloud-server/cloud-server/quick-starts/quick-starts-xoa-may-ao)
+- [Delete a virtual machine](/docs/fpt-cloud-server/cloud-server/quick-starts/quick-starts-xoa-may-ao)

@@ -36,7 +36,7 @@ After logging in, you will be directed to the homepage, where you can browse all
 - Copy and securely store your key — it will be required to authenticate every API request.
 
 :::tip
-See the [detailed guide on creating API keys](/docs/en/fpt-ai-factory/ai-marketplace/my-account) for step-by-step instructions.
+See the [detailed guide on creating API keys](/docs/fpt-ai-factory/ai-marketplace/my-account) for step-by-step instructions.
 :::
 
 ---

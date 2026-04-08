@@ -10,6 +10,6 @@ sidebar_position: 9
 
 Create, edit, and delete Credentials on FPT Kafka.
 
-- [Create Credentials](/docs/en/fpt-integration/fpt-kafka/create-credentials)
-- [Edit Credentials](/docs/en/fpt-integration/fpt-kafka/edit-credentials)
-- [Delete Credentials](/docs/en/fpt-integration/fpt-kafka/delete-credentials)
+- [Create Credentials](/docs/fpt-integration/fpt-kafka/create-credentials)
+- [Edit Credentials](/docs/fpt-integration/fpt-kafka/edit-credentials)
+- [Delete Credentials](/docs/fpt-integration/fpt-kafka/delete-credentials)

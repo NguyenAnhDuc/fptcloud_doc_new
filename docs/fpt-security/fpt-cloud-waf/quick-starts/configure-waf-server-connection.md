@@ -43,7 +43,7 @@ sidebar_position: 3
 
    [![Create SSL certificate — step 1](/img/migrated/Userguide-FPT-WAF-2022-7-1024x538-743bb54d.png)](/img/migrated/Userguide-FPT-WAF-2022-7-1024x538-743bb54d.png)
 
-2. Enter the details as described in [Manage SSL certificates](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-ssl-certificate).
+2. Enter the details as described in [Manage SSL certificates](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-ssl-certificate).
 
    [![Enter SSL certificate details](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)](/img/migrated/Userguide-FPT-WAF-2022-8-1024x538-dac448e9.png)
 

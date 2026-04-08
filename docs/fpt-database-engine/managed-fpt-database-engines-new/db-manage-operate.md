@@ -30,8 +30,8 @@ Operations in this group apply at the database resource level and require users 
 
 To manage and operate databases, please refer to the detailed instructions in the following sections:
 
-- [View database list](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/: Displays the list of databases you have access to, including status, configuration, and important information.
-- [Create a database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/: Provision a new database by selecting the engine, version, flavor, and other necessary configurations.
-- [Connect to a database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/: Learn how to get connection information and connect to the database from your application or client tools.
-- [Database operations](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/: Perform common operational tasks such as starting, stopping, restarting, managing configuration, and monitoring the database.
+- [View database list](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/: Displays the list of databases you have access to, including status, configuration, and important information.
+- [Create a database](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/: Provision a new database by selecting the engine, version, flavor, and other necessary configurations.
+- [Connect to a database](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/: Learn how to get connection information and connect to the database from your application or client tools.
+- [Database operations](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/: Perform common operational tasks such as starting, stopping, restarting, managing configuration, and monitoring the database.
 - "Database version upgrade": Upgrade the database engine version to use new features, performance improvements, and security patches.

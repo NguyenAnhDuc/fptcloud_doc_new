@@ -22,4 +22,4 @@ Deleting an image is irreversible. Make sure you have backed up all important da
 
 ## Next Steps
 
-- [Managing GPU Server with HPC Portal](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/quan-ly-gpu-voi-hpc-portal)
+- [Managing GPU Server with HPC Portal](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/quan-ly-gpu-voi-hpc-portal)

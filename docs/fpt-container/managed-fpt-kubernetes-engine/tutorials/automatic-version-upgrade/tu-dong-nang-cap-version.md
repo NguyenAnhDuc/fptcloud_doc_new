@@ -12,5 +12,5 @@ The Auto Upgrade Version feature automatically upgrades the Kubernetes version o
 
 See related documentation:
 
-- [Overview of the Kubernetes version management process on FPT Cloud](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/gioi-thieu-chung-ve-quy-trinh-quan-ly-version)
-- [Detailed guide to using the auto upgrade version feature](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/huong-dan-chi-tiet-su-dung-auto-upgrade)
+- [Overview of the Kubernetes version management process on FPT Cloud](/docs/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/gioi-thieu-chung-ve-quy-trinh-quan-ly-version)
+- [Detailed guide to using the auto upgrade version feature](/docs/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/huong-dan-chi-tiet-su-dung-auto-upgrade)

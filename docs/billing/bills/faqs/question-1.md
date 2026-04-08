@@ -16,7 +16,7 @@ Contact FCI Sale Support to set up service pricing and enable reconciliation dis
 
 **2. Your account does not have the Tenant Owner role.**
 
-Ask someone with Tenant Owner rights in your organization to grant you IAM billing permissions. See [Billing permissions](/docs/en/billing/bills/quick-starts/billing-permission/) for instructions.
+Ask someone with Tenant Owner rights in your organization to grant you IAM billing permissions. See [Billing permissions](/docs/billing/bills/quick-starts/billing-permission/) for instructions.
 
 **3. Your account has sufficient billing view permissions but data is still not visible.**
 

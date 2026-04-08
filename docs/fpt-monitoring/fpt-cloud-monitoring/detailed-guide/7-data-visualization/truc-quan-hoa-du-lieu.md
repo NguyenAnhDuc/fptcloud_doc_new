@@ -11,5 +11,5 @@ FPT Cloud Monitoring provides data visualization through Grafana dashboards. You
 
 See the following sections for details:
 
-- [Access the dashboard](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard)
-- [Install a dashboard template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/fcmon-dashboard-template)
+- [Access the dashboard](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard)
+- [Install a dashboard template](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/fcmon-dashboard-template)

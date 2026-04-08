@@ -11,7 +11,7 @@ sidebar_position: "8"
 1. Select the NIC card whose IP address you want to change.
 
 :::warning
-This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](/docs/en/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
+This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](/docs/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Select NIC card](/img/migrated/image-1691383107122-1741e5c6.png)](/img/migrated/image-1691383107122-1741e5c6.png)

@@ -14,7 +14,7 @@ sidebar_position: 10
 
 Your credit balance is shown at the top of the header.
 
-To top up, click **Add credit** and follow the [billing guide](/docs/en/fpt-ai-factory/ai-marketplace/billing).
+To top up, click **Add credit** and follow the [billing guide](/docs/fpt-ai-factory/ai-marketplace/billing).
 
 :::note
 This balance is shared across all paid services of AI Factory that you have subscribed to.

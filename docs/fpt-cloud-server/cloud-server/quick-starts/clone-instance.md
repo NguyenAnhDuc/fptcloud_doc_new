@@ -46,4 +46,4 @@ Once complete, the status changes to **Running**.
 
 ## Next steps
 
-- [Power on/off virtual machine](/docs/en/fpt-cloud-server/cloud-server/quick-starts/quick-starts-tatbat-may-ao)
+- [Power on/off virtual machine](/docs/fpt-cloud-server/cloud-server/quick-starts/quick-starts-tatbat-may-ao)

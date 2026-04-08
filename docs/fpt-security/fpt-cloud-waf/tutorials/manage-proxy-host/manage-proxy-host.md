@@ -12,8 +12,8 @@ A proxy host is the core component of WAF that forwards end-user requests throug
 
 Proxy host management operations include:
 
-- [Create a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/create-proxy-host)
-- [View proxy host details](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/view-proxy-host-detail)
-- [Update a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/update-proxy-host)
-- [Enable or disable a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/enable-disable-proxy-host)
-- [Delete a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/delete-proxy-host)
+- [Create a proxy host](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/create-proxy-host)
+- [View proxy host details](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/view-proxy-host-detail)
+- [Update a proxy host](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/update-proxy-host)
+- [Enable or disable a proxy host](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/enable-disable-proxy-host)
+- [Delete a proxy host](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/delete-proxy-host)

@@ -10,9 +10,9 @@ sidebar_position: 5
 
 **Prerequisites for using High Performance Storage:**
 
-1. The mandatory conditions for initializing a Managed GPU cluster (active service, Metal Cloud quota, SSH key, Internal LB subnet, etc.) must be met. Refer to the Managed GPU Cluster initialization guide [here](/docs/en/managed-gpu-cluster-kubernetes/tutorials/fpt-managed-gpu-cluster/)/.
+1. The mandatory conditions for initializing a Managed GPU cluster (active service, Metal Cloud quota, SSH key, Internal LB subnet, etc.) must be met. Refer to the Managed GPU Cluster initialization guide [here](/docs/managed-gpu-cluster-kubernetes/tutorials/fpt-managed-gpu-cluster/)/.
 2. The File Storage – High Performance service must be enabled and quota allocated in the tenant.
-3. A MountPoint belonging to the Metal Cloud network you want to use must exist. Go to the File Storage – High Performance tab to create a new MountPoint following the guide [here](/docs/en/fpt-storage/file-storage-high-performance/)/.
+3. A MountPoint belonging to the Metal Cloud network you want to use must exist. Go to the File Storage – High Performance tab to create a new MountPoint following the guide [here](/docs/fpt-storage/file-storage-high-performance/)/.
 
 **Enable File Storage – High Performance with Managed GPU Cluster on the FPTcloud Unify Portal.**
 

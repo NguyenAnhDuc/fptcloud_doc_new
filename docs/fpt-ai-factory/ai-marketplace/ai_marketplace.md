@@ -21,12 +21,12 @@ AI Marketplace is FPT Cloud's Model-as-a-Service platform, giving you instant ac
 
 | Guide | Description |
 |---|---|
-| [Quick start](/docs/en/fpt-ai-factory/ai-marketplace/quick-start) | Create an account, pick a model, and make your first API call |
-| [Overview](/docs/en/fpt-ai-factory/ai-marketplace/overview) | Understand the platform features and benefits |
-| [Playground](/docs/en/fpt-ai-factory/ai-marketplace/playground) | Test models without writing any code |
-| [Create an API key](/docs/en/fpt-ai-factory/ai-marketplace/how-to-create-an-api-key) | Generate credentials to authenticate API requests |
-| [API integration](/docs/en/fpt-ai-factory/ai-marketplace/api-integration) | Integrate models into your application |
-| [Fine-tune with LoRA](/docs/en/fpt-ai-factory/ai-marketplace/fine-tune-with-lora) | Customize a foundation model with your own data |
-| [Deploy LoRA inference](/docs/en/fpt-ai-factory/ai-marketplace/deployment-lora-inference) | Serve your fine-tuned model via API |
-| [Billing](/docs/en/fpt-ai-factory/ai-marketplace/billing) | Top up credit and manage payments |
-| [FAQ](/docs/en/fpt-ai-factory/ai-marketplace/FAQ) | Common questions and answers |
+| [Quick start](/docs/fpt-ai-factory/ai-marketplace/quick-start) | Create an account, pick a model, and make your first API call |
+| [Overview](/docs/fpt-ai-factory/ai-marketplace/overview) | Understand the platform features and benefits |
+| [Playground](/docs/fpt-ai-factory/ai-marketplace/playground) | Test models without writing any code |
+| [Create an API key](/docs/fpt-ai-factory/ai-marketplace/how-to-create-an-api-key) | Generate credentials to authenticate API requests |
+| [API integration](/docs/fpt-ai-factory/ai-marketplace/api-integration) | Integrate models into your application |
+| [Fine-tune with LoRA](/docs/fpt-ai-factory/ai-marketplace/fine-tune-with-lora) | Customize a foundation model with your own data |
+| [Deploy LoRA inference](/docs/fpt-ai-factory/ai-marketplace/deployment-lora-inference) | Serve your fine-tuned model via API |
+| [Billing](/docs/fpt-ai-factory/ai-marketplace/billing) | Top up credit and manage payments |
+| [FAQ](/docs/fpt-ai-factory/ai-marketplace/FAQ) | Common questions and answers |

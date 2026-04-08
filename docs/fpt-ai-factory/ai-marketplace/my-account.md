@@ -13,7 +13,7 @@ sidebar_position: 9
 To check your API keys, follow the instructions below.
 
 :::note
-Ensure your account is subscribed to a paid plan. If you do not have one, please [contact us](/docs/en/fpt-ai-factory/ai-marketplace/contact-us).
+Ensure your account is subscribed to a paid plan. If you do not have one, please [contact us](/docs/fpt-ai-factory/ai-marketplace/contact-us).
 :::
 
 1. Click on the account icon in the header.

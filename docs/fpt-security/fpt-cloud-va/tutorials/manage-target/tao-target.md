@@ -43,8 +43,8 @@ A **target** is a scan object that FPT VA scans for security vulnerabilities. Ta
    | Field | Description |
    |---|---|
    | **Exclude URLs** | List of paths to skip during scanning. |
-   | **Custom Header** | Configure custom headers to maintain an authenticated session during scanning. See [Get website headers](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header). |
-   | **Custom Cookies** | Configure custom cookies to maintain an authenticated session during scanning. See [Get website cookies](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie). |
+   | **Custom Header** | Configure custom headers to maintain an authenticated session during scanning. See [Get website headers](/docs/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header). |
+   | **Custom Cookies** | Configure custom cookies to maintain an authenticated session during scanning. See [Get website cookies](/docs/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie). |
    | **Login using your account** | Configure login credentials: **None**, **Basic authentication**, or **Login form**. |
 
    For **Network** targets, the following additional fields are available:
@@ -54,7 +54,7 @@ A **target** is a scan object that FPT VA scans for security vulnerabilities. Ta
    | **Port list** | Set of service ports to check. |
    | **Excluded IP** | List of IP addresses to skip during scanning. |
    | **Alive test** | Method for determining whether a device exists on the network: **Default**, **Custom**, or **Consider Alive**. |
-   | **Authenticate scan** | Login configuration for authenticated scanning: **None**, **SSH**, or **SMB**. See [Enable Remote Registry on Windows](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window) for SMB. |
+   | **Authenticate scan** | Login configuration for authenticated scanning: **None**, **SSH**, or **SMB**. See [Enable Remote Registry on Windows](/docs/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window) for SMB. |
    | **Monitor** | Monitor device status and service port status to detect anomalies. |
 
    :::warning

@@ -18,7 +18,7 @@ The **Vertical Scaling** feature allows automatic adjustment of database resourc
 
 ### 1. Enable the vertical scaling service
 
-To enable the Vertical Scaling service, you can do so directly during the Additional Service configuration step when initializing the database (see [Creating a database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the database has been successfully initialized by following the instructions below.
+To enable the Vertical Scaling service, you can do so directly during the Additional Service configuration step when initializing the database (see [Creating a database](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the database has been successfully initialized by following the instructions below.
 
 #### Prerequisites
 
@@ -26,7 +26,7 @@ To activate Vertical Scaling, you must enable the Notification service and compl
 
 [![](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)](/img/migrated/scale-noti-warning-scaled-d20a3fb7.png)
 
-Click **Go to Notification** to navigate to the **Notification** tab and configure according to the instructions in the [Notification](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ section.
+Click **Go to Notification** to navigate to the **Notification** tab and configure according to the instructions in the [Notification](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/ section.
 
 #### Step 1: Access the vertical scaling feature
 

@@ -7,7 +7,7 @@ sidebar_position: 9
 
 # Explore data
 
-**Step 1:** [Access the dashboard](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
+**Step 1:** [Access the dashboard](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
 
 **Step 2:** In the left menu, click **Home** > **Explore**.
 

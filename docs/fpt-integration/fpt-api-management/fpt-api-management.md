@@ -12,13 +12,13 @@ FPT API Management provides a professional, centralized API management system de
 
 ## Documentation structure
 
-- [Initial setup](/docs/en/fpt-integration/fpt-api-management/initial-setup)
-- [Quick starts](/docs/en/fpt-integration/fpt-api-management/quick-starts/quick-starts)
-- [Register API Management on FPT Portal](/docs/en/fpt-integration/fpt-api-management/registering-on-fpt-portal)
+- [Initial setup](/docs/fpt-integration/fpt-api-management/initial-setup)
+- [Quick starts](/docs/fpt-integration/fpt-api-management/quick-starts/quick-starts)
+- [Register API Management on FPT Portal](/docs/fpt-integration/fpt-api-management/registering-on-fpt-portal)
 - [Declaring information on ApiManager Application](./khai-bao-thong-tin-tren-apimanager-application.md)
-- [Manage REST APIs](/docs/en/fpt-integration/fpt-api-management/manage-rest-apis)
-- [Manage Products](/docs/en/fpt-integration/fpt-api-management/managing-products)
+- [Manage REST APIs](/docs/fpt-integration/fpt-api-management/manage-rest-apis)
+- [Manage Products](/docs/fpt-integration/fpt-api-management/managing-products)
 - [Manage API Sites](./managing-sites.md)
-- [Manage Consumers](/docs/en/fpt-integration/fpt-api-management/managing-consumers)
+- [Manage Consumers](/docs/fpt-integration/fpt-api-management/managing-consumers)
 - [Analytics](./analytics.md)
-- [API Consumer usage guide](/docs/en/fpt-integration/fpt-api-management/consumer-api-usage-guide)
+- [API Consumer usage guide](/docs/fpt-integration/fpt-api-management/consumer-api-usage-guide)

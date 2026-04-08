@@ -10,5 +10,5 @@ description: "Các tuỳ chọn cấu hình Proxy Protocol trong Managed Kuberne
 
 Tài liệu hướng dẫn cấu hình Proxy Protocol trong Managed Kubernetes cluster.
 
-- [Cấu hình Proxy Protocol cho nginx-ingress](/docs/en/fpt-container/managed-fpt-kubernetes-engine/samples/proxy-protocol-configuration/cau-hinh-proxy-protocol-cho-nginx-ingress)
-- [Cấu hình Proxy Protocol cho istio-ingress](/docs/en/fpt-container/managed-fpt-kubernetes-engine/samples/proxy-protocol-configuration/cau-hinh-proxy-protocol-cho-istio-ingress)
+- [Cấu hình Proxy Protocol cho nginx-ingress](/docs/fpt-container/managed-fpt-kubernetes-engine/samples/proxy-protocol-configuration/cau-hinh-proxy-protocol-cho-nginx-ingress)
+- [Cấu hình Proxy Protocol cho istio-ingress](/docs/fpt-container/managed-fpt-kubernetes-engine/samples/proxy-protocol-configuration/cau-hinh-proxy-protocol-cho-istio-ingress)

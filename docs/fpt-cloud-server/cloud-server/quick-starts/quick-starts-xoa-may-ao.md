@@ -34,5 +34,5 @@ Deleting a virtual machine permanently removes all data and cannot be undone. Ma
 
 ## Next steps
 
-- [Create a virtual machine](/docs/en/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)
-- [Manage virtual machines](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/quan-ly-may-ao)
+- [Create a virtual machine](/docs/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)
+- [Manage virtual machines](/docs/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/quan-ly-may-ao)

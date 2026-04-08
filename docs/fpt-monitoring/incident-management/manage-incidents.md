@@ -10,9 +10,9 @@ sidebar_position: 26
 
 This section covers operations for managing incidents after they are created:
 
-- [Search and filter incidents](/docs/en/fpt-monitoring/incident-management/filter-incidents)
-- [View incident detail](/docs/en/fpt-monitoring/incident-management/view-incident-detail)
-- [Post incident activity](/docs/en/fpt-monitoring/incident-management/post-incident-activity)
-- [Change incident status](/docs/en/fpt-monitoring/incident-management/change-the-incident-status)
-- [Change incident severity](/docs/en/fpt-monitoring/incident-management/change-the-incident-severity)
-- [Copy activities as markdown](/docs/en/fpt-monitoring/incident-management/copy-activities-as-markdown)
+- [Search and filter incidents](/docs/fpt-monitoring/incident-management/filter-incidents)
+- [View incident detail](/docs/fpt-monitoring/incident-management/view-incident-detail)
+- [Post incident activity](/docs/fpt-monitoring/incident-management/post-incident-activity)
+- [Change incident status](/docs/fpt-monitoring/incident-management/change-the-incident-status)
+- [Change incident severity](/docs/fpt-monitoring/incident-management/change-the-incident-severity)
+- [Copy activities as markdown](/docs/fpt-monitoring/incident-management/copy-activities-as-markdown)

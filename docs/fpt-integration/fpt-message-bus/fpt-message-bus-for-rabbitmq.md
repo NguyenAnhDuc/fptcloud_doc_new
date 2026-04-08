@@ -12,16 +12,16 @@ FPT Message Bus for RabbitMQ là dịch vụ nhắn tin được quản lý hoà
 
 ## Nội dung tài liệu
 
-- [Thiết lập ban đầu](/docs/en/fpt-integration/fpt-message-bus/initial-setup)
+- [Thiết lập ban đầu](/docs/fpt-integration/fpt-message-bus/initial-setup)
 - [Hướng dẫn nhanh](./huong-dan-nhanh-quick-starts.md)
 - **Quản lý queues**
-  - [Quản lý queues](/docs/en/fpt-integration/fpt-message-bus/quan-ly-queues)
-  - [Tạo queue](/docs/en/fpt-integration/fpt-message-bus/tao-queues)
-  - [Xem queue](/docs/en/fpt-integration/fpt-message-bus/xem-queues)
-  - [Gửi và nhận messages trong queue](/docs/en/fpt-integration/fpt-message-bus/gui-nhan-message-trong-queues)
-  - [Xóa queue](/docs/en/fpt-integration/fpt-message-bus/xoa-queues)
+  - [Quản lý queues](/docs/fpt-integration/fpt-message-bus/quan-ly-queues)
+  - [Tạo queue](/docs/fpt-integration/fpt-message-bus/tao-queues)
+  - [Xem queue](/docs/fpt-integration/fpt-message-bus/xem-queues)
+  - [Gửi và nhận messages trong queue](/docs/fpt-integration/fpt-message-bus/gui-nhan-message-trong-queues)
+  - [Xóa queue](/docs/fpt-integration/fpt-message-bus/xoa-queues)
 - **Quản lý topics**
-  - [Quản lý topics](/docs/en/fpt-integration/fpt-message-bus/quan-ly-topics)
+  - [Quản lý topics](/docs/fpt-integration/fpt-message-bus/quan-ly-topics)
   - [Tạo topic](./tao-topics.md)
   - [Tạo subscription](./tao-subscriptions.md)
   - [Sửa topic](./sua-topic.md)

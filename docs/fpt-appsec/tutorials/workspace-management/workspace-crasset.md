@@ -49,7 +49,7 @@ After successfully adding, the system automatically runs the first scan and disp
 
 ### Access the Issue list
 
-See the [SCM asset guide](/docs/en/fpt-appsec/tutorials/workspace-management/workspace-scmasset/).
+See the [SCM asset guide](/docs/fpt-appsec/tutorials/workspace-management/workspace-scmasset/).
 
 ### Issue information
 
@@ -80,4 +80,4 @@ Each issue is displayed as an Issue Info Card with:
 
 ## Rescan, disable/enable, and delete assets
 
-See the [SCM asset guide](/docs/en/fpt-appsec/tutorials/workspace-management/workspace-scmasset/).
+See the [SCM asset guide](/docs/fpt-appsec/tutorials/workspace-management/workspace-scmasset/).

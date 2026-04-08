@@ -9,10 +9,10 @@ sidebar_position: "19"
 # Connect CheckPoint R8120
 
 **This guide explains how to build a Router device to connect VPN S2S with the FPT Smart Cloud VPN Site-to-Site service.**
-  * [Step 1: Build CheckPoint for Cloud](/docs/en/fpt-network/vpn-site-to-site/)/
-  * [Step 2: Configure VPN Site-to-Site](/docs/en/fpt-network/vpn-site-to-site/)/
-  * [Step 3: Configure CheckPoint](/docs/en/fpt-network/vpn-site-to-site/)/
-  * [Step 4: Debug — Tracert](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 1: Build CheckPoint for Cloud](/docs/fpt-network/vpn-site-to-site/)/
+  * [Step 2: Configure VPN Site-to-Site](/docs/fpt-network/vpn-site-to-site/)/
+  * [Step 3: Configure CheckPoint](/docs/fpt-network/vpn-site-to-site/)/
+  * [Step 4: Debug — Tracert](/docs/fpt-network/vpn-site-to-site/)/
 
 Ensure the following prerequisites are met:
   * VPN Site-to-Site on the portal

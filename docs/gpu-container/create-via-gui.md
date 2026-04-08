@@ -55,10 +55,10 @@ Copyssh-ed25519 AAAAC4NzaC1lZDI1JTE5AAAAIGP+L8hnjIcBqUb8NRrDiC32FuJBvRA0m8jLShzg
 
 ### 6. Advanced Settings (Optional)
 This section includes: 
-a. **Persistent Disk** : specify the amount of storage that users need to store training weights, models, etc. Read more about Storage [here](/docs/en/gpu-container/)/
+a. **Persistent Disk** : specify the amount of storage that users need to store training weights, models, etc. Read more about Storage [here](/docs/gpu-container/)/
 b. **Environment Variables** : key-value pairs injected into the container at runtime.
 c. **Startup Command** : command and arguments to run at the start of container. 
 
 ### 7. Click **"Create New Container"** to create and start your container.
 ### 8. Add credit
-In case your balance is not enough to create a new container (lower cost of using the container for 1 hour), please follow these instructions to add credit to your account: [Add Credits](/docs/en/gpu-container/add-credit/)
+In case your balance is not enough to create a new container (lower cost of using the container for 1 hour), please follow these instructions to add credit to your account: [Add Credits](/docs/gpu-container/add-credit/)

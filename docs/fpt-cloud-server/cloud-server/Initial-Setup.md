@@ -102,4 +102,4 @@ The new Security Group appears in the **Security Group** table.
 
 ## Next steps
 
-- [Create a virtual machine](/docs/en/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)
+- [Create a virtual machine](/docs/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)

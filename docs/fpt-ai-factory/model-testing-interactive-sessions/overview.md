@@ -17,4 +17,4 @@ This service helps you:
 * Detect edge cases before deployment.
 * Integrate the model into applications via API endpoint.
 
-To get started, see [Quick Start](/docs/en/fpt-ai-factory/model-testing-interactive-sessions/quick-start) or follow the [Step By Step](/docs/en/fpt-ai-factory/model-testing-interactive-sessions/step-by-step) guide.
+To get started, see [Quick Start](/docs/fpt-ai-factory/model-testing-interactive-sessions/quick-start) or follow the [Step By Step](/docs/fpt-ai-factory/model-testing-interactive-sessions/step-by-step) guide.

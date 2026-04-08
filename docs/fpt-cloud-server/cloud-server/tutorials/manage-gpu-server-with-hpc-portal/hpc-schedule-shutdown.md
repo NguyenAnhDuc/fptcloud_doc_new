@@ -21,4 +21,4 @@ After configuring, you can view the remaining time before the automatic shutdown
 
 ## Next Steps
 
-- [Clone Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-clone-image)
+- [Clone Image](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-clone-image)

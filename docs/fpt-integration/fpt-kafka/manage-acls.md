@@ -10,5 +10,5 @@ sidebar_position: 13
 
 Create and delete Access Control Lists (ACLs) on FPT Kafka.
 
-- [Create ACLs](/docs/en/fpt-integration/fpt-kafka/create-acls)
-- [Delete ACLs](/docs/en/fpt-integration/fpt-kafka/delete-acls)
+- [Create ACLs](/docs/fpt-integration/fpt-kafka/create-acls)
+- [Delete ACLs](/docs/fpt-integration/fpt-kafka/delete-acls)

@@ -26,7 +26,7 @@ You can create Instance Groups with Soft Affinity or Soft Anti-Affinity policies
 
 ## Guides
 
-- [Initial Setup](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/initial-setup)
-- [Create an Instance Group](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/create-instance-group)
-- [Add Instance to Instance Group](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/add-instance-instance-group)
-- [Delete an Instance Group](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/delete-instance-group)
+- [Initial Setup](/docs/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/initial-setup)
+- [Create an Instance Group](/docs/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/create-instance-group)
+- [Add Instance to Instance Group](/docs/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/add-instance-instance-group)
+- [Delete an Instance Group](/docs/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/delete-instance-group)

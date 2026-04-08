@@ -19,7 +19,7 @@ FPT Cloud supports converting a standard NIC card to the primary NIC quickly and
 2. Confirm the conversion to primary.
 
 :::warning
-This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](/docs/en/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
+This action may affect services such as Kubernetes and Load Balancer. Consider carefully before proceeding. After the change, update the network settings in the operating system configuration file. See: [How to change Config file](/docs/fpt-cloud-server/cloud-server/tutorials/change-network-config/)/.
 :::
 
 [![Confirm conversion](/img/migrated/image-1691382948749-d9b6edea.png)](/img/migrated/image-1691382948749-d9b6edea.png)

@@ -9,4 +9,4 @@ sidebar_position: 15
 # Top Up Balance
 
 * Navigate to **Account** > **Billing** in the left menu
-  * Follow the detailed guide: [Add credits](/docs/en/fpt-ai-factory/ai-factory-billing/)/
+  * Follow the detailed guide: [Add credits](/docs/fpt-ai-factory/ai-factory-billing/)/

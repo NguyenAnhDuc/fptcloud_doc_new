@@ -9,7 +9,7 @@ sidebar_position: 1
 # View bills by billing period
 
 :::note
-To view bills, you must be logged in with the Tenant Owner role or a role that has **view billing** permission. See [Billing permissions](/docs/en/billing/bills/quick-starts/billing-permission/) for setup instructions.
+To view bills, you must be logged in with the Tenant Owner role or a role that has **view billing** permission. See [Billing permissions](/docs/billing/bills/quick-starts/billing-permission/) for setup instructions.
 :::
 
 Follow these steps:
@@ -35,4 +35,4 @@ Follow these steps:
      - **Cancelled** – Reconciliation cancelled, no invoice issued
    - **Grand total** – Total amount before VAT at the time of the most recent data update
 
-3. Select the [Charges by service](/docs/en/billing/bills/quick-starts/view-bill-charges-by-service/) tab to view a service-level breakdown, or the [Charges by resource](/docs/en/billing/bills/quick-starts/view-bill-charges-by-resource/) tab to view a resource-level breakdown.
+3. Select the [Charges by service](/docs/billing/bills/quick-starts/view-bill-charges-by-service/) tab to view a service-level breakdown, or the [Charges by resource](/docs/billing/bills/quick-starts/view-bill-charges-by-resource/) tab to view a resource-level breakdown.

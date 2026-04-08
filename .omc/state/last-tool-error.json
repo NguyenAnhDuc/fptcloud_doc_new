@@ -1,7 +1,7 @@
 {
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"ps -p 2795831 2>&1 | tail -1; echo ---; ps aux | grep docusaurus | grep -v grep | head -2; echo ---; F=/tmp/claude-0/-root-codes-fptcloud-doc-new/b043fa28-e851-424c-8ab9-486b1556e43b/tasks...",
-  "error": "Exit code 2\n    PID TTY          TIME CMD\n---\nroot     2807226  0.0  0.0   4884  2028 ?        S    00:32   0:00 /bin/bash -c source /root/.claude/shell-snapshots/snapshot-bash-1775659883661-44vl34.sh 2>/dev/null || true && shopt -u extglob 2>/dev/null || true && eval 'rm -rf build .docusaurus && npm run build 2>&1 > /tmp/build-docsmith.log & echo \"pid=$!\"' < /dev/null && pwd -P >| /tmp/claude-7611-cwd\nroot     2807279  0.0  0.0   2804  1920 ?        S    00:32   0:00 sh -c NODE_OPTIONS='--max-o...",
-  "timestamp": "2026-04-08T17:33:39.439Z",
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/tmp/claude-0/-root-codes-fptcloud-doc-new/b043fa28-e851-424c-8ab9-486b1556e43b/tasks/bk9luh40u.output\"}",
+  "error": "File content (31337 tokens) exceeds maximum allowed tokens (10000). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
+  "timestamp": "2026-04-08T18:27:31.820Z",
   "retry_count": 1
 }

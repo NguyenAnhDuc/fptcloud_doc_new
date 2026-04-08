@@ -10,8 +10,8 @@ sidebar_position: 15
 
 Create, edit, and delete Topics on FPT Message Bus (RabbitMQ).
 
-- [Create Topics](/docs/en/fpt-integration/fpt-message-bus/Create-topics)
-- [Create Subscriptions](/docs/en/fpt-integration/fpt-message-bus/Create-Subscriptions)
-- [Edit Topics](/docs/en/fpt-integration/fpt-message-bus/Edit-topics)
-- [Delete Topics](/docs/en/fpt-integration/fpt-message-bus/Delete-topics)
-- [Send and receive messages in Topics](/docs/en/fpt-integration/fpt-message-bus/Send-Receive-messages-in-topics)
+- [Create Topics](/docs/fpt-integration/fpt-message-bus/Create-topics)
+- [Create Subscriptions](/docs/fpt-integration/fpt-message-bus/Create-Subscriptions)
+- [Edit Topics](/docs/fpt-integration/fpt-message-bus/Edit-topics)
+- [Delete Topics](/docs/fpt-integration/fpt-message-bus/Delete-topics)
+- [Send and receive messages in Topics](/docs/fpt-integration/fpt-message-bus/Send-Receive-messages-in-topics)

@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Only **Org Admin** and **Team Manager** have permission to edit the FPT Container Registry (FCR) integration.
 
-See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/quan-ly-member/).
+See [permission details](/docs/fpt-appsec/tutorials/organization-management/quan-ly-member/).
 
 ## Integrate FCR - Add VPC
 
@@ -26,7 +26,7 @@ See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/q
 
 [![anhfsec](/img/migrated/infcr3-ddd75d32.png)](/img/migrated/infcr3-ddd75d32.png)
 
-**Step 4:** After selecting the VPC, if you already have a Robot Account, enter the **Robot Account Name**. If you do not have a Robot Account yet, refer to the [FPT Container Registry guide](/docs/en/fpt-container/fpt-container-registry/)/.
+**Step 4:** After selecting the VPC, if you already have a Robot Account, enter the **Robot Account Name**. If you do not have a Robot Account yet, refer to the [FPT Container Registry guide](/docs/fpt-container/fpt-container-registry/)/.
 
 [![anhfsec](/img/migrated/infcr4-55fd52f8.png)](/img/migrated/infcr4-55fd52f8.png)
 
@@ -80,7 +80,7 @@ You can **Add VPC**, **Reconfigure**, and **Delete** VPCs, or **Disable** the in
 
 ## Disable FPT Container Registry integration
 
-See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github/).
+See [GitHub integration guide](/docs/fpt-appsec/tutorials/integration-management/guide-github/).
 
 ## Access key for CI/CD pipeline
 

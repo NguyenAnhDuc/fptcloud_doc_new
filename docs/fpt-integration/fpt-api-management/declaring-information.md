@@ -10,8 +10,8 @@ sidebar_position: 3
 
 After registering the service, all API Management configuration is performed on the ApiManager Application.
 
-- [Managing REST APIs](/docs/en/fpt-integration/fpt-api-management/manage-rest-apis)
-- [Managing Products](/docs/en/fpt-integration/fpt-api-management/managing-products)
+- [Managing REST APIs](/docs/fpt-integration/fpt-api-management/manage-rest-apis)
+- [Managing Products](/docs/fpt-integration/fpt-api-management/managing-products)
 - [Managing API Sites](./managing-sites.md)
-- [Managing Consumers](/docs/en/fpt-integration/fpt-api-management/managing-consumers)
+- [Managing Consumers](/docs/fpt-integration/fpt-api-management/managing-consumers)
 - [Analytics](./analytics.md)

@@ -1,8 +1,5 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,15 +25,24 @@ const config = {
     },
   },
 
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'vi', 'ja'],
+    localeConfigs: {
+      en: { label: 'English' },
+      vi: { label: 'Tiếng Việt' },
+      ja: { label: '日本語' },
+    },
+  },
+
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          id: 'en',
           path: 'docs',
-          routeBasePath: 'docs/en',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.js',
         },
         blog: false,
@@ -57,47 +63,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'vi',
-        path: 'docs-vi',
-        routeBasePath: 'docs/vi',
-        sidebarPath: './sidebars.js',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'ja',
-        path: 'docs-ja',
-        routeBasePath: 'docs/ja',
-        sidebarPath: './sidebars.js',
-      },
-    ],
-    // Custom plugin: build URL mapping across languages for language switcher
-    './src/docusaurus/langMappingPlugin.js',
-    // Custom plugin: scope search to active language only
-    function customSearchScopePlugin() {
-      return {
-        name: 'custom-search-scope',
-        configureWebpack(_config, isServer) {
-          if (isServer) return {};
-          return {
-            resolve: {
-              alias: {
-                '@docusaurus/plugin-content-docs/client': require.resolve(
-                  './src/docusaurus/customDocsClient.js'
-                ),
-              },
-            },
-          };
-        },
-      };
-    },
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -113,7 +78,7 @@ const config = {
         },
         items: [
           {
-            type: 'custom-LanguageSwitcher',
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
@@ -124,9 +89,7 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'English', to: '/docs/en/intro/' },
-              { label: 'Tiếng Việt', to: '/docs/vi/intro/' },
-              { label: '日本語', to: '/docs/ja/intro/' },
+              { label: 'Intro', to: '/docs/intro/' },
             ],
           },
         ],

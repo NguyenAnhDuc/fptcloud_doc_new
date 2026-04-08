@@ -12,7 +12,7 @@ Dashboard templates let you deploy quickly using pre-built dashboards provided b
 
 ## Install a dashboard template
 
-**Step 1:** [Access the dashboard](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
+**Step 1:** [Access the dashboard](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
 
 **Step 2:** In the left menu, click **Apps** > **FMON Template**.
 
@@ -26,7 +26,7 @@ Dashboard templates let you deploy quickly using pre-built dashboards provided b
 
 ## Remove a dashboard template
 
-**Step 1:** [Access the dashboard](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
+**Step 1:** [Access the dashboard](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard).
 
 **Step 2:** In the left menu, click **Apps** > **FMON Template**.
 

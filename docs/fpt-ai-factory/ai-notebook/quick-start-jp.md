@@ -21,7 +21,7 @@ sidebar_position: "3"
 
 1. From the left menu, select **AI Notebook**.
 2. Wait about **1–2 minutes** for the notebook to start.
-3. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/lauch-jp).
+3. Check out the detailed guide [here](/docs/fpt-ai-factory/ai-notebook/lauch-jp).
 
 ### Step 4: Add credit to account
 
@@ -32,15 +32,15 @@ sidebar_position: "3"
 ### Step 5: Create AI Notebook
 
 1. From the **Launcher**, you can choose to create a notebook that connects to CPU/GPU.
-2. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/create-jp).
+2. Check out the detailed guide [here](/docs/fpt-ai-factory/ai-notebook/create-jp).
 
 ### Step 6: Connect notebook to a new/existing kernel
 
 1. To start a new kernel, select the kernel you want from **Start Other Kernels** in the **kernel configuration menu**.
 2. To connect your notebook to an existing kernel, select the kernel you want from **Running Kernels** in the **kernel configuration menu**.
-3. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/switch).
+3. Check out the detailed guide [here](/docs/fpt-ai-factory/ai-notebook/switch).
 
 ### Step 7: Shut down kernel
 
 1. Navigate to **Running Kernels/Notebooks** (second icon from the top in the navigation bar).
-2. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/shut-down-jp).
+2. Check out the detailed guide [here](/docs/fpt-ai-factory/ai-notebook/shut-down-jp).

@@ -11,8 +11,8 @@ This section explains how to integrate dashboard templates and alert rule templa
 
 ## Integrate dashboard template
 
-See details at: [Integrate dashboard template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-dashboard-template)
+See details at: [Integrate dashboard template](/docs/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-dashboard-template)
 
 ## Integrate alert rule template
 
-See details at: [Integrate alert rule template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-alert-rule-template)
+See details at: [Integrate alert rule template](/docs/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-alert-rule-template)

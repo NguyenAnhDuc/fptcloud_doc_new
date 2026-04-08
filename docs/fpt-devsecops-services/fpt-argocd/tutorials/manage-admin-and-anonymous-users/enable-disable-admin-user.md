@@ -10,4 +10,4 @@ sidebar_position: 3
 
 FPT Cloud supports enabling or disabling the ArgoCD admin user account via the Portal interface.
 
-Go to **Essential Properties** to enable or disable the admin user. See [Manage the admin account](/docs/en/fpt-devsecops-services/fpt-argocd/tutorials/manage-account-on-argocd/manage-admin-account) for details.
+Go to **Essential Properties** to enable or disable the admin user. See [Manage the admin account](/docs/fpt-devsecops-services/fpt-argocd/tutorials/manage-account-on-argocd/manage-admin-account) for details.

@@ -40,7 +40,7 @@ The VPN Connection parameters consist of three main sections:
 | **Field**  | **Description**  |
 | --- | --- |
 | **Customer gateway**  |   |
-| Customer gateway  | The configuration at the other end of the connection. Select the correct Customer Gateway you want to connect to in this step. If you do not have a Customer Gateway yet, click [here](/docs/en/fpt-network/vpn-site-to-site/)/ for the setup guide.  |
+| Customer gateway  | The configuration at the other end of the connection. Select the correct Customer Gateway you want to connect to in this step. If you do not have a Customer Gateway yet, click [here](/docs/fpt-network/vpn-site-to-site/)/ for the setup guide.  |
 | Providers  | List of VPN connection providers to FCI.  |
 | **IKE Policy**  |   |
 | Authorization algorithm  | Algorithm used to authenticate data during VPN connection establishment. Values: sha1, sha256, sha384, sha512, aes-xcbc. Use **sha256** for a good balance of security and performance.  |

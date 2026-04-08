@@ -55,7 +55,7 @@ To modify the information of a REST API, follow these steps:
 [![](/img/migrated/api3-f62688d9.png)](/img/migrated/api3-f62688d9.png)
 
 ### 3. Delete REST APIs
-If you want to remove a previously declared REST API from the system, ensure that the REST API is not associated with any Products. To detach REST APIs from Products, follow the instructions in the [Product Management](/docs/en/fpt-integration/fpt-api-management/)/ section.
+If you want to remove a previously declared REST API from the system, ensure that the REST API is not associated with any Products. To detach REST APIs from Products, follow the instructions in the [Product Management](/docs/fpt-integration/fpt-api-management/)/ section.
 To delete Rest APIs, follow these steps:
 **Step 1** : In **Rest APIs** , choose the REST API to delete > **Remove API**.
 [![](/img/migrated/api4-ba563945.png)](/img/migrated/api4-ba563945.png)

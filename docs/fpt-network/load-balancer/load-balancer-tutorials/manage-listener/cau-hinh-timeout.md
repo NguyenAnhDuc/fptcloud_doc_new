@@ -16,4 +16,4 @@ The **Timeout** configuration for a Load Balancer defines the maximum time a con
 - If the connection is not completed or the request is not responded to within this time, it is closed.
 - Configuring timeout prevents connections or requests from hanging and consuming resources.
 
-Timeout is configured when creating or updating a Listener. See [Create a Listener](/docs/en/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/create-listener) for details.
+Timeout is configured when creating or updating a Listener. See [Create a Listener](/docs/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/create-listener) for details.

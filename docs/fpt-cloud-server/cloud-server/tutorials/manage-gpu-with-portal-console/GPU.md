@@ -18,5 +18,5 @@ If you need to use GPU services or encounter technical issues, contact the custo
 
 ## Guides
 
-- [Managing GPU with Console Portal (General)](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-general)
-- [Managing GPU with Console Portal (Specific)](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-specific)
+- [Managing GPU with Console Portal (General)](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-general)
+- [Managing GPU with Console Portal (Specific)](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-specific)

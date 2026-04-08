@@ -25,4 +25,4 @@ After changing the package, verify the GPU card on the machine and update to the
 
 ## Next Steps
 
-- [Set Fixed Rental Period](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)
+- [Set Fixed Rental Period](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)

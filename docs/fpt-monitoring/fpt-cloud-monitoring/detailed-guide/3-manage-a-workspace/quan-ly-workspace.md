@@ -11,9 +11,9 @@ Each workspace in FPT Cloud Monitoring contains its own configuration, data sour
 
 See the following sections for details:
 
-- [View workspace details](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/xem-chi-tiet-workspace)
-- [Configuration tab](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/configuration-tab)
-- [Add Data tab](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/add-data-tab)
-- [User Management tab](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-management-tab)
-- [Quota and Package tab](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/quota-and-package-tab)
-- [User Guide tab](/docs/en/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-guide-tab)
+- [View workspace details](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/xem-chi-tiet-workspace)
+- [Configuration tab](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/configuration-tab)
+- [Add Data tab](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/add-data-tab)
+- [User Management tab](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-management-tab)
+- [Quota and Package tab](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/quota-and-package-tab)
+- [User Guide tab](/docs/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-guide-tab)

@@ -14,7 +14,7 @@ Currently, **FPT Cloud supports PITR for the PostgreSQL engine**. This guide pro
 
 ### 1. Enable PITR
 
-Users can enable the PITR feature for PostgreSQL when activating the Backup service (see [Enabling the backup service](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the Backup service has been activated by following the instructions below.
+Users can enable the PITR feature for PostgreSQL when activating the Backup service (see [Enabling the backup service](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the Backup service has been activated by following the instructions below.
 
 #### Prerequisites
 

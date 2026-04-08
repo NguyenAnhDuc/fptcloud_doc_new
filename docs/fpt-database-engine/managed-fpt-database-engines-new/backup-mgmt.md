@@ -12,7 +12,7 @@ This section guides users through the detailed steps for managing the Backup ser
 
 ### 1. Enable the backup service
 
-To enable the Backup service, you can do so directly during the Additional Service configuration step when initializing the database (see [Creating a database](/docs/en/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the database has been initialized by following the instructions below.
+To enable the Backup service, you can do so directly during the Additional Service configuration step when initializing the database (see [Creating a database](/docs/fpt-database-engine/managed-fpt-database-engines-new/)/ for details), or enable it after the database has been initialized by following the instructions below.
 
 #### Prerequisites
 

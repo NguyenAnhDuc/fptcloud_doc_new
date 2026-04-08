@@ -24,4 +24,4 @@ The **Custom Images** page displays the list of templates created from virtual m
 
 ## Next steps
 
-- [Create an Instance from a template](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)
+- [Create an Instance from a template](/docs/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)

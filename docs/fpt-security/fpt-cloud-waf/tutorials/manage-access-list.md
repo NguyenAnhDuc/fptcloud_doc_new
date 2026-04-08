@@ -55,7 +55,7 @@ This feature is useful for web services forwarded without built-in authenticatio
 
 ### Assign a proxy host to the access list
 
-3. Click **Create Proxy** to add a proxy host that uses this access list. See [Create a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/create-proxy-host).
+3. Click **Create Proxy** to add a proxy host that uses this access list. See [Create a proxy host](/docs/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/create-proxy-host).
 
    [![Assign proxy host to access list](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)](/img/migrated/Userguide-FPT-WAF-2022-37-1024x516-993c3cc6.png)
 

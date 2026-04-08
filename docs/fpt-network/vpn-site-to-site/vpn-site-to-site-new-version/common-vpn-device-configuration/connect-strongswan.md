@@ -9,9 +9,9 @@ sidebar_position: "17"
 # Connect strongSwan
 
 This guide explains how to build a Router device to connect VPN S2S with the FPT Smart Cloud VPN Site-to-Site service.
-  * [Step 1: Build strongSwan](/docs/en/fpt-network/vpn-site-to-site/)/
-  * [Step 2: Configure VPN Site-to-Site](/docs/en/fpt-network/vpn-site-to-site/)/
-  * [Step 3: Configure strongSwan](/docs/en/fpt-network/vpn-site-to-site/)/
+  * [Step 1: Build strongSwan](/docs/fpt-network/vpn-site-to-site/)/
+  * [Step 2: Configure VPN Site-to-Site](/docs/fpt-network/vpn-site-to-site/)/
+  * [Step 3: Configure strongSwan](/docs/fpt-network/vpn-site-to-site/)/
 
 Ensure the following prerequisites are met:
   * VPNaaS on the Portal

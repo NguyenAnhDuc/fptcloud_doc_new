@@ -6,4 +6,4 @@ sidebar_position: "2"
 description: "Danh sach model catalog"
 ---
 
-Tương tự như phần danh sách model. Xem thêm hướng dẫn tại mục [Danh sách model](/docs/en/fpt-ai-factory/model-hub/danh-sach-model)
+Tương tự như phần danh sách model. Xem thêm hướng dẫn tại mục [Danh sách model](/docs/fpt-ai-factory/model-hub/danh-sach-model)

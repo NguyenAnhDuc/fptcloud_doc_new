@@ -16,4 +16,4 @@ Please try refreshing the page.
 
 If metrics or logs are no longer showing on the Grafana Dashboard after some time, your workspace may have used up all the timeseries or logs quota in your current FMON package.
 
-To check your timeseries and logs usage, refer to [Check Grafana usage](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/usage).
+To check your timeseries and logs usage, refer to [Check Grafana usage](/docs/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/usage).

@@ -21,4 +21,4 @@ Make sure you have completed all environment setup and shut down the machine bef
 
 ## Next Steps
 
-- [Set Level 2 Password](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)
+- [Set Level 2 Password](/docs/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)
