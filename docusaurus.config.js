@@ -19,11 +19,11 @@ const config = {
 
   onBrokenLinks: 'warn',
   trailingSlash: true,
-  onBrokenMarkdownLinks: 'warn',
 
   markdown: {
     format: 'md',
     hooks: {
+      onBrokenMarkdownLinks: 'warn',
       onBrokenMarkdownImages: 'warn',
     },
   },
