@@ -64,7 +64,7 @@ const config = {
         id: 'vi',
         path: 'docs-vi',
         routeBasePath: 'docs/vi',
-        sidebarPath: './sidebars-vi.js',
+        sidebarPath: './sidebars.js',
       },
     ],
     [
@@ -73,7 +73,7 @@ const config = {
         id: 'ja',
         path: 'docs-ja',
         routeBasePath: 'docs/ja',
-        sidebarPath: './sidebars-ja.js',
+        sidebarPath: './sidebars.js',
       },
     ],
     // Custom plugin: build URL mapping across languages for language switcher
