@@ -23,19 +23,19 @@ Mỗi tag gồm 2 phần:
 
 ## Hướng dẫn nhanh
 
-- [Khởi tạo tag mới](./create-tag-new.md)
-- [Chỉnh sửa tag](./edit-tag.md)
-- [Xóa tag đã tạo](./delete-tag.md)
+- [Khởi tạo tag mới](./quick-starts/create-tag-new.md)
+- [Chỉnh sửa tag](./quick-starts/edit-tag.md)
+- [Xóa tag đã tạo](./quick-starts/delete-tag.md)
 
 ## Hướng dẫn chi tiết
 
-- [Quản lý tag cho tài nguyên](./resource-1.md)
-  - [Quản lý tag cho Instance](./tags-instance.md)
-  - [Quản lý tag cho ổ đĩa](./tags-storage-disk.md)
-  - [Quản lý tag cho Snapshot](./tags-snapshot.md)
-  - [Quản lý tag cho Custom Image](./tags-custom-image.md)
-  - [Quản lý tag cho Floating IP](./tags-floating-ip.md)
-  - [Quản lý tag cho Subnet](./tags-subnet.md)
-  - [Quản lý tag cho Security Group](./tags-security-group.md)
-  - [Quản lý tag cho Load Balancer](./tagg-lb.md)
-- [Thanh toán theo tag](./tagging-billing.md)
+- [Quản lý tag cho tài nguyên](./tutorials/manage-tag-to-resource/resource-1.md)
+  - [Quản lý tag cho Instance](./tutorials/manage-tag-to-resource/tags-instance.md)
+  - [Quản lý tag cho ổ đĩa](./tutorials/manage-tag-to-resource/tags-storage-disk.md)
+  - [Quản lý tag cho Snapshot](./tutorials/manage-tag-to-resource/tags-snapshot.md)
+  - [Quản lý tag cho Custom Image](./tutorials/manage-tag-to-resource/tags-custom-image.md)
+  - [Quản lý tag cho Floating IP](./tutorials/manage-tag-to-resource/tags-floating-ip.md)
+  - [Quản lý tag cho Subnet](./tutorials/manage-tag-to-resource/tags-subnet.md)
+  - [Quản lý tag cho Security Group](./tutorials/manage-tag-to-resource/tags-security-group.md)
+  - [Quản lý tag cho Load Balancer](./tutorials/manage-tag-to-resource/tagg-lb.md)
+- [Thanh toán theo tag](./tutorials/tagging-billing.md)

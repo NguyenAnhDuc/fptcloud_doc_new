@@ -1,0 +1,14 @@
+---
+id: "tagging-billing"
+title: "タグ別請求"
+description: "Cost Explorerでタグ別にコスト分析を表示し、リソースグループごとの請求を追跡します。"
+sidebar_label: "タグ別請求"
+sidebar_position: 2
+pagination_next: null
+---
+
+# タグ別請求
+
+タグ別請求を使用すると、割り当てたtagに基づいてリソースグループごとのコストを追跡できます。プロジェクト、部門、環境別にコストを配分する際に特に便利です。
+
+tagごとのコスト分析は [**Cost Explorer**](../../../cost-explorer/index.md) で確認できます。

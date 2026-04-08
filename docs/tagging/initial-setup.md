@@ -31,4 +31,4 @@ If you encounter any errors during the process, contact the Support team for ass
 
 ## Next steps
 
-- [Create a new tag](./Initializing%20tags%20.md)
+- [Create a new tag](./quick-starts/create-tag-new.md)

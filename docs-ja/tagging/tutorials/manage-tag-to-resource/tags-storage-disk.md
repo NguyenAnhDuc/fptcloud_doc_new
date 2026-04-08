@@ -1,0 +1,33 @@
+---
+id: "tags-storage-disk"
+title: "Storage Diskのタグ管理"
+description: "Storage Diskにtagを割り当てて管理します — 作成時または作成後に設定できます。"
+sidebar_label: "Storage Diskのタグ管理"
+sidebar_position: 3
+---
+
+# Storage Diskのタグ管理
+
+Storage Diskにtagを割り当てると、ディスクをプロジェクトや環境別に分類でき、ストレージ管理とコスト管理が容易になります。
+
+## Storage Diskのタグ管理手順
+
+1. **Storage disk** 画面でディスクを選択し、**Actions** → **Manage tags** をクリックします。
+
+   [![Storage DiskのManage tagsオプションのあるActionsメニュー](/img/migrated/image-1721014373921-ea32f78f.png)](/img/migrated/image-1721014373921-ea32f78f.png)
+
+2. ダイアログボックスが表示されます。Storage Diskに割り当てるtagを選択します。
+
+   [![Storage DiskのManage tagsダイアログ](/img/migrated/image-1721014531446-5a901255.png)](/img/migrated/image-1721014531446-5a901255.png)
+
+3. tagを削除するには、tag名の横にある **x** をクリックします。リストボックス末尾の **x** をクリックすると、すべてのtagを一度に削除できます。**Save** をクリックして確定します。
+
+   [![タグ削除オプションのあるManage tagsダイアログ](/img/migrated/image-1721014918750-40fabdec.png)](/img/migrated/image-1721014918750-40fabdec.png)
+
+:::warning
+Storage Diskを削除すると、システムは関連するすべてのtagを自動的に削除し、Tagging画面のtagリストを更新します。
+:::
+
+## 次のステップ
+
+- [Snapshotのタグ管理](./tags-snapshot.md)

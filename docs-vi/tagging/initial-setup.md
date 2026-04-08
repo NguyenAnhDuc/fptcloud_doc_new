@@ -31,4 +31,4 @@ Trong quá trình thao tác, nếu gặp lỗi hãy liên hệ đội ngũ Suppo
 
 ## Bước tiếp theo
 
-- [Khởi tạo tag mới](./create-tag-new.md)
+- [Khởi tạo tag mới](./quick-starts/create-tag-new.md)

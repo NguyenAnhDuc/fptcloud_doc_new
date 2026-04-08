@@ -24,19 +24,19 @@ Each tag consists of two parts:
 
 ## Quick starts
 
-- [Create a new tag](./Initializing%20tags%20.md)
-- [Edit tags](./Edit%20tags.md)
-- [Delete a tag](./Delete%20Tag.md)
+- [Create a new tag](./quick-starts/create-tag-new.md)
+- [Edit tags](./quick-starts/edit-tag.md)
+- [Delete a tag](./quick-starts/delete-tag.md)
 
 ## Detailed tutorials
 
-- [Manage tags for resources](./Manage%20tag%20to%20Resource.md)
-  - [Manage tags for Instance](./Manage%20tag%20to%20Instance%20Management.md)
-  - [Manage tags for Storage Disk](./Manage%20tag%20to%20Storage%20disk.md)
-  - [Manage tags for Snapshot](./Manage%20tag%20to%20Snapshot.md)
-  - [Manage tags for Custom Image](./Manage%20tag%20to%20Custom%20image.md)
-  - [Manage tags for Floating IP](./Managing%20Tags%20for%20Floating%20IP.md)
-  - [Manage tags for Subnet](./Manage%20tag%20to%20Subnet.md)
-  - [Manage tags for Security Group](./Manage%20tag%20for%20Security%20group.md)
-  - [Manage tags for Load Balancer](./tagg-lb.md)
-- [Tagging billing](./Tagging%20Billing.md)
+- [Manage tags for resources](./tutorials/manage-tag-to-resource/resource-1.md)
+  - [Manage tags for Instance](./tutorials/manage-tag-to-resource/tags-instance.md)
+  - [Manage tags for Storage Disk](./tutorials/manage-tag-to-resource/tags-storage-disk.md)
+  - [Manage tags for Snapshot](./tutorials/manage-tag-to-resource/tags-snapshot.md)
+  - [Manage tags for Custom Image](./tutorials/manage-tag-to-resource/tags-custom-image.md)
+  - [Manage tags for Floating IP](./tutorials/manage-tag-to-resource/tags-floating-ip.md)
+  - [Manage tags for Subnet](./tutorials/manage-tag-to-resource/tags-subnet.md)
+  - [Manage tags for Security Group](./tutorials/manage-tag-to-resource/tags-security-group.md)
+  - [Manage tags for Load Balancer](./tutorials/manage-tag-to-resource/tagg-lb.md)
+- [Tagging billing](./tutorials/tagging-billing.md)
