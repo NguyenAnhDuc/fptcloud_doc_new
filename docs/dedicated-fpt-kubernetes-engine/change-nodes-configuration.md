@@ -4,6 +4,7 @@ title: "Change nodes configuration"
 description: "Change the flavor (CPU, RAM) of master or worker nodes in a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Change nodes configuration"
 sidebar_position: 13
+draft: true
 ---
 
 # Change nodes configuration

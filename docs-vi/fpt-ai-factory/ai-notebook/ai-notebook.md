@@ -12,10 +12,10 @@ AI Notebook cung cấp môi trường Jupyter notebook được quản lý cho p
 
 ## Hướng dẫn
 
-- [Giới thiệu AI Notebooks](./about-ai-notebooks.md) — AI Notebooks là gì, cách hoạt động và lý do sử dụng.
-- [Hướng dẫn nhanh](./quick-start.md) — Tạo tài khoản, nạp credit và chạy notebook đầu tiên.
-- [Khởi chạy AI Notebook](./launch-ai-notebook.md) — Mở JupyterLab Launcher từ FPT AI Factory console.
-- [Tạo notebook](./create-notebook.md) — Tạo notebook kết nối với tài nguyên CPU hoặc GPU.
-- [Kết nối và chuyển kernel](./connect-switch-kernel.md) — Chuyển đổi giữa các môi trường kernel hoặc khởi động kernel mới.
-- [Tắt kernel](./shut-down-kernel.md) — Kết thúc kernel đang chạy để dừng tính phí.
-- [Câu hỏi thường gặp](./faq.md) — Quy tắc nhàn rỗi, thời gian khởi động và các câu hỏi phổ biến.
+- [Giới thiệu AI Notebooks](/docs/vi/fpt-ai-factory/ai-notebook/about-ai-notebooks) — AI Notebooks là gì, cách hoạt động và lý do sử dụng.
+- [Hướng dẫn nhanh](/docs/vi/fpt-ai-factory/ai-notebook/quick-start) — Tạo tài khoản, nạp credit và chạy notebook đầu tiên.
+- [Khởi chạy AI Notebook](/docs/vi/fpt-ai-factory/ai-notebook/launch-ai-notebook) — Mở JupyterLab Launcher từ FPT AI Factory console.
+- [Tạo notebook](/docs/vi/fpt-ai-factory/ai-notebook/create-notebook) — Tạo notebook kết nối với tài nguyên CPU hoặc GPU.
+- [Kết nối và chuyển kernel](/docs/vi/fpt-ai-factory/ai-notebook/connect-switch-kernel) — Chuyển đổi giữa các môi trường kernel hoặc khởi động kernel mới.
+- [Tắt kernel](/docs/vi/fpt-ai-factory/ai-notebook/shut-down-kernel) — Kết thúc kernel đang chạy để dừng tính phí.
+- [Câu hỏi thường gặp](/docs/vi/fpt-ai-factory/ai-notebook/faq) — Quy tắc nhàn rỗi, thời gian khởi động và các câu hỏi phổ biến.

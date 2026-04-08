@@ -12,54 +12,54 @@ FPT Cloud Server helps you create and manage virtual machines (Instances) on the
 
 ## Initial setup
 
-- [Initial setup](./Initial-Setup.md)
+- [Initial setup](/docs/ja/fpt-cloud-server/cloud-server/Initial-Setup)
 
 ## Create a virtual machine
 
-- [Create a virtual machine](./quick-starts-tao-mot-may-ao.md)
-- [Notes for creating VM from ISO file](./create-vm-iso.md)
+- [Create a virtual machine](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)
+- [Notes for creating VM from ISO file](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/create-vm-iso)
 
 ## Quick actions
 
-- [Clone a virtual machine](./clone-instance.md)
-- [Power on/off virtual machine](./quick-starts-tatbat-may-ao.md)
-- [Reboot virtual machine](./quick-starts-khoi-dong-lai-may-ao.md)
-- [Lock and unlock VM deletion](./lock-unlock-instance-deletion.md)
-- [Delete a virtual machine](./quick-starts-xoa-may-ao.md)
+- [Clone a virtual machine](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/clone-instance)
+- [Power on/off virtual machine](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/quick-starts-tatbat-may-ao)
+- [Reboot virtual machine](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/quick-starts-khoi-dong-lai-may-ao)
+- [Lock and unlock VM deletion](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/lock-unlock-instance-deletion)
+- [Delete a virtual machine](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/quick-starts-xoa-may-ao)
 
 ## Manage virtual machines
 
-- [Manage virtual machines](./quan-ly-may-ao.md)
-- [Connect to a Windows virtual machine](./tutorials-ket-noi-vao-may-ao-windows.md)
-- [Connect to a Linux virtual machine](./tutorials-ket-noi-vao-may-ao-linux.md)
-- [Change server configuration](./tutorials-thay-doi-thong-tin-cau-hinh-may-chu.md)
-- [Back up server with Snapshot](./tutorials-backup-may-chu-voi-snapshot.md)
+- [Manage virtual machines](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/quan-ly-may-ao)
+- [Connect to a Windows virtual machine](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-ket-noi-vao-may-ao-windows)
+- [Connect to a Linux virtual machine](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-ket-noi-vao-may-ao-linux)
+- [Change server configuration](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-thay-doi-thong-tin-cau-hinh-may-chu)
+- [Back up server with Snapshot](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-backup-may-chu-voi-snapshot)
 
 ## GPU
 
-- [Manage GPU with Portal Console](./GPU.md)
-- [Manage GPU Server with HPC Portal](./quan-ly-gpu-voi-hpc-portal.md)
+- [Manage GPU with Portal Console](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/GPU)
+- [Manage GPU Server with HPC Portal](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/quan-ly-gpu-voi-hpc-portal)
 
 ## Block Storage
 
-- [Block Storage overview](./block-storage.md)
-- [Create Storage Disk](./tao-storage-disk.md)
-- [Attach Storage Disk to virtual machine](./gan-storage-disk-vao-may-ao.md)
+- [Block Storage overview](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/block-storage)
+- [Create Storage Disk](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/tao-storage-disk)
+- [Attach Storage Disk to virtual machine](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)
 
 ## Networking
 
-- [Networking overview](./network-all.md)
-- [Manage Floating IP](./quan-ly-floating-ip.md)
-- [Manage Subnets](./Quản%20lý%20Subnets.md)
-- [Manage Security Group](./quan-ly-security-group.md)
+- [Networking overview](/docs/ja/fpt-cloud-server/cloud-server/tutorials/networking/network-all)
+- [Manage Floating IP](/docs/ja/fpt-cloud-server/cloud-server/tutorials/networking/quan-ly-floating-ip)
+- [Manage Subnets](/docs/ja/fpt-cloud-server/cloud-server/tutorials/networking/Quản lý Subnets)
+- [Manage Security Group](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-security-group/quan-ly-security-group)
 
 ## Other management
 
-- [Instance Template](./tutorials-quan-ly-instance-template.md)
+- [Instance Template](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-instance-template)
 - [NIC (Network Interface Card)](./NIC-overview-1.md)
 - [Instance Group — Affinity and Anti-Affinity](./instance-group.md)
-- [Manage Project](./project-structure.md)
+- [Manage Project](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-project/project-structure)
 - [Token](./token.md)
-- [SSH Key](./profile-ssh-key.md)
-- [IaC (Terraform)](./terraform.md)
+- [SSH Key](/docs/ja/fpt-cloud-server/cloud-server/tutorials/profile-ssh-key)
+- [IaC (Terraform)](/docs/ja/fpt-cloud-server/cloud-server/tutorials/terraform/terraform)
 - [NAT Instance](./nat-instance.md)

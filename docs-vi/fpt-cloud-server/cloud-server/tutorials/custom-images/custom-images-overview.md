@@ -12,5 +12,5 @@ Custom Images cho phép bạn tải lên và quản lý các image hệ điều 
 
 ## Hướng dẫn
 
-- [Tải lên Custom Image](./tai-len-custom-image.md)
-- [Xóa Custom Image](./xoa-custom-image.md)
+- [Tải lên Custom Image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/custom-images/tai-len-custom-image)
+- [Xóa Custom Image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/custom-images/xoa-custom-image)

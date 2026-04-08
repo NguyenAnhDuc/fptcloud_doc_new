@@ -32,4 +32,4 @@ Dung lượng storage của Instance phải lớn hơn dung lượng image.
 
 ## Bước tiếp theo
 
-- [Xóa template](./tutorials-xoa-template.md)
+- [Xóa template](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-xoa-template)

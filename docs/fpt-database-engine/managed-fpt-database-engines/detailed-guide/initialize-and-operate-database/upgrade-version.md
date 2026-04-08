@@ -31,13 +31,13 @@ The **Upgrade database version** feature in FPT Database Engine **currently allo
 
 Log in to FPT Cloud Portal and navigate to the **Database List** page. Select the MariaDB cluster you want to upgrade. On the cluster's **Overview** page, you will see the current version and an **Upgrade** icon beside it.
 
-![](images/upgrade-version/img-001.png)
+![](/img/migrated/docs-managed-fpt-database-engine/upgrade-version/img-001.png)
 
 #### Step 2: Perform the version upgrade
 
 On the **Overview** page, find and click the **Upgrade** icon next to the version information. A dialog box opens showing the current version and the target version available for upgrade.
 
-![](images/upgrade-version/img-002.png)
+![](/img/migrated/docs-managed-fpt-database-engine/upgrade-version/img-002.png)
 
 Select the target version and enter the confirmation keyword in the input field. Click **Upgrade** to begin the upgrade process.
 

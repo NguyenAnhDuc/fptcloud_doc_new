@@ -25,7 +25,7 @@ You can create a new incident in two ways, either directly from the system throu
 ### Incoming Webhook
 **Step 1** : From the sidebar menu, choose **Apps** , then click **FMON - Incident**
 **Step 2** : Click **Integration**
-**Step 3** : Set up **Incoming webhook** as mentioned [here](./incoming-webhook.md)
+**Step 3** : Set up **Incoming webhook** as mentioned [here](/docs/ja/fpt-monitoring/incident-management/incoming-webhook)
 **Step 4** : After integrating the **Incoming webhook** integration, view its details by clicking **Show details**. The system will provide you with:
   * **Token**
   * **URL** : Incoming webhook URL, used to POST incidents.

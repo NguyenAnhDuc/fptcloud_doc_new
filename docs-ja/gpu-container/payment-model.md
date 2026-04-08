@@ -17,4 +17,4 @@ sidebar_position: 14
 
 コンテナが実行中の間、料金は**15分ごと**に計算されて残高から差し引かれます。また、永続ストレージの料金はコンテナが存在する間（実行中・停止中を問わず）毎秒課金されます。
 
-詳細については [Billing Overview](./billing-overview.md) をご参照ください。
+詳細については [Billing Overview](/docs/ja/gpu-container/billing-overview) をご参照ください。

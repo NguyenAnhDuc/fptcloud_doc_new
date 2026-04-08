@@ -2,6 +2,7 @@
 id: "create-ip-"
 title: "Create a new IP access record"
 sidebar_label: "Create a new IP access record"
+draft: true
 ---
 
 Create a new IP access record

@@ -24,7 +24,7 @@ Việc sử dụng các loại tường lửa này đảm bảo an toàn cho má
 
 **Bước 1**: Ở menu chọn **Security group** > **Networking**. Chọn **Create security group**.
 
-![file](images/quan-ly-security-group/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-001.png)
 
 **Bước 2**: Nhập các thông tin hệ thống yêu cầu:
 
@@ -43,7 +43,7 @@ Việc sử dụng các loại tường lửa này đảm bảo an toàn cho má
     * Outbound rule: Kiểm soát traffic ra khỏi máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
 
 
-![file](images/quan-ly-security-group/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-002.png)
 
 __
 
@@ -70,7 +70,7 @@ _Màn hình tạo Security group với người dùng dịch vụ General_
     * Outbound rule: Kiểm soát traffic ra khỏi máy ảo. Bạn có thể cấu hình rule theo nhu cầu sử dụng.
 
 
-![file](images/quan-ly-security-group/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-003.png)
 
 __
 
@@ -80,7 +80,7 @@ _Màn hình tạo Security group với người dùng dịch vụ Specific_
 
 Nếu thành công, **Security Group** vừa tạo sẽ được hiển thị ở bảng **Security Group**.
 
-![file](images/quan-ly-security-group/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-004.png)
 
 ### Quản lý Inbound rules và outbound rules trong Security Group
 **Inbound rules** là các rule giúp quy định cổng (**Port**) nào sẽ được mở trên máy ảo và địa chỉ nào trên Internet sẽ được truy cập vào cổng đấy (**Source**).
@@ -95,7 +95,7 @@ Lưu ý: Không thể điều chỉnh Firewall type sau khi đã khởi tạo
 
 **Bước 2**: Chọn **Add New** trong phần **Inbound rules** (tương tự với **outbound rule**).
 
-![file](images/quan-ly-security-group/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-005.png)
 
 **Bước 3**: Điền các thông tin cần thiết của Rule:
 
@@ -108,49 +108,49 @@ Lưu ý: Không thể điều chỉnh Firewall type sau khi đã khởi tạo
 
 Chọn **Add rule** để tiếp tục thêm rule mới hoặc chọn **Edit security group** để lưu. Hệ thống sẽ tiến hành lưu và thông báo kết quả.
 
-![file](images/quan-ly-security-group/img-006.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-006.png)
 
 ### Gắn máy ảo vào Security Group
 **Bước 1**: Trên bảng quản trị **Security group**, chọn **Security group** cần gắn với máy ảo để vào trang **Security group detail**.
 
-![file](images/quan-ly-security-group/img-007.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-007.png)
 
 **Bước 2**: Trong phần **Apply to** chọn các máy ảo sẽ gắn vào **Security group**, bạn có thể nhập dãy CIDR để apply cho 1 dãy mạng. Chọn **Apply Instances**. Hệ thống sẽ tiến hành lưu và thông báo kết quả.
 
-![file](images/quan-ly-security-group/img-008.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-008.png)
 
 ### Gỡ máy ảo khỏi Security Group
 **Bước 1**: Trên bảng quản trị **Security group**, chọn **Security group** cần gỡ khỏi máy ảo để vào trang **Security group detail**.
 
-![file](images/quan-ly-security-group/img-009.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-009.png)
 
 Ở phần **Apply to** đã hiển thị danh sách các máy ảo đang được gắn với **Security group** này.
 
 **Bước 2**: Bấm vào icon **X** ở máy ảo cần gỡ và chọn **Apply Instances**. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
 
-![file](images/quan-ly-security-group/img-010.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-010.png)
 
 ### Xóa Security Group khỏi VPC
 Nếu không còn nhu cầu sử dụng **Security group**, bạn có thể xóa khỏi **VPC**.
 
 **Lưu ý: Cần xóa hết tất cả các rules để thực hiện thao tác này.**
 
-![file](images/quan-ly-security-group/img-011.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-011.png)
 
 **Bước 1**: Trên bảng quản trị **Security group**, chọn **Security group** cần xóa để vào trang **Security group detail**.
 
-![file](images/quan-ly-security-group/img-012.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-012.png)
 
 **Bước 2**: Vào rule, chọn biểu tượng thùng rác, và xác nhận xóa
 
-![file](images/quan-ly-security-group/img-013.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-013.png)
 
-![file](images/quan-ly-security-group/img-014.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-014.png)
 
 **Bước 3**: Sau khi đó xóa hết các rule trong **Security group**, bạn ra bảng quản trị **Security Group**. Trên bảng quản trị **Security group**, trong phần **Action** của **Security group** cần xóa, chọn Delete.
 
-![file](images/quan-ly-security-group/img-015.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-015.png)
 
 **Bước 4**: Hệ thống sẽ hiển thị popup xác nhận thông tin. Để đồng ý xóa, chọn **Delete security group**.
 
-![file](images/quan-ly-security-group/img-016.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-security-group/img-016.png)

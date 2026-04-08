@@ -10,7 +10,7 @@ sidebar_position: 9
 
 **リダイレクトプレフィックス**を使用すると、リダイレクト時に宛先 URL の先頭に文字列（プレフィックス）を追加できます。これにより、リダイレクト URL を効率的に管理・構造化し、ユーザーを特定のページやコンテンツに誘導できます。
 
-L7 ポリシーの一般的な設定については[リスナーの L7 ポリシー設定](./configure-l7-policy.md)を参照してください。
+L7 ポリシーの一般的な設定については[リスナーの L7 ポリシー設定](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/configure-l7-policy)を参照してください。
 
 **手順 1:** ロードバランサー一覧からロードバランサーを選択します。
 

@@ -10,6 +10,6 @@ sidebar_position: 1
 
 Sau khi Target đã được quét ít nhất một lần, bạn có thể xem kết quả quét qua các mục sau:
 
-- [Truy cập Dashboard kết quả quét](dashboard-ket-qua-quet.md)
-- [Xem chi tiết kết quả quét](xem-chi-tiet-ket-qua-quet.md)
-- [Xem kết quả lịch sử quét](xem-ket-qua-quet-cu.md)
+- [Truy cập Dashboard kết quả quét](/docs/vi/fpt-security/fpt-cloud-va/tutorials/view-scan-results/dashboard-ket-qua-quet)
+- [Xem chi tiết kết quả quét](/docs/vi/fpt-security/fpt-cloud-va/tutorials/view-scan-results/xem-chi-tiet-ket-qua-quet)
+- [Xem kết quả lịch sử quét](/docs/vi/fpt-security/fpt-cloud-va/tutorials/view-scan-results/xem-ket-qua-quet-cu)

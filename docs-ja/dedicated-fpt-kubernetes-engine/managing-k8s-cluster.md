@@ -4,6 +4,7 @@ title: "Kubernetes クラスターの管理"
 description: "Dedicated FPT Kubernetes Engine でのKubernetes クラスターの管理方法について説明します。"
 sidebar_label: "Kubernetes クラスターの管理"
 sidebar_position: 3
+draft: true
 ---
 
 # Kubernetes クラスターの管理

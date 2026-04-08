@@ -4,6 +4,7 @@ title: "GPU 用 K8s クラスターのセットアップ"
 description: "GPU使用のためのManaged FKE Kubernetesクラスターのセットアップ手順を説明します。"
 sidebar_label: "GPU 用クラスターのセットアップ"
 sidebar_position: 21
+draft: true
 ---
 
 # GPU 用 K8s クラスターのセットアップ

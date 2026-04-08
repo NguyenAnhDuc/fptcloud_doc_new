@@ -4,6 +4,7 @@ title: Cập nhật và xóa Backup Job
 description: "Sau khi tạo một Full backup job hay Diff backup job, quý khách có thể cập nhật hoặc xóa lịch chạy một backup job"
 sidebar_label: Cập nhật và xóa Backup Job
 sidebar_position: 13
+draft: true
 ---
 
 # Cập nhật và xóa Backup Job

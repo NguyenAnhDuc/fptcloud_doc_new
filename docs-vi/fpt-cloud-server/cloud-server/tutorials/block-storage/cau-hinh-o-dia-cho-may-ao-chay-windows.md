@@ -19,39 +19,39 @@ Sau khi gắn **Storage Disk** vào máy ảo trên **FPT Portal**, với các m
   * Bấm nút **Start**, nhập **msc** vào ô tìm kiếm, chọn **Disk Management.**
 
 
-![Userguide FPT Cloud Server 2022 62](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-001.png)
+![Userguide FPT Cloud Server 2022 62](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-001.png)
 
 **Bước 3:** **Disk Management** sẽ hiển thị toàn bộ ổ cứng trên máy ảo, bao gồm cả ổ cứng vừa được gắn với trạng thái **Offline.**
 
-![Userguide FPT Cloud Server 2022 63](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-002.png)
+![Userguide FPT Cloud Server 2022 63](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-002.png)
 
 **Bước 4:** Chọn **Online** trên menu **Disk** bằng cách di chuột phải lên biểu tượng đĩa.
 
-![Userguide FPT Cloud Server 2022 64](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-003.png)
+![Userguide FPT Cloud Server 2022 64](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-003.png)
 
 **Bước 5:** Ổ cứng sẽ chuyển sang trạng thái **Online** và **Not Initialize**, người dùng chuột phải lên biểu tượng đĩa và chọn **Initialize Disk**.
 
-![Userguide FPT Cloud Server 2022 65](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-004.png)
+![Userguide FPT Cloud Server 2022 65](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-004.png)
 
 **Bước 6**: Chọn **Partition style** phù hợp và chọn **OK.**
 
-![Userguide FPT Cloud Server 2022 66](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-005.png)
+![Userguide FPT Cloud Server 2022 66](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-005.png)
 
 **Bước 7:** Chuột phải lên khi vực trống của ổ cứng và chọn **New Simple Volume.**
 
-![Userguide FPT Cloud Server 2022 67](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-006.png)
+![Userguide FPT Cloud Server 2022 67](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-006.png)
 
 **Bước 8:** Chọn **Next** trong **New Simple Volume Wizard** vừa hiện lên.
 
-![Userguide FPT Cloud Server 2022 68](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-007.png)
+![Userguide FPT Cloud Server 2022 68](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-007.png)
 
 **Bước 9:** Nhập dung lượng ổ đĩa cần tạo vào ô **Simple volume size in MB** và chọn **Next.**
 
-![Userguide FPT Cloud Server 2022 69](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-008.png)
+![Userguide FPT Cloud Server 2022 69](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-008.png)
 
 **Bước 10:** Chọn Ký tự ổ đĩa trong phần **Assign the following drive letter** và chọn **Next.**
 
-![Userguide FPT Cloud Server 2022 70](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-009.png)
+![Userguide FPT Cloud Server 2022 70](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-009.png)
 
 **Bước 11:** Chọn **Fomat this volume with the following settings** và điền các thông tin sau:
 
@@ -62,15 +62,15 @@ Sau khi gắn **Storage Disk** vào máy ảo trên **FPT Portal**, với các m
 
 Chọn **Next** để sang bước tiếp theo.
 
-![Userguide FPT Cloud Server 2022 71](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-010.png)
+![Userguide FPT Cloud Server 2022 71](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-010.png)
 
 **Bước 12:** Chọn **Finish** để kết thúc.
 
-![Userguide FPT Cloud Server 2022 72](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-011.png)
+![Userguide FPT Cloud Server 2022 72](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-011.png)
 
 Kết quả đã cấu hình tạo thành công ổ đĩa mới cho máy ảo chạy Windows từ ổ cứng gắn thêm.
 
-![Userguide FPT Cloud Server 2022 73](images/cau-hinh-o-dia-cho-may-ao-chay-windows/img-012.png)
+![Userguide FPT Cloud Server 2022 73](/img/migrated/docs-vi-cloud-server/cau-hinh-o-dia-cho-may-ao-chay-windows/img-012.png)
 
 Từ Bước 1 đến Bước 6 người dùng có thể thay thế bằng các lệnh CMD sau nếu không thể thao tác bằng cách thông thường:
 Vào Start > cmd (Run as administrator)

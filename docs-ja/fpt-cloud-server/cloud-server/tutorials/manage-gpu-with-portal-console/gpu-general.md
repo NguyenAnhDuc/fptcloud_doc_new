@@ -13,21 +13,21 @@ sidebar_position: 2
 
 **ステップ1**: **Instance Management**画面で**Create instance**を選択します。
 
-![file](images/gpu-general/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-001.png)
 
 **ステップ2**: GPUおよび使用するGPUカードの種類を選択します。
 
-![file](images/gpu-general/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-002.png)
 
 **ステップ3**: インスタンスのその他の情報を入力します。
 
 **ステップ4**: **Create Instance**をクリックします。
 
-![file](images/gpu-general/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-003.png)
 
 **ステップ5**: 情報を確認します。情報はInstance detail画面に更新されます。
 
-![file](images/gpu-general/img-004.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-004.png)
 
 ## 2\. Instance ManagementでインスタンスにGPUを追加する
 **ステップ1**: **Instance management**画面で、GPUを追加したい仮想マシンを選択します。
@@ -38,11 +38,11 @@ sidebar_position: 2
   * 「Running」や「Pending」などの他の状態にあるマシンでは、この機能は**無効**になります。
 
 
-![file](images/gpu-general/img-005.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-005.png)
 
 **ステップ2**: **Actions**を選択し、**Add GPU**を選択します。
 
-![file](images/gpu-general/img-006.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-006.png)
 
 **ステップ3**: インスタンスに追加する**GPUタイプ**を選択します。
 
@@ -60,7 +60,7 @@ sidebar_position: 2
 
 **ステップ5**: 情報を確認します。情報はInstance detail画面に更新されます。
 
-![file](images/gpu-general/img-007.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-general/img-007.png)
 
 ## 3\. 仮想マシンからGPUを取り外す
 **ステップ1**: **Instance management**画面で、GPUを取り外したい仮想マシンを選択します。

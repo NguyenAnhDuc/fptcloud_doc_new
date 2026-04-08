@@ -4,6 +4,7 @@ title: "バックアップサービスの更新と削除"
 description: "FPT Smart Cloud Database Engine のバックアップサービスを更新または削除する手順。"
 sidebar_label: "バックアップサービスの更新と削除"
 sidebar_position: 14
+draft: true
 ---
 
 # バックアップサービスの更新と削除

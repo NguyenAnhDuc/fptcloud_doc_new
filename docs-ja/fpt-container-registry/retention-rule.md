@@ -4,6 +4,7 @@ title: "Retention rule を管理する"
 description: "不要なイメージを自動削除するための retention rule を設定する。"
 sidebar_label: "Retention rule を管理する"
 sidebar_position: 9
+draft: true
 ---
 
 # Retention rule を管理する

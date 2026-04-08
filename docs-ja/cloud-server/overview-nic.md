@@ -3,6 +3,7 @@ id: "overview-nic"
 title: "Overview Nic"
 sidebar_label: "概要"
 sidebar_position: 56
+draft: true
 ---
 
 概要

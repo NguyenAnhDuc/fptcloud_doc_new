@@ -13,7 +13,7 @@ To attach an additional GPU to a previously created virtual machine, follow thes
 
 **Step 1**: In the menu, select **Instance Management**. Under the **Actions** section, select **Add GPU.**
 
-![file](images/gpu-specific/img-001.png)
+![file](/img/migrated/docs-cloud-server/gpu-specific/img-001.png)
 
 
 :::warning
@@ -35,7 +35,7 @@ The virtual machine must meet a minimum configuration of 8 vCPU – 24 GB RAM to
 
 **Step 1**: In the menu, select **Compute Engine** > **Instance Management**, then click **Create instance**.
 
-![file](images/gpu-specific/img-002.png)
+![file](/img/migrated/docs-cloud-server/gpu-specific/img-002.png)
 
 **Step 2**: Configure the virtual machine according to your needs with the following options:
 

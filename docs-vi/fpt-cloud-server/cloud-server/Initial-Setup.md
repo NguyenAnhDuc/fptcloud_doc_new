@@ -102,4 +102,4 @@ Security Group mới hiển thị trong bảng **Security Group**.
 
 ## Bước tiếp theo
 
-- [Tạo một máy ảo](./quick-starts-tao-mot-may-ao.md)
+- [Tạo một máy ảo](/docs/vi/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)

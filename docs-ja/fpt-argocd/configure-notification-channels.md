@@ -5,6 +5,7 @@ description: "ArgoCD通知用にTelegram、Slack、Emailチャンネルを追加
 sidebar_label: "通知チャンネルの設定"
 sidebar_position: 41
 pagination_next: null
+draft: true
 ---
 
 # 通知チャンネルの設定

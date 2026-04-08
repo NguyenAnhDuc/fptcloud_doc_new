@@ -12,7 +12,7 @@ Schedule Management đáp ứng nhu cầu lưu trữ dữ liệu thường xuyê
 
 ## Hướng dẫn
 
-- [Tạo lịch snapshot máy ảo](./create-schedule-snapshotVM.md)
-- [Xem chi tiết](./viewschedule-snapshotVM.md)
-- [Chỉnh sửa](./editschedule-snapshotVM.md)
-- [Xóa](./deleteschedule-snapshotVM.md)
+- [Tạo lịch snapshot máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/create-schedule-snapshotVM)
+- [Xem chi tiết](/docs/vi/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/viewschedule-snapshotVM)
+- [Chỉnh sửa](/docs/vi/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/editschedule-snapshotVM)
+- [Xóa](/docs/vi/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/deleteschedule-snapshotVM)

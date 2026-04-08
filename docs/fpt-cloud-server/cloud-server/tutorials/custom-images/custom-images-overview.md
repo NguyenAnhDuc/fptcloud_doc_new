@@ -12,5 +12,5 @@ Custom Images let you upload and manage custom operating system images — enabl
 
 ## Guides
 
-- [Upload a Custom Image](./tai-len-custom-image.md)
-- [Delete a Custom Image](./xoa-custom-image.md)
+- [Upload a Custom Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/custom-images/tai-len-custom-image)
+- [Delete a Custom Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/custom-images/xoa-custom-image)

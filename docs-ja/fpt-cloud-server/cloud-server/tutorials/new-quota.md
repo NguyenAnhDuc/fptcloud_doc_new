@@ -23,7 +23,7 @@ sidebar_position: 17
   6. K8S/DB
 
 
-![file](images/new-quota/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/new-quota/img-001.png)
 
 ## 2\. ダッシュボード情報の表示
 テナントの統計情報を表示します：
@@ -39,7 +39,7 @@ sidebar_position: 17
 
 注意：PAYGリソースの数量は固定されていません。ユーザーがリソースを削除してプリペイド数量を下回った場合、システムは自動的に数値を更新し、PAYGリソースの課金を停止します。
 
-![file](images/new-quota/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/new-quota/img-002.png)
 
 ## 3\. 請求情報の表示
 PAYG方式での詳細な課金計算と使用金額を確認するには、Unify Portalにアクセスし、Billing -> Billsを選択してBillsページをご覧ください。

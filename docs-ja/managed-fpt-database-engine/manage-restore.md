@@ -4,6 +4,7 @@ title: "リストアの管理"
 description: "FPT Smart Cloud Database Engine のリストアポイントの作成と管理手順。"
 sidebar_label: "リストアの管理"
 sidebar_position: 15
+draft: true
 ---
 
 # リストアの管理

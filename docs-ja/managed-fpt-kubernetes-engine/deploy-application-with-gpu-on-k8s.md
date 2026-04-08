@@ -4,6 +4,7 @@ title: "K8s 上での GPU アプリケーションのデプロイ"
 description: "Managed FKE上でGPUリソースを使用するアプリケーションをKubernetesにデプロイする方法を説明します。"
 sidebar_label: "GPU アプリのデプロイ"
 sidebar_position: 23
+draft: true
 ---
 
 # K8s 上での GPU アプリケーションのデプロイ

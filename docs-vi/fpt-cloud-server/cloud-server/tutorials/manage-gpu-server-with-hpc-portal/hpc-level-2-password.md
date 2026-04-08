@@ -18,4 +18,4 @@ Mật khẩu cấp 2 là mật khẩu do bạn thiết lập sau khi đăng nh�
 
 ## Bước tiếp theo
 
-- [Xóa image](./hpc-delete-image.md)
+- [Xóa image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-delete-image)

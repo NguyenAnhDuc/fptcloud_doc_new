@@ -32,4 +32,4 @@ sidebar_position: 2
 
 ## 次のステップ
 
-- [Storage Disk を Instance にアタッチする](./gan-storage-disk-vao-may-ao.md)
+- [Storage Disk を Instance にアタッチする](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)

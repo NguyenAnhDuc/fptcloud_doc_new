@@ -12,6 +12,6 @@ Credential là cặp username/password dùng để xác thực kết nối đế
 
 Các thao tác có thể thực hiện:
 
-- [Tạo credential](./create-credentials.md)
-- [Chỉnh sửa credential](./edit-credentials.md)
-- [Xóa credential](./delete-credentials.md)
+- [Tạo credential](/docs/vi/fpt-integration/fpt-kafka/create-credentials)
+- [Chỉnh sửa credential](/docs/vi/fpt-integration/fpt-kafka/edit-credentials)
+- [Xóa credential](/docs/vi/fpt-integration/fpt-kafka/delete-credentials)

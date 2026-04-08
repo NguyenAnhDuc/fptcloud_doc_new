@@ -12,21 +12,21 @@ You can attach up to 10 network cards to a single virtual machine. To attach an 
 
 **Step 1**: In the menu, select **Compute Engine** > **Instance Management**. Select the virtual machine to which you want to attach a **Subnet** to go to the **Instance Detail** page.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-001.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-001.png)
 
 **Step 2**: Open the **Network Interface** tab. The system will display the list of network cards currently attached to the virtual machine, along with information about the **Subnet** each card is connected to. Select **Add NIC**.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-002.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-002.png)
 
 **Step 3**: Select the **Subnet** within the **VPC** to attach to the virtual machine. Select **Add NIC** to confirm.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-003.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-003.png)
 
 The system will process the request and display the result.
 
 If successful, the new network card will appear in the **Network** table.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-004.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-004.png)
 
 After adding the NIC in the FPT Portal, Windows and Linux virtual machines will typically detect the new network card automatically, and no manual configuration is required.
 
@@ -43,7 +43,7 @@ Or:
 $ ip addr
 ```
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-005.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-005.png)
 
 ### Set a Static IP Address
 Ubuntu 20.04 uses netplan as the default network manager. The netplan configuration file is stored in the /etc/netplan directory. You can find the configuration file listed in that directory using the following command:
@@ -62,4 +62,4 @@ Note: The configuration file may have a name other than 01-network-manager-all.y
 
 Then, add the following lines, replacing the interface name, IP address, gateway, and DNS information to match your network requirements.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-006.png)
+![file](/img/migrated/docs-cloud-server/attach-a-network-card-to-the-virtual-machine/img-006.png)

@@ -4,6 +4,7 @@ title: "Image Updaterの設定"
 description: "ArgoCD Image Updaterの概要とサポートされる設定操作"
 sidebar_label: "Image Updaterの設定"
 sidebar_position: 7
+draft: true
 ---
 
 # Image Updaterの設定

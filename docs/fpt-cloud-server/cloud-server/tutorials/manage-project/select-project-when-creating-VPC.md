@@ -16,4 +16,4 @@ Assigning a VPC to a Project at creation time is the recommended approach — it
 
 ## Next steps
 
-- [Change the Header Interface](./header-project.md)
+- [Change the Header Interface](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-project/header-project)

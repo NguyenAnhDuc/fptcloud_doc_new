@@ -11,5 +11,5 @@ sidebar_position: 13
 To create and manage API keys, go to **My Account → My API Keys** in the AI Marketplace dashboard.
 
 :::tip
-For a full step-by-step walkthrough including creating, editing, and revoking keys, see the [My account](./my-account.md) guide.
+For a full step-by-step walkthrough including creating, editing, and revoking keys, see the [My account](/docs/en/fpt-ai-factory/ai-marketplace/my-account) guide.
 :::

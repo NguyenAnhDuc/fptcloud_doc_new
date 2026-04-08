@@ -24,9 +24,9 @@ The list displays: **Name**, **Storage type**, **Size**, **Created at**, and **A
 
 ## Guides
 
-- [Create a Storage Disk](./tao-storage-disk.md)
-- [Attach a Storage Disk to an Instance](./gan-storage-disk-vao-may-ao.md)
-- [Configure a disk on a Windows Instance](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)
-- [Detach a Storage Disk from an Instance](./go-storage-disk-khoi-may-ao.md)
-- [Edit a Storage Disk](./edit-storage-disk.md)
-- [Delete a Storage Disk](./xoa-storage-disk.md)
+- [Create a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/tao-storage-disk)
+- [Attach a Storage Disk to an Instance](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)
+- [Configure a disk on a Windows Instance](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/cau-hinh-o-dia-cho-may-ao-chay-windows)
+- [Detach a Storage Disk from an Instance](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/go-storage-disk-khoi-may-ao)
+- [Edit a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)
+- [Delete a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/xoa-storage-disk)

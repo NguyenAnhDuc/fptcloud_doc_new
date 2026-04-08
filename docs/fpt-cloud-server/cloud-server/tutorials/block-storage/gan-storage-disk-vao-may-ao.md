@@ -27,4 +27,4 @@ After creating a Storage Disk, you can attach it to an Instance to start using i
 
 ## Next Steps
 
-- [Configure a disk on a Windows Instance](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)
+- [Configure a disk on a Windows Instance](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/cau-hinh-o-dia-cho-may-ao-chay-windows)

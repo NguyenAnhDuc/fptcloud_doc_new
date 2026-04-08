@@ -16,10 +16,10 @@ You can only change the password when the password is forgotten. Copying the pas
 
 1. Navigate to **Security & Access** → **Local Account**, then select **Change Password**.
 
-![Change Password screen](images/change-password/img-001.png)
+![Change Password screen](/img/migrated/docs-fpt-argocd/change-password/img-001.png)
 
 2. Enter the new password.
 
-![New password form](images/change-password/img-002.png)
+![New password form](/img/migrated/docs-fpt-argocd/change-password/img-002.png)
 
 3. Click **Change Password** to complete.

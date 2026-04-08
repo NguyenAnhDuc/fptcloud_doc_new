@@ -16,7 +16,7 @@ API Gatewayはマイクロサービスアーキテクチャや分散システム
 
 ## ドキュメント構成
 
-- [初期設定](./initial-setup.md)
-- [API Gatewayの作成](./tao-api-gateway.md)
-- [API Gatewayの詳細確認](./xem-thong-tin-api-gateway.md)
-- [API Gatewayの削除](./xoa-api-gateway.md)
+- [初期設定](/docs/ja/fpt-integration/fpt-api-gateway/initial-setup)
+- [API Gatewayの作成](/docs/ja/fpt-integration/fpt-api-gateway/tao-api-gateway)
+- [API Gatewayの詳細確認](/docs/ja/fpt-integration/fpt-api-gateway/xem-thong-tin-api-gateway)
+- [API Gatewayの削除](/docs/ja/fpt-integration/fpt-api-gateway/xoa-api-gateway)

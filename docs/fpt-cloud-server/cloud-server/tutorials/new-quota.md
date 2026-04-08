@@ -23,7 +23,7 @@ Services that currently support PAYG billing:
   6. K8S/DB
 
 
-![file](images/new-quota/img-001.png)
+![file](/img/migrated/docs-cloud-server/new-quota/img-001.png)
 
 ## 2\. Dashboard Information Display
 Displays tenant statistics:
@@ -39,7 +39,7 @@ Displays tenant statistics:
 
 Note: The quantity of PAYG resources is not fixed. When users delete resources and bring the total below the prepaid quantity, the system automatically updates the figures and stops charging for PAYG resources.
 
-![file](images/new-quota/img-002.png)
+![file](/img/migrated/docs-cloud-server/new-quota/img-002.png)
 
 ## 3\. Billing Information Display
 To view detailed billing calculations and the amount used under the PAYG method, users can visit the Bills page by accessing the Unify Portal and selecting Billing -> Bills.

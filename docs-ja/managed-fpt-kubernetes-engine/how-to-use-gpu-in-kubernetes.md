@@ -4,6 +4,7 @@ title: "Kubernetes での GPU の使用方法"
 description: "FPT Cloud のManaged FKEでNVIDIA GPUを使用する方法と、主要機能について説明します。"
 sidebar_label: "Kubernetes での GPU の使用"
 sidebar_position: 20
+draft: true
 ---
 
 # Kubernetes での GPU の使用方法

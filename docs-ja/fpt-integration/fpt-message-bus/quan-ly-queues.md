@@ -12,7 +12,7 @@ Queue là hàng đợi lưu trữ message cho đến khi consumer nhận. FPT Me
 
 Xem các hướng dẫn chi tiết:
 
-- [Tạo queue](./tao-queues.md)
-- [Xem queue](./xem-queues.md)
-- [Gửi và nhận messages trong queue](./gui-nhan-message-trong-queues.md)
-- [Xóa queue](./xoa-queues.md)
+- [Tạo queue](/docs/ja/fpt-integration/fpt-message-bus/tao-queues)
+- [Xem queue](/docs/ja/fpt-integration/fpt-message-bus/xem-queues)
+- [Gửi và nhận messages trong queue](/docs/ja/fpt-integration/fpt-message-bus/gui-nhan-message-trong-queues)
+- [Xóa queue](/docs/ja/fpt-integration/fpt-message-bus/xoa-queues)

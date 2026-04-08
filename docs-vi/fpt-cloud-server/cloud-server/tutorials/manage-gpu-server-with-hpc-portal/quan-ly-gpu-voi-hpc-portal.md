@@ -16,13 +16,13 @@ sidebar_position: 1
 
 ## Hướng dẫn
 
-- [Hướng dẫn nhanh](./hpc-quick-start.md)
-- [Đổi cấu hình máy](./hpc-change-package.md)
-- [Đặt thời gian thuê cố định](./hpc-fixed-rental.md)
-- [Sao lưu image](./hpc-snapshot-backup.md)
-- [Cố định máy vật lý](./hpc-hardware-fixation.md)
-- [Khởi động lại máy](./hpc-rest-machine.md)
-- [Đặt lịch tắt máy](./hpc-schedule-shutdown.md)
-- [Clone image](./hpc-clone-image.md)
-- [Đặt mật khẩu cấp 2](./hpc-level-2-password.md)
-- [Xóa image](./hpc-delete-image.md)
+- [Hướng dẫn nhanh](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-quick-start)
+- [Đổi cấu hình máy](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-change-package)
+- [Đặt thời gian thuê cố định](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)
+- [Sao lưu image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-snapshot-backup)
+- [Cố định máy vật lý](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-hardware-fixation)
+- [Khởi động lại máy](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-rest-machine)
+- [Đặt lịch tắt máy](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-schedule-shutdown)
+- [Clone image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-clone-image)
+- [Đặt mật khẩu cấp 2](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)
+- [Xóa image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-delete-image)

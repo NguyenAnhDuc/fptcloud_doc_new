@@ -10,7 +10,7 @@ sidebar_position: 9
 
 **Redirect prefix** lets you prepend a string (prefix) to the destination URL when redirecting, helping you manage and structure redirect URLs efficiently and route users to specific pages or content.
 
-For general L7 policy configuration, see [Configure L7 policy for a Listener](./configure-l7-policy.md).
+For general L7 policy configuration, see [Configure L7 policy for a Listener](/docs/en/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/configure-l7-policy).
 
 **Step 1:** In the Load Balancer list, select the Load Balancer.
 

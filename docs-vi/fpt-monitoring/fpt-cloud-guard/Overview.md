@@ -26,4 +26,4 @@ FPT Cloud Guard là dịch vụ bảo mật và giám sát trên FPT Cloud, cung
 
 ## Bắt đầu sử dụng
 
-Xem [Thiết lập ban đầu](Initial-Setup.md) để tạo tài khoản FPT Cloud và đăng nhập FPT Portal trước khi tạo Alert đầu tiên.
+Xem [Thiết lập ban đầu](/docs/vi/fpt-monitoring/fpt-cloud-guard/Initial-Setup) để tạo tài khoản FPT Cloud và đăng nhập FPT Portal trước khi tạo Alert đầu tiên.

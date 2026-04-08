@@ -12,7 +12,7 @@ FPT Cloudで設定済みIPアドレスを持つユーザーのみがシステム
 
 このセクションの内容:
 
-- [IP Access概要](./overview-ip-access.md) — IPアクセス制御の仕組み
-- [IP Accessレコードの作成](./create-ip-access.md) — 新しいIPルールの追加
-- [IP Accessレコードの削除](./delete-ip-access.md) — IPルールの削除
-- [IP Accessアクティビティログの確認](./ip-access-activity-log.md) — アクセス履歴の確認
+- [IP Access概要](/docs/ja/fpt-security/iam/tutorials/ip-access/overview-ip-access) — IPアクセス制御の仕組み
+- [IP Accessレコードの作成](/docs/ja/fpt-security/iam/tutorials/ip-access/create-ip-access) — 新しいIPルールの追加
+- [IP Accessレコードの削除](/docs/ja/fpt-security/iam/tutorials/ip-access/delete-ip-access) — IPルールの削除
+- [IP Accessアクティビティログの確認](/docs/ja/fpt-security/iam/tutorials/ip-access/ip-access-activity-log) — アクセス履歴の確認

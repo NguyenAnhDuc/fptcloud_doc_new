@@ -16,8 +16,8 @@ sidebar_position: 4
 
 **ステップ 1**: **Instance Management** ダッシュボードで、再起動したいサーバーの行末にある **Action** を選択します。
 
-![Userguide FPT Cloud Server 2022 14](images/quick-starts-khoi-dong-lai-may-ao/img-001.png)
+![Userguide FPT Cloud Server 2022 14](/img/migrated/docs-ja-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-001.png)
 
 **ステップ 2**: **Reboot** 機能を選択します。システムが再起動を実行し、処理状況を通知します。
 
-![Userguide FPT Cloud Server 2022 15](images/quick-starts-khoi-dong-lai-may-ao/img-002.png)
+![Userguide FPT Cloud Server 2022 15](/img/migrated/docs-ja-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-002.png)

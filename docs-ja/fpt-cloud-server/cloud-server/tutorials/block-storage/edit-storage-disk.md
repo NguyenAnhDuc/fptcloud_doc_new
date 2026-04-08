@@ -35,4 +35,4 @@ sidebar_position: 6
 
 ## 次のステップ
 
-- [Storage Disk の削除](./xoa-storage-disk.md)
+- [Storage Disk の削除](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/xoa-storage-disk)

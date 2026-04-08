@@ -32,4 +32,4 @@ Storage Disk mới hiển thị tại trang **Storage Disk Management**.
 
 ## Bước tiếp theo
 
-- [Gắn Storage Disk vào máy ảo](./gan-storage-disk-vao-may-ao.md)
+- [Gắn Storage Disk vào máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)

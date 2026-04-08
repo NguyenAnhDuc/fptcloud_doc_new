@@ -12,13 +12,13 @@ FPT API Management provides a professional, centralized API management system de
 
 ## Documentation structure
 
-- [Initial setup](./initial-setup.md)
-- [Quick starts](./quick-starts.md)
-- [Register API Management on FPT Portal](./registering-on-fpt-portal.md)
+- [Initial setup](/docs/en/fpt-integration/fpt-api-management/initial-setup)
+- [Quick starts](/docs/en/fpt-integration/fpt-api-management/quick-starts/quick-starts)
+- [Register API Management on FPT Portal](/docs/en/fpt-integration/fpt-api-management/registering-on-fpt-portal)
 - [Declaring information on ApiManager Application](./khai-bao-thong-tin-tren-apimanager-application.md)
-- [Manage REST APIs](./manage-rest-apis.md)
-- [Manage Products](./managing-products.md)
+- [Manage REST APIs](/docs/en/fpt-integration/fpt-api-management/manage-rest-apis)
+- [Manage Products](/docs/en/fpt-integration/fpt-api-management/managing-products)
 - [Manage API Sites](./managing-sites.md)
-- [Manage Consumers](./managing-consumers.md)
+- [Manage Consumers](/docs/en/fpt-integration/fpt-api-management/managing-consumers)
 - [Analytics](./analytics.md)
-- [API Consumer usage guide](./consumer-api-usage-guide.md)
+- [API Consumer usage guide](/docs/en/fpt-integration/fpt-api-management/consumer-api-usage-guide)

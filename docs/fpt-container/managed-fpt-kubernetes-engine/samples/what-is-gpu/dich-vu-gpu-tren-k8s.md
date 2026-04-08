@@ -20,6 +20,6 @@ FPT Cloud uses the NVIDIA GPU Operator, which provides tools to automatically ma
 For detailed instructions on setting up and using GPU on Kubernetes, please refer to the following guides:
 - [Setup Kubernetes cluster for GPU usage](./setup-k8s-cluster-for-gpu-usage.md)
 - [How to use GPU in Kubernetes](./how-to-use-gpu-in-kubernetes.md)
-- [GPU sharing](./gpu-sharing.md)
+- [GPU sharing](/docs/en/fpt-container/managed-fpt-kubernetes-engine/samples/what-is-gpu/gpu-sharing)
 - [Setting up GPU telemetry](./setting-up-gpu-telemetry.md)
 - [Deploy application with GPU on Kubernetes](./deploy-application-with-gpu-on-k8s.md)

@@ -9,7 +9,7 @@ sidebar_position: 3
 # GitLab連携の編集はOrg AdminとTeam Managerのみ可能です
 
 **Org Admin** および **Team Manager** のみ GitLab 連携の編集権限を持ちます。
-_権限の詳細は[こちら](./quan-ly-member.md)をご参照ください。_
+_権限の詳細は[こちら](/docs/ja/fpt-appsec/tutorials/organization-management/quan-ly-member)をご参照ください。_
 
 ## Configure GitLab
 **手順1** : org/teamを選択後、GitLabをクリックしてGitLab Cloud連携画面に移動します。
@@ -29,13 +29,13 @@ _権限の詳細は[こちら](./quan-ly-member.md)をご参照ください。_
 [![anhfsec](/img/migrated/lab9-aab31bf0.png)](/img/migrated/lab9-aab31bf0.png)
 
 ## 詳細表示
-[GitHub連携](./guide-github.md)の詳細表示ガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)の詳細表示ガイドと同様です。
 
 ## Reconfigure GitLab Cloud
-[GitHub連携](./guide-github.md)のreconfigureガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)のreconfigureガイドと同様です。
 
 ## GitLab Cloud連携の無効化
-[GitHub連携](./guide-github.md)の無効化ガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)の無効化ガイドと同様です。
 
 ## CI/CDパイプライン用Access Key
-[GitHub連携](./guide-github.md)と同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)と同様です。

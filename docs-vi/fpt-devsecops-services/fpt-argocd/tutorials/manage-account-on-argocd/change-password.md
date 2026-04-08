@@ -16,10 +16,10 @@ Bạn chỉ có thể thay đổi mật khẩu khi quên password. Không thể 
 
 1. Tại màn hình **Security & Access** → **Local Account**, chọn **Change Password**.
 
-![Màn hình Change Password](images/change-password/img-001.png)
+![Màn hình Change Password](/img/migrated/docs-vi-fpt-argocd/change-password/img-001.png)
 
 2. Nhập mật khẩu mới.
 
-![Form nhập mật khẩu mới](images/change-password/img-002.png)
+![Form nhập mật khẩu mới](/img/migrated/docs-vi-fpt-argocd/change-password/img-002.png)
 
 3. Nhấn **Change Password** để hoàn thành.

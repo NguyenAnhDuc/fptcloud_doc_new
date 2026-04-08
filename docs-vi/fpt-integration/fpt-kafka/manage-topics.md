@@ -12,7 +12,7 @@ Topic là đơn vị tổ chức dữ liệu trung tâm trong Kafka, nơi produc
 
 Các thao tác có thể thực hiện:
 
-- [Tạo topic](./create-topics.md)
-- [Xem topic](./view-topics.md)
-- [Chỉnh sửa topic](./edit-topics.md)
-- [Xóa topic](./delete-topics.md)
+- [Tạo topic](/docs/vi/fpt-integration/fpt-kafka/create-topics)
+- [Xem topic](/docs/vi/fpt-integration/fpt-kafka/view-topics)
+- [Chỉnh sửa topic](/docs/vi/fpt-integration/fpt-kafka/edit-topics)
+- [Xóa topic](/docs/vi/fpt-integration/fpt-kafka/delete-topics)

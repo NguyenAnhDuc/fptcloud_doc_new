@@ -14,7 +14,7 @@ Permission: In phase 1, only the Tenant Owner has permission to manage Projects.
   * Users can view the list of Projects in the system
 
 
-![file](images/quan-ly-project/img-001.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-project/img-001.png)
 
 ### 2\. Create a Project
 The Tenant Owner can create a Project on the Unify Portal.
@@ -34,13 +34,13 @@ The Tenant Owner can create a Project on the Unify Portal.
 
 The system will save the project information and redirect the user to the Project Management page.
 
-![file](images/quan-ly-project/img-002.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-project/img-002.png)
 
 ### 3\. Edit a project
   * The Tenant Owner can edit project information
 
 
-![file](images/quan-ly-project/img-003.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-project/img-003.png)
 
 ### 4\. Delete a project
   * The Tenant Owner can delete projects created from the Unify Portal
@@ -50,4 +50,4 @@ The system will save the project information and redirect the user to the Projec
     * The default project cannot be deleted — only its information can be edited
 
 
-![file](images/quan-ly-project/img-004.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-project/img-004.png)

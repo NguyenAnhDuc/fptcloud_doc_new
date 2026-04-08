@@ -36,4 +36,4 @@ sidebar_position: 5
 
 ## 次のステップ
 
-- [仮想マシンの削除](./quick-starts-xoa-may-ao.md)
+- [仮想マシンの削除](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/quick-starts-xoa-may-ao)

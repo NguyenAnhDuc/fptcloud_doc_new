@@ -4,6 +4,7 @@ title: "Backup and restore cluster"
 description: "Back up master nodes of a Dedicated FPT Kubernetes Engine cluster using the Backup & Recovery service."
 sidebar_label: "Backup and restore cluster"
 sidebar_position: 23
+draft: true
 ---
 
 # Backup and restore cluster

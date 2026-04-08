@@ -27,7 +27,7 @@ Create date from - Create date to | 作成日の範囲でSecurity Groupをフィ
 
 # 使用方法
 
-![](images/security-group-filter/img-001.png)
+![](/img/migrated/docs-ja-cloud-server/security-group-filter/img-001.png)
 
 **ステップ 1:** フィルターウィンドウを開く
 

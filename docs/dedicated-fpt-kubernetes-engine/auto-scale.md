@@ -4,6 +4,7 @@ title: "Auto scale"
 description: "The **Autoscale** feature is enabled by default when users create a Kubernetes Cluster with D-FKE."
 sidebar_label: "Auto scale"
 sidebar_position: 19
+draft: true
 ---
 
 # Auto scale

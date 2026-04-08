@@ -24,7 +24,7 @@ Security Group 管理
 
 **ステップ 1**: メニューで **Networking** > **Security group** を選択します。**Create security group** をクリックします。
 
-![file](images/quan-ly-security-group/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-001.png)
 
 **ステップ 2**: 必要な情報を入力します。
 
@@ -43,7 +43,7 @@ Security Group 管理
     * Outbound rule: 仮想マシンからの送信トラフィックを制御します。必要に応じてルールを設定できます。
 
 
-![file](images/quan-ly-security-group/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-002.png)
 
 __
 
@@ -70,7 +70,7 @@ _General サービスユーザー向け Security Group 作成画面_
     * Outbound rule: 仮想マシンからの送信トラフィックを制御します。必要に応じてルールを設定できます。
 
 
-![file](images/quan-ly-security-group/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-003.png)
 
 __
 
@@ -80,7 +80,7 @@ _Specific サービスユーザー向け Security Group 作成画面_
 
 成功した場合、新しく作成した **Security Group** が **Security Group** テーブルに表示されます。
 
-![file](images/quan-ly-security-group/img-004.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-004.png)
 
 ### Security Group の Inbound ルールと Outbound ルールを管理する
 **Inbound rules** は仮想マシンでどの **Port** を開放するか、およびインターネット上のどのアドレス（**Source**）がそのポートにアクセスできるかを定義します。
@@ -95,7 +95,7 @@ _Specific サービスユーザー向け Security Group 作成画面_
 
 **ステップ 2**: **Inbound rules** セクションで **Add New** をクリックします（**outbound rules** でも同様です）。
 
-![file](images/quan-ly-security-group/img-005.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-005.png)
 
 **ステップ 3**: 必要なルールの詳細を入力します。
 
@@ -108,49 +108,49 @@ _Specific サービスユーザー向け Security Group 作成画面_
 
 **Add rule** をクリックして新しいルールの追加を続けるか、**Edit security group** をクリックして保存します。システムは保存して結果を表示します。
 
-![file](images/quan-ly-security-group/img-006.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-006.png)
 
 ### 仮想マシンを Security Group にアタッチする
 **ステップ 1**: **Security group** 管理パネルで、仮想マシンにアタッチしたい **Security group** を選択して **Security group detail** ページに移動します。
 
-![file](images/quan-ly-security-group/img-007.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-007.png)
 
 **ステップ 2**: **Apply to** セクションで、**Security group** にアタッチする仮想マシンを選択します。ネットワーク範囲に適用するためのCIDR範囲を入力することもできます。**Apply Instances** をクリックします。システムは保存して結果を表示します。
 
-![file](images/quan-ly-security-group/img-008.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-008.png)
 
 ### Security Group から仮想マシンをデタッチする
 **ステップ 1**: **Security group** 管理パネルで、仮想マシンからデタッチしたい **Security group** を選択して **Security group detail** ページに移動します。
 
-![file](images/quan-ly-security-group/img-009.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-009.png)
 
 **Apply to** セクションには、この **Security group** に現在アタッチされている仮想マシンの一覧が表示されます。
 
 **ステップ 2**: デタッチしたい仮想マシンの横にある **X** アイコンをクリックし、**Apply Instances** をクリックします。システムはリクエストを処理し、結果を表示します。
 
-![file](images/quan-ly-security-group/img-010.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-010.png)
 
 ### VPC から Security Group を削除する
 **Security group** が不要になった場合、**VPC** から削除できます。
 
 **注意: この操作を実行する前に、すべてのルールを削除する必要があります。**
 
-![file](images/quan-ly-security-group/img-011.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-011.png)
 
 **ステップ 1**: **Security group** 管理パネルで、削除したい **Security group** を選択して **Security group detail** ページに移動します。
 
-![file](images/quan-ly-security-group/img-012.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-012.png)
 
 **ステップ 2**: ルールに移動し、ゴミ箱アイコンをクリックして削除を確認します。
 
-![file](images/quan-ly-security-group/img-013.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-013.png)
 
-![file](images/quan-ly-security-group/img-014.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-014.png)
 
 **ステップ 3**: **Security group** 内のすべてのルールを削除したら、**Security Group** 管理パネルに戻ります。削除したい **Security group** の **Action** 列から Delete を選択します。
 
-![file](images/quan-ly-security-group/img-015.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-015.png)
 
 **ステップ 4**: システムが確認ポップアップを表示します。削除を確認するには、**Delete security group** をクリックします。
 
-![file](images/quan-ly-security-group/img-016.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-security-group/img-016.png)

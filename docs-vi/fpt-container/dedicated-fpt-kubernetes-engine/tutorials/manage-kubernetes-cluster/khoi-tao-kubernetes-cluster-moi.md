@@ -17,11 +17,11 @@ Khởi tạo Kubernetes Cluster mới
 
 **Bước 1:** Trên menu chọn **Kubernetes** > Chọn **Create.**
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-001.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-001.png)
 
   **Bước 2:** Nhập tên và chọn version cho cluster sau đó bấm **Next**:
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-002.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-002.png)
 
   * **Name:** Nhập tên Cluster.
   * **Version:** Chọn version của Cluster.
@@ -29,7 +29,7 @@ Khởi tạo Kubernetes Cluster mới
 
 **Bước 3:** Cấu hình Node Pools theo nhu cầu sau đó chọn Next.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-003.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-003.png)
 
 **Storage Policy & Load Balancer: **
 
@@ -77,7 +77,7 @@ Khởi tạo Kubernetes Cluster mới
 
 **Bước 4:** Cấu hình Advanced cho cụm cluster sau đó bấm **Next**.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-004.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-004.png)
 
 **NFS Storage:**
 
@@ -104,8 +104,8 @@ Khởi tạo Kubernetes Cluster mới
 
 **Bước 5:** Chọn **Next**. Hệ thống sẽ hiển thị màn hình xác nhận lại toàn bộ thông tin đã nhập, kiểm tra tài nguyên và tiến hành quá trình khởi tạo Kubernetes Cluster dựa vào cấu hình đã chọn.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-005.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-005.png)
 
 **Bước 6:** Chọn **Create a Kubernetes**. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo Kubernetes Cluster dựa vào cấu hình đã chọn.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-006.png)
+![](/img/migrated/docs-vi-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-006.png)

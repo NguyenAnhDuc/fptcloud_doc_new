@@ -10,7 +10,7 @@ sidebar_position: "8"
 
 To change the K8s Cluster configuration of a Managed GPU Cluster, select the target cluster from FPT Portal and apply the desired configuration changes.
 
-For detailed instructions, refer to [Initial Setup](./Initial-setup.md) and [Create a new Managed GPU Cluster](./khoi-tao-managed-gpu-cluster-moi.md).
+For detailed instructions, refer to [Initial Setup](/docs/en/managed-gpu-cluster-kubernetes/Initial-setup) and [Create a new Managed GPU Cluster](/docs/en/managed-gpu-cluster-kubernetes/tutorials/manage-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi).
 
 If you need assistance, contact the FPT Cloud support team.
 

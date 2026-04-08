@@ -4,6 +4,7 @@ title: Snapshot and Restore Persistent Volume on Kubernetes
 description: "Overview of the PVC snapshot and restore feature in FPT Cloud Managed Kubernetes."
 sidebar_label: Snapshot and Restore Persistent Volume on Kubernetes
 sidebar_position: "45"
+draft: true
 ---
 
 # Snapshot and Restore Persistent Volume on Kubernetes

@@ -10,6 +10,6 @@ sidebar_position: 1
 
 FPT Cloud Desktop supports login with an SSO account (for example: Azure AD / Microsoft account). Choose the access method that matches your setup:
 
-- [Access via new FCDClient](./SSO-qua-FCDClient-moi.md) (recommended)
-- [Access via web browser](./SSO-qua-web-browser.md)
-- [Access via legacy FCDClient](./SSO-qua-FCDClient-cu.md)
+- [Access via new FCDClient](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-FCDClient-moi) (recommended)
+- [Access via web browser](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-web-browser)
+- [Access via legacy FCDClient](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-FCDClient-cu)

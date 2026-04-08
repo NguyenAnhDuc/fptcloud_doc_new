@@ -34,5 +34,5 @@ sidebar_position: 6
 
 ## 次のステップ
 
-- [仮想マシンの作成](./quick-starts-tao-mot-may-ao.md)
-- [仮想マシンの管理](./quan-ly-may-ao.md)
+- [仮想マシンの作成](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)
+- [仮想マシンの管理](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/quan-ly-may-ao)

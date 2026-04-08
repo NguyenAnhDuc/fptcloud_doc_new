@@ -5,6 +5,7 @@ description: "Delete a Kubernetes cluster in Managed FPT Kubernetes Engine that 
 sidebar_label: "Delete a Kubernetes cluster"
 sidebar_position: 8
 pagination_next: null
+draft: true
 ---
 
 # Delete a Kubernetes cluster

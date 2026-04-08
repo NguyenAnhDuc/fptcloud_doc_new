@@ -4,6 +4,7 @@ title: "Kubernetes で GPU を使用する理由"
 description: "Kubernetes は GPU をサポートしており、データサイエンスや machine learning などの workload 高速化に GPU リソースを活用できます。"
 sidebar_label: "Kubernetes で GPU を使用する理由"
 sidebar_position: "33"
+draft: true
 ---
 
 # Kubernetes で GPU を使用する理由

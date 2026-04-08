@@ -11,5 +11,5 @@ sidebar_position: 18
 FPT AI FactoryのGPU ContainerでvLLMを使用するユースケースガイドです。
 
 vLLMの詳細なユースケースガイド：
-- [vLLM 基本ユースケース](./vllm-use-case.md)
-- [vLLM と GPT-OSS](./vllm-use-cases-gpt-oss.md)
+- [vLLM 基本ユースケース](/docs/ja/gpu-container/vllm-use-case)
+- [vLLM と GPT-OSS](/docs/ja/gpu-container/vllm-use-cases-gpt-oss)

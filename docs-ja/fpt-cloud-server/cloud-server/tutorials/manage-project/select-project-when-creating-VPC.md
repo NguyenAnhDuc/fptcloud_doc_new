@@ -16,4 +16,4 @@ sidebar_position: 3
 
 ## 次のステップ
 
-- [ヘッダーインターフェースの変更](./header-project.md)
+- [ヘッダーインターフェースの変更](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-project/header-project)

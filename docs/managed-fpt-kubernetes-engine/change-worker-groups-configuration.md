@@ -4,6 +4,7 @@ title: "Change worker group configuration"
 description: "Modify the configuration of a worker group in a Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Change worker group configuration"
 sidebar_position: 11
+draft: true
 ---
 
 # Change worker group configuration

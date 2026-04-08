@@ -9,11 +9,11 @@ Create a new WAF server
 
 **Step 1:** In the menu, select **Security > Cloud WAF**, then select **Create WAF.**
 
-![Userguide FPT WAF 2022 1](images/them-moi-may-chu-waf/img-001.png)
+![Userguide FPT WAF 2022 1](/img/migrated/docs-fpt-cloud-waf/them-moi-may-chu-waf/img-001.png)
 
 **Step 2:** Enter the **WAF** information and select the appropriate size.
 
-![Userguide FPT WAF 2022 2](images/them-moi-may-chu-waf/img-002.png)
+![Userguide FPT WAF 2022 2](/img/migrated/docs-fpt-cloud-waf/them-moi-may-chu-waf/img-002.png)
 
 **Field** | **Description** | **Value**
 ---|---|---

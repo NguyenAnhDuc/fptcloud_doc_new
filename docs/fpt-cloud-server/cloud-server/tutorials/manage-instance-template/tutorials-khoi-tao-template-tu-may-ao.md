@@ -26,4 +26,4 @@ Creating a template from a pre-configured virtual machine lets you deploy multip
 
 ## Next steps
 
-- [Manage templates on Custom Images](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)
+- [Manage templates on Custom Images](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-template-duoc-tao-tu-may-ao)

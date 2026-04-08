@@ -4,6 +4,7 @@ title: "Subuser management"
 description: "**SubUser** in FPT Object Storage is a sub-user created with limited access rights. An admin can assign roles to SubUser"
 sidebar_label: "Subuser management"
 sidebar_position: "9"
+draft: true
 ---
 
 # Subuser management

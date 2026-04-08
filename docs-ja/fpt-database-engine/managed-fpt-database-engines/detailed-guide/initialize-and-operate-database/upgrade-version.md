@@ -31,13 +31,13 @@ FPT Database Engineの**データベースバージョンアップグレード**
 
 FPT Cloud Portalにログインし、**Database List**ページに移動します。アップグレードしたいMariaDBクラスターを選択します。クラスターの**Overview**ページで、現在のバージョンとその横に**Upgrade**アイコンが表示されます。
 
-![](images/upgrade-version/img-001.png)
+![](/img/migrated/docs-ja-managed-fpt-database-engine/upgrade-version/img-001.png)
 
 #### ステップ2：バージョンアップグレードの実行
 
 **Overview**ページで、バージョン情報の横にある**Upgrade**アイコンを見つけてクリックします。現在のバージョンとアップグレード可能なターゲットバージョンを示すダイアログボックスが開きます。
 
-![](images/upgrade-version/img-002.png)
+![](/img/migrated/docs-ja-managed-fpt-database-engine/upgrade-version/img-002.png)
 
 アップグレード先のバージョンを選択し、入力フィールドに確認キーワードを入力します。**Upgrade**をクリックしてアップグレードプロセスを開始します。
 

@@ -4,6 +4,7 @@ title: "FPT ArgoCD"
 description: "FPT ArgoCD"
 sidebar_label: "FPT ArgoCD"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT ArgoCD

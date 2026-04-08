@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Only **Org Admin** and **Team Manager** have permission to edit the FPT Container Registry (FCR) integration.
 
-See [permission details](./quan-ly-member.md).
+See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/quan-ly-member).
 
 ## Integrate FCR - Add VPC
 
@@ -80,7 +80,7 @@ You can **Add VPC**, **Reconfigure**, and **Delete** VPCs, or **Disable** the in
 
 ## Disable FPT Container Registry integration
 
-See [GitHub integration guide](./guide-github.md).
+See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github).
 
 ## Access key for CI/CD pipeline
 

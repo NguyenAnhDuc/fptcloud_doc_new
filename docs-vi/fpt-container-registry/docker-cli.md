@@ -4,6 +4,7 @@ title: Sử dụng Docker CLI
 sidebar_label: Sử dụng Docker CLI
 sidebar_position: "4"
 description: "FPT Container Registry"
+draft: true
 ---
 
 # Sử dụng Docker CLI

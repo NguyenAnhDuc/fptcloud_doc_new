@@ -4,6 +4,7 @@ title: "Frequently Asked Questions about Tokens"
 description: "Answers to common questions when using Tokens on FPT Cloud."
 sidebar_label: "Frequently Asked Questions"
 sidebar_position: 45
+draft: true
 ---
 
 # Frequently Asked Questions about Tokens

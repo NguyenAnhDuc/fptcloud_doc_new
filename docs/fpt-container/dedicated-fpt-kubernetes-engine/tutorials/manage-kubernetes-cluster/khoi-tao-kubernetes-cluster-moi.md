@@ -17,11 +17,11 @@ Create a New Kubernetes Cluster
 
 **Step 1:** From the menu, select **Kubernetes** > Click **Create.**
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-001.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-001.png)
 
   **Step 2:** Enter a name and select the cluster version, then click **Next**:
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-002.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-002.png)
 
   * **Name:** Enter the cluster name.
   * **Version:** Select the cluster version.
@@ -29,7 +29,7 @@ Create a New Kubernetes Cluster
 
 **Step 3:** Configure Node Pools as needed, then click Next.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-003.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-003.png)
 
 **Storage Policy & Load Balancer:**
 
@@ -77,7 +77,7 @@ Create a New Kubernetes Cluster
 
 **Step 4:** Configure advanced settings for the cluster, then click **Next**.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-004.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-004.png)
 
 **NFS Storage:**
 
@@ -104,8 +104,8 @@ Create a New Kubernetes Cluster
 
 **Step 5:** Click **Next**. The system will display a confirmation screen showing all entered information. Review the configuration and proceed to initialize the Kubernetes Cluster based on the selected configuration.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-005.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-005.png)
 
 **Step 6:** Click **Create a Kubernetes**. The system will confirm, validate resources, and begin provisioning the Kubernetes Cluster based on the selected configuration.
 
-![](images/khoi-tao-kubernetes-cluster-moi/img-006.png)
+![](/img/migrated/docs-dedicated-fpt-kubernetes-engine/khoi-tao-kubernetes-cluster-moi/img-006.png)

@@ -16,13 +16,13 @@ To log in and create machines on HPC Portal, contact your administrator to grant
 
 ## Guides
 
-- [Quick Start](./hpc-quick-start.md)
-- [Change Machine Configuration](./hpc-change-package.md)
-- [Set Fixed Rental Period](./hpc-fixed-rental.md)
-- [Snapshot Backup](./hpc-snapshot-backup.md)
-- [Hardware Fixation](./hpc-hardware-fixation.md)
-- [Reset Machine](./hpc-rest-machine.md)
-- [Schedule Shutdown](./hpc-schedule-shutdown.md)
-- [Clone Image](./hpc-clone-image.md)
-- [Set Level 2 Password](./hpc-level-2-password.md)
-- [Delete Image](./hpc-delete-image.md)
+- [Quick Start](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-quick-start)
+- [Change Machine Configuration](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-change-package)
+- [Set Fixed Rental Period](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)
+- [Snapshot Backup](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-snapshot-backup)
+- [Hardware Fixation](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-hardware-fixation)
+- [Reset Machine](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-rest-machine)
+- [Schedule Shutdown](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-schedule-shutdown)
+- [Clone Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-clone-image)
+- [Set Level 2 Password](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)
+- [Delete Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-delete-image)

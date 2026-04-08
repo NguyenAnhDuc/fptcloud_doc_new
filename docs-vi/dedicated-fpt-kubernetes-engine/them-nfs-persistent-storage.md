@@ -5,6 +5,7 @@ description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ
 sidebar_label: "Thêm NFS Persistent Storage"
 sidebar_position: 18
 pagination_next: null
+draft: true
 ---
 
 # Thêm NFS Persistent Storage

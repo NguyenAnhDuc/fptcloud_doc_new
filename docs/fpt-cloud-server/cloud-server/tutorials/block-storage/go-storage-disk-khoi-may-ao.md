@@ -22,4 +22,4 @@ When a Storage Disk is no longer needed on an Instance, you can detach it. Your 
 
 ## Next Steps
 
-- [Edit a Storage Disk](./edit-storage-disk.md)
+- [Edit a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)

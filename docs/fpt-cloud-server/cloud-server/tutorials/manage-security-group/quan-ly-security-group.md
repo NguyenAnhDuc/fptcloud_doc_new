@@ -24,7 +24,7 @@ To create a new Security Group, follow these steps:
 
 **Step 1**: In the menu, select **Networking** > **Security group**. Click **Create security group**.
 
-![file](images/quan-ly-security-group/img-001.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-001.png)
 
 **Step 2**: Enter the required information:
 
@@ -43,7 +43,7 @@ To create a new Security Group, follow these steps:
     * Outbound rule: Controls traffic leaving the virtual machine. You can configure rules as needed.
 
 
-![file](images/quan-ly-security-group/img-002.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-002.png)
 
 __
 
@@ -70,7 +70,7 @@ _Security group creation screen for General service users_
     * Outbound rule: Controls traffic leaving the virtual machine. You can configure rules as needed.
 
 
-![file](images/quan-ly-security-group/img-003.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-003.png)
 
 __
 
@@ -80,7 +80,7 @@ _Security group creation screen for Specific service users_
 
 If successful, the newly created **Security Group** will appear in the **Security Group** table.
 
-![file](images/quan-ly-security-group/img-004.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-004.png)
 
 ### Manage Inbound and Outbound Rules in a Security Group
 **Inbound rules** define which **Ports** will be open on the virtual machine and which internet addresses (**Sources**) are allowed to access those ports.
@@ -95,7 +95,7 @@ Note: The Firewall type cannot be changed after creation.
 
 **Step 2**: Click **Add New** in the **Inbound rules** section (similarly for **outbound rules**).
 
-![file](images/quan-ly-security-group/img-005.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-005.png)
 
 **Step 3**: Fill in the required rule details:
 
@@ -108,49 +108,49 @@ Note: The Firewall type cannot be changed after creation.
 
 Click **Add rule** to continue adding a new rule, or click **Edit security group** to save. The system will save and display the result.
 
-![file](images/quan-ly-security-group/img-006.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-006.png)
 
 ### Attach a Virtual Machine to a Security Group
 **Step 1**: On the **Security group** management panel, select the **Security group** you want to attach to a virtual machine to go to the **Security group detail** page.
 
-![file](images/quan-ly-security-group/img-007.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-007.png)
 
 **Step 2**: In the **Apply to** section, select the virtual machines to attach to the **Security group**. You can also enter a CIDR range to apply to a network range. Click **Apply Instances**. The system will save and display the result.
 
-![file](images/quan-ly-security-group/img-008.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-008.png)
 
 ### Detach a Virtual Machine from a Security Group
 **Step 1**: On the **Security group** management panel, select the **Security group** you want to detach from a virtual machine to go to the **Security group detail** page.
 
-![file](images/quan-ly-security-group/img-009.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-009.png)
 
 The **Apply to** section shows the list of virtual machines currently attached to this **Security group**.
 
 **Step 2**: Click the **X** icon next to the virtual machine you want to detach, then click **Apply Instances**. The system will process the request and display the result.
 
-![file](images/quan-ly-security-group/img-010.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-010.png)
 
 ### Delete a Security Group from a VPC
 If a **Security group** is no longer needed, you can delete it from the **VPC**.
 
 **Note: All rules must be deleted before performing this operation.**
 
-![file](images/quan-ly-security-group/img-011.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-011.png)
 
 **Step 1**: On the **Security group** management panel, select the **Security group** you want to delete to go to the **Security group detail** page.
 
-![file](images/quan-ly-security-group/img-012.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-012.png)
 
 **Step 2**: Go to a rule, click the trash icon, and confirm deletion.
 
-![file](images/quan-ly-security-group/img-013.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-013.png)
 
-![file](images/quan-ly-security-group/img-014.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-014.png)
 
 **Step 3**: After deleting all rules in the **Security group**, return to the **Security Group** management panel. Under the **Action** column for the **Security group** you want to delete, select Delete.
 
-![file](images/quan-ly-security-group/img-015.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-015.png)
 
 **Step 4**: The system will display a confirmation popup. To confirm deletion, click **Delete security group**.
 
-![file](images/quan-ly-security-group/img-016.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-security-group/img-016.png)

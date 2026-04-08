@@ -21,7 +21,7 @@ To add a new **Public IP** to a VPC, follow these steps:
 
 **Step 1**: In the menu, select **Networking** > **Floating IP**. Click **Allocate IP address**.
 
-![file](images/quan-ly-floating-ip/img-001.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-001.png)
 
 **Step 2**: Enter the required information. You can create multiple NAT rules with different IP ports in the range 1–65535:
 
@@ -36,13 +36,13 @@ To add a new **Public IP** to a VPC, follow these steps:
   * **Add tag (optional)**: Attach a tag to the IP. This field is optional.
 
 
-![file](images/quan-ly-floating-ip/img-002.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-002.png)
 
 **Step 3**: Click **Allocate floating IP**. The system will verify the conditions for allocating the IP and display the result.
 
 If successful, the IP will appear on the **Floating IP** page.
 
-![file](images/quan-ly-floating-ip/img-003.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-003.png)
 
 **Note: If the system reports an error due to quota exhaustion, please contact the support team to request additional quota.**
 
@@ -51,13 +51,13 @@ If successful, the IP will appear on the **Floating IP** page.
 
 **Step 2**: The **Connect to instance** popup will appear. Select the virtual machine to associate with this IP in the **Instance** field.
 
-![file](images/quan-ly-floating-ip/img-004.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-004.png)
 
 **Step 3**: Click **Allocate floating IP**. The system will process the request and display the result.
 
 If successful, the IP and rule will appear on the **Floating IP** page.
 
-![file](images/quan-ly-floating-ip/img-005.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-005.png)
 
 ### Detach a Floating IP from a Virtual Machine
 If you no longer need the IP or want to detach it and attach it to another virtual machine, you can remove the **Floating IP** as follows:
@@ -66,15 +66,15 @@ If you no longer need the IP or want to detach it and attach it to another virtu
 
 **Step 2**: The system will display a confirmation popup. To confirm the detachment, click **Disconnect**.
 
-![file](images/quan-ly-floating-ip/img-006.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-006.png)
 
 ### Release a Floating IP from a VPC
 To release a **Floating IP** from a **VPC** when it is no longer needed, follow these steps:
 
 **Step 1**: On the **Floating IP** management panel, under the **Action** column for the IP you want to release, select **Release IP**.
 
-![file](images/quan-ly-floating-ip/img-007.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-007.png)
 
 **Step 2**: The system will display a confirmation popup. To confirm the release, click **Release**.
 
-![file](images/quan-ly-floating-ip/img-008.png)
+![file](/img/migrated/docs-cloud-server/quan-ly-floating-ip/img-008.png)

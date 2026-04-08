@@ -10,7 +10,7 @@ sidebar_position: 3
 
 サービス登録が完了すると、**API Management** のすべての設定操作は **ApiManager Application** 上で行います。以下のドキュメントで各セクションの詳細手順を説明しています。
 
-- [REST API の管理](./manage-rest-apis.md)
-- [Product の管理](./managing-products.md)
+- [REST API の管理](/docs/ja/fpt-integration/fpt-api-management/manage-rest-apis)
+- [Product の管理](/docs/ja/fpt-integration/fpt-api-management/managing-products)
 - [API Site の管理](./managing-sites.md)
-- [Consumer の管理](./managing-consumers.md)
+- [Consumer の管理](/docs/ja/fpt-integration/fpt-api-management/managing-consumers)

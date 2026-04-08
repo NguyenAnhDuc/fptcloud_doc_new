@@ -4,6 +4,7 @@ title: "Access key management"
 description: "**Access Key and Private Key** are the primary authentication methods for the FPT Object Storage service. To use the buc"
 sidebar_label: "Access key management"
 sidebar_position: "8"
+draft: true
 ---
 
 # Access key management

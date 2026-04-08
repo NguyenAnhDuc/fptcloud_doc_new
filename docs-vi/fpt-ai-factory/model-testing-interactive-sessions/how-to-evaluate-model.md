@@ -10,5 +10,5 @@ sidebar_position: "13"
 
 Tính năng **Evaluate Model** trong Interactive Sessions bao gồm các công cụ sau để bạn kiểm thử và đánh giá model:
 
-* [Playground](./playground.md)
-* [Completion History](./completion-history.md)
+* [Playground](/docs/vi/fpt-ai-factory/model-testing-interactive-sessions/playground)
+* [Completion History](/docs/vi/fpt-ai-factory/model-testing-interactive-sessions/completion-history)

@@ -26,4 +26,4 @@ sidebar_position: 6
 
 ## 次のステップ
 
-- [仮想マシン情報の確認](./tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao.md)
+- [仮想マシン情報の確認](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao)

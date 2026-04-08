@@ -12,6 +12,6 @@ Projects let you organize cloud resources into groups — making it convenient t
 
 ## Guides
 
-- [Project Management Details](./quan-ly-project.md)
-- [Select a Project When Creating a VPC](./select-project-when-creating-VPC.md)
-- [Change the Header Interface](./header-project.md)
+- [Project Management Details](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-project/quan-ly-project)
+- [Select a Project When Creating a VPC](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-project/select-project-when-creating-VPC)
+- [Change the Header Interface](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-project/header-project)

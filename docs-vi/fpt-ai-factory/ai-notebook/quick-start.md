@@ -21,7 +21,7 @@ sidebar_position: 5
 
   1. Từ menu bên trái, chọn **AI Notebooks**.
   2. Chờ khoảng **1–2 phút** để notebook khởi động.
-  3. Xem hướng dẫn chi tiết [tại đây](./launch-ai-notebook.md)
+  3. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/launch-ai-notebook)
 
 ## Bước 4: Nạp credit vào tài khoản
 
@@ -44,4 +44,4 @@ sidebar_position: 5
 ## Bước 7: Tắt kernel
 
   1. Điều hướng đến **Running Kernels/Notebooks** (biểu tượng thứ hai từ trên xuống trong thanh điều hướng).
-  2. Xem hướng dẫn chi tiết [tại đây](./shut-down-kernel.md)
+  2. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/shut-down-kernel)

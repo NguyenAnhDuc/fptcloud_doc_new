@@ -4,6 +4,7 @@ title: "Lưu ý khi sử dụng MFKE"
 description: "Các lưu ý quan trọng khi sử dụng dịch vụ Managed FPT Kubernetes Engine."
 sidebar_label: "Lưu ý khi sử dụng MFKE"
 sidebar_position: "27"
+draft: true
 ---
 
 # Lưu ý khi sử dụng MFKE

@@ -9,7 +9,7 @@ sidebar_position: 1
 # Xem đối soát theo kỳ hóa đơn
 
 :::note
-Để xem đối soát, bạn cần đăng nhập với role Tenant Owner hoặc role có quyền **view billing**. Chi tiết hướng dẫn phân quyền tại [Phân quyền xem billing](billing-permission.md).
+Để xem đối soát, bạn cần đăng nhập với role Tenant Owner hoặc role có quyền **view billing**. Chi tiết hướng dẫn phân quyền tại [Phân quyền xem billing](/docs/vi/billing/bills/quick-starts/billing-permission).
 :::
 
 Thực hiện theo các bước sau:
@@ -35,4 +35,4 @@ Thực hiện theo các bước sau:
      - **Cancelled** – Đối soát đã bị hủy và không xuất hóa đơn
    - **Grand total** – Tổng tiền trước thuế VAT tại thời điểm cập nhật dữ liệu gần nhất
 
-3. Chọn tab [Charges by service](view-bill-charges-by-service.md) để xem chi tiết đối soát theo dịch vụ, hoặc tab [Charges by resource](view-bill-charges-by-resource.md) để xem theo tài nguyên sử dụng.
+3. Chọn tab [Charges by service](/docs/vi/billing/bills/quick-starts/view-bill-charges-by-service) để xem chi tiết đối soát theo dịch vụ, hoặc tab [Charges by resource](/docs/vi/billing/bills/quick-starts/view-bill-charges-by-resource) để xem theo tài nguyên sử dụng.

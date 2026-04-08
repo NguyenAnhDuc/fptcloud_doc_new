@@ -29,13 +29,13 @@ sidebar_position: 4
 
 Webブラウザでサービスリンクにアクセスし、**Access through FPT Cloud Desktop Client**を選択します。
 
-![file](images/SSO-qua-FCDClient-cu/img-001.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-001.png)
 
 **2. 適切なAuthenticator（Server）にログインする**
 
 ユーザーが**有効な認証コードを既に含むURLでアクセスする場合**（例：有効なコードを含むURL：pil783454741.pilotfcd.online）：
 
-  * 対応するSSOアカウントでログインするだけです（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](images/SSO-qua-FCDClient-cu/img-002.png)
+  * 対応するSSOアカウントでログインするだけです（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-002.png)
 
 
 ユーザーがサービスのデフォルトURLからClientをダウンロードする場合：
@@ -43,9 +43,9 @@ Webブラウザでサービスリンクにアクセスし、**Access through FPT
   * Authentication Code情報を入力します（顧客管理者が管理する情報）（有効なAuthentication Codeの例：pil783454741）
 
 
-![file](images/SSO-qua-FCDClient-cu/img-003.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-003.png)
 
-  * 対応するSSOアカウントでログインします（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](images/SSO-qua-FCDClient-cu/img-004.png)
+  * 対応するSSOアカウントでログインします（例：Microsoftアカウントでログイン）。SSOに対応するOTPを入力してください => Authenticator（Server）ログイン成功 ![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-004.png)
 
 
 **3. 仮想マシンへのアクセス** 仮想マシンリスト画面で、アクセスしたい仮想マシンを選択します。**注意：** このステップでは、FCDClientアクセスオプションを選択します。
@@ -54,18 +54,18 @@ Webブラウザでサービスリンクにアクセスし、**Access through FPT
   *     * ユーザーが新しいFCDClientをインストールしている場合：システムはFCDClientを優先して開きます。ユーザーは[ステップ2：新しいFCDClientで仮想マシンへアクセスする](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "ステップ2：新しいFCDClientで仮想マシンへアクセスする")と同様のアクセス手順を再実施する必要があります。
 
 
-![file](images/SSO-qua-FCDClient-cu/img-005.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-005.png)
 
   * ログインしたいServerに対応するアカウント情報を入力します。
 
 
 **注意：** 2段階認証のQRコードが表示された場合：Apple StoreまたはCH Play/Google Playからスマートフォンに**Microsoft Authenticator**アプリをダウンロードしてインストールしてください。
 
-![file](images/SSO-qua-FCDClient-cu/img-006.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-006.png)
 
 Authenticatorアプリを開いてQRコードをスキャンします。
 
-![file](images/SSO-qua-FCDClient-cu/img-007.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-007.png)
 
   * アプリが同期を行い、FPT Cloud Desktopへのログイン用OTPを表示します。
   * OTPを入力して**Submit**をクリックします => Authenticator（Server）ログイン成功。
@@ -81,4 +81,4 @@ Authenticatorアプリを開いてQRコードをスキャンします。
   * ユーザーが新しいFCDClientをインストールしている場合：システムはFCDClientを優先して開きます。ユーザーは[ステップ2：新しいFCDClientで仮想マシンへアクセスする](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "ステップ2：新しいFCDClientで仮想マシンへアクセスする")と同様のアクセス手順を再実施する必要があります。
 
 
-![file](images/SSO-qua-FCDClient-cu/img-008.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-008.png)

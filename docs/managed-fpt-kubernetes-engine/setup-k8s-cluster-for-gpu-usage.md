@@ -4,6 +4,7 @@ title: "Set up Kubernetes cluster for GPU usage"
 description: "* **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the desired Kubernetes Cluster. If you plan to use auto-s"
 sidebar_label: "Set up Kubernetes cluster for GPU usage"
 sidebar_position: 21
+draft: true
 ---
 
 # Set up Kubernetes cluster for GPU usage

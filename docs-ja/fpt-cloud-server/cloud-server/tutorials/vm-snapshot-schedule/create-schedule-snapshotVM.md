@@ -12,7 +12,7 @@ sidebar_position: 2
 
 **ステップ1：** メニューでCompute Engine > Schedule Managementを選択し、「Instance snapshot schedule」タブを選択します。
 
-![file](images/create-schedule-snapshotVM/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/create-schedule-snapshotVM/img-001.png)
 
 **ステップ2：** システムの要求に従って必要な情報を入力します：
 
@@ -31,8 +31,8 @@ sidebar_position: 2
   * Applied Instance：スケジュールに割り当てられた仮想マシン（注意：各仮想マシンは同時に1つのスケジュールにのみ割り当てることができます）
 
 
-![file](images/create-schedule-snapshotVM/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/create-schedule-snapshotVM/img-002.png)
 
 **ステップ3：** 「Create Schedule」をクリックします。システムはスケジュールの初期化を開始し、結果をお知らせします。成功した場合、新しいスケジュールはInstance snapshot scheduleページに表示されます。
 
-![file](images/create-schedule-snapshotVM/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/create-schedule-snapshotVM/img-003.png)

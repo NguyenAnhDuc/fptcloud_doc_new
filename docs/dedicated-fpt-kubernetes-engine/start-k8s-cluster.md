@@ -5,6 +5,7 @@ description: "Restart a previously stopped Dedicated FPT Kubernetes Engine clust
 sidebar_label: "Start a cluster"
 sidebar_position: 10
 pagination_next: null
+draft: true
 ---
 
 # Start a Kubernetes cluster

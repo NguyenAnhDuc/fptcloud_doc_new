@@ -4,6 +4,7 @@ title: "Configure Image Updater"
 description: "Introduction to ArgoCD Image Updater and supported configuration operations"
 sidebar_label: "Configure Image Updater"
 sidebar_position: 7
+draft: true
 ---
 
 # Configure Image Updater

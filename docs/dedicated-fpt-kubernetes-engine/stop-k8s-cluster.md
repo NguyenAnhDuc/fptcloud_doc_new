@@ -4,6 +4,7 @@ title: "Stop a Kubernetes cluster"
 description: "Stop a running Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Stop a cluster"
 sidebar_position: 9
+draft: true
 ---
 
 # Stop a Kubernetes cluster

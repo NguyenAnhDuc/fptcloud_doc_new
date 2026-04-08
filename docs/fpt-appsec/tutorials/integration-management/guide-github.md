@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Only **Org Admin** has permission to edit the GitHub integration.
 
-See [permission details](./quan-ly-member.md).
+See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/quan-ly-member).
 
 ## Configure GitHub
 
@@ -84,7 +84,7 @@ You can also **Reintegrate** or **Disable** the GitHub integration.
 
 ## Access key for CI/CD pipeline
 
-In the detail screen you will find an access key to use in your CI/CD pipeline. See the [CI/CD integration guide](./cicd-guideline.md).
+In the detail screen you will find an access key to use in your CI/CD pipeline. See the [CI/CD integration guide](/docs/en/fpt-appsec/tutorials/integration-management/cicd-guideline).
 
 [![anhfsec](/img/migrated/in-git5-0f0523e9.png)](/img/migrated/in-git5-0f0523e9.png)
 

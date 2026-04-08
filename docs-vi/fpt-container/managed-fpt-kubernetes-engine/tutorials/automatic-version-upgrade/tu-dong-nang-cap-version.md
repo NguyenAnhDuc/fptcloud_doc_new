@@ -12,5 +12,5 @@ Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version) ch
 
 Xem thêm tài liệu liên quan:
 
-- [Tổng quan quy trình quản lý phiên bản Kubernetes trên FPTCloud](./gioi-thieu-chung-ve-quy-trinh-quan-ly-version.md)
-- [Hướng dẫn chi tiết sử dụng tính năng auto upgrade version](./huong-dan-chi-tiet-su-dung-auto-upgrade.md)
+- [Tổng quan quy trình quản lý phiên bản Kubernetes trên FPTCloud](/docs/vi/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/gioi-thieu-chung-ve-quy-trinh-quan-ly-version)
+- [Hướng dẫn chi tiết sử dụng tính năng auto upgrade version](/docs/vi/fpt-container/managed-fpt-kubernetes-engine/tutorials/automatic-version-upgrade/huong-dan-chi-tiet-su-dung-auto-upgrade)

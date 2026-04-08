@@ -27,7 +27,7 @@ Create date from - Create date to | Lọc Security Group theo khoảng thời gi
 
 # Hướng dẫn sử dụng
 
-![](images/security-group-filter/img-001.png)
+![](/img/migrated/docs-vi-cloud-server/security-group-filter/img-001.png)
 
 **Bước 1:** Mở cửa sổ Filter
 

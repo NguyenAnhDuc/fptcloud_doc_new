@@ -11,7 +11,7 @@ Profile SSH Key
 ### 1\. Create/Import an SSH Key Profile
 **Step 1:** In the menu, select **Compute Engine** > **SSH Management**. Select **Import SSH key**.
 
-![file](images/profile-ssh-key/img-001.png)
+![file](/img/migrated/docs-cloud-server/profile-ssh-key/img-001.png)
 
 **Step 2:** Enter the required information to create an SSH Key:
 
@@ -28,21 +28,21 @@ Currently supported SSH key formats: 'ssh-rsa', 'ecdsa-sha2-nistp256', 'ecdsa-sh
 ### 2\. View SSH Key Profile Details
 Users can view all **SSH Key Profiles** created within the **VPC** under **Manage SSH Key Profiles**.
 
-![Userguide FPT Cloud Server 2022 80](images/profile-ssh-key/img-002.png)
+![Userguide FPT Cloud Server 2022 80](/img/migrated/docs-cloud-server/profile-ssh-key/img-002.png)
 
 When a specific **SSH Key Profile** is selected, the system displays the **Name** and **Public Key**.
 
-![file](images/profile-ssh-key/img-003.png)
+![file](/img/migrated/docs-cloud-server/profile-ssh-key/img-003.png)
 
 ### 3\. Delete an SSH Key Profile
 To delete an **SSH Key Profile** from **Manage SSH Key Profiles**, follow these steps:
 
 **Step 1:** Select the **SSH Key Profile** to delete and open the **Detail** popup.
 
-![Userguide FPT Cloud Server 2022 82](images/profile-ssh-key/img-004.png)
+![Userguide FPT Cloud Server 2022 82](/img/migrated/docs-cloud-server/profile-ssh-key/img-004.png)
 
 **Step 2:** Click the **Delete** icon. The system will immediately delete the **SSH Key Profile** and display the processing result.
 
-![file](images/profile-ssh-key/img-005.png)
+![file](/img/migrated/docs-cloud-server/profile-ssh-key/img-005.png)
 
 **Note:** This action only removes the **SSH Key Profile** from **Manage SSH Key Profiles**. Virtual machines that were created using this **SSH Key** are not affected. Users can still use the previously downloaded **Private Key** file to connect to the virtual machines.

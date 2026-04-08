@@ -9,7 +9,7 @@ sidebar_position: 4
 # Chỉ Org Admin và Team Manager có quyền chỉnh sửa tích hợp GitLab Server
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp GitLab Server
-_Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
+_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member)_
 
 ## Configure GitLab Server
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào GitLab Server để đến màn tích hợp:
@@ -31,13 +31,13 @@ Nếu thành công, màn hình sẽ hiển thị **Test connect successfully**
 [![anhfsec](/img/migrated/labs6-cd567134.png)](/img/migrated/labs6-cd567134.png)
 
 ## Xem detail
-Tương tự hướng dẫn xem chi tiết [tích hợp GitHub](./guide-github.md)
+Tương tự hướng dẫn xem chi tiết [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)
 
 ## Reconfigure GitLab Cloud
-Tương tự hướng dẫn reconfigure [tích hợp GitHub](./guide-github.md)
+Tương tự hướng dẫn reconfigure [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)
 
 ## Vô hiệu hoá tích hợp GitLab Cloud
-Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](./guide-github.md)
+Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)
 
 ## Access Key cho CI/CD pipeline
-Tương tự [tích hợp GitHub](./guide-github.md)
+Tương tự [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)

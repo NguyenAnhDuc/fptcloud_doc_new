@@ -4,6 +4,7 @@ title: "Quan Ly Backups"
 sidebar_label: "Quan Ly Backups"
 sidebar_position: "11"
 description: "Tổng quan về quản lý backup cho FPT Smart Cloud Database Engine."
+draft: true
 ---
 
 # Quan Ly Backups

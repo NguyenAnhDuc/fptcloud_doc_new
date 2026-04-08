@@ -3,6 +3,7 @@ id: "nat-instance"
 title: "Nat Instance"
 sidebar_label: "NAT Instance"
 sidebar_position: 54
+draft: true
 ---
 
 NAT Instance

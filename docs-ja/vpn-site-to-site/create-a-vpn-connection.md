@@ -4,6 +4,7 @@ title: "VPN Connectionの作成"
 description: "FPT Cloud PortalでVPN Connectionを新規作成するガイドです。"
 sidebar_label: "VPN Connectionの作成"
 sidebar_position: "19"
+draft: true
 ---
 
 # VPN Connectionの作成

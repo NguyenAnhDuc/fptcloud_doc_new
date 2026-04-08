@@ -4,6 +4,7 @@ title: "VPN Site-to-Site configuration between FCI and AWS (Transit Gateway)"
 description: "Guide to configuring a VPN Site-to-Site connection between FPT Cloud and AWS using Transit Gateway"
 sidebar_label: "Configuration with AWS (Transit Gateway)"
 sidebar_position: 16
+draft: true
 ---
 
 # VPN Site-to-Site configuration between FCI and AWS (Transit Gateway)

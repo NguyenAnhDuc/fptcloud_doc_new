@@ -10,8 +10,8 @@ sidebar_position: 7
 
 Instance schedules let you automate the process of turning virtual machines on and off at a defined time and frequency. To use this feature, follow the steps in order:
 
-1. [Create a new instance schedule](./create-new-instance.md) with the appropriate time and frequency settings.
-2. [Attach virtual machines](./attach-schedule-to-instance.md) to the schedule you created.
-3. Monitor execution status on the [instance schedule details](./view-detail-instance.md) page.
+1. [Create a new instance schedule](/docs/en/fpt-cloud-server/cloud-server/tutorials/auto-schedule/create-new-instance) with the appropriate time and frequency settings.
+2. [Attach virtual machines](/docs/en/fpt-cloud-server/cloud-server/tutorials/auto-schedule/attach-schedule-to-instance) to the schedule you created.
+3. Monitor execution status on the [instance schedule details](/docs/en/fpt-cloud-server/cloud-server/tutorials/auto-schedule/view-detail-instance) page.
 
-When you no longer need a schedule, you can [detach virtual machines](./detach-schedule-to-instance.md) from it or [delete the schedule](./delete-instance-schedule.md) entirely.
+When you no longer need a schedule, you can [detach virtual machines](/docs/en/fpt-cloud-server/cloud-server/tutorials/auto-schedule/detach-schedule-to-instance) from it or [delete the schedule](/docs/en/fpt-cloud-server/cloud-server/tutorials/auto-schedule/delete-instance-schedule) entirely.

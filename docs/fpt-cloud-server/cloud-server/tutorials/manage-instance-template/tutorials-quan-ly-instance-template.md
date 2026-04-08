@@ -12,7 +12,7 @@ A Template is a Custom Image snapshot of a virtual machine — including its dis
 
 ## Tutorials
 
-- [Create a template from a virtual machine](./tutorials-khoi-tao-template-tu-may-ao.md)
-- [Manage templates on the Custom Images page](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)
-- [Create an Instance from a template](./tutorials-tao-instance-tu-template.md)
-- [Delete a template](./tutorials-xoa-template.md)
+- [Create a template from a virtual machine](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-khoi-tao-template-tu-may-ao)
+- [Manage templates on the Custom Images page](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-template-duoc-tao-tu-may-ao)
+- [Create an Instance from a template](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)
+- [Delete a template](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-xoa-template)

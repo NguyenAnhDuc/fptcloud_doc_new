@@ -12,7 +12,7 @@ Tự động tạo Snapshot cho Storage Disk theo lịch trình — đảm bảo
 
 ## Hướng dẫn
 
-- [Tạo lịch snapshot ổ đĩa](./createschedule-snapshotstorage.md)
-- [Xem chi tiết](./viewschedule-snapshotstorage.md)
-- [Chỉnh sửa](./editschedule-snapshotstorage.md)
-- [Xóa](./deleteschedule-snapshotstorage.md)
+- [Tạo lịch snapshot ổ đĩa](/docs/vi/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/createschedule-snapshotstorage)
+- [Xem chi tiết](/docs/vi/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/viewschedule-snapshotstorage)
+- [Chỉnh sửa](/docs/vi/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/editschedule-snapshotstorage)
+- [Xóa](/docs/vi/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/deleteschedule-snapshotstorage)

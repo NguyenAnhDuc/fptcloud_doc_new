@@ -10,11 +10,11 @@ Create a Virtual Machine
 
 **Step 1**: In the menu, select **Compute Engine** > **Instance Management**, then click **Create instance**.
 
-![file](images/quick-starts-tao-mot-may-ao/img-001.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-001.png)
 
 A new dialog box will appear to guide users through the next steps.
 
-![Userguide FPT Cloud Server 2022 18](images/quick-starts-tao-mot-may-ao/img-002.png)
+![Userguide FPT Cloud Server 2022 18](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-002.png)
 
 **Step 2**: Configure the virtual machine according to your needs with the following options:
 
@@ -26,7 +26,7 @@ A new dialog box will appear to guide users through the next steps.
   * **GPU** serves needs that require high performance (High Performance Computing), Machine Learning, etc.
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-003.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-003.png)
 
 **Image:** Select the main OS that suits your needs. Each OS group includes different versions. The default is the latest version. Users can customize as needed by uploading their own ISO files or creating a virtual machine from previously initialized templates.
 
@@ -35,27 +35,27 @@ A new dialog box will appear to guide users through the next steps.
   * When creating a virtual machine from an OS
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-004.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-004.png)
 
   * When creating a virtual machine from an Image: users can choose a custom image or ISO image (See additional notes: Link)
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-005.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-005.png)
 
   * When creating a virtual machine from a Snapshot/NAT Instance
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-006.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-006.png)
 
-![file](images/quick-starts-tao-mot-may-ao/img-007.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-007.png)
 
 **For specific**
 
-![file](images/quick-starts-tao-mot-may-ao/img-008.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-008.png)
 
 **Resource type**: Each machine type has different CPU and RAM configurations, or users can create a custom configuration.
 
-![file](images/quick-starts-tao-mot-may-ao/img-009.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-009.png)
 
 ### Storage Disk Information
 **Storage**: Storage attached to the virtual machine includes:
@@ -65,7 +65,7 @@ A new dialog box will appear to guide users through the next steps.
   * **Size**: Storage size
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-010.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-010.png)
 
 ### Network Information
 Includes Subnet and Advanced information such as Private IP, Floating IP, Security group.
@@ -75,7 +75,7 @@ Includes Subnet and Advanced information such as Private IP, Floating IP, Securi
   * **Security Group**: Users select a security group to control traffic to and from the virtual machine. Users can leave this field blank and configure it later.
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-011.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-011.png)
 
 ### Authentication Information
 **Authentication type**: **SSH key** or **Password**
@@ -83,15 +83,15 @@ Includes Subnet and Advanced information such as Private IP, Floating IP, Securi
   * If SSH Key is selected, the system will use the most recent SSH key (can be changed).
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-012.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-012.png)
 
   * If using the Standard method, users should remember and keep the password secure in a safe location.
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-013.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-013.png)
 
 ### Advanced Information
-![file](images/quick-starts-tao-mot-may-ao/img-014.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-014.png)
 
   * **Instance group**: Users can optionally choose an Instance group to configure the placement of the virtual machine on the physical host.
 
@@ -132,8 +132,8 @@ Note for Windows: Cloud base init script format will be used.
 
 **Step 3**: Click **Create Instance** to create the virtual machine. The system will display a confirmation, verify resources, and proceed with the initialization of the new virtual machine based on the selected configuration.
 
-![file](images/quick-starts-tao-mot-may-ao/img-015.png)
+![file](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-015.png)
 
 After successful initialization, users can see the newly created virtual machine and check its information on the management dashboard. Each virtual machine will display complete information about its name, configuration (RAM, CPU, Storage), IP address, and operating status (Off/On/Suspended) on the panel.
 
-**![Userguide FPT Cloud Server 2022 21](images/quick-starts-tao-mot-may-ao/img-016.png)**
+**![Userguide FPT Cloud Server 2022 21](/img/migrated/docs-cloud-server/quick-starts-tao-mot-may-ao/img-016.png)**

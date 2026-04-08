@@ -46,4 +46,4 @@ Clone Instance機能を使用すると、元の仮想マシンと同一の新し
 
 ## 次のステップ
 
-- [仮想マシンの起動/停止](./quick-starts-tatbat-may-ao.md)
+- [仮想マシンの起動/停止](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/quick-starts-tatbat-may-ao)

@@ -11,5 +11,5 @@ sidebar_position: 13
 Để tạo và quản lý API key, vào **My Account → My API Keys** trong dashboard của AI Marketplace.
 
 :::tip
-Để xem hướng dẫn từng bước đầy đủ bao gồm tạo, chỉnh sửa và thu hồi key, xem hướng dẫn [Tài khoản của tôi](./my-account.md).
+Để xem hướng dẫn từng bước đầy đủ bao gồm tạo, chỉnh sửa và thu hồi key, xem hướng dẫn [Tài khoản của tôi](/docs/vi/fpt-ai-factory/ai-marketplace/my-account).
 :::

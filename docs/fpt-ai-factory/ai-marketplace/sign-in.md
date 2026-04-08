@@ -17,5 +17,5 @@ If you do not have an FPT Cloud account, click the **"Sign Up"** button and foll
 [![Sign up page screenshot](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
 
 :::tip
-For detailed sign-up and login instructions, see [Quick Start](./quick-start.md).
+For detailed sign-up and login instructions, see [Quick Start](/docs/en/fpt-ai-factory/ai-marketplace/quick-start).
 :::

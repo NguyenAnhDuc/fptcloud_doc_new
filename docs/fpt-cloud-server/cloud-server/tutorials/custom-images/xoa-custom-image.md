@@ -27,4 +27,4 @@ A deleted Custom Image cannot be recovered. Make sure no Instances are currently
 
 ## Next Steps
 
-- [Upload a Custom Image](./tai-len-custom-image.md)
+- [Upload a Custom Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/custom-images/tai-len-custom-image)

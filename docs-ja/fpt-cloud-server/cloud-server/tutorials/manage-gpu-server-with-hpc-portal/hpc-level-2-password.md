@@ -18,4 +18,4 @@ sidebar_position: 10
 
 ## 次のステップ
 
-- [Imageの削除](./hpc-delete-image.md)
+- [Imageの削除](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-delete-image)

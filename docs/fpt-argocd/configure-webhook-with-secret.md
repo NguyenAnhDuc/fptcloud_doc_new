@@ -4,6 +4,7 @@ title: "Configure webhook with secret"
 description: "Guide to configuring a webhook with an existing webhook secret in ArgoCD"
 sidebar_label: "Configure webhook with secret"
 sidebar_position: 41
+draft: true
 ---
 
 # Configure webhook with secret

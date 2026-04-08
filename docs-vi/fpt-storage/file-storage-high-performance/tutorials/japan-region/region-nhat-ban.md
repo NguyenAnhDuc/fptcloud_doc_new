@@ -12,4 +12,4 @@ File Storage – High Performance tại region Nhật Bản cung cấp khả nă
 
 Để biết hướng dẫn sử dụng chi tiết, tham khảo:
 
-- [Sử dụng trên Baremetal (GPU Server) tại Nhật Bản](./japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
+- [Sử dụng trên Baremetal (GPU Server) tại Nhật Bản](/docs/vi/fpt-storage/file-storage-high-performance/tutorials/japan-region/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)

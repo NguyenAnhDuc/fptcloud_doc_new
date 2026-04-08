@@ -23,7 +23,7 @@ Các dịch vụ đã hỗ trợ phương thức tính tiền PAYG
   6. K8S/DB
 
 
-![file](images/new-quota/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/new-quota/img-001.png)
 
 ## 2\. Hiển thị thông tin Dashboard
 Hiển thị các thống kê của Tenant
@@ -39,7 +39,7 @@ Hiển thị các thống kê của Tenant
 
 Note: Số lượng tài nguyên tính theo PAYG không cố định. Khi người dùng xóa bớt tài nguyên về dưới số lượng đã trả trước, hệ thống tự động cập nhật số liệu và ngưng tính tiền tài nguyên PAYG.
 
-![file](images/new-quota/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/new-quota/img-002.png)
 
 ## 3\. Hiển thị thông tin Billing
 Để xem chi tiết cách tính tiền và số tiền đã sử dụng theo phương thức PAYG, người dùng có thể xem trên trang Bills bằng cách truy cập Unify Portal và chọn Billing -> Bills

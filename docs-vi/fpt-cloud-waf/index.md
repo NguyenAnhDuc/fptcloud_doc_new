@@ -4,6 +4,7 @@ title: "FPT Cloud WAF"
 description: "FPT Cloud Web Application Firewall giúp bảo vệ ứng dụng web trước các loại tấn công phổ biến."
 sidebar_label: "FPT Cloud WAF"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Cloud WAF

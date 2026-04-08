@@ -13,21 +13,21 @@ Users can create a virtual machine with GPU.
 
 **Step 1**: On the **Instance Management** screen, select **Create instance**.
 
-![file](images/gpu-general/img-001.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-001.png)
 
 **Step 2**: Select GPU and the GPU card type to use.
 
-![file](images/gpu-general/img-002.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-002.png)
 
 **Step 3**: Enter the remaining instance information.
 
 **Step 4**: Click **Create Instance**.
 
-![file](images/gpu-general/img-003.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-003.png)
 
 **Step 5**: Verify the information. The information is updated on the Instance detail screen.
 
-![file](images/gpu-general/img-004.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-004.png)
 
 ## 2\. Add GPU to an Instance in Instance Management
 **Step 1**: On the **Instance management** screen, select the virtual machine to which you want to add a GPU.
@@ -38,11 +38,11 @@ Users can create a virtual machine with GPU.
   * For machines in other states such as "Running" or "Pending", the feature will be **disabled**.
 
 
-![file](images/gpu-general/img-005.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-005.png)
 
 **Step 2**: Select **Actions**, then select **Add GPU**.
 
-![file](images/gpu-general/img-006.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-006.png)
 
 **Step 3**: Select the **GPU type** to add to the instance.
 
@@ -60,7 +60,7 @@ Users can create a virtual machine with GPU.
 
 **Step 5**: Verify the information. The information is updated on the Instance detail screen.
 
-![file](images/gpu-general/img-007.png)
+![file](/img/migrated/docs-cloud-server/gpu-general/img-007.png)
 
 ## 3\. Remove GPU from a Virtual Machine
 **Step 1**: On the **Instance management** screen, select the virtual machine from which you want to remove the GPU.

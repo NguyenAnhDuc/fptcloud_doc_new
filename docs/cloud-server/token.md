@@ -4,6 +4,7 @@ title: "Token Overview"
 description: "Tokens let you use Terraform and the API on FPT Cloud."
 sidebar_label: "Token"
 sidebar_position: 42
+draft: true
 ---
 
 # Token Overview

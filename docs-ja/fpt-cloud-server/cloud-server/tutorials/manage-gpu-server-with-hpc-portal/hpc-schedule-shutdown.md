@@ -21,4 +21,4 @@ Schedule Shutdownを使用すると、マシンの将来の自動シャットダ
 
 ## 次のステップ
 
-- [Imageのクローン](./hpc-clone-image.md)
+- [Imageのクローン](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-clone-image)

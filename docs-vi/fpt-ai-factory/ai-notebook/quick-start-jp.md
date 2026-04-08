@@ -21,7 +21,7 @@ sidebar_position: "3"
 
 1. Từ menu bên trái, chọn **AI Notebook**.
 2. Chờ khoảng **1–2 phút** để notebook khởi động.
-3. Xem hướng dẫn chi tiết [tại đây](./lauch-jp.md).
+3. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/lauch-jp).
 
 ### Bước 4: Nạp credit vào tài khoản
 
@@ -32,15 +32,15 @@ sidebar_position: "3"
 ### Bước 5: Tạo AI Notebook
 
 1. Từ **Launcher**, bạn có thể chọn tạo notebook kết nối với CPU hoặc GPU.
-2. Xem hướng dẫn chi tiết [tại đây](./create-jp.md).
+2. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/create-jp).
 
 ### Bước 6: Kết nối notebook với kernel mới hoặc hiện có
 
 1. Để khởi động kernel mới, chọn kernel mong muốn trong **Start Other Kernels** ở **kernel configuration menu**.
 2. Để kết nối notebook với kernel hiện có, chọn kernel mong muốn trong **Running Kernels** ở **kernel configuration menu**.
-3. Xem hướng dẫn chi tiết [tại đây](./switch.md).
+3. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/switch).
 
 ### Bước 7: Tắt kernel
 
 1. Điều hướng đến **Running Kernels/Notebooks** (biểu tượng thứ hai từ trên xuống trong thanh điều hướng).
-2. Xem hướng dẫn chi tiết [tại đây](./shut-down-jp.md).
+2. Xem hướng dẫn chi tiết [tại đây](/docs/vi/fpt-ai-factory/ai-notebook/shut-down-jp).

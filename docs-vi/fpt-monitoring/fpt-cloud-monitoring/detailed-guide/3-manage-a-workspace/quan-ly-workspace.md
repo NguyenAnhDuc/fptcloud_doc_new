@@ -12,9 +12,9 @@ Mỗi workspace trong FPT Cloud Monitoring chứa cấu hình, nguồn dữ li�
 
 Xem chi tiết tại các mục sau:
 
-- [Xem chi tiết một Workspace](xem-chi-tiet-workspace.md)
-- [Configuration tab](configuration-tab.md)
-- [Add Data tab](add-data-tab.md)
-- [User Management tab](user-management-tab.md)
-- [Quota and Package tab](quota-and-package-tab.md)
-- [User Guide tab](user-guide-tab.md)
+- [Xem chi tiết một Workspace](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/xem-chi-tiet-workspace)
+- [Configuration tab](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/configuration-tab)
+- [Add Data tab](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/add-data-tab)
+- [User Management tab](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-management-tab)
+- [Quota and Package tab](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/quota-and-package-tab)
+- [User Guide tab](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/3-manage-a-workspace/user-guide-tab)

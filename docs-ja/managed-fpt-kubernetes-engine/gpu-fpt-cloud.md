@@ -4,6 +4,7 @@ title: "GPU on FPT Cloud"
 sidebar_label: "GPU on FPT Cloud"
 sidebar_position: "30"
 description: "GPU on FPT Cloud"
+draft: true
 ---
 
 # GPU on FPT Cloud

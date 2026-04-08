@@ -10,11 +10,11 @@ sidebar_position: 1
 
 **Bước 1**: Ở menu chọn **Compute Engine** > **Instance Management**, chọn **Create instance**.
 
-![file](images/quick-starts-tao-mot-may-ao/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-001.png)
 
 Một hộp thoại mới sẽ hiện lên và hướng dẫn người dùng các bước tiếp theo.
 
-![Userguide FPT Cloud Server 2022 18](images/quick-starts-tao-mot-may-ao/img-002.png)
+![Userguide FPT Cloud Server 2022 18](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-002.png)
 
 **Bước 2**: Cấu hình máy ảo theo nhu cầu với các lựa chọn sau:
 
@@ -26,7 +26,7 @@ Một hộp thoại mới sẽ hiện lên và hướng dẫn người d
   * **GPU** phục vụ các nhu cầu cần hiệu suất cao (High performance computing), Machine Learning,…
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-003.png)
 
 **Image:** Chọn OS chính phù hợp với nhu cầu. Mỗi nhóm OS sẽ gồm các phiên bản khác nhau. Mặc định là phiên bản mới nhất. Người dùng có thể tùy biến theo nhu cầu bằng cách upload các file ISO của mình hoặc tạo máy ảo từ những template đã khởi tạo
 
@@ -35,27 +35,27 @@ Một hộp thoại mới sẽ hiện lên và hướng dẫn người d
   * Trường hợp tạo máy ảo từ OS
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-004.png)
 
   * Trường hợp tạo máy ảo từ Image: người dùng có thể chọn custom image hoặc ISO image (Xem thêm thông tin lưu ý: Link
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-005.png)
 
   * Trường hợp tạo máy ảo từ Snapshot/NAT Instance
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-006.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-006.png)
 
-![file](images/quick-starts-tao-mot-may-ao/img-007.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-007.png)
 
 **Đối với specific**
 
-![file](images/quick-starts-tao-mot-may-ao/img-008.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-008.png)
 
 **Resource type**: Mỗi dòng máy sẽ cấu hình CPU, RAM khác nhau, hoặc người dùng có thể tự tạo một cấu hình tùy chọn.
 
-![file](images/quick-starts-tao-mot-may-ao/img-009.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-009.png)
 
 ### Thông tin Storage disk
 **Storage**: Storage gắn vào máy ảo gồm:
@@ -65,7 +65,7 @@ Một hộp thoại mới sẽ hiện lên và hướng dẫn người d
   * **Size**: Kích thước Storage
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-010.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-010.png)
 
 ### Thông tin Network
 Gồm Subnet và các thông tin Advanced như Private IP, Floating IP, Security group
@@ -75,7 +75,7 @@ Gồm Subnet và các thông tin Advanced như Private IP, Floating IP, Security
   * **Security Group**: Người dùng lựa chọn security group để kiểm soát traffic ra vào máy ảo. Người dùng có thể để trống trường này và cấu hình sau.
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-011.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-011.png)
 
 ### Thông tin Authentication
 **Authentication type**: **SSH key** hoặc **Password**
@@ -83,15 +83,15 @@ Gồm Subnet và các thông tin Advanced như Private IP, Floating IP, Security
   * Nếu chọn SSH Key, hệ thống sẽ chọn SSH key mới nhất (có thể thay đổi).
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-012.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-012.png)
 
   * Nếu sử dụng phương thức Standard, người dùng cần lưu ý ghi nhớ và bảo mật mật khẩu ở nơi an toàn.
 
 
-![file](images/quick-starts-tao-mot-may-ao/img-013.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-013.png)
 
 ### Các thông tin advanced
-![file](images/quick-starts-tao-mot-may-ao/img-014.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-014.png)
 
   * **Instance group**: Người dùng có thể tùy chọn Instance group để cấu hình về vị trí đặt máy ảo trên host vật lý.
 
@@ -132,8 +132,8 @@ Lưu ý với window sẽ sử dụng script dạng Cloud base init.
 
 **Bước 3**: Nhấn chọn **Create Instance** để thực hiện khởi tạo máy ảo. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo máy ảo mới dựa vào cấu hình đã chọn.
 
-![file](images/quick-starts-tao-mot-may-ao/img-015.png)
+![file](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-015.png)
 
 Sau khi khởi tạo thành công, người dùng có thể thấy máy ảo mới tạo và kiểm tra thông tin trên bảng quản trị. Mỗi máy ảo sẽ được hiển thị thông tin đầy đủ về tên, cấu hình (Ram, CPU, Storage), địa chỉ IP address, trạng thái hoạt động (Tắt/Bật/Suspended) trên bảng.
 
-**![Userguide FPT Cloud Server 2022 21](images/quick-starts-tao-mot-may-ao/img-016.png)**
+**![Userguide FPT Cloud Server 2022 21](/img/migrated/docs-vi-cloud-server/quick-starts-tao-mot-may-ao/img-016.png)**

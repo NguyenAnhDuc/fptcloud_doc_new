@@ -12,6 +12,6 @@ credentialはSASL/SCRAM-SHA-256によるKafka接続の認証に使用するusern
 
 実行可能な操作：
 
-- [credentialの作成](./create-credentials.md)
-- [credentialの編集](./edit-credentials.md)
-- [credentialの削除](./delete-credentials.md)
+- [credentialの作成](/docs/ja/fpt-integration/fpt-kafka/create-credentials)
+- [credentialの編集](/docs/ja/fpt-integration/fpt-kafka/edit-credentials)
+- [credentialの削除](/docs/ja/fpt-integration/fpt-kafka/delete-credentials)

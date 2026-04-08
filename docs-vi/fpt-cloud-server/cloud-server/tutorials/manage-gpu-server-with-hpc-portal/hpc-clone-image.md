@@ -21,4 +21,4 @@ Clone Image cho phép bạn nhân bản các image có sẵn cùng toàn bộ th
 
 ## Bước tiếp theo
 
-- [Đặt mật khẩu cấp 2](./hpc-level-2-password.md)
+- [Đặt mật khẩu cấp 2](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)

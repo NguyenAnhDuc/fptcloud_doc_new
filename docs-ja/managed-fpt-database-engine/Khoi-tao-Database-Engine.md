@@ -4,6 +4,7 @@ title: "Khoi tao Database Engine"
 description: "**Bước 1:** Trên **Menu** chọn mục **Database Engine** >**Create.**"
 sidebar_label: "Khoi tao Database Engine"
 sidebar_position: "9"
+draft: true
 ---
 
 # Khoi tao Database Engine

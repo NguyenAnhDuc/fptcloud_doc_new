@@ -10,7 +10,7 @@ sidebar_position: 2
 
 新しいディスクSnapshotスケジュールを作成するには、以下の手順に従ってください。**ステップ1：** メニューでCompute Engine > Schedule Managementを選択し、「Storage snapshot schedule」タブを選択します。
 
-![file](images/createschedule-snapshotstorage/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/createschedule-snapshotstorage/img-001.png)
 
 ステップ2：システムの要求に従って必要な情報を入力します：
 
@@ -29,8 +29,8 @@ sidebar_position: 2
   * Applied Storage：スケジュールに割り当てられたディスク（注意：各ディスクは同時に1つのスケジュールにのみ割り当てることができます）
 
 
-![file](images/createschedule-snapshotstorage/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/createschedule-snapshotstorage/img-002.png)
 
 **ステップ3：** 「Create Schedule」をクリックします。システムはスケジュールの初期化を開始し、結果をお知らせします。成功した場合、新しいスケジュールはStorage snapshot scheduleページに表示されます。
 
-![file](images/createschedule-snapshotstorage/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/createschedule-snapshotstorage/img-003.png)

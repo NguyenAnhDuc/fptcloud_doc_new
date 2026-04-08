@@ -4,6 +4,7 @@ title: "Configure webhook"
 description: "Introduction to Git webhook in ArgoCD for detecting repository changes"
 sidebar_label: "Configure webhook"
 sidebar_position: 13
+draft: true
 ---
 
 # Configure webhook

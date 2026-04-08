@@ -5,6 +5,7 @@ description: "Similar to how Cluster Autoscale with M-FKE works, the Kubernetes 
 sidebar_label: "Node-level auto scaling"
 sidebar_position: 26
 pagination_next: null
+draft: true
 ---
 
 # Node-level auto scaling

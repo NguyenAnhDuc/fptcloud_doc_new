@@ -4,6 +4,7 @@ title: "Policyを削除する"
 description: "使用しなくなったPolicyを削除する方法"
 sidebar_label: "Policyを削除する"
 sidebar_position: 13
+draft: true
 ---
 
 # Policyを削除する

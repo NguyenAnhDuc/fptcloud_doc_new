@@ -10,7 +10,7 @@ sidebar_position: 4
 
 Create, view, edit, and delete Kafka Topics on FPT Kafka.
 
-- [Create Topics](./create-topics.md)
-- [View Topics](./view-topics.md)
-- [Edit Topics](./edit-topics.md)
-- [Delete Topics](./delete-topics.md)
+- [Create Topics](/docs/en/fpt-integration/fpt-kafka/create-topics)
+- [View Topics](/docs/en/fpt-integration/fpt-kafka/view-topics)
+- [Edit Topics](/docs/en/fpt-integration/fpt-kafka/edit-topics)
+- [Delete Topics](/docs/en/fpt-integration/fpt-kafka/delete-topics)

@@ -4,6 +4,7 @@ title: "Quản lý sự cố"
 description: "Tổng quan về dịch vụ Incident Management trên FPT Cloud"
 sidebar_label: "Quản lý sự cố"
 sidebar_position: 1
+draft: true
 ---
 
 # Quản lý sự cố

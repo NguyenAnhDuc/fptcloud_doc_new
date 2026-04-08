@@ -14,7 +14,7 @@ sidebar_position: 2
   * ユーザーはシステム上のプロジェクトの一覧を表示できます
 
 
-![file](images/quan-ly-project/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-project/img-001.png)
 
 ### 2\. プロジェクトの作成
 テナントオーナーは Unify Portal でプロジェクトを作成できます。
@@ -34,13 +34,13 @@ sidebar_position: 2
 
 システムはプロジェクト情報を保存し、ユーザーをプロジェクト管理ページにリダイレクトします。
 
-![file](images/quan-ly-project/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-project/img-002.png)
 
 ### 3\. プロジェクトの編集
   * テナントオーナーはプロジェクト情報を編集できます
 
 
-![file](images/quan-ly-project/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-project/img-003.png)
 
 ### 4\. プロジェクトの削除
   * テナントオーナーは Unify Portal から作成したプロジェクトを削除できます
@@ -50,4 +50,4 @@ sidebar_position: 2
     * デフォルトプロジェクトは削除できません — 情報の編集のみ可能です
 
 
-![file](images/quan-ly-project/img-004.png)
+![file](/img/migrated/docs-ja-cloud-server/quan-ly-project/img-004.png)

@@ -12,7 +12,7 @@ Control system access by allowing only users with configured IP addresses on FPT
 
 This section covers:
 
-- [IP Access overview](./overview-ip-access.md) — How IP access control works
-- [Create an IP access record](./create-ip-access.md) — Add a new IP rule
-- [Delete an IP access record](./delete-ip-access.md) — Remove an IP rule
-- [Check IP access activity logs](./ip-access-activity-log.md) — Review access history
+- [IP Access overview](/docs/en/fpt-security/iam/tutorials/ip-access/overview-ip-access) — How IP access control works
+- [Create an IP access record](/docs/en/fpt-security/iam/tutorials/ip-access/create-ip-access) — Add a new IP rule
+- [Delete an IP access record](/docs/en/fpt-security/iam/tutorials/ip-access/delete-ip-access) — Remove an IP rule
+- [Check IP access activity logs](/docs/en/fpt-security/iam/tutorials/ip-access/ip-access-activity-log) — Review access history

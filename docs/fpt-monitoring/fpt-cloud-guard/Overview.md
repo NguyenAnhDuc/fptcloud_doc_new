@@ -25,4 +25,4 @@ FPT Cloud Guard is a security and monitoring service on FPT Cloud that provides 
 
 ## Getting started
 
-See [Initial setup](Initial-Setup.md) to create your FPT Cloud account and log in to FPT Portal before creating your first alert.
+See [Initial setup](/docs/en/fpt-monitoring/fpt-cloud-guard/Initial-Setup) to create your FPT Cloud account and log in to FPT Portal before creating your first alert.

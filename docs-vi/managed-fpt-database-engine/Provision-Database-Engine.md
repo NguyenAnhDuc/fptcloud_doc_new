@@ -4,6 +4,7 @@ title: "Provision Database Engine"
 description: "Tổng quan về việc khởi tạo và quản lý Database Engine trên FPT Smart Cloud."
 sidebar_label: "Provision Database Engine"
 sidebar_position: 8
+draft: true
 ---
 
 # Provision Database Engine

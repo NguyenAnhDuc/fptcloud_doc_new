@@ -4,6 +4,7 @@ title: Manage Event Logs
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Event Logs**"
 sidebar_label: Manage Event Logs
 sidebar_position: "19"
+draft: true
 ---
 
 # Manage Event Logs

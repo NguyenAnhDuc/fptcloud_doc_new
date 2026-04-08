@@ -16,17 +16,17 @@ To log in and create a machine on the HPC Portal, please contact your administra
 
 After resources have been allocated, visit the [HPC Portal](<https://hpc.fptcloud.com/>) at <https://hpc.fptcloud.com> and log in using your FPT ID account.
 
-![P3UAVy+4k08NAAAAAElFTkSuQmCC](images/hpc-quick-start/img-001.png)
+![P3UAVy+4k08NAAAAAElFTkSuQmCC](/img/migrated/docs-cloud-server/hpc-quick-start/img-001.png)
 
 **Step 2**: Create an Image
 
 Go to Hosts > Create image to create a new GPU machine image.
 
-![](images/hpc-quick-start/img-002.png)
+![](/img/migrated/docs-cloud-server/hpc-quick-start/img-002.png)
 
 Next, select the server configuration you want to use, provide a name, choose either Windows or Linux as the operating system, then click **Continue** > **Create Image**.
 
-![](images/hpc-quick-start/img-003.png)
+![](/img/migrated/docs-cloud-server/hpc-quick-start/img-003.png)
 
 **Step 3**: Boot the Remote Machine
 
@@ -34,7 +34,7 @@ After the image has been created successfully, click **Boot ready**, then select
 
 The boot time depends on the image size (Image Size — everything you have installed on our server).
 
-![wFsj+JD2bOR9gAAAABJRU5ErkJggg==](images/hpc-quick-start/img-004.png)
+![wFsj+JD2bOR9gAAAABJRU5ErkJggg==](/img/migrated/docs-cloud-server/hpc-quick-start/img-004.png)
 
 **Step 4**: Connect to the Remote Machine
 
@@ -60,7 +60,7 @@ To connect to the machine, click the Connect button and download the Remote Desk
 
 If you are using macOS, you need to install [Microsoft Remote Desktop](<https://apps.apple.com/vn/app/microsoft-remote-desktop-10/id1295203466?l=vi&mt=12>) to open the .RDP file.
 
-![Aa4Ery4edUEoAAAAAElFTkSuQmCC](images/hpc-quick-start/img-005.png)
+![Aa4Ery4edUEoAAAAAElFTkSuQmCC](/img/migrated/docs-cloud-server/hpc-quick-start/img-005.png)
 
 **Step 5**: Transfer Data to the Machine and Retrieve Results
 
@@ -70,7 +70,7 @@ Next, install the necessary software on the machine, then use online file transf
 
 **Note:** You only need to install software **once**. The HPC system will save your working environment after each shutdown, so you will not need to reinstall anything next time.
 
-![2023 04 05 Remote window](images/hpc-quick-start/img-006.jpg)
+![2023 04 05 Remote window](/img/migrated/docs-cloud-server/hpc-quick-start/img-006.jpg)
 
 **Step 6**: Shut Down the Machine
 
@@ -78,7 +78,7 @@ After you finish using the machine and have transferred the result files to your
 
 To shut down, click the Shutdown button on the HPC Portal. The system will save all machine settings after the user shuts down.
 
-![](images/hpc-quick-start/img-007.png)
+![](/img/migrated/docs-cloud-server/hpc-quick-start/img-007.png)
 
 If you want to schedule your server to shut down at a specific time in the future, click the **Schedule** button to set the shutdown time.
 

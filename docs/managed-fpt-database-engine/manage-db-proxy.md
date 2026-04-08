@@ -5,6 +5,7 @@ description: "Steps to manage DB proxy operations in FPT Smart Cloud Database En
 sidebar_label: "Manage DB Proxy"
 sidebar_position: 22
 pagination_next: null
+draft: true
 ---
 
 # Manage DB Proxy

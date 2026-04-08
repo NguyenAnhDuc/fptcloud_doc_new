@@ -32,4 +32,4 @@ Instanceのストレージ容量はイメージサイズより大きくする必
 
 ## 次のステップ
 
-- [Templateを削除する](./tutorials-xoa-template.md)
+- [Templateを削除する](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-xoa-template)

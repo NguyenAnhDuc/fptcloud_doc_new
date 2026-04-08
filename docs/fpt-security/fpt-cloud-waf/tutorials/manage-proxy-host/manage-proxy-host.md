@@ -12,8 +12,8 @@ A proxy host is the core component of WAF that forwards end-user requests throug
 
 Proxy host management operations include:
 
-- [Create a proxy host](create-proxy-host.md)
-- [View proxy host details](view-proxy-host-detail.md)
-- [Update a proxy host](update-proxy-host.md)
-- [Enable or disable a proxy host](enable-disable-proxy-host.md)
-- [Delete a proxy host](delete-proxy-host.md)
+- [Create a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/create-proxy-host)
+- [View proxy host details](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/view-proxy-host-detail)
+- [Update a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/update-proxy-host)
+- [Enable or disable a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/enable-disable-proxy-host)
+- [Delete a proxy host](/docs/en/fpt-security/fpt-cloud-waf/tutorials/manage-proxy-host/delete-proxy-host)

@@ -21,7 +21,7 @@ sidebar_position: "3"
 
 1. 左メニューから「**AI Notebooks**」を選択してください。
 2. ノートブックの起動には約**1〜2分**かかります。
-3. 詳細なガイドは[こちら](./launch-ai-notebook.md)をご覧ください。
+3. 詳細なガイドは[こちら](/docs/ja/fpt-ai-factory/ai-notebook/launch-ai-notebook)をご覧ください。
 
 ## ステップ4: アカウントにクレジットを追加する
 
@@ -44,4 +44,4 @@ sidebar_position: "3"
 ## ステップ7: カーネルをシャットダウンする
 
 1. **Running Kernels/Notebooks**（ナビゲーションバー上から2番目のアイコン）に移動します。
-2. 詳細なガイドは[こちら](./shut-down-kernel.md)をご覧ください。
+2. 詳細なガイドは[こちら](/docs/ja/fpt-ai-factory/ai-notebook/shut-down-kernel)をご覧ください。

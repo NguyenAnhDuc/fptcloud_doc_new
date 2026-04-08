@@ -4,6 +4,7 @@ title: "FPT Container Registry サービスを有効化する"
 description: "FPT Cloud Portal で Container Registry サービスをアクティベートする手順。"
 sidebar_label: "サービスを有効化する"
 sidebar_position: 3
+draft: true
 ---
 
 # FPT Container Registry サービスを有効化する

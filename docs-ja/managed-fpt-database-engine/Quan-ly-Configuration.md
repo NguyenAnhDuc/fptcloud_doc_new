@@ -4,6 +4,7 @@ title: "Quan ly Configuration"
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Configuration**"
 sidebar_label: "Quan ly Configuration"
 sidebar_position: "17"
+draft: true
 ---
 
 # Quan ly Configuration

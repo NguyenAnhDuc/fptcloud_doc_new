@@ -29,13 +29,13 @@ Valid URL formats:
 
 Access the service link via a web browser and select **Access through FPT Cloud Desktop Client**.
 
-![file](images/SSO-qua-FCDClient-cu/img-001.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-001.png)
 
 **2. Log in to the appropriate Authenticator (Server)**
 
 If the user **accesses via a URL already containing a valid authentication code** (e.g., URL with valid code: pil783454741.pilotfcd.online):
 
-  * Simply log in with the corresponding SSO account (e.g., log in with a Microsoft account), enter the corresponding OTP for SSO => Authenticator (Server) login successful. ![file](images/SSO-qua-FCDClient-cu/img-002.png)
+  * Simply log in with the corresponding SSO account (e.g., log in with a Microsoft account), enter the corresponding OTP for SSO => Authenticator (Server) login successful. ![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-002.png)
 
 
 If the user downloads the Client from the service's default URL:
@@ -43,9 +43,9 @@ If the user downloads the Client from the service's default URL:
   * Enter the Authentication Code information (managed by the customer administrator) (Example of valid Authentication Code: pil783454741)
 
 
-![file](images/SSO-qua-FCDClient-cu/img-003.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-003.png)
 
-  * Log in with the corresponding SSO account (e.g., log in with a Microsoft account), enter the corresponding OTP for SSO => Authenticator (Server) login successful. ![file](images/SSO-qua-FCDClient-cu/img-004.png)
+  * Log in with the corresponding SSO account (e.g., log in with a Microsoft account), enter the corresponding OTP for SSO => Authenticator (Server) login successful. ![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-004.png)
 
 
 **3. Access the virtual machine.** On the virtual machine list screen, select the desired virtual machine to access. **Note:** At this step, users select the FCDClient access option.
@@ -54,18 +54,18 @@ If the user downloads the Client from the service's default URL:
   *     * If the user has the new FCDClient installed: The system will prioritize opening FCDClient. Users need to repeat the access steps similar to [Step 2: Access virtual machine via new FCDClient](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "Step 2: Access virtual machine via new FCDClient").
 
 
-![file](images/SSO-qua-FCDClient-cu/img-005.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-005.png)
 
   * Enter the account credentials corresponding to the Server you want to log in to.
 
 
 **Note:** If a two-factor authentication QR code is displayed: Download and install the **Microsoft Authenticator** app on your phone from the Apple Store or CH Play/Google Play.
 
-![file](images/SSO-qua-FCDClient-cu/img-006.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-006.png)
 
 Open the Authenticator app and scan the QR Code.
 
-![file](images/SSO-qua-FCDClient-cu/img-007.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-007.png)
 
   * The app will synchronize and display the OTP to log in to FCD.
   * Enter the OTP and click **Submit** => Authenticator (Server) login successful.
@@ -81,4 +81,4 @@ On the virtual machine list screen, select the desired virtual machine to access
   * If the user has the new FCDClient installed: The system will prioritize opening FCDClient. Users need to repeat the access steps similar to [Step 2: Access virtual machine via new FCDClient](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_1> "Step 2: Access virtual machine via new FCDClient").
 
 
-![file](images/SSO-qua-FCDClient-cu/img-008.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-cu/img-008.png)

@@ -4,6 +4,7 @@ title: "FPT Kubernetes Engine 上の GPU サービス"
 description: "FPT Cloud は NVIDIA GPU サポートを備えた Kubernetes を提供し、柔軟な GPU 設定と自動管理機能を特徴としています。"
 sidebar_label: "FPT Kubernetes Engine 上の GPU サービス"
 sidebar_position: "35"
+draft: true
 ---
 
 # FPT Kubernetes Engine 上の GPU サービス

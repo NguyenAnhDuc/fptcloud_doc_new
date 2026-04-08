@@ -43,8 +43,8 @@ sidebar_position: 2
    | フィールド | 説明 |
    |---|---|
    | **Exclude URLs** | スキャン中にスキップするパスの一覧。 |
-   | **Custom Header** | スキャン中に認証セッションを維持するためのカスタムヘッダーを設定します。[Webサイトのヘッダーを取得する](lay-header.md)を参照してください。 |
-   | **Custom Cookies** | スキャン中に認証セッションを維持するためのカスタムクッキーを設定します。[Webサイトのクッキーを取得する](lay-cookie.md)を参照してください。 |
+   | **Custom Header** | スキャン中に認証セッションを維持するためのカスタムヘッダーを設定します。[Webサイトのヘッダーを取得する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header)を参照してください。 |
+   | **Custom Cookies** | スキャン中に認証セッションを維持するためのカスタムクッキーを設定します。[Webサイトのクッキーを取得する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie)を参照してください。 |
    | **Login using your account** | ログイン認証情報を設定します：**None**、**Basic authentication**、または **Login form**。 |
 
    **Network** ターゲットの場合、以下の追加フィールドが使用できます：
@@ -54,7 +54,7 @@ sidebar_position: 2
    | **Port list** | チェックするサービスポートのセット。 |
    | **Excluded IP** | スキャン中にスキップするIPアドレスの一覧。 |
    | **Alive test** | ネットワーク上にデバイスが存在するかどうかを判断する方法：**Default**、**Custom**、または **Consider Alive**。 |
-   | **Authenticate scan** | 認証スキャン用のログイン設定：**None**、**SSH**、または **SMB**。SMBについては[WindowsでRemote Registryを有効にする](mo-remote-registry-window.md)を参照してください。 |
+   | **Authenticate scan** | 認証スキャン用のログイン設定：**None**、**SSH**、または **SMB**。SMBについては[WindowsでRemote Registryを有効にする](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window)を参照してください。 |
    | **Monitor** | デバイスのステータスとサービスポートのステータスを監視して異常を検出します。 |
 
    :::warning

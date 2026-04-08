@@ -4,6 +4,7 @@ title: "FPT Container Registry"
 description: "Dịch vụ lưu trữ và quản lý container image trên FPT Cloud."
 sidebar_label: "FPT Container Registry"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Container Registry

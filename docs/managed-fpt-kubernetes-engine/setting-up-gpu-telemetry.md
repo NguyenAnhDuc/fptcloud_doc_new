@@ -4,6 +4,7 @@ title: "Setting up GPU telemetry"
 description: "FPT Cloud utilizes **NVIDIA GPU Telemetry** with **kube-prometheus-stack** as a monitoring toolkit for Kubernetes cluste"
 sidebar_label: "Setting up GPU telemetry"
 sidebar_position: 24
+draft: true
 ---
 
 # Setting up GPU telemetry

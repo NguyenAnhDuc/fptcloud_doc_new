@@ -13,16 +13,16 @@ To delete a virtual machine, follow these steps:
 
 **Step 1**: In the menu, select **Instance Management**. In the **Actions** column, choose **Delete**.
 
-![file](images/tutorials-xoa-may-ao/img-001.png)
+![file](/img/migrated/docs-cloud-server/tutorials-xoa-may-ao/img-001.png)
 
-![file](images/tutorials-xoa-may-ao/img-002.png)
+![file](/img/migrated/docs-cloud-server/tutorials-xoa-may-ao/img-002.png)
 
 **Step 2**: A warning dialog will appear, displaying the virtual machine name and prompting you to confirm the action. Type **"delete"** to proceed with the deletion.
 
-![file](images/tutorials-xoa-may-ao/img-003.png)
+![file](/img/migrated/docs-cloud-server/tutorials-xoa-may-ao/img-003.png)
 
-![file](images/tutorials-xoa-may-ao/img-004.png)
+![file](/img/migrated/docs-cloud-server/tutorials-xoa-may-ao/img-004.png)
 
 **Step 3**: The system will process the request and release all resources allocated to the virtual machine.
 
-![file](images/tutorials-xoa-may-ao/img-005.png)
+![file](/img/migrated/docs-cloud-server/tutorials-xoa-may-ao/img-005.png)

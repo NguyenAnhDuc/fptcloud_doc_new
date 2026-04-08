@@ -14,7 +14,7 @@ Phân quyền: phase 1 chỉ có Tenant Owner có quyền quản lý Projec
   * Người dùng có thể xem danh sách Project trên hệ thống
 
 
-![file](images/quan-ly-project/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-project/img-001.png)
 
 ### 2\. Tạo Project
 Tenant Owner có thể tạo Project trên Unify Portal
@@ -34,13 +34,13 @@ Tenant Owner có thể tạo Project trên Unify Portal
 
 Hệ thống sẽ lưu lại thông tin project và chuyển hướng user về trang Project Management.
 
-![file](images/quan-ly-project/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-project/img-002.png)
 
 ### 3\. Chỉnh sửa project
   * Tenant owner có thể chỉnh sửa thông tin project
 
 
-![file](images/quan-ly-project/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-project/img-003.png)
 
 ### 4\. Xóa project
   * Tenant Owner có thể xóa các project được tạo từ Unify Portal
@@ -50,4 +50,4 @@ Hệ thống sẽ lưu lại thông tin project và chuyển hướng user 
     * Không có quyền xóa project mặc định, chỉ có thể chỉnh sửa thông tin project
 
 
-![file](images/quan-ly-project/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-project/img-004.png)

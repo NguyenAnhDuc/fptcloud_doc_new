@@ -4,6 +4,7 @@ title: "Process monitoring"
 sidebar_label: "Process monitoring"
 sidebar_position: "18"
 description: "Steps to view process monitoring for FPT Smart Cloud Database Engine."
+draft: true
 ---
 
 # Process monitoring

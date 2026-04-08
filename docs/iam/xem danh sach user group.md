@@ -2,6 +2,7 @@
 id: "xem%20danh%20sach%20user%20group"
 title: "View User Group List"
 sidebar_label: "View User Group List"
+draft: true
 ---
 
 View User Group List

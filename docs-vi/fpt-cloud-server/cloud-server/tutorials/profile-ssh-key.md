@@ -11,7 +11,7 @@ sidebar_position: 5
 ### 1\. Tạo/Import Profile SSH Key
 **Bước 1:** Ở menu chọn **Compute Engine** > **SSH Management**. Chọn **Import SSH key.**
 
-![file](images/profile-ssh-key/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/profile-ssh-key/img-001.png)
 
 **Bước 2:** Nhập các thông tin cần thiết để tạo SSH Key:
 
@@ -28,21 +28,21 @@ Các định dạng SSH key hiện tại hỗ trợ: ‘ssh-rsa, ecdsa-sha2-
 ### 2\. Xem thông tin chi tiết Profile SSH Key
 Người dùng có thể xem lại toàn bộ **Profile SSH Key** đã tạo trong **VPC** tại mục **Manage SSH Key Profiles.**
 
-![Userguide FPT Cloud Server 2022 80](images/profile-ssh-key/img-002.png)
+![Userguide FPT Cloud Server 2022 80](/img/migrated/docs-vi-cloud-server/profile-ssh-key/img-002.png)
 
 Khi người dùng chọn một **Profile SSH Key** cụ thể, hệ thống sẽ hiển thị **Name**, **Public Key.**
 
-![file](images/profile-ssh-key/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/profile-ssh-key/img-003.png)
 
 ### 3\. Xóa Profile SSH Key
 Nếu muốn xóa **Profile SSH Key** khỏi **Manage SSH Key Profiles**, người dùng thực hiện thao tác sau:
 
 **Bước 1:** Chọn **Profile SSH Key** cần xóa, mở popup **Detail**.
 
-![Userguide FPT Cloud Server 2022 82](images/profile-ssh-key/img-004.png)
+![Userguide FPT Cloud Server 2022 82](/img/migrated/docs-vi-cloud-server/profile-ssh-key/img-004.png)
 
 **Bước 2:** Chọn icon **Xóa**. Hệ thống sẽ ngay lập tức xóa **Profile SSH Key** và thông báo kết quả xử lý.
 
-![file](images/profile-ssh-key/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/profile-ssh-key/img-005.png)
 
 **Lưu ý:** Đây là thao tác xóa **Profile SSH Key** khỏi **Manage SSH Key Profiles.** Các máy ảo đã tạo bằng **SSH key** này không bị ảnh hưởng. Người dùng vẫn có thể sử dụng file **Private Key** đã tải về trước đó để kết nối vào máy ảo.

@@ -4,6 +4,7 @@ title: "Edit Webhook Secret"
 sidebar_label: "Edit Webhook Secret"
 sidebar_position: "15"
 description: "Hướng dẫn chỉnh sửa webhook secret đã được tạo"
+draft: true
 ---
 
 # Edit Webhook Secret

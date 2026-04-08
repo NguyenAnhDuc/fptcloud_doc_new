@@ -20,4 +20,4 @@ FPT Identity & Access Management (FPT IAM) là tính năng cho phép Tenant owne
 
 ## Bắt đầu sử dụng
 
-Xem [Initial Setup](./Initial%20Setup.md) để bắt đầu sử dụng FPT IAM.
+Xem [Initial Setup](/docs/vi/fpt-security/iam/Initial Setup) để bắt đầu sử dụng FPT IAM.

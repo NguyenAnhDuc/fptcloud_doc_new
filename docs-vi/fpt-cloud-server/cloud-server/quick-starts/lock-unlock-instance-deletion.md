@@ -36,4 +36,4 @@ Máy ảo đã mở khóa có thể được xóa bình thường.
 
 ## Bước tiếp theo
 
-- [Xóa máy ảo](./quick-starts-xoa-may-ao.md)
+- [Xóa máy ảo](/docs/vi/fpt-cloud-server/cloud-server/quick-starts/quick-starts-xoa-may-ao)

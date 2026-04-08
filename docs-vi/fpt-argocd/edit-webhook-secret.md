@@ -4,6 +4,7 @@ title: "Cập nhật webhook secret"
 description: "Hướng dẫn chỉnh sửa webhook secret đã được tạo"
 sidebar_label: "Cập nhật webhook secret"
 sidebar_position: 15
+draft: true
 ---
 
 # Cập nhật webhook secret

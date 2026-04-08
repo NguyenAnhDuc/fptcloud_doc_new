@@ -46,4 +46,4 @@ Sau khi hoàn tất, trạng thái chuyển sang **Running**.
 
 ## Bước tiếp theo
 
-- [Tắt/Bật máy ảo](./quick-starts-tatbat-may-ao.md)
+- [Tắt/Bật máy ảo](/docs/vi/fpt-cloud-server/cloud-server/quick-starts/quick-starts-tatbat-may-ao)

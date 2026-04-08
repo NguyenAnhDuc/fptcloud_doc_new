@@ -17,22 +17,22 @@ In addition, users can log in remotely using SSH Clients or third-party software
 
 In the menu, select **Instance Management**. In the **Actions** section of the virtual machine you want to connect to, select **Console**.
 
-![Userguide FPT Cloud Server 2022 22](images/tutorials-ket-noi-vao-may-ao-linux/img-001.png)
+![Userguide FPT Cloud Server 2022 22](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-001.png)
 
 The browser will immediately open a new window containing the server screen. From this screen, users have full control over and can interact with the connected server.
 
-![Userguide FPT Cloud Server 2022 28](images/tutorials-ket-noi-vao-may-ao-linux/img-002.png)
+![Userguide FPT Cloud Server 2022 28](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-002.png)
 
 ## Configure Remote Connection to a Linux Virtual Machine
 To connect to **Linux** virtual machines (**Ubuntu**, **CentOS**, etc.) using **SSH Client**, **Bitvise**, **PuTTY**, etc., the virtual machine must have a **Floating IP** assigned and the **SSH** port must be open for **SSH Connection**. **FPT Cloud** supports opening ports for virtual machines by attaching a **Security Group**.
 
 **Step 1**: Create a **Linux** OS virtual machine, assign a **Floating IP** following the instructions in [**Floating IP Management**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-floating-ip>), and start it.
 
-![Userguide FPT Cloud Server 2022 29](images/tutorials-ket-noi-vao-may-ao-linux/img-003.png)
+![Userguide FPT Cloud Server 2022 29](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-003.png)
 
 **Step 2**: Attach a **Security Group** with the **SSH** port open to the virtual machine. If no such **Security Group** exists, you can create one following the instructions in [**Security Group Management**](<https://fptcloud.com/documents/cloud-server/?doc=quan-ly-security-group>).
 
-![file](images/tutorials-ket-noi-vao-may-ao-linux/img-004.png)
+![file](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-004.png)
 
 **Step 3**: After successful configuration, users can connect to the virtual machine from SSH Clients using: **Floating IP**, **SSH Port**, **SSH Key** file, or **Password**.
 
@@ -47,13 +47,13 @@ Users can use built-in SSH clients on Windows such as **cmd.exe** or **PowerShel
 
 `ssh <>@<>`
 
-![Userguide FPT Cloud Server 2022 32](images/tutorials-ket-noi-vao-may-ao-linux/img-005.png)
+![Userguide FPT Cloud Server 2022 32](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-005.png)
 
 If connecting via an SSH Key pair, first navigate to the directory containing the **SSH key** file using the cd command:
 
 `cd <<Path to the directory containing the pem file>>`
 
-![Userguide FPT Cloud Server 2022 33](images/tutorials-ket-noi-vao-may-ao-linux/img-006.png)
+![Userguide FPT Cloud Server 2022 33](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-006.png)
 
 Then connect to the virtual machine with the following command:
 
@@ -61,11 +61,11 @@ Then connect to the virtual machine with the following command:
 
 **Step 3:** If this is the first time connecting to the virtual machine, you will be prompted to verify the **Hosts fingerprint**. Type **"yes"** to agree and continue connecting.
 
-![Userguide FPT Cloud Server 2022 34](images/tutorials-ket-noi-vao-may-ao-linux/img-007.png)
+![Userguide FPT Cloud Server 2022 34](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-007.png)
 
 Successfully connected to the server via SSH client.
 
-![Userguide FPT Cloud Server 2022 35](images/tutorials-ket-noi-vao-may-ao-linux/img-008.png)
+![Userguide FPT Cloud Server 2022 35](/img/migrated/docs-cloud-server/tutorials-ket-noi-vao-may-ao-linux/img-008.png)
 
 **Note:** If you encounter the error **WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!**, use the following command to remove the previously saved Hosts fingerprint and start over:
 `ssh-keygen -R "<>"`

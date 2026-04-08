@@ -11,8 +11,8 @@ sidebar_position: "3"
 Kết nối Data Hub với FPT Object Storage để quản lý dữ liệu.
 
 1. Truy cập quản lý Object Storage tại [FPT Cloud Console](https://console.fptcloud.com) và chọn tab **Buckets**.
-2. Chọn **Create Bucket**. Chi tiết xem tại [Tạo bucket](../fpt-object-storage/tutorials-bucket.md).
-3. Upload dữ liệu vào bucket. Chi tiết xem tại [Upload objects](../fpt-object-storage/tutorials-object.md).
+2. Chọn **Create Bucket**. Chi tiết xem tại [Tạo bucket](/docs/vi/fpt-storage/fpt-object-storage/tutorials/use-object-storage-on-fpt-portal/tutorials-bucket).
+3. Upload dữ liệu vào bucket. Chi tiết xem tại [Upload objects](/docs/vi/fpt-storage/fpt-object-storage/tutorials/use-object-storage-on-fpt-portal/tutorials-object).
 4. Truy cập dịch vụ **Data Hub**, chọn **Connection List** và nhấn **Create Connection**.
 
 [![Tạo kết nối Data Hub](/img/migrated/image-1742974995525.33.34-760613b1.png)](/img/migrated/image-1742974995525.33.34-760613b1.png)

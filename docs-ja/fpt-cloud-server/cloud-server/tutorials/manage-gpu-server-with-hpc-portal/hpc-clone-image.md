@@ -21,4 +21,4 @@ Clone Imageを使用すると、既存のイメージとすべてのストレー
 
 ## 次のステップ
 
-- [第2レベルパスワードの設定](./hpc-level-2-password.md)
+- [第2レベルパスワードの設定](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-level-2-password)

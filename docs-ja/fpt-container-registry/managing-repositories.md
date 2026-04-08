@@ -4,6 +4,7 @@ title: "FPT Portal で repository を管理する"
 description: "FPT Container Registry の repository を Portal から表示・管理する。"
 sidebar_label: "Repository を管理する"
 sidebar_position: 7
+draft: true
 ---
 
 # FPT Portal で repository を管理する

@@ -22,4 +22,4 @@ Storage Disk が Instance で不要になった場合、デタッチできます
 
 ## 次のステップ
 
-- [Storage Disk の編集](./edit-storage-disk.md)
+- [Storage Disk の編集](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)

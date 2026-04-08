@@ -16,7 +16,7 @@ API Gateway phù hợp với các kiến trúc microservices và hệ thống ph
 
 ## Cấu trúc tài liệu
 
-- [Thiết lập ban đầu](./initial-setup.md)
-- [Tạo API Gateway](./tao-api-gateway.md)
-- [Xem thông tin API Gateway](./xem-thong-tin-api-gateway.md)
-- [Xóa API Gateway](./xoa-api-gateway.md)
+- [Thiết lập ban đầu](/docs/vi/fpt-integration/fpt-api-gateway/initial-setup)
+- [Tạo API Gateway](/docs/vi/fpt-integration/fpt-api-gateway/tao-api-gateway)
+- [Xem thông tin API Gateway](/docs/vi/fpt-integration/fpt-api-gateway/xem-thong-tin-api-gateway)
+- [Xóa API Gateway](/docs/vi/fpt-integration/fpt-api-gateway/xoa-api-gateway)

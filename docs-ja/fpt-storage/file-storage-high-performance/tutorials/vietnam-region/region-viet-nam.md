@@ -12,6 +12,6 @@ sidebar_position: 1
 
 詳細な利用手順については以下を参照してください。
 
-- [MountPoint の管理](./quan-ly-mountpoint)
-- [Baremetal (GPU Server) での利用](./vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
+- [MountPoint の管理](/docs/ja/fpt-storage/file-storage-high-performance/tutorials/vietnam-region/quan-ly-mountpoint)
+- [Baremetal (GPU Server) での利用](/docs/ja/fpt-storage/file-storage-high-performance/tutorials/vietnam-region/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
 - [Kubernetes (K8S Cluster) での利用](./su-dung-file-storage-high-performance-tren-kubernetes-k8s-cluster)

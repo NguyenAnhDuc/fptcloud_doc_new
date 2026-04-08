@@ -47,7 +47,7 @@ Ví dụ:
   * Chọn Security Groups
 
 
-**Bước 2:** Mở danh sách Rules ![](images/security-group-priority-rule/img-001.png) ![](images/security-group-priority-rule/img-002.png)
+**Bước 2:** Mở danh sách Rules ![](/img/migrated/docs-vi-cloud-server/security-group-priority-rule/img-001.png) ![](/img/migrated/docs-vi-cloud-server/security-group-priority-rule/img-002.png)
 
   * Chọn button Actions > Manage priority rule
 
@@ -66,7 +66,7 @@ Ví dụ:
     * IP Type (IPv4/IPv6)
 
 
-**Bước 3:** Thay đổi Priority  ![](images/security-group-priority-rule/img-003.png)
+**Bước 3:** Thay đổi Priority  ![](/img/migrated/docs-vi-cloud-server/security-group-priority-rule/img-003.png)
 
   * Click chuột vào rule muốn sắp xếp thứ tự
   * Bấm Move up / Move down để kéo rule lên hoặc xuống vị trí mong muốn. Hoặc Move to để kéo rule đến vị trí bất kì trong danh sách rule đang có

@@ -17,4 +17,4 @@ Dịch vụ này giúp bạn:
 * Phát hiện các trường hợp ngoại lệ trước khi triển khai.
 * Integrate model vào ứng dụng qua API endpoint.
 
-Để bắt đầu, hãy xem [Quick Start](./quick-start.md) hoặc làm theo hướng dẫn [Step By Step](./step-by-step.md).
+Để bắt đầu, hãy xem [Quick Start](/docs/ja/fpt-ai-factory/model-testing-interactive-sessions/quick-start) hoặc làm theo hướng dẫn [Step By Step](/docs/ja/fpt-ai-factory/model-testing-interactive-sessions/step-by-step).

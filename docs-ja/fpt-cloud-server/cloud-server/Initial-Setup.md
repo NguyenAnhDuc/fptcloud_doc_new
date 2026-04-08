@@ -102,4 +102,4 @@ FPT Cloudは以下の2種類をサポートしています。
 
 ## 次のステップ
 
-- [仮想マシンの作成](./quick-starts-tao-mot-may-ao.md)
+- [仮想マシンの作成](/docs/ja/fpt-cloud-server/cloud-server/quick-starts/create-a-virtual-machine/quick-starts-tao-mot-may-ao)

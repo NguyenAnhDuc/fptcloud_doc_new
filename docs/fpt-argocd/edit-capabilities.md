@@ -3,6 +3,7 @@ id: "edit-capabilities"
 title: "Edit capabilities"
 sidebar_label: "Edit capabilities"
 description: "Guide to editing account capabilities on FPT ArgoCD."
+draft: true
 ---
 
 # Edit capabilities

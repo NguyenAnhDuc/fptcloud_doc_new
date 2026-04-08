@@ -17,7 +17,7 @@ sidebar_position: 7
 
 確認ダイアログが表示されます。Resetを選択してマシンの再起動を開始します。
 
-![reset](images/hpc-rest-machine/img-001.jpg)
+![reset](/img/migrated/docs-ja-cloud-server/hpc-rest-machine/img-001.jpg)
 
   2. マシンのリセットが成功した後、数分待ってからRDPファイルを再度ダウンロードし、マシンへの接続を再試行してください。
 

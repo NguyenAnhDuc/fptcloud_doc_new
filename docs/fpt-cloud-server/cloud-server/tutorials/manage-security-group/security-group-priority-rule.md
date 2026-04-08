@@ -47,7 +47,7 @@ Example:
   * Select Security Groups
 
 
-**Step 2:** Open the Rules list ![](images/security-group-priority-rule/img-001.png) ![](images/security-group-priority-rule/img-002.png)
+**Step 2:** Open the Rules list ![](/img/migrated/docs-cloud-server/security-group-priority-rule/img-001.png) ![](/img/migrated/docs-cloud-server/security-group-priority-rule/img-002.png)
 
   * Click the Actions button > Manage priority rule
 
@@ -66,7 +66,7 @@ Example:
     * IP Type (IPv4/IPv6)
 
 
-**Step 3:** Change Priority  ![](images/security-group-priority-rule/img-003.png)
+**Step 3:** Change Priority  ![](/img/migrated/docs-cloud-server/security-group-priority-rule/img-003.png)
 
   * Click on the rule you want to reorder
   * Click Move up / Move down to move the rule up or down to the desired position. Or use Move to to move the rule to any position in the current rule list

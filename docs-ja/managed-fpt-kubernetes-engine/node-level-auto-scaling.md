@@ -4,6 +4,7 @@ title: "ノードレベルの自動スケーリング"
 description: "M-FKEのCluster Autoscaleによるノードレベルの自動スケーリングについて説明します。"
 sidebar_label: "ノードレベルの自動スケーリング"
 sidebar_position: 26
+draft: true
 ---
 
 # ノードレベルの自動スケーリング

@@ -10,7 +10,7 @@ sidebar_position: 2
 
 **Bước 1**: Ở menu chọn **Compute Engine** > **Instance Management**, chọn **Create instance**.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-001.png)
+![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-001.png)
 
 **Bước 2**: Cấu hình máy ảo theo nhu cầu với các lựa chọn sau:
 
@@ -73,15 +73,15 @@ sidebar_position: 2
       passwd: abc@123Abc123
 [/code]
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-002.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-003.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-004.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-005.png)
+![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-002.png) ![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-003.png) ![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-004.png) ![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-005.png)
 
 **Bước 3**: Nhấn chọn **Create Instance** để thực hiện khởi tạo máy ảo. Hệ thống sẽ thông báo xác nhận, kiểm tra tài nguyên và tiến hành quá trình khởi tạo máy ảo mới dựa vào cấu hình đã chọn.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-006.png)
+![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-006.png)
 
 Sau khi khởi tạo thành công, người dùng có thể thấy máy ảo mới tạo và kiểm tra thông tin trên bảng quản trị. Mỗi máy ảo sẽ được hiển thị thông tin đầy đủ về tên, cấu hình (Ram, CPU, Storage), địa chỉ IP address, trạng thái hoạt động (Tắt/Bật/Suspended) trên bảng.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-007.png)
+![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-007.png)
 
 ## Lưu ý khi tạo máy ảo từ file ISO.
 Hiện tại hệ thống Unify Portal hỗ trợ khách hàng tạo máy ảo từ file ISO
@@ -105,4 +105,4 @@ Hiện tại hệ thống Unify Portal hỗ trợ khách hàng tạo máy ảo t
   * Lưu ý rằng việc sử dụng disk bus SATA có thể làm giảm hiệu suất của ổ đĩa, vì vậy chỉ nên sử dụng tính năng này khi file ISO của bạn không tương thích với Virtio. Vui lòng tham khảo hướng dẫn từ nhà sản xuất để chọn chế độ phù hợp.
 
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-008.png)
+![](/img/migrated/docs-vi-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-008.png)

@@ -13,7 +13,7 @@ sidebar_position: 9
 Để kiểm tra các API key của bạn, làm theo hướng dẫn bên dưới.
 
 :::note
-Đảm bảo tài khoản của bạn đã đăng ký gói trả phí. Nếu chưa có, vui lòng [liên hệ chúng tôi](./contact-us.md).
+Đảm bảo tài khoản của bạn đã đăng ký gói trả phí. Nếu chưa có, vui lòng [liên hệ chúng tôi](/docs/vi/fpt-ai-factory/ai-marketplace/contact-us).
 :::
 
 1. Nhấp vào biểu tượng tài khoản trong header.

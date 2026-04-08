@@ -4,6 +4,7 @@ title: "Create backup service"
 description: "Steps to create a backup service and backup jobs for FPT Smart Cloud Database Engine."
 sidebar_label: "Create backup service"
 sidebar_position: "12"
+draft: true
 ---
 
 # Create backup service

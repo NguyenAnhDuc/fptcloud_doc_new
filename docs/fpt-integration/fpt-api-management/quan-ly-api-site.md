@@ -16,7 +16,7 @@ If you are on the **Pilot** or **Normal** plan, a default Public site is provide
 
 **Step 1:** From the **Application** menu, go to **API Manager** > **Sites**, then click **Create.**
 
-![Userguide FPT API Management 16](images/quan-ly-api-site/img-001.png)
+![Userguide FPT API Management 16](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-001.png)
 
 **Step 2:** Enter the required information:
 
@@ -28,11 +28,11 @@ If you are on the **Pilot** or **Normal** plan, a default Public site is provide
   * **Portal:** Select a portal from the list pre-configured by the admin.
 
 
-![Userguide FPT API Management 17](images/quan-ly-api-site/img-002.png)
+![Userguide FPT API Management 17](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-002.png)
 
 **Step 3**: Click **OK** to create the **Site**.
 
-![Userguide FPT API Management 18](images/quan-ly-api-site/img-003.png)
+![Userguide FPT API Management 18](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-003.png)
 
 ## 2\. Edit Site Information
 
@@ -40,11 +40,11 @@ To update the information of a **Site**, follow these steps:
 
 **Step 1:** In **Site Management**, select the **Site** to edit > click **Edit**.
 
-![Userguide FPT API Management 47](images/quan-ly-api-site/img-004.png)
+![Userguide FPT API Management 47](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-004.png)
 
 **Step 3:** Enter the new information and click **OK**.
 
-![Userguide FPT API Management 48](images/quan-ly-api-site/img-005.png)
+![Userguide FPT API Management 48](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-005.png)
 
 **Note:** Some fields cannot be changed and will be disabled in the edit interface. The remaining fields must follow the same validation rules as when creating a site.
 
@@ -59,11 +59,11 @@ To assign a product to a site, follow these steps:
 
 **Step 1:** In **Product Management**, select the **Product** to publish to the **Site** > **Staging**.
 
-![Userguide FPT API Management 19](images/quan-ly-api-site/img-006.png)
+![Userguide FPT API Management 19](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-006.png)
 
 **Step 2:** Click **Staging to New site**.
 
-![Userguide FPT API Management 20](images/quan-ly-api-site/img-007.png)
+![Userguide FPT API Management 20](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-007.png)
 
 **Step 3:** Enter the required information:
 
@@ -71,11 +71,11 @@ To assign a product to a site, follow these steps:
   * **Site to publish**: Select the previously created site.
 
 
-![Userguide FPT API Management 21](images/quan-ly-api-site/img-008.png)
+![Userguide FPT API Management 21](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-008.png)
 
 **Step 4:** Click **OK**.
 
-![Userguide FPT API Management 22](images/quan-ly-api-site/img-009.png)
+![Userguide FPT API Management 22](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-009.png)
 
 **Note:**
 
@@ -92,7 +92,7 @@ To manage products in a specific site, follow these steps:
 
 **Step 1:** In **Site Management**, select the **Site** whose products you want to manage.
 
-![Userguide FPT API Management 49](images/quan-ly-api-site/img-010.png)
+![Userguide FPT API Management 49](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-010.png)
 
 **Step 2:** Click **Product.**
 
@@ -102,7 +102,7 @@ A product can have the following statuses: **Unstaging**, **Staging**, **Publish
 
 The relationship between statuses is illustrated below:
 
-![Userguide FPT API Management 50](images/quan-ly-api-site/img-011.png)
+![Userguide FPT API Management 50](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-011.png)
 
   * In the **Published** state, only consumers assigned to that product can view and use it.
   * In the **Deprecated** state, new consumers cannot see the product, but existing consumers can continue using it.
@@ -118,15 +118,15 @@ To retrieve the endpoint of a product, follow these steps:
 
 **Step 1:** In **Site Management**, select the **Site** containing the product > click **Product.**
 
-![Userguide FPT API Management 51](images/quan-ly-api-site/img-012.png)
+![Userguide FPT API Management 51](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-012.png)
 
 **Step 2:** Select the **Product** > click **Manage Api.**
 
-![Userguide FPT API Management 52](images/quan-ly-api-site/img-013.png)
+![Userguide FPT API Management 52](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-013.png)
 
 **Step 3:** The endpoint information is displayed in the **API EndPoint** column.
 
-![Userguide FPT API Management 53](images/quan-ly-api-site/img-014.png)
+![Userguide FPT API Management 53](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-014.png)
 
 
 ## 6\. Manage the Developer Portal
@@ -139,13 +139,13 @@ To get the portal link, follow these steps:
 **Step 1****:** From the menu, go to **Sites** > select a site > click **Edit**. The portal link is displayed in the **Portal URL** field.
 
 
-![PybQsyRHfYQdAAAAAElFTkSuQmCC](images/quan-ly-api-site/img-015.png)
+![PybQsyRHfYQdAAAAAElFTkSuQmCC](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-015.png)
 
 
 Step 2: Accessing that link opens a page with the following interface:
 
 
-![](images/quan-ly-api-site/img-016.png)
+![](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-016.png)
 
 
 To log in, you need an account with a username and password. Contact us to receive your account credentials.
@@ -159,12 +159,12 @@ To enhance security, API providers can allow or block consumers from calling API
 Step 1: From the menu, go to **Sites** and select a site that has a product in the Published state.
 
 
-![](images/quan-ly-api-site/img-017.png)
+![](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-017.png)
 
 Step 2: Click **API Browser**, then in the details panel, check **Enable IP Limitation**.
 
 
-![](images/quan-ly-api-site/img-018.png)
+![](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-018.png)
 
 
 Step 3: Enter the IPs to Allow/Deny:
@@ -195,7 +195,7 @@ Step 2: Click **Test API** or **Test With Consumer**.
 For example, with **Test With Consumer**:
 
 
-![0L+8P1vSrnc3CgBYH8pbd269XkPQNauXZuhoaHGHBy46gFIPazbHYAsWLAg3d3djaVPTQACAAAAL0wCEIDnjyGwAAAAAACAgkn+Hzty+ksupAM1AAAAAElFTkSuQmCC](images/quan-ly-api-site/img-019.png)
+![0L+8P1vSrnc3CgBYH8pbd269XkPQNauXZuhoaHGHBy46gFIPazbHYAsWLAg3d3djaVPTQACAAAAL0wCEIDnjyGwAAAAAACAgkn+Hzty+ksupAM1AAAAAElFTkSuQmCC](/img/migrated/docs-fpt-api-management/quan-ly-api-site/img-019.png)
 
 
   1. Select the subscribed consumer shown in the **Consumer** dropdown.

@@ -16,7 +16,7 @@ API Gateway is well-suited for microservices architectures and distributed syste
 
 ## Documentation structure
 
-- [Initial setup](./initial-setup.md)
-- [Create an API Gateway](./tao-api-gateway.md)
-- [View API Gateway details](./xem-thong-tin-api-gateway.md)
-- [Delete an API Gateway](./xoa-api-gateway.md)
+- [Initial setup](/docs/en/fpt-integration/fpt-api-gateway/initial-setup)
+- [Create an API Gateway](/docs/en/fpt-integration/fpt-api-gateway/tao-api-gateway)
+- [View API Gateway details](/docs/en/fpt-integration/fpt-api-gateway/xem-thong-tin-api-gateway)
+- [Delete an API Gateway](/docs/en/fpt-integration/fpt-api-gateway/xoa-api-gateway)

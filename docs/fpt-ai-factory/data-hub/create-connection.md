@@ -11,8 +11,8 @@ sidebar_position: "3"
 Connect Data Hub to FPT Object Storage to manage your datasets.
 
 1. Access Object Storage management at [FPT Cloud Console](https://console.fptcloud.com) and select the **Buckets** tab.
-2. Click **Create Bucket**. For details, see [Create a bucket](../fpt-object-storage/tutorials-bucket.md).
-3. Upload objects to the bucket. For details, see [Upload objects](../fpt-object-storage/tutorials-object.md).
+2. Click **Create Bucket**. For details, see [Create a bucket](/docs/en/fpt-storage/fpt-object-storage/tutorials/use-object-storage-on-fpt-portal/tutorials-bucket).
+3. Upload objects to the bucket. For details, see [Upload objects](/docs/en/fpt-storage/fpt-object-storage/tutorials/use-object-storage-on-fpt-portal/tutorials-object).
 4. Access the **Data Hub** service, go to **Connection List**, and click **Create Connection**.
 
 [![Create a Data Hub connection](/img/migrated/image-1742974995525.33.34-760613b1.png)](/img/migrated/image-1742974995525.33.34-760613b1.png)

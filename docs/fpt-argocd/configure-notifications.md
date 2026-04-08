@@ -4,6 +4,7 @@ title: "Configure notifications"
 description: "Guide to configuring ArgoCD notification settings on FPT Cloud Portal"
 sidebar_label: "Configure notifications"
 sidebar_position: 30
+draft: true
 ---
 
 # Configure notifications

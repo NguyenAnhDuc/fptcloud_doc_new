@@ -4,6 +4,7 @@ title: "サイト間VPNの無効化"
 description: "アクティブなVPN Site-to-Site接続を一時的に無効化するガイドです。"
 sidebar_label: "サイト間VPNの無効化"
 sidebar_position: 4
+draft: true
 ---
 
 # サイト間VPNの無効化

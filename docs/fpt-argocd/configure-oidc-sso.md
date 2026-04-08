@@ -4,6 +4,7 @@ title: "Configure OIDC SSO"
 description: "Guide to configuring OIDC SSO for ArgoCD authentication"
 sidebar_label: "Configure OIDC SSO"
 sidebar_position: 34
+draft: true
 ---
 
 # Configure OIDC SSO

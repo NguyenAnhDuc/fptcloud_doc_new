@@ -4,6 +4,7 @@ title: "Xóa Kubernetes cluster"
 description: "Hướng dẫn xóa cluster Managed FPT Kubernetes Engine không còn sử dụng."
 sidebar_label: "Xóa Kubernetes cluster"
 sidebar_position: "8"
+draft: true
 ---
 
 # Xóa Kubernetes cluster

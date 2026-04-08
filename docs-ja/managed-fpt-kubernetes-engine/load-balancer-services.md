@@ -4,6 +4,7 @@ title: "Load Balancer サービス"
 description: "Managed FKEでのKubernetes Load Balancer Serviceの作成方法とアノテーション設定について説明します。"
 sidebar_label: "Load Balancer サービス"
 sidebar_position: 18
+draft: true
 ---
 
 # Load Balancer サービス

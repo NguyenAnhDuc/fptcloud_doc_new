@@ -4,6 +4,7 @@ title: "Change cluster configuration"
 description: "Overview of configuration changes available for a Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Change cluster configuration"
 sidebar_position: 9
+draft: true
 ---
 
 # Change cluster configuration

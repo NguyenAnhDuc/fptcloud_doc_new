@@ -4,6 +4,7 @@ title: "サイト間VPNの有効化"
 description: "InactiveなVPN Site-to-Site接続を再度有効化するガイドです。"
 sidebar_label: "サイト間VPNの有効化"
 sidebar_position: 5
+draft: true
 ---
 
 # サイト間VPNの有効化

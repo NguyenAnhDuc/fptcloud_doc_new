@@ -29,11 +29,11 @@ Hosts > Fixed rentalに移動して、固定レンタル設定ダイアログを
 
 固定レンタルを適用するイメージを少なくとも1つ選択し、レンタル期間やマシン台数などの固定レンタル設定を行い、マシンの割引金額を確認してから**Confirm**をクリックします。
 
-![8LzJfpQSTt4FgAAAAASUVORK5CYII=](images/hpc-fixed-rental/img-001.png)
+![8LzJfpQSTt4FgAAAAASUVORK5CYII=](/img/migrated/docs-ja-cloud-server/hpc-fixed-rental/img-001.png)
 
 または、最初に特定のイメージを選択してから、Action > Fixed rentalを選択してマシンの固定レンタルを設定することもできます：
 
-![](images/hpc-fixed-rental/img-002.png)
+![](/img/migrated/docs-ja-cloud-server/hpc-fixed-rental/img-002.png)
 
 
   2. マシンの固定レンタルを設定した後、**Image > Setting**を選択してAction after expiredを設定できます：

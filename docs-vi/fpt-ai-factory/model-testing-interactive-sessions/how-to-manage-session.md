@@ -10,8 +10,8 @@ sidebar_position: "9"
 
 Phần quản lý session bao gồm các chức năng sau:
 
-- [Status Session](./status-session.md)
+- [Status Session](/docs/vi/fpt-ai-factory/model-testing-interactive-sessions/status-session)
 
-- [Stop Session](./stop-session.md)
+- [Stop Session](/docs/vi/fpt-ai-factory/model-testing-interactive-sessions/stop-session)
 
-- [Delete Session](./delete-session.md)
+- [Delete Session](/docs/vi/fpt-ai-factory/model-testing-interactive-sessions/delete-session)

@@ -29,11 +29,11 @@ Truy cập Hosts > Fixed rental để mở hộp thoại thiết lập tính nă
 
 Chọn ít nhất 1 image để áp dụng fixed rental, chọn các thông tin thiết lập Fixed rental như Rental period, Number of machines, kiểm tra lại số tiền giảm đối với máy và nhấn **Confirm**
 
-![8LzJfpQSTt4FgAAAAASUVORK5CYII=](images/hpc-fixed-rental/img-001.png)
+![8LzJfpQSTt4FgAAAAASUVORK5CYII=](/img/migrated/docs-vi-cloud-server/hpc-fixed-rental/img-001.png)
 
 Ngoài ra bạn có thể lựa chọn 1 image cụ thể trước rồi thiết lập Fixed rental cho máy bằng cách chọn Action > Fixed rental nhưu sau:
 
-![](images/hpc-fixed-rental/img-002.png)
+![](/img/migrated/docs-vi-cloud-server/hpc-fixed-rental/img-002.png)
 
 
   2. Sau khi thiết lập Fixed rental cho máy, bạn có thể cài đặt lại Action after expired bằng cách chọn **Image > Setting** và lựa chọn lại

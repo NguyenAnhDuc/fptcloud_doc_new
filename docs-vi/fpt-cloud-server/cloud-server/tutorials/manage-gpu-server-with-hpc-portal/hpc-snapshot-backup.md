@@ -31,4 +31,4 @@ Nhấn **Restore** trên bản Snapshot đã tạo.
 
 ## Bước tiếp theo
 
-- [Cố định máy vật lý](./hpc-hardware-fixation.md)
+- [Cố định máy vật lý](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-hardware-fixation)

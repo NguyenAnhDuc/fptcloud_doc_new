@@ -4,6 +4,7 @@ title: "Tự động scale ở cấp độ node"
 description: "Kubernetes cluster tự động tăng/giảm số lượng Worker Node trong Worker Group tùy theo mức sử dụng GPU."
 sidebar_label: "Tự động scale ở cấp độ node"
 sidebar_position: "26"
+draft: true
 ---
 
 # Tự động scale ở cấp độ node

@@ -4,6 +4,7 @@ title: "Manage restore"
 description: "Steps to create and manage restore points for FPT Smart Cloud Database Engine."
 sidebar_label: "Manage restore"
 sidebar_position: 15
+draft: true
 ---
 
 # Manage restore

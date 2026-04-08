@@ -12,7 +12,7 @@ sidebar_position: 2
 
 **Bước 1:** Ở menu chọn Compute Engine > Schedule Management, chọn tab Instance snapshot schedule
 
-![file](images/create-schedule-snapshotVM/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/create-schedule-snapshotVM/img-001.png)
 
 **Bước 2:** Nhập các thông tin theo yêu cầu của hệ thống
 
@@ -31,8 +31,8 @@ sidebar_position: 2
   * Applied Instance: Các máy ảo được gắn vào lịch (Lưu ý: mỗi máy ảo cùng lúc chỉ được cho phép gắn với 1 lịch)
 
 
-![file](images/create-schedule-snapshotVM/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/create-schedule-snapshotVM/img-002.png)
 
 **Bước 3:** Chọn Create Schedule. Hệ thống sẽ tiền hành khởi tạo và thông báo kết quả. Nếu thành công, lịch mới sẽ được hiển thị ở trang Instance snapshot schedule
 
-![file](images/create-schedule-snapshotVM/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/create-schedule-snapshotVM/img-003.png)

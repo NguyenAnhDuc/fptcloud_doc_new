@@ -22,4 +22,4 @@ Mặc định, khi bật máy hệ thống phân phối ngẫu nhiên một máy
 
 ## Bước tiếp theo
 
-- [Khởi động lại máy](./hpc-rest-machine.md)
+- [Khởi động lại máy](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-rest-machine)

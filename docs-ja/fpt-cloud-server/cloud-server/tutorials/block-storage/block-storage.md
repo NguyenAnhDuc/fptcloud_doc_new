@@ -24,9 +24,9 @@ FPT Cloud Portal には **Storage Disk Management** が搭載されており、V
 
 ## ガイド
 
-- [Storage Disk の作成](./tao-storage-disk.md)
-- [Storage Disk を Instance にアタッチする](./gan-storage-disk-vao-may-ao.md)
-- [Windows Instance のディスクを設定する](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)
-- [Storage Disk を Instance からデタッチする](./go-storage-disk-khoi-may-ao.md)
-- [Storage Disk の編集](./edit-storage-disk.md)
-- [Storage Disk の削除](./xoa-storage-disk.md)
+- [Storage Disk の作成](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/tao-storage-disk)
+- [Storage Disk を Instance にアタッチする](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)
+- [Windows Instance のディスクを設定する](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/cau-hinh-o-dia-cho-may-ao-chay-windows)
+- [Storage Disk を Instance からデタッチする](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/go-storage-disk-khoi-may-ao)
+- [Storage Disk の編集](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)
+- [Storage Disk の削除](/docs/ja/fpt-cloud-server/cloud-server/tutorials/block-storage/xoa-storage-disk)

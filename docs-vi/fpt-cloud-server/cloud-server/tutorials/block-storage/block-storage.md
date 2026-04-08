@@ -24,9 +24,9 @@ Danh sách hiển thị: **Name**, **Storage type**, **Size**, **Created at**, *
 
 ## Hướng dẫn
 
-- [Tạo Storage Disk](./tao-storage-disk.md)
-- [Gắn Storage Disk vào máy ảo](./gan-storage-disk-vao-may-ao.md)
-- [Cấu hình ổ đĩa cho máy ảo chạy Windows](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)
-- [Gỡ Storage Disk khỏi máy ảo](./go-storage-disk-khoi-may-ao.md)
-- [Chỉnh sửa Storage Disk](./edit-storage-disk.md)
-- [Xóa Storage Disk](./xoa-storage-disk.md)
+- [Tạo Storage Disk](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/tao-storage-disk)
+- [Gắn Storage Disk vào máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)
+- [Cấu hình ổ đĩa cho máy ảo chạy Windows](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/cau-hinh-o-dia-cho-may-ao-chay-windows)
+- [Gỡ Storage Disk khỏi máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/go-storage-disk-khoi-may-ao)
+- [Chỉnh sửa Storage Disk](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)
+- [Xóa Storage Disk](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/xoa-storage-disk)

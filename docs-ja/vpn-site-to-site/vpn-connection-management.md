@@ -4,6 +4,7 @@ title: "VPN connection management"
 sidebar_label: "VPN connection management"
 sidebar_position: "18"
 description: "Overview of managing VPN connections — create, edit, enable/disable, and delete"
+draft: true
 ---
 
 # VPN connection management

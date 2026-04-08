@@ -9,7 +9,7 @@ sidebar_position: 15
 
 The steps for viewing metrics, logs, and querying data are the same as for Kubernetes monitoring. Refer to:
 
-- [View metric data](./xem-thong-tin-metric.md)
-- [View log data](./xem-thong-tin-logs.md)
-- [View trace data](./xem-thong-tin-trace.md)
-- [Build custom metric queries](./query-metric-data.md)
+- [View metric data](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/xem-thong-tin-metric)
+- [View log data](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/xem-thong-tin-logs)
+- [View trace data](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/xem-thong-tin-trace)
+- [Build custom metric queries](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/query-metric-data)

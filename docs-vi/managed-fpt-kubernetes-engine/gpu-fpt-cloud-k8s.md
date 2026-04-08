@@ -4,6 +4,7 @@ title: "Dịch vụ GPU trên FPT Kubernetes Engine"
 description: "FPT Cloud cung cấp Kubernetes với hỗ trợ NVIDIA GPU, bao gồm các tính năng chính về quản lý và giám sát GPU."
 sidebar_label: "Dịch vụ GPU trên FPT Kubernetes Engine"
 sidebar_position: "35"
+draft: true
 ---
 
 # Dịch vụ GPU trên FPT Kubernetes Engine

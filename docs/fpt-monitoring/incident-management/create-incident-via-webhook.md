@@ -10,7 +10,7 @@ sidebar_position: 24
 
 1. From the left menu, click **Apps** > **Incident**.
 2. Click **Integration**.
-3. Set up **Incoming webhook** (if not yet installed, see [Configure integrations](./configure-integrations.md)).
+3. Set up **Incoming webhook** (if not yet installed, see [Configure integrations](/docs/en/fpt-monitoring/incident-management/configure-integrations)).
 4. After successful setup, click **Show details** to view the details.
 
 [![Incoming webhook details](/img/migrated/Screenshot_27-8a7004f4.png)](/img/migrated/Screenshot_27-8a7004f4.png)

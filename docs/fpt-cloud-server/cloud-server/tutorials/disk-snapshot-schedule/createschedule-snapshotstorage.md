@@ -10,7 +10,7 @@ Create a disk snapshot schedule
 
 To create a new disk snapshot schedule, follow these steps. **Step 1:** In the menu, select Compute Engine > Schedule Management, then select the Storage snapshot schedule tab.
 
-![file](images/createschedule-snapshotstorage/img-001.png)
+![file](/img/migrated/docs-cloud-server/createschedule-snapshotstorage/img-001.png)
 
 Step 2: Enter the required information as prompted by the system:
 
@@ -29,8 +29,8 @@ Step 2: Enter the required information as prompted by the system:
   * Applied Storage: the disks attached to the schedule (Note: each disk can only be attached to one schedule at a time)
 
 
-![file](images/createschedule-snapshotstorage/img-002.png)
+![file](/img/migrated/docs-cloud-server/createschedule-snapshotstorage/img-002.png)
 
 **Step 3:** Click Create Schedule. The system will proceed to initialize the schedule and notify you of the result. If successful, the new schedule will appear on the Storage snapshot schedule page.
 
-![file](images/createschedule-snapshotstorage/img-003.png)
+![file](/img/migrated/docs-cloud-server/createschedule-snapshotstorage/img-003.png)

@@ -4,6 +4,7 @@ title: "Cấu hình VPN Site-to-Site giữa OpenStack và VMware"
 description: "Hướng dẫn cấu hình kết nối VPN Site-to-Site giữa FPT Cloud OpenStack và VMware Cloud."
 sidebar_label: "Cấu hình với VMware"
 sidebar_position: "17"
+draft: true
 ---
 
 # Cấu hình VPN Site-to-Site giữa OpenStack và VMware

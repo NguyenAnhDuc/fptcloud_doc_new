@@ -72,4 +72,4 @@ Mục này bao gồm:
 ### 7. Nhấp **"Create New Container"** để tạo và khởi động container
 
 ### 8. Nạp tiền
-Trong trường hợp số dư không đủ để tạo container mới, làm theo hướng dẫn tại: [Nạp tiền](./add-credit.md).
+Trong trường hợp số dư không đủ để tạo container mới, làm theo hướng dẫn tại: [Nạp tiền](/docs/vi/gpu-container/add-credit).

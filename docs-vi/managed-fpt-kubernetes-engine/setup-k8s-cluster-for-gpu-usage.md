@@ -4,6 +4,7 @@ title: "Thiết lập Kubernetes cluster để sử dụng GPU"
 description: "Hướng dẫn thiết lập Kubernetes cluster trên FPT Cloud để sử dụng GPU."
 sidebar_label: "Thiết lập Kubernetes cluster để sử dụng GPU"
 sidebar_position: "21"
+draft: true
 ---
 
 # Thiết lập Kubernetes cluster để sử dụng GPU

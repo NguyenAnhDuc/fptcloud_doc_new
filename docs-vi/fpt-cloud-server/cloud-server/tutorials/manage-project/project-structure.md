@@ -12,6 +12,6 @@ Project giúp bạn tổ chức tài nguyên cloud theo nhóm — thuận tiện
 
 ## Hướng dẫn
 
-- [Chi tiết quản lý Project](./quan-ly-project.md)
-- [Chọn Project khi tạo VPC](./select-project-when-creating-VPC.md)
-- [Thay đổi giao diện header](./header-project.md)
+- [Chi tiết quản lý Project](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-project/quan-ly-project)
+- [Chọn Project khi tạo VPC](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-project/select-project-when-creating-VPC)
+- [Thay đổi giao diện header](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-project/header-project)

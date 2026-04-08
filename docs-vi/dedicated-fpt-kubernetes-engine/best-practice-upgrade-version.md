@@ -4,6 +4,7 @@ title: "Thực hành tốt nhất khi nâng cấp phiên bản FKE cluster"
 description: "Các thực hành tốt nhất và quy trình chi tiết để nâng cấp phiên bản Kubernetes cluster trong D-FKE."
 sidebar_label: "Thực hành tốt nhất: nâng cấp phiên bản"
 sidebar_position: "26"
+draft: true
 ---
 
 # Thực hành tốt nhất khi nâng cấp phiên bản FKE cluster

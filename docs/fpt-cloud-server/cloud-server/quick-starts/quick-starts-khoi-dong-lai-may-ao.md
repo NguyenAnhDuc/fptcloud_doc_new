@@ -16,8 +16,8 @@ During operation, programs running on the virtual machine may encounter errors f
 
 **Step 1**: On the **Instance Management** dashboard, select **Action** at the end of the row for the server you want to reboot.
 
-![Userguide FPT Cloud Server 2022 14](images/quick-starts-khoi-dong-lai-may-ao/img-001.png)
+![Userguide FPT Cloud Server 2022 14](/img/migrated/docs-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-001.png)
 
 **Step 2**: Select the **Reboot** function. The system will then perform the reboot and notify you of the processing status.
 
-![Userguide FPT Cloud Server 2022 15](images/quick-starts-khoi-dong-lai-may-ao/img-002.png)
+![Userguide FPT Cloud Server 2022 15](/img/migrated/docs-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-002.png)

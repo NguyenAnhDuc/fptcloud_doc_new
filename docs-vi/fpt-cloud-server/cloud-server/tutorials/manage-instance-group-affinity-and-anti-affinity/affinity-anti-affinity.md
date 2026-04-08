@@ -26,7 +26,7 @@ Bạn có thể tạo các Instance Group với chính sách Soft Affinity hoặ
 
 ## Hướng dẫn sử dụng
 
-- [Thiết lập ban đầu](./initial-setup.md)
-- [Khởi tạo Instance Group](./create-instance-group.md)
-- [Gắn Instance vào Instance Group](./add-instance-instance-group.md)
-- [Xóa Instance Group](./delete-instance-group.md)
+- [Thiết lập ban đầu](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/initial-setup)
+- [Khởi tạo Instance Group](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/create-instance-group)
+- [Gắn Instance vào Instance Group](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/add-instance-instance-group)
+- [Xóa Instance Group](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/delete-instance-group)

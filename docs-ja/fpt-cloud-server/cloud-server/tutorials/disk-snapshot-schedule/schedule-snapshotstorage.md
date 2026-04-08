@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ## ガイド
 
-- [ストレージディスクSnapshotスケジュールの作成](./createschedule-snapshotstorage.md)
-- [詳細の確認](./viewschedule-snapshotstorage.md)
-- [編集](./editschedule-snapshotstorage.md)
-- [削除](./deleteschedule-snapshotstorage.md)
+- [ストレージディスクSnapshotスケジュールの作成](/docs/ja/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/createschedule-snapshotstorage)
+- [詳細の確認](/docs/ja/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/viewschedule-snapshotstorage)
+- [編集](/docs/ja/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/editschedule-snapshotstorage)
+- [削除](/docs/ja/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/deleteschedule-snapshotstorage)

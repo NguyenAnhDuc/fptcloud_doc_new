@@ -13,21 +13,21 @@ Người dùng có thể tạo máy ảo với GPU
 
 **Bước 1**: Ở màn hình quản lý **Instance Management**. Chọn **Create instance**
 
-![file](images/gpu-general/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-001.png)
 
 **Bước 2**: Chọn GPU và loại card GPU cần sử dụng
 
-![file](images/gpu-general/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-002.png)
 
 **Bước 3**: Nhập các thông tin còn khác của instance
 
 **Bước 4**: Bấm **Create Instance**
 
-![file](images/gpu-general/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-003.png)
 
 **Bước 5**: Kiểm tra thông tin. Thông tin được cập nhật ở màn hình Instance detail
 
-![file](images/gpu-general/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-004.png)
 
 ## 2\. Thêm GPU vào instance trên Instance management
 **Bước 1**: Tại màn hình **Instance management**, người dùng lựa chọn máy ảo cần thêm GPU.
@@ -39,11 +39,11 @@ Người dùng có thể tạo máy ảo với GPU
   * Với các máy ở đang ở trạng thái khác như “Running”, “Pending”,.. tính năng sẽ bị **disable**.
 
 
-![file](images/gpu-general/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-005.png)
 
 **Bước 2**: Chọn **Actions**, sau đó chọn **Add GPU**
 
-![file](images/gpu-general/img-006.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-006.png)
 
 **Bước 3**: Chọn **GPU type** để add vào instance
 
@@ -61,7 +61,7 @@ Người dùng có thể tạo máy ảo với GPU
 
 **Bước 5**: Kiểm tra thông tin. Thông tin được cập nhật ở màn hình Instance detail
 
-![file](images/gpu-general/img-007.png)
+![file](/img/migrated/docs-vi-cloud-server/gpu-general/img-007.png)
 
 ## 3\. Gỡ GPU khỏi máy ảo
 **Bước 1**: Tại màn hình **Instance management**, người dùng lựa chọn máy ảo cần gỡ GPU.

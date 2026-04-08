@@ -9,7 +9,7 @@ sidebar_position: 2
 # Chỉ Org Admin có quyền chỉnh sửa tích hợp GitHub
 
 Chỉ **Org Admin** có quyền chỉnh sửa tích hợp **GitHub**
-_Xem thêm về phân quyền[tại đây](./quan-ly-member.md)_
+_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member)_
 
 ## Configure GitHub
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào **GitHub** để đến màn tích hợp GitHub:
@@ -52,7 +52,7 @@ Bạn có thể tiến hành **Reintegrate** hoặc **Disable** tích hợp GitH
 [![anhfsec](/img/migrated/Screenshot-2025-06-17-160052-d7098984.png)](/img/migrated/Screenshot-2025-06-17-160052-d7098984.png)
 
 ## Access Key cho CI/CD pipeline
-Ở phần detail bạn sẽ được cung cấp access key để có thể tích hợp CI/CD Pipeline. Hướng dẫn tích hợp [tại đây](./cicd-guideline.md)
+Ở phần detail bạn sẽ được cung cấp access key để có thể tích hợp CI/CD Pipeline. Hướng dẫn tích hợp [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/cicd-guideline)
 [![anhfsec](/img/migrated/in-git5-0f0523e9.png)](/img/migrated/in-git5-0f0523e9.png)
 Bạn có thể copy hoặc reset Access Key để phục vụ cho tích hợp vào CI/CD pipeline
 [![anhfsec](/img/migrated/in-git6-c0ffda22.png)](/img/migrated/in-git6-c0ffda22.png)

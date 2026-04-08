@@ -31,4 +31,4 @@ Snapshotはマシン上のディスク、ソフトウェア、アプリケーシ
 
 ## 次のステップ
 
-- [ハードウェア固定](./hpc-hardware-fixation.md)
+- [ハードウェア固定](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-hardware-fixation)

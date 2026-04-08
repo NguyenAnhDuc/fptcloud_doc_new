@@ -2,6 +2,7 @@
 id: "xem%20danh%20sach%20user%20group"
 title: "ユーザーグループ一覧の表示"
 sidebar_label: "ユーザーグループ一覧の表示"
+draft: true
 ---
 
 ユーザーグループ一覧の表示

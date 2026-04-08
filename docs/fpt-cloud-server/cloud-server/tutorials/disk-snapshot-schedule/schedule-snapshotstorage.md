@@ -12,7 +12,7 @@ Automatically create snapshots for Storage Disks on a schedule — ensuring data
 
 ## Guides
 
-- [Create a Storage Disk Snapshot Schedule](./createschedule-snapshotstorage.md)
-- [View Details](./viewschedule-snapshotstorage.md)
-- [Edit](./editschedule-snapshotstorage.md)
-- [Delete](./deleteschedule-snapshotstorage.md)
+- [Create a Storage Disk Snapshot Schedule](/docs/en/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/createschedule-snapshotstorage)
+- [View Details](/docs/en/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/viewschedule-snapshotstorage)
+- [Edit](/docs/en/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/editschedule-snapshotstorage)
+- [Delete](/docs/en/fpt-cloud-server/cloud-server/tutorials/disk-snapshot-schedule/deleteschedule-snapshotstorage)

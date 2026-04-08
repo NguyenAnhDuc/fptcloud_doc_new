@@ -4,6 +4,7 @@ title: "Report"
 description: "The Reporting feature allows users to extract statistical data about database cluster backup activities over a selected time period."
 sidebar_label: "Report"
 sidebar_position: 41
+draft: true
 ---
 
 # Report

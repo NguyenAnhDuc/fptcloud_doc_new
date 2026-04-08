@@ -28,19 +28,19 @@ Valid URL formats:
 
 Open the service link in a web browser and select **Access through FPT Cloud Desktop Client**.
 
-![file](images/SSO-qua-FCDClient-moi/img-001.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-001.png)
 
 **2. Download, install, and open the FCD Client application after installation is complete**
 
-The system will automatically download the latest Client version compatible with the Windows operating system (users can also initiate the installation manually). If the browser displays a warning during download as shown below: ![file](images/SSO-qua-FCDClient-moi/img-002.png)
+The system will automatically download the latest Client version compatible with the Windows operating system (users can also initiate the installation manually). If the browser displays a warning during download as shown below: ![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-002.png)
 
 Select the three-dot menu > **Keep** > **Keep anyway**.
 
-![file](images/SSO-qua-FCDClient-moi/img-003.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-003.png)
 
 Once the download is complete, proceed to install the application: Select **Open file** to install the application on your device.
 
-![file](images/SSO-qua-FCDClient-moi/img-004.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-004.png)
 
 **On Windows:** In the "Windows protected your PC" popup, click the "More info" hyperlink and then click the "Run anyway" button.
 
@@ -51,7 +51,7 @@ Once the download is complete, proceed to install the application: Select **Open
   * Check the box **"Don't warn me when opening applications on this disk image"**.
 
 
-![file](images/SSO-qua-FCDClient-moi/img-005.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-005.png)
 
 **=> FCD Client installed successfully. After installation, open the FCDClient application.**
 
@@ -60,7 +60,7 @@ Once the download is complete, proceed to install the application: Select **Open
   * Users need to check and additionally install the Microsoft Windows App from the [Mac Apple Store](<https://apps.apple.com/us/app/windows-app/id1295203466?mt=12> "Mac Apple Store").
 
 
-![file](images/SSO-qua-FCDClient-moi/img-006.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-006.png)
 
   * If the device shows a warning about the FCDClient application, go to Settings > Privacy & Security > Open Anyway for FCDClient.
 
@@ -73,22 +73,22 @@ Log in to the appropriate Authenticator (Server).
 
 1. Open the FCDClient application you installed in [Step 1: Install the new FCDClient](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_0> "Step 1: Install the new FCDClient").
 
-  * **If the Client already has Server information** (because it was entered previously, or the Client was downloaded from a URL containing a valid authentication code): Select **Connect Server** and enter the corresponding account credentials in section 2 below. ![file](images/SSO-qua-FCDClient-moi/img-007.png)
+  * **If the Client already has Server information** (because it was entered previously, or the Client was downloaded from a URL containing a valid authentication code): Select **Connect Server** and enter the corresponding account credentials in section 2 below. ![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-007.png)
 
   * **If the Client displays an interface with no Server information**: You need to enter the Server information manually. Select **New Server** > Enter a valid URL or Domain (managed by the customer administrator). Example of valid input: Enter the full valid URL pil783454741.pilotfcd.online **or** enter the Domain pilotfcd.online first, then enter the Authentication code pil78345474.
 
 
-![file](images/SSO-qua-FCDClient-moi/img-008.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-008.png)
 
 2. Log in using your SSO account (for example, log in with a Microsoft account), enter the corresponding OTP for the SSO => Authenticator (Server) login successful.
 
-![file](images/SSO-qua-FCDClient-moi/img-009.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-009.png)
 
 **4: Access the virtual machine**
 
 On the virtual machine list screen, select the virtual machine you want to access.
 
-![file](images/SSO-qua-FCDClient-moi/img-010.png)
+![file](/img/migrated/docs-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-010.png)
 
 Enter the virtual machine login credentials if prompted by the system => Virtual machine access successful.
 

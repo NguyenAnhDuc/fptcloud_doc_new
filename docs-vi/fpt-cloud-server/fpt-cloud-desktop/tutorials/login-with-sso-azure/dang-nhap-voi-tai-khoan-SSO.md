@@ -10,6 +10,6 @@ sidebar_position: 1
 
 FPT Cloud Desktop hỗ trợ đăng nhập bằng tài khoản SSO (ví dụ: Azure AD / tài khoản Microsoft). Chọn phương thức truy cập phù hợp với thiết lập của bạn:
 
-- [Truy cập qua FCDClient mới](./SSO-qua-FCDClient-moi.md) (khuyên dùng)
-- [Truy cập qua Web browser](./SSO-qua-web-browser.md)
-- [Truy cập qua FCDClient cũ](./SSO-qua-FCDClient-cu.md)
+- [Truy cập qua FCDClient mới](/docs/vi/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-FCDClient-moi) (khuyên dùng)
+- [Truy cập qua Web browser](/docs/vi/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-web-browser)
+- [Truy cập qua FCDClient cũ](/docs/vi/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-sso-azure/SSO-qua-FCDClient-cu)

@@ -27,4 +27,4 @@ You can only delete a Storage Disk that is not currently attached to any Instanc
 
 ## Next Steps
 
-- [Create a Storage Disk](./tao-storage-disk.md)
+- [Create a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/tao-storage-disk)

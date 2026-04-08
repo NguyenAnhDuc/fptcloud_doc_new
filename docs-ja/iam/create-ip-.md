@@ -2,6 +2,7 @@
 id: "create-ip-"
 title: "新しい IP アクセスレコードの作成"
 sidebar_label: "新しい IP アクセスレコードの作成"
+draft: true
 ---
 
 新しい IP アクセスレコードの作成

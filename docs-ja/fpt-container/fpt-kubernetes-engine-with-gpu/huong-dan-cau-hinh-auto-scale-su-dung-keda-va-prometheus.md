@@ -13,7 +13,7 @@ sidebar_position: "12"
 
 - GPUが接続されたKubernetesクラスター
 - Running状態のGPUアプリケーション
-- [GPUカスタムメトリクスを使用したFPT Kubernetes Engine GPUのオートスケール設定](./huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric.md)の手順に従って、FPT App CatalogサービスでkubeprometheusスタックとPrometheusアダプターがすでにインストール済みであること
+- [GPUカスタムメトリクスを使用したFPT Kubernetes Engine GPUのオートスケール設定](/docs/ja/fpt-container/fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric)の手順に従って、FPT App CatalogサービスでkubeprometheusスタックとPrometheusアダプターがすでにインストール済みであること
 
 ## 設定手順
 

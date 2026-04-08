@@ -17,5 +17,5 @@ Nếu bạn chưa có tài khoản FPT Cloud, nhấn nút **"Đăng ký"** và l
 [![Ảnh chụp màn hình trang đăng ký](/img/migrated/image-1739520039300-fdc2687f.png)](/img/migrated/image-1739520039300-fdc2687f.png)
 
 :::tip
-Xem hướng dẫn đăng ký và đăng nhập chi tiết tại [Bắt đầu nhanh](./quick-start.md).
+Xem hướng dẫn đăng ký và đăng nhập chi tiết tại [Bắt đầu nhanh](/docs/vi/fpt-ai-factory/ai-marketplace/quick-start).
 :::

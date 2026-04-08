@@ -12,4 +12,4 @@ sidebar_position: 1
 
 詳細な利用手順については以下を参照してください。
 
-- [Baremetal (GPU Server) での利用 (日本)](./japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
+- [Baremetal (GPU Server) での利用 (日本)](/docs/ja/fpt-storage/file-storage-high-performance/tutorials/japan-region/japan-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)

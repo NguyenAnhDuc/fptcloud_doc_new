@@ -27,7 +27,7 @@ Create date from - Create date to | Filter Security Groups by creation date rang
 
 # How to Use
 
-![](images/security-group-filter/img-001.png)
+![](/img/migrated/docs-cloud-server/security-group-filter/img-001.png)
 
 **Step 1:** Open the Filter window
 

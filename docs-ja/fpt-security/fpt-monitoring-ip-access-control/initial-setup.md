@@ -9,4 +9,4 @@ sidebar_position: 2
 
 **FPT Monitoring** を初めて使用する場合は、以下の手順を完了してから作業を開始してください:
 
-- [FPT Cloud アカウントの作成と FPT Portal へのログイン](tao-tai%20khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal.md)
+- [FPT Cloud アカウントの作成と FPT Portal へのログイン](/docs/ja/fpt-security/fpt-monitoring-ip-access-control/tao-tai khoan-fpt-cloud-va-dang-nhap-vao-fpt-portal)

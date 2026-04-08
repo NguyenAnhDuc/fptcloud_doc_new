@@ -3,6 +3,7 @@ id: "overview-nic"
 title: "Tổng quan NIC"
 sidebar_label: "Tổng quan NIC"
 sidebar_position: 56
+draft: true
 ---
 
 # Tổng quan NIC

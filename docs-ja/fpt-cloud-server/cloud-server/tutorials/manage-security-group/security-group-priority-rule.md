@@ -47,7 +47,7 @@ Security Group の Priority Rule を管理する
   * Security Groupsを選択します
 
 
-**ステップ 2:** ルールリストを開く ![](images/security-group-priority-rule/img-001.png) ![](images/security-group-priority-rule/img-002.png)
+**ステップ 2:** ルールリストを開く ![](/img/migrated/docs-ja-cloud-server/security-group-priority-rule/img-001.png) ![](/img/migrated/docs-ja-cloud-server/security-group-priority-rule/img-002.png)
 
   * Actionsボタン > Manage priority ruleをクリックします
 
@@ -66,7 +66,7 @@ Security Group の Priority Rule を管理する
     * IP Type（IPv4/IPv6）
 
 
-**ステップ 3:** Priorityを変更する  ![](images/security-group-priority-rule/img-003.png)
+**ステップ 3:** Priorityを変更する  ![](/img/migrated/docs-ja-cloud-server/security-group-priority-rule/img-003.png)
 
   * 並び替えたいルールをクリックします
   * Move up / Move downをクリックして、ルールを目的の位置に上下に移動します。または、Move toを使用してルールリスト内の任意の位置に移動します

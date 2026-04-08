@@ -12,10 +12,10 @@ sidebar_position: 10
 
 Enabling **HSTS** on an FPT Load Balancer HTTPS Listener forces browsers to communicate only over HTTPS.
 
-For Listener creation instructions, see [Create a Listener](./create-listener.md).
+For Listener creation instructions, see [Create a Listener](/docs/en/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/create-listener).
 
 :::note
-To use this feature, select **TERMINATED_HTTPS** as the protocol and attach an SSL certificate to the Listener. If you do not have an SSL certificate, see [Import SSL certificate](./import-ssl-certificate.md).
+To use this feature, select **TERMINATED_HTTPS** as the protocol and attach an SSL certificate to the Listener. If you do not have an SSL certificate, see [Import SSL certificate](/docs/en/fpt-network/load-balancer/load-balancer-tutorials/manage-ssl-certificate/import-ssl-certificate).
 :::
 
 When creating or updating the Listener, enable **HSTS** and configure the following:

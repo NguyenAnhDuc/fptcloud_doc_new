@@ -4,6 +4,7 @@ title: "Roles and permissions"
 description: "Steps to create and manage IAM roles for FPT Smart Cloud Database Engine."
 sidebar_label: "Roles and permissions"
 sidebar_position: 7
+draft: true
 ---
 
 # Roles and permissions

@@ -31,13 +31,13 @@ Tính năng **Nâng cấp phiên bản cho cơ sở dữ liệu** trong FPT Data
 
 Đăng nhập vào FPT Cloud Portal và đi tới trang **Database List**. Chọn cụm MariaDB bạn muốn cập nhật. Trên trang **Overview** của cluster, bạn sẽ thấy phiên bản hiện tại và icon **Upgrade** ở bên cạnh.
 
-![](images/upgrade-version/img-001.png)
+![](/img/migrated/docs-vi-managed-fpt-database-engine/upgrade-version/img-001.png)
 
 #### Bước 2: Thực hiện ugrade phiên bản
 
 Trên trang **Overview** , tìm và nhấp vào biểu tượng **Upgrade** bên cạnh thông tin phiên bản. Một hộp thoại sẽ mở ra hiển thị phiên bản hiện tại và phiên bản mục tiêu có thể cập nhật.
 
-![](images/upgrade-version/img-002.png)
+![](/img/migrated/docs-vi-managed-fpt-database-engine/upgrade-version/img-002.png)
 
 Chọn version cần nâng cấp và nhập từ khóa xác nhận vào trường nhập liệu. Nhấn **Upgrade** để bắt đầu quá trình nâng cấp.
 

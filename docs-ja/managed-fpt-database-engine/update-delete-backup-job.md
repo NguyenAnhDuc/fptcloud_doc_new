@@ -4,6 +4,7 @@ title: "バックアップジョブの更新と削除"
 description: "FPT Smart Cloud Database Engine のバックアップジョブのスケジュールを更新または削除する手順。"
 sidebar_label: "バックアップジョブの更新と削除"
 sidebar_position: 13
+draft: true
 ---
 
 # バックアップジョブの更新と削除

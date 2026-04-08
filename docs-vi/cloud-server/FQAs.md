@@ -4,6 +4,7 @@ title: "Câu hỏi thường gặp về Token"
 description: "Giải đáp các câu hỏi thường gặp khi sử dụng Token trên FPT Cloud."
 sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: 45
+draft: true
 ---
 
 # Câu hỏi thường gặp về Token

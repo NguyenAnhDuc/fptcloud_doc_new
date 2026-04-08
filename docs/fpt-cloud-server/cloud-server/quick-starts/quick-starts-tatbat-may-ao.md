@@ -25,4 +25,4 @@ When a virtual machine is **powered off**, costs still apply because resources h
 
 ## Next steps
 
-- [Reboot virtual machine](./quick-starts-khoi-dong-lai-may-ao.md)
+- [Reboot virtual machine](/docs/en/fpt-cloud-server/cloud-server/quick-starts/quick-starts-khoi-dong-lai-may-ao)

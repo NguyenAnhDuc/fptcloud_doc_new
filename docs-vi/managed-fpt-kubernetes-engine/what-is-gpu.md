@@ -4,6 +4,7 @@ title: "GPU là gì?"
 description: "Giới thiệu về GPU và nhu cầu sử dụng GPU trên Kubernetes."
 sidebar_label: "GPU là gì?"
 sidebar_position: "31"
+draft: true
 ---
 
 # GPU là gì?

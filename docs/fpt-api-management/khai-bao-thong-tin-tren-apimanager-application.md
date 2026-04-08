@@ -4,6 +4,7 @@ title: "Configure information on ApiManager Application"
 sidebar_label: "Configure information on ApiManager Application"
 sidebar_position: "5"
 description: "Guide to configuring information on ApiManager Application after registering the service."
+draft: true
 ---
 
 # Configure information on ApiManager Application

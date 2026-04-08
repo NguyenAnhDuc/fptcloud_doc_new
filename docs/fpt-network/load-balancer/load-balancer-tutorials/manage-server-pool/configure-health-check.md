@@ -43,4 +43,4 @@ Select the health check protocol based on the Server Pool protocol:
 | TCP | Y | Y | Y | N | Y | Y | N |
 | UDP | Y | N | N | Y | Y | N | Y |
 
-Health check is configured when creating or updating a Server Pool. See [Create a Server Pool](./create-server-pool.md) for the full configuration reference.
+Health check is configured when creating or updating a Server Pool. See [Create a Server Pool](/docs/en/fpt-network/load-balancer/load-balancer-tutorials/manage-server-pool/create-server-pool) for the full configuration reference.

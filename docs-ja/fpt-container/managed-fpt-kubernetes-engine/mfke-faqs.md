@@ -36,7 +36,7 @@ M-FKE はネイティブ Kubernetes を使用しているため、AWS、Azure、
 
 **6. クラスター外にアプリケーションを公開するにはどうすればよいですか？**
 
-クラスター外にアプリケーションを公開してユーザーが使用できるようにする方法はいくつかあります。最も簡単な方法の 1 つは、Service Type LoadBalancer を使用することです。詳細は[service-type-load-balancer](./service-type-load-balancer.md)を参照してください。
+クラスター外にアプリケーションを公開してユーザーが使用できるようにする方法はいくつかあります。最も簡単な方法の 1 つは、Service Type LoadBalancer を使用することです。詳細は[service-type-load-balancer](/docs/ja/fpt-container/managed-fpt-kubernetes-engine/tutorials/service-type-load-balancer)を参照してください。
 
 **7. クラスターのパフォーマンスを監視してアラートを設定するにはどうすればよいですか？**
 

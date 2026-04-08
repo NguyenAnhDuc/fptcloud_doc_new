@@ -10,7 +10,7 @@ sidebar_position: 3
 
 Only **Org Admin** and **Team Manager** have permission to edit the GitLab integration.
 
-See [permission details](./quan-ly-member.md).
+See [permission details](/docs/en/fpt-appsec/tutorials/organization-management/quan-ly-member).
 
 ## Configure GitLab
 
@@ -44,16 +44,16 @@ The system validates required fields and the Personal Access Token. If either ch
 
 ## View details
 
-See [GitHub integration guide](./guide-github.md).
+See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github).
 
 ## Reconfigure GitLab Cloud
 
-See [GitHub integration guide](./guide-github.md).
+See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github).
 
 ## Disable GitLab Cloud integration
 
-See [GitHub integration guide](./guide-github.md).
+See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github).
 
 ## Access key for CI/CD pipeline
 
-See [GitHub integration guide](./guide-github.md).
+See [GitHub integration guide](/docs/en/fpt-appsec/tutorials/integration-management/guide-github).

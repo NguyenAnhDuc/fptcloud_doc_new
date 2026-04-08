@@ -4,6 +4,7 @@ title: "Tại sao nên sử dụng GPU trên Cloud?"
 description: "Lợi ích của việc sử dụng GPU trên nền tảng cloud thay vì on-premise."
 sidebar_label: "Tại sao nên sử dụng GPU trên Cloud?"
 sidebar_position: "32"
+draft: true
 ---
 
 # Tại sao nên sử dụng GPU trên Cloud?

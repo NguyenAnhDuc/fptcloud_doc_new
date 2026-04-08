@@ -18,4 +18,4 @@ Chi phí sử dụng GPU Container bao gồm các thành phần sau:
 - **Chi phí lưu trữ liên tục**: Được tính theo giây khi container tồn tại, kể cả khi dừng. Hiện tại là $0.0066/GB/giờ.
 - **Lưu trữ tạm thời**: Miễn phí.
 
-Xem thêm thông tin tại [Payment Model](./payment-model.md) và [Billing Overview](./billing-overview.md).
+Xem thêm thông tin tại [Payment Model](/docs/vi/gpu-container/payment-model) và [Billing Overview](/docs/vi/gpu-container/billing-overview).

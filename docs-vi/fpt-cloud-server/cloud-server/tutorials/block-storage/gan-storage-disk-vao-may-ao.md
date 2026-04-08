@@ -27,4 +27,4 @@ Sau khi tạo, bạn có thể gắn Storage Disk vào máy ảo để sử dụ
 
 ## Bước tiếp theo
 
-- [Cấu hình ổ đĩa cho máy ảo chạy Windows](./cau-hinh-o-dia-cho-may-ao-chay-windows.md)
+- [Cấu hình ổ đĩa cho máy ảo chạy Windows](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/cau-hinh-o-dia-cho-may-ao-chay-windows)

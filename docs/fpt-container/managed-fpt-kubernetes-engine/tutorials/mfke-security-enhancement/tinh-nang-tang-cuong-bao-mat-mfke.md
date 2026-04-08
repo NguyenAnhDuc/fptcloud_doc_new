@@ -12,10 +12,10 @@ FPT Cloud Managed Kubernetes Engine (M-FKE) provides multiple security enhanceme
 
 Available security features:
 
-- **[Benchmark Security](./tinh-nang-benchmark-cluster.md)**: Evaluates worker node kubelet configuration against CIS (Center for Internet Security) standards.
-- **[Runtime Security](./tinh-nang-runtime-security-cluster.md)**: Detects anomalous behavior in Kubernetes clusters in real time using Falco. You can receive alerts via Telegram or Gmail.
-- **[Workload Scan](./tinh-nang-workload-scan.md)**: Scans for security vulnerabilities in container images, evaluates RBAC configuration, and generates configuration audit reports using Trivy.
-- **[Audit Log](./audit-log-vn.md)**: Records all API requests and operations sent to the kube-apiserver, supporting security analysis and compliance.
+- **[Benchmark Security](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/mfke-security-enhancement/tinh-nang-benchmark-cluster)**: Evaluates worker node kubelet configuration against CIS (Center for Internet Security) standards.
+- **[Runtime Security](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/mfke-security-enhancement/tinh-nang-runtime-security-cluster)**: Detects anomalous behavior in Kubernetes clusters in real time using Falco. You can receive alerts via Telegram or Gmail.
+- **[Workload Scan](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/mfke-security-enhancement/tinh-nang-workload-scan)**: Scans for security vulnerabilities in container images, evaluates RBAC configuration, and generates configuration audit reports using Trivy.
+- **[Audit Log](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/mfke-security-enhancement/audit-log-vn)**: Records all API requests and operations sent to the kube-apiserver, supporting security analysis and compliance.
 
 :::note
 All security enhancement features are only available after the cluster is successfully created (status: Succeeded/Running).

@@ -4,6 +4,7 @@ title: "Version Policy"
 description: "FPT Database Engine applies a flexible database engine version policy for the supported database types to ensure that:"
 sidebar_label: "Version Policy"
 sidebar_position: "4"
+draft: true
 ---
 
 # Version Policy

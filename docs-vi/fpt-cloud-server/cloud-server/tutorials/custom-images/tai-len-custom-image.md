@@ -44,4 +44,4 @@ FPT Cloud hỗ trợ sử dụng Custom Image khi khởi tạo máy ảo. Bạn 
 
 ## Bước tiếp theo
 
-- [Xóa Custom Image](./xoa-custom-image.md)
+- [Xóa Custom Image](/docs/vi/fpt-cloud-server/cloud-server/tutorials/custom-images/xoa-custom-image)

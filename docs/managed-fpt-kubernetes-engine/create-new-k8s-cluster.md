@@ -4,6 +4,7 @@ title: "Create a new Kubernetes cluster"
 description: "Note: Some mandatory conditions for performing this operation:"
 sidebar_label: "Create a new Kubernetes cluster"
 sidebar_position: 4
+draft: true
 ---
 
 # Create a new Kubernetes cluster

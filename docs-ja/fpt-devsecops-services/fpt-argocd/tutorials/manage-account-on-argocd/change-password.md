@@ -16,10 +16,10 @@ sidebar_position: 7
 
 1. **Security & Access** → **Local Account**画面で、**Change Password**を選択します。
 
-![Change Password画面](images/change-password/img-001.png)
+![Change Password画面](/img/migrated/docs-ja-fpt-argocd/change-password/img-001.png)
 
 2. 新しいパスワードを入力します。
 
-![新しいパスワード入力フォーム](images/change-password/img-002.png)
+![新しいパスワード入力フォーム](/img/migrated/docs-ja-fpt-argocd/change-password/img-002.png)
 
 3. **Change Password**をクリックして完了します。

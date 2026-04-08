@@ -4,6 +4,7 @@ title: "Quản lý Kubernetes cluster"
 description: "Hướng dẫn quản lý vòng đời đầy đủ của Kubernetes cluster trên Dedicated FPT Kubernetes Engine."
 sidebar_label: "Quản lý Kubernetes cluster"
 sidebar_position: "3"
+draft: true
 ---
 
 # Quản lý Kubernetes cluster

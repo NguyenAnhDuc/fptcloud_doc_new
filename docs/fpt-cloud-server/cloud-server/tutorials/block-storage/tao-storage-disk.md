@@ -32,4 +32,4 @@ The new Storage Disk appears on the **Storage Disk Management** page.
 
 ## Next Steps
 
-- [Attach a Storage Disk to an Instance](./gan-storage-disk-vao-may-ao.md)
+- [Attach a Storage Disk to an Instance](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/gan-storage-disk-vao-may-ao)

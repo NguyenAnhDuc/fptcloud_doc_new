@@ -26,4 +26,4 @@ When you no longer need a connection to a Subnet, you can remove the network car
 
 ## Next steps
 
-- [View virtual machine details](./tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao.md)
+- [View virtual machine details](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao)

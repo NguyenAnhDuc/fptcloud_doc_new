@@ -4,6 +4,7 @@ title: "Phân quyền tính năng database"
 description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
 sidebar_label: "Phân quyền tính năng database"
 sidebar_position: 6
+draft: true
 ---
 
 # Phân quyền tính năng database

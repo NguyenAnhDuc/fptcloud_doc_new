@@ -12,8 +12,8 @@ Topics distribute messages using the publish/subscribe model — one published m
 
 See the detailed guides:
 
-- [Create a topic](./Create-topics.md)
-- [Create a subscription](./Create-Subscriptions.md)
-- [Edit a topic](./Edit-topics.md)
-- [Send and receive messages in topics](./Send-Receive-messages-in-topics.md)
-- [Delete a topic](./Delete-topics.md)
+- [Create a topic](/docs/en/fpt-integration/fpt-message-bus/Create-topics)
+- [Create a subscription](/docs/en/fpt-integration/fpt-message-bus/Create-Subscriptions)
+- [Edit a topic](/docs/en/fpt-integration/fpt-message-bus/Edit-topics)
+- [Send and receive messages in topics](/docs/en/fpt-integration/fpt-message-bus/Send-Receive-messages-in-topics)
+- [Delete a topic](/docs/en/fpt-integration/fpt-message-bus/Delete-topics)

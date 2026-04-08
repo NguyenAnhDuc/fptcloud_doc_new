@@ -17,7 +17,7 @@ To reset the machine, follow these steps:
 
 A confirmation dialog will appear. Select Reset to proceed with restarting the machine.
 
-![reset](images/hpc-rest-machine/img-001.jpg)
+![reset](/img/migrated/docs-cloud-server/hpc-rest-machine/img-001.jpg)
 
   2. Wait a few minutes after the machine resets successfully, then download the RDP file again and reconnect to the machine.
 

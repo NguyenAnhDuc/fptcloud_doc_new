@@ -14,7 +14,7 @@ sidebar_position: 10
 
 クレジット残高はヘッダーの上部に表示されます。
 
-チャージするには、**「Add credit」** をクリックして[請求ガイド](./billing.md)を参照してください。
+チャージするには、**「Add credit」** をクリックして[請求ガイド](/docs/ja/fpt-ai-factory/ai-marketplace/billing)を参照してください。
 
 :::note
 この **残高** は、ご登録いただいた AI Factory のすべての有料サービスに対して請求されます。

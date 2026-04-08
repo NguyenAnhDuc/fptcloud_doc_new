@@ -4,6 +4,7 @@ title: "Param"
 description: "In a database management system (DBMS), a parameter is a configuration value that helps adjust and control the character"
 sidebar_label: "Param"
 sidebar_position: "33"
+draft: true
 ---
 
 # Param

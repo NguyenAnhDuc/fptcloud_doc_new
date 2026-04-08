@@ -59,5 +59,5 @@ Tham khảo thêm: tài liệu [Nvidia về DCGM metrics.](https://docs.nvidi
 **· Autoscale mức Node:**
 Giống như Cluster Autoscale thông thường, cụm Kubernetes sẽ tự động tăng/giảm worker node trong worker group dựa theo yêu cầu sử dụng GPU: tự động scale thêm các worker mới trong một worker group nếu như ứng dụng chạy trên worker group đó không được đáp ứng đủ tài nguyên (GPU) bởi các worker nodes của pool đó. Khi đó, những pod bị pending do node không đủ tài nguyên sẽ được phục vụ bởi các worker nodes mới sau khi scale lên. Tính năng Cluster Autoscale cũng tự động xóa các nodes không sử dụng đủ lượng utilization (mặc định là 50%) của node đó.
 Thao tác cấu hình số lượng nodes worker group được định nghĩa trên FPTCloud Portal như hình sau: 
-**Tham khảo thêm** : [FPT Cloud Managed Kubernetes Autoscaler](./cluster-autoscale.md)
+**Tham khảo thêm** : [FPT Cloud Managed Kubernetes Autoscaler](/docs/vi/fpt-container/managed-fpt-kubernetes-engine/tutorials/modify-k8s-cluster-configuration/cluster-autoscale)
 [![](/img/migrated/Picture22-1-1be5f3e3.png)](/img/migrated/Picture22-1-1be5f3e3.png)

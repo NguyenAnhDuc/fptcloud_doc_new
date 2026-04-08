@@ -16,4 +16,4 @@ sidebar_position: 3
 - この時間内に接続が完了しない、またはリクエストへの応答がない場合、接続は閉じられます。
 - タイムアウトの設定により、接続やリクエストがハングしてリソースを消費し続ける状況を防ぎます。
 
-タイムアウトはリスナーの作成または更新時に設定します。詳細は[リスナーの作成](./create-listener.md)を参照してください。
+タイムアウトはリスナーの作成または更新時に設定します。詳細は[リスナーの作成](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/create-listener)を参照してください。

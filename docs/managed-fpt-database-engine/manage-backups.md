@@ -4,6 +4,7 @@ title: "Manage backups"
 description: "Overview of backup management for FPT Smart Cloud Database Engine."
 sidebar_label: "Manage backups"
 sidebar_position: 11
+draft: true
 ---
 
 # Manage backups

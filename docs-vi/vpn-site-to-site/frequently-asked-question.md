@@ -4,6 +4,7 @@ title: "Câu hỏi thường gặp (chi tiết)"
 description: "Câu hỏi thường gặp và giải đáp về VPN Site-to-Site trên FPT Cloud."
 sidebar_label: "Câu hỏi thường gặp (chi tiết)"
 sidebar_position: "30"
+draft: true
 ---
 
 # Câu hỏi thường gặp

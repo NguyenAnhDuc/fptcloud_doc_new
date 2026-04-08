@@ -22,4 +22,4 @@ sidebar_position: 6
 
 ## 次のステップ
 
-- [マシンのリセット](./hpc-rest-machine.md)
+- [マシンのリセット](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-rest-machine)

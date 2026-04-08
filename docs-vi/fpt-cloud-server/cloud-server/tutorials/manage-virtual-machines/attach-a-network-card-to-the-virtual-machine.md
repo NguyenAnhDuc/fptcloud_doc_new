@@ -12,21 +12,21 @@ Bạn có thể gắn tối đa 10 card mạng vào một máy ảo. Để gắn
 
 **Bước 1**: Trên menu chọn **Compute Engine** > **Instance Management**. Chọn máy ảo cần gắn **Subnet** để vào trang **Instance Detail**.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-001.png)
 
 **Bước 2**: Mở tab **Network Interface**. Hệ thống sẽ hiển thị danh sách các card mạng đang được gắn với máy ảo cũng như thông tin của **Subnet** mà card mạng ấy đang kết nối đến. Chọn **Add NIC**.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-002.png)
 
 **Bước 3**: Chọn **Subnet** trong **VPC** cần gắn với máy ảo. Chọn **Add NIC** để xác nhận.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-003.png)
 
 Hệ thống sẽ xử lý và thông báo kết quả.
 
 Nếu thành công, card mạng mới sẽ được hiển thị ở bảng **Network**.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-004.png)
 
 Sau khi add ở FPT Portal, thường thì các máy ảo Windows và Linux sẽ tự động nhận card mạng mới, người dùng sẽ không cần thực hiện bất kỳ cấu hình thủ công nào.
 
@@ -43,7 +43,7 @@ Hoặc
     Copy$ ip addr
 [/code]
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-005.png)
 
 ### Đặt địa chỉ IP tĩnh
 Ubuntu 20.04 sử dụng netplan làm trình quản lý mạng mặc định. Tệp cấu hình cho netplan được lưu trữ trong thư mục / etc / netplan . Bạn có thể tìm thấy tệp cấu hình này được liệt kê trong thư mục / etc / netplan lệnh sau:
@@ -62,6 +62,6 @@ Lưu ý: có thể có tệp cấu hình có tên không phải là 01-network-m
 
 Sau đó, thêm các dòng sau bằng cách thay thế tên giao diện, địa chỉ IP, cổng và thông tin DNS phù hợp với nhu cầu mạng.
 
-![file](images/attach-a-network-card-to-the-virtual-machine/img-006.png)
+![file](/img/migrated/docs-vi-cloud-server/attach-a-network-card-to-the-virtual-machine/img-006.png)
 
 khỏi máy ảo")

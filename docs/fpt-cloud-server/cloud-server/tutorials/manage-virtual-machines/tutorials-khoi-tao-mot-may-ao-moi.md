@@ -10,7 +10,7 @@ Create a New Virtual Machine
 
 **Step 1**: In the menu, select **Compute Engine** > **Instance Management**, then click **Create instance**.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-001.png)
+![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-001.png)
 
 **Step 2**: Configure the virtual machine according to your needs with the following options:
 
@@ -73,15 +73,15 @@ Create a New Virtual Machine
       passwd: abc@123Abc123
 [/code]
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-002.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-003.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-004.png) ![](images/tutorials-khoi-tao-mot-may-ao-moi/img-005.png)
+![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-002.png) ![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-003.png) ![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-004.png) ![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-005.png)
 
 **Step 3**: Click **Create Instance** to create the virtual machine. The system will display a confirmation, verify resources, and proceed with the initialization of the new virtual machine based on the selected configuration.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-006.png)
+![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-006.png)
 
 After successful initialization, users can see the newly created virtual machine and check its information on the management dashboard. Each virtual machine will display complete information about its name, configuration (RAM, CPU, Storage), IP address, and operating status (Off/On/Suspended) on the panel.
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-007.png)
+![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-007.png)
 
 ## Notes When Creating a Virtual Machine from an ISO File
 The Unify Portal system currently supports customers creating virtual machines from ISO files.
@@ -105,4 +105,4 @@ The Unify Portal system currently supports customers creating virtual machines f
   * Note that using the SATA disk bus may reduce disk performance, so this feature should only be used when your ISO file is not compatible with Virtio. Please refer to the manufacturer's documentation to select the appropriate mode.
 
 
-![](images/tutorials-khoi-tao-mot-may-ao-moi/img-008.png)
+![](/img/migrated/docs-cloud-server/tutorials-khoi-tao-mot-may-ao-moi/img-008.png)

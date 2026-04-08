@@ -12,5 +12,5 @@ FPT Cloud Monitoring cung cấp khả năng trực quan hóa dữ liệu thông 
 
 Xem chi tiết tại các mục sau:
 
-- [Truy cập vào dashboard](truy-cap-vao-dashboard.md)
-- [Cài đặt dashboard template](fcmon-dashboard-template.md)
+- [Truy cập vào dashboard](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard)
+- [Cài đặt dashboard template](/docs/vi/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/fcmon-dashboard-template)

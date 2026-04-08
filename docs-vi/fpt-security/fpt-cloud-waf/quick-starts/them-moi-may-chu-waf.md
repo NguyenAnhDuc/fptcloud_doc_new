@@ -10,11 +10,11 @@ Thêm mới máy chủ WAF
 
 **Bước 1:** Ở menu chọn **Security > Cloud WAF**, chọn **Create WAF.**
 
-![Userguide FPT WAF 2022 1](images/them-moi-may-chu-waf/img-001.png)
+![Userguide FPT WAF 2022 1](/img/migrated/docs-vi-fpt-cloud-waf/them-moi-may-chu-waf/img-001.png)
 
 **Bước 2:** Nhập thông tin **WAF** và chọn size phù hợp.
 
-![Userguide FPT WAF 2022 2](images/them-moi-may-chu-waf/img-002.png)
+![Userguide FPT WAF 2022 2](/img/migrated/docs-vi-fpt-cloud-waf/them-moi-may-chu-waf/img-002.png)
 
 **Field** | **Description** | **Value**
 ---|---|---

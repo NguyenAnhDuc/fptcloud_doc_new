@@ -12,9 +12,9 @@ sidebar_position: 1
 
 以下のガイドを参考に、実際のワークロードをデプロイしてみてください：
 
-- [シングルGPUの例：vLLMを使ったLLMの推論サービング](./single-gpu-example.md) — 1つのGPUを使用してLLMを推論サービングする基本的な例。
-- [マルチGPUの例：vLLMを使ったLLMの推論サービング](./multi-gpus-example.md) — 複数のGPUを使用してLLMをサービングする例。
-- [マルチノードの例：vLLMとマルチホストサービング](./multi-nodes-example.md) — 複数のノードにまたがってLLMをサービングする例。
-- [KubernetesでUnslothを使ってLLMモデルをファインチューニングする](./finetune-llm-models.md) — UnslothでLLMモデルをファインチューニングする例。
+- [シングルGPUの例：vLLMを使ったLLMの推論サービング](/docs/ja/managed-gpu-cluster-kubernetes/tutorials/deploy-gpu-workload-to-managed-gpu-cluster/single-gpu-example) — 1つのGPUを使用してLLMを推論サービングする基本的な例。
+- [マルチGPUの例：vLLMを使ったLLMの推論サービング](/docs/ja/managed-gpu-cluster-kubernetes/tutorials/deploy-gpu-workload-to-managed-gpu-cluster/multi-gpus-example) — 複数のGPUを使用してLLMをサービングする例。
+- [マルチノードの例：vLLMとマルチホストサービング](/docs/ja/managed-gpu-cluster-kubernetes/tutorials/deploy-gpu-workload-to-managed-gpu-cluster/multi-nodes-example) — 複数のノードにまたがってLLMをサービングする例。
+- [KubernetesでUnslothを使ってLLMモデルをファインチューニングする](/docs/ja/managed-gpu-cluster-kubernetes/tutorials/deploy-gpu-workload-to-managed-gpu-cluster/finetune-llm-models) — UnslothでLLMモデルをファインチューニングする例。
 
 これらのガイドには、必要なマニフェスト、設定手順、および動作確認方法が含まれています。

@@ -4,6 +4,7 @@ title: Use File Storage - High Performance on Kubernetes (K8S Cluster)
 sidebar_label: Use File Storage - High Performance on Kubernetes (K8S Cluster)
 sidebar_position: "6"
 description: "Kubernetes クラスターで File Storage – High Performance を使用する手順。"
+draft: true
 ---
 
 # Use File Storage - High Performance on Kubernetes (K8S Cluster)

@@ -12,7 +12,7 @@ pagination_next: null
 
 ## ダッシュボードテンプレートをインストールする
 
-**手順 1:** [ダッシュボードにアクセスします](truy-cap-vao-dashboard.md)。
+**手順 1:** [ダッシュボードにアクセスします](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard)。
 
 **手順 2:** 左メニューで **Apps** > **FMON Template** をクリックします。
 
@@ -26,7 +26,7 @@ pagination_next: null
 
 ## ダッシュボードテンプレートを削除する
 
-**手順 1:** [ダッシュボードにアクセスします](truy-cap-vao-dashboard.md)。
+**手順 1:** [ダッシュボードにアクセスします](/docs/ja/fpt-monitoring/fpt-cloud-monitoring/detailed-guide/7-data-visualization/truy-cap-vao-dashboard)。
 
 **手順 2:** 左メニューで **Apps** > **FMON Template** をクリックします。
 

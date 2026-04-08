@@ -12,6 +12,6 @@ File Storage – High Performance tại khu vực Việt Nam cho phép truy cậ
 
 Xem hướng dẫn sử dụng chi tiết tại:
 
-- [Quản lý MountPoint](./quan-ly-mountpoint)
-- [Sử dụng trên Baremetal (GPU Server)](./vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
+- [Quản lý MountPoint](/docs/vi/fpt-storage/file-storage-high-performance/tutorials/vietnam-region/quan-ly-mountpoint)
+- [Sử dụng trên Baremetal (GPU Server)](/docs/vi/fpt-storage/file-storage-high-performance/tutorials/vietnam-region/vn-su-dung-file-storage-high-performance-tren-baremetal-gpu-server)
 - [Sử dụng trên Kubernetes (K8S Cluster)](./su-dung-file-storage-high-performance-tren-kubernetes-k8s-cluster)

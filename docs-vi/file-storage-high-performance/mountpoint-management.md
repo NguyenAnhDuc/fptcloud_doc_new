@@ -4,6 +4,7 @@ title: "Quản lý Mount Point"
 description: "Trong hệ thống FPT File Storage – High Performance, Mount Point là điểm truy cập logic cho phép người dùng kết nối đến thư mục cụ thể trong storage pool."
 sidebar_label: "Quản lý Mount Point"
 sidebar_position: "4"
+draft: true
 ---
 
 # Quản lý Mount Point

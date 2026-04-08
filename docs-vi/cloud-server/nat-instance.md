@@ -3,6 +3,7 @@ id: "nat-instance"
 title: "Tổng quan NAT Instance"
 sidebar_label: "Tổng quan NAT Instance"
 sidebar_position: 54
+draft: true
 ---
 
 # Tổng quan NAT Instance

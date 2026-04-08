@@ -35,4 +35,4 @@ The new size must be larger than the current size — you cannot reduce a Storag
 
 ## Next Steps
 
-- [Delete a Storage Disk](./xoa-storage-disk.md)
+- [Delete a Storage Disk](/docs/en/fpt-cloud-server/cloud-server/tutorials/block-storage/xoa-storage-disk)

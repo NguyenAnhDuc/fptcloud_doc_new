@@ -4,6 +4,7 @@ title: "What is GPU"
 description: "**Graphics Processing Units** – GPUs are processors that utilize parallel processing and high memory bandwidth to perfor"
 sidebar_label: "What is GPU"
 sidebar_position: 31
+draft: true
 ---
 
 # What is GPU

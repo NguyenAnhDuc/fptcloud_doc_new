@@ -4,6 +4,7 @@ title: "Thay đổi cấu hình Cluster Autoscale"
 description: "Hướng dẫn thay đổi cấu hình Cluster Autoscale trên cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Thay đổi cấu hình Cluster Autoscale"
 sidebar_position: "16"
+draft: true
 ---
 
 # Thay đổi cấu hình Cluster Autoscale

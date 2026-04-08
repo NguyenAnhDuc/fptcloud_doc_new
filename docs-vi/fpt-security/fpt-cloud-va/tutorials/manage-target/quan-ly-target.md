@@ -12,11 +12,11 @@ sidebar_position: 1
 
 Các thao tác quản lý Target bao gồm:
 
-- [Tạo một Target mới](tao-target.md)
-- [Kiểm tra trạng thái scan của Target](kiem-tra-trang-thai-target.md)
-- [Chỉnh sửa cấu hình scan Target](update-target.md)
-- [Scan Now](scan-now.md)
-- [Xóa Target](xoa-target.md)
-- [Lấy Header trang web](lay-header.md)
-- [Lấy Cookie trang web](lay-cookie.md)
-- [Mở Remote Registry trên Windows để sử dụng SMB](mo-remote-registry-window.md)
+- [Tạo một Target mới](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/tao-target)
+- [Kiểm tra trạng thái scan của Target](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/kiem-tra-trang-thai-target)
+- [Chỉnh sửa cấu hình scan Target](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/update-target)
+- [Scan Now](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/scan-now)
+- [Xóa Target](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/xoa-target)
+- [Lấy Header trang web](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header)
+- [Lấy Cookie trang web](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie)
+- [Mở Remote Registry trên Windows để sử dụng SMB](/docs/vi/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window)

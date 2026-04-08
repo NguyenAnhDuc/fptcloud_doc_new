@@ -16,4 +16,4 @@ Gắn VPC vào Project ngay khi tạo là cách tiếp cận được khuyến n
 
 ## Các bước tiếp theo
 
-- [Thay đổi giao diện header](./header-project.md)
+- [Thay đổi giao diện header](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-project/header-project)

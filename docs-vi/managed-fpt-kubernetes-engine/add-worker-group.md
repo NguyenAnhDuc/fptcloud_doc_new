@@ -4,6 +4,7 @@ title: "Thêm worker group"
 description: "Hướng dẫn thêm worker group mới vào cluster Managed FPT Kubernetes Engine đã có."
 sidebar_label: "Thêm worker group"
 sidebar_position: "10"
+draft: true
 ---
 
 # Thêm worker group

@@ -5,6 +5,7 @@ description: "**Bước 1:** Xem danh sách DB Proxy"
 sidebar_label: Thao tác với DB Proxy
 sidebar_position: 22
 pagination_next: null
+draft: true
 ---
 
 # Thao tác với DB Proxy

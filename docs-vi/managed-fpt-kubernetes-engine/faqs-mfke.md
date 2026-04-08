@@ -4,6 +4,7 @@ title: "Câu hỏi thường gặp"
 description: "Các câu hỏi thường gặp về dịch vụ Managed FPT Kubernetes Engine."
 sidebar_label: "Câu hỏi thường gặp"
 sidebar_position: "28"
+draft: true
 ---
 
 # Câu hỏi thường gặp

@@ -4,6 +4,7 @@ title: "Create Auth Method"
 sidebar_label: "Create Auth Method"
 sidebar_position: "15"
 description: "アプリケーションをVaultに認証させるAuth Methodを新規作成する方法"
+draft: true
 ---
 
 # Create Auth Method

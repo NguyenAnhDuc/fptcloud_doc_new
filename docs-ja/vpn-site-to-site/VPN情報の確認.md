@@ -4,6 +4,7 @@ title: "VPN情報の確認"
 description: "VPN接続の詳細情報とステータスを確認するガイドです。"
 sidebar_label: "VPN情報の確認"
 sidebar_position: 3
+draft: true
 ---
 
 # VPN情報の確認

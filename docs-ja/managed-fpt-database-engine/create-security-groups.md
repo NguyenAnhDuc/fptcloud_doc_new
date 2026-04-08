@@ -4,6 +4,7 @@ title: "セキュリティグループの作成"
 description: "Database Engine 用のセキュリティグループを作成する手順。"
 sidebar_label: "セキュリティグループの作成"
 sidebar_position: 3
+draft: true
 ---
 
 # セキュリティグループの作成

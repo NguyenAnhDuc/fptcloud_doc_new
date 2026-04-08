@@ -10,7 +10,7 @@ sidebar_position: 24
 
 1. 左メニューで **Apps** > **Incident** をクリックします。
 2. **Integration** をクリックします。
-3. **Incoming webhook** を設定します（未設定の場合は[インテグレーション設定ガイド](./configure-integrations.md)を参照してください）。
+3. **Incoming webhook** を設定します（未設定の場合は[インテグレーション設定ガイド](/docs/ja/fpt-monitoring/incident-management/configure-integrations)を参照してください）。
 4. 設定完了後、**Show details** をクリックして詳細情報を確認します。
 
 [![Incoming webhookの詳細](/img/migrated/Screenshot_27-8a7004f4.png)](/img/migrated/Screenshot_27-8a7004f4.png)

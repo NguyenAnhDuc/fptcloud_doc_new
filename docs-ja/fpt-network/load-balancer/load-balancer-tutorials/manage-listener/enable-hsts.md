@@ -12,10 +12,10 @@ sidebar_position: 10
 
 FPT ロードバランサーの HTTPS リスナーで **HSTS** を有効にすると、ブラウザは HTTPS のみで通信するよう強制されます。
 
-リスナーの作成方法については[リスナーの作成](./create-listener.md)を参照してください。
+リスナーの作成方法については[リスナーの作成](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-listener/create-listener)を参照してください。
 
 :::note
-この機能を使用するには、プロトコルとして **TERMINATED_HTTPS** を選択し、SSL 証明書をリスナーに添付する必要があります。SSL 証明書がない場合は[SSL 証明書のインポート](./import-ssl-certificate.md)を参照してください。
+この機能を使用するには、プロトコルとして **TERMINATED_HTTPS** を選択し、SSL 証明書をリスナーに添付する必要があります。SSL 証明書がない場合は[SSL 証明書のインポート](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-ssl-certificate/import-ssl-certificate)を参照してください。
 :::
 
 リスナーの作成または更新時に **HSTS** を有効にし、以下を設定します：

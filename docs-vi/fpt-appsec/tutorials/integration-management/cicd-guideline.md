@@ -40,9 +40,9 @@ _Khởi tạo quét mã nguồn cho một kho lưu trữ và commit cụ thể t
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
+| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](/docs/vi/fpt-appsec/tutorials/team-management/cai-dat-team)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, lấy access_key tại màn hình Integration detail[tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, lấy access_key tại màn hình Integration detail[tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
 | commit  | string  | Không  | SHA của commit trên nhánh cần quét  |  
 **Ví dụ**
@@ -104,9 +104,9 @@ _Khởi tạo quét mã nguồn cho một kho lưu trữ và commit cụ thể t
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
+| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](/docs/vi/fpt-appsec/tutorials/team-management/cai-dat-team)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
 | commit  | string  | Có  | SHA của commit trên nhánh cần quét  |  
 **Ví dụ**
@@ -169,9 +169,9 @@ Copy{
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
+| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](/docs/vi/fpt-appsec/tutorials/team-management/cai-dat-team)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
 | commit  | string  | Không  | SHA của commit trên nhánh cần quét  |  
 **Ví dụ**
@@ -232,9 +232,9 @@ Copy{
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
+| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](/docs/vi/fpt-appsec/tutorials/team-management/cai-dat-team)  |  
 | git_repo_url  | string  | Có  | URL kho lưu trữ Git (ví dụ: GitHub hoặc GitLab)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp để truy cập kho lưu trữ, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 | branch  | string  | Có  | Tên nhánh cần quét  |  
 | commit  | string  | Có  | SHA của commit trên nhánh cần quét  |  
 **Ví dụ**
@@ -296,8 +296,8 @@ Copy{
 Content-Type: application/json  
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
-| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](./cai-dat-team.md)  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp cho registry image, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| team_code  | string  | Có  | Mã của nhóm FSEC, cách lấy team_code [tại đây](/docs/vi/fpt-appsec/tutorials/team-management/cai-dat-team)  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp cho registry image, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 | image_url  | string  | Có  | Đường dẫn registry và tag của image (ví dụ: repo:tag)  |  
 **Ví dụ**
 
@@ -357,7 +357,7 @@ Content-Type: application/json
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
 | request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-code  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 **Ví dụ**
 
 ```
@@ -430,7 +430,7 @@ Content-Type: application/json
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
 | request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-secret  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 **Ví dụ**
 
 ```
@@ -503,7 +503,7 @@ Content-Type: application/json
 | Tên  | Loại  | Bắt buộc  | Mô tả  |  
 | --- | --- | --- | --- |  
 | request_code  | string  | Có  | Mã yêu cầu trả về từ /scan-image  |  
-| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](./guide-gitlabserver.md), tương tự với các loại tích hợp khác  |  
+| access_key  | string  | Có  | Khóa truy cập do FSEC cấp, cách lấy access_key của GitLab server [tại đây](/docs/vi/fpt-appsec/tutorials/integration-management/guide-gitlabserver), tương tự với các loại tích hợp khác  |  
 **Ví dụ**
 
 ```

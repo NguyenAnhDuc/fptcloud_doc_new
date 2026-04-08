@@ -13,7 +13,7 @@ Specific サービスタイプ向け Console Portal での GPU 管理
 
 **ステップ 1**: メニューで **Instance Management** を選択します。**Actions** セクションで **Add GPU** を選択します。
 
-![file](images/gpu-specific/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-specific/img-001.png)
 
 
 :::warning
@@ -35,7 +35,7 @@ Specific サービスタイプ向け Console Portal での GPU 管理
 
 **ステップ 1**: メニューで **Compute Engine** > **Instance Management** を選択し、**Create instance** をクリックします。
 
-![file](images/gpu-specific/img-002.png)
+![file](/img/migrated/docs-ja-cloud-server/gpu-specific/img-002.png)
 
 **ステップ 2**: 以下のオプションで必要に応じて仮想マシンを設定します。
 

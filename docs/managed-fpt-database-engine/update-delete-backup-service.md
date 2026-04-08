@@ -4,6 +4,7 @@ title: "Update and delete backup service"
 description: "Steps to update or delete a backup service in FPT Smart Cloud Database Engine."
 sidebar_label: "Update and delete backup service"
 sidebar_position: 14
+draft: true
 ---
 
 # Update and delete backup service

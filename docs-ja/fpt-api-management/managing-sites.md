@@ -4,6 +4,7 @@ title: "API Site の管理"
 description: "ApiManager Application で API Site を作成・編集・削除する手順です。"
 sidebar_label: "API Site の管理"
 sidebar_position: 8
+draft: true
 ---
 
 # API Site の管理

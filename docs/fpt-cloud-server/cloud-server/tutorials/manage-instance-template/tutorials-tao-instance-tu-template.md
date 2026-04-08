@@ -32,4 +32,4 @@ The Instance storage capacity must be greater than the image size.
 
 ## Next steps
 
-- [Delete a template](./tutorials-xoa-template.md)
+- [Delete a template](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-xoa-template)

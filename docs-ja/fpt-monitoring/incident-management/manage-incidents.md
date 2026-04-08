@@ -10,9 +10,9 @@ sidebar_position: 26
 
 このセクションでは、インシデント作成後の管理操作について説明します：
 
-- [インシデントの検索とフィルタリング](./filter-incidents.md)
-- [インシデントの詳細表示](./view-incident-detail.md)
-- [対応活動の記録（Post incident activity）](./post-incident-activity.md)
-- [インシデントステータスの変更](./change-the-incident-status.md)
-- [影響度の変更](./change-the-incident-severity.md)
-- [Markdownでのactivity logのエクスポート](./copy-activities-as-markdown.md)
+- [インシデントの検索とフィルタリング](/docs/ja/fpt-monitoring/incident-management/filter-incidents)
+- [インシデントの詳細表示](/docs/ja/fpt-monitoring/incident-management/view-incident-detail)
+- [対応活動の記録（Post incident activity）](/docs/ja/fpt-monitoring/incident-management/post-incident-activity)
+- [インシデントステータスの変更](/docs/ja/fpt-monitoring/incident-management/change-the-incident-status)
+- [影響度の変更](/docs/ja/fpt-monitoring/incident-management/change-the-incident-severity)
+- [Markdownでのactivity logのエクスポート](/docs/ja/fpt-monitoring/incident-management/copy-activities-as-markdown)

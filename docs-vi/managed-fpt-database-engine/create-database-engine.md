@@ -4,6 +4,7 @@ title: "Create a Database Engine"
 description: "Steps to create a new Database Engine on FPT Smart Cloud."
 sidebar_label: "Create a Database Engine"
 sidebar_position: "9"
+draft: true
 ---
 
 # Create a Database Engine

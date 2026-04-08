@@ -4,6 +4,7 @@ title: "Enable ApplicationSet"
 description: "How to enable the ApplicationSet feature in ArgoCD"
 sidebar_label: "Enable ApplicationSet"
 sidebar_position: "38"
+draft: true
 ---
 
 # Enable ApplicationSet

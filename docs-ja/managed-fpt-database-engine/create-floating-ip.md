@@ -4,6 +4,7 @@ title: "floating IP の作成"
 description: "Database Engine 用の floating IP を作成・割り当てる手順。"
 sidebar_label: "floating IP の作成"
 sidebar_position: 4
+draft: true
 ---
 
 # floating IP の作成

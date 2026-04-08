@@ -31,4 +31,4 @@ To create a new Snapshot, select **Action** → **Remove** on the existing Snaps
 
 ## Next Steps
 
-- [Hardware Fixation](./hpc-hardware-fixation.md)
+- [Hardware Fixation](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-hardware-fixation)

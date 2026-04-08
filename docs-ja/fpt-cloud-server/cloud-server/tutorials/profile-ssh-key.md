@@ -11,7 +11,7 @@ SSH Keyプロファイル
 ### 1\. SSH Keyプロファイルの作成/インポート
 **ステップ1:** メニューから**Compute Engine** > **SSH Management**を選択します。**Import SSH key**を選択します。
 
-![file](images/profile-ssh-key/img-001.png)
+![file](/img/migrated/docs-ja-cloud-server/profile-ssh-key/img-001.png)
 
 **ステップ2:** SSH Keyの作成に必要な情報を入力します：
 
@@ -28,21 +28,21 @@ SSH Keyプロファイル
 ### 2\. SSH Keyプロファイルの詳細表示
 ユーザーは**Manage SSH Key Profiles**から、**VPC**内で作成したすべての**SSH Keyプロファイル**を確認できます。
 
-![Userguide FPT Cloud Server 2022 80](images/profile-ssh-key/img-002.png)
+![Userguide FPT Cloud Server 2022 80](/img/migrated/docs-ja-cloud-server/profile-ssh-key/img-002.png)
 
 特定の**SSH Keyプロファイル**を選択すると、システムは**Name**と**Public Key**を表示します。
 
-![file](images/profile-ssh-key/img-003.png)
+![file](/img/migrated/docs-ja-cloud-server/profile-ssh-key/img-003.png)
 
 ### 3\. SSH Keyプロファイルの削除
 **Manage SSH Key Profiles**から**SSH Keyプロファイル**を削除するには、次の手順を実行します：
 
 **ステップ1:** 削除する**SSH Keyプロファイル**を選択し、**Detail**ポップアップを開きます。
 
-![Userguide FPT Cloud Server 2022 82](images/profile-ssh-key/img-004.png)
+![Userguide FPT Cloud Server 2022 82](/img/migrated/docs-ja-cloud-server/profile-ssh-key/img-004.png)
 
 **ステップ2:** **削除**アイコンをクリックします。システムはすぐに**SSH Keyプロファイル**を削除し、処理結果を表示します。
 
-![file](images/profile-ssh-key/img-005.png)
+![file](/img/migrated/docs-ja-cloud-server/profile-ssh-key/img-005.png)
 
 **注意:** この操作は**Manage SSH Key Profiles**から**SSH Keyプロファイル**を削除するだけです。この**SSH Key**を使用して作成された仮想マシンには影響しません。ユーザーは以前にダウンロードした**Private Key**ファイルを引き続き使用して仮想マシンに接続できます。

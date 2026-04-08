@@ -4,6 +4,7 @@ title: Configure Notification Channel
 description: "ArgoCD通知用にTelegram、Slack、Emailチャンネルを追加・編集・削除する方法。"
 sidebar_label: Configure Notification Channel
 sidebar_position: "41"
+draft: true
 ---
 
 # Configure Notification Channel

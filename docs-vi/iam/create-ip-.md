@@ -2,6 +2,7 @@
 id: "create-ip-"
 title: "Create Ip "
 sidebar_label: "Create Ip "
+draft: true
 ---
 
 Khởi tạo một record IP access mới

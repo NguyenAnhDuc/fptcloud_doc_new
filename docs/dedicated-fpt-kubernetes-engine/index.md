@@ -4,6 +4,7 @@ title: "Dedicated – FPT Kubernetes Engine"
 description: "Dedicated FPT Kubernetes Engine (DFKE) provides a fully managed, dedicated Kubernetes environment on FPT Cloud."
 sidebar_label: "Dedicated – FPT Kubernetes..."
 sidebar_position: 1
+draft: true
 ---
 
 # Dedicated – FPT Kubernetes Engine

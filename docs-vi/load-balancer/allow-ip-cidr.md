@@ -4,6 +4,7 @@ title: "Configure Allow IP/CIDR"
 description: "How to restrict Load Balancer access to specific IP addresses or CIDR ranges on FPT Cloud."
 sidebar_label: "Configure Allow IP/CIDR"
 sidebar_position: "16"
+draft: true
 ---
 
 # Configure Allow IP/CIDR

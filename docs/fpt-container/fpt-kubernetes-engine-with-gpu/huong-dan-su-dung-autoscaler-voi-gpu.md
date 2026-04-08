@@ -65,6 +65,6 @@ Like standard Cluster Autoscaler, the Kubernetes cluster automatically scales wo
 
 Worker group node count configuration is defined on the FPTCloud Portal as shown below:
 
-**See also:** [FPT Cloud Managed Kubernetes Autoscaler](./cluster-autoscale.md)
+**See also:** [FPT Cloud Managed Kubernetes Autoscaler](/docs/en/fpt-container/managed-fpt-kubernetes-engine/tutorials/modify-k8s-cluster-configuration/cluster-autoscale)
 
 [![](/img/migrated/Picture22-1-1be5f3e3.png)](/img/migrated/Picture22-1-1be5f3e3.png)

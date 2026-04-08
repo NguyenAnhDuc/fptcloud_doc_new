@@ -10,7 +10,7 @@ sidebar_position: "8"
 
 Để thay đổi cấu hình K8s Cluster của Managed GPU Cluster, chọn cluster cần thay đổi trên FPT Portal và thực hiện các thay đổi cấu hình mong muốn.
 
-Xem hướng dẫn chi tiết tại [Cài đặt ban đầu](./Initial-setup.md) và [Tạo Managed GPU Cluster mới](./khoi-tao-managed-gpu-cluster-moi.md).
+Xem hướng dẫn chi tiết tại [Cài đặt ban đầu](/docs/vi/managed-gpu-cluster-kubernetes/Initial-setup) và [Tạo Managed GPU Cluster mới](/docs/vi/managed-gpu-cluster-kubernetes/tutorials/manage-managed-gpu-cluster/khoi-tao-managed-gpu-cluster-moi).
 
 Nếu bạn cần hỗ trợ, liên hệ đội ngũ hỗ trợ FPT Cloud.
 

@@ -12,8 +12,8 @@ Trellix là dịch vụ Anti-Virus được FPT Smart Cloud cung cấp, giúp b�
 
 ## Nội dung
 
-- [Truy cập giao diện quản trị](./truy-cap-giao-dien-quan-tri)
-- [Tạo gói cài đặt agent và cài đặt agent](./setting-agert)
+- [Truy cập giao diện quản trị](/docs/vi/fpt-security/fortigate-fpt-ngfw/tutorials/truy-cap-giao-dien-quan-tri)
+- [Tạo gói cài đặt agent và cài đặt agent](/docs/vi/support/trellix-customer-guide/setting-agert)
 - [Quản lý client tasks](./client-task)
 - [Xem báo cáo](./report)
 - [Xem nhật ký (log)](./view-log)

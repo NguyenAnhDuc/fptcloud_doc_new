@@ -4,6 +4,7 @@ title: "GPU テレメトリーの設定"
 description: "FPT CloudのNVIDIA GPU TelemetryとPrometheus/Grafanaを使用したGPUメトリクスの監視設定について説明します。"
 sidebar_label: "GPU テレメトリーの設定"
 sidebar_position: 24
+draft: true
 ---
 
 # GPU テレメトリーの設定

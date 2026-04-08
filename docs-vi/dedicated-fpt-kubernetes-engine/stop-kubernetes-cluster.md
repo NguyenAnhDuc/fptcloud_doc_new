@@ -4,6 +4,7 @@ title: Dừng Kubernetes cluster
 description: "Bạn có thể tắt các **Cluster** đang hoạt động theo hướng dẫn sau:"
 sidebar_label: Dừng Kubernetes cluster
 sidebar_position: 9
+draft: true
 ---
 
 # Dừng Kubernetes cluster

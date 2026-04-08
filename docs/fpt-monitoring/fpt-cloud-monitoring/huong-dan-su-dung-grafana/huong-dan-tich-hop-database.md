@@ -35,7 +35,7 @@ Disable metrics and logs collection for the database cluster.
 ## Step 3: Access the Grafana dashboard and view monitoring data
 
 - After successful integration (Integrated Status = "Enabled"), click the Dashboard URL to go to Grafana.
-- Then integrate the corresponding dashboard templates — see [3.1. Integrate dashboard template](./tich-hop-dashboard-template.md).
+- Then integrate the corresponding dashboard templates — see [3.1. Integrate dashboard template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-dashboard-template).
 - Open the integrated dashboard to view monitoring information.
 
 [![](/img/migrated/Screenshot_34-e8f6a87c.png)](/img/migrated/Screenshot_34-e8f6a87c.png)

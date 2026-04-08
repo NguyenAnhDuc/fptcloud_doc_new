@@ -29,11 +29,11 @@ Go to Hosts > Fixed rental to open the Fixed Rental setup dialog.
 
 Select at least 1 image to apply Fixed Rental to, configure the Fixed Rental settings such as Rental period and Number of machines, review the discounted amount for the machine, and click **Confirm**.
 
-![8LzJfpQSTt4FgAAAAASUVORK5CYII=](images/hpc-fixed-rental/img-001.png)
+![8LzJfpQSTt4FgAAAAASUVORK5CYII=](/img/migrated/docs-cloud-server/hpc-fixed-rental/img-001.png)
 
 Alternatively, you can select a specific image first and then set up Fixed Rental for the machine by selecting Action > Fixed rental as follows:
 
-![](images/hpc-fixed-rental/img-002.png)
+![](/img/migrated/docs-cloud-server/hpc-fixed-rental/img-002.png)
 
 
   2. After setting up Fixed Rental for the machine, you can configure the Action after expired by selecting **Image > Setting** and choosing:

@@ -12,7 +12,7 @@ To create a new virtual machine snapshot schedule, follow these steps:
 
 **Step 1:** In the menu, select Compute Engine > Schedule Management, then select the Instance snapshot schedule tab.
 
-![file](images/create-schedule-snapshotVM/img-001.png)
+![file](/img/migrated/docs-cloud-server/create-schedule-snapshotVM/img-001.png)
 
 **Step 2:** Enter the required information as prompted by the system:
 
@@ -31,8 +31,8 @@ To create a new virtual machine snapshot schedule, follow these steps:
   * Applied Instance: the virtual machines attached to the schedule (Note: each virtual machine can only be attached to one schedule at a time)
 
 
-![file](images/create-schedule-snapshotVM/img-002.png)
+![file](/img/migrated/docs-cloud-server/create-schedule-snapshotVM/img-002.png)
 
 **Step 3:** Click Create Schedule. The system will proceed to initialize the schedule and notify you of the result. If successful, the new schedule will appear on the Instance snapshot schedule page.
 
-![file](images/create-schedule-snapshotVM/img-003.png)
+![file](/img/migrated/docs-cloud-server/create-schedule-snapshotVM/img-003.png)

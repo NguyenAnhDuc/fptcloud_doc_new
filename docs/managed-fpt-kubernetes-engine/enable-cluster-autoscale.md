@@ -4,6 +4,7 @@ title: "Enable cluster autoscale"
 description: "Enable Cluster Autoscale on a Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Enable cluster autoscale"
 sidebar_position: 14
+draft: true
 ---
 
 # Enable cluster autoscale

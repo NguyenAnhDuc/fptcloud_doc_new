@@ -12,14 +12,14 @@ FPT Smart Cloud chính thức ra mắt dịch vụ FPT App Catalog trên giao di
 
 ## Nội dung
 
-- [Thiết lập ban đầu](./initial-setup)
+- [Thiết lập ban đầu](/docs/vi/fpt-integration/fpt-app-catalogs/initial-setup)
 - [Tạo mới App Catalog](./tao-moi-app-catalogs)
 - [Xem thông tin chi tiết App Catalog](./xem-thong-tin-chi-tiet-app-catalog)
 - [Kết nối cluster tới App Catalog Management](./ket-noi-cluster-toi-app-catalog-management)
-- [Quản lý App Catalogs](./quan-ly-app-catalogs)
+- [Quản lý App Catalogs](/docs/vi/fpt-integration/fpt-app-catalogs/quan-ly-app-catalogs)
 - [Tìm kiếm App Catalog trong repository](./search-app-catalogs-trong-repository)
 - [Deploy App Catalog tới cluster](./deploy-app-catalogs-toi-cluster)
-- [Quản lý applications đã được deploy](./quan-ly-applications-da-duoc-deploy)
+- [Quản lý applications đã được deploy](/docs/vi/fpt-integration/fpt-app-catalogs/quan-ly-applications-da-duoc-deploy)
 - [Filter apps đã deploy theo cluster](./filter-apps-da-duoc-deploy-theo-cluster)
 - [Xem chi tiết app đã deploy](./xem-chi-tiet-app-da-deploy)
 - [Thay đổi cấu hình của applications](./thay-doi-cau-hinh-cua-applications)

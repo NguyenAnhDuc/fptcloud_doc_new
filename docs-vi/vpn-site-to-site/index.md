@@ -4,6 +4,7 @@ title: "VPN Site-to-Site"
 description: "Thiết lập kết nối VPN Site-to-Site bảo mật giữa mạng on-premise và FPT Cloud."
 sidebar_label: "VPN Site-to-Site"
 sidebar_position: 1
+draft: true
 ---
 
 # VPN Site-to-Site

@@ -5,6 +5,7 @@ description: "Guide to configuring a VPN Site-to-Site connection between FPT Clo
 sidebar_label: "Configuration with VMware"
 sidebar_position: 17
 pagination_next: null
+draft: true
 ---
 
 # VPN Site-to-Site configuration between OpenStack and VMware

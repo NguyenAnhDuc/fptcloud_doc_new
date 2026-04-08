@@ -12,7 +12,7 @@ Template là bản sao dạng Custom Image của máy ảo — bao gồm disk, t
 
 ## Hướng dẫn
 
-- [Khởi tạo template từ máy ảo](./tutorials-khoi-tao-template-tu-may-ao.md)
-- [Quản lý template trên trang Custom Images](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)
-- [Tạo Instance từ template](./tutorials-tao-instance-tu-template.md)
-- [Xóa template](./tutorials-xoa-template.md)
+- [Khởi tạo template từ máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-khoi-tao-template-tu-may-ao)
+- [Quản lý template trên trang Custom Images](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-template-duoc-tao-tu-may-ao)
+- [Tạo Instance từ template](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)
+- [Xóa template](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-xoa-template)

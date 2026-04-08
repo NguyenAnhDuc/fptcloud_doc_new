@@ -4,6 +4,7 @@ title: "サイト間VPNの作成"
 description: "FPT Cloud Portalで新しいVPN Site-to-Site接続を作成するガイドです。"
 sidebar_label: "サイト間VPNの作成"
 sidebar_position: 2
+draft: true
 ---
 
 # サイト間VPNの作成

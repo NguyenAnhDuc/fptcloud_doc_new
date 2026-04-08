@@ -4,6 +4,7 @@ title: Quản lý Repositories trên FPT Cloud Portal
 sidebar_label: Quản lý Repositories trên FPT Cloud Portal
 sidebar_position: "8"
 description: "FPT Container Registry"
+draft: true
 ---
 
 # Quản lý Repositories trên FPT Cloud Portal

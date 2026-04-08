@@ -4,6 +4,7 @@ title: "Managed FPT Database Engine"
 description: "FPT Smart Cloud Database Engine サービスの概要。"
 sidebar_label: "Managed FPT Database Engine"
 sidebar_position: 1
+draft: true
 ---
 
 # Managed FPT Database Engine

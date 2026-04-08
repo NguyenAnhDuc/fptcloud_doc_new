@@ -26,4 +26,4 @@ Tạo template từ máy ảo đã cấu hình sẵn giúp bạn triển khai nh
 
 ## Bước tiếp theo
 
-- [Quản lý template trên Custom Images](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)
+- [Quản lý template trên Custom Images](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-template-duoc-tao-tu-may-ao)

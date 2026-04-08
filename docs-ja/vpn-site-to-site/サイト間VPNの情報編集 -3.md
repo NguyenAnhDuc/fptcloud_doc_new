@@ -4,6 +4,7 @@ title: "VPN情報の編集"
 description: "作成済みVPN Site-to-Siteの情報を変更するガイドです。"
 sidebar_label: "VPN情報の編集"
 sidebar_position: 6
+draft: true
 ---
 
 # VPN情報の編集

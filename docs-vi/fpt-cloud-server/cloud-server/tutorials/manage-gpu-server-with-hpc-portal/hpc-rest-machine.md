@@ -17,7 +17,7 @@ Sau khi khởi động máy, bạn kết nối tới máy thông qua Remote Desk
 
 Một hộp thoại xác nhận được mở ra, chọn Reset để tiến hành khởi động lại máy
 
-![reset](images/hpc-rest-machine/img-001.jpg)
+![reset](/img/migrated/docs-vi-cloud-server/hpc-rest-machine/img-001.jpg)
 
   2. Đợi một vài phút sau khi reset máy thành công, bạn tiếp tục tải lại file RDP và thực hiện kết nối tới máy lại
 

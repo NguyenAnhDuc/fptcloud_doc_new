@@ -4,6 +4,7 @@ title: "Notes when using DFKE"
 description: "To ensure availability, enable HA Master Nodes for critical systems. Non-HA can be used for Dev and Testing systems."
 sidebar_label: "Notes when using DFKE"
 sidebar_position: 24
+draft: true
 ---
 
 # Notes when using DFKE

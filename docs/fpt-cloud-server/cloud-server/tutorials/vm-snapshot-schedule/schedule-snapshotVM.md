@@ -12,7 +12,7 @@ Schedule Management meets the frequent data backup needs of organizations with l
 
 ## Guides
 
-- [Create an Instance Snapshot Schedule](./create-schedule-snapshotVM.md)
-- [View Details](./viewschedule-snapshotVM.md)
-- [Edit](./editschedule-snapshotVM.md)
-- [Delete](./deleteschedule-snapshotVM.md)
+- [Create an Instance Snapshot Schedule](/docs/en/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/create-schedule-snapshotVM)
+- [View Details](/docs/en/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/viewschedule-snapshotVM)
+- [Edit](/docs/en/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/editschedule-snapshotVM)
+- [Delete](/docs/en/fpt-cloud-server/cloud-server/tutorials/vm-snapshot-schedule/deleteschedule-snapshotVM)

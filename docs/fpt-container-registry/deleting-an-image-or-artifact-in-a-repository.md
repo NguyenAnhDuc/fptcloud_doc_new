@@ -5,6 +5,7 @@ description: "If you want to delete an Image or Artifact that you pushed before 
 sidebar_label: "Deleting An Image Or..."
 sidebar_position: 10
 pagination_next: null
+draft: true
 ---
 
 # Deleting An Image Or Artifact In A Repository

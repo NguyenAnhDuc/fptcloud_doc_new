@@ -43,4 +43,4 @@ sidebar_position: 4
 | TCP | Y | Y | Y | N | Y | Y | N |
 | UDP | Y | N | N | Y | Y | N | Y |
 
-ヘルスチェックはサーバープールの作成または更新時に設定します。完全な設定リファレンスは[サーバープールの作成](./create-server-pool.md)を参照してください。
+ヘルスチェックはサーバープールの作成または更新時に設定します。完全な設定リファレンスは[サーバープールの作成](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-server-pool/create-server-pool)を参照してください。

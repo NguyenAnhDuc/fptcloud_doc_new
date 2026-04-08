@@ -24,4 +24,4 @@ Trang **Custom Images** hiển thị danh sách template đã tạo từ máy �
 
 ## Bước tiếp theo
 
-- [Tạo Instance từ template](./tutorials-tao-instance-tu-template.md)
+- [Tạo Instance từ template](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)

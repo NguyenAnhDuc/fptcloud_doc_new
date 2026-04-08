@@ -4,6 +4,7 @@ title: "Managing Kubernetes clusters"
 description: "Overview of Kubernetes cluster management operations in Dedicated FPT Kubernetes Engine."
 sidebar_label: "Managing clusters"
 sidebar_position: 3
+draft: true
 ---
 
 # Managing Kubernetes clusters

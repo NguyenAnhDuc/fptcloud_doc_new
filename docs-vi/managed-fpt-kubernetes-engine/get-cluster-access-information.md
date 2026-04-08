@@ -4,6 +4,7 @@ title: "Lấy thông tin truy cập cluster"
 description: "Hướng dẫn tải file kubeconfig để truy cập cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Lấy thông tin truy cập cluster"
 sidebar_position: "7"
+draft: true
 ---
 
 # Lấy thông tin truy cập cluster

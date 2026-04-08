@@ -4,6 +4,7 @@ title: "コンテナレベルの自動スケーリング"
 description: "Horizontal Pod Autoscaler（HPA）を使用したGPUワークロードのコンテナレベル自動スケーリングについて説明します。"
 sidebar_label: "コンテナレベルの自動スケーリング"
 sidebar_position: 25
+draft: true
 ---
 
 # コンテナレベルの自動スケーリング

@@ -14,7 +14,7 @@ sidebar_position: 10
 
 Số dư credit của bạn hiển thị ở đầu header.
 
-Để nạp thêm, nhấp **Add credit** và làm theo [hướng dẫn billing](./billing.md).
+Để nạp thêm, nhấp **Add credit** và làm theo [hướng dẫn billing](/docs/vi/fpt-ai-factory/ai-marketplace/billing).
 
 :::note
 Số dư này được dùng chung cho tất cả các dịch vụ trả phí của AI Factory mà bạn đã đăng ký.

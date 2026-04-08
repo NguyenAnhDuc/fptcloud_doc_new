@@ -4,6 +4,7 @@ title: Update and Delete Backup Service
 description: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
 sidebar_label: Update and Delete Backup Service
 sidebar_position: "14"
+draft: true
 ---
 
 # Update and Delete Backup Service

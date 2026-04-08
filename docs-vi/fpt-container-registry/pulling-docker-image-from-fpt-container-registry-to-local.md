@@ -4,6 +4,7 @@ title: "Pulling Docker Image From Fpt Container Registry To Local"
 description: "**Step 1** : Click **Detail Repository** to view details of the image > Click on the **Copy Icon** to copy the pull imag"
 sidebar_label: "Pulling Docker Image From Fpt Container Registry To Local"
 sidebar_position: "7"
+draft: true
 ---
 
 # Pulling Docker Image From Fpt Container Registry To Local

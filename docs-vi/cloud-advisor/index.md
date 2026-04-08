@@ -4,6 +4,7 @@ title: "Cloud Advisor"
 description: "Dịch vụ Cloud Advisor của FPT Cloud giúp tối ưu hóa chi phí, hiệu suất, bảo mật và độ tin cậy cho hạ tầng cloud của bạn."
 sidebar_label: "Cloud Advisor"
 sidebar_position: 1
+draft: true
 ---
 
 # Cloud Advisor

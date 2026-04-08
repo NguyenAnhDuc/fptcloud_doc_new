@@ -4,6 +4,7 @@ title: "Add a GPU worker group"
 description: "* **CPU, GPU, RAM, Storage, and Instances Quota** : enough for the extra Worker Group specifications. If you plan to use"
 sidebar_label: "Add a GPU worker group"
 sidebar_position: 22
+draft: true
 ---
 
 # Add a GPU worker group

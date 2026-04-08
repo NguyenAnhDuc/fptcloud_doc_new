@@ -4,6 +4,7 @@ title: "Best practices for upgrading FKE cluster version"
 description: "Best practices and detailed process flow for upgrading a Kubernetes cluster version in D-FKE."
 sidebar_label: "Best practices: version upgrade"
 sidebar_position: 26
+draft: true
 ---
 
 # Best practices for upgrading FKE cluster version

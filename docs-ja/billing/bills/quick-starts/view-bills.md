@@ -9,7 +9,7 @@ sidebar_position: 1
 # 請求期間別の請求照合を確認する
 
 :::note
-請求データを確認するには、Tenant Ownerロール、または**view billing**権限を持つロールでログインする必要があります。権限の設定方法については、[billing権限の設定](billing-permission.md)をご参照ください。
+請求データを確認するには、Tenant Ownerロール、または**view billing**権限を持つロールでログインする必要があります。権限の設定方法については、[billing権限の設定](/docs/ja/billing/bills/quick-starts/billing-permission)をご参照ください。
 :::
 
 以下の手順で操作してください。
@@ -35,4 +35,4 @@ sidebar_position: 1
      - **Cancelled** – 照合がキャンセルされ、請求書は発行されない状態
    - **Grand total** – 最終更新時点でのVAT前の合計金額
 
-3. [Charges by service](view-bill-charges-by-service.md)タブでサービス別の詳細を確認するか、[Charges by resource](view-bill-charges-by-resource.md)タブでリソース別の詳細を確認できます。
+3. [Charges by service](/docs/ja/billing/bills/quick-starts/view-bill-charges-by-service)タブでサービス別の詳細を確認するか、[Charges by resource](/docs/ja/billing/bills/quick-starts/view-bill-charges-by-resource)タブでリソース別の詳細を確認できます。

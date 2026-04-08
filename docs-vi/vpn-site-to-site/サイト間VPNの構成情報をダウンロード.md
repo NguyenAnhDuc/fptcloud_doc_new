@@ -4,6 +4,7 @@ title: "Tải cấu hình VPN"
 sidebar_label: "Tải cấu hình VPN"
 sidebar_position: "7"
 description: "ローカル側のセットアップ用にVPN構成ファイルをダウンロードするガイドです。"
+draft: true
 ---
 
 # Tải cấu hình VPN

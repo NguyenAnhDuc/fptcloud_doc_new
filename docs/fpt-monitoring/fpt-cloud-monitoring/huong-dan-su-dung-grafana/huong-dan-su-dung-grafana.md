@@ -17,10 +17,10 @@ This guide covers how to use Grafana on FPT Cloud, including workspace setup, ac
 
 ### Tutorials
 
-- [1. Create a workspace](./khoi-tao-workspace.md)
-- [2. Access Grafana](./truy-cap-grafana.md)
-- [3. Integrate dashboard and alert rule templates](./tich-hop-template.md)
-  - [3.1. Integrate dashboard template](./tich-hop-dashboard-template.md)
-  - [3.2. Integrate alert rule template](./tich-hop-alert-rule-template.md)
-- [4. Monitoring Kubernetes integration](./tich-hop-monitoring-kubernetes.md)
-  - [4.1. Integration guide](./huong-dan-tich-hop-k8s.md)
+- [1. Create a workspace](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/khoi-tao-workspace)
+- [2. Access Grafana](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/truy-cap-grafana)
+- [3. Integrate dashboard and alert rule templates](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-template)
+  - [3.1. Integrate dashboard template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-dashboard-template)
+  - [3.2. Integrate alert rule template](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-alert-rule-template)
+- [4. Monitoring Kubernetes integration](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/tich-hop-monitoring-kubernetes)
+  - [4.1. Integration guide](/docs/en/fpt-monitoring/fpt-cloud-monitoring/huong-dan-su-dung-grafana/huong-dan-tich-hop-k8s)

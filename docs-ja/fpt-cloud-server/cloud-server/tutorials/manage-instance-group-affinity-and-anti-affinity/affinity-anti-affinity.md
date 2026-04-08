@@ -26,7 +26,7 @@ Soft Affinity または Soft Anti-Affinity ポリシーを持つ Instance Group 
 
 ## ガイド
 
-- [初期設定](./initial-setup.md)
-- [Instance Groupの作成](./create-instance-group.md)
-- [InstanceをInstance Groupに追加](./add-instance-instance-group.md)
-- [Instance Groupの削除](./delete-instance-group.md)
+- [初期設定](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/initial-setup)
+- [Instance Groupの作成](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/create-instance-group)
+- [InstanceをInstance Groupに追加](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/add-instance-instance-group)
+- [Instance Groupの削除](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-group-affinity-and-anti-affinity/delete-instance-group)

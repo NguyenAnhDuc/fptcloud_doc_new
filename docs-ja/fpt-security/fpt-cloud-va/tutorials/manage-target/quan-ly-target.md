@@ -12,11 +12,11 @@ sidebar_position: 1
 
 ターゲット管理で実行できる操作：
 
-- [ターゲットを作成する](tao-target.md)
-- [ターゲットのスキャンステータスを確認する](kiem-tra-trang-thai-target.md)
-- [ターゲットのスキャン設定を編集する](update-target.md)
-- [今すぐスキャンする](scan-now.md)
-- [ターゲットを削除する](xoa-target.md)
-- [Webサイトのヘッダーを取得する](lay-header.md)
-- [Webサイトのクッキーを取得する](lay-cookie.md)
-- [SMB用にWindowsでRemote Registryを有効にする](mo-remote-registry-window.md)
+- [ターゲットを作成する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/tao-target)
+- [ターゲットのスキャンステータスを確認する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/kiem-tra-trang-thai-target)
+- [ターゲットのスキャン設定を編集する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/update-target)
+- [今すぐスキャンする](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/scan-now)
+- [ターゲットを削除する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/xoa-target)
+- [Webサイトのヘッダーを取得する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header)
+- [Webサイトのクッキーを取得する](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie)
+- [SMB用にWindowsでRemote Registryを有効にする](/docs/ja/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window)

@@ -10,8 +10,8 @@ description: "Configure settings on the ApiManager Application after registering
 
 After registering the service, all API Management configuration is performed on the ApiManager Application.
 
-- [Managing REST APIs](./manage-rest-apis.md)
-- [Managing Products](./managing-products.md)
+- [Managing REST APIs](/docs/vi/fpt-integration/fpt-api-management/manage-rest-apis)
+- [Managing Products](/docs/vi/fpt-integration/fpt-api-management/managing-products)
 - [Managing API Sites](./managing-sites.md)
-- [Managing Consumers](./managing-consumers.md)
+- [Managing Consumers](/docs/vi/fpt-integration/fpt-api-management/managing-consumers)
 - [Analytics](./analytics.md)

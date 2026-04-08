@@ -18,4 +18,4 @@ The Level 2 password is a password you set after logging in to HPC Portal — us
 
 ## Next Steps
 
-- [Delete Image](./hpc-delete-image.md)
+- [Delete Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-delete-image)

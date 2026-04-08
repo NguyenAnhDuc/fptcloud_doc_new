@@ -22,4 +22,4 @@ Khi không còn cần sử dụng, bạn có thể gỡ Storage Disk khỏi máy
 
 ## Bước tiếp theo
 
-- [Chỉnh sửa Storage Disk](./edit-storage-disk.md)
+- [Chỉnh sửa Storage Disk](/docs/vi/fpt-cloud-server/cloud-server/tutorials/block-storage/edit-storage-disk)

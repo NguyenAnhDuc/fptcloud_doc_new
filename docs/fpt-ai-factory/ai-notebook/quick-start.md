@@ -21,7 +21,7 @@ sidebar_position: 5
 
   1. From the left menu, select **AI Notebooks**.
   2. Wait about **1–2 minutes** for the notebook to start.
-  3. Check out the detailed guide [here](./launch-ai-notebook.md)
+  3. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/launch-ai-notebook)
 
 ## Step 4: Add credit to account
 
@@ -44,4 +44,4 @@ sidebar_position: 5
 ## Step 7: Shut down kernel
 
   1. Navigate to **Running Kernels/Notebooks** (second icon from the top in the navigation bar).
-  2. Check out the detailed guide [here](./shut-down-kernel.md)
+  2. Check out the detailed guide [here](/docs/en/fpt-ai-factory/ai-notebook/shut-down-kernel)

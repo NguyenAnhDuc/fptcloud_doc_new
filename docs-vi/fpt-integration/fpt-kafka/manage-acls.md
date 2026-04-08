@@ -12,5 +12,5 @@ ACL (Access Control List) kiểm soát quyền truy cập của từng credentia
 
 Các thao tác có thể thực hiện:
 
-- [Tạo ACL](./create-acls.md)
-- [Xóa ACL](./delete-acls.md)
+- [Tạo ACL](/docs/vi/fpt-integration/fpt-kafka/create-acls)
+- [Xóa ACL](/docs/vi/fpt-integration/fpt-kafka/delete-acls)

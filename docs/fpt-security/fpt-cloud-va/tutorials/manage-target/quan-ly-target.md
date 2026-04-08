@@ -12,11 +12,11 @@ A **target** is a scan object that FPT VA scans for security vulnerabilities. Ta
 
 Target management operations include:
 
-- [Create a target](tao-target.md)
-- [Check target scan status](kiem-tra-trang-thai-target.md)
-- [Edit target scan configuration](update-target.md)
-- [Scan now](scan-now.md)
-- [Delete a target](xoa-target.md)
-- [Get website headers](lay-header.md)
-- [Get website cookies](lay-cookie.md)
-- [Enable Remote Registry on Windows for SMB](mo-remote-registry-window.md)
+- [Create a target](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/tao-target)
+- [Check target scan status](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/kiem-tra-trang-thai-target)
+- [Edit target scan configuration](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/update-target)
+- [Scan now](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/scan-now)
+- [Delete a target](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/xoa-target)
+- [Get website headers](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-header)
+- [Get website cookies](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/lay-cookie)
+- [Enable Remote Registry on Windows for SMB](/docs/en/fpt-security/fpt-cloud-va/tutorials/manage-target/mo-remote-registry-window)

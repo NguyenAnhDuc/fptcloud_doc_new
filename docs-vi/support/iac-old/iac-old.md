@@ -12,4 +12,4 @@ Infrastructure as Code (IaC) cho phép bạn quản lý và cấu hình hạ t�
 
 ## Nội dung
 
-- [Cấu hình OpenStack Provider](./overview)
+- [Cấu hình OpenStack Provider](/docs/vi/support/iac-old/overview)

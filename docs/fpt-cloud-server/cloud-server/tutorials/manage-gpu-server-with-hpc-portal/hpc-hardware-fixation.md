@@ -22,4 +22,4 @@ By default, when you start a machine the system randomly assigns a physical serv
 
 ## Next Steps
 
-- [Reset Machine](./hpc-rest-machine.md)
+- [Reset Machine](/docs/en/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-rest-machine)

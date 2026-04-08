@@ -4,6 +4,7 @@ title: "Dedicated FPT Kubernetes Engine (DFKE)"
 description: "Tổng quan về dịch vụ Dedicated FPT Kubernetes Engine trên FPT Cloud."
 sidebar_label: "Dedicated FPT Kubernetes Engine"
 sidebar_position: 1
+draft: true
 ---
 
 # Dedicated FPT Kubernetes Engine (DFKE)

@@ -12,5 +12,5 @@ ACL（Access Control List）は、Kafkaにおいてどのcredentialがどのtopi
 
 実行可能な操作：
 
-- [ACLの作成](./create-acls.md)
-- [ACLの削除](./delete-acls.md)
+- [ACLの作成](/docs/ja/fpt-integration/fpt-kafka/create-acls)
+- [ACLの削除](/docs/ja/fpt-integration/fpt-kafka/delete-acls)

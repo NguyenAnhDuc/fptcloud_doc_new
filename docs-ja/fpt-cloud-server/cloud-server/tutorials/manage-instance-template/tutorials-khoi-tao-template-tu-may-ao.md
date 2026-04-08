@@ -26,4 +26,4 @@ sidebar_position: 2
 
 ## 次のステップ
 
-- [Custom ImagesでTemplateを管理する](./tutorials-quan-ly-template-duoc-tao-tu-may-ao.md)
+- [Custom ImagesでTemplateを管理する](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-quan-ly-template-duoc-tao-tu-may-ao)

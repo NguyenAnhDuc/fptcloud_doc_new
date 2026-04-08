@@ -25,4 +25,4 @@ Sau khi Change Package, hãy kiểm tra lại card GPU trên máy và update phi
 
 ## Bước tiếp theo
 
-- [Đặt thời gian thuê cố định](./hpc-fixed-rental.md)
+- [Đặt thời gian thuê cố định](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)

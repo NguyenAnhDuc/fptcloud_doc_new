@@ -28,7 +28,7 @@ FPT Cloud Desktop (FCD) là dịch vụ máy tính ảo hoá linh hoạt, bảo 
 - **Native FCDClient (khuyên dùng):** Cho phép truy cập máy ảo trực tiếp qua ứng dụng, mang lại trải nghiệm mượt mà và ổn định nhất.
 - **Web browser:** Phương thức truy cập nhanh qua trình duyệt, không cần cài đặt.
 
-![Sơ đồ kiến trúc FPT Cloud Desktop](images/overview-fcd/img-001.png)
+![Sơ đồ kiến trúc FPT Cloud Desktop](/img/migrated/docs-vi-fpt-cloud-desktop/overview-fcd/img-001.png)
 
 ## Thuật ngữ và định nghĩa
 

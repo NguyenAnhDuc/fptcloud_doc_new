@@ -4,6 +4,7 @@ title: "Mount point management"
 description: "In the FPT File Storage – High Performance system, a Mount Point is a logical access point that allows users to connect "
 sidebar_label: "Mount point management"
 sidebar_position: 4
+draft: true
 ---
 
 # Mount point management

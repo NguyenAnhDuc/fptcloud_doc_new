@@ -16,8 +16,8 @@ Trong quá trình hoạt động, các chương trình trong máy ảo có thể
 
 **Bước 1**: Trên bảng quản trị **Instance Management**, chọn **Action** ở cuối máy chủ cần khởi động lại.
 
-![Userguide FPT Cloud Server 2022 14](images/quick-starts-khoi-dong-lai-may-ao/img-001.png)
+![Userguide FPT Cloud Server 2022 14](/img/migrated/docs-vi-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-001.png)
 
 **Bước 2**: Chọn chức năng **Reboot**, lúc này hệ thống sẽ thực hiện việc khởi động lại và thông báo tình trạng xử lý.
 
-![Userguide FPT Cloud Server 2022 15](images/quick-starts-khoi-dong-lai-may-ao/img-002.png)
+![Userguide FPT Cloud Server 2022 15](/img/migrated/docs-vi-cloud-server/quick-starts-khoi-dong-lai-may-ao/img-002.png)

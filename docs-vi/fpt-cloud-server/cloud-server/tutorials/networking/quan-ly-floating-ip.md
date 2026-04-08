@@ -21,7 +21,7 @@ Trong trường hợp tài khoản của bạn còn hạn mức, bạn có thể
 
 **Bước 1**: Trên menu chọn **Networking** > **Floating IP**. Chọn **Allocate IP address**.
 
-![file](images/quan-ly-floating-ip/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-001.png)
 
 **Bước 2**: Nhập các thông tin theo yêu cầu của hệ thống. Bạn có thể tạo nhiều rule NAT với port IP khác nhau thuộc dãy 1-65535:
 
@@ -36,13 +36,13 @@ Trong trường hợp tài khoản của bạn còn hạn mức, bạn có thể
   * **Add tag (optional)**: Gắn tag vào IP. Trường này không bắt buộc
 
 
-![file](images/quan-ly-floating-ip/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-002.png)
 
 **Bước 3**: Chọn **Allocate floating IP**. Hệ thống sẽ tiến hành kiểm tra các điều kiện để lấy IP và thông báo kết quả.
 
 Nếu thành công, IP sẽ được hiển thị ở trang **Floating IP**.
 
-![file](images/quan-ly-floating-ip/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-003.png)
 
 **Lưu ý: Nếu hệ thống báo lỗi khi tạo do hết hạn mức, bạn cần liên hệ với bộ phận hỗ trợ để được cấp thêm.**
 
@@ -51,13 +51,13 @@ Nếu thành công, IP sẽ được hiển thị ở trang **Floating IP**.
 
 **Bước 2**: Popup **Connect to instance** hiện lên, chọn máy ảo cần gắn với IP này tại trường **Instance**.
 
-![file](images/quan-ly-floating-ip/img-004.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-004.png)
 
 **Bước 3**: Chọn **Allocate floating IP**. Hệ thống sẽ tiến hành xử lý và thông báo kết quả.
 
 Nếu thành công, IP và rule sẽ được hiển thị ở trang **Floating IP**.
 
-![file](images/quan-ly-floating-ip/img-005.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-005.png)
 
 ### Gỡ Floating IP khỏi máy ảo
 Trong trường hợp không còn nhu cầu sử dụng hoặc muốn gỡ IP ra để gắn vào máy ảo khác, bạn có thể gỡ **Floating IP** theo hướng dẫn sau:
@@ -66,15 +66,15 @@ Trong trường hợp không còn nhu cầu sử dụng hoặc muốn gỡ IP ra
 
 **Bước 2**: Hệ thống sẽ hiển thị popup xác nhận thông tin. Để đồng ý gỡ, chọn **Disconnect**.
 
-![file](images/quan-ly-floating-ip/img-006.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-006.png)
 
 ### Xóa Floating IP khỏi VPC
 Để xóa **Floating IP** khỏi **VPC** khi không còn nhu cầu sử dụng, bạn thao tác như sau:
 
 **Bước 1**: Trên bảng quản trị **Floating IP**, trong phần **Action** của IP cần xóa khỏi **VPC**, chọn **Release IP**.
 
-![file](images/quan-ly-floating-ip/img-007.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-007.png)
 
 **Bước 2**: Hệ thống sẽ hiển thị popup xác nhận thông tin. Để đồng ý xóa, chọn **Release**.
 
-![file](images/quan-ly-floating-ip/img-008.png)
+![file](/img/migrated/docs-vi-cloud-server/quan-ly-floating-ip/img-008.png)

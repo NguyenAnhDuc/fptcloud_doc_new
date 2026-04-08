@@ -4,6 +4,7 @@ title: "List created clusters"
 description: "View and manage the list of created Kubernetes clusters on the Kubernetes Management page."
 sidebar_label: "List created clusters"
 sidebar_position: 5
+draft: true
 ---
 
 # List created clusters

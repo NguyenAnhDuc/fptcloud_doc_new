@@ -10,7 +10,7 @@ sidebar_position: 2
 
 Để tạo mời một Lịch snapshot ổ đĩa bạn thao tác như sau **Bước 1:** Ở menu chọn Compute Engine > Schedule Management, chọn tab Storage snapshot schedule
 
-![file](images/createschedule-snapshotstorage/img-001.png)
+![file](/img/migrated/docs-vi-cloud-server/createschedule-snapshotstorage/img-001.png)
 
 Bước 2: Nhập các thông tin theo yêu cầu của hệ thống
 
@@ -29,8 +29,8 @@ Bước 2: Nhập các thông tin theo yêu cầu của hệ thống
   * Applied Storage: Các ổ đĩa được gắn vào lịch (Lưu ý: mỗi ổ đĩa cùng lúc chỉ được cho phép gắn với 1 lịch)
 
 
-![file](images/createschedule-snapshotstorage/img-002.png)
+![file](/img/migrated/docs-vi-cloud-server/createschedule-snapshotstorage/img-002.png)
 
 **Bước 3:** Chọn Create Schedule. Hệ thống sẽ tiến hành khởi tạo và thông báo kết quả. Nếu thành công, lịch mới sẽ được hiển thị ở trang Storage snapshot schedule
 
-![file](images/createschedule-snapshotstorage/img-003.png)
+![file](/img/migrated/docs-vi-cloud-server/createschedule-snapshotstorage/img-003.png)

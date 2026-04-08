@@ -44,4 +44,4 @@ For the General service type, the system supports QCOW and VMDK file formats.
 
 ## Next Steps
 
-- [Delete a Custom Image](./xoa-custom-image.md)
+- [Delete a Custom Image](/docs/en/fpt-cloud-server/cloud-server/tutorials/custom-images/xoa-custom-image)

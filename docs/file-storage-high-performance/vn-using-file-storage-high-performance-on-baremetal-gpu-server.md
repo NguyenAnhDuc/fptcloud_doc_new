@@ -4,6 +4,7 @@ title: "Create mount point (Vietnam)"
 description: "After your service provisioning request is approved, you will receive the necessary information to use File Storage on B"
 sidebar_label: "Create mount point (Vietnam)"
 sidebar_position: 5
+draft: true
 ---
 
 # Create mount point (Vietnam)

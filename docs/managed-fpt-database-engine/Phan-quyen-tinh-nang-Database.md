@@ -4,6 +4,7 @@ title: Assign Database Feature Permissions
 sidebar_label: Assign Database Feature Permissions
 sidebar_position: "6"
 description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
+draft: true
 ---
 
 # Assign Database Feature Permissions

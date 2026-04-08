@@ -9,11 +9,11 @@ sidebar_position: 1
 
 **手順 1:** メニューで **Security > Cloud WAF** を選択し、**Create WAF** を選択します。
 
-![Userguide FPT WAF 2022 1](images/them-moi-may-chu-waf/img-001.png)
+![Userguide FPT WAF 2022 1](/img/migrated/docs-ja-fpt-cloud-waf/them-moi-may-chu-waf/img-001.png)
 
 **手順 2:** **WAF** の情報を入力し、適切なサイズを選択します。
 
-![Userguide FPT WAF 2022 2](images/them-moi-may-chu-waf/img-002.png)
+![Userguide FPT WAF 2022 2](/img/migrated/docs-ja-fpt-cloud-waf/them-moi-may-chu-waf/img-002.png)
 
 **フィールド** | **説明** | **値**
 ---|---|---

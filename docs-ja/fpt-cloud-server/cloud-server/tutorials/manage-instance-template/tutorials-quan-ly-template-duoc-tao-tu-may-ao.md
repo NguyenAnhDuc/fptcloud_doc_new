@@ -24,4 +24,4 @@ sidebar_position: 3
 
 ## 次のステップ
 
-- [TemplateからInstanceを作成する](./tutorials-tao-instance-tu-template.md)
+- [TemplateからInstanceを作成する](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-instance-template/tutorials-tao-instance-tu-template)

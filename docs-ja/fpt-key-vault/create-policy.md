@@ -4,6 +4,7 @@ title: "Policyを作成する"
 description: "Secretアクセスをコントロールする新しいPolicyを作成する方法"
 sidebar_label: "Policyを作成する"
 sidebar_position: 12
+draft: true
 ---
 
 # Policyを作成する

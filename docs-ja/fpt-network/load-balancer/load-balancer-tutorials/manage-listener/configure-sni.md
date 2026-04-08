@@ -34,7 +34,7 @@ sidebar_position: 13
 **手順 4:** SSL/TLS 証明書を 2 つのフィールドに設定します：
 
 - **Default SSL/TLS certificate**: リスナーが使用するデフォルト証明書。
-- **SNI SSL/TLS certificate**: 1 つまたは複数の SNI 証明書。証明書がない場合は[SSL 証明書のインポート](./import-ssl-certificate.md)を参照してください。
+- **SNI SSL/TLS certificate**: 1 つまたは複数の SNI 証明書。証明書がない場合は[SSL 証明書のインポート](/docs/ja/fpt-network/load-balancer/load-balancer-tutorials/manage-ssl-certificate/import-ssl-certificate)を参照してください。
 
 **手順 5:** **Update Listener** または **Create Listener** をクリックして保存します。
 

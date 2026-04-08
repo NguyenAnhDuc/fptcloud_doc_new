@@ -4,6 +4,7 @@ title: "Autoscale"
 description: "Tính năng Autoscale được enable mặc định khi user thực hiện tạo Kubernetes Cluster với D-FKE."
 sidebar_label: "Autoscale"
 sidebar_position: 19
+draft: true
 ---
 
 # Autoscale

@@ -4,6 +4,7 @@ title: "Create a VPN connection"
 description: "Guide to creating a new VPN connection on FPT Cloud Portal"
 sidebar_label: "Create a VPN connection"
 sidebar_position: 19
+draft: true
 ---
 
 # Create a VPN connection

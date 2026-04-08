@@ -13,7 +13,7 @@ sidebar_position: "12"
 
 - A Kubernetes cluster with GPU attached
 - A GPU application currently in the running state
-- The kube-prometheus-stack and prometheus-adapter packages already installed via the FPT App Catalog service, as described in [Configuring auto scale for FPT Kubernetes Engine GPU using GPU custom metrics](./huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric.md)
+- The kube-prometheus-stack and prometheus-adapter packages already installed via the FPT App Catalog service, as described in [Configuring auto scale for FPT Kubernetes Engine GPU using GPU custom metrics](/docs/en/fpt-container/fpt-kubernetes-engine-with-gpu/huong-dan-cau-hinh-auto-scale-su-dung-gpu-custom-metric)
 
 ## Configuration steps
 

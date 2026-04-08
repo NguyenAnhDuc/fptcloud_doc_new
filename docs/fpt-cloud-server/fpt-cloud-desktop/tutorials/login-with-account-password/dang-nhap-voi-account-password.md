@@ -10,6 +10,6 @@ sidebar_position: 1
 
 FPT Cloud Desktop supports login with a username and password. Choose the access method that matches your setup:
 
-- [Access via new FCDClient](./accountpassword-qua-FCDClient-moi.md) (recommended)
-- [Access via web browser](./accountpassword-qua-web-browser.md)
-- [Access via legacy FCDClient](./accountpassword-qua-FCDClient-cu.md)
+- [Access via new FCDClient](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-account-password/accountpassword-qua-FCDClient-moi) (recommended)
+- [Access via web browser](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-account-password/accountpassword-qua-web-browser)
+- [Access via legacy FCDClient](/docs/en/fpt-cloud-server/fpt-cloud-desktop/tutorials/login-with-account-password/accountpassword-qua-FCDClient-cu)

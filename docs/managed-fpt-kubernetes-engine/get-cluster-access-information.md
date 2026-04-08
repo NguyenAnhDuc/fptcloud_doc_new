@@ -4,6 +4,7 @@ title: "Get cluster access information"
 description: "Download the kubeconfig file to access your Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Get cluster access information"
 sidebar_position: 7
+draft: true
 ---
 
 # Get cluster access information

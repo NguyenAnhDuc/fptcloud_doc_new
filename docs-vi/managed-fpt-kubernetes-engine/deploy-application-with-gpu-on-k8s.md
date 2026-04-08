@@ -4,6 +4,7 @@ title: "Triển khai ứng dụng sử dụng GPU trên Kubernetes"
 description: "Hướng dẫn triển khai ứng dụng có sử dụng GPU trên Kubernetes của FPT Cloud."
 sidebar_label: "Triển khai ứng dụng sử dụng GPU trên Kubernetes"
 sidebar_position: "23"
+draft: true
 ---
 
 # Triển khai ứng dụng sử dụng GPU trên Kubernetes

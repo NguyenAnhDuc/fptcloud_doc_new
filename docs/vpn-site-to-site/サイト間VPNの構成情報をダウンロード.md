@@ -4,6 +4,7 @@ title: Download VPN configuration
 sidebar_label: Download VPN configuration
 sidebar_position: "7"
 description: "ローカル側のセットアップ用にVPN構成ファイルをダウンロードするガイドです。"
+draft: true
 ---
 
 # Download VPN configuration

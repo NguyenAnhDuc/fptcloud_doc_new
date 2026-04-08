@@ -10,7 +10,7 @@ sidebar_position: 5
 
 Create, view, and delete Queues on FPT Message Bus (RabbitMQ).
 
-- [Create Queues](./Create-queues.md)
-- [View Queues](./View-queues.md)
-- [Delete Queues](./Delete-queues.md)
-- [Send and receive messages in Queues](./Send-Receive-messages-in-queues.md)
+- [Create Queues](/docs/en/fpt-integration/fpt-message-bus/Create-queues)
+- [View Queues](/docs/en/fpt-integration/fpt-message-bus/View-queues)
+- [Delete Queues](/docs/en/fpt-integration/fpt-message-bus/Delete-queues)
+- [Send and receive messages in Queues](/docs/en/fpt-integration/fpt-message-bus/Send-Receive-messages-in-queues)

@@ -26,4 +26,4 @@ Khi không còn cần kết nối đến một Subnet, bạn có thể gỡ card
 
 ## Bước tiếp theo
 
-- [Tra cứu thông tin máy ảo](./tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao.md)
+- [Tra cứu thông tin máy ảo](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-virtual-machines/tutorials-tra-cuu-thong-tin-thong-so-ky-thuat-cua-may-ao-da-tao)

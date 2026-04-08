@@ -25,4 +25,4 @@ Change Package機能を使用する前にマシンをシャットダウンする
 
 ## 次のステップ
 
-- [固定レンタル期間の設定](./hpc-fixed-rental.md)
+- [固定レンタル期間の設定](/docs/ja/fpt-cloud-server/cloud-server/tutorials/manage-gpu-server-with-hpc-portal/hpc-fixed-rental)

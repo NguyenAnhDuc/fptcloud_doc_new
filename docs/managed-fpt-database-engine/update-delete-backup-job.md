@@ -4,6 +4,7 @@ title: "Update and delete backup jobs"
 description: "Steps to update or delete the schedule of a backup job in FPT Smart Cloud Database Engine."
 sidebar_label: "Update and delete backup jobs"
 sidebar_position: 13
+draft: true
 ---
 
 # Update and delete backup jobs

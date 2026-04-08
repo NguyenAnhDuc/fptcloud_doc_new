@@ -34,7 +34,7 @@ sidebar_position: "17"
 **Step 4:** Assign SSL/TLS certificates to the two certificate fields:
 
 - **Default SSL/TLS certificate**: The default certificate used by the Listener.
-- **SNI SSL/TLS certificate**: One or more SNI certificates. If no certificates are available, import them using [Import SSL certificate](./import-ssl-certificate.md).
+- **SNI SSL/TLS certificate**: One or more SNI certificates. If no certificates are available, import them using [Import SSL certificate](/docs/vi/fpt-network/load-balancer/load-balancer-tutorials/manage-ssl-certificate/import-ssl-certificate).
 
 **Step 5:** Click **Update Listener** or **Create Listener** to save.
 

@@ -4,6 +4,7 @@ title: "Thay đổi cấu hình worker group"
 description: "Hướng dẫn thay đổi cấu hình worker group trong cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Thay đổi cấu hình worker group"
 sidebar_position: "11"
+draft: true
 ---
 
 # Thay đổi cấu hình worker group

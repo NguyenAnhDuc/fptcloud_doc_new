@@ -4,6 +4,7 @@ title: "ApplicationSetのenable"
 description: "ArgoCDのApplicationSet機能を有効にする方法。"
 sidebar_label: "ApplicationSetのenable"
 sidebar_position: 38
+draft: true
 ---
 
 # ApplicationSetのenable

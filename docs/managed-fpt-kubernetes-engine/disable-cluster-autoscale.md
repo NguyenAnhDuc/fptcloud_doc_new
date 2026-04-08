@@ -4,6 +4,7 @@ title: "Disable cluster autoscale"
 description: "Disable Cluster Autoscale on a Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Disable cluster autoscale"
 sidebar_position: 15
+draft: true
 ---
 
 # Disable cluster autoscale

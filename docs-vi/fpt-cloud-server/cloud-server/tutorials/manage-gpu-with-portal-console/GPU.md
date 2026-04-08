@@ -18,5 +18,5 @@ Nếu bạn có nhu cầu sử dụng GPU hoặc gặp vấn đề kỹ thuật,
 
 ## Hướng dẫn
 
-- [Quản lý GPU với Console Portal (General)](./gpu-general.md)
-- [Quản lý GPU với Console Portal (Specific)](./gpu-specific.md)
+- [Quản lý GPU với Console Portal (General)](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-general)
+- [Quản lý GPU với Console Portal (Specific)](/docs/vi/fpt-cloud-server/cloud-server/tutorials/manage-gpu-with-portal-console/gpu-specific)

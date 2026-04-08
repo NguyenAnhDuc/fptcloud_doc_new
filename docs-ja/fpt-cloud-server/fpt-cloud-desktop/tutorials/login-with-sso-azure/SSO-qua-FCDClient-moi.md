@@ -28,19 +28,19 @@ sidebar_position: 2
 
 Web ブラウザでサービスリンクを開き、**Access through FPT Cloud Desktop Client** を選択します。
 
-![file](images/SSO-qua-FCDClient-moi/img-001.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-001.png)
 
 **2. FCD Client アプリケーションをダウンロード、インストールし、インストール完了後に開く**
 
-システムは Windows オペレーティングシステムに対応した最新バージョンの Client を自動でダウンロードします（ユーザーが手動でインストールすることもできます）。ダウンロード時にブラウザが以下のような警告を表示した場合: ![file](images/SSO-qua-FCDClient-moi/img-002.png)
+システムは Windows オペレーティングシステムに対応した最新バージョンの Client を自動でダウンロードします（ユーザーが手動でインストールすることもできます）。ダウンロード時にブラウザが以下のような警告を表示した場合: ![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-002.png)
 
 三点メニューを選択 > **Keep** > **Keep anyway** を選択します。
 
-![file](images/SSO-qua-FCDClient-moi/img-003.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-003.png)
 
 ダウンロードが完了したら、アプリケーションのインストールを行います。**Open file** を選択してデバイスにアプリケーションをインストールします。
 
-![file](images/SSO-qua-FCDClient-moi/img-004.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-004.png)
 
 **Windows の場合:** 「Windows protected your PC」ポップアップで、「More info」ハイパーリンクをクリックし、「Run anyway」ボタンをクリックします。
 
@@ -51,7 +51,7 @@ Web ブラウザでサービスリンクを開き、**Access through FPT Cloud D
   * **「Don't warn me when opening applications on this disk image」** のチェックボックスにチェックを入れます。
 
 
-![file](images/SSO-qua-FCDClient-moi/img-005.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-005.png)
 
 **=> FCD Client のインストールが完了しました。インストール後、FCDClient アプリケーションを開いてください。**
 
@@ -60,7 +60,7 @@ Web ブラウザでサービスリンクを開き、**Access through FPT Cloud D
   * [Mac Apple Store](<https://apps.apple.com/us/app/windows-app/id1295203466?mt=12> "Mac Apple Store") から Microsoft Windows App を確認し、追加でインストールする必要があります。
 
 
-![file](images/SSO-qua-FCDClient-moi/img-006.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-006.png)
 
   * デバイスが FCDClient アプリケーションに関する警告を表示した場合は、Settings > Privacy & Security > FCDClient の Open Anyway にアクセスしてください。
 
@@ -73,22 +73,22 @@ Web ブラウザでサービスリンクを開き、**Access through FPT Cloud D
 
 1. [ステップ 1: 新しい FCDClient のインストール](<https://fptcloud.com/documents/fpt-cloud-desktop/?doc=SSO-qua-FCDClient-moi#contentify_0> "ステップ 1: 新しい FCDClient のインストール") でインストールした FCDClient アプリケーションを開きます。
 
-  * **Client に既に Server 情報がある場合**（以前に入力済み、または有効な authentication code を含む URL から Client をダウンロードした場合）: **Connect Server** を選択し、以下の項目 2 で対応するアカウント情報を入力します。 ![file](images/SSO-qua-FCDClient-moi/img-007.png)
+  * **Client に既に Server 情報がある場合**（以前に入力済み、または有効な authentication code を含む URL から Client をダウンロードした場合）: **Connect Server** を選択し、以下の項目 2 で対応するアカウント情報を入力します。 ![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-007.png)
 
   * **Client に Server 情報が表示されていない場合**: Server 情報を手動で入力する必要があります。**New Server** を選択 > 有効な URL またはドメインを入力します（カスタマー管理者が管理する情報）。有効な入力例: 有効な URL pil783454741.pilotfcd.online を直接入力する **または** まずドメイン pilotfcd.online を入力し、その後 Authentication code pil78345474 を入力します。
 
 
-![file](images/SSO-qua-FCDClient-moi/img-008.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-008.png)
 
 2. SSO アカウントでログインします（例: Microsoft アカウントでログイン）。SSO に対応した OTP を入力します => Authenticator（Server）へのログイン成功。
 
-![file](images/SSO-qua-FCDClient-moi/img-009.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-009.png)
 
 **4: 仮想マシンへのアクセス**
 
 仮想マシンの一覧画面で、アクセスしたい仮想マシンを選択します。
 
-![file](images/SSO-qua-FCDClient-moi/img-010.png)
+![file](/img/migrated/docs-ja-fpt-cloud-desktop/SSO-qua-FCDClient-moi/img-010.png)
 
 システムに求められた場合は仮想マシンのログイン情報を入力します => 仮想マシンへのアクセス成功。
 

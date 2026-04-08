@@ -4,6 +4,7 @@ title: "Upgrade Kubernetes version"
 description: "Upgrade the Kubernetes version of a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Upgrade Kubernetes version"
 sidebar_position: 17
+draft: true
 ---
 
 # Upgrade Kubernetes version

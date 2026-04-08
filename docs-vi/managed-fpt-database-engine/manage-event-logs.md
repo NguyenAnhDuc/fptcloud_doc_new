@@ -4,6 +4,7 @@ title: "Manage event logs"
 sidebar_label: "Manage event logs"
 sidebar_position: "19"
 description: "Steps to view event logs for FPT Smart Cloud Database Engine."
+draft: true
 ---
 
 # Manage event logs
