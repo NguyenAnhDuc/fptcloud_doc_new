@@ -1,7 +1,7 @@
 ---
 id: "accountpassword-qua-web-browser"
-title: "Accountpassword Qua Web Browser"
-sidebar_label: "Accountpassword Qua Web Browser"
+title: "Account/Password qua Web Browser"
+sidebar_label: "Account/Password qua Web Browser"
 ---
 
 Truy cập qua Web browser

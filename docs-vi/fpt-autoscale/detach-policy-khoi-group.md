@@ -1,7 +1,7 @@
 ---
 id: "detach-policy-khoi-group"
-title: "Detach Policy Khoi Group"
-sidebar_label: "Detach Policy Khoi Group"
+title: "Gỡ Policy khỏi Group"
+sidebar_label: "Gỡ Policy khỏi Group"
 ---
 
 Detach Policy khỏi Group

@@ -1,7 +1,7 @@
 ---
 id: "detach-policy-khoi-group"
-title: "Detach a policy from a group"
-sidebar_label: "Detach a policy from a group"
+title: "Detach Policy from Group"
+sidebar_label: "Detach Policy from Group"
 ---
 
 Detach a policy from a group

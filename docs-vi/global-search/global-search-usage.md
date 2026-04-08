@@ -1,8 +1,8 @@
 ---
 id: "global-search-usage"
-title: "Using Global Search"
+title: "Sử dụng Tìm kiếm toàn cục"
 description: "Step-by-step guide to using the Global Search feature on FPT Cloud to find and manage resources."
-sidebar_label: "Using Global Search"
+sidebar_label: "Sử dụng Tìm kiếm toàn cục"
 sidebar_position: "2"
 ---
 

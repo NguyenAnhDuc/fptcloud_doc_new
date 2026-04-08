@@ -1,7 +1,0 @@
-{
-  "tool_name": "Read",
-  "tool_input_preview": "{\"file_path\":\"/root/codes/fptcloud_doc_new/sidebars-vi.js\"}",
-  "error": "File content (307.3KB) exceeds maximum allowed size (256KB). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
-  "timestamp": "2026-04-06T17:13:36.661Z",
-  "retry_count": 1
-}

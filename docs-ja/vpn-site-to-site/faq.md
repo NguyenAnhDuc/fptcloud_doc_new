@@ -1,7 +1,7 @@
 ---
 id: "faq"
-title: "Faq"
-sidebar_label: "Faq"
+title: "よくある質問"
+sidebar_label: "よくある質問"
 sidebar_position: 39
 ---
 

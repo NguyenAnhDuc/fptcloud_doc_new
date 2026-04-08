@@ -1,7 +1,7 @@
 ---
 id: "ssl-load-balancer"
-title: "Ssl Load Balancer"
-sidebar_label: "Ssl Load Balancer"
+title: "SSL Load Balancer"
+sidebar_label: "SSL Load Balancer"
 ---
 
 Quản lý chứng chỉ SSL cho Load Balancer

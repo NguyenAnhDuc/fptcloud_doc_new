@@ -1,7 +1,7 @@
 ---
 id: "retry-ip"
-title: "Retry a failed IP operation"
-sidebar_label: "Retry failed IP"
+title: "Retry Failed IP"
+sidebar_label: "Retry Failed IP"
 sidebar_position: 10
 ---
 

@@ -1,8 +1,8 @@
 ---
 id: "them-moi-whitelisted-ip"
-title: "Click nút 'Whitelist IP/Range' trên bảng tương ứng."
+title: "Thêm mới Whitelisted IP"
 description: "* Click nút 'Whitelist IP/Range' trên bảng tương ứng."
-sidebar_label: "Click nút 'Whitelist IP/Range' trên bảng tương ứng."
+sidebar_label: "Thêm mới Whitelisted IP"
 sidebar_position: 8
 ---
 

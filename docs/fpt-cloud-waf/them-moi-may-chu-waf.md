@@ -1,7 +1,7 @@
 ---
 id: "them-moi-may-chu-waf"
-title: "Create a new WAF server"
-sidebar_label: "Create a new WAF server"
+title: "Add New WAF Server"
+sidebar_label: "Add New WAF Server"
 ---
 
 Create a new WAF server

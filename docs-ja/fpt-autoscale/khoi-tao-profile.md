@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-profile"
-title: "Khoi Tao Profile"
-sidebar_label: "Khoi Tao Profile"
+title: "プロファイルの作成"
+sidebar_label: "プロファイルの作成"
 sidebar_position: 3
 ---
 

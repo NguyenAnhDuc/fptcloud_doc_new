@@ -1,7 +1,7 @@
 ---
 id: "redirect-http-request-sang-https"
-title: "Redirect Http Request Sang Https"
-sidebar_label: "Redirect Http Request Sang Https"
+title: "Cấu hình redirect HTTP sang HTTPS"
+sidebar_label: "Cấu hình redirect HTTP sang HTTPS"
 sidebar_position: 15
 ---
 

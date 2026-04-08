@@ -1,7 +1,7 @@
 ---
 id: "detach-policy-khoi-group"
-title: "グループからのポリシーのデタッチ"
-sidebar_label: "グループからのポリシーのデタッチ"
+title: "グループからポリシーをデタッチ"
+sidebar_label: "グループからポリシーをデタッチ"
 ---
 
 グループからのポリシーのデタッチ

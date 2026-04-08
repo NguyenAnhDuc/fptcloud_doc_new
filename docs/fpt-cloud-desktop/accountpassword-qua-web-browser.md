@@ -1,7 +1,7 @@
 ---
 id: "accountpassword-qua-web-browser"
-title: "Access via web browser (account/password)"
-sidebar_label: "Access via web browser (account/password)"
+title: "Account/Password via Web Browser"
+sidebar_label: "Account/Password via Web Browser"
 ---
 
 Access via web browser

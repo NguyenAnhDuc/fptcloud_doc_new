@@ -1,7 +1,7 @@
 ---
 id: "retry-ip"
-title: "失敗した IP 操作を再試行する"
-sidebar_label: "IP の再試行"
+title: "失敗したIPの再試行"
+sidebar_label: "失敗したIPの再試行"
 sidebar_position: 10
 ---
 

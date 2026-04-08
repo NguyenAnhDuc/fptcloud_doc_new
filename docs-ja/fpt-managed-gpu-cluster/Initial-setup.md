@@ -1,7 +1,7 @@
 ---
 id: "Initial-setup"
-title: "Initial Setup"
-sidebar_label: "Initial Setup"
+title: "初期設定"
+sidebar_label: "初期設定"
 sidebar_position: 2
 ---
 

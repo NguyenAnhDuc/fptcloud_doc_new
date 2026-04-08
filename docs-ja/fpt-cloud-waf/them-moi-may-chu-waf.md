@@ -1,7 +1,7 @@
 ---
 id: "them-moi-may-chu-waf"
-title: "新しい WAF サーバーの作成"
-sidebar_label: "新しい WAF サーバーの作成"
+title: "WAFサーバーの追加"
+sidebar_label: "WAFサーバーの追加"
 ---
 
 新しい WAF サーバーの作成

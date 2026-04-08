@@ -1,7 +1,7 @@
 ---
 id: "attach-policy-vao-group"
-title: "グループへのポリシーのアタッチ"
-sidebar_label: "グループへのポリシーのアタッチ"
+title: "グループにポリシーをアタッチ"
+sidebar_label: "グループにポリシーをアタッチ"
 ---
 
 グループへのポリシーのアタッチ

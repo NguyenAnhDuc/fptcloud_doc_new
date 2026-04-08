@@ -1,7 +1,7 @@
 ---
 id: "them-moi-whitelisted-ip"
-title: "Add a whitelisted IP"
-sidebar_label: "Add a whitelisted IP"
+title: "Add New Whitelisted IP"
+sidebar_label: "Add New Whitelisted IP"
 sidebar_position: 8
 ---
 

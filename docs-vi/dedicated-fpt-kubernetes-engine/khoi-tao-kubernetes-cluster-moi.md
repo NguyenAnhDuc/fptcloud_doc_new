@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-kubernetes-cluster-moi"
-title: "Khoi Tao Kubernetes Cluster Moi"
-sidebar_label: "Khoi Tao Kubernetes Cluster Moi"
+title: "Khởi tạo Kubernetes Cluster mới"
+sidebar_label: "Khởi tạo Kubernetes Cluster mới"
 ---
 
 Khởi tạo Kubernetes Cluster mới

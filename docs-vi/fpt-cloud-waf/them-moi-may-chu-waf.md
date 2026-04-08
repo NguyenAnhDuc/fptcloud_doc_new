@@ -1,7 +1,7 @@
 ---
 id: "them-moi-may-chu-waf"
-title: "Them Moi May Chu Waf"
-sidebar_label: "Them Moi May Chu Waf"
+title: "Thêm mới máy chủ WAF"
+sidebar_label: "Thêm mới máy chủ WAF"
 ---
 
 Thêm mới máy chủ WAF

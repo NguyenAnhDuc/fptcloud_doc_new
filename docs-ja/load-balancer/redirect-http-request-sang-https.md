@@ -1,7 +1,7 @@
 ---
 id: "redirect-http-request-sang-https"
-title: "HTTPリクエストをHTTPSにリダイレクト"
-sidebar_label: "HTTPリクエストをHTTPSにリダイレクト"
+title: "HTTPからHTTPSへのリダイレクト設定"
+sidebar_label: "HTTPからHTTPSへのリダイレクト設定"
 sidebar_position: 15
 ---
 

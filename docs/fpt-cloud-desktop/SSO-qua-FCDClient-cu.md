@@ -1,7 +1,7 @@
 ---
 id: "SSO-qua-FCDClient-cu"
-title: "Access via Legacy FCDClient"
-sidebar_label: "Access via Legacy FCDClient"
+title: "SSO via Legacy FCDClient"
+sidebar_label: "SSO via Legacy FCDClient"
 sidebar_position: 7
 ---
 

@@ -1,28 +1,28 @@
 ---
-id: "cau-hinh-oidc-config"
-title: Configure OIDC
-description: "ArgoCDでSSO/Keycloak統合用の新しいOIDC configを追加する方法。"
-sidebar_label: Configure OIDC
-sidebar_position: "35"
+id: "configure-oidc-config"
+title: "Configure OIDC config"
+description: "Guide to adding a new OIDC configuration to integrate SSO with Keycloak in ArgoCD."
+sidebar_label: "Configure OIDC config"
+sidebar_position: 35
 ---
 
-# Configure OIDC
+# Configure OIDC config
 
-OIDCをenableにした後、新しいOIDC configを追加してKeycloakとのSSO統合を設定します。
+After enabling OIDC, add a new OIDC config to integrate SSO with Keycloak.
 
-1. **Security & Access** > **OIDC Scope** 画面で **Add new OIDC** をクリックします。
+1. On the **Security & Access** > **OIDC Scope** screen, click **Add new OIDC**.
 
 [![](/img/migrated/Picture23-4-eb213e0f.png)](/img/migrated/Picture23-4-eb213e0f.png)
 
-2. KeycloakシステムのOIDC設定情報を入力します：
-   - **Name**: ArgoCDログイン時に表示される名前（例: `Login via [Name]`）
-   - **Issuer**: クライアント作成後にKeycloakから取得
-   - **ClientID**: ArgoCDユーザー管理用にKeycloakで作成したクライアントID
-   - **ClientSecret**: 作成したClientIDのクライアントシークレット
+2. Enter the OIDC configuration details from your Keycloak system:
+   - **Name**: The display name shown on the ArgoCD login screen (e.g., `Login via [Name]`)
+   - **Issuer**: Obtained from Keycloak after creating the client
+   - **ClientID**: The client ID created in Keycloak for managing ArgoCD users
+   - **ClientSecret**: The client secret associated with the created ClientID
 
 [![](/img/migrated/Picture24-4-30a35542.png)](/img/migrated/Picture24-4-30a35542.png)
 
-3. OIDC設定後の結果：
+3. Result after configuring OIDC:
 
 [![](/img/migrated/Picture25-4-ea9826ed.png)](/img/migrated/Picture25-4-ea9826ed.png)
 

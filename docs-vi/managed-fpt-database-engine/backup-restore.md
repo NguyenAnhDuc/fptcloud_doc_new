@@ -1,7 +1,7 @@
 ---
 id: "backup-restore"
-title: "Backup Restore"
-sidebar_label: "Backup Restore"
+title: "Sao lưu và phục hồi"
+sidebar_label: "Sao lưu và phục hồi"
 ---
 
 Backup & Restore

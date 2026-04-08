@@ -1,7 +1,7 @@
 ---
 id: "redirect-http-request-sang-https"
-title: "Redirect HTTP Requests to HTTPS"
-sidebar_label: "Redirect HTTP Requests to HTTPS"
+title: "Configure HTTP to HTTPS Redirect"
+sidebar_label: "Configure HTTP to HTTPS Redirect"
 sidebar_position: 15
 ---
 

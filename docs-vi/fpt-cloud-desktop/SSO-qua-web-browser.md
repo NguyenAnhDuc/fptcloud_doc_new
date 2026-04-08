@@ -1,7 +1,7 @@
 ---
 id: "SSO-qua-web-browser"
-title: "Sso Qua Web Browser"
-sidebar_label: "Sso Qua Web Browser"
+title: "SSO qua Web Browser"
+sidebar_label: "SSO qua Web Browser"
 ---
 
 Truy cập qua Web browser

@@ -1,7 +1,7 @@
 ---
 id: "SSO-qua-FCDClient-cu"
-title: "Sso Qua Fcdclient Cu"
-sidebar_label: "Sso Qua Fcdclient Cu"
+title: "旧FCDClient経由でSSO"
+sidebar_label: "旧FCDClient経由でSSO"
 sidebar_position: 7
 ---
 

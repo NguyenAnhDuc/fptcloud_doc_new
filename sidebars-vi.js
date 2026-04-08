@@ -416,16 +416,9 @@ module.exports = {
               ]
             },
             {
-              type:  "category",
-              label:  "Câu hỏi thường gặp (FAQs)",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/faq",
-                  label:  "Câu hỏi thường gặp (FAQs)"
-                }
-              ]
+              type:  "doc",
+              id:  "fpt-cloud-desktop/faq",
+              label:  "Câu hỏi thường gặp (FAQs)"
             }
           ]
         },
@@ -1808,6 +1801,11 @@ module.exports = {
               collapsed:  true,
               items:  [
                 {
+                  type:  "doc",
+                  id:  "load-balancer/initial-setup",
+                  label:  "Thiết lập ban đầu"
+                },
+                {
                   type:  "category",
                   label:  "Quản lý Load Balancer",
                   collapsed:  true,
@@ -1819,7 +1817,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/create-load-balancer",
+                      label:  "Tạo Load Balancer"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/cap-nhat-load-balancer",
+                      label:  "Cập nhật Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/update-load-balancer",
                       label:  "Cập nhật Load Balancer"
                     },
                     {
@@ -1829,8 +1837,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/monitor-load-balancer",
+                      label:  "Giám sát Load Balancer"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/them-external-member",
                       label:  "Thêm External member cho Load Balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/add-external-member",
+                      label:  "Thêm External Member"
                     },
                     {
                       type:  "doc",
@@ -1861,7 +1879,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/create-listener",
+                      label:  "Tạo Listener"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/cau-hinh-timeout",
+                      label:  "Cấu hình Timeout"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-timeout",
                       label:  "Cấu hình Timeout"
                     },
                     {
@@ -1871,8 +1899,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/configure-l7-policy",
+                      label:  "Cấu hình L7 Policy"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/redirect-http-request-sang-https",
                       label:  "Cấu hình redirect HTTP request sang HTTPS"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/redirect-http-to-https",
+                      label:  "Redirect HTTP sang HTTPS"
                     },
                     {
                       type:  "doc",
@@ -1886,6 +1924,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/enable-hsts",
+                      label:  "Bật HSTS"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/Allow-IP-CIDR",
                       label:  "Cấu hình Allow IP/CIDR"
                     },
@@ -1893,6 +1936,11 @@ module.exports = {
                       type:  "doc",
                       id:  "load-balancer/SNI-load-balancer",
                       label:  "Cấu hình SNI trên Load balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-sni",
+                      label:  "Cấu hình SNI"
                     }
                   ]
                 },
@@ -1908,6 +1956,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/create-server-pool",
+                      label:  "Tạo Server Pool"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/them-bot-member-cho-server-pool",
                       label:  "Thêm/bớt member cho Server pool"
                     },
@@ -1915,6 +1968,11 @@ module.exports = {
                       type:  "doc",
                       id:  "load-balancer/chinh-sua-cau-hinh-health-check",
                       label:  "Chỉnh sửa cấu hình Health check"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/configure-health-check",
+                      label:  "Cấu hình Health Check"
                     }
                   ]
                 },
@@ -1935,8 +1993,18 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/import-ssl-certificate",
+                      label:  "Import SSL Certificate"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/xoa-ssl-certificate",
                       label:  "Xoá SSL Certificate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/delete-ssl-certificate",
+                      label:  "Xóa SSL Certificate"
                     }
                   ]
                 }
@@ -1996,6 +2064,11 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/classic-import-ssl-certificate",
+                      label:  "Import SSL Certificate (Classic)"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/xem thong tin chi tiet ssl certificate",
                       label:  "Xem thông tin chi tiết SSL Certificate"
                     }
@@ -2020,6 +2093,11 @@ module.exports = {
               label:  "Hướng dẫn nhanh (Quick Starts)",
               collapsed:  true,
               items:  [
+                {
+                  type:  "doc",
+                  id:  "create-vpc/create-vpc-en",
+                  label:  "Create VPC"
+                },
                 {
                   type:  "doc",
                   id:  "create-vpc/create-vpc-en",
@@ -2455,205 +2533,212 @@ module.exports = {
           items:  [
             {
               type:  "category",
-              label:  "Kích hoạt dịch vụ FPT Container Registry",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
-                  label:  "Kích hoạt dịch vụ FPT Container Registry"
+                  type:  "category",
+                  label:  "Kích hoạt dịch vụ FPT Container Registry",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
+                      label:  "Kích hoạt dịch vụ FPT Container Registry"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu",
+                      label:  "Kiểm tra thông tin gói dịch vụ"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kich-hoat-dich-vu",
+                      label:  "Kích hoạt dịch vụ"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu",
-                  label:  "Kiểm tra thông tin gói dịch vụ"
+                  type:  "category",
+                  label:  "Hướng dẫn sử dụng trên Docker CLI",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
+                      label:  "Sử dụng Docker CLI với FPT Container Registry"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/docker-login",
+                      label:  "Docker Login"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
+                      label:  "Tag và push image lên FPT Container Registry"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
+                      label:  "Pull Docker image từ FPT Container Registry về local"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kich-hoat-dich-vu",
-                  label:  "Kích hoạt dịch vụ"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Hướng dẫn sử dụng trên Docker CLI",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
-                  label:  "Sử dụng Docker CLI với FPT Container Registry"
+                  type:  "category",
+                  label:  "Quản lý Repositories trên FPT Portal",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
+                      label:  "Quản lý repositories trên FPT Portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xem-danh-sach-repositories",
+                      label:  "Xem danh sách repositories"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
+                      label:  "Xóa image hoặc artifact trong repositories"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/docker-login",
-                  label:  "Docker Login"
+                  type:  "category",
+                  label:  "Quản lý Retention Rule",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-retention-rule",
+                      label:  "Quản lý retention rule"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/them-moi-tag-retention-rule",
+                      label:  "Thêm mới tag retention rule"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-tag-retention-rule",
+                      label:  "Quản lý tag retention rule"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule",
+                      label:  "Cấu hình lịch chạy retention rule"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-retention-run",
+                      label:  "Quản lý retention run"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
-                  label:  "Tag và push image lên FPT Container Registry"
+                  type:  "category",
+                  label:  "Quản lý Robot Account",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-robot-account",
+                      label:  "Quản lý robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/tao-moi-robot-account",
+                      label:  "Tạo mới robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xem-danh-sach-robot-account",
+                      label:  "Xem danh sách robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cap-nhat-robot-account",
+                      label:  "Cập nhật robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
+                      label:  "Tắt robot account đang sử dụng"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/enable-robot-account",
+                      label:  "Bật lại robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xoa-mot-robot-account",
+                      label:  "Xóa robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/refresh-robot-account",
+                      label:  "Refresh robot account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-su-dung-robot-account",
+                      label:  "Sử dụng robot account"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
-                  label:  "Pull Docker image từ FPT Container Registry về local"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Repositories trên FPT Portal",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
-                  label:  "Quản lý repositories trên FPT Portal"
+                  type:  "category",
+                  label:  "Quản lý Gói dịch vụ",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-goi-dich-vu",
+                      label:  "Quản lý gói dịch vụ"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
+                      label:  "Xem chi tiết quota dịch vụ"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung",
+                      label:  "Nâng gói dịch vụ"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xem-danh-sach-repositories",
-                  label:  "Xem danh sách repositories"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
-                  label:  "Xóa image hoặc artifact trong repositories"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Retention Rule",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-retention-rule",
-                  label:  "Quản lý retention rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/them-moi-tag-retention-rule",
-                  label:  "Thêm mới tag retention rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-tag-retention-rule",
-                  label:  "Quản lý tag retention rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule",
-                  label:  "Cấu hình lịch chạy retention rule"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-retention-run",
-                  label:  "Quản lý retention run"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Robot Account",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-robot-account",
-                  label:  "Quản lý robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/tao-moi-robot-account",
-                  label:  "Tạo mới robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xem-danh-sach-robot-account",
-                  label:  "Xem danh sách robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cap-nhat-robot-account",
-                  label:  "Cập nhật robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
-                  label:  "Tắt robot account đang sử dụng"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/enable-robot-account",
-                  label:  "Bật lại robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xoa-mot-robot-account",
-                  label:  "Xóa robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/refresh-robot-account",
-                  label:  "Refresh robot account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-su-dung-robot-account",
-                  label:  "Sử dụng robot account"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Quản lý Gói dịch vụ",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-goi-dich-vu",
-                  label:  "Quản lý gói dịch vụ"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
-                  label:  "Xem chi tiết quota dịch vụ"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung",
-                  label:  "Nâng gói dịch vụ"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Scan Images",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/scan-image",
-                  label:  "Scan image"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/scan-image-1",
-                  label:  "Thực hiện scan image"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/stop-scan",
-                  label:  "Dừng scan image"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
-                  label:  "Quản lý kết quả scan image"
+                  type:  "category",
+                  label:  "Scan Images",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/scan-image",
+                      label:  "Scan image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/scan-image-1",
+                      label:  "Thực hiện scan image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/stop-scan",
+                      label:  "Dừng scan image"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
+                      label:  "Quản lý kết quả scan image"
+                    }
+                  ]
                 }
               ]
             }
@@ -2826,16 +2911,9 @@ module.exports = {
               label:  "Các lưu ý khi sử dụng FKE"
             },
             {
-              type:  "category",
-              label:  "Các câu hỏi thường gặp (FAQs)",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "dedicated-fpt-kubernetes-engine/dfke-faqs",
-                  label:  "Câu hỏi thường gặp"
-                }
-              ]
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/dfke-faqs",
+              label:  "Câu hỏi thường gặp"
             }
           ]
         }
@@ -3006,14 +3084,9 @@ module.exports = {
                       type:  "doc",
                       id:  "iam/download-access-log",
                       label:  "Tải danh sách lịch sử truy cập"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/xem%20danh%20sach%20user%20group",
-                      label:  "Xem Danh Sach User Group"
                     }
                   ]
-                },
+                }
               ]
             }
           ]
@@ -3314,14 +3387,26 @@ module.exports = {
               label:  "Thiết lập ban đầu"
             },
             {
-              type:  "doc",
-              id:  "fpt-cloud-waf/them-moi-may-chu-waf",
-              label:  "Thêm mới máy chủ WAF"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/configure-waf-server-connection",
-              label:  "Cấu hình kết nối máy chủ WAF"
+              type:  "category",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+                  label:  "Thêm mới máy chủ WAF"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+                  label:  "Đăng nhập WAF Dashboard"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/configure-waf-server-connection",
+                  label:  "Cấu hình kết nối máy chủ WAF"
+                }
+              ]
             },
             {
               type:  "category",
@@ -3345,7 +3430,7 @@ module.exports = {
                 },
                 {
                   type:  "category",
-                  label:  "Quản trị máy chủ WAF với WAF Dashboard",
+                  label:  "Quản trị WAF với Dashboard",
                   collapsed:  true,
                   items:  [
                     {
@@ -3356,7 +3441,7 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
-                      label:  "Theo dõi WAF qua Dashboard Overview"
+                      label:  "Monitor WAF"
                     }
                   ]
                 },
@@ -3368,89 +3453,69 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/quan-ly-proxy-host",
-                      label:  "Quản lý proxy host"
+                      label:  "Quản lý Proxy Host"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/create-proxy-host",
-                      label:  "Tạo mới proxy host"
+                      label:  "Tạo mới"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/view-proxy-host-detail",
-                      label:  "Xem chi tiết proxy host"
+                      label:  "Xem chi tiết"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/update-proxy-host",
-                      label:  "Cập nhật proxy host"
+                      label:  "Cập nhật"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/enable-disable-proxy-host",
-                      label:  "Bật/tắt proxy host"
+                      label:  "Bật/Tắt"
                     },
                     {
                       type:  "doc",
                       id:  "fpt-cloud-waf/delete-proxy-host",
-                      label:  "Xóa proxy host"
+                      label:  "Xóa"
                     }
                   ]
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-redirection-host",
-                  label:  "Quản lý redirection host"
+                  label:  "Quản lý Redirection Host"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-stream-host",
-                  label:  "Thêm mới stream host"
+                  label:  "Thêm mới Stream Host"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-404-host",
-                  label:  "Quản lý 404 host"
+                  label:  "Quản lý 404 Host"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-access-list",
-                  label:  "Quản lý access list"
+                  label:  "Quản lý Access List"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-ssl-certificate",
-                  label:  "Quản lý SSL certificate"
+                  label:  "Quản lý SSL Certificates"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/manage-security-rule-set",
-                  label:  "Quản lý security rule set"
+                  label:  "Quản lý Security Rule Sets"
                 },
                 {
                   type:  "doc",
                   id:  "fpt-cloud-waf/quan-ly-nguoi-dung-cua-waf-dashboard",
                   label:  "Quản lý người dùng WAF Dashboard"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-waf/fpt-cloud-waf",
-                  label:  "FPT Cloud WAF"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard",
-                  label:  "Manage WAF server with WAF Dashboard"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-waf/manage-proxy-host",
-                  label:  "Manage Proxy Host"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
-                  label:  "Dang Nhap Waf Dashboard"
                 }
               ]
             }
@@ -4879,279 +4944,296 @@ module.exports = {
               label:  "Kiểm tra thông tin gói dịch vụ"
             },
             {
-              type:  "doc",
-              id:  "fpt-argocd/create-fpt-argocd",
-              label:  "Tạo mới FPT ArgoCD instance"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/view-argocd-detail",
-              label:  "Xem thông tin và đăng nhập"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/add-cluster-to-argocd",
-              label:  "Kết nối cluster Kubernetes"
-            },
-            {
               type:  "category",
-              label:  "Cấu hình Image Updater",
+              label:  "Hướng dẫn chi tiết (Tutorials)",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-image-updater",
-                  label:  "Cấu hình Image Updater"
+                  id:  "fpt-argocd/create-fpt-argocd",
+                  label:  "Tạo mới FPT ArgoCD instance"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/enable-disable-images-updater",
-                  label:  "Enable/disable Image Updater"
+                  id:  "fpt-argocd/view-argocd-detail",
+                  label:  "Xem thông tin và đăng nhập"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-log-level",
-                  label:  "Cấu hình log level"
+                  id:  "fpt-argocd/add-cluster-to-argocd",
+                  label:  "Kết nối cluster Kubernetes"
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình Image Updater",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-image-updater",
+                      label:  "Cấu hình Image Updater"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-images-updater",
+                      label:  "Enable/disable Image Updater"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-log-level",
+                      label:  "Cấu hình log level"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-secrets",
+                      label:  "Quản lý secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-registry-secrets",
+                      label:  "Quản lý registry secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-container-registry",
+                      label:  "Quản lý container registry"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình webhook",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-webhook",
+                      label:  "Cấu hình webhook"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/add-webhook-secret",
+                      label:  "Tạo mới webhook secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/Edit-webhook-secret",
+                      label:  "Edit Webhook Secret"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/delete-webhook-secret",
+                      label:  "Xóa webhook secret"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-secrets",
-                  label:  "Quản lý secret"
+                  id:  "fpt-argocd/configure-build-options-kustomize",
+                  label:  "Cấu hình Kustomize build options"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-registry-secrets",
-                  label:  "Quản lý registry secret"
+                  id:  "fpt-argocd/configure-timereconcile",
+                  label:  "Cấu hình TimeReconcile"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-container-registry",
-                  label:  "Quản lý container registry"
+                  id:  "fpt-argocd/configure-rbac",
+                  label:  "Cấu hình RBAC policy"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-whitelist-ip",
+                  label:  "Cấu hình whitelist IP"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/upgrade-service-package",
+                  label:  "Nâng gói dịch vụ"
+                },
+                {
+                  type:  "category",
+                  label:  "Quản lý account trên argocd",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/quan-ly-account-tren-argocd",
+                      label:  "Quản lý tài khoản trên ArgoCD"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/create-account",
+                      label:  "Tạo mới tài khoản"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-account",
+                      label:  "Enable/disable tài khoản"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-admin-account",
+                      label:  "Quản lý tài khoản admin"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/update-admin-password",
+                      label:  "Cập nhật mật khẩu admin"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/Edit-capabilities",
+                      label:  "Chỉnh sửa capabilities"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/change-password",
+                      label:  "Thay đổi mật khẩu"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Manage Admin account, Enable/disable Anonymous User",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
+                      label:  "Quản lý admin và anonymous user"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-anonymous-user",
+                      label:  "Enable/disable anonymous user"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-admin-user",
+                      label:  "Enable/disable tài khoản admin"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình OIDC phục vụ SSO config",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
+                      label:  "Cấu hình OIDC cho SSO"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-oidc-config",
+                      label:  "Cấu hình OIDC config"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-oidc",
+                      label:  "Enable/disable OIDC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/update-oidc-config",
+                      label:  "Cập nhật cấu hình OIDC"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/delete-oidc-config",
+                      label:  "Xóa cấu hình OIDC"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-applications-set",
+                  label:  "Enable ApplicationSet"
+                },
+                {
+                  type:  "category",
+                  label:  "Cấu hình Notifications",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-notifications",
+                      label:  "Cấu hình notifications"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-notifications",
+                      label:  "Enable/disable notifications"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-notification-channels",
+                      label:  "Cấu hình channel để thực hiện gửi thông báo"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Demo",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/demo",
+                      label:  "Demo"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                      label:  "Hướng dẫn đăng nhập vào ArgoCD"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                      label:  "Hướng dẫn cấu hình ArgoCD cluster để deploy ứng dụng với manifes"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                      label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                      label:  "Hướng dẫn deploy applications qua helm chart repo"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                      label:  "Hướng dẫn deploy applications qua argocd cli"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                      label:  "Hướng dẫn sử dụng applicationset để deploy"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                      label:  "Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                      label:  "Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                      label:  "Hướng dẫn tích hợp Argo CD Images Updater"
+                    }
+                  ]
                 }
               ]
-            },
-            {
-              type:  "category",
-              label:  "Cấu hình webhook",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-webhook",
-                  label:  "Cấu hình webhook"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/add-webhook-secret",
-                  label:  "Tạo mới webhook secret"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/Edit-webhook-secret",
-                  label:  "Edit Webhook Secret"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/delete-webhook-secret",
-                  label:  "Xóa webhook secret"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-build-options-kustomize",
-              label:  "Cấu hình Kustomize build options"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-timereconcile",
-              label:  "Cấu hình TimeReconcile"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-rbac",
-              label:  "Cấu hình RBAC policy"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-whitelist-ip",
-              label:  "Cấu hình whitelist IP"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/upgrade-service-package",
-              label:  "Nâng gói dịch vụ"
-            },
-            {
-              type:  "category",
-              label:  "Quản lý account trên argocd",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/quan-ly-account-tren-argocd",
-                  label:  "Quản lý tài khoản trên ArgoCD"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/create-account",
-                  label:  "Tạo mới tài khoản"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-account",
-                  label:  "Enable/disable tài khoản"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/manage-admin-account",
-                  label:  "Quản lý tài khoản admin"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/update-admin-password",
-                  label:  "Cập nhật mật khẩu admin"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/edit-capabilities",
-                  label:  "Chỉnh sửa capabilities"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/change-password",
-                  label:  "Thay đổi mật khẩu"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Manage Admin account, Enable/disable Anonymous User",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
-                  label:  "Quản lý admin và anonymous user"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-anonymous-user",
-                  label:  "Enable/disable anonymous user"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-admin-user",
-                  label:  "Enable/disable tài khoản admin"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Cấu hình OIDC phục vụ SSO config",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
-                  label:  "Cấu hình OIDC cho SSO"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-oidc",
-                  label:  "Enable/disable OIDC"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/update-oidc-config",
-                  label:  "Cập nhật cấu hình OIDC"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/enable-applications-set",
-              label:  "Enable ApplicationSet"
-            },
-            {
-              type:  "category",
-              label:  "Cấu hình Notifications",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-notifications",
-                  label:  "Cấu hình notifications"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-notifications",
-                  label:  "Enable/disable notifications"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/configure-notification-channels",
-                  label:  "Cấu hình channel để thực hiện gửi thông báo"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Demo",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/demo",
-                  label:  "Demo"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                  label:  "Hướng dẫn đăng nhập vào ArgoCD"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                  label:  "Hướng dẫn cấu hình ArgoCD cluster để deploy ứng dụng với manifes"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                  label:  "Hướng dẫn deploy một applications với kustomize sử dụng build options"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                  label:  "Hướng dẫn deploy applications qua helm chart repo"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                  label:  "Hướng dẫn deploy applications qua argocd cli"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                  label:  "Hướng dẫn sử dụng applicationset để deploy"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                  label:  "Hướng dẫn cấu hình notifications để nhận thông báo khi ứng dụng thay đổi"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                  label:  "Hướng dẫn tích hợp OIDC để quản lý account trên ArgoCD"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                  label:  "Hướng dẫn tích hợp Argo CD Images Updater"
-                }
-              ]
-            },
+            }
           ]
         }
       ]
@@ -5172,9 +5254,16 @@ module.exports = {
               label:  "Thiết lập ban đầu"
             },
             {
-              type:  "doc",
-              id:  "fpt-api-management/quick-starts",
-              label:  "Hướng dẫn nhanh (Quick Starts)"
+              type:  "category",
+              label:  "Hướng dẫn nhanh (Quick Starts)",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-api-management/quick-starts",
+                  label:  "Hướng dẫn nhanh (Quick Starts)"
+                }
+              ]
             },
             {
               type:  "category",
@@ -5191,11 +5280,6 @@ module.exports = {
                   label:  "Khai báo thông tin trên ApiManager Application",
                   collapsed:  true,
                   items:  [
-                    {
-                      type:  "doc",
-                      id:  "fpt-api-management/khai-bao-thong-tin-tren-apimanager-application",
-                      label:  "Khai báo thông tin trên ApiManager Application"
-                    },
                     {
                       type:  "doc",
                       id:  "fpt-api-management/manage-rest-apis",
@@ -5227,16 +5311,6 @@ module.exports = {
                   type:  "doc",
                   id:  "fpt-api-management/consumer-api-usage-guide",
                   label:  "Hướng dẫn sử dụng cho API Consumer"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-api-management/fpt-api-management",
-                  label:  "FPT API Management"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-api-management/declaring-information",
-                  label:  "Declaring information on ApiManager Application"
                 }
               ]
             }

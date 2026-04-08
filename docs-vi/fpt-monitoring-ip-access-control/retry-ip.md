@@ -1,8 +1,8 @@
 ---
 id: "retry-ip"
-title: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
+title: "Thử lại IP thất bại"
 description: "**Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'.**"
-sidebar_label: "Áp dụng cho các IP có trạng thái 'Whitelist Failed'/'Blacklist Failed'."
+sidebar_label: "Thử lại IP thất bại"
 sidebar_position: 10
 ---
 

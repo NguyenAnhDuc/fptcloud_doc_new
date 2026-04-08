@@ -1,7 +1,7 @@
 ---
 id: "accountpassword-qua-web-browser"
-title: "Web ブラウザからのアクセス（アカウント/パスワード）"
-sidebar_label: "Web ブラウザからのアクセス（アカウント/パスワード）"
+title: "Webブラウザ経由でAccount/Password"
+sidebar_label: "Webブラウザ経由でAccount/Password"
 ---
 
 Web ブラウザからのアクセス

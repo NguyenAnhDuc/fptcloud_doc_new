@@ -1,7 +1,7 @@
 ---
 id: "quan-ly-api-site"
-title: "Quan Ly Api Site"
-sidebar_label: "Quan Ly Api Site"
+title: "Quản lý API Site"
+sidebar_label: "Quản lý API Site"
 ---
 
 Quản lý API site

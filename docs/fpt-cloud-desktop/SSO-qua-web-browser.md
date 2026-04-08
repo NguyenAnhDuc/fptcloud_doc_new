@@ -1,7 +1,7 @@
 ---
 id: "SSO-qua-web-browser"
-title: "Access via web browser"
-sidebar_label: "Access via web browser"
+title: "SSO via Web Browser"
+sidebar_label: "SSO via Web Browser"
 ---
 
 Access via web browser

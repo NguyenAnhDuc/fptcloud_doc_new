@@ -1,7 +1,7 @@
 ---
 id: "backup-restore"
-title: "Backup Restore"
-sidebar_label: "Backup Restore"
+title: "Backup and Restore"
+sidebar_label: "Backup and Restore"
 ---
 
 Backup & Restore

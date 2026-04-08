@@ -1,7 +1,7 @@
 ---
 id: "SSO-qua-web-browser"
-title: "Web ブラウザからのアクセス"
-sidebar_label: "Web ブラウザからのアクセス"
+title: "Webブラウザ経由でSSO"
+sidebar_label: "Webブラウザ経由でSSO"
 ---
 
 Web ブラウザからのアクセス

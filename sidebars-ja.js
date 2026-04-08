@@ -416,16 +416,9 @@ module.exports = {
               ]
             },
             {
-              type:  "category",
-              label:  "よくある質問",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-cloud-desktop/faq",
-                  label:  "よくある質問（FAQs）"
-                }
-              ]
+              type:  "doc",
+              id:  "fpt-cloud-desktop/faq",
+              label:  "よくある質問（FAQs）"
             }
           ]
         },
@@ -1769,10 +1762,6 @@ module.exports = {
           items:  [
             {
               type:  "doc",
-              id:  "load-balancer/load-balancer"
-            },
-            {
-              type:  "doc",
               id:  "load-balancer/initial-setup"
             },
             {
@@ -1791,7 +1780,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/khoi-tao-load-balancer",
+                      label:  "Khởi tạo Load Balancer"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/update-load-balancer"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/cap-nhat-load-balancer",
+                      label:  "Cập nhật Load Balancer"
                     },
                     {
                       type:  "doc",
@@ -1799,7 +1798,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/theo-doi-bieu-do-load-balancer",
+                      label:  "Theo dõi biểu đồ giám sát Load Balancer"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/add-external-member"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/them-external-member",
+                      label:  "Thêm External member cho Load Balancer"
                     },
                     {
                       type:  "doc",
@@ -1826,7 +1835,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/khoi-tao-listener",
+                      label:  "Khởi tạo Listener"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/configure-timeout"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/cau-hinh-timeout",
+                      label:  "Cấu hình Timeout"
                     },
                     {
                       type:  "doc",
@@ -1834,7 +1853,17 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/chinh-sua-listener",
+                      label:  "Cấu hình L7 policy cho Listener"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/redirect-http-to-https"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/redirect-http-request-sang-https",
+                      label:  "Cấu hình redirect HTTP request sang HTTPS"
                     },
                     {
                       type:  "doc",
@@ -1846,11 +1875,21 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/enable-hsts-to-http-listener",
+                      label:  "Enable HSTS to HTTPS Listener"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/Allow-IP-CIDR"
                     },
                     {
                       type:  "doc",
                       id:  "load-balancer/configure-sni"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/SNI-load-balancer",
+                      label:  "Cấu hình SNI trên Load balancer"
                     }
                   ]
                 },
@@ -1865,7 +1904,22 @@ module.exports = {
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/khoi-tao-server-pool",
+                      label:  "Khởi tạo Server Pool"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/them-bot-member-cho-server-pool",
+                      label:  "Thêm/bớt member cho Server pool"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/configure-health-check"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/chinh-sua-cau-hinh-health-check",
+                      label:  "Chỉnh sửa cấu hình Health check"
                     }
                   ]
                 },
@@ -1876,11 +1930,26 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "load-balancer/quan-ly-ssl-certificate",
+                      label:  "Quản lý SSL Certificate"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/import-ssl-certificate"
                     },
                     {
                       type:  "doc",
+                      id:  "load-balancer/import-ssl-certificate-cho-load-balancer",
+                      label:  "Import ssl Certificate cho Load Balancer"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/delete-ssl-certificate"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "load-balancer/xoa-ssl-certificate",
+                      label:  "Xoá SSL Certificate"
                     }
                   ]
                 }
@@ -1930,6 +1999,11 @@ module.exports = {
                   items:  [
                     {
                       type:  "doc",
+                      id:  "load-balancer/tao import ssl certificate",
+                      label:  "Tạo/Import SSL Certificate"
+                    },
+                    {
+                      type:  "doc",
                       id:  "load-balancer/classic-import-ssl-certificate"
                     },
                     {
@@ -1939,74 +2013,6 @@ module.exports = {
                   ]
                 }
               ]
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/khoi-tao-load-balancer"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/cap-nhat-load-balancer"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/theo-doi-bieu-do-load-balancer"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/them-external-member"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/khoi-tao-listener"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/cau-hinh-timeout"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/chinh-sua-listener"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/redirect-http-request-sang-https"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/enable-hsts-to-http-listener"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/SNI-load-balancer"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/khoi-tao-server-pool"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/them-bot-member-cho-server-pool"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/chinh-sua-cau-hinh-health-check"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/quan-ly-ssl-certificate"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/import-ssl-certificate-cho-load-balancer"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/xoa-ssl-certificate"
-            },
-            {
-              type:  "doc",
-              id:  "load-balancer/tao import ssl certificate"
             }
           ]
         },
@@ -2464,200 +2470,207 @@ module.exports = {
           items:  [
             {
               type:  "category",
-              label:  "FPT Container Registryの有効化",
+              label:  "チュートリアル",
               collapsed:  true,
               items:  [
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
-                  label:  "FPT Container Registry サービスをアクティベートするための条件"
+                  type:  "category",
+                  label:  "FPT Container Registryの有効化",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kich-hoat-dich-vu-fpt-container-registry",
+                      label:  "FPT Container Registry サービスをアクティベートするための条件"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu",
+                      label:  "サービスプラン情報を確認する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/kich-hoat-dich-vu",
+                      label:  "サービスをアクティベートする"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kiem-tra-thong-tin-goi-dich-vu",
-                  label:  "サービスプラン情報を確認する"
+                  type:  "category",
+                  label:  "Docker CLI ガイド",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
+                      label:  "Huong Dan Su Dung Tren Docker Cli"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/docker-login",
+                      label:  "Docker Login"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
+                      label:  "FPT Container Registry に image を tag して push する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
+                      label:  "FPT Container Registry から Docker image を pull する"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/kich-hoat-dich-vu",
-                  label:  "サービスをアクティベートする"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Docker CLI ガイド",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-su-dung-tren-docker-cli",
-                  label:  "Huong Dan Su Dung Tren Docker Cli"
+                  type:  "category",
+                  label:  "FPT Portal でのリポジトリ管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
+                      label:  "Quan Ly Repositories Tren Fpt Portal"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xem-danh-sach-repositories",
+                      label:  "Xem Danh Sach Repositories"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
+                      label:  "Repository 内の image または artifact を削除する"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/docker-login",
-                  label:  "Docker Login"
+                  type:  "category",
+                  label:  "Retention Ruleの管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-retention-rule",
+                      label:  "Retention rule を管理する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/them-moi-tag-retention-rule",
+                      label:  "Tag retention rule を追加する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-tag-retention-rule",
+                      label:  "Tag retention rule を管理する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule",
+                      label:  "Retention rule のスケジュールを設定する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-retention-run",
+                      label:  "Retention run を管理する"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/tag-va-push-image-len-fpt-container-registry",
-                  label:  "FPT Container Registry に image を tag して push する"
+                  type:  "category",
+                  label:  "Robot Accountの管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-robot-account",
+                      label:  "Quan Ly Robot Account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/tao-moi-robot-account",
+                      label:  "Robot account を管理する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xem-danh-sach-robot-account",
+                      label:  "Xem Danh Sach Robot Account"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cap-nhat-robot-account",
+                      label:  "Robot account を更新する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
+                      label:  "Robot account を無効化する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/enable-robot-account",
+                      label:  "Robot account を有効化する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/xoa-mot-robot-account",
+                      label:  "Robot account を削除する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/refresh-robot-account",
+                      label:  "Robot account の secret をリフレッシュする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-su-dung-robot-account",
+                      label:  "Robot account を使用する"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/pull-docker-image-tu-fpt-container-registry-ve-local",
-                  label:  "FPT Container Registry から Docker image を pull する"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "FPT Portal でのリポジトリ管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-repositories-tren-fpt-portal",
-                  label:  "Quan Ly Repositories Tren Fpt Portal"
+                  type:  "category",
+                  label:  "Service Packageの管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-goi-dich-vu",
+                      label:  "Quan Ly Goi Dich Vu"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
+                      label:  "サービス quota の詳細を確認する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung",
+                      label:  "サービスプランをアップグレードする"
+                    }
+                  ]
                 },
                 {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xem-danh-sach-repositories",
-                  label:  "Xem Danh Sach Repositories"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xoa-image-hoac-artifact-trong-repositories",
-                  label:  "Repository 内の image または artifact を削除する"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Retention Ruleの管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-retention-rule",
-                  label:  "Retention rule を管理する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/them-moi-tag-retention-rule",
-                  label:  "Tag retention rule を追加する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-tag-retention-rule",
-                  label:  "Tag retention rule を管理する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cau-hinh-lap-lich-chay-retention-rule",
-                  label:  "Retention rule のスケジュールを設定する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-retention-run",
-                  label:  "Retention run を管理する"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Robot Accountの管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-robot-account",
-                  label:  "Quan Ly Robot Account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/tao-moi-robot-account",
-                  label:  "Robot account を管理する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xem-danh-sach-robot-account",
-                  label:  "Xem Danh Sach Robot Account"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cap-nhat-robot-account",
-                  label:  "Robot account を更新する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/disable-robot-account-dang-su-dung",
-                  label:  "Robot account を無効化する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/enable-robot-account",
-                  label:  "Robot account を有効化する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/xoa-mot-robot-account",
-                  label:  "Robot account を削除する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/refresh-robot-account",
-                  label:  "Robot account の secret をリフレッシュする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-su-dung-robot-account",
-                  label:  "Robot account を使用する"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Service Packageの管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-goi-dich-vu",
-                  label:  "Quan Ly Goi Dich Vu"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/cem-chi-tiet-quota-dich-vu",
-                  label:  "サービス quota の詳細を確認する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/huong-dan-nang-goi-dich-vu-dang-su-dung",
-                  label:  "サービスプランをアップグレードする"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Scan Images",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/scan-image-1",
-                  label:  "イメージをスキャンする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/stop-scan",
-                  label:  "スキャンを停止する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
-                  label:  "スキャン結果を管理する"
+                  type:  "category",
+                  label:  "Scan Images",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/scan-image",
+                      label:  "イメージをスキャンする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/stop-scan",
+                      label:  "スキャンを停止する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-container-registry/quan-ly-ket-qua-scan-images",
+                      label:  "スキャン結果を管理する"
+                    }
+                  ]
                 }
               ]
             }
@@ -2830,16 +2843,9 @@ module.exports = {
               label:  "DFKEご利用時の注意事項"
             },
             {
-              type:  "category",
-              label:  "よくある質問",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "dedicated-fpt-kubernetes-engine/dfke-faqs",
-                  label:  "よくある質問（FAQ）"
-                }
-              ]
+              type:  "doc",
+              id:  "dedicated-fpt-kubernetes-engine/dfke-faqs",
+              label:  "よくある質問（FAQ）"
             }
           ]
         }
@@ -2991,11 +2997,6 @@ module.exports = {
                     {
                       type:  "doc",
                       id:  "iam/download-access-log"
-                    },
-                    {
-                      type:  "doc",
-                      id:  "iam/xem%20danh%20sach%20user%20group",
-                      label:  "Xem Danh Sach User Group"
                     }
                   ]
                 }
@@ -3299,9 +3300,26 @@ module.exports = {
               label:  "初期設定"
             },
             {
-              type:  "doc",
-              id:  "fpt-cloud-waf/them-moi-may-chu-waf",
-              label:  "WAFサーバーの追加"
+              type:  "category",
+              label:  "クイックスタート",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/them-moi-may-chu-waf",
+                  label:  "WAFサーバーの追加"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
+                  label:  "WAF Dashboardへのログイン"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/configure-waf-server-connection",
+                  label:  "WAFサーバー接続の設定"
+                }
+              ]
             },
             {
               type:  "category",
@@ -3310,8 +3328,102 @@ module.exports = {
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-cloud-waf/quan-ly-proxy-host",
-                  label:  "Proxy Hostの管理"
+                  id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server",
+                  label:  "WAFサーバーの追加"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/update-information-of-the-WAF-server",
+                  label:  "WAFサーバーの編集"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/delete-waf-server",
+                  label:  "WAFサーバーの削除"
+                },
+                {
+                  type:  "category",
+                  label:  "WAF Dashboardの管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard",
+                      label:  "WAF Dashboardへのログイン"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview",
+                      label:  "WAFの監視"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Proxy Hostの管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/manage-proxy-host",
+                      label:  "Proxy Hostの管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/create-proxy-host",
+                      label:  "新規作成"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/view-proxy-host-detail",
+                      label:  "詳細表示"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/update-proxy-host",
+                      label:  "更新"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/enable-disable-proxy-host",
+                      label:  "有効化/無効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-cloud-waf/delete-proxy-host",
+                      label:  "削除"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-redirection-host",
+                  label:  "Redirection Hostの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-stream-host",
+                  label:  "Stream Hostの追加"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-404-host",
+                  label:  "404 Hostの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-access-list",
+                  label:  "Access Listの管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-ssl-certificate",
+                  label:  "SSL証明書の管理"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-cloud-waf/manage-security-rule-set",
+                  label:  "セキュリティルールセットの管理"
                 },
                 {
                   type:  "doc",
@@ -3319,91 +3431,6 @@ module.exports = {
                   label:  "WAF Dashboardのユーザー管理"
                 }
               ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-stream-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/configure-waf-server-connection"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/create-proxy-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/delete-proxy-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/delete-waf-server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/update-information-of-the-WAF-server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/enable-disable-proxy-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/fpt-cloud-waf"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-404-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-access-list"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-proxy-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-redirection-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-security-rule-set"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-ssl-certificate"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/manage-waf-server-with-waf-dashboard"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/monitor-waf-server-with-dashboard-overview"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-create-a-new-waf-server"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/tutorials-log-in-to-waf-dashboard"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/update-proxy-host"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/view-proxy-host-detail"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-cloud-waf/dang-nhap-waf-dashboard",
-              label:  "Dang Nhap Waf Dashboard"
             }
           ]
         },
@@ -4830,279 +4857,296 @@ module.exports = {
               label:  "サービスパッケージ情報の確認"
             },
             {
-              type:  "doc",
-              id:  "fpt-argocd/create-fpt-argocd",
-              label:  "FPT ArgoCDインスタンスの作成"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/view-argocd-detail",
-              label:  "詳細の確認とログイン"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/add-cluster-to-argocd",
-              label:  "Kubernetesクラスターの接続"
-            },
-            {
               type:  "category",
-              label:  "Image Updaterの設定",
+              label:  "チュートリアル",
               collapsed:  true,
               items:  [
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-image-updater",
-                  label:  "Image Updaterの設定"
+                  id:  "fpt-argocd/create-fpt-argocd",
+                  label:  "FPT ArgoCDインスタンスの作成"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/enable-disable-images-updater",
-                  label:  "Image Updaterの有効化/無効化"
+                  id:  "fpt-argocd/view-argocd-detail",
+                  label:  "詳細の確認とログイン"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/configure-log-level",
-                  label:  "ログレベルの設定"
+                  id:  "fpt-argocd/add-cluster-to-argocd",
+                  label:  "Kubernetesクラスターの接続"
+                },
+                {
+                  type:  "category",
+                  label:  "Image Updaterの設定",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-image-updater",
+                      label:  "Image Updaterの設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-images-updater",
+                      label:  "Image Updaterの有効化/無効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-log-level",
+                      label:  "ログレベルの設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-secrets",
+                      label:  "シークレットの管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-registry-secrets",
+                      label:  "レジストリシークレットの管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-container-registry",
+                      label:  "コンテナレジストリの管理"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Webhookの設定",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-webhook",
+                      label:  "Webhookの設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/add-webhook-secret",
+                      label:  "Webhook secretの追加"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/Edit-webhook-secret",
+                      label:  "Webhook secretの編集"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/delete-webhook-secret",
+                      label:  "Webhook secretの削除"
+                    }
+                  ]
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-secrets",
-                  label:  "シークレットの管理"
+                  id:  "fpt-argocd/configure-build-options-kustomize",
+                  label:  "Kustomizeビルドオプションの設定"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-registry-secrets",
-                  label:  "レジストリシークレットの管理"
+                  id:  "fpt-argocd/configure-timereconcile",
+                  label:  "TimeReconcileの設定"
                 },
                 {
                   type:  "doc",
-                  id:  "fpt-argocd/manage-container-registry",
-                  label:  "コンテナレジストリの管理"
+                  id:  "fpt-argocd/configure-rbac",
+                  label:  "RBACポリシーの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/configure-whitelist-ip",
+                  label:  "ホワイトリストIPの設定"
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/upgrade-service-package",
+                  label:  "サービスパッケージのアップグレード"
+                },
+                {
+                  type:  "category",
+                  label:  "ArgoCD上のアカウント管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/quan-ly-account-tren-argocd",
+                      label:  "ArgoCD上のアカウント管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/create-account",
+                      label:  "アカウントの作成"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-account",
+                      label:  "アカウントのenable/disable"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-admin-account",
+                      label:  "Adminアカウントの管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/update-admin-password",
+                      label:  "Adminパスワードの更新"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/Edit-capabilities",
+                      label:  "Capabilitiesの編集"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/change-password",
+                      label:  "パスワードの変更"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Admin/Anonymousユーザー管理",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
+                      label:  "AdminとAnonymous userの管理"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-anonymous-user",
+                      label:  "Anonymous userのenable/disable"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-admin-user",
+                      label:  "Adminアカウントのenable/disable"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "OIDC SSO設定",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
+                      label:  "SSO用OIDC設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-oidc",
+                      label:  "OIDCの有効化/無効化"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/update-oidc-config",
+                      label:  "OIDC設定の更新"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-oidc-config",
+                      label:  "OIDC config の設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/delete-oidc-config",
+                      label:  "OIDC config の削除"
+                    }
+                  ]
+                },
+                {
+                  type:  "doc",
+                  id:  "fpt-argocd/enable-applications-set",
+                  label:  "ApplicationSetの有効化"
+                },
+                {
+                  type:  "category",
+                  label:  "通知の設定",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/cau-hinh-notifications",
+                      label:  "通知の設定"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/enable-disable-notifications",
+                      label:  "通知のenable/disable"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/configure-notification-channels",
+                      label:  "通知チャンネルの設定"
+                    }
+                  ]
+                },
+                {
+                  type:  "category",
+                  label:  "Demo",
+                  collapsed:  true,
+                  items:  [
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/demo",
+                      label:  "Demo"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
+                      label:  "ArgoCDへのログイン"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
+                      label:  "manifestを使用してアプリケーションをデプロイする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
+                      label:  "Kustomizeとビルドオプションを使用してアプリケーションをデプロイする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
+                      label:  "Helmチャートリポジトリを使用してアプリケーションをデプロイする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
+                      label:  "ArgoCD CLIでアプリケーションをデプロイする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
+                      label:  "ApplicationSetを使用してアプリケーションをデプロイする"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
+                      label:  "通知を受け取るためにNotificationsを設定する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
+                      label:  "アカウント管理のためにOIDCを統合する"
+                    },
+                    {
+                      type:  "doc",
+                      id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
+                      label:  "ArgoCD Image Updaterを統合する"
+                    }
+                  ]
                 }
               ]
-            },
-            {
-              type:  "category",
-              label:  "Webhookの設定",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-webhook",
-                  label:  "Webhookの設定"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/add-webhook-secret",
-                  label:  "Webhook secretの追加"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/Edit-webhook-secret",
-                  label:  "Webhook secretの編集"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/delete-webhook-secret",
-                  label:  "Webhook secretの削除"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-build-options-kustomize",
-              label:  "Kustomizeビルドオプションの設定"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-timereconcile",
-              label:  "TimeReconcileの設定"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-rbac",
-              label:  "RBACポリシーの設定"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/configure-whitelist-ip",
-              label:  "ホワイトリストIPの設定"
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/upgrade-service-package",
-              label:  "サービスパッケージのアップグレード"
-            },
-            {
-              type:  "category",
-              label:  "ArgoCD上のアカウント管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/quan-ly-account-tren-argocd",
-                  label:  "ArgoCD上のアカウント管理"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/create-account",
-                  label:  "アカウントの作成"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-account",
-                  label:  "アカウントのenable/disable"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/manage-admin-account",
-                  label:  "Adminアカウントの管理"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/update-admin-password",
-                  label:  "Adminパスワードの更新"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/edit-capabilities",
-                  label:  "Capabilitiesの編集"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/change-password",
-                  label:  "パスワードの変更"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Admin/Anonymousユーザー管理",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/manage-admin-account-enable-disable-anonymous-user",
-                  label:  "AdminとAnonymous userの管理"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-anonymous-user",
-                  label:  "Anonymous userのenable/disable"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-admin-user",
-                  label:  "Adminアカウントのenable/disable"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "OIDC SSO設定",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-oidc-phuc-vu-sso-config",
-                  label:  "SSO用OIDC設定"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-oidc",
-                  label:  "OIDCの有効化/無効化"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/update-oidc-config",
-                  label:  "OIDC設定の更新"
-                }
-              ]
-            },
-            {
-              type:  "doc",
-              id:  "fpt-argocd/enable-applications-set",
-              label:  "ApplicationSetの有効化"
-            },
-            {
-              type:  "category",
-              label:  "通知の設定",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/cau-hinh-notifications",
-                  label:  "通知の設定"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/enable-disable-notifications",
-                  label:  "通知のenable/disable"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/configure-notification-channels",
-                  label:  "通知チャンネルの設定"
-                }
-              ]
-            },
-            {
-              type:  "category",
-              label:  "Demo",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/demo",
-                  label:  "Demo"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-dang-nhap-vao-argocd",
-                  label:  "ArgoCDへのログイン"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-cau-hinh-argocd-cluster-de-deploy-ung-dung-voi-manifes",
-                  label:  "manifestを使用してアプリケーションをデプロイする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-mot-appliations-voi-kustomize-su-dung-build-options",
-                  label:  "Kustomizeとビルドオプションを使用してアプリケーションをデプロイする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-helm-chart-repo",
-                  label:  "Helmチャートリポジトリを使用してアプリケーションをデプロイする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-deploy-applications-qua-argocd-cli",
-                  label:  "ArgoCD CLIでアプリケーションをデプロイする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-su-dung-applicationset-de-deploy",
-                  label:  "ApplicationSetを使用してアプリケーションをデプロイする"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-cau-hinh-notifications-de-nhan-thong-bao",
-                  label:  "通知を受け取るためにNotificationsを設定する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-tich-hop-oidc-de-quan-ly-account",
-                  label:  "アカウント管理のためにOIDCを統合する"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-argocd/huong-dan-tich-hop-argocd-images-updater",
-                  label:  "ArgoCD Image Updaterを統合する"
-                }
-              ]
-            },
+            }
           ]
         }
       ]
@@ -5121,23 +5165,6 @@ module.exports = {
               type:  "doc",
               id:  "fpt-api-management/initial-setup",
               label:  "初期設定"
-            },
-            {
-              type:  "category",
-              label:  "チュートリアル",
-              collapsed:  true,
-              items:  [
-                {
-                  type:  "doc",
-                  id:  "fpt-api-management/khai-bao-thong-tin-tren-apimanager-application",
-                  label:  "Khai Bao Thong Tin Tren Apimanager Application"
-                },
-                {
-                  type:  "doc",
-                  id:  "fpt-api-management/analytics",
-                  label:  "Analytics"
-                }
-              ]
             },
             {
               type:  "doc",
@@ -5168,8 +5195,15 @@ module.exports = {
               id:  "fpt-api-management/quan-ly-api-site"
             },
             {
-              type:  "doc",
-              id:  "fpt-api-management/quick-starts"
+              type:  "category",
+              label:  "クイックスタート",
+              collapsed:  true,
+              items:  [
+                {
+                  type:  "doc",
+                  id:  "fpt-api-management/quick-starts"
+                }
+              ]
             },
             {
               type:  "doc",

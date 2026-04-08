@@ -1,7 +1,7 @@
 ---
 id: "tutorials-permissions"
-title: "Tutorials Permissions"
-sidebar_label: "Tutorials Permissions"
+title: "権限の管理"
+sidebar_label: "権限の管理"
 sidebar_position: 6
 ---
 

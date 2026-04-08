@@ -1,7 +1,7 @@
 ---
 id: "faq"
-title: "Faq"
-sidebar_label: "Faq"
+title: "Frequently Asked Questions"
+sidebar_label: "FAQ"
 sidebar_position: 39
 ---
 

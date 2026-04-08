@@ -1,7 +1,7 @@
 ---
 id: "khoi-tao-profile"
-title: "Khoi Tao Profile"
-sidebar_label: "Khoi Tao Profile"
+title: "Khởi tạo Profile"
+sidebar_label: "Khởi tạo Profile"
 sidebar_position: 3
 ---
 

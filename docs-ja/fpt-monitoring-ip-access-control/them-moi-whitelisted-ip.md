@@ -1,7 +1,7 @@
 ---
 id: "them-moi-whitelisted-ip"
-title: "ホワイトリスト IP を追加する"
-sidebar_label: "ホワイトリスト IP を追加する"
+title: "ホワイトリストIPの追加"
+sidebar_label: "ホワイトリストIPの追加"
 sidebar_position: 8
 ---
 

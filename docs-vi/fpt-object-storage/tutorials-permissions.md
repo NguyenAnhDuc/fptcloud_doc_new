@@ -1,7 +1,7 @@
 ---
 id: "tutorials-permissions"
-title: "Tutorials Permissions"
-sidebar_label: "Tutorials Permissions"
+title: "Quản lý Permissions"
+sidebar_label: "Quản lý Permissions"
 sidebar_position: 6
 ---
 

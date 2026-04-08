@@ -1,7 +1,7 @@
 ---
 id: "attach-policy-vao-group"
-title: "Attach a policy to a group"
-sidebar_label: "Attach a policy to a group"
+title: "Attach Policy to Group"
+sidebar_label: "Attach Policy to Group"
 ---
 
 Attach a policy to a group

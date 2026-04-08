@@ -1,7 +1,7 @@
 ---
 id: "global-search-phase-1"
-title: "Global Search Phase 1"
-sidebar_label: "Global Search Phase 1"
+title: "Tìm kiếm toàn cục"
+sidebar_label: "Tìm kiếm toàn cục"
 ---
 
 Global Search
