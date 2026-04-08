@@ -40,7 +40,7 @@ function getTargetUrl(pathname, targetLang, urlMapping) {
     }
   }
 
-  return targetLangConfig.basePath + '/';
+  return targetLangConfig.basePath + '/intro/';
 }
 
 export default function LanguageSwitcher({ mobile }) {
