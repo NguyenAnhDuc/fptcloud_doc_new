@@ -10,7 +10,7 @@ sidebar_position: "29"
 
 AI Marketplace 
 AI Studio 
-  * [ ![](/img/migrated/model-fine-tuning-856dd103.html) ](javascript:)
+  * [  ](javascript:)
     * [ ](/img/migrated/model-fine-tuning-856dd103.html)
 JAIST ACCELERATES JAPANESE LLM DEVELOPMENT WITH FPT AI FACTORY 
   2. Model Fine-Tuning

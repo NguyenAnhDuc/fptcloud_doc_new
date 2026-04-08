@@ -10,7 +10,7 @@ sidebar_position: "2"
 
 AI Marketplace 
 AI Studio 
-  * [ ![](/img/migrated/model-fine-tuning-c079fb09.html) ](javascript:)
+  * [  ](javascript:)
     * [ ](/img/migrated/model-fine-tuning-c079fb09.html)
 Overview
   2. Model Fine-Tuning

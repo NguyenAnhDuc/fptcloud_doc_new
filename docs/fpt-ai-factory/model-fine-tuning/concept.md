@@ -35,14 +35,14 @@ AI Studio
 AI Marketplace 
   * [ AI マーケットプレイス ](https://fptcloud.com/ja/documents/ai-marketplace-ja/ "AI マーケットプレイス")
 
-  * [ ![](/img/migrated/model-fine-tuning-ja-d8538997.html) 概要 ](javascript: "概要")
+  * [  概要 ](javascript: "概要")
     * [ コンセプト ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=concept "コンセプト")
     * [ 主な特長 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=key-features "主な特長")
-  * [ ![](/img/migrated/model-fine-tuning-ja-d8538997.html) クイックスタート ](javascript: "クイックスタート")
+  * [  クイックスタート ](javascript: "クイックスタート")
     * [ よくあるご質問 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=faqs "よくあるご質問")
     * [ 初期設定 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=initial-setup "初期設定")
     * [ 残高をチャージする ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=top-up-balance "残高をチャージする ")
-  * [ ![](/img/migrated/model-fine-tuning-ja-d8538997.html) パイプライン管理 ](javascript: "パイプライン管理")
+  * [  パイプライン管理 ](javascript: "パイプライン管理")
     * [ パイプライン作成 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=create-pipeline "パイプライン作成")
       * [ トレーニング設定 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=training-configuration "トレーニング設定 ")
       * [ データ形式を選択 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=select-data-format "データ形式を選択 ")
@@ -51,7 +51,7 @@ AI Marketplace
     * [ パイプライン管理 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=manage-pipeline "パイプライン管理 ")
     * [ パイプライン設定の表示 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=view-pipeline-settings "パイプライン設定の表示 ")
     * [ 監査ログ ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=audit-logs "監査ログ ")
-  * [ ![](/img/migrated/model-fine-tuning-ja-d8538997.html) 執行管理 ](javascript: "執行管理")
+  * [  執行管理 ](javascript: "執行管理")
     * [ 実行履歴の表示 ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=view-execution-history "実行履歴の表示 ")
     * [ 実行の詳細を表示する ](https://fptcloud.com/ja/documents/model-fine-tuning-ja/?doc=view-execution-details "実行の詳細を表示する")
 

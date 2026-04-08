@@ -10,7 +10,7 @@ sidebar_position: 9
 
 AI Marketplace 
 AI Studio 
-  * [ ![](/img/migrated/model-fine-tuning-6d32e311.html) ](javascript:)
+  * [  ](javascript:)
     * [ ](/img/migrated/model-fine-tuning-6d32e311.html)
 Quick Start
   2. Model Fine-Tuning

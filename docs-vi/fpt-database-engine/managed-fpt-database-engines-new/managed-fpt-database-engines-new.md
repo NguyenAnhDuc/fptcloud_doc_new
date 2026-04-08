@@ -15,7 +15,7 @@ sidebar_position: 1
   * [ ![](/img/migrated/performance-and-benchmark-a5b996e7.png) Peformance & Benchmark ](javascript: "Peformance & Benchmark")
   * [ ![](/img/migrated/1351902-efe1cca3.png) Troubleshooting ](javascript: "Troubleshooting")
   * [ ![](/img/migrated/question-94737ec1.png) Các câu hỏi thường gặp (FAQs) ](javascript: "Các câu hỏi thường gặp \(FAQs\)")
-  * [ ![](/img/migrated/managed-fpt-database-engines-new-4b2dfbfd.html) ](javascript:)
+  * [  ](javascript:)
 
 Managed – FPT Database Engines
   1. [FPT Cloud Portal](https://fptcloud.com/danh-sach-tai-lieu/ "FPT Cloud Portal")
