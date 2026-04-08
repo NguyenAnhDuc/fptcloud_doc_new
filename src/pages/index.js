@@ -4,9 +4,9 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 const languages = [
-  { label: 'English', path: '/docs/en/', description: 'English documentation' },
-  { label: 'Tiếng Việt', path: '/docs/vi/', description: 'Tài liệu tiếng Việt' },
-  { label: '日本語', path: '/docs/ja/', description: '日本語ドキュメント' },
+  { label: 'English', path: '/docs/en/intro/', description: 'English documentation' },
+  { label: 'Tiếng Việt', path: '/docs/vi/intro/', description: 'Tài liệu tiếng Việt' },
+  { label: '日本語', path: '/docs/ja/intro/', description: '日本語ドキュメント' },
 ];
 
 export default function Home() {
