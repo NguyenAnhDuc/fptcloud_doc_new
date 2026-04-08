@@ -3,6 +3,7 @@ id: "tao-open-metadata-service"
 title: "Open Metadata service の作成"
 sidebar_label: "Open Metadata service の作成"
 description: "Open Metadata service の作成"
+sidebar_position: 2
 ---
 
 # Open Metadata service の作成

@@ -3,6 +3,7 @@ id: "cap-nhat-open-metadata"
 title: "Update Open Metadata"
 sidebar_label: "Update Open Metadata"
 description: "Update Open Metadata"
+sidebar_position: 4
 ---
 
 # Update Open Metadata

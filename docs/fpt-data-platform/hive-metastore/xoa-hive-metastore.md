@@ -3,6 +3,7 @@ id: "xoa-hive-metastore"
 title: "Delete Hive Metastore"
 sidebar_label: "Delete Hive Metastore"
 description: "Delete Hive Metastore"
+sidebar_position: 4
 ---
 
 # Delete Hive Metastore

@@ -3,6 +3,7 @@ id: "xoa-query-engine"
 title: "Delete Query Engine"
 sidebar_label: "Delete Query Engine"
 description: "Delete Query Engine"
+sidebar_position: 4
 ---
 
 # Delete Query Engine

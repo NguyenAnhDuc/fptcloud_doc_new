@@ -1,0 +1,9 @@
+{
+  "label": "個人・組織情報の登録",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

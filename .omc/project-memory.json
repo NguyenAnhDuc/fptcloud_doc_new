@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775529721170,
+  "lastScanned": 1775635552075,
   "projectRoot": "/root/codes/fptcloud_doc_new",
   "techStack": {
     "languages": [
@@ -68,7 +68,7 @@
       "path": "blog",
       "purpose": null,
       "fileCount": 5,
-      "lastAccessed": 1775529721144,
+      "lastAccessed": 1775635552063,
       "keyFiles": [
         "2019-05-28-first-blog-post.md",
         "2019-05-29-long-blog-post.md",
@@ -81,7 +81,7 @@
       "path": "build",
       "purpose": "Build output",
       "fileCount": 8,
-      "lastAccessed": 1775529721146,
+      "lastAccessed": 1775635552064,
       "keyFiles": [
         "404.html",
         "_redirects",
@@ -94,14 +94,14 @@
       "path": "crawled-web",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775529721149,
+      "lastAccessed": 1775635552069,
       "keyFiles": []
     },
     "docs": {
       "path": "docs",
       "purpose": "Documentation",
       "fileCount": 1,
-      "lastAccessed": 1775529721149,
+      "lastAccessed": 1775635552071,
       "keyFiles": [
         "index.md"
       ]
@@ -110,14 +110,14 @@
       "path": "docs-en",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775529721152,
+      "lastAccessed": 1775635552072,
       "keyFiles": []
     },
     "docs-ja": {
       "path": "docs-ja",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775529721152,
+      "lastAccessed": 1775635552072,
       "keyFiles": [
         "index.md"
       ]
@@ -126,7 +126,7 @@
       "path": "docs-vi",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1775529721153,
+      "lastAccessed": 1775635552072,
       "keyFiles": [
         "index.md"
       ]
@@ -135,7 +135,7 @@
       "path": "scripts",
       "purpose": "Build/utility scripts",
       "fileCount": 57,
-      "lastAccessed": 1775529721153,
+      "lastAccessed": 1775635552073,
       "keyFiles": [
         "analyze-unmatched-deep.js",
         "analyze-unmatched-docs.js",
@@ -148,14 +148,14 @@
       "path": "src",
       "purpose": "Source code",
       "fileCount": 0,
-      "lastAccessed": 1775529721153,
+      "lastAccessed": 1775635552073,
       "keyFiles": []
     },
     "static": {
       "path": "static",
       "purpose": "Static files",
       "fileCount": 2,
-      "lastAccessed": 1775529721154,
+      "lastAccessed": 1775635552073,
       "keyFiles": [
         "_redirects"
       ]
@@ -164,28 +164,28 @@
       "path": "build/assets",
       "purpose": "Static assets",
       "fileCount": 0,
-      "lastAccessed": 1775529721154,
+      "lastAccessed": 1775635552074,
       "keyFiles": []
     },
     "build/docs": {
       "path": "build/docs",
       "purpose": "Documentation",
       "fileCount": 0,
-      "lastAccessed": 1775529721154,
+      "lastAccessed": 1775635552074,
       "keyFiles": []
     },
     "src/components": {
       "path": "src/components",
       "purpose": "UI components",
       "fileCount": 0,
-      "lastAccessed": 1775529721155,
+      "lastAccessed": 1775635552075,
       "keyFiles": []
     },
     "src/pages": {
       "path": "src/pages",
       "purpose": "Page components",
       "fileCount": 3,
-      "lastAccessed": 1775529721155,
+      "lastAccessed": 1775635552075,
       "keyFiles": [
         "index.js",
         "index.module.css",
@@ -196,14 +196,14 @@
   "hotPaths": [
     {
       "path": "sidebars.js",
-      "accessCount": 236,
-      "lastAccessed": 1775544079092,
+      "accessCount": 239,
+      "lastAccessed": 1775638459770,
       "type": "directory"
     },
     {
       "path": "sidebars-vi.js",
-      "accessCount": 219,
-      "lastAccessed": 1775543994189,
+      "accessCount": 220,
+      "lastAccessed": 1775638460702,
       "type": "directory"
     },
     {

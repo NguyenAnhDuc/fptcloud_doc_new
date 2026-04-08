@@ -3,6 +3,7 @@ id: "huong-dan-su-dung-open-metadata"
 title: "Open Metadata 利用ガイド"
 sidebar_label: "Open Metadata 利用ガイド"
 description: "Open Metadata 利用ガイド"
+sidebar_position: 6
 ---
 
 # Open Metadata 利用ガイド

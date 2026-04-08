@@ -3,6 +3,7 @@ id: "huong-dan-airflow-job-submit"
 title: "Hướng dẫn Airflow & Job Submit"
 sidebar_label: "Hướng dẫn Airflow & Job Submit"
 description: "Hướng dẫn Airflow & Job Submit"
+sidebar_position: 7
 ---
 
 # Hướng dẫn Airflow & Job Submit

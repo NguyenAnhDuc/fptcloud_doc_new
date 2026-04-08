@@ -1,0 +1,9 @@
+{
+  "label": "Manage Virtual Machines",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

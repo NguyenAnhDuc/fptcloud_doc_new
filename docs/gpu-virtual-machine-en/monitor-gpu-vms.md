@@ -3,7 +3,7 @@ id: "monitor-gpu-vms"
 title: "Monitor Gpu Vms"
 description: "**GPU Virtual Machine** provides metrics to help you **monitor** and **troubleshoot** your workloads. Monitoring metrics"
 sidebar_label: "Monitor Gpu Vms"
-sidebar_position: 13
+sidebar_position: 22
 ---
 
 # Monitor Gpu Vms

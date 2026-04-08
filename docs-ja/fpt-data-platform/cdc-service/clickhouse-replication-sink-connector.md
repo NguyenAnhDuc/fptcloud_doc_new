@@ -3,6 +3,7 @@ id: "clickhouse-replication-sink-connector"
 title: "ClickHouse (Replication) Sink Connector"
 sidebar_label: "ClickHouse (Replication) Sink Connector"
 description: "ClickHouse (Replication) Sink Connector"
+sidebar_position: 18
 ---
 
 # ClickHouse (Replication) Sink Connector

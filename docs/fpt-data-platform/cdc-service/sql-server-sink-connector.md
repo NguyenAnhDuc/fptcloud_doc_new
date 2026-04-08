@@ -3,6 +3,7 @@ id: "sql-server-sink-connector"
 title: "SQL Server Sink Connector"
 sidebar_label: "SQL Server Sink Connector"
 description: "SQL Server Sink Connector"
+sidebar_position: 14
 ---
 
 # SQL Server Sink Connector

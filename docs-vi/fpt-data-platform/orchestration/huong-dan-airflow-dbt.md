@@ -3,6 +3,7 @@ id: "huong-dan-airflow-dbt"
 title: "Hướng dẫn Airflow & dbt"
 sidebar_label: "Hướng dẫn Airflow & dbt"
 description: "Hướng dẫn Airflow & dbt"
+sidebar_position: 5
 ---
 
 # Hướng dẫn Airflow & dbt

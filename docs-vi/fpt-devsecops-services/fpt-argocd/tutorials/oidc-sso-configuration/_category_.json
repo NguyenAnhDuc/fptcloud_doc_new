@@ -1,0 +1,9 @@
+{
+  "label": "Cấu hình OIDC phục vụ SSO config",
+  "position": 13,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

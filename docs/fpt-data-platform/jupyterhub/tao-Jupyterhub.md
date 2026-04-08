@@ -3,6 +3,7 @@ id: "tao-Jupyterhub"
 title: "Create JupyterHub"
 sidebar_label: "Create JupyterHub"
 description: "Create JupyterHub"
+sidebar_position: 2
 ---
 
 # Create JupyterHub

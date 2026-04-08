@@ -3,7 +3,7 @@ id: "create-a-gpu-vm"
 title: "Create A Gpu Vm"
 description: "**GPU Virtual Machines (VMs)** are **Linux-based** virtual machines that run on top of **virtualized hardware** with **h"
 sidebar_label: "Create A Gpu Vm"
-sidebar_position: 8
+sidebar_position: 14
 ---
 
 # Create A Gpu Vm

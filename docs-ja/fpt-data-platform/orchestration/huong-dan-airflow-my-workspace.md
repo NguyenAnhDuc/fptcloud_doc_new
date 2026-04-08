@@ -3,6 +3,7 @@ id: "huong-dan-airflow-my-workspace"
 title: "Airflow & My Workspace ガイド"
 sidebar_label: "Airflow & My Workspace ガイド"
 description: "Airflow & My Workspace ガイド"
+sidebar_position: 6
 ---
 
 # Airflow & My Workspace ガイド

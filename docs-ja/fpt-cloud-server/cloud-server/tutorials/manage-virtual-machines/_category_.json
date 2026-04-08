@@ -1,0 +1,9 @@
+{
+  "label": "仮想マシンの管理",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

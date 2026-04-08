@@ -3,6 +3,7 @@ id: "huong-dan-su-dung-open-metadata"
 title: "Hướng dẫn sử dụng Open Metadata"
 sidebar_label: "Hướng dẫn sử dụng Open Metadata"
 description: "Hướng dẫn sử dụng Open Metadata"
+sidebar_position: 6
 ---
 
 # Hướng dẫn sử dụng Open Metadata

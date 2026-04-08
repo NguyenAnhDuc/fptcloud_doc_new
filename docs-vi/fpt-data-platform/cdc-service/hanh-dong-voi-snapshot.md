@@ -3,6 +3,7 @@ id: "hanh-dong-voi-snapshot"
 title: "Hành động với Snapshot"
 sidebar_label: "Hành động với Snapshot"
 description: "Hành động với Snapshot"
+sidebar_position: 31
 ---
 
 # Hành động với Snapshot

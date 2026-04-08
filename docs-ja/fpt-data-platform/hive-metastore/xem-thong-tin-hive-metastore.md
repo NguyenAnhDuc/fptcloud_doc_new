@@ -3,6 +3,7 @@ id: "xem-thong-tin-hive-metastore"
 title: "Hive Metastore情報の確認"
 sidebar_label: "Hive Metastore情報の確認"
 description: "Hive Metastore情報の確認"
+sidebar_position: 3
 ---
 
 # Hive Metastore情報の確認

@@ -3,7 +3,7 @@ id: "quick-start"
 title: "Quick Start"
 description: "**Step 1: Create an FPT Cloud account**"
 sidebar_label: "Quick Start"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Quick Start

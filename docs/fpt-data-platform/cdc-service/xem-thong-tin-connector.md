@@ -3,6 +3,7 @@ id: "xem-thong-tin-connector"
 title: "View details connector"
 sidebar_label: "View details connector"
 description: "View details connector"
+sidebar_position: 25
 ---
 
 # View details connector

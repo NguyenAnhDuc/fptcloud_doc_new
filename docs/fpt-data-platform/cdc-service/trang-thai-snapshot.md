@@ -3,6 +3,7 @@ id: "trang-thai-snapshot"
 title: "Status Snapshot"
 sidebar_label: "Status Snapshot"
 description: "Status Snapshot"
+sidebar_position: 30
 ---
 
 # Status Snapshot

@@ -3,6 +3,7 @@ id: "xem-thong-tin-open-metadata-service"
 title: "Open Metadata service の詳細確認"
 sidebar_label: "Open Metadata service の詳細確認"
 description: "Open Metadata service の詳細確認"
+sidebar_position: 3
 ---
 
 # Open Metadata service の詳細確認

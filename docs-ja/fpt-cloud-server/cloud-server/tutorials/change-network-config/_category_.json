@@ -1,0 +1,9 @@
+{
+  "label": "Change Network Config",
+  "position": 22,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

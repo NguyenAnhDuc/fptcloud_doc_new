@@ -3,6 +3,7 @@ id: "xem-thong-tin-workspace"
 title: "View workspace information"
 sidebar_label: "View workspace information"
 description: "View workspace information"
+sidebar_position: 3
 ---
 
 # View workspace information

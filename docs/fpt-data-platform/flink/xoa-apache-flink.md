@@ -3,6 +3,7 @@ id: "xoa-apache-flink"
 title: "Delete Apache Flink"
 sidebar_label: "Delete Apache Flink"
 description: "Delete Apache Flink"
+sidebar_position: 4
 ---
 
 # Delete Apache Flink

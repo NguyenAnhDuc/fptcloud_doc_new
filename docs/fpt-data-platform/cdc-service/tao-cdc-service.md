@@ -3,6 +3,7 @@ id: "tao-cdc-service"
 title: "Create CDC Service"
 sidebar_label: "Create CDC Service"
 description: "Create CDC Service"
+sidebar_position: 2
 ---
 
 # Create CDC Service

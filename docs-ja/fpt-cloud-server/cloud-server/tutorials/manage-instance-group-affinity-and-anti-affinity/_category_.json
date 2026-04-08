@@ -1,0 +1,9 @@
+{
+  "label": "Instance Group管理 (Affinity & Anti-Affinity)",
+  "position": 14,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

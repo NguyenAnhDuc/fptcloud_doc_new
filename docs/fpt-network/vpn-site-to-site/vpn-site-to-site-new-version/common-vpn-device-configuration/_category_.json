@@ -1,0 +1,9 @@
+{
+  "label": "Common VPN Device Configuration",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Tính năng tự động nâng cấp phiên bản (Automatic Upgrade Version)",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

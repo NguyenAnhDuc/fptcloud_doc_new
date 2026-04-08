@@ -1,0 +1,9 @@
+{
+  "label": "Đăng nhập với tài khoản SSO (Azure)",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Quản lý Project",
+  "position": 16,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

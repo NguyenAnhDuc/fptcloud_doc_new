@@ -3,6 +3,7 @@ id: "xem-thong-tin-snapshot"
 title: "Xem thông tin snapshot"
 sidebar_label: "Xem thông tin snapshot"
 description: "Xem thông tin snapshot"
+sidebar_position: 29
 ---
 
 # Xem thông tin snapshot

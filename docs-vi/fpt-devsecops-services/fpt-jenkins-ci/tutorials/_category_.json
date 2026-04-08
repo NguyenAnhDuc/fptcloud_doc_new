@@ -1,0 +1,9 @@
+{
+  "label": "Hướng dẫn chi tiết (Tutorials)",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

@@ -3,6 +3,7 @@ id: "tao-connector-source-s3"
 title: "Create connector source S3"
 sidebar_label: "Create connector source S3"
 description: "Create connector source S3"
+sidebar_position: 24
 ---
 
 # Create connector source S3

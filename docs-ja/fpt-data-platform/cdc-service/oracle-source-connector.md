@@ -3,6 +3,7 @@ id: "oracle-source-connector"
 title: "Oracle Source Connector"
 sidebar_label: "Oracle Source Connector"
 description: "Oracle Source Connector"
+sidebar_position: 9
 ---
 
 # Oracle Source Connector

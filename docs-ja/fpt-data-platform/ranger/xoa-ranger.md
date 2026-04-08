@@ -3,6 +3,7 @@ id: "xoa-ranger"
 title: "Ranger の削除"
 sidebar_label: "Ranger の削除"
 description: "Ranger の削除"
+sidebar_position: 6
 ---
 
 # Ranger の削除

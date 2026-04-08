@@ -3,6 +3,7 @@ id: "phan-quyen-nguoi-dung-su-dung-profile"
 title: "ユーザープロファイルの権限割り当て"
 sidebar_label: "ユーザープロファイルの権限割り当て"
 description: "ユーザープロファイルの権限割り当て"
+sidebar_position: 7
 ---
 
 # ユーザープロファイルの権限割り当て

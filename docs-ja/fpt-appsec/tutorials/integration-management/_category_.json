@@ -1,0 +1,9 @@
+{
+  "label": "統合管理",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

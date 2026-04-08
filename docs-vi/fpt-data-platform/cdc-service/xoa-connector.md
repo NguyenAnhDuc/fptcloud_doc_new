@@ -3,6 +3,7 @@ id: "xoa-connector"
 title: "Xóa connector"
 sidebar_label: "Xóa connector"
 description: "Xóa connector"
+sidebar_position: 27
 ---
 
 # Xóa connector

@@ -3,6 +3,7 @@ id: "tao-open-metadata-service"
 title: "Create Open Metadata service"
 sidebar_label: "Create Open Metadata service"
 description: "Create Open Metadata service"
+sidebar_position: 2
 ---
 
 # Create Open Metadata service

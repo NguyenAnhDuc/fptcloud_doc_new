@@ -3,6 +3,7 @@ id: "tao-Jupyterhub"
 title: "JupyterHub の作成"
 sidebar_label: "JupyterHub の作成"
 description: "JupyterHub の作成"
+sidebar_position: 2
 ---
 
 # JupyterHub の作成

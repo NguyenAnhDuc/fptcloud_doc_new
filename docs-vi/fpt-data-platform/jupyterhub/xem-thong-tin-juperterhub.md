@@ -3,6 +3,7 @@ id: "xem-thong-tin-juperterhub"
 title: "Xem thông tin JuperterHub"
 sidebar_label: "Xem thông tin JuperterHub"
 description: "Xem thông tin JuperterHub"
+sidebar_position: 3
 ---
 
 # Xem thông tin JuperterHub

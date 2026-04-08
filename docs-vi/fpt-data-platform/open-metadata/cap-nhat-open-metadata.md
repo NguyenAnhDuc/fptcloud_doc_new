@@ -3,6 +3,7 @@ id: "cap-nhat-open-metadata"
 title: "Cập nhật Open Metadata"
 sidebar_label: "Cập nhật Open Metadata"
 description: "Cập nhật Open Metadata"
+sidebar_position: 4
 ---
 
 # Cập nhật Open Metadata

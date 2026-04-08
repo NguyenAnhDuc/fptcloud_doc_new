@@ -3,6 +3,7 @@ id: "quan-ly-connectors"
 title: "Connectors の管理"
 sidebar_label: "Connectors の管理"
 description: "Connectors の管理"
+sidebar_position: 5
 ---
 
 # Connectors の管理

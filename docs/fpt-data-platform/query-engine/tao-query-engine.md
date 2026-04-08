@@ -3,6 +3,7 @@ id: "tao-query-engine"
 title: "Create Query Engine"
 sidebar_label: "Create Query Engine"
 description: "Create Query Engine"
+sidebar_position: 2
 ---
 
 # Create Query Engine

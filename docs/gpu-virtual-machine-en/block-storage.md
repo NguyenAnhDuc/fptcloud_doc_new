@@ -3,7 +3,7 @@ id: "block-storage"
 title: "Block Storage"
 description: "**Block Storage** is a service that provides block-based storage volumes for **GPU Virtual Machines (VMs)**. Each storag"
 sidebar_label: "Block Storage"
-sidebar_position: 6
+sidebar_position: 11
 ---
 
 # Block Storage

@@ -1,0 +1,9 @@
+{
+  "label": "SSL証明書の管理",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

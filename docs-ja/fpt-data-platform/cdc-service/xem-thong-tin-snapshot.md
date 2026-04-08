@@ -3,6 +3,7 @@ id: "xem-thong-tin-snapshot"
 title: "View details snapshot"
 sidebar_label: "View details snapshot"
 description: "View details snapshot"
+sidebar_position: 29
 ---
 
 # View details snapshot

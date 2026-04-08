@@ -1,0 +1,9 @@
+{
+  "label": "Snapshot & Restore Persistent Volume in Kubernetes",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

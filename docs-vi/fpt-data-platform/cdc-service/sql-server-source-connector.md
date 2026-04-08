@@ -3,6 +3,7 @@ id: "sql-server-source-connector"
 title: "SQL Server Source Connector"
 sidebar_label: "SQL Server Source Connector"
 description: "SQL Server Source Connector"
+sidebar_position: 6
 ---
 
 # SQL Server Source Connector

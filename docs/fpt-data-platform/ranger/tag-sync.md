@@ -3,6 +3,7 @@ id: "tag-sync"
 title: "Tag Sync (OpenMetadata & Ranger Integration)"
 sidebar_label: "Tag Sync (OpenMetadata & Ranger Integration)"
 description: "Tag Sync (OpenMetadata & Ranger Integration)"
+sidebar_position: 5
 ---
 
 # Tag Sync (OpenMetadata & Ranger Integration)

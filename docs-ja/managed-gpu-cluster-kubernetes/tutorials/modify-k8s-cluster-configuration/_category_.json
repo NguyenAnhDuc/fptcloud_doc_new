@@ -1,0 +1,9 @@
+{
+  "label": "K8S Cluster Configurationの変更",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

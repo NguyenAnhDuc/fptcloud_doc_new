@@ -3,6 +3,7 @@ id: "them-nguoi-dung"
 title: "ユーザーの追加"
 sidebar_label: "ユーザーの追加"
 description: "ユーザーの追加"
+sidebar_position: 5
 ---
 
 # ユーザーの追加

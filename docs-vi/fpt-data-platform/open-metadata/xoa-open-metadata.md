@@ -3,6 +3,7 @@ id: "xoa-open-metadata"
 title: "Xóa Open Metadata"
 sidebar_label: "Xóa Open Metadata"
 description: "Xóa Open Metadata"
+sidebar_position: 5
 ---
 
 # Xóa Open Metadata

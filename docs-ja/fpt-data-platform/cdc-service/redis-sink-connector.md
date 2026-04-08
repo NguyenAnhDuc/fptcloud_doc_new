@@ -3,6 +3,7 @@ id: "redis-sink-connector"
 title: "Redis Sink Connector"
 sidebar_label: "Redis Sink Connector"
 description: "Redis Sink Connector"
+sidebar_position: 22
 ---
 
 # Redis Sink Connector

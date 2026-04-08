@@ -3,6 +3,7 @@ id: "xem-thong-tin-orchestration"
 title: "View Orchestration Details"
 sidebar_label: "View Orchestration Details"
 description: "View Orchestration Details"
+sidebar_position: 3
 ---
 
 # View Orchestration Details

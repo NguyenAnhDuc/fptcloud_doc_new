@@ -3,6 +3,7 @@ id: "quan-ly-connectors"
 title: "Manage Connectors"
 sidebar_label: "Manage Connectors"
 description: "Manage Connectors"
+sidebar_position: 5
 ---
 
 # Manage Connectors

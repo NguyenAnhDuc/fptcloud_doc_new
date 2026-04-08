@@ -3,6 +3,7 @@ id: "xoa-open-metadata"
 title: "Delete Open Metadata service"
 sidebar_label: "Delete Open Metadata service"
 description: "Delete Open Metadata service"
+sidebar_position: 5
 ---
 
 # Delete Open Metadata service

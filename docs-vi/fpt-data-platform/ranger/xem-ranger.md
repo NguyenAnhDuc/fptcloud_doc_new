@@ -3,6 +3,7 @@ id: "xem-ranger"
 title: "Xem thông tin Ranger"
 sidebar_label: "Xem thông tin Ranger"
 description: "Xem thông tin Ranger"
+sidebar_position: 3
 ---
 
 # Xem thông tin Ranger

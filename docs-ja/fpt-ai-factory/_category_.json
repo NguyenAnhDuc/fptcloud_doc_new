@@ -1,0 +1,9 @@
+{
+  "label": "FPT AI Factory",
+  "position": 16,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

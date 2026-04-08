@@ -3,6 +3,7 @@ id: "xoa-hive-metastore"
 title: "Hive Metastoreの削除"
 sidebar_label: "Hive Metastoreの削除"
 description: "Hive Metastoreの削除"
+sidebar_position: 4
 ---
 
 # Hive Metastoreの削除

@@ -3,6 +3,7 @@ id: "xem-thong-tin-open-metadata-service"
 title: "Xem thông tin Open Metadata service"
 sidebar_label: "Xem thông tin Open Metadata service"
 description: "Xem thông tin Open Metadata service"
+sidebar_position: 3
 ---
 
 # Xem thông tin Open Metadata service

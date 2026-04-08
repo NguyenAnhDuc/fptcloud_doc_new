@@ -3,6 +3,7 @@ id: "xoa-cdc-service"
 title: "Xóa CDC Service"
 sidebar_label: "Xóa CDC Service"
 description: "Xóa CDC Service"
+sidebar_position: 32
 ---
 
 # Xóa CDC Service

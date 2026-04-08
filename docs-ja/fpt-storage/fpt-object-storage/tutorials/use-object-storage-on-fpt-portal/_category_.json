@@ -1,0 +1,9 @@
+{
+  "label": "Use Object Storage on FPT Portal",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

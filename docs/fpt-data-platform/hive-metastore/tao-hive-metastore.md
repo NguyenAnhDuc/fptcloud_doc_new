@@ -3,6 +3,7 @@ id: "tao-hive-metastore"
 title: "Create Hive Metastore"
 sidebar_label: "Create Hive Metastore"
 description: "Create Hive Metastore"
+sidebar_position: 2
 ---
 
 # Create Hive Metastore

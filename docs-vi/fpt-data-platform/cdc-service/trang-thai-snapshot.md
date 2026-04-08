@@ -3,6 +3,7 @@ id: "trang-thai-snapshot"
 title: "Trạng thái Snapshot"
 sidebar_label: "Trạng thái Snapshot"
 description: "Trạng thái Snapshot"
+sidebar_position: 30
 ---
 
 # Trạng thái Snapshot

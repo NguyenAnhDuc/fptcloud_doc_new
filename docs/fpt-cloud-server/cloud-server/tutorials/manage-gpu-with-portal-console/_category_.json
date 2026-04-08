@@ -1,0 +1,9 @@
+{
+  "label": "Manage GPU with Portal Console",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

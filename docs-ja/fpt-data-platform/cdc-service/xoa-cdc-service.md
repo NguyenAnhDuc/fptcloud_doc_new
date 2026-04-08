@@ -3,6 +3,7 @@ id: "xoa-cdc-service"
 title: "CDC Serviceの削除"
 sidebar_label: "CDC Serviceの削除"
 description: "CDC Serviceの削除"
+sidebar_position: 32
 ---
 
 # CDC Serviceの削除

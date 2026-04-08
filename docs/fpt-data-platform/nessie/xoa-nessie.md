@@ -3,6 +3,7 @@ id: "xoa-nessie"
 title: "Delete Nessie"
 sidebar_label: "Delete Nessie"
 description: "Delete Nessie"
+sidebar_position: 4
 ---
 
 # Delete Nessie

@@ -1,0 +1,9 @@
+{
+  "label": "Nạp tiền vào tài khoản",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

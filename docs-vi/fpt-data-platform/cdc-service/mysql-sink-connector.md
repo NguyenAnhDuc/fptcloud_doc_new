@@ -3,6 +3,7 @@ id: "mysql-sink-connector"
 title: "MySQL Sink Connector"
 sidebar_label: "MySQL Sink Connector"
 description: "MySQL Sink Connector"
+sidebar_position: 15
 ---
 
 # MySQL Sink Connector

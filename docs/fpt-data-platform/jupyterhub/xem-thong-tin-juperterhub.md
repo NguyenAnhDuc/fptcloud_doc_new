@@ -3,6 +3,7 @@ id: "xem-thong-tin-juperterhub"
 title: "View JupyterHub Details"
 sidebar_label: "View JupyterHub Details"
 description: "View JupyterHub Details"
+sidebar_position: 3
 ---
 
 # View JupyterHub Details

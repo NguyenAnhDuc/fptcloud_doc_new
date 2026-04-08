@@ -3,6 +3,7 @@ id: "tao-profile"
 title: "Profile の作成"
 sidebar_label: "Profile の作成"
 description: "Profile の作成"
+sidebar_position: 6
 ---
 
 # Profile の作成

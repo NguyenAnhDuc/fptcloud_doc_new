@@ -3,6 +3,7 @@ id: "xem-thong-tin-orchestration"
 title: "Orchestration 詳細表示"
 sidebar_label: "Orchestration 詳細表示"
 description: "Orchestration 詳細表示"
+sidebar_position: 3
 ---
 
 # Orchestration 詳細表示

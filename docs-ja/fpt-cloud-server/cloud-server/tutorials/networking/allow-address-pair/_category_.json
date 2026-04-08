@@ -1,0 +1,9 @@
+{
+  "label": "Allow Address Pair",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

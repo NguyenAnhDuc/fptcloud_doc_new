@@ -3,7 +3,7 @@ id: "floating-ip"
 title: "Floating Ip"
 description: "A **Floating IP** (also known as a **Public IP**) is a publicly accessible static IPv4 address."
 sidebar_label: "Floating Ip"
-sidebar_position: 9
+sidebar_position: 16
 ---
 
 # Floating Ip

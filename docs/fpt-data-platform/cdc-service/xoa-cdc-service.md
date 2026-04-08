@@ -3,6 +3,7 @@ id: "xoa-cdc-service"
 title: "Delete CDC Service"
 sidebar_label: "Delete CDC Service"
 description: "Delete CDC Service"
+sidebar_position: 32
 ---
 
 # Delete CDC Service

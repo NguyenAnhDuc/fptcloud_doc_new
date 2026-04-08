@@ -3,6 +3,7 @@ id: "xoa-open-metadata"
 title: "Open Metadata service の削除"
 sidebar_label: "Open Metadata service の削除"
 description: "Open Metadata service の削除"
+sidebar_position: 5
 ---
 
 # Open Metadata service の削除

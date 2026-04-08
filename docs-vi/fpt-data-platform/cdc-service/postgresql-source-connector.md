@@ -3,6 +3,7 @@ id: "postgresql-source-connector"
 title: "PostgreSQL Source Connector"
 sidebar_label: "PostgreSQL Source Connector"
 description: "PostgreSQL Source Connector"
+sidebar_position: 4
 ---
 
 # PostgreSQL Source Connector

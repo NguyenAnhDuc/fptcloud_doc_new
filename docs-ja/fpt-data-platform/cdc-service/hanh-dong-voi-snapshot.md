@@ -3,6 +3,7 @@ id: "hanh-dong-voi-snapshot"
 title: "Snapshot に対するアクション"
 sidebar_label: "Snapshot に対するアクション"
 description: "Snapshot に対するアクション"
+sidebar_position: 31
 ---
 
 # Snapshot に対するアクション

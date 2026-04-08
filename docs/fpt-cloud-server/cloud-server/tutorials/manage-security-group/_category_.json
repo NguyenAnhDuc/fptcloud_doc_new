@@ -1,0 +1,9 @@
+{
+  "label": "Manage Security Group",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

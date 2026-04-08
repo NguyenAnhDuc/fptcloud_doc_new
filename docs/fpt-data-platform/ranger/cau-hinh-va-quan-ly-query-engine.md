@@ -3,6 +3,7 @@ id: "cau-hinh-va-quan-ly-query-engine"
 title: "Access and Configure Query Engine Management"
 sidebar_label: "Access and Configure Query Engine Management"
 description: "Access and Configure Query Engine Management"
+sidebar_position: 4
 ---
 
 # Access and Configure Query Engine Management

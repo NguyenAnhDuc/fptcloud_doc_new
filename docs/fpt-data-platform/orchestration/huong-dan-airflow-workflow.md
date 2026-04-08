@@ -3,6 +3,7 @@ id: "huong-dan-airflow-workflow"
 title: "Airflow Workflow Guide"
 sidebar_label: "Airflow Workflow Guide"
 description: "Airflow Workflow Guide"
+sidebar_position: 9
 ---
 
 # Airflow Workflow Guide

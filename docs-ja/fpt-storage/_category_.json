@@ -1,0 +1,9 @@
+{
+  "label": "FPT Storage",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

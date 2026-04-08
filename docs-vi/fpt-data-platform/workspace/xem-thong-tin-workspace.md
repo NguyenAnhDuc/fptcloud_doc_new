@@ -3,6 +3,7 @@ id: "xem-thong-tin-workspace"
 title: "Xem thông tin workspace"
 sidebar_label: "Xem thông tin workspace"
 description: "Xem thông tin workspace"
+sidebar_position: 3
 ---
 
 # Xem thông tin workspace

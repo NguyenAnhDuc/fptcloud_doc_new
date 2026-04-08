@@ -3,6 +3,7 @@ id: "xoa-workspace"
 title: "Delete workspace"
 sidebar_label: "Delete workspace"
 description: "Delete workspace"
+sidebar_position: 4
 ---
 
 # Delete workspace

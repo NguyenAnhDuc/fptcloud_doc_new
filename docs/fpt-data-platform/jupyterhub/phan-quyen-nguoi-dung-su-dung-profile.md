@@ -3,6 +3,7 @@ id: "phan-quyen-nguoi-dung-su-dung-profile"
 title: "Assign User Profile Permissions"
 sidebar_label: "Assign User Profile Permissions"
 description: "Assign User Profile Permissions"
+sidebar_position: 7
 ---
 
 # Assign User Profile Permissions

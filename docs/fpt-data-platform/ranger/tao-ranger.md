@@ -3,6 +3,7 @@ id: "tao-ranger"
 title: "Create Ranger"
 sidebar_label: "Create Ranger"
 description: "Create Ranger"
+sidebar_position: 2
 ---
 
 # Create Ranger

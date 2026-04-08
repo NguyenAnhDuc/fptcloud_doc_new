@@ -3,6 +3,7 @@ id: "xem-thong-tin-query-engine"
 title: "Query Engine の詳細表示"
 sidebar_label: "Query Engine の詳細表示"
 description: "Query Engine の詳細表示"
+sidebar_position: 3
 ---
 
 # Query Engine の詳細表示

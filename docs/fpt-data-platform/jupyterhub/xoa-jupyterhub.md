@@ -3,6 +3,7 @@ id: "xoa-jupyterhub"
 title: "Delete JupyterHub"
 sidebar_label: "Delete JupyterHub"
 description: "Delete JupyterHub"
+sidebar_position: 4
 ---
 
 # Delete JupyterHub

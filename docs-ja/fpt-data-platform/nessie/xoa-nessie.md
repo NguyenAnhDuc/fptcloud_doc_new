@@ -3,6 +3,7 @@ id: "xoa-nessie"
 title: "Nessieの削除"
 sidebar_label: "Nessieの削除"
 description: "Nessieの削除"
+sidebar_position: 4
 ---
 
 # Nessieの削除

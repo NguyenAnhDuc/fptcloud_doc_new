@@ -1,0 +1,9 @@
+{
+  "label": "GPU Container",
+  "position": 17,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

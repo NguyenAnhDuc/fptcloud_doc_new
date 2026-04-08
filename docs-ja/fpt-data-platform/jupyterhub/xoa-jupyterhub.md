@@ -3,6 +3,7 @@ id: "xoa-jupyterhub"
 title: "JupyterHub の削除"
 sidebar_label: "JupyterHub の削除"
 description: "JupyterHub の削除"
+sidebar_position: 4
 ---
 
 # JupyterHub の削除

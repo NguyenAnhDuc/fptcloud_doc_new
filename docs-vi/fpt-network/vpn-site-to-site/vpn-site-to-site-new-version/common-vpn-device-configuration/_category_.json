@@ -1,0 +1,9 @@
+{
+  "label": "Cấu hình thiết bị VPN phổ biến",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

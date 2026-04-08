@@ -3,6 +3,7 @@ id: "xem-thong-tin-cdc-service"
 title: "View CDC Service Details"
 sidebar_label: "View CDC Service Details"
 description: "View CDC Service Details"
+sidebar_position: 3
 ---
 
 # View CDC Service Details

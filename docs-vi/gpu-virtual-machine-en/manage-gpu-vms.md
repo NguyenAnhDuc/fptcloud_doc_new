@@ -3,7 +3,7 @@ id: "manage-gpu-vms"
 title: "Manage Gpu Vms"
 description: "Manage Gpu Vms trên GPU Virtual Machine."
 sidebar_label: "Manage Gpu Vms"
-sidebar_position: 12
+sidebar_position: 21
 ---
 
 # Manage Gpu Vms

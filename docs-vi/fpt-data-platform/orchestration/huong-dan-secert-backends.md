@@ -3,6 +3,7 @@ id: "huong-dan-secert-backends"
 title: "Hướng dẫn Secret backends"
 sidebar_label: "Hướng dẫn Secret backends"
 description: "Hướng dẫn Secret backends"
+sidebar_position: 8
 ---
 
 # Hướng dẫn Secret backends

@@ -3,6 +3,7 @@ id: "phan-quyen-nguoi-dung-su-dung-profile"
 title: "Phân quyền người dùng sử dụng profile"
 sidebar_label: "Phân quyền người dùng sử dụng profile"
 description: "Phân quyền người dùng sử dụng profile"
+sidebar_position: 7
 ---
 
 # Phân quyền người dùng sử dụng profile

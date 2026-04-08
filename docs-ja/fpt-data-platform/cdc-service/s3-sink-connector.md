@@ -3,6 +3,7 @@ id: "s3-sink-connector"
 title: "S3 Sink Connector"
 sidebar_label: "S3 Sink Connector"
 description: "S3 Sink Connector"
+sidebar_position: 19
 ---
 
 # S3 Sink Connector

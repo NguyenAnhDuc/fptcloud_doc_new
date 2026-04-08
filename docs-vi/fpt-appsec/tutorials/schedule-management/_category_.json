@@ -1,0 +1,9 @@
+{
+  "label": "Schedule Management - Quản lý lịch chạy scan",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

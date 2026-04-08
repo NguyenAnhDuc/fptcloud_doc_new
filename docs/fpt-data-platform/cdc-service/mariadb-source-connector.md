@@ -3,6 +3,7 @@ id: "mariadb-source-connector"
 title: "MariaDB Source Connector"
 sidebar_label: "MariaDB Source Connector"
 description: "MariaDB Source Connector"
+sidebar_position: 8
 ---
 
 # MariaDB Source Connector

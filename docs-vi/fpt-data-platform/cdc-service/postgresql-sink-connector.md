@@ -3,6 +3,7 @@ id: "postgresql-sink-connector"
 title: "PostgreSQL Sink Connector"
 sidebar_label: "PostgreSQL Sink Connector"
 description: "PostgreSQL Sink Connector"
+sidebar_position: 12
 ---
 
 # PostgreSQL Sink Connector

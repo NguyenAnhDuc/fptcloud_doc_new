@@ -3,6 +3,7 @@ id: "xoa-workspace"
 title: "Xóa workspace"
 sidebar_label: "Xóa workspace"
 description: "Xóa workspace"
+sidebar_position: 4
 ---
 
 # Xóa workspace

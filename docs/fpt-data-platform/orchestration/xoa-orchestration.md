@@ -3,6 +3,7 @@ id: "xoa-orchestration"
 title: "Delete Orchestration"
 sidebar_label: "Delete Orchestration"
 description: "Delete Orchestration"
+sidebar_position: 4
 ---
 
 # Delete Orchestration

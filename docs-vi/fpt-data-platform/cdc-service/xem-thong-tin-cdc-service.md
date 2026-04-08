@@ -3,6 +3,7 @@ id: "xem-thong-tin-cdc-service"
 title: "Xem thông tin CDC Service"
 sidebar_label: "Xem thông tin CDC Service"
 description: "Xem thông tin CDC Service"
+sidebar_position: 3
 ---
 
 # Xem thông tin CDC Service

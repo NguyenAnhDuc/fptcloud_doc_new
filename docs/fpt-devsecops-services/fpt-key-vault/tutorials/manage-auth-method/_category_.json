@@ -1,0 +1,9 @@
+{
+  "label": "Manage Auth Method",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

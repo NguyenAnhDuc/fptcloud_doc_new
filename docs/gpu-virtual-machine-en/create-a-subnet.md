@@ -3,7 +3,7 @@ id: "create-a-subnet"
 title: "Create A Subnet"
 description: "A **subnet** is a unique **CIDR block** with a range of IP addresses in a **VPC**. All resources in a VPC must be deploy"
 sidebar_label: "Create A Subnet"
-sidebar_position: 7
+sidebar_position: 13
 ---
 
 # Create A Subnet

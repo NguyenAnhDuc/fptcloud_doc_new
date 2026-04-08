@@ -3,6 +3,7 @@ id: "huong-dan-airflow-job-submit"
 title: "Airflow & Job Submit Guide"
 sidebar_label: "Airflow & Job Submit Guide"
 description: "Airflow & Job Submit Guide"
+sidebar_position: 7
 ---
 
 # Airflow & Job Submit Guide

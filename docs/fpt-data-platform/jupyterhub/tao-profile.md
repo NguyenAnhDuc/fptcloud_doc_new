@@ -3,6 +3,7 @@ id: "tao-profile"
 title: "Create Profile"
 sidebar_label: "Create Profile"
 description: "Create Profile"
+sidebar_position: 6
 ---
 
 # Create Profile

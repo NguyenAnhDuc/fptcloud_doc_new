@@ -3,6 +3,7 @@ id: "tao-Jupyterhub"
 title: "Tạo Jupyterhub"
 sidebar_label: "Tạo Jupyterhub"
 description: "Tạo Jupyterhub"
+sidebar_position: 2
 ---
 
 # Tạo Jupyterhub

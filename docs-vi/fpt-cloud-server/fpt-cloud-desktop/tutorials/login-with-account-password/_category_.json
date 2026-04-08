@@ -1,0 +1,9 @@
+{
+  "label": "Đăng nhập với Account/Password",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

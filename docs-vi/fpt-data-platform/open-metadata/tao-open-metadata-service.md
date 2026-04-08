@@ -3,6 +3,7 @@ id: "tao-open-metadata-service"
 title: "Tạo Open Metadata service"
 sidebar_label: "Tạo Open Metadata service"
 description: "Tạo Open Metadata service"
+sidebar_position: 2
 ---
 
 # Tạo Open Metadata service

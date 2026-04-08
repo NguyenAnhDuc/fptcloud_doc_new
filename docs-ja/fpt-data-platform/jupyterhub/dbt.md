@@ -3,6 +3,7 @@ id: "dbt"
 title: "JupyterHubでdbtプロジェクトを実行する"
 sidebar_label: "DBT"
 description: "DBT"
+sidebar_position: 8
 ---
 
 # JupyterHubでdbtプロジェクトを実行する

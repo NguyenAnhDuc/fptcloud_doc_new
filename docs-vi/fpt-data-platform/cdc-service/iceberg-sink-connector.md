@@ -3,6 +3,7 @@ id: "iceberg-sink-connector"
 title: "Iceberg Sink Connector"
 sidebar_label: "Iceberg Sink Connector"
 description: "Iceberg Sink Connector"
+sidebar_position: 17
 ---
 
 # Iceberg Sink Connector

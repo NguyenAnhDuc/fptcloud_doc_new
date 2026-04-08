@@ -1,0 +1,9 @@
+{
+  "label": "Snapshot và restore persistent volume trong Kubernetes",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

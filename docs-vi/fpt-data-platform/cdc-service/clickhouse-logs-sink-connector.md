@@ -3,6 +3,7 @@ id: "clickhouse-logs-sink-connector"
 title: "ClickHouse (Logs) Sink Connector"
 sidebar_label: "ClickHouse (Logs) Sink Connector"
 description: "ClickHouse (Logs) Sink Connector"
+sidebar_position: 10
 ---
 
 # ClickHouse (Logs) Sink Connector

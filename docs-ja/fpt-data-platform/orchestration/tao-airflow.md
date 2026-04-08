@@ -3,6 +3,7 @@ id: "tao-airflow"
 title: "Orchestration の作成"
 sidebar_label: "Orchestration の作成"
 description: "Orchestration の作成"
+sidebar_position: 2
 ---
 
 # Orchestration の作成

@@ -3,6 +3,7 @@ id: "kafka-mm2"
 title: "Kafka MM2"
 sidebar_label: "Kafka MM2"
 description: "Kafka MM2"
+sidebar_position: 33
 ---
 
 # Kafka MM2

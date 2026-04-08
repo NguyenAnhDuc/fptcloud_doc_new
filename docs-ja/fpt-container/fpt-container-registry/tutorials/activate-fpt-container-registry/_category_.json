@@ -1,0 +1,9 @@
+{
+  "label": "FPT Container Registryの有効化",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}
