@@ -18,4 +18,4 @@ GPU Container利用料金は以下の要素で構成されています：
 - **永続ストレージコスト**：コンテナが存在する間（停止中も含む）毎秒課金されます。現在は$0.0066/GB/時間です。
 - **一時ストレージ**：現在無料です。
 
-詳細については [Payment Model](./payment-model.md) および [Billing Overview](./billing-overview.md) をご参照ください。
+詳細については [Payment Model](/docs/ja/gpu-container/payment-model/) および [Billing Overview](/docs/ja/gpu-container/billing-overview/) をご参照ください。

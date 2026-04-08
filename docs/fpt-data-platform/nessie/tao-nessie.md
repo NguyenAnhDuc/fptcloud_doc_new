@@ -3,6 +3,7 @@ id: "tao-nessie"
 title: "Create Nessie"
 sidebar_label: "Create Nessie"
 description: "Create Nessie"
+sidebar_position: 2
 ---
 
 # Create Nessie

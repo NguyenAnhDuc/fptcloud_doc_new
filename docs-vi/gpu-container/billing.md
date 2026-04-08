@@ -14,4 +14,4 @@ Phí được tính dựa trên số giờ GPU hoạt động. Điều này có 
 
 Để tránh phát sinh chi phí không cần thiết, hãy dừng hoặc xóa container khi bạn không sử dụng. Lưu ý rằng bạn vẫn bị tính phí lưu trữ liên tục khi container đang dừng.
 
-Xem thêm thông tin về mô hình thanh toán tại [Payment Model](./payment-model.md) và [Billing Overview](./billing-overview.md).
+Xem thêm thông tin về mô hình thanh toán tại [Payment Model](/docs/vi/gpu-container/payment-model/) và [Billing Overview](/docs/vi/gpu-container/billing-overview/).

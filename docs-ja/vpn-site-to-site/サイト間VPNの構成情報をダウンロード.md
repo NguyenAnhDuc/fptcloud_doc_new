@@ -4,6 +4,7 @@ title: "VPN構成情報のダウンロード"
 description: "ローカル側のセットアップ用にVPN構成ファイルをダウンロードするガイドです。"
 sidebar_label: "VPN構成情報のダウンロード"
 sidebar_position: 7
+draft: true
 ---
 
 # VPN構成情報のダウンロード

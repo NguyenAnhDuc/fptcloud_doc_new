@@ -4,6 +4,7 @@ title: "Nâng cấp phiên bản Kubernetes"
 description: "Hướng dẫn nâng cấp phiên bản Kubernetes cho cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Nâng cấp phiên bản Kubernetes"
 sidebar_position: "12"
+draft: true
 ---
 
 # Nâng cấp phiên bản Kubernetes

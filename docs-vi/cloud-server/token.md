@@ -4,6 +4,7 @@ title: "Tổng quan Token"
 description: "Token giúp bạn sử dụng Terraform và API trên FPT Cloud."
 sidebar_label: "Token"
 sidebar_position: 42
+draft: true
 ---
 
 # Tổng quan Token

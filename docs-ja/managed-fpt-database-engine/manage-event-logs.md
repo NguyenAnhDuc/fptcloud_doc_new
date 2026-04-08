@@ -4,6 +4,7 @@ title: "イベントログの管理"
 description: "FPT Smart Cloud Database Engine のイベントログを確認する手順。"
 sidebar_label: "イベントログの管理"
 sidebar_position: 19
+draft: true
 ---
 
 # イベントログの管理

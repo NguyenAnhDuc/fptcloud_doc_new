@@ -3,6 +3,7 @@ id: "xoa-ranger"
 title: "Delete Ranger"
 sidebar_label: "Delete Ranger"
 description: "Delete Ranger"
+sidebar_position: 6
 ---
 
 # Delete Ranger

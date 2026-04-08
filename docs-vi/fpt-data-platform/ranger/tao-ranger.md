@@ -3,6 +3,7 @@ id: "tao-ranger"
 title: "Tạo Ranger"
 sidebar_label: "Tạo Ranger"
 description: "Tạo Ranger"
+sidebar_position: 2
 ---
 
 # Tạo Ranger

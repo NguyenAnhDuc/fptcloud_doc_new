@@ -3,6 +3,7 @@ id: "tao-workspace"
 title: "Workspaceの作成"
 sidebar_label: "Workspaceの作成"
 description: "Workspaceの作成"
+sidebar_position: 2
 ---
 
 # Workspaceの作成

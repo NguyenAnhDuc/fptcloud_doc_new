@@ -1,0 +1,9 @@
+{
+  "label": "SSO (Azure) でログイン",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

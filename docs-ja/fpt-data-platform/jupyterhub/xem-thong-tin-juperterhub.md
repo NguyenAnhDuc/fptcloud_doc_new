@@ -3,6 +3,7 @@ id: "xem-thong-tin-juperterhub"
 title: "JupyterHub の詳細表示"
 sidebar_label: "JupyterHub の詳細表示"
 description: "JupyterHub の詳細表示"
+sidebar_position: 3
 ---
 
 # JupyterHub の詳細表示

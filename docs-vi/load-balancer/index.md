@@ -4,6 +4,7 @@ title: "Load Balancer"
 description: "Tổng quan dịch vụ Load Balancer của FPT Cloud — phân phối traffic tối ưu đến các máy chủ backend."
 sidebar_label: "Load Balancer"
 sidebar_position: 1
+draft: true
 ---
 
 # Load Balancer

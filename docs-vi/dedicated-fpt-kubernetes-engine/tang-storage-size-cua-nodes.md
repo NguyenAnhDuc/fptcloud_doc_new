@@ -4,6 +4,7 @@ title: "Tăng Storage size của các Nodes"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Tăng Storage size của các Nodes"
 sidebar_position: 15
+draft: true
 ---
 
 # Tăng Storage size của các Nodes

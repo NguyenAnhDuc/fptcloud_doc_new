@@ -4,6 +4,7 @@ title: "Notes when using MFKE"
 description: "Create namespaces to divide applications or environments for easier management. Avoid using system-created namespaces fo"
 sidebar_label: "Notes when using MFKE"
 sidebar_position: 27
+draft: true
 ---
 
 # Notes when using MFKE

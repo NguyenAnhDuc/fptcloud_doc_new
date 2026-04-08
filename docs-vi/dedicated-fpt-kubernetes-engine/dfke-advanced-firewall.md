@@ -4,6 +4,7 @@ title: Advanced Firewall
 description: "Sản phẩm Kubenetes tích hợp Firewall khác so với sản phẩm Kubenetes cơ bản của FPT Cloud là sử dụng 01 Advanced Firewall"
 sidebar_label: Advanced Firewall
 sidebar_position: 24
+draft: true
 ---
 
 # Advanced Firewall

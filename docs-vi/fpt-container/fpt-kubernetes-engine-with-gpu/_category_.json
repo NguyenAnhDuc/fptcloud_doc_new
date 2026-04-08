@@ -1,0 +1,9 @@
+{
+  "label": "FPT Kubernetes Engine with GPU",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

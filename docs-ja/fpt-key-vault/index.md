@@ -4,6 +4,7 @@ title: "FPT Key Vault"
 description: "FPT Key Vaultサービスのドキュメント"
 sidebar_label: "FPT Key Vault"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Key Vault

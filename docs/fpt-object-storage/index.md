@@ -4,6 +4,7 @@ title: "FPT Object Storage"
 description: "FPT Object Storage"
 sidebar_label: "FPT Object Storage"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Object Storage

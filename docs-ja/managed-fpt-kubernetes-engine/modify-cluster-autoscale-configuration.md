@@ -4,6 +4,7 @@ title: "Cluster Autoscale 構成の変更"
 description: "Managed FKE クラスターのCluster Autoscale構成をカスタマイズする方法を説明します。"
 sidebar_label: "Cluster Autoscale 構成の変更"
 sidebar_position: 16
+draft: true
 ---
 
 # Cluster Autoscale 構成の変更

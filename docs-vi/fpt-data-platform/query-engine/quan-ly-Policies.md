@@ -3,6 +3,7 @@ id: "quan-ly-Policies"
 title: "Quản lý Policies"
 sidebar_label: "Quản lý Policies"
 description: "Quản lý Policies"
+sidebar_position: 7
 ---
 
 # Quản lý Policies

@@ -4,6 +4,7 @@ title: "Kubernetes バージョンのアップグレード"
 description: "Managed FPT Kubernetes Engine の cluster の Kubernetes バージョンをアップグレードする方法。"
 sidebar_label: "Kubernetes バージョンのアップグレード"
 sidebar_position: "12"
+draft: true
 ---
 
 # Kubernetes バージョンのアップグレード

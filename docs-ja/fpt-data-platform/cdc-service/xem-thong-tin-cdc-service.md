@@ -3,6 +3,7 @@ id: "xem-thong-tin-cdc-service"
 title: "CDC Service詳細の表示"
 sidebar_label: "CDC Service詳細の表示"
 description: "CDC Service詳細の表示"
+sidebar_position: 3
 ---
 
 # CDC Service詳細の表示

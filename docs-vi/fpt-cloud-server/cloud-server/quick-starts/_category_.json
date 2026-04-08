@@ -1,0 +1,9 @@
+{
+  "label": "Hướng dẫn nhanh (Quick Starts)",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

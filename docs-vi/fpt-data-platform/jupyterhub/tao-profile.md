@@ -3,6 +3,7 @@ id: "tao-profile"
 title: "Tạo Profile"
 sidebar_label: "Tạo Profile"
 description: "Tạo Profile"
+sidebar_position: 6
 ---
 
 # Tạo Profile

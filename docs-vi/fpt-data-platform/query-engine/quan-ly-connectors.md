@@ -3,6 +3,7 @@ id: "quan-ly-connectors"
 title: "Quản lý Connectors"
 sidebar_label: "Quản lý Connectors"
 description: "Quản lý Connectors"
+sidebar_position: 5
 ---
 
 # Quản lý Connectors

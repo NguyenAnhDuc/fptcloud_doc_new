@@ -4,6 +4,7 @@ title: "K8s バージョンのアップグレード"
 description: "Dedicated FPT Kubernetes Engine クラスターのKubernetesバージョンをアップグレードする方法を説明します。"
 sidebar_label: "K8s バージョンのアップグレード"
 sidebar_position: 17
+draft: true
 ---
 
 # K8s バージョンのアップグレード

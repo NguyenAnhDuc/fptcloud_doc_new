@@ -1,0 +1,9 @@
+{
+  "label": "ArgoCD上のアカウント管理",
+  "position": 11,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

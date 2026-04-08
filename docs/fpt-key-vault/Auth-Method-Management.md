@@ -4,6 +4,7 @@ title: "Auth Method management"
 description: "Manage authentication methods for FPT Key Vault."
 sidebar_label: "Auth Method management"
 sidebar_position: 14
+draft: true
 ---
 
 # Auth Method management

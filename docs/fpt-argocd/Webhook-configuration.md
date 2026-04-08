@@ -4,6 +4,7 @@ title: "Webhook Configuration"
 description: "ArgoCD will automatically check for manifest changes in the Git Repository every three minutes. ArgoCD supports Git webh"
 sidebar_label: "Webhook Configuration"
 sidebar_position: 6
+draft: true
 ---
 
 # Webhook Configuration

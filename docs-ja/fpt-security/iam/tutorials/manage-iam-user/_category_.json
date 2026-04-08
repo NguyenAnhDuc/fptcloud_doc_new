@@ -1,0 +1,9 @@
+{
+  "label": "IAM Userの管理",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

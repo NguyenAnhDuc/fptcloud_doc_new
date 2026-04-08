@@ -4,6 +4,7 @@ title: "FPT Container Registry"
 description: "FPT Cloud が提供するコンテナイメージの保存・管理サービス。"
 sidebar_label: "FPT Container Registry"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Container Registry

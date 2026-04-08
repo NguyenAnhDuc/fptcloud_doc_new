@@ -4,6 +4,7 @@ title: Initialize Database Engine
 description: "**Bước 1:** Trên **Menu** chọn mục **Database Engine** >**Create.**"
 sidebar_label: Initialize Database Engine
 sidebar_position: "9"
+draft: true
 ---
 
 # Initialize Database Engine

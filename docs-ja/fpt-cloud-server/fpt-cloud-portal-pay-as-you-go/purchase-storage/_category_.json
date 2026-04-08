@@ -1,0 +1,9 @@
+{
+  "label": "ストレージの購入",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

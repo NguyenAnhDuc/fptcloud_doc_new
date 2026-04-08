@@ -4,6 +4,7 @@ title: "Database feature permissions"
 description: "Configure group-level permissions for each Database feature such as Provision, View, and Backup."
 sidebar_label: "Database feature permissions"
 sidebar_position: 6
+draft: true
 ---
 
 # Database feature permissions

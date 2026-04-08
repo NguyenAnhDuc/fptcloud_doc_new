@@ -2,6 +2,7 @@
 id: "overview-fcd"
 title: "FPT Cloud Desktop の概要"
 sidebar_label: "FPT Cloud Desktop の概要"
+draft: true
 ---
 
 詳細説明

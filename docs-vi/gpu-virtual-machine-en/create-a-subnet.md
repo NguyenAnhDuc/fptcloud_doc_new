@@ -3,7 +3,7 @@ id: "create-a-subnet"
 title: "Create A Subnet"
 description: "Create A Subnet trên GPU Virtual Machine."
 sidebar_label: "Create A Subnet"
-sidebar_position: 7
+sidebar_position: 13
 ---
 
 # Create A Subnet

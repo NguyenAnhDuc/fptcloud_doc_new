@@ -3,6 +3,7 @@ id: "certificate-manager"
 title: "Certificate Manager"
 sidebar_label: "Certificate Manager"
 description: "Certificate Manager"
+sidebar_position: 6
 ---
 
 # Certificate Manager

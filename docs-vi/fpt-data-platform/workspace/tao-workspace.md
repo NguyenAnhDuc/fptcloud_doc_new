@@ -3,6 +3,7 @@ id: "tao-workspace"
 title: "Tạo workspace"
 sidebar_label: "Tạo workspace"
 description: "Tạo workspace"
+sidebar_position: 2
 ---
 
 # Tạo workspace

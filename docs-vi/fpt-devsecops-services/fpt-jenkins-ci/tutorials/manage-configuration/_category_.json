@@ -1,0 +1,9 @@
+{
+  "label": "Quản lý cấu hình",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

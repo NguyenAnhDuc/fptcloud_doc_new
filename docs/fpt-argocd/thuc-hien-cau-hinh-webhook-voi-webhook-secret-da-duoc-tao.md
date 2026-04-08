@@ -4,6 +4,7 @@ title: Configure Webhook with Webhook Secret
 description: "作成済みのWebhook secretを使用してGitLabのWebhookを設定する方法。"
 sidebar_label: Configure Webhook with Webhook Secret
 sidebar_position: "45"
+draft: true
 ---
 
 # Configure Webhook with Webhook Secret

@@ -3,7 +3,7 @@ id: "block-storage"
 title: "Block Storage"
 description: "Block Storage trên GPU Virtual Machine."
 sidebar_label: "Block Storage"
-sidebar_position: 6
+sidebar_position: 11
 ---
 
 # Block Storage
@@ -21,7 +21,7 @@ Từ trang này, bạn có thể xem danh sách tất cả Storage Disk được
 
 ### Tạo Storage Disk
 Để tạo Storage disk trong FPT Cloud, trước tiên hãy xác định loại disk bạn cần:
-  * **Root disk** được tạo tự động cùng với máy ảo. Tham khảo: [Create a GPU VM](../gpu-virtual-machine-en/index.md)
+  * **Root disk** được tạo tự động cùng với máy ảo. Tham khảo: [Create a GPU VM](/docs/vi/gpu-virtual-machine-en/)/
   * **External disk** có thể được tạo độc lập và gắn vào máy ảo sau.
 
 Bạn có thể tạo External disk bằng một trong các phương pháp sau:

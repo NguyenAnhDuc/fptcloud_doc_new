@@ -3,6 +3,7 @@ id: "tao-connector-source-kafka"
 title: "Create connector source Kafka"
 sidebar_label: "Create connector source Kafka"
 description: "Create connector source Kafka"
+sidebar_position: 23
 ---
 
 # Create connector source Kafka

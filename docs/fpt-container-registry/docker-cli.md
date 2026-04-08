@@ -4,6 +4,7 @@ title: Docker CLI
 description: "FPT Container Registry"
 sidebar_label: Docker CLI
 sidebar_position: 4
+draft: true
 ---
 
 # Docker CLI

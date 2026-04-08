@@ -4,6 +4,7 @@ title: "VPN Activity logの確認"
 description: "Activity LogでVPNアクティビティ履歴を確認するガイドです。"
 sidebar_label: "VPN Activity logの確認"
 sidebar_position: 9
+draft: true
 ---
 
 # VPN Activity logの確認

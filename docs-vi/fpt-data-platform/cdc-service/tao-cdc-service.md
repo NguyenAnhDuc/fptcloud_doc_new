@@ -3,6 +3,7 @@ id: "tao-cdc-service"
 title: "Tạo CDC Service"
 sidebar_label: "Tạo CDC Service"
 description: "Tạo CDC Service"
+sidebar_position: 2
 ---
 
 # Tạo CDC Service

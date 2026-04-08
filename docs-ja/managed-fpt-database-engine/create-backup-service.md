@@ -4,6 +4,7 @@ title: "バックアップサービスの作成"
 description: "FPT Smart Cloud Database Engine のバックアップサービスとジョブの作成手順。"
 sidebar_label: "バックアップサービスの作成"
 sidebar_position: 12
+draft: true
 ---
 
 # バックアップサービスの作成

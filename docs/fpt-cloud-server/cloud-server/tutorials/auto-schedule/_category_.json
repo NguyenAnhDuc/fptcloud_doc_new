@@ -1,0 +1,9 @@
+{
+  "label": "Auto Schedule",
+  "position": 18,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

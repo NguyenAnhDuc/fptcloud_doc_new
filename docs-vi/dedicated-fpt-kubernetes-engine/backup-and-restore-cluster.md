@@ -4,6 +4,7 @@ title: Backup và Restore Cluster
 description: "Để backup k8s cluster, thực hiện backup master nodes sử dụng dịch vụ **Backup & Recovery**."
 sidebar_label: Backup và Restore Cluster
 sidebar_position: 25
+draft: true
 ---
 
 # Backup và Restore Cluster

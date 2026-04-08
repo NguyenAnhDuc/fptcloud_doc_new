@@ -1,0 +1,9 @@
+{
+  "label": "Proxy Hostの管理",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

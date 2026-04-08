@@ -27,12 +27,12 @@ Hoặc, nếu bạn có voucher từ FPT, hãy áp dụng mã hợp lệ trong m
 ## Bước 2: Tạo container
 1. Chọn **GPU Container** trong menu bên.
 2. Nhấp nút **Create New GPU Container** và cấu hình triển khai container.
-3. Làm theo hướng dẫn chi tiết [tại đây](../gpu-container/index.md).
+3. Làm theo hướng dẫn chi tiết [tại đây](/docs/vi/gpu-container/)/.
 
 ## Bước 3: Kết nối vào container
 1. Trong trang danh sách container, nhấp vào tên container để truy cập màn hình chi tiết.
 2. Tùy thuộc vào cấu hình trong mục **Access container**, chọn một trong các phương thức: HTTP Endpoint hoặc kết nối SSH qua Terminal.
-3. Làm theo hướng dẫn chi tiết [tại đây](../gpu-container/index.md).
+3. Làm theo hướng dẫn chi tiết [tại đây](/docs/vi/gpu-container/)/.
 
 ## Bước 4: Dừng container
 Để tránh phát sinh chi phí không cần thiết:
@@ -40,4 +40,4 @@ Hoặc, nếu bạn có voucher từ FPT, hãy áp dụng mã hợp lệ trong m
 2. Nhấp nút **Stop** trong cột **Actions** để dừng container.
 3. Xác nhận bằng cách nhấp **Confirm**.
 
-Để xóa container vĩnh viễn, làm theo hướng dẫn chi tiết [tại đây](../gpu-container/index.md).
+Để xóa container vĩnh viễn, làm theo hướng dẫn chi tiết [tại đây](/docs/vi/gpu-container/)/.

@@ -4,6 +4,7 @@ title: "Quản lý proxy host"
 description: "Tổng quan về quản lý proxy host trong WAF Dashboard, bao gồm tạo, xem, cập nhật, bật/tắt và xóa."
 sidebar_label: "Quản lý proxy host"
 sidebar_position: 11
+draft: true
 ---
 
 # Quản lý proxy host

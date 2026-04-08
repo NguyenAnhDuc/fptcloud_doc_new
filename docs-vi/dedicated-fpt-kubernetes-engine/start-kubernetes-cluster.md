@@ -5,6 +5,7 @@ description: "Với các Cluster đã tắt trước đó, bạn có thể bật
 sidebar_label: Khởi động lại Kubernetes cluster
 sidebar_position: 10
 pagination_next: null
+draft: true
 ---
 
 # Khởi động lại Kubernetes cluster

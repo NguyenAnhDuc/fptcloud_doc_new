@@ -4,6 +4,7 @@ title: "queue の管理"
 description: "FPT Message Bus における queue 管理の概要。"
 sidebar_label: "queue の管理"
 sidebar_position: 4
+draft: true
 ---
 
 # queue の管理

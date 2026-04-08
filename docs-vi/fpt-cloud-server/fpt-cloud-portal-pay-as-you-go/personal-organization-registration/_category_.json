@@ -1,0 +1,9 @@
+{
+  "label": "Đăng ký thông tin cá nhân/ tổ chức",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

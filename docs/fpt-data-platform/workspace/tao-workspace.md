@@ -3,6 +3,7 @@ id: "tao-workspace"
 title: "Create workspace"
 sidebar_label: "Create workspace"
 description: "Create workspace"
+sidebar_position: 2
 ---
 
 # Create workspace

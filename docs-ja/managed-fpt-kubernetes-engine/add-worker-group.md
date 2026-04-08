@@ -4,6 +4,7 @@ title: "worker group の追加"
 description: "Managed FPT Kubernetes Engine の既存 cluster に新しい worker group を追加する方法。"
 sidebar_label: "worker group の追加"
 sidebar_position: "10"
+draft: true
 ---
 
 # worker group の追加

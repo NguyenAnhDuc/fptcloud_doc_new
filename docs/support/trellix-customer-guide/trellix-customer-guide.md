@@ -1,0 +1,11 @@
+---
+id: "trellix-customer-guide"
+title: "Trellix Customer Guide"
+description: "Trellix Customer Guide"
+sidebar_label: "Trellix Customer Guide"
+sidebar_position: 6
+---
+
+# Trellix Customer Guide
+
+Trellix Customer Guide provides instructions for managing endpoint security using Trellix on FPT Cloud.

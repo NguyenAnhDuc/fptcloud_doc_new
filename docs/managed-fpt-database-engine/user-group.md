@@ -5,6 +5,7 @@ description: "The **User Group Management** function helps organize multiple use
 sidebar_label: "User Group"
 sidebar_position: 14
 pagination_next: null
+draft: true
 ---
 
 # User Group

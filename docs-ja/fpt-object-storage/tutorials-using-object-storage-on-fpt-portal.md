@@ -4,6 +4,7 @@ title: "Use Object Storage on FPT Portal"
 sidebar_label: "Use Object Storage on FPT Portal"
 sidebar_position: "3"
 description: "Use Object Storage on FPT Portal"
+draft: true
 ---
 
 # Use Object Storage on FPT Portal

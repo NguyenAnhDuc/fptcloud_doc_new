@@ -4,6 +4,7 @@ title: "K8s クラスター構成の変更"
 description: "Dedicated FPT Kubernetes Engine クラスターの構成を変更する方法について説明します。"
 sidebar_label: "クラスター構成の変更"
 sidebar_position: 11
+draft: true
 ---
 
 # K8s クラスター構成の変更

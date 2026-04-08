@@ -4,6 +4,7 @@ title: "Container-level auto scaling"
 description: "**Horizontal Pod Autoscaler (HPA)** automatically adjusts the resource allocation for workload resources (such as Deploy"
 sidebar_label: "Container-level auto scaling"
 sidebar_position: 25
+draft: true
 ---
 
 # Container-level auto scaling

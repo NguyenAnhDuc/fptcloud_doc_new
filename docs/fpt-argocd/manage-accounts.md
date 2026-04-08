@@ -4,6 +4,7 @@ title: "Manage accounts on ArgoCD"
 description: "Overview of managing user accounts in an ArgoCD instance"
 sidebar_label: "Manage ArgoCD accounts"
 sidebar_position: 23
+draft: true
 ---
 
 # Manage accounts on ArgoCD

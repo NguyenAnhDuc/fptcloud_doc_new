@@ -2,6 +2,7 @@
 id: "overview-fcd"
 title: "Overview Fcd"
 sidebar_label: "Overview Fcd"
+draft: true
 ---
 
 Giới thiệu chi tiết

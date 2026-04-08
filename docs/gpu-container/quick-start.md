@@ -27,12 +27,12 @@ Or, you have a voucher from FPT, apply your valid code in Add Voucher section to
 ## Step 2: Create a container
   1. Select GPU Container in the Side menu. 
   2. Click button **Create New GPU Container** and configure the Container deployment. 
-  3. Follow the detailed guide [here](../gpu-container/index.md).
+  3. Follow the detailed guide [here](/docs/en/gpu-container/)/.
 
 ## Step 3: Connect to container
   1. In the Container list page, click container name to access container details screen. 
   2. Depends on your configurations in Access container section, choose one of the methods to connect: HTTP Endpoint, Connect SSH via Terminal 
-  3. Follow the detailed guide [here](../gpu-container/index.md)
+  3. Follow the detailed guide [here](/docs/en/gpu-container/)/
 
 ## Step 4: Stop the container
 To avoid incurring unnecessary charges, make sure to: 
@@ -40,4 +40,4 @@ To avoid incurring unnecessary charges, make sure to:
   2. Click the Stop button in the Actions column to stop your container.
   3. Confirm by clicking "Confirm". 
 
-To delete your container permanently, follow the detailed guide [here](../gpu-container/index.md).
+To delete your container permanently, follow the detailed guide [here](/docs/en/gpu-container/)/.

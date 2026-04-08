@@ -3,6 +3,7 @@ id: "edit-capabilities"
 title: "Capabilitiesの編集"
 sidebar_label: "Capabilitiesの編集"
 description: "FPT ArgoCDでアカウントのcapabilitiesを編集する方法を説明します。"
+draft: true
 ---
 
 # Capabilitiesの編集

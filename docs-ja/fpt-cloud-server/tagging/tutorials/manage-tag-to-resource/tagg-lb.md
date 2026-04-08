@@ -1,0 +1,40 @@
+---
+id: "tagg-lb"
+title: "Load Balancerのタグ管理"
+description: "Load Balancerにtagを割り当てて管理します — 作成時または作成後に設定できます。"
+sidebar_label: "Load Balancerのタグ管理"
+sidebar_position: 9
+pagination_next: null
+---
+
+# Load Balancerのタグ管理
+
+Load Balancerにtagを割り当てると、ロードバランサーをプロジェクトや環境別に分類でき、ネットワークインフラの管理が容易になります。
+
+## Classic Load Balancer作成時のタグ割り当て
+
+1. メニューから **Classic load balancer** を選択し、**Create load balancer** をクリックします。
+
+   [![Create load balancerボタンのあるClassic load balancer画面](/img/migrated/image-1721034946476-8389286e.png)](/img/migrated/image-1721034946476-8389286e.png)
+
+2. **Create load balancer** ダイアログボックスで、**Add tag (optional)** フィールドからtagを選択します。
+
+   [![Add tagフィールドのあるCreate load balancerダイアログ](/img/migrated/image-1721034960349-bc880785.png)](/img/migrated/image-1721034960349-bc880785.png)
+
+## 既存Load Balancerのタグ管理
+
+1. **Classic Load Balancer** 画面でLoad Balancerを選択し、**Actions** → **Manage tags** をクリックします。
+
+   [![Load BalancerのManage tagsオプションのあるActionsメニュー](/img/migrated/image-1721034970802-6fc88cac.png)](/img/migrated/image-1721034970802-6fc88cac.png)
+
+2. ダイアログボックスが表示されます。Load Balancerに割り当てるtagを選択します。
+
+   [![Load BalancerのManage tagsダイアログ](/img/migrated/image-1721034981643-db1aeca2.png)](/img/migrated/image-1721034981643-db1aeca2.png)
+
+3. tagを削除するには、tag名の横にある **x** をクリックします。リストボックス末尾の **x** をクリックすると、すべてのtagを一度に削除できます。**Save** をクリックして確定します。
+
+   [![タグ削除オプションのあるManage tagsダイアログ](/img/migrated/image-1721034991057-8426f650.png)](/img/migrated/image-1721034991057-8426f650.png)
+
+:::warning
+Load Balancerを削除すると、システムは関連するすべてのtagを自動的に削除し、Tagging画面のtagリストを更新します。
+:::

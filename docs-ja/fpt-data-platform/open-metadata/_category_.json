@@ -1,0 +1,9 @@
+{
+  "label": "Open Metadata",
+  "position": 14,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

@@ -4,6 +4,7 @@ title: "Manage proxy host"
 description: "Overview of proxy host management in WAF Dashboard, including create, view, update, enable/disable, and delete."
 sidebar_label: "Manage proxy host"
 sidebar_position: "11"
+draft: true
 ---
 
 # Manage proxy host

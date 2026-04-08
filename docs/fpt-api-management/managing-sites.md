@@ -4,6 +4,7 @@ title: "Managing Sites"
 description: "Create Sites to publish Products and manage API endpoints for consumers."
 sidebar_label: "Managing Sites"
 sidebar_position: 8
+draft: true
 ---
 
 # Managing Sites

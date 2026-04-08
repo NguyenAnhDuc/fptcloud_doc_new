@@ -4,6 +4,7 @@ title: "Instructions For Login To Argocd"
 description: "**Method 1** : Log in to **ArgoCD** with username/password:"
 sidebar_label: "Instructions For Login To..."
 sidebar_position: "19"
+draft: true
 ---
 
 # Instructions For Login To Argocd

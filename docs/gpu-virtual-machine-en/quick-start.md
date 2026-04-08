@@ -3,7 +3,7 @@ id: "quick-start"
 title: "Quick Start"
 description: "**Step 1: Create an FPT Cloud account**"
 sidebar_label: "Quick Start"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Quick Start
@@ -23,7 +23,7 @@ A subnet is required before deploying your GPU VM.
   1. In the left-side menu, go to **Network → Subnets.**
   2. Click **Create Subnet** and complete the configuration. 
 
-Follow the detailed guide [here](../gpu-virtual-machine-en/index.md)
+Follow the detailed guide [here](/docs/en/gpu-virtual-machine-en/)/
 
 #### Step 2: Create a GPU VM
   1. In the side menu, go to **Compute Engine → Instance Management.**
@@ -33,21 +33,21 @@ Follow the detailed guide [here](../gpu-virtual-machine-en/index.md)
        * **Ephemeral Disk (NVMe):** The storage disk is bundled with the instance and cannot be resized. 
        * **Persistent Disk (Block Storage SSD):** A storage disk is required, with a minimum size of **100 GB.**
 
-Follow the detailed guide [here](../gpu-virtual-machine-en/index.md). 
+Follow the detailed guide [here](/docs/en/gpu-virtual-machine-en/)/. 
 
 #### Step 3: Allocate a public IP address (Floating IP)
   1. In the left-side menu, go to **Network → Floating IPs.**
   2. Click **Allocate IP Address** and assign the IP to your VM. 
      * _Ephemeral Disk (NVMe):_ Use **port forwarding (NAT)** to connect the floating IP with the VM. You’ll need to specify both **the IP port** and **the Instance port.**
 
-Follow the detailed guide [here](../gpu-virtual-machine-en/index.md). 
+Follow the detailed guide [here](/docs/en/gpu-virtual-machine-en/)/. 
 
 #### Step 4: Create Security Group
 By default, the **Default Security Group** allows all outbound traffic. You have to create a new one to allow inbound rules to access the VM. 
   1. Click on **Network** and select **Security Groups** in the side menu. 
   2. Choose **Create Security Group** in the Security Groups screen and define the inbound rules for VM (e.g., **Allow SSH access on port 22** from your client’s public IP). 
 
-Follow the detailed guide [here](../gpu-virtual-machine-en/index.md). 
+Follow the detailed guide [here](/docs/en/gpu-virtual-machine-en/)/. 
 
 #### Step 5: Access to GPU Virtual Machine
 After successfully creating the GPU VM, you can access the server via **SSH** : 
@@ -55,4 +55,4 @@ After successfully creating the GPU VM, you can access the server via **SSH** :
   * **Web Console:** Go to the server’s detail page and click **"Open at Console"** to log in with a password through the web console. 
 
 > 💡 _The default username is**root.**_
-Follow the detailed guide [here](../gpu-virtual-machine-en/index.md).
+Follow the detailed guide [here](/docs/en/gpu-virtual-machine-en/)/.

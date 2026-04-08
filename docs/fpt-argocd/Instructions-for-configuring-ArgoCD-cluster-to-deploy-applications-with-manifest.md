@@ -5,6 +5,7 @@ description: "**Step 1** : [Add Cluster to ArgoCD](./add-cluster-toi-argocd.md)"
 sidebar_label: "Instructions For Configuring Argocd..."
 sidebar_position: 20
 pagination_next: null
+draft: true
 ---
 
 # Instructions For Configuring Argocd Cluster To Deploy Applications With Manifest

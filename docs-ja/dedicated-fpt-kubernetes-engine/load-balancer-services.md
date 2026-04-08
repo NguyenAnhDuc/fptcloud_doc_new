@@ -4,6 +4,7 @@ title: "Service Type Load-Balancer"
 description: "D-FKEでのService type Load Balancerの作成方法と、パブリック・プライベートLBの設定について説明します。"
 sidebar_label: "Service Type Load-Balancer"
 sidebar_position: 23
+draft: true
 ---
 
 # Service Type Load-Balancer

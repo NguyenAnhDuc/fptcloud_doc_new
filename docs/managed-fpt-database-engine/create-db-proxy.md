@@ -4,6 +4,7 @@ title: "Create DB proxy"
 description: "Steps to create a DB proxy for FPT Smart Cloud Database Engine."
 sidebar_label: "Create DB proxy"
 sidebar_position: 21
+draft: true
 ---
 
 # Create DB proxy

@@ -4,6 +4,7 @@ title: "Cap Nhat Va Xoa Backup Service"
 description: "Trường hợp quý khách muốn cập nhật hoặc xóa Backup service."
 sidebar_label: "Cap Nhat Va Xoa Backup Service"
 sidebar_position: "14"
+draft: true
 ---
 
 # Cap Nhat Va Xoa Backup Service

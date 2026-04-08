@@ -4,6 +4,7 @@ title: "K8s FPT 上での PVC のスナップショットとリストア"
 description: "FPT Cloud Managed Kubernetes における PVC のスナップショットとリストア機能の概要を説明します。"
 sidebar_label: "PVC のスナップショットとリストア"
 sidebar_position: 45
+draft: true
 ---
 
 # K8s FPT 上での PVC のスナップショットとリストア

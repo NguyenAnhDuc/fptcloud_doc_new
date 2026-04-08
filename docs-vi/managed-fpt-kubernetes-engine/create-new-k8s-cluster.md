@@ -4,6 +4,7 @@ title: "Tạo mới Kubernetes cluster"
 description: "Hướng dẫn tạo mới Kubernetes cluster trên Managed FPT Kubernetes Engine."
 sidebar_label: "Tạo mới Kubernetes cluster"
 sidebar_position: "4"
+draft: true
 ---
 
 # Tạo mới Kubernetes cluster

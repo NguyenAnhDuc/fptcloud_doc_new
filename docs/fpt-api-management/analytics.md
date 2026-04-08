@@ -4,6 +4,7 @@ title: "Analytics"
 description: "View API usage statistics and logging on FPT API Management."
 sidebar_label: "Analytics"
 sidebar_position: 10
+draft: true
 ---
 
 # Analytics

@@ -4,6 +4,7 @@ title: "Increase NFS server storage size"
 description: "Expand the storage size of the NFS server in a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Increase NFS storage size"
 sidebar_position: 16
+draft: true
 ---
 
 # Increase NFS server storage size

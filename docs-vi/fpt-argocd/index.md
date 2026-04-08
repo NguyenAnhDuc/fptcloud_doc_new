@@ -4,6 +4,7 @@ title: "FPT ArgoCD"
 description: "Tài liệu hướng dẫn sử dụng dịch vụ FPT ArgoCD trên FPT Cloud Portal"
 sidebar_label: "FPT ArgoCD"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT ArgoCD

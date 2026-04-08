@@ -5,6 +5,7 @@ description: "Kubernetes クラスターで File Storage – High Performance �
 sidebar_label: "Kubernetes (K8S Cluster) での利用"
 sidebar_position: 6
 pagination_next: null
+draft: true
 ---
 
 # Kubernetes (K8S Cluster) での File Storage – High Performance の利用

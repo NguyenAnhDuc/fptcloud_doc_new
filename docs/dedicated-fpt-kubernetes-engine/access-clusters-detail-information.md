@@ -4,6 +4,7 @@ title: "Access cluster detail information"
 description: "**Step 1** : In the menu, select **Kubernetes** , and the system will display the **Kubernetes Management** page."
 sidebar_label: "Access cluster detail information"
 sidebar_position: 6
+draft: true
 ---
 
 # Access cluster detail information

@@ -4,6 +4,7 @@ title: "許可 IP/CIDR の設定"
 description: "FPT Cloud ロードバランサーへのアクセスを特定の IP アドレスまたは CIDR 範囲に制限する方法を説明します。"
 sidebar_label: "許可 IP/CIDR の設定"
 sidebar_position: 16
+draft: true
 ---
 
 # 許可 IP/CIDR の設定

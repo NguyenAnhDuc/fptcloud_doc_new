@@ -4,6 +4,7 @@ title: Manage Backups
 sidebar_label: Manage Backups
 sidebar_position: "11"
 description: "Tổng quan về quản lý backup cho FPT Smart Cloud Database Engine."
+draft: true
 ---
 
 # Manage Backups

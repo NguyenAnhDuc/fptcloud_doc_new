@@ -4,6 +4,7 @@ title: "ロールの管理"
 description: "FPT Smart Cloud Database Engine の IAM ロールを作成・管理する手順。"
 sidebar_label: "ロールの管理"
 sidebar_position: 7
+draft: true
 ---
 
 # ロールの管理

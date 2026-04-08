@@ -4,6 +4,7 @@ title: "Cách sử dụng GPU trên Kubernetes"
 description: "FPT Cloud cung cấp Kubernetes với NVIDIA GPU, hỗ trợ cấu hình GPU linh hoạt và quản lý tài nguyên tự động."
 sidebar_label: "Cách sử dụng GPU trên Kubernetes"
 sidebar_position: "20"
+draft: true
 ---
 
 # Cách sử dụng GPU trên Kubernetes

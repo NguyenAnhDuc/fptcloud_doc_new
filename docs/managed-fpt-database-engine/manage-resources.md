@@ -4,6 +4,7 @@ title: "Manage resources"
 description: "Steps to change resource allocation (CPU, RAM, Disk) for FPT Smart Cloud Database Engine."
 sidebar_label: "Manage resources"
 sidebar_position: 16
+draft: true
 ---
 
 # Manage resources

@@ -4,6 +4,7 @@ title: "Policy management"
 description: "Manage policies to control access to secrets in FPT Key Vault."
 sidebar_label: "Policy management"
 sidebar_position: 11
+draft: true
 ---
 
 # Policy management

@@ -2,6 +2,7 @@
 id: "overview-fcd"
 title: "FPT Cloud Desktop overview"
 sidebar_label: "FPT Cloud Desktop overview"
+draft: true
 ---
 
 Detailed introduction

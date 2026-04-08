@@ -4,6 +4,7 @@ title: "cluster アクセス情報の取得"
 description: "Managed FPT Kubernetes Engine の cluster にアクセスするための kubeconfig ファイルをダウンロードする方法。"
 sidebar_label: "cluster アクセス情報の取得"
 sidebar_position: "7"
+draft: true
 ---
 
 # cluster アクセス情報の取得

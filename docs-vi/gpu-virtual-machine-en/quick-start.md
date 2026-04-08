@@ -3,7 +3,7 @@ id: "quick-start"
 title: "Quick Start"
 description: "**Step 1: Create an FPT Cloud account**"
 sidebar_label: "Quick Start"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Quick Start
@@ -23,7 +23,7 @@ Cần có Subnet trước khi triển khai GPU VM của bạn.
   1. Trong menu bên trái, vào **Network → Subnets.**
   2. Nhấp **Create Subnet** và hoàn thành cấu hình.
 
-Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md)
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-virtual-machine-en/)/
 
 #### Bước 2: Tạo GPU VM
   1. Trong menu bên, vào **Compute Engine → Instance Management.**
@@ -33,21 +33,21 @@ Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md)
        * **Ephemeral Disk (NVMe):** Disk storage được gói kèm với Instance và không thể thay đổi kích thước.
        * **Persistent Disk (Block Storage SSD):** Yêu cầu một disk storage, với kích thước tối thiểu là **100 GB.**
 
-Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md).
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-virtual-machine-en/)/.
 
 #### Bước 3: Cấp phát địa chỉ IP công cộng (Floating IP)
   1. Trong menu bên trái, vào **Network → Floating IPs.**
   2. Nhấp **Allocate IP Address** và gán IP cho VM của bạn.
      * _Ephemeral Disk (NVMe):_ Sử dụng **port forwarding (NAT)** để kết nối Floating IP với VM. Bạn cần chỉ định cả **IP port** và **Instance port.**
 
-Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md).
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-virtual-machine-en/)/.
 
 #### Bước 4: Tạo Security Group
 Theo mặc định, **Default Security Group** cho phép tất cả lưu lượng outbound. Bạn cần tạo mới để cho phép inbound rules truy cập VM.
   1. Nhấp **Network** và chọn **Security Groups** trong menu bên.
   2. Chọn **Create Security Group** trong màn hình Security Groups và xác định inbound rules cho VM (ví dụ: **Cho phép SSH truy cập trên port 22** từ IP công cộng của client của bạn).
 
-Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md).
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-virtual-machine-en/)/.
 
 #### Bước 5: Truy cập GPU Virtual Machine
 Sau khi tạo GPU VM thành công, bạn có thể truy cập máy chủ qua **SSH**:
@@ -56,4 +56,4 @@ Sau khi tạo GPU VM thành công, bạn có thể truy cập máy chủ qua **S
 
 > 💡 _Tên người dùng mặc định là **root.**_
 
-Xem hướng dẫn chi tiết [tại đây](../gpu-virtual-machine-en/index.md).
+Xem hướng dẫn chi tiết [tại đây](/docs/vi/gpu-virtual-machine-en/)/.

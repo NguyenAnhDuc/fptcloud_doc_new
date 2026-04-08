@@ -3,6 +3,7 @@ id: "tao-hive-metastore"
 title: "Hive Metastoreの作成"
 sidebar_label: "Hive Metastoreの作成"
 description: "Hive Metastoreの作成"
+sidebar_position: 2
 ---
 
 # Hive Metastoreの作成

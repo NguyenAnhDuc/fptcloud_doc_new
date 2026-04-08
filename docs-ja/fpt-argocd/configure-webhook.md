@@ -4,6 +4,7 @@ title: "Webhookの設定"
 description: "リポジトリの変更を検出するためのArgoCDのGit webhookの概要"
 sidebar_label: "Webhookの設定"
 sidebar_position: 13
+draft: true
 ---
 
 # Webhookの設定

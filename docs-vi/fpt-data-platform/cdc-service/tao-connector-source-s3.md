@@ -3,6 +3,7 @@ id: "tao-connector-source-s3"
 title: "Tạo connector source S3"
 sidebar_label: "Tạo connector source S3"
 description: "Tạo connector source S3"
+sidebar_position: 24
 ---
 
 # Tạo connector source S3

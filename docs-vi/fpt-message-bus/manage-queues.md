@@ -4,6 +4,7 @@ title: "Quản lý queues"
 description: "Tổng quan về quản lý queue trong FPT Message Bus."
 sidebar_label: "Quản lý queues"
 sidebar_position: "4"
+draft: true
 ---
 
 # Quản lý queues

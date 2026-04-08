@@ -4,6 +4,7 @@ title: "View Repositories List"
 sidebar_label: "View Repositories List"
 sidebar_position: "9"
 description: "On the sidebar menu, choose **Container Registry** , if the service is activated, the list of repositories will show up "
+draft: true
 ---
 
 # View Repositories List

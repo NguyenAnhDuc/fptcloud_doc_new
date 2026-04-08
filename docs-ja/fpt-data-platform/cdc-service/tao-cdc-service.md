@@ -3,6 +3,7 @@ id: "tao-cdc-service"
 title: "CDC Serviceの作成"
 sidebar_label: "CDC Serviceの作成"
 description: "CDC Serviceの作成"
+sidebar_position: 2
 ---
 
 # CDC Serviceの作成

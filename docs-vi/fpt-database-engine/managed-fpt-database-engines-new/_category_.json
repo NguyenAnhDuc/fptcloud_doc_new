@@ -1,0 +1,9 @@
+{
+  "label": "Managed FPT Database Engines New",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

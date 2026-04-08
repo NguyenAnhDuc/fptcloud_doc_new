@@ -4,6 +4,7 @@ title: "Why use GPU on Kubernetes"
 description: "Kubernetes currently supports GPUs, making it easy to configure and utilize GPU resources for accelerating workloads suc"
 sidebar_label: "Why use GPU on Kubernetes"
 sidebar_position: 33
+draft: true
 ---
 
 # Why use GPU on Kubernetes

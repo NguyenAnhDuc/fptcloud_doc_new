@@ -4,6 +4,7 @@ title: "subnet の作成"
 description: "Database Engine 用の subnet を作成する手順。"
 sidebar_label: "subnet の作成"
 sidebar_position: 5
+draft: true
 ---
 
 # subnet の作成

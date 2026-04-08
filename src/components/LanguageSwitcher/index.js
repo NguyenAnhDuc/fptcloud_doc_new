@@ -25,18 +25,13 @@ function getTargetUrl(pathname, targetLang, urlMapping) {
     }
   }
 
-  // Fallback: try to navigate to the same section in target language
+  // Fallback: swap the locale prefix, keep the rest of the path identical.
+  // All 3 locales share the same folder structure, so this works for every doc.
   const currentLang = getCurrentLang(pathname);
   if (currentLang) {
     const rest = pathname.slice(currentLang.basePath.length);
     if (rest && rest !== '/') {
-      // Extract section (first path segment after lang prefix)
-      const parts = rest.split('/').filter(Boolean);
-      if (parts.length >= 1) {
-        const section = parts[0];
-        // Try section index first (safer than exact path swap)
-        return targetLangConfig.basePath + '/' + section + '/';
-      }
+      return targetLangConfig.basePath + rest;
     }
   }
 

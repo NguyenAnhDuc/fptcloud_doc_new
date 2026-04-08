@@ -18,7 +18,7 @@ sidebar_position: 23
 ### ステップ2：SSH経由でコンテナに接続する
 
 SSH経由で接続するには、コマンドをコピーしてターミナルに貼り付けます。コマンドプロンプト、PowerShell、またはVS Codeの統合ターミナルなど、任意のターミナルアプリケーションを使用できます。このユースケースではVSCodeを使用します。 [![Alt text](/img/migrated/Screenshot-2025-07-04-174741-230551f8.png)](/img/migrated/Screenshot-2025-07-04-174741-230551f8.png)
-完全なウォークスルーについては、詳細ガイドを[こちら](../gpu-container/index.md)でご確認ください。
+完全なウォークスルーについては、詳細ガイドを[こちら](/docs/ja/gpu-container/)/でご確認ください。
 
 ### ステップ3：環境を設定する
   1. python3をインストールする

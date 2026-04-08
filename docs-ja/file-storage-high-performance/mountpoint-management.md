@@ -4,6 +4,7 @@ title: "Mount Pointの管理"
 description: "FPT File Storage – High PerformanceシステムにおけるMount Pointの管理。Mount Pointはストレージプール内の特定ディレクトリへのアクセスポイントです。"
 sidebar_label: "Mount Pointの管理"
 sidebar_position: "4"
+draft: true
 ---
 
 # Mount Pointの管理

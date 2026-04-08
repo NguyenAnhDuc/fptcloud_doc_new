@@ -4,6 +4,7 @@ title: "Japan region"
 description: "Japan region"
 sidebar_label: "Japan region"
 sidebar_position: 7
+draft: true
 ---
 
 # Japan region

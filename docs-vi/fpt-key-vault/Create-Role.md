@@ -4,6 +4,7 @@ title: "Create Role"
 sidebar_label: "Create Role"
 sidebar_position: "16"
 description: "Secretアクセス権限を付与するAuth Method内のRoleを新規作成する方法"
+draft: true
 ---
 
 # Create Role

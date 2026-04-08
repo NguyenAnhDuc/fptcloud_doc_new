@@ -4,6 +4,7 @@ title: "Notification Bell"
 description: "View event notifications and action status on FPT Cloud Portal."
 sidebar_label: "Notification Bell"
 sidebar_position: 75
+draft: true
 ---
 
 # Notification Bell

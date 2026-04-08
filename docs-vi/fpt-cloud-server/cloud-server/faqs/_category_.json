@@ -1,0 +1,9 @@
+{
+  "label": "Các câu hỏi thường gặp (FAQs)",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

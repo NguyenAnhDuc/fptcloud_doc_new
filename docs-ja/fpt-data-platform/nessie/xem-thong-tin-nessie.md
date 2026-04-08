@@ -3,6 +3,7 @@ id: "xem-thong-tin-nessie"
 title: "Nessie情報の確認"
 sidebar_label: "Nessie情報の確認"
 description: "Nessie情報の確認"
+sidebar_position: 3
 ---
 
 # Nessie情報の確認

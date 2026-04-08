@@ -4,6 +4,7 @@ title: "Tạo VPN Connection"
 description: "Hướng dẫn tạo VPN Connection mới trên FPT Cloud Portal."
 sidebar_label: "Tạo VPN Connection"
 sidebar_position: "19"
+draft: true
 ---
 
 # Tạo VPN Connection

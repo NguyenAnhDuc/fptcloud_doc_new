@@ -1,0 +1,9 @@
+{
+  "label": "Service Packageの管理",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

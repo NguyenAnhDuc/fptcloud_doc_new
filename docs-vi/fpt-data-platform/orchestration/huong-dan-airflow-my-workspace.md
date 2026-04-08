@@ -3,6 +3,7 @@ id: "huong-dan-airflow-my-workspace"
 title: "Hướng dẫn Airflow & My Workspace"
 sidebar_label: "Hướng dẫn Airflow & My Workspace"
 description: "Hướng dẫn Airflow & My Workspace"
+sidebar_position: 6
 ---
 
 # Hướng dẫn Airflow & My Workspace

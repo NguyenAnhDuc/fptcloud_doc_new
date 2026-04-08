@@ -3,6 +3,7 @@ id: "hanh-dong-voi-connector"
 title: "Actions with connector"
 sidebar_label: "Actions with connector"
 description: "Actions with connector"
+sidebar_position: 26
 ---
 
 # Actions with connector

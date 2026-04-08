@@ -4,6 +4,7 @@ title: "Tổng quan Notification Bell"
 description: "Xem thông báo sự kiện và trạng thái hành động trên FPT Cloud Portal."
 sidebar_label: "Tổng quan Notification Bell"
 sidebar_position: 75
+draft: true
 ---
 
 # Tổng quan Notification Bell

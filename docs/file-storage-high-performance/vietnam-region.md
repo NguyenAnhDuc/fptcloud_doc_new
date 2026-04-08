@@ -4,6 +4,7 @@ title: "Vietnam region"
 description: "Vietnam region"
 sidebar_label: "Vietnam region"
 sidebar_position: 3
+draft: true
 ---
 
 # Vietnam region

@@ -4,6 +4,7 @@ title: "Create floating IP"
 description: "Steps to create and allocate a floating IP for Database Engine."
 sidebar_label: "Create floating IP"
 sidebar_position: 4
+draft: true
 ---
 
 # Create floating IP

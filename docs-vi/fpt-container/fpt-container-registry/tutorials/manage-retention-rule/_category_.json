@@ -1,0 +1,9 @@
+{
+  "label": "Quản lý Retention Rule",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

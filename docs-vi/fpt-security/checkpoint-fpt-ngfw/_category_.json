@@ -1,0 +1,9 @@
+{
+  "label": "CheckPoint - FPT NGFW",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

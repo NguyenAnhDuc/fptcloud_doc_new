@@ -3,6 +3,7 @@ id: "overview-affinity"
 title: "Overview Affinity"
 sidebar_label: "概要"
 sidebar_position: 77
+draft: true
 ---
 
 概要

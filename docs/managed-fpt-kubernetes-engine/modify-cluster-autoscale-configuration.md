@@ -5,6 +5,7 @@ description: "Customize the Cluster Autoscale configuration for a Managed FPT Ku
 sidebar_label: "Modify cluster autoscale configuration"
 sidebar_position: 16
 pagination_next: null
+draft: true
 ---
 
 # Modify cluster autoscale configuration

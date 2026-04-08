@@ -3,6 +3,7 @@ id: "xem-thong-tin-hive-metastore"
 title: "View Hive Metastore information"
 sidebar_label: "View Hive Metastore information"
 description: "View Hive Metastore information"
+sidebar_position: 3
 ---
 
 # View Hive Metastore information

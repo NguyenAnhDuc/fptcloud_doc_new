@@ -4,6 +4,7 @@ title: "OIDC configの更新"
 description: "ArgoCDの既存のOIDC設定を編集する方法。"
 sidebar_label: "OIDC configの更新"
 sidebar_position: 36
+draft: true
 ---
 
 # OIDC configの更新

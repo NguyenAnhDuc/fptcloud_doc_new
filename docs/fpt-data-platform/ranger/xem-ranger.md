@@ -3,6 +3,7 @@ id: "xem-ranger"
 title: "View Ranger Details"
 sidebar_label: "View Ranger Details"
 description: "View Ranger Details"
+sidebar_position: 3
 ---
 
 # View Ranger Details

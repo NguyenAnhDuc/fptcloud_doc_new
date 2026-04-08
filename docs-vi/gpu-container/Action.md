@@ -18,4 +18,4 @@ Dữ liệu trên ổ đĩa tạm thời sẽ bị mất và không thể khôi 
 | Ổ đĩa tạm thời | Dữ liệu bị xóa vĩnh viễn | Dữ liệu bị xóa vĩnh viễn |
 | Ổ đĩa liên tục | Dữ liệu được giữ lại | Dữ liệu bị xóa vĩnh viễn |
 
-Xem thêm thông tin về lưu trữ tại phần [Storage](./storage.md).
+Xem thêm thông tin về lưu trữ tại phần [Storage](/docs/vi/gpu-container/storage/).

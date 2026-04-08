@@ -1,0 +1,9 @@
+{
+  "label": "Initialize & Operate Database",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

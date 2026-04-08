@@ -3,7 +3,7 @@ id: "block-storage"
 title: "Block Storage"
 description: "**Block Storage** is a service that provides block-based storage volumes for **GPU Virtual Machines (VMs)**. Each storag"
 sidebar_label: "Block Storage"
-sidebar_position: 6
+sidebar_position: 11
 ---
 
 # Block Storage
@@ -20,7 +20,7 @@ From this page, users can view a list of all Storage Disks created within the VP
 
 ### Create Storage Disks
 To create a Storage disk in FPT Cloud, first identify the type of disk you need: 
-  * **Root disk** is automatically created along with the virtual machine. References: [Create a GPU VM](../gpu-virtual-machine-en/index.md)
+  * **Root disk** is automatically created along with the virtual machine. References: [Create a GPU VM](/docs/en/gpu-virtual-machine-en/)/
   * **External disk** can be created independently and attached to a virtual machine later. 
 
 You can create an External disk using either of the following methods: 

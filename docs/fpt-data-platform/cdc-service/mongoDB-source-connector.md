@@ -3,6 +3,7 @@ id: "mongoDB-source-connector"
 title: "MongoDB Source Connector"
 sidebar_label: "MongoDB Source Connector"
 description: "MongoDB Source Connector"
+sidebar_position: 5
 ---
 
 # MongoDB Source Connector

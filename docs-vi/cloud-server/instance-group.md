@@ -3,6 +3,7 @@ id: "instance-group"
 title: "Tổng quan Instance Group"
 sidebar_label: "Tổng quan Instance Group"
 sidebar_position: 76
+draft: true
 ---
 
 # Tổng quan Instance Group

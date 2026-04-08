@@ -4,6 +4,7 @@ title: "Why use GPU on cloud"
 description: "The majority of enterprises still utilize on-premise GPUs. The on-premise usage model has limitations, such as incurring"
 sidebar_label: "Why use GPU on cloud"
 sidebar_position: 32
+draft: true
 ---
 
 # Why use GPU on cloud

@@ -4,6 +4,7 @@ title: "Managed FPT Database Engine"
 description: "FPT Smart Cloud Database Engine là sản phẩm hỗ trợ triển khai và quản lý database cho doanh nghiệp."
 sidebar_label: "Managed FPT Database Engine"
 sidebar_position: 1
+draft: true
 ---
 
 # Managed FPT Database Engine

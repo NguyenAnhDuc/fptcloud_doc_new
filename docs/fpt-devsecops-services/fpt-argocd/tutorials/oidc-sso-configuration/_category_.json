@@ -1,0 +1,9 @@
+{
+  "label": "OIDC SSO Configuration",
+  "position": 13,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

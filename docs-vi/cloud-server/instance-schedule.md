@@ -3,6 +3,7 @@ id: "instance-schedule"
 title: "Tổng quan Auto Schedule"
 sidebar_label: "Tổng quan Auto Schedule"
 sidebar_position: 88
+draft: true
 ---
 
 # Tổng quan Auto Schedule

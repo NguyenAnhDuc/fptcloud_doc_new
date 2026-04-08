@@ -3,6 +3,7 @@ id: "hanh-dong-voi-snapshot"
 title: "Actions with Snapshot"
 sidebar_label: "Actions with Snapshot"
 description: "Actions with Snapshot"
+sidebar_position: 31
 ---
 
 # Actions with Snapshot

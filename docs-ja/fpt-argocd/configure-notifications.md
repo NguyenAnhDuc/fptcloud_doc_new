@@ -4,6 +4,7 @@ title: "Notificationsの設定"
 description: "ArgoCDのnotifications機能の概要。Telegram、Slack、Emailへの通知送信をサポート。"
 sidebar_label: "Notificationsの設定"
 sidebar_position: 39
+draft: true
 ---
 
 # Notificationsの設定

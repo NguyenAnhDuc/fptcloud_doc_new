@@ -4,6 +4,7 @@ title: "Tại sao nên sử dụng GPU trên Kubernetes?"
 description: "Kubernetes hiện hỗ trợ GPU, giúp dễ dàng cấu hình và sử dụng tài nguyên GPU để tăng tốc các workload như khoa học dữ liệu, machine learning và deep learning."
 sidebar_label: "Tại sao nên sử dụng GPU trên Kubernetes?"
 sidebar_position: "33"
+draft: true
 ---
 
 # Tại sao nên sử dụng GPU trên Kubernetes?

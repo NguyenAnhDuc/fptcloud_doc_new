@@ -5,6 +5,7 @@ description: "FPT Container Registry からローカル環境に Docker イメ�
 sidebar_label: "Docker イメージを pull する"
 sidebar_position: 6
 pagination_next: null
+draft: true
 ---
 
 # FPT Container Registry から Docker イメージを pull する

@@ -4,6 +4,7 @@ title: Khởi tạo DB Proxy
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **DB Proxy**"
 sidebar_label: Khởi tạo DB Proxy
 sidebar_position: 21
+draft: true
 ---
 
 # Khởi tạo DB Proxy

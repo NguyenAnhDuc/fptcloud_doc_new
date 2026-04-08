@@ -4,6 +4,7 @@ title: "Quan ly Resource"
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Resource**"
 sidebar_label: "Quan ly Resource"
 sidebar_position: "16"
+draft: true
 ---
 
 # Quan ly Resource

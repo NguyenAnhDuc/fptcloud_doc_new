@@ -4,6 +4,7 @@ title: "Lấy thông tin truy cập Cluster"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management.**"
 sidebar_label: "Lấy thông tin truy cập Cluster"
 sidebar_position: 7
+draft: true
 ---
 
 # Lấy thông tin truy cập Cluster

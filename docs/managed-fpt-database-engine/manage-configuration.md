@@ -4,6 +4,7 @@ title: "Manage configuration"
 description: "Steps to manage database configuration parameters in FPT Smart Cloud Database Engine."
 sidebar_label: "Manage configuration"
 sidebar_position: 17
+draft: true
 ---
 
 # Manage configuration

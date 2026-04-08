@@ -4,6 +4,7 @@ title: "Lưu ý khi sử dụng FKE"
 description: "Các khuyến nghị và lưu ý khi sử dụng dịch vụ Dedicated FPT Kubernetes Engine."
 sidebar_label: "Lưu ý khi sử dụng FKE"
 sidebar_position: "29"
+draft: true
 ---
 
 # Lưu ý khi sử dụng FKE

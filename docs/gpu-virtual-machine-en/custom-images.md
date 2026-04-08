@@ -3,7 +3,7 @@ id: "custom-images"
 title: "Custom Images"
 description: "You can create **GPU VMs** based on **custom images** , which lets you migrate and scale your workloads without spending"
 sidebar_label: "Custom Images"
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # Custom Images

@@ -4,6 +4,7 @@ title: "Add a worker group"
 description: "Add a new worker group to an existing Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Add a worker group"
 sidebar_position: 10
+draft: true
 ---
 
 # Add a worker group

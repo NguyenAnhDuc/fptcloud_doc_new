@@ -3,6 +3,7 @@ id: "opensearch-sink-connector"
 title: "OpenSearch Sink Connector"
 sidebar_label: "OpenSearch Sink Connector"
 description: "OpenSearch Sink Connector"
+sidebar_position: 13
 ---
 
 # OpenSearch Sink Connector

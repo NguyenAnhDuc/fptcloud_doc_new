@@ -4,6 +4,7 @@ title: "Phan Quyen Tinh Nang Database"
 sidebar_label: "Phan Quyen Tinh Nang Database"
 sidebar_position: "6"
 description: "Tạo nhóm phân quyền cho từng tính năng của database như Provision, View, Backup."
+draft: true
 ---
 
 # Phan Quyen Tinh Nang Database

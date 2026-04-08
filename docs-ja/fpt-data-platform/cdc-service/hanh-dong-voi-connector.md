@@ -3,6 +3,7 @@ id: "hanh-dong-voi-connector"
 title: "connector に対するアクション"
 sidebar_label: "connector に対するアクション"
 description: "connector に対するアクション"
+sidebar_position: 26
 ---
 
 # connector に対するアクション

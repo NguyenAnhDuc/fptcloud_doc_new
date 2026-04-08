@@ -4,6 +4,7 @@ title: "Increase nodes storage size"
 description: "Expand the storage size of master or worker nodes in a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Increase nodes storage size"
 sidebar_position: 15
+draft: true
 ---
 
 # Increase nodes storage size

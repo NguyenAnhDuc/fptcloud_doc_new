@@ -3,6 +3,7 @@ id: "xem-ranger"
 title: "Ranger の詳細表示"
 sidebar_label: "Ranger の詳細表示"
 description: "Ranger の詳細表示"
+sidebar_position: 3
 ---
 
 # Ranger の詳細表示

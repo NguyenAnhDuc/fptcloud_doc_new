@@ -4,6 +4,7 @@ title: "SSO用のOIDC設定"
 description: "ArgoCDとKeycloakを統合してSSOでアカウントを管理する方法の概要。"
 sidebar_label: "SSO用のOIDC設定"
 sidebar_position: 33
+draft: true
 ---
 
 # SSO用のOIDC設定

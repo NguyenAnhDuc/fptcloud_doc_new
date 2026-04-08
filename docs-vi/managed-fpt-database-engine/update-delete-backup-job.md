@@ -4,6 +4,7 @@ title: Cập nhật và xóa Backup Job
 description: "FPT Smart Cloud Database Engine のバックアップジョブのスケジュールを更新または削除する手順。"
 sidebar_label: Cập nhật và xóa Backup Job
 sidebar_position: "13"
+draft: true
 ---
 
 # Cập nhật và xóa Backup Job

@@ -3,6 +3,7 @@ id: "cau-hinh-va-quan-ly-query-engine"
 title: "Truy cập và cấu hình quản lý Query Engine"
 sidebar_label: "Truy cập và cấu hình quản lý Query Engine"
 description: "Truy cập và cấu hình quản lý Query Engine"
+sidebar_position: 4
 ---
 
 # Truy cập và cấu hình quản lý Query Engine

@@ -1,0 +1,33 @@
+---
+id: "edit-tag"
+title: "タグの編集"
+description: "タグのKey・Value・Colorを編集します — またはProject/VPCレベルのリソーススコープを変更します。"
+sidebar_label: "タグの編集"
+sidebar_position: 2
+---
+
+# タグの編集
+
+既存のtagの情報を変更する必要がある場合、削除して再作成することなく、Key、Value、Color、またはリソーススコープを編集できます。
+
+## タグの編集手順
+
+1. メニューから **Tagging** を選択し、編集するtagで **Actions** → **Edit** を選択します。
+
+   [![Editオプションのあるアクションメニュー](/img/migrated/image-1740552096380-e009ae94.png)](/img/migrated/image-1740552096380-e009ae94.png)
+
+2. 情報を修正し、**Save change** をクリックして適用します。
+   - **Tenantレベルのtag権限を持つユーザーの場合**: Tenant全体（すべてのVPC）に適用されているtagは、**Enable customize VPCs** にチェックを入れることで特定のVPCに変更できます。
+
+   [![Key、Value、Colorフィールドのあるタグ編集ダイアログ](/img/migrated/image-1740552161676-0dc5ad72.png)](/img/migrated/image-1740552161676-0dc5ad72.png)
+
+:::note
+- 作成後に **Tag Level** を変更することはできません。
+- 特定のVPCからTenant全体（すべてのVPC）への切り替えはまだサポートされていません。
+- リソーススコープからVPCを削除すると、削除されたVPCのリソースからtagが自動的に削除されます。
+:::
+
+## 次のステップ
+
+- [タグの削除](./delete-tag.md)
+- [リソースのタグ管理](../tutorials/manage-tag-to-resource/resource-1.md)

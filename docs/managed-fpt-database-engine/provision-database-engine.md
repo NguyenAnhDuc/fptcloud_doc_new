@@ -4,6 +4,7 @@ title: "Provision Database Engine"
 description: "Overview of provisioning a Database Engine on FPT Smart Cloud."
 sidebar_label: "Provision Database Engine"
 sidebar_position: 8
+draft: true
 ---
 
 # Provision Database Engine

@@ -3,7 +3,7 @@ id: "create-a-snapshot"
 title: "Create A Snapshot"
 description: "Create A Snapshot trên GPU Virtual Machine."
 sidebar_label: "Create A Snapshot"
-sidebar_position: 14
+sidebar_position: 23
 ---
 
 # Create A Snapshot

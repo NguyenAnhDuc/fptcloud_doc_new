@@ -65,11 +65,11 @@ ssh-ed25519 AAAAC4NzaC1lZDI1JTE5AAAAIGP+L8hnjIcBqUb8NRrDiC32FuJBvRA0m8jLShzgq6BQ
 
 ### 6. Cài đặt nâng cao (Tùy chọn)
 Mục này bao gồm:
-- **Persistent Disk:** Chỉ định dung lượng lưu trữ để lưu trữ trọng số huấn luyện, model, v.v. Đọc thêm về Storage [tại đây](../gpu-container/index.md).
+- **Persistent Disk:** Chỉ định dung lượng lưu trữ để lưu trữ trọng số huấn luyện, model, v.v. Đọc thêm về Storage [tại đây](/docs/vi/gpu-container/)/.
 - **Environment Variables:** Các cặp key-value được đưa vào container khi chạy.
 - **Startup Command:** Lệnh và tham số chạy khi container khởi động.
 
 ### 7. Nhấp **"Create New Container"** để tạo và khởi động container
 
 ### 8. Nạp tiền
-Trong trường hợp số dư không đủ để tạo container mới, làm theo hướng dẫn tại: [Nạp tiền](./add-credit.md).
+Trong trường hợp số dư không đủ để tạo container mới, làm theo hướng dẫn tại: [Nạp tiền](/docs/vi/gpu-container/add-credit/).

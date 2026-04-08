@@ -4,6 +4,7 @@ title: "Lưu ý khi sử dụng DFKE"
 description: "Để đảm bảo tính sẵn sàng, hãy bật HA Master Nodes cho các hệ thống quan trọng. Non-HA có thể dùng cho môi trường Dev và Test."
 sidebar_label: "Lưu ý khi sử dụng DFKE"
 sidebar_position: "24"
+draft: true
 ---
 
 # Lưu ý khi sử dụng DFKE

@@ -4,6 +4,7 @@ title: Manage Configuration
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Configuration**"
 sidebar_label: Manage Configuration
 sidebar_position: "17"
+draft: true
 ---
 
 # Manage Configuration

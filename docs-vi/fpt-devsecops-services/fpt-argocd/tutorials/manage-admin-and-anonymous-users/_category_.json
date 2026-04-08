@@ -1,0 +1,9 @@
+{
+  "label": "Manage Admin account, Enable/disable Anonymous User",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

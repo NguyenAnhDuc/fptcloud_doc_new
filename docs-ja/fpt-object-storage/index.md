@@ -4,6 +4,7 @@ title: "FPT Object Storage の概要"
 description: "FPT Object Storage は、Amazon S3 プロトコルに完全対応した非構造化データ向けクラウドストレージサービスです。"
 sidebar_label: "概要"
 sidebar_position: 1
+draft: true
 ---
 
 # FPT Object Storage の概要

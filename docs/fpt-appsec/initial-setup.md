@@ -3,7 +3,7 @@ id: "initial-setup"
 title: "Initial setup"
 description: "First-time setup guide for FPT AppSec (ASPM v1.0)"
 sidebar_label: "Initial setup"
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Initial setup

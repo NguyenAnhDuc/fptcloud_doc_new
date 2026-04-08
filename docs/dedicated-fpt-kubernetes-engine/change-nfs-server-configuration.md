@@ -4,6 +4,7 @@ title: "Change NFS server configuration"
 description: "Change the flavor (CPU, RAM) of the NFS server in a Dedicated FPT Kubernetes Engine cluster."
 sidebar_label: "Change NFS server configuration"
 sidebar_position: 14
+draft: true
 ---
 
 # Change NFS server configuration

@@ -3,6 +3,7 @@ id: "huong-dan-airflow-dbt"
 title: "Airflow と dbt ガイド"
 sidebar_label: "Airflow と dbt ガイド"
 description: "Airflow と dbt ガイド"
+sidebar_position: 5
 ---
 
 # Airflow と dbt ガイド

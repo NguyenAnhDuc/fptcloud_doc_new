@@ -1,0 +1,9 @@
+{
+  "label": "Quản lý Repositories trên FPT Portal",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

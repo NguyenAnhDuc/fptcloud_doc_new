@@ -1,0 +1,9 @@
+{
+  "label": "日本リージョン",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

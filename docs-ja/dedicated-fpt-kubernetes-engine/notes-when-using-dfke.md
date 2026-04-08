@@ -4,6 +4,7 @@ title: "FKE 使用時の注意事項"
 description: "Dedicated FPT Kubernetes Engine（FKE）を使用する際のベストプラクティスと注意事項について説明します。"
 sidebar_label: "FKE 使用時の注意事項"
 sidebar_position: 29
+draft: true
 ---
 
 # FKE 使用時の注意事項

@@ -4,6 +4,7 @@ title: "PAYGの選択と電話番号の認証"
 description: "PAYG支払い方法の選択とOTPによる電話番号認証の手順です。"
 sidebar_label: "PAYGの選択と電話番号の認証"
 sidebar_position: 4
+draft: true
 ---
 
 # PAYGの選択と電話番号の認証

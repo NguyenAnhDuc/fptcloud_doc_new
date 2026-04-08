@@ -4,6 +4,7 @@ title: Tạo Security Groups
 description: "**Bước 1:** Tại thanh **Menu** > chọn **Networking** > Chọn **Security Group**"
 sidebar_label: Tạo Security Groups
 sidebar_position: 3
+draft: true
 ---
 
 # Tạo Security Groups

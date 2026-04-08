@@ -1,0 +1,9 @@
+{
+  "label": "NICの管理",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

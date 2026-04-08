@@ -1,0 +1,9 @@
+{
+  "label": "Hướng dẫn trên Gaia Portal",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

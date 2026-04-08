@@ -5,6 +5,7 @@ description: "Add NFS persistent storage to a Dedicated FPT Kubernetes Engine cl
 sidebar_label: "Add NFS storage"
 sidebar_position: 18
 pagination_next: null
+draft: true
 ---
 
 # Add NFS storage

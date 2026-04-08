@@ -4,6 +4,7 @@ title: "Cap Nhat va xoa Backup job"
 description: "Sau khi tạo một Full backup job hay Diff backup job, quý khách có thể cập nhật hoặc xóa lịch chạy một backup job"
 sidebar_label: "Cap Nhat va xoa Backup job"
 sidebar_position: "13"
+draft: true
 ---
 
 # Cap Nhat va xoa Backup job

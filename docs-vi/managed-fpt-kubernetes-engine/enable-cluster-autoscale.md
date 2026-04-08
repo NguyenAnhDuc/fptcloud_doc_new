@@ -4,6 +4,7 @@ title: "Bật tính năng Cluster Autoscale"
 description: "Hướng dẫn bật tính năng Cluster Autoscale trên cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Bật tính năng Cluster Autoscale"
 sidebar_position: "14"
+draft: true
 ---
 
 # Bật tính năng Cluster Autoscale

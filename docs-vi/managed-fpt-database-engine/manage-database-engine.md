@@ -4,6 +4,7 @@ title: "Manage Database Engine"
 description: "Steps to manage Database Engine operations on FPT Smart Cloud."
 sidebar_label: "Manage Database Engine"
 sidebar_position: "10"
+draft: true
 ---
 
 # Manage Database Engine

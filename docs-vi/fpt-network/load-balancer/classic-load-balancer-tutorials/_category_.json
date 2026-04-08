@@ -1,0 +1,9 @@
+{
+  "label": "Classic Load Balancer (Tutorials)",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

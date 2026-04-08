@@ -4,6 +4,7 @@ title: "GPU Worker Group の追加"
 description: "既存のManaged FKE クラスターにGPU Worker Groupを追加する方法を説明します。"
 sidebar_label: "GPU Worker Group の追加"
 sidebar_position: 22
+draft: true
 ---
 
 # GPU Worker Group の追加

@@ -4,6 +4,7 @@ title: "Chọn hình thức PAYG và xác thực số điện thoại"
 description: "Hướng dẫn chọn hình thức thanh toán PAYG và xác thực số điện thoại qua OTP."
 sidebar_label: "Chọn hình thức PAYG và xác thực số điện thoại"
 sidebar_position: 4
+draft: true
 ---
 
 # Chọn hình thức PAYG và xác thực số điện thoại

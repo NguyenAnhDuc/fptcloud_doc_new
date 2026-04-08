@@ -3,7 +3,7 @@ id: "create-a-security-group"
 title: "Create A Security Group"
 description: "A **Security Group** is a network-based, stateful firewall service for **GPU Virtual Machines**. It is provided at no ad"
 sidebar_label: "Create A Security Group"
-sidebar_position: 10
+sidebar_position: 18
 ---
 
 # Create A Security Group

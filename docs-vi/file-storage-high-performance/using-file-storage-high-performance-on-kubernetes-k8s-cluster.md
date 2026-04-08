@@ -4,6 +4,7 @@ title: "Use on Kubernetes cluster"
 sidebar_label: "Use on Kubernetes cluster"
 sidebar_position: "6"
 description: "Use on Kubernetes cluster"
+draft: true
 ---
 
 # Use on Kubernetes cluster

@@ -4,6 +4,7 @@ title: "Deploy application in worker pool"
 description: "The M-FKE product manages workers based on worker pools, providing convenient support for customers to deploy applicatio"
 sidebar_label: "Deploy application in worker pool"
 sidebar_position: 17
+draft: true
 ---
 
 # Deploy application in worker pool

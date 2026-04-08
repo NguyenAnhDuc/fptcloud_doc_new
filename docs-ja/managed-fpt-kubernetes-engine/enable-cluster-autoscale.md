@@ -4,6 +4,7 @@ title: "Cluster Autoscale の有効化"
 description: "Managed FKE クラスターでCluster Autoscaleを有効化する方法を説明します。"
 sidebar_label: "Cluster Autoscale の有効化"
 sidebar_position: 14
+draft: true
 ---
 
 # Cluster Autoscale の有効化

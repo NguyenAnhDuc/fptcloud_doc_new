@@ -3,6 +3,7 @@ id: "tao-hive-metastore"
 title: "Tạo Hive Metastore"
 sidebar_label: "Tạo Hive Metastore"
 description: "Tạo Hive Metastore"
+sidebar_position: 2
 ---
 
 # Tạo Hive Metastore

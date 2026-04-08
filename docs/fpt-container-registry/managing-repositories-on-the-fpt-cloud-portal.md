@@ -4,6 +4,7 @@ title: Managing Repositories on FPT Cloud Portal
 description: "FPT Container Registry"
 sidebar_label: Managing Repositories on FPT Cloud Portal
 sidebar_position: 8
+draft: true
 ---
 
 # Managing Repositories on FPT Cloud Portal

@@ -4,6 +4,7 @@ title: "Manage WAF server with WAF Dashboard"
 description: "Overview of managing WAF features through the WAF Dashboard."
 sidebar_label: "Manage WAF server with WAF Dashboard"
 sidebar_position: 9
+draft: true
 ---
 
 # Manage WAF server with WAF Dashboard

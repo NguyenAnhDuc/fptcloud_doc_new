@@ -4,6 +4,7 @@ title: Manage Resources
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Resource**"
 sidebar_label: Manage Resources
 sidebar_position: "16"
+draft: true
 ---
 
 # Manage Resources

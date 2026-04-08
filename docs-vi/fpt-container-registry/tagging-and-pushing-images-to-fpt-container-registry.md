@@ -4,6 +4,7 @@ title: "Tagging And Pushing Images To Fpt Container Registry"
 description: "**Step 1** : **Tag** the local image with the FPT Container Registry URI with the command:"
 sidebar_label: "Tagging And Pushing Images..."
 sidebar_position: "6"
+draft: true
 ---
 
 # Tagging And Pushing Images To Fpt Container Registry

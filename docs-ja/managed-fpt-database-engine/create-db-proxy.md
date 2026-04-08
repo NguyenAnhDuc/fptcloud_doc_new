@@ -4,6 +4,7 @@ title: "DB proxy の作成"
 description: "FPT Smart Cloud Database Engine で DB proxy を作成する手順。"
 sidebar_label: "DB proxy の作成"
 sidebar_position: 21
+draft: true
 ---
 
 # DB proxy の作成

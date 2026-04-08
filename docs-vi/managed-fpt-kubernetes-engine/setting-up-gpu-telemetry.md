@@ -4,6 +4,7 @@ title: "Thiết lập GPU Telemetry"
 description: "FPT Cloud sử dụng NVIDIA GPU Telemetry với kube-prometheus-stack để giám sát Kubernetes cluster có GPU."
 sidebar_label: "Thiết lập GPU Telemetry"
 sidebar_position: "24"
+draft: true
 ---
 
 # Thiết lập GPU Telemetry

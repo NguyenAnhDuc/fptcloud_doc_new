@@ -3,6 +3,7 @@ id: "quan-ly-Policies"
 title: "Manage Policies"
 sidebar_label: "Manage Policies"
 description: "Manage Policies"
+sidebar_position: 7
 ---
 
 # Manage Policies

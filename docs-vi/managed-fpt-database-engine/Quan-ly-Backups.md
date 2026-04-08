@@ -4,6 +4,7 @@ title: "Quản lý backup"
 description: "Tổng quan về quản lý backup cho FPT Smart Cloud Database Engine."
 sidebar_label: "Quản lý backup"
 sidebar_position: 11
+draft: true
 ---
 
 # Quản lý backup

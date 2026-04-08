@@ -4,6 +4,7 @@ title: "ロードバランサー"
 description: "FPT Cloud ロードバランサーサービスの概要 — バックエンドサーバー間でトラフィックを最適に分散します。"
 sidebar_label: "ロードバランサー"
 sidebar_position: 1
+draft: true
 ---
 
 # ロードバランサー

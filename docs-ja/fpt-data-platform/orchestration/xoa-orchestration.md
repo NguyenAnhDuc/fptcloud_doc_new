@@ -3,6 +3,7 @@ id: "xoa-orchestration"
 title: "Orchestration の削除"
 sidebar_label: "Orchestration の削除"
 description: "Orchestration の削除"
+sidebar_position: 4
 ---
 
 # Orchestration の削除

@@ -3,6 +3,7 @@ id: "xem-thong-tin-workspace"
 title: "Workspace情報の確認"
 sidebar_label: "Workspace情報の確認"
 description: "Workspace情報の確認"
+sidebar_position: 3
 ---
 
 # Workspace情報の確認

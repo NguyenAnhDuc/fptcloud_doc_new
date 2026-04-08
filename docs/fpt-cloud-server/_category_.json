@@ -1,0 +1,9 @@
+{
+  "label": "FPT Cloud Server",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

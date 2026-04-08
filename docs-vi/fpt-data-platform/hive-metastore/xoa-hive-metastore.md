@@ -3,6 +3,7 @@ id: "xoa-hive-metastore"
 title: "Xóa Hive Metastore"
 sidebar_label: "Xóa Hive Metastore"
 description: "Xóa Hive Metastore"
+sidebar_position: 4
 ---
 
 # Xóa Hive Metastore

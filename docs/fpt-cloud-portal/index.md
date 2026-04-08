@@ -5,6 +5,7 @@ description: "FPT Cloud Portal is the central management console for all FPT Clo
 sidebar_label: "FPT Cloud Portal"
 sidebar_position: 1
 pagination_next: null
+draft: true
 ---
 
 # FPT Cloud Portal

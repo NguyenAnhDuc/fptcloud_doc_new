@@ -4,6 +4,7 @@ title: "Role"
 description: "A Role is a core component of the IAM module on the FPT Cloud Portal. Role Management enables system administrators to d"
 sidebar_label: "Role"
 sidebar_position: "13"
+draft: true
 ---
 
 # Role

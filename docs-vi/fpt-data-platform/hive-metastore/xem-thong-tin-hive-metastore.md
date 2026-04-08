@@ -3,6 +3,7 @@ id: "xem-thong-tin-hive-metastore"
 title: "Xem thông tin Hive Metastore"
 sidebar_label: "Xem thông tin Hive Metastore"
 description: "Xem thông tin Hive Metastore"
+sidebar_position: 3
 ---
 
 # Xem thông tin Hive Metastore

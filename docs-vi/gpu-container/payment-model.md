@@ -17,4 +17,4 @@ Ví dụ, nếu bạn thuê một container với một GPU H100 (15 CPU, 250 GB
 
 Chi phí được tính và trừ từ số dư của bạn **mỗi 15 phút** trong suốt thời gian container đang chạy. Ngoài ra, chi phí lưu trữ liên tục được tính theo từng giây khi container tồn tại, bất kể trạng thái chạy hay dừng.
 
-Xem thêm thông tin chi tiết tại [Billing Overview](./billing-overview.md).
+Xem thêm thông tin chi tiết tại [Billing Overview](/docs/vi/gpu-container/billing-overview/).

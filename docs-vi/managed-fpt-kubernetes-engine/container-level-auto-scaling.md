@@ -4,6 +4,7 @@ title: "Tự động scale ở cấp độ container"
 description: "Horizontal Pod Autoscaler (HPA) tự động điều chỉnh phân bổ tài nguyên cho workload resource để scale động theo nhu cầu tài nguyên của ứng dụng."
 sidebar_label: "Tự động scale ở cấp độ container"
 sidebar_position: "25"
+draft: true
 ---
 
 # Tự động scale ở cấp độ container

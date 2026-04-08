@@ -1,0 +1,9 @@
+{
+  "label": "自動バージョンアップグレード",
+  "position": 9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

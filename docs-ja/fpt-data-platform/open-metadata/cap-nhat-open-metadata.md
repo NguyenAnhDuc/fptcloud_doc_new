@@ -3,6 +3,7 @@ id: "cap-nhat-open-metadata"
 title: "Open Metadata の更新"
 sidebar_label: "Open Metadata の更新"
 description: "Open Metadata の更新"
+sidebar_position: 4
 ---
 
 # Open Metadata の更新

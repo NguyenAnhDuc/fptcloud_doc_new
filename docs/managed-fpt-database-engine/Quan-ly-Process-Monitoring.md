@@ -4,6 +4,7 @@ title: Manage Process Monitoring
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Monitoring**"
 sidebar_label: Manage Process Monitoring
 sidebar_position: "18"
+draft: true
 ---
 
 # Manage Process Monitoring

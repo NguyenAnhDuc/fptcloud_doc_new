@@ -4,6 +4,7 @@ title: "Khai báo thông tin trên ApiManager Application"
 description: "Hướng dẫn khai báo thông tin cấu hình trên ApiManager Application sau khi đăng ký dịch vụ."
 sidebar_label: "Khai báo thông tin trên ApiManager Application"
 sidebar_position: 5
+draft: true
 ---
 
 # Khai báo thông tin trên ApiManager Application

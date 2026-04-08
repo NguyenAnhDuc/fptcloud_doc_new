@@ -3,7 +3,7 @@ id: "GPU-VM -インスタンス-の-作成"
 title: "Gpu Vm  インスタンス の 作成"
 description: "**ステップ1：** コンソール画面で、メニューに移動して**「Compute Engine」**** >****「Instance management」** を選択し、 **「Create instance」** をクリックします。"
 sidebar_label: "Gpu Vm インスタンス の..."
-sidebar_position: 6
+sidebar_position: 10
 ---
 
 # Gpu Vm  インスタンス の 作成

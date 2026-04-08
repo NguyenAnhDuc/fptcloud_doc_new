@@ -3,6 +3,7 @@ id: "instance-schedule"
 title: "Instance Schedule"
 sidebar_label: "Instance on/off schedule"
 sidebar_position: 88
+draft: true
 ---
 
 Auto schedule to on-off Instance

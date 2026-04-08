@@ -4,6 +4,7 @@ title: "クラウドで GPU を使用する理由"
 description: "オンプレミスではなくクラウドプラットフォームで GPU を使用する利点。"
 sidebar_label: "クラウドで GPU を使用する理由"
 sidebar_position: "32"
+draft: true
 ---
 
 # クラウドで GPU を使用する理由

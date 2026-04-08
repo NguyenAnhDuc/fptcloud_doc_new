@@ -1,0 +1,9 @@
+{
+  "label": "インジェストサービス",
+  "position": 12,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

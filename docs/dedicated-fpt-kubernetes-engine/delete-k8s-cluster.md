@@ -4,6 +4,7 @@ title: "Delete a Kubernetes cluster"
 description: "Delete a Dedicated FPT Kubernetes Engine cluster that is no longer needed."
 sidebar_label: "Delete a cluster"
 sidebar_position: 8
+draft: true
 ---
 
 # Delete a Kubernetes cluster

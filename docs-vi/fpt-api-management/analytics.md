@@ -4,6 +4,7 @@ title: "Analytics"
 description: "Xem thống kê và logging về tình trạng sử dụng API trên FPT API Management."
 sidebar_label: "Analytics"
 sidebar_position: 10
+draft: true
 ---
 
 # Analytics

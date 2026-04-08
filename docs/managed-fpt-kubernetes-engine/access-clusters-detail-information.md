@@ -4,6 +4,7 @@ title: "Access cluster detail information"
 description: "View detailed information about a Managed FPT Kubernetes Engine cluster."
 sidebar_label: "Access cluster detail information"
 sidebar_position: 6
+draft: true
 ---
 
 # Access cluster detail information

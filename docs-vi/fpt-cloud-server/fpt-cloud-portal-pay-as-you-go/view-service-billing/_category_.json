@@ -1,0 +1,9 @@
+{
+  "label": "Xem billing các dịch vụ trên hệ thống",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

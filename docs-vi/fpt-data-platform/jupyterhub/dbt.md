@@ -3,6 +3,7 @@ id: "dbt"
 title: "Chạy dbt project trên JupyterHub"
 sidebar_label: "DBT"
 description: "DBT"
+sidebar_position: 8
 ---
 
 # Chạy dbt project trên JupyterHub

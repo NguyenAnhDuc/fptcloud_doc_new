@@ -1,0 +1,9 @@
+{
+  "label": "FPT Cloud WAF",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

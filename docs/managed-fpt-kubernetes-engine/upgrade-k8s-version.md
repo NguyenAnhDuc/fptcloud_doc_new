@@ -5,6 +5,7 @@ description: "Upgrade the Kubernetes version of a Managed FPT Kubernetes Engine 
 sidebar_label: "Upgrade Kubernetes version"
 sidebar_position: 12
 pagination_next: null
+draft: true
 ---
 
 # Upgrade Kubernetes version

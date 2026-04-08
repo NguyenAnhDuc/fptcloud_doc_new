@@ -3,6 +3,7 @@ id: "mariadb-sink-connector"
 title: "MariaDB Sink Connector"
 sidebar_label: "MariaDB Sink Connector"
 description: "MariaDB Sink Connector"
+sidebar_position: 16
 ---
 
 # MariaDB Sink Connector

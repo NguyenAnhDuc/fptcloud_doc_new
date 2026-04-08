@@ -1,0 +1,9 @@
+{
+  "label": "Dedicated - FPT Kubernetes Engine",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

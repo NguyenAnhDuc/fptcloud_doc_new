@@ -3,6 +3,7 @@ id: "tao-query-engine"
 title: "Query Engine の作成"
 sidebar_label: "Query Engine の作成"
 description: "Query Engine の作成"
+sidebar_position: 2
 ---
 
 # Query Engine の作成

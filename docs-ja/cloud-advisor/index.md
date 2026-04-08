@@ -4,6 +4,7 @@ title: "Cloud Advisor"
 description: "FPT Cloud Advisorは、コスト、パフォーマンス、セキュリティ、信頼性にわたってクラウドインフラの最適化に関する推奨事項を提供するサービスです。"
 sidebar_label: "Cloud Advisor"
 sidebar_position: 1
+draft: true
 ---
 
 # Cloud Advisor

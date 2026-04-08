@@ -5,6 +5,7 @@ description: "FPT Cloud provides Kubernetes with NVIDIA GPU support, featuring t
 sidebar_label: "GPU service on FPT Kubernetes Engine"
 sidebar_position: 35
 pagination_next: null
+draft: true
 ---
 
 # GPU service on FPT Kubernetes Engine

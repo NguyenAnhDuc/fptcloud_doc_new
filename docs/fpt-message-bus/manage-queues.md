@@ -4,6 +4,7 @@ title: "Manage queues"
 description: "Overview of queue management in FPT Message Bus."
 sidebar_label: "Manage queues"
 sidebar_position: "4"
+draft: true
 ---
 
 # Manage queues

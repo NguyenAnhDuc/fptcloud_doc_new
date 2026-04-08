@@ -4,6 +4,7 @@ title: Quản lý Restore
 description: "**1 Tạo Restore Point**"
 sidebar_label: Quản lý Restore
 sidebar_position: 15
+draft: true
 ---
 
 # Quản lý Restore

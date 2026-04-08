@@ -3,6 +3,7 @@ id: "cau-hinh-va-quan-ly-query-engine"
 title: "Query Engine 管理のアクセスと設定"
 sidebar_label: "Query Engine 管理のアクセスと設定"
 description: "Query Engine 管理のアクセスと設定"
+sidebar_position: 4
 ---
 
 # Query Engine 管理のアクセスと設定

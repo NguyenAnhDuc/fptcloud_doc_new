@@ -5,6 +5,7 @@ description: "Use on Kubernetes cluster"
 sidebar_label: "Use on Kubernetes cluster"
 sidebar_position: 6
 pagination_next: null
+draft: true
 ---
 
 # Use on Kubernetes cluster

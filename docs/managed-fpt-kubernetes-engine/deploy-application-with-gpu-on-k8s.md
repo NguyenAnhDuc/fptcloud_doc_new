@@ -4,6 +4,7 @@ title: "Deploy application with GPU on Kubernetes"
 description: "Kubernetes manages and utilizes GPU resources similar to how it manages CPU resources. Depending on the GPU specificatio"
 sidebar_label: "Deploy application with GPU on Kubernetes"
 sidebar_position: 23
+draft: true
 ---
 
 # Deploy application with GPU on Kubernetes

@@ -4,6 +4,7 @@ title: "Database Engine の作成"
 description: "FPT Smart Cloud Database Engine で新規データベースを作成する手順。"
 sidebar_label: "Database Engine の作成"
 sidebar_position: 9
+draft: true
 ---
 
 # Database Engine の作成

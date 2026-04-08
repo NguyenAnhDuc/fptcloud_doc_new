@@ -3,6 +3,7 @@ id: "quan-ly-users"
 title: "Manage Users"
 sidebar_label: "Manage Users"
 description: "Manage Users"
+sidebar_position: 6
 ---
 
 # Manage Users

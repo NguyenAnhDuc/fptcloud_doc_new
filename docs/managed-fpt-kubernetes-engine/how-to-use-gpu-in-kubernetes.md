@@ -4,6 +4,7 @@ title: "How to use GPU in Kubernetes"
 description: "FPT Cloud provides **Kubernetes with NVIDIA GPUs** , offering the following key features:"
 sidebar_label: "How to use GPU in Kubernetes"
 sidebar_position: 20
+draft: true
 ---
 
 # How to use GPU in Kubernetes

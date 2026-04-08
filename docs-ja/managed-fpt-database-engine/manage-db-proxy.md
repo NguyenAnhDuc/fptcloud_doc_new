@@ -5,6 +5,7 @@ description: "FPT Smart Cloud Database Engine の DB proxy の各種操作手順
 sidebar_label: "DB proxy の管理"
 sidebar_position: 22
 pagination_next: null
+draft: true
 ---
 
 # DB proxy の管理

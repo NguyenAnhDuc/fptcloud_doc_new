@@ -3,7 +3,7 @@ id: "IPアドレス（フローティングIP）の割り当て"
 title: "Ipアドレス（フローティングIp）の割り当て"
 description: "**ステップ1：** GPU VMを正常に作成したら、 **[Network] > [Floating IPs]**に移動します。"
 sidebar_label: "Ipアドレス（フローティングIp）の割り当て"
-sidebar_position: 7
+sidebar_position: 12
 ---
 
 # Ipアドレス（フローティングIp）の割り当て

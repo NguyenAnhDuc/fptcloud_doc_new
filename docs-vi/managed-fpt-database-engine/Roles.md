@@ -4,6 +4,7 @@ title: "1. Tạo Roles"
 description: "**1. Tạo Roles**"
 sidebar_label: "1. Tạo Roles"
 sidebar_position: 7
+draft: true
 ---
 
 # Roles

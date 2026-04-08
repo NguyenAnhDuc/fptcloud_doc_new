@@ -3,6 +3,7 @@ id: "NIC-overview-1"
 title: "Quản lý NIC (Network Interface Card)"
 sidebar_label: "Quản lý NIC (Network Interface Card)"
 sidebar_position: 55
+draft: true
 ---
 
 # Quản lý NIC (Network Interface Card)

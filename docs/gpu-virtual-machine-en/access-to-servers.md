@@ -3,7 +3,7 @@ id: "access-to-servers"
 title: "Access To Servers"
 description: "When a **GPU VM running Ubuntu** is successfully created on the **FPT Portal** , users can access it by default through "
 sidebar_label: "Access To Servers"
-sidebar_position: 11
+sidebar_position: 20
 ---
 
 # Access To Servers

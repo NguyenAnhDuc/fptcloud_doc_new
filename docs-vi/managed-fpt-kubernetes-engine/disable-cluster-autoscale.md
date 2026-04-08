@@ -4,6 +4,7 @@ title: "Tắt tính năng Cluster Autoscale"
 description: "Hướng dẫn tắt tính năng Cluster Autoscale trên cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Tắt tính năng Cluster Autoscale"
 sidebar_position: "15"
+draft: true
 ---
 
 # Tắt tính năng Cluster Autoscale

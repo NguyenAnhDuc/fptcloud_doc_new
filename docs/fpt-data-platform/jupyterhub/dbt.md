@@ -3,6 +3,7 @@ id: "dbt"
 title: "Run dbt project on JupyterHub"
 sidebar_label: "DBT"
 description: "DBT"
+sidebar_position: 8
 ---
 
 # Run dbt project on JupyterHub

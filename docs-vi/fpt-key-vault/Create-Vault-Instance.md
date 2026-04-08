@@ -4,6 +4,7 @@ title: "Create Vault Instance"
 sidebar_label: "Create Vault Instance"
 sidebar_position: "3"
 description: "FPT Cloud PortalでVault Instanceを新規作成する方法"
+draft: true
 ---
 
 # Create Vault Instance

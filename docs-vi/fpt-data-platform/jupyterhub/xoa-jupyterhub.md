@@ -3,6 +3,7 @@ id: "xoa-jupyterhub"
 title: "Xóa Jupyterhub"
 sidebar_label: "Xóa Jupyterhub"
 description: "Xóa Jupyterhub"
+sidebar_position: 4
 ---
 
 # Xóa Jupyterhub

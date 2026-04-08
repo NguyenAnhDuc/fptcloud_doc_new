@@ -4,6 +4,7 @@ title: "Advanced firewall"
 description: "The **Kubernetes integrated Firewall** product is different from FPT Cloud's basic Kubernetes product by placing an **Ad"
 sidebar_label: "Advanced firewall"
 sidebar_position: 22
+draft: true
 ---
 
 # Advanced firewall

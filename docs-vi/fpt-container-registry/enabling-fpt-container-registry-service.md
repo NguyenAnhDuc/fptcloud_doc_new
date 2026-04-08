@@ -4,6 +4,7 @@ title: "Enabling Fpt Container Registry Service"
 description: "If you are the owner of the Tenant or the IAM user who is authorized to use the FPT Container Registry, you can activate"
 sidebar_label: "Enabling Fpt Container Registry..."
 sidebar_position: "3"
+draft: true
 ---
 
 # Enabling Fpt Container Registry Service

@@ -4,6 +4,7 @@ title: "Dịch vụ Load Balancer"
 description: "Sản phẩm M-FKE được xây dựng trên Native Kubernetes và tích hợp thêm các thành phần của FPT Cloud vào Kubernetes."
 sidebar_label: "Dịch vụ Load Balancer"
 sidebar_position: "18"
+draft: true
 ---
 
 # Dịch vụ Load Balancer

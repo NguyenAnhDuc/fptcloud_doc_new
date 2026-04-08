@@ -4,6 +4,7 @@ title: "Kubernetes cluster の削除"
 description: "不要になった Managed FPT Kubernetes Engine の cluster を削除する方法。"
 sidebar_label: "Kubernetes cluster の削除"
 sidebar_position: "8"
+draft: true
 ---
 
 # Kubernetes cluster の削除

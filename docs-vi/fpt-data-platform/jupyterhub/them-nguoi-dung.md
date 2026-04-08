@@ -3,6 +3,7 @@ id: "them-nguoi-dung"
 title: "Thêm người dùng"
 sidebar_label: "Thêm người dùng"
 description: "Thêm người dùng"
+sidebar_position: 5
 ---
 
 # Thêm người dùng

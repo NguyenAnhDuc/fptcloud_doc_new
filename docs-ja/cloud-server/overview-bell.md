@@ -4,6 +4,7 @@ title: "通知ベル"
 description: "FPT Cloud Portalでイベント通知とアクションのステータスを確認します。"
 sidebar_label: "通知ベル"
 sidebar_position: 75
+draft: true
 ---
 
 # 通知ベル

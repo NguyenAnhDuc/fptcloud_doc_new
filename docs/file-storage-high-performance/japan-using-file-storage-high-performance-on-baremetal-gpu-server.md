@@ -5,6 +5,7 @@ description: "The File Storage - High Performance service is now available for B
 sidebar_label: "Create mount point (Japan)"
 sidebar_position: 8
 pagination_next: null
+draft: true
 ---
 
 # Create mount point (Japan)

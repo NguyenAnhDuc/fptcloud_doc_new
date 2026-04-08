@@ -3,6 +3,7 @@ id: "NIC-overview-1"
 title: "Nic Overview 1"
 sidebar_label: "NIC管理"
 sidebar_position: 55
+draft: true
 ---
 
 NIC（Network Interface Card）管理

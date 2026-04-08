@@ -3,6 +3,7 @@ id: "quan-ly-users"
 title: "Quản lý Users"
 sidebar_label: "Quản lý Users"
 description: "Quản lý Users"
+sidebar_position: 6
 ---
 
 # Quản lý Users

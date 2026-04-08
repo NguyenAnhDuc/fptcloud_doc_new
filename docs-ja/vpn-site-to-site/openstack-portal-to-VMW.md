@@ -4,6 +4,7 @@ title: "OpenStackとVMware間のVPN Site-to-Site設定"
 description: "FPT Cloud OpenStackとVMware Cloud間のVPN Site-to-Site接続を設定するガイドです。"
 sidebar_label: "VMwareとの接続設定"
 sidebar_position: "17"
+draft: true
 ---
 
 # OpenStackとVMware間のVPN Site-to-Site設定

@@ -3,6 +3,7 @@ id: "overview-affinity"
 title: "Giới thiệu Affinity & Anti-Affinity"
 sidebar_label: "Giới thiệu Affinity & Anti-Affinity"
 sidebar_position: 77
+draft: true
 ---
 
 # Giới thiệu Affinity & Anti-Affinity

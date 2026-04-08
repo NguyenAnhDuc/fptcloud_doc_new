@@ -4,6 +4,7 @@ title: "Access Console"
 description: "To use the FPT Database Engine service on the FPT Console Portal, you need to log in using the registered account creden"
 sidebar_label: "Access Console"
 sidebar_position: "11"
+draft: true
 ---
 
 # Access Console

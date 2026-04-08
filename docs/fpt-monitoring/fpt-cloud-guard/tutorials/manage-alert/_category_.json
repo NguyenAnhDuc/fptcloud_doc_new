@@ -1,0 +1,9 @@
+{
+  "label": "Manage Alert",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

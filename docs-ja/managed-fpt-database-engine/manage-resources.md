@@ -4,6 +4,7 @@ title: "リソースの管理"
 description: "FPT Smart Cloud Database Engine のリソース（CPU、RAM、Disk）を変更する手順。"
 sidebar_label: "リソースの管理"
 sidebar_position: 16
+draft: true
 ---
 
 # リソースの管理

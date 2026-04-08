@@ -4,6 +4,7 @@ title: "Delete Secret"
 sidebar_label: "Delete Secret"
 sidebar_position: "10"
 description: "使用しなくなった、または期限切れのSecretを削除する方法"
+draft: true
 ---
 
 # Delete Secret

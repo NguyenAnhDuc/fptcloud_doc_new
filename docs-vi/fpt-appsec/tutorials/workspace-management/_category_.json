@@ -1,0 +1,9 @@
+{
+  "label": "Workspace Management - Quản lý Asset và Issue",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

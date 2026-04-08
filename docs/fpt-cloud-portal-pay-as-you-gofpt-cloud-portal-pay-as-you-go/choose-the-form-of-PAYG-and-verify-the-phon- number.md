@@ -4,6 +4,7 @@ title: "Select PAYG and Verify Your Phone Number"
 description: "How to select the PAYG payment method and verify your phone number via OTP."
 sidebar_label: "Select PAYG and Verify Phone Number"
 sidebar_position: 4
+draft: true
 ---
 
 # Select PAYG and Verify Your Phone Number

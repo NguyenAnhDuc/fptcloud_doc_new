@@ -1,0 +1,9 @@
+{
+  "label": "VM Snapshot Schedule",
+  "position": 19,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

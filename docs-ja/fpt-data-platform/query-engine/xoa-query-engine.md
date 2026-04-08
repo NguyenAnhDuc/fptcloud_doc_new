@@ -3,6 +3,7 @@ id: "xoa-query-engine"
 title: "Query Engine の削除"
 sidebar_label: "Query Engine の削除"
 description: "Query Engine の削除"
+sidebar_position: 4
 ---
 
 # Query Engine の削除

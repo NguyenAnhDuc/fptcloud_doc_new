@@ -4,6 +4,7 @@ title: "Thêm GPU worker group"
 description: "Hướng dẫn thêm GPU worker group vào cluster Kubernetes trên FPT Cloud."
 sidebar_label: "Thêm GPU worker group"
 sidebar_position: "22"
+draft: true
 ---
 
 # Thêm GPU worker group

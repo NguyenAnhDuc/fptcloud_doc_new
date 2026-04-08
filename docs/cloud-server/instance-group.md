@@ -3,6 +3,7 @@ id: "instance-group"
 title: "Instance Group"
 sidebar_label: "Instance Group — Affinity & Anti-Affinity"
 sidebar_position: 76
+draft: true
 ---
 
 Managing Instance Groups with Affinity & Anti-Affinity Policies

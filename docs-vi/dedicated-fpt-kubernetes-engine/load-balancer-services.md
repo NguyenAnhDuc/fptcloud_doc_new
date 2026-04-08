@@ -4,6 +4,7 @@ title: "Service Type Load Balancer"
 description: "D-FKE hỗ trợ tạo Service type Load Balancer giúp người dùng dễ dàng public ứng dụng ra ngoài cluster. Hệ thống hỗ trợ cả public và private LB."
 sidebar_label: "Service Type Load Balancer"
 sidebar_position: "23"
+draft: true
 ---
 
 # Service Type Load Balancer

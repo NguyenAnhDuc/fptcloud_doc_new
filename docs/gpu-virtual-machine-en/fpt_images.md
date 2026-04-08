@@ -3,7 +3,7 @@ id: "fpt_images"
 title: "Fpt_Images"
 description: "**FPT Image** is a custom image built by **FPT** that you can use to **get started quickly with any of the GPU VMs avail"
 sidebar_label: "Fpt_Images"
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Fpt_Images

@@ -3,7 +3,7 @@ id: "pfsense-network-gateway"
 title: "Pfsense Network Gateway"
 description: "This article will introduce how to build a **highly available (HA) network gateway** using **pfSense**. This FreeBSD-bas"
 sidebar_label: "Pfsense Network Gateway"
-sidebar_position: 15
+sidebar_position: 24
 ---
 
 # Pfsense Network Gateway

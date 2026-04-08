@@ -1,0 +1,9 @@
+{
+  "label": "Quản lý account trên argocd",
+  "position": 11,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

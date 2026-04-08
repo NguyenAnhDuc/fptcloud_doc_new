@@ -4,6 +4,7 @@ title: "Khai Bao Thong Tin Tren Apimanager Application"
 sidebar_label: "Khai Bao Thong Tin Tren Apimanager Application"
 sidebar_position: "5"
 description: "Hướng dẫn khai báo thông tin cấu hình trên ApiManager Application sau khi đăng ký dịch vụ."
+draft: true
 ---
 
 # Khai Bao Thong Tin Tren Apimanager Application

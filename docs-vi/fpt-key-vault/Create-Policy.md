@@ -4,6 +4,7 @@ title: "Create Policy"
 sidebar_label: "Create Policy"
 sidebar_position: "12"
 description: "Secretアクセスをコントロールする新しいPolicyを作成する方法"
+draft: true
 ---
 
 # Create Policy

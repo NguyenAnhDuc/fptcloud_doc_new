@@ -3,6 +3,7 @@ id: "mongodb-sink-connector"
 title: "MongoDB Sink Connector"
 sidebar_label: "MongoDB Sink Connector"
 description: "MongoDB Sink Connector"
+sidebar_position: 11
 ---
 
 # MongoDB Sink Connector

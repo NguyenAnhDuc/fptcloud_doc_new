@@ -4,6 +4,7 @@ title: Create Backup Service
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Backups.**"
 sidebar_label: Create Backup Service
 sidebar_position: "12"
+draft: true
 ---
 
 # Create Backup Service

@@ -4,6 +4,7 @@ title: "Thay đổi Flavor (cấu hình) Nodes"
 description: "**Bước 1** : Ở menu chọn **Kubernetes** , hệ thống sẽ hiển thị trang **Kubernetes Management**."
 sidebar_label: "Thay đổi Flavor (cấu hình) Nodes"
 sidebar_position: 13
+draft: true
 ---
 
 # Thay đổi Flavor (cấu hình) Nodes

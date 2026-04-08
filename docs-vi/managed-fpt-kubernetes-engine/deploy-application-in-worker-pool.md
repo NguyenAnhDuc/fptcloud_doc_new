@@ -4,6 +4,7 @@ title: "Triển khai ứng dụng trên worker pool"
 description: "Sản phẩm M-FKE quản lý worker dựa trên worker pool, hỗ trợ người dùng triển khai ứng dụng mà không cần lo lắng về vấn đề scale tài nguyên."
 sidebar_label: "Triển khai ứng dụng trên worker pool"
 sidebar_position: "17"
+draft: true
 ---
 
 # Triển khai ứng dụng trên worker pool

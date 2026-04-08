@@ -4,6 +4,7 @@ title: "Retention Rule"
 description: "Configure retention rules to automatically delete unused images."
 sidebar_label: "Retention Rule"
 sidebar_position: "9"
+draft: true
 ---
 
 # Manage retention rules

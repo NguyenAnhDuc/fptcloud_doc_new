@@ -3,6 +3,7 @@ id: "quan-ly-users"
 title: "Users の管理"
 sidebar_label: "Users の管理"
 description: "Users の管理"
+sidebar_position: 6
 ---
 
 # Users の管理

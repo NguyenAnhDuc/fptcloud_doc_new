@@ -2,6 +2,7 @@
 id: "xem%20danh%20sach%20user%20group"
 title: "Xem Danh Sach User Group"
 sidebar_label: "Xem Danh Sach User Group"
+draft: true
 ---
 
 Xem danh sách User Group

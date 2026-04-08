@@ -3,6 +3,7 @@ id: "quan-ly-Policies"
 title: "Policies の管理"
 sidebar_label: "Policies の管理"
 description: "Policies の管理"
+sidebar_position: 7
 ---
 
 # Policies の管理

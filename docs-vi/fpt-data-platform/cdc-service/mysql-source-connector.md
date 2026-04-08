@@ -3,6 +3,7 @@ id: "mysql-source-connector"
 title: "MySQL Source Connector"
 sidebar_label: "MySQL Source Connector"
 description: "MySQL Source Connector"
+sidebar_position: 7
 ---
 
 # MySQL Source Connector

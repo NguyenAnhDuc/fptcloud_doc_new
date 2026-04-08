@@ -4,6 +4,7 @@ title: "Cluster Autoscale の無効化"
 description: "Managed FKE クラスターでCluster Autoscaleを無効化する方法を説明します。"
 sidebar_label: "Cluster Autoscale の無効化"
 sidebar_position: 15
+draft: true
 ---
 
 # Cluster Autoscale の無効化

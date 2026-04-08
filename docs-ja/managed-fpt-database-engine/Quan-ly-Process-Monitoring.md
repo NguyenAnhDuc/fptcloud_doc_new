@@ -4,6 +4,7 @@ title: "Quan ly Process Monitoring"
 description: "**Bước 1:** Chọn **Database Engine** > Chọn một **ID Cluster** > trên **Database Detail** , chọn tab **Monitoring**"
 sidebar_label: "Quan ly Process Monitoring"
 sidebar_position: "18"
+draft: true
 ---
 
 # Quan ly Process Monitoring

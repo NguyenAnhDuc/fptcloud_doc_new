@@ -3,6 +3,7 @@ id: "edit-capabilities"
 title: "Chỉnh sửa capabilities"
 sidebar_label: "Chỉnh sửa capabilities"
 description: "Hướng dẫn chỉnh sửa capabilities của account trên FPT ArgoCD."
+draft: true
 ---
 
 # Chỉnh sửa capabilities

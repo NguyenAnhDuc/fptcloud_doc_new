@@ -4,6 +4,7 @@ title: "Secret Engineを削除する"
 description: "使用しなくなったSecret Engineを削除する方法"
 sidebar_label: "Secret Engineを削除する"
 sidebar_position: 6
+draft: true
 ---
 
 # Secret Engineを削除する

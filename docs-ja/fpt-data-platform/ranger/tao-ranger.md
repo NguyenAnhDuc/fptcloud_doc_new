@@ -3,6 +3,7 @@ id: "tao-ranger"
 title: "Ranger の作成"
 sidebar_label: "Ranger の作成"
 description: "Ranger の作成"
+sidebar_position: 2
 ---
 
 # Ranger の作成

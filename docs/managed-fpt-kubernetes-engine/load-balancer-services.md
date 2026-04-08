@@ -4,6 +4,7 @@ title: "Load Balancer services"
 description: "The **M-FKE** product is built on Native Kubernetes and incorporates additional FPT Cloud's components into Kubernetes, "
 sidebar_label: "Load Balancer services"
 sidebar_position: 18
+draft: true
 ---
 
 # Load Balancer services

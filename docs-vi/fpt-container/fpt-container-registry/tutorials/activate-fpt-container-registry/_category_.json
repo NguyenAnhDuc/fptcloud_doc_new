@@ -1,0 +1,9 @@
+{
+  "label": "Kích hoạt dịch vụ FPT Container Registry",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

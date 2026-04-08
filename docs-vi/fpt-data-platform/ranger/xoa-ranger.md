@@ -3,6 +3,7 @@ id: "xoa-ranger"
 title: "Xóa Ranger"
 sidebar_label: "Xóa Ranger"
 description: "Xóa Ranger"
+sidebar_position: 6
 ---
 
 # Xóa Ranger

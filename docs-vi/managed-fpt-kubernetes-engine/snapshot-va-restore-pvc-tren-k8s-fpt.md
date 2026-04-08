@@ -4,6 +4,7 @@ title: "Snapshot và restore PVC trên K8s FPT"
 description: "Tổng quan về tính năng snapshot và restore Persistent Volume Claim (PVC) trên FPT Cloud Managed Kubernetes."
 sidebar_label: "Snapshot và restore PVC trên K8s FPT"
 sidebar_position: "45"
+draft: true
 ---
 
 # Snapshot và restore PVC trên K8s FPT

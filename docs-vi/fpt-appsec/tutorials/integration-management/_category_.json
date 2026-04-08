@@ -1,0 +1,9 @@
+{
+  "label": "Integration Management - Quản lý tích hợp",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
+}

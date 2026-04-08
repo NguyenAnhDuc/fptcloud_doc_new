@@ -4,6 +4,7 @@ title: "Truy cập thông tin chi tiết của cluster"
 description: "Hướng dẫn xem thông tin chi tiết của cluster Managed FPT Kubernetes Engine."
 sidebar_label: "Truy cập thông tin chi tiết của cluster"
 sidebar_position: "6"
+draft: true
 ---
 
 # Truy cập thông tin chi tiết của cluster

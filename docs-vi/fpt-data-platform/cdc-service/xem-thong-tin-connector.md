@@ -3,6 +3,7 @@ id: "xem-thong-tin-connector"
 title: "Xem thông tin connector"
 sidebar_label: "Xem thông tin connector"
 description: "Xem thông tin connector"
+sidebar_position: 25
 ---
 
 # Xem thông tin connector

@@ -3,6 +3,7 @@ id: "elasticsearch-sink-connector"
 title: "Elasticsearch Sink Connector"
 sidebar_label: "Elasticsearch Sink Connector"
 description: "Elasticsearch Sink Connector"
+sidebar_position: 20
 ---
 
 # Elasticsearch Sink Connector

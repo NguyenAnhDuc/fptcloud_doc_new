@@ -4,6 +4,7 @@ title: "Tạo Subnets"
 description: "**Subnets** là một mạng con được tạo ra trong VPC của bạn. Nó tương đương với mạng LAN ở hệ thống vật lý. Bạn có thể đín"
 sidebar_label: "Tạo Subnets"
 sidebar_position: 5
+draft: true
 ---
 
 # Tạo Subnets

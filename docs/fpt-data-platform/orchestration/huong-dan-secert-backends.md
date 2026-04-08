@@ -3,6 +3,7 @@ id: "huong-dan-secert-backends"
 title: "Secret Backends Guide"
 sidebar_label: "Secret Backends Guide"
 description: "Secret Backends Guide"
+sidebar_position: 8
 ---
 
 # Secret Backends Guide

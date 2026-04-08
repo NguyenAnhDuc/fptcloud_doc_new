@@ -3,6 +3,7 @@ id: "trang-thai-snapshot"
 title: "ステータス Snapshot"
 sidebar_label: "ステータス Snapshot"
 description: "ステータス Snapshot"
+sidebar_position: 30
 ---
 
 # ステータス Snapshot

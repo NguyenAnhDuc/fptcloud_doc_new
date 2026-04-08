@@ -3,6 +3,7 @@ id: "xem-thong-tin-open-metadata-service"
 title: "View Open Metadata service Details"
 sidebar_label: "View Open Metadata service Details"
 description: "View Open Metadata service Details"
+sidebar_position: 3
 ---
 
 # View Open Metadata service Details

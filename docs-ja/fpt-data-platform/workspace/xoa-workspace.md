@@ -3,6 +3,7 @@ id: "xoa-workspace"
 title: "Workspaceの削除"
 sidebar_label: "Workspaceの削除"
 description: "Workspaceの削除"
+sidebar_position: 4
 ---
 
 # Workspaceの削除

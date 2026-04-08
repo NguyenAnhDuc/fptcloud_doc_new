@@ -4,6 +4,7 @@ title: "Analytics"
 description: "API Management の Analytics および Logging 機能の利用ガイドです。"
 sidebar_label: "Analytics"
 sidebar_position: 10
+draft: true
 ---
 
 # Analytics

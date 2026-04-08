@@ -3,6 +3,7 @@ id: "xoa-connector"
 title: "Delete connector"
 sidebar_label: "Delete connector"
 description: "Delete connector"
+sidebar_position: 27
 ---
 
 # Delete connector

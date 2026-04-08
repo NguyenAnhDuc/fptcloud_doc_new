@@ -3,6 +3,7 @@ id: "hanh-dong-voi-connector"
 title: "Hành động với connector"
 sidebar_label: "Hành động với connector"
 description: "Hành động với connector"
+sidebar_position: 26
 ---
 
 # Hành động với connector
