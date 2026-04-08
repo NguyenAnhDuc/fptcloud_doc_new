@@ -1,0 +1,463 @@
+<!doctype html><html><head><meta charset="utf-8">
+<title>SigNoz Report - portal-api-production</title>
+<style>
+*{box-sizing:border-box}
+body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;margin:0;background:#0f172a;color:#e2e8f0;padding:24px}
+h1{color:#60a5fa;margin:0 0 4px}
+h2{color:#93c5fd;margin-top:32px;border-bottom:2px solid #1e40af;padding-bottom:6px}
+.meta{color:#94a3b8;margin-bottom:24px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:20px 0}
+.kpi{background:#1e293b;padding:16px;border-radius:10px;border-left:4px solid #3b82f6}
+.kpi .v{font-size:22px;font-weight:700;color:#f1f5f9}
+.kpi .l{font-size:12px;color:#94a3b8;text-transform:uppercase}
+.kpi.bad{border-color:#ef4444} .kpi.warn{border-color:#f59e0b} .kpi.ok{border-color:#10b981}
+table{width:100%;border-collapse:collapse;background:#1e293b;border-radius:8px;overflow:hidden;font-size:13px}
+th{background:#334155;padding:10px;text-align:left;color:#cbd5e1;font-weight:600}
+td{padding:9px 10px;border-top:1px solid #334155}
+tr.bad td{background:rgba(239,68,68,0.08)}
+tr.warn td{background:rgba(245,158,11,0.06)}
+tr.ok td{}
+td.ep{font-family:ui-monospace,monospace;font-size:12px;color:#a5b4fc;max-width:560px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.analysis{background:#1e293b;padding:20px;border-radius:10px;margin:20px 0;border-left:4px solid #8b5cf6}
+.analysis ul{margin:8px 0;padding-left:22px}
+.analysis li{margin:6px 0}
+code{background:#0f172a;padding:2px 6px;border-radius:4px;color:#fbbf24}
+</style></head><body>
+<h1>SigNoz Report — portal-api-production</h1>
+<div class="meta">Window: last 30 days · Generated 2026-04-08 15:26 · Source: http://103.154.186.237:3301</div>
+
+<div class="kpis">
+  <div class="kpi"><div class="l">Total Calls</div><div class="v">39,282,490</div></div>
+  <div class="kpi"><div class="l">Call Rate</div><div class="v">15.16 rps</div></div>
+  <div class="kpi warn"><div class="l">Error Rate</div><div class="v">0.92%</div></div>
+  <div class="kpi"><div class="l">Total Errors</div><div class="v">361,520</div></div>
+  <div class="kpi"><div class="l">Avg Duration</div><div class="v">236.8 ms</div></div>
+  <div class="kpi bad"><div class="l">P99 Duration</div><div class="v">2.18 s</div></div>
+</div>
+
+<div class="analysis">
+<h2 style="margin-top:0;border:none">Analysis / Vấn đề chính</h2>
+<ul>
+<li><b>Error rate tổng thể:</b> 0.92% (361,520 lỗi trên 39,282,490 calls) — ở mức chấp nhận được.</li>
+<li><b>P99 latency service-level = 2.18 s</b> — RẤT CHẬM, có endpoint blocking.</li>
+<li><b>Endpoints xấu nhất</b> (theo health score): xem bảng "Worst". Các endpoint có error rate &gt; 5% hoặc P99 &gt; 5s cần ưu tiên fix.</li>
+<li><b>Top endpoints gây nhiều lỗi nhất:</b> GET, instances, PUT.</li>
+<li><b>Endpoints chậm nhất (P99):</b> sync (6.75 min), jobs (5.97 min), get-org-user-has-permission (5.88 min).</li>
+<li><b>Hành động đề xuất:</b> ưu tiên (1) giảm error rate endpoints trong bảng "Highest Error Count", (2) tối ưu query/async cho endpoints trong "Slowest P99", (3) thêm caching cho "Most Called" endpoints.</li>
+</ul>
+</div>
+
+
+<section><h2>Worst (Health Score)</h2>
+<table><thead><tr><th>#</th><th>Endpoint</th><th>Calls</th><th>Errors</th><th>Err%</th><th>P50</th><th>P95</th><th>P99</th><th>Health</th></tr></thead>
+<tbody><tr class="bad"><td>1</td><td class="ep">/api/v1/vmware/tenant/<uuid(strict=False):tenant_id>/vpcs-sync</td>
+<td>58</td><td>11</td><td>18.97%</td>
+<td>398.7 ms</td><td>48.92 s</td><td>3.37 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>2</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/storages/detach-and-delete-disk</td>
+<td>13</td><td>1</td><td>7.69%</td>
+<td>5.83 s</td><td>2.64 min</td><td>3.13 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>3</td><td class="ep">/api/v1/admin/vmware/customer-notification/export</td>
+<td>2</td><td>1</td><td>50.00%</td>
+<td>1.24 min</td><td>2.36 min</td><td>2.46 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>4</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/fkes</td>
+<td>403</td><td>403</td><td>100.00%</td>
+<td>2.17 min</td><td>2.19 min</td><td>2.19 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>5</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/sync</td>
+<td>65</td><td>6</td><td>9.23%</td>
+<td>75.1 ms</td><td>16.76 s</td><td>1.55 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>6</td><td class="ep">/api/v2/internal/backup-volume/events</td>
+<td>26,459</td><td>1,110</td><td>4.20%</td>
+<td>156.1 ms</td><td>25.04 s</td><td>40.06 s</td>
+<td>0</td></tr>
+<tr class="bad"><td>7</td><td class="ep">/api/v2/vpc/<uuid(strict=False):vpc_id>/storage/<uuid(strict=False):storage_id></td>
+<td>84</td><td>5</td><td>5.95%</td>
+<td>12.42 s</td><td>21.54 s</td><td>33.50 s</td>
+<td>0</td></tr>
+<tr class="bad"><td>8</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/vulnerability_assessment/create_target</td>
+<td>16</td><td>2</td><td>12.50%</td>
+<td>345.8 ms</td><td>2.52 s</td><td>2.55 s</td>
+<td>0</td></tr>
+<tr class="bad"><td>9</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/compute/storages</td>
+<td>403</td><td>134</td><td>33.25%</td>
+<td>139.2 ms</td><td>751.8 ms</td><td>1.30 s</td>
+<td>0</td></tr>
+<tr class="bad"><td>10</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/vulnerability_assessment/target/<string:target_id></td>
+<td>6</td><td>2</td><td>33.33%</td>
+<td>235.3 ms</td><td>588.0 ms</td><td>615.1 ms</td>
+<td>0</td></tr>
+<tr class="bad"><td>11</td><td class="ep">/api/v1/vmware/internal/vpnaas/resize</td>
+<td>261</td><td>256</td><td>98.08%</td>
+<td>11.8 ms</td><td>16.8 ms</td><td>28.9 ms</td>
+<td>0</td></tr>
+<tr class="bad"><td>12</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/floating-ips/associate</td>
+<td>493</td><td>16</td><td>3.25%</td>
+<td>1.42 s</td><td>15.10 s</td><td>29.83 s</td>
+<td>8</td></tr>
+<tr class="bad"><td>13</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/ipsets/sync</td>
+<td>163</td><td>4</td><td>2.45%</td>
+<td>22.04 s</td><td>4.88 min</td><td>6.75 min</td>
+<td>15</td></tr>
+<tr class="bad"><td>14</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances</td>
+<td>1,612,135</td><td>111,317</td><td>6.90%</td>
+<td>281.5 ms</td><td>3.38 s</td><td>7.74 s</td>
+<td>15</td></tr>
+<tr class="bad"><td>15</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/networks-sync</td>
+<td>3,570</td><td>69</td><td>1.93%</td>
+<td>307.6 ms</td><td>25.71 s</td><td>38.53 s</td>
+<td>21</td></tr>
+<tr class="bad"><td>16</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/osp_native_backup/awx/restore_point_token</td>
+<td>6,873</td><td>432</td><td>6.29%</td>
+<td>753.3 ms</td><td>1.78 s</td><td>7.83 s</td>
+<td>21</td></tr>
+<tr class="bad"><td>17</td><td class="ep">PUT</td>
+<td>35,974</td><td>1,960</td><td>5.45%</td>
+<td>141.8 ms</td><td>1.52 s</td><td>9.83 s</td>
+<td>26</td></tr>
+<tr class="bad"><td>18</td><td class="ep">external_call.vmware_vcloud put</td>
+<td>8,122</td><td>422</td><td>5.20%</td>
+<td>564.9 ms</td><td>9.80 s</td><td>10.60 s</td>
+<td>27</td></tr>
+<tr class="bad"><td>19</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/backup/jobs/<uuid(strict=False):job_id>/update</td>
+<td>92</td><td>1</td><td>1.09%</td>
+<td>1.03 s</td><td>1.49 min</td><td>1.94 min</td>
+<td>29</td></tr>
+<tr class="bad"><td>20</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-groups/sync</td>
+<td>15,210</td><td>116</td><td>0.76%</td>
+<td>1.87 s</td><td>2.01 min</td><td>4.27 min</td>
+<td>32</td></tr></tbody></table></section>
+<section><h2>Highest Error Count</h2>
+<table><thead><tr><th>#</th><th>Endpoint</th><th>Calls</th><th>Errors</th><th>Err%</th><th>P50</th><th>P95</th><th>P99</th><th>Health</th></tr></thead>
+<tbody><tr class="warn"><td>1</td><td class="ep">GET</td>
+<td>16,587,812</td><td>244,400</td><td>1.47%</td>
+<td>51.2 ms</td><td>216.6 ms</td><td>878.0 ms</td>
+<td>84</td></tr>
+<tr class="bad"><td>2</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances</td>
+<td>1,612,135</td><td>111,317</td><td>6.90%</td>
+<td>281.5 ms</td><td>3.38 s</td><td>7.74 s</td>
+<td>15</td></tr>
+<tr class="bad"><td>3</td><td class="ep">PUT</td>
+<td>35,974</td><td>1,960</td><td>5.45%</td>
+<td>141.8 ms</td><td>1.52 s</td><td>9.83 s</td>
+<td>26</td></tr>
+<tr class="warn"><td>4</td><td class="ep">POST</td>
+<td>336,889</td><td>1,752</td><td>0.52%</td>
+<td>350.5 ms</td><td>591.6 ms</td><td>2.14 s</td>
+<td>91</td></tr>
+<tr class="bad"><td>5</td><td class="ep">/api/v2/internal/backup-volume/events</td>
+<td>26,459</td><td>1,110</td><td>4.20%</td>
+<td>156.1 ms</td><td>25.04 s</td><td>40.06 s</td>
+<td>0</td></tr>
+<tr class="warn"><td>6</td><td class="ep">/api/v1/vmware/organization/<uuid(strict=False):org_id>/get-vpcs</td>
+<td>43,086</td><td>782</td><td>1.81%</td>
+<td>144.9 ms</td><td>613.3 ms</td><td>1.73 s</td>
+<td>78</td></tr>
+<tr class="bad"><td>7</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/osp_native_backup/awx/restore_point_token</td>
+<td>6,873</td><td>432</td><td>6.29%</td>
+<td>753.3 ms</td><td>1.78 s</td><td>7.83 s</td>
+<td>21</td></tr>
+<tr class="bad"><td>8</td><td class="ep">external_call.vmware_vcloud put</td>
+<td>8,122</td><td>422</td><td>5.20%</td>
+<td>564.9 ms</td><td>9.80 s</td><td>10.60 s</td>
+<td>27</td></tr>
+<tr class="bad"><td>9</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/fkes</td>
+<td>403</td><td>403</td><td>100.00%</td>
+<td>2.17 min</td><td>2.19 min</td><td>2.19 min</td>
+<td>0</td></tr>
+<tr class="warn"><td>10</td><td class="ep">external_call.vmware_vcloud get</td>
+<td>743,388</td><td>354</td><td>0.05%</td>
+<td>262.3 ms</td><td>920.3 ms</td><td>1.57 s</td>
+<td>96</td></tr>
+<tr class="bad"><td>11</td><td class="ep">/api/v1/vmware/internal/vpnaas/resize</td>
+<td>261</td><td>256</td><td>98.08%</td>
+<td>11.8 ms</td><td>16.8 ms</td><td>28.9 ms</td>
+<td>0</td></tr>
+<tr class="bad"><td>12</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/compute/storages</td>
+<td>403</td><td>134</td><td>33.25%</td>
+<td>139.2 ms</td><td>751.8 ms</td><td>1.30 s</td>
+<td>0</td></tr>
+<tr class="bad"><td>13</td><td class="ep">api.get_dashboard_vpc</td>
+<td>4,807</td><td>129</td><td>2.68%</td>
+<td>2.16 s</td><td>6.39 s</td><td>9.60 s</td>
+<td>54</td></tr>
+<tr class="bad"><td>14</td><td class="ep">dashboard.get_quota_vpc_osp</td>
+<td>3,935</td><td>123</td><td>3.13%</td>
+<td>1.31 s</td><td>2.65 s</td><td>8.36 s</td>
+<td>52</td></tr>
+<tr class="bad"><td>15</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-groups/sync</td>
+<td>15,210</td><td>116</td><td>0.76%</td>
+<td>1.87 s</td><td>2.01 min</td><td>4.27 min</td>
+<td>32</td></tr>
+<tr class="bad"><td>16</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances/sync</td>
+<td>12,262</td><td>85</td><td>0.69%</td>
+<td>45.7 ms</td><td>22.82 s</td><td>1.22 min</td>
+<td>33</td></tr>
+<tr class="bad"><td>17</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/console_url_osp</td>
+<td>17,433</td><td>75</td><td>0.43%</td>
+<td>633.9 ms</td><td>1.74 s</td><td>7.93 s</td>
+<td>80</td></tr>
+<tr class="ok"><td>18</td><td class="ep">external_call.create_osp_client</td>
+<td>136,970</td><td>72</td><td>0.05%</td>
+<td>13.1 ms</td><td>105.2 ms</td><td>323.0 ms</td>
+<td>99</td></tr>
+<tr class="bad"><td>19</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/networks-sync</td>
+<td>3,570</td><td>69</td><td>1.93%</td>
+<td>307.6 ms</td><td>25.71 s</td><td>38.53 s</td>
+<td>21</td></tr>
+<tr class="warn"><td>20</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-group/<uuid(strict=False):firewall_group_id></td>
+<td>3,146,129</td><td>57</td><td>0.00%</td>
+<td>381.1 ms</td><td>615.8 ms</td><td>1.75 s</td>
+<td>96</td></tr></tbody></table></section>
+<section><h2>Slowest (P99)</h2>
+<table><thead><tr><th>#</th><th>Endpoint</th><th>Calls</th><th>Errors</th><th>Err%</th><th>P50</th><th>P95</th><th>P99</th><th>Health</th></tr></thead>
+<tbody><tr class="bad"><td>1</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/ipsets/sync</td>
+<td>163</td><td>4</td><td>2.45%</td>
+<td>22.04 s</td><td>4.88 min</td><td>6.75 min</td>
+<td>15</td></tr>
+<tr class="bad"><td>2</td><td class="ep">/api/v1/vmware/admin/object-storage/migrate/jobs</td>
+<td>5</td><td>0</td><td>0.00%</td>
+<td>4.26 min</td><td>5.96 min</td><td>5.97 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>3</td><td class="ep">/api/v1/admin/vmware/organization/get-org-user-has-permission</td>
+<td>2</td><td>0</td><td>0.00%</td>
+<td>2.97 min</td><td>5.64 min</td><td>5.88 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>4</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/recent-tasks/list</td>
+<td>133</td><td>0</td><td>0.00%</td>
+<td>88.3 ms</td><td>1.80 min</td><td>4.91 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>5</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-groups/sync</td>
+<td>15,210</td><td>116</td><td>0.76%</td>
+<td>1.87 s</td><td>2.01 min</td><td>4.27 min</td>
+<td>32</td></tr>
+<tr class="bad"><td>6</td><td class="ep">/api/v1/vmware/tenant/<uuid(strict=False):tenant_id>/vpcs-sync</td>
+<td>58</td><td>11</td><td>18.97%</td>
+<td>398.7 ms</td><td>48.92 s</td><td>3.37 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>7</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/storages/detach-and-delete-disk</td>
+<td>13</td><td>1</td><td>7.69%</td>
+<td>5.83 s</td><td>2.64 min</td><td>3.13 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>8</td><td class="ep">/api/v1/admin/vmware/customer-notification/export</td>
+<td>2</td><td>1</td><td>50.00%</td>
+<td>1.24 min</td><td>2.36 min</td><td>2.46 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>9</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/iam/users</td>
+<td>403</td><td>0</td><td>0.00%</td>
+<td>43.77 s</td><td>2.18 min</td><td>2.43 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>10</td><td class="ep">/api/v1/vmware/soratrust/tenant/<uuid(strict=False):tenant_user_id>/fkes</td>
+<td>403</td><td>403</td><td>100.00%</td>
+<td>2.17 min</td><td>2.19 min</td><td>2.19 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>11</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/internal/vm/sync-storage</td>
+<td>973</td><td>1</td><td>0.10%</td>
+<td>3.18 s</td><td>23.92 s</td><td>2.19 min</td>
+<td>39</td></tr>
+<tr class="bad"><td>12</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/port-profile/sync</td>
+<td>165</td><td>1</td><td>0.61%</td>
+<td>13.75 s</td><td>43.53 s</td><td>2.11 min</td>
+<td>34</td></tr>
+<tr class="bad"><td>13</td><td class="ep">/api/v1/vmware/tenant/<uuid(strict=False):tenant_id>/sync</td>
+<td>56</td><td>0</td><td>0.00%</td>
+<td>527.7 ms</td><td>14.08 s</td><td>1.95 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>14</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/backup/jobs/<uuid(strict=False):job_id>/update</td>
+<td>92</td><td>1</td><td>1.09%</td>
+<td>1.03 s</td><td>1.49 min</td><td>1.94 min</td>
+<td>29</td></tr>
+<tr class="bad"><td>15</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-groups</td>
+<td>66,952</td><td>1</td><td>0.00%</td>
+<td>10.89 s</td><td>44.02 s</td><td>1.83 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>16</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/firewalls/sync</td>
+<td>167</td><td>0</td><td>0.00%</td>
+<td>2.71 s</td><td>1.24 min</td><td>1.70 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>17</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/sync</td>
+<td>65</td><td>6</td><td>9.23%</td>
+<td>75.1 ms</td><td>16.76 s</td><td>1.55 min</td>
+<td>0</td></tr>
+<tr class="bad"><td>18</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/load_balancer_v2/<uuid(strict=False):load_balancer_id>/export_logs</td>
+<td>14</td><td>0</td><td>0.00%</td>
+<td>83.4 ms</td><td>1.36 min</td><td>1.36 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>19</td><td class="ep">/api/v1/admin/vmware/organization/<uuid(strict=False):org_id>/vpc/<uuid(strict=False):vpc_id>/update-quota</td>
+<td>38</td><td>0</td><td>0.00%</td>
+<td>582.1 ms</td><td>24.09 s</td><td>1.24 min</td>
+<td>40</td></tr>
+<tr class="bad"><td>20</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances/sync</td>
+<td>12,262</td><td>85</td><td>0.69%</td>
+<td>45.7 ms</td><td>22.82 s</td><td>1.22 min</td>
+<td>33</td></tr></tbody></table></section>
+<section><h2>Most Called</h2>
+<table><thead><tr><th>#</th><th>Endpoint</th><th>Calls</th><th>Errors</th><th>Err%</th><th>P50</th><th>P95</th><th>P99</th><th>Health</th></tr></thead>
+<tbody><tr class="warn"><td>1</td><td class="ep">GET</td>
+<td>16,587,812</td><td>244,400</td><td>1.47%</td>
+<td>51.2 ms</td><td>216.6 ms</td><td>878.0 ms</td>
+<td>84</td></tr>
+<tr class="warn"><td>2</td><td class="ep">/api/v1/vmware/ip-checkpoint</td>
+<td>6,158,627</td><td>43</td><td>0.00%</td>
+<td>122.1 ms</td><td>639.5 ms</td><td>1.86 s</td>
+<td>96</td></tr>
+<tr class="ok"><td>3</td><td class="ep">/ping</td>
+<td>4,313,423</td><td>22</td><td>0.00%</td>
+<td>13.1 ms</td><td>41.0 ms</td><td>216.8 ms</td>
+<td>100</td></tr>
+<tr class="warn"><td>4</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/security-group/<uuid(strict=False):firewall_group_id></td>
+<td>3,146,129</td><td>57</td><td>0.00%</td>
+<td>381.1 ms</td><td>615.8 ms</td><td>1.75 s</td>
+<td>96</td></tr>
+<tr class="bad"><td>5</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances</td>
+<td>1,612,135</td><td>111,317</td><td>6.90%</td>
+<td>281.5 ms</td><td>3.38 s</td><td>7.74 s</td>
+<td>15</td></tr>
+<tr class="ok"><td>6</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):project_id>/osp_native_backup/update_percentage</td>
+<td>1,390,505</td><td>8</td><td>0.00%</td>
+<td>20.3 ms</td><td>37.0 ms</td><td>73.2 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>7</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/platform</td>
+<td>884,513</td><td>2</td><td>0.00%</td>
+<td>127.6 ms</td><td>260.4 ms</td><td>817.2 ms</td>
+<td>98</td></tr>
+<tr class="warn"><td>8</td><td class="ep">external_call.vmware_vcloud get</td>
+<td>743,388</td><td>354</td><td>0.05%</td>
+<td>262.3 ms</td><td>920.3 ms</td><td>1.57 s</td>
+<td>96</td></tr>
+<tr class="warn"><td>9</td><td class="ep">/api/v1/vmware/compute/flavors</td>
+<td>387,612</td><td>1</td><td>0.00%</td>
+<td>156.9 ms</td><td>332.1 ms</td><td>1.16 s</td>
+<td>98</td></tr>
+<tr class="warn"><td>10</td><td class="ep">/api/v2/authorization/check</td>
+<td>381,281</td><td>10</td><td>0.00%</td>
+<td>108.2 ms</td><td>1.04 s</td><td>2.43 s</td>
+<td>95</td></tr>
+<tr class="warn"><td>11</td><td class="ep">POST</td>
+<td>336,889</td><td>1,752</td><td>0.52%</td>
+<td>350.5 ms</td><td>591.6 ms</td><td>2.14 s</td>
+<td>91</td></tr>
+<tr class="warn"><td>12</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/tags</td>
+<td>204,042</td><td>0</td><td>0.00%</td>
+<td>88.6 ms</td><td>725.2 ms</td><td>2.48 s</td>
+<td>95</td></tr>
+<tr class="warn"><td>13</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id></td>
+<td>203,392</td><td>0</td><td>0.00%</td>
+<td>76.9 ms</td><td>369.8 ms</td><td>1.25 s</td>
+<td>97</td></tr>
+<tr class="ok"><td>14</td><td class="ep">apply_async/sync.iaas.storage.sync_vm_storage</td>
+<td>178,035</td><td>0</td><td>0.00%</td>
+<td>0.1 ms</td><td>0.2 ms</td><td>0.3 ms</td>
+<td>100</td></tr>
+<tr class="warn"><td>15</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instances/async</td>
+<td>144,952</td><td>0</td><td>0.00%</td>
+<td>84.8 ms</td><td>508.2 ms</td><td>1.60 s</td>
+<td>97</td></tr>
+<tr class="warn"><td>16</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/manage-tags</td>
+<td>143,953</td><td>0</td><td>0.00%</td>
+<td>77.2 ms</td><td>303.7 ms</td><td>1.24 s</td>
+<td>98</td></tr>
+<tr class="ok"><td>17</td><td class="ep">external_call.create_osp_client</td>
+<td>136,970</td><td>72</td><td>0.05%</td>
+<td>13.1 ms</td><td>105.2 ms</td><td>323.0 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>18</td><td class="ep">/api/v1/vmware/internal/user/<uuid(strict=False):user_id>/detail</td>
+<td>121,256</td><td>0</td><td>0.00%</td>
+<td>11.4 ms</td><td>92.2 ms</td><td>268.2 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>19</td><td class="ep">/api/v1/vmware/vgpu/list</td>
+<td>115,193</td><td>0</td><td>0.00%</td>
+<td>30.2 ms</td><td>192.9 ms</td><td>701.3 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>20</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/floating-ips</td>
+<td>112,879</td><td>0</td><td>0.00%</td>
+<td>57.9 ms</td><td>304.0 ms</td><td>986.4 ms</td>
+<td>98</td></tr></tbody></table></section>
+<section><h2>Best Performing</h2>
+<table><thead><tr><th>#</th><th>Endpoint</th><th>Calls</th><th>Errors</th><th>Err%</th><th>P50</th><th>P95</th><th>P99</th><th>Health</th></tr></thead>
+<tbody><tr class="ok"><td>1</td><td class="ep">/ping</td>
+<td>4,313,423</td><td>22</td><td>0.00%</td>
+<td>13.1 ms</td><td>41.0 ms</td><td>216.8 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>2</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):project_id>/osp_native_backup/update_percentage</td>
+<td>1,390,505</td><td>8</td><td>0.00%</td>
+<td>20.3 ms</td><td>37.0 ms</td><td>73.2 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>3</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/platform</td>
+<td>884,513</td><td>2</td><td>0.00%</td>
+<td>127.6 ms</td><td>260.4 ms</td><td>817.2 ms</td>
+<td>98</td></tr>
+<tr class="ok"><td>4</td><td class="ep">apply_async/sync.iaas.storage.sync_vm_storage</td>
+<td>178,035</td><td>0</td><td>0.00%</td>
+<td>0.1 ms</td><td>0.2 ms</td><td>0.3 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>5</td><td class="ep">external_call.create_osp_client</td>
+<td>136,970</td><td>72</td><td>0.05%</td>
+<td>13.1 ms</td><td>105.2 ms</td><td>323.0 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>6</td><td class="ep">/api/v1/vmware/internal/user/<uuid(strict=False):user_id>/detail</td>
+<td>121,256</td><td>0</td><td>0.00%</td>
+<td>11.4 ms</td><td>92.2 ms</td><td>268.2 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>7</td><td class="ep">/api/v1/vmware/vgpu/list</td>
+<td>115,193</td><td>0</td><td>0.00%</td>
+<td>30.2 ms</td><td>192.9 ms</td><td>701.3 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>8</td><td class="ep">/api/v1/vmware/vpc/<uuid(strict=False):vpc_id>/compute/instance/<uuid(strict=False):instance_id>/floating-ips</td>
+<td>112,879</td><td>0</td><td>0.00%</td>
+<td>57.9 ms</td><td>304.0 ms</td><td>986.4 ms</td>
+<td>98</td></tr>
+<tr class="ok"><td>9</td><td class="ep">/api/v1/vmware/internal/user/org/<uuid(strict=False):org_id>/list</td>
+<td>99,725</td><td>0</td><td>0.00%</td>
+<td>17.6 ms</td><td>78.0 ms</td><td>295.7 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>10</td><td class="ep">/api/v1/vmware/osp_native_backup/exporter/enabled_vpcs</td>
+<td>80,439</td><td>0</td><td>0.00%</td>
+<td>209.0 ms</td><td>347.6 ms</td><td>537.1 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>11</td><td class="ep">/api/v2/tenants</td>
+<td>74,365</td><td>0</td><td>0.00%</td>
+<td>28.6 ms</td><td>186.1 ms</td><td>566.3 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>12</td><td class="ep">apply_async/sync_vm.iaas.instance.sync_vms_v2</td>
+<td>72,239</td><td>0</td><td>0.00%</td>
+<td>0.1 ms</td><td>0.2 ms</td><td>0.3 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>13</td><td class="ep">/api/v1/vmware/internal/osp_native_backup/attach_volume</td>
+<td>65,639</td><td>0</td><td>0.00%</td>
+<td>14.7 ms</td><td>26.0 ms</td><td>64.9 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>14</td><td class="ep">apply_async/portal.iaas.osp_native_backup.workflow_attach_volume_job</td>
+<td>65,639</td><td>0</td><td>0.00%</td>
+<td>0.1 ms</td><td>0.2 ms</td><td>0.2 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>15</td><td class="ep">/api/v2/fsaas/views</td>
+<td>63,468</td><td>0</td><td>0.00%</td>
+<td>50.9 ms</td><td>69.5 ms</td><td>95.3 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>16</td><td class="ep">/api/v2/fsaas/stores/<uuid(strict=False):store_id></td>
+<td>63,458</td><td>0</td><td>0.00%</td>
+<td>51.1 ms</td><td>67.9 ms</td><td>94.8 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>17</td><td class="ep">/api/v1/vmware/authorization/validate-authenticated</td>
+<td>63,113</td><td>2</td><td>0.00%</td>
+<td>22.1 ms</td><td>141.9 ms</td><td>373.8 ms</td>
+<td>99</td></tr>
+<tr class="ok"><td>18</td><td class="ep">/<path:filename></td>
+<td>56,351</td><td>0</td><td>0.00%</td>
+<td>10.4 ms</td><td>44.8 ms</td><td>125.1 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>19</td><td class="ep">/api/v1/vmware/internal/osp_native_backup/detach_volume</td>
+<td>45,813</td><td>0</td><td>0.00%</td>
+<td>14.7 ms</td><td>26.0 ms</td><td>68.0 ms</td>
+<td>100</td></tr>
+<tr class="ok"><td>20</td><td class="ep">apply_async/portal.iaas.osp_native_backup.workflow_detach_volume_job</td>
+<td>45,813</td><td>0</td><td>0.00%</td>
+<td>0.1 ms</td><td>0.2 ms</td><td>0.3 ms</td>
+<td>100</td></tr></tbody></table></section>
+
+<div class="meta" style="margin-top:40px;text-align:center">Health score = 100 − (errorRate×10) − min(60, p99_ms/500). Màu đỏ: err&gt;5% hoặc p99&gt;5s. Vàng: err&gt;1% hoặc p99&gt;1s.</div>
+</body></html>
