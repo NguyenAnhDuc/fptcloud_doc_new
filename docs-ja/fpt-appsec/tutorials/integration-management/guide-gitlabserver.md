@@ -9,7 +9,7 @@ sidebar_position: 4
 # GitLab Server連携の編集はOrg AdminとTeam Managerのみ可能です
 
 **Org Admin** および **Team Manager** のみ GitLab Server 連携の編集権限を持ちます。
-_権限の詳細は[こちら](/docs/ja/fpt-appsec/tutorials/organization-management/quan-ly-member)をご参照ください。_
+_権限の詳細は[こちら](/docs/ja/fpt-appsec/tutorials/organization-management/quan-ly-member/)をご参照ください。_
 
 ## Configure GitLab Server
 **手順1** : org/teamを選択後、GitLab Serverをクリックして連携画面に移動します。
@@ -31,13 +31,13 @@ _権限の詳細は[こちら](/docs/ja/fpt-appsec/tutorials/organization-manage
 [![anhfsec](/img/migrated/labs6-cd567134.png)](/img/migrated/labs6-cd567134.png)
 
 ## 詳細表示
-[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)の詳細表示ガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github/)の詳細表示ガイドと同様です。
 
 ## Reconfigure GitLab Cloud
-[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)のreconfigureガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github/)のreconfigureガイドと同様です。
 
 ## GitLab Cloud連携の無効化
-[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)の無効化ガイドと同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github/)の無効化ガイドと同様です。
 
 ## CI/CDパイプライン用Access Key
-[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github)と同様です。
+[GitHub連携](/docs/ja/fpt-appsec/tutorials/integration-management/guide-github/)と同様です。

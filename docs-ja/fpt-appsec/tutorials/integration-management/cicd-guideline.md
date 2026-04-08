@@ -40,9 +40,9 @@ _FSECグループの特定のリポジトリとコミットに対してソース
 Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
-| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team) |
+| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team/) |
 | git_repo_url | string | 必須 | GitリポジトリのURL（例: GitHubまたはGitLab） |
-| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。Integration detail画面でのaccess_keyの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。Integration detail画面でのaccess_keyの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 | branch | string | 必須 | スキャン対象のブランチ名 |
 | commit | string | 任意 | スキャン対象ブランチのコミットSHA |
 **例**
@@ -104,9 +104,9 @@ _FSECグループの特定のリポジトリとコミットに対してソース
 Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
-| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team) |
+| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team/) |
 | git_repo_url | string | 必須 | GitリポジトリのURL（例: GitHubまたはGitLab） |
-| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 | branch | string | 必須 | スキャン対象のブランチ名 |
 | commit | string | 必須 | スキャン対象ブランチのコミットSHA |
 **例**
@@ -169,9 +169,9 @@ Copy{
 Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
-| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team) |
+| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team/) |
 | git_repo_url | string | 必須 | GitリポジトリのURL（例: GitHubまたはGitLab） |
-| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 | branch | string | 必須 | スキャン対象のブランチ名 |
 | commit | string | 任意 | スキャン対象ブランチのコミットSHA |
 **例**
@@ -232,9 +232,9 @@ Copy{
 Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
-| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team) |
+| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team/) |
 | git_repo_url | string | 必須 | GitリポジトリのURL（例: GitHubまたはGitLab） |
-| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | リポジトリアクセス用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 | branch | string | 必須 | スキャン対象のブランチ名 |
 | commit | string | 必須 | スキャン対象ブランチのコミットSHA |
 **例**
@@ -296,8 +296,8 @@ Copy{
 Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
-| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team) |
-| access_key | string | 必須 | イメージレジストリ用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| team_code | string | 必須 | FSECグループのチームコード。team_codeの取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/team-management/cai-dat-team/) |
+| access_key | string | 必須 | イメージレジストリ用のFSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 | image_url | string | 必須 | イメージのレジストリパスとタグ（例: repo:tag） |
 **例**
 
@@ -357,7 +357,7 @@ Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
 | request_code | string | 必須 | /scan-codeから返されたリクエストコード |
-| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 **例**
 
 ```
@@ -430,7 +430,7 @@ Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
 | request_code | string | 必須 | /scan-secretから返されたリクエストコード |
-| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 **例**
 
 ```
@@ -503,7 +503,7 @@ Content-Type: application/json
 | 名前 | 型 | 必須 | 説明 |
 | --- | --- | --- | --- |
 | request_code | string | 必須 | /scan-imageから返されたリクエストコード |
-| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver)（他の連携タイプも同様） |
+| access_key | string | 必須 | FSEC発行のアクセスキー。GitLab serverのaccess_key取得方法は[こちら](/docs/ja/fpt-appsec/tutorials/integration-management/guide-gitlabserver/)（他の連携タイプも同様） |
 **例**
 
 ```

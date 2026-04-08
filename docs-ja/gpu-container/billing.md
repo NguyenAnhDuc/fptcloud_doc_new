@@ -14,4 +14,4 @@ pagination_next: null
 
 不要な料金の発生を避けるため、使用していないコンテナは停止または削除してください。なお、コンテナが停止中でも永続ストレージの料金は引き続き請求されます。
 
-料金モデルの詳細については [Payment Model](/docs/ja/gpu-container/payment-model) および [Billing Overview](/docs/ja/gpu-container/billing-overview) をご参照ください。
+料金モデルの詳細については [Payment Model](/docs/ja/gpu-container/payment-model/) および [Billing Overview](/docs/ja/gpu-container/billing-overview/) をご参照ください。

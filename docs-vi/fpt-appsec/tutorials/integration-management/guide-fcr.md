@@ -9,7 +9,7 @@ sidebar_position: 5
 # 5. Vô hiệu hoá tích hợp FPT Container Registry
 
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp FPT Container Registry (FCR)
-_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member)_
+_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member/)_
 
 ## Integrate FCR - Add VPC
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào **FPT Container Registry** để đến màn tích hợp:
@@ -52,7 +52,7 @@ Bạn có thể tiến hành **Add VPC** , **Reconfigure** , và **Delete** VPCs
 [anhfsec](https://fptcloud.com/wp-content/uploads/2025/05/rfcr3.png)
 
 ## Vô hiệu hoá tích hợp FPT Container Registry
-Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)
+Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github/)
 
 ## Access Key cho CI/CD pipeline
 Ở phần detail, ngoài General Information, bạn sẽ được cung cấp **access key** của từng VPC để có thể tích hợp CI/CD Pipeline

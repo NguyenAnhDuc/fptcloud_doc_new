@@ -14,4 +14,4 @@ FPT CloudのAI FactoryプラットフォームでGPU Containerを作成するた
 
 新しいGPU Containerを作成するには、左側メニューの **GPU Container** にアクセスし、**Create New Container** ボタンをクリックします。
 
-詳細なガイドは[GUIでのContainer作成](/docs/ja/gpu-container/create-via-gui)をご参照ください。
+詳細なガイドは[GUIでのContainer作成](/docs/ja/gpu-container/create-via-gui/)をご参照ください。

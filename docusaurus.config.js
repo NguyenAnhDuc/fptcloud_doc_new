@@ -18,6 +18,7 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'warn',
+  trailingSlash: true,
   onBrokenMarkdownLinks: 'warn',
 
   markdown: {

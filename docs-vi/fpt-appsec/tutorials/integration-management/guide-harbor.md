@@ -26,7 +26,7 @@ sidebar_position: 6
 
 ## Tích hợp Harbor
 Chỉ **Org Admin** và **Team Manager** có quyền chỉnh sửa tích hợp Harbor
-_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member)_
+_Xem thêm về phân quyền[tại đây](/docs/vi/fpt-appsec/tutorials/organization-management/quan-ly-member/)_
 **Bước 1** : Sau khi đã chọn org/team, nhấn vào **Harbor** để đến màn tích hợp:
 [![anhfsec](/img/migrated/hb8-88b6c136.png)](/img/migrated/hb8-88b6c136.png)
 **Bước 2** : Điền **Container Registry Name** (URL Harbor server) của bạn, **Robot Account Name** và **Robot Account Secret** (đã tạo từ Harbor)
@@ -51,7 +51,7 @@ Bạn có thể tiến hành **Reintegrate** hoặc **Disable** tích hợp Harb
 **Bước 2** : Thực hiện các thao tác giống **Integrate Harbor**
 
 ## Vô hiệu hoá tích hợp FPT Container Registry
-Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github)
+Tương tự hướng dẫn vô hiệu hóa [tích hợp GitHub](/docs/vi/fpt-appsec/tutorials/integration-management/guide-github/)
 
 ## Access Key cho CI/CD pipeline
 Ở phần detail, ngoài General Information, bạn sẽ được cung cấp **access key** để có thể tích hợp CI/CD Pipeline
